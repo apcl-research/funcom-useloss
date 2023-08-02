@@ -2,8 +2,8 @@
 
 ## Preparation
 - Please create a directory named outdir with 3 subdirectories named histories, models, and predictions.
-- Please download the model and config file from our [Hugginface profile](https://huggingface.co/apcl/funcom_useloss/tree/main) and put the files in config folder to your local directory histories and put the files in models folder to your local directory models if you want to finetune models with SIMILE or BLEU.
-- Note that you need to put files in config folder to the same folder as the outdir argument in train.py
+- Please download the model and config file from our [Hugginface profile](https://huggingface.co/apcl/funcom_useloss/tree/main) and put the files in the config directory to your local directory called histories and put the files in funcom-java-long/funcom-java/funcom-python directory to your local directory called models if you want to finetune models with SIMILE or BLEU.
+- Note that you need to put files in config directory to the same directory as the outdir argument in train.py
 - For setting up your environment, run the following command. We recommend you to use virtual environment.
 
   ```
@@ -12,9 +12,9 @@
 
 ## Step 0 Dataset
 - We use three datasets for our experiments.
-  - funcom-java: Le Clair et al. [Arxiv](https://arxiv.org/abs/1904.02660)
-  - funcom-java-long: Bansal et al. [Data](https://github.com/aakashba/humanattn). Please download q90 data and extract it to /nfs/projects/funcom/data/javastmt/q90 or change the --data argument in train.py.
-  - funcom-python: We provide this dataset in our [Hugginface Profile](https://huggingface.co/datasets/apcl/funcom_python/tree/main)
+  - funcom-java: Le Clair et al. [[Arxiv](https://arxiv.org/abs/1904.02660)]
+  - funcom-java-long: Bansal et al. [[Data](https://github.com/aakashba/humanattn)]. Please download q90 data and extract it to /nfs/projects/funcom/data/javastmt/q90 or the same directory as your --data argument in train.py.
+  - funcom-python: We provide this dataset in our [Hugginface Profile](https://huggingface.co/datasets/apcl/funcom_python/tree/main). Please downlaod all files and put it to the same directory as your --data argument in train.py.
 
 ## Step 1 Training
 - To train the use-seq model with the data and gpu options, run the following command. Note that transformer-base means the transformer model.
