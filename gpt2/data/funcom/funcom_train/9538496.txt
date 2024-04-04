@@ -1,0 +1,1 @@
+TDAT: public void set url ( string url ) {  <NL> if ( ( url = = this . url ) || <NL>  ( ( url ! = null ) & & ( this . url ! = null ) & & url . equals ( this . url ) ) ) {  <NL> return ;  <NL>  }  <NL> string old = url ;  <NL> this . url = url ;  <NL> fire property change ( prop _ url , old , url ) ;  <NL>  }  COM: <s> sets name of class to stop on </s>

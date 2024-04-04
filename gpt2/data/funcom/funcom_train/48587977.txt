@@ -1,0 +1,1 @@
+TDAT: public user entry create user ( string username , string given name , string family name , string password , string domain ) throws apps for your domain exception , service exception , io exception , exception {  <NL> return create user ( username , given name , family name , password , domain , null ) ;  <NL>  }  COM: <s> creates a new user with an email account </s>

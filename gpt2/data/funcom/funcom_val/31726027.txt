@@ -1,0 +1,1 @@
+TDAT: public boolean move head ( int pitch , int yaw ) throws remote exception {  <NL> head speed [ 0 ] = ( int ) ( head speed def [ 0 ] * emo mod ) ;  <NL> head speed [ 1 ] = ( int ) ( head speed def [ 1 ] * emo mod ) ;  <NL>  <NL> return move head ( pitch , yaw , head speed [ 0 ] , head speed [ 1 ] ) ;  <NL>  }  COM: <s> move head at default speed </s>

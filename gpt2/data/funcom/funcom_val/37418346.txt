@@ -1,0 +1,1 @@
+TDAT: public string get friendly name ( ) {  <NL> try { return bluetooth manager . send _ hci _ hc _ read _ local _ name ( ) ; }  <NL> catch ( hci exception e ) { debug . println ( bcc . debug _ level _ error , " hci exception : local device . get friendly name ( ) : " + e ) ; }  <NL> return null ;  <NL>  }  COM: <s> retrieves the name of the local device </s>

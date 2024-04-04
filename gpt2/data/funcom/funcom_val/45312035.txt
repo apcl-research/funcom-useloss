@@ -1,0 +1,1 @@
+TDAT: public void set field ( string field name , v field value ) {  <NL> set < v > values = get ( field name ) ;  <NL> if ( values = = null ) {  <NL> values = new hash set < v > ( ) ;  <NL> put ( field name , values ) ;  <NL>  } else {  <NL> values . clear ( ) ;  <NL>  }  <NL> values . add ( field value ) ;  <NL>  }  COM: <s> sets the value for a particular field </s>

@@ -1,0 +1,1 @@
+TDAT: public class loader get class loader ( ) {  <NL> log . debug ( " class classloader : { } thread classloader : { } " , this . get class ( ) . get class loader ( ) , thread . current thread ( ) . get context class loader ( ) ) ;  <NL> return thread . current thread ( ) . get context class loader ( ) ;  <NL>  }  COM: <s> enable sharing of the class loader with 3rd party e </s>

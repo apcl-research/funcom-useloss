@@ -1,0 +1,1 @@
+TDAT: public void property change ( property change event evt ) {  <NL> node keys [ ] = new node [ node . get children ( ) . length ] ;  <NL> for ( int i = 0 ; i < node . get children ( ) . length ; i + + ) {  <NL> keys [ i ] = node . get children ( i ) ;  <NL>  }  <NL> set keys ( keys ) ;  <NL>  }  COM: <s> listen to children change events of the wrapped node </s>

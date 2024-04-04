@@ -1,0 +1,1 @@
+TDAT: public void initialize string table ( ) {  <NL>  <NL> string table = new byte [ 8192 ] [ ] ;  <NL>  <NL> for ( int i = 0 ; i < 256 ; i + + ) {  <NL> string table [ i ] = new byte [ 1 ] ;  <NL> string table [ i ] [ 0 ] = ( byte ) i ;  <NL>  }  <NL>  <NL> table index = 258 ;  <NL> bits to get = 9 ;  <NL>  }  COM: <s> initialize the string table </s>

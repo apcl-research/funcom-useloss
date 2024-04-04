@@ -1,0 +1,1 @@
+TDAT: public void test new anonymous ( ) {  <NL> check ( " class a { object f = new b ( ) { } ; } " ) ;  <NL> check ( " class a { object f = new b < string > ( ) { } ; } " ) ;  <NL> check ( " class b { < t > b ( ) { } } class a { object f = new < string > b ( ) { < t > void m ( ) { } } ; } " ) ;  <NL>  }  COM: <s> new anonymous type expressions </s>

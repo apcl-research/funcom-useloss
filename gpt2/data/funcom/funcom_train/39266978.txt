@@ -1,0 +1,1 @@
+TDAT: protected void set frame title ( ) {  <NL> string mode str = mode ;  <NL> if ( mode . length ( ) = = 0 ) { mode str = mode _ default ; }  <NL>  ( ( j frame ) frame . get val _ object ( ) ) . set title ( context . get name ( )  <NL>  + " ( " + app . get model name ( ) + " ) [ xholon console mode = " + mode str + " ] " ) ;  <NL>  }  COM: <s> set the title of the jframe </s>

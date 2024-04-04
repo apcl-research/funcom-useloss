@@ -1,0 +1,1 @@
+TDAT: public xml document add stylesheet ( string href , string type ) {  <NL> pi pi = new pi ( ) ;  <NL> pi . set target ( " xml - stylesheet " )  <NL>  . add instruction ( " href " , href )  <NL>  . add instruction ( " type " , type ) ;  <NL> prolog . add element ( pi ) ;  <NL>  <NL> return ( this ) ;  <NL>  }  COM: <s> this adds a stylesheet to the xml document </s>

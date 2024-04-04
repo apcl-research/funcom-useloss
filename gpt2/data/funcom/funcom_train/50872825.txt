@@ -1,0 +1,1 @@
+TDAT: public void test is valid ( ) {  <NL> om application application = new om application ( ) ;  <NL> application . add element ( new om symbol ( " a " , " b " ) ) ;  <NL> application . add element ( new om symbol ( " b " , " c " ) ) ;  <NL> assert true ( application . is valid ( ) ) ;  <NL>  }  COM: <s> test of is valid method of class omapplication </s>

@@ -1,0 +1,1 @@
+TDAT: public void open ( string path , short destination ) throws io exception , j smb get exception , interrupted exception {  <NL> path = util . format smb path ( path , true ) ;  <NL> pwd = browser . open ( path , destination ) ;  <NL> if ( ! pwd . ends with ( " / " ) ) {  <NL> pwd = pwd + " / " ;  <NL>  }  <NL>  }  COM: <s> opens a smb share </s>

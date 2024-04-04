@@ -1,0 +1,1 @@
+TDAT: private void log ( level level , string msg , throwable t ) {  <NL> if ( msg = = null )  <NL> logger . log ( level , " no message " , t ) ;  <NL> else if ( t = = null )  <NL> logger . log ( level , msg ) ;  <NL> else <NL> logger . log ( level , " method : " + msg + " exception : " + t . get cause ( ) , t ) ;  <NL>  }  COM: <s> perform a logging </s>

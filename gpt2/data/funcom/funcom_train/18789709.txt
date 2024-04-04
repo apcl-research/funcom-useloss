@@ -1,0 +1,1 @@
+TDAT: public void set po box ( string po box ) {  <NL> if ( ( ( this . po box ! = null ) & & ! this . po box . equals ( po box ) ) || <NL>  ( ( this . po box = = null ) & & ( po box ! = null ) ) ) {  <NL> this . po box = po box ;  <NL> set modified ( true ) ;  <NL>  }  <NL>  }  COM: <s> sets the new value of the simple property po box </s>

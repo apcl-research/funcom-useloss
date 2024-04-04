@@ -1,0 +1,1 @@
+TDAT: private void add sea zone ( int new id , string new abbreviation , string new name , int cx , int cy ) {  <NL> zones . put ( new id , new zone ( new id , new abbreviation , new name , ( short ) 0 , zone . type _ water , cx , cy ) ) ;  <NL>  <NL> set changed ( ) ;  <NL> notify observers ( ) ;  <NL>  }  COM: <s> used by the board loader to add a sea zone to the board </s>

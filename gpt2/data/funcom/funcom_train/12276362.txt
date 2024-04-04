@@ -1,0 +1,1 @@
+TDAT: public void write int ( long i ) throws io exception {  <NL> byte [ ] raw = new byte [ 4 ] ;  <NL>  <NL> raw [ 0 ] = ( byte ) ( i > > 24 ) ;  <NL> raw [ 1 ] = ( byte ) ( i > > 16 ) ;  <NL> raw [ 2 ] = ( byte ) ( i > > 8 ) ;  <NL> raw [ 3 ] = ( byte ) ( i ) ;  <NL>  <NL> write ( raw ) ;  <NL>  }  COM: <s> write an integer to the array </s>

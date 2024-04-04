@@ -1,0 +1,1 @@
+TDAT: protected void calc position ( ) {  <NL> int width = window . get client width ( ) ;  <NL> int height = window . get client height ( ) ;  <NL> int left = window . get scroll left ( ) + width - save left ;  <NL> int top = window . get scroll top ( ) + height - save top ;  <NL> set popup position ( left , top ) ;  <NL>  }  COM: <s> calcule la position du message </s>

@@ -1,0 +1,1 @@
+TDAT: private void save entries to write ( ) throws io exception {  <NL> list list = m entries to write ;  <NL> synchronized ( list ) {  <NL> int size = list . size ( ) ;  <NL> for ( int i = 0 ; i < size ; ) {  <NL> m backing map . put ( list . get ( i + + ) , list . get ( i + + ) ) ;  <NL>  }  <NL> list . clear ( ) ;  <NL>  }  <NL>  }  COM: <s> write lock must be held </s>

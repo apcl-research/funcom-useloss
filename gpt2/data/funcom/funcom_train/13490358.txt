@@ -1,0 +1,1 @@
+TDAT: protected fact create fact ( ) {  <NL> term t1 = lfactory . create constant term ( new serializable test object ( ) ) ;  <NL> term t2 = lfactory . create variable term ( " y " , serializable test object . class ) ;  <NL> term [ ] terms = { t1 , t2 } ;  <NL> return lfactory . create fact ( predicate , terms ) ;  <NL>  }  COM: <s> create a fact </s>

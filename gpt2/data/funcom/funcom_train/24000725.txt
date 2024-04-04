@@ -1,0 +1,1 @@
+TDAT: public void test do bind ( ) {  <NL> collection literal ast instance = new collection literal ast ( - 1 , token factory . create token ( - 1 ) , " bag " ) ;  <NL> assert equals ( " bag < ocl any > " , instance . do bind ( new bind context ( ) ) . get path name ( ) ) ;  <NL>  }  COM: <s> test of do bind method of class collection literal ast </s>

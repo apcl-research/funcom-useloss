@@ -1,0 +1,1 @@
+TDAT: protected void encode object ( mx codec enc , object obj , node node ) {  <NL> mx codec . set attribute ( node , " id " , enc . get id ( obj ) ) ;  <NL> encode fields ( enc , obj , node ) ;  <NL> encode elements ( enc , obj , node ) ;  <NL>  }  COM: <s> encodes the value of each member in then given obj </s>

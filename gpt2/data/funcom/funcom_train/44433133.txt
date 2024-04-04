@@ -1,0 +1,1 @@
+TDAT: public void set file size ( long file _ size ) {  <NL> get node ( new xml node ( " media profile " ) )  <NL>  . get node ( new xml node ( " media format " ) )  <NL>  . get node ( new xml node ( " file size " , false , prio _ file _ size ) )  <NL>  . set child ( new xml characters ( " " + file _ size ) ) ;  <NL>  }  COM: <s> sets the size of the audio file in bytes </s>

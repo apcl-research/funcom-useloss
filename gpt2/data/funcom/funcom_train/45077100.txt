@@ -1,0 +1,1 @@
+TDAT: public void init ( string [ ] in args , properties in props ) throws org . omg . corba . user exception {  <NL>  <NL>  / / initialize the orb <NL> if ( get applet ( ) = = null )  <NL> set orb ( orb . init ( in args , in props ) ) ;  <NL> else <NL> set orb ( orb . init ( the applet , in props ) ) ;  <NL>  }  COM: <s> initialize the none service interace </s>

@@ -1,0 +1,1 @@
+TDAT: public string bytes to string ( byte [ ] inbuf ) {  <NL>  <NL> md5init ( ) ;  <NL> md5update ( inbuf , inbuf . length ) ;  <NL> md5final ( ) ;  <NL> digest hex str = " " ;  <NL> for ( int i = 0 ; i < 16 ; i + + ) {  <NL> digest hex str + = byte hex ( digest [ i ] ) ;  <NL>  }  <NL> return digest hex str ;  <NL>  }  COM: <s> encode md5 byte to string </s>

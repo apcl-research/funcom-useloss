@@ -1,0 +1,1 @@
+TDAT: public void stop ( bundle context bc ) throws exception {  <NL> if ( logger ! = null ) {  <NL> logger . log ( log service . log _ debug , " stopping jmx os gi bundle " ) ;  <NL>  }  <NL> if ( agent ! = null ) {  <NL> agent . stop ( ) ;  <NL>  }  <NL> if ( logger ! = null ) {  <NL> logger . close ( ) ;  <NL>  }  <NL>  }  COM: <s> p called when jmx osgi bundle stops </s>

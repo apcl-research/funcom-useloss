@@ -1,0 +1,1 @@
+TDAT: public void test remove header ( ) {  <NL> request req = new request ( ) ;  <NL> header h = new header ( " foo " , " bar " ) ;  <NL> req . set header ( h ) ;  <NL> assert equals ( h , req . get header ( " foo " ) ) ;  <NL> req . remove header ( h ) ;  <NL> assert null ( req . get header ( " foo " ) ) ;  <NL>  }  COM: <s> test of remove header method of class request </s>

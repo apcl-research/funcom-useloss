@@ -1,0 +1,1 @@
+TDAT: public void write ( int c ) {  <NL> try { _ doc . insert string ( _ doc . get length ( ) , string . value of ( ( char ) c ) , _ attributes ) ; }  <NL> catch ( bad location exception can never happen ) {  <NL> throw new runtime exception ( " internal error : bad location in output window stream " ) ;  <NL>  }  <NL>  }  COM: <s> writes a character to the stream </s>

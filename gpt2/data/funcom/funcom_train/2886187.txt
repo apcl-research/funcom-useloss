@@ -1,0 +1,1 @@
+TDAT: private void inject test context ( test suite tests , hash map < string , object > context ) {  <NL> enumeration < ? > t = tests . tests ( ) ;  <NL> while ( t . has more elements ( ) ) {  <NL> test test = ( test ) t . next element ( ) ;  <NL> inject test context ( test , context ) ;  <NL>  }  <NL>  }  COM: <s> inject the test context into every test that expects it </s>

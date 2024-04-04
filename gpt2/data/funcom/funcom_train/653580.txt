@@ -1,0 +1,1 @@
+TDAT: public void set locations ( string s ) {  <NL> if ( debug ) log ( " set locations = " + s ) ;  <NL>  <NL> string tokenizer tok = new string tokenizer ( s , " , " ) ;  <NL> locations = new vector ( ) ;  <NL> while ( tok . has more tokens ( ) ) {  <NL> locations . add ( tok . next token ( ) . trim ( ) ) ;  <NL>  }  <NL>  }  COM: <s> comma separated list of locations </s>

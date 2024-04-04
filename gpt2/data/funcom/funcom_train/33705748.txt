@@ -1,0 +1,1 @@
+TDAT: public void set type ( task type type ) {  <NL> logger . entering ( " task " , " set type " , type ) ;  <NL>  <NL> if ( type = = null ) {  <NL> throw new illegal argument exception ( " type should not be null " ) ;  <NL>  }  <NL>  <NL> this . type = type ;  <NL> logger . exiting ( " task " , " set type " , this . type ) ;  <NL>  }  COM: <s> changes the type of this </s>

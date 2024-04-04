@@ -1,0 +1,1 @@
+TDAT: private boolean port match ( int port , int [ ] ports ) {  <NL> boolean port in list = false ;  <NL> for ( int i = 0 , len = ports . length ; i < len ; i + + ) {  <NL> if ( port = = ports [ i ] ) {  <NL> port in list = true ;  <NL> break ;  <NL>  }  <NL>  }  <NL> return port in list ;  <NL>  }  COM: <s> returns tt true tt if the given port exists in the given </s>

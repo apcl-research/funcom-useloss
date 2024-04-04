@@ -1,0 +1,1 @@
+TDAT: public void test key from kind and name ( ) {  <NL> key key = new key ( kind , name ) ;  <NL> assert equals ( kind , key . get kind ( ) ) ;  <NL> assert equals ( name , key . get name ( ) ) ;  <NL> assert null ( key . get parent ( ) ) ;  <NL> assert equals ( 0l , key . get id ( ) ) ;  <NL>  }  COM: <s> test key from kind and name </s>

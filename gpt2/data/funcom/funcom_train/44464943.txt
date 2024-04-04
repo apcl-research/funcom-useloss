@@ -1,0 +1,1 @@
+TDAT: public view break view ( int axis , int p0 , float pos , float len ) {  <NL> check painter ( ) ;  <NL> view v = document hyphenator . break view ( this , axis , p0 , pos , len ) ;  <NL> if ( v = = null ) return super . break view ( axis , p0 , pos , len ) ;  <NL> return v ;  <NL>  }  COM: <s> break the view at the best position </s>

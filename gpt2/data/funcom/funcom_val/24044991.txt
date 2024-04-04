@@ -1,0 +1,1 @@
+TDAT: public string get address ( ) {  <NL> try {  <NL> return inet address . get by name ( ip ) . to string ( ) + " : " + string . value of ( port ) ;  <NL>  } catch ( java . net . unknown host exception e ) { this . log ( e , " error getting host name for ip : " + string . value of ( ip ) ) ; }  <NL> return null ;  <NL>  }  COM: <s> returns the web url for this server root </s>

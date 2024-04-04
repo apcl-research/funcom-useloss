@@ -1,0 +1,1 @@
+TDAT: private boolean equals ( object o1 , object o2 ) {  <NL> if ( ( o1 = = null ) & & ( o2 = = null ) ) {  <NL> return true ;  <NL>  }  <NL> if ( o1 ! = null ) {  <NL> if ( o2 = = null ) {  <NL> return false ;  <NL>  } else {  <NL> return o1 . equals ( o2 ) ;  <NL>  }  <NL>  } else {  <NL> return false ;  <NL>  }  <NL>  }  COM: <s> checks if two objects are equals </s>

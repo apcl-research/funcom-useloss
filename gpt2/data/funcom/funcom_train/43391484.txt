@@ -1,0 +1,1 @@
+TDAT: public void add ( string resource ) {  <NL> disablehost . put ( resource . split ( " : " ) [ 0 ] , system . current time millis ( ) ) ;  <NL>  / / sys log ( output dir , " disablehost : " + disablehost ) ;  <NL>  / / system . out . println ( " add - > disablehost : " + disablehost ) ;  <NL>  }  COM: <s> adds to disabled hosts </s>

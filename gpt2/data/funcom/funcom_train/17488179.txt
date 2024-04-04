@@ -1,0 +1,1 @@
+TDAT: public void set neighbours ( ) {  <NL> for ( int w = 0 ; w < width ; w + + )  <NL> for ( int h = 0 ; h < height ; h + + )  <NL> for ( int d = 0 ; d < 8 ; d + + )  <NL> cell [ w ] [ h ] . set neighbour ( d , get neighbour ( w , h , direction . all [ d ] ) ) ;  <NL>  }  COM: <s> sets the neighbouring fields of a field </s>

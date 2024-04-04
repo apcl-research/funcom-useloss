@@ -1,0 +1,1 @@
+TDAT: public void send anycast ( ) {  <NL> system . out . println ( " node " + endpoint . get local node handle ( ) + " anycasting " + seq num ) ;  <NL> my scribe content my message = new my scribe content ( endpoint . get local node handle ( ) , seq num ) ;  <NL> my scribe . anycast ( my topic , my message ) ;  <NL> seq num + + ;  <NL>  }  COM: <s> sends an anycast message </s>

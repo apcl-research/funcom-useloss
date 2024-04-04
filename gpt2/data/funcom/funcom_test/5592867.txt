@@ -1,0 +1,1 @@
+TDAT: public void update ( document doc ) {  <NL> if ( doc . get length ( ) > 0 ) {  <NL> wiz . get button manager ( ) . get action ( wiz . next _ option ) . set enabled ( true ) ;  <NL>  }  <NL> else {  <NL> wiz . get button manager ( ) . get action ( wiz . next _ option ) . set enabled ( false ) ;  <NL>  }  <NL>  }  COM: <s> update the next action in the wizard </s>

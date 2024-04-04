@@ -1,0 +1,1 @@
+TDAT: public void print ( int num ) {  <NL> system . out . println ( " * * * group 4 , scaled ionospheric characteristics " ) ;  <NL> for ( int p = 0 ; p < nparms || p < num ; p + + ) {  <NL> system . out . print ( " " + data [ p ] ) ;  <NL>  }  <NL> system . out . println ( ) ;  <NL> system . out . println ( ) ;  <NL>  }  COM: <s> display group 4 </s>

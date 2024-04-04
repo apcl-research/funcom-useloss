@@ -1,0 +1,1 @@
+TDAT: public void gaigs change hex node colors ( string search , string replace ) {  <NL> for ( int i = 0 ; i < num _ nodes ; i + + ) {  <NL> if ( my _ nodeset [ i ] . get hex color ( ) . compare to ( search ) = = 0 ) {  <NL> my _ nodeset [ i ] . set hex color ( replace ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> changes any nodes in this code visual graph code with the color </s>

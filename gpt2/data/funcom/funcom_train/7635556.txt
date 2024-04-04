@@ -1,0 +1,1 @@
+TDAT: private int round up power2 ( int x ) {  <NL> x = x - 1 ;  <NL> x = x | ( x > > 1 ) ;  <NL> x = x | ( x > > 2 ) ;  <NL> x = x | ( x > > 4 ) ;  <NL> x = x | ( x > > 8 ) ;  <NL> x = x | ( x > > 16 ) ;  <NL> return x + 1 ;  <NL>  }  COM: <s> find the smallest power of two the input value </s>

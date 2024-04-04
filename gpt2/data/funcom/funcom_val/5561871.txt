@@ -1,0 +1,1 @@
+TDAT: public void repaint ( rectangle r ) {  <NL> r . set location ( component coordinates ( new point ( r . x , r . y ) ) ) ;  <NL> r . set size ( ( int ) ( r . width * get zoom ( ) ) , ( int ) ( r . height * get zoom ( ) ) ) ;  <NL> the map . repaint ( r . x , r . y , r . width , r . height ) ;  <NL>  }  COM: <s> repaint the given area specified in map coordinates </s>

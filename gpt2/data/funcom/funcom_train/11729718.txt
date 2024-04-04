@@ -1,0 +1,1 @@
+TDAT: protected void check info entry ( map info , string key , string expected ) {  <NL> string value = ( string ) info . get ( key ) ;  <NL> assert not null ( " missing event info key : " + key , value ) ;  <NL> assert equals ( " wrong event info value for : " + key , expected , value ) ;  <NL>  }  COM: <s> todo move to base class once jsr 283 is final </s>

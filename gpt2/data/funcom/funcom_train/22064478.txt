@@ -1,0 +1,1 @@
+TDAT: public string get all entities ( ) {  <NL> return " select entity _ id , entity _ name , relationship _ count , entity . text _ block _ id , parent _ id , entity _ type , text _ block "  <NL>  + " from entity left join text _ block on entity . text _ block _ id = text _ block . text _ block _ id order by entity _ name " ;  <NL>  }  COM: <s> dataset for all entites </s>

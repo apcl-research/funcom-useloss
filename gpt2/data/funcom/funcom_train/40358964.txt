@@ -1,0 +1,1 @@
+TDAT: public void test handle do post5 ( ) {  <NL> string expected result =  <NL>  " < cm response > \n " + " < status id > "  <NL>  + connector message code . response _ null _ resource + " < / status id > \n "  <NL>  + " < / cm response > \n " ;  <NL> do test ( test _ xml5 , expected result , false , null , null , null ) ;  <NL>  }  COM: <s> the resource is null </s>

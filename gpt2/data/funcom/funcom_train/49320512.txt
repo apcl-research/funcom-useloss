@@ -1,0 +1,1 @@
+TDAT: protected void _ parse property ( string s ) {  <NL> int i = s . index of ( ' : ' ) ;  <NL> if ( i ! = - 1 ) {  <NL> string key = s . substring ( 0 , i ) . trim ( ) ;  <NL> string value = s . substring ( i + 1 ) . trim ( ) ;  <NL>  _ properties . set property ( key , value ) ;  <NL>  }  <NL>  }  COM: <s> check for a keyword value pair in the given string and if found </s>

@@ -1,0 +1,1 @@
+TDAT: / * private int build max heap ( int [ ] a , int [ ] b , int [ ] c ) {  <NL> int heap size = a . length ;  <NL> for ( int i = ( int ) math . floor ( heap size / 2 . 0d ) ; i > 0 ; i - - )  <NL> max heapify ( a , b , c , i , heap size ) ;  <NL> return heap size ;  <NL>  } * /  COM: <s> builds a maximum heap </s>

@@ -1,0 +1,1 @@
+TDAT: public void set auto save file ( file tmp file ) {  <NL> if ( tmp file = = null ) {  <NL> rt props . remove ( " auto save . file " ) ;  <NL>  } else {  <NL> rt props . set property ( " auto save . file " ,  <NL> get data dir ( ) + file . separator + tmp file . get name ( ) ) ;  <NL>  }  <NL>  }  COM: <s> stores the temporary file that has been used by the </s>

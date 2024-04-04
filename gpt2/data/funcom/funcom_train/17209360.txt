@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> if ( is generated ( ) ) {  <NL> return " ( " + low + " , " + high + " , " + max + " ) " ;  <NL>  }  <NL> if ( is ready to generate ( ) ) {  <NL> return " { " + low + " , " + max + " } " ;  <NL>  }  <NL> return " [ " + low + " , " + max + " ] " ;  <NL>  }  COM: <s> returns a string representation of this bble </s>

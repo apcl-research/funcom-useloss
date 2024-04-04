@@ -1,0 +1,1 @@
+TDAT: private p text create input label ( ) {  <NL> p text ret = new p text ( ) ;  <NL> ret . set font ( in _ out _ font ) ;  <NL>  / / ret . set paint ( get network panel ( ) . get line color ( ) ) ;  <NL> ret . translate ( this . get x ( ) , this . get y ( ) + diameter / 2 + arrow _ line + 15 ) ;  <NL> return ret ;  <NL>  }  COM: <s> create the input label </s>

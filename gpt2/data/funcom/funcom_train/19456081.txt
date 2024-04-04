@@ -1,0 +1,1 @@
+TDAT: private int update ( int crc , byte [ ] bytes , int off , int len ) {  <NL> for ( int i = off ; i < ( off + len ) ; i + + ) {  <NL> int b = ( bytes [ i ] & 0xff ) ;  <NL> crc = ( table [ ( ( crc > > 8 ) & 0xff ) ^ b ] ^ ( crc < < 8 ) ) & 0xffff ;  <NL>  }  <NL> return crc ;  <NL>  }  COM: <s> update 16 bit crc </s>

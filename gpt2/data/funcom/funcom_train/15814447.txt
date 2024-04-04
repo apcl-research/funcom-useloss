@@ -1,0 +1,1 @@
+TDAT: protected void remove xml file ( string str _ xml _ file ) {  <NL> try {  <NL> file file _ xml _ file _ remove = new file ( str _ xml _ file ) ;  <NL> file _ xml _ file _ remove . delete ( ) ;  <NL>  } catch ( exception e ) {  <NL> logger . error ( " exception on xml _ file delete : " + e ) ;  <NL>  }  <NL>  }  COM: <s> method to remove a xml file </s>

@@ -1,0 +1,1 @@
+TDAT: public object process bytes ( byte [ ] pattern ) {  <NL> int end = pattern . length < 32 ? pattern . length : 32 ;  <NL>  <NL> int [ ] b = new int [ 256 ] ;  <NL>  <NL> int j = 1 ;  <NL> for ( int i = end - 1 ; i > = 0 ; - - i , j < < = 1 ) {  <NL> b [ index ( pattern [ i ] ) ] | = j ;  <NL>  }  <NL>  <NL> return b ;  <NL>  }  COM: <s> pre processing of the pattern </s>

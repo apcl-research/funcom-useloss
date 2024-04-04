@@ -1,0 +1,1 @@
+TDAT: public void write ( byte buf [ ] , int off , int len ) {  <NL> print header ( ) ;  <NL> for ( int i = 0 ; i < size ( ) ; i + + )  <NL>  ( ( print stream ) m _ streams . get ( i ) ) . write ( buf , off , len ) ;  <NL> flush ( ) ;  <NL>  }  COM: <s> writes code len code bytes from the specified byte array starting at </s>

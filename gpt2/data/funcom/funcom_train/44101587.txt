@@ -1,0 +1,1 @@
+TDAT: public string get inner criteria ( ) {  <NL> string res = this . criteria ;  <NL> if ( this . embraced ) {  <NL> res = " ( " + res . trim ( ) + " ) " ;  <NL>  } else if ( ! this . embraced ) {  <NL>  / / res = res . substring ( 1 , res . length ( ) - 1 ) ;  <NL>  }  <NL>  <NL> return res ;  <NL>  }  COM: <s> gets the criteria string representation for this ocriteria </s>

@@ -1,0 +1,1 @@
+TDAT: public void test key code parsing ( ) {  <NL> assert equals ( " key ' a ' " , key event . vk _ a ,  <NL> awt . get key code ( " vk _ a " ) ) ;  <NL> assert equals ( " key ' 0 ' " , key event . vk _ 0 ,  <NL> awt . get key code ( " vk _ 0 " ) ) ;  <NL>  }  COM: <s> check virtual keycode parsing </s>

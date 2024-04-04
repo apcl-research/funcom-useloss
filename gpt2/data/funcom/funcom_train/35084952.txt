@@ -1,0 +1,1 @@
+TDAT: public void replace header ( string old header , string new header ) {  <NL> list temp list ;  <NL> int index = header . index of ( old header ) ;  <NL> header . set ( index , new header ) ;  <NL> temp list = ( list ) data . remove ( old header ) ;  <NL> data . put ( new header , temp list ) ;  <NL>  }  COM: <s> replaces the given header name with a new header name </s>

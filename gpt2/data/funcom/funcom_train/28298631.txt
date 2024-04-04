@@ -1,0 +1,1 @@
+TDAT: protected void draw lines ( graphics g ) {  <NL> draw lines ( line edge color , trans base settings . size single + 1 , 1 , trans base settings . size double + 1 , g ) ;  <NL> draw lines ( line color , trans base settings . size single , 2 , trans base settings . size double , g ) ;  <NL>  }  COM: <s> draws all existing lines </s>

@@ -1,0 +1,1 @@
+TDAT: public void invalidate all ( ) {  <NL> for ( int x = 0 ; x < m texture hash . length ; x + + ) {  <NL> if ( m texture hash [ x ] . resource ! = - 1 & & m texture hash [ x ] . loaded ) {  <NL> m texture hash [ x ] . name = - 1 ;  <NL> m texture hash [ x ] . loaded = false ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> marks all textures as unloaded </s>

@@ -1,0 +1,1 @@
+TDAT: private void add xml handler ( string ns , xml handler handler ) {  <NL> list < xml handler > lst = handlers . get ( ns ) ;  <NL> if ( lst = = null ) {  <NL> lst = new java . util . array list < xml handler > ( ) ;  <NL> handlers . put ( ns , lst ) ;  <NL>  }  <NL> lst . add ( handler ) ;  <NL>  }  COM: <s> add an xml handler for the given mime type and xml namespace </s>

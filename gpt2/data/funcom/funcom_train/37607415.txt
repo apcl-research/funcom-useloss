@@ -1,0 +1,1 @@
+TDAT: public void write port ( string outline ) {  <NL> try { fout . write ( outline , 0 , outline . length ( ) ) ; }  <NL> catch ( io exception e ) { gxport . set x error ( true , " xm t25 : " +  <NL> e . get class ( ) . get name ( ) + " : " + e . get message ( ) ) ;  <NL>  }  <NL>  } ; / / end write port ( )  COM: <s> writes tt mini traff tt format export data </s>

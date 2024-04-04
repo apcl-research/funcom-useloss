@@ -1,0 +1,1 @@
+TDAT: public double get intercept ( ) {  <NL> double sx = 0 . 0 ;  <NL> double sy = 0 . 0 ;  <NL> for ( entry < long , double > s : value map . entry set ( ) ) {  <NL> sx + = s . get key ( ) ;  <NL> sy + = s . get value ( ) ;  <NL>  }  <NL> return ( sy - get slope ( ) * sx ) / value map . size ( ) ;  <NL>  }  COM: <s> returns the intercept for linear regression for </s>

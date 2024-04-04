@@ -1,0 +1,1 @@
+TDAT: public void set ags ( array list < ? extends abstract _ agent > ags ) {  <NL> abstract _ agent [ ] agent = new abstract _ agent [ ags . size ( ) ] ;  <NL> for ( int i = 0 ; i < ags . size ( ) ; i + + ) {  <NL> agent [ i ] = ags . get ( i ) ;  <NL>  }  <NL> agents = agent ;  <NL>  }  COM: <s> add a new agent to the multi agent system </s>

@@ -1,0 +1,1 @@
+TDAT: public float edge thickness ( item set start , item set end ) {  <NL> if ( ! is init ( ) ) {  <NL> return 0 ;  <NL>  }  <NL> return math . max ( 1 . 0f , options . get max edge stroke ( ) * ( ( float ) start . get obj cnt ( ) / get context ( ) . get object count ( ) ) ) ;  <NL>  }  COM: <s> edge thickness method comment </s>

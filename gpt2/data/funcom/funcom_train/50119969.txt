@@ -1,0 +1,1 @@
+TDAT: public void errorlog ( int level , string s , exception e ) {  <NL> string fname ;  <NL> if ( query _ owner ( ) . equals ( " root " ) ) fname = " javamud . log " ;  <NL> else fname = query _ owner ( ) + " . log " ;  <NL> mudlog . errorlog ( level , fname , query _ id ( ) + " \n\r " + s , e ) ;  <NL>  }  COM: <s> log an error to the error logs </s>

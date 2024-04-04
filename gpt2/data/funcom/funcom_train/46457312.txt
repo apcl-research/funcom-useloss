@@ -1,0 +1,1 @@
+TDAT: static public boolean has ejs model ( class _ ejs class ) {  <NL> try {  <NL> class [ ] c = { } ;  <NL> java . lang . reflect . method get model method = _ ejs class . get method ( get _ model _ method , c ) ;  <NL> return get model method ! = null ;  <NL>  }  <NL> catch ( exception _ exc ) { return false ; }  <NL>  }  COM: <s> whether a class provides an ejs model </s>

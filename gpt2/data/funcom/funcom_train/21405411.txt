@@ -1,0 +1,1 @@
+TDAT: public boolean update details ( long row id , double dist , double desn ) {  <NL> content values args = new content values ( ) ;  <NL> args . put ( route _ dist , dist ) ;  <NL> args . put ( route _ desn , desn ) ;  <NL> return db . update ( table _ routes , args , route _ id + " = " + row id , null ) > 0 ;  <NL>  }  COM: <s> update the details of a route </s>

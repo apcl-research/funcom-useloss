@@ -1,0 +1,1 @@
+TDAT: public void update ( char [ ] data , int start , int end ) {  <NL> int i ;  <NL>  <NL> for ( i = start ; i < end ; i + + ) {  <NL> if ( data [ i ] = = ' \n ' ) {  <NL> col = 1 ;  <NL> line + + ;  <NL>  } else {  <NL> col + + ;  <NL>  }  <NL>  }  <NL> ofs + = ( end - start ) ;  <NL>  }  COM: <s> the indicated range has been passed by the scanner </s>

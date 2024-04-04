@@ -1,0 +1,1 @@
+TDAT: public void and not ( bit set bs ) {  <NL> long [ ] bs bits = bs . bits ;  <NL> int range = bits . length < bs bits . length ? bits . length : bs bits . length ;  <NL> for ( int i = 0 ; i < range ; i + + ) {  <NL> bits [ i ] & = ~ bs bits [ i ] ;  <NL>  }  <NL>  }  COM: <s> clears all bits in the receiver which are also set in the parameter </s>

@@ -1,0 +1,1 @@
+TDAT: private void set key ( database entry entry , int val , int len ) {  <NL> tuple output out = new tuple output ( ) ;  <NL> out . write int ( val ) ;  <NL> for ( int i = 0 ; i < len - 4 ; i + = 1 ) {  <NL> out . write byte ( 0 ) ;  <NL>  }  <NL> tuple base . output to entry ( out , entry ) ;  <NL>  }  COM: <s> outputs an integer followed by pad bytes </s>

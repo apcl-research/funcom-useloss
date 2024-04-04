@@ -1,0 +1,1 @@
+TDAT: protected j menu bar create menu bar ( view p ) {  <NL> j menu bar mb = new j menu bar ( ) ;  <NL> mb . add ( create file menu ( p ) ) ;  <NL> for ( j menu mm : get model ( ) . create menus ( this , p ) ) {  <NL> mb . add ( mm ) ;  <NL>  }  <NL> mb . add ( create window menu ( p ) ) ;  <NL> return mb ;  <NL>  }  COM: <s> creates a menu bar </s>

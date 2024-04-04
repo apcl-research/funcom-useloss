@@ -1,0 +1,1 @@
+TDAT: public void encode ( encoder encoder ) throws coding exception {  <NL> encoder . encode string ( name _ key , name ) ;  <NL> encoder . encode object ( tp _ manager _ key , manager ) ;  <NL> encoder . encode object ( commands _ vector _ key , commands ) ;  <NL> encoder . encode int ( type _ key , type ) ;  <NL>  }  COM: <s> encodes the target proxy </s>

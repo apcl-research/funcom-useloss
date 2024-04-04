@@ -1,0 +1,1 @@
+TDAT: public string escape ( char in ) {  <NL> string out = new string ( ) ;  <NL>  <NL> if ( ( in < 32 || in > 126 ) & &  <NL>  ! ( in = = 10 || in = = 9 || in = = 12 ) ) {  <NL> out + = integer . to string ( in ) ;  <NL>  } else {  <NL> out + = in ;  <NL>  }  <NL>  <NL> return out ;  <NL>  } / / end - method  COM: <s> escapes the value in the input char </s>

@@ -1,0 +1,1 @@
+TDAT: @ override public string get representation ( ) {  <NL> string buffer buf = new string buffer ( ) ;  <NL> buf . append ( super . get duration ( ) ) . append ( " sec " ) ;  <NL> buf . append ( make metric pair ( " fi " , this . file size increase , this . file size ) ) ;  <NL>  <NL> return buf . to string ( ) ;  <NL>  }  COM: <s> get the representation of this activity </s>

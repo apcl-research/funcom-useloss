@@ -1,0 +1,1 @@
+TDAT: public void open file ( string path ) throws io exception {  <NL> file = ( file connection ) connector . open ( " file : / / / " + path ) ;  <NL> file reader = file . open data input stream ( ) ;  <NL> file writer = file . open data output stream ( ) ;  <NL>  <NL> if ( ! file . exists ( ) )  <NL> file . create ( ) ;  <NL>  }  COM: <s> opens a file in the file system </s>

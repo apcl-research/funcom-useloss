@@ -1,0 +1,1 @@
+TDAT: public vector get ( float nw lat , float nw lon , float se lat , float se lon , vector graphic list ) {  <NL> if ( view ! = null ) {  <NL> return view . get ( nw lat , nw lon , se lat , se lon , graphic list ) ;  <NL>  } else {  <NL> return graphic list ;  <NL>  }  <NL>  }  COM: <s> returns a list of graphics that are within a specified region </s>

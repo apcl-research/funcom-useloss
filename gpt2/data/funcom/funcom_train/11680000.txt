@@ -1,0 +1,1 @@
+TDAT: public void put ( string sequence name , long init time , boolean is in flow , boolean is statistics enable , boolean is fault ) {  <NL> sequence statistics list . add ( new sequence statistics ( sequence name , init time , is in flow , is statistics enable , is fault ) ) ;  <NL>  }  COM: <s> to put a statistics </s>

@@ -1,0 +1,1 @@
+TDAT: public string to projection string ( ) {  <NL> string result = new string ( ) ;  <NL> column schema fs ;  <NL> for ( int i = 0 ; i < m fields . size ( ) ; i + + ) {  <NL> if ( i > 0 ) result + = " , " ;  <NL> if ( ( fs = m fields . get ( i ) ) ! = null ) result + = fs . name ;  <NL>  }  <NL> return result ;  <NL>  }  COM: <s> return untyped schema string for projection </s>

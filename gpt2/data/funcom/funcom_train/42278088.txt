@@ -1,0 +1,1 @@
+TDAT: public boolean is bit set ( char [ ] key , int bit index ) {  <NL> int iter = 0 ;  <NL> while ( bit index > = length ) {  <NL> bit index - = length ;  <NL> iter + + ;  <NL>  }  <NL> if ( iter > key . length - 1 ) return false ;  <NL> return ( key [ iter ] & bits [ bit index ] ) ! = ( char ) 0 ;  <NL>  }  COM: <s> checks whether the given key has 1 at bit index position </s>

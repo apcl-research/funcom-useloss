@@ -1,0 +1,1 @@
+TDAT: public void clean up ( ) {  <NL> reference ref = m ref queue . poll ( ) ;  <NL> while ( ref ! = null ) {  <NL> ref = m ref queue . poll ( ) ;  <NL> m ref hash map . remove ( ref ) ;  <NL> if ( ref ! = null ) {  <NL> t key = m ref hash map . get ( ref ) ;  <NL> m cache hash map . remove ( key ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> cleanup the cache </s>

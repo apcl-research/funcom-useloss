@@ -1,0 +1,1 @@
+TDAT: public void draw cross ( ) {  <NL> g . set paint mode ( ) ;  <NL> g . set color ( color ) ;  <NL> g . fill rect ( x1 - 4 , y1 - 2 , 8 , 4 ) ;  <NL> g . fill rect ( x1 - 2 , y1 - 4 , 4 , 8 ) ;  <NL>  }  COM: <s> draw a cross on screen as a mark </s>

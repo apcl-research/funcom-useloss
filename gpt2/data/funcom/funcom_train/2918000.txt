@@ -1,0 +1,1 @@
+TDAT: public void grow to include ( int bit ) {  <NL> int new size = math . max ( bits . length < < 1 , num words to hold ( bit ) ) ;  <NL> long newbits [ ] = new long [ new size ] ;  <NL> system . arraycopy ( bits , 0 , newbits , 0 , bits . length ) ;  <NL> bits = newbits ;  <NL>  }  COM: <s> grows the set to a larger number of bits </s>

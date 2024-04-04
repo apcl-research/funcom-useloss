@@ -1,0 +1,1 @@
+TDAT: private huff table read huffman table ( input stream is ) throws io exception {  <NL>  <NL> int table no = is . read ( ) ;  <NL> int [ ] level sizes = new int [ 16 ] ;  <NL> for ( int i = 0 ; i < 16 ; i + + ) {  <NL> level sizes [ i ] = is . read ( ) ;  <NL>  }  <NL>  <NL> return read table ( is , level sizes , table no ) ;  <NL>  }  COM: <s> decodes huffman tables </s>

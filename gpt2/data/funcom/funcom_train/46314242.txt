@@ -1,0 +1,1 @@
+TDAT: public json object get thumb info ( ) throws json exception {  <NL>  <NL> final json object info = new json object ( ) ;  <NL> info . put ( " left " , get crop left ( ) ) ;  <NL> info . put ( " top " , get crop top ( ) ) ;  <NL> info . put ( " zoom " , get zoom ( ) ) ;  <NL> return info ;  <NL>  }  COM: <s> returns the needed info for initializing the js image tool </s>

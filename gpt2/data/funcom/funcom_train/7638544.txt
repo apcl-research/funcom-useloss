@@ -1,0 +1,1 @@
+TDAT: public image get icon ( ) {  <NL> icon factory factory = icon factory . get instance ( ) ;  <NL> image icon ;  <NL> icon = factory . get icon ( get xml local name ( ) , icon factory . color _ red , icon factory . shape _ circle ) ;  <NL> return icon ! = null ? icon : adt plugin . get android logo ( ) ;  <NL>  }  COM: <s> returns an optional icon for the attribute </s>

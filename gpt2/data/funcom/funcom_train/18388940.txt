@@ -1,0 +1,1 @@
+TDAT: public void test has key ( ) {  <NL> system . out . println ( " has key " ) ;  <NL> node instance = new node ( ) ;  <NL> instance . add key ( new key ( 1 ) ) ;  <NL> assert true ( instance . has key ( new key ( 1 ) ) ) ;  <NL> assert false ( instance . has key ( new key ( 3 ) ) ) ;  <NL>  <NL>  }  COM: <s> test of has key method of class org </s>

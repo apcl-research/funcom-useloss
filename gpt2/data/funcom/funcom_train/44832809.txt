@@ -1,0 +1,1 @@
+TDAT: public void set read only ( boolean read only ) {  <NL>  <NL> boolean result = ( boolean ) component utils . invoke method ( get page ( ) . get handler ( ) ,  <NL> get method ( " on set read only " ) , new object [ ] { read only } ) ;  <NL>  <NL> this . read only = ( result ! = null ) ? result : read only ;  <NL>  }  COM: <s> setter for property read only </s>

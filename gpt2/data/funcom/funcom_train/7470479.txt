@@ -1,0 +1,1 @@
+TDAT: private void add ( char sequence cs ) {  <NL>  <NL> if ( cs . equals ( sep _ charseq ) ) { return ; }  <NL> n gram entry nge = ngrams . get ( cs ) ;  <NL> if ( nge = = null ) {  <NL> nge = new n gram entry ( cs ) ;  <NL> ngrams . put ( cs , nge ) ;  <NL>  }  <NL> nge . inc ( ) ;  <NL>  }  COM: <s> add ngrams from a single word in this profile </s>

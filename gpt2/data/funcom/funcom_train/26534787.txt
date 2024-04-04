@@ -1,0 +1,1 @@
+TDAT: public void sort by ( int col , boolean descending ) {  <NL> if ( col < 1 || col > num cols ( ) )  <NL> throw new array index out of bounds exception ( ) ;  <NL> arrays . sort ( data , 1 , num rows ( ) + 1 , new row comparator ( col , descending ) ) ;  <NL>  }  COM: <s> resort the result set by the data in the specified column </s>

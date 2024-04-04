@@ -1,0 +1,1 @@
+TDAT: public void write ( string str ) throws io exception {  <NL> if ( doc = = null ) {  <NL> throw new io exception ( " writer was closed " ) ;  <NL>  }  <NL> try {  <NL> doc . insert string ( doc . get length ( ) , str , a ) ;  <NL>  } catch ( bad location exception ble ) {  <NL> throw new io exception ( ble . get message ( ) ) ;  <NL>  }  <NL>  }  COM: <s> write a string </s>

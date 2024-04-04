@@ -1,0 +1,1 @@
+TDAT: private int julery _ isqrt ( int val ) {  <NL> int temp , g = 0 , b = 0x8000 , bshft = 15 ;  <NL> do {  <NL> if ( val > = ( temp = ( ( ( g < < 1 ) + b ) < < bshft - - ) ) ) {  <NL> g + = b ;  <NL> val - = temp ;  <NL>  }  <NL>  } while ( ( b > > = 1 ) > 0 ) ;  <NL> return g ;  <NL>  }  COM: <s> fast integer sqrt by jim ulery </s>

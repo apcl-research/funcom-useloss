@@ -1,0 +1,1 @@
+TDAT: public void limit ( double x1 , double y1 , double x2 , double y2 ) {  <NL> clip [ 0 ] = math . max ( clip [ 0 ] , x1 ) ;  <NL> clip [ 1 ] = math . max ( clip [ 1 ] , y1 ) ;  <NL> clip [ 6 ] = math . min ( clip [ 6 ] , x2 ) ;  <NL> clip [ 7 ] = math . min ( clip [ 7 ] , y2 ) ;  <NL>  }  COM: <s> limit the clip such that it fits within the specified region </s>

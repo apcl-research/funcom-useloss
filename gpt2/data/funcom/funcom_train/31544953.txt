@@ -1,0 +1,1 @@
+TDAT: public void show serial status ( ) {  <NL> if ( log . is debug enabled ( ) ) {  <NL> log . debug ( " cd : " + s port . is cd ( ) + " - cts : " + s port . is cts ( ) + " - dsr : " + s port . is dsr ( ) + " - dtr : " + s port . is dtr ( ) + " - rts : " + s port . is rts ( ) ) ;  <NL>  }  <NL>  }  COM: <s> logs the serial status useful for debug </s>

@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> return " log listener : hit = " + hit count + " / " + hit count sum <NL>  + " , stale hit = " + stale hit count + " / " + stale hit count sum <NL>  + " , miss = " + miss count + " / " + miss count sum <NL>  + " , flush = " + flush count ;  <NL>  }  COM: <s> return the counters in a string form </s>

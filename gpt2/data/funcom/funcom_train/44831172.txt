@@ -1,0 +1,1 @@
+TDAT: public void add aggr boundary ( ) {  <NL> list last par = ( list ) paragraphs . get ( paragraphs . size ( ) - 1 ) ;  <NL> list last aggr = ( list ) last par . get ( last par . size ( ) - 1 ) ;  <NL> if ( last aggr . size ( ) > 0 )  <NL> last par . add ( new array list ( ) ) ;  <NL>  }  COM: <s> closes the current aggregation segment and creates a new </s>

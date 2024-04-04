@@ -1,0 +1,1 @@
+TDAT: public osc message move after msg ( node a node ) {  <NL>  / / removed 02 - oct - 05 <NL>  / / this . set group ( a node . get group ( ) ) ;  <NL> return ( new osc message ( " / n _ after " , new object [ ] {  <NL> new integer ( this . get node id ( ) ) , new integer ( a node . get node id ( ) ) } ) ) ;  <NL>  }  COM: <s> creates an osc code n after code message </s>

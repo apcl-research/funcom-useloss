@@ -1,0 +1,1 @@
+TDAT: public void execute ( final module id id , final module command command , final int level ) {  <NL> try {  <NL> env . get interface ( ) . send module command ( id , command , level ) ;  <NL>  }  <NL> catch ( oo home exception e ) {  <NL> ui tools . error dialog ( e . get localized message ( ) ) ;  <NL>  }  <NL>  }  COM: <s> executes a direct command </s>

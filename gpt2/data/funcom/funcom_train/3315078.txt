@@ -1,0 +1,1 @@
+TDAT: protected void check add all ( string message , list < e > l ) {  <NL> collection < e > c = get test object ( ) ;  <NL> assert true ( format message ( message , l , c ) , c . contains all ( l ) ) ;  <NL> assert true ( format message ( message , l , c ) , l . contains all ( c ) ) ;  <NL>  }  COM: <s> p this method is used to check the result of an </s>

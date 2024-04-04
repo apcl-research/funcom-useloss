@@ -1,0 +1,1 @@
+TDAT: public void check insert ( ) {  <NL> for ( enumeration < data holder > e = subrecords . elements ( ) ; e . has more elements ( ) ; ) {  <NL> e . next element ( ) . check insert ( ) ;  <NL>  }  <NL> tp . get crud ( ) . check insert ( t , type , dictionnary , subrecords , full data ) ;  <NL>  }  COM: <s> checks if it is possible to insert data for all subrecords </s>

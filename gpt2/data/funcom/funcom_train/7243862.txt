@@ -1,0 +1,1 @@
+TDAT: private void write int ( int x , output stream os ) throws io exception {  <NL> os . write ( ( byte ) ( x > > 24 ) ) ;  <NL> os . write ( ( byte ) ( x > > 16 ) ) ;  <NL> os . write ( ( byte ) ( x > > 8 ) ) ;  <NL> os . write ( ( byte ) x ) ;  <NL>  }  COM: <s> writes an int to code os code in big endian byte order </s>

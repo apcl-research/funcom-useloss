@@ -1,0 +1,1 @@
+TDAT: public void set good data widget state for ( fms input field interface an fms input field ) {  <NL> for ( int i = 0 ; this . get form widget list ( ) . size ( ) > i ; i + + ) {  <NL>  ( ( j component ) this . get form widget list ( ) . get ( i ) ) . set enabled ( true ) ;  <NL>  }  <NL>  }  COM: <s> sey all widgets to enabled on the form </s>

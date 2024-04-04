@@ -1,0 +1,1 @@
+TDAT: public void translate ( double x , double y , double z ) {  <NL> set ( 3 , 0 , get ( 3 , 0 ) + x ) ;  <NL> set ( 3 , 1 , get ( 3 , 1 ) + y ) ;  <NL> set ( 3 , 2 , get ( 3 , 2 ) + z ) ;  <NL>  }  COM: <s> add a translation to the matrix </s>

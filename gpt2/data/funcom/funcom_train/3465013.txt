@@ -1,0 +1,1 @@
+TDAT: public int get start tick at ( int index ) {  <NL> int starttick = 0 ;  <NL> for ( int i = 0 ; i < a . length & & i < index ; + + i )  <NL> starttick + = a [ i ] . ticks ;  <NL> return starttick ;  <NL>  / / return get start tick ( 0 , a . length , index ) ;  <NL>  }  COM: <s> returns the start position for the specified entry </s>

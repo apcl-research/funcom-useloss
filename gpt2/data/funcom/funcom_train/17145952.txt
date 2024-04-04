@@ -1,0 +1,1 @@
+TDAT: public double dot ( vertex o ) {  <NL> double ret =  <NL> x ( ) * o . x ( ) +  <NL> y ( ) * o . y ( ) +  <NL> z ( ) * o . z ( ) ;  <NL>  / / debug . out ( " vertex " , this + " dot ( " + o + " ) = " + debug . num ( ret ) ) ;  <NL> return ret ;  <NL>  }  COM: <s> returns the dot product of this vector dotted with the other </s>

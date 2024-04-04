@@ -1,0 +1,1 @@
+TDAT: public long extend _ char ( long f , int v ) {  <NL> f ^ = ( 0xffff & v ) ;  <NL> int i = ( int ) f ;  <NL> long result = ( f > > > 16 ) ;  <NL> result ^ = byte mod table [ 6 ] [ i & 0xff ] ; i > > > = 8 ;  <NL> result ^ = byte mod table [ 7 ] [ i & 0xff ] ;  <NL> return result ;  <NL>  }  COM: <s> extends code f code with lower sixteen bits of code v code </s>

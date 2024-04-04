@@ -1,0 +1,1 @@
+TDAT: public void calculate stats ( int base [ ] , int [ ] ivs , int [ ] evs ) {  <NL> m _ iv = ivs ;  <NL> m _ ev = evs ;  <NL> m _ base = base ;  <NL> for ( int i = 0 ; i < m _ stat . length ; + + i ) {  <NL> m _ stat [ i ] = m _ mech . calculate stat ( this , i ) ;  <NL>  }  <NL>  }  COM: <s> calculate stats from a given set of ivs and evs </s>

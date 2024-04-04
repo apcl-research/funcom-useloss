@@ -1,0 +1,1 @@
+TDAT: public void set series index ( int idx ) {  <NL> yi = ( short ) idx ;  <NL> byte [ ] rkdata = this . get data ( ) ;  <NL> byte [ ] num = byte tools . short to le bytes ( ( short ) idx ) ;  <NL> rkdata [ 2 ] = num [ 0 ] ;  <NL> rkdata [ 3 ] = num [ 1 ] ;  <NL> this . set data ( rkdata ) ;  <NL>  }  COM: <s> set the series index </s>

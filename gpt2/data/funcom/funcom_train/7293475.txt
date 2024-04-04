@@ -1,0 +1,1 @@
+TDAT: protected int newest stamp ( int first , int last , int best stamp so far ) {  <NL> int best stamp = best stamp so far ;  <NL> for ( int i = first ; i < = last ; + + i ) {  <NL> if ( stamp [ i ] > best stamp ) {  <NL> best stamp = stamp [ i ] ;  <NL>  }  <NL>  }  <NL> return best stamp ;  <NL>  }  COM: <s> return the newest stamp of a given range of fields </s>

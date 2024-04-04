@@ -1,0 +1,1 @@
+TDAT: public void close ( ) {  <NL> try {  <NL> save ( ) ;  <NL>  } catch ( io exception e ) {  <NL> log . warn ( " i / o error while saving locks to ' "  <NL>  + locks file . get path ( ) + " ' : " + e . get message ( ) ) ;  <NL> log . debug ( " root cause : " , e ) ;  <NL>  }  <NL>  }  COM: <s> close this lock manager </s>

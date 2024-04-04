@@ -1,0 +1,1 @@
+TDAT: public string get unique ( string prefix ) {  <NL> integer i = ( integer ) unique map . get ( prefix ) ;  <NL> int k = 0 ;  <NL> if ( i ! = null ) k = i . int value ( ) ;  <NL> string s = " jura _ " + prefix + k ;  <NL> unique map . put ( prefix , new integer ( k + 1 ) ) ;  <NL> return s ;  <NL>  }  COM: <s> returns a unique id with the specified prefix </s>

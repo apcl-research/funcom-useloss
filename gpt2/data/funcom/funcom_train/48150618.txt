@@ -1,0 +1,1 @@
+TDAT: static public double gauss error function ( double value ) {  <NL> normal distribution std normal = new normal distribution ( 0 , 1 ) ;  <NL> if ( value = = 0 ) return 0 ;  <NL> else return ( ( 2 . 0 / ( math . sqrt ( math . pi ) ) * ( std normal . get cdf ( value ) - std normal . get cdf ( 0 . 0 ) ) ) ) ;  <NL>  }  COM: <s> compute the gauss error function </s>

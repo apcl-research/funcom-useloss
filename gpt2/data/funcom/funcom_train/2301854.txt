@@ -1,0 +1,1 @@
+TDAT: protected transition create transition ( state from , state to , node node , map e2t ) {  <NL> string s = ( string ) e2t . get ( transition _ read _ name ) ;  <NL> if ( s = = null ) s = " " ; / / allow lambda transition .  <NL> return new fsa transition ( from , to , s ) ;  <NL>  }  COM: <s> creates and returns a transition consistent with this node </s>

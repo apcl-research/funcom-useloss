@@ -1,0 +1,1 @@
+TDAT: private void dist ( final int pre , final int k , final int v ) {  <NL> if ( k = = attr ) table . write1 ( pre , 0 , v < < 3 | attr ) ;  <NL> else if ( k ! = doc ) table . write4 ( pre , k = = elem ? 4 : 8 , v ) ;  <NL>  }  COM: <s> sets the distance </s>

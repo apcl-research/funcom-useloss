@@ -1,0 +1,1 @@
+TDAT: private void cs activate sentries ( tile tile , change set cs ) {  <NL> for ( unit u : tile . get unit list ( ) ) {  <NL> if ( u . get state ( ) = = unit state . sentry ) {  <NL> u . set state ( unit state . active ) ;  <NL> cs . add ( see . perhaps ( ) , u ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> activate sentried units on a tile </s>

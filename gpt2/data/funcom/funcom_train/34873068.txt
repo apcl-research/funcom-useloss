@@ -1,0 +1,1 @@
+TDAT: public void visit choice ( pattern p1 , pattern p2 ) {  <NL> if ( p1 instanceof empty pattern & &  <NL> p2 instanceof empty pattern ) {  <NL> if ( model . length ( ) = = 0 ) {  <NL> model . append ( " empty " ) ;  <NL>  }  <NL> return ;  <NL>  }  <NL> visit bin op ( p1 , p2 , " | " , type _ choice ) ;  <NL>  }  COM: <s> got a choice pattern </s>

@@ -1,0 +1,1 @@
+TDAT: public void xform dir ( vec3f src , vec3f dest ) {  <NL> for ( int rc = 0 ; rc < 3 ; rc + + ) {  <NL> float tmp = 0 . 0f ;  <NL> for ( int cc = 0 ; cc < 3 ; cc + + ) {  <NL> tmp + = get ( rc , cc ) * src . get ( cc ) ;  <NL>  }  <NL> dest . set ( rc , tmp ) ;  <NL>  }  <NL>  }  COM: <s> transforms src using only the upper left 3x3 </s>

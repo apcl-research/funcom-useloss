@@ -1,0 +1,1 @@
+TDAT: public void test build module ( ) {  <NL> final builder b = new builder ( null , null , null , null ) ;  <NL> b . build module ( " test " ) ;  <NL> assert equals ( " test " , b . get project name ( ) ) ;  <NL> assert true ( b . get attic file names ( ) . is empty ( ) ) ;  <NL>  }  COM: <s> test if the module name is correctly passed on </s>

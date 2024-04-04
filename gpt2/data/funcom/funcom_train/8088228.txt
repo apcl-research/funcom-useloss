@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> string header ;  <NL>  <NL> header = pi + " \n\n " ;  <NL> if ( get doc type ( ) ! = null )  <NL> header + = get doc type ( ) + " \n\n " ;  <NL>  <NL> return to string ( new string buffer ( header ) , get document ( ) . get document element ( ) , 0 ) . to string ( ) ;  <NL>  }  COM: <s> returns the current dom document as xml string </s>

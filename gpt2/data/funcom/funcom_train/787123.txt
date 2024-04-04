@@ -1,0 +1,1 @@
+TDAT: public void set low value ( int low value ) {  <NL> int e = ( model . get value ( ) - low value ) + model . get extent ( ) ;  <NL> model . set range properties ( low value , e ,  <NL> model . get minimum ( ) , model . get maximum ( ) , false ) ;  <NL> model . set value ( low value ) ;  <NL>  }  COM: <s> sets the low value shown by this range slider </s>

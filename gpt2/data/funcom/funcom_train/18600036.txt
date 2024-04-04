@@ -1,0 +1,1 @@
+TDAT: private gaap user build gaap user ( user user ) {  <NL>  / / todo : complete with authorities <NL> granted authority [ ] granted authorities = new granted authority impl [ 0 ] ;  <NL>  <NL> return new gaap user ( user . get username ( ) , user . get password ( ) , true ,  <NL> false , false , true , granted authorities ) ;  <NL>  }  COM: <s> builds a gaap user with </s>

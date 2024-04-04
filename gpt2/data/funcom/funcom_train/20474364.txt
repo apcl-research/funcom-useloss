@@ -1,0 +1,1 @@
+TDAT: public object get ( int index ) {  <NL> if ( index < 0 || index > = this . size ) {  <NL> throw new index out of bounds exception ( " the index [ " + index + " ] is not valid for this list with the size [ " + this . size + " ] . " ) ;  <NL>  }  <NL> return this . stored objects [ index ] ;  <NL>  }  COM: <s> returns the element at the specified position in this list </s>

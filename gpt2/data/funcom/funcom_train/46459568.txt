@@ -1,0 +1,1 @@
+TDAT: public double world to image x ( int n , double world x , double world y ) {  <NL> if ( n > = length ) set length ( n + 1 ) ;  <NL> point . set location ( world x , world y ) ;  <NL> to image . get ( n ) . transform ( point , point ) ;  <NL> return point . get x ( ) ;  <NL>  }  COM: <s> converts the specified world position to an image </s>

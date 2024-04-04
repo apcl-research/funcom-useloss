@@ -1,0 +1,1 @@
+TDAT: private int match prefix ( string [ ] a , string [ ] b ) {  <NL>  <NL> int len = a . length > b . length ? b . length : a . length ;  <NL> int i ;  <NL> for ( i = 0 ; i < len ; i + + ) {  <NL> if ( ! a [ i ] . equals ( b [ i ] ) ) {  <NL> return i ;  <NL>  }  <NL>  }  <NL> return i ;  <NL>  }  COM: <s> find the first array index in which two arrays differ </s>

@@ -1,0 +1,1 @@
+TDAT: public void set utm ( double xxx , double yyy , double zzz ) {  <NL> if ( java driver . get city ( ) . get intrs count ( ) < = 1 )  <NL> pt3 . set real3 ( xxx , yyy , zzz ) ;  <NL> pt3 . set utm ( xxx , yyy , zzz ) ;  <NL>  } / / end set map coord3 ( )  COM: <s> sets the tt ointersection tt x y and z utm coordinates </s>

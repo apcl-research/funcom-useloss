@@ -1,0 +1,1 @@
+TDAT: public tile get tile at ( int tx , int ty ) {  <NL> int x = tx - bounds . x ;  <NL> int y = ty - bounds . y ;  <NL> if ( x < 0 || y < 0 || x > = bounds . width || y > = bounds . height )  <NL>  {  <NL> return null ;  <NL>  }  <NL> return map [ y ] [ x ] ;  <NL>  }  COM: <s> returns the tile at the specified position </s>

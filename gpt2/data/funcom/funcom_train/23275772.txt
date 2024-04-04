@@ -1,0 +1,1 @@
+TDAT: public vector get local ( ) {  <NL> vector ret = new vector ( ) ;  <NL> for ( enumeration e = v . elements ( ) ; e . has more elements ( ) ; ) {  <NL> object este = e . next element ( ) ;  <NL> if ( este . get class ( ) = = file local . class )  <NL> ret . add ( este ) ;  <NL>  }  <NL>  <NL> return ret ;  <NL>  }  COM: <s> gets a list of all local sources </s>

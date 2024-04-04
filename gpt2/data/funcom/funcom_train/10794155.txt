@@ -1,0 +1,1 @@
+TDAT: private void set column flags from io ( column col , int i ) {  <NL> if ( _ io = = null )  <NL> return ;  <NL> col . set flag ( column . flag _ unupdatable , ! _ io . is updatable ( i , false ) ) ;  <NL> col . set flag ( column . flag _ uninsertable , ! _ io . is insertable ( i , false ) ) ;  <NL>  }  COM: <s> set i o flags on the column </s>

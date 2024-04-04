@@ -1,0 +1,1 @@
+TDAT: private void set hash value ( int indx , string s ) {  <NL> hash parts [ indx ] = 0 ;  <NL> for ( int i = s . length ( ) ; i > 0 ; hash parts [ indx ] + = s . char at ( - - i ) ) ;  <NL>  <NL> hash value = 0 ;  <NL> for ( int i = 0 ; i < hash parts . length ; hash value + = hash parts [ i + + ] ) ;  <NL>  }  COM: <s> set update the hash value that hash code will return </s>

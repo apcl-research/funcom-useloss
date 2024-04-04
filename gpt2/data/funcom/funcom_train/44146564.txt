@@ -1,0 +1,1 @@
+TDAT: public boolean accept ( file dir , string name ) {  <NL> if ( name . starts with ( stem ) )  <NL> if ( name . ends with ( " . ucf " ) || <NL> name . ends with ( " . ucf . gz " ) || <NL> name . ends with ( " . ucf . z " ) || <NL> name . ends with ( " . ucf . z " ) )  <NL> return true ;  <NL> return false ;  <NL>  }  COM: <s> this method is used by file </s>

@@ -1,0 +1,1 @@
+TDAT: final public geo point min ( string label , geo function f , number value a , number value b ) {  <NL> algo function min algo = new algo function min ( cons , label , f , a , b ) ;  <NL> geo point minpoint = algo . get point ( ) ;  <NL> return minpoint ;  <NL>  } / / min ( geo function , a , b )  COM: <s> min function left right </s>

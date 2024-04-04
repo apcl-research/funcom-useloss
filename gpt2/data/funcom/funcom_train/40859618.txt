@@ -1,0 +1,1 @@
+TDAT: public void test span near scorer skip to1 ( ) throws exception {  <NL> span near query q = make query ( ) ;  <NL> weight w = q . weight ( searcher ) ;  <NL> scorer s = w . scorer ( searcher . get index reader ( ) , true , false ) ;  <NL> assert equals ( 1 , s . advance ( 1 ) ) ;  <NL>  }  COM: <s> not a direct test of near spans but a demonstration of how when </s>

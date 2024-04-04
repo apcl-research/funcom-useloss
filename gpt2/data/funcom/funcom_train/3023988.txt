@@ -1,0 +1,1 @@
+TDAT: private int get longest ( ) {  <NL> int longest = 0 ;  <NL> int last = docs . size ( ) ;  <NL> for ( int ndx = 0 ; ndx < last ; ndx + + ) {  <NL> int next = ( ( java doc component ) docs . element at ( ndx ) ) . get longest length ( ) ;  <NL> longest = math . max ( next , longest ) ;  <NL>  }  <NL> return longest ;  <NL>  }  COM: <s> determine the maximum length </s>

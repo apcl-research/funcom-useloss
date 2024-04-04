@@ -1,0 +1,1 @@
+TDAT: public void add ( byte new byte ) {  <NL> if ( size = = array . length ) {  <NL> byte [ ] new array = new byte [ array . length + 1024 ] ;  <NL> system . arraycopy ( array , 0 , new array , 0 , array . length ) ;  <NL> array = new array ;  <NL>  }  <NL> array [ size + + ] = new byte ;  <NL>  }  COM: <s> description of the method </s>

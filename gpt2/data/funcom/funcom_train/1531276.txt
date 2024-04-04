@@ -1,0 +1,1 @@
+TDAT: public boolean evaluate boolean ( geo point pt ) {  <NL> if ( f vars . length = = 1 & & " y " . equals ( f vars [ 0 ] . to string ( ) ) )  <NL> return evaluate boolean ( new double [ ] { pt . y / pt . z } ) ;  <NL> return evaluate boolean ( new double [ ] { pt . x / pt . z , pt . y / pt . z } ) ;  <NL>  }  COM: <s> evaluates function at given point as boolean </s>

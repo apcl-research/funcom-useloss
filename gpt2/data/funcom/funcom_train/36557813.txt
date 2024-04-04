@@ -1,0 +1,1 @@
+TDAT: public void get pants color ( float [ ] rgb out ) {  <NL> if ( rgb out = = null || rgb out . length < 3 )  <NL> throw new illegal argument exception ( " unacceptable array provided ! " ) ;  <NL> rgb out [ 0 ] = pants color [ 0 ] ;  <NL> rgb out [ 1 ] = pants color [ 1 ] ;  <NL> rgb out [ 2 ] = pants color [ 2 ] ;  <NL>  }  COM: <s> retrieve the pants color </s>

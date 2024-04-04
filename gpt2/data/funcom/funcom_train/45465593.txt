@@ -1,0 +1,1 @@
+TDAT: public boolean has facet ( string name ) {  <NL> if ( name = = null ) return false ;  <NL> for ( int i = 0 ; i < facets . size ( ) ; i + + ) {  <NL> facet facet = facets . get ( i ) ;  <NL> if ( name . equals ( facet . get name ( ) ) ) return true ;  <NL>  }  <NL> return false ;  <NL>  } / / - - has facet  COM: <s> returns true if this simpletype has a specified facet </s>

@@ -1,0 +1,1 @@
+TDAT: public boolean equals ( object o ) {  <NL> if ( ! ( o instanceof pkg cons ) ) return false ;  <NL> if ( o = = this ) return true ;  <NL> pkg cons oo = ( pkg cons ) o ;  <NL> return ( ( ( object ) id ) . equals ( oo . id ) ) & & ( ( ( object ) rest ) . equals ( oo . rest ) ) ;  <NL>  }  COM: <s> is the given object equal to this pkg cons </s>

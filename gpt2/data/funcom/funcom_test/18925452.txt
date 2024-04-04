@@ -1,0 +1,1 @@
+TDAT: public element render ( request context context , document factory , category cat ) {  <NL> element elem = factory . create element ( element name ) ;  <NL> elem . set attribute ( " name " , cat . get name ( ) ) ;  <NL> elem . set attribute ( " icon " , cat . get icon ( ) ) ;  <NL> return elem ;  <NL>  }  COM: <s> creates a dom element with attributes name and icon </s>

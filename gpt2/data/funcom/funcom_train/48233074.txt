@@ -1,0 +1,1 @@
+TDAT: private void start ad ( ) throws io exception , parse exception {  <NL> asn1syntax2dtd a2d = new asn1syntax2dtd ( ) ;  <NL> reader in = new file reader ( src ) ;  <NL> writer out = new print writer ( system . out ) ;  <NL> if ( des ! = null ) {  <NL> out = new file writer ( des ) ;  <NL>  }  <NL> a2d . translate ( in , out ) ;  <NL>  }  COM: <s> translates an asn </s>

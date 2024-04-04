@@ -1,0 +1,1 @@
+TDAT: public void add item ( string bookmark , string item string , int type ) {  <NL> item item = new item ( bookmark , item string , type ) ;  <NL> extended item extended item = new extended item ( item , this ) ;  <NL> items . remove ( extended item ) ;  <NL> items . add first ( extended item ) ;  <NL>  }  COM: <s> adds new item or resorts the contained item </s>

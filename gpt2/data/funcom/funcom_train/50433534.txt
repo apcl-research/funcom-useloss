@@ -1,0 +1,1 @@
+TDAT: public void reject ( int low , int high ) {  <NL> debug . assert ( low > = 0 & & low < = filter set . size ( ) , " out of range " ) ;  <NL> debug . assert ( high > = 0 & & high < = filter set . size ( ) , " out of range " ) ;  <NL> for ( int i = low ; i < high ; i + + ) {  <NL> filter set . clear ( i ) ;  <NL>  }  <NL>  } / / of reject  COM: <s> filter out these values </s>

@@ -1,0 +1,1 @@
+TDAT: public void set copyright ( string copyright , string company ) {  <NL> if ( company ! = null ) {  <NL> this . j text field copyright . set text ( " ( c ) " + copyright + " " + company ) ;  <NL>  } else {  <NL> this . j text field copyright . set text ( " ( c ) " + copyright ) ;  <NL>  } / / end - if <NL> return ;  <NL>  }  COM: <s> use to set copyright manually </s>

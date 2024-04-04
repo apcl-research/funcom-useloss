@@ -1,0 +1,1 @@
+TDAT: public void test hash code ( ) {  <NL> assert true ( _ ts3 . hash code ( ) = = _ ts4 . hash code ( ) ) ;  <NL> assert true ( _ ts2 . hash code ( ) + " ! = " + _ ts3 . hash code ( ) ,  <NL>  _ ts2 . hash code ( ) ! = _ ts3 . hash code ( ) ) ;  <NL>  }  COM: <s> tests the hashcode method </s>

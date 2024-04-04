@@ -1,0 +1,1 @@
+TDAT: public boolean is complete ( ) {  <NL> return ! ( ( question = = null )  <NL>  & & " " . equals ( question )  <NL>  & & ( answer = = null )  <NL>  & & " " . equals ( answer )  <NL>  & & ( context = = null )  <NL>  & & " " . equals ( context )  <NL>  & & ( hint = = null )  <NL>  & & " " . equals ( hint ) ) ;  <NL>  }  COM: <s> a testpair is complete if all fields exist </s>

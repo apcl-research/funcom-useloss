@@ -1,0 +1,1 @@
+TDAT: public void update _ user info _ login ( long userid , string ip ) throws id empty exception {  <NL> user info ui = find user info by id ( userid ) ;  <NL> if ( ui ! = null ) {  <NL> ui . set last _ login _ ip _ address ( ip ) ;  <NL> ui . set last _ login _ date ( new date ( ) ) ;  <NL> user info dao . update ( ui ) ;  <NL>  }  <NL>  }  COM: <s> user info id </s>

@@ -1,0 +1,1 @@
+TDAT: public void test equals ( ) {  <NL> system . out . println ( " test equals " ) ;  <NL> assert . assert true ( empty . equals ( source location . get source location ( " " , 0 , 0 , 0 , 0 ) ) ) ;  <NL> assert . assert true ( a11 . equals ( source location . get source location ( " a " , 1 , 1 , 0 , 0 ) ) ) ;  <NL>  }  COM: <s> test of equals method of class be </s>

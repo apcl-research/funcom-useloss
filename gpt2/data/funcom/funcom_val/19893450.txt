@@ -1,0 +1,1 @@
+TDAT: public void reload users ( ) {  <NL> try {  <NL> m config . get user manager ( ) . reload ( ) ;  <NL> refresh ( m config ) ;  <NL>  }  <NL> catch ( exception ex ) {  <NL> m config . get logger ( ) . error ( ex ) ;  <NL> gui utils . show error message ( get tree ( ) . get root panel ( ) , ex . get message ( ) ) ;  <NL>  }  <NL>  }  COM: <s> initialize user list </s>

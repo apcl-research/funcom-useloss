@@ -1,0 +1,1 @@
+TDAT: public void draw bounds ( color c ) {  <NL> identity . set to identity ( ) ;  <NL> g2d . set transform ( identity ) ;  <NL> g2d . set color ( c ) ;  <NL> g2d . draw rect ( get bounds ( ) . x , get bounds ( ) . y , get bounds ( ) . width , get bounds ( ) . height ) ;  <NL>  }  COM: <s> draw the bounding rectangle of this sprite2 d into the drawing surface </s>

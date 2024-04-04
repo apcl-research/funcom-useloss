@@ -1,0 +1,1 @@
+TDAT: public void truncate ( int index ) {  <NL> logger . info ( " truncate " + index ) ;  <NL> list . get ( index ) . close ( ) ;  <NL> list . set ( index , open ( get path ( path ) + filename + index , map , true ) ) ;  <NL> list . get ( index ) . close ( ) ;  <NL>  }  COM: <s> truncate all channels for same prefix </s>

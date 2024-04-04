@@ -1,0 +1,1 @@
+TDAT: public void modify component attributes ( ) {  <NL> get component ( person . firstname ) . set style ( " width " , " 100px " ) ;  <NL> get component ( person . surname ) . set style ( " width " , " 100px " ) ;  <NL> get component ( person . cash ) . set style ( " color " , " red " ) ;  <NL>  }  COM: <s> how to set some attributes </s>

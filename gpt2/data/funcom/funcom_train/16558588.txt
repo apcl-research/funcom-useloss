@@ -1,0 +1,1 @@
+TDAT: public void test symbol type definition ( ) {  <NL> for ( int i = 0 ; i < symbols . length ; i + + ) {  <NL> assert false ( " symbol no . " + i + " ' " + get name for symbol ( symbols [ i ] ) + " ' " ,  <NL> symbols [ i ] . get symbol type ( ) = = 0 ) ;  <NL>  <NL>  }  <NL>  }  COM: <s> ensures that symbols defined which can of fshape is the symbol </s>

@@ -1,0 +1,1 @@
+TDAT: public void test less than in contents ( ) throws system exception {  <NL> string input = " < strong > b < this is not a tag < / strong > " ;  <NL> string output = html filter parser . filter ( input ) ;  <NL> assert equals ( " < strong > b & lt ; this is not a tag < / strong > " , output ) ;  <NL>  }  COM: <s> test a less than sign inside a tags contents </s>

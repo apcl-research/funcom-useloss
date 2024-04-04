@@ -1,0 +1,1 @@
+TDAT: public boolean is field empty ( ) {  <NL> for ( int i = size y - 1 ; i > = 0 ; i - - ) {  <NL> for ( int j = size x - 1 ; j > = 0 ; j - - ) {  <NL> if ( field [ i ] [ j ] ! = 0 ) {  <NL> return false ;  <NL>  }  <NL>  }  <NL>  }  <NL> return true ;  <NL>  }  COM: <s> must be called if gameover to check is bonus needed </s>

@@ -1,0 +1,1 @@
+TDAT: public void repaint to ( int x , int y ) {  <NL> canvas . repaint ( math . min ( x , get x centerline ( ) ) ,  <NL> math . min ( y , get y centerline ( ) ) ,  <NL> math . abs ( 1 + get x centerline ( ) - x ) ,  <NL> math . abs ( 1 + get y centerline ( ) - y ) ) ;  <NL>  }  COM: <s> mark a region from the the objects current point as needing repainting </s>

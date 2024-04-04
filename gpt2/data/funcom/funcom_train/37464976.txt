@@ -1,0 +1,1 @@
+TDAT: public void stats ( file in file ) {  <NL> map < string , double > info = read file ( in file ) ;  <NL> double max = get max ( info ) ;  <NL> system . out . println ( " max : " + max ) ;  <NL> double min = get min ( info ) ;  <NL> system . out . println ( " min : " + min ) ;  <NL>  }  COM: <s> method for statistics for the medconf score files </s>

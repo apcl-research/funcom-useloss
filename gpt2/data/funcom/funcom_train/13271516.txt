@@ -1,0 +1,1 @@
+TDAT: public void set x end ( float x end ) {  <NL> if ( x end ! = this . x end ) {  <NL> float old x end = this . x end ;  <NL> this . x end = x end ;  <NL> clear points cache ( ) ;  <NL> this . property change support . fire property change ( property . x _ end . name ( ) , old x end , x end ) ;  <NL>  }  <NL>  }  COM: <s> sets the end point abscissa of this wall </s>

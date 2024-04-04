@@ -1,0 +1,1 @@
+TDAT: public void select next image ( boolean wrap ) {  <NL> int index = get selected image ( ) ;  <NL> if ( index > = 0 ) {  <NL> if ( wrap )  <NL> index = ( index + 1 ) % images . size ( ) ;  <NL> else <NL> index = ( index = = images . size ( ) - 1 ) ? index : index + 1 ;  <NL>  }  <NL> set selected image ( index ) ;  <NL>  }  COM: <s> selects the next image image </s>

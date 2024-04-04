@@ -1,0 +1,1 @@
+TDAT: public void create connector ( string title , graphics object n1 , graphics object n2 ) {  <NL> graphics connector gc = new graphics connector ( title , n1 , n2 ) ;  <NL> pict . add object ( gc ) ;  <NL> reset editors ( ) ;  <NL> set changed ( ) ;  <NL> notify observers ( new msg ( msg . connector _ created ) ) ;  <NL>  }  COM: <s> creates new connector </s>

@@ -1,0 +1,1 @@
+TDAT: protected void generate header ( table information info , string buffer res ) {  <NL> res . append ( " < th class = \ " " )  <NL>  . append ( this . header style class )  <NL>  . append ( " \ " > " )  <NL>  . append ( info . get column label ( this . label code ) )  <NL>  . append ( " < / th > " ) ;  <NL>  }  COM: <s> generate the header in the given string buffer </s>

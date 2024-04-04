@@ -1,0 +1,1 @@
+TDAT: public cms link add link ( cms relation type type , string target uri , boolean internal ) {  <NL>  <NL> cms link link = new cms link ( link _ prefix + m _ link table . size ( ) , type , target uri , internal ) ;  <NL> m _ link table . put ( link . get name ( ) , link ) ;  <NL> return link ;  <NL>  }  COM: <s> adds a new link to the link table </s>

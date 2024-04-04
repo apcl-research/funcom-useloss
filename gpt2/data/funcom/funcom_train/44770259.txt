@@ -1,0 +1,1 @@
+TDAT: public int hash code ( ) {  <NL>  / / q name is immutable , we can store the computed hash code value <NL> int h = hash ;  <NL> if ( h = = 0 ) {  <NL> h = 17 ;  <NL> h = 37 * h + namespace uri . hash code ( ) ;  <NL> h = 37 * h + local name . hash code ( ) ;  <NL> hash = h ;  <NL>  }  <NL> return h ;  <NL>  }  COM: <s> returns the hash code of this qualified name </s>

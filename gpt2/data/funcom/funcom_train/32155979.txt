@@ -1,0 +1,1 @@
+TDAT: public j spinner get max cp cx ( ) {  <NL> if ( max cp cx = = null ) {  <NL> max cp cx = new j spinner ( new spinner number model ( 0 . 70 , 0 . 01 , 1 , 0 . 01 ) ) ;  <NL> max cp cx . set bounds ( new rectangle ( 270 , 70 , 60 , 22 ) ) ;  <NL>  }  <NL> return max cp cx ;  <NL>  }  COM: <s> this method initializes max cp cx </s>

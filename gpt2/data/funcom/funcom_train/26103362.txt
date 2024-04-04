@@ -1,0 +1,1 @@
+TDAT: public boolean update quick message ( long id , string message ) {  <NL> content values vals = new content values ( ) ;  <NL> vals . put ( key _ quickmessage , message ) ;  <NL> return m db . update ( quickmessages _ db _ table , vals , key _ rowid + " = " + id , null ) > 0 ;  <NL>  }  COM: <s> updates a quick message in the database </s>

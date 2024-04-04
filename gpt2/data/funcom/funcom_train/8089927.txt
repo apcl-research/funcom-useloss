@@ -1,0 +1,1 @@
+TDAT: public void initialize ( ) {  <NL> m _ matrix = new object [ m _ size ] [ m _ size ] ;  <NL> for ( int i = 0 ; i < m _ size ; i + + ) {  <NL> for ( int j = 0 ; j < m _ size ; j + + ) {  <NL> set cell ( i , j , i = = j ? new double ( 0 . 0 ) : new double ( 1 . 0 ) ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> initializes the matrix </s>

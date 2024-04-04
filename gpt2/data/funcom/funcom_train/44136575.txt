@@ -1,0 +1,1 @@
+TDAT: public void notify title change ( osm element elt ) {  <NL> for ( int i = 0 ; i < m _ client list . size ( ) ; i + + ) {  <NL> osm element event listener lster = ( osm element event listener ) m _ client list . get ( i ) ;  <NL> lster . on title change ( new osm element event ( elt ) ) ;  <NL>  }  <NL>  }  COM: <s> to notify a title change </s>

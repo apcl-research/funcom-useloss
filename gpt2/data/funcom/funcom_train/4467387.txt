@@ -1,0 +1,1 @@
+TDAT: public void test to css ( ) {  <NL>  <NL> assert not null ( color . to css ( true ) ) ;  <NL> assert equals ( " rgba ( 127 , 255 , 233 , 0 . 49803921580314636 ) " , color . to css ( true ) ) ;  <NL> assert not null ( color . to css ( false ) ) ;  <NL> assert equals ( " rgb ( 127 , 255 , 233 ) " , color . to css ( false ) ) ;  <NL>  }  COM: <s> tests the to css method </s>

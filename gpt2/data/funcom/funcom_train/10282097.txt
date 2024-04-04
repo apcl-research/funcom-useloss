@@ -1,0 +1,1 @@
+TDAT: public void add track ( file file , string guid ) {  <NL>  <NL> if ( ! has track ( file . get name ( ) ) ) {  <NL> cache entry ct = new cache entry ( file . get name ( ) , guid ) ;  <NL> m list . add ( ct ) ;  <NL> ct . set data controller ( this ) ;  <NL> set modified ( ) ;  <NL>  }  <NL>  }  COM: <s> add a track to the register </s>

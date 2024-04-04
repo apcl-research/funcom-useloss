@@ -1,0 +1,1 @@
+TDAT: public void add all elements ( collection < visual page list item > c ) {  <NL> if ( c ! = null ) {  <NL> int i = 0 ;  <NL> for ( visual page list item element : c ) {  <NL> data . add ( element ) ;  <NL> i + + ;  <NL>  }  <NL> fire interval added ( this , data . size ( ) , data . size ( ) + i - 1 ) ;  <NL>  }  <NL>  }  COM: <s> delegated to the vector add all </s>

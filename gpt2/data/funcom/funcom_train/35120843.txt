@@ -1,0 +1,1 @@
+TDAT: public double dim ( ) {  <NL> double cr = 34 . 50 ; / / cr = 5ћ2 / ( 4m0r02 ) , m0 = 0 , 01044 мэв ( зс ) 2 / фм2 , ro = 1 , 2249 фм ( 1 зс = 10 - 21 с ) .  <NL> return cr * moment * moment * pow ( nucleus . get a ( ) , - 5 . 0 / 3 . 0 ) ;  <NL>  }  COM: <s> rotation energy functional calculates in units </s>

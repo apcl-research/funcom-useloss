@@ -1,0 +1,1 @@
+TDAT: public attribute set value ( string value ) {  <NL> if ( logger . is debug enabled ( ) ) {  <NL> logger . debug ( " set value : value = \ " " + value + " \ " " ) ; / / $ non - nls - 1 $ / / $ non - nls - 2 $  <NL>  }  <NL> element . set attribute ( delegate . get name ( ) , value ) ;  <NL> return delegate ;  <NL>  }  COM: <s> delegates to the owning element </s>

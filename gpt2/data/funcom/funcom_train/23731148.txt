@@ -1,0 +1,1 @@
+TDAT: public cursor fetch all positions ( ) {  <NL>  <NL> return m db . query ( database _ table , new string [ ] { key _ rowid , key _ sheepid , key _ lat ,  <NL> key _ lon , key _ timestamp , key _ route _ id , key _ route _ desc } , null , null , null , null , null ) ;  <NL>  }  COM: <s> return a cursor over the list of all positions in the database </s>

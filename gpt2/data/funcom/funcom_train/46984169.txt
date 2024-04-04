@@ -1,0 +1,1 @@
+TDAT: public void setup ( match source ) {  <NL> int size ;  <NL> set chr ( source . get chr ( ) ) ;  <NL> this . pos _ . clear ( ) ;  <NL> size = source . pos _ . size ( ) ;  <NL> for ( int i = 0 ; i < size ; i + + ) {  <NL> add pos ( ( pos ) source . get pos ( i ) . clone ( ) ) ;  <NL>  }  <NL>  }  COM: <s> initializes the code match code by the match code source code </s>

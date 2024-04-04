@@ -1,0 +1,1 @@
+TDAT: private company find company ( ) {  <NL> company result = new company ( ) ;  <NL> result . set ( company . id , 20l ) ;  <NL> result . set ( company . name , " my company " ) ;  <NL> result . set ( company . city , " prague " ) ;  <NL> result . set ( company . created , new date ( ) ) ;  <NL>  <NL> return result ;  <NL>  }  COM: <s> find an company somewhere </s>

@@ -1,0 +1,1 @@
+TDAT: public int matrix get int matrix ( ) {  <NL> int matrix im = new int matrix ( rows , cols ) ;  <NL> int [ ] [ ] matrix = im . get matrix ( ) ;  <NL> for ( int i = 0 ; i < rows ; i + + ) {  <NL> for ( int j = 0 ; j < cols ; j + + ) {  <NL> matrix [ i ] [ j ] = ( int ) flmat [ i ] [ j ] ;  <NL>  }  <NL>  }  <NL> return im ;  <NL>  }  COM: <s> constructs an int matrix </s>

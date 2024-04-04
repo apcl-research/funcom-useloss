@@ -1,0 +1,1 @@
+TDAT: public int hash code ( ) {  <NL> if ( this . hash code = = 0 ) {  <NL> final int len = this . keys . size ( ) ;  <NL> for ( int i = 0 ; i < len ; i + + ) {  <NL> this . hash code + = this . keys . get ( i ) . hash code ( ) ;  <NL>  }  <NL> if ( len % 2 = = 0 ) this . hash code + + ;  <NL>  }  <NL> return this . hash code ;  <NL>  }  COM: <s> generate a hash code </s>

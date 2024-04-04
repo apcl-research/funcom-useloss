@@ -1,0 +1,1 @@
+TDAT: public attribute set attrs ( boolean is source , boolean is placeholder , boolean is remove text , boolean is nbsp ) {  <NL> return settings . get attribute set ( is source , is placeholder , is remove text , ste . get duplicate ( ) , active , trans exist , note exist , is nbsp ) ;  <NL>  }  COM: <s> choose segment part attributes based on rules </s>

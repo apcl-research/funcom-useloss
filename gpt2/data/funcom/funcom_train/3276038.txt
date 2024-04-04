@@ -1,0 +1,1 @@
+TDAT: protected byte map set to num ( char c , char [ ] set ) {  <NL> byte f = chess board . null _ file ;  <NL> for ( byte i = 0 ; f = = chess board . null _ file & & i < set . length ; i + + )  <NL> if ( c = = set [ i ] )  <NL> f = ( byte ) ( i + 1 ) ;  <NL> return f ;  <NL>  }  COM: <s> maps a character to a index for internationalization use </s>

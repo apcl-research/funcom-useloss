@@ -1,0 +1,1 @@
+TDAT: public string get url ( ) {  <NL> string s = " http : / / " + get ip ( ) + " : " + get port ( ) ;  <NL> if ( ! s . equals ( handle . url ) )  <NL> log . log this ( " warning _ inconsistency " + s + " < neq > " + handle . url ) ;  <NL> return handle . url ;  <NL>  }  COM: <s> get the url for this without trailing </s>

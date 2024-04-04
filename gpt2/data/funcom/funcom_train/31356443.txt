@@ -1,0 +1,1 @@
+TDAT: public void set date ( int parameter index , java . sql . date x ) throws sql exception {  <NL> if ( trace . trace ) trace . trace ( ) ;  <NL> if ( x = = null ) {  <NL> set null ( parameter index ) ;  <NL>  } else {  <NL> set parameter ( parameter index , " ' " + x . to string ( ) + " ' " ) ;  <NL>  }  <NL>  }  COM: <s> sets the designated parameter to a java </s>

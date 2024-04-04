@@ -1,0 +1,1 @@
+TDAT: public boolean is supervisor ( ) {  <NL> if ( object = = null ) {  <NL> return false ;  <NL>  } else if ( ( ( task ) object ) . get people links ( ) . get supervisor ( ) = = null ) {  <NL> return false ;  <NL>  }  <NL> return ( ( task ) object ) . get people links ( ) . get supervisor ( ) . is role ( ) ;  <NL>  }  COM: <s> returns if the supervisor role is set </s>

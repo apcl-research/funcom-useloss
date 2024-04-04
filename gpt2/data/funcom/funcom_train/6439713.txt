@@ -1,0 +1,1 @@
+TDAT: public void update localized strings ( string sh text , char key , string lng text ) {  <NL> set short text ( message format . format ( sh text , new string [ ] { " " , " " } ) ) ;  <NL> set mnemonic ( key ) ;  <NL> set long text ( lng text ) ;  <NL> full text cmd = sh text ;  <NL>  }  COM: <s> update potentially localized strings </s>

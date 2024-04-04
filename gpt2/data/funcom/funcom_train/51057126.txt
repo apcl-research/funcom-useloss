@@ -1,0 +1,1 @@
+TDAT: public object create cursor ( int width , int height , int x hotspot , int y hotspot , int num images , int buffer images , int buffer delays ) throws lwjgl exception {  <NL> return awt util . create cursor ( width , height , x hotspot , y hotspot , num images , images , delays ) ;  <NL>  }  COM: <s> native cursor handles </s>

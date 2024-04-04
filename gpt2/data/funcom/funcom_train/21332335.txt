@@ -1,0 +1,1 @@
+TDAT: public void set url ( string _ st url ) {  <NL> is html src = null ;  <NL> st url = ( null = = _ st url || 0 = = _ st url . length ( ) ) ? st about blank : _ st url ;  <NL> if ( is peer ready ( ) ) {  <NL> set document ready ( false ) ;  <NL> br peer . accept target url ( ) ;  <NL>  }  <NL>  }  COM: <s> sets the current document url </s>

@@ -1,0 +1,1 @@
+TDAT: public double get standard deviation bin size ( final double mean ) {  <NL> double total = 0 ;  <NL> for ( final bin bin : values ( ) ) {  <NL> total + = math . pow ( bin . get value ( ) - mean , 2 ) ;  <NL>  }  <NL> return math . sqrt ( total / ( math . max ( 1 , values ( ) . size ( ) - 1 ) ) ) ;  <NL>  }  COM: <s> calculates the standard deviation of the bin size </s>

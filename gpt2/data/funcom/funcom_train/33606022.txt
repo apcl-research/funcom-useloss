@@ -1,0 +1,1 @@
+TDAT: public void flip vertical ( ) {  <NL> graph e g2 = g . clone ( ) ;  <NL> g2 . reverse labels ( ) ;  <NL> g . clear ( ) ;  <NL> for ( edge e : g2 ) { this . add edge ( e . get source ( ) , e . get sink ( ) , e . get weight ( ) ) ; }  <NL> init puts ( out , in ) ;  <NL>  }  COM: <s> flips the term upside down </s>

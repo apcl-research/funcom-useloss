@@ -1,0 +1,1 @@
+TDAT: public boolean is a ( platform p ) {  <NL> if ( p ! = null & & p . get id ( ) ! = null & & id ! = null & & p . get id ( ) . equals ( any ) )  <NL> return true ;  <NL>  <NL> return p ! = null & & id . to string ( ) . starts with ( p . get id ( ) . to string ( ) ) ;  <NL>  }  COM: <s> returns whether this instance is the given platform </s>

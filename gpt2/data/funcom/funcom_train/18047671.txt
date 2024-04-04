@@ -1,0 +1,1 @@
+TDAT: static public double cross product ( point p0 , point p1 , point p2 ) {  <NL>  / / positive if ccw <NL> double <NL> dx1 = p1 . x - p0 . x ,  <NL> dy1 = p1 . y - p0 . y ,  <NL> dx2 = p2 . x - p0 . x ,  <NL> dy2 = p2 . y - p0 . y ;  <NL>  <NL> return dx1 * dy2 - dy1 * dx2 ;  <NL>  }  COM: <s> cross product of three points </s>

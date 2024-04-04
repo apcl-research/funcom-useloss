@@ -1,0 +1,1 @@
+TDAT: public gadget add ( gadget gadget , int i ) {  <NL> gadget rtn ;  <NL> if ( gadget instanceof list grid item ) {  <NL> rtn = super . add ( gadget , i ) ;  <NL>  }  <NL> else {  <NL> rtn = super . add ( new list grid item ( this , gadget , item border ) , i ) ;  <NL>  }  <NL> invalidate ( ) ;  <NL> return rtn ;  <NL>  }  COM: <s> adds a gadget to the list </s>

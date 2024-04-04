@@ -1,0 +1,1 @@
+TDAT: private float get mean ( float [ ] vals ) {  <NL> float mean = 0 ;  <NL> int n = 0 ;  <NL> for ( int i = 0 ; i < vals . length ; i + + ) {  <NL> if ( ! float . is na n ( vals [ i ] ) ) {  <NL> n + + ;  <NL> mean + = vals [ i ] ;  <NL>  }  <NL>  }  <NL> return ( n > 0 ? ( ( float ) ( mean / n ) ) : 0f ) ;  <NL>  }  COM: <s> returns a mean value for input </s>

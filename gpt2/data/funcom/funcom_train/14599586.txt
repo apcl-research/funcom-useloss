@@ -1,0 +1,1 @@
+TDAT: public boolean contains ( double x , double y , double w , double h ) {  <NL> int count = shapes . length ;  <NL> while ( count - - > 0 ) {  <NL> if ( shapes [ count ] . contains ( x , y , w , h ) ) {  <NL> return true ;  <NL>  }  <NL>  }  <NL> return false ;  <NL>  }  COM: <s> returns false unless one of the shapes contains the rectangle </s>

@@ -1,0 +1,1 @@
+TDAT: public un sync string buffer reverse ( ) {  <NL> int n = count - 1 ;  <NL> for ( int j = ( n - 1 ) > > 1 ; j > = 0 ; - - j ) {  <NL> char temp = value [ j ] ;  <NL> value [ j ] = value [ n - j ] ;  <NL> value [ n - j ] = temp ;  <NL>  }  <NL> return this ;  <NL>  }  COM: <s> the character sequence contained in this string buffer is </s>

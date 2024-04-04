@@ -1,0 +1,1 @@
+TDAT: public object read data ( java . io . data input i ) throws java . io . io exception {  <NL> org . egothor . store . disc . i list meta ilm =  <NL> new org . egothor . store . disc . i list meta ( i ) ;  <NL> last key = compress . read utfs ( i , last key ) ;  <NL> ilm . set key ( last key ) ;  <NL> return ilm ;  <NL>  }  COM: <s> constructs a new </s>

@@ -1,0 +1,1 @@
+TDAT: protected void add filter if poly model ( ) {  <NL> if ( model meta . get class hierarchy list ( ) . is empty ( ) ) {  <NL> return ;  <NL>  }  <NL> query . add filter (  <NL> model meta . get class hierarchy list name ( ) ,  <NL> filter operator . equal ,  <NL> model meta . get model class ( ) . get name ( ) ) ;  <NL>  }  COM: <s> adds a filter for polymorphic model </s>

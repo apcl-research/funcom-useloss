@@ -1,0 +1,1 @@
+TDAT: protected void clear ( boolean can flags ) {  <NL>  _ strategy = null ;  <NL>  _ cols = null ;  <NL>  _ io = null ;  <NL>  _ idx = null ;  <NL>  _ unq = null ;  <NL>  _ fk = null ;  <NL>  _ join = join _ none ;  <NL> if ( can flags ) {  <NL>  _ can idx = true ;  <NL>  _ can fk = true ;  <NL>  _ can unq = true ;  <NL>  }  <NL>  }  COM: <s> clear mapping information </s>

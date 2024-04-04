@@ -1,0 +1,1 @@
+TDAT: public boolean deploy object ( final string project , final string type , final string name ) throws ad integration exception {  <NL> logger . debug ( " deploy object : [ " + project + " , " + type + " , " + name + " ] " ) ;  <NL> return execute command ( project , type , name , " install " ) ;  <NL>  }  COM: <s> deploy or re deploy an object in antdepo </s>

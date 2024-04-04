@@ -1,0 +1,1 @@
+TDAT: public void set inner text ( string text ) {  <NL> test fixed ( false ) ;  <NL> this . inner text = text ;  <NL> if ( text . length ( ) > 0 & & this . node only ! = null ) {  <NL> add error ( " aspect % s cannot have label text % s " , this . node only , text ) ;  <NL>  }  <NL> set fixed ( ) ;  <NL>  }  COM: <s> sets the label text to a non </s>

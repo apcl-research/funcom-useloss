@@ -1,0 +1,1 @@
+TDAT: public void test null tag ( ) {  <NL> get parameter table for ( " input type = " ) ;  <NL> assert equals ( " name of tag " , " input " , ( attributes . element at ( 0 ) ) . get name ( ) ) ;  <NL> assert null ( " type " , ( attributes . element at ( 2 ) ) . get value ( ) ) ;  <NL>  }  COM: <s> test empty attribute </s>

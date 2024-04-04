@@ -1,0 +1,1 @@
+TDAT: public void print to ant ( print stream ps , string default dir , string name ) {  <NL> ps . println ( " < path id = ' " + name + " ' > " ) ;  <NL> ps . println ( " < fileset dir = ' " + default dir + " ' > " ) ;  <NL> ps . println ( " " ) ;  <NL>  }  COM: <s> create filelist representation for ant </s>

@@ -1,0 +1,1 @@
+TDAT: protected void do execute ( ) throws build exception {  <NL> enumeration elems = get files ( ) . elements ( ) ;  <NL> log ( " processing " + files . size ( ) + " elements . . . " ) ;  <NL> while ( elems . has more elements ( ) ) {  <NL> execute ( options , ( cc file ) elems . next element ( ) ) ;  <NL>  }  <NL>  }  COM: <s> the core processing </s>

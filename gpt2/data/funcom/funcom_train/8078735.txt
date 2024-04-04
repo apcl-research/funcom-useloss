@@ -1,0 +1,1 @@
+TDAT: public object clone ( ) {  <NL> pace matrix x = new pace matrix ( m , n ) ;  <NL> double [ ] [ ] c = x . get array ( ) ;  <NL> for ( int i = 0 ; i < m ; i + + ) {  <NL> for ( int j = 0 ; j < n ; j + + ) {  <NL> c [ i ] [ j ] = a [ i ] [ j ] ;  <NL>  }  <NL>  }  <NL> return ( object ) x ;  <NL>  }  COM: <s> clone the pace matrix object </s>

@@ -1,0 +1,1 @@
+TDAT: public void add attribute ( string name , string description ) {  <NL> write ( " < attribute name = ' " , third level indent ) ;  <NL> write text ( name , no _ indent ) ;  <NL> write ( " ' > " , no _ indent ) ;  <NL> write text ( description , no _ indent ) ;  <NL> writeln ( " < / attribute > " , no _ indent ) ;  <NL>  }  COM: <s> add the attribute </s>

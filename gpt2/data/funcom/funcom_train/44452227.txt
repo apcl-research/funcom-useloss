@@ -1,0 +1,1 @@
+TDAT: public void add call ( action event event ) {  <NL> call bean call = new call bean ( ) ;  <NL> call . set rule ( this ) ;  <NL> add call ( call ) ;  <NL>  <NL> curr element = call ;  <NL>  <NL> util . get change logger ( ) . log change ( new change ( change . change type . call _ add , null , call , this ) ) ;  <NL>  }  COM: <s> action listener method for adding calls </s>

@@ -1,0 +1,1 @@
+TDAT: protected j panel get left label ( string label ) {  <NL> j panel p = new j panel ( ) ;  <NL> p . set layout ( new box layout ( p , box layout . x _ axis ) ) ;  <NL> p . add ( new j label ( label ) ) ;  <NL> p . add ( box . create horizontal glue ( ) ) ;  <NL> return p ;  <NL>  }  COM: <s> generate a panel with a label pushed to the left </s>

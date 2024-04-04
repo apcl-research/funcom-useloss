@@ -1,0 +1,1 @@
+TDAT: public void put ( string key , int value ) throws illegal argument exception {  <NL> if ( value < 0 ) / / int2min leb doesn ' t work on negative values <NL> throw new illegal argument exception ( " negative value : " + value + " for key : " + key ) ;  <NL> put ( key , byte utils . int2min leb ( value ) ) ;  <NL>  }  COM: <s> adds a key with integer value </s>

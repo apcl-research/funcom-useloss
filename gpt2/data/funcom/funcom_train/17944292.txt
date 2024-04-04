@@ -1,0 +1,1 @@
+TDAT: public void re sort ( ) {  <NL> alarm [ ] alarms = new alarm [ list . size ( ) ] ;  <NL> for ( int i = 0 ; i < list . size ( ) ; i + + ) {  <NL> alarms [ i ] = list . get ( i ) ;  <NL>  }  <NL> list . clear ( ) ;  <NL> for ( int i = 0 ; i < alarms . length ; i + + ) {  <NL> this . add alarm ( alarms [ i ] ) ;  <NL>  }  <NL>  }  COM: <s> sorts whole list of alarms </s>

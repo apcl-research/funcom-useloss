@@ -1,0 +1,1 @@
+TDAT: public void delete ( ) throws j gimp proxy exception , j gimp procedure not found exception , j gimp invalid data coercion exception , j gimp incorrect arg count exception , j gimp procedure execution exception , j gimp exception {  <NL> m _ app . call procedure ( " gimp _ display _ delete " , this ) ;  <NL>  }  COM: <s> deletes this display </s>

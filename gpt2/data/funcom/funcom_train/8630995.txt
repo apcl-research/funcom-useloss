@@ -1,0 +1,1 @@
+TDAT: public value create clob ( reader x , long length ) throws sql exception {  <NL> if ( x = = null ) {  <NL> return value null . instance ;  <NL>  }  <NL> if ( length < = 0 ) {  <NL> length = - 1 ;  <NL>  }  <NL> value v = value lob . create clob ( x , length , session . get data handler ( ) ) ;  <NL> return v ;  <NL>  }  COM: <s> create a clob value from this reader </s>

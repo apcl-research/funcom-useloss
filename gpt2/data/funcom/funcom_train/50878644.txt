@@ -1,0 +1,1 @@
+TDAT: public void set buttons visible ( boolean in visible ) {  <NL> if ( in visible = = true ) my popup menu . set location ( get location on screen ( ) . x + get width ( ) / 2 , get location on screen ( ) . y + get height ( ) / 2 ) ;  <NL> my popup menu . set visible ( in visible ) ;  <NL>  }  COM: <s> show the cascading buttons </s>

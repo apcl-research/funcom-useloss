@@ -1,0 +1,1 @@
+TDAT: public void filter ( gl texture filter tex filter , gl texture dest tex , float dest a ) {  <NL> tex filter . set tint ( 255 , 255 * dest a ) ;  <NL> tex filter . apply ( new gl texture [ ] { this } , new gl texture [ ] { dest tex } , null ) ;  <NL>  }  COM: <s> applies filter tex filter using this texture as source dest tex as </s>

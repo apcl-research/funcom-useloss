@@ -1,0 +1,1 @@
+TDAT: private string trim double quotes ( string str ) {  <NL> if ( str = = null || str . length ( ) < = 1 )  <NL> return str ;  <NL>  <NL> if ( str . starts with ( " \ " " ) & & str . ends with ( " \ " " ) )  <NL> str = str . substring ( 1 , str . length ( ) - 1 ) ;  <NL>  <NL> return str ;  <NL>  }  COM: <s> trim off leading and trailing double quotes </s>

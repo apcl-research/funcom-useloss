@@ -1,0 +1,1 @@
+TDAT: public void draw arc ( object gfx , int x , int y , int width , int height , int start angle , int arc angle ) {  <NL> graphics g = ( graphics ) gfx ;  <NL> g . draw arc ( x , y , width , height , start angle , arc angle ) ;  <NL>  }  COM: <s> draws the outline of a circular or elliptical arc covering the specified rectangle </s>

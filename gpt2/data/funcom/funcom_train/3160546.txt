@@ -1,0 +1,1 @@
+TDAT: public void register plug in ( visat plug in plug in ) {  <NL> if ( plug in = = null ) {  <NL> return ;  <NL>  }  <NL> if ( _ plug ins = = null ) {  <NL>  _ plug ins = new array list ( ) ;  <NL>  }  <NL> if ( _ plug ins . contains ( plug in ) ) {  <NL> return ;  <NL>  }  <NL>  _ plug ins . add ( plug in ) ;  <NL>  }  COM: <s> registers the given plug in </s>

@@ -1,0 +1,1 @@
+TDAT: protected content item get content item ( page state state ) {  <NL> if ( cms . get context ( ) . has content item ( ) ) {  <NL> return cms . get context ( ) . get content item ( ) ;  <NL>  } else {  <NL> cms page page = ( cms page ) state . get page ( ) ;  <NL> return page . get content item ( state ) ;  <NL>  }  <NL>  }  COM: <s> fetches the current content item </s>

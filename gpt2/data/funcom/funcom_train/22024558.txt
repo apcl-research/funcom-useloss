@@ -1,0 +1,1 @@
+TDAT: public void destroy ( ) {  <NL> if ( this . parent space ! = null )  <NL> this . parent space . remove ( this ) ;  <NL>  / / if ( ( gflags & geom _ placeable ) & & ! ( body ! = null ) ) d free <NL>  / / ( pos , sizeof ( dx pos r ) ) ;  <NL> this . body remove ( ) ;  <NL>  }  COM: <s> destroy a geom removing it from any space it is in first </s>

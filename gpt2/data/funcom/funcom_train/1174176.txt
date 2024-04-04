@@ -1,0 +1,1 @@
+TDAT: public void add damage ( final int damage , final card source ) {  <NL> int damage to do = damage ;  <NL>  <NL> damage to do = replace damage ( damage to do , source , false ) ;  <NL> damage to do = prevent damage ( damage to do , source , false ) ;  <NL>  <NL> add damage after prevention ( damage to do , source , false ) ;  <NL>  }  COM: <s> p add damage </s>

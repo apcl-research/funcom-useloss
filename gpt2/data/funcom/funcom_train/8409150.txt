@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> if ( i to string = = null ) {  <NL> string short name = class utils . get short class name ( get enum class ( ) ) ;  <NL> i to string = short name + " [ " + get name ( ) + " = " + get value ( ) + " ] " ;  <NL>  }  <NL> return i to string ;  <NL>  }  COM: <s> p human readable description of this code enum code item </s>

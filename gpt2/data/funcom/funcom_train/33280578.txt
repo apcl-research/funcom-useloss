@@ -1,0 +1,1 @@
+TDAT: public html select get select by name ( final string name ) throws element not found exception {  <NL> final list < html select > list = get selects by name ( name ) ;  <NL> if ( list . is empty ( ) ) {  <NL> throw new element not found exception ( " select " , " name " , name ) ;  <NL>  }  <NL> return list . get ( 0 ) ;  <NL>  }  COM: <s> returns the first </s>

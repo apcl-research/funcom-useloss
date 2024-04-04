@@ -1,0 +1,1 @@
+TDAT: private void fire started data ( string file name , file file , big hash chunk hash ) {  <NL> fire ( new add file tool event ( add file tool event . action _ started , add file tool event . type _ data , file , file name , null , chunk hash , null ) ) ;  <NL>  }  COM: <s> p notifies listeners that a data chunk is going to be uploaded </s>

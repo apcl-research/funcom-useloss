@@ -1,0 +1,1 @@
+TDAT: private feature vector get feature vector ( int i , int j , feature vector [ ] [ ] [ ] fvs ) {  <NL>  <NL> int small = math . min ( i , j ) ;  <NL> int large = math . max ( i , j ) ;  <NL> int dir = i < j ? 0 : 1 ;  <NL>  <NL> return fvs [ small ] [ large ] [ dir ] ;  <NL>  }  COM: <s> finds feature vector for unlabelled edge </s>

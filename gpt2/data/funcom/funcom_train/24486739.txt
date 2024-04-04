@@ -1,0 +1,1 @@
+TDAT: / *  <NL>  * private l2pc instance get next looter ( ) { _ item last loot + + ; if ( _ item last loot > get party members ( ) . size ( ) - 1 ) _ item last loot = 0 ; return ( get party members ( ) . size ( ) > 0 ) ? get party members ( ) . get ( _ item last loot ) : null ; }  COM: <s> get next item looter </s>

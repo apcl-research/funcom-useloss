@@ -1,0 +1,1 @@
+TDAT: public string to debug string ( ) {  <NL> return " [ name = " + name + " , number = " + contact . anonymize number ( number ) +  <NL>  " , gateway = " + gateway + " , status = " + status + " , gateway msg = " +  <NL> gateway msg + " , err msg = " + err msg + " ] " ;  <NL>  }  COM: <s> return very detailed description of the instance used mainly for </s>

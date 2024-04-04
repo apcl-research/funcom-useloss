@@ -1,0 +1,1 @@
+TDAT: public void set mvn home ( string mvn home ) {  <NL>  <NL> if ( ! mvn home . ends with ( file . separator ) ) {  <NL> mvn home = mvn home + file . separator ;  <NL>  }  <NL> this . mvn home = mvn home ;  <NL>  <NL> log . debug ( " mvn home = " + this . mvn home + " mvn should be in " + this . mvn home + mvn _ bin _ dir ) ;  <NL>  }  COM: <s> set mvn home </s>

@@ -1,0 +1,1 @@
+TDAT: private void consume error stream ( ) throws io exception {  <NL> int n ;  <NL> while ( ( n = error . available ( ) ) > 0 ) {  <NL> byte [ ] b = new byte [ n ] ;  <NL> n = error . read ( b ) ;  <NL> if ( n > 0 ) {  <NL> system . err . write ( b , 0 , n ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> consumes all pending bytes from the standard error stream of the </s>

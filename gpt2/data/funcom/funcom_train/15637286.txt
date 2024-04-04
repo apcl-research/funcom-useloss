@@ -1,0 +1,1 @@
+TDAT: protected void closing action ( ) {  <NL>  / / / system . out . println ( " close app " + we . get source ( ) . to string ( ) ) ;  <NL> if ( ask for confirmation ( " close current window ? " , string manager . get ( string manager . confirmation _ frame _ close _ title ) ) ) {  <NL> dispose ( ) ;  <NL>  }  <NL>  }  COM: <s> a method to be overridden by subclasses </s>

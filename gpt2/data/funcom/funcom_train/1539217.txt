@@ -1,0 +1,1 @@
+TDAT: public int size ( ) {  <NL> int s = 0 ;  <NL> if ( table = = null ) {  <NL> return s ;  <NL>  }  <NL> for ( iterator < list > it = table . values ( ) . iterator ( ) ; it . has next ( ) ; ) {  <NL> list list = it . next ( ) ;  <NL> s + = list . size ( ) / 2 ;  <NL>  }  <NL> return s ;  <NL>  }  COM: <s> size of the table </s>

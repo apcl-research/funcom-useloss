@@ -1,0 +1,1 @@
+TDAT: public void append ( reader reader ) throws io exception {  <NL> char [ ] buf = new char [ max _ text _ length / 2 ] ;  <NL> while ( text . length ( ) < max _ text _ length & & reader . ready ( ) ) {  <NL> int length = reader . read ( buf ) ;  <NL> append ( new string ( buf , 0 , length ) ) ;  <NL>  }  <NL>  }  COM: <s> append the target text for language detection </s>

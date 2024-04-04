@@ -1,0 +1,1 @@
+TDAT: public int hash code ( ) {  <NL> if ( my revision > = 0 ) {  <NL> return ( int ) my revision & 0x ffffffff ;  <NL>  } else if ( my date ! = null ) {  <NL> return my date . hash code ( ) ;  <NL>  } else if ( my name ! = null ) {  <NL> return my name . hash code ( ) ;  <NL>  }  <NL> return - 1 ;  <NL>  }  COM: <s> evaluates the hash code for this object </s>

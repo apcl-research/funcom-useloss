@@ -1,0 +1,1 @@
+TDAT: public chm unit info resolve object ( string obj path ) {  <NL> chm unit info result = null ;  <NL> if ( dir map ! = null & & dir map . contains key ( obj path . to lower case ( ) ) ) {  <NL> result = ( chm unit info ) dir map . get ( obj path . to lower case ( ) ) ;  <NL>  }  <NL> return result ;  <NL>  }  COM: <s> resolve a particular object from the chm file </s>

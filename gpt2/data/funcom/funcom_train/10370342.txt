@@ -1,0 +1,1 @@
+TDAT: private boolean is invalid param ( string value ) {  <NL> if ( value ! = null ) {  <NL> string s = value . to lower case ( ) ;  <NL> if ( ( s . index of ( ' < ' ) ! = - 1 ) || ( s . index of ( ' " ' ) ! = - 1 ) ) {  <NL> return true ;  <NL>  }  <NL>  }  <NL> return false ;  <NL>  }  COM: <s> this is a copy of is invalid string expect the elimination of urldecoder </s>

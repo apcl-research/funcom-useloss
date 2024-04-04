@@ -1,0 +1,1 @@
+TDAT: public void test to json date ( ) {  <NL> json writer . object ( ) . key ( " test1 " ) . value ( new date ( 106 , 7 , 20 ) ) ;  <NL> json writer . end object ( ) ;  <NL> assert equals ( json writer . to string ( ) , " { \ " test1\ " : new date ( 2006 , 7 , 20 , 0 , 0 ) } " ) ;  <NL>  }  COM: <s> date generation when outputing json </s>

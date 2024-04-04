@@ -1,0 +1,1 @@
+TDAT: public void add score ( event score score , event event ) {  <NL> if ( null = = event scores map . get ( score ) ) {  <NL> get event scores map ( ) . put ( score , event ) ;  <NL>  }  <NL> else {  <NL> get event scores map ( ) . remove ( score ) ;  <NL> get event scores map ( ) . put ( score , event ) ;  <NL>  }  <NL>  }  COM: <s> add an event score to a match </s>

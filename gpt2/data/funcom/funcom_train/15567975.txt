@@ -1,0 +1,1 @@
+TDAT: public boolean set double ( int _ row , int _ column , double _ value ) {  <NL> if ( double row list [ _ row ] = = null )  <NL> return false ;  <NL> if ( double v [ _ row ] . length > = _ column )  <NL> return false ;  <NL> double v [ _ row ] [ _ column ] = _ value ;  <NL> return true ;  <NL>  }  COM: <s> code set double code sets a double at a specified position </s>

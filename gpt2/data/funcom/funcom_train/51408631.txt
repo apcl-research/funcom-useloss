@@ -1,0 +1,1 @@
+TDAT: public void allgreen ( ) {  <NL> for ( int i = 0 ; i < this . get component count ( ) ; i + + ) {  <NL> if ( this . get component ( i ) . get class ( ) = = j button1 . get class ( ) )  <NL> this . get component ( i ) . set background ( new color ( 0 , 255 , 0 ) ) ;  <NL>  }  <NL>  }  COM: <s> all buttons of the f tree slices get green </s>

@@ -1,0 +1,1 @@
+TDAT: private void set lsn ( int idx , long lsn ) {  <NL>  <NL> int old size = compute lsn overhead ( ) ;  <NL>  / * set lsn element can mutate to an array of longs . * /  <NL> set lsn element ( idx , lsn ) ;  <NL> change memory size ( compute lsn overhead ( ) - old size ) ;  <NL> entry states [ idx ] | = dirty _ bit ;  <NL>  }  COM: <s> sets the idxth target lsn </s>

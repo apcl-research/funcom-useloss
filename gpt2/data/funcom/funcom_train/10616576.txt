@@ -1,0 +1,1 @@
+TDAT: public void test key exception06 ( ) {  <NL> key exception t e = new key exception ( null , null ) ;  <NL> assert null ( " get message ( ) must return null " , t e . get message ( ) ) ;  <NL> assert null ( " get cause ( ) must return null " , t e . get cause ( ) ) ;  <NL>  }  COM: <s> test for code key exception string throwable code constructor </s>

@@ -1,0 +1,1 @@
+TDAT: public void check ( final string schema name ) throws exception {  <NL> check ( new file ( src _ ref _ dir , gen _ src _ subdir + " / " + schema name + " / bind " ) ,  <NL> new file ( gen _ src _ dir , gen _ src _ subdir + " / " + schema name <NL>  + " / bind " ) , " java " ) ;  <NL>  }  COM: <s> check all generated binding schemas against a reference </s>

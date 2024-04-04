@@ -1,0 +1,1 @@
+TDAT: public void set all objects ( final object object ) {  <NL> for ( int row index = 0 ; row index < num rows _ ; row index + + ) {  <NL> for ( int column index = 0 ; column index < num columns _ ; column index + + ) {  <NL> set object at ( row index , column index , object ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> sets the object at every position on the grid </s>

@@ -1,0 +1,1 @@
+TDAT: public ad words user generate client ad words user ( string client id ) {  <NL> ad words user ad words user = new ad words user ( email , password , client id , user agent ,  <NL> developer token , application token , use sandbox ) ;  <NL> ad words user . auth token = auth token ;  <NL> return ad words user ;  <NL>  }  COM: <s> creates a new </s>

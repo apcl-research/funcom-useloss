@@ -1,0 +1,1 @@
+TDAT: public void close ( ) throws io exception {  <NL> if ( ra _ ! = null ) {  <NL> ra _ . close ( ) ; ra _ = null ;  <NL> if ( fileb _ ! = null ) fileb _ . delete ( ) ;  <NL>  }  <NL>  / / get logger ( ) system . out . println ( " pdf reader . close ( ) " + get uri ( ) ) ;  <NL>  }  COM: <s> close use and free up resources including file descriptors </s>

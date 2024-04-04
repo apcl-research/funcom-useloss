@@ -1,0 +1,1 @@
+TDAT: public void add method ( t method ) {  <NL> if ( ! this . methods . contains key ( method . get name ( ) ) ) {  <NL> this . methods . put ( method . get name ( ) , new hash set < t > ( ) ) ;  <NL>  }  <NL>  <NL> this . methods . get ( method . get name ( ) ) . add ( method ) ;  <NL>  }  COM: <s> add a code method code or code method declaration code to the body </s>

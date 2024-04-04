@@ -1,0 +1,1 @@
+TDAT: protected void sort nodes ( ) {  <NL> root . remove all children ( ) ;  <NL>  <NL> tree map tmp map = ( tree map ) items . clone ( ) ;  <NL> while ( ! tmp map . is empty ( ) ) {  <NL> object o = tmp map . first key ( ) ;  <NL> root . add ( ( bs nick node ) items . get ( o ) ) ;  <NL> tmp map . remove ( o ) ;  <NL>  }  <NL>  }  COM: <s> sorts nodes in tree </s>

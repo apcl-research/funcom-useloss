@@ -1,0 +1,1 @@
+TDAT: private void flush border to buffer ( ) {  <NL> for ( int x = 0 ; x < page width ; x + + ) {  <NL> for ( int y = 0 ; y < page height ; y + + ) {  <NL> character c = bm . get character ( x , y ) ;  <NL> if ( c ! = null ) {  <NL> put char ( x , y , c . char value ( ) , false ) ;  <NL>  }  <NL>  }  <NL>  }  <NL>  }  COM: <s> projects current page borders i </s>

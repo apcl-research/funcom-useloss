@@ -1,0 +1,1 @@
+TDAT: public void set color at ( int index , int r , int g , int b ) {  <NL>  <NL> int temp color pos = index * 3 + palette start index ;  <NL>  <NL> png data [ temp color pos ] = ( byte ) r ;  <NL> png data [ temp color pos + 1 ] = ( byte ) g ;  <NL> png data [ temp color pos + 2 ] = ( byte ) b ;  <NL>  }  COM: <s> changes an entry in the palette to a desired color </s>

@@ -1,0 +1,1 @@
+TDAT: public void add rule ( action event event ) {  <NL> rule bean rule = new rule bean ( get unique rule name ( ) ) ;  <NL> add rule ( rule ) ;  <NL> curr rule = rule . get name ( ) ;  <NL>  <NL> change logger . log change ( new change ( change . change type . rule _ add , null , ( rule bean ) rule ) ) ;  <NL>  }  COM: <s> action listener method for adding new rules </s>

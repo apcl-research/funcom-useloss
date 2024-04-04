@@ -1,0 +1,1 @@
+TDAT: public boolean is unused ( ) {  <NL> return this . playlist ids . size ( ) = = 0 & & ( this . added = = null || this . added . size ( ) = = 0 )  <NL>  & & ( this . removed = = null || this . removed . size ( ) = = 0 ) & & this . own title = = false ;  <NL>  }  COM: <s> checks if this title is currently unused </s>

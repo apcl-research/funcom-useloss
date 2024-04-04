@@ -1,0 +1,1 @@
+TDAT: public boolean mkdirs ( string path ) {  <NL> string res ;  <NL> res = exec . execute ( sshpath + " / ssh - q - l " + dstuser + " " + dsthost + " mkdir - p " + path + " " ) ;  <NL> log . debug ( " sc pcopy - > mkdirs " + path + " : " + res ) ;  <NL> return res . length ( ) < = 0 ;  <NL>  }  COM: <s> creates a full directory path at the host </s>

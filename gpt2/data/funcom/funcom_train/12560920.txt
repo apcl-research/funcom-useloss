@@ -1,0 +1,1 @@
+TDAT: public void u call size changed ( int w , int h ) {  <NL> super . u call size changed ( w , h ) ;  <NL> displayable return screen = alert . get return screen ( ) ;  <NL> if ( return screen ! = null ) {  <NL>  ( return screen . displayable lf ) . u call size changed ( w , h ) ;  <NL>  }  <NL>  }  COM: <s> notify return screen about screen size change </s>

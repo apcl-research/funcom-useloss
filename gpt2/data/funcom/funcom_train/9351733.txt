@@ -1,0 +1,1 @@
+TDAT: private int get previous x ( ) {  <NL> int result = this . m _ last x ;  <NL> if ( this . m _ is ended ) {  <NL> this . m _ last x = integer . min _ value ;  <NL> if ( this . m _ last y = = integer . min _ value ) {  <NL> this . m _ is ended = false ;  <NL>  }  <NL>  <NL>  }  <NL> return result ;  <NL>  }  COM: <s> returns the previous x value that had to be painted by </s>

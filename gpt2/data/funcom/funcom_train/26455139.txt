@@ -1,0 +1,1 @@
+TDAT: private int day of week ( int day , int month , int year ) {  <NL> day + = ( ( month < 3 ) ? year - - : ( year - 2 ) ) ;  <NL> return ( ( ( ( 23 * month ) / 9 ) + day + 4 + ( year / 4 ) ) - ( year / 100 ) + ( year / 400 ) ) % 7 ;  <NL>  }  COM: <s> calculate the day of the week </s>

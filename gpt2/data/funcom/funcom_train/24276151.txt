@@ -1,0 +1,1 @@
+TDAT: public void set profile id ( byte [ ] id ) {  <NL> this . profile _ id _ = new byte [ 16 ] ;  <NL> int n = id . length ;  <NL> if ( n > 16 ) {  <NL> n = 16 ;  <NL>  }  <NL> for ( int i = 0 ; i < n ; i + + ) {  <NL> this . profile _ id _ [ i ] = id [ i ] ;  <NL>  }  <NL>  }  COM: <s> set the profile id byte string </s>

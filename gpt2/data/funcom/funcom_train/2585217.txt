@@ -1,0 +1,1 @@
+TDAT: public void test1611872 ( ) {  <NL> minute m1 = new minute ( 0 , 10 , 15 , 4 , 2000 ) ;  <NL> minute m2 = ( minute ) m1 . previous ( ) ;  <NL> assert equals ( m2 , new minute ( 59 , 9 , 15 , 4 , 2000 ) ) ;  <NL>  }  COM: <s> test for bug 1611872 previous fails for first minute in hour </s>

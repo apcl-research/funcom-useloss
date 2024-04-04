@@ -1,0 +1,1 @@
+TDAT: public void set selection ( int x start , int x finish , boolean move up ) {  <NL> if ( move up ) {  <NL> m _ editor . set caret position ( x finish ) ;  <NL> m _ editor . move caret position ( x start ) ;  <NL>  } else {  <NL> m _ editor . select ( x start , x finish ) ;  <NL>  }  <NL>  }  COM: <s> sets the selection of the text editor </s>

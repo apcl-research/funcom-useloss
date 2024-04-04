@@ -1,0 +1,1 @@
+TDAT: private void append existing file ( ) throws io exception {  <NL> vector < string > lines to add = add only missing lines ? filter existing lines ( ) : lines ;  <NL> if ( lines to add . size ( ) > 0 ) {  <NL> append lines ( new file output stream ( get file ( ) , true ) , lines to add ) ;  <NL> return ;  <NL>  }  <NL>  }  COM: <s> append lines to an existing file </s>

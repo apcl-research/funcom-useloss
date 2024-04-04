@@ -1,0 +1,1 @@
+TDAT: private double find distance ( int id1 , int id2 ) {  <NL> point p1 = gui option manager . get nodes ( ) . get ( id1 - 1 ) . get point ( ) ;  <NL> point p2 = gui option manager . get nodes ( ) . get ( id2 - 1 ) . get point ( ) ;  <NL> return find distance ( p1 . x , p1 . y , p2 . x , p2 . y ) ;  <NL>  }  COM: <s> finds the distance of two nodes in meters </s>

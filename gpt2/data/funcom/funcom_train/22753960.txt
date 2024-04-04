@@ -1,0 +1,1 @@
+TDAT: public element create table ( data table tbl ) {  <NL> element nd = xml . create element ( " data - table " ) ;  <NL> set entity properties ( nd , tbl ) ;  <NL> set sub node ( nd , " cols " , tbl . get cols ( ) ) ;  <NL> set sub node ( nd , " rows " , tbl . get rows ( ) ) ;  <NL> return nd ;  <NL>  }  COM: <s> creates a lt data table gt element </s>

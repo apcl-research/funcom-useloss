@@ -1,0 +1,1 @@
+TDAT: protected void dump modules ( ) {  <NL> get log ( ) . info ( " modules : " ) ;  <NL> get log ( ) . info ( " - - - - - - - - " ) ;  <NL> iterator iterator = project . get modules ( ) . iterator ( ) ;  <NL> while ( iterator . has next ( ) ) {  <NL> get log ( ) . info ( " module : " + iterator . next ( ) ) ;  <NL>  }  <NL>  }  COM: <s> dumps the modules </s>

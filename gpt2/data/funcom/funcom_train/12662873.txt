@@ -1,0 +1,1 @@
+TDAT: public properties get properties ( ) {  <NL>  / / get it from the corresponding module <NL> if ( depot . get module lookup ( ) . exists cmd module ( get name ( ) ) ) {  <NL> return depot . get module lookup ( ) . get cmd module ( get name ( ) ) . get type properties ( ) ;  <NL>  } else {  <NL> return new properties ( ) ;  <NL>  }  <NL>  }  COM: <s> returns the type </s>

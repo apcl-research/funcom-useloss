@@ -1,0 +1,1 @@
+TDAT: protected void paint child ( graphics g , rectangle alloc , int index ) {  <NL> list painter . paint ( g , alloc . x , alloc . y , alloc . width , alloc . height , this , index ) ;  <NL> super . paint child ( g , alloc , index ) ;  <NL>  }  COM: <s> paints one of the children called by paint </s>

@@ -1,0 +1,1 @@
+TDAT: public void backward ( pace matrix b , int vector pvt , int ks , int k0 ) {  <NL> for ( int j = ks ; j > k0 ; j - - ) {  <NL> steplsqr ( b , pvt , j , least explaining column ( b , pvt , j , k0 ) , false ) ;  <NL>  }  <NL>  }  COM: <s> backward ordering of columns in terms of response explanation </s>

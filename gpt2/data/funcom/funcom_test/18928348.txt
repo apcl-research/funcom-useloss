@@ -1,0 +1,1 @@
+TDAT: public tree node deep copy ( ) {  <NL> tree node new node = new tree node ( reference ) ;  <NL> for ( iterator iter = children . iterator ( ) ; iter . has next ( ) ; ) {  <NL> tree node child = ( tree node ) iter . next ( ) ;  <NL> new node . add child node ( child . deep copy ( ) ) ;  <NL>  }  <NL> return new node ;  <NL>  }  COM: <s> deep copy clone </s>

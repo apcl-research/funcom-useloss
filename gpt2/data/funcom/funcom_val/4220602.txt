@@ -1,0 +1,1 @@
+TDAT: private int find max2d ( int [ ] [ ] list , int size1 ) {  <NL> int val = list [ 0 ] [ 0 ] ;  <NL> for ( int i = 0 ; i < size1 ; i + + ) {  <NL> for ( int j = 0 ; j < size1 ; j + + ) {  <NL> if ( list [ i ] [ j ] > val ) {  <NL> val = list [ i ] [ j ] ;  <NL>  }  <NL>  }  <NL>  }  <NL> return val ;  <NL>  }  COM: <s> maximum of an 2 d array </s>

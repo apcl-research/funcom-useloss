@@ -1,0 +1,1 @@
+TDAT: public d matrix n re transpose ( ) {  <NL> d matrix n r = new d matrix n ( max _ i , max _ j ) ;  <NL> for ( int i = 0 ; i < max _ i ; i + + ) {  <NL> for ( int j = 0 ; j < max _ j ; j + + ) r . v [ j * max _ i + i ] = v [ i * max _ j + j ] ;  <NL>  }  <NL> return r ;  <NL>  }  COM: <s> this returns a new matrix containing a transposed of this matrix </s>

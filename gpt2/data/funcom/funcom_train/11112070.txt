@@ -1,0 +1,1 @@
+TDAT: public void test html output ( ) throws exception {  <NL> string [ ] params = { " - h " , resorce prefix + " alice . cli . test " } ;  <NL> tika cli . main ( params ) ;  <NL> assert . assert true ( out content . to string ( ) . contains ( " html xmlns = \ " http : / / www . w3 . org / 1999 / xhtml " ) ) ;  <NL>  }  COM: <s> tests a h option of the cli </s>

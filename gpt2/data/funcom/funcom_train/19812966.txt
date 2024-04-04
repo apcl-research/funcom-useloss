@@ -1,0 +1,1 @@
+TDAT: public void start ( string task name ) throws illegal state exception {  <NL> if ( this . running ) { throw new illegal state exception ( " can ' t start stop watch : it ' s already running " ) ; }  <NL> this . start nano time = system . nano time ( ) ;  <NL> this . running = true ;  <NL> this . current task name = task name ;  <NL>  }  COM: <s> start a named task </s>

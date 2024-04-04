@@ -1,0 +1,1 @@
+TDAT: public void warning ( sax parse exception ex ) throws sax exception {  <NL>  / / do something with the warning .  <NL> file f input = new file ( ex . get system id ( ) ) ;  <NL> err . println ( " w : " + f input . get name ( ) + " : line " +  <NL> ex . get line number ( ) + " : " + ex ) ;  <NL>  } / / warning  COM: <s> warning method comment </s>

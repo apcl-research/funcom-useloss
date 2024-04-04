@@ -1,0 +1,1 @@
+TDAT: public void fill arc ( int x , int y , int width , int height , int start angle , int arc angle ) {  <NL> get graphics ( ) . fill arc ( x + this . translate x , y + this . translate y , width , height , start angle , arc angle ) ;  <NL>  }  COM: <s> fills a circular or elliptical arc covering the specified rectangle </s>

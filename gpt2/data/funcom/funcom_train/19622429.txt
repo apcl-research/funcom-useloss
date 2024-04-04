@@ -1,0 +1,1 @@
+TDAT: public void reset ( ) {  <NL> this . life = constants . player _ default _ lives ;  <NL> this . bomb amount = constants . player _ default _ max _ bombs ;  <NL> this . bomb radius = constants . player _ default _ bomb _ radius ;  <NL> this . setted bombs = 0 ;  <NL> this . my coord = new immutable cell ( 0 , 0 ) ;  <NL>  }  COM: <s> resets player to initial state </s>

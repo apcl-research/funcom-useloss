@@ -1,0 +1,1 @@
+TDAT: public void render ( gl gl ) {  <NL> if ( display list id > 0 ) {  <NL>  / / gl calllist ( display list id ) ;  <NL>  } else if ( obj ! = null ) {  <NL> if ( texture handle > 0 ) {  <NL> render mesh ( gl , obj , texture handle ) ;  <NL>  } else {  <NL> render mesh ( gl , obj ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> draw this mesh with current texture </s>

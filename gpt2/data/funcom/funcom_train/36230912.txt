@@ -1,0 +1,1 @@
+TDAT: public i point3d vector from p ( i point3d p ) {  <NL> double a = p . get x ( ) - get x ( ) ;  <NL> double b = p . get y ( ) - get y ( ) ;  <NL> double c = p . get z ( ) - get z ( ) ;  <NL> return new point3d ( a , b , c ) ;  <NL>  }  COM: <s> get the vector formed by this point and the input point </s>

@@ -1,0 +1,1 @@
+TDAT: protected void on select request ( int row , int col ) {  <NL>  / / if click is on currently - selected row , unselect it <NL> if ( _ table . get selected row ( ) ! = null & & _ table . get selected row ( ) . get row index ( ) = = row )  <NL>  _ table . un select row ( row ) ;  <NL> else <NL>  _ table . select row ( row ) ;  <NL>  }  COM: <s> selects the given row </s>

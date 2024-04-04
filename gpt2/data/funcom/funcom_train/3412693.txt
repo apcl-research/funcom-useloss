@@ -1,0 +1,1 @@
+TDAT: public object get data elements ( int x , int y , int w , int h , object out data ) {  <NL> return sample model . get data elements ( x - sample model translate x ,  <NL> y - sample model translate y ,  <NL> w , h , out data , data buffer ) ;  <NL>  }  COM: <s> returns the pixel data for the specified rectangle of pixels in a </s>

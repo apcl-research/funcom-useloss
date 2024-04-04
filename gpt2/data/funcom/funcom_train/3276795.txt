@@ -1,0 +1,1 @@
+TDAT: public long args long object long long arg ( long a , object obj , long b , long c ) {  <NL>  <NL> log . debug ( " public long args long object long long arg ( long a , object obj , long b , long c ) " ) ;  <NL> nap ( ) ;  <NL>  <NL> return ( a + b + c ) + obj . hash code ( ) ;  <NL>  }  COM: <s> method args long object long long arg </s>

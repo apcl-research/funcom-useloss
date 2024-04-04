@@ -1,0 +1,1 @@
+TDAT: public object get value at ( int row index , int column index ) {  <NL> switch ( column index ) {  <NL> case 0 :  <NL> return rd [ row index ] . get res ref ( ) ;  <NL> case 1 :  <NL> return rd [ row index ] . get ext ( ) ;  <NL> case 2 :  <NL> return new integer ( rd [ row index ] . get res type ( ) ) ;  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> get value at </s>

@@ -1,0 +1,1 @@
+TDAT: private boolean is valid name char ( final int code ) {  <NL> return is valid name start char ( code ) || code = = ' - ' || code = = ' . '  <NL> || code > = ' 0 ' & & code < = ' 9 ' || code = = 0x b7 || code > = 0x300 <NL>  & & code < = 0x36f || code > = 0x203f & & code < = 0x2040 ;  <NL>  }  COM: <s> test if code point is valid character of name br </s>

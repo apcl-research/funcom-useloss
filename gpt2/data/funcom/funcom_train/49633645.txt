@@ -1,0 +1,1 @@
+TDAT: public void save ( ) throws nb tree exception {  <NL> try {  <NL> if ( has changed ) { / / only saves the ntree is something has changed <NL>  _ recman . commit ( ) ;  <NL>  }  <NL>  } catch ( io exception e ) {  <NL> throw new nb tree exception ( " cannot save the nb tree . possible reason : " + e . to string ( ) ) ;  <NL>  }  <NL>  }  COM: <s> save the nbtree </s>

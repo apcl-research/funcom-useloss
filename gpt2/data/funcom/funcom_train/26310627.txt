@@ -1,0 +1,1 @@
+TDAT: public void dispose ( ) {  <NL> try {  <NL> this . disposed = true ;  <NL> this . chat . close ( ) ;  <NL> this . bot . log . log chat closed ( chat . get nick ( ) , chat . get login ( ) , chat . get hostname ( ) , this . chatid ) ;  <NL>  }  <NL> catch ( exception e ) {  <NL>  / / do nothing .  <NL>  }  <NL>  }  COM: <s> closes the chat </s>

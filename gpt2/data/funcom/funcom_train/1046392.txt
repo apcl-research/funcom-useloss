@@ -1,0 +1,1 @@
+TDAT: public boolean food exists in date ( string food ) {  <NL> cursor c = db . query ( date _ table _ name , null , " name = ' " + food + " ' " , null , null , null , " name asc " ) ;  <NL> if ( c . get count ( ) ! = 0 ) {  <NL> return true ;  <NL>  }  <NL> return false ;  <NL>  }  COM: <s> checks to see is a particular food exists in the date db </s>

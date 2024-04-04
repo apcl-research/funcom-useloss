@@ -1,0 +1,1 @@
+TDAT: private void install quit menu ( ) {  <NL> menu item _ quit = new j menu item ( " quit " ) ;  <NL> menu item _ quit . add action listener ( this ) ;  <NL> menu manager . register menu item ( " open rpg " , menu item _ quit , 1 . 1 ) ; / / registering as 1 . 1 to ensure its last in the menu .  <NL>  }  COM: <s> generates the default system quit menu </s>

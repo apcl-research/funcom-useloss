@@ -1,0 +1,1 @@
+TDAT: public key body color ( ) {  <NL> super ( ) ;  <NL> red = new key field ( " 0 " ) ;  <NL> green = new key field ( " 0 " ) ;  <NL> blue = new key field ( " 0 " ) ;  <NL> alpha = new key field ( " 1 " ) ;  <NL> blend type = new key field ( " 0 " ) ;  <NL> ret struct = new key eval color ( ) ;  <NL>  }  COM: <s> creates new key body color </s>

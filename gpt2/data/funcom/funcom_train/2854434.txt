@@ -1,0 +1,1 @@
+TDAT: public void add ( get call back cb ) {  <NL> if ( cb = = null )  <NL> throw new illegal argument exception ( " null get call back " ) ;  <NL> debug _ msg ( " . add ( callback ) , key q on "  <NL>  + string lib . byte array to hex ( my id . value ( ) ) ) ;  <NL> key q . push ( cb ) ;  <NL>  }  COM: <s> this method must be externally synchronized </s>

@@ -1,0 +1,1 @@
+TDAT: public void test single message expiration ( ) throws exception {  <NL> final long time to live = 1000 ; / / i . e , 1 second <NL> final int messages = 1 ; / / no . of messages to send <NL> final int receivers = 1 ; / / no . of receivers .  <NL> check expiration ( time to live , messages , receivers ) ;  <NL>  }  COM: <s> verifies that a single message expires </s>

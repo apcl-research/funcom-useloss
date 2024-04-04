@@ -1,0 +1,1 @@
+TDAT: public void start ( gedcom gedcom ) {  <NL> entity [ ] fams = gedcom . get entities ( gedcom . fam , " " ) ;  <NL> for ( int i = 0 ; i < fams . length ; i + + ) {  <NL> analyze fam ( ( fam ) fams [ i ] ) ;  <NL> println ( ) ;  <NL> println ( " = = = = = " ) ;  <NL> println ( ) ;  <NL>  }  <NL>  }  COM: <s> main for argument gedcom </s>

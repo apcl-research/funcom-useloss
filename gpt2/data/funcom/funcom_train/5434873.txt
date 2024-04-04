@@ -1,0 +1,1 @@
+TDAT: protected or method create getter ( string col name , or member mem ) {  <NL> or method m = new or method ( ) ;  <NL> m . set name ( " get " + col name ) ;  <NL> m . add modifier ( " public " ) ;  <NL> m . set result ( mem . get type ( ) ) ;  <NL> m . add body ( " return " + mem . get name ( ) + " ; " ) ;  <NL> return m ;  <NL>  }  COM: <s> method create getter </s>

@@ -1,0 +1,1 @@
+TDAT: public void add units _ metric mass ( ) {  <NL> add unit ( new unit ( " kg " , " kilo " , " kg " , 0 , 1 , 0 ) ) ;  <NL> add unit ( new unit ( " g " , " gram " , " kg " , 0 , 0 . 001 , 0 ) ) ;  <NL> add unit ( new unit ( " ton " , " metric tons " , " kg " , 0 , 1000 , 0 ) ) ;  <NL>  }  COM: <s> add a default set of metric mass units kg g ton </s>

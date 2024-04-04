@@ -1,0 +1,1 @@
+TDAT: public void clear ( ) {  <NL> collection values = _ cache . values ( ) ;  <NL> bc class bc ;  <NL> for ( iterator itr = values . iterator ( ) ; itr . has next ( ) ; ) {  <NL> bc = ( bc class ) itr . next ( ) ;  <NL> itr . remove ( ) ;  <NL> bc . invalidate ( ) ;  <NL>  }  <NL>  _ names . clear ( ) ;  <NL>  }  COM: <s> clears all classes from this project </s>

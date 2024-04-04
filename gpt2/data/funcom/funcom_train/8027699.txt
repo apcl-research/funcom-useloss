@@ -1,0 +1,1 @@
+TDAT: public void add edge ( final edge edge ) {  <NL> edges . add ( new edge ( map . get ( edge . get from ( ) . get index ( ) ) ,  <NL> map . get ( edge . get to ( ) . get index ( ) ) , edge . get label ( ) , edge . get note ( ) , edge . get type ( ) ,  <NL> edge . get render type ( ) , edge . get description ( ) ) ) ;  <NL>  }  COM: <s> adds an edge </s>

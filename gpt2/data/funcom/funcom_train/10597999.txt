@@ -1,0 +1,1 @@
+TDAT: protected void update cache ( string cache key , xml resource bundle bundle ) {  <NL> try {  <NL> this . cache . store ( cache key , bundle ) ;  <NL>  } catch ( io exception e ) {  <NL> get logger ( ) . error ( " bundle < " + bundle . get source uri ( ) + " > : unable to store . " , e ) ;  <NL>  }  <NL>  }  COM: <s> stores bundle in the cache </s>

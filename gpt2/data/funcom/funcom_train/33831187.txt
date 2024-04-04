@@ -1,0 +1,1 @@
+TDAT: public void close ( ) {  <NL> if ( socket = = null ) return ;  <NL> try {  <NL> logger . info ( " closing connection to host " ) ;  <NL> socket . close ( ) ;  <NL> logger . info ( " connection to host closed " ) ;  <NL>  } catch ( io exception e ) {  <NL> throw log and throw ( " cannot close connection " , e ) ;  <NL>  }  <NL>  }  COM: <s> closes this connection </s>

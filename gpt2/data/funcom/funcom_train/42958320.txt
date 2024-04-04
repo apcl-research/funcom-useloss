@@ -1,0 +1,1 @@
+TDAT: public void action performed ( action event e ) {  <NL> if ( " ok " . equals ( e . get action command ( ) ) ) {  <NL> contact contact = new contact ( name field . get text ( ) , " " , " " , true ) ;  <NL> messenger . add friend ( contact ) ;  <NL>  } else if ( " cancel " . equals ( e . get action command ( ) ) ) {  <NL>  }  <NL>  }  COM: <s> create the gui and show it </s>

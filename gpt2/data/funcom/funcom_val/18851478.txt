@@ -1,0 +1,1 @@
+TDAT: public object visit ( method declaration lookahead n , object argu ) {  <NL> object _ ret = null ;  <NL> n . f0 . accept ( this , argu ) ;  <NL> n . f1 . accept ( this , argu ) ;  <NL> n . f2 . accept ( this , argu ) ;  <NL> n . f3 . accept ( this , argu ) ;  <NL> return _ ret ;  <NL>  }  COM: <s> f0 public protected private static abstract final native synchronized </s>

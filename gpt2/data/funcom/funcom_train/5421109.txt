@@ -1,0 +1,1 @@
+TDAT: public url get doublet ( final string name , final int nr ) {  <NL> enumeration < url > resources = get resources ( name ) ;  <NL> for ( int i = 0 ; resources . has more elements ( ) ; i + + ) {  <NL> url url = resources . next element ( ) ;  <NL> if ( i = = nr ) {  <NL> return url ;  <NL>  }  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> gets the doublet </s>

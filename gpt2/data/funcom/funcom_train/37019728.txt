@@ -1,0 +1,1 @@
+TDAT: public boolean accept ( file f ) {  <NL>  <NL> string fname = f . get name ( ) ;  <NL> if ( f . is directory ( ) ) {  <NL> return true ;  <NL>  } else if ( fname . index of ( " . " ) = = - 1 ) {  <NL> return accept no dots ;  <NL>  } else {  <NL> return ( fname . to lower case ( ) . ends with ( end mask ) ) ;  <NL>  }  <NL>  }  COM: <s> overrides accept in </s>

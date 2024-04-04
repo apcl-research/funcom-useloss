@@ -1,0 +1,1 @@
+TDAT: private list create pairs ( int number ) {  <NL> vector pairs = new vector ( ) ;  <NL>  <NL> for ( int i = 1 ; i < = number ; i + + )  <NL> pairs . add ( new pair ( new user impl ( i + " a " , " 1 " , " " , false ) ,  <NL> new user impl ( i + " b " , " 1 " , " " , false ) ) ) ;  <NL>  <NL> return pairs ;  <NL>  }  COM: <s> create a list of pairs </s>

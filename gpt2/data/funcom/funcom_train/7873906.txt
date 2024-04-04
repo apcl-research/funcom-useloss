@@ -1,0 +1,1 @@
+TDAT: public int find distance ( game object start , game object end ) {  <NL> return ( int ) math . sqrt ( math . pow ( math . abs ( start . get x ( ) - end . get x ( ) ) , 2 ) + math . pow ( math . abs ( start . get y ( ) - end . get y ( ) ) , 2 ) ) ;  <NL>  }  COM: <s> find the distance manhattan between two objects </s>

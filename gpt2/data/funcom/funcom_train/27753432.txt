@@ -1,0 +1,1 @@
+TDAT: public void open files ( string path , string [ ] file names ) {  <NL> for ( int i = 0 ; i < file names . length ; i + + ) {  <NL> file file = new file ( file names [ i ] ) ;  <NL> if ( ! file . is absolute ( ) ) {  <NL> file = new file ( path , file names [ i ] ) ;  <NL>  }  <NL> open file ( file ) ;  <NL>  }  <NL>  }  COM: <s> opens the specified array of files </s>

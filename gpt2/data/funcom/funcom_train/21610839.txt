@@ -1,0 +1,1 @@
+TDAT: private void populate string graph value ( graph value gv ) {  <NL> for ( int i = 0 ; i < size ; i + + ) {  <NL> gv . add arc (  <NL> new string value ( from _ prefix + i ) , new string value ( to _ prefix + i ) , new string value ( label _ prefix + i )  <NL>  ) ;  <NL>  }  <NL>  }  COM: <s> populates the given graph value with arcs composed of strings </s>

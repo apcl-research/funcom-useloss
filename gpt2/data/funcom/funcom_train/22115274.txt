@@ -1,0 +1,1 @@
+TDAT: public void save audit ( audit a ) {  <NL> if ( a . get start time ( ) = = 0 )  <NL> a . set start time ( system . current time millis ( ) ) ;  <NL>  <NL> if ( get current audit ( ) ! = null ) {  <NL> get current audit ( ) . add child ( a ) ;  <NL>  } else {  <NL> save recursively ( a ) ;  <NL>  }  <NL>  }  COM: <s> save an audit and all of its children </s>

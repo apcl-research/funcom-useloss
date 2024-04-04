@@ -1,0 +1,1 @@
+TDAT: public void change player position ( int x , int y ) {  <NL> if ( within bounds ( xpos + x , ypos + y ) ) {  <NL> p char . set position ( xpos + x , ypos + y ) ;  <NL> xpos = p char . get x position ( ) ;  <NL> ypos = p char . get y position ( ) ;  <NL>  }  <NL>  }  COM: <s> this method changes the position of the character </s>

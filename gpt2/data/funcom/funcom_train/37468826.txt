@@ -1,0 +1,1 @@
+TDAT: public void set id ( string id ) {  <NL> if ( id = = null ) {  <NL> throw new illegal argument exception ( " id must not be null . " ) ;  <NL>  }  <NL> if ( id . trim ( ) . equals ( " " ) ) {  <NL> throw new illegal argument exception ( " id must not be empty . " ) ;  <NL>  }  <NL> this . id = id ;  <NL>  }  COM: <s> setter for property id </s>

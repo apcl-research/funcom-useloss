@@ -1,0 +1,1 @@
+TDAT: public int upload data ( string data , string base url ) {  <NL> object o = invoke ( upload data _ 0 , new string [ ] { " data " , " base url " } , new object [ ] { data , base url } ) ;  <NL> return ( ( integer ) o ) . int value ( ) ;  <NL>  }  COM: <s> upload rdf s data to current repository </s>

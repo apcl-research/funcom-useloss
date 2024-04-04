@@ -1,0 +1,1 @@
+TDAT: public point get coordinate at ( int tile x , int tile y ) {  <NL> this . point2 . x = this . start x + ( ( tile x - tile y ) * this . half tile width ) ;  <NL> this . point2 . y = ( ( tile y + tile x ) * this . half tile height ) + this . start y ;  <NL>  <NL> return this . point2 ;  <NL>  }  COM: <s> returns screen coordinate of specified tile position </s>

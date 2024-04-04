@@ -1,0 +1,1 @@
+TDAT: public map get blocks ( ) {  <NL> if ( m _ block map = = null ) {  <NL> m _ block map = new hash map ( ) ;  <NL>  <NL>  / / tl blocks <NL> m _ block map . put ( " transformation " , token marker . block _ any ) ;  <NL> m _ block map . put ( " template " , token marker . block _ indication ) ;  <NL>  }  <NL>  <NL> return m _ block map ;  <NL>  }  COM: <s> get the blocks </s>

@@ -1,0 +1,1 @@
+TDAT: private string get display value ( object o ) {  <NL> if ( o instanceof number ) {  <NL> number n = ( number ) o ;  <NL> if ( n . int value ( ) = = n . double value ( ) ) {  <NL> return integer . to string ( n . int value ( ) ) ;  <NL>  }  <NL>  <NL>  }  <NL> return o = = null ? null : o . to string ( ) ;  <NL>  }  COM: <s> format an object for output </s>

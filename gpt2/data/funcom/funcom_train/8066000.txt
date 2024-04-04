@@ -1,0 +1,1 @@
+TDAT: public void set scale ( double scale ) {  <NL>  _ scale = scale ;  <NL>  _ layer manager . set scale ( _ scale ) ;  <NL>  _ j component . set preferred size ( new dimension (  <NL>  ( int ) ( _ natural component width * _ scale ) ,  <NL>  ( int ) ( _ natural component height * _ scale ) ) ) ;  <NL> damage all ( ) ;  <NL>  }  COM: <s> set this editors drawing scale </s>

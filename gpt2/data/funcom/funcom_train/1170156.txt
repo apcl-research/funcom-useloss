@@ -1,0 +1,1 @@
+TDAT: private boolean filter by card type ( card c ) {  <NL> boolean filter out = false ;  <NL> if ( ! ( search text field2 . get text ( ) = = " " ) ) {  <NL> filter out = ! ( c . get type ( ) . to string ( ) . to lower case ( ) . contains ( search text field2 . get text ( ) . to lower case ( ) ) ) ;  <NL>  }  <NL> return filter out ;  <NL>  }  COM: <s> p filter by card type </s>

@@ -1,0 +1,1 @@
+TDAT: public void set to initial values ( ) {  <NL> m zoom array index = 13 ; / / start out with index 13 = 0 . 36d . if auto zoom width is on , will redraw after <NL> m current zoom factor = 0 . 36d ; / / 36 % zoom is a good initial default if auto zoom isn ' t turned on <NL> m is zoom mode zoom width = true ;  <NL>  }  COM: <s> set to initial values </s>

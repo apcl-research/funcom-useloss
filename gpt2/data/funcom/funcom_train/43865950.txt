@@ -1,0 +1,1 @@
+TDAT: private void delete cells in vector by color ( color c , vector < drawing bean > v ) {  <NL> for ( int i = v . size ( ) - 1 ; i > = 0 ; i - - ) {  <NL> if ( v . get ( i ) . get color ( ) = = c ) {  <NL> v . remove element at ( i ) ;  <NL>  }  <NL>  }  <NL> repaint ( ) ;  <NL>  }  COM: <s> deletes all the cells with a specified color in a given vector </s>

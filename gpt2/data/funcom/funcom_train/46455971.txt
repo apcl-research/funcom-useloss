@@ -1,0 +1,1 @@
+TDAT: public void draw ( drawing panel panel , graphics g ) {  <NL> int xpix = panel . x to pix ( x ) - pix radius ;  <NL> int ypix = panel . y to pix ( y ) - pix radius ;  <NL> g . set color ( color ) ;  <NL> g . fill oval ( xpix , ypix , 2 * pix radius , 2 * pix radius ) ; / / draw the circle onto the screen <NL>  }  COM: <s> draws the circle </s>

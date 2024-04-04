@@ -1,0 +1,1 @@
+TDAT: public void insert ( tool item item , int index ) {  <NL> if ( fire event ( events . before add , this , item , index ) ) {  <NL> items . add ( index , item ) ;  <NL> if ( rendered ) {  <NL> render item ( item , index ) ;  <NL>  }  <NL> fire event ( events . add , this , item , index ) ;  <NL>  }  <NL>  }  COM: <s> inserts a item into the tool bar </s>

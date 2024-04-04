@@ -1,0 +1,1 @@
+TDAT: public e get ( int index ) {  <NL> if ( index < 0 ) {  <NL> throw new illegal argument exception ( ) ;  <NL>  }  <NL> int p = index / page _ size ;  <NL> if ( p > = _ pages . length || _ pages [ p ] = = null ) {  <NL> return null ;  <NL>  }  <NL> return _ pages [ p ] [ index % page _ size ] ;  <NL>  }  COM: <s> get the value of a given array slot null if none </s>

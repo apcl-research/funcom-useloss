@@ -1,0 +1,1 @@
+TDAT: public enumeration get fields enumeration ( ) {  <NL> field [ ] fields = get class ( ) . get fields ( ) ;  <NL> vector v = new vector ( ) ;  <NL> for ( int i = 0 ; i < fields . length ; i + + ) v . add ( fields [ i ] . get name ( ) ) ;  <NL> return collections . enumeration ( v ) ;  <NL>  }  COM: <s> subclasses may override this method to add their own fields </s>

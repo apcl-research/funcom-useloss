@@ -1,0 +1,1 @@
+TDAT: private void load access rules ( plugin plugin , element root ) {  <NL> element access tag = root . get child ( " access rules " ) ;  <NL> collection loader < plugin , access rule > rules loader = new access rules loader ( plugin , groups ) ;  <NL> load collection ( rules loader , access tag , " rule " ) ;  <NL>  }  COM: <s> loads acess rules for specified plug in </s>

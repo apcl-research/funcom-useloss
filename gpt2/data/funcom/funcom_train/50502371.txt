@@ -1,0 +1,1 @@
+TDAT: private void mbitremove ( int recpos , int boxpos , boolean asked ) {  <NL> int index = ( ( int vector ) m _ bit . get ( mbitindex ( boxpos , asked ) ) ) . find ( recpos ) ;  <NL>  ( ( int vector ) m _ bit . get ( mbitindex ( boxpos , asked ) ) ) . del ( index ) ;  <NL>  }  COM: <s> remove a card from m bit </s>

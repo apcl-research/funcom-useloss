@@ -1,0 +1,1 @@
+TDAT: public void events cancel ( long eid , string cancel message , async callback < boolean > callback ) {  <NL> json j = new json ( ) . put ( " eid " , eid ) . put ( " cancel _ message " , cancel message ) ;  <NL> call method ret boolean ( " events . cancel " , j . get java script object ( ) , callback ) ;  <NL>  }  COM: <s> cancels an event </s>

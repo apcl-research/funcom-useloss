@@ -1,0 +1,1 @@
+TDAT: private void add brief info ( brief info a bi ) {  <NL> if ( get brief infos ( ) = = null ) {  <NL> set brief infos ( new vector ( ) ) ;  <NL>  }  <NL>  <NL> if ( ( a bi ! = null ) & & ! get brief infos ( ) . contains ( a bi ) ) {  <NL> get brief infos ( ) . add ( a bi ) ;  <NL>  }  <NL>  }  COM: <s> add a brief info to the portal </s>

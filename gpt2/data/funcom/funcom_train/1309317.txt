@@ -1,0 +1,1 @@
+TDAT: public void axis ( ) {  <NL>  <NL> graphics g = offscreen . get graphics ( ) ;  <NL> g . set color ( work space . color ) ;  <NL> g . draw line ( width / 2 , 0 , width / 2 , height ) ;  <NL> g . draw line ( 0 , height / 2 , width , height / 2 ) ;  <NL> repaint ( ) ;  <NL> service repaints ( ) ;  <NL>  }  COM: <s> draw two orthogonal lines </s>

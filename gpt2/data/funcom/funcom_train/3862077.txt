@@ -1,0 +1,1 @@
+TDAT: public void init ( string repository name , boolean support spider map , boolean delete old data , string archive old data ) throws sperowider instantiation exception {  <NL> init ( repository name , support spider map , delete old data , archive old data , false , true , basic table . memory ) ;  <NL>  }  COM: <s> initializes this model with default reporters </s>

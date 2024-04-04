@@ -1,0 +1,1 @@
+TDAT: public string get attribute value ( string namespace uri , string local name ) {  <NL> int len = get attribute count ( ) ;  <NL> for ( int i = 0 ; i < len ; i + + ) {  <NL> if ( get attribute local name ( i ) . equals ( local name ) ) {  <NL> return get attribute value ( i ) ;  <NL>  }  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> get the value of this attribute </s>

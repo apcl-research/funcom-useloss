@@ -1,0 +1,1 @@
+TDAT: public void send _ ack id ( int id ) throws io exception {  <NL> if ( ack packet . get address ( ) ! = null ) {  <NL> event . core _ message ( " udp : s > sendind ack = " + id ) ;  <NL> ack packet . set data ( udp _ core . udp _ int to bytes ( id ) ) ;  <NL> socket . send ( ack packet ) ;  <NL>  }  <NL>  }  COM: <s> sends acknoledge id </s>

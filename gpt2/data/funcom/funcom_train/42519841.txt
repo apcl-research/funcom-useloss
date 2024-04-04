@@ -1,0 +1,1 @@
+TDAT: public string get score line ( team home team , team away team ) {  <NL> return home team . get name ( ) + " - " + away team . get name ( ) + " " +  <NL> home team . get stats ( ) . get goals scored ( ) + " - " + away team . get stats ( ) . get goals scored ( ) ;  <NL>  }  COM: <s> getter for a string representation of the current scoreline </s>

@@ -1,0 +1,1 @@
+TDAT: public cursor fetch all ordered ( ) {  <NL>  / / set selections , selection args , group by , having , to null to fetch all rows .  <NL> return database . query ( database _ table , keys , null , null , null , null , key _ eventname + " asc " ) ;  <NL>  }  COM: <s> get all registered events in the database with the event names alphabetically ordered </s>

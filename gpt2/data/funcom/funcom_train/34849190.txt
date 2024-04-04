@@ -1,0 +1,1 @@
+TDAT: public void test short flag ( ) {  <NL> switch my switch = new switch ( " my switch " ) ;  <NL> my switch . set short flag ( ' c ' ) ;  <NL> assert equals ( ' c ' , my switch . get short flag ( ) ) ;  <NL> assert equals ( new character ( ' c ' ) , my switch . get short flag character ( ) ) ;  <NL>  }  COM: <s> tests the ability to set get the switchs short flag </s>

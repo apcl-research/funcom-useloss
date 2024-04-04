@@ -1,0 +1,1 @@
+TDAT: public void write xml ( xml writer out ) {  <NL> out . start element ( " bounds " ) ;  <NL> out . attr ( " x " , x ) ;  <NL> out . attr ( " y " , y ) ;  <NL> out . attr ( " width " , width ) ;  <NL> out . attr ( " height " , height ) ;  <NL> out . end element ( ) ;  <NL>  }  COM: <s> writes this rectangle as an xml tag </s>

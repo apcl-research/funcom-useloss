@@ -1,0 +1,1 @@
+TDAT: private boolean is number ( char ch , boolean hex ) {  <NL> if ( ch > = ' 0 ' & & ch < = ' 9 ' ) return true ;  <NL> if ( hex ) {  <NL> if ( ch > = ' a ' & & ch < = ' f ' ) return true ;  <NL> if ( ch > = ' a ' & & ch < = ' f ' ) return true ;  <NL>  } / / if <NL> return false ;  <NL>  } / / is number  COM: <s> check for numeric range </s>

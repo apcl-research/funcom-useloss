@@ -1,0 +1,1 @@
+TDAT: private string table row ( int indent , string content ) throws file not found exception , io exception {  <NL> return print util . apply template ( " template " + file . separator + " table _ top _ line . html " , new object [ ] { indent spaces ( indent ) , content , " " , " " , " " , color _ keywords , " " } ) ;  <NL>  }  COM: <s> generates a row in the table render </s>

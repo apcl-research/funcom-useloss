@@ -1,0 +1,1 @@
+TDAT: protected void updated ( dictionary < string , ? > config ) {  <NL> m _ lang = ( string ) config . get ( " lang " ) ;  <NL> m _ words . clear ( ) ;  <NL> string [ ] words = ( string [ ] ) config . get ( words ) ;  <NL> for ( string word : words ) {  <NL> m _ words . add ( word ) ;  <NL>  }  <NL>  }  COM: <s> our service will be initialized from config admin </s>

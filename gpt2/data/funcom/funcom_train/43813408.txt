@@ -1,0 +1,1 @@
+TDAT: public float max ( float a , float b ) {  <NL> if ( a ! = a )  <NL> return a ; / / a is na n <NL> if ( ( a = = 0 . 0f ) & & ( b = = 0 . 0f )  <NL>  & & ( float . float to int bits ( a ) = = negative zero float bits ) ) {  <NL> return b ;  <NL>  }  <NL> return ( a > = b ) ? a : b ;  <NL>  }  COM: <s> returns the greater of two code float code values </s>

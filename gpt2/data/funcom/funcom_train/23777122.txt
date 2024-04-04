@@ -1,0 +1,1 @@
+TDAT: private void draw3d square ( graphics g , int x , int y ) {  <NL> color old color = g . get color ( ) ; / / cache the old color <NL> g . set color ( three _ d _ effect _ color ) ; / / set the white color <NL> g . fill rect ( x , y , 2 , 2 ) ; / / draw the square <NL> g . set color ( old color ) ; / / reset the old color <NL>  }  COM: <s> painting 3d square </s>

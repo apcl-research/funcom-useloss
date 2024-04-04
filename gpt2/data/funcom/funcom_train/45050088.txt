@@ -1,0 +1,1 @@
+TDAT: public void add test ( final test test ) {  <NL> log . log ( level . finest , " test instance { 0 } added to { 1 } " ,  <NL> new object [ ] { test . get class ( ) . get name ( ) , this . get class ( ) . get name ( ) } ) ;  <NL> tests . add ( test ) ;  <NL> add feature ( test ) ;  <NL>  }  COM: <s> adds a test </s>

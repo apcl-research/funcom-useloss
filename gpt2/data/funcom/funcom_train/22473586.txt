@@ -1,0 +1,1 @@
+TDAT: private void densify ( ) {  <NL> int idx = 0 ;  <NL> for ( int i = 0 ; i < _ max size ; i + = 2 ) {  <NL>  _ values [ idx + + ] = math . max ( _ values [ i ] , _ values [ i + 1 ] ) ;  <NL>  }  <NL>  _ index = idx ;  <NL>  _ period * = 2 ;  <NL>  }  COM: <s> cleanup the internal list of samples keeping the maximum of each pair of </s>

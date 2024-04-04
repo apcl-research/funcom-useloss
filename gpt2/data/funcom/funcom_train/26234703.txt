@@ -1,0 +1,1 @@
+TDAT: public string get index length ( column column ) {  <NL> poem type t = column . get type ( ) ;  <NL> if ( t instanceof string poem type & &  <NL>  ( ( string poem type ) t ) . get size ( ) < 0 ) return " ( 30 ) " ;  <NL> if ( t instanceof blob poem type ) return " ( 30 ) " ;  <NL> return " " ;  <NL>  }  COM: <s> my sql requires text and blob field indices to have an </s>

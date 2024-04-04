@@ -1,0 +1,1 @@
+TDAT: private void run single thread ( ) {  <NL> for ( int n = in . n min ( ) ; n < = in . n max ( ) ; n + = in . n step ( ) ) {  <NL> for ( int k = in . k min ( ) ; k < = in . k max ( ) ; k + = in . k step ( ) ) {  <NL> this . run single threaded ( n , k ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> runs in single thread mode </s>

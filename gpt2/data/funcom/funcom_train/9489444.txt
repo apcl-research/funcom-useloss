@@ -1,0 +1,1 @@
+TDAT: final public geo segment3d segment3d ( string label , geo point3d p1 , geo point3d p2 ) {  <NL> algo join points3d algo = new algo join points3d ( cons , label , p1 , p2 ,  <NL> geo element3d . geo _ class _ segment3d ) ;  <NL> geo segment3d s = ( geo segment3d ) algo . get cs ( ) ;  <NL> return s ;  <NL>  }  COM: <s> segment3 d label linking points p1 and p2 </s>

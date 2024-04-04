@@ -1,0 +1,1 @@
+TDAT: private void update number of sub tasks of parent task ( sq lite database db , integer parent task id ) {  <NL> map < integer , integer > visited tasks = new hash map < integer , integer > ( ) ;  <NL> db helper . update number of sub tasks of task ( db , parent task id , visited tasks ) ;  <NL>  }  COM: <s> update sub task count of parent and child tasks </s>

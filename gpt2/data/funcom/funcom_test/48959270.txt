@@ -1,0 +1,1 @@
+TDAT: private void draw cells ( graphics2d g2 ) {  <NL> final float stroke width = 5 . 0f ;  <NL> g2 . set stroke ( new basic stroke ( stroke width ) ) ;  <NL>  <NL> for ( int x = 0 ; x < world width ( ) ; x + + ) {  <NL> for ( int y = 0 ; y < world height ( ) ; y + + ) {  <NL> draw cell ( x , y , g2 ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> draw all cells on the board </s>

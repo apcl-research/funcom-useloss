@@ -1,0 +1,1 @@
+TDAT: public local decl create local decl ( position pos , flags flags , name name , type type , expr init ) {  <NL> local def def = ts . local def ( pos , flags , types . ref ( type ) , name ) ;  <NL> return create local decl ( pos , def , init ) ;  <NL>  }  COM: <s> create a declaration for a local variable from scratch </s>

@@ -1,0 +1,1 @@
+TDAT: public void add interaction to vector ( string original1 , string original2 , double weight , vector data ) {  <NL> byte [ ] original form1 = bytes for string ( original1 ) ;  <NL> byte [ ] original form2 = bytes for string ( original2 ) ;  <NL> add interaction to vector ( original form1 , original form2 , weight , data ) ;  <NL>  }  COM: <s> adds a value to a vector </s>

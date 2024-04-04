@@ -1,0 +1,1 @@
+TDAT: public void set property ( string key , object value ) {  <NL>  / / use write method for property if it exists <NL> if ( beans . has introspected property ( this , key ) ) {  <NL> beans . set introspected property ( this , key , value ) ;  <NL>  } else {  <NL> properties . put ( key , value ) ;  <NL>  }  <NL>  }  COM: <s> set property i key i to i value i </s>

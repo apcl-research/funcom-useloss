@@ -1,0 +1,1 @@
+TDAT: public void set puc ( string puc ) throws card service exception {  <NL> command apdu c = new command apdu ( 0 , ins _ changereferencedata , 0x01 , 0x00 ,  <NL> puc . get bytes ( ) ) ;  <NL> response apdu r = service . transmit ( c ) ;  <NL> check sw ( r , " set puc failed : " ) ;  <NL>  }  COM: <s> set the given puc on the card </s>

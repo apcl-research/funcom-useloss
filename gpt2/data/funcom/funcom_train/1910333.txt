@@ -1,0 +1,1 @@
+TDAT: public void get fitness ( individual i ) {  <NL> if ( i . is valid ( ) ) {  <NL> i . get fitness ( ) . set double ( run file ( i . get phenotype ( ) ) ) ;  <NL>  } else {  <NL> i . get fitness ( ) . set double ( ( ( basic fitness ) i . get fitness ( ) ) . get default fitness ( ) ) ;  <NL>  }  <NL>  }  COM: <s> evaluate an individual and set the fitness </s>

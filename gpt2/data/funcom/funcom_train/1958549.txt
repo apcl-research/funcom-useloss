@@ -1,0 +1,1 @@
+TDAT: public int filter rgb ( int x , int y , int rgb ) {  <NL> int r = ( 0x00ff0000 - ( rgb & 0x00ff0000 ) ) ;  <NL> int g = ( 0x0000ff00 - ( rgb & 0x0000ff00 ) ) ;  <NL> int b = ( 0x000000ff - ( rgb & 0x000000ff ) ) ;  <NL> int t = rgb & 0xff000000 ; / / keep transparency <NL>  <NL> return r | g | b | t ;  <NL>  }  COM: <s> inverts the rgb value of a point </s>

@@ -1,0 +1,1 @@
+TDAT: protected hash map generate filter map ( ) {  <NL> iterator i = filters . iterator ( ) ;  <NL> hash map retval = new hash map ( ) ;  <NL> while ( i . has next ( ) ) {  <NL> filter f = ( filter ) i . next ( ) ;  <NL> retval . put ( new integer ( f . get id ( ) ) , f ) ;  <NL>  }  <NL> return retval ;  <NL>  }  COM: <s> helper functions to generate maps used in </s>

@@ -1,0 +1,1 @@
+TDAT: private void init _ 100 _ load jars ( ) {  <NL> init _ 110 _ load jars ( common code . system _ jar _ file , true , true ) ;  <NL> init _ 110 _ load jars ( common code . system _ jdbc _ jar _ file , false , true ) ;  <NL> init _ 110 _ load jars ( common code . user _ jar _ file , false , false ) ;  <NL>  }  COM: <s> load the jar file </s>

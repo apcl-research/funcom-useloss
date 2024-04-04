@@ -1,0 +1,1 @@
+TDAT: public float get width ( ) {  <NL> if ( this . fixed size ) {  <NL> return 46 . 6f ;  <NL>  } else {  <NL>  / / adult width is 4 times the distance between head and eyes location <NL> float width = get z ( ) * 4 / 14 ;  <NL> return math . min ( math . max ( width , 20 ) , 62 . 5f ) ;  <NL>  }  <NL>  }  COM: <s> returns the width of this observer camera according to </s>

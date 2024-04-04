@@ -1,0 +1,1 @@
+TDAT: protected void create header ( ) {  <NL> out . println ( " < ? xml version = \ " 1 . 0\ " encoding = \ " utf - 8\ " ? > \n " + html _ dtd ) ;  <NL> out . println ( " < ! - - " + created by text + " - - > " ) ;  <NL> out . println ( " < html > \n\t < head > \n\t\t < title > " + input . get name ( ) + " < / title > " ) ;  <NL>  }  COM: <s> create the html header </s>

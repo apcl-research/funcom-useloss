@@ -1,0 +1,1 @@
+TDAT: private void launch listeners ( ) throws error exception {  <NL> for ( int i = 0 ; i < ports . length ; i + + ) {  <NL> request listeners pool [ i ] = new request listener ( " listener - " + i , ports [ i ] ,  <NL> request queue , log ) ;  <NL> request listeners pool [ i ] . start ( ) ;  <NL>  }  <NL>  }  COM: <s> this method creates and launches the proxy listeners </s>

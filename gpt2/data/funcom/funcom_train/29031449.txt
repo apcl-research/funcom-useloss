@@ -1,0 +1,1 @@
+TDAT: public void de select towers ( ) {  <NL> for ( int i = 0 ; i < grid array . length ; i + + ) {  <NL> for ( int j = 0 ; j < grid array [ 0 ] . length ; j + + ) {  <NL> if ( grid array [ i ] [ j ] . get tower ( ) ! = null ) {  <NL> grid array [ i ] [ j ] . get tower ( ) . set selected ( false ) ;  <NL>  }  <NL>  }  <NL>  }  <NL>  }  COM: <s> deselects all towers </s>

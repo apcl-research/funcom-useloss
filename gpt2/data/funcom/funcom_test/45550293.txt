@@ -1,0 +1,1 @@
+TDAT: public void add to baseline ( string resource , java problem [ ] problems ) {  <NL> if ( ( null = = problems ) || ( 0 = = problems . length ) ) {  <NL> data . remove ( resource ) ;  <NL>  }  <NL> else {  <NL> baseline problem [ ] baseline = create baseline ( problems ) ;  <NL> data . put ( resource , baseline ) ;  <NL>  }  <NL>  }  COM: <s> add baselined problems </s>

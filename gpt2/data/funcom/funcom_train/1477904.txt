@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL>  / *  <NL> return " extent object : " +  <NL>  " \n . minx = " + minx +  <NL>  " \n . miny = " + miny +  <NL>  " \n . maxx = " + maxx +  <NL>  " \n . maxy = " + maxy + " \n " ;  <NL>  * /  <NL> return " " + minx + " " + miny + " " + maxx + " " + maxy ;  <NL>  }  COM: <s> returns a string representation of the extent object </s>

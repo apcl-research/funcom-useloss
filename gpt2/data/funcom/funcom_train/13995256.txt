@@ -1,0 +1,1 @@
+TDAT: private void init center panel ( ) {  <NL> center panel = new j panel ( new border layout ( ) ) ;  <NL>  <NL> center panel . add ( create content panel ( ) , border layout . center ) ;  <NL>  <NL> center panel . add ( tool bar , border layout . north ) ;  <NL> center panel . add ( exception box , border layout . south ) ;  <NL>  }  COM: <s> initializes the center panel </s>

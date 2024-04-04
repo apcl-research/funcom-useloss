@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> return get day name ( ) + " " + get string month ( ) + " " + pad ( get day of month ( ) ) + " "  <NL>  + pad ( get hour of day24 ( ) ) + " : " + pad ( get minute of hour ( ) ) + " : "  <NL>  + pad ( get second of minute ( ) ) + " pst " + get year ( ) ;  <NL>  <NL>  }  COM: <s> returns date time string in the following format </s>

@@ -1,0 +1,1 @@
+TDAT: public cursor get all shopping items cursor ( ) {  <NL> return db . query ( database _ table , new string [ ] { key _ id , key _ task , key _ finished , key _ creation _ date } , null , null , null , null , null ) ; / /  <NL>  }  COM: <s> return a cursor to all the shopping items </s>

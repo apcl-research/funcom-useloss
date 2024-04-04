@@ -1,0 +1,1 @@
+TDAT: public void test concat ( ) {  <NL> string [ ] a = new string [ ] { " a " , " a " } ;  <NL> string [ ] b = new string [ ] { " b " , " b " } ;  <NL>  <NL> string [ ] c = util . concat ( a , b ) ;  <NL>  <NL> assert true ( arrays . equals ( new string [ ] { " a " , " a " , " b " , " b " } , c ) ) ;  <NL>  }  COM: <s> test the concat method </s>

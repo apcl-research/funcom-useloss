@@ -1,0 +1,1 @@
+TDAT: public void set input query ( string input query ) {  <NL> input query = input query . trim ( ) ;  <NL> if ( input query . ends with ( " ; " ) ) {  <NL> input query = input query . substring ( 0 , input query . length ( ) - 1 ) ;  <NL>  }  <NL> conf . set ( query _ prop , input query ) ;  <NL>  }  COM: <s> get run this query and give the results to mappers </s>

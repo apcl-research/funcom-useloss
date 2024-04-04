@@ -1,0 +1,1 @@
+TDAT: public int get int ( int row , int col ) {  <NL> number i = ( number ) get object ( row , col ) ;  <NL> if ( i = = null ) {  <NL> throw new illegal state exception ( " null value at ( " + row + " , " + col + " ) " ) ;  <NL>  }  <NL> return i . int value ( ) ;  <NL>  }  COM: <s> returns the integer at the specified </s>

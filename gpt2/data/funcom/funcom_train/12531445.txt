@@ -1,0 +1,1 @@
+TDAT: public void import row ( row r ) {  <NL> if ( r = = null || this = = r . get table ( ) )  <NL> throw new illegal argument exception ( " only non - null rows from other tables can be imported " ) ;  <NL> this . put ( r . get party ( ) , r . get votes ( ) , r . get seats ( ) ) ;  <NL>  }  COM: <s> fast way to add a row from another table </s>

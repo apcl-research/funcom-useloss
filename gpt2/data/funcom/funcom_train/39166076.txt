@@ -1,0 +1,1 @@
+TDAT: public float get total trials ( ) {  <NL> float sum total = 0 ;  <NL> for ( int i = 0 ; i < feature values . size ( ) ; + + i ) {  <NL> for ( int j = 0 ; j < feature values . size ( ) ; + + j ) {  <NL> sum total + = confusion matrix [ i ] [ j ] ;  <NL>  }  <NL>  }  <NL> return sum total ;  <NL>  }  COM: <s> gets the total number of annotations in the two sets </s>

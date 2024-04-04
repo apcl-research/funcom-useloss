@@ -1,0 +1,1 @@
+TDAT: public void draw rectangle outline ( int x , int y , int w , int h , color color , int width ) {  <NL> shape s = new rectangle2d . float ( ( float ) x , ( float ) y , ( float ) w , ( float ) h ) ;  <NL> draw shape ( s , color , width ) ;  <NL>  }  COM: <s> draw outline of a rectangle with a color </s>

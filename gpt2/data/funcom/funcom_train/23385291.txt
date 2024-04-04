@@ -1,0 +1,1 @@
+TDAT: public void print error ( string msg , print writer out ) {  <NL> out . print ( " < center > < div class = error > " + msg + " < br / > < form onsubmit = \ " javascript : back ( ) \ " > < input type = submit onlick = \ " javascript : back ( ) \ " value = \ " zurück\ " / > < / form > < / div > < / center > " ) ;  <NL>  }  COM: <s> print a error msg to out </s>

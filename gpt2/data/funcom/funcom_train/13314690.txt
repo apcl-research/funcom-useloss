@@ -1,0 +1,1 @@
+TDAT: public void visit ( the _ op inv n , a argu ) {  <NL> n . t he _ op name . accept ( this , argu ) ;  <NL> n . node token . accept ( this , argu ) ;  <NL> n . scalar exp . accept ( this , argu ) ;  <NL> n . node token1 . accept ( this , argu ) ;  <NL>  }  COM: <s> t he op name the op name </s>

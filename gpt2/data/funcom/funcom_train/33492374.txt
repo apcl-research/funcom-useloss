@@ -1,0 +1,1 @@
+TDAT: public void reset ( ) {  <NL> cards . remove all ( cards ) ;  <NL> for ( int suite = 0 ; suite < card . suites ; suite + + ) {  <NL> for ( int rank = 7 ; rank < = 14 ; rank + + ) {  <NL> card c = new card ( suite , rank ) ;  <NL> cards . add ( c ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> comman to reset this deck thus removing all left over cards and adding </s>

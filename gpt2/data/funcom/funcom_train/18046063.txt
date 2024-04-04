@@ -1,0 +1,1 @@
+TDAT: public double read data point variable ( int channel , int frame ) {  <NL> if ( ! get data window ( ) . is within window range ( frame ) ) {  <NL> system . out . println ( " caution ! accessing frame " + frame + " , outside variable scaling window ! " ) ;  <NL>  }  <NL> return read data point variable impl ( channel , frame ) ;  <NL>  }  COM: <s> reads the data </s>

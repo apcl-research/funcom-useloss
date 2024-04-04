@@ -1,0 +1,1 @@
+TDAT: public object clone ( ) {  <NL> order by post element clone = new order by post element ( ) ;  <NL> for ( iterator i = list . iterator ( ) ; i . has next ( ) ; ) {  <NL> clone . append ( ( order by elm ) ( ( order by elm ) i . next ( ) ) . clone ( ) ) ;  <NL>  }  <NL> return clone ;  <NL>  }  COM: <s> creates an identical copies of this instance </s>

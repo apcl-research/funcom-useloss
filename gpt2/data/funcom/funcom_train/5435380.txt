@@ -1,0 +1,1 @@
+TDAT: public void set float ( int offset , float f ) {  <NL> int v = float . float to int bits ( f ) ;  <NL> set byte ( offset , v % 256 ) ;  <NL> set byte ( offset + 1 , ( v > > 8 ) % 256 ) ;  <NL> set byte ( offset + 2 , ( v > > 16 ) % 256 ) ;  <NL> set byte ( offset + 3 , ( v > > 24 ) % 256 ) ;  <NL>  }  COM: <s> method set float </s>

@@ -1,0 +1,1 @@
+TDAT: protected void forward ( request r ) {  <NL> if ( r . get client ( ) . session ! = null ) {  <NL>  / / client . session . send request ( r . to string ( ) ) ;  <NL> r . get client ( ) . session . send request ( r ) ;  <NL>  / / logger . log debug ( " forwarded message : " + r ) ;  <NL>  }  <NL>  }  COM: <s> forward request to the client </s>

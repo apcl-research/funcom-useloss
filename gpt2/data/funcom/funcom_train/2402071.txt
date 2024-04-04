@@ -1,0 +1,1 @@
+TDAT: public int compare ( object row1 , object row2 ) {  <NL> object data1 = ( ( list ) row1 ) . get ( data model column index ) ;  <NL> object data2 = ( ( list ) row2 ) . get ( data model column index ) ;  <NL> int result = column comparator . compare ( data1 , data2 ) ;  <NL> return asc mode ? result : - result ;  <NL>  }  COM: <s> compare two instances of row </s>

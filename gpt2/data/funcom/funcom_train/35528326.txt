@@ -1,0 +1,1 @@
+TDAT: public void convertto hounsfield ( ) {  <NL> for ( int y = 0 ; y < pixels [ 0 ] . length ; y + + ) {  <NL> for ( int x = 0 ; x < pixels . length ; x + + ) {  <NL> pixels [ x ] [ y ] = ( ( pixels [ x ] [ y ] - muwater ) / muwater ) * 1000 ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> converts the summation image with density values to hounsfield units </s>

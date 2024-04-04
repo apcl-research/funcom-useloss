@@ -1,0 +1,1 @@
+TDAT: private void set table colums min width ( ) {  <NL> m _ table . get column model ( ) . get column ( 0 ) . set min width ( 50 ) ;  <NL> m _ table . get column model ( ) . get column ( 1 ) . set min width ( 100 ) ;  <NL> m _ table . get column model ( ) . get column ( 2 ) . set preferred width ( 400 ) ;  <NL>  }  COM: <s> set table columns minimal width </s>

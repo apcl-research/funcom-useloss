@@ -1,0 +1,1 @@
+TDAT: public void set value ( prepared statement ps , int parameter index , t obj ) throws sql exception {  <NL> if ( obj = = null ) {  <NL> ps . set null ( parameter index , this . get sql type ( ) ) ;  <NL> return ;  <NL>  }  <NL> this . cast and set value ( ps , parameter index , obj ) ;  <NL>  }  COM: <s> sets a value in a code prepared statement code </s>

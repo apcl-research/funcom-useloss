@@ -1,0 +1,1 @@
+TDAT: public void scale ( f vector3 scale ) {  <NL> m00 * = scale . x ;  <NL> m10 * = scale . x ;  <NL> m20 * = scale . x ;  <NL> m01 * = scale . y ;  <NL> m11 * = scale . y ;  <NL> m21 * = scale . y ;  <NL> m02 * = scale . z ;  <NL> m12 * = scale . z ;  <NL> m22 * = scale . z ;  <NL>  }  COM: <s> code scale code scales the operation performed by this matrix on a </s>

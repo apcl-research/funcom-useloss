@@ -1,0 +1,1 @@
+TDAT: protected void set writing mode ( ) {  <NL> f obj p ;  <NL> f obj parent ;  <NL> for ( p = this ;  <NL>  ! p . generates reference areas ( ) & & ( parent = p . get parent ( ) ) ! = null ;  <NL> p = parent ) ;  <NL> this . properties . set writing mode ( p . get property ( " writing - mode " ) . get enum ( ) ) ;  <NL>  }  COM: <s> set writing mode for this fo </s>

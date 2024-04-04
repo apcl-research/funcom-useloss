@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> string a rtn = " " ;  <NL> a rtn + = " request : " + request + " \n " ;  <NL> a rtn + = " resource : " + resource + " \n " ;  <NL> a rtn + = " filename : " + filename + " \n " ;  <NL> a rtn + = " path : " + path + " \n " ;  <NL> return a rtn ;  <NL>  }  COM: <s> return a character representation of the object </s>

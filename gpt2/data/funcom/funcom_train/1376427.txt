@@ -1,0 +1,1 @@
+TDAT: public void init data ( float x , float y , float angle ) {  <NL> last current time = clock . timestamp ( ) ;  <NL> xc . set ( 0 , 0 , x ) ;  <NL> xc . set ( 1 , 0 , y ) ;  <NL> xc . set ( 2 , 0 , 0 ) ;  <NL> xc . set ( 3 , 0 , 0 ) ;  <NL> cat angle = angle ;  <NL>  }  COM: <s> set initial data and run filter once and then re sample </s>

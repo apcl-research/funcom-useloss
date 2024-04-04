@@ -1,0 +1,1 @@
+TDAT: public boolean has edge ( graph node v , graph node w ) {  <NL> assert . is true ( nodes . contains value ( v ) , " graph does not contain " + v ) ;  <NL> assert . is true ( nodes . contains value ( w ) , " graph does not contain " + w ) ;  <NL> return succs ( v ) . contains ( w ) ;  <NL>  }  COM: <s> searches this graph for an directed edge between two graph nodes </s>

@@ -1,0 +1,1 @@
+TDAT: protected boolean is selected ( page state s , object key , int column ) {  <NL> object sel = get table ( )  <NL>  . get column selection model ( ) . get selected key ( s ) ;  <NL> if ( sel = = null ) {  <NL> return false ;  <NL>  }  <NL> return ( column = = ( ( integer ) sel ) . int value ( ) ) ;  <NL>  }  COM: <s> determine whether the given column is selected </s>

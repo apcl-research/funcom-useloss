@@ -1,0 +1,1 @@
+TDAT: public void end element ( string namespace uri , string local name , string q name ) throws sax exception {  <NL> m _ state . end element ( namespace uri , local name , q name ) ;  <NL> m _ base uri = ( uri ) m _ base ur is . pop ( ) ;  <NL> m _ language = ( string ) m _ languages . pop ( ) ;  <NL>  }  COM: <s> called when element parsing is ended </s>

@@ -1,0 +1,1 @@
+TDAT: public double vector pace4 ( double vector x ) {  <NL>  <NL> double vector h = h ( x ) ;  <NL> double vector copy = x . copy ( ) ;  <NL> for ( int i = 0 ; i < x . size ( ) ; i + + )  <NL> if ( h . get ( i ) < = 0 ) copy . set ( i , 0 ) ;  <NL> trim ( copy ) ;  <NL> return copy ;  <NL>  }  COM: <s> returns the pace4 estimate of a vector </s>

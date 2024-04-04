@@ -1,0 +1,1 @@
+TDAT: public void set pixels ( int x , int y , int w , int h , float f array [ ] ) {  <NL> sample model . set pixels ( x - sample model translate x , y - sample model translate y ,  <NL> w , h , f array , data buffer ) ;  <NL>  }  COM: <s> sets all samples for a rectangle of pixels from a float array containing </s>

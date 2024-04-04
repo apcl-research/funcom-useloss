@@ -1,0 +1,1 @@
+TDAT: public void set manager ( string manager ) {  <NL> if ( manager = = null || manager . length ( ) = = 0 ) {  <NL> throw new illegal argument exception ( " manager must not be null or empty " ) ;  <NL>  }  <NL> this . manager = ( manager . char at ( 0 ) = = ' / ' ) ? manager : ( " / " + manager ) ;  <NL>  }  COM: <s> sets the connector manager to proxy </s>

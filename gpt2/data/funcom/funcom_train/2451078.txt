@@ -1,0 +1,1 @@
+TDAT: public void test ( t value ) {  <NL> if ( value = = null ) {  <NL> throw new illegal argument exception ( " value cannot be null . " ) ; / / $ non - nls - 1 $  <NL>  }  <NL> if ( m _ min = = null ) {  <NL> m _ min = value ;  <NL> m _ max = value ;  <NL>  }  <NL> m _ tester . test ( value ) ;  <NL>  }  COM: <s> tests a new value </s>

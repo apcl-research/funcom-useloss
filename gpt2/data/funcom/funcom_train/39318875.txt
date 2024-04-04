@@ -1,0 +1,1 @@
+TDAT: public void run ( ) throws io exception {  <NL> m _ logger . info ( " beginning startup " ) ;  <NL> int num message senders = 9 ;  <NL> m _ shutdown = false ;  <NL> new top level listener ( ) . start ( ) ;  <NL>  / / m _ hsm . start ( ) ; / / todo reinsert this .  <NL> m _ logger . info ( " started " ) ;  <NL>  }  COM: <s> runs the server </s>

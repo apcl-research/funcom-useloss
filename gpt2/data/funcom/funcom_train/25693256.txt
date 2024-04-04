@@ -1,0 +1,1 @@
+TDAT: public int get fist tab index ( string title , int offset ) {  <NL> int out = - 1 ;  <NL> for ( int i = offset ; i < this . get tab count ( ) ; i + + ) {  <NL> if ( title . equals ( this . get title at ( i ) ) ) {  <NL> out = i ;  <NL> break ;  <NL>  }  <NL>  }  <NL> return out ;  <NL>  }  COM: <s> get the index of the first tab with the specified title </s>

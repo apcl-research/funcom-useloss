@@ -1,0 +1,1 @@
+TDAT: public void on query complete ( int token , object cookie , caller info ci ) {  <NL> if ( dbg ) log ( " callerinfo query complete , updating ui . " ) ;  <NL>  <NL>  ( ( remote views ) cookie ) . set text view text ( r . id . text2 ,  <NL> phone utils . get compact name from caller info ( ci , m context ) ) ;  <NL>  }  COM: <s> implemented for caller info async query </s>

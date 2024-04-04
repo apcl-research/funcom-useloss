@@ -1,0 +1,1 @@
+TDAT: public void test add element ( ) {  <NL> om error error = new om error ( ) ;  <NL> error . set symbol ( new om symbol ( " cd " , " name " ) ) ;  <NL> error . add element ( new om integer ( " 1 " ) ) ;  <NL> assert true ( error . get element at ( 0 ) . get type ( ) . equals ( " omi " ) ) ;  <NL>  }  COM: <s> test of add element method of class nl </s>

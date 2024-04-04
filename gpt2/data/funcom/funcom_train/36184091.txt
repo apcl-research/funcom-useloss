@@ -1,0 +1,1 @@
+TDAT: private j text field get j text field action val ( ) {  <NL> if ( j text field action val = = null ) {  <NL> j text field action val = new j text field ( ) ;  <NL> j text field action val . set bounds ( new rectangle ( 157 , 52 , 143 , 20 ) ) ;  <NL>  }  <NL> return j text field action val ;  <NL>  }  COM: <s> this method initializes j text field action val </s>

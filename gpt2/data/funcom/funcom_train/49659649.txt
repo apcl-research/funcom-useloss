@@ -1,0 +1,1 @@
+TDAT: @ test public void register users ( ) throws exception {  <NL> string test post = " test register user @ " + sensorbase . get server properties ( ) . get ( test _ domain _ key ) ;  <NL> for ( int i = 0 ; i < 10 ; i + + ) {  <NL> sensor base client . register user ( get sensor base host name ( ) , test post ) ;  <NL>  }  <NL>  }  COM: <s> tests multiple register users </s>

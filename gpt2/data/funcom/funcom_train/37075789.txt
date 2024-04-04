@@ -1,0 +1,1 @@
+TDAT: public db xref get primary db xref ( ) {  <NL> vector xrefs = get db xrefs ( ) ;  <NL> for ( int i = 0 ; i < xrefs . size ( ) ; i + + ) {  <NL> db xref xref = ( db xref ) xrefs . element at ( i ) ;  <NL> if ( xref . is primary ( ) )  <NL> return xref ;  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> return the db xref if any that has is primary true </s>

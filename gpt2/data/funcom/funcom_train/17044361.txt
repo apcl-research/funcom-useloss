@@ -1,0 +1,1 @@
+TDAT: public void add user ( string user name , int low port , int high port , boolean override ) {  <NL>  <NL> if ( override || ! this . users . contains key ( user name ) ) {  <NL> this . users . put ( user name , new user ( user name , low port , high port ) ) ;  <NL>  }  <NL>  }  COM: <s> add the user to this instance </s>

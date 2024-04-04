@@ -1,0 +1,1 @@
+TDAT: public void set font style ( boolean italic , boolean bold ) {  <NL>  _ font . set i array ( null ) ;  <NL>  _ font . set b array ( null ) ;  <NL> if ( italic ) _ font . add new i ( ) . set val ( true ) ;  <NL> if ( bold ) _ font . add new b ( ) . set val ( true ) ;  <NL>  }  COM: <s> set font style options </s>

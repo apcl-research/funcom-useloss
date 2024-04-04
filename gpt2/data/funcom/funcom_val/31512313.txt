@@ -1,0 +1,1 @@
+TDAT: public image get image ( ) {  <NL> if ( img = = null ) {  <NL> img = new buffered image ( w , h , buffered image . type _ 4byte _ abgr ) ;  <NL> graphics g = img . get graphics ( ) ;  <NL> paint icon ( null , g , 0 , 0 ) ;  <NL> g . dispose ( ) ;  <NL>  }  <NL> return img ;  <NL>  }  COM: <s> returns an image of the new icon </s>

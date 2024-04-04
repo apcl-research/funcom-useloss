@@ -1,0 +1,1 @@
+TDAT: public int get layer ind ( layer layer ) {  <NL> int layer ind = - 1 ;  <NL> for ( int i = 0 ; i < layers . size ( ) ; + + i ) {  <NL> layer ly = ( layer ) layers . get ( i ) ;  <NL> if ( ly = = layer ) {  <NL> layer ind = i ;  <NL> break ;  <NL>  }  <NL>  }  <NL> return layer ind ;  <NL>  }  COM: <s> calculates the index of a layer within the layers array </s>

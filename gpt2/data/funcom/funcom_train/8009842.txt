@@ -1,0 +1,1 @@
+TDAT: public html link new email link ( string name , string text , string address , string font ) {  <NL> html link l = new html link ( name , " mailto : " + address , _ page ) ;  <NL> html text t = new html text ( text , font , _ page , _ theme ) ;  <NL> l . add ( t ) ;  <NL> return l ;  <NL>  }  COM: <s> use this method to create an e mail mail to link </s>

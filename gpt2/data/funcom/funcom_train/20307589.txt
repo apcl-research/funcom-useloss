@@ -1,0 +1,1 @@
+TDAT: public closable iterator find ( node s , node p , node o ) {  <NL>  / / return graph . find ( s , p , o ) . and then ( pending cache . find ( s , p , o ) ) ;  <NL> return graph . find data matches ( s , p , o ) ;  <NL>  }  COM: <s> in some formulations the context includes deductions that are not yet </s>

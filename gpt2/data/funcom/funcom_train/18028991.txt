@@ -1,0 +1,1 @@
+TDAT: public datum multiply ( datum a ) {  <NL> datum result = multiply ( a . get value ( ) , a . get units ( ) ) ;  <NL> result . resolution = result . double value ( ) * relative error mult ( double value ( ) , resolution , a . double value ( ) , a . resolution ) ;  <NL> return result ;  <NL>  }  COM: <s> multiply this by the datum tt a tt </s>

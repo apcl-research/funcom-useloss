@@ -1,0 +1,1 @@
+TDAT: private long month start ( int year , int month ) {  <NL> if ( civil ) {  <NL> return ( long ) math . ceil ( 29 . 5 * month )  <NL>  + ( year - 1 ) * 354 + ( long ) math . floor ( ( 3 + 11 * year ) / 30 . 0 ) ;  <NL>  } else {  <NL> return true month start ( 12 * ( year - 1 ) + month ) ;  <NL>  }  <NL>  }  COM: <s> return the day on which the given month starts </s>

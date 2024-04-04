@@ -1,0 +1,1 @@
+TDAT: public long find raw contact id ( ) {  <NL> for ( entity delta delta : this ) {  <NL> final long raw contact id = delta . get values ( ) . get as long ( raw contacts . _ id ) ;  <NL> if ( raw contact id ! = null & & raw contact id > = 0 ) {  <NL> return raw contact id ;  <NL>  }  <NL>  }  <NL> return - 1 ;  <NL>  }  COM: <s> search all contained </s>

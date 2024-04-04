@@ -1,0 +1,1 @@
+TDAT: protected date get time out ( ) {  <NL> return get date time ( this . date out field . get date ( ) , this . cbo hour out . get selected item ( ) . to string ( ) ,  <NL> this . cbo minute out . get selected item ( ) . to string ( ) , this . cbo am pm out . get selected item ( ) . to string ( ) ) ;  <NL>  }  COM: <s> gets the time out for this entry </s>

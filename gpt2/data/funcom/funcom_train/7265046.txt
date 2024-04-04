@@ -1,0 +1,1 @@
+TDAT: public boolean add all ( collection < ? extends t > coll ) {  <NL> if ( coll . is empty ( ) )  <NL> return false ;  <NL> int i = 0 ;  <NL> for ( iterator < ? extends t > iter = coll . iterator ( ) ; i < _ max size & & iter . has next ( ) ; i + + )  <NL> add ( iter . next ( ) ) ;  <NL> return true ;  <NL>  }  COM: <s> adds all the elements in collection to this </s>

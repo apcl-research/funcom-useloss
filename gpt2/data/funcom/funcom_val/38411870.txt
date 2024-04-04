@@ -1,0 +1,1 @@
+TDAT: private boolean is within radius ( point3f t ) {  <NL> dx = t . x - cx ;  <NL> return ( ! t hemisphere || dx > = 0 )  <NL>  & & ( dx = math . abs ( dx ) ) < = radius <NL>  & & ( dy = math . abs ( t . y - cy ) ) < = radius <NL>  & & ( dz = math . abs ( t . z - cz ) ) < = radius ;  <NL>  }  COM: <s> checks one point3f for distance </s>

@@ -1,0 +1,1 @@
+TDAT: public void read string ( ) {  <NL> int c = next char ( ) ; / / read off the initial "  <NL> int last char = c ;  <NL> c = next char ( ) ;  <NL> while ( ( c > 0 ) & & ! ( ( c = = ' " ' ) & & ( last char ! = ' \\ ' ) ) ) {  <NL> last char = c ;  <NL> c = next char ( ) ;  <NL>  }  <NL>  }  COM: <s> move the pointer past a string enclosed in quotes </s>

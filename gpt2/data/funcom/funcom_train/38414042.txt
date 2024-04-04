@@ -1,0 +1,1 @@
+TDAT: public font get font ( string font name ) {  <NL>  <NL> if ( ! fonts . contains key ( font name ) ) {  <NL> if ( debug _ mode )  <NL> system . out . println ( " font " + font name + " not found ! " ) ;  <NL>  <NL> return ( font ) fonts . get ( " dialog " ) ;  <NL>  }  <NL>  <NL> return ( font ) fonts . get ( font name ) ;  <NL>  }  COM: <s> to get a font </s>

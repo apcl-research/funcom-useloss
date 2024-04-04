@@ -1,0 +1,1 @@
+TDAT: private void boot creds to mozilla ( sacre dcredential [ ] creds , string mozilla profile ) throws exception {  <NL>  / / for each cred , dump it to a file <NL> for ( int i = 0 ; i < creds . length ; i + + ) {  <NL> boot cred to mozilla ( creds [ i ] , mozilla profile , " sacred " , " sacred " ) ;  <NL>  }  <NL>  }  COM: <s> dump creds to file </s>

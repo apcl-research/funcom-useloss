@@ -1,0 +1,1 @@
+TDAT: public void tail event ( tail event te ) {  <NL> for ( int i = 0 ; i < c patterns . length ; i + + ) {  <NL> if ( c patterns [ i ] ! = null & & c patterns [ i ] . matcher ( te . get line ( ) ) . matches ( ) ) {  <NL> this . set message ( te . get line ( ) ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> checks if the given line matches any one of the given patterns </s>

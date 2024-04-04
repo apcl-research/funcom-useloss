@@ -1,0 +1,1 @@
+TDAT: public void delete change table file ( string virtual wiki ) {  <NL> try {  <NL> file handler . get path for ( virtual wiki , recent _ file ) . delete ( ) ;  <NL>  } catch ( exception err ) {  <NL> logger . log ( level . severe , " unable to delete recent changes file for " + virtual wiki , err ) ;  <NL>  }  <NL>  }  COM: <s> delete the existing recent changes file </s>

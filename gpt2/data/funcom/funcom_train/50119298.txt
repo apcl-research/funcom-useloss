@@ -1,0 +1,1 @@
+TDAT: public int add _ new _ affect ( string name , int what , int duration ) {  <NL> if ( is _ affect ( name ) )  <NL> return - 1 ;  <NL>  <NL> affect _ spell na = new affect _ spell ( name , what , duration ) ;  <NL> affect _ sp . add element ( na ) ;  <NL> updatestats ( ) ;  <NL> return 0 ;  <NL>  }  COM: <s> this method adds a new affect spell to the living </s>

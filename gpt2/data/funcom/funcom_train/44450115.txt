@@ -1,0 +1,1 @@
+TDAT: protected void create cfg ( cfg f _ cfg , cfg node f _ start , cfg node f _ end ) {  <NL>  / / overwrite this method <NL> f _ start . add dom node ( this ) ;  <NL> f _ start . add successor ( f _ end ) ;  <NL> logger . warning ( " create cfg implementation needed for : " + this ) ;  <NL>  }  COM: <s> this method creates the node used in the control flow graph </s>

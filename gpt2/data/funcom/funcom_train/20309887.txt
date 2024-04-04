@@ -1,0 +1,1 @@
+TDAT: protected void translate union class ( element expr , ont class cls , model source ) {  <NL>  / / an anonymous intersection of class expressions <NL> element or = add element ( expr , dig profile . or ) ;  <NL> translate class list ( or , cls . as union class ( ) . get operands ( ) , source ) ;  <NL>  }  COM: <s> translate an union class to an or element </s>

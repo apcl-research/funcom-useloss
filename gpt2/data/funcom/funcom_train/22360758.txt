@@ -1,0 +1,1 @@
+TDAT: public int get difference ( int to dir ) {  <NL> if ( to direction ( to dir ) = = invalid || this = = invalid )  <NL> return integer . max _ value ;  <NL> return ( dir - to dir + 3 > = 0 ? 3 - ( dir - to dir + 3 ) % 6 : ( to dir - dir + 3 ) % 6 - 3 ) ;  <NL>  }  COM: <s> returns the difference to the specified direction </s>

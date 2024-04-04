@@ -1,0 +1,1 @@
+TDAT: public void add ( string name , profilable if pr ) {  <NL> if ( pr = = null ) return ;  <NL> if ( pw = = null ) return ;  <NL> synchronized ( profilables ) {  <NL> pw . println ( " # registered " + profilables . size ( ) + " " + name ) ;  <NL> profilables . add element ( new profile ( name , pr ) ) ;  <NL>  }  <NL>  }  COM: <s> add a class to this profiler </s>

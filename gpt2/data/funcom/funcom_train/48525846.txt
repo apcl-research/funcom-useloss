@@ -1,0 +1,1 @@
+TDAT: private int get prefix length ( string a , string b , int max ) {  <NL> int i = 0 ;  <NL>  <NL> for ( ; ( i < a . length ( ) - 1 ) & & ( i < b . length ( ) - 1 ) & & ( i < max ) ; i + + )  <NL> if ( a . char at ( i ) ! = b . char at ( i ) )  <NL> return i ;  <NL>  <NL> return i ;  <NL>  }  COM: <s> method which takes in two strings and returns the length of the </s>

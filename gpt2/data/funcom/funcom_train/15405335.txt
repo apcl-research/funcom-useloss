@@ -1,0 +1,1 @@
+TDAT: public void visit ( int version , int access , string name , string signature , string super name , string [ ] interfaces ) {  <NL>  <NL> class meta . set class name ( name , super name ) ;  <NL> super . visit ( version , access , name , signature , super name , interfaces ) ;  <NL>  }  COM: <s> create the class definition replacing the class name and super class </s>

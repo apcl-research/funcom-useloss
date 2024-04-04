@@ -1,0 +1,1 @@
+TDAT: public void add result ( final description content dc ) {  <NL> data . add ( dc ) ;  <NL> final table model event event = new table model event ( this ,  <NL> this . get row count ( ) - 1 , this . get row count ( ) - 1 ,  <NL> table model event . all _ columns , table model event . insert ) ;  <NL> notice ( event ) ;  <NL>  }  COM: <s> method to add a result </s>

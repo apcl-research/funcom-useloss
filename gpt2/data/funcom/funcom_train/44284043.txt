@@ -1,0 +1,1 @@
+TDAT: protected void event listener ( mouse wheel event e ) {  <NL> d knob t = ( d knob ) e . get source ( ) ;  <NL> if ( t . has focus ( ) ) / / to make consistent with other operation .  <NL> t . set value ( t . get value ( ) - ( e . get wheel rotation ( ) / ( float ) ( get value max ( ) - get value min ( ) ) ) ) ;  <NL>  }  COM: <s> invoked when mouse wheel is moved </s>

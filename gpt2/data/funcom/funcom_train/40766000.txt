@@ -1,0 +1,1 @@
+TDAT: public void record arc ( string from , string from cell , string to , string to cell ) {  <NL> out . println ( " \ " " + from + " \ " : \ " " + from cell + " \ " - > \ " " + to + " \ " : \ " " + to cell + " \ " ; " ) ;  <NL>  }  COM: <s> add between two records </s>

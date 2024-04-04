@@ -1,0 +1,1 @@
+TDAT: public boolean accept ( file dir , string name ) {  <NL> if ( name . starts with ( stem ) )  <NL> if ( name . ends with ( " . vector " ) || <NL> name . ends with ( " . vector . gz " ) || <NL> name . ends with ( " . vector . z " ) || <NL> name . ends with ( " . vector . z " ) )  <NL> return true ;  <NL> return false ;  <NL>  }  COM: <s> this method is used by file </s>

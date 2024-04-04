@@ -1,0 +1,1 @@
+TDAT: public void set indent ( final int p nb spaces ) {  <NL> if ( p nb spaces > 0 ) {  <NL> byte [ ] nb spaces = new byte [ p nb spaces ] ;  <NL> for ( int i = 1 ; i < p nb spaces ; i + + ) {  <NL> nb spaces [ i ] = ' ' ;  <NL>  }  <NL> m indent = new string ( nb spaces ) ;  <NL>  }  <NL>  }  COM: <s> defines the number of spaces to use for the indentation </s>

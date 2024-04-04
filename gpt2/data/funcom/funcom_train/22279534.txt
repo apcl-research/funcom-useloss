@@ -1,0 +1,1 @@
+TDAT: / / - private void move to and size to ( int x , int y , int width , int height ) {  <NL>  / / - move by and size by ( x - bounds . x , y - bounds . y ,  <NL>  / / - width - bounds . width ,  <NL>  / / - height - bounds . height ) ;  <NL>  / / - }  COM: <s> convenience method for smoothly simultaneously moving and resizing a </s>

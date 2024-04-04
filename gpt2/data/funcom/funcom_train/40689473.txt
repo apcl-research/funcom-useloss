@@ -1,0 +1,1 @@
+TDAT: public void test get equals ( ) {  <NL> multimap < string , integer > multimap = create ( ) ;  <NL> multimap . put ( " foo " , 1 ) ;  <NL> multimap . put ( " foo " , 3 ) ;  <NL> assert equals ( immutable list . of ( 1 , 3 ) , multimap . get ( " foo " ) ) ;  <NL>  }  COM: <s> confirm that get returns a collection equal to a list </s>

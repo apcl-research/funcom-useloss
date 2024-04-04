@@ -1,0 +1,1 @@
+TDAT: public void send ctcp reply ( final string s type , string s message ) {  <NL> if ( s type . is empty ( ) ) { return ; }  <NL> final char char1 = ( char ) 1 ;  <NL> if ( ! s message . is empty ( ) ) { s message = " " + s message ; }  <NL> send notice ( char1 + s type . to upper case ( ) + s message + char1 ) ;  <NL>  }  COM: <s> send a ctcpreply to a target </s>

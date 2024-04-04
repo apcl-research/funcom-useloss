@@ -1,0 +1,1 @@
+TDAT: public int insert ( final role role ) {  <NL> object [ ] params = new object [ ] { new long ( role . get id ( ) ) , role . get name ( ) , role . get description ( ) ,  <NL> role . get created ( ) , role . get last changed ( ) } ;  <NL> return update ( params ) ;  <NL>  }  COM: <s> insert role into database </s>

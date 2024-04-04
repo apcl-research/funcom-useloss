@@ -1,0 +1,1 @@
+TDAT: protected void paint tab border ( graphics g , int tab placement , int tab index , int x , int y , int w , int h , boolean is selected ) {  <NL> renderer . paint tab border ( g , tab index , x , y , w , h , is selected ) ;  <NL>  }  COM: <s> paints the border for one tab </s>

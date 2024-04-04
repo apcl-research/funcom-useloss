@@ -1,0 +1,1 @@
+TDAT: public void draw count ( int count , string image , int x , int y , int increment _ x ) {  <NL> if ( increment _ x < 0 ) x + = increment _ x ;  <NL> for ( int i = 0 ; i < count ; i + + )  <NL> draw image ( x + i * increment _ x , y , image , false ) ;  <NL>  }  COM: <s> draw a row of objects to indicate the value count </s>

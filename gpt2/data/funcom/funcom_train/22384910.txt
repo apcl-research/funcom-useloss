@@ -1,0 +1,1 @@
+TDAT: public void commit ( ) throws io exception {  <NL> if ( ! start commit ( ) ) return ;  <NL> byte [ ] ba = new byte [ start line . length ( ) ] ;  <NL> for ( int i = 0 ; i < ba . length ; i + + ) ba [ i ] = ( byte ) start line . char at ( i ) ;  <NL> os . write ( ba ) ;  <NL> os . flush ( ) ;  <NL> commit fields ( ) ;  <NL>  }  COM: <s> start sending this message </s>

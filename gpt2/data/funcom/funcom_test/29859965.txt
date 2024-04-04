@@ -1,0 +1,1 @@
+TDAT: public q inst remove last instruction ( ) {  <NL> if ( insts . size ( ) = = 0 ) {  <NL> return null ;  <NL>  } else {  <NL> q inst last = ( q inst ) insts . element at ( insts . size ( ) - 1 ) ;  <NL>  <NL> last . set array ( null ) ;  <NL> insts . set size ( insts . size ( ) - 1 ) ;  <NL> return last ;  <NL>  }  <NL>  }  COM: <s> remove the last instruction </s>

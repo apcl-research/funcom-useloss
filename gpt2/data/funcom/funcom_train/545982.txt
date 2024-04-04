@@ -1,0 +1,1 @@
+TDAT: public double compute positive min ( ) {  <NL>  <NL> double mi = double . max _ value ;  <NL> data list e = the data ;  <NL> if ( has filter ( ) ) e = the filtered data ;  <NL> while ( e ! = null ) {  <NL> if ( e . y > 0 & & e . y < mi ) mi = e . y ;  <NL> e = e . next ;  <NL>  }  <NL> return mi ;  <NL>  <NL>  }  COM: <s> compute minimun of positive value </s>

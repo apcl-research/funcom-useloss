@@ -1,0 +1,1 @@
+TDAT: public individual plus ( individual ind ) {  <NL> individual result = new individual ( val . length ) ;  <NL> for ( int i = 0 ; i < val . length ; i + + ) {  <NL> double foo = this . val [ i ] + ind . get value at ( i ) ;  <NL> result . set value at ( i , foo ) ;  <NL>  }  <NL> return result ;  <NL>  }  COM: <s> returns new instance of individual x this ind </s>

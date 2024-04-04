@@ -1,0 +1,1 @@
+TDAT: static public double sigma y square ( collection values ) {  <NL> double rtn = 0 ;  <NL> for ( iterator i = values . iterator ( ) ; i . has next ( ) ; ) {  <NL> double ct val = ( double ) i . next ( ) ;  <NL> rtn = rtn + math . pow ( ct val . double value ( ) , 2 ) ;  <NL>  }  <NL> return rtn ;  <NL>  }  COM: <s> sigma operation on the y co ordinate squared </s>

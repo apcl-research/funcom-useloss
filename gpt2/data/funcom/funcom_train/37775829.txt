@@ -1,0 +1,1 @@
+TDAT: public string get string case ( ) {  <NL> if ( m _ string case = = null & & m _ field meta data ! = null & & m _ field meta data instanceof string field meta data )  <NL> m _ string case = ( ( string field meta data ) m _ field meta data ) . get case type ( ) ;  <NL> return m _ string case ;  <NL>  }  COM: <s> getter for property string case </s>

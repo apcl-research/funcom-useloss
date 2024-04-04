@@ -1,0 +1,1 @@
+TDAT: public void test resolve path ( ) throws exception {  <NL> assert equals ( " a / b / c " , path . resolve ( " a / / / " , " b / c " ) . as string ( ) ) ;  <NL> assert equals ( " / a / b / c " , path . resolve ( " / / / a / b / / " , " c / / / " ) . as string ( ) ) ;  <NL>  }  COM: <s> test the resolve string string static method </s>

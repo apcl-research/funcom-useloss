@@ -1,0 +1,1 @@
+TDAT: public string get stripped id ( ) {  <NL> if ( id _ . index of ( " ~ " ) > = 0 ) {  <NL>  / / system . out . println ( " str id " + id _ . split ( " ~ " , 1 ) [ 0 ] ) ;  <NL> return id _ . substring ( 0 , id _ . index of ( " ~ " ) ) ;  <NL>  }  <NL> return id _ ;  <NL>  }  COM: <s> strips any scenario specifier off the end of the route id </s>

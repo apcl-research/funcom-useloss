@@ -1,0 +1,1 @@
+TDAT: @ override public string to string ( ) {  <NL> if ( pos = = pos . unknown ) return msg ;  <NL> if ( pos . filename . length ( ) > 0 ) return " line " + pos . y + " column " + pos . x + " in " + pos . filename + " : \n " + msg ;  <NL> return " line " + pos . y + " column " + pos . x + " : \n " + msg ;  <NL>  }  COM: <s> returns a textual description of the error </s>

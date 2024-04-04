@@ -1,0 +1,1 @@
+TDAT: public boolean save all ( ) {  <NL> boolean success = false ;  <NL> for ( int i = 0 ; i < this . size ( ) ; i + + ) {  <NL> if ( success ) {  <NL> success = this . get ( i ) . save ( ) ;  <NL>  } else { / / save state <NL> this . get ( i ) . save ( ) ;  <NL>  }  <NL>  }  <NL> return success ;  <NL>  }  COM: <s> invokes the save method on every entry in the list </s>

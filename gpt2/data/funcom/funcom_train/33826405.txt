@@ -1,0 +1,1 @@
+TDAT: public void make float ( j tool bar tool bar ) {  <NL> pair < point , pair < window , point > > float info = float info ( tool bar , location ) ;  <NL> point p = float info . ii . ii ; / / ancestor location <NL> do float ( tool bar , p . x , p . y , float info ) ;  <NL>  }  COM: <s> makes the given code </s>

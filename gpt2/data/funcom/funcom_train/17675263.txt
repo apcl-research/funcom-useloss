@@ -1,0 +1,1 @@
+TDAT: public list values ( ) {  <NL> array list a = new array list ( set . size ( ) ) ;  <NL> for ( iterator i = set . iterator ( ) ; i . has next ( ) ; ) {  <NL> weak reference r = ( weak reference ) i . next ( ) ;  <NL> object o = r . get ( ) ;  <NL> if ( o ! = null ) a . add ( o ) ;  <NL>  }  <NL> return a ;  <NL>  }  COM: <s> get all the objects still in the bag </s>

@@ -1,0 +1,1 @@
+TDAT: public void print line ( ) {  <NL> test util . info ( " " ) ;  <NL> test util <NL>  . info ( " - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - " ) ;  <NL>  }  COM: <s> method print line </s>

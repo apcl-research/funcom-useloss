@@ -1,0 +1,1 @@
+TDAT: public void pre _ to string ( ) {  <NL> assert super . get target field ( " from " ) ! = null ;  <NL> assert super . get target field ( " to " ) ! = null ;  <NL> assert super . get target field ( " received " ) ! = null ;  <NL> assert super . get target field ( " body " ) ! = null ;  <NL>  } / / end pre _ to string ( )  COM: <s> pre condition for to string method </s>

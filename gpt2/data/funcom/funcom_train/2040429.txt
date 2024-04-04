@@ -1,0 +1,1 @@
+TDAT: private input stream read file ( string file name ) {  <NL> try {  <NL> return ctx . get assets ( ) . open ( " fixture / " + file name + " . xml " ) ;  <NL>  } catch ( io exception e ) {  <NL> fail ( " can ' t read file : " + " assets / fixture / " + file name + " . xml " ) ;  <NL> return null ;  <NL>  }  <NL>  }  COM: <s> read fixture file the file is end with </s>

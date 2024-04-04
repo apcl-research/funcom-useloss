@@ -1,0 +1,1 @@
+TDAT: public boolean accept ( file dir , string name ) {  <NL>  / / we really only want to deal with jar - files . . .  <NL> if ( name . index of ( " . jar " ) = = - 1 ) {  <NL> return false ;  <NL>  }  <NL> return check report jar ( new file ( dir + " / " + name ) , dir scan needed ) ;  <NL>  }  COM: <s> this method filters for a given directory all jars </s>

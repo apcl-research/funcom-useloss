@@ -1,0 +1,1 @@
+TDAT: public void rebuild header ( ) {  <NL> header model . clear ( ) ;  <NL> int size = get dim count ( ) ;  <NL> for ( int i = 0 ; i < size ; i + + ) {  <NL> i dimension model dim model = get dim model ( i ) ;  <NL> header model . add tree model ( i , dim model . get tree model ( ) ) ;  <NL>  }  <NL>  }  COM: <s> rebuilds lists header model </s>

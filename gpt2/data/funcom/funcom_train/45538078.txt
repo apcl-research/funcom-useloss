@@ -1,0 +1,1 @@
+TDAT: private boolean is this prefix ( char [ ] string ) {  <NL> if ( string = = null || string . length < 5 )  <NL> return false ;  <NL> return string [ 0 ] = = ' t ' & & string [ 1 ] = = ' h ' & & string [ 2 ] = = ' i ' & & string [ 3 ] = = ' s ' & & string [ 4 ] = = ' . ' ;  <NL>  }  COM: <s> returns whether the given string starts with this </s>

@@ -1,0 +1,1 @@
+TDAT: private void paint label ( graphics g , string s , point p ) {  <NL> rectangle rect = measure string ( g , s ) ;  <NL> int x = p . x - rect . width / 2 ;  <NL> int y = p . y + rect . height / 2 ;  <NL> g . draw string ( s , x , y ) ;  <NL>  }  COM: <s> p paints a label so that its centre is at the specified point </s>

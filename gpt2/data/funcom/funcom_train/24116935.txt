@@ -1,0 +1,1 @@
+TDAT: public void add task ( task task ) {  <NL> try {  <NL> if ( task = = null ) throw new null pointer exception ( " task does not exist " ) ;  <NL> task list . put ( task . get unique name ( ) , task ) ;  <NL>  }  <NL> catch ( null pointer exception e ) {  <NL> logger . error ( " error during adding a task " , e ) ;  <NL>  }  <NL>  }  COM: <s> adds task to application </s>

@@ -1,0 +1,1 @@
+TDAT: public string get _ all _ level _ string ( ) {  <NL> string t temp = " " ;  <NL> for ( int i = 0 ; i < i class . get _ size ( ) ; i + + ) {  <NL> if ( i > 0 ) {  <NL> t temp + = " / " ;  <NL>  }  <NL> t temp + = " " + get _ level ( i ) ;  <NL>  }  <NL> return t temp ;  <NL>  }  COM: <s> returns a string of class levels </s>

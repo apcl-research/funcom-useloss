@@ -1,0 +1,1 @@
+TDAT: public my tree node clone ( ) {  <NL> my tree node root = ( my tree node ) super . clone ( ) ;  <NL> for ( int i = 0 ; i < this . get child count ( ) ; i + + )  <NL> root . insert ( ( my tree node ) ( ( ( my tree node ) get child at ( i ) ) . clone ( ) ) , i ) ;  <NL> return root ;  <NL>  }  COM: <s> clones recursively the tree </s>

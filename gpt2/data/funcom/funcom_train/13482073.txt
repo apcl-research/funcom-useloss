@@ -1,0 +1,1 @@
+TDAT: public void bfs add to queue ( vertex u , vertex w , graph g , array list < vertex > queue ) {  <NL> u . set visited ( true ) ; / / always <NL> queue . add ( u ) ; / / always <NL> u . set score ( w . get score ( ) * g . probability infects ( w , u ) ) ; / / modifiable <NL>  }  COM: <s> adds the vertex u to the queue </s>

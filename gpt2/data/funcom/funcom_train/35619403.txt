@@ -1,0 +1,1 @@
+TDAT: public quad2f plus ( quad2f val ) {  <NL> return new quad2f ( get vec ( 0 ) . plus ( val . get vec ( 0 ) ) ,  <NL> get vec ( 1 ) . plus ( val . get vec ( 1 ) ) ,  <NL> get vec ( 2 ) . plus ( val . get vec ( 2 ) ) ,  <NL> get vec ( 3 ) . plus ( val . get vec ( 3 ) ) ) ;  <NL>  }  COM: <s> returns a newly constructed quad2f in which the vertices are the </s>

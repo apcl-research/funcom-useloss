@@ -1,0 +1,1 @@
+TDAT: private void draw line ( graphics g , point _ dt p1 , point _ dt p2 ) {  <NL> point _ dt t1 = this . world2screen ( p1 ) ;  <NL> point _ dt t2 = this . world2screen ( p2 ) ;  <NL> g . draw line ( ( int ) t1 . x ( ) , ( int ) t1 . y ( ) , ( int ) t2 . x ( ) , ( int ) t2 . y ( ) ) ;  <NL>  }  COM: <s> draws a line </s>

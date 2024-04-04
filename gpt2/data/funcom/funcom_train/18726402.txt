@@ -1,0 +1,1 @@
+TDAT: private void set with arrow ( final boolean on ) {  <NL> if ( on ! = ( boolean ) jaxo prefs . get pref ( jaxo prefs . preferred . arrow ) ) {  <NL> fire property change ( " jaxo . with arrow " , ! on , on ) ;  <NL> jaxo prefs . set pref ( jaxo prefs . preferred . arrow , on ) ;  <NL>  }  <NL>  }  COM: <s> determines whether to draw arrows on lines arcs and loops </s>

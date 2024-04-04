@@ -1,0 +1,1 @@
+TDAT: public string to html string ( ) {  <NL> simple date format formatter = new simple date format ( " ' on ' dd . mm . yyyy ' at ' hh : mm " ) ;  <NL>  <NL> return formatter . format ( my creation date ) + " < a href = ' mailto : " + my email + " ' > " + my name + " < / a > wrote : < br > " + my comment ;  <NL>  }  COM: <s> returns an entry formatted in html </s>

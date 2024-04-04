@@ -1,0 +1,1 @@
+TDAT: public void set year ( int year ) {  <NL> int oldyear = calendar . get ( calendar . year ) ;  <NL> calendar . add ( calendar . year , year - oldyear ) ;  <NL> int new year = calendar . get ( calendar . year ) ;  <NL> if ( year ! = new year )  <NL> year = new year ;  <NL> fire property change ( " year " , oldyear , year ) ;  <NL>  }  COM: <s> sets the year property </s>

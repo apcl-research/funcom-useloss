@@ -1,0 +1,1 @@
+TDAT: synchronized protected void extend ( int pos ) {  <NL> int cap = _ bits . length ;  <NL> while ( cap < = pos ) {  <NL> cap < < = 1 ;  <NL>  }  <NL> byte [ ] tmp = new byte [ cap ] ;  <NL> system . arraycopy ( _ bits , 0 , tmp , 0 , _ bits . length ) ;  <NL>  _ bits = tmp ;  <NL>  }  COM: <s> extend bit pool to make this has capability to contain pos 8 bits </s>

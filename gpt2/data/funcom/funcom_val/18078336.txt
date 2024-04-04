@@ -1,0 +1,1 @@
+TDAT: public int compare to ( object o ) {  <NL> scheduler event tmp = ( scheduler event ) o ;  <NL> if ( tmp . get sort value ( ) . after ( get sort value ( ) ) ) {  <NL> return - 1 ;  <NL>  }  <NL> if ( tmp . get sort value ( ) . before ( get sort value ( ) ) ) {  <NL> return 1 ;  <NL>  }  <NL> return 0 ;  <NL>  }  COM: <s> implements the comparable interface </s>

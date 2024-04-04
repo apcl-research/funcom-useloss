@@ -1,0 +1,1 @@
+TDAT: public void set root ( object root ) {  <NL> if ( root = = null )  <NL> throw new illegal argument exception ( " root of tree is not allowed to be null " ) ;  <NL> this . root = root ;  <NL> fire tree structure changed ( this , null , new int [ ] { 0 } , new object [ ] { root } ) ;  <NL>  }  COM: <s> sets the root to code root code </s>

@@ -1,0 +1,1 @@
+TDAT: protected void initialize ( test parameters t param , print writer log ) {  <NL> string cncstr = ( string ) t param . get ( " cncstr " ) ;  <NL> int idx = cncstr . index of ( " host = " ) + 5 ;  <NL> s office host = cncstr . substring ( idx , cncstr . index of ( " , " , idx ) ) ;  <NL>  }  COM: <s> retrieves host name where star office is started from test </s>

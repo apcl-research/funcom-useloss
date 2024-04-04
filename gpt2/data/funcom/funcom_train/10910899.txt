@@ -1,0 +1,1 @@
+TDAT: protected void put char ( int x , int y , char ch , boolean ischar ) {  <NL> if ( is lay inside ( x , y ) ) {  <NL> string buffer sb = ischar ? char data [ y ] : deco data [ y ] ;  <NL> while ( sb . length ( ) < = x ) {  <NL> sb . append ( ' ' ) ;  <NL>  }  <NL> sb . set char at ( x , ch ) ;  <NL>  }  <NL>  }  COM: <s> add char to text or background buffer </s>

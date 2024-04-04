@@ -1,0 +1,1 @@
+TDAT: public void buffer signal ( ) {  <NL> signal count + + ;  <NL>  / / system . out . println ( " actor draws size : " + actor draws . size ( ) ) ;  <NL> if ( signal count = = actor draws . size ( ) ) {  <NL>  <NL> system . out . println ( " emptybuffer " ) ;  <NL> empty buffer = true ;  <NL> signal count = 0 ;  <NL>  }  <NL>  <NL>  }  COM: <s> signal to the buffer </s>

@@ -1,0 +1,1 @@
+TDAT: public void make circle brush ( double rad ) {  <NL> shape = new area ( new ellipse2d . double ( 0 , 0 , rad * 2 , rad * 2 ) ) ;  <NL> resize ( ( int ) ( rad * 2 ) , ( int ) ( rad * 2 ) , 0 , 0 ) ;  <NL>  }  COM: <s> makes this brush a circular brush </s>

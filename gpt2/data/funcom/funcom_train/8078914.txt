@@ -1,0 +1,1 @@
+TDAT: public double vector cat ( double vector v ) {  <NL> double vector w = new double vector ( size ( ) + v . size ( ) ) ;  <NL> w . set ( 0 , size ( ) - 1 , this , 0 ) ;  <NL> w . set ( size ( ) , size ( ) + v . size ( ) - 1 , v , 0 ) ;  <NL> return w ;  <NL>  }  COM: <s> combine two vectors together </s>

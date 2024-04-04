@@ -1,0 +1,1 @@
+TDAT: public void test awt ( ) {  <NL> assert true ( " is awt running " , is awt running ( ) ) ;  <NL> pause awt ( ) ;  <NL> assert true ( " ! is awt running " , ! is awt running ( ) ) ;  <NL> resume awt ( ) ;  <NL> assert true ( " is awt running " , is awt running ( ) ) ;  <NL>  }  COM: <s> test the pause resume methods for managing the </s>

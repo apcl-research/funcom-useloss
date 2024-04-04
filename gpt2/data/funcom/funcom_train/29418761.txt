@@ -1,0 +1,1 @@
+TDAT: private void highlight ( pos e ) {  <NL> if ( out ! = null & & e ! = pos . unknown ) { out . printf ( " % c % s % c " , flush , " pos : " + e . x + " " + e . y + " " + e . x2 + " " + e . y2 + " " + e . filename , click ) ; out . flush ( ) ; }  <NL>  }  COM: <s> tell the gui to highlight the text corresponding to the given pos object </s>

@@ -1,0 +1,1 @@
+TDAT: public void print ( status sys ) {  <NL> sys . println out ( " results : ( rank , candidate ) " ) ;  <NL> for ( int i = 0 ; i < num cand ; i + + ) {  <NL> if ( cand list [ i ] ! = - 1 )  <NL> sys . println out ( util . to string int padded ( i + 1 , 5 ) + " " + cand strings [ i ] ) ;  <NL>  }  <NL>  }  COM: <s> print prints results to the screen </s>

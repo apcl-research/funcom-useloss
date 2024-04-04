@@ -1,0 +1,1 @@
+TDAT: public void set ( short x , short y , short theta ) {  <NL> this . ms x = ( byte ) math . min ( byte . max _ value , math . max ( byte . min _ value , x ) ) ;  <NL> this . ms y = ( byte ) math . min ( byte . max _ value , math . max ( byte . min _ value , y ) ) ;  <NL> this . ms theta = theta ;  <NL>  }  COM: <s> sets the x y theta values for the feature </s>

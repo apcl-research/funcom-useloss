@@ -1,0 +1,1 @@
+TDAT: public int array extract column data ( int col ) throws euclid runtime exception {  <NL> check column ( col ) ;  <NL> int array fa = new int array ( rows ) ;  <NL> for ( int i = 0 ; i < rows ; i + + ) {  <NL> fa . set element at ( i , this . flmat [ i ] [ col ] ) ;  <NL>  }  <NL> return fa ;  <NL>  }  COM: <s> get column data from matrix </s>

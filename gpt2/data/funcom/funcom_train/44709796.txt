@@ -1,0 +1,1 @@
+TDAT: private void encode ( string buffer buf , string value ) {  <NL> for ( int i = 0 ; i < value . length ( ) ; i + + ) {  <NL> char c = value . char at ( i ) ;  <NL> if ( c = = sep _ char || c = = escape _ char ) {  <NL> buf . append ( escape _ char ) ;  <NL>  }  <NL> buf . append ( c ) ;  <NL>  }  <NL>  }  COM: <s> encode one entry in the array by escaping the right </s>

@@ -1,0 +1,1 @@
+TDAT: public void print ( int indent ) {  <NL> for ( map . entry < string , string > entry : map . entry set ( ) ) {  <NL> for ( int i = 0 ; i < indent ; i + + ) system . out . print ( " " ) ;  <NL> system . out . println ( " pre - post : " + entry . get key ( ) + " " + entry . get value ( ) ) ;  <NL>  }  <NL>  }  COM: <s> prnt the pre post list </s>

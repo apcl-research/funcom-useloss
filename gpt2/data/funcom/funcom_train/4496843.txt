@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> return " matrix ( " + " scale x = " + scale x + " scale y = " + scale y +  <NL>  " rotate skew0 = " + rotate skew0 + " rotate skew1 = " + rotate skew1 +  <NL>  " translate x = " + translate x + " translate y = " + translate y + " ) " ;  <NL>  }  COM: <s> returns the string representation of the matrix </s>

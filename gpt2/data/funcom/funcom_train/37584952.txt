@@ -1,0 +1,1 @@
+TDAT: public boolean retain all ( collection < ? > c ) {  <NL> boolean result = false ;  <NL> for ( iterator < t > i = iterator ( ) ; i . has next ( ) ; ) {  <NL> t t = i . next ( ) ;  <NL> if ( ! c . contains ( t ) ) { i . remove ( ) ; result = true ; }  <NL>  }  <NL> return result ;  <NL>  }  COM: <s> removes every element of this set that is not in </s>

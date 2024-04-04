@@ -1,0 +1,1 @@
+TDAT: public box2d merge ( box2d box ) {  <NL> this . xmin = min ( this . xmin , box . xmin ) ;  <NL> this . xmax = max ( this . xmax , box . xmax ) ;  <NL> this . ymin = min ( this . ymin , box . ymin ) ;  <NL> this . ymax = max ( this . ymax , box . ymax ) ;  <NL> return this ;  <NL>  }  COM: <s> changes the bounds of this box to also include bounds of the argument </s>

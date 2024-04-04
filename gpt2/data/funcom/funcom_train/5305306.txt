@@ -1,0 +1,1 @@
+TDAT: public void set lon lat ( double lon , double lat , boolean is radian ) {  <NL> if ( is radian ) {  <NL> x = longitude = wrap _ longitude ( proj math . rad to deg ( lon ) ) ;  <NL> y = latitude = normalize _ latitude ( proj math . rad to deg ( lat ) ) ;  <NL>  } else {  <NL> set lon lat ( lon , lat ) ;  <NL>  }  <NL>  }  COM: <s> set latitude and longitude </s>

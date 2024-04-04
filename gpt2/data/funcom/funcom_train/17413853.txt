@@ -1,0 +1,1 @@
+TDAT: public long query for long ( string sql , object [ ] args , int [ ] arg types ) throws jdbc exception {  <NL> number number = ( number ) query for object ( sql , long . class , args , arg types ) ;  <NL> return ( number ! = null ? number . long value ( ) : 0 ) ;  <NL>  }  COM: <s> prepared statement sql select select </s>

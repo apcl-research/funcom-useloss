@@ -1,0 +1,1 @@
+TDAT: public void cross ( vector3d v1 , vector3d v2 ) {  <NL> double tmpx = v1 . y * v2 . z - v1 . z * v2 . y ;  <NL> double tmpy = v1 . z * v2 . x - v1 . x * v2 . z ;  <NL> double tmpz = v1 . x * v2 . y - v1 . y * v2 . x ;  <NL>  <NL> x = tmpx ;  <NL> y = tmpy ;  <NL> z = tmpz ;  <NL>  }  COM: <s> computes the cross product of v1 and v2 and places the result </s>

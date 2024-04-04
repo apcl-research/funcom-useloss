@@ -1,0 +1,1 @@
+TDAT: public user get user ( string prename , string name ) {  <NL> user ret = null ;  <NL> for ( user cur : this . get users ( ) ) {  <NL> if ( cur . get prename ( ) . equals ( prename ) & & cur . get name ( ) . equals ( name ) ) {  <NL> ret = cur ;  <NL> break ;  <NL>  }  <NL>  }  <NL> return ret ;  <NL>  }  COM: <s> gets the user identified by its name and prename </s>

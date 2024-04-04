@@ -1,0 +1,1 @@
+TDAT: public void loop register ( int expire _ time , int renew _ time )  <NL>  { this . expire _ time = expire _ time ;  <NL> this . renew _ time = renew _ time ;  <NL> loop = true ;  <NL> if ( ! is _ running ) ( new thread ( this , this . get class ( ) . get name ( ) ) ) . start ( ) ;  <NL>  }  COM: <s> periodically registers with the registrar server </s>

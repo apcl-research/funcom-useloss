@@ -1,0 +1,1 @@
+TDAT: public void push ytem ( ytem oj ytem ) {  <NL> for ( int pt = 0 ; pt < ytem . get locations count ( ) ; pt + + ) {  <NL> location oj loc = ytem . get location ( pt ) ;  <NL>  <NL> push ( new location oj ( loc . x , loc . y , loc . z ) ) ; / / 15 . 5 . 2009 <NL>  }  <NL>  }  COM: <s> pushes all points of ytem onto the vertex stack </s>

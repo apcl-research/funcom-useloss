@@ -1,0 +1,1 @@
+TDAT: public void add ( j panel c ) {  <NL> component comp [ ] = c . get components ( ) ;  <NL> if ( comp ! = null ) {  <NL> for ( int i = 0 ; i < comp . length ; i + + ) {  <NL> if ( comp [ i ] instanceof abstract button )  <NL> add ( ( abstract button ) comp [ i ] ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> adds all the buttons in the panel to the group </s>

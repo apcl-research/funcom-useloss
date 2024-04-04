@@ -1,0 +1,1 @@
+TDAT: private void set auto commit ( boolean state ) {  <NL> if ( state ) {  <NL> execute query ( " set autocommit on ; " , " autocommit on " , " auto commit is on " ) ;  <NL>  }  <NL> else {  <NL> execute query ( " set autocommit off ; " , " autocommit off " , " auto commit is off " ) ;  <NL>  }  <NL> this . autocommit = state ;  <NL>  }  COM: <s> toggle auto commit setting </s>

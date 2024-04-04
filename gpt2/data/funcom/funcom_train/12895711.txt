@@ -1,0 +1,1 @@
+TDAT: private void save property ( string name , object value ) {  <NL> property set ps = get property set ( ) ;  <NL> if ( ps . exists ( name ) & & value = = null ) {  <NL> ps . remove ( name ) ;  <NL>  } else {  <NL> if ( value ! = null ) {  <NL> ps . set as actual type ( name , value ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> saves a task property </s>

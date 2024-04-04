@@ -1,0 +1,1 @@
+TDAT: private string save slide body ( osm slide slide ) {  <NL> string str = osm file . get tag1 ( osm file . osm _ slide _ body ) + " \n " ;  <NL> str + = save properties ( slide . get body properties ( ) ) ;  <NL> str + = osm file . get tag2 ( osm file . osm _ slide _ body ) ;  <NL> return str ;  <NL>  }  COM: <s> it saves the body of the slide in xml format </s>

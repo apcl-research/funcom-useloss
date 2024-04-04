@@ -1,0 +1,1 @@
+TDAT: public void remove ( int index ) {  <NL>  _ q names [ index ] = _ q names [ - - _ length ] ;  <NL>  _ values [ index ] = _ values [ _ length ] ;  <NL> text builder tmp = _ text builders [ _ length ] ;  <NL>  _ text builders [ _ length ] = _ text builders [ index ] ;  <NL>  _ text builders [ index ] = tmp ;  <NL>  }  COM: <s> removes the attribute at the specified index </s>

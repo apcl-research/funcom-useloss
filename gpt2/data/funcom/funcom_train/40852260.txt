@@ -1,0 +1,1 @@
+TDAT: public double angle between ( vector other ) {  <NL> double t = ( get x ( ) * other . get y ( ) - get y ( ) * other . get x ( ) ) ;  <NL> if ( t = = 0 )  <NL> return 0 ;  <NL> t / = math . abs ( t ) ;  <NL> return t * math . acos ( scalar ( other ) / ( length ( ) * other . length ( ) ) ) ;  <NL>  }  COM: <s> angle between two vectors the value is between pi and pi </s>

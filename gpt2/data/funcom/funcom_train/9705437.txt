@@ -1,0 +1,1 @@
+TDAT: public int read ( ) throws java . io . io exception {  <NL> synchronized ( saaj data source . this ) {  <NL> byte [ ] retb = new byte [ 1 ] ;  <NL> int br = read ( retb , 0 , 1 ) ;  <NL> if ( br = = - 1 ) {  <NL> return - 1 ;  <NL>  }  <NL> return 0x ff & retb [ 0 ] ;  <NL>  }  <NL>  }  COM: <s> read a byte from the stream </s>

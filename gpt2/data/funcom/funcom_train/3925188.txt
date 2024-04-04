@@ -1,0 +1,1 @@
+TDAT: public void add observer ( observer o ) {  <NL> if ( o instanceof client & & ( ( client ) o ) . is online ( ) & & ( ( client ) o ) . get session ( ) ! = null ) {  <NL> logger . log debug ( " transmitting to " + ( ( client ) o ) . get session ( ) ) ;  <NL>  }  <NL> super . add observer ( o ) ;  <NL>  }  COM: <s> start transmit to client todo </s>

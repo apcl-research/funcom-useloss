@@ -1,0 +1,1 @@
+TDAT: public void set mappings ( map < string , string > map ) {  <NL> service map . clear ( ) ;  <NL> for ( entry < string , string > entry : map . entry set ( ) ) {  <NL> string key = entry . get key ( ) ;  <NL> string value = entry . get value ( ) ;  <NL> add uri mapping ( key , value ) ;  <NL>  }  <NL>  }  COM: <s> sets all uri service name mappings from a given map </s>

@@ -1,0 +1,1 @@
+TDAT: public int insert ( final content content ) {  <NL> object [ ] params = new object [ ] { new long ( content . get id ( ) ) , content . get tag ( ) , content . get text ( ) ,  <NL> content . get binary ( ) , content . get created ( ) , content . get last changed ( ) } ;  <NL> return update ( params ) ;  <NL>  }  COM: <s> insert content into database </s>

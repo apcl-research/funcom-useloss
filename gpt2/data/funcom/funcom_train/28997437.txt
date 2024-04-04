@@ -1,0 +1,1 @@
+TDAT: private void add page container ( page container a pc ) {  <NL> if ( get page containers ( ) = = null ) {  <NL> set page containers ( new vector ( ) ) ;  <NL>  }  <NL>  <NL> if ( ( a pc ! = null ) & & ! get page containers ( ) . contains ( a pc ) ) {  <NL> get page containers ( ) . add ( a pc ) ;  <NL>  }  <NL>  }  COM: <s> add a page container to the portal </s>

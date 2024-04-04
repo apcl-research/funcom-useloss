@@ -1,0 +1,1 @@
+TDAT: public void add ( string key , string value ) {  <NL> if ( get key index ( key ) = = - 1 ) {  <NL> keys . add element ( key ) ;  <NL> for ( int i = 0 ; i < locale resource tables . size ( ) ; i + + ) {  <NL>  ( ( res table ) locale resource tables . element at ( i ) ) . add element ( value ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> add a resource </s>

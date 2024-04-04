@@ -1,0 +1,1 @@
+TDAT: public void set up ( ) throws exception {  <NL> xml = utils . parse ( new file ( xml security tools core test plugin . get test file location ( " resources / first steps . xml " ) ) ) ;  <NL> id xml = utils . parse ( new file ( xml security tools core test plugin . get test file location ( " resources / ids . xml " ) ) ) ;  <NL>  }  COM: <s> set up method </s>

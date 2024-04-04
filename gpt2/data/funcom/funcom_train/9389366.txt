@@ -1,0 +1,1 @@
+TDAT: public void dispose ( ) {  <NL> iterator < image > it = m images . values ( ) . iterator ( ) ;  <NL> while ( it . has next ( ) ) {  <NL> image img = it . next ( ) ;  <NL> if ( img ! = null & & img . is disposed ( ) = = false ) {  <NL> img . dispose ( ) ;  <NL>  }  <NL> it . remove ( ) ;  <NL>  }  <NL>  }  COM: <s> dispose all the images created by this factory so far </s>

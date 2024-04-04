@@ -1,0 +1,1 @@
+TDAT: public object call in context ( final object _ object , final i go context _ ctx ) {  <NL> if ( _ ctx = = null )  <NL> return null ;  <NL>  <NL> wo context wctx = ( wo context ) _ ctx ;  <NL> return this . handle request <NL>  ( wctx . request ( ) , wctx , wctx . has session ( ) ? wctx . session ( ) : null ) ;  <NL>  }  COM: <s> act as a go method </s>

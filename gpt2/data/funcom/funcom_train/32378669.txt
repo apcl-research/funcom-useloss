@@ -1,0 +1,1 @@
+TDAT: public string get information ( )  <NL>  {  <NL> string buffer sb = new string buffer ( ) ;  <NL> sb . append ( " group id : " + get group id ( ) ) ;  <NL> sb . append ( " group name : " + get group name ( ) ) ;  <NL> sb . append ( " description : " + get desc ( ) ) ;  <NL> return sb . to string ( ) ;  <NL>  }  COM: <s> returns a complete group information as a string </s>

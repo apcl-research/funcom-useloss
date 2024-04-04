@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> return " entry { key = " + key + " , obj = " + obj + " , dirty = " + dirty <NL>  + " , prior = " + ( prior = = null ? " n / a " : " " + prior . key )  <NL>  + " , next = " + ( next = = null ? " n / a " : " " + next . key ) + " } " ;  <NL>  }  COM: <s> human readable representation used for debugging in test cases </s>

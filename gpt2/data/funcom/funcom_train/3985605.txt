@@ -1,0 +1,1 @@
+TDAT: public void set ( int x , int y , int c ) {  <NL> if ( ( x < 0 ) || ( y < 0 ) || ( x > = width ) || ( y > = height ) ) return ;  <NL> pixels [ y * width + x ] = c ;  <NL> update pixels impl ( x , y , x + 1 , y + 1 ) ; / / slow ?  <NL>  }  COM: <s> set a single pixel to the specified color </s>

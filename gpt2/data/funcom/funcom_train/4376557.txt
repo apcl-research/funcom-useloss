@@ -1,0 +1,1 @@
+TDAT: public void set query ( string query ) throws uri exception {  <NL> if ( query = = null || query . length ( ) = = 0 ) {  <NL>  _ query = ( query = = null ) ? null : query . to char array ( ) ;  <NL> set uri ( ) ;  <NL> return ;  <NL>  }  <NL> set raw query ( encode ( query , allowed _ query , get protocol charset ( ) ) ) ;  <NL>  }  COM: <s> set the query </s>

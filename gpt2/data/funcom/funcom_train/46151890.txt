@@ -1,0 +1,1 @@
+TDAT: private wfs cell find ( wfs cell directory dir , string cell name ) {  <NL> wfs cell [ ] children = dir . get cells ( ) ;  <NL> wfs cell out = null ;  <NL> for ( wfs cell child : children ) {  <NL> if ( child . get cell name ( ) . equals ( cell name ) ) {  <NL> out = child ;  <NL> break ;  <NL>  }  <NL>  }  <NL>  <NL> return out ;  <NL>  }  COM: <s> find a cell in wfs </s>

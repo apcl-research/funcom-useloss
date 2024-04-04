@@ -1,0 +1,1 @@
+TDAT: public void assert same type ( type s , type t , boolean expected ) {  <NL> if ( types . is same type ( s , t ) ! = expected ) {  <NL> string msg = expected ?  <NL>  " is not the same type as " :  <NL>  " is the same type as " ;  <NL> error ( s + msg + t ) ;  <NL>  }  <NL>  }  COM: <s> assert that s is is not the same type as t </s>

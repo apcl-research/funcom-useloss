@@ -1,0 +1,1 @@
+TDAT: public void clean dirs ( file _ working dir ) {  <NL> for ( string s : new string [ ] { " data . prd " , " data . ti " , " data . tbp . dir " , " data . ebp . dir " , " plugin . out " , " plugin . log " } ) {  <NL> clean ( new file ( _ working dir , s ) ) ;  <NL>  }  <NL>  }  COM: <s> clean the data </s>

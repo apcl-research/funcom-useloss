@@ -1,0 +1,1 @@
+TDAT: public void execute ( ) {  <NL> for ( int i = 0 ; i < this . unit list . size ( ) ; i + + ) {  <NL> if ( ! this . unit list . get ( i ) . build ( )  <NL>  & & this . unit list . get ( i ) . is job finished ( ) ) {  <NL> this . unit list . remove ( i ) ;  <NL> i - - ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> call the building logic for all builder in the list </s>

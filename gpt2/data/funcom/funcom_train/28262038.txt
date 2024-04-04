@@ -1,0 +1,1 @@
+TDAT: public void execute ( ) {  <NL>  / / change dx to 0x0000 if ah < 0x80 , or 0x ffff if ah > = 0x80 <NL> cpu . dx [ cpu . register _ general _ high ] = cpu . dx [ cpu . register _ general _ low ] = cpu . ax [ cpu . register _ general _ high ] > = 0 ? ( byte ) 0x00 <NL>  : ( byte ) 0x ff ;  <NL>  }  COM: <s> copy the sign bit 15 in ax into every bit of dx register </s>

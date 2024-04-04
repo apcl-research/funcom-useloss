@@ -1,0 +1,1 @@
+TDAT: public void test text content ( ) {  <NL> check ( " < a > 1 < / a > " , text content test dto . class , valid ) ;  <NL> check ( " < a > < / a > " , text content test dto . class , invalid ) ;  <NL> check ( " < a > < / a > " , text content test dto . class , validation _ off ) ;  <NL>  }  COM: <s> tests validation for a text content of an element </s>

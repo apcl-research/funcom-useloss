@@ -1,0 +1,1 @@
+TDAT: private void set color ( final color color ) {  <NL>  / / system . out . println ( " color panel set color attribute key = " + attribute key + " , color = " + color ) ;  <NL> color display . set background ( color ) ;  <NL> if ( + + set val count < 2 ) {  <NL> original color = color ;  <NL>  }  <NL> fire color changed ( ) ;  <NL>  }  COM: <s> set the selected color </s>

@@ -1,0 +1,1 @@
+TDAT: private void draw cb ( checkbox type , int left ) {  <NL> pnl name . add ( type , new grid bag constraints ( 1 , 7 , 1 , 1 , 1 . 0 , 0 . 0 ,  <NL> grid bag constraints . west , grid bag constraints . none , new insets ( 0 , left , 10 , 5 ) , 0 , 0 ) ) ;  <NL>  }  COM: <s> draw a check box </s>

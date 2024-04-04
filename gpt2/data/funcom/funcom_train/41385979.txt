@@ -1,0 +1,1 @@
+TDAT: public matrix3f set to identity ( ) {  <NL> e [ xx ] = 1 . 0f ; e [ yx ] = 0 . 0f ; e [ zx ] = 0 . 0f ;  <NL> e [ xy ] = 0 . 0f ; e [ yy ] = 1 . 0f ; e [ zy ] = 0 . 0f ;  <NL> e [ xz ] = 0 . 0f ; e [ yz ] = 0 . 0f ; e [ zz ] = 1 . 0f ;  <NL> return this ;  <NL>  }  COM: <s> set this matrix to identity matrix </s>

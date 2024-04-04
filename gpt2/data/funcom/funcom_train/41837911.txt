@@ -1,0 +1,1 @@
+TDAT: private void draw shape ( graphics2d g2d , shape shape , color fg color , color bg color ) {  <NL> g2d . set stroke ( bg _ stroke ) ;  <NL> g2d . set color ( bg color ) ;  <NL> g2d . draw ( shape ) ;  <NL> g2d . set stroke ( fg _ stroke ) ;  <NL> g2d . set color ( fg color ) ;  <NL> g2d . draw ( shape ) ;  <NL>  }  COM: <s> draw a shape with a background outline </s>

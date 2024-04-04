@@ -1,0 +1,1 @@
+TDAT: public void show blank screen ( ) {  <NL> csp . sps . set message ( " " , " arial " , 14 , color . white ,  <NL> color . black , " " , csp . _ lang font ,  <NL> csp . _ size , color . white , color . black , false ,  <NL> false , csp . _ template menu . is selected ( ) ,  <NL> csp . _ template , false , false ) ;  <NL>  }  COM: <s> show blank screen </s>

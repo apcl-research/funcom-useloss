@@ -1,0 +1,1 @@
+TDAT: protected void encode line suffix ( output stream out stream ) throws io exception {  <NL> tmp [ 0 ] = ( byte ) ( ( crc . value > > > 8 ) & 0xff ) ;  <NL> tmp [ 1 ] = ( byte ) ( crc . value & 0xff ) ;  <NL> encode atom ( out stream , tmp , 0 , 2 ) ;  <NL> super . p stream . println ( ) ;  <NL>  }  COM: <s> each uce encoded line ends with yyy and encoded version of the </s>

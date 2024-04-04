@@ -1,0 +1,1 @@
+TDAT: public bv set value ( int width , boolean value , boolean sign _ ext ) {  <NL> init width ( width ) ;  <NL> if ( value )  <NL> if ( sign _ ext = = zero _ pad )  <NL> return set value ( 1 , zero _ pad ) ;  <NL> else <NL> return set value ( - 1 , sign _ ext ) ;  <NL> return set value ( 0 , zero _ pad ) ;  <NL>  }  COM: <s> sets width and value of bv to true or false </s>

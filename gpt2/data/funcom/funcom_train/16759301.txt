@@ -1,0 +1,1 @@
+TDAT: protected void simple update ( ) {  <NL>  / / let the programmable sound update itself .  <NL> audio system . get system ( ) . update ( ) ;  <NL>  / / move the skybox into position <NL> sb . get local translation ( ) . set ( cam . get location ( ) . x , cam . get location ( ) . y ,  <NL> cam . get location ( ) . z ) ;  <NL>  }  COM: <s> called every frame for updating </s>

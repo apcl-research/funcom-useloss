@@ -1,0 +1,1 @@
+TDAT: public cursor fetch all projects ( ) {  <NL> cursor c = m db . raw query ( " select " + proj _ title + " , " + proj _ rowid + " , " + proj _ rowcount <NL>  + " , " + proj _ modify + " from " +  <NL> database _ table _ project + " where " + proj _ show + " = 1 ; " , null ) ;  <NL> return c ;  <NL>  }  COM: <s> select the project details using the details provided </s>

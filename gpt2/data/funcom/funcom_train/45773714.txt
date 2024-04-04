@@ -1,0 +1,1 @@
+TDAT: private void delete cell text helper ( x accessible context child , int start index , int end index ) {  <NL> try {  <NL> x cell xcell = get selected cell ( child ) ;  <NL>  <NL> if ( xcell ! = null ) {  <NL> delete textfrom cell ( xcell , start index , end index ) ;  <NL>  }  <NL>  } catch ( java . lang . exception ex ) {  <NL>  }  <NL>  }  COM: <s> delete text helper </s>

@@ -1,0 +1,1 @@
+TDAT: public void test add recent file ( ) {  <NL> jaxo prefs . clear recent files ( ) ;  <NL> jaxo prefs . add recent file ( " test " ) ;  <NL> string [ ] result = jaxo prefs . get recent files ( ) ;  <NL> assert equals ( " test " , result [ 0 ] ) ;  <NL> assert equals ( " " , result [ 1 ] ) ;  <NL>  }  COM: <s> test of add recent file method of class jaxo prefs </s>

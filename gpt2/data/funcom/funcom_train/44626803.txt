@@ -1,0 +1,1 @@
+TDAT: public void test ghost forward reference ( ) {  <NL> add mock file ( " $ a / a . jml " , " public class a { \n / / @ ghost int i = j ; ghost int j ; \n } " ) ;  <NL> help tcf ( " a . java " , " public class a { } "  <NL>  , " / $ a / a . jml : 2 : illegal forward reference " , 19 <NL>  ) ;  <NL>  }  COM: <s> flow checks for ghost fields </s>

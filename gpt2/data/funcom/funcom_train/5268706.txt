@@ -1,0 +1,1 @@
+TDAT: private void swap ( int a , int b ) {  <NL> int unit = board [ 0 ] . length ;  <NL> memory tile temp = board [ a / unit ] [ a % unit ] ;  <NL> board [ a / unit ] [ a % unit ] = board [ b / unit ] [ b % unit ] ;  <NL> board [ b / unit ] [ b % unit ] = temp ;  <NL>  }  COM: <s> swap the position of tiles a and b </s>

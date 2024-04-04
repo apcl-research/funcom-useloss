@@ -1,0 +1,1 @@
+TDAT: private string get test string ( ) {  <NL> string buffer buf = new string buffer ( ) ;  <NL> for ( char i = 0 ; i < 0x d800 ; i + + ) {  <NL> buf . append ( i ) ;  <NL>  }  <NL> for ( char i = 0x f900 ; i < 0x f8f ; i + + ) {  <NL> buf . append ( i ) ;  <NL>  }  <NL> return buf . to string ( ) ;  <NL>  }  COM: <s> generates the interesting string to test </s>

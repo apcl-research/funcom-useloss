@@ -1,0 +1,1 @@
+TDAT: private string get provider key ( string element name , string namespace ) {  <NL> string builder buf = new string builder ( ) ;  <NL> buf . append ( " < " ) . append ( element name ) . append ( " / > < " ) . append ( namespace ) . append ( " / > " ) ;  <NL> return buf . to string ( ) ;  <NL>  }  COM: <s> returns a string key for a given element name and namespace </s>

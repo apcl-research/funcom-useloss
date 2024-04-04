@@ -1,0 +1,1 @@
+TDAT: private string rect str ( rectangle2d rect ) {  <NL> return " " + rect . get x ( ) + " , " + rect . get y ( ) + " ; "  <NL>  + ( rect . get x ( ) + rect . get width ( ) ) + " , "  <NL>  + ( rect . get y ( ) + rect . get height ( ) ) ;  <NL>  }  COM: <s> returns a string representation for the given rectangle </s>

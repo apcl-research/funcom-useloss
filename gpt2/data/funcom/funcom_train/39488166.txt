@@ -1,0 +1,1 @@
+TDAT: public void instruction executed ( jvm vm ) {  <NL>  / / jjvm jvm = ( jjvm ) vm ;  <NL>  / / thread info ti = jvm . get last thread info ( ) ;  <NL>  / / instruction insn = jvm . get last instruction ( ) ;  <NL>  / / system . out . println ( " instruction executed : " + ti . get index ( ) + " : " + insn ) ;  <NL>  }  COM: <s> jvm has executed next instruction </s>

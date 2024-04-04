@@ -1,0 +1,1 @@
+TDAT: @ override public boolean visible in region ( double wb , double nb , double eb , double sb , int i ) {  <NL> return ( vx + ( vs width / 2 ) > = wb & &  <NL> vx - ( vs width / 2 ) < = eb & &  <NL> vy + ( vs height / 2 ) > = sb & &  <NL> vy - ( vs height / 2 ) < = nb ) ;  <NL>  }  COM: <s> since we specify a width and height visibility rules </s>

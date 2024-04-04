@@ -1,0 +1,1 @@
+TDAT: public void set icon ( string state , named icon icon ) {  <NL> if ( log . is debug enabled ( ) ) log . debug ( " set icon for " + state ) ;  <NL> if ( is valid state ( state ) ) {  <NL>  _ icon map . put ( state , icon ) ;  <NL> display state ( head state ( ) ) ;  <NL>  }  <NL>  }  COM: <s> place icon by its bean state name key found in jmri </s>

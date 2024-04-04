@@ -1,0 +1,1 @@
+TDAT: private void back track ( int [ ] state sequence , int [ ] [ ] psi , int t ) {  <NL> state sequence [ t - 1 ] = q star ;  <NL> for ( int t = t - 2 ; t > = 0 ; t - - ) {  <NL> state sequence [ t ] = psi [ t + 1 ] [ state sequence [ t + 1 ] ] ;  <NL>  }  <NL>  }  COM: <s> backtracks to find the optimal state sequence using the psi array determined during </s>

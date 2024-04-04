@@ -1,0 +1,1 @@
+TDAT: public string get max valid ( ) {  <NL> string count = get count ( ) ;  <NL> string sale type = get sale type ( ) ;  <NL> boolean valid = ( ( constants . sale _ maximum . equals ( sale type ) & & ( " 0 " . equals ( count ) ) ) ) ;  <NL> if ( valid ) return " 1 " ;  <NL> return " 0 " ;  <NL>  }  COM: <s> return 1 if we can offer buy it now </s>

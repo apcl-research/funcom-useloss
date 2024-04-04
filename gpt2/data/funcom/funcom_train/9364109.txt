@@ -1,0 +1,1 @@
+TDAT: public e get ( long key , e value if key not found ) {  <NL> int i = binary search ( m keys , 0 , m size , key ) ;  <NL>  <NL> if ( i < 0 || m values [ i ] = = deleted ) {  <NL> return value if key not found ;  <NL>  } else {  <NL> return ( e ) m values [ i ] ;  <NL>  }  <NL>  }  COM: <s> gets the object mapped from the specified key or the specified object </s>

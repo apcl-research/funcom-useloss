@@ -1,0 +1,1 @@
+TDAT: protected void set property ( http servlet response response , string name , string value ) {  <NL>  <NL> if ( ( name ! = null ) & & ( name . length ( ) > 0 ) & & ( value ! = null ) & & ( value . length ( ) > 0 ) ) {  <NL> response . add header ( name , value ) ;  <NL>  }  <NL>  }  COM: <s> sets the property with the specified code name code from the specified servlet </s>

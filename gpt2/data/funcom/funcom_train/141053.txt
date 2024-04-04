@@ -1,0 +1,1 @@
+TDAT: private boolean add to argument dictionary ( string [ ] args ) {  <NL>  <NL> for ( int i = 0 ; i < args . length ; i + = 2 )  <NL>  {  <NL> if ( arguments . get value ( args [ i ] ) ! = null )  <NL> argument values . put ( arguments . get value ( args [ i ] ) , args [ i + 1 ] ) ;  <NL>  }  <NL>  <NL> return true ;  <NL>  }  COM: <s> adds argument to dictionary </s>

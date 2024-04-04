@@ -1,0 +1,1 @@
+TDAT: public void set all fields ( string str brief , int n amount , string str date , string str type , string str notes ) {  <NL> this . str brief = str brief ;  <NL> this . n amount = n amount ;  <NL> this . str date = str date ;  <NL> this . str type = str type ;  <NL> this . str notes = str notes ;  <NL>  }  COM: <s> replica of second constructor to fill all fields </s>

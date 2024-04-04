@@ -1,0 +1,1 @@
+TDAT: public string get fax ( ) {  <NL> if ( ( fax = = null ) || ( fax . equals ( " " ) ) ) return " " ;  <NL> else return " ( " + fax . substring ( 0 , 3 ) + " ) " + fax . substring ( 3 , 6 ) +  <NL>  " - " + fax . substring ( 6 ) ;  <NL>  }  COM: <s> getter for property fax </s>

@@ -1,0 +1,1 @@
+TDAT: protected json object generate creator ( ) {  <NL> json object obj = new json object ( ) ;  <NL> obj . put ( " name " , " har creator . java " ) ;  <NL> obj . put ( " version " , " 0 . 2 " ) ;  <NL>  / / obj . put ( " comment " , " " ) ;  <NL> return obj ;  <NL>  }  COM: <s> generates the creator object </s>

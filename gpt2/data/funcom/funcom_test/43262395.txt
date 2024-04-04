@@ -1,0 +1,1 @@
+TDAT: protected map to map ( ) {  <NL> final map map = new hash map ( ) ;  <NL> map . put ( " entity name " , entity name ) ;  <NL> map . put ( " entity type " , get entity type ( ) ) ;  <NL> map . put ( " is object context " , boolean . to string ( is object context ( ) ) ) ;  <NL> return map ;  <NL>  }  COM: <s> returns fields as a map of key value pairs </s>

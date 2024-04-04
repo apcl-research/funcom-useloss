@@ -1,0 +1,1 @@
+TDAT: public void mouse pressed ( mouse event e ) {  <NL> request focus ( ) ;  <NL> point p = constrain point ( new point ( e . get x ( ) , e . get y ( ) ) ) ;  <NL> f last click = new point ( e . get x ( ) , e . get y ( ) ) ;  <NL> editor . tool ( ) . mouse down ( e , p . x , p . y ) ;  <NL> check damage ( ) ;  <NL>  }  COM: <s> handles mouse down events </s>

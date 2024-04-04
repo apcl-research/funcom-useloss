@@ -1,0 +1,1 @@
+TDAT: public void add and constraint ( int combined , int left , int right ) {  <NL> int [ ] vars1 = { combined , left } ;  <NL> int [ ] vars2 = { combined , right } ;  <NL> double [ ] weights = { 1 . 0 , - 1 . 0 } ;  <NL> add less than constraint ( vars1 , weights , 0 ) ;  <NL> add less than constraint ( vars2 , weights , 0 ) ;  <NL>  }  COM: <s> combined left right </s>

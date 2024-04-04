@@ -1,0 +1,1 @@
+TDAT: public void test msn search ( ) throws exception {  <NL> jaxbgen ( " msn search " , new file ( cob _ xsd _ dir , " msn search . xsd " ) , true , 1l ,  <NL> true , null , " type " , null , null , false , false ) ;  <NL> check ( " msn search " ) ;  <NL>  }  COM: <s> the msnsearch case </s>

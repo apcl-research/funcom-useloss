@@ -1,0 +1,1 @@
+TDAT: private boolean is in area ( point point ) {  <NL> if ( point . get x ( ) > buffered image . get width ( )  <NL> || point . get y ( ) > buffered image . get height ( ) || point . get x ( ) < 0 <NL> || point . get y ( ) < 0 ) {  <NL> return false ;  <NL>  }  <NL>  <NL> return true ;  <NL>  } / / is in area  COM: <s> tests if the point lies within the drawing area </s>

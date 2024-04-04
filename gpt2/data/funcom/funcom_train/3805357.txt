@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> string info = " sequence has " + get list size ( ) + " elements . \n " ;  <NL> for ( int i = 0 ; i < list . size ( ) ; i + + ) {  <NL> rss sequence element e = ( rss sequence element ) list . get ( i ) ;  <NL> info + = e . to string ( ) + " \n " ;  <NL>  }  <NL> return info ;  <NL>  }  COM: <s> useful for debug </s>

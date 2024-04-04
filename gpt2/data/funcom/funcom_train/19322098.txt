@@ -1,0 +1,1 @@
+TDAT: public void set roles ( role list _ role list ) {  <NL> if ( _ role list = = null )  <NL> return ;  <NL>  <NL> for ( iterator it = _ role list . iterator ( ) ; it . has next ( ) ; ) {  <NL> role curr role = ( role ) ( it . next ( ) ) ;  <NL> role list . add ( ( role ) ( curr role . clone ( ) ) ) ;  <NL>  }  <NL>  }  COM: <s> sets list of roles successfully accessed </s>

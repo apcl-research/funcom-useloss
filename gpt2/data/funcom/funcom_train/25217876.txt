@@ -1,0 +1,1 @@
+TDAT: public void print bindings ( print stream stream ) {  <NL>  <NL> for ( l symbol k : bindings . key set ( ) ) {  <NL> stream . print ( " ( setq " ) ;  <NL> stream . print ( k . get value ( ) ) ;  <NL> stream . print ( " " ) ;  <NL> bindings . get ( k ) . print ( stream ) ;  <NL> stream . println ( " ) " ) ;  <NL>  }  <NL>  }  COM: <s> print all bindings to a stream </s>

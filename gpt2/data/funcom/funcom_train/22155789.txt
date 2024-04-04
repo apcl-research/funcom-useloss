@@ -1,0 +1,1 @@
+TDAT: public void paint ( graphics g ) {  <NL> dimension d = get size ( ) ;  <NL> g . set color ( get background ( ) ) ;  <NL> g . draw3d rect ( 2 , 2 , d . width - 5 , d . height - 5 , true ) ;  <NL> g . draw3d rect ( 3 , 3 , d . width - 7 , d . height - 7 , false ) ;  <NL>  }  COM: <s> draw an etched border around the contained component </s>

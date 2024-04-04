@@ -1,0 +1,1 @@
+TDAT: public void warning ( string message , string source name , int line , string line source , int line offset ) {  <NL> if ( line < 0 ) {  <NL> log . warn ( message ) ;  <NL>  } else {  <NL> log . warn ( " [ " + filename + " : " + line + " ] " + message ) ;  <NL>  }  <NL>  }  COM: <s> reports a warning </s>

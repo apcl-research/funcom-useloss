@@ -1,0 +1,1 @@
+TDAT: private void year ( final list < string > lines , final string path ) {  <NL> final int year = calendar . get instance ( ) . get ( calendar . year ) ;  <NL> if ( lines . size ( ) < 2 || ! lines . get ( 1 ) . contains ( " copyright ( c ) " + year ) ) {  <NL> add failure ( " incorrect year in " + path ) ;  <NL>  }  <NL>  }  COM: <s> checks the year in the source </s>

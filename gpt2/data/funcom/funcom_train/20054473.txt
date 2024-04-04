@@ -1,0 +1,1 @@
+TDAT: protected void x line ( graphics g , int x1 , int y1 , int x2 , int y2 ) {  <NL> g . draw line ( scale _ x ( x1 ) + x _ origin , scale _ y ( y1 ) + x _ origin ,  <NL> scale _ x ( x2 ) + x _ origin , scale _ y ( y2 ) + x _ origin ) ;  <NL>  }  COM: <s> draws a scaled and translated line </s>

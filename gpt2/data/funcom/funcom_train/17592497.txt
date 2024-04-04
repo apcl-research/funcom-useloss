@@ -1,0 +1,1 @@
+TDAT: public string read line ( ) throws io exception {  <NL> string s ;  <NL> for ( ; ; ) {  <NL> s = current . read line ( ) ;  <NL> if ( s ! = null ) return s ;  <NL> if ( reader stack . is empty ( ) ) return null ;  <NL> current = ( line number reader ) reader stack . remove ( reader stack . size ( ) - 1 ) ;  <NL>  }  <NL>  }  COM: <s> read a line </s>

@@ -1,0 +1,1 @@
+TDAT: public void sort ( java . util . comparator comp ) throws exception {  <NL> vector key = new vector ( pools . key set ( ) ) ;  <NL> int pool id = - 1 ;  <NL> for ( int loop = 0 ; loop < key . size ( ) ; loop + + ) {  <NL> pool id = ( integer ) key . element at ( loop ) ;  <NL> get pool ( pool id ) . sort ( comp ) ;  <NL>  }  <NL>  }  COM: <s> sort all the pools </s>

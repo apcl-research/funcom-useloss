@@ -1,0 +1,1 @@
+TDAT: public iv vector get copy ( script copier copier ) {  <NL> frame c = new frame ( size ( ) ) ;  <NL> for ( int i = 0 ; i < top ; i + + ) {  <NL> flash object fo = ( flash object ) objects [ i ] ;  <NL> c . set element at ( fo . get copy ( copier ) , i ) ;  <NL>  }  <NL> c . set name ( name ) ;  <NL> return c ;  <NL>  }  COM: <s> creates a copy of this frame </s>

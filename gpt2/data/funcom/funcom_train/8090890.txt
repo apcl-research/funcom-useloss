@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> string rule = " " ;  <NL> for ( int i = 0 ; i < min . length ; i + + ) {  <NL> rule = rule + " [ " + min [ i ] + " " + max [ i ] + " ] " ;  <NL>  }  <NL> rule = rule + " in class : " + class name + " \n " ;  <NL> return rule ;  <NL>  }  COM: <s> returns a description of the fuzzy lattice </s>

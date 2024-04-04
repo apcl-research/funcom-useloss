@@ -1,0 +1,1 @@
+TDAT: public int write data ( int map id , int rect no , zip output stream out ) throws io exception {  <NL>  <NL> int x = rect no % this . field width ;  <NL> int y = rect no / this . field width ;  <NL>  <NL> return this . field [ y ] [ x ] . write all data ( map id , out ) ;  <NL>  }  COM: <s> writes the data of the specified rectangle to the output stream </s>

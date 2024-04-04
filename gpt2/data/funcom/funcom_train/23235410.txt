@@ -1,0 +1,1 @@
+TDAT: public void write to properties ( properties props ) {  <NL> props . put ( " window . " + name + " . minimized " , minimized ) ;  <NL> props . put ( " window . " + name + " . visible " , visible ) ;  <NL> props . put ( " window . " + name + " . x " , x ) ;  <NL> props . put ( " window . " + name + " . y " , y ) ;  <NL>  }  COM: <s> adds all props to the property </s>

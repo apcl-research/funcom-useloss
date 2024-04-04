@@ -1,0 +1,1 @@
+TDAT: public vector3f scale ( float scale ) {  <NL> float sx = get x ( ) * scale ;  <NL> float sy = get y ( ) * scale ;  <NL> float sz = get z ( ) * scale ;  <NL> vector3f v = vector pool . get instance ( ) . get vector ( ) ;  <NL> v . set xyz ( sx , sy , sz ) ;  <NL> return v ;  <NL>  }  COM: <s> creates a new scaled version of this vector3f object </s>

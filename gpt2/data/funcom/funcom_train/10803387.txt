@@ -1,0 +1,1 @@
+TDAT: public void put all ( map m ) {  <NL> map . entry e ;  <NL> for ( iterator iter = m . entry set ( ) . iterator ( ) ; iter . has next ( ) ; ) {  <NL> e = ( map . entry ) iter . next ( ) ;  <NL> put ( e . get key ( ) , e . get value ( ) ) ;  <NL>  }  <NL>  }  COM: <s> circumvents the superclass </s>

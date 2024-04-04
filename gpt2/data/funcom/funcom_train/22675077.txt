@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> return " rfid event ( " + get event status ( ) +  <NL>  " , " + new date ( time stamp ) +  <NL>  " , " + rfid mappings . get tag type name ( tag type ) +  <NL>  " , " + rfid mappings . get tag mfr name ( tag mfr id ) +  <NL>  " , " + uid + " ) " ;  <NL>  }  COM: <s> returns a string representation of the object </s>

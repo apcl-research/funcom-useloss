@@ -1,0 +1,1 @@
+TDAT: public void test ends with ( ) {  <NL> string haystack = " abcdefghi " ;  <NL> assert true ( " a " , haystack . ends with ( " defghi " ) ) ;  <NL> assert true ( " b " , haystack . ends with ( haystack ) ) ;  <NL> assert false ( " c " , haystack . ends with ( haystack + " j " ) ) ;  <NL>  }  COM: <s> tests ends with </s>

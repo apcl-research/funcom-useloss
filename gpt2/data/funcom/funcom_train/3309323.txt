@@ -1,0 +1,1 @@
+TDAT: private void add action ( j component component , int condition , string key stroke , string action key , action action ) {  <NL> component . get input map ( condition ) . put ( key stroke . get key stroke ( key stroke ) , action key ) ;  <NL> component . get action map ( ) . put ( action key , action ) ;  <NL>  }  COM: <s> adds an action to the specified component </s>

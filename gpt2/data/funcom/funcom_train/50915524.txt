@@ -1,0 +1,1 @@
+TDAT: public void increase xyz3 ( double dx , double dy , double dz ) {  <NL> if ( has coordinates ( coordinate type . cartesian ) ) {  <NL> this . set x3 ( this . get x3 ( ) + dx ) ;  <NL> this . set y3 ( this . get y3 ( ) + dy ) ;  <NL> this . set z3 ( this . get z3 ( ) + dz ) ;  <NL>  }  <NL>  }  COM: <s> increase x3 y3 and z3 coordinates </s>

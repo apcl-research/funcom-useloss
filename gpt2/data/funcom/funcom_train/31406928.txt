@@ -1,0 +1,1 @@
+TDAT: protected void set variety count ( ) {  <NL>  / / count number of ignores <NL> int cnt = 0 ;  <NL> for ( int i = 0 ; i < _ set . length ( ) ; i + + ) {  <NL> if ( _ set . char at ( i ) = = ' . ' )  <NL> cnt + + ;  <NL>  }  <NL>  _ variety count = new integer ( _ set characters . size ( ) - cnt ) ;  <NL>  }  COM: <s> compute and set the value of variety count </s>

@@ -1,0 +1,1 @@
+TDAT: public packet get one packet ( ) {  <NL> packet [ ] arr = new packet [ 10 ] ;  <NL> if ( hdc = = null )  <NL> return null ;  <NL>  <NL> packet p = new packet ( ) ;  <NL> lib . wt packets get ( hdc , 1 , p ) ;  <NL> lib . wt packets get ( hdc , 3 , arr ) ; / / discard 3 packets <NL> return p ;  <NL>  <NL>  }  COM: <s> get single packet discard 3 </s>

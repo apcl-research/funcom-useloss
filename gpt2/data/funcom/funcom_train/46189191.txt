@@ -1,0 +1,1 @@
+TDAT: public track back get track back ( long id ) {  <NL> iterator it = get track backs ( ) . iterator ( ) ;  <NL> while ( it . has next ( ) ) {  <NL> track back track back = ( track back ) it . next ( ) ;  <NL> if ( track back . get id ( ) = = id ) {  <NL> return track back ;  <NL>  }  <NL>  }  <NL>  <NL> return null ;  <NL>  }  COM: <s> gets the specified track back </s>

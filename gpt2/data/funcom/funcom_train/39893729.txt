@@ -1,0 +1,1 @@
+TDAT: protected void configure token button ( object token id , button button ) {  <NL> button . set caption ( get token caption ( token id ) + " × " ) ;  <NL> button . set icon ( get token icon ( token id ) ) ;  <NL> button . set description ( " click to remove " ) ;  <NL> button . set style name ( button . style _ link ) ;  <NL>  }  COM: <s> configures the token button </s>

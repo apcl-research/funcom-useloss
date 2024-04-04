@@ -1,0 +1,1 @@
+TDAT: public void calculate current point ( ) {  <NL> double value = pos alpha . get value ( ) ;  <NL> set x ( from pos . get x ( ) +  <NL>  ( to pos . get x ( ) - from pos . get x ( ) ) * value ) ;  <NL> set y ( from pos . get y ( ) +  <NL>  ( to pos . get y ( ) - from pos . get y ( ) ) * value ) ;  <NL>  }  COM: <s> recalculates and caches the current point </s>

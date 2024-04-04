@@ -1,0 +1,1 @@
+TDAT: protected void expand directories ( file [ ] files , list list ) {  <NL> for ( int i = 0 ; i < files . length ; i + + ) {  <NL> file file = files [ i ] ;  <NL> if ( file . is directory ( ) )  <NL> expand directories ( file . list files ( ) , list ) ;  <NL> else <NL> list . add ( file ) ;  <NL>  }  <NL>  }  COM: <s> expands the supplied list of files into directories </s>

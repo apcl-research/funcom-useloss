@@ -1,0 +1,1 @@
+TDAT: public void undo ( ) {  <NL> while ( index of next add > 0 ) {  <NL> mx undoable edit edit = history . get ( - - index of next add ) ;  <NL> edit . undo ( ) ;  <NL>  <NL> if ( edit . is significant ( ) ) {  <NL> fire event ( new mx event object ( mx event . undo , " edit " , edit ) ) ;  <NL> break ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> undoes the last change </s>

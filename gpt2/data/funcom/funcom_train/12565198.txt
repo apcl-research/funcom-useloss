@@ -1,0 +1,1 @@
+TDAT: protected svg rect to svg rect ( final float [ ] [ ] view box ) {  <NL> if ( view box = = null ) {  <NL> return null ;  <NL>  }  <NL>  <NL> svg rect r = new box ( view box [ 0 ] [ 0 ] ,  <NL> view box [ 0 ] [ 1 ] ,  <NL> view box [ 1 ] [ 0 ] ,  <NL> view box [ 2 ] [ 0 ] ) ;  <NL>  <NL> return r ;  <NL>  }  COM: <s> converts a view box array to an svgrect value </s>

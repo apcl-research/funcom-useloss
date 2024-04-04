@@ -1,0 +1,1 @@
+TDAT: private int get int32 ( int offset ) {  <NL> return ( ( buffer [ offset + 3 ] & 0x ff )  <NL>  + ( ( buffer [ offset + 2 ] & 0x ff ) < < 8 )  <NL>  + ( ( buffer [ offset + 1 ] & 0x ff ) < < 16 ) + ( ( buffer [ offset + 0 ] & 0x ff ) < < 24 ) ) ;  <NL>  }  COM: <s> get a 32 bit integer from the buffer at the offset given </s>

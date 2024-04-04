@@ -1,0 +1,1 @@
+TDAT: public if create if ( position pos , expr cond , stmt then stmt , stmt else stmt ) {  <NL> if ( null = = else stmt ) return nf . if ( pos , cond , then stmt ) ;  <NL> return nf . if ( pos , cond , then stmt , else stmt ) ;  <NL>  }  COM: <s> create a conditional statements </s>

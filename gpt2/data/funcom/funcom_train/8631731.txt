@@ -1,0 +1,1 @@
+TDAT: public long read var long ( ) {  <NL> long x = data [ pos + + ] ;  <NL> if ( x > = 0 ) {  <NL> return x ;  <NL>  }  <NL> x & = 0x7f ;  <NL> for ( int s = 7 ; ; s + = 7 ) {  <NL> long b = data [ pos + + ] ;  <NL> x | = ( b & 0x7f ) < < s ;  <NL> if ( b > = 0 ) {  <NL> return x ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> read a variable size long </s>

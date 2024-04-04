@@ -1,0 +1,1 @@
+TDAT: public void set params ( map < string , object > params ) {  <NL> for ( iterator i = params . entry set ( ) . iterator ( ) ; i . has next ( ) ; ) {  <NL> entry < string , object > param = ( entry < string , object > ) i . next ( ) ;  <NL> set param ( param . get key ( ) , param . get value ( ) ) ;  <NL>  }  <NL>  }  COM: <s> sets list of parameters </s>

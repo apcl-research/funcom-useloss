@@ -1,0 +1,1 @@
+TDAT: public void getting dependencies ( db dependency event e ) {  <NL> this . set message ( " getting " + ( e . is dependees ( ) ? " dependees " : " dependents " ) +  <NL>  " of " + e . get db object ( ) . owner + " . " + e . get db object ( ) . objectname + " . . . " ) ;  <NL>  }  COM: <s> this method is called during the process of determining the dependencies </s>

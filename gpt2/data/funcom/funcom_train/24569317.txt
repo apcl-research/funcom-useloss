@@ -1,0 +1,1 @@
+TDAT: public void test label for without mnemonic ( ) {  <NL> builder . add ( label without mnemonic , cc . xy ( 1 , 1 ) ) ;  <NL> builder . add ( plain field , cc . xy ( 3 , 1 ) ) ;  <NL> assert same ( " labeling label " ,  <NL> plain field ,  <NL> label without mnemonic . get label for ( ) ) ;  <NL>  }  COM: <s> checks the association between plain label and next component </s>

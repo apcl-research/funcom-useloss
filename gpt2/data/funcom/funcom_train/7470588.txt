@@ -1,0 +1,1 @@
+TDAT: public void test basic auth ( ) throws exception {  <NL> start server ( 47500 ) ;  <NL> fetch page ( " / basic . jsp " , 200 ) ;  <NL> fetch page ( " / basic . jsp ? case = 1 " , 200 ) ;  <NL> fetch page ( " / basic . jsp ? case = 2 " , 200 ) ;  <NL> server . start ( ) ;  <NL>  }  COM: <s> tests basic authentication scheme for various realms </s>

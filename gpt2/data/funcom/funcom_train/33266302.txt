@@ -1,0 +1,1 @@
+TDAT: public void clear rect ( int x , int y , int width , int height ) {  <NL> if ( gadget ! = null ) {  <NL> color cur = get color ( ) ;  <NL> set color ( gadget . get final background ( ) ) ;  <NL> fill rect ( x , y , width , height ) ;  <NL> set color ( cur ) ;  <NL>  }  <NL>  }  COM: <s> clears the specified rectangle by filling it with the current background color </s>

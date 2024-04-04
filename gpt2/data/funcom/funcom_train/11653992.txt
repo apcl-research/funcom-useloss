@@ -1,0 +1,1 @@
+TDAT: private void process sample ( sample result s , counter c ) {  <NL> save sample ( s , c . num + + ) ;  <NL> sample result [ ] sr = s . get sub results ( ) ;  <NL> for ( int i = 0 ; i < sr . length ; i + + ) {  <NL> process sample ( sr [ i ] , c ) ;  <NL>  }  <NL>  }  COM: <s> recurse the whole sub result hierarchy </s>

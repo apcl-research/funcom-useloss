@@ -1,0 +1,1 @@
+TDAT: public void test run bare debug ( ) {  <NL> throwable t = null ;  <NL> try {  <NL> element e = m _ fixture . get test element ( ) ;  <NL> e . set attribute ( " debug " , " true " ) ;  <NL> m _ xml test case . run bare ( ) ;  <NL>  } catch ( throwable ex ) {  <NL> t = ex ;  <NL>  }  <NL> assert null ( t ) ;  <NL>  }  COM: <s> test run bare with debug </s>

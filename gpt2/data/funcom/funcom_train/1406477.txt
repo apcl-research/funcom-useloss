@@ -1,0 +1,1 @@
+TDAT: public void add line style marker ( final color color , final int data set index , final int data point , final int size , final priority priority ) {  <NL> get parameter ( chart markers parameter . class ) . add line style marker ( color , data set index , data point , size , priority ) ;  <NL>  }  COM: <s> adds the line style marker </s>

@@ -1,0 +1,1 @@
+TDAT: public complex quotient ( complex c ) {  <NL> double d = c . real * c . real + c . imag * c . imag ;  <NL> double newr = ( real * c . real + imag * c . imag ) / d ;  <NL> double newi = ( imag * c . real - real * c . imag ) / d ;  <NL> return new complex ( newr , newi ) ;  <NL>  }  COM: <s> returns the quotient of this number by code c code </s>

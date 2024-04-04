@@ -1,0 +1,1 @@
+TDAT: public string to small string ( ) {  <NL> if ( words . size ( ) = = 0 ) return ( " # " + id ) ;  <NL> if ( ups . size ( ) = = 0 || ups . get ( 0 ) . words . size ( ) = = 0 ) return ( words . get ( 0 ) ) ;  <NL> return ( words . get ( 0 ) + " ( " + ups . get ( 0 ) . words . get ( 0 ) + " ) " ) ;  <NL>  }  COM: <s> returns the most frequent word for this and the parent </s>

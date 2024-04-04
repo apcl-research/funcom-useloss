@@ -1,0 +1,1 @@
+TDAT: public list get rel feed items ( feed item feed item ) {  <NL> final int feed id = feed item . get feed ( ) . get feed id ( ) ;  <NL> final string sql = " select * from t _ feed item where feed _ id = " + feed id ;  <NL> return get paged list by native sql ( feed item . class , sql , " id desc " , 1 , 20 ) ;  <NL>  }  COM: <s> feed feed item </s>

@@ -1,0 +1,1 @@
+TDAT: public int read int le ( ) throws io exception {  <NL> input stream . read fully ( work space , 0 , 4 ) ;  <NL>  <NL> return ( ( work space [ 3 ] & 0xff ) < < 24 ) | ( ( work space [ 2 ] & 0xff ) < < 16 ) | <NL>  ( ( work space [ 1 ] & 0xff ) < < 8 ) | ( work space [ 0 ] & 0xff ) ;  <NL>  }  COM: <s> read a 32bit int in le </s>

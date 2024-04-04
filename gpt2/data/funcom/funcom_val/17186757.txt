@@ -1,0 +1,1 @@
+TDAT: public void print trace ( print stream out , path trace ) {  <NL> for ( int i = trace . size ( ) - 1 ; i > = 0 ; - - i ) {  <NL> object o = trace . get ( i ) ;  <NL> if ( o instanceof program location ) {  <NL> out . println ( " at " + ( ( program location ) o ) . to string long ( ) ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> print a path as if it were a stacktrace </s>

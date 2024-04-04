@@ -1,0 +1,1 @@
+TDAT: private void initialize ( )  <NL>  { / / gen - end : mvd init begin <NL>  / / insert pre - init code here <NL> get display ( ) . set current ( get _ main form ( ) ) ; / / gen - line : mvd init init <NL>  / / insert post - init code here <NL>  _ race = new race ( ) ;  <NL>  } / / gen - line : mvd init end  COM: <s> this method initializes ui of the application </s>

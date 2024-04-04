@@ -1,0 +1,1 @@
+TDAT: public void delete key ( ) {  <NL> int n row = mo table . get selected row ( ) ;  <NL> if ( n row > = 0 ) {  <NL> string s key = mo table . get value at ( n row , 0 ) . to string ( ) ;  <NL> if ( s key ! = null ) {  <NL> preferences model . instance ( ) . remove attribute ( s key ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> deletes the currently selected attribute </s>

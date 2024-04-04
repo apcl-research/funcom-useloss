@@ -1,0 +1,1 @@
+TDAT: public boolean is zero ( ) {  <NL> return ( ( ( this . x = = 0d ) & & ( this . y = = 0d ) & &  <NL>  ( this . x2 = = 0d ) & & ( this . y2 = = 0d ) ) || <NL>  ( this . x > this . x2 ) || ( this . y > this . y2 ) ) ;  <NL>  }  COM: <s> determines whether this rectangle is empty of incorrect </s>

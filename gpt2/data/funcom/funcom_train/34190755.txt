@@ -1,0 +1,1 @@
+TDAT: private string call to string ( final method method , final object . . . objects ) {  <NL> return string . format ( " % s . % s ( % s ) " , get type ( ) . get name ( ) , method . get name ( ) , ( objects = = null ) ? " " : lists . new array list ( objects ) ) ;  <NL>  }  COM: <s> stringifies a method invocation in the form class </s>

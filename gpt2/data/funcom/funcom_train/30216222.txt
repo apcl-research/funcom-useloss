@@ -1,0 +1,1 @@
+TDAT: public string get statement ( ) {  <NL> string buffer sb = new string buffer ( request . length ( ) +  <NL> where . length ( ) + 8 ) ;  <NL> sb . append ( request ) ;  <NL> if ( where . length ( ) > 0 ) {  <NL> sb . append ( " where " ) ;  <NL> sb . append ( where . to string ( ) ) ;  <NL>  }  <NL> return sb . to string ( ) ;  <NL>  }  COM: <s> the query request </s>

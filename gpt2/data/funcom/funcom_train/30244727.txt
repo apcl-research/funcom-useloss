@@ -1,0 +1,1 @@
+TDAT: private int lookup ( int rate ) {  <NL> double d = 1 / ( 1 + ( math . pow ( math . e , - rate / 10f + 5f ) ) ) ;  <NL> if ( show _ mech ) system . err . println ( " rate = " + rate + " , sig = " + d ) ;  <NL> return ( int ) ( 100 * d ) ;  <NL>  }  COM: <s> computes a sigmoid centered at code rate 50 code </s>

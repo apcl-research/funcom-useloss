@@ -1,0 +1,1 @@
+TDAT: public void print e ps ( ) {  <NL> list < sat op > preds = edge factory . preds ;  <NL> for ( int i = 0 ; i < preds . size ( ) ; i + + ) {  <NL> sat op lf _ i = preds . get ( i ) ;  <NL> out . println ( " ep [ " + i + " ] : " + lf _ i ) ;  <NL>  }  <NL> out . flush ( ) ;  <NL>  }  COM: <s> prints the elementary predications </s>

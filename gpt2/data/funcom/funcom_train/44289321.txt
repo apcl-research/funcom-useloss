@@ -1,0 +1,1 @@
+TDAT: / / * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *  <NL> public idfaa get sim dfaa ( ) { return d _ sim dfaa ; }  COM: <s> returns the dfaa used by this simulation </s>

@@ -1,0 +1,1 @@
+TDAT: public void deiconify frame ( final j internal frame f ) {  <NL> super . deiconify frame ( f ) ;  <NL> if ( f ! = null ) {  <NL> if ( ! f . is maximum ( ) ) {  <NL> this . set bounds for frame ( f , f . get x ( ) , f . get y ( ) , f . get width ( ) , f . get height ( ) ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> restores the supplied </s>

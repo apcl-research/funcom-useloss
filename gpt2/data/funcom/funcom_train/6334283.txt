@@ -1,0 +1,1 @@
+TDAT: public void dump host info ( ) {  <NL> for ( map . entry < string , string > pair : hosts . entry set ( ) ) {  <NL> system . err . println ( " name : \ " " + pair . get key ( ) +  <NL>  " \ " path : \ " " + pair . get value ( ) + " \ " " ) ;  <NL>  }  <NL>  }  COM: <s> prints a list of all host path pairs to system </s>

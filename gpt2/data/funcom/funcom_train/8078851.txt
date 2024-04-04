@@ -1,0 +1,1 @@
+TDAT: public double times ( int i , int j0 , int j1 , pace matrix b , int l ) {  <NL> double s = 0 . 0 ;  <NL> for ( int j = j0 ; j < = j1 ; j + + ) {  <NL> s + = a [ i ] [ j ] * b . a [ j ] [ l ] ;  <NL>  }  <NL> return s ;  <NL>  }  COM: <s> multiplication between a row or part of a row of the first matrix </s>

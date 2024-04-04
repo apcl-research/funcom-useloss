@@ -1,0 +1,1 @@
+TDAT: protected void assert not equals ( string a , string b ) {  <NL> if ( a = = null ) {  <NL> assert false ( " ' " + a + " ' should not equal ' " + b + " ' " , b = = null ) ;  <NL>  } else {  <NL> assert false ( " ' " + a + " ' should not equal ' " + b + " ' " , a . equals ( b ) ) ;  <NL>  }  <NL>  }  COM: <s> assert that the given elements are not equal i </s>

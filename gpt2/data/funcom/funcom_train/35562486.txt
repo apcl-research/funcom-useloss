@@ -1,0 +1,1 @@
+TDAT: protected void check recursive ( wjr tree item tree item , boolean value ) {  <NL> tree item . set checked ( value , false ) ;  <NL> for ( int i = 0 ; i < tree item . get child count ( ) ; i + + ) {  <NL> check recursive ( tree item . get child ( i ) , value ) ;  <NL>  }  <NL>  }  COM: <s> checks or unchecks the tree item and its children recursively </s>

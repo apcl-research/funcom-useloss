@@ -1,0 +1,1 @@
+TDAT: public void shift ( int i , int j ) {  <NL> if ( i = = j ) return ;  <NL> if ( i < j ) {  <NL> int t = v [ i ] ;  <NL> for ( int k = i ; k < = j - 1 ; k + + )  <NL> v [ k ] = v [ k + 1 ] ;  <NL> v [ j ] = t ;  <NL>  }  <NL> else shift ( j , i ) ;  <NL>  }  COM: <s> shifts an element to another position </s>

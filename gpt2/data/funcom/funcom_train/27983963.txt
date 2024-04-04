@@ -1,0 +1,1 @@
+TDAT: public void cree affine transorm2d ( final affine transform _ m to modify ) {  <NL>  _ m to modify . set transform ( a _ [ 0 ] [ 0 ] , a _ [ 0 ] [ 1 ] , a _ [ 1 ] [ 0 ] , a _ [ 1 ] [ 1 ] , a _ [ 3 ] [ 0 ] , a _ [ 3 ] [ 1 ] ) ;  <NL>  }  COM: <s> methode testee dans test jgr </s>

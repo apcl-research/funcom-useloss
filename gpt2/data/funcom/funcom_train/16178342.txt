@@ -1,0 +1,1 @@
+TDAT: public class get static field type ( string field name ) {  <NL> field f = ( field ) static fields . get ( field name ) ;  <NL> if ( f = = null ) throw new no such element exception ( " class " + clazz . get name ( ) +  <NL>  " does not contain field " + field name ) ;  <NL> return f . get type ( ) ;  <NL>  }  COM: <s> returns the type of the named static field </s>

@@ -1,0 +1,1 @@
+TDAT: public void rename ( string s old nick name , string s new nick name ) {  <NL> for ( int i = 0 ; i < channel list . size ( ) ; i + + ) {  <NL> try {  <NL> handle channel . rename user ( s old nick name , s new nick name , get channel at ( i ) ) ;  <NL>  } catch ( irc exception e ) { }  <NL>  }  <NL>  }  COM: <s> to rename the user in all the channels </s>

@@ -1,0 +1,1 @@
+TDAT: public builder user id ( long user id ) {  <NL> if ( path ! = null ) {  <NL> throw new illegal state exception (  <NL>  " only one of id , user id , or screen name may be set . " ) ;  <NL>  }  <NL> path ( " / users / show . json " ) ;  <NL> return parameter ( " user _ id " , long . to string ( user id ) ) ;  <NL>  }  COM: <s> the user id of a user </s>

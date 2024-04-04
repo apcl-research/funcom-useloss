@@ -1,0 +1,1 @@
+TDAT: public void test set2 ( ) {  <NL> try {  <NL> copy on write array list c = new copy on write array list ( ) ;  <NL> c . add ( " asdasd " ) ;  <NL> c . add ( " asdad " ) ;  <NL> c . set ( 100 , " qwerty " ) ;  <NL> should throw ( ) ;  <NL>  } catch ( index out of bounds exception e ) { }  <NL>  }  COM: <s> set throws an index out of bounds exception on a too high index </s>

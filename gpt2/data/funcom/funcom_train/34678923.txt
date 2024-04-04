@@ -1,0 +1,1 @@
+TDAT: public assessment line add discount ( string reason , reference relates to , string contributes to , string depends on , rate rate , int priority ) {  <NL> return add discount ( generate line id ( ) , reason , relates to , contributes to , depends on , rate , priority ) ;  <NL>  }  COM: <s> add a rate based discount with a generated line id </s>

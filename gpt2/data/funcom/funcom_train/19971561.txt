@@ -1,0 +1,1 @@
+TDAT: public sparse vector get row ( int i ) throws io exception {  <NL> get get = new get ( bytes util . get row index ( i ) ) ;  <NL> get . add family ( constants . columnfamily ) ;  <NL> result r = table . get ( get ) ;  <NL>  / / return new sparse vector ( r . get row result ( ) ) ;  <NL> return new sparse vector ( r ) ;  <NL>  }  COM: <s> gets the vector of row </s>

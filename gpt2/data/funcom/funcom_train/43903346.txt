@@ -1,0 +1,1 @@
+TDAT: public void multiply ( final complex c1 , final complex c2 ) {  <NL> final double x1 = c1 . real ;  <NL> final double y1 = c1 . imag ;  <NL> final double x2 = c2 . real ;  <NL> final double y2 = c2 . imag ;  <NL> real = ( x1 * x2 ) - ( y1 * y2 ) ;  <NL> imag = ( y1 * x2 ) + ( x1 * y2 ) ;  <NL>  }  COM: <s> multplies two complex numbers </s>

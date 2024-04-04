@@ -1,0 +1,1 @@
+TDAT: public void set fragment ( string fragment ) throws uri exception {  <NL> if ( fragment = = null || fragment . length ( ) = = 0 ) {  <NL>  _ fragment = ( fragment = = null ) ? null : fragment . to char array ( ) ;  <NL> return ;  <NL>  }  <NL>  _ fragment = encode ( fragment , allowed _ fragment ) ;  <NL> set uri ( ) ;  <NL>  }  COM: <s> set the fragment </s>

@@ -1,0 +1,1 @@
+TDAT: public object get element at ( int index ) {  <NL> if ( index > = 0 & & index < oj . get data ( ) . get results ( ) . get columns ( ) . get all columns count ( ) )  <NL> return oj . get data ( ) . get results ( ) . get columns ( ) . get column by index ( index ) ;  <NL> return null ;  <NL>  }  COM: <s> returns n th column oj </s>

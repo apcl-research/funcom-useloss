@@ -1,0 +1,1 @@
+TDAT: public boolean contains point ( point point ) {  <NL> point abs loc = get absolute location ( ) ;  <NL> return ( point . x > = abs loc . x & & point . y > = abs loc . y & &  <NL> point . x < ( abs loc . x + width ) & &  <NL> point . y < ( abs loc . y + height ) ) ;  <NL>  }  COM: <s> tells if the point is inside of the sprite </s>

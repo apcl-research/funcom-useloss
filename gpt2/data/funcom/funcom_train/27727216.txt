@@ -1,0 +1,1 @@
+TDAT: public double pdop ( matrix dop ) {  <NL> dop . check matrix dimensions ( 4 , 4 ) ;  <NL> double d1 = dop . a [ 0 ] [ 0 ] ;  <NL> double d2 = dop . a [ 1 ] [ 1 ] ;  <NL> double d3 = dop . a [ 2 ] [ 2 ] ;  <NL> double out = math . sqrt ( d1 + d2 + d3 ) ;  <NL> return out ;  <NL>  }  COM: <s> return the pdop </s>

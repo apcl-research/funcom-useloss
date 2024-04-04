@@ -1,0 +1,1 @@
+TDAT: public void xml declaration ( string encoding ) {  <NL>  <NL> if ( out = = null )  <NL> return ;  <NL>  <NL> if ( encoding = = null ) {  <NL> out . println ( " < ? xml version = ' 1 . 0 ' ? > " ) ;  <NL>  } else {  <NL> out . println ( " < ? xml version = ' 1 . 0 ' encoding = ' " + encoding + " ' ? > " ) ;  <NL>  }  <NL>  }  COM: <s> writes the xml declaration </s>

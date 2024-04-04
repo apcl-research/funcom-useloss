@@ -1,0 +1,1 @@
+TDAT: private void enlarge ( final int size ) {  <NL> int length1 = 2 * data . length ;  <NL> int length2 = length + size ;  <NL> byte [ ] new data = new byte [ length1 > length2 ? length1 : length2 ] ;  <NL> system . arraycopy ( data , 0 , new data , 0 , length ) ;  <NL> data = new data ;  <NL>  }  COM: <s> enlarge this byte vector so that it can receive n more bytes </s>

@@ -1,0 +1,1 @@
+TDAT: public double f score ( ondex concept x , ondex concept y ) {  <NL> double recall = recall ( x , y ) ;  <NL> double precision = precision ( x , y ) ;  <NL> double score = 0 ;  <NL> if ( recall + precision ! = 0 ) {  <NL> score = ( 2d * recall * precision ) / ( recall + precision ) ;  <NL>  }  <NL> return score ;  <NL>  }  COM: <s> hierarchical f score function </s>

@@ -1,0 +1,1 @@
+TDAT: private expression parse ft words ( ) throws parse exception {  <NL> if ( curr ( ' " ' ) || curr ( ' \ ' ' ) ) return parse literal ( ) ;  <NL>  <NL> consume ws ( ) ;  <NL> return curr ( ' f ' ) ? parse ft or ( ) : error ( wrongtext , " quote " , ( char ) curr ( ) ) ;  <NL>  }  COM: <s> parses an ftwords </s>

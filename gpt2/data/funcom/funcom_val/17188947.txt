@@ -1,0 +1,1 @@
+TDAT: public boolean add to root set ( control flow graph cfg ) {  <NL> if ( trace ) out . println ( " adding " + cfg . get method ( ) + " to root set . " ) ;  <NL> method summary s = method summary . get summary ( cfg ) ;  <NL> s . merge global ( ) ;  <NL> return this . root set . add ( s ) ;  <NL>  }  COM: <s> add a control flow graph to the root set </s>

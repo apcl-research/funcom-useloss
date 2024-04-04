@@ -1,0 +1,1 @@
+TDAT: public job get job ( job id job id ) throws io exception , interrupted exception {  <NL> job status status = client . get job status ( job id ) ;  <NL> if ( status ! = null ) {  <NL> return job . get instance ( this , status , new job conf ( status . get job file ( ) ) ) ;  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> get job corresponding to jobid </s>

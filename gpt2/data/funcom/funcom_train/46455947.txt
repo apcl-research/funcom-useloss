@@ -1,0 +1,1 @@
+TDAT: public void set y label ( string label , string font _ name ) {  <NL> y line . set text ( label ) ;  <NL> if ( ( font _ name = = null ) ||font _ name . equals ( " " ) ) {  <NL> return ;  <NL>  }  <NL> y line . set font ( font . decode ( font _ name ) ) ;  <NL> set label font ( font _ name ) ;  <NL>  }  COM: <s> set the label for the y vertical axis </s>

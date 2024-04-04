@@ -1,0 +1,1 @@
+TDAT: public void require ( string tag , string descr ) {  <NL> if ( descr ! = null & & ! contains ( tag ) ) {  <NL> java doc component jdc = new java doc component ( ) ;  <NL> jdc . set type ( tag ) ;  <NL> jdc . set description ( descr ) ;  <NL> add java doc component ( jdc ) ;  <NL> jdc . set required ( true ) ;  <NL>  }  <NL>  }  COM: <s> make a required field </s>

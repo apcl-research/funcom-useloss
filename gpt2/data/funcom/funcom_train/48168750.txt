@@ -1,0 +1,1 @@
+TDAT: static public float swap float ( byte [ ] b , int offset ) {  <NL> int accum = 0 ;  <NL> for ( int shift by = 0 , i = offset ; shift by < 32 ; shift by + = 8 , i + + ) {  <NL> accum | = ( b [ i ] & 0xff ) < < shift by ;  <NL>  }  <NL> return float . int bits to float ( accum ) ;  <NL>  }  COM: <s> returns the float resulting from reversing 4 bytes at a specified </s>

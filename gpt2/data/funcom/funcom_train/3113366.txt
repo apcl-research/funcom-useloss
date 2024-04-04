@@ -1,0 +1,1 @@
+TDAT: private void clear object bounds ( ) {  <NL> rel bounds . set rect ( float . max _ value , float . max _ value , 0 , 0 ) ;  <NL> abs bounds . set rect ( float . max _ value , float . max _ value , 0 , 0 ) ;  <NL>  } / / of clear object bounds  COM: <s> clear out our cached copies of the collections bounds </s>

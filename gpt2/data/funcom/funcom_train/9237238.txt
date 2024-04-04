@@ -1,0 +1,1 @@
+TDAT: private void load settings ( ) {  <NL> if ( identity manager . get global config ( ) . has option ( domain , " source order " ) ) {  <NL> order = identity manager . get global config ( ) . get option list ( domain , " source order " ) ;  <NL>  } else {  <NL> order = new array list < string > ( ) ;  <NL>  }  <NL>  }  COM: <s> loads the plugins settings </s>

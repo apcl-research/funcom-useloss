@@ -1,0 +1,1 @@
+TDAT: public string to display string ( )  <NL>  {  <NL> if ( display ! = null ) return display ;  <NL> if ( this instanceof val ) return ( ( val ) this ) . encode val ( ) ;  <NL> if ( is ! = null & & is . size ( ) > 0 ) return is . to string ( ) ;  <NL> return " obix : " + get element ( ) ;  <NL>  }  COM: <s> get the display string for this obj </s>

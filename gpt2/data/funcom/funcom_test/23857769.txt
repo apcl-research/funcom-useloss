@@ -1,0 +1,1 @@
+TDAT: / *  <NL>  * public sip parser skip name address ( ) { int begin _ url = index of ( " < sip : " ) ; if <NL>  * ( begin _ url < 0 ) begin _ url = index of ( " sip : " ) ; if ( begin _ url < 0 )  <NL>  * index = str . length ( ) ; else { go to ( uri _ separators ) ;  <NL>  * skip chars ( uri _ separators ) ; } return this ; }  COM: <s> skips the first name address </s>

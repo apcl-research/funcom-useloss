@@ -1,0 +1,1 @@
+TDAT: public void save ( ) {  <NL>  <NL> if ( is new ( ) ) {  <NL> try {  <NL> set ( id , sequences . get next value ( ) ) ;  <NL>  } catch ( sql exception e ) {  <NL> throw new unchecked wrapper exception ( e ) ;  <NL>  }  <NL>  <NL> set ( classname , this . get class ( ) . get name ( ) ) ;  <NL>  }  <NL>  <NL> super . save ( ) ;  <NL>  }  COM: <s> save the op set the id </s>

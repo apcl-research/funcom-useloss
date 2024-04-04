@@ -1,0 +1,1 @@
+TDAT: public void register command ( string name , string cmd ) throws illegal argument exception {  <NL>  <NL> if ( ( name = = null ) || ( " " . equals ( name ) ) )  <NL> throw new illegal argument exception ( " name cannot be null or empty string " ) ;  <NL>  <NL> cmd map . put ( name , new string [ ] { cmd } ) ;  <NL>  }  COM: <s> register a command </s>

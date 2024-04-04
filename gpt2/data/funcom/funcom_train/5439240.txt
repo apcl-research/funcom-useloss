@@ -1,0 +1,1 @@
+TDAT: public vec2d rot ( double angle ) {  <NL> double cos = math . cos ( - angle ) ;  <NL> double sin = math . sin ( - angle ) ;  <NL> double x1 = this . x * cos - this . y * sin ;  <NL> double y1 = this . x * sin + this . y * cos ;  <NL> return new vec2d ( x1 , y1 ) ;  <NL>  }  COM: <s> returns a new vector that is rotated for angle </s>

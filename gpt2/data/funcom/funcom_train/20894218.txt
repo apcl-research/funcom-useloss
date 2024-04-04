@@ -1,0 +1,1 @@
+TDAT: private void process ( string [ ] args ) {  <NL> for ( int i = 0 ; i < args . length ; i + + )  <NL> if ( args [ i ] ! = null & & args [ i ] . starts with ( " - " ) )  <NL> properties . get object factory ( ) . set ( object , get field for flag ( args [ i ] ) , args [ i + 1 ] ) ;  <NL>  }  COM: <s> set the parameters </s>

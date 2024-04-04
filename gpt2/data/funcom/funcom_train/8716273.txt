@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> string buffer buf = new string buffer ( ) ;  <NL> string indent = " " ;  <NL>  <NL> buf . append ( indent + " glyf table : ( " + glyphs . length + " glyphs ) \n " ) ;  <NL> buf . append ( indent + " glyf 0 : " + get glyph ( 0 ) ) ;  <NL>  <NL> return buf . to string ( ) ;  <NL>  }  COM: <s> create a pretty string </s>

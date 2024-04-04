@@ -1,0 +1,1 @@
+TDAT: public void set servers ( list < string > servers ) {  <NL> if ( this . servers ! = servers ) {  <NL> list < string > old = this . servers ;  <NL> this . servers = servers = = null ? new array list < string > ( ) : servers ;  <NL> recreate login panel ( ) ;  <NL> fire property change ( " servers " , old , servers ) ;  <NL>  }  <NL>  }  COM: <s> sets the list of servers </s>

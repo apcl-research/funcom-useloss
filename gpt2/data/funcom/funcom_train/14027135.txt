@@ -1,0 +1,1 @@
+TDAT: public void compact ( ) {  <NL> for ( k key : _ map . key set ( ) ) {  <NL> soft reference < v > sr = _ map . get ( key ) ;  <NL> if ( sr ! = null ) {  <NL> v value = sr . get ( ) ;  <NL> if ( value = = null ) {  <NL>  _ map . remove ( key ) ;  <NL>  }  <NL>  }  <NL>  }  <NL>  }  COM: <s> remove keys whose values have been removed </s>

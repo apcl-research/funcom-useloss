@@ -1,0 +1,1 @@
+TDAT: public string make ur llink ( string url ) {  <NL> if ( url ! = null ) {  <NL> string tmp = ( url . index of ( " http : / / " ) = = - 1 ) ? " http : / / " + url : url ;  <NL> return " < a href = \ " " + tmp + " \ " target = \ " _ blank\ " > " + tmp + " < / a > " ;  <NL>  }  <NL> else return " none " ;  <NL>  <NL>  }  COM: <s> make a correct link to a url </s>

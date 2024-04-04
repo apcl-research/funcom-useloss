@@ -1,0 +1,1 @@
+TDAT: public string get property ( string value , boolean parse ) {  <NL> string rc = " " ;  <NL> if ( parse ) {  <NL>  _ config . set property ( config _ temp _ key , value ) ;  <NL> rc = _ config . get string ( config _ temp _ key ) ;  <NL>  } else {  <NL> rc = _ config . get string ( value ) ;  <NL>  }  <NL> return rc ;  <NL>  }  COM: <s> returns project property values </s>

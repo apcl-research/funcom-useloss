@@ -1,0 +1,1 @@
+TDAT: public void paint split pane divider foreground ( synth context context , graphics g , int x , int y , int w , int h , int orientation ) {  <NL> paint foreground ( context , g , x , y , w , h , null ) ;  <NL>  }  COM: <s> paints the foreground of the divider of a split pane </s>

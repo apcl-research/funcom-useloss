@@ -1,0 +1,1 @@
+TDAT: private point count point ( double radius , double min ) {  <NL> return new point ( ( int ) ( - radius * math . sin ( - 3 . 14f / 30 * min ) ) + center . x ,  <NL>  ( int ) ( - radius * math . cos ( 3 . 14f / 30 * min ) ) + center . y ) ;  <NL>  }  COM: <s> counts a point on the circle </s>

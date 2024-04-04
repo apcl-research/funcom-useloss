@@ -1,0 +1,1 @@
+TDAT: public void fill background ( graphics g ) {  <NL> if ( background fill color ! = null ) {  <NL>  / / color c = g . get color ( ) ;  <NL> g . set color ( background fill color ) ;  <NL> g . fill rect ( 0 , 0 , get board ( ) . get width ( ) , get board ( ) . get height ( ) ) ;  <NL>  }  <NL>  }  COM: <s> just keep the look and feel background then </s>

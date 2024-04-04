@@ -1,0 +1,1 @@
+TDAT: public boolean is move valid ( position pos , direction dir ) {  <NL> layout square square = this . grid [ pos . x ] [ pos . y ] ;  <NL>  / *  <NL>  * if this square has a wall in that dir , the move isn ' t valid .  <NL>  * /  <NL> return ( ! square . walls [ direction . to value ( dir ) ] ) ;  <NL>  }  COM: <s> work out if a robot can move in a particular direction </s>

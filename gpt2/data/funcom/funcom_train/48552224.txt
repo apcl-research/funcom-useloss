@@ -1,0 +1,1 @@
+TDAT: public fast string buffer append ( char [ ] chars ) {  <NL> int new count = count + chars . length ;  <NL> if ( new count > value . length ) {  <NL> resize for minimum ( new count ) ;  <NL>  }  <NL> system . arraycopy ( chars , 0 , value , count , chars . length ) ;  <NL> count = new count ;  <NL> return this ;  <NL>  }  COM: <s> appends an array of chars to the buffer </s>

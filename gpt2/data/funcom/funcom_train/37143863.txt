@@ -1,0 +1,1 @@
+TDAT: public void set direction ( direction dir ) {  <NL> direction old = get direction ( ) ;  <NL> this . direction = dir ;  <NL> if ( get direction ( ) ! = old & & get direction ( ) ! = null <NL>  & & ! get direction ( ) . equals ( old ) ) {  <NL> fire property change ( " direction " , old , get direction ( ) ) ;  <NL>  }  <NL>  }  COM: <s> sets new spinning direction </s>

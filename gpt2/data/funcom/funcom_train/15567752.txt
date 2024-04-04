@@ -1,0 +1,1 @@
+TDAT: public boolean set string ( int _ row , int _ column , string _ value ) {  <NL> if ( string row list [ _ row ] = = null )  <NL> return false ;  <NL> if ( string v [ _ row ] . length > = _ column )  <NL> return false ;  <NL> string v [ _ row ] [ _ column ] = _ value ;  <NL> return true ;  <NL>  }  COM: <s> code set string code sets a string at a specified position </s>

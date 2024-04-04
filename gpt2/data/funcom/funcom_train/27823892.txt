@@ -1,0 +1,1 @@
+TDAT: public int get table row index ( concept concept ) {  <NL> for ( int i = 0 ; i < m _ elements . size ( ) ; i + + ) {  <NL> table row table row = ( table row ) m _ elements . get ( i ) ;  <NL> if ( table row . m _ concept . equals ( concept ) )  <NL> return i ;  <NL>  }  <NL> return - 1 ;  <NL>  }  COM: <s> locates the table row index for given concept </s>

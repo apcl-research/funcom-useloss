@@ -1,0 +1,1 @@
+TDAT: public double index of ( t target ) {  <NL> for ( int i = 0 ; i < data . size ( ) ; i + + ) {  <NL> if ( data . get ( i ) = = target ) {  <NL> return i ;  <NL>  }  <NL> if ( data . get ( i ) . compare to ( target ) > 0 ) {  <NL> return i + 0 . 5 ;  <NL>  }  <NL>  }  <NL> return size ( ) - 0 . 5 ;  <NL>  }  COM: <s> return the index of target in this node if present </s>

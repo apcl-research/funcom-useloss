@@ -1,0 +1,1 @@
+TDAT: public void pop ( ) {  <NL> int size = level . size ( ) - 1 ;  <NL> object ob = level . remove ( size ) ;  <NL> if ( ob ! = null ) {  <NL> symb = ( symb map ) ob ;  <NL> if ( size = = 0 ) {  <NL> cloned = false ;  <NL>  } else <NL> cloned = ( level . get ( size - 1 ) ! = symb ) ;  <NL>  } else {  <NL> cloned = false ;  <NL>  }  <NL>  <NL>  <NL>  }  COM: <s> pop a frame </s>

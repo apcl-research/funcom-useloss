@@ -1,0 +1,1 @@
+TDAT: private void clear gallery ( ) {  <NL> if ( f gallery root ! = null & & ! f gallery . is disposed ( ) & & f gallery . get item count ( ) > 0 ) {  <NL> while ( f gallery root . get item count ( ) > 0 ) {  <NL> gallery item item = f gallery root . get item ( 0 ) ;  <NL> f gallery root . remove ( item ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> clear old root group </s>

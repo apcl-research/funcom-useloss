@@ -1,0 +1,1 @@
+TDAT: public void update ( py string map d ) {  <NL> py object keys = d . keys ( ) ;  <NL> py object key ;  <NL> for ( int i = 0 ; ( key = keys . _ _ finditem _ _ ( i ) ) ! = null ; i + + )  <NL>  _ _ setitem _ _ ( key , d . _ _ getitem _ _ ( key ) ) ;  <NL>  }  COM: <s> insert all the key value pairs from code d code into </s>

@@ -1,0 +1,1 @@
+TDAT: public view port get post view ( string view name ) {  <NL> for ( int i = 0 ; i < post view ports . size ( ) ; i + + ) {  <NL> if ( post view ports . get ( i ) . get name ( ) . equals ( view name ) ) {  <NL> return post view ports . get ( i ) ;  <NL>  }  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> returns the post view port with the given name </s>

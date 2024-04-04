@@ -1,0 +1,1 @@
+TDAT: public void yyerror ( string message , string [ ] expected , string found ) {  <NL> string text = " , unexpected " + found + " \n " ;  <NL>  / / new exception ( ) . print stack trace ( ) ;  <NL> throw new syntax exception ( pid . grammar _ error , get position ( null ) , text , found ) ;  <NL>  }  COM: <s> syntax error message </s>

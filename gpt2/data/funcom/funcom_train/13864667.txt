@@ -1,0 +1,1 @@
+TDAT: private void add ( cacheable object obj ) {  <NL> this . cache . add ( 0 , new cached item ( obj ) ) ;  <NL> if ( is l2available ( ) ) this . sort levels ( ) ;  <NL> if ( this . cache . size ( ) > this . effective max size ) this . cache . set size ( this . effective max size ) ; / / truncate if neccesary .  <NL>  }  COM: <s> adds an element to this cache </s>

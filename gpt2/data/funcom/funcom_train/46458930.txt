@@ -1,0 +1,1 @@
+TDAT: public void set image width ( double w ) {  <NL>  / / don ' t allow widths smaller than the video <NL> if ( video ! = null ) {  <NL> buffered image vid image = video . get image ( ) ;  <NL> if ( vid image ! = null ) w = math . max ( w , vid image . get width ( ) ) ;  <NL>  }  <NL> image width = w ;  <NL>  }  COM: <s> sets the image width in image units </s>

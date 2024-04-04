@@ -1,0 +1,1 @@
+TDAT: protected void set up ( ) {  <NL> answer = new array answer (  <NL> new variable [ ] { new variable ( " x " ) , new variable ( " y " ) }  <NL>  ,  <NL> new object [ ] { new literal impl ( " x1 " ) , new literal impl ( " y1 " ) ,  <NL> new literal impl ( " x2 " ) , new literal impl ( " y2 " ) } ) ;  <NL>  }  COM: <s> populate the test answer </s>

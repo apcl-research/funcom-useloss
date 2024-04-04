@@ -1,0 +1,1 @@
+TDAT: public void backup ( ) {  <NL> file settings bundle = file settings . get refactory pretty settings ( ) ;  <NL> file file = bundle . get file ( ) ;  <NL> file backup = new file ( file . get parent file ( ) , file . get name ( ) + " . backup " ) ;  <NL>  <NL>  ( new file copy ( file , backup , false ) ) . run ( ) ;  <NL>  }  COM: <s> create a backup </s>

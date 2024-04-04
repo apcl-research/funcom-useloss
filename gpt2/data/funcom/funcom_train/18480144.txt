@@ -1,0 +1,1 @@
+TDAT: public void set sane ( double a ) {  <NL> if ( geom utils . eq ( a , math . ceil ( a ) ) ) a = math . ceil ( a ) ;  <NL> else if ( geom utils . eq ( a , math . floor ( a ) ) ) a = math . floor ( a ) ;  <NL> if ( a = = - 0 ) a = 0 ;  <NL> set object ( " " + a ) ;  <NL>  }  COM: <s> stops all this </s>

@@ -1,0 +1,1 @@
+TDAT: public void add ( float array list [ ] temp ) {  <NL> for ( int x = 0 ; x < temp [ 0 ] . size ( ) ; x + + ) {  <NL> gcoords [ 0 ] . add ( temp [ 0 ] . get ( x ) ) ;  <NL> gcoords [ 1 ] . add ( temp [ 1 ] . get ( x ) ) ;  <NL> gcoords [ 2 ] . add ( temp [ 2 ] . get ( x ) ) ;  <NL>  }  <NL>  }  COM: <s> adds an array of vertices to the current gcoords array </s>

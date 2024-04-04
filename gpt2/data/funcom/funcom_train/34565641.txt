@@ -1,0 +1,1 @@
+TDAT: private void pubid lit ( ) throws io exception {  <NL> final int qu = qu ( ) ;  <NL> int ch ;  <NL> while ( ( ch = next char ( ) ) ! = qu ) {  <NL> if ( ! is letter or digit ( ch ) & & ! contains ( pubidtok , ch ) )  <NL> error ( pubid , ( char ) ch ) ;  <NL>  }  <NL>  }  COM: <s> scans an public id literal </s>

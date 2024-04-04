@@ -1,0 +1,1 @@
+TDAT: private void add term ( string term ) {  <NL> integer count = ( integer ) this . terms . get ( term ) ;  <NL> if ( count = = null ) {  <NL> this . terms . put ( term , new integer ( 1 ) ) ;  <NL>  } else {  <NL> this . terms . put ( term , new integer ( count . int value ( ) + 1 ) ) ;  <NL>  }  <NL>  }  COM: <s> adds a new term to the term list for this document </s>

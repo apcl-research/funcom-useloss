@@ -1,0 +1,1 @@
+TDAT: public void set raw from ( string raw from ) {  <NL> if ( raw from = = null )  <NL>  {  <NL> throw new runtime exception ( " raw from must not be null . " ) ;  <NL>  }  <NL> string old raw from = this . raw from ;  <NL> this . raw from = raw from ;  <NL> this . fire property change ( " raw from " , old raw from , this . raw from ) ;  <NL>  }  COM: <s> sets the raw from </s>

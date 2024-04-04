@@ -1,0 +1,1 @@
+TDAT: public void test valid title ( ) {  <NL> tdb title title = null ;  <NL> try {  <NL> title = new tdb title ( " test title " , " 0000 - 0000 " ) ;  <NL>  } catch ( illegal argument exception ex ) {  <NL>  }  <NL> assert not null ( title ) ;  <NL> assert equals ( " test title " , title . get name ( ) ) ;  <NL>  }  COM: <s> test creating valid tdb title </s>

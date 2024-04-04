@@ -1,0 +1,1 @@
+TDAT: public void check read in progress state ( ) throws exception {  <NL> if ( ( m _ numbers read + 1 ) > m _ dims . get dim x ( ) * m _ dims . get dim y ( ) )  <NL> throw new exception ( " error reading matrix data . has read more data than dims allow : " +  <NL>  " read : " + m _ numbers read ) ;  <NL>  }  COM: <s> checkes if the matrix is overflow </s>

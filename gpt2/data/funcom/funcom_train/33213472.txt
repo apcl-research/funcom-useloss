@@ -1,0 +1,1 @@
+TDAT: public boolean insert ( string name , reg exp definition ) {  <NL>  <NL> if ( out . dump )  <NL> out . dump ( " inserting macro " + name + " with definition : " + out . nl + definition ) ;  <NL>  <NL> used . put ( name , new boolean ( false ) ) ;  <NL> return macros . put ( name , definition ) = = null ;  <NL>  }  COM: <s> stores a new macro and its definition </s>

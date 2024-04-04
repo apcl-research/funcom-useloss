@@ -1,0 +1,1 @@
+TDAT: public void test boolean flr ( ) {  <NL> boolean dto dto = new boolean dto ( ) ;  <NL> dto . boolean field = new boolean ( false ) ;  <NL> assert true ( j sefa test util . serialize ( flr , dto ) . index of ( " 0 " ) > = 0 ) ;  <NL> j sefa test util . assert repeated round trip succeeds ( flr , dto ) ;  <NL>  }  COM: <s> tests boolean flr </s>

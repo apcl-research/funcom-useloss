@@ -1,0 +1,1 @@
+TDAT: public string get svn dir ( ) {  <NL> if ( work dir . starts with ( " / " ) ) {  <NL> svn dir = " file : / / " + work dir + file . separator + " svn - repos / lirc / trunk " ;  <NL>  } else {  <NL> svn dir = " file : / / / " + work dir + file . separator + " svn - repos / lirc / trunk " ;  <NL>  }  <NL> return svn dir ;  <NL>  }  COM: <s> gets the svn dir </s>

@@ -1,0 +1,1 @@
+TDAT: public catalog data get catalog ( int id ) {  <NL>  <NL> for ( int i = 0 ; i < this . catalogs . size ( ) ; i + + ) {  <NL> catalog data cat data = ( catalog data ) catalogs . get ( i ) ;  <NL> if ( cat data . get catalog id ( ) = = id ) {  <NL> return cat data ;  <NL>  }  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> retrieves the catalog s data given its id </s>

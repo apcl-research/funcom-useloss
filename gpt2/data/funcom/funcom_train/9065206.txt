@@ -1,0 +1,1 @@
+TDAT: protected void draw plus ( gc gc , int size , int x , int y ) {  <NL> gc . draw line ( x + _ sign insets , y + size / 2 , x + size - _ sign insets , y + size / 2 ) ;  <NL> gc . draw line ( x + size / 2 , y + _ sign insets , x + size / 2 , y + size - _ sign insets ) ;  <NL> gc . draw rectangle ( x , y , size , size ) ;  <NL>  }  COM: <s> draw the plus sign </s>

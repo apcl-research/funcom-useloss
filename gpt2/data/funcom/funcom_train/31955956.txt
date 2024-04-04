@@ -1,0 +1,1 @@
+TDAT: protected int get true size ( ) {  <NL>  <NL> if ( data array ! = null & & data array . length > 0 ) {  <NL> return ( array funcs . compute size ( data array [ 0 ] [ 0 ] ) + array funcs <NL>  . compute size ( data array [ 0 ] [ 1 ] ) )  <NL>  * data array . length ;  <NL>  } else {  <NL> return 0 ;  <NL>  }  <NL>  }  COM: <s> get the size of the actual data element </s>

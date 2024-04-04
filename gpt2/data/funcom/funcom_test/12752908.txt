@@ -1,0 +1,1 @@
+TDAT: public boolean is last level ( ) {  <NL> if ( is last level = = null & & get code ( ) ! = null & & get code ( ) . length ( ) > 0 ) {  <NL> is last level = is last level ( get code ( ) ) ;  <NL>  }  <NL> return get code ( ) ! = null & & get code ( ) . length ( ) = = 0 ? true : is last level ;  <NL>  }  COM: <s> it means that there isnt any account under this account </s>

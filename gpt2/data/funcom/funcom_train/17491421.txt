@@ -1,0 +1,1 @@
+TDAT: public void close ( ) {  <NL> hv . close ( ) ;  <NL> stop threads ( ) ;  <NL> director = null ;  <NL> gui = null ;  <NL> theatre = null ;  <NL> tracker . track event ( tracker clock . current time millis ( ) , tracker . other , - 1 ,  <NL>  - 1 , " jeliot close " ) ;  <NL> tracker . close file ( ) ;  <NL>  }  COM: <s> called when jeliot is closed </s>

@@ -1,0 +1,1 @@
+TDAT: private int intern node ( object node ) {  <NL> int nd = exi schema . nil _ node ;  <NL> if ( node ! = null ) {  <NL> if ( ( nd = get done node id ( node ) ) = = exi schema . nil _ node ) {  <NL> nd = m _ n _ nodes ;  <NL> put done node id ( node , nd ) ;  <NL>  }  <NL>  }  <NL> return nd ;  <NL>  }  COM: <s> intern a node </s>

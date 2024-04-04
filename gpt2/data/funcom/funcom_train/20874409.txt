@@ -1,0 +1,1 @@
+TDAT: public int get best nr assigned ( ) {  <NL> int nr assigned = 0 ;  <NL> for ( int i = 0 ; i < i best assignment . length ; i + + )  <NL> if ( i best assignment [ i ] ! = null )  <NL> nr assigned + = ( i best assignment [ i ] . is course request ( ) ? 10 : 1 ) ;  <NL> return nr assigned ;  <NL>  }  COM: <s> number of requests assigned in the best schedule </s>

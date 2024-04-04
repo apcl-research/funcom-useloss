@@ -1,0 +1,1 @@
+TDAT: public void throw defined warning ( string stmt , common tree id ) {  <NL> system . err . println ( " error on line " + id . get line ( ) + " : " + id . get char position in line ( ) + " : " + stmt <NL>  + " ' " + id . get text ( ) + " ' already defined . " ) ;  <NL>  }  COM: <s> throws a warning message on system </s>

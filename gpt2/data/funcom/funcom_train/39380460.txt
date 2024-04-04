@@ -1,0 +1,1 @@
+TDAT: protected int get last row ( ) {  <NL> int numb rows = get row list ( ) . size ( ) ;  <NL> int last row = numb rows ;  <NL>  <NL> if ( get page size ( ) > 0 ) {  <NL> last row = get first row ( ) + get page size ( ) ;  <NL> last row = math . min ( last row , numb rows ) ;  <NL>  }  <NL> return last row ;  <NL>  }  COM: <s> return the index of the last row to diplay </s>

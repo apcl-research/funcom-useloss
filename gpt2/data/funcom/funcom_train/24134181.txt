@@ -1,0 +1,1 @@
+TDAT: public void log ( string line ) {  <NL> if ( _ verbose ) {  <NL> string time = new java . util . date ( ) . to string ( ) ;  <NL>  / / rappe script bot tool . text area msg log . append ( time + " " + line + rappe script bot tool . new _ line ) ;  <NL> system . out . println ( time + " " + line ) ;  <NL>  }  <NL>  }  COM: <s> adds a line to the log </s>

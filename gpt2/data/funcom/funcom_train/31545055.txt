@@ -1,0 +1,1 @@
+TDAT: public void revert state ( ) {  <NL> if ( log . is debug enabled ( ) ) {  <NL> log . debug ( " state change : " + states [ n current state ] + " to " + states [ n last state ] + " ( revert ) " ) ;  <NL>  }  <NL> n current state = n last state ;  <NL> current state = states [ n current state ] ;  <NL>  }  COM: <s> reverts the state to the previous state </s>

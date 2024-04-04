@@ -1,0 +1,1 @@
+TDAT: private void show errors ( final gcdb data reader reader ) {  <NL> new j frame ( resources . get string ( " importexport . logviewer . error . import " ) ) ;  <NL> error log . add system error ( reader . get log messages ( ) ) ;  <NL> property change support . fire property change ( " error _ detected " , null , null ) ;  <NL>  }  COM: <s> shows the error dialog </s>

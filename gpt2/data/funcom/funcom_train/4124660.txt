@@ -1,0 +1,1 @@
+TDAT: private void find audio mixers ( ) {  <NL> audio mixers . clear ( ) ;  <NL> audio mixers . put ( auto , default ) ;  <NL> for ( mixer . info mi : audio system . get mixer info ( ) ) {  <NL> audio mixers . put ( mi . get name ( ) , new mixer wrapper ( mi . get name ( ) , mi ) ) ;  <NL>  }  <NL>  }  COM: <s> finds the audio mixers available </s>

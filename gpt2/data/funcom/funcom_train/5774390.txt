@@ -1,0 +1,1 @@
+TDAT: private j text field get in time full ( ) {  <NL> if ( in time full = = null ) {  <NL> in time full = new j text field ( ) ;  <NL> in time full . set bounds ( new java . awt . rectangle ( 93 , 95 , 180 , 25 ) ) ;  <NL> in time full . set editable ( true ) ;  <NL>  }  <NL> return in time full ;  <NL>  }  COM: <s> this method initializes in time full </s>

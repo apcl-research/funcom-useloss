@@ -1,0 +1,1 @@
+TDAT: public void set name ( string name ) {  <NL> if ( ( owner ! = null ) & & ( this . name ! = null ) ) owner . rename ( this . name , name ) ;  <NL> this . name = name ;  <NL> if ( get label ( ) = = null || get label ( ) . equals ignore case ( " < null vertex > " ) ) set label ( name ) ;  <NL>  }  COM: <s> set the node name </s>

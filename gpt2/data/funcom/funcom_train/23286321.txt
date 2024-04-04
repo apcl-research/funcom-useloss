@@ -1,0 +1,1 @@
+TDAT: public void new bet round ( ) {  <NL> for ( int i = 0 ; i < players . size ( ) ; + + i ) {  <NL> bet temp = players . get ( i ) ;  <NL> temp . add ( 0 , false ) ;  <NL> players . set ( i , temp ) ;  <NL>  }  <NL> highest bet = big blind ;  <NL> last amount raise = big blind ;  <NL>  }  COM: <s> creates a new round of betting </s>

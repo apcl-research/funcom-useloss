@@ -1,0 +1,1 @@
+TDAT: private void add to invalidates ( block b , datanode info n ) {  <NL> add to invalidates no log ( b , n ) ;  <NL> name node . state change log . info ( " block * name system . add to invalidates : "  <NL>  + b . get block name ( ) + " is added to invalid set of " + n . get name ( ) ) ;  <NL>  }  COM: <s> adds block to list of blocks which will be invalidated on </s>

@@ -1,0 +1,1 @@
+TDAT: public string get uri ( http host host , http request req ) {  <NL> if ( is relative request ( req ) ) {  <NL> return canonicalize uri ( string . format ( " % s % s " , host . to string ( ) , req . get request line ( ) . get uri ( ) ) ) ;  <NL>  }  <NL> return canonicalize uri ( req . get request line ( ) . get uri ( ) ) ;  <NL>  }  COM: <s> for a given </s>

@@ -1,0 +1,1 @@
+TDAT: public row get row ( int pos ) {  <NL> for ( int i = 0 ; i < _ cache . size ( ) ; i + + ) {  <NL> rows rows = ( rows ) _ cache . get ( i ) ;  <NL> if ( rows . inside ( pos ) ) return ( row ) rows . get row ( pos - rows . get begin ( ) ) ;  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> returns the row at the given position if any </s>

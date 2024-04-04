@@ -1,0 +1,1 @@
+TDAT: public string scout speak ( unit unit , direction direction ) {  <NL> hash map < string , string > results = load map ( " result " ) ;  <NL> return ( ask handling ( new scout indian settlement message ( unit , direction ) ,  <NL> null , results ) ) ? results . get ( " result " )  <NL>  : null ;  <NL>  }  COM: <s> server query response for speaking with a native chief </s>

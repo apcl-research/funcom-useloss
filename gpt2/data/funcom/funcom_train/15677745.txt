@@ -1,0 +1,1 @@
+TDAT: public point2d focus1 ( ) {  <NL> double a , b , theta ;  <NL> if ( r1 > r2 ) {  <NL> a = r1 ;  <NL> b = r2 ;  <NL> theta = this . theta ;  <NL>  } else {  <NL> a = r2 ;  <NL> b = r1 ;  <NL> theta = this . theta + pi / 2 ;  <NL>  }  <NL> return point2d . create polar ( xc , yc , sqrt ( a * a - b * b ) , theta + pi ) ;  <NL>  }  COM: <s> return the first focus </s>

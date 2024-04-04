@@ -1,0 +1,1 @@
+TDAT: public item pick top ( double x , double y , rectangle2d bounds ) {  <NL> rectangle2d . float hit box = rect pool . allocate rect ( ) ;  <NL> hit box . set frame ( x , y , 1 , 1 ) ;  <NL> try {  <NL> return pick top ( hit box , bounds ) ;  <NL>  }  <NL> finally {  <NL> rect pool . free rect ( hit box ) ;  <NL>  }  <NL>  }  COM: <s> pick the top item </s>

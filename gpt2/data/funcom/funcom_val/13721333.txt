@@ -1,0 +1,1 @@
+TDAT: public int get tab views index for ( string name ) {  <NL> int q = get jtab views ( ) . get component count ( ) ;  <NL> for ( int i = 0 ; i < q ; i + + ) {  <NL> if ( get jtab views ( ) . get title at ( i ) . equals ( name ) ) {  <NL> return i ;  <NL>  }  <NL>  }  <NL> return - 1 ;  <NL>  }  COM: <s> returns the index for the tab specified by name </s>

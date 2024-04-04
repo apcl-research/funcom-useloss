@@ -1,0 +1,1 @@
+TDAT: public string get name ( uri uri ) {  <NL> assert uri ! = null ;  <NL> string result = uri . get path ( ) ;  <NL> int index of last slash = result . last index of ( ' / ' ) ;  <NL> if ( index of last slash > = 0 ) {  <NL> result = result . substring ( index of last slash + 1 ) ;  <NL>  }  <NL> return result ;  <NL>  }  COM: <s> the file name part of code url code </s>

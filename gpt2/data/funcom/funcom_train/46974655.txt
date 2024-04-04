@@ -1,0 +1,1 @@
+TDAT: public void log ( string module id , byte [ ] who , string title , string message ) {  <NL> clog ( module id , who , null , " " , new org . opheliadev . ophelia . kernel . logging object info [ 0 ] , " info " , " system " , title , message ) ;  <NL>  }  COM: <s> send a message to the logger </s>

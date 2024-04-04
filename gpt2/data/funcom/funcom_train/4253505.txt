@@ -1,0 +1,1 @@
+TDAT: private void init ( origin field origin , session name field session , connection field connection , time field time )  <NL>  { v = new sdp field ( ' v ' , " 0 " ) ;  <NL> o = origin ;  <NL> s = session ;  <NL> c = connection ;  <NL> t = time ;  <NL> av = new vector ( ) ;  <NL> media = new vector ( ) ;  <NL>  }  COM: <s> inits the session descriptor </s>

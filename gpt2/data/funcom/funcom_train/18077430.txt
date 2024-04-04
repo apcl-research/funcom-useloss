@@ -1,0 +1,1 @@
+TDAT: public point get start point ( ) {  <NL> switch ( type ) {  <NL> case x : return new point ( 0 + get x offset ( ) , c sys . win height ( ) - get y offset ( ) ) ;  <NL>  / / case y :  <NL> default : return new point ( 0 + get x offset ( ) , c sys . win height ( ) - get y offset ( ) ) ;  <NL>  }  <NL>  }  COM: <s> return the startpoint of axis in window coord </s>

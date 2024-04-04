@@ -1,0 +1,1 @@
+TDAT: public void set color to draw rf ( color _ choice color to draw rf ) {  <NL> this . color to draw rf = color to draw rf ;  <NL>  <NL> get prefs ( ) . put ( " blurring filter2d . color to draw rf " , color to draw rf . to string ( ) ) ;  <NL> colors . get ( color to draw rf ) . get rgb components ( rgb ) ;  <NL>  }  COM: <s> sets color to draw rf </s>

@@ -1,0 +1,1 @@
+TDAT: private void curve to ( double x1 , double y1 , double x2 , double y2 , double x3 , double y3 ) {  <NL> this . sb . append ( x1 + " " + roty ( y1 ) + " " + x2 + " " + roty ( y2 ) + " " + x3 + " " + roty ( y3 ) + " c\r " ) ;  <NL>  }  COM: <s> add 3 points to the current bezier curve </s>

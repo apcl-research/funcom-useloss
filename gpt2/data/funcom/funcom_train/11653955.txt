@@ -1,0 +1,1 @@
+TDAT: private boolean is a tag ( string text ) {  <NL> string [ ] tags = get tags ( ) ;  <NL> if ( tags = = null ) {  <NL> return false ;  <NL>  }  <NL> for ( int i = 0 ; i < tags . length ; i + + ) {  <NL> if ( tags [ i ] . equals ( text ) ) {  <NL> return true ;  <NL>  }  <NL>  }  <NL> return false ;  <NL>  }  COM: <s> determine wheter a string is one of the known tags </s>

@@ -1,0 +1,1 @@
+TDAT: private void _ indent ( ) throws io exception {  <NL> if ( ! _ prettify ) {  <NL> return ;  <NL>  }  <NL> if ( _ depth > 0 ) {  <NL>  _ out . write ( ' \n ' ) ;  <NL>  }  <NL> final char [ ] chars = new char [ _ depth * 2 ] ;  <NL> arrays . fill ( chars , ' ' ) ;  <NL>  _ out . write ( chars ) ;  <NL>  }  COM: <s> indents a line iff </s>

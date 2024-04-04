@@ -1,0 +1,1 @@
+TDAT: public integer get peptide max size ( ) {  <NL> if ( max pep length txt . get text ( ) . trim ( ) ! = null & & ! max pep length txt . get text ( ) . trim ( ) . equals ( " " ) ) {  <NL> return new integer ( max pep length txt . get text ( ) . trim ( ) ) ;  <NL>  } else {  <NL> return null ;  <NL>  }  <NL>  }  COM: <s> this method returns the maximal peptide size allowed </s>

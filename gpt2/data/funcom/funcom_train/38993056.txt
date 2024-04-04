@@ -1,0 +1,1 @@
+TDAT: private void init components ( ) {  <NL> container cp = get content pane ( ) ;  <NL> cp . set layout ( new border layout ( 4 , 4 ) ) ;  <NL> cp . add ( create proxy panel ( ) , border layout . center ) ;  <NL> cp . add ( create control panel ( ) , border layout . south ) ;  <NL> pack ( ) ;  <NL>  }  COM: <s> creates and layouts the components </s>

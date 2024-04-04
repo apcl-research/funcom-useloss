@@ -1,0 +1,1 @@
+TDAT: public void test get working dir ( ) throws exception {  <NL> local file set spec = new local file set ( base file ) ;  <NL> live fingerprint test fp = new live fingerprint ( spec ) ;  <NL> test fp . scan ( ) ;  <NL> assert equals ( system . get property ( " user . dir " ) , test fp . get working dir ( ) ) ;  <NL>  }  COM: <s> tests get working dir </s>

@@ -1,0 +1,1 @@
+TDAT: public void update ( ) {  <NL> set range properties (  <NL> max dq . number column . get double min ( ) ,  <NL> min dq . number column . get double max ( )  <NL>  - max dq . number column . get double min ( ) ,  <NL> max dq . number column . get double min ( ) ,  <NL> min dq . number column . get double max ( ) ,  <NL> false ) ;  <NL>  }  COM: <s> updates the state </s>

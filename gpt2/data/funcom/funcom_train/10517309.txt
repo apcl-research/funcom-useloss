@@ -1,0 +1,1 @@
+TDAT: public void test1 ( ) throws manifest exception , io exception {  <NL> execute target ( " test1 " ) ;  <NL> manifest manifest = get manifest ( expanded _ manifest ) ;  <NL> string version = manifest . get manifest version ( ) ;  <NL> assert equals ( " manifest was not created with correct version - " , " 1 . 0 " , version ) ;  <NL>  }  COM: <s> empty manifest is ok </s>

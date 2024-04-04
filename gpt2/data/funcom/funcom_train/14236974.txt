@@ -1,0 +1,1 @@
+TDAT: public void set series list ( list < series > series list ) {  <NL>  _ series list = series list ;  <NL>  _ bs helper . notify destinations ( this , " series list " ) ;  <NL>  <NL> set current series ( ( ( _ series list = = null ) || ( _ series list . is empty ( ) ) ) ? null : _ series list . get ( 0 ) ) ;  <NL>  }  COM: <s> sets the current series list </s>

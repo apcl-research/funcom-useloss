@@ -1,0 +1,1 @@
+TDAT: public void test short flag ( ) throws exception {  <NL> this . record _ factory ( command , " short " , " s " , false ) ;  <NL> this . record _ command ( command , " short " , " s " ) ;  <NL> this . record _ argument ( command , " short " , null ) ;  <NL> this . do test ( " - s " , command ) ;  <NL>  }  COM: <s> ensure can parse command with short flag </s>

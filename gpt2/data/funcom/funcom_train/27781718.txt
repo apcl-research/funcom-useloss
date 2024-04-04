@@ -1,0 +1,1 @@
+TDAT: public void fsck ( ) {  <NL> as . fsck ( ) ;  <NL> q . clear ( ) ;  <NL> long size = size ( ) ;  <NL> for ( long i = 0 ; i < size ; i + + ) {  <NL> statistics s = get ( i ) ;  <NL> if ( s ! = null ) {  <NL> push ( new queue item ( i , s ) ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> repairs this structure </s>

@@ -1,0 +1,1 @@
+TDAT: public void add robot ( tangible arena object robot ) {  <NL> robot . get position ( ) . copy from ( position . random ( 0 . 0 , 0 . 0 , 1000 . 0 , 1000 . 0 ) ) ;  <NL> connect arena ( robot ) ;  <NL> active robots . add ( robot ) ;  <NL> all robots . add ( robot ) ;  <NL>  }  COM: <s> add a robot to the arena at a random location </s>

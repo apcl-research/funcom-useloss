@@ -1,0 +1,1 @@
+TDAT: public object get value at ( int row , int col )  <NL>  { / * switch ( column )  <NL>  { case 0 : return new integer ( row ) ;  <NL> case 1 : return class node . get state at ( row ) ;  <NL> case 2 : return " " + class node . get marginal at ( row ) ;  <NL> default : return null ;  <NL>  } * /  <NL> return cells [ row ] [ col ] ;  <NL>  }  COM: <s> gets a table cell </s>

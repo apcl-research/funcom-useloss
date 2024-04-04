@@ -1,0 +1,1 @@
+TDAT: public void test register default rule set ( ) {  <NL> rule set rule set = new rule set ( ) ;  <NL> this . rule set manager . register default rule set ( rule set ) ;  <NL> assert equals ( " default rule set not registrered ! " , 1 , this . rule set manager . get default rule sets ( ) . size ( ) ) ;  <NL>  }  COM: <s> test the register default ruleset </s>

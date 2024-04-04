@@ -1,0 +1,1 @@
+TDAT: public void set vm stat lines ( string result ) {  <NL> string line [ ] = result . split ( " \n " ) ;  <NL> for ( int i = 0 ; i < line . length ; i + + ) {  <NL> if ( ! line [ i ] . equals ( " " ) ) {  <NL> sys load info . put ( " vmstat . " + i , line [ i ] ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> sets each line the string result </s>

@@ -1,0 +1,1 @@
+TDAT: public void set line style ( int style ) {  <NL> escher opt record opt = ( escher opt record ) get escher child ( _ escher container , escher opt record . record _ id ) ;  <NL> set escher property ( opt , escher properties . linestyle _ _ linestyle , style = = line . line _ simple ? - 1 : style ) ;  <NL>  }  COM: <s> sets line style </s>

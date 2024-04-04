@@ -1,0 +1,1 @@
+TDAT: protected string get context name ( file war ) {  <NL> string context name = " / "  <NL>  + war . get name ( ) . substring ( 0 ,  <NL> war . get name ( ) . last index of ( " . war " ) ) ;  <NL> if ( " / root " . equals ( context name ) )  <NL> context name = " " ;  <NL> return context name ;  <NL>  }  COM: <s> create a context path from war </s>

@@ -1,0 +1,1 @@
+TDAT: public void action performed ( action event e ) {  <NL> if ( e . get action command ( ) . equals ( i8n . get string ( " export " ) ) ) {  <NL> export action performed ( ) ;  <NL>  } else if ( e . get action command ( ) . equals ( i8n . get string ( " copy " ) ) ) {  <NL> copy to clipboard action performed ( ) ;  <NL>  }  <NL>  }  COM: <s> invoked when an action occurs </s>

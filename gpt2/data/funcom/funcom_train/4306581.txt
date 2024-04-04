@@ -1,0 +1,1 @@
+TDAT: public void draw rect ( int x , int y , int w , int h ) {  <NL> fill rect ( x , y , w , 1 ) ;  <NL> fill rect ( x , y + h - 1 , w , 1 ) ;  <NL> fill rect ( x , y , 1 , h ) ;  <NL> fill rect ( x + w - 1 , y , 1 , h ) ;  <NL>  }  COM: <s> draws a rectangle using the current color </s>

@@ -1,0 +1,1 @@
+TDAT: private void put static helper ( instruction s , basic block b ) {  <NL> put static ps = ( put static ) s ;  <NL> field operand loc op = ps . get field ( ) ;  <NL> field field = loc op . get field ( ) ;  <NL> register use ( s , field ) ;  <NL> register def ( s , b , field ) ;  <NL>  }  COM: <s> record the effects of a putstatic instruction on the heap array </s>

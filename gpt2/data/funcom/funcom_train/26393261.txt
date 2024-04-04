@@ -1,0 +1,1 @@
+TDAT: public super string append ( super string str ) {  <NL> int len = str . length ( ) ;  <NL> ensure capacity ( count + str . count ) ;  <NL> copy when shared ( ) ;  <NL> system . arraycopy ( str . get value ( ) , 0 , value , count , len ) ;  <NL> count + = len ;  <NL> return this ;  <NL>  }  COM: <s> appends one super string to another so they can be merged with no </s>

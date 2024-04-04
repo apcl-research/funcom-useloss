@@ -1,0 +1,1 @@
+TDAT: public void paint ( graphics g ) {  <NL> g . set color ( get color ( ) ) ;  <NL> if ( is filled ( ) )  <NL> g . fill rect ( ( int ) get x ( ) , ( int ) get y ( ) , ( int ) width , ( int ) height ) ;  <NL> else <NL> g . draw rect ( ( int ) get x ( ) , ( int ) get y ( ) , ( int ) width , ( int ) height ) ;  <NL>  }  COM: <s> paints the code shape code </s>

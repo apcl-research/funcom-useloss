@@ -1,0 +1,1 @@
+TDAT: public matrix4 transpose ( ) {  <NL> return new matrix4 (  <NL> m00 , m10 , m20 , m30 ,  <NL> m01 , m11 , m21 , m31 ,  <NL> m02 , m12 , m22 , m32 ,  <NL> m03 , m13 , m23 , m33 ) ;  <NL>  }  COM: <s> returns a matrix that is a transpose of this one </s>

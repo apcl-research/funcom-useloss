@@ -1,0 +1,1 @@
+TDAT: public void draw rounded box ( point point1 , point point2 , boolean is black , boolean filled ) {  <NL> synchronized ( image ) {  <NL> graphics area . set color ( convert boolean ( is black ) ) ;  <NL> graphics area . draw round rect ( point1 . x , point1 . y , point2 . x - point1 . x , point2 . y - point1 . y , 8 , 8 ) ;  <NL>  }  <NL>  }  COM: <s> draw a rounded box </s>

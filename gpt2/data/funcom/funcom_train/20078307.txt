@@ -1,0 +1,1 @@
+TDAT: private string get delete album command ( string album id ) {  <NL> return " < xu : remove select = \ " / albums / album [ @ id = \ ' " + album id + " \ ' ] \ " / > " +  <NL>  " < xu : remove select = \ " / comments / comment [ music _ id = \ ' " + album id + " \ ' ] \ " / > " ;  <NL>  }  COM: <s> delete album and comments on that album command </s>

@@ -1,0 +1,1 @@
+TDAT: public void add sub role ( role r , dependency set ds ) {  <NL> if ( pellet options . use _ tracing & & explain sub . get ( r . get name ( ) ) = = null )  <NL> explain sub . put ( r . get name ( ) , ds ) ;  <NL>  <NL> sub roles = set utils . add ( r , sub roles ) ;  <NL> explain sub . put ( r . get name ( ) , ds ) ;  <NL>  }  COM: <s> add sub role with depedency set </s>

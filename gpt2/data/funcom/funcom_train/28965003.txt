@@ -1,0 +1,1 @@
+TDAT: public xml buffer terminating element ( string name ) {  <NL> if ( inside element || ( complete xml document & & nesting level = = 0 ) ) {  <NL> error ( " < / " + name + " > " ) ;  <NL>  }  <NL> buffer . append ( " < / " ) . append ( name ) . append ( " > " ) ;  <NL> nesting level - - ;  <NL> return this ;  <NL>  }  COM: <s> emit a terminating xml element that is name </s>

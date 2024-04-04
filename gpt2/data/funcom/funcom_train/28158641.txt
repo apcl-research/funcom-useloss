@@ -1,0 +1,1 @@
+TDAT: public void fill circle ( final circle c , final point pos ) {  <NL> fill oval (  <NL> pos . x ( ) + c . get center ( ) . x ( ) - c . get radius ( ) ,  <NL> pos . y ( ) + c . get center ( ) . y ( ) - c . get radius ( ) ,  <NL> c . get radius ( ) * 2 ,  <NL> c . get radius ( ) * 2 <NL>  ) ;  <NL>  }  COM: <s> draw a filled circle </s>

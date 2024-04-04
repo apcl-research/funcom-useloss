@@ -1,0 +1,1 @@
+TDAT: public void test get payment ( ) throws exception {  <NL> system . out . println ( " get payment " ) ;  <NL>  <NL> payment bo pmt = new payment bo ( guid . generate ( ) , trans ) ;  <NL> trans . set payment ( pmt ) ;  <NL> assert equals ( " unable to set or get payment . " , pmt , trans . get payment ( ) ) ;  <NL>  }  COM: <s> test of get payment method of class edu </s>

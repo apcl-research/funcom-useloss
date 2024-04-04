@@ -1,0 +1,1 @@
+TDAT: public boolean return type substitutable ( type r1 , type r2 ) {  <NL> if ( has same args ( r1 , r2 ) )  <NL> return result subtype ( r1 , r2 , warner . no warnings ) ;  <NL> else <NL> return covariant return type ( r1 . get return type ( ) ,  <NL> erasure ( r2 . get return type ( ) ) ,  <NL> warner . no warnings ) ;  <NL>  }  COM: <s> return type substitutable </s>

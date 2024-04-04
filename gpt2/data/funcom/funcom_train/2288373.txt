@@ -1,0 +1,1 @@
+TDAT: protected void set server name ( string server name ) {  <NL>  <NL> m _ server name = server name ;  <NL> if ( cms log . init . is info enabled ( ) ) {  <NL> cms log . init . info ( messages . get ( ) . get bundle ( ) . key ( messages . log _ set _ servername _ 1 , m _ server name ) ) ;  <NL>  }  <NL>  }  COM: <s> sets the server name </s>

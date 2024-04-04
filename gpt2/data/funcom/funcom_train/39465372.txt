@@ -1,0 +1,1 @@
+TDAT: @ action method public void delete row ( ) {  <NL> try {  <NL> table model . delete row ( table . get selected row ( ) ) ;  <NL>  } catch ( final sql exception e ) {  <NL> system . err . println ( e ) ;  <NL> show message dialog ( frame , " error message " , " error " , error _ message ) ;  <NL>  }  <NL>  }  COM: <s> action method for deleting a row </s>

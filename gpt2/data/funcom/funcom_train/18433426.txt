@@ -1,0 +1,1 @@
+TDAT: public int hash code ( ) {  <NL> int result ;  <NL> result = ( this . period ! = null ? this . period . hash code ( ) : 0 ) ;  <NL> result = 29 * result + ( this . value ! = null ? this . value . hash code ( ) : 0 ) ;  <NL> result = hash utilities . hash code ( result , this . selected ) ;  <NL> return result ;  <NL>  }  COM: <s> returns a hash code </s>

@@ -1,0 +1,1 @@
+TDAT: private void set date time ( int year , int month , int day , f ut ) {  <NL>  / / set the day , should be called before all calculations <NL>  / / time . set _ day ( 2004 , 3 , 4 , new mathf ( 8 ) ) ;  <NL> time . set _ day ( year , month , day , ut ) ;  <NL>  }  COM: <s> set date and time </s>

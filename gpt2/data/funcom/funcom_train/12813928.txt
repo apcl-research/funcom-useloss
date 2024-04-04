@@ -1,0 +1,1 @@
+TDAT: public string to sql ( ) throws parse exception {  <NL> return ( is sub query ( ) ? ( " ( " + sub query . to sql ( false ) + " ) " ) : table ref ) + ( ( alias = = null ) ? " " : ( " as \ " " + alias + " \ " " ) ) + ( ( join = = null ) ? " " : ( " " + join . to sql ( ) ) ) ;  <NL>  }  COM: <s> gets the sql expression of this table reference </s>

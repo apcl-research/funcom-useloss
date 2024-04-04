@@ -1,0 +1,1 @@
+TDAT: public void put all ( map t ) {  <NL> remove expired entries ( ) ;  <NL> iterator it = t . entry set ( ) . iterator ( ) ;  <NL> while ( it . has next ( ) ) {  <NL> map . entry entry = ( map . entry ) it . next ( ) ;  <NL> put ( entry . get key ( ) , entry . get value ( ) ) ;  <NL>  }  <NL>  }  COM: <s> places all entries from another map into this one </s>

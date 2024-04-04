@@ -1,0 +1,1 @@
+TDAT: public vector3 get vector ( double u , double v ) {  <NL> return new vector3 (  <NL> dir _ u . get x ( ) * u + dir _ v . get x ( ) * v ,  <NL> dir _ u . get y ( ) * u + dir _ v . get y ( ) * v ,  <NL> dir _ u . get z ( ) * u + dir _ v . get z ( ) * v ) ;  <NL>  }  COM: <s> return a vector in the plane represented by u and v </s>

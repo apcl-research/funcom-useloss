@@ -1,0 +1,1 @@
+TDAT: private void set acc comps ( ) {  <NL> enumeration < string > en = parent . obs comps . keys ( ) ;  <NL> while ( en . has more elements ( ) ) {  <NL> string key = en . next element ( ) ;  <NL> access component acc comp = parent . obs comps . get ( key ) ;  <NL> acc comps . put ( key , acc comp ) ;  <NL>  }  <NL>  }  COM: <s> set the federated access components </s>

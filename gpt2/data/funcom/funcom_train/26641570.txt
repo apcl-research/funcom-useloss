@@ -1,0 +1,1 @@
+TDAT: public string get name ( ) {  <NL> constant c ;  <NL> try { c = cp . get ( name ) ; }  <NL> catch ( exception e ) { return " < < bad name index > > " ; }  <NL> if ( ! ( c instanceof utf constant ) ) return " < < bad name constant > > " ;  <NL> return ( ( utf constant ) c ) . get value ( ) ;  <NL>  }  COM: <s> return the name of the method </s>

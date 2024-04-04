@@ -1,0 +1,1 @@
+TDAT: public void example valid if ( ) {  <NL> int a = 1 ;  <NL> int b = 1 ;  <NL> boolean ok = false ;  <NL> if ( a + b = = b + a ) {  <NL> ok = true ;  <NL>  }  <NL> if ( ( a + b = = b + a ) & & ( a * b = = b * a ) ) {  <NL> ok = true ;  <NL>  }  <NL>  }  COM: <s> correct use of an if statement </s>

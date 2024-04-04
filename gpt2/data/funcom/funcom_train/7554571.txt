@@ -1,0 +1,1 @@
+TDAT: protected void train ( ) {  <NL>  / / system . out . println ( " training . . . " ) ;  <NL> nnet . get monitor ( ) . add neural net listener ( this ) ;  <NL> nnet . get monitor ( ) . set learning ( true ) ;  <NL> nnet . get monitor ( ) . set validation ( false ) ;  <NL> nnet . go ( true ) ;  <NL> this . validate ( ) ;  <NL>  }  COM: <s> trains the neural network </s>

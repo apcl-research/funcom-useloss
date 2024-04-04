@@ -1,0 +1,1 @@
+TDAT: public boolean is deleted ( ) {  <NL> if ( ( flags & flag _ have _ add ) > 0 || ( flags & flag _ have _ branch ) > 0 ) {  <NL> return false ;  <NL>  }  <NL>  <NL> return have rev = = 0 <NL> || ( ( head rev = = have rev ) & & ( flags & flag _ head _ delete ) > 0 & & ( flags & flag _ have _ all ) = = 0 ) ;  <NL>  }  COM: <s> checks whether the resource is deleted </s>

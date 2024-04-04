@@ -1,0 +1,1 @@
+TDAT: private string get free name ( free name checker checker , string def name ) {  <NL> string name = def name ;  <NL>  <NL> for ( int i = 0 ; ! checker . is name free ( name ) ; name = copy _ prefix <NL>  + def name <NL>  + ( i = = 0 ? " " : " ( " + i + " ) " ) , i + + )  <NL>  ;  <NL>  <NL> return name ;  <NL>  }  COM: <s> finds avaliable name for an object </s>

@@ -1,0 +1,1 @@
+TDAT: private boolean has markup ( string pcdata ) {  <NL> return ( pcdata . index of ( " < " ) ! = - 1 || <NL> pcdata . index of ( " & " ) ! = - 1 || <NL> pcdata . index of ( " \ " " ) ! = - 1 || <NL> pcdata . index of ( " > " ) ! = - 1 || <NL> pcdata . index of ( " \ ' " ) ! = - 1 ) ;  <NL>  }  COM: <s> this method checks the string to see if it has </s>

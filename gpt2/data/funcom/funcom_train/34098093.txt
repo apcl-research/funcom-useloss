@@ -1,0 +1,1 @@
+TDAT: / * public int has door to outside ( ) {  <NL> for ( int i = 0 ; i < exits . size ( ) ; i + + ) {  <NL> if ( map . get exit ( exits . get ( i ) ) . connected to id ( room id ) = = map . outside . get room id ( ) ) {  <NL> return i ;  <NL>  }  <NL>  }  <NL> return - 1 ;  <NL>  } * /  COM: <s> checks if the room has a door to outside </s>

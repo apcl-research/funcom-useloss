@@ -1,0 +1,1 @@
+TDAT: public void action performed ( action event e ) {  <NL> mouse event me = new mouse event ( get editor ( ) . get j component ( ) ,  <NL> event . mouse _ drag , 0 , input event . button1 _ mask , recent x , recent y ,  <NL> 0 , false ) ;  <NL> get editor ( ) . mouse dragged ( me ) ;  <NL>  }  COM: <s> interface action listener simulate mouse dragging </s>

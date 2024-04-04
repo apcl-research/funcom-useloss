@@ -1,0 +1,1 @@
+TDAT: public string to string bare ( ) {  <NL> string buffer buffer = new string buffer ( ) ;  <NL>  <NL> int n = id bit length / 4 ;  <NL> for ( int i = n - 1 ; i > = n - 6 ; i - - )  <NL> buffer . append ( tran [ get digit ( i , 4 ) ] ) ;  <NL>  <NL>  <NL> return buffer . to string ( ) ;  <NL>  }  COM: <s> similar to to string but not wrapped by 0x </s>

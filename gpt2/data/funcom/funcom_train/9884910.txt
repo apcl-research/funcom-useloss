@@ -1,0 +1,1 @@
+TDAT: private void extract self kernel values ( float matrix kernel matrix , float [ ] self kernel values ) {  <NL> final int size = kernel matrix . get row dimension ( ) ;  <NL> for ( int i = 0 ; i < size ; i + + ) {  <NL> self kernel values [ i ] = kernel matrix . get ( i , i ) ;  <NL>  }  <NL>  }  COM: <s> extract the diagonal from a given square kernel matrix </s>

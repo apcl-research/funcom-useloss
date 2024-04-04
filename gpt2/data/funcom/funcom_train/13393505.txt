@@ -1,0 +1,1 @@
+TDAT: public void destroy ( ) {  <NL> logger . info ( " " ) ;  <NL> logger . info (  <NL>  " - - - - - - - - - - s t o p p i n g e x a m p l e s e r v i c e ! ! ! ! - - - - - - - - - - - - - - - " ) ;  <NL> logger . info ( " " ) ;  <NL>  }  COM: <s> remove any threads we have running here </s>

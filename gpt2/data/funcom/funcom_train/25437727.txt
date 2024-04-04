@@ -1,0 +1,1 @@
+TDAT: public boolean delete file list ( vector < integer > row ) {  <NL>  <NL> if ( row . size ( ) = = 0 ) return false ;  <NL> collections . sort ( row ) ;  <NL> for ( int i = row . size ( ) - 1 ; i > = 0 ; i - - ) {  <NL> file list map . remove ( ( int ) row . get ( i ) ) ;  <NL>  }  <NL> return true ;  <NL>  }  COM: <s> deletes rows of selected files in the file list map </s>

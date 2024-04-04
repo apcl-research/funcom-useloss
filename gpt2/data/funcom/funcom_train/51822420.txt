@@ -1,0 +1,1 @@
+TDAT: public void init ( ) {  <NL> this . set maximum size ( new dimension ( 1000 , 1000 ) ) ;  <NL> this . set preferred size ( new dimension ( 397 , 243 ) ) ;  <NL> this . set minimum size ( new dimension ( 397 , 243 ) ) ;  <NL> this . set size ( 397 , 243 ) ;  <NL> this . set content pane ( get j content pane ( ) ) ;  <NL>  }  COM: <s> this method initializes this </s>

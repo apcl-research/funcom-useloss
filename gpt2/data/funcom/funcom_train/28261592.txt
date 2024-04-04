@@ -1,0 +1,1 @@
+TDAT: private void update palette ( ) {  <NL> colour model = new index color model ( 8 , 256 , palette [ red ] , palette [ green ] ,  <NL> palette [ blue ] ) ;  <NL>  / / this requires the image to be redrawn on the canvas to reflect <NL>  / / changes in the colourmodel :  <NL> this . update image ( ) ;  <NL>  }  COM: <s> update the colour model used in the image </s>

@@ -1,0 +1,1 @@
+TDAT: public b box set box y ( int layer , int miny , int maxy ) {  <NL> b box result = boxes . get ( layer ) ;  <NL> if ( result = = null ) {  <NL> boxes . put ( layer , new b box ( ) ) ;  <NL>  }  <NL> boxes . get ( layer ) . set y ( miny , maxy ) ;  <NL> return result ;  <NL>  }  COM: <s> adjusts the y dimension of a box </s>

@@ -1,0 +1,1 @@
+TDAT: private j panel create top panel ( ) {  <NL> j panel top pane = new j panel ( ) ;  <NL> top pane . set layout ( new border layout ( ) ) ;  <NL> top pane . set minimum size ( new dimension ( 600 , 300 ) ) ;  <NL> top pane . set preferred size ( new dimension ( 800 , 600 ) ) ;  <NL> return top pane ;  <NL>  }  COM: <s> creates the top panel used by pulsemem </s>

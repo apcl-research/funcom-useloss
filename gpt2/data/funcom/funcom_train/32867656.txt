@@ -1,0 +1,1 @@
+TDAT: public void stop ( ) {  <NL> applet state = 1 ; / / 1 = stop , 3 = destroy , 4 = init <NL> if ( system . get property ( " java . vendor " ) . index of ( " netscape " ) > - 1 )  <NL> b netscape special = true ; / / indicate we ' ve reached a stop ( ) state <NL>  }  COM: <s> stop the applet </s>

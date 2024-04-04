@@ -1,0 +1,1 @@
+TDAT: public void test _ equals equal ( ) {  <NL> comic site cs = new comic site ( " xkcd " , " http : / / www . xkcd . com " , 1 ) ;  <NL> comic site other = new comic site ( " xkcd " , " http : / / www . xkcd . com " , 1 ) ;  <NL> assert equals ( cs , other ) ;  <NL>  }  COM: <s> tests equals in the positive case </s>

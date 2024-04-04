@@ -1,0 +1,1 @@
+TDAT: public boolean is reusuable resource ( ) {  <NL> return ! ( sac cost || exile cost || exile from hand cost || tap x type cost || discard cost || <NL> return cost || life cost ) & & is ability ;  <NL>  / / todo : add / sub counter ? maybe check if it ' s we ' re adding a positive counter , or removing a negative counter <NL>  }  COM: <s> p is reusuable resource </s>

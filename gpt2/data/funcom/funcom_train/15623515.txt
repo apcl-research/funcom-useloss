@@ -1,0 +1,1 @@
+TDAT: public void add index to trash ( string index name , string schema name , long step id )  <NL> throws m4compiler error {  <NL> this . add database object to trash ( index name ,  <NL> schema name ,  <NL> edu . udo . cs . miningmart . m4 . core . step . dbt _ type _ index ,  <NL> step id ) ;  <NL>  }  COM: <s> if an operator creates an index in the database it b must b </s>

@@ -1,0 +1,1 @@
+TDAT: public boolean add ( int index , double value ) {  <NL> check add modifiable ( ) ;  <NL> check index ( index ) ;  <NL> ensure capacity ( size + 1 ) ;  <NL> system . arraycopy ( data , index , data , index + 1 , size - index ) ;  <NL> data [ index ] = value ;  <NL> size + + ;  <NL> return true ;  <NL>  }  COM: <s> adds a primitive value to this collection </s>

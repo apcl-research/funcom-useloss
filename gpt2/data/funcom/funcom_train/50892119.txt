@@ -1,0 +1,1 @@
+TDAT: private void add graphics centered ( string [ ] graphics , char color ) {  <NL> int line = ( number _ of _ lines - graphics . length ) / 2 ;  <NL> int column = ( number _ of _ columns - graphics [ 0 ] . length ( ) ) / 2 ;  <NL> add graphics ( line , column , graphics , color ) ;  <NL>  }  COM: <s> paints a single colored text graphics object centered into the text view </s>

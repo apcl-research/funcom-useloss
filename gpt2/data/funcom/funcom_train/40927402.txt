@@ -1,0 +1,1 @@
+TDAT: public void set foreground color ( final string color ) {  <NL> if ( this . is null or empty ( color ) ) {  <NL> this <NL>  . log (  <NL>  " attribute \ " foregroundcolor\ " is empty , use default color " ,  <NL> project . msg _ warn ) ;  <NL>  } else {  <NL> this . set option ( parameter . mathcolor , color ) ;  <NL>  }  <NL>  }  COM: <s> sets foreground color </s>

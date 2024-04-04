@@ -1,0 +1,1 @@
+TDAT: public boolean set page size ( rectangle page size ) {  <NL> if ( ! parse format ( page size , false ) ) {  <NL> page width = ( int ) ( page size . width ( ) * twipsfactor ) ;  <NL> page height = ( int ) ( page size . height ( ) * twipsfactor ) ;  <NL> landscape = page width > page height ;  <NL>  }  <NL> return true ;  <NL>  }  COM: <s> sets the page size </s>

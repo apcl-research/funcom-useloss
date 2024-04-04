@@ -1,0 +1,1 @@
+TDAT: public void set nearest pixel ( double lon , double lat , int pixel ) {  <NL> int [ ] nearest indices = this . get nearest indices ( lon , lat ) ;  <NL> if ( nearest indices = = null ) return ;  <NL> this . image . set pixel ( nearest indices [ 0 ] , nearest indices [ 1 ] , pixel ) ;  <NL>  }  COM: <s> does nothing if lon lat is outside the bounds of this image </s>

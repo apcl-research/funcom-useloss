@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> string s = " { " ;  <NL> if ( get num trivial loops ( ) > 0 ) { s + = " ( " + get num trivial loops ( ) + " ) " ; }  <NL> for ( edge e : this ) { if ( ! e . contains ( - 1 ) ) { s + = e . to string ( multi edge , directed ) ; } }  <NL> return s + " } " ;  <NL>  }  COM: <s> returns a string containing the ordered list of edges </s>

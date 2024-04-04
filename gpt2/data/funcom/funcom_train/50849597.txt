@@ -1,0 +1,1 @@
+TDAT: private void draw bounding box ( gl gl ) {  <NL> float [ ] [ ] bounding box = get bounding box ( ) ;  <NL> float [ ] point1 = bounding box [ 0 ] ;  <NL> float [ ] point2 = bounding box [ 1 ] ;  <NL> gl . gl color4f ( 0 . 8f , 0 . 8f , 0 . 8f , 0 . 5f ) ;  <NL> gl draw . draw bounding box ( gl , point1 , point2 ) ;  <NL>  }  COM: <s> draws the bounding box </s>

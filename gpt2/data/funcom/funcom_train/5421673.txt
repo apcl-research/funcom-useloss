@@ -1,0 +1,1 @@
+TDAT: private void check time ( ) {  <NL> long t1 = system . current time millis ( ) ;  <NL> long tdiff = t1 - t0 ;  <NL> assert true ( " clock is " + ( 1000 - tdiff ) + " ms to fast " , tdiff > 800 ) ;  <NL> assert true ( " clock is " + ( tdiff - 1000 ) + " ms to slow " , tdiff < 1200 ) ;  <NL>  }  COM: <s> here we check the measured time </s>

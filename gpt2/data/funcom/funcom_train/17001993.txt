@@ -1,0 +1,1 @@
+TDAT: public path create copy ( ) {  <NL> path path = new path ( ) ;  <NL> gateway [ ] hops array = get hops traversed ( ) ;  <NL> for ( int i = 0 ; i < hops array . length ; i + + ) {  <NL> path . add hop ( hops array [ i ] ) ;  <NL>  }  <NL> path . add cost ( get cost ( ) ) ;  <NL> return path ;  <NL>  }  COM: <s> serves the same function that a copy constructor in c does </s>

@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> string s = " option : " + name + " \tkind : " + kind + " \tchoices : \n " ;  <NL> iterator i = choices . iterator ( ) ;  <NL> while ( i . has next ( ) ) {  <NL> s + = ( ( choice ) i . next ( ) ) . to string ( ) + " \n " ;  <NL>  }  <NL> return s ;  <NL>  }  COM: <s> returns a string representation of this option </s>

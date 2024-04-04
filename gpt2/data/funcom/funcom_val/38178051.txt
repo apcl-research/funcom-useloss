@@ -1,0 +1,1 @@
+TDAT: public void draw rect ( int x , int y , int width , int height , j2da color color ) {  <NL> graphics2d g = ( ( j2d buffer ) game panel ) . get graphics context ( ) ;  <NL>  <NL> g . set stroke ( stroke ) ;  <NL> g . set color ( color . to awt color ( ) ) ;  <NL> g . draw ( new rectangle ( x , y , width , height ) ) ;  <NL>  }  COM: <s> draw a colored rectangle </s>

@@ -1,0 +1,1 @@
+TDAT: / * protected string get path ( string cpath ) {  <NL> if ( cpath ! = null & & cpath . length ( ) > 0 & & ! cpath . equals ( " null " ) ) {  <NL> if ( cpath . last index of ( " . " ) > - 1 ) {  <NL> return cpath . substring ( 0 , cpath . last index of ( " . " ) ) ;  <NL>  }  <NL>  }  <NL> return " " ;  <NL>  } * /  COM: <s> gets the path attribute of the gen object </s>

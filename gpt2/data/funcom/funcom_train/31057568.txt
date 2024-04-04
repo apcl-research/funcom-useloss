@@ -1,0 +1,1 @@
+TDAT: public int get earliest index ( agent sender ) {  <NL> my cell . note agent message ( this , " get low val " , sender , this ) ; / / the message <NL> my cell . note agent message ( this , " get low val reply " , this , sender ) ; / / the reply <NL> return rb . get earliest index ( ) ;  <NL>  }  COM: <s> return the index of the earliest image still in the buffer </s>

@@ -1,0 +1,1 @@
+TDAT: public void start ( map < string , object > a parameters , i view site a site ) {  <NL> i activity activity = new activity ( this , a site ) ;  <NL> activity . next action ( a parameters , new action definition . target mapping ( call type . forward , first action , parameter mapping ) , null ) ;  <NL>  }  COM: <s> starts the activity </s>

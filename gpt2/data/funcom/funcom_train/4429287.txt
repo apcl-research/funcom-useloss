@@ -1,0 +1,1 @@
+TDAT: public void pass hard ( ) {  <NL> if ( this . card = = null ) {  <NL> logger . get logger ( this . get class ( ) . get name ( ) ) . log ( level . warning , " card not initialised while pressing pass hard ( ) . ( probably a programming error . ) " ) ;  <NL> return ;  <NL>  }  <NL> this . progress . pass hard ( this . card ) ;  <NL>  }  COM: <s> pass the current card </s>

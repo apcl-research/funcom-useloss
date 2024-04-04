@@ -1,0 +1,1 @@
+TDAT: private void deploy ( ) {  <NL> disable buttons ( ) ;  <NL>  <NL> entity en = ce ( ) ;  <NL> client . deploy ( cen , en . get position ( ) , en . get facing ( ) , en . get elevation ( ) , en <NL>  . get loaded units ( ) , assault drop preference ) ;  <NL> en . set deployed ( true ) ;  <NL>  }  COM: <s> sends a deployment to the server </s>

@@ -1,0 +1,1 @@
+TDAT: public void draw ( graphics g , int destx , int desty , int x , int y , int w , int h ) {  <NL> g . draw image ( image , destx , desty , destx + w , desty + h , x , y , x + w , y + h , null ) ;  <NL>  }  COM: <s> draws the image </s>

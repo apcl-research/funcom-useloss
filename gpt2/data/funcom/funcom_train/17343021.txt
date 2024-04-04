@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> return " [ pen event " + pen event . get type string ( type ) + " pt : " + debug . num ( pt ) +  <NL>  " prev pt : " + debug . num ( pt previous ) + " flow pt : " + debug . num ( pt flow ) + " fs phase : " + debug . num ( fs phase ) + " ] " ;  <NL>  }  COM: <s> returns a nicely formatted debugging string </s>

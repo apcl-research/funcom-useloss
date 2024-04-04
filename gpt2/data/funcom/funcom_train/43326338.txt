@@ -1,0 +1,1 @@
+TDAT: public i vector eliminate ( int pos ) {  <NL> i vector rv = new i vector ( ) ;  <NL> rv . data = new int [ data . length - 1 ] ;  <NL> system . arraycopy ( data , 0 , rv . data , 0 , pos ) ;  <NL> system . arraycopy ( data , pos + 1 , rv . data , pos , data . length - pos - 1 ) ;  <NL> return rv ;  <NL>  }  COM: <s> return a copy of the vector with one position removed </s>

@@ -1,0 +1,1 @@
+TDAT: private long get bytes inflated ( ) {  <NL> long in b = inf . get bytes read ( ) ;  <NL> if ( current . bytes read from stream > = two _ exp _ 32 ) {  <NL> while ( in b + two _ exp _ 32 < = current . bytes read from stream ) {  <NL> in b + = two _ exp _ 32 ;  <NL>  }  <NL>  }  <NL> return in b ;  <NL>  }  COM: <s> get the number of bytes inflater has actually processed </s>

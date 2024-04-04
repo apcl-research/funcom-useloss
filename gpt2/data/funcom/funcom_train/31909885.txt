@@ -1,0 +1,1 @@
+TDAT: public point2d get point2d ( point2d src pt , point2d dest pt ) {  <NL>  / / this operation does not affect pixel location <NL> if ( dest pt = = null )  <NL> dest pt = new point2d . double ( ) ;  <NL> dest pt . set location ( src pt . get x ( ) , src pt . get y ( ) ) ;  <NL> return dest pt ;  <NL>  }  COM: <s> returns the location of the destination point given a </s>

@@ -1,0 +1,1 @@
+TDAT: public void load all ( context context , gl10 gl ) {  <NL> for ( int x = 0 ; x < m texture hash . length ; x + + ) {  <NL> if ( m texture hash [ x ] . resource ! = - 1 & & m texture hash [ x ] . loaded = = false ) {  <NL> load bitmap ( context , gl , m texture hash [ x ] ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> loads all unloaded textures into open gl memory </s>

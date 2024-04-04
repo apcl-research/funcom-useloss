@@ -1,0 +1,1 @@
+TDAT: public double get max ( ) {  <NL> if ( get axis attributes ( ) . get ( " max " ) = = null ) {  <NL> return axis max ;  <NL>  } else {  <NL> double max = type converter . get double (  <NL> get axis attributes ( ) . get ( " max " ) , axis max ) ;  <NL> if ( max < axis max )  <NL> max = axis max ;  <NL> return max ;  <NL>  }  <NL>  }  COM: <s> gets the max </s>

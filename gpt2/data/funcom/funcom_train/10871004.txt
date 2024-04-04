@@ -1,0 +1,1 @@
+TDAT: public void test doc4 _ query4 _ all _ slops _ should _ match ( ) throws exception {  <NL> for ( int slop = 0 ; slop < 30 ; slop + + ) {  <NL> int num results expected = slop < 1 ? 0 : 1 ;  <NL> check phrase query ( doc _ 4 , query _ 4 , slop , num results expected ) ;  <NL>  }  <NL>  }  COM: <s> test doc 4 and query 4 </s>

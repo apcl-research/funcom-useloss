@@ -1,0 +1,1 @@
+TDAT: public void fill radial gradient ( int start color , int end color , int x , int y , int width , int height ) {  <NL> impl . fill radial gradient ( native graphics , start color , end color , x + x translate , y + y translate , width , height ) ;  <NL>  }  COM: <s> draws a radial gradient in the given coordinates with the given colors </s>

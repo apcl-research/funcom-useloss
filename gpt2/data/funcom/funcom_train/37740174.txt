@@ -1,0 +1,1 @@
+TDAT: public string get new value short ( ) {  <NL> if ( get new value ( ) = = null ) {  <NL> return null ;  <NL>  }  <NL> if ( get new value ( ) . length ( ) < = 30 ) {  <NL> return get new value ( ) ;  <NL>  } else {  <NL> return get new value ( ) . substring ( 0 , 27 ) + " . . . " ;  <NL>  }  <NL>  }  COM: <s> get the start of the new value </s>

@@ -1,0 +1,1 @@
+TDAT: public in cell2 combine ( ann cell b , cauchy distribution cdf , double [ ] mp ) {  <NL> return new in cell2 ( c list . combine ( this . forward _ connections , b . forward _ connections , cdf , mp , this . nodes , this . in ) , this . nodes , this . in ) ;  <NL>  }  COM: <s> to do combining cells </s>

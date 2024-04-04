@@ -1,0 +1,1 @@
+TDAT: public string get name ( ) {  <NL> if ( is reference ( ) ) {  <NL> return ( ( resource ) get checked ref ( ) ) . get name ( ) ;  <NL>  }  <NL> file b = get base dir ( ) ;  <NL> return b = = null ? get not null file ( ) . get name ( )  <NL>  : file _ utils . remove leading path ( b , get not null file ( ) ) ;  <NL>  }  COM: <s> get the name of this file resource </s>

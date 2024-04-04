@@ -1,0 +1,1 @@
+TDAT: private boolean is prime ( final long candidate ) {  <NL> if ( ( candidate / 2 ) * 2 = = candidate ) { return false ; }  <NL> long stop = candidate / 2 ;  <NL> for ( long i = first _ prime _ to _ check ; i < stop ; i + = 2 ) {  <NL> if ( ( candidate / i ) * i = = candidate ) { return false ; }  <NL>  }  <NL> return true ;  <NL>  }  COM: <s> check for prime number </s>

@@ -1,0 +1,1 @@
+TDAT: public double get mad ( ) {  <NL> double mad = 0 , x ;  <NL> double m = get median ( ) ;  <NL> for ( int i = 0 ; i < domain . get size ( ) ; i + + ) {  <NL> x = domain . get value ( i ) ;  <NL> mad = mad + get rel freq ( x ) * math . abs ( x - m ) ;  <NL>  }  <NL> return mad ;  <NL>  }  COM: <s> this method computes the mean absoulte deviation </s>

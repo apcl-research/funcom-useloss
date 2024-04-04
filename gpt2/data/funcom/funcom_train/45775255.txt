@@ -1,0 +1,1 @@
+TDAT: private void update document cell ( int row , int column , property value [ ] data ) {  <NL> try {  <NL>  ( ( agenda wizard dialog impl ) cur uno dialog ) . agenda template . topics . write cell ( row , column , data ) ;  <NL>  }  <NL> catch ( exception ex ) {  <NL> ex . print stack trace ( ) ;  <NL>  }  <NL>  }  COM: <s> updates a single cell in the preview document </s>

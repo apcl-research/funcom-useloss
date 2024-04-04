@@ -1,0 +1,1 @@
+TDAT: private void paint decoration ( graphics g ) {  <NL> part deco = get game config ( ) . get active part ( " sample . decoration " ) ;  <NL> int x = get game config ( ) . get field width ( ) / 2 - 30 ;  <NL> int y = get game config ( ) . get field height ( ) / 2 - 25 ;  <NL> draw part ( x , y , deco , g ) ;  <NL>  }  COM: <s> paint the decoration for testing </s>

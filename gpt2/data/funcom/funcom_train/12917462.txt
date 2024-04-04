@@ -1,0 +1,1 @@
+TDAT: public void elf departure ( string mac ) {  <NL> logger . debug ( " elf departed : " + mac ) ;  <NL> elf server main thread mt = elf server main thread . get main thread ( ) ;  <NL> elf tini t = mt . get elf by mac ( mac ) ;  <NL> status listener . remove elf ( t ) ;  <NL> setting listener . remove elf ( t ) ;  <NL>  }  COM: <s> called when an elf departs </s>

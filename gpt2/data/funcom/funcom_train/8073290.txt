@@ -1,0 +1,1 @@
+TDAT: protected int index of ( int v ) {  <NL> add index = last index + 1 ;  <NL> for ( int i = 0 ; i < = last index ; i + + ) {  <NL> if ( ! is there . get ( i ) ) add index = i ;  <NL> if ( data [ i ] = = v & & is there . get ( i ) ) return ( i ) ;  <NL>  }  <NL> return ( - 1 ) ;  <NL>  }  COM: <s> finds the element sets add index to a free position </s>

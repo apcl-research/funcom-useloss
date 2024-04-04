@@ -1,0 +1,1 @@
+TDAT: public void set key value ( final string key value ) {  <NL> if ( key value = = null ) throw new illegal argument exception ( " key value can ' t be null " ) ;  <NL> if ( key value . equals ( " " ) ) throw new illegal argument exception ( " key value can ' t be empty " ) ;  <NL> this . key value = key value ;  <NL>  }  COM: <s> sets key value </s>

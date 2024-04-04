@@ -1,0 +1,1 @@
+TDAT: public boolean not killed rule ( hash map < string , string > rule ) {  <NL> if ( rule . contains key ( " filter " ) ) {  <NL> if ( rule . get ( " filter " ) . equals ( " kill " ) || rule . get ( " filter " ) . equals ( " die " ) ) {  <NL> return false ;  <NL>  }  <NL>  }  <NL> return true ;  <NL>  }  COM: <s> applies to the at d false alarm rules </s>

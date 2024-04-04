@@ -1,0 +1,1 @@
+TDAT: private void operation sub ( final int data ) {  <NL> final int value = ( this . a - data ) & 0xff ;  <NL>  <NL> this . f = ( ( value = = 0 ? zero : 0 ) + negative + ( ( this . a & 0x0f ) < ( data & 0x0f ) ? halfcarry : 0 ) + ( value > this . a ? carry : 0 ) ) ;  <NL> this . a = value ;  <NL>  }  COM: <s> subtract without carry </s>

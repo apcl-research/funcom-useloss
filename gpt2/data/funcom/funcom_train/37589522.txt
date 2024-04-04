@@ -1,0 +1,1 @@
+TDAT: public dr java property set property ( string category , dr java property p ) {  <NL> map < string , dr java property > m = _ props . get ( category ) ;  <NL> if ( m = = null ) { m = new hash map < string , dr java property > ( ) ; _ props . put ( category , m ) ; }  <NL> m . put ( p . get name ( ) , p ) ;  <NL> return p ;  <NL>  }  COM: <s> add a property </s>

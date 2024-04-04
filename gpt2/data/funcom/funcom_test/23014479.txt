@@ -1,0 +1,1 @@
+TDAT: public void add scale ( vector3f scale ) {  <NL> matrix . multiply factor ( 0 , 0 , scale . get x ( ) ) ;  <NL> matrix . multiply factor ( 1 , 1 , scale . get y ( ) ) ;  <NL> matrix . multiply factor ( 2 , 2 , scale . get z ( ) ) ;  <NL>  }  COM: <s> adds a scale factor to the transformation matrix </s>

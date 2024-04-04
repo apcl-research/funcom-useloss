@@ -1,0 +1,1 @@
+TDAT: public void add ( double x ) {  <NL>  <NL> if ( n + + = = 0 ) {  <NL> min = x ;  <NL> max = x ;  <NL> sum = x ;  <NL> sum2 = x * x ;  <NL>  } else {  <NL>  <NL> if ( x < min ) {  <NL> min = x ;  <NL>  } else if ( x > max ) {  <NL> max = x ;  <NL>  }  <NL>  <NL> sum + = x ;  <NL> sum2 + = x * x ;  <NL>  <NL>  }  <NL>  <NL>  }  COM: <s> add one point to the instance </s>

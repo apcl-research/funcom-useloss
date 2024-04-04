@@ -1,0 +1,1 @@
+TDAT: public void set available entity i ds ( entity id collection entity i ds ) {  <NL> cube42null parameter exception . check null ( entity i ds ,  <NL>  " entity i ds " ,  <NL>  " set available entity i ds " ,  <NL> this ) ;  <NL> this . entity id combo box = new j combo box ( entity i ds . get vector ( ) ) ;  <NL>  }  COM: <s> sets the available entity ids </s>

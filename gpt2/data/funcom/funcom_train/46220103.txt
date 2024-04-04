@@ -1,0 +1,1 @@
+TDAT: private long parse long ( action request request , string param name ) {  <NL> long l = null ;  <NL> if ( request . get parameter ( param name ) ! = null & & ! request . get parameter ( param name ) . equals ( " " ) ) {  <NL> l = long . parse long ( request . get parameter ( param name ) ) ;  <NL>  }  <NL> return l ;  <NL>  }  COM: <s> parses an long input field </s>

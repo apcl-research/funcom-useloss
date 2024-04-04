@@ -1,0 +1,1 @@
+TDAT: public void paint ( graphics g ) {  <NL> dimension d = get size ( ) ;  <NL> int h = d . height ;  <NL> int w = d . width ;  <NL> g . fill rect ( 0 , 0 , w , 0 ) ;  <NL> g . set color ( color . black ) ;  <NL> g . draw string ( paint message , 10 , ( h / 2 ) - 5 ) ;  <NL>  }  COM: <s> paint paints the small window that appears in the html </s>

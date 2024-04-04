@@ -1,0 +1,1 @@
+TDAT: private void stack trace ( pseudo op op ) {  <NL> save context ( op , env . top ( ) ) ;  <NL> for ( stack frame frame : env . stack ( ) ) {  <NL> op = frame . get saved method ( ) [ frame . get saved pc ( ) - 1 ] ;  <NL> system . err . println ( op . get source location ( " at " ) ) ;  <NL>  }  <NL>  }  COM: <s> print a script stack trace </s>

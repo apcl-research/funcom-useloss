@@ -1,0 +1,1 @@
+TDAT: protected void execute command ( command c ) {  <NL> int v = ( int ) c . get value ( ) ;  <NL> if ( v > = turn _ off & & v < = turn _ on ) { / / turn _ off to turn _ on <NL> brightness = v ;  <NL> led . set raw ( v ) ;  <NL>  } else if ( v = = toggle ) {  <NL> toggle state ( ) ;  <NL>  }  <NL>  }  COM: <s> executes next command </s>

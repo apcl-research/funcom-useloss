@@ -1,0 +1,1 @@
+TDAT: private void stop tubelet loader ( ) {  <NL> logger . info ( " stopping tubelet loader . . . " ) ;  <NL> try {  <NL> tubelet loader . end polling ( ) ;  <NL>  } catch ( exception e ) {  <NL> logger . error ( " error while stopping tubelet loader . \n " , e ) ;  <NL>  }  <NL> logger . info ( " tubelet loader stopped . " ) ;  <NL>  }  COM: <s> stops the tubelet loader </s>

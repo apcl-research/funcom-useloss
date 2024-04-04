@@ -1,0 +1,1 @@
+TDAT: public string print header ( ) {  <NL> string s = new string ( " ( " + sp . get mu ( ) + " , " + sp . get lambda ( ) + " ) - cma - es ( mu _ eff = " + math . round ( 100 . * sp . get mueff ( ) ) / 100 . + " ) , ver " + version number + " , dimension = " + n ) ;  <NL> return s ;  <NL>  <NL>  }  COM: <s> prints an initial message of cma es optimizer </s>

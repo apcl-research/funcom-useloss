@@ -1,0 +1,1 @@
+TDAT: private string get info ( ) {  <NL> return " < html > this is a general purpose editor which can be used to edit text " +  <NL>  " files . it supports synatx highlighting for java , c , c + + , perl , sql , jsp , html and many more languages . many ui features are configurable . " ;  <NL>  }  COM: <s> returns a brief description of the application </s>

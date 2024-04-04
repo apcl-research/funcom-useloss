@@ -1,0 +1,1 @@
+TDAT: public boolean draw image ( image img , int x , int y , color bgcolor , image observer observer ) {  <NL> return draw image ( img , x , y , img . get width ( observer ) , img . get height ( observer ) , bgcolor , observer ) ;  <NL>  }  COM: <s> calls draw image image int int int int color image observer </s>

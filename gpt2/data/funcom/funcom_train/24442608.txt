@@ -1,0 +1,1 @@
+TDAT: public mapping cell copy ( )  <NL>  { return new mapping cell ( get id ( ) , get mapping id ( ) , get inputs ( ) , get output ( ) , get score ( ) , get function id ( ) , get author ( ) , get modification date ( ) , get notes ( ) ) ; }  COM: <s> copies the mapping cell </s>

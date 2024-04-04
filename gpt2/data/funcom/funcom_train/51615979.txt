@@ -1,0 +1,1 @@
+TDAT: public void write ( data representation representation , object object ) throws write error {  <NL> key _ type . put ( representation , " key " , ( ( map . entry ) object ) . get key ( ) ) ;  <NL> value _ type . put ( representation , " value " , ( ( map . entry ) object ) . get value ( ) ) ;  <NL>  }  COM: <s> writes a map entry to some data representation </s>

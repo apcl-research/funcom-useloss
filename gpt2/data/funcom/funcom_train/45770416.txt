@@ -1,0 +1,1 @@
+TDAT: public void set cell format ( int row , int column , format fmt ) {  <NL> debug . log ( debug . trace , " bold : " + fmt . get attribute ( format . bold ) +  <NL>  " , italic : " + fmt . get attribute ( format . italic ) +  <NL>  " , underline : " + fmt . get attribute ( format . underline ) ) ;  <NL>  }  COM: <s> set a cells formatting options via a separately create </s>

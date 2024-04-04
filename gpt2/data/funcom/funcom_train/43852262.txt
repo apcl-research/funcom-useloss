@@ -1,0 +1,1 @@
+TDAT: public void add ( final int pre ) {  <NL> if ( size = = nodes . length ) nodes = array . extend ( nodes ) ;  <NL> if ( ! sort & & size ! = 0 ) {  <NL> final int d = pre - nodes [ size - 1 ] ;  <NL> if ( d = = 0 ) return ;  <NL> sort = d < = 0 ;  <NL>  }  <NL> nodes [ size + + ] = pre ;  <NL>  }  COM: <s> adds a pre value to the node set </s>

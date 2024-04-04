@@ -1,0 +1,1 @@
+TDAT: public void close ( ) throws io exception {  <NL> if ( raf ! = null ) raf . close ( ) ;  <NL> raf = null ;  <NL> if ( dis ! = null ) dis . close ( ) ;  <NL> dis = null ;  <NL> buf = null ;  <NL> if ( file cache . get ( this ) ! = boolean . false ) {  <NL> file cache . put ( this , boolean . false ) ;  <NL> open files - - ;  <NL>  }  <NL>  }  COM: <s> closes the streams </s>

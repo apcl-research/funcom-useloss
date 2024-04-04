@@ -1,0 +1,1 @@
+TDAT: public void print ( string s ) {  <NL> if ( col = = 0 ) {  <NL> col + = indent . length ( ) ;  <NL> out . print ( indent ) ;  <NL>  }  <NL> if ( col + s . length ( ) > max col ) {  <NL> println ( ) ;  <NL> out . print ( indent ) ;  <NL> col + = indent . length ( ) ;  <NL>  }  <NL> out . print ( s ) ;  <NL> col + = s . length ( ) ;  <NL>  }  COM: <s> print a string </s>

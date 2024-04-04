@@ -1,0 +1,1 @@
+TDAT: / / public void handle ( parsed url purl , jsvg viewer frame svg viewer frame ) {  <NL>  / / svg viewer frame . get jsvg canvas ( ) [ 0 ] . load svg document ( purl . to string ( ) ) ;  <NL>  / / svg viewer frame . get jsvg canvas ( ) [ 1 ] . load svg document ( purl . to string ( ) ) ;  <NL>  / / }  COM: <s> handles the given input for the given jsvgviewer frame </s>

@@ -1,0 +1,1 @@
+TDAT: public void start pos ( double p _ x , double p _ y ) throws illegal state exception {  <NL> if ( m _ start pos called )  <NL> throw new illegal state exception ( " cannot be called twice " ) ;  <NL> m _ start pos called = true ;  <NL> add ( 0 , p _ x , p _ y , 0 ) ;  <NL>  }  COM: <s> set the initial position </s>

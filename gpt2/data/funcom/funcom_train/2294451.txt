@@ -1,0 +1,1 @@
+TDAT: protected void set site root ( string site root ) {  <NL>  <NL>  / / site roots must never end with a " / "  <NL> if ( site root . ends with ( " / " ) ) {  <NL> m _ site root = site root . substring ( 0 , site root . length ( ) - 1 ) ;  <NL>  } else {  <NL> m _ site root = site root ;  <NL>  }  <NL>  }  COM: <s> sets the server url prefix to which this site is mapped </s>

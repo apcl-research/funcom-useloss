@@ -1,0 +1,1 @@
+TDAT: public int get int ( ) {  <NL> if ( type = = type _ integer ) return int value ;  <NL> else if ( type = = type _ short ) return short value ;  <NL> else if ( type = = type _ byte ) return byte value ;  <NL> else throw new class cast exception ( " get int cannot be called for type " + type . to string ( ) ) ;  <NL>  }  COM: <s> get the integer value </s>

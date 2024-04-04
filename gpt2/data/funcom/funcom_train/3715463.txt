@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> string buffer out = new string buffer ( ) . append ( protocol ) . append ( hostname ) . append ( " / " ) . append ( database ) . append ( " ? user = " ) . append ( username ) . append ( " & password = " ) . append ( password ) ;  <NL> return out . to string ( ) ;  <NL>  }  COM: <s> returns the arranged string to connect to a database </s>

@@ -1,0 +1,1 @@
+TDAT: public string get column ( int row , int col ) throws index out of bounds exception {  <NL> string col data ;  <NL> col data = file data . get ( row ) . get ( col ) ;  <NL> log . debug ( file name + " ( " + row + " , " + col + " ) : " + col data ) ;  <NL> return col data ;  <NL>  }  COM: <s> get the string for the column from the current row </s>

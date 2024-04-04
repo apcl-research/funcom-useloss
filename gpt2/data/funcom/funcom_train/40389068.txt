@@ -1,0 +1,1 @@
+TDAT: public integer get line number ( member member ) {  <NL> preconditions . check argument ( type = = member . get declaring class ( ) ,  <NL>  " member % s belongs to % s , not % s " , member , member . get declaring class ( ) , type ) ;  <NL> return lines . get ( member key ( member ) ) ;  <NL>  }  COM: <s> get the line number associated with the given member </s>

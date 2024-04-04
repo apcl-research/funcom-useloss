@@ -1,0 +1,1 @@
+TDAT: public i query get objects ( string docname , string oclass , string prop , string order ) throws x wiki exception {  <NL> return xpath ( " / " + get x path name ( docname ) + " / obj / " + get x path name ( oclass ) + get property x path ( prop ) + get order x path ( order ) ) ;  <NL>  }  COM: <s> create query for objects </s>

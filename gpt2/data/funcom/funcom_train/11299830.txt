@@ -1,0 +1,1 @@
+TDAT: public void format ( final string buffer sbuf , final logging event e ) {  <NL> for ( int i = 0 ; i < pattern converters . length ; i + + ) {  <NL> int start field = sbuf . length ( ) ;  <NL> pattern converters [ i ] . format ( e , sbuf ) ;  <NL> pattern fields [ i ] . format ( start field , sbuf ) ;  <NL>  }  <NL>  }  COM: <s> format event to string buffer </s>

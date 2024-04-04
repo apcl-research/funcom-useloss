@@ -1,0 +1,1 @@
+TDAT: public void make montage ( image plus imp , int columns , int rows , double scale , int first , int last , int inc , int border width , boolean labels ) {  <NL> image plus imp2 = make montage2 ( imp , columns , rows , scale , first , last , inc , border width , labels ) ;  <NL> imp2 . show ( ) ;  <NL>  }  COM: <s> creates a montage and displays it </s>

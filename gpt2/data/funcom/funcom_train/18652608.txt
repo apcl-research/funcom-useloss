@@ -1,0 +1,1 @@
+TDAT: private ld item add internal special ( final int type id ) {  <NL> ld item node = new ld item ( this , type id , ld id . get type from id ( type id ) , " " , " " ) ;  <NL> f entry points . put ( new integer ( type id ) , node ) ;  <NL> return node ;  <NL>  }  COM: <s> adds a special predifined item to the lditems list </s>

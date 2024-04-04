@@ -1,0 +1,1 @@
+TDAT: public void set eye color ( string eye color ) {  <NL> if ( ! m eye color . equals ( eye color ) ) {  <NL> m character . post undo edit ( msg _ eye _ color _ undo , id _ eye _ color , m eye color , eye color ) ;  <NL> m eye color = eye color ;  <NL> m character . notify single ( id _ eye _ color , m eye color ) ;  <NL>  }  <NL>  }  COM: <s> sets the eye color </s>

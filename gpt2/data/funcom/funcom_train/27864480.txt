@@ -1,0 +1,1 @@
+TDAT: public void show first order pan widget ( int jpx , int jpy ) {  <NL> fopw _ x = jpx - first _ order _ pan _ widget . get width ( null ) / 2 ;  <NL> fopw _ y = jpy - first _ order _ pan _ widget . get height ( null ) / 2 ;  <NL> sfopw = true ;  <NL> parent . repaint ( ) ;  <NL>  }  COM: <s> show the icon representing first order of control panning </s>

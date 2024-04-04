@@ -1,0 +1,1 @@
+TDAT: private int get char index ( char ch ) {  <NL> int index = index _ european ;  <NL> for ( int i = 0 ; i < max _ index ; i + + ) {  <NL> int j = i * 2 ;  <NL> if ( scripts ranges [ j ] < = ch & & ch < = scripts ranges [ j + 1 ] ) {  <NL> return i ;  <NL>  }  <NL>  }  <NL>  <NL> return index ;  <NL>  }  COM: <s> returns the index of the script of the specified char </s>

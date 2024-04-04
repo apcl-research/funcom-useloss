@@ -1,0 +1,1 @@
+TDAT: private void print all classes frame tag ( ) {  <NL> frame ( " src = \ " " + " allclasses - frame . html " + " \ " "  <NL>  + " name = \ " package frame\ " "  <NL>  + " title = \ " " + configuration . get text ( " doclet . all _ classes _ and _ interfaces " )  <NL>  + " \ " " ) ;  <NL>  }  COM: <s> print the frame tag for the frame that lists all classes </s>

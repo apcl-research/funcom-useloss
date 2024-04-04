@@ -1,0 +1,1 @@
+TDAT: public void cache entry flushed ( cache entry event event ) {  <NL>  / / do nothing , because a group or other flush is coming <NL> if ( ! cache . nested _ event . equals ( event . get origin ( ) ) ) {  <NL> flushed ( " entry " + event . get key ( ) + " / " + event . get origin ( ) ) ;  <NL>  }  <NL>  }  COM: <s> event fired when an entry is flushed from the cache </s>

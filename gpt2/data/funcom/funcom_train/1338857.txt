@@ -1,0 +1,1 @@
+TDAT: public point2d small warp ( point2d p ) {  <NL> if ( can warp ( ) ) {  <NL> if ( parent = = null ) {  <NL> return warp ( p ) ;  <NL>  } else {  <NL> p = parent . reverse warp ( p ) ;  <NL> return warp ( p ) ;  <NL>  }  <NL>  } else {  <NL> return new point2d . double ( p . get x ( ) , p . get y ( ) ) ;  <NL>  }  <NL>  }  COM: <s> warp only the final step </s>

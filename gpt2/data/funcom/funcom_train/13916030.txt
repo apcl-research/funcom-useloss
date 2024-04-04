@@ -1,0 +1,1 @@
+TDAT: public string get type desc ( ) {  <NL> if ( this . i size = = 0 )  <NL> return this . s type name ;  <NL>  <NL> if ( this . i precision > 0 )  <NL> return this . s type name + " ( " + this . i size + " , " + this . i precision + " ) " ;  <NL> return this . s type name + " ( " + this . i size + " ) " ;  <NL>  }  COM: <s> gets the type desc </s>

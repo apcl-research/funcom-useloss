@@ -1,0 +1,1 @@
+TDAT: public void test0choose0 ( ) {  <NL> assert equals ( math utils . binomial coefficient double ( 0 , 0 ) , 1d , 0 ) ;  <NL> assert equals ( math utils . binomial coefficient log ( 0 , 0 ) , 0d , 0 ) ;  <NL> assert equals ( math utils . binomial coefficient ( 0 , 0 ) , 1 ) ;  <NL>  }  COM: <s> verify that b 0 0 1 </s>

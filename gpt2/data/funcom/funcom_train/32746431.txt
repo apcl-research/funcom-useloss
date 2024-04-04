@@ -1,0 +1,1 @@
+TDAT: public void paint ( graphics g ) {  <NL> super . paint ( g ) ;  <NL> g . set color ( label col _ ) ;  <NL> g . draw string ( text . rw _ event , x off _ , y off _ ) ;  <NL> draw string center ( g , text . rw _ final , col x _ [ 2 ] , y off _ - 15 ) ;  <NL>  }  COM: <s> paint som extra headlines </s>

@@ -1,0 +1,1 @@
+TDAT: public void move center ( ) {  <NL> move ( pond . get width ( ) / 2 . 0 , pond . get height ( ) / 2 . 0 , false ) ;  <NL>  / * * debug - output * /  <NL> if ( is display debug message ) {  <NL> system . out . println ( this . frog id + " center " ) ;  <NL>  }  <NL>  }  COM: <s> move center of the pond </s>

@@ -1,0 +1,1 @@
+TDAT: public void collapse tier ( feature view fv , apollo panel i ap ) {  <NL> vector tier _ labels = find tiers for types ( fv , ap ) ;  <NL> for ( int i = 0 ; i < tier _ labels . size ( ) ; i + + )  <NL> collapse tier ( ( string ) tier _ labels . element at ( i ) ) ;  <NL>  }  COM: <s> the next few methods are used by tier popup menu and annotation menu </s>

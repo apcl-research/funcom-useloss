@@ -1,0 +1,1 @@
+TDAT: public string get normal ( ) {  <NL> if ( type = = type . invalid ) {  <NL> return string . format ( " invalid [ % s ] " , number text ) ;  <NL>  }  <NL> return string . format ( " % 02d % 02d % 02d % s % 03d % d " , year , month , day , separator , birth number , check number ) ;  <NL>  }  COM: <s> get the standard string representation of the person number </s>

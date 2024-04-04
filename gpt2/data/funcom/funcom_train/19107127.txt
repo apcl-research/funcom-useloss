@@ -1,0 +1,1 @@
+TDAT: public void key released ( key event p event ) {  <NL> if ( p event . get key code ( ) = = key event . vk _ escape ) {  <NL> system . exit ( 0 ) ;  <NL>  }  <NL>  <NL> if ( p event . get key code ( ) = = key event . vk _ left ) {  <NL> previous image ( ) ;  <NL>  }  <NL> else {  <NL> next image ( ) ;  <NL>  }  <NL>  }  COM: <s> invoked when a key has been released </s>

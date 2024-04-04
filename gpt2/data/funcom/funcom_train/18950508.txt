@@ -1,0 +1,1 @@
+TDAT: public void add section ( section p section ) {  <NL> if ( error util . not _ null ( p section , " p section " ) ) {  <NL> string name = p section . get name ( ) ;  <NL> if ( error util . not _ null ( name , " name " ) ) {  <NL> i sections by name . put ( name , p section ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> add a section </s>

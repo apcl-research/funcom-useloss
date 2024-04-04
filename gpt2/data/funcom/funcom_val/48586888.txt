@@ -1,0 +1,1 @@
+TDAT: private void _ init ( ) throws exception {  <NL> tipo _ usuario row set . set data source name ( " java : comp / env / jdbc / ilocate _ my sql " ) ;  <NL> tipo _ usuario row set . set command ( " select * from tipo _ usuario " ) ;  <NL> tipo _ usuario row set . set table name ( " tipo _ usuario " ) ;  <NL>  }  COM: <s> p automatically managed component initialization </s>

@@ -1,0 +1,1 @@
+TDAT: public void send event ( string event name , object . . . args ) {  <NL> state tgt state = machine . get master state ( ) ;  <NL> int priority = machine . get event priority ( this , tgt state , event name , args ) ;  <NL> send event ( tgt state , priority , event name , args ) ;  <NL>  }  COM: <s> anonymously sent events are sent to all </s>

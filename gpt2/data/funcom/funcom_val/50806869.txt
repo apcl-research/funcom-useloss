@@ -1,0 +1,1 @@
+TDAT: protected void display popup menu ( string jid , int xp , int yp ) {  <NL> if ( m popup menu ! = null ) {  <NL> point pt = get location on screen ( ) ;  <NL> m popup menu . adjust show ( jid , this , xp - pt . x , yp - pt . y ) ;  <NL>  }  <NL>  }  COM: <s> pop up a contextual menu for the given jid </s>

@@ -1,0 +1,1 @@
+TDAT: public boolean is operator ( int a ) {  <NL> return a = = ' + ' || a = = ' - ' || a = = ' * ' || a = = ' / ' || a = = ' ^ ' || a = = ' > ' || a = = ' < ' || a = = ' = ' || a = = ' ! ' || a = = ' & ' || a = = ' | ' ;  <NL>  }  COM: <s> is the given character a single character operator </s>

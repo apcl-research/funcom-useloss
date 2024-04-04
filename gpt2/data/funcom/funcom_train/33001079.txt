@@ -1,0 +1,1 @@
+TDAT: protected string read thread name ( )  <NL>  {  <NL> if ( is verbose mode ( ) ) log ( " read thread name " , " begin " ) ;  <NL>  <NL> byte array ch = read bytes ( ) ;  <NL> string c = string helper . trim right ( ch . to string ( ) ) ;  <NL>  <NL> if ( is verbose mode ( ) ) log ( " read thread name " , " end " ) ;  <NL> return c ;  COM: <s> reads the thread name </s>

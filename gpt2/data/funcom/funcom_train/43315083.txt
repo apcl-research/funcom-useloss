@@ -1,0 +1,1 @@
+TDAT: private void format am pm ( string buffer buf , date date ) {  <NL> if ( date . get hours ( ) > = 12 & & date . get hours ( ) < 24 ) {  <NL> buf . append ( date time constants . ampms ( ) [ 1 ] ) ;  <NL>  } else {  <NL> buf . append ( date time constants . ampms ( ) [ 0 ] ) ;  <NL>  }  <NL>  }  COM: <s> formats am pm field according to pattern specified </s>

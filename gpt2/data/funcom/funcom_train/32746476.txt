@@ -1,0 +1,1 @@
+TDAT: protected void draw string center ( graphics g , string str , int x , int y ) {  <NL> java . awt . font metrics fm = g . get font metrics ( ) ;  <NL> int length = fm . string width ( str ) ;  <NL> g . draw string ( str , x - ( length / 2 ) , y ) ;  <NL>  }  COM: <s> draws a string centered at x y </s>

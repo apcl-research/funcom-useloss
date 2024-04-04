@@ -1,0 +1,1 @@
+TDAT: public is null value to exception value ( ) {  <NL> if ( get base kind ( ) = = no _ kaboom _ nn )  <NL> return new is null value ( kind | exception , location of ka boom ) ;  <NL> return instance by flags list [ ( get flags ( ) | exception ) > > flag _ shift ] [ get base kind ( ) ] ;  <NL>  }  COM: <s> convert to an exception path value </s>

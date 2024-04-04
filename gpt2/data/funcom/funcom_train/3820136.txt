@@ -1,0 +1,1 @@
+TDAT: public string get roles as string ( ) {  <NL> string buffer sb = new string buffer ( ) ;  <NL> for ( int i = 0 ; i < roles . size ( ) ; i + + ) {  <NL> if ( i > 0 )  <NL> sb . append ( ' , ' ) ;  <NL> sb . append ( ( ( role ) roles . get ( i ) ) . get id ( ) ) ;  <NL>  }  <NL> return sb . to string ( ) ;  <NL>  }  COM: <s> returns the users role list as a string </s>

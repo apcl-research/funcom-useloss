@@ -1,0 +1,1 @@
+TDAT: public void draw text ( string string , int x , int y , int flags ) {  <NL>  / / todo escape all " and ' in the string <NL> boolean is transparent = ( flags & dummy swt . draw _ transparent ) ! = 0 ;  <NL> draw text ( string , x , y , is transparent ) ;  <NL>  }  COM: <s> draw constant indicating whether the drawing operation </s>

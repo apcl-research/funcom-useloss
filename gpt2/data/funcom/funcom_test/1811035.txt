@@ -1,0 +1,1 @@
+TDAT: protected void check row bounds ( int row ) {  <NL> int row size = get row count ( ) ;  <NL> if ( ( row > = row size ) || ( row < 0 ) ) {  <NL> throw new index out of bounds exception ( " row " + row <NL>  + " does not exist , row size is " + get row count ( ) ) ;  <NL>  }  <NL>  }  COM: <s> checks that the row is within the correct bounds </s>

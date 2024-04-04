@@ -1,0 +1,1 @@
+TDAT: private void copy substring ( int start , int end ) {  <NL> int s = math . min ( start , end ) ; / / make sure start is less than end <NL> int e = math . max ( start , end ) ; / / make sure end is greater than start <NL> g clip . copy ( text . substring ( s , e ) ) ; / / copy selected text to clipboard <NL>  }  COM: <s> copy string to clipboard </s>

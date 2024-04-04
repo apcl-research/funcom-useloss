@@ -1,0 +1,1 @@
+TDAT: protected void init configuration ( ) {  <NL> print output ( sep ) ;  <NL> v conf . fill ( _ v conf file ) ;  <NL> jdbc map . fill ( _ jdbc map conf file ) ;  <NL> print output ( " jdbc map sample , initialized jdbc map config from : " , jdbc map . get base dir ( ) , " / " , _ jdbc map conf file ) ;  <NL>  }  COM: <s> initialize the config objects </s>

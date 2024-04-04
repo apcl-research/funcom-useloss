@@ -1,0 +1,1 @@
+TDAT: public void zoom ( int factor ) {  <NL> if ( factor < = 0 ) {  <NL> system . err . println ( " - - error - - zoom ( " + factor + " ) , " + factor + " is out of range . try a number greater than 0 . " ) ;  <NL> return ;  <NL>  }  <NL> scr . zoom ( factor ) ;  <NL> pack ( ) ;  <NL> flush ( ) ;  <NL>  }  COM: <s> sets the zoom factor </s>

@@ -1,0 +1,1 @@
+TDAT: public void set p1point ( double p ) {  <NL>  / /  <NL>  / / if the probability is bogus , set it to 1 . 0 .  <NL>  / / later this might be an exception .  <NL>  / /  <NL> if ( ! ( p > = 0 . 0 & & p < = 1 . 0 ) ) {  <NL> p1point = 1 . 0 ;  <NL>  } else {  <NL> p1point = p ;  <NL>  }  <NL>  }  COM: <s> setter for the one point recombination probability </s>

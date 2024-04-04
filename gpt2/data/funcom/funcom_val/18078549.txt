@@ -1,0 +1,1 @@
+TDAT: public league standings get league standings ( ) {  <NL> team stats [ ] tmp = new team stats [ teams . length ] ;  <NL> for ( int i = 0 ; i < teams . length ; i + + ) {  <NL> tmp [ i ] = teams [ i ] . get stats ( this ) ;  <NL>  }  <NL> return new league standings table ( this , tmp ) ;  <NL>  }  COM: <s> returns the standings of this regular season </s>

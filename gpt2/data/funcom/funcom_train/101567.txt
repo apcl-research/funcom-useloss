@@ -1,0 +1,1 @@
+TDAT: public void set upper value ( int value ) {  <NL>  / / compute new extent .  <NL> int lower value = get value ( ) ;  <NL> int new extent = math . min ( math . max ( 0 , value - lower value ) , get maximum ( ) - lower value ) ;  <NL>  <NL>  / / set extent to set upper value .  <NL> set extent ( new extent ) ;  <NL>  }  COM: <s> sets the upper value in the range </s>

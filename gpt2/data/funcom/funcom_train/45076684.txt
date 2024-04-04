@@ -1,0 +1,1 @@
+TDAT: private void add profile ( ) {  <NL> profile _ vec . add element ( user ) ;  <NL>  / / cat . debug ( " name : " + user . get user name ( ) + " , email : " + user . get user id ( ) + " , passwd : " + user . get password ( ) ) ;  <NL> user = new user ( ) ;  <NL>  }  COM: <s> add the user profile </s>

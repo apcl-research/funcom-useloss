@@ -1,0 +1,1 @@
+TDAT: public double calculate gausian ( double x , double sigma ) {  <NL> if ( sigma = = 0 ) {  <NL> return 0 ;  <NL>  } else {  <NL> return ( 1 / ( sigma * math . sqrt ( 2 * math . pi ) ) )  <NL>  * math . pow ( math . e , ( - x * x / ( 2 * sigma * sigma ) ) ) ;  <NL>  }  <NL>  }  COM: <s> calculates the gausian function for given point x and sigma value </s>

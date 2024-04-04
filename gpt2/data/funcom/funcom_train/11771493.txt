@@ -1,0 +1,1 @@
+TDAT: public j text field time get j text field time tot ( ) {  <NL> if ( j text field time tot = = null ) {  <NL> j text field time tot = new j text field time ( 1 , 0 , 0 ) ;  <NL> j text field time tot . set font ( gui font . font _ plain ) ;  <NL>  }  <NL> return j text field time tot ;  <NL>  }  COM: <s> this method initializes j text field time race </s>

@@ -1,0 +1,1 @@
+TDAT: public void run main ( java . lang . class arg1 , java . lang . string [ ] arg2 ) throws java . lang . reflect . invocation target exception , java . lang . illegal access exception , java . lang . illegal argument exception , java . lang . no such method exception , com . ibm . ivj . util . base . ivj exception { }  COM: <s> run main method comment </s>

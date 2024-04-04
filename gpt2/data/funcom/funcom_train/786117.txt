@@ -1,0 +1,1 @@
+TDAT: public boolean get boolean ( tuple tpl ) {  <NL> node s = m _ g . get node from key ( tpl . get int ( m _ g . get edge source field ( ) ) ) ;  <NL> node t = m _ g . get node from key ( tpl . get int ( m _ g . get edge target field ( ) ) ) ;  <NL> return ( s ! = null & & t ! = null ) ;  <NL>  }  COM: <s> indicates if the given tuple can be used as a valid edge for </s>

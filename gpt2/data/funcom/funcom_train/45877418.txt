@@ -1,0 +1,1 @@
+TDAT: public int longest entry length ( ) {  <NL> for ( int i = _ entries . size ( ) - 1 ; i > = 0 ; i - - ) {  <NL> if ( _ entries . get ( i ) . size ( ) - _ used entries . get ( i ) . size ( ) > 0 ) { return i + 2 ; }  <NL>  }  <NL> return 0 ; / / board is empty .  <NL>  }  COM: <s> returns the length of the longest available entry in the board </s>

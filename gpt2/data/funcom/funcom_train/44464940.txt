@@ -1,0 +1,1 @@
+TDAT: public int get break weight ( int axis , float pos , float len ) {  <NL> check painter ( ) ;  <NL> int bp = document hyphenator . get break weight ( this , axis , pos , len ) ;  <NL> if ( bp > = 0 ) return bp ;  <NL> return super . get break weight ( axis , pos , len ) ;  <NL>  }  COM: <s> gets the break weight at this position </s>

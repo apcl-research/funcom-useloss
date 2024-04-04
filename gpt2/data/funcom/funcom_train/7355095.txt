@@ -1,0 +1,1 @@
+TDAT: private void parse unicode string ( data input stream in , int count ) throws io exception {  <NL> char [ ] buf = new char [ count ] ;  <NL> for ( int i = 0 ; i < count ; i + + ) {  <NL> buf [ i ] = in . read char ( ) ;  <NL>  }  <NL> string str = new string ( buf ) ;  <NL> object table . add ( str ) ;  <NL>  }  COM: <s> string 0110 nnnn int </s>

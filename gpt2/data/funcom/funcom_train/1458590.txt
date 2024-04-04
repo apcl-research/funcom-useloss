@@ -1,0 +1,1 @@
+TDAT: public void save guido file ( string file name , string title , string composer ) throws io exception {  <NL> string guido content = this . output manager . get piece notation ( ) . to guido string ( title , composer ) ;  <NL> if ( this . output manager . get test notation error ( ) ) guido content + = " } " ;  COM: <s> saves the guido notation to a file </s>

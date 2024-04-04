@@ -1,0 +1,1 @@
+TDAT: public void set width factor ( double factor ) {  <NL> source = null ; / / forces reinitialization <NL> double prev = new double ( width factor ) ;  <NL> width factor = math . min ( math . abs ( factor ) , 2 ) ;  <NL> support . fire property change ( " width " , prev , new double ( width factor ) ) ; / / $ non - nls - 1 $  <NL>  }  COM: <s> sets the width factor </s>

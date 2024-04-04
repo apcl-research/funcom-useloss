@@ -1,0 +1,1 @@
+TDAT: public void _ apply external springs ( ) {  <NL> for ( int i = 0 ; i < external springs . length ; i + + ) {  <NL> if ( external springs [ i ] ! = null & & external springs [ i ] . apply ( true ) ) {  <NL> external springs [ i ] . die ( ) ;  <NL> external springs [ i ] = null ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> applies springs attached to this body </s>

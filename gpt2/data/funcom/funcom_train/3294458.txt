@@ -1,0 +1,1 @@
+TDAT: static public void shuffle vector ( vector v ) {  <NL> int siz ;  <NL> int src , dst ;  <NL> siz = v . size ( ) ;  <NL>  <NL> for ( dst = siz - 1 ; dst > 0 ; dst - - ) {  <NL> src = math . abs ( rnd . next int ( ) ) % ( dst + 1 ) ;  <NL> swap ( v , src , dst ) ;  <NL>  }  <NL>  }  COM: <s> shuffle a vector until it is a random mess </s>

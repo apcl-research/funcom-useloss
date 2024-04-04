@@ -1,0 +1,1 @@
+TDAT: public string get sq ( ) throws at command failed exception {  <NL> string tmp = at cmd . send ( " at + csq\r " ) ;  <NL> int i = tmp . index of ( " : " ) ;  <NL> int j = tmp . index of ( " , " ) ;  <NL>  <NL> return ( tmp . substring ( i + 2 , j ) ) ;  <NL>  }  COM: <s> gets the module signal quality </s>

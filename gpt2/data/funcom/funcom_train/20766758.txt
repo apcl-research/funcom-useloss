@@ -1,0 +1,1 @@
+TDAT: private void change cdvs pixel ( int x , int y , float [ ] f , float [ ] c , float step ) {  <NL> int ind = 3 * ( 2 * x + 2 * y * size x ) ;  <NL> change cdvs pixel ( ind , f , c , step ) ;  <NL>  }  COM: <s> changes all 4 pixmap locations for each large pixel affected by this event </s>

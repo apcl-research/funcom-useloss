@@ -1,0 +1,1 @@
+TDAT: public long skip bits ( long n ) throws io exception <NL>  { if ( n < 0 ) throw new illegal argument exception ( ) ;  <NL> long whole bytes = ( n - res len ) / 8 ;  <NL> long ret = in . skip ( whole bytes ) * 8 ;  <NL> n - = whole bytes * 8 ;  <NL> read bits ( ( int ) n ) ;  <NL> return ret + n ;  <NL>  }  COM: <s> skips some bits of input </s>

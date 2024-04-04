@@ -1,0 +1,1 @@
+TDAT: private void save collapse settings ( argus settings settings ) {  <NL> if ( m _ auto collapse check box . is selected ( ) ) {  <NL> settings . set attribute ( " msc " , " collapse " , " true " ) ;  <NL>  } else {  <NL> settings . set attribute ( " msc " , " collapse " , " false " ) ;  <NL>  }  <NL>  }  COM: <s> save the collapse settings </s>

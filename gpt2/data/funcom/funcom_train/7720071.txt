@@ -1,0 +1,1 @@
+TDAT: public void test prepared statement set param2 ( ) throws exception {  <NL> java . sql . prepared statement stmt = con . prepare statement ( " insert into foo ( ' a ' , ' b ' ) values ( ' ? ' , ' ? ' ) ; " ) ;  <NL> stmt . set int ( 1 , 12345 ) ;  <NL> stmt . set int ( 2 , 67890 ) ;  <NL>  }  COM: <s> construct a statement and populate its fields </s>

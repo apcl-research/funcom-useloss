@@ -1,0 +1,1 @@
+TDAT: public ident get type ( string name ) throws no such element exception {  <NL> bet refer bf ;  <NL> bf = var list . get ( name ) ;  <NL> if ( bf = = null ) {  <NL> throw new no such element exception ( tr ( " cannot to find " ) + name + " "  <NL>  + tr ( " variable " ) ) ;  <NL>  }  <NL> return bf . get type ( ) ;  <NL>  }  COM: <s> return type of variable </s>

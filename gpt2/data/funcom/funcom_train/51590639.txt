@@ -1,0 +1,1 @@
+TDAT: / * public void mouse entered ( mouse entered event mouse entered event ) {  <NL> get appearance ( ) . remove all ( ) ;  <NL> get appearance ( ) . set padding ( new spacing ( 1 , 1 , 1 , 1 ) ) ;  <NL> get appearance ( ) . add ( new plain border ( color . black , 2 ) ) ;  <NL>  } * /  COM: <s> show border when mouse entered </s>

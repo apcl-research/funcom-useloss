@@ -1,0 +1,1 @@
+TDAT: public void test get label at ( ) {  <NL> mock main compartment . expects ( once ( ) ) . method ( " get label at " )  <NL>  . with ( eq ( 2 . 0 ) , eq ( 3 . 0 ) ) . will ( return value ( mock ( label . class ) . proxy ( ) ) ) ;  <NL> assert not null ( mocked element . get label at ( 2 . 0 , 3 . 0 ) ) ;  <NL>  }  COM: <s> tests the get label at method </s>

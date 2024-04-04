@@ -1,0 +1,1 @@
+TDAT: public void test date csv ( ) {  <NL> date dto dto = new date dto ( ) ;  <NL> dto . date field = create date ( " 28 . 02 . 2007 " ) ;  <NL> assert true ( j sefa test util . serialize ( csv , dto ) . index of ( " 28 . 02 . 2007 " ) > = 0 ) ;  <NL> j sefa test util . assert repeated round trip succeeds ( csv , dto ) ;  <NL>  }  COM: <s> tests date csv </s>

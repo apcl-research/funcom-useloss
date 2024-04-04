@@ -1,0 +1,1 @@
+TDAT: public void merge ( command c , boolean overwrite ) {  <NL> enumeration e = c . getkeys ( ) ;  <NL> while ( e . has more elements ( ) ) {  <NL> string s = ( string ) e . next element ( ) ;  <NL> if ( overwrite || ! contains key ( s ) ) {  <NL> put ( s , c . get ( s ) ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> takes a command structure and merges it with this one copying </s>

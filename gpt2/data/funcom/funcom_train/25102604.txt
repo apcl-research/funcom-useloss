@@ -1,0 +1,1 @@
+TDAT: public void visit ( f2r mapping n ) {  <NL> n . f0 . accept ( this ) ;  <NL> n . f1 . accept ( this ) ;  <NL> n . f2 . accept ( this ) ;  <NL> n . f3 . accept ( this ) ;  <NL> n . f4 . accept ( this ) ;  <NL> n . f5 . accept ( this ) ;  <NL> n . f6 . accept ( this ) ;  <NL> n . f7 . accept ( this ) ;  <NL>  }  COM: <s> f0 f2 r mapping </s>

@@ -1,0 +1,1 @@
+TDAT: private void render component ( graphics g , component cmp , int x , int y , int width , int height ) {  <NL> cmp . set width ( width ) ;  <NL> cmp . set height ( height ) ;  <NL> cmp . set x ( x ) ;  <NL> cmp . set y ( y ) ;  <NL> cmp . paint internal ( g ) ;  <NL>  }  COM: <s> renders the current component on the screen </s>

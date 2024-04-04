@@ -1,0 +1,1 @@
+TDAT: public set get parent nodes ( ) {  <NL> set parent nodes = new ordered set ( ) ;  <NL> iterator iter = _ in edge set . iterator ( ) ;  <NL> while ( iter . has next ( ) ) {  <NL> edge edge tmp = ( edge ) iter . next ( ) ;  <NL> parent nodes . add ( edge tmp . get source ( ) ) ;  <NL>  }  <NL> return parent nodes ;  <NL>  }  COM: <s> returns a set of the parent nodes </s>

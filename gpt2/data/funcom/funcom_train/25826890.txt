@@ -1,0 +1,1 @@
+TDAT: private void generate var chart i ds ( list < statistic var > vars ) {  <NL> this . var i ds = new integer [ vars . size ( ) ] ;  <NL> for ( int i = 0 ; i < vars . size ( ) ; i + + ) {  <NL> var i ds [ i ] = vars . get ( i ) . hash code ( ) ;  <NL>  }  <NL>  }  COM: <s> usage generate id for the chart of each statistic variable </s>

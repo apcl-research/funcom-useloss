@@ -1,0 +1,1 @@
+TDAT: public void apply ( stack of double stack , cases cases ) {  <NL> double [ ] d = new double [ get arity ( ) ] ;  <NL> for ( int i = get arity ( ) - 1 ; i > = 0 ; i - - )  <NL> d [ i ] = stack . pop ( ) ;  <NL> stack . push ( get val ( d ) ) ;  <NL>  }  COM: <s> evaluate the function applied to argument values popped from the stack </s>

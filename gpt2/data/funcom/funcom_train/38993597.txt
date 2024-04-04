@@ -1,0 +1,1 @@
+TDAT: public boolean is neighbor ( two dim location loc ) {  <NL> int x diff = math . abs ( loc . get x ( ) - x ) ;  <NL> int y diff = math . abs ( loc . get y ( ) - y ) ;  <NL> return ( x diff ! = 0 || y diff ! = 0 ) & & x diff < = 1 & & y diff < = 1 ;  <NL>  }  COM: <s> check if another </s>

@@ -1,0 +1,1 @@
+TDAT: public void restart ( ) {  <NL> if ( ( dialogic . debug & dialogic . debug _ isdn ) ! = 0 )  <NL> system . out . println ( new java . util . date ( ) . to string ( ) . substring ( 11 , 19 ) + " : restart " + this ) ;  <NL> dialogic . cc _ restart ( device , dialogic . ev _ async ) ;  <NL>  }  COM: <s> restart bring firmware to state 0 any call to null state </s>

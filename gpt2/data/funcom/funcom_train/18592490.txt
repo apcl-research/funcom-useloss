@@ -1,0 +1,1 @@
+TDAT: public void action move ( component w , int screenx , int screeny ) {  <NL> if ( ! user movable ( w ) )  <NL> throw new action failed exception ( strings . get ( " tester . window . no _ move " ) ) ;  <NL> move ( ( window ) w , screenx , screeny ) ;  <NL> wait for idle ( ) ;  <NL>  }  COM: <s> move the window to the given location </s>

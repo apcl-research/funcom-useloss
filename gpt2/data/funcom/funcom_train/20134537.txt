@@ -1,0 +1,1 @@
+TDAT: public int add to col ( int col , char symbol ) {  <NL> for ( int i = this . board . length - 1 ; i > = 0 ; - - i ) {  <NL> if ( this . board [ i ] [ col ] = = constants . empty ) {  <NL> this . board [ i ] [ col ] = symbol ;  <NL> return 0 ;  <NL>  }  <NL>  }  <NL> return - 1 ;  <NL>  }  COM: <s> assumes col is legal and attempts to place the symbol in the </s>

@@ -1,0 +1,1 @@
+TDAT: public pl writer add char ( short c ) {  <NL>  <NL> return ( ! oct chars & & ( ' 0 ' < = c & & c < = ' 9 ' || ' a ' < = c & & c < = ' z ' || ' a ' < = c <NL>  & & c < = ' z ' ) ) ? out ( " c " ) . out ( ( char ) c ) : add oct ( c ) ;  <NL>  }  COM: <s> prints symbolic representation of character code </s>

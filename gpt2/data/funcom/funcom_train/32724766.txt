@@ -1,0 +1,1 @@
+TDAT: public node deep copy ( ) {  <NL> if ( children = = null )  <NL> return this ;  <NL> node n = ( node ) clone ( ) ;  <NL> if ( children ! = null )  <NL> for ( int i = 0 ; i < children . length ; i + + )  <NL> n . children [ i ] = children [ i ] . deep copy ( ) ;  <NL> return n ;  <NL>  }  COM: <s> make a deep copy of this node </s>

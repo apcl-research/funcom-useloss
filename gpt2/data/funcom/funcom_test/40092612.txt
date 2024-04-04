@@ -1,0 +1,1 @@
+TDAT: public void shutdown ( ) {  <NL> utils . log ( get class ( ) . get name ( ) , 3 , " shutting down poolservice " + this + " terminated : "  <NL>  + m _ service . is terminated ( ) ) ;  <NL>  / / if ( m _ service . is terminated ( ) ) {  <NL> m _ service . shutdown ( ) ;  <NL>  / / }  <NL>  }  COM: <s> shut down the service </s>

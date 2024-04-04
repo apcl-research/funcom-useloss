@@ -1,0 +1,1 @@
+TDAT: public boolean move down ( project item p item ) {  <NL> int idx = m projects . index of ( p item ) ;  <NL> if ( idx > = m projects . size ( ) - 1 || idx < 0 ) return false ;  <NL> swap position ( p item , ( project item ) m projects . get ( idx + 1 ) ) ;  <NL> return true ;  <NL>  }  COM: <s> moves an item one position backwards </s>

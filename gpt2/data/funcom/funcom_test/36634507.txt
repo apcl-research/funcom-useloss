@@ -1,0 +1,1 @@
+TDAT: public void set load icon ( int index ) {  <NL> if ( index * 16 > = 0 & & index * 16 < colors . length )  <NL> load . set image ( text pix . get cut image ( cool [ 5 ] ,  <NL> 0 , index * 14 , 14 , 14 ) , 20 , 20 ) ;  <NL> else <NL> load . set image ( cool [ 4 ] , 20 , 20 ) ;  <NL>  }  COM: <s> this function sets the loading icon image </s>

@@ -1,0 +1,1 @@
+TDAT: protected void set up ( ) {  <NL> ze = new ht coord e ( ) ;  <NL> zi = new ht coord e ( 0 . 42 , - 0 . 25 ) ;  <NL> zs = new ht coord s ( 42 , - 25 ) ;  <NL> zz = new ht coord s ( ) ;  <NL> s origin = new ht coord s ( 100 , 125 ) ;  <NL> s max = new ht coord s ( 90 , 115 ) ;  <NL>  }  COM: <s> setup the fixture </s>

@@ -1,0 +1,1 @@
+TDAT: public int get link hop count ( ) {  <NL> int link hops = 0 ;  <NL> for ( int i = path from seed . length ( ) - 1 ; i > = 0 ; i - - ) {  <NL> if ( path from seed . char at ( i ) = = hop . navlink . get hop char ( ) ) {  <NL> link hops + + ;  <NL>  }  <NL>  }  <NL> return link hops ;  <NL>  }  COM: <s> get the link hop count </s>

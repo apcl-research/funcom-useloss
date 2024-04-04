@@ -1,0 +1,1 @@
+TDAT: public void cd ( string child , short destination ) throws io exception , j smb get exception , interrupted exception {  <NL> child = util . format smb path ( child , false ) ;  <NL> pwd = browser . cd ( child , destination ) ;  <NL> if ( ! pwd . ends with ( " / " ) ) {  <NL> pwd = pwd + " / " ;  <NL>  }  <NL>  }  COM: <s> changes directory on the remote connection </s>

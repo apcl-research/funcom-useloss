@@ -1,0 +1,1 @@
+TDAT: protected void close ( final boolean save ) {  <NL> display display = get site ( ) . get shell ( ) . get display ( ) ;  <NL> display . async exec ( new runnable ( ) {  <NL> public void run ( ) {  <NL> get site ( ) . get page ( ) . close editor ( multi page odom editor . this , save ) ;  <NL>  }  <NL>  } ) ;  <NL>  }  COM: <s> close the editor asynchronously </s>

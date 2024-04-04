@@ -1,0 +1,1 @@
+TDAT: public int get stat ( ) {  <NL> int cur hp = my stat + my adj + my subdual + my temporary + my con . get modifier ( ) * my level . get stat ( ) ;  <NL>  <NL> if ( cur hp > ( get base hp ( ) + my temporary ) ) return ( get base hp ( ) + my temporary ) ;  <NL> else return cur hp ;  <NL>  }  COM: <s> current adjusted hit point value </s>

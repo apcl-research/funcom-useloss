@@ -1,0 +1,1 @@
+TDAT: private void accumulate leaf files ( file dir , list < file > acc ) {  <NL> file [ ] files = dir . list files ( ) ;  <NL> for ( file file : files ) {  <NL> if ( file . is directory ( ) ) {  <NL> accumulate leaf files ( file , acc ) ;  <NL>  } else {  <NL> acc . add ( file ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> accumulate all regular files in the specified directory </s>

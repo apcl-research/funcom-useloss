@@ -1,0 +1,1 @@
+TDAT: public void set language ( string language ) {  <NL> if ( language . length ( ) = = 2 ) {  <NL> this . language = language . to lower case ( ) ;  <NL>  } else {  <NL> logger . warn ( " malformed language code ' " + language + " ' , setting to default ( de ) " ) ;  <NL> this . language = " de " ;  <NL>  }  <NL>  }  COM: <s> setter for property language </s>

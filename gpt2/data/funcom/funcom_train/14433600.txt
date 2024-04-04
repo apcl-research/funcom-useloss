@@ -1,0 +1,1 @@
+TDAT: public void set height ( int column , int row , byte height ) {  <NL> if ( is cell within bounds ( column , row ) ) {  <NL> if ( this . height map ! = null || this . height map [ 0 ] ! = null ) {  <NL> this . height map [ column ] [ row ] = height ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> p set the cells height value at coordinates code column code and </s>

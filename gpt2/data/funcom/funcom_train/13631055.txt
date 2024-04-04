@@ -1,0 +1,1 @@
+TDAT: public void make ident ( ) {  <NL> for ( int i = 0 ; i < 2 ; i + + ) {  <NL> for ( int j = 0 ; j < 2 ; j + + ) {  <NL> if ( i = = j ) {  <NL> set ( i , j , 1 . 0f ) ;  <NL>  } else {  <NL> set ( i , j , 0 . 0f ) ;  <NL>  }  <NL>  }  <NL>  }  <NL>  }  COM: <s> initialize to the identity matrix </s>

@@ -1,0 +1,1 @@
+TDAT: public image icon get image icon ( final string file name ) {  <NL> final image icon img =  <NL> new image icon ( get class ( ) . get resource ( " / graphics / " + file name ) ) ;  <NL> return new image icon (  <NL> img . get image ( ) . get scaled instance ( icon size , icon size ,  <NL> image . scale _ smooth ) ) ;  <NL>  }  COM: <s> method to get the icon </s>

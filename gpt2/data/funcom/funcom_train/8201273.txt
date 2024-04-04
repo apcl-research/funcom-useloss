@@ -1,0 +1,1 @@
+TDAT: public void test cloning ( ) {  <NL> legend item item = new legend item ( " item " , " description " ,  <NL>  " tool tip " , " url " ,  <NL> new rectangle2d . double ( 1 . 0 , 2 . 0 , 3 . 0 , 4 . 0 ) , color . red ) ;  <NL> assert false ( item instanceof cloneable ) ;  <NL>  }  COM: <s> cloning is not required for this class as it is designed to be </s>

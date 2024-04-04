@@ -1,0 +1,1 @@
+TDAT: public void invoke step ( int x , int y , int anchor x , int anchor y , drawing view view ) {  <NL> int i = ( ( undo move ) get undo activity ( ) ) . get point index ( ) ;  <NL>  ( ( line connection ) owner ( ) ) . set point at ( new point ( x , y ) , i ) ;  <NL>  }  COM: <s> overridden to avoid dependency on poly line figure </s>

@@ -1,0 +1,1 @@
+TDAT: private void validate ( ) throws build exception {  <NL> if ( null = = dest file ) {  <NL> throw new build exception ( " destfile attribute not specified . " ) ;  <NL>  }  <NL> if ( dest file . exists ( ) & & ! dest file . is file ( ) ) {  <NL> throw new build exception ( dest file + " is not a file . " ) ;  <NL>  }  <NL>  }  COM: <s> validate the tasks parameters </s>

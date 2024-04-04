@@ -1,0 +1,1 @@
+TDAT: protected void set space info ( offset size ) {  <NL>  / / - sprintf ( tmp , " current size : % s\n " , gcspy _ format size ( size ) ) ;  <NL> address tmp = g cspy . util . format size ( " current size : % s\n " , 128 , size . to int ( ) ) ;  <NL> server space . space info ( tmp ) ;  <NL> g cspy . util . free ( tmp ) ;  <NL>  }  COM: <s> set space info </s>

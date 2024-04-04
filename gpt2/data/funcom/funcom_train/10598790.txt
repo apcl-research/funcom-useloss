@@ -1,0 +1,1 @@
+TDAT: public void test x include1 ( ) throws exception {  <NL> get logger ( ) . debug ( " test x include1 " ) ;  <NL> xinclude test ( " resource : / / org / apache / cocoon / transformation / xinclude - input - 1 . xml " ,  <NL>  " resource : / / org / apache / cocoon / transformation / xinclude - result - 1 . xml " ) ;  <NL>  }  COM: <s> testcase for xinclude simple include </s>

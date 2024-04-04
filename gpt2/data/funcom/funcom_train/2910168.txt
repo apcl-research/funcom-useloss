@@ -1,0 +1,1 @@
+TDAT: public access point string to access point ( string name ) {  <NL> for ( int i = 0 ; i < aps . size ( ) ; i + + ) {  <NL> if ( ( ( access point ) aps . get ( i ) ) . name . equals ( name ) ) {  <NL> return ( access point ) aps . get ( i ) ;  <NL>  }  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> takes a string name and returns the ap object with the same name </s>

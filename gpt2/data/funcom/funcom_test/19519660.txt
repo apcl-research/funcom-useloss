@@ -1,0 +1,1 @@
+TDAT: public boolean proove imp ( i pred2 r , i factory fact , i hypothesis h ) {  <NL> i pred2 r2 = r ;  <NL> for ( int i = preds . length - 1 ; i > = 1 ; i - - ) {  <NL> r2 = fact . new imp2 ( preds [ i ] , r2 ) ;  <NL>  }  <NL> return preds [ 0 ] . proove imp ( r2 , fact , h ) ;  <NL>  }  COM: <s> and2 this r </s>

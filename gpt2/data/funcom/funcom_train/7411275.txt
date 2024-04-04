@@ -1,0 +1,1 @@
+TDAT: public void set default ( int def ) {  <NL> int i = 0 ;  <NL> for ( ; i < pad ; i + + )  <NL>  ;  <NL> args [ i + + ] = ( byte ) ( def > > 24 ) ;  <NL> args [ i + + ] = ( byte ) ( def > > 16 ) ;  <NL> args [ i + + ] = ( byte ) ( def > > 8 ) ;  <NL> args [ i + + ] = ( byte ) ( def & 0xff ) ;  <NL>  }  COM: <s> sets the default jump value of this tableswitch instruciton </s>

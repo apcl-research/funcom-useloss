@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> return " [ picture form : dispatch = " + get dispatch ( ) + " , title = " + get add title ( ) + " , image = " + _ add image + " , date = " + _ add date + " , desc = " + _ add description + " , linklist = " + _ addlinklistpic + " , picindex = " + _ picindex + " ] " ;  <NL>  }  COM: <s> show debug version of this bean </s>

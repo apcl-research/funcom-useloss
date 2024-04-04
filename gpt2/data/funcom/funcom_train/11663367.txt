@@ -1,0 +1,1 @@
+TDAT: public boolean get boolean value ( boolean def value ) {  <NL> try {  <NL> return " [ true ] [ yes ] [ 1 ] [ y ] [ on ] " . index of ( " [ " + get value ( ) . to lower case ( ) + " ] " ) ! = - 1 ;  <NL>  } catch ( exception e ) {  <NL> return def value ;  <NL>  }  <NL>  }  COM: <s> get boolean value returns the value from the configuration node </s>

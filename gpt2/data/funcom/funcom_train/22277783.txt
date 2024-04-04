@@ -1,0 +1,1 @@
+TDAT: public void describe class info ( class info info ) {  <NL> info . add class ( " netscape . application . color " , 1 ) ;  <NL> info . add field ( r _ key , byte _ type ) ;  <NL> info . add field ( g _ key , byte _ type ) ;  <NL> info . add field ( b _ key , byte _ type ) ;  <NL>  }  COM: <s> describes the color class coding information </s>

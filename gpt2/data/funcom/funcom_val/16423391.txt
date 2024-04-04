@@ -1,0 +1,1 @@
+TDAT: private int read buffer ( byte [ ] buff ) throws io exception {  <NL> int p = 0 , r = 0 ;  <NL> while ( p < buff . length ) {  <NL> r = super . read ( buff , p , buff . length - p ) ;  <NL> if ( r < 0 ) return ( p + 1 ) * - 1 ;  <NL>  <NL> p + = r ;  <NL>  }  <NL> return p ;  <NL>  }  COM: <s> reads an entire buffer of data allowing for blocking </s>

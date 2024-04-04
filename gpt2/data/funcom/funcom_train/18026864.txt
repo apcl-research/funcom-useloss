@@ -1,0 +1,1 @@
+TDAT: public void set column ( string column ) {  <NL> string [ ] ss = column . split ( " , " ) ;  <NL> canvas . get margin column ( ) . set left ( ss [ 0 ] ) ;  <NL> canvas . get margin column ( ) . set right ( ss [ 1 ] ) ;  <NL> canvas . get margin column ( ) . set left ( ss [ 0 ] ) ;  <NL>  }  COM: <s> support legacy column property of canvas </s>

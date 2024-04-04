@@ -1,0 +1,1 @@
+TDAT: public void add custom tag ( taglet custom tag ) {  <NL> if ( custom tag ! = null ) {  <NL> string name = custom tag . get name ( ) ;  <NL> if ( custom tags . contains key ( name ) ) {  <NL> custom tags . remove ( name ) ;  <NL>  }  <NL> custom tags . put ( name , custom tag ) ;  <NL> check tag name ( name ) ;  <NL>  }  <NL>  }  COM: <s> add a new code custom tag code </s>

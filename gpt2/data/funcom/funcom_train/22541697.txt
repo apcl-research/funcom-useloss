@@ -1,0 +1,1 @@
+TDAT: public boolean contains ( object o ) {  <NL>  / / you can ' t just look up o in tree , as tree is sorted by priority , which <NL>  / / isn ' t necessarily consistent with equals .  <NL> for ( node node : tree ) {  <NL> if ( o . equals ( node . get data ( ) ) )  <NL> return true ;  <NL>  }  <NL> return false ;  <NL>  }  COM: <s> returns true if this contains o </s>

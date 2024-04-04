@@ -1,0 +1,1 @@
+TDAT: public void set style ( style style ) {  <NL> style old style = this . style ;  <NL> this . style = styles . mutate style ( this , style ) ;  <NL> styles . apply style ( this , old style , this . style ) ;  <NL> fire property change ( " style " , old style , this . style ) ;  <NL>  }  COM: <s> sets the style </s>

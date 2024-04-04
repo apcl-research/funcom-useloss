@@ -1,0 +1,1 @@
+TDAT: public void create _ node ( int x , int y ) {  <NL> point p = new point ( x , y ) ;  <NL> string n = generate _ name ( nodes . size ( ) ) ;  <NL> nodes . add element ( new inference graph node ( this , n , p ) ) ;  <NL>  <NL>  / / synchronize the quasi bayes net object and the graph .  <NL> convert _ graph ( ) ;  <NL>  }  COM: <s> create a new node in the network </s>

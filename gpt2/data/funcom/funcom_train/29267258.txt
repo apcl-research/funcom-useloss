@@ -1,0 +1,1 @@
+TDAT: public void set keys ( string p keys ) {  <NL> if ( keys = = null ) {  <NL> keys = new array list ( ) ;  <NL>  }  <NL> for ( string tokenizer st = new string tokenizer ( p keys , " , " ) ; st . has more tokens ( ) ; ) {  <NL> keys . add ( st . next token ( ) ) ;  <NL>  }  <NL>  }  COM: <s> sets the names of the primary key columns </s>

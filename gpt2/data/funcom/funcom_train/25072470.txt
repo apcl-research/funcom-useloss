@@ -1,0 +1,1 @@
+TDAT: private boolean is sorted ( integer [ ] data ) {  <NL> boolean is sorted = true ;  <NL> for ( int i = 0 ; i < data . length & & is sorted ; i + + ) {  <NL> if ( ( ( integer ) data [ i ] ) . int value ( ) ! = i ) {  <NL> is sorted = false ;  <NL>  }  <NL>  }  <NL> return is sorted ;  <NL>  }  COM: <s> receives an array of code integer code s containing items 0 to </s>

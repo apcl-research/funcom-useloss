@@ -1,0 +1,1 @@
+TDAT: public vertex translate ( vertex vertex ) {  <NL> vertex v = vertex . minus ( get origin ( ) ) ;  <NL> double x = i . dot ( v ) ;  <NL> double y = j . dot ( v ) ;  <NL> double z = n . dot ( v ) ;  <NL> v . set x ( x ) ;  <NL> v . set y ( y ) ;  <NL> v . set z ( z ) ;  <NL> return v ;  <NL>  }  COM: <s> return the vertex translated to this coordinate system </s>

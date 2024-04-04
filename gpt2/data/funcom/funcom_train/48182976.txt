@@ -1,0 +1,1 @@
+TDAT: public void do frame ( ) {  <NL> check other players ( ) ; / / have other players moved ?  <NL> move objects ( ) ;  <NL> check collision ( 2 , 4 ) ; / / player hits pip <NL> check bg collision ( 1 , 4 ) ; / / wall hits player <NL> man . time + + ;  <NL> if ( man . time % timedivisor = = 0 ) man . time + = drift ;  <NL>  }  COM: <s> game logic is done here </s>

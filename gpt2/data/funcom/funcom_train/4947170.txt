@@ -1,0 +1,1 @@
+TDAT: public void write ( int c ) throws io exception {  <NL> if ( needs preface )  <NL>  {  <NL> needs preface = false ;  <NL> preface ( ) ;  <NL>  }  <NL> if ( c ! = ( int ) ' \n ' )  <NL>  {  <NL>  / / system . out . print ( " { " + b + " } " ) ;  <NL> super . write ( c ) ;  <NL>  }  <NL> eol check ( c ) ;  <NL>  }  COM: <s> write a single character </s>

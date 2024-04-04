@@ -1,0 +1,1 @@
+TDAT: public void reset bet ( ) {  <NL> bet = math . min ( bet , math . min ( current , target - current ) ) ;  <NL>  / / f value setters [ 1 ] . set range ( 0 , math . min ( current , target - current ) ) ;  <NL> get value setter ( 2 ) . set value ( bet ) ;  <NL>  }  COM: <s> this method resets the bet </s>

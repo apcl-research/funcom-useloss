@@ -1,0 +1,1 @@
+TDAT: public dimension for review button ( review button rb , object . . . param ) {  <NL> int size = 1 ;  <NL> int fontsize = ( int ) ( ( size + . 5 ) * ( font _ size _ multiple - 2 ) ) ;  <NL>  <NL> return rendering utils . get button size ( rb . get text ( ) , fontsize , rb <NL>  . is bold ( ) ) ;  <NL>  }  COM: <s> calculates the size of the review button </s>

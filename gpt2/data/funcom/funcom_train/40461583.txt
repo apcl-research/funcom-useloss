@@ -1,0 +1,1 @@
+TDAT: private void parse date ( ) {  <NL> try {  <NL> date d = date formatter . parse ( text box . get text ( ) ) ;  <NL> if ( d ! = null & & ( date = = null || d . get time ( ) ! = date . get time ( ) ) ) {  <NL> date = d ;  <NL> synchronize from date ( ) ;  <NL>  }  <NL>  } catch ( exception e ) {  <NL>  }  <NL>  }  COM: <s> parse the date entered in the date picker </s>

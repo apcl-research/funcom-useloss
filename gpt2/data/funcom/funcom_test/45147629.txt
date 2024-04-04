@@ -1,0 +1,1 @@
+TDAT: public string get name ( ) {  <NL> string str name ;  <NL> if ( this . name = = null ) {  <NL> if ( this . get player type ( ) = = player . type _ computer ) {  <NL> str name = " computer " ;  <NL>  } else {  <NL> str name = ui . get name ( ) ;  <NL>  }  <NL> this . set name ( str name ) ;  <NL>  }  <NL> return this . name ;  <NL>  }  COM: <s> get the captains name </s>

@@ -1,0 +1,1 @@
+TDAT: public void register ( form f , form model m ) {  <NL> super . register ( f , m ) ;  <NL> m . add form param ( new string parameter ( get parameter model ( ) . get name ( ) + " . x " ) ) ;  <NL> m . add form param ( new string parameter ( get parameter model ( ) . get name ( ) + " . y " ) ) ;  <NL>  }  COM: <s> registers get name </s>

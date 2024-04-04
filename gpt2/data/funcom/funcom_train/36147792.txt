@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> return get buffer ( ) . to string ( ) + ( ( get buffer end ( ) ! = null & & ! " " . equals ( get buffer end ( ) . to string ( ) . trim ( ) ) ) ?  <NL>  ( reserved _ separator _ buffer + get buffer end ( ) . to string ( ) ) : " " ) ;  <NL>  }  COM: <s> convert the data in code string buffer code to a string </s>

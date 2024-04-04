@@ -1,0 +1,1 @@
+TDAT: public grafic create grafic ( string view id , point top left , point bottom right , color fg , color bg ) {  <NL> this . grafic = new background element grafic ( this , view id , top left , bottom right ,  <NL> null , null , fg , bg ) ;  <NL> return this . grafic ;  <NL>  }  COM: <s> create grafic of background element with fixed corners </s>

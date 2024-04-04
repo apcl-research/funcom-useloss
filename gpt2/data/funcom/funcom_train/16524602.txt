@@ -1,0 +1,1 @@
+TDAT: public void draw ( graphics g , int x , int y , double zoom ) {  <NL> if ( sprite = = null || sprite . get current frame ( ) = = null )  <NL> return ;  <NL> sprite . get current frame ( ) . draw ( g , x , y , zoom ) ;  <NL>  / / sprite . iterate frame ( ) ;  <NL>  }  COM: <s> handles drawing the correct frame </s>

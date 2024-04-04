@@ -1,0 +1,1 @@
+TDAT: public void create or update ( $ { entity . name } $ { entity . id } ) {  <NL> object pk = $ { entity . id } . primary key ( ) ;  <NL> if ( pk = = null || ! primary index . contains key ( pk ) ) {  <NL> create ( $ { entity . id } ) ;  <NL>  }  <NL> else {  <NL> update ( $ { entity . id } ) ;  <NL>  }  <NL>  }  COM: <s> the create or update semantics of crud </s>

@@ -1,0 +1,1 @@
+TDAT: public string list ( ) throws exception {  <NL> log . debug ( messages . get message ( " do list00 " ) ) ;  <NL> string str = " < m : list xmlns : m = \ " " + wsdd constants . uri _ wsdd + " \ " / > " ;  <NL> byte array input stream input = new byte array input stream ( str . get bytes ( ) ) ;  <NL> return process ( input ) ;  <NL>  }  COM: <s> send a list command </s>

@@ -1,0 +1,1 @@
+TDAT: private void run sheet ( string sheet name ) throws exception {  <NL> run ( manager , sheet name , true ) ;  <NL> run ( manager , sheet name , false ) ;  <NL> run ( stub _ manager , sheet name , true ) ;  <NL> run ( stub _ manager , sheet name , false ) ;  <NL>  }  COM: <s> runs four tests on one sheet </s>

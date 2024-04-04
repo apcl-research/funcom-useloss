@@ -1,0 +1,1 @@
+TDAT: public string get tool tip text ( mouse event e ) {  <NL> point p = e . get point ( ) ;  <NL> int row _ index = row at point ( p ) ;  <NL> int col _ index = column at point ( p ) ;  <NL> table model model = get model ( ) ;  <NL> return ( model . get value at ( row _ index , col _ index ) ) . to string ( ) ;  <NL>  }  COM: <s> gets tool tips for cells </s>

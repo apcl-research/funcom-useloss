@@ -1,0 +1,1 @@
+TDAT: public void push ( double x ) {  <NL> if ( top > = data . length ) {  <NL> double [ ] temp = new double [ 2 * data . length ] ;  <NL> system . arraycopy ( data , 0 , temp , 0 , data . length ) ;  <NL> data = temp ;  <NL>  }  <NL> data [ top + + ] = x ;  <NL>  }  COM: <s> add x to top of stack </s>

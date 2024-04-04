@@ -1,0 +1,1 @@
+TDAT: public void set score ( score score , int position ) {  <NL> scores . add ( position , score ) ;  <NL> this . cut to limit ( limit ) ;  <NL>  / *  <NL>  * for ( int i = 9 ; i > = position ; i - - ) { scores [ i ] = scores [ i - 1 ] ; }  <NL>  * scores [ position - 1 ] = score ;  <NL>  * /  <NL>  }  COM: <s> sets a given score in a certain position </s>

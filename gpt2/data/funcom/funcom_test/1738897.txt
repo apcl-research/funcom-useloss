@@ -1,0 +1,1 @@
+TDAT: public void set m columns ( list a ) {  <NL> if ( a ! = null ) {  <NL> iterator it = a . iterator ( ) ;  <NL> m columns = new array list ( ) ;  <NL> int index = 0 ;  <NL> while ( it . has next ( ) ) {  <NL> m columns . add ( new column bean ( index + + , it . next ( ) . to string ( ) , this ) ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> a must be of type string </s>

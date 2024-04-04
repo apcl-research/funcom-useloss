@@ -1,0 +1,1 @@
+TDAT: public void test with illformed elements ( ) {  <NL> assert equals ( count dto ( test dto . class , create xml ( not _ wellformed , valid ) ) , 0 ) ;  <NL> assert equals ( count dto ( test dto . class , create xml ( valid , not _ wellformed ) ) , 1 ) ;  <NL>  }  COM: <s> tests it with different positions of illformed elements </s>

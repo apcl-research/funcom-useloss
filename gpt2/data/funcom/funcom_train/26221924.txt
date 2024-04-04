@@ -1,0 +1,1 @@
+TDAT: public int compare ( object o1 , object o2 ) {  <NL> stop watch a = ( stop watch ) o1 ;  <NL> stop watch b = ( stop watch ) o2 ;  <NL> if ( a . total ( ) < b . total ( ) )  <NL> return - 1 ;  <NL> else if ( a . total ( ) = = b . total ( ) )  <NL> return 0 ;  <NL> else <NL> return 1 ;  <NL>  }  COM: <s> compares the total times for two stop watches </s>

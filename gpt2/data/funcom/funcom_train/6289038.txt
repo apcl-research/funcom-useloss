@@ -1,0 +1,1 @@
+TDAT: private boolean is letter ( char c ) {  <NL>  / / return ( c > = ' a ' & & c < = ' z ' ) || ( c > = ' a ' & & c < = ' z ' ) || c = = ' / ' ;  <NL> return ( c > = ' a ' & & c < = ' z ' ) || ( c > = ' a ' & & c < = ' z ' ) ;  <NL>  }  COM: <s> returns code true code if character is letter a </s>

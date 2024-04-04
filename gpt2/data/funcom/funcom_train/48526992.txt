@@ -1,0 +1,1 @@
+TDAT: public void assert end tag ( string name ) throws io exception {  <NL> assert event ( xpp . end _ tag ) ;  <NL>  <NL> if ( ! xpp . get name ( ) . equals ( name ) )  <NL> throw new io exception ( " expected end tag ' " + name + " ' , got a ' " + xpp . get name ( ) + " ' " ) ;  <NL>  }  COM: <s> asserts that the provided end tag was just read </s>

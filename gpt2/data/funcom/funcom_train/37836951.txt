@@ -1,0 +1,1 @@
+TDAT: private void draw tick ( graphics g , insets insets ) {  <NL> g . draw line ( insets . left + 2 , icon _ width / 2 , insets . left + 4 , icon _ width - insets . bottom - 2 ) ;  <NL> g . draw line ( icon _ width - insets . right - 2 , icon _ width / 3 , insets . left + 4 , icon _ width - insets . bottom - 2 ) ;  <NL>  }  COM: <s> draw selection marker </s>

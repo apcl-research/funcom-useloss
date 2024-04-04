@@ -1,0 +1,1 @@
+TDAT: public void set owner ( string owner ) {  <NL>  / / check if setting to existing value <NL> if ( this . owner = = null ? owner ! = null : ! this . owner . equals ( owner ) ) {  <NL>  / / set to new value for customer parameter <NL> this . owner = owner ;  <NL> set string custom parameter ( " owner " , owner ) ;  <NL>  }  <NL>  }  COM: <s> sets the issue owner </s>

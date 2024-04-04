@@ -1,0 +1,1 @@
+TDAT: protected void send ( msg msg ) {  <NL> if ( ( msg ! = null ) & & ( ! listeners . is empty ( ) ) ) {  <NL> for ( iterator < msg listener > i = listeners . iterator ( ) ; i . has next ( ) ; )  <NL>  ( ( msg listener ) i . next ( ) ) . received msg ( msg ) ;  <NL>  }  <NL>  }  COM: <s> sends a message to all listeners of the msg speaker </s>

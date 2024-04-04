@@ -1,0 +1,1 @@
+TDAT: public int get index of child ( object parent , object child ) {  <NL> int result = - 1 ;  <NL>  <NL> for ( int i = 0 ; i < get child count ( parent ) ; i + + ) {  <NL> if ( get child ( parent , i ) . equals ( child ) ) {  <NL> result = i ;  <NL> break ;  <NL>  }  <NL>  }  <NL>  <NL> return result ;  <NL>  }  COM: <s> get the index of child in parent </s>

@@ -1,0 +1,1 @@
+TDAT: private double find distance ( double x1 , double y1 , double x2 , double y2 ) {  <NL> double dx _ m = math . abs ( x1 - x2 ) ;  <NL> double dy _ m = math . abs ( y1 - y2 ) ;  <NL> return math . sqrt ( math . pow ( dx _ m , 2 ) + math . pow ( dy _ m , 2 ) ) ;  <NL>  }  COM: <s> finds the distance of two points in meters </s>

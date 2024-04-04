@@ -1,0 +1,1 @@
+TDAT: private string get node name ( node node ) {  <NL> if ( node . get node type ( ) = = 1 ) {  <NL> string node name = node . get node name ( ) ;  <NL> if ( node name . contains ( " : " ) ) node name = node name . substring ( node name . index of ( " : " ) + 1 ) ;  <NL> return node name ;  <NL>  }  <NL> return " " ;  <NL>  }  COM: <s> used to return a name of an xml node </s>

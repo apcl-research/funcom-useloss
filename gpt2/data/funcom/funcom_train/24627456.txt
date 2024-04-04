@@ -1,0 +1,1 @@
+TDAT: / / protected final mouse event mousereleased = new mouse event ( null / * onode * / , mouse event . mouse _ released , 0 / * system . current time millis ( ) * / , 0 , 0 , 0 , / * curscrn . x , curscrn . y * / 0 , false ) ;  <NL>  / / public boolean event ( awt event e , point scrn ) { return event node ( e , scrn ) ; } / / temp !  COM: <s> if click in arrow toggles </s>

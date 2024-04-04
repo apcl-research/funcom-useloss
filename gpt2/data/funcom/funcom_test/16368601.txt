@@ -1,0 +1,1 @@
+TDAT: private void report error ( exception x ) {  <NL> error dialog . open error ( get shell ( ) , messages . get string ( " eclipse . dialogtitle " ) , / / $ non - nls - 1 $  <NL> messages . get string ( " eclipse . projecterror " ) , null ) ; / / $ non - nls - 1 $  <NL>  }  COM: <s> displays an error that occurred during the project creation </s>

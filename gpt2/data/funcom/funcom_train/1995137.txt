@@ -1,0 +1,1 @@
+TDAT: protected void normalize and print ( char [ ] ch , int offset , int length , boolean is att value ) {  <NL> for ( int i = 0 ; i < length ; i + + ) {  <NL> normalize and print ( ch [ offset + i ] , is att value ) ;  <NL>  }  <NL>  } / / normalize and print ( char [ ] , int , int , boolean )  COM: <s> normalizes and prints the given array of characters </s>

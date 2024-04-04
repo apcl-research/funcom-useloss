@@ -1,0 +1,1 @@
+TDAT: protected void write details section ( ) {  <NL> println ( " < ! - - " ) ;  <NL> println ( " " ) ;  <NL> println ( " d e t a i l s " ) ;  <NL> println ( " " ) ;  <NL> println ( " - - > " ) ;  <NL> println ( " " ) ;  <NL> println ( " < h1 > details < / h1 > " ) ;  <NL>  }  COM: <s> writes a heading for the details sections </s>

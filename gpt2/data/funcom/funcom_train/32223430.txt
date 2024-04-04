@@ -1,0 +1,1 @@
+TDAT: public void clear reg ( ) {  <NL> byte [ ] clear = new byte [ ] { 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 ,  <NL> 0 , 0 <NL>  } ;  <NL> this . reg model . reset buffer ( clear ) ;  <NL>  }  COM: <s> this clears out the registers </s>

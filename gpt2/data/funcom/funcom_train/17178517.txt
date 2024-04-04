@@ -1,0 +1,1 @@
+TDAT: public file get modifications file ( ) {  <NL> file result = new file ( modification _ file ) ;  <NL> if ( ! result . exists ( ) ) {  <NL> j option pane . show message dialog ( null , modification _ file + " not found . " , " modification file error " , j option pane . error _ message ) ;  <NL>  }  <NL> return result ;  <NL>  }  COM: <s> returns the modifications file </s>

@@ -1,0 +1,1 @@
+TDAT: public double variance ( int k , int n , int d , int n ) {  <NL> return ( ( ( double ) n ) * ( ( double ) d ) * ( n - n ) * ( n - n ) ) * ( ( n - d ) ) / ( ( ( double ) n ) * n * ( n - 1 ) ) ;  <NL>  }  COM: <s> calculate the variance </s>

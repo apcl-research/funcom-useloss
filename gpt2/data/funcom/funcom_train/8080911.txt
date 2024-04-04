@@ -1,0 +1,1 @@
+TDAT: public double relative dl ( int index , double exp fp rate , boolean check err ) {  <NL>  <NL> return ( min data dl if exists ( index , exp fp rate , check err )  <NL>  + theory dl ( index ) -  <NL> min data dl if deleted ( index , exp fp rate , check err ) ) ;  <NL>  }  COM: <s> the description length dl of the ruleset relative to if the </s>

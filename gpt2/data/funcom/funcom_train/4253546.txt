@@ -1,0 +1,1 @@
+TDAT: public session descriptor add media ( media field media , vector attributes )  <NL>  { / / printlog ( " debug : media : " + media , 5 ) ;  <NL>  / / printlog ( " debug : attribute : " + attributes , 5 ) ;  <NL> add media descriptor ( new media descriptor ( media , null , attributes ) ) ;  <NL> return this ;  <NL>  }  COM: <s> adds a new media </s>

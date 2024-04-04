@@ -1,0 +1,1 @@
+TDAT: private void increase heap size ( ) {  <NL> object [ ] new heap = new object [ heap size + 1 ] ; / / fixme : problably is best to let the user define . . .  <NL> system . arraycopy ( heap , 0 , new heap , 0 , heap . length - 1 ) ;  <NL> heap = new heap ;  <NL>  }  COM: <s> increase the heap </s>

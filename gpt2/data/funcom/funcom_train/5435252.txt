@@ -1,0 +1,1 @@
+TDAT: public void set point ( calibration point point ) {  <NL>  _ point = point ;  <NL> set location ( _ point . get x ( ) . int value ( ) - 7 , _ point . get y ( ) . int value ( ) - 7 ) ;  <NL> set coord ( new coordinate ( _ point . get latitude ( ) . long value ( ) ,  <NL>  _ point . get longitude ( ) . long value ( ) ) ) ;  <NL>  }  COM: <s> sets the point </s>

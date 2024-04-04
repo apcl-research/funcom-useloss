@@ -1,0 +1,1 @@
+TDAT: private void sync a ( ) {  <NL> if ( a ! = null ) {  <NL> a _ a id = a . get a2pkey ( ) . get a id ( ) ;  <NL> assert a . get a2pkey ( ) . get group id ( ) . equals ( pkey . get group id ( ) ) : " different group id " ;  <NL>  }  <NL> else {  <NL> a _ a id = null ;  <NL>  }  <NL>  }  COM: <s> sync unshared pkey columms of association </s>

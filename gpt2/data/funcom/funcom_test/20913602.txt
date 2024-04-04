@@ -1,0 +1,1 @@
+TDAT: public long compute total time ( ) {  <NL> long a = ( start time ! = null ) ? start time . get time ( )  <NL>  : ( ( long . max _ value / 2 ) - 1 ) ;  <NL> long b = ( stop time ! = null ) ? stop time . get time ( )  <NL>  : ( ( long . min _ value / 2 ) + 1 ) ;  <NL>  <NL> return ( b - a ) ;  <NL>  }  COM: <s> computes the total time of execution </s>

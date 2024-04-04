@@ -1,0 +1,1 @@
+TDAT: public void on timeout ( ) {  <NL> if ( suspected )  <NL> fibs . reconnect ( ) ;  <NL> fibs . add timeout ( this , timeout ) ;  <NL> suspected = true ;  <NL> try {  <NL> fibs . send ( " time " ) ;  <NL>  } catch ( exception e ) {  <NL> throw new runtime exception ( " failed to generate activity to fibs " , e ) ;  <NL>  }  <NL>  }  COM: <s> called on a timeout </s>

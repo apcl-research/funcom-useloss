@@ -1,0 +1,1 @@
+TDAT: public mask or ( mask mask ) {  <NL> if ( mask = = null || mask . get size ( ) ! = this . values . length ) throw new runtime exception ( this . size mismatch ) ;  <NL> for ( int i = 0 ; i < this . values . length ; + + i ) this . values [ i ] | = mask . values [ i ] ;  <NL> return this ;  <NL>  }  COM: <s> perform an or operation with another mask </s>

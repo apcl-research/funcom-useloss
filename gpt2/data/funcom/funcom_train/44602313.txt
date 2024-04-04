@@ -1,0 +1,1 @@
+TDAT: public void test _ constructor _ parameter _ 01 ( ) {  <NL> compile and exec given statement (  <NL>  " x . java " ,  <NL>  " class x { \n " +  <NL>  " / / @ requires x > 0 ; \n " +  <NL>  " x ( int x ) { \n " +  <NL>  " } \n " +  <NL>  " } \n " ,  <NL>  " new x ( 10 ) " ) ;  <NL>  }  COM: <s> constructor argument in assertions </s>

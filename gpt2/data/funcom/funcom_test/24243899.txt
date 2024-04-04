@@ -1,0 +1,1 @@
+TDAT: public float get reading ( int i , range readings rr , range map map ) {  <NL> pose temp pose = new pose ( ) ;  <NL> temp pose . set location ( pose . get location ( ) ) ;  <NL> temp pose . set heading ( pose . get heading ( ) + rr . get angle ( i ) ) ;  <NL> return map . range ( temp pose ) ;  <NL>  }  COM: <s> get a specific reading </s>

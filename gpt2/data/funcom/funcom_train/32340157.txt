@@ -1,0 +1,1 @@
+TDAT: public result set query ( transaction tx , collection col , string style , string query , namespace map ns map , key [ ] keys ) throws db exception , query exception {  <NL> query resolver res = get resolver ( style ) ;  <NL> return res . query ( tx , col , query , ns map , keys ) ;  <NL>  }  COM: <s> query performs the specified query and returns a node set with </s>

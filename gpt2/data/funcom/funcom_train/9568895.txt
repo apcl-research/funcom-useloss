@@ -1,0 +1,1 @@
+TDAT: public void action performed ( action event e ) {  <NL> custom dialog cd = new custom dialog ( " enter a value for " + name +  <NL>  " : " , custom dialog . instantiate float document ( ) ) ;  <NL> set value ( cd . show input dialog ( this . get value ( ) = = null ? " 0 " : this . get value ( ) . to string ( ) ) ) ;  <NL>  }  COM: <s> invoked when an action occurs </s>

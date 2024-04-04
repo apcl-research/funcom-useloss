@@ -1,0 +1,1 @@
+TDAT: public void add public field ( compilation unit ex cu , string name , string type ) throws duplicate name exception {  <NL> final list < modifier keyword > modifiers = new array list < modifier keyword > ( ) ;  <NL> modifiers . add ( modifier keyword . public _ keyword ) ;  <NL> add field ( cu , name , type , modifiers ) ;  <NL>  }  COM: <s> adds a public field </s>

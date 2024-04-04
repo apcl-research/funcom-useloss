@@ -1,0 +1,1 @@
+TDAT: protected void create font ( component c ) {  <NL> dimension d = c . get size ( ) ;  <NL> font _ size = d . width / 32 ;  <NL> if ( font _ size < 12 ) font _ size = 12 ;  <NL> font = new font ( " sansserif " , font . bold , font _ size ) ; / / todo : should be selectable ?  <NL>  }  COM: <s> create a font suitable for displaying on the given component </s>

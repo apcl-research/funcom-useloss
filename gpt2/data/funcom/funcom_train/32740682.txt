@@ -1,0 +1,1 @@
+TDAT: public string format value ( record formatter rf , int field index , object o , dictionary < string , object > format params ) {  <NL>  / / return super . format ( o , format params ) ;  <NL> throw new programmer error ( " if this method is needed , overload it in the inheriting class " ) ;  <NL>  }  COM: <s> formats the value to appear in an input statement </s>

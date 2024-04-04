@@ -1,0 +1,1 @@
+TDAT: public void end logging ( ) {  <NL>  / / log that we are closing the application <NL> this . log info ( this . get class ( ) , " logging service stopped : " + calendar . get instance ( ) . get time ( ) . to string ( ) ) ;  <NL>  <NL>  / / flush the stream to the logging file and close <NL> this . hnd cons . close ( ) ;  <NL>  }  COM: <s> shut down the logging service </s>

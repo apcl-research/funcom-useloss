@@ -1,0 +1,1 @@
+TDAT: private void skip ( ) throws exception {  <NL> if ( data . length > 1 ) {  <NL> if ( data [ off + 1 ] ! = ' / ' ) {  <NL> throw new path exception ( " path ' % s ' in % s has an illegal syntax " , path , type ) ;  <NL>  }  <NL> off + + ;  <NL>  }  <NL> start = + + off ;  <NL>  }  COM: <s> this is used to skip any root prefix for the path </s>

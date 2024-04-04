@@ -1,0 +1,1 @@
+TDAT: public string get message ( ) {  <NL> return super . get message ( ) + " ' " + value + " ' for " + param name + " on rule " + rule name +  <NL>  ( class name ! = null ? " , for class " + class name : " " ) +  <NL>  ( prop name ! = null ? " , on property " + prop name : " " ) ;  <NL>  }  COM: <s> returns a localized message for the exception </s>

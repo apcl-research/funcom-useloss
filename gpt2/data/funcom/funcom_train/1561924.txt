@@ -1,0 +1,1 @@
+TDAT: final public geo list t mean estimate ( string label , geo numeric mean , geo numeric sd , geo numeric n , geo numeric level ) {  <NL> algo t mean estimate algo = new algo t mean estimate ( cons , label , mean , sd , n , level ) ;  <NL> geo list result list = algo . get result ( ) ;  <NL> return result list ;  <NL>  }  COM: <s> tmean estimate with sample statistics </s>

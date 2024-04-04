@@ -1,0 +1,1 @@
+TDAT: public ann create anno ( info inf , int index ) {  <NL> way point wp = ( way point ) inf ;  <NL> ann anno = new ann ( wp , this , index , draw , 0 , ( ( way point ) wp ) . name , wp an color , wp an lt color , wp an font ) ;  <NL>  / / wp . anno num = 0 ;  <NL> wp . anno = anno ;  <NL> return anno ;  <NL>  }  COM: <s> creates an ann on a way point in the wpc </s>

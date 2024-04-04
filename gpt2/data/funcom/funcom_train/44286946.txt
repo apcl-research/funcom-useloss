@@ -1,0 +1,1 @@
+TDAT: public string get item code ( string label ) {  <NL> combo item item ;  <NL> int size = get item count ( ) ;  <NL> for ( int i = 0 ; i < size ; i + + ) {  <NL> item = ( combo item ) get item at ( i ) ;  <NL> if ( item . label . equals ( label ) )  <NL> return item . code ;  <NL>  }  <NL> return " " ;  <NL>  }  COM: <s> returns the code associated to the given label </s>

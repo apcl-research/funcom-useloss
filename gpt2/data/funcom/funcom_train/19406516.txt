@@ -1,0 +1,1 @@
+TDAT: public connection get connection ( string uid , string pwd ) throws sql exception {  <NL> string url = get path ( ) ;  <NL> url = text tools . replace ( url , " $ uid $ " , uid ) ;  <NL> url = text tools . replace ( url , " $ pwd $ " , pwd ) ;  <NL> return driver manager . get connection ( url , uid , pwd ) ;  <NL>  }  COM: <s> returns a new connection </s>

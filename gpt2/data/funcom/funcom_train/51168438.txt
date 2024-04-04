@@ -1,0 +1,1 @@
+TDAT: public void set alarm time ( date dt ) {  <NL> if ( get record ( ) ! = null & & get record ( ) . get start time ( ) ! = null & & dt ! = null )  <NL> set alarm gap ( ( get record ( ) . get start time ( ) . get time ( ) - dt . get time ( ) ) / 1000 ) ;  <NL>  }  COM: <s> this is a ostridge method does nothing </s>

@@ -1,0 +1,1 @@
+TDAT: protected void assert domain base ( domain base expected , domain base actual ) {  <NL> assert equals ( " wrong id . " , expected . get id ( ) , actual . get id ( ) ) ;  <NL> assert equals ( " wrong name . " , expected . get name ( ) , actual . get name ( ) ) ;  <NL>  }  COM: <s> asserts equality for code domain base code entities for the given </s>

@@ -1,0 +1,1 @@
+TDAT: private void set help page ( url help page ) {  <NL> if ( help page ! = this . help page ) {  <NL> url old help page = this . help page ;  <NL> this . help page = help page ;  <NL> this . property change support . fire property change ( property . help _ page . name ( ) , old help page , help page ) ;  <NL>  }  <NL>  }  COM: <s> sets the current page </s>

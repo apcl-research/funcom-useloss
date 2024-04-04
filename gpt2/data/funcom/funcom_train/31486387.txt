@@ -1,0 +1,1 @@
+TDAT: public void push back ( byte [ ] bytes ) {  <NL>  <NL> byte [ ] temp = new byte [ buffersize + bytes . length ] ;  <NL> system . arraycopy ( buffer , 0 , temp , 0 , buffersize ) ;  <NL> system . arraycopy ( bytes , 0 , temp , buffersize , bytes . length ) ;  <NL>  <NL>  }  COM: <s> pushes back some bytes </s>

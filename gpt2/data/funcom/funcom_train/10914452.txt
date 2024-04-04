@@ -1,0 +1,1 @@
+TDAT: public font select font for char ( char ch ) {  <NL> for ( int i = 0 , c = fonts . length ; i < c ; i + + ) {  <NL> if ( fonts [ i ] . has char ( ch ) ) {  <NL> return fonts [ i ] ;  <NL>  }  <NL>  }  <NL> return fonts [ 0 ] ; / / todo maybe fall back to painting with shapes <NL>  }  COM: <s> selects a font from the font list suitable to display the given character </s>

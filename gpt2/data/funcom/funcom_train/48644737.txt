@@ -1,0 +1,1 @@
+TDAT: private void add register context ( ) {  <NL> array list < integer > registers = new array list < integer > ( number _ of _ registers ) ;  <NL> for ( int i = 0 ; i < number _ of _ registers ; i + + ) {  <NL> registers . add ( new integer ( i ) ) ;  <NL>  }  <NL> this . free registers . add ( registers ) ;  <NL>  }  COM: <s> add a new registers context </s>

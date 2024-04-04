@@ -1,0 +1,1 @@
+TDAT: public void print ( print stream out ) {  <NL> if ( system id ! = null ) out . println ( " < ! doctype " + root node . get name ( ) + " system \ " " + system id + " \ " > " ) ;  <NL> if ( public id ! = null ) out . println ( " < ! doctype html public \ " " + public id + " \ " > " ) ;  <NL> print ( out , root node , " " ) ;  <NL>  }  COM: <s> prints this document </s>

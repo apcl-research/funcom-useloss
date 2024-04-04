@@ -1,0 +1,1 @@
+TDAT: private string get string for day ( int day ) {  <NL> if ( f dates = = null ) {  <NL> load dates ( ) ;  <NL>  }  <NL> for ( int i = 0 ; i < f dates . length ; i + + ) {  <NL> if ( f dates [ i ] . offset = = day ) {  <NL> return f dates [ i ] . string ;  <NL>  }  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> get the string at a specific offset </s>

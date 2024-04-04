@@ -1,0 +1,1 @@
+TDAT: public string get string ( int index ) throws json exception {  <NL> object object = get ( index ) ;  <NL> if ( object instanceof string ) {  <NL> return ( string ) object ;  <NL>  }  <NL> throw new json exception ( nls . bind ( " json array [ { 0 } ] not a string . " , index ) ) ; / / $ non - nls - 1 $  <NL>  }  COM: <s> get the string associated with an index </s>

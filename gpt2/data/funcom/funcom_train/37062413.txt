@@ -1,0 +1,1 @@
+TDAT: public string get string ( string key ) {  <NL> try {  <NL> return s dialog label . get string ( key ) ;  <NL>  } catch ( exception e ) {  <NL> logger . error ( " error getting key ' " + key + " ' in bundle ' " + bundlename + " ' : " + e . get message ( ) ) ;  <NL> return " ? ? ? " ;  <NL>  }  <NL>  }  COM: <s> returns the string for the given key for locale </s>

@@ -1,0 +1,1 @@
+TDAT: public void write to parcel ( parcel p , int flags ) {  <NL> check recycled ( " can ' t parcel a recycled bitmap " ) ;  <NL> if ( ! native write to parcel ( m native bitmap , m is mutable , m density , p ) ) {  <NL> throw new runtime exception ( " native write to parcel failed " ) ;  <NL>  }  <NL>  }  COM: <s> write the bitmap and its pixels to the parcel </s>

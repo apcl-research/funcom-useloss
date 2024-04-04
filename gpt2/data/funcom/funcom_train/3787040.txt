@@ -1,0 +1,1 @@
+TDAT: public string get field idx row datum ( int row , int field idx )  <NL>  { / * get field idx row datum * /  <NL> if ( field idx < 0 || row < 0 )  <NL> return ( null ) ;  <NL>  <NL> string s r = t data [ row ] [ field idx ] ;  <NL>  <NL> return ( s r ) ;  <NL>  } / * get field idx row datum * /  COM: <s> get field idx row datum get datum by field idx with row index </s>

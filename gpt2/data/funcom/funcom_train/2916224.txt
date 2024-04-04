@@ -1,0 +1,1 @@
+TDAT: public void remove file ( final i path file path ) {  <NL> check assertion ( " a workspace must be open " , f is open ) ; / / $ non - nls - 1 $  <NL> try {  <NL> f workspace . get root ( ) . get file ( file path ) . delete ( true , null ) ;  <NL>  } catch ( final core exception e ) {  <NL> handle ( e ) ;  <NL>  }  <NL>  }  COM: <s> remove a file </s>

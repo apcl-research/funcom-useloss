@@ -1,0 +1,1 @@
+TDAT: public string generate work type select box ( string name , list worktypes , int i size , string cur value ) {  <NL> list values = new array list ( ) ;  <NL> values . add ( cur value ) ;  <NL> return generate work type select box ( name , worktypes , i size , values , false ) ;  <NL>  }  COM: <s> worktype select box with multiple select disabled and one current value </s>

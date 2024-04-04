@@ -1,0 +1,1 @@
+TDAT: public int get batch limit ( ) {  <NL> int limit = super . get batch limit ( ) ;  <NL> if ( limit = = unlimited ) {  <NL> limit = default batch limit ;  <NL> if ( log . is trace enabled ( ) )  <NL> log . trace ( _ loc . get ( " batch _ unlimit " , string . value of ( limit ) ) ) ;  <NL>  }  <NL> return limit ;  <NL>  }  COM: <s> return the batch limit </s>

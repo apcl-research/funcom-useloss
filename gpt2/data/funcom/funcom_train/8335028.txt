@@ -1,0 +1,1 @@
+TDAT: private void set hid state ( hid state hid state ) {  <NL> system . out . println ( " some hid state is being set to " + hid state ) ;  <NL> hid state old hid state = this . hid state ;  <NL> this . hid state = hid state ;  <NL> property change support . fire property change ( prop _ hidstate , old hid state , hid state ) ;  <NL>  }  COM: <s> set the value of hid state </s>

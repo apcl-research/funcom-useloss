@@ -1,0 +1,1 @@
+TDAT: public boolean equals ( matrix b ) {  <NL> double [ ] [ ] x = a ;  <NL> boolean result = true ;  <NL> for ( int i = 0 ; i < m ; i + + ) {  <NL> for ( int j = 0 ; j < n ; j + + ) {  <NL> result & = ( x [ i ] [ j ] = = b . get ( i , j ) ) ;  <NL>  }  <NL>  }  <NL> return result ;  <NL>  }  COM: <s> compare two matrices </s>

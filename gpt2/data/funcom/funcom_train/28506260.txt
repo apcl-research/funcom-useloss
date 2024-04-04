@@ -1,0 +1,1 @@
+TDAT: private void set rail dock ( ) {  <NL>  <NL> raildock . set position ( 0 . 0f , 0 . 0f , 0 . 0f ) ;  <NL> raildock . set color ( 0 . 4f , 0 . 4f , 0 . 4f ) ;  <NL> raildock . set size ( 3 . 0f , 0 . 0f , 157 . 0f ) ;  <NL>  }  COM: <s> sets some roads around the storage field </s>

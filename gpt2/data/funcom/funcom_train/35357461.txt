@@ -1,0 +1,1 @@
+TDAT: private void set width ( int c width ) throws jjil . core . error {  <NL> if ( c width < = 0 ) {  <NL> throw new error (  <NL> error . package . algorithm ,  <NL> error codes . output _ image _ size _ negative ,  <NL> new integer ( c width ) . to string ( ) ,  <NL> null ,  <NL> null ) ;  <NL>  }  <NL> this . c width = c width ;  <NL>  }  COM: <s> changes target width </s>

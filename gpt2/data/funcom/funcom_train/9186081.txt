@@ -1,0 +1,1 @@
+TDAT: public class symbol define class ( name name , symbol owner ) {  <NL> class symbol c = new class symbol ( 0 , name , owner ) ;  <NL> if ( owner . kind = = pck )  <NL> assert . check null ( classes . get ( c . flatname ) , c ) ;  <NL> c . completer = this ;  <NL> return c ;  <NL>  }  COM: <s> define a new class given its name and owner </s>

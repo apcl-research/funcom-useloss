@@ -1,0 +1,1 @@
+TDAT: public boolean contains ( int x , int y ) {  <NL> return ( ( this . width > 0 ) & & ( this . height > 0 ) & &  <NL>  ( x > = this . x ) & & ( y > = this . y ) & &  <NL>  ( ( x - this . x ) < width ) & & ( ( y - this . y ) < height ) ) ;  <NL>  }  COM: <s> checks whether or not this code rectangle code contains the </s>

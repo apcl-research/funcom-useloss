@@ -1,0 +1,1 @@
+TDAT: public string to string ( boolean with mem ) {  <NL> string buffer sb = new string buffer ( ) ;  <NL> sb . append ( count + " \t " + elapsed + " \t " + get rate ( ) ) ;  <NL> if ( with mem ) sb . append ( " \t " + free mem + " \t " + total mem ) ;  <NL> return sb . to string ( ) ;  <NL>  }  COM: <s> return a tab seprated string containing this data </s>

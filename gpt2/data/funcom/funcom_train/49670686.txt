@@ -1,0 +1,1 @@
+TDAT: private void create label version ( ) {  <NL> label version = new label ( shell , swt . none ) ;  <NL> label version . set text ( " version : " ) ;  <NL> label version . set font ( shared style . font _ bold ) ;  <NL> label version . set layout data ( shared style . relative to ( label app slogan , logo ) ) ;  <NL>  }  COM: <s> creates label that says version </s>

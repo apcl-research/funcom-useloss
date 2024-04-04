@@ -1,0 +1,1 @@
+TDAT: public void add child ( scene node node ) {  <NL>  <NL> if ( children . contains ( node ) ) {  <NL> log . warning ( " scene node : child node ' " + node . get name ( ) + " ' already exists in ' " + name + " ' " ) ;  <NL> return ;  <NL>  }  <NL>  <NL> children . add ( node ) ;  <NL> node . parents . add ( this ) ;  <NL>  }  COM: <s> add given node to neighbor nodes </s>

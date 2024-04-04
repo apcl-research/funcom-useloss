@@ -1,0 +1,1 @@
+TDAT: public void merge ( localizer localizer ) {  <NL> iterator entry iter = localizer . props . entry set ( ) . iterator ( ) ;  <NL> while ( entry iter . has next ( ) ) {  <NL> map . entry entry = ( map . entry ) entry iter . next ( ) ;  <NL> props . put ( entry . get key ( ) , entry . get value ( ) ) ;  <NL>  }  <NL>  }  COM: <s> adds in all of the keys from the given </s>

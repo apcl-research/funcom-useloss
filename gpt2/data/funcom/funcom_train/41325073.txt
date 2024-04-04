@@ -1,0 +1,1 @@
+TDAT: public void apply ( vector x , int i1 , int i2 ) {  <NL> double temp = c * x . get ( i1 ) + s * x . get ( i2 ) ;  <NL> x . set ( i2 , - s * x . get ( i1 ) + c * x . get ( i2 ) ) ;  <NL> x . set ( i1 , temp ) ;  <NL>  }  COM: <s> applies the givens rotation to two elements of a vector </s>

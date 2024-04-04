@@ -1,0 +1,1 @@
+TDAT: private string get beautified name ( object o ) {  <NL> string name = model . get facade ( ) . get name ( o ) ;  <NL> if ( name = = null || name . equals ( " " ) ) {  <NL> name = " ( anon " + model . get facade ( ) . get uml class name ( o ) + " ) " ;  <NL>  }  <NL> return name ;  <NL>  }  COM: <s> returns a beautified name to show in the name text box </s>

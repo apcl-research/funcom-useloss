@@ -1,0 +1,1 @@
+TDAT: public card get attacker blocked by ( card blocker ) {  <NL> card list att = new card list ( get attackers ( ) ) ;  <NL>  <NL> for ( int i = 0 ; i < att . size ( ) ; i + + ) {  <NL> if ( get blockers ( att . get ( i ) ) . contains ( blocker ) ) return att . get ( i ) ;  <NL>  } / / for <NL>  <NL> return null ;  <NL>  }  COM: <s> p get attacker blocked by </s>

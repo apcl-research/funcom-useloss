@@ -1,0 +1,1 @@
+TDAT: public void skip ( int bits ) throws access exception {  <NL> if ( ( m pos + bits ) > m end ) {  <NL> throw new access exception ( " illegal skip " +  <NL>  " ( pos " + m pos + " , end " + m end + " , bits " + bits + " ) " ) ;  <NL>  }  <NL> m pos + = bits ;  <NL>  }  COM: <s> increment the current position and ignore contained data </s>

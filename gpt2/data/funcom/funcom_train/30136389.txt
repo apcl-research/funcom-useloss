@@ -1,0 +1,1 @@
+TDAT: / / public o auth consumer key secret apply ( string identity ) {  <NL>  / / string key = fixed identity ;  <NL>  / / string secret = string gen ( this . secret len ) ;  <NL>  / / o auth consumer consumer = new o auth consumer ( " " , key , secret , sp ) ;  <NL>  / / return consumer ;  <NL>  / / }  COM: <s> apply for a key secret pair </s>

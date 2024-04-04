@@ -1,0 +1,1 @@
+TDAT: public bounding box dto intersect ( bounding box dto b ) {  <NL> return new bounding box dto ( math . max ( x1 , b . x1 ) , math . max ( y1 , b . y1 ) , math . min ( x2 , b . x2 ) , math . min ( y2 , b . y2 ) ) ;  <NL>  }  COM: <s> calculates the intersection of this bounding box dto with given </s>

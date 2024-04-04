@@ -1,0 +1,1 @@
+TDAT: private void create db ( file db to create ) throws class not found exception , sql exception {  <NL> class . for name ( " org . hsqldb . jdbc driver " ) ;  <NL> conn = driver manager . get connection ( " jdbc : hsqldb : file : " + db to create . get absolute path ( ) , " sa " , " " ) ;  <NL>  }  COM: <s> creates a database file by connecting to a non existent one </s>

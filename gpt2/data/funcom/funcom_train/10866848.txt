@@ -1,0 +1,1 @@
+TDAT: public int stem suffix ( char s [ ] , int len ) {  <NL> for ( int i = 0 ; i < suffixes . length ; i + + )  <NL> if ( ends with check length ( s , len , suffixes [ i ] ) )  <NL> len = delete n ( s , len - suffixes [ i ] . length , len , suffixes [ i ] . length ) ;  <NL> return len ;  <NL>  }  COM: <s> stem suffix es off an arabic word </s>

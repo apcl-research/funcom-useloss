@@ -1,0 +1,1 @@
+TDAT: private void delete ( list < simple crud portlet . contact > list , int contact id ) {  <NL> for ( int i = list . size ( ) - 1 ; i > = 0 ; i - - ) {  <NL> simple crud portlet . contact c = list . get ( i ) ;  <NL> if ( c . contact id = = contact id ) {  <NL> list . remove ( i ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> delete contact by id </s>

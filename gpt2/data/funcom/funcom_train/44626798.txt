@@ -1,0 +1,1 @@
+TDAT: public void test forward reference2 ( ) {  <NL> add mock file ( " $ a / a . jml " , " public class a { } \n / / @ model class b { int b = c ; int c = 0 ; } \n\n " ) ;  <NL> help tcf ( " a . java " , " public class a { } "  <NL>  , " / $ a / a . jml : 2 : illegal forward reference " , 29 <NL>  ) ;  <NL>  }  COM: <s> forward reference in model class </s>

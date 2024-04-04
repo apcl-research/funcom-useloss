@@ -1,0 +1,1 @@
+TDAT: public void add field ( string field name , string type , short flags ) {  <NL> short field name index = its constant pool . add utf8 ( field name ) ;  <NL> short type index = its constant pool . add utf8 ( type ) ;  <NL> its fields . add ( new class file field ( field name index , type index , flags ) ) ;  <NL>  }  COM: <s> add a field to the class </s>

@@ -1,0 +1,1 @@
+TDAT: private boolean _ has ( matrix in , double check x , double check y ) {  <NL> for ( int row = 0 ; row < in . get row count ( ) ; row + + )  <NL> if ( check x = = in . get as double ( row , 0 ) & & check y = = in . get as double ( row , 1 ) )  <NL> return true ;  <NL> return false ;  <NL>  }  COM: <s> tests if the coordinate check x check y is in matrix in </s>

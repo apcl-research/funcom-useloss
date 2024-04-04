@@ -1,0 +1,1 @@
+TDAT: public void test rq071 ( ) throws exception {  <NL> jaxbgen ( " rq071 " , new file ( cob _ xsd _ dir , " rq071cicseci binding . xsd " ) ,  <NL> true , 1l , true , null , null , null , null , true , false ) ;  <NL> check ( " rq071 " ) ;  <NL>  }  COM: <s> an eci compatibility case </s>

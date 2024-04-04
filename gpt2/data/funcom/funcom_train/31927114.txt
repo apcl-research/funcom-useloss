@@ -1,0 +1,1 @@
+TDAT: public void put all ( multi key hashtable p hash ) {  <NL> iterator key iter = p hash . key set ( ) . iterator ( ) ;  <NL> while ( key iter . has next ( ) ) {  <NL> string [ ] keys = ( string [ ] ) key iter . next ( ) ;  <NL> this . put ( keys , p hash . get ( keys ) ) ;  <NL>  }  <NL>  }  COM: <s> copies all of the mappings from the specified multi key hashtable to </s>

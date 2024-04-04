@@ -1,0 +1,1 @@
+TDAT: public double get sum ( ) {  <NL> double res = 0 . 0 ;  <NL>  <NL> synchronized ( _ data points ) {  <NL> for ( iterator i = _ data points . iterator ( ) ; i . has next ( ) ; ) {  <NL> data point pt = ( data point ) i . next ( ) ;  <NL> res + = pt . get value ( ) ;  <NL>  }  <NL>  }  <NL> return res ;  <NL>  }  COM: <s> get a sum of all the encapsulated data points </s>

@@ -1,0 +1,1 @@
+TDAT: public int compare ( object s1 , object s2 ) {  <NL> int ret = super . compare ( s1 , s2 ) ;  <NL> if ( ret ! = 0 ) return ret ;  <NL> if ( order ! = null )  <NL> return order . compare ( s1 , s2 ) ;  <NL> return s1 . hash code ( ) - s2 . hash code ( ) ;  <NL>  }  COM: <s> compare two objects using this objects comparator </s>

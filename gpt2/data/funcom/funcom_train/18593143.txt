@@ -1,0 +1,1 @@
+TDAT: public void paint ( graphics g ) {  <NL> color c = awt . alpha ( get component ( ) . get background ( ) , 128 ) ;  <NL> rectangle r = get decoration bounds ( ) ;  <NL> g = g . create ( ) ;  <NL> g . set color ( c ) ;  <NL> g . fill rect ( r . x , r . y , r . width , r . height ) ;  <NL> g . dispose ( ) ;  <NL>  }  COM: <s> the default dims the blocked component </s>

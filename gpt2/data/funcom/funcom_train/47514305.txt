@@ -1,0 +1,1 @@
+TDAT: public colt matrix mult ( matrix b ) {  <NL>  / / note could use cern . colt . matrix . linalg . algebral . mult ( a , b ) instead <NL> return new colt matrix ( colt mat . z mult ( ( ( colt matrix ) b ) . colt mat , null ,  <NL> 1 , 0 , false , false ) ) ;  <NL>  }  COM: <s> required b is a colt matrix </s>

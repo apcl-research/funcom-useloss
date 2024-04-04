@@ -1,0 +1,1 @@
+TDAT: public void add parameter ( string param _ name , string param _ value )  <NL>  { if ( param _ value . index of ( ' " ' ) < 0 & & is quoted parameter ( param _ name ) ) add quoted parameter ( param _ name , param _ value ) ;  <NL> else add unquoted parameter ( param _ name , param _ value ) ;  <NL>  }  COM: <s> adds a parameter </s>

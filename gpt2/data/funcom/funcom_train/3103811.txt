@@ -1,0 +1,1 @@
+TDAT: public void show helper ( key event e ) {  <NL> if ( helper = = null ) return ;  <NL>  <NL> j formatted text field ob = ( j formatted text field ) ( e . get source ( ) ) ;  <NL> java . awt . dimension d = ob . get size ( ) ;  <NL> helper . request focus in window ( ) ;  <NL> helper . show ( ob , 0 , d . height ) ;  <NL>  }  COM: <s> displays the helper popup screen </s>

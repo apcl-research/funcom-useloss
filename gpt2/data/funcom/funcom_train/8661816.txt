@@ -1,0 +1,1 @@
+TDAT: protected void cache ct class ( string classname , ct class c , boolean dynamic ) {  <NL> if ( dynamic ) {  <NL> super . cache ct class ( classname , c , dynamic ) ;  <NL>  }  <NL> else {  <NL> if ( repository . is prune ( ) )  <NL> c . prune ( ) ;  <NL> softcache . put ( classname , c ) ;  <NL>  }  <NL>  }  COM: <s> cache a class </s>

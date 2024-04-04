@@ -1,0 +1,1 @@
+TDAT: public boolean set width ( double width ) {  <NL> view . set node double property ( root graph index ,  <NL> p graph view . node _ width ,  <NL> width ) ;  <NL>  / / set bounds ( get x ( ) , get y ( ) , width , get height ( ) ) ;  <NL> super . set width ( width ) ;  <NL> return true ;  <NL>  }  COM: <s> todo reconcile with border methods </s>

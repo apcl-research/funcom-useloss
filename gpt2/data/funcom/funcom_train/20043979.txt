@@ -1,0 +1,1 @@
+TDAT: public void _ first ( ) {  <NL> try {  <NL> o obj . first ( ) ;  <NL>  } catch ( sql exception e ) {  <NL> log . println ( " exception occured : " ) ;  <NL> e . print stack trace ( log ) ;  <NL> t res . tested ( " first ( ) " , false ) ;  <NL> return ;  <NL>  }  <NL> t res . tested ( " first ( ) " , true ) ;  <NL>  }  COM: <s> places the cursor on the first row </s>

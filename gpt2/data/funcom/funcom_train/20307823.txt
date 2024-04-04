@@ -1,0 +1,1 @@
+TDAT: private int find vars ( functor f , int max in ) {  <NL> int max = max in ;  <NL> node [ ] args = f . get args ( ) ;  <NL> for ( int i = 0 ; i < args . length ; i + + ) {  <NL> if ( args [ i ] . is variable ( ) ) max = max var index ( args [ i ] , max ) ;  <NL>  }  <NL> return max ;  <NL>  }  COM: <s> find all the variables in a functor </s>

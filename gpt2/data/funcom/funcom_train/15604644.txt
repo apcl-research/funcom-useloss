@@ -1,0 +1,1 @@
+TDAT: private boolean is in list already ( oid id , list list ) {  <NL> for ( int i = 0 ; i < list . size ( ) ; i + + ) {  <NL> oid temp = ( ( feature ) ( list . get ( i ) ) ) . get oid ( ) ;  <NL> if ( temp . equals ( id ) ) {  <NL> return true ;  <NL>  }  <NL>  }  <NL> return false ;  <NL>  }  COM: <s> this method is written to remove the duplicate elements </s>

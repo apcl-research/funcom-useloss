@@ -1,0 +1,1 @@
+TDAT: public void put ( field key , id value value ) {  <NL> int index = index of ( key ) ;  <NL> if ( index = = - 1 ) {  <NL> ensure capacity ( f size ) ;  <NL> index = f size + + ;  <NL> f entries [ index ] . key = key ;  <NL>  }  <NL> f entries [ index ] . value = value ;  <NL>  } / / put ( field , string )  COM: <s> puts an entry into the hashtable </s>

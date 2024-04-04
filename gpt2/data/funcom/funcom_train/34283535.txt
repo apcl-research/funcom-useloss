@@ -1,0 +1,1 @@
+TDAT: public void set request property ( string name , string value ) {  <NL> headers . add ( new basic header ( name , value ) ) ;  <NL>  / / post . add header ( name , value ) ;  <NL>  / / default parameters . set parameter ( name , value ) ;  <NL>  / / post . set header ( name , value ) ;  <NL>  }  COM: <s> set properties on the outgoing connection </s>

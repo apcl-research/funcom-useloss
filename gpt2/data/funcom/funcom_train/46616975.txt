@@ -1,0 +1,1 @@
+TDAT: private j menu bar get main menu bar ( ) {  <NL> if ( main menu bar = = null ) {  <NL> main menu bar = new j menu bar ( ) ;  <NL> main menu bar . add ( get file menu ( ) ) ;  <NL> main menu bar . add ( get extra menu ( ) ) ;  <NL> main menu bar . add ( get info menu ( ) ) ;  <NL>  }  <NL> return main menu bar ;  <NL>  }  COM: <s> this method initializes main menu bar </s>

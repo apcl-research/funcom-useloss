@@ -1,0 +1,1 @@
+TDAT: private file create temp copy ( file anticipator fa , file source dir , file dest dir , string file ) throws exception {  <NL> file utils . copy file ( new file ( source dir , file ) , new file ( dest dir , file ) ) ;  <NL> return fa . expecting ( dest dir , file ) ;  <NL>  }  COM: <s> copys source dir relative file path to dest dir relative file path </s>

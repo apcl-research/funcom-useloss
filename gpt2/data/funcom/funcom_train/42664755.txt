@@ -1,0 +1,1 @@
+TDAT: public void build ( packet p , int dst ip , int port ) {  <NL>  <NL> int src ip = p . interf . get ip address ( ) ;  <NL> if ( src ip = = 0 ) { / / interface is down <NL> ejip . return packet ( p ) ; / / mark packet free <NL>  } else {  <NL> build ( p , src ip , dst ip , port ) ;  <NL>  }  <NL>  }  COM: <s> get source ip from interface and build ip udp header </s>

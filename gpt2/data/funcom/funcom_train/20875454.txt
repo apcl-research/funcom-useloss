@@ -1,0 +1,1 @@
+TDAT: public int index of ( string name ) {  <NL> try {  <NL> int idx = 0 ;  <NL> for ( term t : i content ) {  <NL> if ( t . get text ( ) ! = null & & t . get text ( ) . equals ( name ) )  <NL> return idx ;  <NL> idx + + ;  <NL>  }  <NL> return - 1 ;  <NL>  } catch ( exception e ) {  <NL> return - 1 ;  <NL>  }  <NL>  }  COM: <s> index of element of content named name </s>

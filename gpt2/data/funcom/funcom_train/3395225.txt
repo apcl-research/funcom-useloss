@@ -1,0 +1,1 @@
+TDAT: public void accept ( token token ) {  <NL> if ( s . token ( ) = = token ) {  <NL> s . next token ( ) ;  <NL>  } else {  <NL> set error end pos ( s . pos ( ) ) ;  <NL> report syntax error ( s . prev end pos ( ) , " expected " , keywords . token2string ( token ) ) ;  <NL>  }  <NL>  }  COM: <s> if next input token matches given token skip it otherwise report </s>

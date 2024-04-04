@@ -1,0 +1,1 @@
+TDAT: public void add paint idx ( int idx ) {  <NL> synchronized ( get tree lock ( ) ) {  <NL> paint end idx = math . max ( paint end idx , idx ) ;  <NL> if ( paint start idx < 0 ) {  <NL> paint start idx = idx ;  <NL>  }  <NL> else {  <NL> paint start idx = math . min ( paint start idx , idx ) ;  <NL>  }  <NL>  <NL>  }  <NL>  }  COM: <s> add paint idx </s>

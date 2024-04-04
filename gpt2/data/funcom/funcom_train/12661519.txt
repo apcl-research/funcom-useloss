@@ -1,0 +1,1 @@
+TDAT: public void help ( ) {  <NL> final help formatter formatter = new help formatter ( ) ;  <NL> formatter . print help ( 80 ,  <NL>  " ctl - archive - a < create|extract > - f < file > [ - p < project > | - d < dir > ] " ,  <NL>  " options : " ,  <NL> options ,  <NL>  " " ) ;  <NL>  }  COM: <s> writes help message to implementation specific output channel </s>

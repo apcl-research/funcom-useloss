@@ -1,0 +1,1 @@
+TDAT: protected string get flag usage ( ) {  <NL> string buffer sb = new string buffer ( ) ;  <NL> sb . append ( long _ flag _ prefix ) . append ( get name ( ) ) ;  <NL> if ( get parameter type ( ) ! = null ) {  <NL> sb . append ( ' = ' ) . append ( get parameter description ( ) ) ;  <NL>  }  <NL> return sb . to string ( ) ;  <NL>  }  COM: <s> make a usage string </s>

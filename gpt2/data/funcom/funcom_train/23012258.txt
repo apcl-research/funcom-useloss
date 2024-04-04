@@ -1,0 +1,1 @@
+TDAT: public xml element get xml ( ) {  <NL> xml element root = null ;  <NL> if ( type = = op _ pr _ sp _ bbox ) {  <NL> root = new xml element ( name ) ;  <NL> root . add child element ( el _ prop _ name , property name ) ;  <NL> root . add child ( get gml box ( bbox ) ) ;  <NL>  }  <NL> return root ;  <NL>  }  COM: <s> constructs an xml that corresponds to the operation </s>

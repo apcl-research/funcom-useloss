@@ -1,0 +1,1 @@
+TDAT: public string get text ( document doc ) {  <NL> string text = null ;  <NL> try {  <NL> text = doc . get text ( start , length ) ;  <NL>  } catch ( bad location exception ex ) {  <NL> logger . get logger ( token . class . get name ( ) ) . log ( level . severe , null , ex ) ;  <NL>  }  <NL> return text ;  <NL>  }  COM: <s> get the text of the token from this document </s>

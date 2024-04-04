@@ -1,0 +1,1 @@
+TDAT: public void draw ( pnt end a , pnt end b ) {  <NL> g . draw line ( ( int ) end a . coord ( 0 ) , ( int ) end a . coord ( 1 ) ,  <NL>  ( int ) end b . coord ( 0 ) , ( int ) end b . coord ( 1 ) ) ;  <NL>  }  COM: <s> draw a line segment </s>

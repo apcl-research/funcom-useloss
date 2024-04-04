@@ -1,0 +1,1 @@
+TDAT: public void replace roles ( role [ ] a roles ) {  <NL> if ( a roles = = null ) throw new illegal argument exception ( " roles can not be null " ) ;  <NL> roles . clear ( ) ;  <NL> for ( int i = 0 ; i < a roles . length ; i + + ) {  <NL> roles . add ( a roles [ i ] ) ;  <NL>  }  <NL>  }  COM: <s> replaces the roles with given roles </s>

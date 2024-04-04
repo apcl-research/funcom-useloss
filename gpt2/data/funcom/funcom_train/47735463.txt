@@ -1,0 +1,1 @@
+TDAT: public void print ( vector g ) {  <NL> system . out . println ( " lat lon " ) ;  <NL> for ( int i = 0 ; i < g . size ( ) ; i + + ) {  <NL> system . out . println ( ( ( grid point ) g . element at ( i ) ) . lat + " " +  <NL>  ( ( grid point ) g . element at ( i ) ) . lon ) ;  <NL>  }  <NL>  }  COM: <s> display a list of grid points </s>

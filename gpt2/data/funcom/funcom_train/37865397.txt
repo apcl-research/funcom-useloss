@@ -1,0 +1,1 @@
+TDAT: public void release ( ) {  <NL> try {  <NL> if ( channel . is open ( ) )  <NL> channel . close ( ) ;  <NL> channel = null ;  <NL>  } catch ( exception e ) {  <NL> message ( " failed to close lock file " , e ) ;  <NL>  }  <NL> log . info ( " deleting lock file : " + lock file . get absolute path ( ) ) ;  <NL> lock file . delete ( ) ;  <NL>  }  COM: <s> release the lock </s>

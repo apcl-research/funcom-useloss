@@ -1,0 +1,1 @@
+TDAT: public void add time slot ( string course _ code , int day , int start _ time , int end _ time , string location ) throws invalid operation exception {  <NL> time slot slot = new time slot ( course _ code , " " , day , start _ time , end _ time , location ) ;  <NL>  <NL> add time slot ( slot ) ;  <NL>  }  COM: <s> adds a new time slot to the timetable </s>

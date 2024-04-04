@@ -1,0 +1,1 @@
+TDAT: public int compare to ( object o ) {  <NL> if ( o = = null || o . get class ( ) ! = svn node kind . class ) {  <NL> return - 1 ;  <NL>  }  <NL> int other id = ( ( svn node kind ) o ) . my id ;  <NL> return my id > other id ? 1 : my id < other id ? - 1 : 0 ;  <NL>  }  COM: <s> compares this object with another one </s>

@@ -1,0 +1,1 @@
+TDAT: / * public void add comment ( string text ) {  <NL> comment c = new comment ( client ) ;  <NL> c . set text ( text , generic character . get local character ( ) ) ;  <NL> string list item sli = new string list item ( c . get object id ( ) . to string ( ) ) ;  <NL> table . put ( sli , c ) ;  <NL> comments . add item ( sli ) ;  <NL>  }  COM: <s> adds a comment </s>

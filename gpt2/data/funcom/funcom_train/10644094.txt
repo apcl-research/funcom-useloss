@@ -1,0 +1,1 @@
+TDAT: public void set position ( final component c , final int position ) {  <NL> int layer = get layer ( c ) ;  <NL> int index = get index of ( c ) ;  <NL> if ( index = = - 1 ) {  <NL>  / / do nothing if c is not in the container <NL> return ;  <NL>  }  <NL> set layer ( c , layer , position ) ;  <NL>  }  COM: <s> sets the position of the component inside its layer </s>

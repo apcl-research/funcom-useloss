@@ -1,0 +1,1 @@
+TDAT: private string create widget id ( int i ) {  <NL> string buffer id = new string buffer ( ) ;  <NL> id . append ( renderer . get editor model ( ) . get class ( ) . get name ( ) ) ;  <NL> id . append ( renderer . get client ( ) . get class ( ) . get name ( ) ) ;  <NL> id . append ( i ) ;  <NL> return id . to string ( ) ;  <NL>  }  COM: <s> create id for widget </s>

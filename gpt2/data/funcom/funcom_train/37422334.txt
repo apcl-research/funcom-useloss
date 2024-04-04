@@ -1,0 +1,1 @@
+TDAT: public tool find tool by id ( long p id ) throws class not found exception , sql exception {  <NL> vector t vect = find tool by query ( " select * from tool where id _ tool = " + p id ) ;  <NL>  <NL> if ( t vect . size ( ) > 0 )  <NL> return ( tool ) t vect . first element ( ) ;  <NL> else <NL> return null ;  <NL>  }  COM: <s> finds a tool in the database using its id </s>

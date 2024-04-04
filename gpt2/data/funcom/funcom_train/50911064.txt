@@ -1,0 +1,1 @@
+TDAT: public void set min ( int min ) {  <NL> for ( int i = 0 ; i < nelem ; i + + ) {  <NL> if ( array [ i ] < min ) {  <NL> throw new euclid runtime exception ( " element in set ( " + array [ i ]  <NL>  + " ) less than new max ( " + max + s _ rbrak ) ;  <NL>  }  <NL>  }  <NL> this . min = min ;  <NL>  }  COM: <s> set minimum allowed value </s>

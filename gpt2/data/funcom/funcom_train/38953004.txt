@@ -1,0 +1,1 @@
+TDAT: private node substitute ( node p , final node e , final node v ) {  <NL> return new node translator ( ) {  <NL> public node translate ( node node , object o ) {  <NL> if ( node = = e ) {  <NL> return v ;  <NL>  }  <NL> return super . translate ( node , o ) ;  <NL>  }  <NL>  } . translate ( p , null ) ;  <NL>  }  COM: <s> substitutes the subtree e in p for the node v </s>

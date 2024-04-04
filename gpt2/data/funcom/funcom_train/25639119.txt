@@ -1,0 +1,1 @@
+TDAT: public content get nav link previous ( string prev ) {  <NL> content li ;  <NL> if ( prev ! = null ) {  <NL> li = html tree . li ( get hyper link ( prev , " " , prev label , " " , " " ) ) ;  <NL>  }  <NL> else <NL> li = html tree . li ( prev label ) ;  <NL> return li ;  <NL>  }  COM: <s> get link for previous file </s>

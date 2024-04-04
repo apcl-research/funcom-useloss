@@ -1,0 +1,1 @@
+TDAT: public void set items ( list < t > the items ) {  <NL> if ( the items = = null ) the items = new array list < t > ( ) ;  <NL> items = the items ;  <NL> set model ( ) ;  <NL> if ( items . size ( ) > 0 )  <NL> get panel ( ) . get list ( get component names ( ) [ component ] ) . set selected index ( 0 ) ;  <NL>  }  COM: <s> set the items that are being edited </s>

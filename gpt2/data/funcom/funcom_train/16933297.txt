@@ -1,0 +1,1 @@
+TDAT: public void make var ( ) {  <NL> myvars = new integer variable [ x ] [ y ] ;  <NL> for ( int i = 0 ; i < x ; i + + )  <NL> for ( int j = 0 ; j < y ; j + + )  <NL> myvars [ i ] [ j ] = make int var ( " var " + i + " " + j + " " , 0 , 1 ) ;  <NL>  <NL>  }  COM: <s> creates the choco variable </s>

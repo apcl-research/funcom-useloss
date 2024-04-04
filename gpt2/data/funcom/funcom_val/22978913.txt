@@ -1,0 +1,1 @@
+TDAT: private boolean is type in list ( string type ) {  <NL> for ( iterator i = types we are looking for . iterator ( ) ; i . has next ( ) ; ) {  <NL> i type current = ( i type ) i . next ( ) ;  <NL> if ( current . get fully qualified name ( ) . equals ( type ) )  <NL> return true ;  <NL>  }  <NL> return false ;  <NL>  }  COM: <s> checks whether a type is in the list </s>

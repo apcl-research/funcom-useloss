@@ -1,0 +1,1 @@
+TDAT: public void reverse ( ) {  <NL> py object tmp ;  <NL> int n = length ;  <NL> py object [ ] list = this . list ;  <NL> int j = n - 1 ;  <NL> for ( int i = 0 ; i < n / 2 ; i + + , j - - ) {  <NL> tmp = list [ i ] ;  <NL> list [ i ] = list [ j ] ;  <NL> list [ j ] = tmp ;  <NL>  }  <NL>  }  COM: <s> reverses the items of s in place </s>

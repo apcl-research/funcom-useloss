@@ -1,0 +1,1 @@
+TDAT: public void set request object ( string name , object o ) {  <NL> if ( parameters . contains key ( name ) & & ( o = = null ) ) {  <NL> parameters . remove ( name ) ;  <NL>  }  <NL>  <NL> if ( ( o ! = null ) & & ( name ! = null ) ) {  <NL> parameters . put ( name , o ) ;  <NL>  }  <NL>  }  COM: <s> sets request objects </s>

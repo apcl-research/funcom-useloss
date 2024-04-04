@@ -1,0 +1,1 @@
+TDAT: public v get ( k key ) throws invalid key exception {  <NL> int i = find entry ( key ) ; / / helper method for finding a key <NL> if ( i < 0 ) return null ; / / there is no value for this key , so reutrn null <NL> return bucket [ i ] . get value ( ) ; / / return the found value in this case <NL>  }  COM: <s> returns the value associated with a key </s>

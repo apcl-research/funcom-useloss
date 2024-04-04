@@ -1,0 +1,1 @@
+TDAT: public void object created ( jvm jvm ) {  <NL> thread info ti = jvm . get last thread info ( ) ;  <NL> element info ei = jvm . get last element info ( ) ;  <NL> system . out . println ( " object created : " + ti . get index ( ) + " , " +  <NL> ei . get class info ( ) . get name ( ) + " = " + ei . get index ( ) ) ;  <NL>  }  COM: <s> new object was created </s>

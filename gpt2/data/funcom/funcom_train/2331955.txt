@@ -1,0 +1,1 @@
+TDAT: public int index of from to ( short element , int from , int to ) {  <NL> check range from to ( from , to , size ) ;  <NL>  <NL> for ( int i = from ; i < = to ; i + + ) {  <NL> if ( element = = get quick ( i ) )  <NL> return i ; / / found <NL>  }  <NL> return - 1 ; / / not found <NL>  }  COM: <s> returns the index of the first occurrence of the specified element </s>

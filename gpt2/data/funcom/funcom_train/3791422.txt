@@ -1,0 +1,1 @@
+TDAT: public void fill map ( filler fil , int layer ) {  <NL> for ( int i = 0 ; i < _ w ; i + + ) { / / i = width <NL> for ( int j = 0 ; j < _ h ; j + + ) { / / j = height <NL>  _ cell [ i ] [ j ] . set filler ( fil , layer ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> filler the whole map with the given filler </s>

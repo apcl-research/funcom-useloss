@@ -1,0 +1,1 @@
+TDAT: private url make geo url ( double lat , double lon ) throws malformed url exception {  <NL> string builder url = new string builder ( ) ;  <NL> url . append ( url _ geo _ string ) . append ( lat ) . append ( " , " ) . append ( lon ) ;  <NL> return new url ( url . to string ( ) ) ;  <NL>  }  COM: <s> prepares the url to connect to the reverse geocoding server from the </s>

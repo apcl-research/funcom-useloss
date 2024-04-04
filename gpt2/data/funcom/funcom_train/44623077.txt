@@ -1,0 +1,1 @@
+TDAT: protected void pushback ( string dirs , list < string > todo ) {  <NL> string [ ] array = dirs . split ( java . io . file . path separator ) ;  <NL> for ( int i = array . length - 1 ; i > = 0 ; - - i ) {  <NL> todo . add ( 0 , array [ i ] ) ;  <NL>  }  <NL>  }  COM: <s> this method is used internally to parse the directory path given in the </s>

@@ -1,0 +1,1 @@
+TDAT: private j label create top label ( string a string ) {  <NL> j label lab = new j label ( a string ) ;  <NL> lab . set font ( new font ( " sans serif " , font . plain , 10 ) ) ;  <NL> empty border e border = new empty border ( 0 , 5 , 0 , 5 ) ;  <NL> lab . set border ( e border ) ;  <NL> return lab ;  <NL>  }  COM: <s> method create top label </s>

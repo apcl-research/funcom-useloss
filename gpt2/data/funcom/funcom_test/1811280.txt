@@ -1,0 +1,1 @@
+TDAT: protected void remove row ( int row ) {  <NL> int column count = get cell count ( row ) ;  <NL> for ( int column = 0 ; column < column count ; + + column ) {  <NL> clean cell ( row , column ) ;  <NL>  }  <NL> dom . remove child ( body elem , dom . get child ( body elem , row ) ) ;  <NL>  }  COM: <s> removes the specified row from the table </s>

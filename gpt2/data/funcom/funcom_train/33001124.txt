@@ -1,0 +1,1 @@
+TDAT: public string get info ( )  <NL>  {  <NL> return " web log url : \n "  <NL>  + " server : " + server + " \n "  <NL>  + " port : " + port + " \n "  <NL>  + " protocol : " + protocol + " \n "  <NL>  + " path : " + path + " \n "  <NL>  + " action : " + action + " \n "  <NL>  + " parameters : " + parameters + " \n " ;  <NL>  }  COM: <s> gets the url data information </s>

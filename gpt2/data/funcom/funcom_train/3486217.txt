@@ -1,0 +1,1 @@
+TDAT: public void server args ( string [ ] sargv ) throws io exception {  <NL> for ( int i = 0 ; i < sargv . length ; i + + ) {  <NL> out . write ( ( sargv [ i ] + " \n " ) . get bytes ( " us - ascii " ) ) ;  <NL>  }  <NL>  / / out . write ( ( byte ) ' \n ' ) ;  <NL>  }  COM: <s> send the server args </s>

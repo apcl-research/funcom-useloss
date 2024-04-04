@@ -1,0 +1,1 @@
+TDAT: public vix vm handle open vm ( string vmx path ) throws vix exception {  <NL> vix handle job handle = get vix ( ) . vix vm _ open ( this , vmx path , null , null ) ;  <NL> vix handle result = vix utils . get result handle from job ( job handle , true ) ;  <NL> return new vix vm handle ( result . long value ( ) ) ;  <NL>  }  COM: <s> gets a handle for the given vm </s>

@@ -1,0 +1,1 @@
+TDAT: public color darker ( color c , double factor ) {  <NL> return new color ( math . max ( ( int ) ( c . get red ( ) * factor ) , 0 ) ,  <NL> math . max ( ( int ) ( c . get green ( ) * factor ) , 0 ) ,  <NL> math . max ( ( int ) ( c . get blue ( ) * factor ) , 0 ) ,  <NL> c . get alpha ( ) ) ;  <NL>  }  COM: <s> calculates a darker color which also supports alpha values </s>

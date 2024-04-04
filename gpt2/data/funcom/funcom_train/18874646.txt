@@ -1,0 +1,1 @@
+TDAT: public fight get fight for attacker name ( string name ) {  <NL> for ( int i = 0 ; i < m fight list . size ( ) ; i + + ) {  <NL> fight fc = ( fight ) m fight list . get ( i ) ;  <NL> if ( fc . get attacker ( ) . get name ( ) . equals ( name ) ) {  <NL> return fc ;  <NL>  }  <NL>  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> method get fight for attacker name </s>

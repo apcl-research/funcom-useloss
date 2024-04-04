@@ -1,0 +1,1 @@
+TDAT: protected void reset delta ( matrix a matrix ) {  <NL>  / / reset the delta values to 0 <NL> for ( int r = 0 ; r < a matrix . delta . length ; r + + ) {  <NL> for ( int c = 0 ; c < a matrix . delta [ 0 ] . length ; c + + ) {  <NL> a matrix . delta [ r ] [ c ] = 0 ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> resets delta values to zero </s>

@@ -1,0 +1,1 @@
+TDAT: public bytes ref get ( int ord , bytes ref ref ) {  <NL> assert bytes start ! = null : " bytes start is null - not initialized " ;  <NL> assert ord < bytes start . length : " ord exceeds byte start len : " + bytes start . length ;  <NL> return pool . set bytes ref ( ref , bytes start [ ord ] ) ;  <NL>  }  COM: <s> populates and returns a </s>

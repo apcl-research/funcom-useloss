@@ -1,0 +1,1 @@
+TDAT: public int get size ( ) {  <NL>  / / we check if the vector of datas has been set <NL> if ( _ datas ! = null ) {  <NL> if ( _ can be null ) {  <NL> return _ datas . size ( ) + 1 ;  <NL>  }  <NL>  <NL> return _ datas . size ( ) ;  <NL>  } else {  <NL>  / / if the vector is not defined yet then we return 0 <NL> return 0 ;  <NL>  }  <NL>  }  COM: <s> gets the size </s>

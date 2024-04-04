@@ -1,0 +1,1 @@
+TDAT: public boolean match file name ( string a file name ) {  <NL> string l file name = get file name ( ) ;  <NL> if ( a file name = = null ) return false ;  <NL> if ( ( a file name . length ( ) = = 0 ) || ( l file name . length ( ) = = 0 ) ) return false ;  <NL> return l file name . equals ignore case ( a file name ) ;  <NL>  }  COM: <s> compares with full dos path </s>

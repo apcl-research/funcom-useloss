@@ -1,0 +1,1 @@
+TDAT: public move append move ( final card card , final player player ) {  <NL> assert card ! = null & & player ! = null ;  <NL> assert get move ( player ) = = null ;  <NL> assert get move ( card ) = = null ;  <NL> final move result = new move ( card , player ) ;  <NL> this . add ( result ) ;  <NL> return result ;  <NL>  }  COM: <s> appends the specified move </s>

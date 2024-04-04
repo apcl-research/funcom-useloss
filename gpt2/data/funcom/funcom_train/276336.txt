@@ -1,0 +1,1 @@
+TDAT: public void set cursor colors ( color fg , color bg ) {  <NL> if ( fg = = null )  <NL> cursor color fg = color [ color _ fg _ std ] ;  <NL> else <NL> cursor color fg = fg ;  <NL> if ( bg = = null )  <NL> cursor color bg = color [ color _ bg _ std ] ;  <NL> else <NL> cursor color bg = bg ;  <NL> repaint ( ) ;  <NL>  }  COM: <s> set cursor fg and bg colors </s>

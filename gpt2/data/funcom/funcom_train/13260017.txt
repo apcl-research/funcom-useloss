@@ -1,0 +1,1 @@
+TDAT: public void tr self ( ) {  <NL> for ( int r = 1 ; r < 4 ; r + + ) {  <NL> for ( int c = 0 ; c < r ; c + + ) {  <NL> float t = get ( c , r ) ;  <NL> set ( c , r , get ( r , c ) ) ;  <NL> set ( r , c , t ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> self transposes the matrix </s>

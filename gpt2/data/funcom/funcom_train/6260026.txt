@@ -1,0 +1,1 @@
+TDAT: public void mdf get interface class ( mof class cl ) {  <NL> line ( " public class mdf get interface class ( ) " ) ;  <NL> sblock ( ) ;  <NL> line ( " return " + jmi . java interface package ( cl . get container ( ) ) + " . " + jmi . name of interface ( cl ) + " . class ; " ) ;  <NL> eblock ( ) ;  <NL>  }  COM: <s> generates method mdf get interface class </s>

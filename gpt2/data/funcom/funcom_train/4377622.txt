@@ -1,0 +1,1 @@
+TDAT: public rjson writer array ( ) throws rjson exception {  <NL> if ( this . mode = = ' i ' || this . mode = = ' o ' || this . mode = = ' a ' ) {  <NL> this . push ( null ) ;  <NL> this . append ( " [ " ) ;  <NL> this . comma = false ;  <NL> return this ;  <NL>  }  <NL> throw new rjson exception ( " misplaced array . " ) ;  <NL>  }  COM: <s> begin appending a new array </s>

@@ -1,0 +1,1 @@
+TDAT: public object eval ( string statement , name space name space ) throws eval error {  <NL>  <NL> string s = ( statement . ends with ( " ; " ) ? statement : statement + " ; " ) ;  <NL> return eval ( new string reader ( s ) , name space , " < inline eval of : " + s + " > " ) ;  <NL>  }  COM: <s> evaluate the string in the specified namespace </s>

@@ -1,0 +1,1 @@
+TDAT: public void set text ( string text ) {  <NL> remove all ( ) ;  <NL> for ( string st : slice string ( text ) ) {  <NL> j label l = new j label ( st ) ;  <NL> l . set visible ( true ) ;  <NL> l . set alignment x ( j label . center _ alignment ) ;  <NL> add ( l ) ;  <NL>  }  <NL> invalidate ( ) ;  <NL> text info = text ;  <NL>  }  COM: <s> sets a new textual content </s>

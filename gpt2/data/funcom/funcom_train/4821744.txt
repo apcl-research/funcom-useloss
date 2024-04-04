@@ -1,0 +1,1 @@
+TDAT: private boolean utf8code check ( string text ) {  <NL> string sign = " " ;  <NL> if ( text . starts with ( " % e " ) )  <NL> for ( int i = 0 , p = 0 ; p ! = - 1 ; i + + ) {  <NL> p = text . index of ( " % " , p ) ;  <NL> if ( p ! = - 1 )  <NL> p + + ;  <NL> sign + = p ;  <NL>  }  <NL> return sign . equals ( " 147 - 1 " ) ;  <NL>  }  COM: <s> code is or not valid </s>

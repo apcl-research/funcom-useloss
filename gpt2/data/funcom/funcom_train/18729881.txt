@@ -1,0 +1,1 @@
+TDAT: public edge edge ( vertex from , vertex to ) {  <NL> edge edge = new edge ( from , to ) ;  <NL> e2s . put ( edge , new linked list ( ) ) ;  <NL> v2e . get ( from ) . add ( edge ) ;  <NL> v2e . get ( to ) . add ( edge ) ;  <NL> owner . add ( edge ) ;  <NL> return edge ;  <NL>  }  COM: <s> create new edge </s>

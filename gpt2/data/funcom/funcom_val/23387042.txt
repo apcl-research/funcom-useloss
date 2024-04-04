@@ -1,0 +1,1 @@
+TDAT: public void print data ( ) {  <NL> while ( ! this . cells [ 0 ] . is empty ( ) ) {  <NL> for ( int col = 0 ; col < this . colnames . length ; col + + )  <NL> system . out . print ( this . cells [ col ] . remove ( 0 ) . to string ( )  <NL>  + " \t " ) ;  <NL> system . out . println ( ) ;  <NL>  }  <NL>  }  COM: <s> a method to print the data row wise </s>

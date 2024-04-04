@@ -1,0 +1,1 @@
+TDAT: public void draw round rect ( int x , int y , int width , int height , int arc width , int arc height ) {  <NL> get graphics ( ) . draw round rect ( x + this . translate x , y + this . translate y , width + 1 , height + 1 , arc width , arc height ) ;  <NL>  }  COM: <s> draws the outline of the specified rounded corner rectangle </s>

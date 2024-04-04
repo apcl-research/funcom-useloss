@@ -1,0 +1,1 @@
+TDAT: public boolean has names ( ) {  <NL> if ( get name1 ( ) = = null ) return false ;  <NL> if ( get name1 ( ) . equals ( range . no _ name ) ) return false ;  <NL> if ( get name2 ( ) = = null ) return false ;  <NL> if ( get name2 ( ) . equals ( range . no _ name ) ) return false ;  <NL> return true ;  <NL>  }  COM: <s> returns true if query and hit have names </s>

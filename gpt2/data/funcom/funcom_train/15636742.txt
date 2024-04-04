@@ -1,0 +1,1 @@
+TDAT: static public bit string create max ( int n ) {  <NL> bit string tmp = new bit string ( ) ;  <NL> int num = tmp . stream . length / n ;  <NL> for ( int i = tmp . stream . length - num ; i < tmp . stream . length ; + + i ) {  <NL> tmp . stream [ i ] = true ;  <NL>  }  <NL> return tmp ;  <NL>  }  COM: <s> method returns a bit string storing the maximum value possible if </s>

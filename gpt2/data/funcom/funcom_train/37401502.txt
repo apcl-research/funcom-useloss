@@ -1,0 +1,1 @@
+TDAT: public void inorder walk ( tree node x , tree walk handler , object misc ) {  <NL> if ( x ! = nil ) {  <NL> inorder walk ( ( ( binary tree node ) x ) . left , handler , misc ) ;  <NL> handler . node ( x , misc ) ;  <NL> inorder walk ( ( ( binary tree node ) x ) . right , handler , misc ) ;  <NL>  }  <NL>  }  COM: <s> walks the tree in order </s>

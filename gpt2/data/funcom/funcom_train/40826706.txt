@@ -1,0 +1,1 @@
+TDAT: private void bonify agents in ( city c ) {  <NL> for ( mater agent a : c . get inhabitants ( ) ) {  <NL>  / / fixme o que ser melhor ? bonify ou reset ? ?  <NL>  / / todo parameterizar ?  <NL>  / / a . set unhappiness ( a . get unhappiness ( ) - 4 ) ;  <NL> a . set unhappiness ( ( int ) ( a . get unhappiness ( ) * 0 . 5 ) ) ;  <NL>  }  <NL>  }  COM: <s> what it does </s>

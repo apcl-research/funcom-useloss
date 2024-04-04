@@ -1,0 +1,1 @@
+TDAT: private boolean has new line ( string text ) {  <NL> int r pos = text . index of ( return char ) ;  <NL> int n pos = text . index of ( newline char ) ;  <NL> return ( ( r pos > - 1 ) || ( n pos > - 1 ) ) ;  <NL>  / / return ( text . index of ( newline ) > - 1 ) ;  <NL>  }  COM: <s> test whether or not a given string contains newline chars </s>

@@ -1,0 +1,1 @@
+TDAT: public void write ( writer out ) throws io exception {  <NL> out . write ( " < ? xml version = \ " 1 . 0\ " ? > \n " ) ;  <NL> if ( doctype ! = null ) { out . write ( " < ! doctype " ) ; out . write ( doctype ) ; out . write ( " > \n " ) ; }  <NL> root . print ( out , 0 , false ) ;  <NL> out . flush ( ) ;  <NL>  }  COM: <s> write the xml document </s>

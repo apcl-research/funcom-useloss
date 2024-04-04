@@ -1,0 +1,1 @@
+TDAT: private string name ( final cmd cmd ) throws query exception {  <NL> consume ws ( ) ;  <NL> final token builder tb = new token builder ( ) ;  <NL> while ( letter or digit ( curr ( ) ) || curr ( ' . ' ) || curr ( ' - ' ) ) tb . add ( consume ( ) ) ;  <NL> return finish ( cmd , tb ) ;  <NL>  }  COM: <s> parses and returns a name </s>

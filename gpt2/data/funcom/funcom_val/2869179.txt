@@ -1,0 +1,1 @@
+TDAT: public void set overall percent ( int percent ) {  <NL>  / / don ' t get whole string from resource and sub in <NL>  / / values because it ' ll be doing a message format for <NL>  / / each update .  <NL> header . set text ( downloading + " " + download name + " : " + percent + " % " + complete + " . " ) ;  <NL>  }  COM: <s> sets the overall percent completed </s>

@@ -1,0 +1,1 @@
+TDAT: public line3 get line ( int i1 , int i2 ) {  <NL> line3 temp = new line3 ( ) ;  <NL> if ( i1 > = 0 & & i1 < size ( ) & & i2 > = 0 & & i2 < size ( ) ) {  <NL> temp = new line3 ( get point3 ( i1 ) , get point3 ( i2 ) ) ;  <NL>  }  <NL> return temp ;  <NL>  }  COM: <s> get the line between two points </s>

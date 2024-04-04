@@ -1,0 +1,1 @@
+TDAT: public void set up ( ) {  <NL> test org = new organization ( " test org " , " / test dir " ) ;  <NL> assert not null ( " test organization is null " , test org ) ;  <NL> test hierarchy = new hierarchy ( test org , " test hierarchy " ) ;  <NL> assert not null ( " test hierarchy is null " , test hierarchy ) ;  <NL>  }  COM: <s> perform this method before each test case </s>

@@ -1,0 +1,1 @@
+TDAT: public void paint icon ( component c , graphics g , int x , int y ) {  <NL> g . set color ( edge colour ) ;  <NL> g . fill oval ( x , y , diam , diam ) ;  <NL> g . set color ( core colour ) ;  <NL> g . fill oval ( x + 1 , y + 1 , diam - 2 , diam - 2 ) ;  <NL>  }  COM: <s> part of icon interface </s>

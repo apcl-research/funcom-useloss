@@ -1,0 +1,1 @@
+TDAT: private void display failure ( ) {  <NL> run on ui thread ( new runnable ( ) {  <NL> public void run ( ) {  <NL> toast . make text ( scan area . get context ( ) , scan area . get context ( ) . get string ( r . string . recognition failed ) , toast . length _ short ) . show ( ) ;  <NL>  }  <NL>  }  <NL>  ) ;  <NL>  }  COM: <s> displays toast with failure message </s>

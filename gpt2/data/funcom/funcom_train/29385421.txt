@@ -1,0 +1,1 @@
+TDAT: public void set tool tip ( string value )  <NL>  {  <NL> string [ ] tooltips = value . split ( " , " ) ;  <NL> left button . set tool tip text ( aria utilities . translate ( current project , tooltips [ 0 ] ) ) ;  <NL> right button . set tool tip text ( aria utilities . translate ( current project , tooltips [ 1 ] ) ) ;  <NL>  }  COM: <s> set the tool tip text </s>

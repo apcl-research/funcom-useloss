@@ -1,0 +1,1 @@
+TDAT: public exit random exit ( ) {  <NL> if ( exits . size ( ) = = 0 ) {  <NL> logger . get logger ( " fire escape log " ) . log ( level . severe , " there are no exits : " + this ) ;  <NL>  }  <NL> return map . get exit ( exits . get ( ( int ) ( math . random ( ) * exits . size ( ) ) ) ) ;  <NL>  }  COM: <s> returns a random exit connected to the room </s>

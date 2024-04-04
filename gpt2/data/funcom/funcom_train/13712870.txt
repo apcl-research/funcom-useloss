@@ -1,0 +1,1 @@
+TDAT: public boolean draw image ( image img , int x , int y , int width , int height , image observer observer ) {  <NL> return processing graphics . draw image ( img , x , y , width , height , observer ) & &  <NL> svg graphics . draw image ( img , x , y , width , height , observer ) ;  <NL>  }  COM: <s> draws as much of the specified image as has already been scaled </s>

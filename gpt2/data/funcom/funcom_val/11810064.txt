@@ -1,0 +1,1 @@
+TDAT: private string enclose file name ( final string file name ) {  <NL> if ( os _ name . starts with ( " windows " ) ) { / / $ non - nls - 1 $  <NL> return " \ " " + file name + " \ " " ; / / $ non - nls - 1 $ / / $ non - nls - 2 $  <NL>  }  <NL>  <NL> return file name ;  <NL>  }  COM: <s> if we are running under windows operating system the given file name </s>

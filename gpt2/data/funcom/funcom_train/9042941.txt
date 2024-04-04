@@ -1,0 +1,1 @@
+TDAT: public int next ( ) {  <NL> long y ;  <NL>  <NL> if ( - - left < 0 )  <NL> return ( reload ( ) ) ;  <NL>  <NL> y = state [ next + + ] ;  <NL> y ^ = ( y > > 11 ) ;  <NL> y ^ = ( y < < 7 ) & 0x9d2c5680l ;  <NL> y ^ = ( y < < 15 ) & 0x efc60000l ;  <NL> return ( int ) ( y ^ ( y > > 18 ) ) ;  <NL>  }  COM: <s> returns the next integer </s>

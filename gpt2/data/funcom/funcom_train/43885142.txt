@@ -1,0 +1,1 @@
+TDAT: public void close ( ) {  <NL> if ( pool ! = null ) {  <NL> try {  <NL> this . pool . close ( ) ;  <NL> pool = null ;  <NL> logger . fine ( " sde connection pool closed . " ) ;  <NL>  } catch ( exception e ) {  <NL> logger . log ( level . warning , " closing pool : " + e . get message ( ) , e ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> closes all connections in this pool </s>

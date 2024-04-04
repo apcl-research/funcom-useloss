@@ -1,0 +1,1 @@
+TDAT: private void ch ( final int ch ) throws io exception {  <NL> switch ( ch ) {  <NL> case ' & ' : print ( e _ amp ) ; break ;  <NL> case ' > ' : print ( e _ gt ) ; break ;  <NL> case ' < ' : print ( e _ lt ) ; break ;  <NL> case 0x d : print ( e _ cr ) ; break ;  <NL> default : print ( ch ) ;  <NL>  }  <NL>  }  COM: <s> prints a single character </s>

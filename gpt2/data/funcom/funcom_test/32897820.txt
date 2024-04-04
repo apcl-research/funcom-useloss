@@ -1,0 +1,1 @@
+TDAT: private void paint rib ( graphics g , int x , int y ) {  <NL> g . set color ( color . white ) ;  <NL> g . fill rect ( x , y , 2 , 2 ) ;  <NL> g . translate ( - 1 , - 1 ) ;  <NL> g . set color ( system color . control shadow ) ;  <NL> g . fill rect ( x , y , 2 , 2 ) ;  <NL> g . translate ( 1 , 1 ) ;  <NL>  }  COM: <s> helper method to paint a rib a raised point </s>

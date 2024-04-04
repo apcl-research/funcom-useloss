@@ -1,0 +1,1 @@
+TDAT: public void null safe set ( string table , string column name , prepared statement ps , object value , int index ) throws sql exception {  <NL> int sql type = get table ( table , true ) . get column ( column name , true ) . get sql type ( ) ;  <NL> null safe set ( sql type , ps , value , index ) ;  <NL>  }  COM: <s> deals with setting values on a prepared statement </s>

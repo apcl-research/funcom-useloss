@@ -1,0 +1,1 @@
+TDAT: public void test make project relative ( ) {  <NL> runtime project project = create new project ( base url string , false ) ;  <NL> assert equals ( " / c / d . mimg " , project . make project relative path (  <NL> new mariner url ( " file : / a / b / c / d . mimg " ) , true ) ) ;  <NL>  }  COM: <s> ensure that making a project relative path works </s>

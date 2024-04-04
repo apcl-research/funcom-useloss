@@ -1,0 +1,1 @@
+TDAT: public void _ set data area ( ) {  <NL> int nr = thread . active count ( ) ;  <NL> set d address = new cell range address ( ( short ) 1 , nr , 1 , nr , 8 ) ;  <NL> o obj . set data area ( set d address ) ;  <NL> t res . tested ( " set data area ( ) " , true ) ;  <NL>  }  COM: <s> test creates and stores code cell range address code calls the method </s>

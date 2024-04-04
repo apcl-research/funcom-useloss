@@ -1,0 +1,1 @@
+TDAT: public boolean is component ( class component class )  <NL>  { try { _ _ clover _ 10 _ 0 . clover rec . m [ 66 ] + + ;  <NL>  _ _ clover _ 10 _ 0 . clover rec . s [ 250 ] + + ; return ! component class . is interface ( ) ;  <NL>  } finally { _ _ clover _ 10 _ 0 . clover rec . maybe flush ( ) ; } }  COM: <s> ensures that the class object passed in is not an interface </s>

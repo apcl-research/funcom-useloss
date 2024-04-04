@@ -1,0 +1,1 @@
+TDAT: public void test class property ( ) throws exception {  <NL> build tgt . add task ( task ) ;  <NL> task . set property ( java task . class , sysout _ syserr _ class ) ;  <NL> list < string > os cmd = task . build command line ( ) ;  <NL> assert equals ( sysout _ syserr _ class , os cmd . get ( 1 ) ) ;  <NL>  }  COM: <s> test that the value of the </s>

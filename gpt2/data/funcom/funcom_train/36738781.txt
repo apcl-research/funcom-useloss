@@ -1,0 +1,1 @@
+TDAT: private void search at ( string word , int r , int c ) {  <NL> for ( int d r = - 1 ; d r < = 1 ; d r + + ) {  <NL> for ( int d c = - 1 ; d c < = 1 ; d c + + ) {  <NL> if ( ! ( ( d r = = 0 ) & & ( d c = = 0 ) ) ) { / / not 0 , 0 <NL> search this way ( word , r , c , d r , d c ) ;  <NL>  }  <NL>  }  <NL>  }  <NL>  }  COM: <s> search for word in the puzzle at location r c </s>

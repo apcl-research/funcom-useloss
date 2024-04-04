@@ -1,0 +1,1 @@
+TDAT: public void test jcrqom ( ) throws repository exception {  <NL> query object model qom = qf . create query (  <NL> qf . selector ( test node type , " s " ) ,  <NL> null , null , null <NL>  ) ;  <NL> assert equals ( " query returns wrong language . " , query . jcr _ jqom , qom . get language ( ) ) ;  <NL>  }  COM: <s> tests if a query object model returns </s>

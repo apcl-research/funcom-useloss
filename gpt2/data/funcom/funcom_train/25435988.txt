@@ -1,0 +1,1 @@
+TDAT: private string get formated params ( ) {  <NL> string result = " ( " ;  <NL> for ( int x = 0 ; x < current params . length ; x + + )  <NL> if ( x > 0 )  <NL> result + = " , " + current params [ x ] ;  <NL> else <NL> result + = current params [ x ] ;  <NL> return result + " ) " ;  <NL>  }  COM: <s> returns the params type and name with comma separated for the current </s>

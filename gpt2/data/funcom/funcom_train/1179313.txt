@@ -1,0 +1,1 @@
+TDAT: public double probability ( double x ) {  <NL> check range ( x , 0 . 0 , double . max _ value ) ;  <NL> if ( x = = 0 . 0 )  <NL> return 0 . 0 ;  <NL> else <NL> return math . exp ( - special math . log gamma ( shape ) - x + ( shape - 1 ) * math . log ( x ) ) ;  <NL>  }  COM: <s> probability density function of a gamma distribution </s>

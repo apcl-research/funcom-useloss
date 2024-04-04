@@ -1,0 +1,1 @@
+TDAT: public void set layer ( string name ) {  <NL> if ( find layer ( name ) = = null )  <NL> throw new dxf encoding exception ( " undefined layer ' " + name + " ' " ) ; / / $ non - nls - 1 $ / / $ non - nls - 2 $  <NL> layer = " " + name ; / / $ non - nls - 1 $  <NL>  }  COM: <s> sets the parameter layer to be the current layer </s>

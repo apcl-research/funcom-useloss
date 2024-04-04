@@ -1,0 +1,1 @@
+TDAT: public void test indexed value ( ) {  <NL>  / / test case for jira issue str - 2802 <NL>  / / see https : / / issues . apache . org / struts / browse / str - 2802 <NL> do parse ( " ( string array [ 1 ] = = ' one ' ) " , test bean , 1 , " string array [ 1 ] " , true ) ;  <NL>  }  COM: <s> test indexed property </s>

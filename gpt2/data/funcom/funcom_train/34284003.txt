@@ -1,0 +1,1 @@
+TDAT: public void load all resources ( context ctx , resources r ) {  <NL> database helper dbh = new database helper ( ctx ) ;  <NL> sq lite database db = dbh . get writable database ( ) ;  <NL>  / / long id =  <NL> load from resource ( r , db , sound , r . raw . s1 ) ;  <NL> db . close ( ) ;  <NL>  }  COM: <s> load from to the table media all medias from the resource </s>

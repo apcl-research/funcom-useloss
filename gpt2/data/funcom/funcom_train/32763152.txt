@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> return " grow behavior : " + grow behavior + " , strut behavior : " + strut behavior +  <NL>  " , top strut : " + top strut + " , left strut : " + left strut +  <NL>  " , bottom strut : " + bottom strut + " , right strut : " + right strut ;  <NL>  }  COM: <s> implement to string to print summary of constraint </s>

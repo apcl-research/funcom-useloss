@@ -1,0 +1,1 @@
+TDAT: public boolean equivalent ( ut flag other ) {  <NL> if ( id . equals ( other . id ) & & location . equals ( other . location ) & & holder . equals ( other . holder ) & & team = = other . team & & reachable = = other . reachable & & state . equals ( other . state ) )  <NL> return true ;  <NL> return false ;  <NL>  }  COM: <s> ut flag are equivalent if and only if </s>

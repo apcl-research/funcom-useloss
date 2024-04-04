@@ -1,0 +1,1 @@
+TDAT: public void test equals ( ) {  <NL> thread manager id id1 = new thread manager id ( 1 ) ;  <NL> thread manager id id2 = new thread manager id ( 2 ) ;  <NL> thread manager id id3 = new thread manager id ( 1 ) ;  <NL>  <NL> assert equals ( id1 , id1 ) ;  <NL> assert not equals ( id1 , id2 ) ;  <NL> assert equals ( id1 , id3 ) ;  <NL>  }  COM: <s> test the equals method </s>

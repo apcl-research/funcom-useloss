@@ -1,0 +1,1 @@
+TDAT: public float get length ( ) {  <NL> swigtype _ p _ float tmp array = ode . new _ float array ( 1 ) ;  <NL> ode . d geom c cylinder get params ( geom id , ode . new _ float array ( 1 ) , tmp array ) ;  <NL> return ode . float array _ getitem ( tmp array , 0 ) ;  <NL>  }  COM: <s> get capped cylinder length </s>

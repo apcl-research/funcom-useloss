@@ -1,0 +1,1 @@
+TDAT: public void trim ( ) {  <NL> for ( int i = 0 ; i < get size x ( ) ; i + + ) {  <NL> for ( int j = 0 ; j < get size y ( ) ; j + + ) {  <NL> int count = get location size at ( i , j ) ;  <NL>  <NL> if ( count = = 0 )  <NL> get matrix ( ) . remove ( i , j ) ;  <NL>  }  <NL>  }  <NL>  <NL> get matrix ( ) . trim ( ) ;  <NL>  }  COM: <s> releases any superfluous memory </s>

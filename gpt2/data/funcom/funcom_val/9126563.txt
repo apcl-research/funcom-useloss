@@ -1,0 +1,1 @@
+TDAT: public void send server line ( final string type , final string data , final object . . . args ) {  <NL> send line ( " : % s % s % s : % s " , functions . get server name ( my account ) , type , nickname , string . format ( data , args ) ) ;  <NL>  }  COM: <s> send a message to the user from the bnc server in printf format </s>

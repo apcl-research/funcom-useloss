@@ -1,0 +1,1 @@
+TDAT: public track back create track back ( string title , string excerpt , string url , string blog name , string ip address , date date , state state ) {  <NL> return new track back ( title , excerpt , url , blog name , ip address , date , state , this ) ;  <NL>  }  COM: <s> creates a new trackback for this blog entry </s>

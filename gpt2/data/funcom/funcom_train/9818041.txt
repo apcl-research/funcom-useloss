@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> string buffer str = new string buffer ( " [ " ) ; / / build the string on this .  <NL> for ( int i = element count - 1 ; i > = 0 ; i - - )  <NL> str . append ( " \n " ) . append ( element data [ i ] ) ;  <NL> return str . append ( " ] " ) . to string ( ) ;  <NL>  }  COM: <s> prints out a representation of the contents of this list </s>

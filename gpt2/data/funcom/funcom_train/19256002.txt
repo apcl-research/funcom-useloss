@@ -1,0 +1,1 @@
+TDAT: public void remove ( int offs , int len ) throws bad location exception {  <NL> document filter doc filter = get document filter ( ) ;  <NL> if ( doc filter ! = null ) { doc filter . remove ( get filter bypass ( ) , offs , len ) ; }  <NL> else do remove ( offs , len , true ) ;  <NL>  }  COM: <s> fixme need to work with undo manager </s>

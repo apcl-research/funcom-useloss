@@ -1,0 +1,1 @@
+TDAT: public void set mode auto ( boolean make auto , byte [ ] state ) {  <NL>  / / set the bit <NL> bit . array write bit ( ( make auto ? 0 : 1 ) , 7 , status _ offset , state ) ;  <NL>  <NL>  / / indicate in bitmap the the state has changed <NL> bit . array write bit ( 1 , status _ offset , bitmap _ offset , state ) ;  <NL>  }  COM: <s> sets the control pin mode </s>

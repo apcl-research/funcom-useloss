@@ -1,0 +1,1 @@
+TDAT: public void set config value ( string p , string v ) {  <NL> string orig ;  <NL>  / *  <NL>  * to optimize some things , check to see if the value has changed <NL>  * /  <NL> orig = ( string ) _ config . put ( p , v ) ;  <NL>  <NL> if ( orig = = null || ! ( orig . equals ( v ) ) ) {  <NL>  _ update needed = true ;  <NL>  }  <NL>  }  COM: <s> sets a config value </s>

@@ -1,0 +1,1 @@
+TDAT: private void initialize ( ) {  <NL> this . set preferred size ( new java . awt . dimension ( 300 , 300 ) ) ;  <NL> this . set resizable ( false ) ;  <NL> this . set title ( " specify query . . . " ) ;  <NL> this . set size ( 400 , 300 ) ;  <NL> this . set content pane ( get j content pane ( ) ) ;  <NL>  <NL>  }  COM: <s> this method initializes this </s>

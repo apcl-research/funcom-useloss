@@ -1,0 +1,1 @@
+TDAT: public string dump ( ) {  <NL> java . io . string writer sw = new java . io . string writer ( ) ;  <NL> java . io . print writer pw = new java . io . print writer ( sw ) ;  <NL> dump ( pw , 0 , new java . util . linked list ( ) ) ;  <NL> return sw . get buffer ( ) . to string ( ) ;  <NL>  }  COM: <s> dump the object </s>

@@ -1,0 +1,1 @@
+TDAT: private void start cluster ( ) throws io exception {  <NL> for ( enumeration e = this . links . elements ( ) ; e . has more elements ( ) ; )  <NL>  {  <NL> remote link link = ( remote link ) e . next element ( ) ;  <NL> new cluster support ( link . port , link . host , link . name ) . start ( ) ;  <NL>  }  <NL>  }  COM: <s> to start messenger cluster support </s>

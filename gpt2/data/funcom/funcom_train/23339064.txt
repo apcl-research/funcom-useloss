@@ -1,0 +1,1 @@
+TDAT: protected void set artifact type ( string type string ) {  <NL> if ( ( this . get element ( ) ! = null ) & & ( type string ! = null ) ) {  <NL> xpdl element . set string attribute ( this . get element ( ) ,  <NL> xpdl constants . s _ artifact _ type , type string , get namespace ( ) ) ;  <NL>  }  <NL>  }  COM: <s> set artifact type </s>

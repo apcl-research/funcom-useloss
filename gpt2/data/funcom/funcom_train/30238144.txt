@@ -1,0 +1,1 @@
+TDAT: @ nos method public integer add ( exec context ec , integer a , integer b ) {  <NL> ec . set forced type ( mime type . xnos _ plain ) ;  <NL> ec . get response ( ) . set header ( " location " , " / forced / location " ) ;  <NL> ec . set code ( response code . accepted ) ;  <NL> return a + b ;  <NL>  }  COM: <s> add two integers and return the result </s>

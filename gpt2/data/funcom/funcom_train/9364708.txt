@@ -1,0 +1,1 @@
+TDAT: public void scale ( float scale ) {  <NL> x = ( int ) ( x * scale + 0 . 5f ) ;  <NL> y = ( int ) ( y * scale + 0 . 5f ) ;  <NL> if ( width > 0 ) {  <NL> width = ( int ) ( width * scale + 0 . 5f ) ;  <NL>  }  <NL> if ( height > 0 ) {  <NL> height = ( int ) ( height * scale + 0 . 5f ) ;  <NL>  }  <NL>  }  COM: <s> scale the layout params coordinates and size </s>

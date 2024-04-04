@@ -1,0 +1,1 @@
+TDAT: public void test left fill ( ) {  <NL> assert equals ( " 1 " , util . left fill ( 5 , " 1 " ) ) ;  <NL> assert equals ( " 12 " , util . left fill ( 5 , " 12 " ) ) ;  <NL> assert equals ( " 12345 " , util . left fill ( 5 , " 12345 " ) ) ;  <NL> assert equals ( " 1234567 " , util . left fill ( 5 , " 1234567 " ) ) ;  <NL>  }  COM: <s> test the left fill method </s>

@@ -1,0 +1,1 @@
+TDAT: public void remove gap ( int col ) {  <NL> string tli = transcription . get body ( ) . get common timeline ( ) . get timeline item at ( col ) . get id ( ) ;  <NL> transcription . get body ( ) . remove gap ( tli ) ;  <NL> fire data reset ( ) ;  <NL> fire selection changed ( 0 , col , false ) ;  <NL>  }  COM: <s> removes the gap at the specified position </s>

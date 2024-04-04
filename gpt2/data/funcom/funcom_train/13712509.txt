@@ -1,0 +1,1 @@
+TDAT: public void copy area ( int x , int y , int width , int height , int dx , int dy ) {  <NL> processing graphics . copy area ( x , y , width , height , dx , dy ) ;  <NL> svg graphics . copy area ( x , y , width , height , dx , dy ) ;  <NL>  }  COM: <s> copies an area of the component by a distance specified by </s>

@@ -1,0 +1,1 @@
+TDAT: public thread new thread ( runnable obj ) {  <NL> if ( dest file ! = null ) return new thread ( group , obj , dest file . get absolute path ( ) ) ;  <NL> else if ( dest sftp file ! = null ) return new thread ( group , obj , dest sftp file . get absolute path ( ) ) ;  <NL> else return null ;  <NL>  }  COM: <s> create new thread </s>

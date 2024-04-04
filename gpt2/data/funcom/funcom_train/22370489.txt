@@ -1,0 +1,1 @@
+TDAT: public string to short string ( ) {  <NL> return new string builder ( ) . append ( major number ) . append ( " . " ) . append ( minor number ) . append ( " . " ) . append ( revision number ) . append ( " " ) . append ( version type ! = version type . final ? version type : " " ) . to string ( ) ;  <NL>  }  COM: <s> returns short version in string format </s>

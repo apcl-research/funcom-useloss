@@ -1,0 +1,1 @@
+TDAT: @ test public void test class mods10 ( ) {  <NL> help tcf ( " t / a . java " , " package t ; \n public / * @ pure * / @ pure class a { } " ,  <NL>  " / t / a . java : 2 : cannot find symbol\n symbol : class pure " , 22 <NL>  ) ;  <NL>  / / check messages ( ) ;  <NL>  }  COM: <s> testing annotations without the import </s>

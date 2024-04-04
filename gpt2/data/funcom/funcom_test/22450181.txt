@@ -1,0 +1,1 @@
+TDAT: public int add edge ( int from node num , int to node num ) {  <NL> edge new edge = this . construct g . add edge (  <NL> this . glob nodes . get node ( from node num ) ,  <NL> this . glob nodes . get node ( to node num ) ) ;  <NL> return this . glob edges . get edge number ( new edge ) ;  <NL>  }  COM: <s> add an edge </s>

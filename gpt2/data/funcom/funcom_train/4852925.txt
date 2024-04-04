@@ -1,0 +1,1 @@
+TDAT: public void clear ( ) {  <NL> for ( int i = 0 ; i < history . length ; + + i )  <NL> history [ i ] = null ;  <NL>  <NL> int s = start ;  <NL> int e = end ;  <NL> start = end = curr = 0 ;  <NL>  <NL> if ( s ! = e )  <NL> fire removed ( s , ( e > 0 ) ? e - 1 : history . length - 1 ) ;  <NL>  }  COM: <s> clear the history </s>

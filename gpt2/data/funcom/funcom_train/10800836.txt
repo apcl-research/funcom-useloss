@@ -1,0 +1,1 @@
+TDAT: private boolean skip enhance ( bc method method ) {  <NL> if ( " < init > " . equals ( method . get name ( ) ) )  <NL> return true ;  <NL>  <NL> for ( int i = 0 ; i < _ aux enhancers . length ; i + + )  <NL> if ( _ aux enhancers [ i ] . skip enhance ( method ) )  <NL> return true ;  <NL>  <NL> return false ;  <NL>  }  COM: <s> affirms if the given method be skipped </s>

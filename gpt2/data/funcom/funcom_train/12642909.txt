@@ -1,0 +1,1 @@
+TDAT: public void set zone strings ( string [ ] [ ] new zone strings ) {  <NL> string [ ] [ ] a copy = new string [ new zone strings . length ] [ ] ;  <NL> for ( int i = 0 ; i < new zone strings . length ; + + i )  <NL> a copy [ i ] = duplicate ( new zone strings [ i ] ) ;  <NL> zone strings = a copy ;  <NL>  }  COM: <s> sets timezone strings </s>

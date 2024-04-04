@@ -1,0 +1,1 @@
+TDAT: public int get repo id ( string location ) {  <NL> cursor c = db . query ( table _ repos , new string [ ] { " id " } ,  <NL>  " location = ? " , new string [ ] { location } , null , null , null ) ;  <NL>  <NL> int id = 0 ;  <NL> if ( c . next ( ) ) {  <NL> id = c . get int ( 0 ) ;  <NL>  }  <NL> return id ;  <NL>  }  COM: <s> answers a repository id given its location </s>

@@ -1,0 +1,1 @@
+TDAT: public void modify tag of wavelet ( wavelet wavelet , string tag , string modify how ) {  <NL> append operation ( operation type . wavelet _ modify _ tag , wavelet ,  <NL> parameter . of ( params property . name , tag ) ,  <NL> parameter . of ( params property . modify _ how , modify how ) ) ;  <NL>  }  COM: <s> modifies a tag in a wavelet </s>

@@ -1,0 +1,1 @@
+TDAT: public void test public cloneable ( ) {  <NL> stroke stroke = new basic stroke ( 2 . 0f ) ;  <NL> xy line annotation a1 = new xy line annotation ( 10 . 0 , 20 . 0 , 100 . 0 , 200 . 0 ,  <NL> stroke , color . blue ) ;  <NL> assert true ( a1 instanceof public cloneable ) ;  <NL>  }  COM: <s> checks that this class implements public cloneable </s>

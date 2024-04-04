@@ -1,0 +1,1 @@
+TDAT: public pc state man add ( pc state man sm ) {  <NL>  / / this will create a real oid if needed <NL> sm . get real oid if app id ( ) ;  <NL> add sm ( sm . oid . get available oid ( ) , sm ) ;  <NL> add for processing ( sm ) ;  <NL> if ( sm . is tx ( ) ) pm . add tx state object ( sm ) ;  <NL> return sm ;  <NL>  }  COM: <s> add a newly created sm to the managed cache </s>

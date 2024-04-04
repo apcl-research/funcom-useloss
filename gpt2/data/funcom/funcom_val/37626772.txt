@@ -1,0 +1,1 @@
+TDAT: public void set name raw ( string unchecked name ) {  <NL> string old val = this . name ;  <NL> reload if change ( this . name , unchecked name ) ;  <NL> this . name = unchecked name ;  <NL> unregister ( ) ;  <NL> register ( ) ;  <NL> property change support . fire property change ( " name " , old val , this . name ) ;  <NL>  }  COM: <s> b direct setter for name </s>

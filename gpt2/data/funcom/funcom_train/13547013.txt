@@ -1,0 +1,1 @@
+TDAT: public void put ( dependence flow node n0 , dependence flow node n1 , float v ) {  <NL> if ( ! this . contains key ( n0 ) )  <NL> this . put ( n0 , new hash map ( ) ) ;  <NL> hash map row = ( hash map ) this . get ( n0 ) ;  <NL> row . put ( n1 , new float ( v ) ) ;  <NL>  }  COM: <s> save the distance between two nodes </s>

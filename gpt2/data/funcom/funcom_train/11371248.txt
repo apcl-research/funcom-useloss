@@ -1,0 +1,1 @@
+TDAT: private void op copy block ( data input stream in ) throws io exception {  <NL> op copy block proto proto = op copy block proto . parse from ( vint prefixed ( in ) ) ;  <NL> copy block ( from proto ( proto . get header ( ) . get block ( ) ) ,  <NL> from proto ( proto . get header ( ) . get token ( ) ) ) ;  <NL>  }  COM: <s> receive op copy block </s>

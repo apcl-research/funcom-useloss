@@ -1,0 +1,1 @@
+TDAT: public void reset objects ( ) {  <NL> set < string > l _ set = m _ map . key set ( ) ;  <NL> iterator < string > l _ it = l _ set . iterator ( ) ;  <NL> while ( l _ it . has next ( ) ) {  <NL> final string l _ key = l _ it . next ( ) ;  <NL> m _ map . get ( l _ key ) . reset ( ) ;  <NL>  }  <NL>  }  COM: <s> resets the objects managed by this factory </s>

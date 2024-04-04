@@ -1,0 +1,1 @@
+TDAT: public void write project ( cms db context dbc , cms project project ) throws cms exception {  <NL>  <NL> m _ project driver . write project ( dbc , project ) ;  <NL> m _ project cache . put ( project . get name ( ) , project ) ;  <NL> m _ project cache . put ( new integer ( project . get id ( ) ) , project ) ;  <NL>  }  COM: <s> writes an already existing project </s>

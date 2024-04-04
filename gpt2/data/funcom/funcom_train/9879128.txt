@@ -1,0 +1,1 @@
+TDAT: private void on set background color ( ) {  <NL> frame frame = j option pane . get frame for component ( get content component ( ) ) ;  <NL> color new color = j color chooser . show dialog ( frame , " choose color " , get background ( ) ) ;  <NL> if ( new color ! = null ) {  <NL> set background ( new color ) ;  <NL>  }  <NL>  }  COM: <s> sets a background color </s>

@@ -1,0 +1,1 @@
+TDAT: public void set position ( int x p , int y p , int z p ) {  <NL> set position ( x p , y p , z p , this . pitch , this . roll , this . yaw ,  <NL> this . x speed , this . y speed , this . z speed ,  <NL> this . pitch speed , this . roll speed , this . yaw speed ,  <NL>  ( byte ) 1 , ( byte ) 1 ) ;  <NL>  }  COM: <s> send position commands </s>

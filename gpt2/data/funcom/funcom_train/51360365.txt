@@ -1,0 +1,1 @@
+TDAT: public void command ( int cmd ) {  <NL> if ( ! write only ) cpu . write pin ( rw pin , false ) ; / / set write mode <NL> cpu . write pin ( rs pin , false ) ; / / command mode <NL> put byte ( cmd ) ;  <NL> cpu . write pin ( rs pin , true ) ; / / return to data mode <NL>  }  COM: <s> sends command byte to lcd </s>

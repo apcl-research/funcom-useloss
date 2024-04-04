@@ -1,0 +1,1 @@
+TDAT: private void assert equal tables ( table table1 , table table2 ) {  <NL> assert equals ( table1 , table2 ) ;  <NL> assert equals ( table1 . hash code ( ) , table2 . hash code ( ) ) ;  <NL> assert true ( table1 . compare to ( table2 ) = = 0 ) ;  <NL> assert true ( table2 . compare to ( table1 ) = = 0 ) ;  <NL>  }  COM: <s> helper method to assert tables are equal </s>

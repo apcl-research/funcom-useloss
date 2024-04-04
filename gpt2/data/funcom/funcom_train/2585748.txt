@@ -1,0 +1,1 @@
+TDAT: public void test get row keys ( ) {  <NL>  / / check an empty dataset <NL> default interval category dataset empty <NL>  = new default interval category dataset ( new double [ 0 ] [ 0 ] ,  <NL> new double [ 0 ] [ 0 ] ) ;  <NL> list keys = empty . get row keys ( ) ;  <NL> assert equals ( 0 , keys . size ( ) ) ;  <NL>  }  COM: <s> some checks for the get row keys method </s>

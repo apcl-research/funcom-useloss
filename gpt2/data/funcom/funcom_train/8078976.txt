@@ -1,0 +1,1 @@
+TDAT: public void draw highlight ( graphics g , int w , int h ) {  <NL>  <NL> draw node ( g , w , h ) ;  <NL> g . set color ( color . yellow ) ;  <NL> g . fill oval ( ( int ) ( m _ x * w ) - 5 , ( int ) ( m _ y * h ) - 5 , 11 , 11 ) ;  <NL>  }  COM: <s> call this function to draw the node highlighted </s>

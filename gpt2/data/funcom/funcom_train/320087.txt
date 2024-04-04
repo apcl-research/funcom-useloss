@@ -1,0 +1,1 @@
+TDAT: private void unindent ( string buffer indent ) {  <NL> char sequence one indent = create indent ( ) ;  <NL> int i = indent . last index of ( one indent . to string ( ) ) ; / / $ non - nls - 1 $  <NL> if ( i ! = - 1 ) {  <NL> indent . delete ( i , i + one indent . length ( ) ) ;  <NL>  }  <NL>  }  COM: <s> reduces indentation in code indent code by one indentation unit </s>

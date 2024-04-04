@@ -1,0 +1,1 @@
+TDAT: protected boolean acceptable arrow ( key event e ) {  <NL> int code = e . key code ;  <NL> return ( code = = swt . arrow _ left ) || ( code = = swt . arrow _ right )  <NL> || ( code = = swt . arrow _ down )  <NL> || ( code = = swt . arrow _ up ) || ( code = = swt . home )  <NL> || ( code = = swt . end ) ;  <NL>  }  COM: <s> tests if key of event is navigation key </s>

@@ -1,0 +1,1 @@
+TDAT: private ent list append ( ent list result , pair < string , string > endings ) {  <NL> for ( int i = 0 ; i < result . size ( ) ; i + + ) {  <NL> result . get ( i ) . first + = endings . first ;  <NL> result . get ( i ) . second + = endings . second ;  <NL>  }  <NL> return result ;  <NL>  }  COM: <s> append endings to a list of current transductions </s>

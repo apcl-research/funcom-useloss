@@ -1,0 +1,1 @@
+TDAT: public void accept ( string work effort id , string party id , string role type id , timestamp from date ) throws wf exception {  <NL> wf assignment assign = wf factory . get wf assignment ( delegator , work effort id , party id , role type id , from date ) ;  <NL> assign . accept ( ) ;  <NL>  }  COM: <s> accept an activity assignment </s>

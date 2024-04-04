@@ -1,0 +1,1 @@
+TDAT: public void update stack and riser data ( ) {  <NL> for ( i axis x axis : chart . get axis set ( ) . get x axes ( ) ) {  <NL> for ( i axis y axis : chart . get axis set ( ) . get y axes ( ) ) {  <NL> update stack and riser data ( x axis , y axis ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> updates the stack and riser data </s>

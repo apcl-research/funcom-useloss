@@ -1,0 +1,1 @@
+TDAT: private void build depth first list ( final list < tree < t , u , v > > list , final tree < t , u , v > node ) {  <NL> list . add ( node ) ;  <NL> for ( tree child : node . get children ( ) ) {  <NL>  / / note , recursion <NL> build depth first list ( list , child ) ;  <NL>  }  <NL>  }  COM: <s> helper method for </s>

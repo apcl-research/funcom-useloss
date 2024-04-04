@@ -1,0 +1,1 @@
+TDAT: public void select next card ( ) {  <NL> if ( selected card = = null ) select ( ( rolodex card ) cards . get ( 0 ) ) ;  <NL> final int current index = cards . index of ( selected card ) ;  <NL> if ( current index + 1 > = cards . size ( ) ) return ;  <NL> select ( ( rolodex card ) cards . get ( current index + 1 ) ) ;  <NL>  }  COM: <s> select the next card in the list </s>

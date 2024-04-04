@@ -1,0 +1,1 @@
+TDAT: public void add task ( string type , string whom , string task n , int util , int percent complete , string hlt ) {  <NL> this . put ( task n , new task item ( type , whom , task n , util , percent complete , hlt ) ) ;  <NL>  }  COM: <s> this method adds a new task to manage to the task list </s>

@@ -1,0 +1,1 @@
+TDAT: public string get prezzo ( ) {  <NL> tag t = get first tag ( " 904 " ) ;  <NL> if ( t = = null ) return " " ;  <NL> field f = t . get field ( " p " ) ;  <NL> if ( f = = null ) return " " ;  <NL> string r = f . get content ( ) ;  <NL> if ( r = = null ) r = " " ;  <NL> return r ;  <NL>  }  COM: <s> use unimarc get availibility and or price </s>

@@ -1,0 +1,1 @@
+TDAT: private void next ch ( ) throws w exception {  <NL> try {  <NL> int c = reader . read ( ) ;  <NL> ch = ( c < 0 ) ? eof : ( char ) c ;  <NL> if ( ch = = ' \n ' ) {  <NL> tok line + + ;  <NL>  }  <NL>  } catch ( io exception e ) {  <NL> throw w exception . read exception ( e ) ;  <NL>  }  <NL>  }  COM: <s> read the next char into ch </s>

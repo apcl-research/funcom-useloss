@@ -1,0 +1,1 @@
+TDAT: public void add hours ( int h ) {  <NL> if ( h = = 0 ) {  <NL> return ;  <NL>  }  <NL> sec _ of _ day + = h * 3600 ;  <NL> while ( sec _ of _ day > 86399 ) {  <NL> sec _ of _ day - = 86400 ;  <NL> julian _ day + + ;  <NL>  } while ( sec _ of _ day < 0 ) {  <NL> sec _ of _ day + = 86400 ;  <NL> julian _ day - - ;  <NL>  }  <NL>  }  COM: <s> advances this day by h hours </s>

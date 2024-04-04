@@ -1,0 +1,1 @@
+TDAT: public int get index ( ) {  <NL> int count = main f . get current work panel ( ) . get tab count ( ) ;  <NL> for ( int t = 0 ; t < count ; t + + ) {  <NL> work tab cur = main f . get current work panel ( ) . get work tab ( t ) ;  <NL> if ( cur = = this ) return t ;  <NL>  }  <NL> return - 1 ;  <NL>  }  COM: <s> gets the index of this worktab in the workpanel </s>

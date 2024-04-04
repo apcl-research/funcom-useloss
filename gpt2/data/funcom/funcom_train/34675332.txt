@@ -1,0 +1,1 @@
+TDAT: public void add discount ( string id , string reason , reference relates to , string contributes to , string depends on , rate rate ) {  <NL> add line ( new rate behaviour ( id , reason , relates to , contributes to , depends on , behaviour type . discount , rate ) ) ;  <NL>  }  COM: <s> add a rate based discount entry to the sheet </s>

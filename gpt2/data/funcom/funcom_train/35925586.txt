@@ -1,0 +1,1 @@
+TDAT: private void inform cannot connect to server ( ) {  <NL> alert alert = new alert ( " error " , " can ' t connect to the server " , null , alert type . error ) ;  <NL> alert . set timeout ( 5000 ) ;  <NL> display . vibrate ( 500 ) ;  <NL> display . set current ( alert , connection form ) ;  <NL>  }  COM: <s> method shows error alert when connection to the server fails </s>

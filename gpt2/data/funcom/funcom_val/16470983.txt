@@ -1,0 +1,1 @@
+TDAT: public void test top ( ) {  <NL>  <NL> for ( int i = 0 ; i < m bitmap . get width ( ) ; i + + ) {  <NL> for ( int j = 0 ; j < 50 ; j + + ) {  <NL> if ( m bitmap . get pixel ( i , j ) ! = color . transparent ) fail ( ) ;  <NL> if ( m terrain . is terrain ( i , j ) ) fail ( ) ;  <NL>  <NL>  }  <NL>  }  <NL>  }  COM: <s> test the top row of the terrain </s>

@@ -1,0 +1,1 @@
+TDAT: protected void build title ( ) {  <NL> chart . get title ( ) . get label ( ) . get caption ( ) . set value ( title ) ;  <NL> chart . get title ( ) . get label ( ) . get caption ( ) . get font ( ) . set size ( 14 ) ;  <NL> chart . get title ( ) . get label ( ) . get caption ( ) . get font ( ) . set name ( font _ name ) ;  <NL>  }  COM: <s> builds the chart title </s>

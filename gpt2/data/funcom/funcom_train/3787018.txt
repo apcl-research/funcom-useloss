@@ -1,0 +1,1 @@
+TDAT: public boolean set field data ( string new fields [ ] , int n new fields )  <NL>  { / * set field list * /  <NL> if ( t cols < n new fields )  <NL> return ( false ) ;  <NL> for ( int i = 0 ; i < n new fields ; i + + )  <NL> t fields [ i ] = new fields [ i ] ;  <NL> return ( true ) ;  <NL>  } / * set field data * /  COM: <s> set field data set new field list for table </s>

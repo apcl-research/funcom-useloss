@@ -1,0 +1,1 @@
+TDAT: public void set logging prefix ( object bin , object bin spectra id , object spectra ) {  <NL> this . logging prefix = new string buffer ( ) . append ( " ( " ) . append ( bin ) . append ( " { " ) . append ( bin spectra id ) . append ( " } " ) . append ( " vs " ) . append ( spectra ) . append ( " ) - " ) . to string ( ) ;  <NL>  }  COM: <s> needed for bin logging </s>

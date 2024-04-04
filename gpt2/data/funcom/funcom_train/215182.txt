@@ -1,0 +1,1 @@
+TDAT: private j menu create submenu ( string text ) {  <NL> j menu submenu = new j menu ( text ) ;  <NL> submenu . add ( new j menu item ( " item 1 " ) ) ;  <NL> submenu . add ( new j menu item ( " item 2 " ) ) ;  <NL> submenu . add ( new j menu item ( " item 3 " ) ) ;  <NL> return submenu ;  <NL>  }  COM: <s> creates and answers a submenu labeled with the given text </s>

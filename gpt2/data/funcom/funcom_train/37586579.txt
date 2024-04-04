@@ -1,0 +1,1 @@
+TDAT: public void set type ( string type ) {  <NL> type = type . intern ( ) ;  <NL> int index = find brace ( type ) ;  <NL> if ( index = = braces . length ) throw new brace exception ( " invalid brace type \ " " + type + " \ " " ) ;  <NL>  _ type = index ;  <NL>  _ size = get type ( ) . length ( ) ;  <NL>  }  COM: <s> reset the type of this brace </s>

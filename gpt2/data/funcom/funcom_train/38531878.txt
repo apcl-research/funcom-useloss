@@ -1,0 +1,1 @@
+TDAT: protected void fire member added ( project member member ) {  <NL> array list temp ;  <NL>  <NL> temp = ( array list ) list listeners . clone ( ) ;  <NL> for ( int x = 0 ; x < temp . size ( ) ; x + + ) {  <NL>  ( ( listener project ) temp . get ( x ) ) . member added ( this , member ) ;  <NL>  }  <NL>  }  COM: <s> gets called when a member is added to this project </s>

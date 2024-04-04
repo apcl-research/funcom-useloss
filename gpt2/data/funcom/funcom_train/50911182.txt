@@ -1,0 +1,1 @@
+TDAT: public int set inverse map ( ) throws array index out of bounds exception {  <NL> int set temp = new int set ( this . size ( ) ) ;  <NL> for ( int i = 0 ; i < size ( ) ; i + + ) {  <NL> temp . set element at ( this . element at ( i ) , i ) ;  <NL>  }  <NL> return temp ;  <NL>  }  COM: <s> inverse mapping see introduction if tt y i x this </s>

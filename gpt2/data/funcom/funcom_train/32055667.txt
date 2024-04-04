@@ -1,0 +1,1 @@
+TDAT: public void set rect ( string key , rectangle r ) {  <NL> string val = r . get x ( ) + " , " + r . get y ( ) + " , " + r . get width ( ) + " , " + r . get height ( ) ;  <NL> this . set property ( key , val ) ; / * fault : : this . set property ( key , " wrong " ) ; * /  <NL>  }  COM: <s> sets the rect attribute of the user properties object </s>

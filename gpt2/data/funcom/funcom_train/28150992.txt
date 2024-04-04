@@ -1,0 +1,1 @@
+TDAT: public double get x ( double t ) {  <NL> int n = list . size ( ) ;  <NL> t = t * n ;  <NL> double di = strict math . floor ( t ) ;  <NL> int i = ( int ) di ;  <NL> if ( i < 0 ) return start x ; else if ( i > = n ) return end x ; else return get x ( list . get ( i ) , t - di ) ;  <NL>  }  COM: <s> returns the x position at the given point 0 t 1 </s>

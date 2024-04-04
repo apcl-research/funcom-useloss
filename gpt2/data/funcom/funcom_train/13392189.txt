@@ -1,0 +1,1 @@
+TDAT: public void set groups ( string [ ] groups , boolean append ) {  <NL> if ( ! append )  <NL> group list . clear ( ) ;  <NL> for ( int i = 0 ; i < groups . length ; i + + ) {  <NL> string group = groups [ i ] ;  <NL> if ( group . equals ( " public " ) )  <NL> group = " " ;  <NL> group list . add ( groups [ i ] ) ;  <NL>  }  <NL>  }  COM: <s> add to the groups collection </s>

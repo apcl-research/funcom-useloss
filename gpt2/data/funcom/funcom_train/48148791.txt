@@ -1,0 +1,1 @@
+TDAT: public void fill box ( graphics g , double x0 , double y0 , double x1 , double y1 ) {  <NL> g . fill rect ( x graph ( x0 ) , y graph ( y1 ) , x graph ( x1 ) - x graph ( x0 ) , y graph ( y0 )  <NL>  - y graph ( y1 ) ) ;  <NL>  }  COM: <s> this method fills a box between the specified corner points in scale </s>

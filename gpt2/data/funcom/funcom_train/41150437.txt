@@ -1,0 +1,1 @@
+TDAT: public void get values ( double [ ] values ) {  <NL>  / / xxx this is a rather strange method , maybe it should be changed <NL>  / / into one that returns ( using system . arraycopy ) the requested values <NL> for ( int i = 0 ; i < m _ coord . length ; i + + ) {  <NL> values [ i ] = m _ coord [ i ] ;  <NL>  }  <NL>  }  COM: <s> get the values of the coordinates </s>

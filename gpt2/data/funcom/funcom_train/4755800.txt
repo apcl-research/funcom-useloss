@@ -1,0 +1,1 @@
+TDAT: protected void advance ( entry e ) {  <NL> if ( e = = null ) {  <NL> return ;  <NL>  }  <NL> do {  <NL> e . set index ( e . get index ( ) + 1 ) ;  <NL>  } while ( e . get index ( ) < dim & & e . get value ( ) = = 0 ) ;  <NL> if ( e . get index ( ) > = dim ) {  <NL> e . set index ( - 1 ) ;  <NL>  }  <NL>  }  COM: <s> advance an entry up to the next nonzero one </s>

@@ -1,0 +1,1 @@
+TDAT: public opu _ r25 _ result loop add result ( ) {  <NL> opu _ r25 _ result loop loop = new opu _ r25 _ result loop ( this ) ;  <NL> if ( find segment ( " obr " ) = = null ) {  <NL> get obr ( ) ; / / force creation of required order request segment <NL>  }  <NL> v segments . add ( loop ) ;  <NL> return loop ;  <NL>  }  COM: <s> add a result loop </s>

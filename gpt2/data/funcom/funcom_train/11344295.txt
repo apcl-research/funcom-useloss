@@ -1,0 +1,1 @@
+TDAT: public void on service departure ( service reference ref ) {  <NL> list list = get records by ref ( ref ) ;  <NL> for ( int i = 0 ; i < list . size ( ) ; i + + ) { / / stop the implied record <NL> record rec = ( record ) list . get ( i ) ;  <NL> rec . dispose ( ) ;  <NL>  }  <NL> m _ records . remove all ( list ) ;  <NL>  }  COM: <s> a used service disappears </s>

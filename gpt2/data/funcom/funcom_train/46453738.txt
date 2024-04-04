@@ -1,0 +1,1 @@
+TDAT: static public double cross2d ( double [ ] a , double [ ] b ) {  <NL> if ( ( a . length ! = 2 ) || ( b . length ! = 2 ) ) {  <NL> throw new unsupported operation exception ( " error : cross2d product requires 2 component arrays . " ) ;  <NL>  }  <NL> return a [ 0 ] * b [ 1 ] - a [ 1 ] * b [ 0 ] ;  <NL>  }  COM: <s> calculate the cross product of two component vectors </s>

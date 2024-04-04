@@ -1,0 +1,1 @@
+TDAT: public void add plan ( session plan session plan ) {  <NL> dbc . require ( null ! = session plan ) ;  <NL>  <NL> string map key = this . generate map key ( session plan . get session id ( ) ) ;  <NL> logger . debug ( " add a session plan - key " + map key ) ;  <NL> session map . put ( map key , session plan ) ;  <NL>  }  COM: <s> add a session plan to the store </s>

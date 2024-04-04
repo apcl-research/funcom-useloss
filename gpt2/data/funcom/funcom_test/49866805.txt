@@ -1,0 +1,1 @@
+TDAT: public boolean update checklist ( long list id , string name ) {  <NL> content values values = new content values ( ) ;  <NL> values . put ( key _ name , name ) ;  <NL> return m db . update ( checklist _ tbl , values , key _ rowid + " = " + list id , null ) > 0 ;  <NL>  }  COM: <s> updates the specified checklist </s>

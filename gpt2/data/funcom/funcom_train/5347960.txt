@@ -1,0 +1,1 @@
+TDAT: static public void assert instanceof ( string msg , class expected , object actual ) {  <NL> if ( ! instanceof check ( expected , actual . get class ( ) ) )  <NL> fail ( format comparison ( instance _ of , msg ,  <NL> expected . get name ( ) , actual . get class ( ) . get name ( ) ) ) ;  <NL>  }  COM: <s> asserts that actual is an instance of the class expected </s>

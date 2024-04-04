@@ -1,0 +1,1 @@
+TDAT: public string get simple type ( ) {  <NL>  / / get the part of the string after the last dot characher <NL>  / / eg : ' env object . electric device . light ' - > returns ' light '  <NL> return get type ( ) . substring (  <NL> get type ( ) . last index of ( " . " ) + 1 ) . trim ( ) . to lower case ( ) ;  <NL>  }  COM: <s> returns only the last part of the type </s>

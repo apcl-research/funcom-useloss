@@ -1,0 +1,1 @@
+TDAT: public boolean clear cell ( int row , int column ) {  <NL> element td = get cell formatter ( ) . get element ( row , column ) ;  <NL> boolean b = super . internal clear cell ( row , column , td ) ;  <NL> dom . set inner html ( td , " & nbsp ; " ) ;  <NL> return b ;  <NL>  }  COM: <s> replaces the contents of the specified cell with a single space </s>

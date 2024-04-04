@@ -1,0 +1,1 @@
+TDAT: private j list get top map list ( ) {  <NL> if ( top map list = = null ) {  <NL> top map list = new j list ( ) ;  <NL> top map list . set bounds ( new rectangle ( 8 , 24 , 113 , 113 ) ) ;  <NL> top map list . set bounds ( new java . awt . rectangle ( 8 , 20 , 113 , 143 ) ) ;  <NL>  }  <NL> return top map list ;  <NL>  }  COM: <s> this method initializes top map list </s>

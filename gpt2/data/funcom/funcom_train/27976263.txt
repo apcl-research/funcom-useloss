@@ -1,0 +1,1 @@
+TDAT: public void characters ( char [ ] text , int start , int length ) {  <NL>  / / system . out . println ( " html reader . characters text = " + new string ( text , start , length ) + " start = " + start + " length = " + length ) ;  <NL> if ( reading title ) title = new string ( text , start , length ) ;  <NL>  }  COM: <s> raw text of document </s>

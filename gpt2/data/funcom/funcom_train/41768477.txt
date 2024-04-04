@@ -1,0 +1,1 @@
+TDAT: private void show all player ( string name ) {  <NL> string [ ] names = player factory . get all player names ( ) ;  <NL> for ( int i = 0 ; i < names . length ; i + + ) {  <NL> if ( names [ i ] . equals ( name ) ) {  <NL>  } else {  <NL> system . out . println ( i + " . " + names [ i ] ) ;  <NL>  }  <NL>  }  <NL>  <NL>  }  COM: <s> shows all the players </s>

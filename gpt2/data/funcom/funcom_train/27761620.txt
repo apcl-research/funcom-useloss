@@ -1,0 +1,1 @@
+TDAT: protected void set log ( ) {  <NL> if ( debug . get debug ( ) . get log ( ) = = null ) {  <NL> simple log log = new simple log ( get class ( ) . get name ( ) ) ;  <NL> log . set level ( simple log . log _ level _ debug ) ;  <NL> debug . get debug ( ) . set log ( log ) ;  <NL>  }  <NL>  }  COM: <s> sets the log attribute of the base test case object </s>

@@ -1,0 +1,1 @@
+TDAT: public boolean is in package ( string s url ) {  <NL> if ( ! b open document & & s url . starts with ( " # " ) ) { return true ; } / / old format <NL> if ( s url . starts with ( " . / " ) ) { s url = s url . substring ( 2 ) ; }  <NL> return ooo doc . get embedded object ( s url ) ! = null ;  <NL>  }  COM: <s> checks whether this url is internal to the package </s>

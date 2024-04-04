@@ -1,0 +1,1 @@
+TDAT: private file is tortuga jar ( string path ) {  <NL> if ( null = = path ) {  <NL> return null ;  <NL>  }  <NL> file f = new file ( path ) ;  <NL> if ( f . get name ( ) . equals ignore case ( aspect j5 ? " tortuga - tiger . jar " : " tortuga . jar " ) )  <NL> return ( f ) ;  <NL> return ( null ) ;  <NL>  }  COM: <s> determines whether the path represents the tortuga </s>

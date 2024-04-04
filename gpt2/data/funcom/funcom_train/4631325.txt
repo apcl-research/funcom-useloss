@@ -1,0 +1,1 @@
+TDAT: public vector cross product ( vector v ) {  <NL> return new vector ( get y ( ) * v . get z ( ) - get z ( ) * v . get y ( ) ,  <NL> get z ( ) * v . get x ( ) - get x ( ) * v . get z ( ) ,  <NL> get x ( ) * v . get y ( ) - get y ( ) * v . get x ( ) ) ;  <NL>  }  COM: <s> get the cross product of this vector with v this x v </s>

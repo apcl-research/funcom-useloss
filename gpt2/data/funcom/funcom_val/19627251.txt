@@ -1,0 +1,1 @@
+TDAT: protected void reset all links ( ) {  <NL> my linker . unlink all ( ) ;  <NL> list view l = get list view ( ) ;  <NL> int i ;  <NL> for ( i = 0 ; i < l . get child count ( ) ; i + + ) {  <NL> linker view lv = ( linker view ) l . get child at ( i ) ;  <NL> lv . update label ( ) ;  <NL>  }  <NL>  <NL>  }  COM: <s> method called when user click on the reset button </s>

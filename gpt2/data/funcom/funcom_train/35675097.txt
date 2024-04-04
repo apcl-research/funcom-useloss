@@ -1,0 +1,1 @@
+TDAT: public void test cultureinfo ( ) throws exception {  <NL> jaxbgen ( " cultureinfo " , new file ( cob _ xsd _ dir , " cultureinfo . xsd " ) , true ,  <NL> 1l , true , null , null , null , null , false , false ) ;  <NL> check ( " cultureinfo " ) ;  <NL>  }  COM: <s> the culture info web service case </s>

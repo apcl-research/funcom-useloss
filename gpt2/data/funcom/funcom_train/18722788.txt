@@ -1,0 +1,1 @@
+TDAT: public void mouse wheel moved ( mouse wheel event e ) {  <NL> if ( e . get modifiers ex ( ) = = mouse event . alt _ down _ mask )  <NL> thumb size modifier + = ( double ) e . get wheel rotation ( ) / 10 . 0 ;  <NL> else <NL> increase zoom ( ( ( double ) e . get wheel rotation ( ) ) / 10d ) ;  <NL> repaint ( ) ;  <NL>  }  COM: <s> invoked when the mouse wheel is rotated </s>

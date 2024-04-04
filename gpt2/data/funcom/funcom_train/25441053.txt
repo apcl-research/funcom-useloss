@@ -1,0 +1,1 @@
+TDAT: protected void set mess ( string description , double value ) {  <NL> for ( int i = 0 ; i < messw . size ( ) ; i + + ) {  <NL> if ( messw . get ( i ) . info . equals ( description ) ) {  <NL> messw . get ( i ) . double value = value ;  <NL> messw . get ( i ) . is double = true ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> refresh measured value identified by description </s>

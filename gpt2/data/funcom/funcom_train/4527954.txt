@@ -1,0 +1,1 @@
+TDAT: public void shutdown data nodes ( ) {  <NL> for ( int i = data nodes . size ( ) - 1 ; i > = 0 ; i - - ) {  <NL> system . out . println ( " shutting down data node " + i ) ;  <NL> data node dn = data nodes . remove ( i ) . datanode ;  <NL> dn . shutdown ( ) ;  <NL> num data nodes - - ;  <NL>  }  <NL>  }  COM: <s> shutdown all data nodes started by this class </s>

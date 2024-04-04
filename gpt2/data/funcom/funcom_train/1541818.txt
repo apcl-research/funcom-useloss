@@ -1,0 +1,1 @@
+TDAT: public void read all ( ) throws io exception {  <NL> iterator i = entry . values ( ) . iterator ( ) ;  <NL> while ( i . has next ( ) ) {  <NL> ttf table table = ( ttf table ) i . next ( ) ;  <NL> if ( ( table ! = null ) & & ( ! table . is read ( ) ) )  <NL> table . read ( ) ;  <NL>  }  <NL>  }  COM: <s> reads all tables </s>

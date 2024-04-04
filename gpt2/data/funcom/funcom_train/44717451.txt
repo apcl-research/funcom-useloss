@@ -1,0 +1,1 @@
+TDAT: public void clear log ( ) {  <NL> log sw . get buffer ( ) . set length ( 0 ) ;  <NL> assert true ( " log should be empty after reset , instead contained : " +  <NL> utilities . line _ break + " ' " + get log message ( ) + " ' " ,  <NL> get log message ( ) . length ( ) = = 0 ) ;  <NL>  }  COM: <s> clears the logs messages </s>

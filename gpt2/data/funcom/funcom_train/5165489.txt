@@ -1,0 +1,1 @@
+TDAT: public boolean is valid ( final gene [ ] a _ case , final supergene a _ for supergene ) {  <NL> throw new error ( " for " + get class ( ) . get name ( ) + " , override "  <NL>  + " is valid ( gene [ ] , supergene ) or set an "  <NL>  + " external validator . " ) ;  <NL>  }  COM: <s> test the given gene list for validity </s>

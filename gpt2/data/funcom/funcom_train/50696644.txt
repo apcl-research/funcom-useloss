@@ -1,0 +1,1 @@
+TDAT: public void add bond ( smiles bond bond ) {  <NL> if ( bonds count > = bonds . length ) {  <NL> smiles bond [ ] tmp = new smiles bond [ bonds . length * 2 ] ;  <NL> system . arraycopy ( bonds , 0 , tmp , 0 , bonds . length ) ;  <NL> bonds = tmp ;  <NL>  }  <NL> bonds [ bonds count ] = bond ;  <NL> bonds count + + ;  <NL>  }  COM: <s> add a bond to the atom </s>

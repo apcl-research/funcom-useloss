@@ -1,0 +1,1 @@
+TDAT: public void test kdom ( ) {  <NL>  <NL> test predicates ( new string [ ] { " dom ( { 1| - > 2 , 2| - > 3 } ) = { 1 , 2 } " ,  <NL>  " 3 / : dom ( { 1| - > 2 , 2| - > 3 } ) " , " 1 : dom ( { 1| - > 2 , 2| - > 3 } ) " } ,  <NL> new boolean [ ] { true , true , true } ) ;  <NL>  <NL>  }  COM: <s> test dom operator </s>

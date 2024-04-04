@@ -1,0 +1,1 @@
+TDAT: private list get clean up menu ( ) {  <NL> if ( s clean up menu = = null ) {  <NL> s clean up menu = application . get menu ( application . messages [ news reader . msg _ me _ cleanup ] , news reader . me _ cleanup , - 1 , application . c back ) ;  <NL>  }  <NL> return s clean up menu ;  <NL>  }  COM: <s> gets the clean up menu </s>

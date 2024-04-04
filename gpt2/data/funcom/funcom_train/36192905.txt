@@ -1,0 +1,1 @@
+TDAT: public void test has examples ( ) {  <NL> assert true ( abcdc . has ( ca ) ) ;  <NL> assert true ( abcdc . has ( cc ) ) ;  <NL> assert true ( abcdc . has ( cd ) ) ;  <NL> for ( int j = 0 ; j < e . length ; j + + ) {  <NL> assert true ( ! empty seq . has ( e [ j ] ) ) ;  <NL>  }  <NL>  }  COM: <s> test the examples from the has method </s>

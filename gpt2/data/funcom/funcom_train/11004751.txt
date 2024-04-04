@@ -1,0 +1,1 @@
+TDAT: public void set slide show ( slide show ss ) {  <NL>  _ slide show = ss ;  <NL> text run [ ] trs = get text runs ( ) ;  <NL> if ( trs ! = null ) {  <NL> for ( int i = 0 ; i < trs . length ; i + + ) {  <NL> trs [ i ] . supply slide show ( _ slide show ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> set the slide show were attached to </s>

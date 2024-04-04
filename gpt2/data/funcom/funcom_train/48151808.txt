@@ -1,0 +1,1 @@
+TDAT: private void _ set size ( int size , int bits ) {  <NL>  _ size = size ;  <NL>  _ bits = bits ;  <NL>  <NL>  / / allocate memory for each map <NL>  _ r map = new byte [ _ size ] ;  <NL>  _ g map = new byte [ _ size ] ;  <NL>  _ b map = new byte [ _ size ] ;  <NL>  _ a map = new byte [ _ size ] ;  <NL>  }  COM: <s> set the size and bits </s>

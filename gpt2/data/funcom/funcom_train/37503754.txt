@@ -1,0 +1,1 @@
+TDAT: public void remove mob ( mob mob ) {  <NL> int index = get index ( mob ) ;  <NL> if ( index ! = - 1 ) {  <NL> try {  <NL> set mob ( - 1 , mob ) ;  <NL>  } catch ( entry denied exception ex ) {  <NL> ex . print stack trace ( ) ;  <NL> throw new runtime exception ( " set mob protocol violation " ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> remove mob from map </s>

@@ -1,0 +1,1 @@
+TDAT: public void test ammine13 ( ) throws exception {  <NL> object [ ] [ ] smiles = new object [ ] [ ] {  <NL>  { " c1cccc ( n ) c1c2c ( n ) cccc2 " , " mr2 " , new double ( 2 . 98 ) , " mr3 " , new double ( 0 . 1 ) , " mr6 " , new double ( 0 . 1 ) } ,  <NL>  } ;  <NL> amine group substituent ( smiles ) ;  <NL>  }  COM: <s> should be mr2 2 </s>

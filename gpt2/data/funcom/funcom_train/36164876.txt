@@ -1,0 +1,1 @@
+TDAT: public int compare to ( compiler variable var ) {  <NL> if ( ( this . get name ( ) ) . compare to ( var . get name ( ) ) < 0 )  <NL>  {  <NL> return - 1 ;  <NL>  }  <NL> else if ( ( this . get name ( ) ) . compare to ( var . get name ( ) ) > 0 )  <NL>  {  <NL> return 1 ;  <NL>  }  <NL> else <NL> return 0 ;  <NL>  }  COM: <s> compares one compiler variable to another </s>

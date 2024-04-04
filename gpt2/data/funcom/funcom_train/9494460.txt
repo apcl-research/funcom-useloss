@@ -1,0 +1,1 @@
+TDAT: protected void check row index ( final int row ) {  <NL> if ( row < 0 || row > = get row dimension ( ) ) {  <NL> throw new matrix index exception ( " row index { 0 } out of allowed range [ { 1 } , { 2 } ] " ,  <NL> row , 0 , get row dimension ( ) - 1 ) ;  <NL>  }  <NL>  }  COM: <s> check if a row index is valid </s>

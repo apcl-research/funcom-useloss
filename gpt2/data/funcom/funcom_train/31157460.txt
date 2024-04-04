@@ -1,0 +1,1 @@
+TDAT: private void create rgb ( ) {  <NL> tile mask rgb = new int [ tile width ] [ tile height ] ;  <NL> for ( int x = 0 ; x < tile width ; x + + ) {  <NL> for ( int y = 0 ; y < tile height ; y + + ) {  <NL> tile mask rgb [ x ] [ y ] = tile mask . get rgb ( x , y ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> caches the rgb values of the tile </s>

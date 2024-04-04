@@ -1,0 +1,1 @@
+TDAT: public int compare to ( object obj ) {  <NL> float r = score - ( ( result ) obj ) . get score ( ) ;  <NL> if ( r < 0 . 0 )  <NL> return 1 ;  <NL> else if ( r > 0 . 0 )  <NL> return - 1 ;  <NL> else <NL>  / / break tie with string compare <NL> return url . compare to ( ( ( result ) obj ) . get url ( ) ) ;  <NL>  }  COM: <s> comparing two results </s>

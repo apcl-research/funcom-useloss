@@ -1,0 +1,1 @@
+TDAT: public float write selected rows ( int row start , int row end , float x pos , float y pos , pdf content byte [ ] canvases ) {  <NL> return write selected rows ( 0 , - 1 , row start , row end , x pos , y pos , canvases ) ;  <NL>  }  COM: <s> writes the selected rows to the document </s>

@@ -1,0 +1,1 @@
+TDAT: public void set tag ( object handle , object tag ) {  <NL> if ( handle instanceof m tagged value & & tag instanceof string ) {  <NL>  ( ( m tagged value ) handle ) . set tag ( ( string ) tag ) ;  <NL> return ;  <NL>  }  <NL> throw new illegal argument exception ( " handle : " + handle + " or tag : "  <NL>  + tag ) ;  <NL>  }  COM: <s> set the tag of a tagged value </s>

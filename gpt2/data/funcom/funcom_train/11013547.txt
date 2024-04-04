@@ -1,0 +1,1 @@
+TDAT: public void test49931 ( ) throws exception {  <NL> hssf workbook wb = open sample ( " 49931 . xls " ) ;  <NL>  <NL> assert equals ( 1 , wb . get number of sheets ( ) ) ;  <NL> assert equals ( " foo " , wb . get sheet at ( 0 ) . get row ( 0 ) . get cell ( 0 ) . get rich string cell value ( ) . to string ( ) ) ;  <NL>  }  COM: <s> regression with the page settings block </s>

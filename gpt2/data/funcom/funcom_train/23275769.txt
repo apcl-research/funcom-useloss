@@ -1,0 +1,1 @@
+TDAT: private int get new id ( ) {  <NL> int max = 0 ;  <NL> for ( enumeration e = v . elements ( ) ; e . has more elements ( ) ; ) {  <NL> object este = e . next element ( ) ;  <NL> if ( max < ( ( file ) este ) . get id ( ) )  <NL> max = ( ( file ) este ) . get id ( ) ;  <NL>  }  <NL> max = max + 1 ;  <NL> return max ;  <NL>  }  COM: <s> gets a new id </s>

@@ -1,0 +1,1 @@
+TDAT: public int read ( byte [ ] buffer , int offset , int count ) throws io exception {  <NL> int ret = super . read ( buffer , offset , count ) ;  <NL> if ( ret ! = - 1 ) marker + = ret ;  <NL> return ret ;  <NL>  } / / end of read ( byte [ ] , int , int )  COM: <s> reads the next bytes </s>

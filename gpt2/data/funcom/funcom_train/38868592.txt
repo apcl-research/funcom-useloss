@@ -1,0 +1,1 @@
+TDAT: @ test public void test fsu header ( ) {  <NL> assert . assert equals ( " tk356 " , fsu . get stn ( ) ) ;  <NL> assert . assert equals ( 2003 , fsu . get year ( ) ) ;  <NL> assert . assert equals ( 1 , fsu . get month ( ) ) ;  <NL> assert . assert equals ( " 34 " , fsu . get ursi ( ) ) ;  <NL>  <NL>  }  COM: <s> test the get fsuheader routine in fsu format </s>

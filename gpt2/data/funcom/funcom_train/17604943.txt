@@ -1,0 +1,1 @@
+TDAT: private string name ( string uri , locale locale ) {  <NL>  / / normaly ur is like / foo / to / foo / index <NL> if ( uri . ends with ( " / " ) ) {  <NL> uri = uri + " index " ;  <NL>  }  <NL>  <NL> return " / web - inf / message " + to bundle name ( uri , locale ) + " . properties " ;  <NL>  }  COM: <s> makes the file name </s>

@@ -1,0 +1,1 @@
+TDAT: public void fetch ( string source , string keyword , vis node source node ) {  <NL> string url = build query ( source , keyword ) ;  <NL> logger . log ( prefs . current . user , " [ top , get , " + source + " , " + keyword + " , 0 , 0 , 0 , 0 ] " ) ;  <NL> fetch ( url , source node ) ;  <NL>  }  COM: <s> reads data from a specified source for some keyword </s>

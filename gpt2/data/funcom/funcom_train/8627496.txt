@@ -1,0 +1,1 @@
+TDAT: public transfer write string ( string s ) throws io exception {  <NL> if ( s = = null ) {  <NL> out . write int ( - 1 ) ;  <NL>  } else {  <NL> int len = s . length ( ) ;  <NL> out . write int ( len ) ;  <NL> for ( int i = 0 ; i < len ; i + + ) {  <NL> out . write char ( s . char at ( i ) ) ;  <NL>  }  <NL>  }  <NL> return this ;  <NL>  }  COM: <s> write a string </s>

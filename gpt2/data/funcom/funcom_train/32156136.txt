@@ -1,0 +1,1 @@
+TDAT: private j spinner get step nb of meeting ( ) {  <NL> if ( step nb of meeting = = null ) {  <NL> step nb of meeting = new j spinner ( new spinner number model ( 1 , 0 , 10 , 1 ) ) ;  <NL> step nb of meeting . set bounds ( new rectangle ( 440 , 175 , 60 , 22 ) ) ;  <NL>  }  <NL> return step nb of meeting ;  <NL>  }  COM: <s> this method initializes step nb of meeting </s>

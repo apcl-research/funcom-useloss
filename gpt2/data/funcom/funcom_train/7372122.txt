@@ -1,0 +1,1 @@
+TDAT: public void put ( k key , collection < v > values ) {  <NL> array list < v > list = m map . get ( key ) ;  <NL> if ( list = = null ) {  <NL> list = new array list < v > ( values ) ;  <NL> m map . put ( key , list ) ;  <NL>  } else {  <NL> list . add all ( values ) ;  <NL>  }  <NL>  }  COM: <s> add a key to the map with a collection of elements </s>

@@ -1,0 +1,1 @@
+TDAT: private void valid table ( string [ ] [ ] expected , string table name ) throws sql exception {  <NL> string sql = get select sql ( table name ) ;  <NL> statement st = create statement ( ) ;  <NL> result set rs = st . execute query ( sql ) ;  <NL> jdbc . assert full result set ( rs , expected ) ;  <NL> st . close ( ) ;  <NL>  }  COM: <s> valid content in defined table </s>

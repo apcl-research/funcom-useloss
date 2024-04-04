@@ -1,0 +1,1 @@
+TDAT: public void draw line ( double x1 , double y1 , double x2 , double y2 ) {  <NL> draw line fixed point (  <NL> core math . to fixed ( x1 ) ,  <NL> core math . to fixed ( y1 ) ,  <NL> core math . to fixed ( x2 ) ,  <NL> core math . to fixed ( y2 ) ) ;  <NL>  }  COM: <s> draws a line using the current color </s>

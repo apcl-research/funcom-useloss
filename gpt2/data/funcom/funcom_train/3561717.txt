@@ -1,0 +1,1 @@
+TDAT: public void n2sort ( ) {  <NL> for ( int i = 0 ; i < get row count ( ) ; i + + ) {  <NL> for ( int j = i + 1 ; j < get row count ( ) ; j + + ) {  <NL> if ( compare ( indexes [ i ] , indexes [ j ] ) = = - 1 ) {  <NL> swap ( i , j ) ;  <NL>  }  <NL>  }  <NL>  }  <NL>  }  COM: <s> sorts 2 items </s>

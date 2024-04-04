@@ -1,0 +1,1 @@
+TDAT: public void message sent ( message event e ) {  <NL> string str = e . get message ( ) ;  <NL> if ( str . ends with ( dir _ added ) ) {  <NL> str = str . substring ( directory . length ( ) , str . index of ( dir _ added ) ) . trim ( ) ;  <NL> create cvs files ( str ) ;  <NL>  }  <NL> super . message sent ( e ) ;  <NL>  }  COM: <s> listens for output of the command </s>

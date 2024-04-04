@@ -1,0 +1,1 @@
+TDAT: public float rectangle scale ( double s ) {  <NL> double w = ( x2 - x ) * s / 2d ;  <NL> double h = ( y2 - y ) * s / 2d ;  <NL> double x0 = ( x2 + x ) / 2d ;  <NL> double y0 = ( y2 + y ) / 2d ;  <NL>  <NL> return new float rectangle ( x0 - w , y0 - h , x0 + w , y0 + h ) ;  <NL>  }  COM: <s> creates modified copy of this rectangle so that its side size is </s>

@@ -1,0 +1,1 @@
+TDAT: protected result assert not null ( string message , object obj ) {  <NL> if ( obj = = null ) {  <NL> string msg = message ! = null ? message + " \n " : " " ;  <NL> msg + = " assert not null ( object ) : " + obj ;  <NL> return fail ( msg , 3 ) ;  <NL>  }  <NL>  <NL> return pass ( 3 ) ;  <NL>  }  COM: <s> asserts that the object is not null </s>

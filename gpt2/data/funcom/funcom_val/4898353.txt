@@ -1,0 +1,1 @@
+TDAT: public void set up ( ) throws exception {  <NL> super . set up ( ) ;  <NL> save file . load properties ( ) ;  <NL> j label label = new j label ( ) ;  <NL> label . set text ( " mo " ) ;  <NL> label . set text ( " < html > bo < u > b < / u > < / html > " ) ;  <NL> add ( label ) ;  <NL>  }  COM: <s> sets up the fixture for example open a network connection </s>

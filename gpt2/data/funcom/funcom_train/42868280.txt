@@ -1,0 +1,1 @@
+TDAT: public void write ui32 ( long value ) throws io exception {  <NL> flush bits ( ) ;  <NL>  <NL> super . write ( ( int ) ( value & 0xff ) ) ;  <NL> super . write ( ( int ) ( value > > 8 ) ) ;  <NL> super . write ( ( int ) ( value > > 16 ) ) ;  <NL> super . write ( ( int ) ( value > > 24 ) ) ;  <NL>  }  COM: <s> write a 32 bit unsigned value to the out stream </s>

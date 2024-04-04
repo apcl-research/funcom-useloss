@@ -1,0 +1,1 @@
+TDAT: private int get next key frame ts ( int key frame ts ) {  <NL> for ( int i = 0 ; i < key frame meta . timestamps . length ; i + + ) {  <NL> if ( key frame meta . timestamps [ i ] > key frame ts ) {  <NL> return key frame meta . timestamps [ i ] ;  <NL>  }  <NL>  }  <NL> return ( int ) key frame meta . duration ;  <NL>  }  COM: <s> get timestmap of next key frame </s>

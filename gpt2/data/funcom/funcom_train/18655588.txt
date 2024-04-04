@@ -1,0 +1,1 @@
+TDAT: public void set labs ( string [ ] [ ] labs ) {  <NL> this . labs = labs ;  <NL> string [ ] descriptions = new string [ labs . length ] ;  <NL>  <NL> for ( int i = 0 ; i < labs . length ; i + + ) {  <NL> descriptions [ i ] = labs [ i ] [ 1 ] ;  <NL>  }  <NL>  <NL> list . set list data ( descriptions ) ;  <NL>  }  COM: <s> sets the list of labs to the specified list </s>

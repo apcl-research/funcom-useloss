@@ -1,0 +1,1 @@
+TDAT: private rectangle measure string ( graphics g , string s ) {  <NL> font metrics metrics = g . get font metrics ( ) ;  <NL> rectangle2d bounds = metrics . get string bounds ( s , g ) ;  <NL> return new rectangle ( 0 , 0 , ( int ) bounds . get width ( ) , metrics . get height ( ) ) ;  <NL>  }  COM: <s> p returns the bounding rectangle for the specified string if it is </s>

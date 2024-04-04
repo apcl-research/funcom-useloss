@@ -1,0 +1,1 @@
+TDAT: private void write ( byte [ ] data ) {  <NL> try {  <NL> m term out . write ( data ) ;  <NL> m term out . flush ( ) ;  <NL>  } catch ( io exception e ) {  <NL>  / / ignore exception <NL>  / / we don ' t really care if the receiver isn ' t listening .  <NL>  / / we just make a best effort to answer the query .  <NL>  }  <NL>  }  COM: <s> send data to the shell process </s>

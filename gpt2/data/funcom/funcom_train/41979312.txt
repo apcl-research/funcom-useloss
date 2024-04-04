@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> string s = " " ;  <NL> for ( int r = 0 ; r < get matrix height ( ) ; r + + )  <NL> for ( int c = 0 ; c < get matrix width ( ) ; c + + , s + = " \n " )  <NL> s + = get matrix element ( r , c ) + " " ;  <NL> return s ;  <NL>  }  COM: <s> gets the puzzle as a string </s>

@@ -1,0 +1,1 @@
+TDAT: public void add element ( path map . element < lru entry > element ) {  <NL> path map . element < lru entry > [ ] tmp =  <NL> new path map . element [ elements . length + 1 ] ;  <NL> system . arraycopy ( elements , 0 , tmp , 0 , elements . length ) ;  <NL> tmp [ elements . length ] = element ;  <NL> elements = tmp ;  <NL>  }  COM: <s> add a mapping to some element </s>

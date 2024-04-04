@@ -1,0 +1,1 @@
+TDAT: private string get extension ( file f ) {  <NL> string s = f . get name ( ) ;  <NL> int i = s . last index of ( ' . ' ) ;  <NL> if ( i > 0 & & i < s . length ( ) - 1 ) {  <NL> return s . substring ( i + 1 ) . to lower case ( ) ;  <NL>  }  <NL> return " " ;  <NL>  }  COM: <s> get the file extension in lower case </s>

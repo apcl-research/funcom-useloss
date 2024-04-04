@@ -1,0 +1,1 @@
+TDAT: public box object get box object ( ) {  <NL> if ( box object _ = = null ) {  <NL> box object _ = new box object ( this ) ;  <NL> box object _ . set parent scope ( get window ( ) ) ;  <NL> box object _ . set prototype ( get prototype ( box object _ . get class ( ) ) ) ;  <NL>  }  <NL> return box object _ ;  <NL>  }  COM: <s> returns the box object for this element </s>

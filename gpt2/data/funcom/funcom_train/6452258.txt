@@ -1,0 +1,1 @@
+TDAT: public boolean add ( plan body bl ) {  <NL> if ( term = = null ) {  <NL> bl = bl . clone pb ( ) ;  <NL> swap ( bl ) ;  <NL> this . next = bl . get body next ( ) ;  <NL>  } else if ( next = = null ) {  <NL> next = bl ;  <NL>  } else {  <NL> next . add ( bl ) ;  <NL>  }  <NL> return true ;  <NL>  }  COM: <s> clone the plan body and adds it in the end of this plan </s>

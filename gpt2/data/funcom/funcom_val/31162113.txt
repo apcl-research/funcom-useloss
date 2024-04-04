@@ -1,0 +1,1 @@
+TDAT: public string delete node ( string n ) {  <NL> node m = get node ( n ) ;  <NL> if ( null ! = m ) {  <NL> tokens . remove ( m . get token ( ) ) ;  <NL> names . remove ( m . get name ( ) ) ;  <NL>  }  <NL> return ( " node " + n + ( ( null ! = m ) ? " deleted . " : " not found . " ) ) ;  <NL>  }  COM: <s> delete node by name </s>

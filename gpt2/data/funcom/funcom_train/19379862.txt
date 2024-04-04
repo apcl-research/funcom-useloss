@@ -1,0 +1,1 @@
+TDAT: public void delete selected ( ) throws exception {  <NL> int row count = get row count ( ) ;  <NL> for ( int i = row count - 1 ; i > = 0 ; i - - ) {  <NL> if ( get selected ( i ) ! = null & & get selected ( i ) . equals ( constants . true ) ) {  <NL> delete row ( i ) ;  <NL>  <NL>  }  <NL>  }  <NL> update ( ) ;  <NL>  }  COM: <s> deletes all the selected rows </s>

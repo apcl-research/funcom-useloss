@@ -1,0 +1,1 @@
+TDAT: public void set cc ( string s ) {  <NL> string tokenizer str = new string tokenizer ( s , " , ; " ) ;  <NL> cc = new string [ str . count tokens ( ) ] ;  <NL> int index = 0 ;  <NL> while ( str . has more tokens ( ) ) {  <NL> cc [ index + + ] = str . next token ( ) ;  <NL>  }  <NL>  }  COM: <s> parses a cc string to set field array </s>

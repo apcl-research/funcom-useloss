@@ -1,0 +1,1 @@
+TDAT: protected void paint background ( graphics2d g , basic sliding tab displayer ui . index button b ) {  <NL> color c = b . is selected ( ) ? color . orange : b . get background ( ) ;  <NL> g . set color ( c ) ;  <NL> g . fill rect ( 0 , 0 , b . get width ( ) , b . get height ( ) ) ;  <NL>  }  COM: <s> paints the tab background </s>

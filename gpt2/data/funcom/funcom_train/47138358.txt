@@ -1,0 +1,1 @@
+TDAT: public int update ( final role role ) {  <NL> object [ ] params = new object [ ] { role . get name ( ) , role . get description ( ) , role . get created ( ) ,  <NL> role . get last changed ( ) , new long ( role . get id ( ) ) } ;  <NL> return update ( params ) ;  <NL>  }  COM: <s> update role in database </s>

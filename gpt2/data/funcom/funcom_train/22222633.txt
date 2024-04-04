@@ -1,0 +1,1 @@
+TDAT: public boolean contains ( rectangle double _ other ) {  <NL> return _ other . get min x ( ) > = this . min x & &  <NL>  _ other . get max x ( ) < = this . max x & &  <NL>  _ other . get min y ( ) > = this . min y & &  <NL>  _ other . get max y ( ) < = this . max y ;  <NL>  }  COM: <s> returns code true code if all points on the boundary of </s>

@@ -1,0 +1,1 @@
+TDAT: public void write ( string s , int off , int len ) {  <NL> if ( text ! = null ) {  <NL> text . append ( s . substring ( off , off + len ) ) ;  <NL> if ( ( col + = len ) > 78 ) println ( ) ;  <NL>  }  <NL> else {  <NL> super . write ( s , off , len ) ;  <NL> flush ( ) ;  <NL>  }  <NL>  }  COM: <s> write a portion of a string </s>

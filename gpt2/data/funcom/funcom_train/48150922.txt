@@ -1,0 +1,1 @@
+TDAT: public double get density ( double x ) {  <NL> double density = 0 . 0 ;  <NL> if ( x > 0 )  <NL> density = ( x / ( sigma * sigma ) ) * math . exp ( - ( x * x + nu * nu ) / ( sigma * sigma * 2 ) ) * i0 ( ( x * nu ) / ( sigma * sigma ) ) ;  <NL> return density ;  <NL>  }  COM: <s> this method computes the rician density function </s>

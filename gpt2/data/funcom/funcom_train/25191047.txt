@@ -1,0 +1,1 @@
+TDAT: public void set messages ( string [ ] [ ] labeled messages ) {  <NL> clear ( ) ;  <NL> if ( labeled messages ! = null ) {  <NL> for ( int i = 0 ; i < labeled messages . length ; i + + ) {  <NL> put ( labeled messages [ i ] [ 0 ] , labeled messages [ i ] [ 1 ] ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> populates message map with label keys and message values </s>

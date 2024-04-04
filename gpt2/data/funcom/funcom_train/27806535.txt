@@ -1,0 +1,1 @@
+TDAT: private boolean confirm data ( string org , string addr , string phone , string fax ) {  <NL> if ( org . compare to ( " " ) = = 0 || addr . compare to ( " " ) = = 0 || phone . compare to ( " " ) = = 0 <NL> || fax . compare to ( " " ) = = 0 )  <NL> return false ;  <NL> return true ;  <NL>  }  COM: <s> verifies that the data of the parameters are not empty </s>

@@ -1,0 +1,1 @@
+TDAT: public html snippets get html snippets ( ) {  <NL> if ( snippets = = null ) {  <NL> this . snippets = new html snippets impl ( get table ( ) , get toolbar ( ) , get core context ( ) ) ;  <NL>  }  <NL> support utils . set web context ( this . snippets , get web context ( ) ) ;  <NL> return snippets ;  <NL>  }  COM: <s> return the html snippets object </s>

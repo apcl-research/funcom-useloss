@@ -1,0 +1,1 @@
+TDAT: public void set _ idl case ( uml attribute a ) throws runtime exception {  <NL> uml com . send _ cmd ( identifier _ ( ) , on instance cmd . set idl case cmd , a . identifier _ ( ) , " " ) ;  <NL> uml com . check ( ) ;  <NL>  <NL>  _ idl _ case = a ;  <NL>  _ idl _ explicit _ case = null ;  <NL>  }  COM: <s> to set the case even the attribute is not already known as </s>

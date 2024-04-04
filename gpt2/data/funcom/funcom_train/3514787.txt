@@ -1,0 +1,1 @@
+TDAT: public void listen ( ) throws io exception {  <NL> m _ server socket = new server socket ( s _ smtp _ port , 0 , m _ bind addr ) ;  <NL>  <NL> m _ logger . info ( " listener started on " +  <NL>  ( ( m _ bind addr = = null ) ?  <NL>  " * " : m _ bind addr . get host address ( ) ) +  <NL>  " : " + s _ smtp _ port ) ;  <NL>  }  COM: <s> starts the listener </s>

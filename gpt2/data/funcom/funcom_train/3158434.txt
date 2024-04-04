@@ -1,0 +1,1 @@
+TDAT: public void add node name ( string name ) {  <NL> guardian . assert not null or empty ( " name " , name ) ;  <NL> if ( contains node name ( name ) ) {  <NL> return ;  <NL>  }  <NL> if ( _ node name list = = null ) {  <NL>  _ node name list = new vector ( ) ;  <NL>  }  <NL>  _ node name list . add ( name ) ;  <NL>  }  COM: <s> adds a new product node name to this subset </s>

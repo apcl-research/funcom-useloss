@@ -1,0 +1,1 @@
+TDAT: public void set schedulearray ( int [ ] [ ] sa ) {  <NL> this . schedulearray = new int [ this . num labs ] [ this . num t as ] ;  <NL> for ( int x = 0 ; x < this . num labs ; x + + )  <NL> system . arraycopy ( sa [ x ] , 0 , this . schedulearray [ x ] , 0 , this . num t as ) ;  <NL>  }  COM: <s> code set schedulearray code copies one schedule array into this one </s>

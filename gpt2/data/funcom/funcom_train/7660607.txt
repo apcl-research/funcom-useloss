@@ -1,0 +1,1 @@
+TDAT: public void test replace value2 ( ) {  <NL> concurrent hash map map = map5 ( ) ;  <NL> assert equals ( " a " , map . get ( one ) ) ;  <NL> assert true ( map . replace ( one , " a " , " z " ) ) ;  <NL> assert equals ( " z " , map . get ( one ) ) ;  <NL>  }  COM: <s> replace value succeeds when the given key mapped to expected value </s>

@@ -1,0 +1,1 @@
+TDAT: public void destroy ( ) {  <NL> s log . info ( " signaling ssh process " ) ;  <NL> try {  <NL> o console . send signal ( " kill " ) ;  <NL>  } catch ( exception x ex ) {  <NL> s log . warn ( " failed to signal process : " + x ex . get message ( ) , x ex ) ;  <NL>  }  <NL> o console . disconnect ( ) ;  <NL>  }  COM: <s> kills the subprocess </s>

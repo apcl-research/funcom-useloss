@@ -1,0 +1,1 @@
+TDAT: public xpdl tree node find node ( xml element el ) {  <NL> xpdl tree node l root = get root node ( ) ;  <NL> xpdl tree node n = find node ( l root , el ) ;  <NL>  / / if ( n = = null ) {  <NL>  / / system . err . println ( " can ' t find node for element " + el ) ;  <NL>  / / }  <NL> return n ;  <NL>  }  COM: <s> searches for the </s>

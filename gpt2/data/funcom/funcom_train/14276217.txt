@@ -1,0 +1,1 @@
+TDAT: public void add val ( int val , int bits ) {  <NL> int testval = ( int ) math . pow ( 2 . 0d , bits - 1 ) ;  <NL> for ( int i = 0 ; i < bits ; i + + ) {  <NL> if ( ( val & testval ) = = testval )  <NL> data . set ( act bit ) ;  <NL> testval > > > = 1 ;  <NL> act bit + + ;  <NL>  }  <NL>  }  COM: <s> adds an value with the given bit size to the bit set </s>

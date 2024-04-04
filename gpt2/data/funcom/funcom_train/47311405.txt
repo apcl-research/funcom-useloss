@@ -1,0 +1,1 @@
+TDAT: public bsp polygon get first wall intersection ( float x1 , float z1 , float x2 , float z2 , float y bottom , float y top ) {  <NL> return get first wall intersection ( bsp tree . get root ( ) , x1 , z1 , x2 , z2 , y bottom , y top ) ;  <NL>  }  COM: <s> gets the first intersection if any of the path x1 z1 </s>

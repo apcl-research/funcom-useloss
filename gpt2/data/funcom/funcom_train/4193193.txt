@@ -1,0 +1,1 @@
+TDAT: public boolean equals ( object obj )  <NL>  { try <NL>  { header hd = ( header ) obj ;  <NL> if ( hd . get name ( ) . equals ( this . get name ( ) ) & & hd . get value ( ) . equals ( this . get value ( ) ) ) return true ;  <NL> else return false ;  <NL>  }  <NL> catch ( exception e ) { return false ; }  <NL>  }  COM: <s> whether the header is equal to object i obj i </s>

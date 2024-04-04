@@ -1,0 +1,1 @@
+TDAT: public void gl vertex4s ( short x , short y , short z , short w ) {  <NL> if ( cc . mode = = none ) {  <NL> cc . gl _ error ( gl _ invalid _ operation , " gl vertex4s " ) ;  <NL> return ;  <NL>  }  <NL> cc . gl _ vertex ( x , y , z , w ) ;  <NL>  }  COM: <s> glvoid gl vertex4s glshort x glshort y glshort z glshort w </s>

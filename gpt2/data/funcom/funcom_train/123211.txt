@@ -1,0 +1,1 @@
+TDAT: public void clear ( ) {  <NL> fast map local map = local map ( ) ;  <NL> for ( fast map . entry e = local map . head ( ) , end = local map . tail ( ) ; ( e = ( fast map . entry ) e . get next ( ) ) ! = end ; ) {  <NL> e . set value ( null ) ;  <NL>  }  <NL>  }  COM: <s> removes all mappings from this map sets the local values to </s>

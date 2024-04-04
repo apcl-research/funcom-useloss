@@ -1,0 +1,1 @@
+TDAT: public xml event process event ( ) throws xml stream exception , snax user exception {  <NL> check state ( xml reader ! = null , " start parsing ( ) was never called " ) ;  <NL> check state ( is incremental , " start parsing ( ) was never called " ) ;  <NL> return process event ( xml reader . next event ( ) ) ;  <NL>  }  COM: <s> consumes the next xml event </s>

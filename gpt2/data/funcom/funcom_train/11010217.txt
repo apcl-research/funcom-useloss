@@ -1,0 +1,1 @@
+TDAT: public dimension get page size ( ) {  <NL> ct slide size sz = _ presentation . get sld sz ( ) ;  <NL> int cx = sz . get cx ( ) ;  <NL> int cy = sz . get cy ( ) ;  <NL> return new dimension ( ( int ) units . to points ( cx ) , ( int ) units . to points ( cy ) ) ;  <NL>  }  COM: <s> returns the current page size </s>

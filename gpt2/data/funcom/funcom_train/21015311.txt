@@ -1,0 +1,1 @@
+TDAT: protected void draw function ( ) {  <NL> calc function ( ) ;  <NL>  <NL> for ( int j = 0 ; j < ( points . length - 1 ) ; j + + ) {  <NL> draw standard line ( points [ j ] [ 0 ] , points [ j ] [ 1 ] , points [ j + 1 ] [ 0 ] ,  <NL> points [ j + 1 ] [ 1 ] ) ;  <NL>  }  <NL>  }  COM: <s> draws the function into the graph </s>

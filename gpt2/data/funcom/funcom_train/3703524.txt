@@ -1,0 +1,1 @@
+TDAT: public void add all variants ( string str variant , string str data format ) {  <NL> map variants . put ( str variant , str data format ) ;  <NL> map variants . put ( str variant . to upper case ( ) , str data format ) ;  <NL> map variants . put ( str variant . to lower case ( ) , str data format ) ;  <NL>  } / / of method  COM: <s> add upper and lower case variants </s>

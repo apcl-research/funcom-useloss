@@ -1,0 +1,1 @@
+TDAT: public void unit ( ) {  <NL> for ( int r = 0 ; r < this . rows ; r + + ) {  <NL> for ( int c = 0 ; c < this . columns ; c + + ) {  <NL> if ( r = = c ) {  <NL> mat [ r ] [ c ] = 1 . 0 ;  <NL>  } else {  <NL> mat [ r ] [ c ] = 0 . 0 ;  <NL>  }  <NL>  }  <NL>  }  <NL>  }  COM: <s> make matrix a unit matrix by setting its values to 1 </s>

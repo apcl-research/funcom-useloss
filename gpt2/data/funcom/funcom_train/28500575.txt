@@ -1,0 +1,1 @@
+TDAT: public int get pref value integer ( final string p path , final string p name , final boolean p user pref ) throws jc _ exception {  <NL> jc _ propertyable p = get pref property ( p path , p name , p user pref ) ;  <NL> return ( integer ) p . get value as ( integer . class ) ;  <NL>  }  COM: <s> get pref value integer </s>

@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> return new string buffer ( " [ tag size ] " ) . append ( tag size ) . append ( ' \t ' ) . append ( " [ record size ] " ) . append ( record size ) . append ( ' \t ' ) . append ( " [ list type ] " ) . append ( list type ) . to string ( ) ;  <NL>  }  COM: <s> puts the listholder to a string </s>

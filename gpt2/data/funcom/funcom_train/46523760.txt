@@ -1,0 +1,1 @@
+TDAT: public void fill rectangle ( int x , int y , int w , int h , color color ) {  <NL> shape s = new rectangle2d . float ( ( float ) x , ( float ) y , ( float ) w , ( float ) h ) ;  <NL> fill shape ( s , color ) ;  <NL>  }  COM: <s> fill a rectangle with a color </s>

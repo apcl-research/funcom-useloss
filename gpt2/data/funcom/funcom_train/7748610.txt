@@ -1,0 +1,1 @@
+TDAT: public object get child ( object parent , int index ) {  <NL>  / / system . out . println ( " get index " + index + " of " + parent . to string ( ) + " : " + parent . get class ( ) . get name ( ) ) ;  <NL> if ( parent = = null ) {  <NL> return null ;  <NL>  }  <NL> return ( ( wrapper ) parent ) . get child ( parent , index ) ;  <NL>  }  COM: <s> get a child object </s>

@@ -1,0 +1,1 @@
+TDAT: public bdd var set calculate domain set ( ) {  <NL> if ( domain set ! = null ) {  <NL> domain set . free ( ) ;  <NL>  }  <NL> this . domain set = solver . get bdd factory ( ) . empty set ( ) ;  <NL> for ( bdd domain d : domains ) {  <NL> domain set . union with ( d . set ( ) ) ;  <NL>  }  <NL> return domain set ;  <NL>  }  COM: <s> re calculate the domain set </s>

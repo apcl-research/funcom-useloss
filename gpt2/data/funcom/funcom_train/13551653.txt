@@ -1,0 +1,1 @@
+TDAT: public int load ( int addr ) {  <NL> while ( sig rdy = = 0 ) { / / is rdy low ?  <NL> monitor . op wait ( ) ; / / subspend cpu activity <NL>  }  <NL> if ( addr < 2 ) return io port . read from port ( addr & 0xffff ) ;  <NL> else return bus . load ( addr & 0xffff , view , sig aec ) ;  <NL>  }  COM: <s> load a value from the bus </s>

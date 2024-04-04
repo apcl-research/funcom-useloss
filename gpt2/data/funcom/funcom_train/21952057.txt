@@ -1,0 +1,1 @@
+TDAT: public void back ( ) {  <NL> if ( in beginning state ( ) )  <NL> return ;  <NL> else {  <NL> string new state = get back state ( m state ) ;  <NL> if ( new state ! = null ) {  <NL>  / / check state transition ( m state , new state ) ;  <NL> m state = new state ;  <NL> editor pane . load state ( new state ) ;  <NL>  }  <NL>  }  <NL>  <NL>  }  COM: <s> goes back a state </s>

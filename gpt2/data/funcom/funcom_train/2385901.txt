@@ -1,0 +1,1 @@
+TDAT: public i chat me message create me message ( int a message id , i chat sender a sender , string a text ) {  <NL> i chat me message me message = new i chat me message ( a message id , a sender , common _ line , a text , wildcard ) ;  <NL> return me message ;  <NL>  }  COM: <s> creates me message </s>

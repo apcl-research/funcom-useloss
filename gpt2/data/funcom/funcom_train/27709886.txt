@@ -1,0 +1,1 @@
+TDAT: public void test get set ejb name ( ) {  <NL> final string ejb _ name = " test _ ejb _ name " ;  <NL> message entry test entry = new message entry ( " " , " " , " " ) ;  <NL> test entry . set ejb name ( ejb _ name ) ;  <NL>  <NL> assert equals ( ejb _ name , test entry . get ejb name ( ) ) ;  <NL>  }  COM: <s> test of get ejb name and set ejbname method of class velcro </s>

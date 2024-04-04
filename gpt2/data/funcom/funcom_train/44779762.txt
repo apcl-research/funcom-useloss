@@ -1,0 +1,1 @@
+TDAT: public void add menu component ( int in _ index , menu component in _ menu component ) {  <NL> menu components . add ( in _ index , in _ menu component ) ;  <NL> string lc _ id = in _ menu component . get id ( ) ;  <NL> if ( lc _ id ! = null ) {  <NL> children . put ( lc _ id , in _ menu component ) ;  <NL>  }  <NL>  }  COM: <s> add a child menu at the specfied index </s>

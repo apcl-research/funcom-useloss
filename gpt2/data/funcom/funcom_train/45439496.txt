@@ -1,0 +1,1 @@
+TDAT: public void paint ( graphics2d g ) {  <NL> int xp = ( int ) ( map . get tile size ( ) * x ) ;  <NL> int yp = ( int ) ( map . get tile size ( ) * y ) ;  <NL>  <NL> g . draw image ( image , ( int ) ( xp - half img width ) , ( int ) ( yp - half img height ) , null ) ;  <NL>  <NL>  }  COM: <s> draw this entity to the graphics context provided </s>

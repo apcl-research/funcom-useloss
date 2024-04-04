@@ -1,0 +1,1 @@
+TDAT: private void set response header ( string name , string value ) {  <NL> if ( config . logv ) {  <NL> log . i ( log _ tag , " set response header " + name + " : " + value ) ;  <NL>  }  <NL> string map value [ ] = { name , value } ;  <NL> m response headers . put ( name . to lower case ( ) , map value ) ;  <NL>  }  COM: <s> set a response header and associated value </s>

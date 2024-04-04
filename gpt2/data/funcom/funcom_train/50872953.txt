@@ -1,0 +1,1 @@
+TDAT: public void test get elements ( ) {  <NL> om error error = new om error ( ) ;  <NL> error . set symbol ( new om symbol ( " cd " , " name " ) ) ;  <NL> error . add element ( new om integer ( " 1 " ) ) ;  <NL> assert true ( ! error . get elements ( ) . is empty ( ) ) ;  <NL>  }  COM: <s> test of get elements method of class nl </s>

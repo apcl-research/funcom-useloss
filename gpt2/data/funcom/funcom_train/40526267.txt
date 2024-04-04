@@ -1,0 +1,1 @@
+TDAT: private string expand ( string item , string abbrev ) {  <NL> int seplen = sep . length ( ) ;  <NL> int suffix start = item . length ( ) - ( abbrev . length ( ) + 1 ) ;  <NL> int slash = item . last index of ( sep , suffix start - seplen ) ;  <NL> return slash > = 0 ? item . substring ( slash + seplen ) : item ;  <NL>  }  COM: <s> returns a longer suffix of original </s>

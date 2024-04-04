@@ -1,0 +1,1 @@
+TDAT: public void create note ( int x , int y , int width , int height ) {  <NL> final note note = new note ( this , x , y , width , height ) ;  <NL> notify note created ( note ) ;  <NL> task queue . post ( new create note task ( get selected surface ( ) , note ) ) ;  <NL>  }  COM: <s> creates a note with no content at a particular location on the </s>

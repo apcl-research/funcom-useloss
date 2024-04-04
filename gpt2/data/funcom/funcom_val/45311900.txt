@@ -1,0 +1,1 @@
+TDAT: private void move marker ( ) {  <NL> trans shape . reset ( ) ;  <NL> if ( proj point ! = null ) {  <NL> trans shape . append ( get marker shape ( ) , false ) ;  <NL> trans shape . transform ( new affine transform ( 1 , 0 , 0 , 1 , proj point . x ,  <NL> proj point . y ) ) ;  <NL>  }  <NL>  }  COM: <s> move the internal marker location </s>

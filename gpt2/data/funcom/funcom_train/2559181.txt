@@ -1,0 +1,1 @@
+TDAT: private int read int ( final int index ) {  <NL> byte [ ] b = this . b ;  <NL> return ( ( b [ index ] & 0x ff ) < < 24 ) | ( ( b [ index + 1 ] & 0x ff ) < < 16 )  <NL> | ( ( b [ index + 2 ] & 0x ff ) < < 8 ) | ( b [ index + 3 ] & 0x ff ) ;  <NL>  }  COM: <s> reads a signed int value in </s>

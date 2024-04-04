@@ -1,0 +1,1 @@
+TDAT: public int map page ( page page ) {  <NL> string [ ] parts = page . get url ( ) . split ( " = " ) ;  <NL> if ( parts [ 0 ] . ends with ( " 0 " ) ) {  <NL> return integer . parse int ( parts [ 1 ] ) ;  <NL>  } else {  <NL> return 1 - integer . parse int ( parts [ 1 ] ) ;  <NL>  }  <NL>  }  COM: <s> receives a url with the form xxxxxxx n m </s>

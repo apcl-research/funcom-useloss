@@ -1,0 +1,1 @@
+TDAT: public void add index item ( string item title , string target ) {  <NL> array list < string > list = index map . get ( target ) ;  <NL> if ( list = = null )  <NL> list = new array list < string > ( ) ;  <NL> put to list ordered ( list , item title ) ;  <NL> index map . put ( target , list ) ;  <NL>  <NL>  }  COM: <s> adds a new index item for a target </s>

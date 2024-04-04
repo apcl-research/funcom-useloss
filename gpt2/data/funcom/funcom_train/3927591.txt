@@ -1,0 +1,1 @@
+TDAT: public void move to front ( component c ) {  <NL> if ( c = = h scroll component || c = = v scroll component || c = = holder ) {  <NL> return ;  <NL>  } else if ( c ! = holder . get component ( 0 ) ) {  <NL> holder . remove ( c ) ;  <NL> holder . add ( c , 0 ) ;  <NL> holder . repaint ( ) ;  <NL>  }  <NL>  }  COM: <s> the scrollers should always be in front </s>

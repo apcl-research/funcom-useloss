@@ -1,0 +1,1 @@
+TDAT: public void set padding ( int padding ) {  <NL> this . padding = padding ;  <NL> grid bag constraints gbc = new grid bag constraints ( ) ;  <NL> gbc . fill = grid bag constraints . both ;  <NL> gbc . insets = new insets ( 0 , padding , 0 , 0 ) ;  <NL> this . add ( b _ select file , gbc ) ;  <NL>  }  COM: <s> sets the distance between dropdown and button </s>

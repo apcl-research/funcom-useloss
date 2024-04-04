@@ -1,0 +1,1 @@
+TDAT: public field definition make field of type ( string name , string type , string description ) {  <NL> return new field definition impl ( name . replace all ( " _ _ " , " - > " ) , type . replace all ( " _ _ " , " - > " ) , description ) ;  <NL>  }  COM: <s> makes a field definition identical with the given one except for the name </s>

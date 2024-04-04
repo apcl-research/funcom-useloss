@@ -1,0 +1,1 @@
+TDAT: @ override public void set bounds ( int x , int y , int width , int height ) {  <NL> super . set bounds ( x , y , width , height ) ;  <NL> set frame ( new rectangle ( 0 , 0 , this . get width ( ) , this . get height ( ) ) , frame width ) ;  <NL>  }  COM: <s> moves and resizes this component </s>

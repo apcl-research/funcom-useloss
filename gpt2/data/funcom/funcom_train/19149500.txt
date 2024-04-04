@@ -1,0 +1,1 @@
+TDAT: public void paint ( graphics g ) {  <NL> dimension size = get size ( ) ;  <NL>  <NL> int sx = math . min ( size . width , image . get width ( null ) ) ;  <NL> int sy = math . min ( size . height - 1 , image . get height ( null ) ) ;  <NL>  <NL> g . draw image ( image , 0 , 0 , sx , sy , null ) ;  <NL>  }  COM: <s> paint when the awt tells us to </s>

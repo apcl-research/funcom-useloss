@@ -1,0 +1,1 @@
+TDAT: public eval state get eval state ( ) {  <NL> for ( int i = _ event invocations . length - 1 ; i > = 0 ; i - - ) {  <NL> if ( _ event invocations [ i ] . get step eval state ( ) ! = null ) {  <NL> return _ event invocations [ i ] . get step eval state ( ) ;  <NL>  }  <NL>  }  <NL> return eval state . pending ;  <NL>  }  COM: <s> returns the step eval state </s>

@@ -1,0 +1,1 @@
+TDAT: public void set plot background paint ( paint paint ) {  <NL> plot plot = this . chart . get plot ( ) ;  <NL> if ( plot ! = null ) {  <NL> paint old = plot . get background paint ( ) ;  <NL> plot . set background paint ( paint ) ;  <NL> fire property change ( " plot background paint " , old , paint ) ;  <NL>  }  <NL>  }  COM: <s> sets the background paint and sends a </s>

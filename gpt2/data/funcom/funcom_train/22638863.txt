@@ -1,0 +1,1 @@
+TDAT: private code path create new code path ( code path cur path ) {  <NL> code path c ;  <NL> c = new code path ( cur run . code path id + + , cur path ) ;  <NL> cur run . all code paths . add ( c ) ;  <NL> if ( cur path ! = null ) {  <NL> cur path . sub paths . add ( c ) ;  <NL>  }  <NL> return c ;  <NL>  }  COM: <s> given a parent code path create a child </s>

@@ -1,0 +1,1 @@
+TDAT: public void set chronometer ( int view id , long base , string format , boolean started ) {  <NL> set long ( view id , " set base " , base ) ;  <NL> set string ( view id , " set format " , format ) ;  <NL> set boolean ( view id , " set started " , started ) ;  <NL>  }  COM: <s> equivalent to calling </s>

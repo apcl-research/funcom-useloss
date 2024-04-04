@@ -1,0 +1,1 @@
+TDAT: public boolean ask confirm ( @ not null final string title , @ not null final string message ) {  <NL> return j option pane . show confirm dialog ( this , message , title , j option pane . yes _ no _ option , j option pane . information _ message ) = = j option pane . yes _ option ;  <NL>  }  COM: <s> shows the given confirmation message as popup frame </s>

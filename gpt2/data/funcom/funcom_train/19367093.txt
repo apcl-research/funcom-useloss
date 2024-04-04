@@ -1,0 +1,1 @@
+TDAT: public void add modifier ( string name , string value ) {  <NL> set < string > values = modifier name values map . get ( name ) ;  <NL> if ( values = = null ) {  <NL> values = new hash set < string > ( ) ;  <NL> modifier name values map . put ( name , values ) ;  <NL>  }  <NL> values . add ( value ) ;  <NL>  }  COM: <s> adds a modifier </s>

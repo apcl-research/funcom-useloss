@@ -1,0 +1,1 @@
+TDAT: public void set mode ( int dmanr , int mode ) throws dma exception {  <NL> mode | = ( dmanr & 3 ) ;  <NL> if ( dmanr < = 3 ) {  <NL> dma1io . out port byte ( dma1 _ mode _ reg , mode ) ;  <NL>  } else {  <NL> dma2io . out port byte ( dma2 _ mode _ reg , mode ) ;  <NL>  }  <NL>  }  COM: <s> program the mode register for a given channel </s>

@@ -1,0 +1,1 @@
+TDAT: private file filter create cp file filter ( ) {  <NL> string [ ] cp element exts = { " zip " , " zip " , " jar " , " jar " } ;  <NL> return new default file filter ( cp element exts ,  <NL> class chooser . get localizer ( ) .  <NL> get text ( " filter _ desc " ) ) ;  <NL>  }  COM: <s> gets the filter we use for choosing entries for the classpath </s>

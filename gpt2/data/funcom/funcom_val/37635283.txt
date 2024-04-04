@@ -1,0 +1,1 @@
+TDAT: public void test set user preferences ( ) throws exception {  <NL> i user context ctx = factory . get user context ( user1 _ name ) ;  <NL> factory . create user preference ( ctx . get user ( ) , preference1 , org2 _ name ) ;  <NL> factory . create user preference ( ctx . get user ( ) , preference2 , org1 _ name ) ;  <NL>  }  COM: <s> test number 17 </s>

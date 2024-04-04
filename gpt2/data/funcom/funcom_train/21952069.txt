@@ -1,0 +1,1 @@
+TDAT: public string get next state ( string current state ) {  <NL> int current = m state list . index of ( m state ) ;  <NL> if ( current > - 1 & & current < ( m state list . size ( ) - 1 ) ) {  <NL> string new state = m state list . get ( current + 1 ) ;  <NL> return new state ;  <NL>  } else {  <NL> return null ;  <NL>  }  <NL>  }  COM: <s> gets the next state </s>

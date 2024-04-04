@@ -1,0 +1,1 @@
+TDAT: public void add field value ( string str field name , string str value ) {  <NL>  / / / / 1 . ensure that the field is in there .  <NL> add field ( str field name ) ;  <NL>  <NL>  / / / / 2 . add the value .  <NL> field f = get field ( str field name ) ;  <NL> f . add valid value ( str value ) ;  <NL>  } / / of add field value  COM: <s> add a value to a field </s>

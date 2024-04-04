@@ -1,0 +1,1 @@
+TDAT: public string format rfc822 ( date date ) {  <NL> simple date format date formater = new simple date format ( " eee , dd mmm yyyy hh : mm : ss ' gmt ' " , locale . us ) ;  <NL> date formater . set time zone ( time zone . get time zone ( " gmt " ) ) ;  <NL> return date formater . format ( date ) ;  <NL>  }  COM: <s> create a rfc822 representation of a date </s>

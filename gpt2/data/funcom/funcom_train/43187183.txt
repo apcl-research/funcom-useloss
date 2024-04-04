@@ -1,0 +1,1 @@
+TDAT: public void pause ( ) {  <NL> synchronized ( reset sync ) {  <NL> for ( int i = 0 ; i < loops . length ; i + + ) {  <NL> if ( tracks [ i ] . is enabled ( ) & & loops [ i ] ! = null & & ! loops [ i ] . resetted )  <NL> loops [ i ] . pause ( ) ;  <NL>  }  <NL> parser . stop ( ) ;  <NL>  }  <NL>  }  COM: <s> this is essentially a non blocking version of do stop </s>

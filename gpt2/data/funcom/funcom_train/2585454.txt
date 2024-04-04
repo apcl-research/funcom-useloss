@@ -1,0 +1,1 @@
+TDAT: public void test788597 ( ) {  <NL> default table xy dataset dataset = new default table xy dataset ( ) ;  <NL> dataset . add series ( create series1 ( ) ) ;  <NL> assert equals ( 4 , dataset . get item count ( ) ) ;  <NL> dataset . remove all series ( ) ;  <NL> assert equals ( 0 , dataset . get item count ( ) ) ;  <NL>  }  COM: <s> a test for bug report 788597 </s>

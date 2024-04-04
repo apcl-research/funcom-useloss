@@ -1,0 +1,1 @@
+TDAT: public cursor fetch checklist items ( long list id ) {  <NL> return m db . query ( checklist _ item _ tbl , new string [ ] { key _ rowid , key _ is _ done , key _ item } ,  <NL> key _ list _ id + " = " + list id , null , null , null , null ) ;  <NL>  }  COM: <s> retrieves the items for the specified checklist </s>

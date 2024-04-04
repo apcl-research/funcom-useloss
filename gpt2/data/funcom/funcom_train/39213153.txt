@@ -1,0 +1,1 @@
+TDAT: protected void init pasv socket ( string buffer ip , int port ) throws unknown host exception , io exception {  <NL> if ( proxy ! = null ) {  <NL> datsocket = proxy . get data socket ( ip . to string ( ) , port ) ;  <NL>  } else {  <NL> datsocket = new socket ( ip . to string ( ) , port ) ;  <NL>  }  <NL>  }  COM: <s> initialize pasv socket </s>

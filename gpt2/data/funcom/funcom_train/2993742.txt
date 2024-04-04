@@ -1,0 +1,1 @@
+TDAT: public void un hide ( ) {  <NL> for ( enumeration e = v . elements ( ) ; e . has more elements ( ) ; ) {  <NL> string s = ( string ) e . next element ( ) ;  <NL> if ( s . starts with ( " gone * * * " ) ) s = s . substring ( 7 , s . length ( ) ) ;  <NL>  }  <NL>  }  COM: <s> unsets all the hidden contexts </s>

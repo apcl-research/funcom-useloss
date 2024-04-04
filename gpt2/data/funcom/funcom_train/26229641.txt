@@ -1,0 +1,1 @@
+TDAT: protected void j button ri file browse _ action performed ( action event e ) {  <NL>  / / raw image file browse <NL> if ( show open file chooser ( " ct " , " raw ct images " , j text field ri filename ) )  <NL> working dir = get parent file from pathname ( j text field ri filename . get text ( ) ) ;  <NL>  }  COM: <s> shows a jfile chooser to browse for a raw ct image </s>

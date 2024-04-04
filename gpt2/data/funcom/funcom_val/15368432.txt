@@ -1,0 +1,1 @@
+TDAT: public double get price buy tax ( ) {  <NL> if ( app config . get instance ( ) . use combined tax ( ) ) {  <NL> return product . get price buy ( ) * ( product . retrieve combined tax rate ( ) + 1 ) ;  <NL>  } else {  <NL> return product . get price buy ( ) * ( product . get tax ( ) . get rate ( ) + 1 ) ;  <NL>  }  <NL>  }  COM: <s> get the buy price with tax </s>

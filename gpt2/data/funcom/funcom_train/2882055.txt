@@ -1,0 +1,1 @@
+TDAT: public void set status ( status status ) {  <NL> super . set status ( status ) ;  <NL> int code = status . get code ( ) ;  <NL> if ( ( max > = 0 & & code > max ) || ( min > 0 & & code < min ) ) {  <NL> throw new runtime exception ( " status out of range " + status . to string ( ) + " \n " + status . get description ( ) ) ;  <NL>  }  <NL>  }  COM: <s> sets the status </s>

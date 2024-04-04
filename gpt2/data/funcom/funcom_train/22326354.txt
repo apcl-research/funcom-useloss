@@ -1,0 +1,1 @@
+TDAT: protected void reset from registry ( ) {  <NL> int len = m _ rows . size ( ) ;  <NL> for ( int i = 0 ; i < len ; i + + ) {  <NL> row row = ( row ) m _ rows . get ( i ) ;  <NL> row . m _ field . set text ( m _ reg . get string ( row . m _ group , row . m _ key ) ) ;  <NL>  }  <NL>  }  COM: <s> this method is called when the panels reset button is clicked to </s>

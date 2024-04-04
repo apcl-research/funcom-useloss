@@ -1,0 +1,1 @@
+TDAT: public void run ( ) {  <NL> if ( main panel . is sound enabled ( ) ) {  <NL> main panel . get audio player ( ) . play timer ( ) ;  <NL>  }  <NL> main panel . get top panel ( ) . get time panel ( ) . set number ( main panel . get top panel ( ) . get time panel ( ) . get number ( ) + 1 ) ;  <NL>  }  COM: <s> the method to run at each task execution </s>

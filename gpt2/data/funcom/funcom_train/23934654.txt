@@ -1,0 +1,1 @@
+TDAT: protected void build heading ( span model sm , int row index , int col index , span span , int rowspan , int colspan , boolean even ) {  <NL> axis header builder . build ( sm , row index , col index , span , rowspan , colspan , even , is member indent ( ) ) ;  <NL>  }  COM: <s> builds a single cell of the axis </s>

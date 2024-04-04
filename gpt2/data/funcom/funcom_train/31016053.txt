@@ -1,0 +1,1 @@
+TDAT: public beam get beam ( int type ) {  <NL> if ( type = = unknown ) return null ;  <NL> if ( type < 0 ) return null ; / / illegal type ( exception ? )  <NL> if ( type > beams ) return null ; / / illegal type ( exception ? )  <NL> if ( type = = 0 ) return null ; / / non - existing beam <NL> return beam [ type ] ;  <NL>  }  COM: <s> retrieve beam of the proper type </s>

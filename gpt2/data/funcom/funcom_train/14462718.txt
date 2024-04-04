@@ -1,0 +1,1 @@
+TDAT: public void set shape ( int shape ) {  <NL> byte [ ] b = byte tools . short to le bytes ( ( short ) shape ) ;  <NL>  ( ( xls record ) this . chart arr . get ( 0 ) ) . get data ( ) [ 0 ] = b [ 0 ] ;  <NL>  ( ( xls record ) this . chart arr . get ( 0 ) ) . get data ( ) [ 1 ] = b [ 1 ] ;  <NL>  }  COM: <s> set the shape bit of the associated xlsrecord </s>

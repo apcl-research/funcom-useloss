@@ -1,0 +1,1 @@
+TDAT: public void set to translation ( double mx , double my ) {  <NL> m00 = m11 = 1 . 0 ;  <NL> m01 = m10 = 0 . 0 ;  <NL> m02 = mx ;  <NL> m12 = my ;  <NL> if ( mx = = 0 . 0 & & my = = 0 . 0 ) {  <NL> type = type _ identity ;  <NL>  } else {  <NL> type = type _ translation ;  <NL>  }  <NL>  }  COM: <s> sets the transformation to a translation alone </s>

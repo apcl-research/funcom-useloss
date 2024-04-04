@@ -1,0 +1,1 @@
+TDAT: public component get table cell editor component ( j table table , object value , boolean is selected , int row , int column ) {  <NL> table model model = table . get model ( ) ;  <NL> set text ( ( string ) model . get value at ( row , column ) ) ;  <NL> return new j scroll pane ( this ) ;  <NL>  }  COM: <s> returns the editor component a jtext area </s>

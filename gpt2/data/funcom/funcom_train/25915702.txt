@@ -1,0 +1,1 @@
+TDAT: public string translate ( string text , string from , string to ) {  <NL> try {  <NL> return translate . translate ( text , from , to ) ;  <NL>  } catch ( exception e ) {  <NL> log . e ( tag , " failed to perform translation : " + e . get message ( ) ) ;  <NL> return null ;  <NL>  }  <NL>  }  COM: <s> translates text from a given language to another given language </s>

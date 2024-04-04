@@ -1,0 +1,1 @@
+TDAT: public void store ( int step , int value , string txt , boolean isin ) {  <NL> if ( isin ) {  <NL> cumul = cumul + value ;  <NL>  } else {  <NL> cumul = cumul - value ;  <NL>  }  <NL> p _ chartplus2 . addval ( step , system . current time millis ( ) , cumul , " " + txt ) ;  <NL>  }  COM: <s> store value in the courbs </s>

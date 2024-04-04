@@ -1,0 +1,1 @@
+TDAT: public void normalise by rows ( ) {  <NL> real array rowlen = new real array ( cols ) ;  <NL> rowlen = euclidean row lengths ( ) ;  <NL> for ( int i = 0 ; i < rows ; i + + ) {  <NL> for ( int j = 0 ; j < cols ; j + + ) {  <NL> this . flmat [ i ] [ j ] / = rowlen . element at ( i ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> normalise matrix rows to length of unity </s>

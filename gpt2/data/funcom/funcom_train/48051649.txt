@@ -1,0 +1,1 @@
+TDAT: public local date to local date ( ) {  <NL> if ( get ( year ) > gregorian cutover year & & get class ( ) = = gregorian calendar . class ) {  <NL> return local date . of ( get ( year ) , get ( month ) + 1 , get ( date ) ) ;  <NL>  }  <NL> return to offset date time ( ) . to local date ( ) ;  <NL>  }  COM: <s> converts this object to a code local date code </s>

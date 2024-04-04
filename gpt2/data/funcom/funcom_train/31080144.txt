@@ -1,0 +1,1 @@
+TDAT: public string get package name ( ) {  <NL> string name = _ project . get name cache ( ) . get external form ( get name ( ) , true ) ;  <NL> int index = name . last index of ( ' . ' ) ;  <NL> if ( index = = - 1 )  <NL> return null ;  <NL> return name . substring ( 0 , index ) ;  <NL>  }  COM: <s> return the package name only without class or null if none </s>

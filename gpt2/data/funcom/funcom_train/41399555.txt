@@ -1,0 +1,1 @@
+TDAT: public int read int ( ) throws io exception {  <NL> int ch1 = this . read ( ) ;  <NL> int ch2 = this . read ( ) ;  <NL> int ch3 = this . read ( ) ;  <NL> int ch4 = this . read ( ) ;  <NL> return ( ( ch1 < < 24 ) + ( ch2 < < 16 ) + ( ch3 < < 8 ) + ( ch4 < < 0 ) ) ;  <NL>  }  COM: <s> reads four input bytes and returns an </s>

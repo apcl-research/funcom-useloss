@@ -1,0 +1,1 @@
+TDAT: private element get element ( string type , string key , string value ) {  <NL> element element = xml . create element ( type ) ;  <NL> element . set attribute ( type . equals ( " modifier " ) ? " key " : " name " , key ) ;  <NL> element . set attribute ( " value " , value ) ;  <NL> return element ;  <NL>  }  COM: <s> gets the element </s>

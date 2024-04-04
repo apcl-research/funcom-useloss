@@ -1,0 +1,1 @@
+TDAT: public contact header get contact header ( )  <NL>  { / / header h = get header ( sip headers . contact ) ;  <NL>  / / if ( h = = null ) return null ; else return new contact header ( h ) ;  <NL> multiple header mh = get contacts ( ) ;  <NL> if ( mh = = null ) return null ; return new contact header ( mh . get top ( ) ) ;  <NL>  }  COM: <s> b deprecated b </s>

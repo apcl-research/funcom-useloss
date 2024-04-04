@@ -1,0 +1,1 @@
+TDAT: public boolean equal eps ( vertex other ) {  <NL> double dx = x - other . x ;  <NL> double dy = y - other . y ;  <NL> double dz = z - other . z ;  <NL> return ( ( math . abs ( dx ) < 0 . 0000001 ) & &  <NL>  ( math . abs ( dy ) < 0 . 0000001 ) & & ( math . abs ( dz ) < 0 . 0000001 ) ) ;  <NL>  }  COM: <s> tests if this vertex is sufficiently close to another vertex </s>

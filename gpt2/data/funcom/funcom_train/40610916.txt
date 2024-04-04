@@ -1,0 +1,1 @@
+TDAT: public checkin receipt checkin ( final id < spot > spot id , final geo point point , final string comment , boolean twitter , boolean facebook , boolean testing ) throws gowalla exception {  <NL> return checkin ( spot id . get id ( ) , point , comment , twitter , facebook , testing ) ;  <NL>  }  COM: <s> check the currently authenticated user into the spot given </s>

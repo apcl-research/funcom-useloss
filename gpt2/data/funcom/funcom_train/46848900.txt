@@ -1,0 +1,1 @@
+TDAT: public void print node to output ( i node node ) {  <NL> if ( node ! = null ) {  <NL> string buffer buf = new string buffer ( ) ;  <NL> buf . append ( node . to string ( 0 , " \t " ) ) ;  <NL> buf . append ( " \n " ) ;  <NL> output . set text ( buf . to string ( ) ) ;  <NL>  }  <NL>  }  COM: <s> prints the contents of the given node into the output buffer </s>

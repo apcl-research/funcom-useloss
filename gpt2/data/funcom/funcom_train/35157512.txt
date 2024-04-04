@@ -1,0 +1,1 @@
+TDAT: private int read int ( chunk c ) throws io exception {  <NL> data input stream in = data input stream ;  <NL> c . bytes read + = 4 ;  <NL> return ( int ) ( in . read ( ) + ( in . read ( ) < < 8 ) + ( in . read ( ) < < 16 ) + ( in . read ( ) < < 24 ) ) ;  <NL>  }  COM: <s> reads an int 32 bit value from the input file </s>

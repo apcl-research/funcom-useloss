@@ -1,0 +1,1 @@
+TDAT: protected void add item ( list < map < string , string > > items , string title , string text ) {  <NL> map < string , string > item map = new hash map < string , string > ( ) ;  <NL> item map . put ( key _ title , title ) ;  <NL> item map . put ( key _ text , text ) ;  <NL> items . add ( item map ) ;  <NL>  }  COM: <s> adds an item to the item map </s>

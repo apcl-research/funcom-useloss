@@ -1,0 +1,1 @@
+TDAT: public inverted map ( map < v , k > m ) {  <NL>  / / the transformer cannot be created before this map exists .  <NL>  / / therefore it is not specified in the constructor .  <NL> super ( m . entry set ( ) , ( two way transformer < entry < v , k > , entry < k , v > > ) null ) ;  <NL> base = m ;  <NL>  }  COM: <s> constructs an inverted map object </s>

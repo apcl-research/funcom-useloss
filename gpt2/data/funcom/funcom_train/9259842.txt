@@ -1,0 +1,1 @@
+TDAT: public void set fec _ ing _ usb ( java . util . date fec _ ing _ usb ) {  <NL> if ( fec _ ing _ usb = = null || fec _ ing _ usb instanceof local date )  <NL> this . fec _ ing _ usb = fec _ ing _ usb ;  <NL> else this . fec _ ing _ usb = new local date ( fec _ ing _ usb ) ;  <NL>  }  COM: <s> setter for property fec ing usb </s>

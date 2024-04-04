@@ -1,0 +1,1 @@
+TDAT: protected void set ( visual item item , double frac ) {  <NL> double x or y = m _ min + frac * m _ range ;  <NL> if ( m _ axis = = constants . x _ axis ) {  <NL> set x ( item , null , x or y ) ;  <NL>  } else {  <NL> set y ( item , null , x or y ) ;  <NL>  }  <NL>  }  COM: <s> set the layout position of an item </s>

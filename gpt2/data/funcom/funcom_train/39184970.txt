@@ -1,0 +1,1 @@
+TDAT: public void set cell ( polygon p ) {  <NL> cell = new polygon ( p . xpoints , p . ypoints , 4 ) ;  <NL> for ( int j = 0 ; j < cell . xpoints . length ; j + + ) {  <NL> cell . xpoints [ j ] = screen x ( cell . xpoints [ j ] ) ;  <NL> cell . ypoints [ j ] = screen y ( cell . ypoints [ j ] ) ;  <NL>  }  <NL>  }  COM: <s> sets the spot cell coordinates </s>

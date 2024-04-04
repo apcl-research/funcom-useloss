@@ -1,0 +1,1 @@
+TDAT: public void clear ( ) {  <NL> super . clear ( ) ;  <NL> short [ ] keys = _ set ;  <NL> long [ ] vals = _ values ;  <NL> byte [ ] states = _ states ;  <NL>  <NL> for ( int i = keys . length ; i - - > 0 ; ) {  <NL> keys [ i ] = ( short ) 0 ;  <NL> vals [ i ] = ( long ) 0 ;  <NL> states [ i ] = free ;  <NL>  }  <NL>  }  COM: <s> empties the map </s>

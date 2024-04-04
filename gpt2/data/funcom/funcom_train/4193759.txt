@@ -1,0 +1,1 @@
+TDAT: public void update ( input stream in , output stream out )  <NL>  { byte [ ] buff = new byte [ 2048 ] ;  <NL> int len ;  <NL> try <NL>  { while ( ( len = in . read ( buff ) ) > 0 )  <NL> out . write ( update ( sub ( buff , 0 , len ) ) ) ;  <NL>  }  <NL> catch ( io exception e ) { e . print stack trace ( ) ; }  <NL>  }  COM: <s> encrypts a byte stream </s>

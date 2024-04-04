@@ -1,0 +1,1 @@
+TDAT: public double get f measure ( int beta ) {  <NL> double f = ( ( beta * beta + 1 ) * this . get precision ( ) * this . get recall ( ) )  <NL>  / ( beta * beta * this . get precision ( ) + this . get recall ( ) ) ;  <NL> if ( double . is na n ( f ) )  <NL> return 0 ;  <NL> else <NL> return f ;  <NL>  }  COM: <s> returns the f score </s>

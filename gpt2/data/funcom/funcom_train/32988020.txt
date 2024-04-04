@@ -1,0 +1,1 @@
+TDAT: public string get multiplicity ( string atoms ) {  <NL> int atom = integer . parse int ( atoms ) ;  <NL> if ( multis . get ( get mol with h ( ) . get atom ( atom ) ) = = null ) {  <NL> return ( " " ) ;  <NL>  } else {  <NL> return ( ( string ) multis . get ( get mol with h ( ) . get atom ( atom ) ) ) ;  <NL>  }  <NL>  }  COM: <s> gets the multiplicity of a certain atom </s>

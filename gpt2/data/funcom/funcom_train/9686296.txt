@@ -1,0 +1,1 @@
+TDAT: private void show not found type dialog ( string type name ) {  <NL> string title = " type not found " ;  <NL> string message = " type with name \ " " + type name + " \ " has not been found " ;  <NL> rit dialog . show message dialog ( context , message , title , j option pane . error _ message ) ;  <NL>  }  COM: <s> shows not found type error dialog </s>

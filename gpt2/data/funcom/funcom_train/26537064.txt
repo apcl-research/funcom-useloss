@@ -1,0 +1,1 @@
+TDAT: private wizard page get page ( string page key ) throws io exception {  <NL> int page pos = 0 ;  <NL> if ( page key ! = null )  <NL> for ( int i = 0 ; i < page _ keys . length ; i + + )  <NL> if ( page key . equals ( page _ keys [ i ] ) )  <NL> page pos = i ;  <NL>  <NL> return get page ( page pos ) ;  <NL>  }  COM: <s> get a page by its string key </s>

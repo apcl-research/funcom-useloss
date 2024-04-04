@@ -1,0 +1,1 @@
+TDAT: public void set headers ( string [ ] h ) {  <NL> int x = 0 ;  <NL> header = new array list ( h . length ) ;  <NL> for ( x = 0 ; x < h . length ; x + + ) {  <NL> header . add ( h [ x ] ) ;  <NL> data . put ( h [ x ] , new array list ( ) ) ;  <NL>  }  <NL>  }  COM: <s> sets the headers for the data set </s>

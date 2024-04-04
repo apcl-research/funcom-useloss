@@ -1,0 +1,1 @@
+TDAT: public void insert leaf ( int slot , constant val , rid rid ) {  <NL> insert ( slot ) ;  <NL> set val ( slot , " dataval " , val ) ;  <NL> set int ( slot , " block " , rid . block number ( ) ) ;  <NL> set int ( slot , " id " , rid . id ( ) ) ;  <NL>  }  COM: <s> inserts a leaf index record at the specified slot </s>

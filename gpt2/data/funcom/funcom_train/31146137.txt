@@ -1,0 +1,1 @@
+TDAT: public int read ( byte [ ] b , int off , int len ) throws java . io . io exception {  <NL> total - = len ;  <NL> if ( debug ) system . err . println ( " a tls input stream : in readarray ( ) , the total in the stream is : " + total ) ;  <NL> return stream . read ( b , off , len ) ;  <NL>  }  COM: <s> this reads len bytes from b at an offset of off </s>

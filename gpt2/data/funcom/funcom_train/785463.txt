@@ -1,0 +1,1 @@
+TDAT: public void set bounds ( int row , double x , double y , double w , double h ) {  <NL> get bounds ( row ) . set rect ( x , y , w , h ) ;  <NL> fire table event ( row , row ,  <NL> get column number ( visual item . bounds ) , event constants . update ) ;  <NL>  }  COM: <s> set the bounding box for an item </s>

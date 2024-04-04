@@ -1,0 +1,1 @@
+TDAT: public void set nanos ( int n ) throws illegal argument exception {  <NL> if ( ( n < 0 ) || ( n > 999999999 ) ) {  <NL>  / / sql . 0 = value out of range <NL> throw new illegal argument exception ( messages . get string ( " sql . 0 " ) ) ; / / $ non - nls - 1 $  <NL>  }  <NL> nanos = n ;  <NL>  }  COM: <s> sets the nanosecond value for this </s>

@@ -1,0 +1,1 @@
+TDAT: public void set nodes ( list nodes ) {  <NL> this . nodes = nodes ;  <NL> for ( int i = 0 ; i < nodes . size ( ) ; i + + ) {  <NL> op graph node node = ( op graph node ) nodes . get ( i ) ;  <NL>  / / set the node id to be equal to the possition in the list <NL> node . set id ( new integer ( i ) ) ;  <NL>  }  <NL>  }  COM: <s> set the new list of nodes for this graph </s>

@@ -1,0 +1,1 @@
+TDAT: public void add seed ( path edge < t > seed ) {  <NL> set < path edge < t > > s = map util . find or create set ( seeds , supergraph . get proc of ( seed . entry ) ) ;  <NL> s . add ( seed ) ;  <NL> all seeds . add ( seed ) ;  <NL> propagate ( seed . entry , seed . d1 , seed . target , seed . d2 ) ;  <NL>  }  COM: <s> restart tabulation from a particular path edge </s>

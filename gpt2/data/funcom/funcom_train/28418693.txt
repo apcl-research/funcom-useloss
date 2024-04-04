@@ -1,0 +1,1 @@
+TDAT: public void set cached status ( string capab , int nr , string status ) {  <NL>  <NL> for ( int i = 0 ; i < capabilities . size ( ) ; i + + ) {  <NL> if ( capabilities . get ( i ) [ 0 ] . equals ( capab ) & & capabilities . get ( i ) [ 1 ] . equals ( nr ) ) {  <NL> capabilities . get ( i ) [ 2 ] = status ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> handles a schg command </s>

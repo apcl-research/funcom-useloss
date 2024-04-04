@@ -1,0 +1,1 @@
+TDAT: public object get destination ( object link ) {  <NL> collection con = nsmodel . get facade ( ) . get connections ( link ) ;  <NL> if ( con . size ( ) < = 1 ) {  <NL> return null ;  <NL>  }  <NL> m link end le0 = ( m link end ) ( con . to array ( ) ) [ 1 ] ;  <NL> return le0 . get instance ( ) ;  <NL>  }  COM: <s> returns the destination of a link </s>

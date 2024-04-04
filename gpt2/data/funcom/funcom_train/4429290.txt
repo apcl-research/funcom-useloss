@@ -1,0 +1,1 @@
+TDAT: public void fail ( ) {  <NL> if ( this . card = = null ) {  <NL> logger . get logger ( this . get class ( ) . get name ( ) ) . log ( level . warning , " card not initialised while pressing fail ( ) . ( probably a programming error . ) " ) ;  <NL> return ;  <NL>  }  <NL> this . progress . fail ( this . card ) ;  <NL>  }  COM: <s> fail the current card </s>

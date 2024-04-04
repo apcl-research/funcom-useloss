@@ -1,0 +1,1 @@
+TDAT: public void test set answer ( ) {  <NL> alternative a1 = new alternative ( ) ;  <NL> a1 . set answer ( " a1 " ) ;  <NL> assert equals ( " a1 equals " , " a1 " , a1 . get answer ( ) ) ;  <NL> a1 . set answer ( " a2 " ) ;  <NL> assert equals ( " a2 equals " , " a2 " , a1 . get answer ( ) ) ;  <NL>  }  COM: <s> test of set answer method of class saga </s>

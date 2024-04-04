@@ -1,0 +1,1 @@
+TDAT: public cursor data create cursor data ( ) {  <NL> int start = tc . get selection start ( ) ;  <NL> int end = tc . get selection end ( ) ;  <NL> if ( start = = end )  <NL> start = math . max ( 0 , start - length ) ;  <NL>  <NL> return new cursor data ( get color ( ) , get id ( ) , start , end ) ;  <NL>  }  COM: <s> creates cursor data that will set the cursors highlight </s>

@@ -1,0 +1,1 @@
+TDAT: public void temp file ( int test id , string result , string file ) {  <NL> for ( iterator i = reporters . iterator ( ) ; i . has next ( ) ; ) {  <NL> i reporter r = ( i reporter ) i . next ( ) ;  <NL> r . temp file ( test id , result , file ) ;  <NL>  }  <NL>  }  COM: <s> called when a test has failed and a temporary file is left </s>

@@ -1,0 +1,1 @@
+TDAT: public void visit var insn ( int opcode , int var ) {  <NL> if ( var = = 0 ) {  <NL> mv . visit var insn ( opcode , var ) ; / / aload 0 ( this )  <NL>  } else {  <NL> mv . visit var insn ( opcode , var + 1 ) ; / / all other variable index must be incremented ( due to <NL>  / / the instance manager argument <NL>  }  <NL>  <NL>  }  COM: <s> visits a variable instruction </s>

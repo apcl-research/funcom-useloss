@@ -1,0 +1,1 @@
+TDAT: public void show next screen ( ) {  <NL> array list < string > lst = new array list < string > ( this . f screens . key set ( ) ) ;  <NL> int idx = lst . index of ( f current screen ) ;  <NL> if ( idx > = 0 ) {  <NL> set current screen ( lst . get ( ( idx + 1 ) % lst . size ( ) ) ) ;  <NL>  }  <NL>  }  COM: <s> shows the next screen if any </s>

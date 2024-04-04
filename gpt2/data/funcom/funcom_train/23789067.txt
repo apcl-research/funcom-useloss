@@ -1,0 +1,1 @@
+TDAT: public response apdu select fid ( byte p1 , byte p2 , string fid ) {  <NL> lt . info ( " called method select fid ( p1 : " + hex string . hexify ( p1 ) + " , p2 : " + hex string . hexify ( p2 ) + " , fid : " + fid + " ) " , this ) ;  <NL> return select fid ( p1 , p2 , j smex tools . parse hex string ( fid ) ) ;  <NL>  }  COM: <s> this method selects a ef df or aid </s>

@@ -1,0 +1,1 @@
+TDAT: private int add key store ( key store ks , string description ) {  <NL> int index = _ key stores . index of ( ks ) ;  <NL> if ( index = = - 1 ) {  <NL>  _ key stores . add ( ks ) ;  <NL> index = _ key stores . size ( ) - 1 ;  <NL>  }  <NL>  _ key store descriptions . put ( ks , description ) ;  <NL> return index ;  <NL>  }  COM: <s> adds the key store </s>

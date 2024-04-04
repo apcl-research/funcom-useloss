@@ -1,0 +1,1 @@
+TDAT: public int get max line width ( int start , int len ) {  <NL> int ret val = 0 ;  <NL> for ( int i = start ; i < = start + len ; i + + ) {  <NL> if ( i > = length ) {  <NL> break ;  <NL>  }  <NL> ret val = math . max ( line info [ i ] . width , ret val ) ;  <NL>  }  <NL> return ret val ;  <NL>  }  COM: <s> returns the maximum line width in the specified line range </s>

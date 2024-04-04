@@ -1,0 +1,1 @@
+TDAT: public string get id ( ) {  <NL> debug . debug method begin ( this , " get id " ) ;  <NL>  <NL> string s = xml tools . get attr value ( element , " fid " ) ;  <NL> if ( s ! = null ) {  <NL> s = s . replace ( ' ' , ' _ ' ) ;  <NL>  } else {  <NL> s = " " ;  <NL>  }  <NL> debug . debug method end ( ) ;  <NL> return s ;  <NL>  }  COM: <s> returns the id of the feature </s>

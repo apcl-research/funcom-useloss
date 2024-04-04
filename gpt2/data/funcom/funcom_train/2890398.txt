@@ -1,0 +1,1 @@
+TDAT: public void assign name and uri ( job state job ) {  <NL> int value = get new counter value ( ) ;  <NL> string uri = uri prefix + counter ;  <NL> if ( job . get name ( ) = = null ) {  <NL> job . set name ( app prefix + counter ) ;  <NL>  }  <NL> job . set uri ( uri helper . to axis uri ( uri ) ) ;  <NL>  }  COM: <s> if the job has no name we give it one </s>

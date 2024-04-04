@@ -1,0 +1,1 @@
+TDAT: public void test unique id ( ) {  <NL> project p1 = get project factory ( ) . create project ( _ project group ) ;  <NL> project p2 = get project factory ( ) . create project ( _ project group ) ;  <NL> assert false ( " i ds should not be the same . " , p1 . get id ( ) = = p2 . get id ( ) ) ;  <NL>  }  COM: <s> tests that two projects do not have the same id </s>

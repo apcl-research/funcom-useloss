@@ -1,0 +1,1 @@
+TDAT: public void paint icon ( component c , graphics g , int x , int y ) {  <NL> draw class diagram ( g , x + 1 , y + 1 ) ;  <NL> draw class diagram ( g , x + 9 , y + 5 ) ;  <NL>  / / g . draw line ( x + 6 , y + 5 , x + 9 , y + 10 ) ;  <NL>  }  COM: <s> draws the icon at a location </s>

@@ -1,0 +1,1 @@
+TDAT: public byte get tile ( int row , int column ) {  <NL> if ( row < 0 || row > = n rows || column < 0 || column > = n cols ) {  <NL> log . warn ( " getting tile outside map : ( " + row + " , " + column + " ) " ) ;  <NL> return 0 ;  <NL>  }  <NL>  <NL> return ( byte ) ( map [ row ] [ column ] & 0x ff ) ;  <NL>  }  COM: <s> returns the tile at the given position </s>

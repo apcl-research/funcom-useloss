@@ -1,0 +1,1 @@
+TDAT: public void set to shear ( double shx , double shy ) {  <NL> m00 = m11 = 1 . 0 ;  <NL> m02 = m12 = 0 . 0 ;  <NL> m01 = shx ;  <NL> m10 = shy ;  <NL> if ( shx ! = 0 . 0 || shy ! = 0 . 0 ) {  <NL> type = type _ unknown ;  <NL>  } else {  <NL> type = type _ identity ;  <NL>  }  <NL>  }  COM: <s> sets the transformation to being a shear alone eliminating rotation </s>

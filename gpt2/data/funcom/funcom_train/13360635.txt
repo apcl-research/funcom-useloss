@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL>  <NL> return " [ url = ' " + get url ( ) + " , filename = ' " + get filename ( )  <NL>  + " ' , file = ' " + get file ( ) + " ' , date = ' " + get date ( )  <NL>  + " ' , modification date = ' " + get modification date ( ) + " ' , size = "  <NL>  + get size ( ) + " ] " ;  <NL>  }  COM: <s> display as a string used for debugging only </s>

@@ -1,0 +1,1 @@
+TDAT: private boolean is tag char ( int ch ) {  <NL> return ( ch > = ' a ' & & ch < = ' z ' || ch > = ' a ' & & ch < = ' z ' || ch > = ' 0 '  <NL>  & & ch < = ' 9 ' || ch = = ' : ' || ch = = ' - ' ) ;  <NL>  }  COM: <s> returns true if the character is a valid tag character </s>

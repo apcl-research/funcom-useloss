@@ -1,0 +1,1 @@
+TDAT: public boolean if equals add ( string key , string value ) {  <NL> if ( this . mev key . equals ( key ) ) {  <NL>  / / system . out . println ( " equal key = * * * " + key + " * * * value = * * * " + value + " * * * " ) ;  <NL> ease keys . add element ( value ) ;  <NL> return true ;  <NL>  }  <NL> return false ;  <NL>  }  COM: <s> adds an ease key value if the elements </s>

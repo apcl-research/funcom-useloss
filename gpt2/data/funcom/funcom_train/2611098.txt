@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> string s =  <NL>  " socks5message : " + " \n " +  <NL>  " vn " + version + " \n " +  <NL>  " cmd " + command + " \n " +  <NL>  " atyp " + addr type + " \n " +  <NL>  " addr " + host + " \n " +  <NL>  " port " + port + " \n " ;  <NL> return s ;  <NL>  }  COM: <s> returns string representation of the message </s>

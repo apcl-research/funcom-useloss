@@ -1,0 +1,1 @@
+TDAT: public double get maximum time ( ) {  <NL> double max = 0 . 0 ;  <NL> for ( int i = 0 ; i < time sample . size ( ) ; i + + ) {  <NL> double act val = ( ( double ) time sample . get ( i ) ) . double value ( ) ;  <NL> if ( act val > max )  <NL> max = act val ;  <NL>  }  <NL> return max ;  <NL>  }  COM: <s> internal get minimum sampled time in seconds </s>

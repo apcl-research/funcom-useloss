@@ -1,0 +1,1 @@
+TDAT: public void prop ( string name , string value ) {  <NL> if ( value = = null ) {  <NL> return ;  <NL>  }  <NL> out . append ( ' ' ) ;  <NL> out . append ( name ) ;  <NL> out . append ( " = \ " " ) ;  <NL> out . append ( w util . encode html ( value ) ) ;  <NL> out . append ( ' \ " ' ) ;  <NL>  }  COM: <s> print name encode html value if value is not null </s>

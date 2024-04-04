@@ -1,0 +1,1 @@
+TDAT: public void put single ( string key , string value ) {  <NL> if ( value = = null ) return ;  <NL> if ( ! short lived ) value = value . intern ( ) ;  <NL> if ( ! put ( key , value , false , false ) )  <NL> throw new illegal state exception ( " value already exists : " + value + " but want to set " + key + " to " + value ) ;  <NL>  }  COM: <s> set a key to a value </s>

@@ -1,0 +1,1 @@
+TDAT: public void set nr days ( int nr days ) {  <NL> if ( m time cb ! = null ) {  <NL> for ( int i = 0 ; i < time _ value _ arr . length ; i + + ) {  <NL> if ( nr days = = time _ value _ arr [ i ] ) {  <NL> m time cb . set selected index ( i ) ;  <NL> break ;  <NL>  }  <NL>  }  <NL>  }  <NL>  }  COM: <s> sets the number of days to use for searching </s>

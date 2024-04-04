@@ -1,0 +1,1 @@
+TDAT: public void animate ( double from value , double to value , int duration ) {  <NL> int f from value = core math . to fixed ( from value ) ;  <NL> int f to value = core math . to fixed ( to value ) ;  <NL> set behavior ( new tween ( f from value , f to value , duration ) ) ;  <NL>  }  COM: <s> animates this property from the one double from value to another to value </s>

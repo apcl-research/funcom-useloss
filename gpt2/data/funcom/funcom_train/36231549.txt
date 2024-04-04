@@ -1,0 +1,1 @@
+TDAT: public matrix negate ( ) {  <NL> matrix tmp = new matrix ( this . n rows , this . n cols ) ;  <NL> for ( int i = 0 ; i < this . n rows ; i + + ) {  <NL> for ( int j = 0 ; j < this . n cols ; j + + ) {  <NL> tmp . in ( i , j , - this . out ( i , j ) ) ;  <NL>  }  <NL>  }  <NL> return tmp ;  <NL>  }  COM: <s> return the a matrix where a is this matrix </s>

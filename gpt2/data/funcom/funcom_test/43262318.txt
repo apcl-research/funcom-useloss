@@ -1,0 +1,1 @@
+TDAT: private string set key ( ) {  <NL>  <NL> key = get role ( ) + " + " + get context depot ( ) + " + " + get context type ( ) + " + " + get context name ( ) + " + " +  <NL> get module ( ) + " + " + get command ( ) + " + " + get timeandday exp ( ) . to string ( ) ;  <NL>  <NL> return key ;  <NL>  <NL>  }  COM: <s> set the key to be referenced in an acl map </s>

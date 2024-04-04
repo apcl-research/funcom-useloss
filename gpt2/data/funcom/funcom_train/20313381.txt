@@ -1,0 +1,1 @@
+TDAT: public void test shortest path5 ( ) {  <NL> property p = m _ model . create property ( ns + " p " ) ;  <NL> m _ a . add property ( p , m _ a ) ;  <NL>  <NL> test path ( ont tools . find shortest path ( m _ model , m _ a , m _ a , filter . any ) ,  <NL> new property [ ] { p } ) ;  <NL>  }  COM: <s> reflexive loop is allowed </s>

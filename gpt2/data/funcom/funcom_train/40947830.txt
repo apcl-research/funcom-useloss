@@ -1,0 +1,1 @@
+TDAT: public field get field ( object property id ) {  <NL> for ( final iterator i = forms . iterator ( ) ; i . has next ( ) ; ) {  <NL> final form f = ( form ) i . next ( ) ;  <NL> final field af = f . get field ( property id ) ;  <NL> if ( af ! = null ) {  <NL> return af ;  <NL>  }  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> find a field from all forms </s>

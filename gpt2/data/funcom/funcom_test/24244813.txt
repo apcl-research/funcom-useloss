@@ -1,0 +1,1 @@
+TDAT: public byte play tone ( int frequency , int duration ) throws io exception {  <NL> byte [ ] request = { direct _ command _ noreply , play _ tone , ( byte ) frequency , ( byte ) ( frequency > > > 8 ) , ( byte ) duration , ( byte ) ( duration > > > 8 ) } ;  <NL> return send request ( request , 3 ) ;  <NL>  }  COM: <s> plays a tone on nxt speaker </s>

@@ -1,0 +1,1 @@
+TDAT: private boolean check for silence ( byte [ ] data , int offset , int len ) {  <NL> for ( int i = offset ; i < len - 1 ; i + = 2 ) {  <NL> int s = ( data [ i ] & 0xff ) | ( data [ i + 1 ] < < 8 ) ;  <NL> if ( s > silence _ level ) {  <NL> return false ;  <NL>  }  <NL>  }  <NL> return true ;  <NL>  }  COM: <s> checks does the frame contains sound or silence </s>

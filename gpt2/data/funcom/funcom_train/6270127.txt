@@ -1,0 +1,1 @@
+TDAT: public void handle new knowledge element ( string id , string description ) {  <NL> if ( ! description . equals ( " " ) )  <NL> adaptor . new topic with occurrence ( id , " " , " " , null , id + " description " , description ) ;  <NL> else <NL> adaptor . new topic ( id , " " , " " , null ) ;  <NL>  }  COM: <s> callback from knowledge element editor </s>

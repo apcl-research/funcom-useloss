@@ -1,0 +1,1 @@
+TDAT: private j text field get j text field _ ean13 ( ) {  <NL> if ( j text field _ ean13 = = null ) {  <NL> j text field _ ean13 = new j text field ( ) ;  <NL> j text field _ ean13 . set columns ( 14 ) ;  <NL> j text field _ ean13 . set bounds ( 100 , 140 , 215 , 19 ) ;  <NL>  }  <NL> return j text field _ ean13 ;  <NL>  }  COM: <s> this method initializes j text field6 </s>

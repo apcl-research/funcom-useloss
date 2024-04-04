@@ -1,0 +1,1 @@
+TDAT: public int index of tab ( string title ) {  <NL> for ( int i = 0 ; i < get tab count ( ) ; i + + ) {  <NL> string title at = get title at ( i ) ;  <NL> if ( title = = null & & title at = = null || title ! = null & & title . equals ( title at ) )  <NL> return i ;  <NL>  }  <NL> return - 1 ;  <NL>  }  COM: <s> returns the first tab index with a given i title i </s>

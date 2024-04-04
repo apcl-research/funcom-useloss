@@ -1,0 +1,1 @@
+TDAT: public dimension get maximum size ( ) {  <NL> return ( ( ( j tool bar ) get parent ( ) ) . get orientation ( ) = =  <NL> j tool bar . horizontal )  <NL>  ? new dimension ( 4 , super . get maximum size ( ) . height )  <NL>  : new dimension ( super . get maximum size ( ) . width , 4 ) ;  <NL>  }  COM: <s> gets the maximum size attribute of the tool bar separator object </s>

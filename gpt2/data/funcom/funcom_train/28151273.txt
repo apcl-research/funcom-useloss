@@ -1,0 +1,1 @@
+TDAT: public expr get bound ( int i ) {  <NL> if ( i < 0 ) throw new no such element exception ( ) ;  <NL> for ( decl d : decls ) {  <NL> if ( i < d . names . size ( ) ) return d . expr ;  <NL> i = i - d . names . size ( ) ;  <NL>  }  <NL> throw new no such element exception ( ) ;  <NL>  }  COM: <s> return the i th variables bound </s>

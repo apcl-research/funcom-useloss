@@ -1,0 +1,1 @@
+TDAT: public vector pop lines ( ) {  <NL> vector vec = ( vector ) lines . pop ( ) ;  <NL> enumeration e = vec . elements ( ) ;  <NL> while ( e . has more elements ( ) ) {  <NL> logger . debug ( e . next element ( ) ) ;  <NL>  }  <NL> logger . debug ( " stack size : " + lines . size ( ) ) ;  <NL> return vec ;  <NL>  }  COM: <s> pops the lines off the stack </s>

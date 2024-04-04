@@ -1,0 +1,1 @@
+TDAT: private void export tag ( string tag name , string value , string prefix ) {  <NL> writer . print ( prefix ) ;  <NL> writer . print ( " < " + tag name + " > < ! [ cdata [ " ) ;  <NL> writer . print ( value = = null ? " " : value ) ;  <NL> writer . println ( " ] ] > < / " + tag name + " > " ) ;  <NL>  }  COM: <s> exports one tag enclosing its content in cdata block </s>

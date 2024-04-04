@@ -1,0 +1,1 @@
+TDAT: public void create learning output ( ) {  <NL> for ( int i = 0 ; i < 40 ; i + + ) {  <NL> for ( int j = 0 ; j < 40 ; j + + ) {  <NL> if ( i = = j ) {  <NL> lernausgabe [ i ] [ j ] = 1 ;  <NL>  }  <NL> else lernausgabe [ i ] [ j ] = 0 ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> the method create learning output serves the production of sample spent </s>

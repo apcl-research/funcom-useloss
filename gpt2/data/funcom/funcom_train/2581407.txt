@@ -1,0 +1,1 @@
+TDAT: public paint get color ( double value ) {  <NL> int iz v = ( int ) ( 253 * ( value - this . min z )  <NL>  / ( this . max z - this . min z ) ) + 2 ;  <NL> return new color ( this . r [ iz v ] , this . g [ iz v ] , this . b [ iz v ] ) ;  <NL>  }  COM: <s> returns the color associated with a value </s>

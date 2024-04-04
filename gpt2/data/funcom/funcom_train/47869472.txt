@@ -1,0 +1,1 @@
+TDAT: public string get all blocks ( ) {  <NL> string buffer accumulated = new string buffer ( ) ;  <NL> int i = 0 ;  <NL> for ( block block : blocks ) {  <NL> accumulated . append ( " @ block " + i + " \n " + block . get text ( ) + " \n " ) ;  <NL> i + + ;  <NL>  }  <NL> return accumulated . to string ( ) ;  <NL>  }  COM: <s> return all blocks </s>

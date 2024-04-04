@@ -1,0 +1,1 @@
+TDAT: private void add cookie ( http state state , string cookie , string host , string path , boolean secure ) {  <NL> int index = cookie . index of ( ' = ' ) ;  <NL> state . add cookie ( new cookie ( host , cookie . substring ( 0 , index ) ,  <NL> cookie . substring ( index + 1 ) , path ,  <NL> null , secure ) ) ;  <NL>  }  COM: <s> add cookie to state </s>

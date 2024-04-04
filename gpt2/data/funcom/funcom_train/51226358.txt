@@ -1,0 +1,1 @@
+TDAT: public void set stereo separation ( double separation ) {  <NL> physical body b = this . get view ( ) . get physical body ( ) ;  <NL> b . set left eye position ( new point3d ( - separation / 2 . 0 , 0 . 0 , 0 . 0 ) ) ;  <NL> b . set right eye position ( new point3d ( separation / 2 . 0 , 0 . 0 , 0 . 0 ) ) ;  <NL>  }  COM: <s> not used in the current version of bass </s>

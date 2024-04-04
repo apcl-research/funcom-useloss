@@ -1,0 +1,1 @@
+TDAT: public void test31661 ( ) {  <NL> hssf workbook wb = open sample ( " 31661 . xls " ) ;  <NL> hssf sheet sheet = wb . get sheet at ( 0 ) ;  <NL> hssf cell cell = sheet . get row ( 11 ) . get cell ( 10 ) ; / / k11 <NL> assert equals ( " + ' [ gm budget . xls ] 8085 . 4450 ' ! $ b $ 2 " , cell . get cell formula ( ) ) ;  <NL>  }  COM: <s> similar to bug 27364 </s>

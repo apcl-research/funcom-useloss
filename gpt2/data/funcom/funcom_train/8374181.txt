@@ -1,0 +1,1 @@
+TDAT: private void auto correlate ( ) {  <NL> int i , j ;  <NL> for ( i = 0 ; i < p + 1 ; i + + ) {  <NL> r [ i ] = 0 ;  <NL> for ( j = 0 ; j < n - i ; j + + ) {  <NL> r [ i ] + = ( x [ j ] * x [ j + i ] ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> auto correlation method </s>

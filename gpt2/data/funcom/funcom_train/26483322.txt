@@ -1,0 +1,1 @@
+TDAT: public void write xml ( xml writer out ) {  <NL> out . start element ( " join " ) ;  <NL> out . attr ( " from " , from . full name ( ) ) ;  <NL> out . attr ( " relation " , relation ) ;  <NL> out . attr ( " to " , to . full name ( ) ) ;  <NL> out . end element ( ) ;  <NL>  }  COM: <s> writes this join as an xml tag </s>

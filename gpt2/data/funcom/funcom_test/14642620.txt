@@ -1,0 +1,1 @@
+TDAT: public void test descriptor filter ( ) {  <NL> descriptor filter filter = new descriptor filter ( ) ;  <NL> file [ ] files = this . hello . list files ( filter ) ;  <NL> assert equals ( 1 , files . length ) ;  <NL> assert true ( files [ 0 ] . get absolute path ( ) . equals ( this . descriptor . get absolute path ( ) ) ) ;  <NL>  }  COM: <s> test the descriptor filter </s>

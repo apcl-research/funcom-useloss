@@ -1,0 +1,1 @@
+TDAT: public character info find character ( int id ) {  <NL> for ( int i = 0 ; i < m _ characters . length ; + + i ) {  <NL> if ( id = = m _ characters [ i ] . get id ( ) ) {  <NL> return m _ characters [ i ] ;  <NL>  } / / end if <NL>  } / / end for <NL>  <NL> return null ;  <NL>  } / / end find character ( )  COM: <s> returns the character with the given id </s>

@@ -1,0 +1,1 @@
+TDAT: public void characters ( char [ ] ch , int start , int length ) throws sax exception {  <NL> string data = new string ( ch , start , length ) ;  <NL> debug ( " received characters event : " + data ) ;  <NL> get content handler ( ) . characters ( ch , start , length ) ;  <NL>  }  COM: <s> filter the characters event </s>

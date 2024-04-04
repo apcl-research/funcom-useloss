@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> string result = " grid\n " ;  <NL> for ( int obj = 0 ; obj < objectives _ ; obj + + ) {  <NL> result + = " objective " + obj + " " + lower limits _ [ obj ] + " "  <NL>  + upper limits _ [ obj ] + " \n " ;  <NL>  } / / for <NL> return result ;  <NL>  } / / to string  COM: <s> retunrns a string representing the grid </s>

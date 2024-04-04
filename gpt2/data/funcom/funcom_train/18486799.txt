@@ -1,0 +1,1 @@
+TDAT: public void write ( string id , byte [ ] line , boolean close ) {  <NL> try {  <NL>  / / write to client with " id " id , boolean shows if the connection must be stoped <NL> accepting thread . write ( id , line , close ) ;  <NL>  } catch ( exception ex ) {  <NL>  <NL> fire error ( ex ) ;  <NL>  }  <NL>  }  COM: <s> sample inpin uses outpin to fire out event </s>

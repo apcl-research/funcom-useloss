@@ -1,0 +1,1 @@
+TDAT: public void print ( string title ) {  <NL> system . out . println ( title ) ;  <NL> system . out . println ( this . year + " , " + this . month + " , " + this . day + " " + this . hour + " : " + this . min + " : " + this . sec ) ;  <NL>  }  COM: <s> print out the date </s>

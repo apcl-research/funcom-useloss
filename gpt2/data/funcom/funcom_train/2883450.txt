@@ -1,0 +1,1 @@
+TDAT: protected void read login and password ( ) throws smart frog exception , remote exception {  <NL> if ( login = = null ) {  <NL> login = sf resolve ( attr _ login , login , true ) ;  <NL>  }  <NL> if ( password = = null ) {  <NL> password = sf resolve ( attr _ password , password , true ) ;  <NL>  }  <NL>  }  COM: <s> some classes may override this </s>

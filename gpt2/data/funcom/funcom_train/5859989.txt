@@ -1,0 +1,1 @@
+TDAT: private void todo list changed ( ) {  <NL> property change event pevent = new property change event ( this . naming ( ) ,  <NL> this . naming ( ) ,  <NL> 0 ,  <NL> p todo list . entries ,  <NL> this . get todo list as string ( ) ) ;  <NL> this . get user ( ) . get event queue ( ) . post event ( pevent ) ;  <NL>  }  COM: <s> produces a property change event ptodo list </s>

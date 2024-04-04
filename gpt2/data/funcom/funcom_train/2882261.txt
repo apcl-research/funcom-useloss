@@ -1,0 +1,1 @@
+TDAT: public void change da ( string da ) {  <NL> string tmp = da ;  <NL> int index = tmp . index of ( " " ) ;  <NL> dir agent = tmp . substring ( 0 , index ) ;  <NL> append ( " - - using " + dir agent + " as da " ) ;  <NL> if ( tcp ! = null ) { / / close previous tcp connection <NL> tcp . close ( ) ;  <NL> tcp = null ;  <NL>  }  <NL>  }  COM: <s> sets the currently used da </s>

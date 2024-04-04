@@ -1,0 +1,1 @@
+TDAT: public void test precedence ( ) throws exception {  <NL> query parser qp = new query parser ( " field " , new whitespace analyzer ( ) ) ;  <NL> query query1 = qp . parse ( " a and b or c and d " ) ;  <NL> query query2 = qp . parse ( " + a + b + c + d " ) ;  <NL> assert equals ( query1 , query2 ) ;  <NL>  }  COM: <s> this test differs from test precedence query parser </s>

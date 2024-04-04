@@ -1,0 +1,1 @@
+TDAT: public boolean delete ( long data type id ) {  <NL> if ( data type id = = null ) {  <NL> throw new illegal argument exception ( " primary key null . " ) ;  <NL>  }  <NL>  / / set the where args to null here .  <NL> return database . delete ( database _ table , key _ datatypeid + " = " + data type id , null ) > 0 ;  <NL>  }  COM: <s> delete a data type record </s>

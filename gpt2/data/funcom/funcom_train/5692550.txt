@@ -1,0 +1,1 @@
+TDAT: protected void write summary section ( ) {  <NL> println ( " < ! - - " ) ;  <NL> println ( " " ) ;  <NL> println ( " s u m m a r y " ) ;  <NL> println ( " " ) ;  <NL> println ( " - - > " ) ;  <NL> println ( " " ) ;  <NL> println ( " < h1 > summary < / h1 > " ) ;  <NL>  }  COM: <s> writes the summary section heading </s>

@@ -1,0 +1,1 @@
+TDAT: public void set url frame ( string id , string data ) {  <NL> if ( ( id . char at ( 0 ) = = ' w ' )  <NL>  & & ! id . equals ( id3v2frames . user _ defined _ url ) ) {  <NL>  <NL> set generic frame ( id , null , null , data ) ;  <NL>  / / update frame data ( id , data . get bytes ( ) ) ;  <NL>  }  <NL>  }  COM: <s> set the data contained in a url frame </s>

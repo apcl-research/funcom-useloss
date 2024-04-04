@@ -1,0 +1,1 @@
+TDAT: public void realclose ( ) {  <NL> log ( " closing connection " ) ;  <NL> try {  <NL> db con . close ( ) ;  <NL>  } catch ( sql exception e ) {  <NL> log ( " unable to close " + e . get message ( ) ) ;  <NL>  } catch ( null pointer exception e ) {  <NL> log ( " unable to close " + e . get message ( ) ) ;  <NL>  }  <NL>  }  COM: <s> method to really close a connection </s>

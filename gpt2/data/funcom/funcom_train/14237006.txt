@@ -1,0 +1,1 @@
+TDAT: public void set image list ( list < dicom image > image list ) {  <NL>  _ image list = image list ;  <NL>  _ bs helper . notify destinations ( this , " image list " ) ;  <NL>  <NL> set current image ( ( ( _ image list = = null ) || ( _ image list . is empty ( ) ) ) ? null : _ image list . get ( 0 ) ) ;  <NL>  }  COM: <s> sets the current image list </s>

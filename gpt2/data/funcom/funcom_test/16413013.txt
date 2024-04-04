@@ -1,0 +1,1 @@
+TDAT: private void initialize keywords ( ) {  <NL> this . keywords = new hash set < string > ( arrays . as list ( new string [ ] {  <NL>  " select " , " from " , " where " , " order " , " by " , " and " , " or " , " group " ,  <NL>  " left " , " on " , " right " , " in " , " outer " } ) ) ;  <NL>  }  COM: <s> initializes the keywords list </s>

@@ -1,0 +1,1 @@
+TDAT: private void fill super interfaces ( object obj , set < class < ? > > set ) {  <NL> class < ? > the class = obj . get class ( ) ;  <NL> set . add ( the class ) ;  <NL> while ( the class ! = null ) {  <NL> fill super interfaces ( the class , set ) ;  <NL> the class = the class . get superclass ( ) ;  <NL>  }  <NL>  }  COM: <s> fill the set with all interfaces </s>

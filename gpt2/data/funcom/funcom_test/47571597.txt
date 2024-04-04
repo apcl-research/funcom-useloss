@@ -1,0 +1,1 @@
+TDAT: public warp tile is warped ( int x , int y ) {  <NL> for ( int i = 0 ; i < m _ warp tiles . size ( ) ; i + + ) {  <NL> if ( m _ warp tiles . get ( i ) . get x ( ) = = x & & m _ warp tiles . get ( i ) . get y ( ) = = y )  <NL> return m _ warp tiles . get ( i ) ;  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> returns if the char collided with a warp tile </s>

@@ -1,0 +1,1 @@
+TDAT: private int get length ( value val ) {  <NL> if ( val . index2 ! = - 1 )  <NL> return 5 ; / / tag + enum type + enum name <NL> if ( val . index ! = - 1 )  <NL> return 3 ; / / tag + constant or class <NL> return 1 + ( ( annotation ) val . value ) . get length ( ) ; / / tag + anno <NL>  }  COM: <s> return the length of the given value </s>

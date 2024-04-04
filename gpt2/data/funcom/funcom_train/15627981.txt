@@ -1,0 +1,1 @@
+TDAT: public void show new pickmap folder dialog ( @ not null final map folder tree < g , a , r > map folder tree , @ nullable final map folder < g , a , r > parent ) {  <NL> new new pickmap folder dialog < g , a , r > ( this . parent , map folder tree , parent , map views manager ) ;  <NL>  }  COM: <s> shows a dialog for creating a new pickmap folder </s>

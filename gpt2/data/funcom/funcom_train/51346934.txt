@@ -1,0 +1,1 @@
+TDAT: final public boolean is match ( ispo spo ) {  <NL>  <NL> return ( ( p . is var ( ) || iv utility . equals ( p . get ( ) , spo . p ( ) ) ) & &  <NL>  ( o . is var ( ) || iv utility . equals ( o . get ( ) , spo . o ( ) ) ) ) ;  <NL>  <NL>  }  COM: <s> tests the p and o of the supplied spo against the constraint </s>

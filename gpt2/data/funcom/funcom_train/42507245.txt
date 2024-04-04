@@ -1,0 +1,1 @@
+TDAT: private int find successor ( int from , int to ) {  <NL> int succ = from ;  <NL> for ( int i = from + 1 ; i < = to & & i < size ; i + + ) {  <NL> if ( ( ( comparable ) array [ succ ] ) . compare to ( ( comparable ) array [ i ] ) > 0 ) succ = i ;  <NL>  }  <NL> return succ ;  <NL>  }  COM: <s> return successor with the least value </s>

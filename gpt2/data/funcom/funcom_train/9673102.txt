@@ -1,0 +1,1 @@
+TDAT: public void message ( class message class , int message id , int message level , string [ ] message arguments ) {  <NL> super . message ( message class , message id , message level , message arguments ) ;  <NL> frame . get gui ( ) . message ( message class , message id , message level , message arguments ) ;  <NL>  }  COM: <s> show message to the user console message </s>

@@ -1,0 +1,1 @@
+TDAT: protected void init ( ) {  <NL> passes = new array list ( get passes ( ) ) ;  <NL> pass map = new hash map ( ) ;  <NL> for ( int i = 0 ; i < passes . size ( ) ; i + + ) {  <NL> pass pass = ( pass ) passes . get ( i ) ;  <NL> pass map . put ( pass . id ( ) , new integer ( i ) ) ;  <NL>  }  <NL>  }  COM: <s> initialize the code passes code field and the </s>

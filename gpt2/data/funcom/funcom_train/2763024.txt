@@ -1,0 +1,1 @@
+TDAT: public string get meta info string ( ) {  <NL> return " [ " + get meta name ( ) + " / " + _ user + " @ " + _ url + " accessing a ' " + _ database product name + " ' version ' " + _ database product version + " ' using a ' " + _ driver name + " ' version ' " + _ driver version + " ' ] " ;  <NL>  }  COM: <s> returns a string representing the meta data </s>

@@ -1,0 +1,1 @@
+TDAT: public string get encoding ( ) {  <NL> string enc = configuration . get string ( argo . key _ input _ source _ encoding ) ;  <NL> if ( enc = = null || enc . trim ( ) . equals ( " " ) ) { / / $ non - nls - 1 $  <NL> enc = system . get property ( " file . encoding " ) ; / / $ non - nls - 1 $  <NL>  }  <NL>  <NL> return enc ;  <NL>  }  COM: <s> the default encoding </s>

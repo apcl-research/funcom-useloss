@@ -1,0 +1,1 @@
+TDAT: public int get progress ( ) {  <NL> return ( int ) ( ( ( float ) get folder1 ( ) . get sizedone ( ) + ( float ) get folder2 ( ) . get sizedone ( ) ) / ( ( float ) get folder1 ( ) . get sizetocopy ( ) + ( float ) get folder2 ( ) . get sizetocopy ( ) ) * 100 ) ;  <NL>  }  COM: <s> get total progress of runsynchronization </s>

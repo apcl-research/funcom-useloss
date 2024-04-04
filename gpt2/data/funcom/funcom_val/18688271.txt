@@ -1,0 +1,1 @@
+TDAT: public set put ( key type key , value type value ) {  <NL> set < value type > hs = this . get ( key ) ;  <NL> if ( hs = = null ) {  <NL> hs = new hash set < value type > ( ) ;  <NL> super . put ( key , hs ) ;  <NL>  } / / if <NL> hs . add ( value ) ;  <NL> return hs ;  <NL>  } / / put ( )  COM: <s> adds the given value to the set contained at the given location </s>

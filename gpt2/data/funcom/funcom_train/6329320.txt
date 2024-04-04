@@ -1,0 +1,1 @@
+TDAT: public object get ( int index ) {  <NL>  / / this is a legal list iterator position , but an illegal get .  <NL> if ( index = = size ( ) )  <NL> throw new index out of bounds exception ( " index : " + index + " , size : "  <NL>  + size ( ) ) ;  <NL> return list iterator ( index ) . next ( ) ;  <NL>  }  COM: <s> get the element at a given index in this list </s>

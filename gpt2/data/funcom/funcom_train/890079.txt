@@ -1,0 +1,1 @@
+TDAT: protected i data set get data set ( ) throws exception {  <NL> input stream is = get class ( ) . get resource as stream ( " / database / springroller - dump . xml " ) ;  <NL> assert not null ( " resource / database / springroller - dump . xml not found on the classpath . " , is ) ;  <NL> return new xml data set ( is ) ;  <NL>  }  COM: <s> returns the default dataset </s>

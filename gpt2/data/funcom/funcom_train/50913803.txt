@@ -1,0 +1,1 @@
+TDAT: public void set integer ( int i ) throws runtime exception {  <NL> cml scalar scalar = ( cml scalar ) this . get child cml element ( cml scalar . tag , 0 ) ;  <NL> if ( scalar = = null ) {  <NL> scalar = new cml scalar ( i ) ;  <NL> this . append child ( scalar ) ;  <NL>  } else {  <NL> scalar . set value ( i ) ;  <NL>  }  <NL>  }  COM: <s> sets integer value </s>

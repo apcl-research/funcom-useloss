@@ -1,0 +1,1 @@
+TDAT: public void clear form data ( ) {  <NL> if ( m database = = null ) {  <NL> return ;  <NL>  }  <NL>  <NL> synchronized ( m form lock ) {  <NL> m database . delete ( m table names [ table _ formurl _ id ] , null , null ) ;  <NL> m database . delete ( m table names [ table _ formdata _ id ] , null , null ) ;  <NL>  }  <NL>  }  COM: <s> clear form database </s>

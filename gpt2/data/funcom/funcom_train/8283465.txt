@@ -1,0 +1,1 @@
+TDAT: synchronized public void save ( user container uc ) {  <NL> user table . save ( uc . get validation items ( ) , new item [ ] { uc . get assigned id ( ) } , dbsql accessor . and ) ;  <NL> if ( " - 1 " . equals ( uc . get assigned id ( ) . to string ( ) ) ) {  <NL> user table . get last id ( uc . get assigned id ( ) ) ;  <NL>  }  <NL>  }  COM: <s> saves a user </s>

@@ -1,0 +1,1 @@
+TDAT: public void remove ( vector vto , connection c ) throws data access exception {  <NL> if ( vto ! = null ) {  <NL> iterator i = vto . iterator ( ) ;  <NL> while ( i . has next ( ) ) {  <NL> user to uto = ( user to ) i . next ( ) ;  <NL> this . remove ( uto , c ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> remove a list of users from data base related with project id </s>

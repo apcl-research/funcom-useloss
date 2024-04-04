@@ -1,0 +1,1 @@
+TDAT: public void mouse moved ( java . awt . event . mouse event e ) {  <NL>  / / panel . add event ( new mouse event ( e . get when ( ) , netscape . application . mouse event . mouse _ moved , e . get x ( ) , e . get y ( ) , e . get modifiers ( ) ) ) ;  <NL> e . consume ( ) ;  <NL>  }  COM: <s> invoked when the mouse button has been moved on a component </s>

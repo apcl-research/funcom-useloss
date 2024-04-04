@@ -1,0 +1,1 @@
+TDAT: protected void report error ( string msg , exception ex , int code ) {  <NL> if ( msg ! = null ) {  <NL> super . report error ( level . severe . get name ( ) + " : " + msg , ex , code ) ;  <NL>  } else {  <NL> super . report error ( null , ex , code ) ;  <NL>  }  <NL>  }  COM: <s> protected convenience method to report an error to this handlers </s>

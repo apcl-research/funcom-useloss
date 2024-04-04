@@ -1,0 +1,1 @@
+TDAT: public void create new file ( ) throws smb exception {  <NL> if ( get unc path0 ( ) . length ( ) = = 1 ) {  <NL> throw new smb exception ( " invalid operation for workgroups , servers , or shares " ) ;  <NL>  }  <NL> close ( open0 ( o _ rdwr | o _ creat | o _ excl , 0 , attr _ normal , 0 ) , 0l ) ;  <NL>  }  COM: <s> create a new file but fail if it already exists </s>

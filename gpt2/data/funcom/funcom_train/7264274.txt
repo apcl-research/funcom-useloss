@@ -1,0 +1,1 @@
+TDAT: public void release ( int amount ) {  <NL> if ( _ active ) / / failsafe to ensure releasing only occurs when we want it <NL>  _ available + = amount ;  <NL>  / / log . trace ( " retr : " + amount + " , remaining : " + _ available + " , all : " + wrote all + " , from : " + attachment ) ;  <NL>  }  COM: <s> releases some unwritten bytes back to the available pool </s>

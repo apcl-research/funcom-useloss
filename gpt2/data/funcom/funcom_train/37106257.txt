@@ -1,0 +1,1 @@
+TDAT: public void remove session ( int session index ) {  <NL> session [ ] temp = new session [ sessions . length - 1 ] ;  <NL> for ( int x = 0 , y = 0 ; x < sessions . length ; x + + , y + + ) {  <NL> if ( session index = = x )  <NL> x + + ;  <NL> temp [ y ] = sessions [ x ] ;  <NL>  }  <NL> sessions = temp ;  <NL>  }  COM: <s> this function removes a session specified </s>

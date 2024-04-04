@@ -1,0 +1,1 @@
+TDAT: public void draw cursor ( graphics g ) {  <NL> if ( ( image cursor ! = null ) & & ( position ! = null ) ) {  <NL> point p adjusted = position ;  <NL> g . draw image ( image cursor , ( int ) p adjusted . get x ( ) - 16 ,  <NL>  ( int ) p adjusted . get y ( ) - 16 , this ) ;  <NL>  }  <NL>  }  COM: <s> draw the cursor on the graphics </s>

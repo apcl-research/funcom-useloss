@@ -1,0 +1,1 @@
+TDAT: public string full url ( object page url , object link ) {  <NL> if ( page url ! = null & & link ! = null ) {  <NL> return common util . full url ( page url . to string ( ) , link . to string ( ) ) ;  <NL>  }  <NL>  <NL> throw new base exception ( " cannot make full url for null argumants ! " ) ;  <NL>  }  COM: <s> calculates full url for specified page url and link </s>

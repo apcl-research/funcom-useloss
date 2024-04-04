@@ -1,0 +1,1 @@
+TDAT: public boolean remove transition ( transition < n , a > t ) {  <NL> if ( mode ! = mode . definition ) {  <NL> throw new illegal state exception ( " cannot remove a transition , current status is " + mode ) ;  <NL>  }  <NL>  <NL> return automaton . remove arc ( t , t . get from state ( ) , t . get to state ( ) ) ;  <NL>  }  COM: <s> removes a transition from the model </s>

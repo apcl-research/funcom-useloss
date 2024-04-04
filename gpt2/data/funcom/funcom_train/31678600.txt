@@ -1,0 +1,1 @@
+TDAT: public term copy ( ) {  <NL> term term = factory . array ( _ size ) ;  <NL> term . _ size = _ size ;  <NL> for ( int i = 0 ; i < _ size ; i + + ) {  <NL> check canceled ( ) ;  <NL> term . _ powers [ i ] = _ powers [ i ] ;  <NL> term . _ variables [ i ] = _ variables [ i ] ;  <NL>  }  <NL> return term ;  <NL>  }  COM: <s> returns an entierely new copy of this term </s>

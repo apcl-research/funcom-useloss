@@ -1,0 +1,1 @@
+TDAT: public void get alphas ( int x , int y , int get width , byte [ ] alphas , int start index ) {  <NL> byte [ ] alphas2 = ( byte [ ] ) call client ( " get alphas " , x , y , get width ) ;  <NL> system . arraycopy ( alphas2 , 0 , alphas , start index , alphas2 . length ) ;  <NL>  }  COM: <s> returns code get width code alpha values starting at offset </s>

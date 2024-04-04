@@ -1,0 +1,1 @@
+TDAT: protected void update column widths ( final column [ ] row ) {  <NL> for ( int i = 0 ; i < meta . length ; + + i ) {  <NL> row [ i ] . set auto wrap ( meta [ i ] . get auto wrap ( ) ) ;  <NL> meta [ i ] . update width ( row [ i ] . get width ( ) ) ;  <NL>  }  <NL>  }  COM: <s> overwrite this method if you need to handle customized columns </s>

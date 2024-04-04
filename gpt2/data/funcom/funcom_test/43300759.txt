@@ -1,0 +1,1 @@
+TDAT: public void delay ( int ms ) {  <NL> if ( event mode = = em _ robot ) {  <NL> while ( ms > max _ delay ) {  <NL> robot . delay ( max _ delay ) ;  <NL> ms - = max _ delay ;  <NL>  }  <NL> robot . delay ( ms ) ;  <NL>  }  <NL> else {  <NL> try { thread . sleep ( ms ) ; } catch ( interrupted exception ie ) { }  <NL>  }  <NL>  }  COM: <s> sleep the given duration of ms </s>

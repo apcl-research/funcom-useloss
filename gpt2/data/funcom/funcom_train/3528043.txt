@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> string buffer b = new string buffer ( ) ;  <NL> if ( tokens . length = = 0 )  <NL> b . append ( uri delimiter ) ;  <NL> for ( int i = 0 ; i < tokens . length ; i + + )  <NL> b . append ( uri delimiter ) . append ( tokens [ i ] ) ;  <NL> return b . to string ( ) ;  <NL>  }  COM: <s> return string representation </s>

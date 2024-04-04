@@ -1,0 +1,1 @@
+TDAT: public void add option ( jet option option ) {  <NL> option . set parent ( this ) ;  <NL> this . options . add ( option ) ;  <NL> this . event support . fire ( new event ( this , " option added on selection ' " + this . get identifier ( ) + " ' . " , event type . added _ child ) ) ;  <NL>  }  COM: <s> adds a option </s>

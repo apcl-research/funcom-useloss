@@ -1,0 +1,1 @@
+TDAT: public void test set my rights ( ) {  <NL>  / / must test for the following parameters !  <NL> string str [ ] = { null , " \u0000 " , " " } ;  <NL>  / / must test for the following parameters !  <NL> int int values [ ] = { - 1 , 0 , 1 , integer . max _ value , integer . min _ value } ;  <NL>  <NL>  }  COM: <s> test method void set my rights string int </s>

@@ -1,0 +1,1 @@
+TDAT: public long add entities ( table table , string condition , int today , long limit ) throws sql exception {  <NL> return add entities ( table , " t " , condition , null , null , null , null , false , today , limit , 0 , true ) ;  <NL>  }  COM: <s> adds entities to the graph </s>

@@ -1,0 +1,1 @@
+TDAT: public boolean has ability ( string id , free col game object type type ) {  <NL> turn turn = get game ( ) . get turn ( ) ;  <NL> return super . has ability ( id , type , turn )  <NL> || ( owner ! = null & & owner . has ability ( id , type , turn ) ) ;  <NL>  }  COM: <s> returns true if the colony or its owner has the ability </s>

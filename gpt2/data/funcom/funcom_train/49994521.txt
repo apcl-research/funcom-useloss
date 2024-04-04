@@ -1,0 +1,1 @@
+TDAT: public void set version ( string version ) {  <NL> window . set title ( " hackystat : sensor data viewer " + version ) ;  <NL> root panel . get ( " version " ) . add ( new html ( " < b > " + version + " < / b > " ) ) ;  <NL> set gadget title ( " hackystat : sensor data viewer " + version ) ;  <NL>  }  COM: <s> this method displays the passed version in the ui </s>

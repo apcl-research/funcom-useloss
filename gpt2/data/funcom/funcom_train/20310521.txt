@@ -1,0 +1,1 @@
+TDAT: protected void translate inverse axioms ( element expr , object property p , string prop type ) {  <NL> for ( iterator i = p . list inverse ( ) ; i . has next ( ) ; ) {  <NL> translate inverse axiom ( expr , p , prop type , ( property ) i . next ( ) ) ;  <NL>  }  <NL>  }  COM: <s> axioms for all of the inverses of a property </s>

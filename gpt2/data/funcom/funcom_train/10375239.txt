@@ -1,0 +1,1 @@
+TDAT: public void test tld11missing ( ) throws exception {  <NL> url src xml = class loader . get resource ( " 1 _ 1 _ dtd / taglib - missing - src . tld " ) ;  <NL> url expected xml = class loader . get resource ( " 1 _ 1 _ dtd / taglib - missing - expected . tld " ) ;  <NL> parse and compare ( src xml , expected xml ) ;  <NL>  }  COM: <s> tests for missing tld tags </s>

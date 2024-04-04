@@ -1,0 +1,1 @@
+TDAT: public j panel create settings panel ( ) {  <NL> m panel = new capture plugin panel ( m owner , m clone data ) ;  <NL> m panel . set border ( borders . create empty border ( sizes . dluy5 , sizes . dlux5 , sizes . dluy5 , sizes . dlux5 ) ) ;  <NL> m panel . set selected tab ( m current panel ) ;  <NL> return m panel ;  <NL>  }  COM: <s> returns the plugin panel </s>

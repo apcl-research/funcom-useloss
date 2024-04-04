@@ -1,0 +1,1 @@
+TDAT: private void set selected ( int a index ) {  <NL> if ( ! is selected ( a index ) ) {  <NL> f selection changed = true ;  <NL> f select . set ( a index ) ;  <NL> f min index = math . min ( f min index , a index ) ;  <NL> f max index = math . max ( f max index , a index ) ;  <NL>  }  <NL>  }  COM: <s> sets the state at this index and update all relevant state </s>

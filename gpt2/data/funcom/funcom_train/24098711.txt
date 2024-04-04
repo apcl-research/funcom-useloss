@@ -1,0 +1,1 @@
+TDAT: public void login in guest ( string username , string password , int options ) throws vix exception {  <NL> vix handle job handle =  <NL> m vix . vix vm _ login in guest ( this ,  <NL> username ,  <NL> password ,  <NL> options ,  <NL> null ,  <NL> null ) ;  <NL> vix utils . wait for job ( job handle , true ) ;  <NL>  }  COM: <s> logs into the guest </s>

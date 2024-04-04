@@ -1,0 +1,1 @@
+TDAT: <NL> public string get host address ( ) {  <NL> return ( ( address > > > 24 ) & 0x ff ) + " . " +  <NL>  ( ( address > > > 16 ) & 0x ff ) + " . " +  <NL>  ( ( address > > > 8 ) & 0x ff ) + " . " +  <NL>  ( ( address > > > 0 ) & 0x ff ) ;  <NL>  }  COM: <s> returns this ip adress as a </s>

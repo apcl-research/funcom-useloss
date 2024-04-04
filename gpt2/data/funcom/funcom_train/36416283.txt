@@ -1,0 +1,1 @@
+TDAT: public void open with default keys ( ) throws card exception {  <NL> open ( ) ;  <NL> int key set = 0 ;  <NL> set keys ( key set , default enc key , default mac key , default kek key ) ;  <NL> open secure channel ( key set , 0 , scp _ any , apdu _ mac , false ) ;  <NL>  }  COM: <s> convenience method combining </s>

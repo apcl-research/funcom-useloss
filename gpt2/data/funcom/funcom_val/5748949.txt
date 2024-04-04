@@ -1,0 +1,1 @@
+TDAT: public boolean _ _ contains _ _ ( py object o ) {  <NL> py object iter = _ _ iter _ _ ( ) ;  <NL> for ( py object item = null ; ( item = iter . _ _ iternext _ _ ( ) ) ! = null ; ) {  <NL> if ( o . _ eq ( item ) . _ _ nonzero _ _ ( ) )  <NL> return true ;  <NL>  }  <NL> return false ;  <NL>  }  COM: <s> equivalent to the standard python contains method </s>

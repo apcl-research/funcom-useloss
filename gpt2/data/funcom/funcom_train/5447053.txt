@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> return / * this . class . get name ( ) + * / " { key = " + ( ( get a ( ) ! = null ) ? get a ( ) . to string ( ) : " none " ) + " , value = " + ( ( get b ( ) ! = null ) ? get b ( ) . to string ( ) : " null " ) + " } " ;  <NL>  }  COM: <s> returns a string representation of this key pair </s>

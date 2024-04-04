@@ -1,0 +1,1 @@
+TDAT: private string mapping key for ( file editor mapping mapping ) {  <NL> return mapping key for ( mapping . get name ( )  <NL>  + ( mapping . get extension ( ) . length ( ) = = 0 ? " " : " . " + mapping . get extension ( ) ) ) ; / / $ non - nls - 1 $ / / $ non - nls - 2 $  <NL>  }  COM: <s> return a key that combines the files name and extension of the given </s>

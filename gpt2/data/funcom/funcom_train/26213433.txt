@@ -1,0 +1,1 @@
+TDAT: public void set url ( string url ) throws malformed url exception {  <NL> super . set path ( uri util . get path ( url ) ) ;  <NL> this . url = url ;  <NL> string query = uri util . get query ( url ) ;  <NL> if ( query ! = null & & query . length ( ) > 0 ) {  <NL> super . set query string ( query ) ;  <NL>  }  <NL>  }  COM: <s> sets the url </s>

@@ -1,0 +1,1 @@
+TDAT: protected int compare to same class ( final object _ obj ) {  <NL> final tree set these elements = new tree set ( geometry _ . get list ( ) ) ;  <NL> final tree set other elements = new tree set ( ( ( gis collection ) _ obj ) . geometry _ . get list ( ) ) ;  <NL> return compare ( these elements , other elements ) ;  <NL>  }  COM: <s> recopie de geometry collection </s>

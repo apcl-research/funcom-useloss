@@ -1,0 +1,1 @@
+TDAT: public void transform ( transform2 t2 ) {  <NL> if ( has coordinates ( coordinate type . twod ) ) {  <NL> real2 xy = new real2 ( this . get x2 ( ) , this . get y2 ( ) ) ;  <NL> xy . transform by ( t2 ) ;  <NL> this . set x2 ( xy . get x ( ) ) ;  <NL> this . set y2 ( xy . get y ( ) ) ;  <NL>  }  <NL>  }  COM: <s> transforms 2 d coordinates of atom </s>

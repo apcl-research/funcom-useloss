@@ -1,0 +1,1 @@
+TDAT: public object put ( string key , object value ) {  <NL> accessor sp = get property map ( ) . get ( key ) ;  <NL> if ( sp ! = null ) {  <NL> object old = sp . get ( this ) ;  <NL> sp . set ( this , value ) ;  <NL> return old ;  <NL>  } else {  <NL> throw new illegal argument exception ( " undefined property " + key ) ;  <NL>  }  <NL>  }  COM: <s> sets a property </s>

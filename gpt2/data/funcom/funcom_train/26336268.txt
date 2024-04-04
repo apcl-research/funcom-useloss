@@ -1,0 +1,1 @@
+TDAT: public void init script ( string filename ) {  <NL> if ( filename = = null || filename . equals ( " " ) ) {  <NL> this . script = null ;  <NL>  }  <NL> else {  <NL> this . script = script engine factory . create script engine ( engine , filename ) ;  <NL> this . script . set ( " monster " , ( object ) this ) ;  <NL>  }  <NL>  }  COM: <s> init a script for the character </s>

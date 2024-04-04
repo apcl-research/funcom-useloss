@@ -1,0 +1,1 @@
+TDAT: public void add to error pending ( workflow item item ) {  <NL> log . debug ( " adding to error pending " + item . get id ( ) ) ;  <NL> if ( in task items . contains key ( item . get id ( ) ) ) {  <NL> in task items . remove ( item . get id ( ) ) ;  <NL>  }  <NL> error pending . add ( item ) ;  <NL>  }  COM: <s> add the workflow item ot the error pending queue </s>

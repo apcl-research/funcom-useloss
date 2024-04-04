@@ -1,0 +1,1 @@
+TDAT: public int set sub set ( real2range r ) {  <NL> int set is = new int set ( ) ;  <NL> for ( int i = 0 ; i < size ( ) ; i + + ) {  <NL> real2 point = ( real2 ) vector . get ( i ) ;  <NL> if ( r . includes ( point ) ) {  <NL> is . add element ( i ) ;  <NL>  }  <NL>  }  <NL> return is ;  <NL>  }  COM: <s> create a subset of the points within a box </s>

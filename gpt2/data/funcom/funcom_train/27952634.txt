@@ -1,0 +1,1 @@
+TDAT: public void assert node count ( node node , string xpath expr , int node count ) throws jaxen exception {  <NL> x path xpath = new domx path ( xpath expr ) ;  <NL> list list = xpath . select nodes ( node ) ;  <NL> assert equals ( " node count " + xpath expr , node count , list . size ( ) ) ;  <NL>  }  COM: <s> evaluates xpath expr on node and asserts that the </s>

@@ -1,0 +1,1 @@
+TDAT: public void put _ pixel _ by _ index ( int index , float s , float t , float r , int c ) {  <NL> put _ pixel _ by _ index ( index , light _ pixel ( cc . texture . tex _ vertex ( s , t , r ) , c ) ) ;  <NL>  }  COM: <s> put a lighting texturing pixel in the color buffer </s>

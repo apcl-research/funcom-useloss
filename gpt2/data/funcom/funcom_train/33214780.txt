@@ -1,0 +1,1 @@
+TDAT: public void cc pcheck ( ) {  <NL> if ( ( translated text . get selected text ( ) = = null ) & & ( original text . get selected text ( ) = = null ) ) {  <NL> copy . set enabled ( false ) ;  <NL> cut . set enabled ( false ) ;  <NL>  } else {  <NL> copy . set enabled ( true ) ;  <NL> cut . set enabled ( true ) ;  <NL>  }  <NL>  }  COM: <s> check if there is selected text </s>

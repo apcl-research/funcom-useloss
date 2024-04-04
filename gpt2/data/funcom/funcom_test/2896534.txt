@@ -1,0 +1,1 @@
+TDAT: public void write ( char buf [ ] , int off , int len ) {  <NL> if ( text ! = null ) {  <NL> text . append ( new string ( buf , off , len ) ) ;  <NL> if ( ( col + = len ) > 78 ) println ( ) ;  <NL>  }  <NL> else <NL> super . write ( buf , off , len ) ;  <NL>  }  COM: <s> write a portion of an array of characters </s>

@@ -1,0 +1,1 @@
+TDAT: public void gedcom property deleted ( gedcom gedcom , property property , int pos , property deleted ) {  <NL> log ( " property " + deleted . get tag ( ) + " deleted from " + property . get entity ( ) + " in " + gedcom . get name ( ) ) ;  <NL> touched entities . add ( property . get entity ( ) ) ;  <NL>  }  COM: <s> notification that a property has been deleted </s>

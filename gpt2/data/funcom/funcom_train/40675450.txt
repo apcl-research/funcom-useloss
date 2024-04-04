@@ -1,0 +1,1 @@
+TDAT: private resource get resource ( string path in context ) {  <NL> try {  <NL> if ( resource base ! = null ) {  <NL> return resource base . add path ( path in context ) ;  <NL>  }  <NL>  } catch ( io exception ex ) {  <NL> logger . log ( level . warning , " could not find : " + path in context , ex ) ;  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> get resource to serve </s>

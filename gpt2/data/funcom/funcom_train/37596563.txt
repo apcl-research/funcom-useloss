@@ -1,0 +1,1 @@
+TDAT: @ override public void visit ( import declaration node ) {  <NL> print ( " l . " + node . get source info ( ) . get start line ( ) + " import declaration " + node . get name ( )  <NL>  + ( node . is package ( ) ? " . * " : " " ) + " { " ) ;  <NL> display properties ( node ) ;  <NL> print ( " } " ) ;  <NL> return null ;  <NL>  }  COM: <s> visits an import declaration </s>

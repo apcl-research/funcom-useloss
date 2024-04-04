@@ -1,0 +1,1 @@
+TDAT: public int to int ( ) {  <NL> if ( places . length > 4 )  <NL> throw new number format exception ( " big int . to long , too big " ) ;  <NL> int retval = 0 , i = 0 ;  <NL> for ( ; i < places . length ; i + + )  <NL> retval = ( retval < < 8 ) + ( ( int ) places [ i ] & 0xff ) ;  <NL> return retval ;  <NL>  }  COM: <s> converts the big integer to a java primitive integer </s>

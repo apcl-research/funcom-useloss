@@ -1,0 +1,1 @@
+TDAT: public void set module ( x module [ ] module ) {  <NL> this . module _ . clear ( ) ;  <NL> for ( int i = 0 ; i < module . length ; i + + ) {  <NL> add module ( module [ i ] ) ;  <NL>  }  <NL> for ( int i = 0 ; i < module . length ; i + + ) {  <NL> module [ i ] . r set parent r node ( this ) ;  <NL>  }  <NL>  }  COM: <s> sets the xmodule property b module b </s>

@@ -1,0 +1,1 @@
+TDAT: public void test get minimum span02 ( ) {  <NL> view = new resizable view ( line ) ;  <NL> assert equals ( 0 . 0f , view . get minimum span ( view . x _ axis ) , 0 . 000001f ) ;  <NL> assert equals ( 0 . 0f , view . get minimum span ( view . y _ axis ) , 0 . 000001f ) ;  <NL>  }  COM: <s> tests code get minimum span code with resizable view </s>

@@ -1,0 +1,1 @@
+TDAT: private void set x ( int camera x ) {  <NL> if ( camera x < 0 ) camera x = 0 ;  <NL> if ( camera x + camera size . width > = world size . get width ( ) ) {  <NL> camera x = ( int ) ( world size . get width ( ) - get width ( ) ) ;  <NL>  }  <NL> this . camera x = camera x ;  <NL>  }  COM: <s> set the horizontal camera position </s>

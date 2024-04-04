@@ -1,0 +1,1 @@
+TDAT: public void show next ( ) {  <NL> help pane help view = ( help pane ) get view ( ) ;  <NL> help view . set page ( this . history . get ( + + this . history index ) ) ;  <NL> help view . set previous enabled ( true ) ;  <NL> help view . set next enabled ( this . history index < this . history . size ( ) - 1 ) ;  <NL>  }  COM: <s> controls the display of next page </s>

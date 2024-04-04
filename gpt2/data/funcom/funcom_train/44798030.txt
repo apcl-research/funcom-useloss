@@ -1,0 +1,1 @@
+TDAT: public string local key to local node ( final string local key ) {  <NL> log . debug ( " ( " + local key + " ) " ) ;  <NL> final string l key = local key . substring ( 0 , local key . last index of ( " [ " ) ) ;  <NL> return l key . substring ( 0 , l key . last index of ( " / " ) ) ;  <NL>  }  COM: <s> translate local key xpath to local parent node </s>

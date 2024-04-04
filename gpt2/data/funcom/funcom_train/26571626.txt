@@ -1,0 +1,1 @@
+TDAT: public piece copy piece ( board b ) {  <NL> piece p = new knight ( this . get char ( ) , b , this . get col ( ) , this . get row ( ) , this . get color ( ) ) ;  <NL> p . set last location ( this . get last col ( ) , this . get last row ( ) ) ;  <NL> p . set moved ( this . get moved ( ) ) ;  <NL> return p ;  <NL>  }  COM: <s> creates a copy to a new board </s>

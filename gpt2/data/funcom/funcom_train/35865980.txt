@@ -1,0 +1,1 @@
+TDAT: public int get active participant count ( meeting entity me ) {  <NL> query q = em . create query ( " select p from participation entity p where " +  <NL>  " p . meeting . id = ' " + me . get id ( ) +  <NL>  " ' and p . active = ' true ' " ) ;  <NL> return q . get result list ( ) . size ( ) ;  <NL>  }  COM: <s> get the number of active participants for a given meeting </s>

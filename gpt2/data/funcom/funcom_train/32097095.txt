@@ -1,0 +1,1 @@
+TDAT: public int get index summe ( list < candidate > list ) {  <NL> int sum = 0 ;  <NL> int offset = 1 ;  <NL> for ( int i = 0 ; i < list . size ( ) ; i + + ) {  <NL> sum + = list . get ( i ) . get index ( ) * offset + list . get ( i ) . get value ( ) ;  <NL> offset + = 80 ;  <NL>  }  <NL> return sum ;  <NL>  }  COM: <s> the sum of the indices of a collection of candidates </s>

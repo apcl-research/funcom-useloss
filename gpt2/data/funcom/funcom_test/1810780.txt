@@ -1,0 +1,1 @@
+TDAT: public boolean is cell present ( int row , int column ) {  <NL> if ( ( row > = get row count ( ) ) & & ( row < 0 ) ) {  <NL> return false ;  <NL>  }  <NL> if ( ( column < 0 ) || ( column > = get cell count ( row ) ) ) {  <NL> return false ;  <NL>  } else {  <NL> return true ;  <NL>  }  <NL>  }  COM: <s> determines whether the specified cell exists </s>

@@ -1,0 +1,1 @@
+TDAT: public void groups get ( list < long > gids , async callback < list < group > > callback ) {  <NL> json j = new json ( ) . put ( " gids " , gids ) ;  <NL> call method ret list ( " groups . get " , j . get java script object ( ) , group . class , callback ) ;  <NL>  }  COM: <s> returns all visible groups according to the filters specified </s>

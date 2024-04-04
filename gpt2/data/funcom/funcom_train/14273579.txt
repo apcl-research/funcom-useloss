@@ -1,0 +1,1 @@
+TDAT: public void export database ( string s ) {  <NL> java . io . file file = new java . io . file ( s ) ;  <NL> if ( file . is file ( ) ) file . delete ( ) ;  <NL> if ( ! file . exists ( ) ) file . mkdirs ( ) ;  <NL>  <NL> if ( is resource db ( ) ) export prc ( s ) ;  <NL> else export pdb ( s ) ;  <NL>  } / / end - method  COM: <s> export this database to a file </s>

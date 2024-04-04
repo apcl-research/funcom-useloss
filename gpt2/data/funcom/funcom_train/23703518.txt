@@ -1,0 +1,1 @@
+TDAT: public void set upper bound of range axis ( double bound ) {  <NL> if ( bound = = 0 . 0 ) {  <NL> plot . get range axis ( ) . set auto range ( true ) ;  <NL>  }  <NL> else {  <NL> plot . get range axis ( ) . set auto range ( false ) ;  <NL> plot . get range axis ( ) . set upper bound ( bound * this . max cpu ) ;  <NL>  }  <NL>  }  COM: <s> set upper bound of range axis </s>

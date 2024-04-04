@@ -1,0 +1,1 @@
+TDAT: public list get tuples ( ) {  <NL> if ( sorted table list cache = = null ) get sorted tables ( ) ;  <NL> if ( sorted table list cache . size ( ) = = 1 ) return ( ( table ) sorted table list cache . get ( 0 ) ) . get tuples ( ) ;  <NL> if ( is remote ( ) ) import database to local ( ) ;  <NL> return join all ( ) ;  <NL>  }  COM: <s> this is the outer join function </s>

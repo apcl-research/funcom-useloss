@@ -1,0 +1,1 @@
+TDAT: public vector2d rotate ( double ang ) {  <NL> double cos = math . cos ( - ang ) ;  <NL> double sin = math . sin ( - ang ) ;  <NL> double _ x = this . x ;  <NL> this . x = this . x * cos + this . y * sin ;  <NL> this . y = - _ x * sin + this . y * cos ;  <NL> return this ;  <NL>  }  COM: <s> rotates this code vector2 d code by an angle </s>

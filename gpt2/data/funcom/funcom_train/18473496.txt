@@ -1,0 +1,1 @@
+TDAT: private void swap axes ( ) {  <NL> query axis [ ] query axes = parsed query . get axes ( ) ;  <NL> if ( query axes . length > = 2 ) {  <NL> exp exp = query axes [ 0 ] . get exp ( ) ;  <NL> query axes [ 0 ] . set exp ( query axes [ 1 ] . get exp ( ) ) ;  <NL> query axes [ 1 ] . set exp ( exp ) ;  <NL>  }  <NL>  }  COM: <s> swap axes in parsed query </s>

@@ -1,0 +1,1 @@
+TDAT: public void add ( int px , int py ) {  <NL> int x1 = math . min ( x , px ) ;  <NL> int x2 = math . max ( x + width , px ) ;  <NL> int y1 = math . min ( y , py ) ;  <NL> int y2 = math . max ( y + height , py ) ;  <NL> set bounds ( x1 , y1 , x2 - x1 , y2 - y1 ) ;  <NL>  }  COM: <s> enlarges the rectangle to cover the specified point </s>

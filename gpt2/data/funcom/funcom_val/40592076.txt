@@ -1,0 +1,1 @@
+TDAT: public void test numeric sort ( ) {  <NL> integer [ ] x = { 3 , 11 , 2 , 1 } ;  <NL> arrays . sort ( x ) ;  <NL> assert equals ( 2 , x [ 1 ] . int value ( ) ) ;  <NL> assert equals ( 11 , x [ 3 ] . int value ( ) ) ;  <NL>  }  COM: <s> verifies that values are sorted numerically rather than as strings </s>

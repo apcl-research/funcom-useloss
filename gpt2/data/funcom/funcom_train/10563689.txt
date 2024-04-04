@@ -1,0 +1,1 @@
+TDAT: private void add param ( string builder sb , string param , object value ) {  <NL> if ( value ! = null ) {  <NL> if ( sb . length ( ) ! = 0 ) {  <NL> sb . append ( ' & ' ) ;  <NL>  }  <NL>  / / todo : do we need to ur lencode the value ?  <NL> sb . append ( param ) . append ( ' = ' ) . append ( value ) ;  <NL>  }  <NL>  }  COM: <s> adds a param to the </s>

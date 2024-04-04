@@ -1,0 +1,1 @@
+TDAT: private j spinner get min nb meetings ( ) {  <NL> if ( min nb of meeting = = null ) {  <NL> min nb of meeting = new j spinner ( new spinner number model ( 9 , 5 , 50 , 1 ) ) ;  <NL> min nb of meeting . set bounds ( new rectangle ( 235 , 175 , 60 , 24 ) ) ;  <NL>  }  <NL> return min nb of meeting ;  <NL>  }  COM: <s> this method initializes nb of meeting </s>

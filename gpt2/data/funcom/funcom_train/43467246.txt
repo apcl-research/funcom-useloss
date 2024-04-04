@@ -1,0 +1,1 @@
+TDAT: public void test escape sql ( ) throws exception {  <NL> assert equals ( " don ' ' t stop " , string escape utils . escape sql ( " don ' t stop " ) ) ;  <NL> assert equals ( " " , string escape utils . escape sql ( " " ) ) ;  <NL> assert equals ( null , string escape utils . escape sql ( null ) ) ;  <NL>  }  COM: <s> escape a string for sql usage </s>

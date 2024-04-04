@@ -1,0 +1,1 @@
+TDAT: public int find ( int x ) {  <NL> if ( array [ x ] < 0 ) {  <NL> return x ;  <NL>  } else {  <NL> int t = find ( array [ x ] ) ;  <NL> if ( trace & & t ! = array [ x ] ) {  <NL> system . out . println ( " \t " + x + " - c > " + t ) ;  <NL>  }  <NL> array [ x ] = t ;  <NL> return t ;  <NL>  }  <NL>  }  COM: <s> perform a find with path compression </s>

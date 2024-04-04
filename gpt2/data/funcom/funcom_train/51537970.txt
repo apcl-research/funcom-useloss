@@ -1,0 +1,1 @@
+TDAT: private void init ( int inp _ face , int inp _ style , int inp _ size ) {  <NL> virtual font = ui toolkit . get toolkit ( ) . get virtual toolkit ( ) . create font ( inp _ face , inp _ style , inp _ size ) ;  <NL>  / / system . out . println ( " [ debug ] font . init ( ) : not yet implemented " ) ;  <NL>  }  COM: <s> natively initialize this font objects peer </s>

@@ -1,0 +1,1 @@
+TDAT: private void eof ( ) {  <NL> if ( token ! = null & & token _ length ! = 0 ) {  <NL> while ( token _ length < 4 )  <NL> token [ token _ length + + ] = eof ;  <NL> decode _ final _ token ( ) ;  <NL>  }  <NL> token _ length = 0 ;  <NL> token = new byte [ 4 ] ;  <NL> bytes = new byte [ 3 ] ;  <NL>  }  COM: <s> check the end of file charecter </s>

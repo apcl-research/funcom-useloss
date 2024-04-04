@@ -1,0 +1,1 @@
+TDAT: private boolean is null ( object a value ) {  <NL> return ( ( a value = = null )  <NL> || ( ( a value instanceof number ) & & ( ( ( number ) a value ) . long value ( ) = = 0 ) ) || ( ( a value instanceof string ) & & ( ( ( string ) a value )  <NL>  . length ( ) = = 0 ) ) ) ;  <NL>  }  COM: <s> return true if a value is regarded as null </s>

@@ -1,0 +1,1 @@
+TDAT: public void add ( task task ) {  <NL> if ( task index . contains key ( task . get id ( ) ) ) {  <NL> throw new illegal operation exception ( " tried to add an already existing task ( id % 1 $ s ) " , task . get id ( ) ) ;  <NL>  }  <NL> tasks . add ( task ) ;  <NL> index task ( task ) ;  <NL>  }  COM: <s> adds the given task to the context </s>

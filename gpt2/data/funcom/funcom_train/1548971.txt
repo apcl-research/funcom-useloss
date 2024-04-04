@@ -1,0 +1,1 @@
+TDAT: private boolean any has next ( array list < iterator < ? extends e > > iters ) {  <NL> for ( int i = 0 ; i < iters . size ( ) ; i + + ) {  <NL> iterator < ? extends e > it = iters . get ( i ) ;  <NL> if ( it . has next ( ) ) {  <NL> return true ;  <NL>  }  <NL>  }  <NL> return false ;  <NL>  }  COM: <s> returns code true code iff any </s>

@@ -1,0 +1,1 @@
+TDAT: public void test complex parsing ( ) throws mu parser exception {  <NL> parse tree pt = parser . parse ( " d ( x , y ) : a = 1 , b = 2 , r = p1 ( x , a ) , p2 ( y , r , b ) ; " ) ;  <NL> system . out . println ( " pt : " + pt ) ;  <NL>  }  COM: <s> tests a complex parsing expression </s>

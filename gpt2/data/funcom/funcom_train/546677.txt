@@ -1,0 +1,1 @@
+TDAT: public string get label ( ) {  <NL>  <NL> string buffer tmp str = new string buffer ( ) ;  <NL> int sz = labels . length ;  <NL>  <NL> for ( int i = 0 ; i < sz ; i + + ) {  <NL> tmp str . append ( labels [ i ] ) ;  <NL> if ( i < sz - 1 ) tmp str . append ( ' \n ' ) ;  <NL>  }  <NL>  <NL> return tmp str . to string ( ) ;  <NL>  }  COM: <s> returns the label </s>

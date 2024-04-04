@@ -1,0 +1,1 @@
+TDAT: public void test that7moments are delivered ( ) {  <NL> byte [ ] data = new byte [ ] { 0 , 1 } ;  <NL> image image = new byte image ( data , 1 , 2 ) ;  <NL>  <NL> final double [ ] moments = ( new hu moments ( ) ) . extract ( image ) ;  <NL> assert equals ( 8 , moments . length ) ;  <NL>  <NL>  }  COM: <s> shall return 7 moments </s>

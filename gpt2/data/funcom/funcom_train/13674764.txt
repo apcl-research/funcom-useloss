@@ -1,0 +1,1 @@
+TDAT: public void set contact id list ( string list ) {  <NL> string [ ] cont = string util . split ( list , " , " ) ;  <NL> m _ contact i ds . clear ( ) ;  <NL> for ( int i = 0 ; i < cont . length ; i + + ) {  <NL> add contact id ( cont [ i ] ) ;  <NL>  }  <NL>  } / / set contact id list  COM: <s> used by castor to set list from persistent store </s>

@@ -1,0 +1,1 @@
+TDAT: private void write ( int idx ) throws io exception {  <NL> random access file file = ( random access file ) storage files . get ( idx ) ;  <NL> if ( file = = null ) { return ; }  <NL> file . seek ( 0 ) ;  <NL> file . write int ( this . version ) ;  <NL> utf8 . write string ( file , this . storage id ) ;  <NL>  }  COM: <s> write data storage file </s>

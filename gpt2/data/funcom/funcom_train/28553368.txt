@@ -1,0 +1,1 @@
+TDAT: public interface get interface ( string dis int ) {  <NL> return new interface ( get name ( dis int ) , get type ( dis int ) , get hw adrr ( dis int ) ,  <NL> get inet adress ( dis int ) , get inet6adress ( dis int ) ,  <NL> get b cast ( dis int ) , get mask ( dis int ) , get scope ( dis int ) ) ;  <NL>  }  COM: <s> create a interface with the parameter from the string </s>

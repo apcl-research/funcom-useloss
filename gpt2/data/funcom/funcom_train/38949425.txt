@@ -1,0 +1,1 @@
+TDAT: private void write package ( final class < ? > clazz ) {  <NL> string classname = clazz . get name ( ) ;  <NL> int index = classname . last index of ( ' . ' ) ;  <NL> if ( index > = 0 ) {  <NL> string package name = classname . substring ( 0 , index ) ;  <NL> writer . append ( " package " + package name + " ; \n\n " ) ;  <NL>  }  <NL>  }  COM: <s> outs classs package </s>

@@ -1,0 +1,1 @@
+TDAT: private void erase old cursor ( ) {  <NL> if ( old cursor row > = 0 ) {  <NL> gdp . set byte ( thomson gdp . adr _ cmd , thomson gdp . eraser ) ;  <NL> draw cursor ( old cursor col , old cursor row ) ;  <NL> gdp . set byte ( thomson gdp . adr _ cmd , thomson gdp . pen ) ;  <NL>  }  <NL>  }  COM: <s> erase cursor at its old position </s>

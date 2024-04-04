@@ -1,0 +1,1 @@
+TDAT: public void paint date ( graphics2d g , string style style , boolean selected , point2d p , double r , string day , string month ) {  <NL> graphic string gs = new graphic string ( month , p . get x ( ) + 2 , p . get y ( ) - 3 , graphic string . center ) ;  <NL> style . draw ( g , gs , selected ) ;  <NL>  }  COM: <s> paints date at given window location and pixel radius </s>

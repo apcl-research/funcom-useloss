@@ -1,0 +1,1 @@
+TDAT: private boolean is numeric component ( string s ) {  <NL> if ( s . length ( ) > 4 )  <NL> return false ;  <NL> for ( int c = 0 ; c < s . length ( ) ; c + + )  <NL>  {  <NL> if ( s . char at ( c ) < ' 0 ' || s . char at ( c ) > ' 9 ' )  <NL> return false ;  <NL>  }  <NL> return true ;  <NL>  }  COM: <s> returns true if the string is a number not longer than four digits </s>

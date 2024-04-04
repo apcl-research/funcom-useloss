@@ -1,0 +1,1 @@
+TDAT: public err segment get err ( ) {  <NL> err segment s err = ( err segment ) find segment ( " err " ) ;  <NL> if ( s err = = null ) {  <NL> s err = new err segment ( this ) ;  <NL> s err . initialize ( ) ;  <NL> v segments . insert element at ( s err , 2 ) ;  <NL>  }  <NL> return s err ;  <NL>  }  COM: <s> get the error segment from this message </s>

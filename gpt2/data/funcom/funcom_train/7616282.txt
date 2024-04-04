@@ -1,0 +1,1 @@
+TDAT: public buffered image get subimage ( int x , int y , int w , int h ) {  <NL> writable raster wr = raster . create writable child ( x , y , w , h , 0 , 0 , null ) ;  <NL> return new buffered image ( cm , wr , cm . is alpha premultiplied ( ) , properties ) ;  <NL>  }  COM: <s> gets the rectangular area of this buffered image as a subimage </s>

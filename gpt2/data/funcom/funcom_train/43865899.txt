@@ -1,0 +1,1 @@
+TDAT: public void send message ( object msg ) {  <NL> try {  <NL> out . write object ( msg ) ;  <NL> out . flush ( ) ;  <NL> print ( " client > " + msg . to string ( ) ) ;  <NL>  } catch ( io exception ioex ) {  <NL> logger . get logger ( server . class . get name ( ) ) . log ( level . severe , null , ioex ) ;  <NL>  }  <NL>  }  COM: <s> send the message </s>

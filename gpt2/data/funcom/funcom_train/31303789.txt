@@ -1,0 +1,1 @@
+TDAT: public void print ( boolean immediately ) {  <NL> set busy ( ) ;  <NL> try {  <NL> print ( immediately , rpo ) ;  <NL> set ready ( ) ;  <NL>  } catch ( throwable t ) {  <NL> set ready ( ) ;  <NL> show exception dialog ( get desc ( " error " ) , get desc ( " invoice _ access _ error " ) , t , false ) ;  <NL>  }  <NL>  }  COM: <s> print the invoice </s>

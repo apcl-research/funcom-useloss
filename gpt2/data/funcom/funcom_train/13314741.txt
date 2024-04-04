@@ -1,0 +1,1 @@
+TDAT: public void visit ( relation extend n , a argu ) {  <NL> n . node token . accept ( this , argu ) ;  <NL> n . relation exp . accept ( this , argu ) ;  <NL> n . node token1 . accept ( this , argu ) ;  <NL> n . relation extend tail . accept ( this , argu ) ;  <NL>  }  COM: <s> node token extend </s>

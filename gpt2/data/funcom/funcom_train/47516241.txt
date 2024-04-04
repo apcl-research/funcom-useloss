@@ -1,0 +1,1 @@
+TDAT: public matrix get datamat ( int session num ) {  <NL> double [ ] [ ] val = ( ( ml double ) st info . get ( session num ) . get ( " datamat " ) ) . get array ( ) ;  <NL>  / / double [ ] [ ] val = ( ( ml double ) st info . get ( session num ) . get ( " datamat " ) ) . get array ( ) ;  <NL> return new matrix ( val ) ;  <NL>  }  COM: <s> getters for session info </s>

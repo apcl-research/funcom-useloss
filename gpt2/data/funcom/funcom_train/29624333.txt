@@ -1,0 +1,1 @@
+TDAT: private point3f get location by index ( int x index , int y index ) {  <NL> float x = - ( grid base / 2 . 0f - 0 . 5f ) * grid len + y index * grid len ;  <NL> float y = ( grid base / 2 . 0f - 0 . 5f ) * grid len - x index * grid len ;  <NL> return new point3f ( x , y , 0 . 0f ) ;  <NL>  }  COM: <s> get the current location of the ball </s>

@@ -1,0 +1,1 @@
+TDAT: public void test2 ( ) {  <NL> string dirname = " test sub dirs x " ; / / this should not exist <NL> string directory = root + dirname ;  <NL> helper ( " test2 " ,  <NL> new string [ ] {  <NL>  / / " - debug " ,  <NL>  " - quiet " ,  <NL>  " - test mode " ,  <NL>  " - classpath " , directory , directory } ) ;  <NL>  }  COM: <s> tests for a non existent classpath entry </s>

@@ -1,0 +1,1 @@
+TDAT: public int get absolute x ( ) {  <NL> osm element root = ( osm element ) get root ( ) ;  <NL> enumeration e = path from ancestor enumeration ( root ) ;  <NL> int x = 0 ;  <NL> for ( ; e . has more elements ( ) ; ) {  <NL> osm element elt = ( osm element ) e . next element ( ) ;  <NL> x + = elt . get x ( ) ;  <NL>  }  <NL> return x ;  <NL>  }  COM: <s> get absolute x </s>

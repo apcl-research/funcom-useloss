@@ -1,0 +1,1 @@
+TDAT: public vector get fs objects as string ( ) {  <NL> vector v = new vector ( ) ;  <NL> for ( iterator i = fsobjs . values ( ) . iterator ( ) ; i . has next ( ) ; ) {  <NL> fs object fso = ( fs object ) i . next ( ) ;  <NL> v . add element ( new active user property ( fso ) ) ;  <NL>  }  <NL> return v ;  <NL>  }  COM: <s> returns a list of active user property </s>

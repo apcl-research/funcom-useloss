@@ -1,0 +1,1 @@
+TDAT: public void draw polyline ( int [ ] x points , int [ ] y points , int n points ) {  <NL> java . awt . graphics graphics = screen . get graphics ( ) ;  <NL> graphics . draw polyline ( x points , y points , n points ) ;  <NL>  <NL>  } / / draw polyline ( int [ ] x points , int [ ] y points , int n points )  COM: <s> draws a poly line </s>

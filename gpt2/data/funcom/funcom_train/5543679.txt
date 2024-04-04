@@ -1,0 +1,1 @@
+TDAT: final public void trace _ failing ( horn clause g ) {  <NL> switch ( kernel agent . tracing ) {  <NL> case 2 :  <NL> io . println ( " failing call in < < < : " + g . get first ( ) ) ;  <NL> break ;  <NL> case 3 :  <NL> io . println ( " failing call in < < < : " + g . pprint ( ) ) ;  <NL> break ;  <NL>  }  <NL>  }  COM: <s> tracer on exiting g </s>

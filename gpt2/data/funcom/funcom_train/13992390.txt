@@ -1,0 +1,1 @@
+TDAT: public void show hierarchy ( print stream out , ont model m , boolean b show individuals ) {  <NL> for ( iterator i = root classes ( m ) ; i . has next ( ) ; ) {  <NL> show class ( out , ( ont class ) i . next ( ) , new array list ( ) , 0 , b show individuals ) ;  <NL>  }  <NL>  }  COM: <s> show the sub class hierarchy encoded by the given model </s>

@@ -1,0 +1,1 @@
+TDAT: public point get point ( int i ) {  <NL> if ( i = = 0 ) {  <NL> return new point ( _ x1 , _ y1 ) ;  <NL>  } else if ( i = = 1 ) {  <NL> return new point ( _ x2 , _ y2 ) ;  <NL>  }  <NL> throw new index out of bounds exception ( " fig line has exactly 2 points " ) ;  <NL>  }  COM: <s> returns the ith point </s>

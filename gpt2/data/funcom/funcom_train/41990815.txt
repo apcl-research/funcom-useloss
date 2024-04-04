@@ -1,0 +1,1 @@
+TDAT: public void predict ( real matrix f , real matrix q , real matrix b , real matrix u ) {  <NL>  _ x = f . multiply ( _ x ) . add ( b . multiply ( u ) ) ;  <NL>  _ p = f . multiply ( _ p ) . multiply ( f . transpose ( ) ) . add ( q ) ;  <NL>  }  COM: <s> uses the previous state estimate and the provided motion model to produce </s>

@@ -1,0 +1,1 @@
+TDAT: public void remove storage ( int id , disk file file ) {  <NL> if ( sys properties . check ) {  <NL> storage s = storage map . get ( id ) ;  <NL> if ( s = = null || s . get disk file ( ) ! = file ) {  <NL> message . throw internal error ( ) ;  <NL>  }  <NL>  }  <NL> storage map . remove ( id ) ;  <NL>  }  COM: <s> remove the storage object from the file </s>

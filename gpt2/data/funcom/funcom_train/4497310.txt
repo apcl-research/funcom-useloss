@@ -1,0 +1,1 @@
+TDAT: public void write ui32 ( long value ) throws io exception {  <NL> align ( ) ;  <NL> stream . write ( ( int ) ( value & 0x ff ) ) ;  <NL> stream . write ( ( int ) ( value > > 8 ) ) ;  <NL> stream . write ( ( int ) ( value > > 16 ) ) ;  <NL> stream . write ( ( int ) ( value > > 24 ) ) ;  <NL> offset + = 4 ;  <NL>  }  COM: <s> writes an unsigned double word </s>

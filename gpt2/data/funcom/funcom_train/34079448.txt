@@ -1,0 +1,1 @@
+TDAT: private void make am table ( ) {  <NL>  <NL> for ( int i = 0 ; i < am _ pg _ width ; i + + ) {  <NL> am table [ i ] = ( int ) ( am _ depth / 2 / db _ step * ( 1 . 0 + math . sin ( 2 . 0 * math . pi * i / pm _ pg _ width ) ) ) ;  <NL>  }  <NL>  }  COM: <s> table for amp modulator </s>

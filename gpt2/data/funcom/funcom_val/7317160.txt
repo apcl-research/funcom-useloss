@@ -1,0 +1,1 @@
+TDAT: private void render header ( table table , string header ) {  <NL> table . new row ( ) ;  <NL> table . new cell ( " colspan = \ " 2\ " " ) ;  <NL> table . new cell ( " align = \ " left\ " valign = \ " top\ " nowrap " ) ;  <NL> table . add ( new bold ( header ) ) ;  <NL> add rows ( table , 1 , 3 , 3 ) ;  <NL>  }  COM: <s> render a row header </s>

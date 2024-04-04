@@ -1,0 +1,1 @@
+TDAT: public void test pipe ( ) throws exception {  <NL> system . out . println ( " pipe " ) ;  <NL> reader in = null ;  <NL> output stream out = null ;  <NL> util . pipe ( in , out ) ;  <NL>  / / todo review the generated test code and remove the default call to fail .  <NL> fail ( " the test case is a prototype . " ) ;  <NL>  }  COM: <s> test of pipe method of class util </s>

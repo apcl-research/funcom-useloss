@@ -1,0 +1,1 @@
+TDAT: private boolean is hex number part ( int ch ) {  <NL> return character . is digit ( ( char ) ch ) || ch = = ' a ' || ch = = ' b '  <NL> || ch = = ' c ' || ch = = ' d ' || ch = = ' e ' || ch = = ' f '  <NL> || ch = = ' a ' || ch = = ' b ' || ch = = ' c ' || ch = = ' d '  <NL> || ch = = ' e ' || ch = = ' f ' ;  <NL>  }  COM: <s> checks if part of hex number </s>

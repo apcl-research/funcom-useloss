@@ -1,0 +1,1 @@
+TDAT: public void write ( byte [ ] b , int off , int len ) throws io exception {  <NL> outstream . write ( b , off , len ) ;  <NL>  <NL> if ( outstream . check error ( ) ) {  <NL> throw new io exception ( " chat forte output stream : write ( byte [ ] , int , int ) failed " ) ;  <NL>  }  <NL>  <NL> delimit ( ) ;  <NL>  }  COM: <s> write a portion of byte array </s>

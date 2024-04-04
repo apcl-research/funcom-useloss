@@ -1,0 +1,1 @@
+TDAT: public void test delete ( ) throws bml exception {  <NL> string ls value = " good ! ! ! " ;  <NL> data string ld string = new data string ( f blank ) ;  <NL> ld string . set string ( ls value ) ;  <NL>  <NL> ld string . delete ( 1 , 2 ) ;  <NL> assert equals ( " gd ! ! ! " , ld string . to string ( ) ) ;  <NL>  }  COM: <s> test of delete method </s>

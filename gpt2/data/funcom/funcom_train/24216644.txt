@@ -1,0 +1,1 @@
+TDAT: public void select setup ( string str ) {  <NL> for ( int i = 0 ; i < get item count ( ) ; i + + ) {  <NL> string s = get item at ( i ) . to string ( ) ;  <NL> if ( s . substring ( 0 , s . last index of ( ' . ' ) ) . equals ( str ) ) set selected index ( i ) ;  <NL>  }  <NL>  }  COM: <s> select a specific setup in this list </s>

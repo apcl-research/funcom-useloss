@@ -1,0 +1,1 @@
+TDAT: public void clear ( object graphics , int color ) {  <NL> graphics gfx = ( graphics ) graphics ;  <NL> int width = gfx . get clip width ( ) ;  <NL> int height = gfx . get clip height ( ) ;  <NL> gfx . set color ( color ) ;  <NL> gfx . fill rect ( 0 , 0 , width , height ) ;  <NL>  }  COM: <s> clear the screen </s>

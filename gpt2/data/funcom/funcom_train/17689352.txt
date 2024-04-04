@@ -1,0 +1,1 @@
+TDAT: public gnu plot context set ( string variable , string value ) {  <NL> preconditions . check not null ( variable , " variable " ) ;  <NL> if ( value = = null ) {  <NL> value = " " ;  <NL>  }  <NL> vars . add ( new simple immutable entry < string , string > ( variable , value ) ) ;  <NL> return this ;  <NL>  }  COM: <s> adds an entry of the given variable to a value </s>

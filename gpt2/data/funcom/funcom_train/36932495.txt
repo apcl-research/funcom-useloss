@@ -1,0 +1,1 @@
+TDAT: private void draw grid ( cc graphics g ) {  <NL> for ( int i = 0 ; i < _ my x . length ; i + + ) {  <NL> float my x = _ my x [ i ] + _ my position . x ;  <NL> float my y = _ my y + _ my position . y + ascent ( ) ;  <NL>  <NL> g . vertex ( my x , my y ) ;  <NL> g . vertex ( my x , my y - _ my text size - descent ( ) ) ;  <NL>  }  <NL>  }  COM: <s> draws the text grid </s>

@@ -1,0 +1,1 @@
+TDAT: public void store memory ( int address , int . . . i ) throws io exception {  <NL> byte [ ] b = new byte [ i . length ] ;  <NL> for ( int x = 0 ; x < i . length ; x + + ) {  <NL> b [ x ] = ( byte ) ( i [ x ] & 0x00ff ) ;  <NL>  }  <NL> store memory ( address , b ) ;  <NL>  }  COM: <s> store a chunk of values into the apples ram for memory patching </s>

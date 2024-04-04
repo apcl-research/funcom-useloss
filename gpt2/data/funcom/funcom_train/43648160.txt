@@ -1,0 +1,1 @@
+TDAT: protected void to string ( string builder s , int depth ) {  <NL> for ( int i = 0 ; i < depth * 2 ; i + + )  <NL> s . append ( ' ' ) ;  <NL> s . append ( type ) . append ( " : " ) . append ( color ( ) ) . append ( ' \n ' ) ;  <NL> for ( node child : children )  <NL> child . to string ( s , depth + 1 ) ;  <NL>  }  COM: <s> helper method for to string </s>

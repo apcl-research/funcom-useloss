@@ -1,0 +1,1 @@
+TDAT: public void test add long ( ) {  <NL> value v = _ lv1 . add ( _ lv2 ) ;  <NL> assert true ( " return type check . " , v instanceof long value ) ;  <NL> assert equals ( 7 , ( ( long value ) v ) . long value ( ) ) ;  <NL> assert equals ( new long value ( 7 ) , v ) ;  <NL>  }  COM: <s> tests addition of two long values </s>

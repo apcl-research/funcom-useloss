@@ -1,0 +1,1 @@
+TDAT: private void init ( int size , byte [ ] skey , byte [ ] iv )  <NL>  { this . size = size ;  <NL> if ( iv = = null ) { iv = new byte [ size ] ; for ( int i = 0 ; i < size ; i + + ) iv [ i ] = 0 ; }  <NL> this . skey = skey ;  <NL>  / / skey = hash ( cat ( key , iv ) ) ;  <NL> h = clone ( iv ) ;  <NL> index = size - 1 ;  <NL>  }  COM: <s> inits the md5 otp algorithm </s>

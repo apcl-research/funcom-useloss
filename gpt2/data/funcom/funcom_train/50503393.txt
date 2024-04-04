@@ -1,0 +1,1 @@
+TDAT: public void delete ( ) {  <NL> if ( ch . orcasys . editor . panel . dlog . message . confirm ( null , " confirm deletion " , " do you really want to delete\nthe resource env reference ' " + get name ( ) + " ' ? " ) ) {  <NL> desc . remove resource env reference ( this . get name ( ) ) ;  <NL>  }  <NL>  }  COM: <s> delete this resource environment reference </s>

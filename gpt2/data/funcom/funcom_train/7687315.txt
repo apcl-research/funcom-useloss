@@ -1,0 +1,1 @@
+TDAT: public void replace exif tag ( string tag , string value ) {  <NL> if ( m exif data = = null ) {  <NL> m exif data = new hash map < string , string > ( ) ;  <NL>  }  <NL> if ( ! m exif data . contains key ( tag ) ) {  <NL> m exif data . remove ( tag ) ;  <NL>  }  <NL> m exif data . put ( tag , value ) ;  <NL>  }  COM: <s> replaces the tag if already there </s>

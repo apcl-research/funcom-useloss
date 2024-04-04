@@ -1,0 +1,1 @@
+TDAT: public void add child ( element bean obj ) {  <NL> if ( obj . get jsfid ( ) ! = null ) {  <NL> obj . set has a parent ( this ) ;  <NL> children . add ( obj ) ;  <NL>  } else {  <NL> log . error ( messages . get message ( " missing . jsfid . error " , new object [ ] { " element bean . jsfid " , get jsfid ( ) } ) ) ;  <NL>  }  <NL>  }  COM: <s> p adds a child </s>

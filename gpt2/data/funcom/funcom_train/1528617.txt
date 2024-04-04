@@ -1,0 +1,1 @@
+TDAT: final public void rotate ( number value phi value ) {  <NL> if ( ! init transform points ( ) ) return ;  <NL>  <NL>  / / calculate the new corner points <NL> for ( int i = 0 ; i < corners . length ; i + + ) {  <NL> temp points [ i ] . rotate ( phi value ) ;  <NL> corners [ i ] = temp points [ i ] ;  <NL>  }  <NL>  }  COM: <s> rotate this image by angle phi around 0 0 </s>

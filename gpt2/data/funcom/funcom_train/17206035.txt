@@ -1,0 +1,1 @@
+TDAT: protected void validate ( ) {  <NL> fail if ( this . value < = 0 , " must provide at least one bit " ) ;  <NL> fail if ( this . value > scale mark sweep space . max _ markcount _ bits , " only " + scale mark sweep space . max _ markcount _ bits + " bits are reserved in mark sweep space " ) ;  <NL>  }  COM: <s> ensure the value is valid </s>

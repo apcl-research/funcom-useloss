@@ -1,0 +1,1 @@
+TDAT: static private void close ( array list entries ) {  <NL> if ( null ! = entries ) {  <NL> for ( int i = entries . size ( ) ; - - i > = 0 ; ) {  <NL> try {  <NL>  ( ( entry ) entries . get ( i ) ) . _ xa connection . close ( ) ;  <NL>  }  <NL> catch ( sql exception e ) {  <NL>  }  <NL>  }  <NL>  }  <NL>  }  COM: <s> close the connections associated with the data sources </s>

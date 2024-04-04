@@ -1,0 +1,1 @@
+TDAT: public void create ( double cx , double cy , double u , double v , double theta ) {  <NL> this . cx = cx ;  <NL> this . cy = cy ;  <NL> this . u = u ;  <NL> this . v = v ;  <NL> this . theta = theta ;  <NL> sinth = math . sin ( theta ) ;  <NL> costh = math . cos ( theta ) ;  <NL> init ( ) ;  <NL>  }  COM: <s> initialize the attributes of the rectangle </s>

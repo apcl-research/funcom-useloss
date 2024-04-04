@@ -1,0 +1,1 @@
+TDAT: private map content as map ( final file dir ) {  <NL> file [ ] content = dir . list files ( ) ;  <NL> map result = new hash map ( ) ;  <NL> for ( int i = 0 ; i < content . length ; i + + ) {  <NL> result . put ( content [ i ] . get name ( ) , content [ i ] ) ;  <NL>  }  <NL> return result ;  <NL>  }  COM: <s> helper method extract a content map from a directory with </s>

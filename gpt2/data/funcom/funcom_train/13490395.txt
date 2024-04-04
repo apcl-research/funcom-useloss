@@ -1,0 +1,1 @@
+TDAT: protected fact get query fact ( ) {  <NL> return build fact (  <NL> int arithmetic . equal ,  <NL> build complex term ( int arithmetic . times , " x " , " y " ) ,  <NL> build complex term (  <NL> int arithmetic . abs ,  <NL> build complex term ( int arithmetic . plus , " x " , " y " ) ) ) ;  <NL>  }  COM: <s> get the query fact </s>

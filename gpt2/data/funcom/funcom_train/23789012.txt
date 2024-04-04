@@ -1,0 +1,1 @@
+TDAT: protected string get atr ( ) {  <NL> string buffer sb = new string buffer ( ) ;  <NL> byte [ ] atr = card id . get atr ( ) ;  <NL> sb . append ( hex string . hexify ( atr ) ) ;  <NL>  <NL> lt . info ( " called method get atr ( ) returns atr : " + sb . to string ( ) , this ) ;  <NL> return sb . to string ( ) ;  <NL>  }  COM: <s> gets the atr from the inserted card </s>

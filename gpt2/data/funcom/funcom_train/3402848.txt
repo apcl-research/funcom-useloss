@@ -1,0 +1,1 @@
+TDAT: public attribute create attribute ( string prefix , string namespace uri , string local name , string value ) {  <NL> attribute base attr = new attribute base ( prefix , namespace uri , local name , value , null ) ;  <NL> if ( location ! = null ) attr . set location ( location ) ;  <NL> return attr ;  <NL>  }  COM: <s> create a new attribute </s>

@@ -1,0 +1,1 @@
+TDAT: public void characters ( char ch [ ] , int start , int len ) throws sax exception {  <NL> if ( ! cdata element ) {  <NL> write esc ( ch , start , len , false ) ;  <NL>  } else {  <NL> for ( int i = start ; i < start + len ; i + + ) {  <NL> write ( ch [ i ] ) ;  <NL>  }  <NL>  }  <NL> super . characters ( ch , start , len ) ;  <NL>  }  COM: <s> write character data </s>

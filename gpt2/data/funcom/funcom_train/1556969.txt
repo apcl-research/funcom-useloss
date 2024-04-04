@@ -1,0 +1,1 @@
+TDAT: public void draw image ( buffered image img , buffered image op op , int x , int y ) {  <NL> buffered image img1 = op . filter ( img , null ) ;  <NL> draw image ( img1 , new affine transform ( 1f , 0f , 0f , 1f , x , y ) , null ) ;  <NL>  }  COM: <s> draws a buffered image on the eps document </s>

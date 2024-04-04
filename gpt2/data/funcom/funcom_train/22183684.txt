@@ -1,0 +1,1 @@
+TDAT: public void insert string ( int index , string s ) {  <NL> int i = 0 ;  <NL> for ( i = 0 ; i < s . length ( ) ; i + + ) {  <NL> this . insert element at ( s . get bytes ( ) [ i ] , ( index + i ) ) ;  <NL>  }  <NL> this . insert element at ( ( byte ) 0x00 , ( index + i ) ) ;  <NL>  }  COM: <s> insert n bytes taken from a string value into the field </s>

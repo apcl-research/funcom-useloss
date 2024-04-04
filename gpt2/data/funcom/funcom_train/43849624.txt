@@ -1,0 +1,1 @@
+TDAT: protected void log entry struct ops ( merge entry m1 , merge entry m2 , int child pos ) {  <NL> if ( m1 . moved )  <NL> elog . move ( m1 . get node ( ) , child pos ) ;  <NL> else if ( m2 . moved )  <NL> elog . move ( m2 . get node ( ) , child pos ) ;  <NL>  }  COM: <s> determine and log operation on entry in merge list </s>

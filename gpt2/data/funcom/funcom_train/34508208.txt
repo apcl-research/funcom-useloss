@@ -1,0 +1,1 @@
+TDAT: public double get m ( ) throws exception {  <NL> if ( from . get x ( ) = = to . get x ( ) ) throw new exception ( " sticazzi muro verticale " ) ;  <NL> else return ( from . get y ( ) - to . get y ( ) ) / ( from . get x ( ) - to . get x ( ) ) ;  <NL>  }  COM: <s> y m x q </s>

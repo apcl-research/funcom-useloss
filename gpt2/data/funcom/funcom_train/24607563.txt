@@ -1,0 +1,1 @@
+TDAT: private void _ generate a course ( int index ) {  <NL> writer _ . start section ( cs _ c _ course , _ get id ( cs _ c _ course , index ) ) ;  <NL> writer _ . add property ( cs _ p _ name ,  <NL>  _ get relative name ( cs _ c _ course , index ) , false ) ;  <NL> writer _ . end section ( cs _ c _ course ) ;  <NL>  }  COM: <s> generates a course instance </s>

@@ -1,0 +1,1 @@
+TDAT: public void print distance matrix ( ) {  <NL> int size = interestingpoints . size ( ) ;  <NL> for ( int i = 0 ; i < size ; i + + ) {  <NL> for ( int j = 0 ; j < size ; j + + ) {  <NL> system . out . print ( ( int ) dist _ table [ i ] [ j ] + " \t " ) ;  <NL>  }  <NL> system . out . println ( ) ;  <NL>  }  <NL>  }  COM: <s> prints the distance matrix to the screen </s>

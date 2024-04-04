@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> return " uid = " + uid + " \n "  <NL>  + " name = " + cn + " \n "  <NL>  + " display = " + displayname + " \n "  <NL>  + " status = " + status + " \n "  <NL>  + " email = " + mail + " \n "  <NL>  + " universityid = " + univid + " \n " ;  <NL>  }  COM: <s> get a human readable string version of our current state </s>

@@ -1,0 +1,1 @@
+TDAT: public void sort ( ) {  <NL> object [ ] data = to array ( ) ;  <NL> if ( comparator ! = null )  <NL> arrays . sort ( data , comparator ) ;  <NL> else <NL> arrays . sort ( data ) ;  <NL> for ( int i = 0 ; i < data . length ; + + i ) {  <NL> set ( i , ( e ) data [ i ] ) ;  <NL>  }  <NL>  }  COM: <s> sort the contents based on the current comparator settings </s>

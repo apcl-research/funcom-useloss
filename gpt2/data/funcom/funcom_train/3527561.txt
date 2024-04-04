@@ -1,0 +1,1 @@
+TDAT: private string get context of rel path ( string rel path ) {  <NL> string result = null ;  <NL> int pos slash = rel path . index of ( ' / ' , 1 ) ;  <NL> if ( pos slash = = - 1 )  <NL> result = rel path . substring ( 0 ) ;  <NL> else <NL> result = rel path . substring ( 0 , pos slash ) ;  <NL>  <NL> return result ;  <NL>  }  COM: <s> method get context of rel path </s>

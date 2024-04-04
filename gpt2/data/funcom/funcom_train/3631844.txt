@@ -1,0 +1,1 @@
+TDAT: public void dump ( ) {  <NL>  <NL> for ( int i = 0 ; i < ej items . size ( ) ; i + + ) {  <NL> ej line line = ( ej line ) ej items . element at ( i ) ;  <NL> logger . info ( i + " ej line : " + line . get class ( ) + " amount " + line . amount ( ) ) ;  <NL>  }  <NL>  }  COM: <s> useful method for printing debug info </s>

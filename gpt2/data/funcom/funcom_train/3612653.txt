@@ -1,0 +1,1 @@
+TDAT: public chart image create chart image ( final string file name , final string title , final j free chart chart , final dimension size ) {  <NL> final chart image img = new chart image ( this . root directory , file name , title , chart , size ) ;  <NL> img . write ( ) ;  <NL> return img ;  <NL>  }  COM: <s> writes a chart image file </s>

@@ -1,0 +1,1 @@
+TDAT: public void set items ( map < string , channel type < ? > > items ) {  <NL> for ( map . entry < string , channel type < ? > > item : items . entry set ( ) ) {  <NL> my _ pane . dlm . add element ( new list item ( item . get key ( ) , item . get value ( ) ) ) ;  <NL>  }  <NL>  }  COM: <s> sets the list of mapped channetypes </s>

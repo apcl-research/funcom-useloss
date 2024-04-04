@@ -1,0 +1,1 @@
+TDAT: public void set items ( string [ ] interests ) {  <NL>  _ list items . clear ( ) ;  <NL> if ( interests ! = null ) {  <NL> for ( int i = 0 ; i < interests . length ; i + + ) {  <NL> item string element = new item string ( interests [ i ] ) ;  <NL>  _ list items . add ( element ) ;  <NL>  }  <NL>  }  <NL> refresh ( ) ;  <NL>  }  COM: <s> set the string list of items </s>

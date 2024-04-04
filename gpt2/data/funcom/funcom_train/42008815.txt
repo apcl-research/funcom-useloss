@@ -1,0 +1,1 @@
+TDAT: private void check _ backoff _ timer ( ) {  <NL> if ( is _ idle ( ) & & bf _ timer _ . paused ( ) ) {  <NL> bf _ timer _ . resume ( difs _ ) ;  <NL>  }  <NL> if ( ! is _ idle ( ) & & bf _ timer _ . busy ( ) & & ! bf _ timer _ . paused ( ) ) {  <NL> bf _ timer _ . pause ( ) ;  <NL>  }  <NL>  }  COM: <s> the backoff timer might have been paused if the channel </s>

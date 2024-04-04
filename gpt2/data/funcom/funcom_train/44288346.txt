@@ -1,0 +1,1 @@
+TDAT: private void down ( ) {  <NL> if ( get row count ( ) ! = 0 ) {  <NL> int row = get selected row ( ) ;  <NL>  <NL> if ( ( row < 0 ) || ( row > = ( get row count ( ) - 1 ) ) ) {  <NL> return ;  <NL>  }  <NL>  <NL> table model . down ( row ) ;  <NL> set row selection interval ( row + 1 , row + 1 ) ;  <NL>  }  <NL>  }  COM: <s> moves the selected row down </s>

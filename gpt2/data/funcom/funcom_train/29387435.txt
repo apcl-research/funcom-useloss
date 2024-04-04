@@ -1,0 +1,1 @@
+TDAT: public void set package name ( string pkg name ) {  <NL> if ( pkg name ! = null & & pkg name . length ( ) > 0 ) {  <NL> if ( pkg name . ends with ( " . " ) ) {  <NL> pkg name = pkg name . substring ( 0 , pkg name . length ( ) - 1 ) ;  <NL>  }  <NL>  }  <NL> package name = pkg name ;  <NL>  }  COM: <s> set the package name </s>

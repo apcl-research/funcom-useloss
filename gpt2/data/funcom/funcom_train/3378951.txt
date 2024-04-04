@@ -1,0 +1,1 @@
+TDAT: public void encode ( der output stream out ) throws io exception {  <NL> der output stream seq = new der output stream ( ) ;  <NL>  <NL> for ( int i = 0 , n = size ( ) ; i < n ; i + + ) {  <NL> get ( i ) . encode ( seq ) ;  <NL>  }  <NL> out . write ( der value . tag _ sequence , seq ) ;  <NL>  }  COM: <s> encode the general subtrees </s>

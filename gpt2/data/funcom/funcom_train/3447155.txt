@@ -1,0 +1,1 @@
+TDAT: public void move lens by ( int dx , int dy ) {  <NL> if ( dx = = 0 & & dy = = 0 ) return ;  <NL> rectangle len = color lens . get lens ( ) ;  <NL>  <NL> color lens . set lens ( new rectangle ( len . x + dx , len . y + dy , len . width , len . height ) ) ;  <NL>  }  COM: <s> moves the lens by the specified amount </s>

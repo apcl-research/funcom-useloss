@@ -1,0 +1,1 @@
+TDAT: private void create sash form ( ) {  <NL> sash form = new sash form ( this , swt . none ) ;  <NL> sash form . set orientation ( org . eclipse . swt . swt . vertical ) ;  <NL> create rule definition composite ( ) ;  <NL> create text area composite ( ) ;  <NL> sash form . set weights ( new int [ ] { 2 , 1 } ) ;  <NL>  }  COM: <s> this method initializes sash form </s>

@@ -1,0 +1,1 @@
+TDAT: / *  <NL>  * public string parse quoted string ( ) { int begin = str . index of ( ' \ " ' , index ) ; if <NL>  * ( begin < 0 ) return null ; begin + + ; int end = str . index of ( ' \ " ' , begin ) ; string <NL>  * quotedtext = str . substring ( begin , end ) ; index = end ; return quotedtext ; }  COM: <s> returns the first quoted string in the string i str i if no </s>

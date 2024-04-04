@@ -1,0 +1,1 @@
+TDAT: public void set _ client _ stop ( ) {  <NL> if ( udp _ c ! = null ) udp _ c . set stop ( true ) ;  <NL> this . client _ state = false ;  <NL>  <NL> try { client _ thread . join ( ) ; }  <NL> catch ( interrupted exception iex ) {  <NL> event . core _ message ( " udp : e > " + iex . get localized message ( ) ) ;  <NL>  }  <NL>  }  COM: <s> softly stops client thread </s>

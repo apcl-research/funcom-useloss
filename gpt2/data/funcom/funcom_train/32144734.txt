@@ -1,0 +1,1 @@
+TDAT: public void perform ( document doc , jx path context context ) {  <NL> node exist node = xml utilities . get node ( doc , path ) ;  <NL> if ( exist node ! = null & & exist node . get parent node ( ) ! = null ) {  <NL> node parent = exist node . get parent node ( ) ;  <NL> parent . remove child ( exist node ) ;  <NL>  }  <NL>  }  COM: <s> perform the xml change action </s>

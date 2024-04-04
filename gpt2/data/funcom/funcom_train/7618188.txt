@@ -1,0 +1,1 @@
+TDAT: public void set yuv2rgb ( ) {  <NL> reset ( ) ;  <NL> float [ ] m = m array ;  <NL>  / / these coefficients match those in libjpeg <NL> m [ 2 ] = 1 . 402f ;  <NL> m [ 5 ] = 1 ; m [ 6 ] = - 0 . 34414f ; m [ 7 ] = - 0 . 71414f ;  <NL> m [ 10 ] = 1 ; m [ 11 ] = 1 . 772f ; m [ 12 ] = 0 ;  <NL>  }  COM: <s> set the matrix to convert from yuv to rgb </s>

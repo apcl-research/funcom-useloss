@@ -1,0 +1,1 @@
+TDAT: public void the _ date _ xml ( ) {  <NL> echo ( get included ( functions page . class ) . mysql2date ( " y - m - d " , strval ( std class . get ( g vars . post , " post _ date " ) ) , true ) ) ;  <NL>  / / echo " " + $ post - > post _ date ;  <NL>  }  COM: <s> date time tags </s>

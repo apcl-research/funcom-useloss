@@ -1,0 +1,1 @@
+TDAT: public float get radius ( ) {  <NL> swigtype _ p _ float tmp array = ode . new _ float array ( 1 ) ;  <NL> ode . d geom c cylinder get params ( geom id , tmp array , ode . new _ float array ( 1 ) ) ;  <NL> return ode . float array _ getitem ( tmp array , 0 ) ;  <NL>  }  COM: <s> get capped cylinder radius </s>

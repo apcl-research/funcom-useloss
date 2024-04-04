@@ -1,0 +1,1 @@
+TDAT: public boolean find again ( @ not null final map view < g , a , r > map view , final boolean forward , final boolean perform action ) {  <NL> if ( this . map view ! = map view ) {  <NL> return false ;  <NL>  }  <NL> if ( perform action ) {  <NL> do find ( forward ) ;  <NL>  }  <NL> return true ;  <NL>  }  COM: <s> re executes the previous find operation </s>

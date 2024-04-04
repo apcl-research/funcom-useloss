@@ -1,0 +1,1 @@
+TDAT: public void set record sep ( byte [ ] val ) {  <NL>  <NL> if ( ( val = = null ) & & ( record sep = = null ) ) {  <NL> return ;  <NL>  }  <NL> if ( ! is equal ( val , record sep ) || ( update status = = null _ int _ value ) ) {  <NL> record sep = val ;  <NL> update status = updated ;  <NL>  }  <NL>  }  COM: <s> this method sets the vaule of record sep </s>

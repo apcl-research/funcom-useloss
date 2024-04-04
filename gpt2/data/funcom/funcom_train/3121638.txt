@@ -1,0 +1,1 @@
+TDAT: public void paint icon ( component c , graphics g , int x , int y ) {  <NL> if ( flag debug = = true ) {  <NL> g . set color ( color . red ) ;  <NL> g . fill rect ( x , y , get icon width ( ) , get icon height ( ) ) ;  <NL>  }  <NL>  } / / of method  COM: <s> only paint if debug was on </s>

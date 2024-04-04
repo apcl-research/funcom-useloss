@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> char array buffer buffer = new char array buffer ( 16 ) ;  <NL> buffer . append ( this . name ) ;  <NL> if ( this . value ! = null ) {  <NL> buffer . append ( " = " ) ;  <NL> format ( buffer , this . value , false ) ;  <NL>  }  <NL> return buffer . to string ( ) ;  <NL>  }  COM: <s> get a string representation of this pair </s>

@@ -1,0 +1,1 @@
+TDAT: static public boolean is vista ( ) {  <NL> if ( system . get property ( " os . name " , " " ) . to lower case ( ) . index of ( " vista " ) > - 1 ) { / / $ non - nls - 1 $ / / $ non - nls - 2 $ / / $ non - nls - 3 $  <NL> return true ;  <NL>  }  <NL> return false ;  <NL>  }  COM: <s> determines if os is vista </s>

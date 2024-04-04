@@ -1,0 +1,1 @@
+TDAT: public void end of input ( int entity name , boolean more to follow ) throws exception {  <NL> if ( f dtd scanner ! = null & & f scanning dtd ) {  <NL> f dtd scanner . end of input ( entity name , more to follow ) ;  <NL>  }  <NL> f dispatcher . end of input ( entity name , more to follow ) ;  <NL>  }  COM: <s> handle the end of input </s>

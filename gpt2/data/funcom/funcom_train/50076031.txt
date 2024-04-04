@@ -1,0 +1,1 @@
+TDAT: public void absorb ( name value expression nve ) {  <NL> set < map . entry < string , option > > set = nve . map options . entry set ( ) ;  <NL> for ( map . entry < string , option > entry : set ) {  <NL> set option ( entry . get key ( ) , entry . get value ( ) . get value ( ) ) ;  <NL>  }  <NL>  }  COM: <s> absorb the options of a name value expression into this one </s>

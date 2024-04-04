@@ -1,0 +1,1 @@
+TDAT: public int get cr ( ) {  <NL> int cr = 0 ;  <NL> for ( int crf = 0 ; crf < 8 ; crf + + ) {  <NL> cr | = crf _ lt [ crf ] ? 1 : 0 ;  <NL> cr | = crf _ gt [ crf ] ? 2 : 0 ;  <NL> cr | = crf _ eq [ crf ] ? 4 : 0 ;  <NL> cr | = crf _ so [ crf ] ? 8 : 0 ;  <NL> cr < < = 4 ;  <NL>  }  <NL> return cr ;  <NL>  }  COM: <s> combine cr bits into 32bit cr register </s>

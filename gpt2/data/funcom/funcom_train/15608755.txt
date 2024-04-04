@@ -1,0 +1,1 @@
+TDAT: public void compute advance bit ( int [ ] cmptrace ) {  <NL> if ( bitp > = 7 ) {  <NL> cval = cmptrace [ trace ctr + + ] ;  <NL> bitp = 0 ;  <NL>  }  <NL> else {  <NL> cval > > = 1 ;  <NL> bitp + = 1 ;  <NL>  }  <NL>  / / system . out . println ( " bitp : " + bitp + " cval : " + cval ) ;  <NL>  }  COM: <s> translated from c code </s>

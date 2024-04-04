@@ -1,0 +1,1 @@
+TDAT: public int index of ( string result name ) {  <NL> for ( int index = 0 ; index < this . results . size ( ) ; index + + ) {  <NL> job attachment result = ( job attachment ) this . results . get ( index ) ;  <NL> if ( result name . equals ( result . file name ( ) ) ) {  <NL> return index ;  <NL>  }  <NL>  }  <NL> return - 1 ;  <NL>  }  COM: <s> search the index of result </s>

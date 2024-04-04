@@ -1,0 +1,1 @@
+TDAT: public void set enabled at ( string primary key , boolean value ) {  <NL> for ( int i = 0 ; i < tabbed pane . get tab count ( ) ; i + + ) {  <NL> if ( tabbed pane . get component at ( i ) . get name ( ) . equals ( primary key ) ) {  <NL> tabbed pane . set enabled at ( i , value ) ;  <NL> return ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> to enable disable a chat room </s>

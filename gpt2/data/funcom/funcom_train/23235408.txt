@@ -1,0 +1,1 @@
+TDAT: public string write to property string ( ) {  <NL> return " window . " + name + " . minimized = " + minimized + " \n " + " window . " + name + " . visible = " + visible <NL>  + " \n " + " window . " + name + " . x = " + x + " \n " + " window . " + name + " . y = " + y + " \n " ;  <NL>  }  COM: <s> returns to config as a property string </s>

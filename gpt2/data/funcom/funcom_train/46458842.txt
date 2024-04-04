@@ -1,0 +1,1 @@
+TDAT: public void set fade ( double fade ) {  <NL> double prev = new double ( this . fade ) ;  <NL> this . fade = math . min ( math . abs ( fade ) , 1 ) ;  <NL> support . fire property change ( " fade " , prev , new double ( fade ) ) ; / / $ non - nls - 1 $  <NL>  }  COM: <s> sets the fade </s>

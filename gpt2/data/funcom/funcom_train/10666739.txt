@@ -1,0 +1,1 @@
+TDAT: public void set roll over value ( int from , int to ) {  <NL> if ( ( from > 0 ) & & ( to > = from ) ) {  <NL> base . log . add ( " counter : rollover value is incorrect . "  <NL>  + " setting default ( 0 ) value . " ) ;  <NL>  } else {  <NL> this . roll over from = from ;  <NL> this . roll over to = to ;  <NL>  }  <NL>  }  COM: <s> setter for the roll over values </s>

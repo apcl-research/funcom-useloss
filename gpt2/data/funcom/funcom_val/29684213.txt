@@ -1,0 +1,1 @@
+TDAT: private boolean next line is list ( int i ) {  <NL> if ( i < r . size ( ) - 1 ) {  <NL> return ( ( ( r . get content ( i + 1 ) ) . index of ( " * " ) = = 0 ) || ( ( r . get content ( i + 1 ) ) . index of ( " # " ) = = 0 ) ) ;  <NL>  }  <NL> return false ;  <NL>  }  COM: <s> tells us if the next line after i is also a list element </s>

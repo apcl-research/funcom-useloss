@@ -1,0 +1,1 @@
+TDAT: public void set column directions ( int [ ] set ) {  <NL> sortable table model model = ( sortable table model ) table . get model ( ) ;  <NL> for ( int i = 0 ; i < set . length & & i < model . get column count ( ) ; i + + ) {  <NL> model . set sorting status ( i , set [ i ] ) ;  <NL>  }  <NL>  }  COM: <s> set sorted columns </s>

@@ -1,0 +1,1 @@
+TDAT: / *  <NL>  * @ test public void test crud and notification ( ) { doc api . set active ( false ) ; assert none ( ) ; feed model item =  <NL>  * create object ( data id , " 1000000 " ) ; create ( item ) ; retrieve ( item ) ; get feed ( item ) ; delete data ( ) ; assert none ( ) ;  <NL>  *  <NL>  *  <NL>  * }  COM: <s> test crud graph with json format exchanges </s>

@@ -1,0 +1,1 @@
+TDAT: public string put ( string s , string v ) {  <NL> if ( current . push count ! = 0 ) {  <NL> current . push count - - ;  <NL> current = new link ( current ) ;  <NL>  }  <NL> if ( s . length ( ) = = 0 ) current . default str = v ;  <NL> return ( string ) current . table . put ( s , v ) ;  <NL>  }  COM: <s> creates a mapping in the table on the top of the stack </s>

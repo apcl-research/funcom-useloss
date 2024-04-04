@@ -1,0 +1,1 @@
+TDAT: private void update dist ( final int pre , final int s ) {  <NL> int p = pre ;  <NL> while ( p < meta . size ) {  <NL> final int k = kind ( p ) ;  <NL> dist ( p , k , dist ( p , k ) + s ) ;  <NL> p + = size ( p , kind ( p ) ) ;  <NL>  }  <NL>  }  COM: <s> this method updates the distance values of the specified pre value </s>

@@ -1,0 +1,1 @@
+TDAT: private j text field get in country ( ) {  <NL> if ( in country = = null ) {  <NL> in country = new j text field ( ) ;  <NL> in country . set bounds ( new java . awt . rectangle ( 92 , 43 , 181 , 25 ) ) ;  <NL> in country . set editable ( true ) ;  <NL>  }  <NL> return in country ;  <NL>  }  COM: <s> this method initializes in country </s>

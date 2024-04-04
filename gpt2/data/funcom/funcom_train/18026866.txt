@@ -1,0 +1,1 @@
+TDAT: public void set row ( string row ) {  <NL> string [ ] ss = row . split ( " , " ) ;  <NL> canvas . get margin row ( ) . set top ( ss [ 0 ] ) ;  <NL> canvas . get margin row ( ) . set bottom ( ss [ 1 ] ) ;  <NL> canvas . get margin row ( ) . set top ( ss [ 0 ] ) ;  <NL>  }  COM: <s> support legacy row property of canvas </s>

@@ -1,0 +1,1 @@
+TDAT: public byte get byte ( int b ) {  <NL> if ( b > = 0 & & b < 16 ) {  <NL> if ( b < 8 ) {  <NL> return ( byte ) ( hi8 > > ( 56 - 8 * b ) ) ;  <NL>  } else {  <NL> return ( byte ) ( lo8 > > ( 120 - 8 * b ) ) ;  <NL>  }  <NL>  }  <NL> return 0 ;  <NL>  }  COM: <s> get a given byte from the number </s>

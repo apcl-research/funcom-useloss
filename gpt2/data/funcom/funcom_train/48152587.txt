@@ -1,0 +1,1 @@
+TDAT: public void draw box plot ( graphics g , double x , double r , int y ) {  <NL> g . draw rect ( get x graph ( x - r ) , y - 3 , get x graph ( x + r ) - get x graph ( x - r ) , 6 ) ;  <NL> g . draw line ( get x graph ( x ) , y - 6 , get x graph ( x ) , y + 6 ) ;  <NL>  }  COM: <s> the following method draws a symmetric horizontal boxplot centered at </s>

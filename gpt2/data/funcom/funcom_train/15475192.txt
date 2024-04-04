@@ -1,0 +1,1 @@
+TDAT: private string generate one ( random random ) {  <NL> char [ ] buf = new char [ word length ] ;  <NL> for ( int j = 0 ; j < buf . length ; j + + ) {  <NL> int index = random . next int ( seed string . length ( ) ) ;  <NL> buf [ j ] = seed string . char at ( index ) ;  <NL>  }  <NL> return new string ( buf ) ;  <NL>  }  COM: <s> generate a random word </s>

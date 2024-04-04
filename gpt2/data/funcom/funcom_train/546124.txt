@@ -1,0 +1,1 @@
+TDAT: public void set file name ( string file name ) {  <NL> this . file name = file name ;  <NL> invalidate image ( ) ;  <NL> load image ( ) ;  <NL> compute summit coordinates ( ( int ) summit [ 0 ] . x , ( int ) summit [ 0 ] . y , img width , img height ) ;  <NL> update shape ( ) ;  <NL> center origin ( ) ;  <NL>  }  COM: <s> loads a new image into this object </s>

@@ -1,0 +1,1 @@
+TDAT: / / public void test get jmi object ( ) {  <NL>  / / i model i model = new model ( ) ;  <NL>  / /  <NL>  / / try {  <NL>  / / i model . get jmi object ( ) ;  <NL>  / / } catch ( illegal state exception e ) {  <NL>  / / return ;  <NL>  / / }  <NL>  / /  <NL>  / / fail ( " illegal state expected " ) ;  <NL>  / / }  COM: <s> tests the get jmiobject of the model interface </s>

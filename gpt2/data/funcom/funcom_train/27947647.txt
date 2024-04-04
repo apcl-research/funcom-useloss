@@ -1,0 +1,1 @@
+TDAT: public void expand all nodes ( ) {  <NL> int last row count = - 1 ;  <NL> while ( last row count ! = tree . get row count ( ) ) {  <NL> last row count = tree . get row count ( ) ;  <NL> for ( int i = 0 ; i < tree . get row count ( ) ; i + + ) {  <NL> tree . expand row ( i ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> expand all the nodes of the tree </s>

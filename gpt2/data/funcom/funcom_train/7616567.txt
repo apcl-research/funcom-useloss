@@ -1,0 +1,1 @@
+TDAT: public void set samples ( int x , int y , int w , int h , int b , int i array [ ] ) {  <NL> sample model . set samples ( x - sample model translate x , y - sample model translate y , w , h , b ,  <NL> i array , data buffer ) ;  <NL>  }  COM: <s> sets the samples for the specified band and the specified rectangular </s>

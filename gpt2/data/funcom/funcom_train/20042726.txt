@@ -1,0 +1,1 @@
+TDAT: public void _ set text ( ) {  <NL> required method ( " get text ( ) " ) ;  <NL>  <NL> boolean result = true ;  <NL> o obj . set text ( text + " _ " ) ;  <NL> result = ( text + " _ " ) . equals ( o obj . get text ( ) ) ;  <NL>  <NL> t res . tested ( " set text ( ) " , result ) ;  <NL>  }  COM: <s> sets value changed and then compares it to get value </s>

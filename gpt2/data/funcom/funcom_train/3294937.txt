@@ -1,0 +1,1 @@
+TDAT: public void commit ( ) {  <NL> if ( _ _ debug ) {  <NL>  / * log . debug * / _ _ debug ( " commit ( ) : calling con . commit node ( " + nodename + " , " + buildername + " , " + to xml ( ) ) ;  <NL>  }  <NL> con . commit node ( nodename , buildername , to xml ( ) ) ;  <NL>  }  COM: <s> gets the node in xml value calls con </s>

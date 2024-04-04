@@ -1,0 +1,1 @@
+TDAT: public string get navigator view set key ( ) {  <NL>  ( ( partial plan view set ) view set ) . incr navigator frame cnt ( ) ;  <NL> return new string ( view constants . navigator _ view . replace all ( " " , " " ) + " - " +  <NL>  ( ( partial plan view set ) view set ) . get navigator frame cnt ( ) ) ;  <NL>  }  COM: <s> code get navigator view set key code </s>

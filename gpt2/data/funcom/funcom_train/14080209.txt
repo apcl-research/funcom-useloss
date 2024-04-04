@@ -1,0 +1,1 @@
+TDAT: public void test parsing ( ) {  <NL> log . info ( new number list ( " 1 , 1 , 2 , 4 , 5 " ) ) ;  <NL> log . info ( new number list ( " - 9 , - 2 , - 3 , 3 , 5 , 6 " ) ) ;  <NL> log . info ( new number list ( " 0 , 2 , 5 , - 2 , - 4 , - 5 , + 3 " ) ) ;  <NL>  }  COM: <s> tests the parsing of a number list </s>

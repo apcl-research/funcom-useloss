@@ -1,0 +1,1 @@
+TDAT: public void set clip ( shape cl ) {  <NL> pdf data data = get pdf data ( ) ;  <NL> shape clip = data . clip ;  <NL> if ( clip ! = null ) {  <NL> area new clip = new area ( clip ) ;  <NL> new clip . intersect ( new area ( cl ) ) ;  <NL> data . clip = new general path ( new clip ) ;  <NL>  } else {  <NL> data . clip = cl ;  <NL>  }  <NL>  }  COM: <s> set the current clip </s>

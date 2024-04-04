@@ -1,0 +1,1 @@
+TDAT: public boolean copy directory tree ( string src path , string dst path )  <NL>  { / * copy directory tree * /  <NL> file <NL> f src path = new file ( src path ) ,  <NL> f dst path = new file ( dst path ) ;  <NL> return ( copy directory tree ( f src path , f dst path ) ) ;  <NL>  } / * copy directory tree * /  COM: <s> copy directory tree recursively copy directory tree </s>

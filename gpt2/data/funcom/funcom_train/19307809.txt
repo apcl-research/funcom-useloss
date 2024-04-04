@@ -1,0 +1,1 @@
+TDAT: public void start line ( ) {  <NL> if ( this . cur flow . cur para ( ) . cur para line ( ) ! = null ) {  <NL> this . add to stream ( mif book . eol ) ;  <NL> this . cur flow . cur para ( ) . start para line ( ) ;  <NL>  } else {  <NL> this . cur flow . cur para ( ) . start para line ( ) ;  <NL>  }  <NL>  }  COM: <s> starts a new line </s>

@@ -1,0 +1,1 @@
+TDAT: public boolean contains ( point2d point ) {  <NL> return ( rectangle . get min x ( ) < = point . get x ( )  <NL>  & & rectangle . get max x ( ) > = point . get x ( )  <NL>  & & rectangle . get min y ( ) < = point . get y ( )  <NL>  & & rectangle . get max y ( ) > = point . get y ( ) ) ;  <NL>  }  COM: <s> tests that the specified point is contained within the bounds </s>

@@ -1,0 +1,1 @@
+TDAT: public void add _ command ( string cmd _ name , string func _ name , int level ) {  <NL>  <NL> vector v = new vector ( ) ;  <NL> v . add ( cmd _ name ) ; v . add ( new integer ( level ) ) ;  <NL>  <NL> cmds . put ( cmd _ name , v ) ;  <NL>  <NL> super . add _ command ( cmd _ name , func _ name ) ;  <NL>  }  COM: <s> this method adds a new command to the module </s>

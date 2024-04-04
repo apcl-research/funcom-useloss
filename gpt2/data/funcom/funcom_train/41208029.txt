@@ -1,0 +1,1 @@
+TDAT: public boolean contains ( int x , int y ) {  <NL> int abs x = get absolute x ( ) + get scroll x ( ) ;  <NL> int abs y = get absolute y ( ) + get scroll y ( ) ;  <NL> return ( x > = abs x & & x < abs x + get width ( ) & & y > = abs y & & y < abs y + get height ( ) ) ;  <NL>  }  COM: <s> returns true if the given absolute coordinate is contained in the component </s>

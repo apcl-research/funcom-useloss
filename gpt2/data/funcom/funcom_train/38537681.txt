@@ -1,0 +1,1 @@
+TDAT: private void set min z ( number n ) throws propagation failure exception {  <NL> if ( z ! = null ) {  <NL> z . set min ( n ) ;  <NL>  }  <NL> else {  <NL> for ( int i = 0 ; i < gz . get node count ( ) ; i + + ) {  <NL>  ( ( num node ) gz . get node ( i ) ) . set min ( n ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> sets the minimum value for the current z </s>

@@ -1,0 +1,1 @@
+TDAT: public void test primitive long flr ( ) {  <NL> primitive long dto dto = new primitive long dto ( ) ;  <NL> dto . primitive long field = 2189798 ;  <NL> assert true ( j sefa test util . serialize ( flr , dto ) . index of ( " 2189798 " ) > = 0 ) ;  <NL> j sefa test util . assert repeated round trip succeeds ( flr , dto ) ;  <NL>  }  COM: <s> tests primitive long flr </s>

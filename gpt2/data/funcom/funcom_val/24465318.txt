@@ -1,0 +1,1 @@
+TDAT: private void move outlines ( int diff x , int diff y ) {  <NL> for ( outline outline : selection . get outlines ( ) ) {  <NL> outline . set x ( outline . get x ( ) + diff x ) ;  <NL> outline . set y ( outline . get y ( ) + diff y ) ;  <NL>  }  <NL>  <NL> on outline resized or moved ( drag mode . move ) ;  <NL>  }  COM: <s> moves all outlines by the given distance </s>

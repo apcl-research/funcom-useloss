@@ -1,0 +1,1 @@
+TDAT: private void set char ( string buffer buf , int width , int x , int y , char ch ) {  <NL> int index = y * ( width + 1 ) + x ;  <NL> if ( index > = 0 & & index < buf . length ( ) )  <NL> buf . set char at ( index , ch ) ;  <NL>  }  COM: <s> changes one character in the given string buffer </s>

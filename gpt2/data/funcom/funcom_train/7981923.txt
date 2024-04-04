@@ -1,0 +1,1 @@
+TDAT: private void record ( byte [ ] b , int off , int len ) throws io exception {  <NL> if ( this . should digest ) {  <NL> assert this . digest ! = null : " digest is null . " ;  <NL> this . digest . update ( b , off , len ) ;  <NL>  }  <NL> tail record ( b , off , len ) ;  <NL>  }  COM: <s> record the given byte array range for recovery later </s>

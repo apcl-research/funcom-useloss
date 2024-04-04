@@ -1,0 +1,1 @@
+TDAT: public int get index of ( object in element ) {  <NL> if ( in element = = null || contents = = null ) {  <NL> return - 1 ;  <NL>  }  <NL> for ( int i = 0 ; i < contents . length ; i + + ) {  <NL> if ( in element . equals ( contents [ i ] ) ) {  <NL> return i ;  <NL>  }  <NL>  }  <NL> return - 1 ;  <NL>  }  COM: <s> gets the index of the passed object in the array </s>

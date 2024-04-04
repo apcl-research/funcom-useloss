@@ -1,0 +1,1 @@
+TDAT: public void test aliases ( ) {  <NL> my messages msg = gwt . create ( my messages . class ) ;  <NL> assert equals ( " nb " , msg . nb locale ( ) ) ;  <NL> assert equals ( " no _ bokmal " , msg . no bokmal locale ( ) ) ;  <NL> assert equals ( " no " , msg . no locale ( ) ) ;  <NL>  }  COM: <s> test alias resolution </s>

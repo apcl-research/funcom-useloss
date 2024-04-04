@@ -1,0 +1,1 @@
+TDAT: public void print ( string indent , print stream output ) {  <NL> output . println ( indent + " page " ) ;  <NL> output . println ( indent + " " + _ page header ) ;  <NL>  <NL> for ( int i = 0 ; i < get system count ( ) ; + + i )  <NL> get system ( i ) . print ( indent + " " , output ) ;  <NL>  }  COM: <s> this prints the page info including all staff systems </s>

@@ -1,0 +1,1 @@
+TDAT: public boolean move ( int dx , int dy ) {  <NL> boolean moved = false ;  <NL> current level map . remove ( this , get x ( ) , get y ( ) ) ;  <NL> int x = get x ( ) + dx ;  <NL> int y = get y ( ) + dy ;  <NL> set position ( x , y ) ;  <NL> current level map . add ( this , x , y ) ;  <NL> moved = true ;  <NL> return moved ;  <NL>  }  COM: <s> moves the character by dx dy </s>

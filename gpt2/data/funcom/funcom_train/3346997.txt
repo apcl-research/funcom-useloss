@@ -1,0 +1,1 @@
+TDAT: private void put const ( int i ) {  <NL> if ( i > = - 1 & & i < = 5 )  <NL> put u1 ( iconst _ 0 + i ) ;  <NL> else if ( i > = byte . min _ value & & i < = byte . max _ value ) {  <NL> put u1 ( bipush ) ;  <NL> put u1 ( i ) ;  <NL>  } else {  <NL> put u1 ( sipush ) ;  <NL> put u2 ( i ) ;  <NL>  }  <NL>  }  COM: <s> put bytecode to load a constant integer on the stream </s>

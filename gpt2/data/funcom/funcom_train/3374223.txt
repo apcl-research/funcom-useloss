@@ -1,0 +1,1 @@
+TDAT: public void remove attribute ( object key ) {  <NL> int n = keys . size ( ) ;  <NL> for ( int i = 0 ; i < n ; i + + ) {  <NL> if ( keys . element at ( i ) . equals ( key ) ) {  <NL> keys . remove element at ( i ) ;  <NL> data . remove element at ( i ) ;  <NL> return ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> removes the given name from the set </s>

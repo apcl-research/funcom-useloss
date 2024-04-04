@@ -1,0 +1,1 @@
+TDAT: public void set list ( array list < t > list ) {  <NL> this . list = new array list < t > ( list . size ( ) ) ;  <NL> for ( t e : list )  <NL> if ( e instanceof xml interface )  <NL> this . list . add ( ( t ) ( ( xml interface ) e ) . clone ( ) ) ;  <NL> else <NL> this . list . add ( e ) ;  <NL> jlist . update ui ( ) ;  <NL>  }  COM: <s> sets the list to a new list </s>

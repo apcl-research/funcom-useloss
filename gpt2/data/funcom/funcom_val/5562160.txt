@@ -1,0 +1,1 @@
+TDAT: public command apply ( piece visitor dispatcher command factory ) {  <NL> game piece [ ] stack = pieces . get pieces ( ) ;  <NL> command c = null ;  <NL> for ( int i = 0 ; i < stack . length & & c = = null ; + + i ) {  <NL> c = ( command ) command factory . accept ( stack [ i ] ) ;  <NL>  }  <NL> return c ;  <NL>  }  COM: <s> apply the provided </s>

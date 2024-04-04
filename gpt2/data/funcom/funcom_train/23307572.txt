@@ -1,0 +1,1 @@
+TDAT: public double distance ( env node obj ) {  <NL> double xdiff , ydiff , zdiff ;  <NL> xdiff = obj . get x ( ) - get x ( ) ;  <NL> ydiff = obj . get y ( ) - get y ( ) ;  <NL> zdiff = obj . get z ( ) - get z ( ) ;  <NL> return math . sqrt ( xdiff * xdiff + ydiff * ydiff + zdiff * zdiff ) ;  <NL>  <NL>  }  COM: <s> returns the distance between this and another object </s>

@@ -1,0 +1,1 @@
+TDAT: public void test create dialog ( ) {  <NL> try {  <NL> new font chooser dialog <NL>  ( new frame ( ) , " title " , false , new font ( " serif " , font . plain , 10 ) ) ;  <NL>  }  <NL> catch ( unsupported operation exception use ) {  <NL>  / / headless mode exception is instance of this ex .  <NL>  }  <NL>  }  COM: <s> checks that it is possible to create a dialog </s>

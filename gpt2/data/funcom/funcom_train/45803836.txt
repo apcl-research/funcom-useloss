@@ -1,0 +1,1 @@
+TDAT: protected void render close all button ( writer out , int topline ) throws io exception {  <NL> out . write ( " < a href = \ " " + ownpage + " topline = 0 & todo = closeall\ " title = ' collapse all nodes ' > < img border = 0 src = " + imageurl + " collapse _ all . gif > < / a > " ) ;  <NL>  }  COM: <s> experimental renders the close all button at the top bottom of </s>

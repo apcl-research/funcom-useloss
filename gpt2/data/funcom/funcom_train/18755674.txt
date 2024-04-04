@@ -1,0 +1,1 @@
+TDAT: public void add action to menu ( string name , action a , j menu menu , int position ) {  <NL> if ( _ extra actions . get ( name ) = = null ) {  <NL>  _ extra actions . put ( name , a ) ;  <NL> merlot utils . add action to menu ( a , menu , position ) ;  <NL>  }  <NL>  }  COM: <s> adds an action to a menu at a given position </s>

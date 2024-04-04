@@ -1,0 +1,1 @@
+TDAT: public void test accept ( ) throws io exception {  <NL> final file filter filter = new reg exp file filter ( " temp . txt " , new file ( " files " ) ) ;  <NL> assert true ( filter . accept ( new file ( " files / temp . txt " ) ) ) ;  <NL> assert false ( filter . accept ( new file ( " fillets / temp . txt " ) ) ) ;  <NL>  }  COM: <s> try a couple of simple regexps </s>

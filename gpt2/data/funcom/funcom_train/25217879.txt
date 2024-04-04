@@ -1,0 +1,1 @@
+TDAT: public void print functions ( print stream stream ) {  <NL>  <NL> for ( l symbol k : functions . key set ( ) ) {  <NL> stream . print ( " ( defun " ) ;  <NL> stream . print ( k . get value ( ) ) ;  <NL> stream . print ( " " ) ;  <NL> functions . get ( k ) . print ( stream ) ;  <NL> stream . println ( " ) " ) ;  <NL>  }  <NL>  }  COM: <s> print all functions to a stream </s>

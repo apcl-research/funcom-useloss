@@ -1,0 +1,1 @@
+TDAT: public string get html log ( int level , boolean include date ) {  <NL> string buffer sb = new string buffer ( ) ;  <NL> for ( message m : i log ) {  <NL> string s = m . to html string ( level , include date ) ;  <NL> if ( s ! = null )  <NL> sb . append ( s + " < br > " ) ;  <NL>  }  <NL> return sb . to string ( ) ;  <NL>  }  COM: <s> returns log in html format </s>

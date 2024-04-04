@@ -1,0 +1,1 @@
+TDAT: public void test nfd chain rbt ( ) {  <NL> transliterator t = transliterator . create from rules (  <NL>  " test " , " : : nfd ; aa > q ; a > q ; " ,  <NL> transliterator . forward ) ;  <NL> logln ( t . to rules ( true ) ) ;  <NL> expect ( t , " aa " , " q " ) ;  <NL>  }  COM: <s> test nfd chaining with rbt </s>

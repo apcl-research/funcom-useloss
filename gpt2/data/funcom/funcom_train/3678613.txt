@@ -1,0 +1,1 @@
+TDAT: public void add notify ( ) {  <NL> super . add notify ( ) ;  <NL> if ( img = = null ) {  <NL> img = create image ( 720 , 540 ) ;  <NL> graphics g = img . get graphics ( ) ;  <NL> g . set color ( color . white ) ;  <NL> g . fill rect ( 0 , 0 , 720 , 540 ) ;  <NL>  }  <NL>  }  COM: <s> this method overides the add notify method to create a blank page </s>

@@ -1,0 +1,1 @@
+TDAT: public interior map get interior map from id ( int id ) {  <NL> if ( id > = interior maps . length || id < 0 ) {  <NL> debug . signal ( debug . error , this , " get interior map by id : bad interior map id " + id + " . " + this ) ;  <NL> return null ;  <NL>  }  <NL>  <NL> return interior maps [ id ] ;  <NL>  }  COM: <s> to get a interior map by its id </s>

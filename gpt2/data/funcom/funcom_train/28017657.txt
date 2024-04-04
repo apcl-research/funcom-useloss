@@ -1,0 +1,1 @@
+TDAT: protected file get storage file ( final url _ url , final long _ temp ) {  <NL> string f = _ url . get file ( ) ;  <NL> f = _ temp + f . substring ( f . last index of ( ' / ' ) + 1 ) ;  <NL>  <NL> final file tf = new file ( system . get property ( " java . io . tmpdir " ) , f ) ;  <NL>  <NL> return tf ;  <NL>  }  COM: <s> get a temproray file based on the url passed in </s>

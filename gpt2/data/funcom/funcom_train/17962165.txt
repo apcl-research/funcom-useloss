@@ -1,0 +1,1 @@
+TDAT: public void create lines ( final int count ) {  <NL>  <NL> line2d line = new line2d . double ( ) ;  <NL> for ( int i = 0 ; i < count ; i + + ) {  <NL> line = new line2d . double ( 1 . 0 , 1 . 0 , 1 . 0 , 1 . 0 ) ;  <NL>  }  <NL> system . out . println ( line . to string ( ) ) ;  <NL>  <NL>  }  COM: <s> creates lines in a loop </s>

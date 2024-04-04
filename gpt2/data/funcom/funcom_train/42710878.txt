@@ -1,0 +1,1 @@
+TDAT: public int depth ( ) {  <NL> int d = 0 ;  <NL> gis point quad tree < t > [ ] kids = get sub qt nodes ( ) ;  <NL> if ( kids ! = null )  <NL> for ( int i = 0 ; i < kids . length ; i + + )  <NL> d = math . max ( d , kids [ i ] . depth ( ) ) ;  <NL> return d + 1 ;  <NL>  }  COM: <s> height of tree from this node to deepest child </s>

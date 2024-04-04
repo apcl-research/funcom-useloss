@@ -1,0 +1,1 @@
+TDAT: public void set logged in ( boolean b ) {  <NL> if ( b ) {  <NL> this . get request ( ) . get session ( ) . set attribute ( " login " , " true " ) ;  <NL>  }  <NL> else {  <NL> this . get request ( ) . get session ( ) . set attribute ( " login " , " false " ) ;  <NL>  }  <NL>  }  COM: <s> sets the login attribute to true </s>

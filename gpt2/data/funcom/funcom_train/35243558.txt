@@ -1,0 +1,1 @@
+TDAT: public void add ( json string key , json value value ) {  <NL> if ( key = = null || key . is null ( ) = = true || value = = null ) {  <NL> throw new null pointer exception ( " parameter must not be null " ) ;  <NL>  }  <NL> set nullity ( false ) ;  <NL> this . data . put ( key , value ) ;  <NL>  }  COM: <s> add an entry inside the object </s>

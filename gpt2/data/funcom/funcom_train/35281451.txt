@@ -1,0 +1,1 @@
+TDAT: public long read u int ( ) throws io exception {  <NL> return ( ( in . read ( ) & 0xff )  <NL> | ( ( in . read ( ) & 0xff ) < < 8 )  <NL> | ( ( in . read ( ) & 0xff ) < < 16 )  <NL> | ( ( ( long ) ( in . read ( ) & 0xff ) ) < < 24 ) ) ;  <NL>  }  COM: <s> read an unsigned int as a long </s>

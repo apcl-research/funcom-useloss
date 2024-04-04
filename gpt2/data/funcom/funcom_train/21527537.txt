@@ -1,0 +1,1 @@
+TDAT: private int bit2byte ( int [ ] b ) {  <NL> int byt = ( b [ 0 ] * 1 + b [ 1 ] * 2 + b [ 2 ] * 4 + b [ 3 ] * 8 + b [ 4 ] * 16 + b [ 5 ] * 32 + b [ 6 ] * 64 + b [ 7 ] * 128 ) ;  <NL> return byt ;  <NL>  }  COM: <s> convert 8 bit binary into an integer </s>

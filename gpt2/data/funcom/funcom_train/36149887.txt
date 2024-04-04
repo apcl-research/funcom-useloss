@@ -1,0 +1,1 @@
+TDAT: public void find cm ( ) {  <NL> double sum = 0 ; / / ( sum of all observations ) ^ 2 <NL> for ( int i = 0 ; i < a ; + + i )  <NL> for ( int j = 0 ; j < b ; + + j )  <NL> sum + = y [ i ] [ j ] . sum ( ) ;  <NL> cm = sum * sum / n ;  <NL>  }  COM: <s> computes the correction of the mean sum of all observations 2 n </s>

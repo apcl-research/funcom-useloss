@@ -1,0 +1,1 @@
+TDAT: public void render vertex ( graphics g , vis vertex vc ) {  <NL> vertex v = vc . get vertex ( ) ;  <NL> int x = ( int ) vc . x ;  <NL> int y = ( int ) vc . y ;  <NL> string label = get label ( v ) ;  <NL> paint light vertex ( g , v , x , y , label ) ;  <NL> return ;  <NL>  }  COM: <s> paints the vertex using the settings above vertex colors etc </s>

@@ -1,0 +1,1 @@
+TDAT: protected string format date ( date date ) {  <NL> gregorian calendar calendar = new gregorian calendar ( gmt _ time _ zone ) ;  <NL> calendar . set time ( date ) ;  <NL> return string . format ( " % 1 $ t y % 1 $ tm % 1 $ td % 1 $ t h % 1 $ t m % 1 $ t s . % 1 $ t l " , calendar ) ;  <NL>  }  COM: <s> format the date according to the ofx spec </s>

@@ -1,0 +1,1 @@
+TDAT: public void dump ( int level ) {  <NL> for ( int i = 0 ; i < level ; i + + ) system . out . print ( " \t " ) ;  <NL> system . out . println ( type + " - > " + value ) ;  <NL> for ( int i = 0 ; i < get child count ( ) ; i + + )  <NL> get child ( i ) . dump ( level + 1 ) ;  <NL>  }  COM: <s> auxiliary method for debugging the parsing process </s>

@@ -1,0 +1,1 @@
+TDAT: public color compute medium color ( color c1 , color c2 ) {  <NL> return new color ( ( c1 . get red ( ) + 3 * c2 . get red ( ) ) / 4 ,  <NL>  ( c1 . get green ( ) + 3 * c2 . get green ( ) ) / 4 ,  <NL>  ( c1 . get blue ( ) + 3 * c2 . get blue ( ) ) / 4 ) ;  <NL>  }  COM: <s> compute the medium color of c1 c2 </s>

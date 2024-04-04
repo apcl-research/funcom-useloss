@@ -1,0 +1,1 @@
+TDAT: public void set component ( int i , int j , int k , int l , double x ) {  <NL> if ( i > = 0 & & i < 4 & & j > = 0 & & j < 4 & & k > = 0 & & k < 4 & & l > = 0 & & l < 4 )  <NL> rank4 [ i ] [ j ] [ k ] [ l ] = x ;  <NL> else <NL> throw new dimension exception ( " invalid component . " ) ;  <NL>  }  COM: <s> sets the value of a component of this tensor </s>

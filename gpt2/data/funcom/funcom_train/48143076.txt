@@ -1,0 +1,1 @@
+TDAT: public double square matrix inverse ( ) {  <NL> final double array [ ] = new double [ num rows ] ;  <NL> array [ 0 ] = 1 . 0 / diag [ 0 ] ;  <NL> for ( int i = 1 ; i < num rows ; i + + )  <NL> array [ i ] = 1 . 0 / diag [ i ] ;  <NL> return new double diagonal matrix ( array ) ;  <NL>  }  COM: <s> returns the inverse of this matrix </s>

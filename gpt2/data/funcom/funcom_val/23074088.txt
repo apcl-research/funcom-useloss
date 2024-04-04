@@ -1,0 +1,1 @@
+TDAT: public exchange rate fetch ( final currency source , final currency target , final date date ) {  <NL> final list < entry > rates = data _ . get ( hash ( source , target ) ) ;  <NL> final int i = match validate at ( rates , date ) ;  <NL> return i = = rates . size ( ) - 1 ? rates . get ( i ) . rate : null ;  <NL>  }  COM: <s> fetches an exchange rate from the hash map </s>

@@ -1,0 +1,1 @@
+TDAT: private void update gain ( ) {  <NL> int pos = get value ( ) ;  <NL> int value = ( int ) ( 127 * ( double ) ( pos / 100 . 0 ) ) ;  <NL> midi channel [ ] cs = synthesizer . get channels ( ) ;  <NL> for ( int i = 0 ; i < cs . length ; i + + ) {  <NL> cs [ i ] . control change ( 7 , value ) ;  <NL>  }  <NL>  }  COM: <s> set the volume </s>

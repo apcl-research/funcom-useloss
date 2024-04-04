@@ -1,0 +1,1 @@
+TDAT: private void get ( url url , http response result ) {  <NL> if ( debug ) system . out . println ( " [ checkweb : get ] started " ) ;  <NL> string method = " get " ;  <NL> this . send request ( url , method , result ) ;  <NL> if ( debug ) system . out . println ( " [ checkweb : get ] ended " ) ;  <NL>  }  COM: <s> sends a get request to the specified url </s>

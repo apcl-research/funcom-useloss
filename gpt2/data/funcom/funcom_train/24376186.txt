@@ -1,0 +1,1 @@
+TDAT: public string strip id ( string id ) {  <NL> if ( id ! = null ) {  <NL> if ( id . starts with ( " urn : uuid : " ) ) {  <NL> id = id . substring ( 9 ) . trim ( ) ;  <NL>  } else {  <NL>  / / id is urn <NL> id = id . replace all ( " : " , " _ " ) ;  <NL>  }  <NL>  }  <NL>  <NL> return id ;  <NL>  }  COM: <s> strip urn uuid part from start of registry </s>

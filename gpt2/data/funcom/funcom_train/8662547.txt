@@ -1,0 +1,1 @@
+TDAT: public frame copy ( ) {  <NL> frame frame = new frame ( locals . length , stack . length ) ;  <NL> system . arraycopy ( locals , 0 , frame . locals , 0 , locals . length ) ;  <NL> system . arraycopy ( stack , 0 , frame . stack , 0 , stack . length ) ;  <NL> frame . top = top ;  <NL> return frame ;  <NL>  }  COM: <s> makes a shallow copy of this frame i </s>

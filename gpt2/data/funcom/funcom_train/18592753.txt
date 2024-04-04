@@ -1,0 +1,1 @@
+TDAT: private void mouse move ( int x , int y ) {  <NL> if ( event mode = = em _ robot ) {  <NL> log . debug ( " robot : mouse move : ( " + x + " , " + y + " ) " ) ;  <NL> robot . mouse move ( x , y ) ;  <NL>  }  <NL> else {  <NL>  / / can ' t stuff an awt event for an arbitrary location <NL>  }  <NL>  }  COM: <s> move the mouse to the given location in screen coordinates </s>

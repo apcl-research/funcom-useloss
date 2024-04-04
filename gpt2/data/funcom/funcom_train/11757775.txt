@@ -1,0 +1,1 @@
+TDAT: public term get renamed term copy ( term t ) {  <NL> alice . util . linked list l = new alice . util . linked list ( ) ;  <NL> t = t . copy ( l ) ;  <NL>  / / time = var . rename ( l , time + 1 , true ) ;  <NL> n renamed var time = var . rename ( l , n renamed var time + 1 , true ) ;  <NL> return ( t ) ;  <NL>  }  COM: <s> gets a copy of a term renaming the vars </s>

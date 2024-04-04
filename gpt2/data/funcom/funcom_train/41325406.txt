@@ -1,0 +1,1 @@
+TDAT: private void update with coarse correction ( vector x ) {  <NL> dist vector xd = ( dist vector ) x ;  <NL>  <NL> double [ ] zij = new double [ 1 ] ;  <NL> comm . scatter ( zi0 , zij , root ) ;  <NL> for ( vector entry e : xd . get local ( ) )  <NL> e . set ( e . get ( ) + zij [ 0 ] ) ;  <NL>  }  COM: <s> updates the global solution with the coarse correction </s>

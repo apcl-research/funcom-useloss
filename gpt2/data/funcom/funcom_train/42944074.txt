@@ -1,0 +1,1 @@
+TDAT: public void set event value ( string fld name , object new val , int ndx ) {  <NL> if ( ndx < 0 ) {  <NL> this . field map . put ( fld name , new val ) ;  <NL>  }  <NL> else {  <NL> this . field map . put ( fld name + " . " + ndx , new val ) ;  <NL>  }  <NL>  }  COM: <s> sets the event value stored in the specified field name to an object </s>

@@ -1,0 +1,1 @@
+TDAT: public cms group add group ( string name , string description , int flags , string parent ) throws cms exception {  <NL> return ( m _ rb . add group ( m _ context . current user ( ) , m _ context . current project ( ) , name , description , flags , parent ) ) ;  <NL>  }  COM: <s> adds a new group to the cms </s>

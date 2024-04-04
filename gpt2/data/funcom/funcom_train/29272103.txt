@@ -1,0 +1,1 @@
+TDAT: public long set box ( long row id , int box ) {  <NL> content values update values = new content values ( ) ;  <NL> update values . put ( key _ box , box ) ;  <NL> return m db . update ( card _ table , update values , key _ rowid + " = " + row id , null ) ;  <NL>  }  COM: <s> updates the box number of a card </s>

@@ -1,0 +1,1 @@
+TDAT: public int read ( ) throws io exception {  <NL> if ( eof ) return - 1 ;  <NL> int n ;  <NL>  / / spin until we read a byte - - ugly <NL> while ( ( n = read ( temp , 0 , 1 ) ) = = 0 ) ;  <NL> if ( n < 0 ) {  <NL> eof = true ;  <NL> return - 1 ;  <NL>  }  <NL> return temp [ 0 ] & 0xff ;  <NL>  }  COM: <s> perform a b blocking b read of one byte from this input stream </s>

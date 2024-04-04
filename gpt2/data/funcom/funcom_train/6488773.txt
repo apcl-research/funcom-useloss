@@ -1,0 +1,1 @@
+TDAT: public void clear values ( ) {  <NL> log tools . trace ( logger , 25 , " mapper panel . clear values ( ) " ) ;  <NL>  _ xval = - 1 . 0 ;  <NL>  _ yval = - 1 . 0 ;  <NL>  _ min exp = null ;  <NL>  _ max exp = null ;  <NL>  _ min norm = null ;  <NL>  _ max norm = null ;  <NL>  _ caption = null ;  <NL> repaint ( ) ;  <NL>  }  COM: <s> clear the values </s>

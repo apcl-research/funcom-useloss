@@ -1,0 +1,1 @@
+TDAT: public void add cursor ( string s cursor id , int i key binding , color o cursor color , float f x resolution , float f y resolution )  <NL>  {  <NL> add cursor ( s cursor id , i key binding , o cursor color , f x resolution , f y resolution , get minimum x ( ) , get maximum y ( ) ) ;  <NL>  }  COM: <s> this method adds a cursor to the graph </s>

@@ -1,0 +1,1 @@
+TDAT: public void set wavelet ( float flc , float flp , float fhp , float fhc ) {  <NL> int nf = 1 + fft parms . get fft length ( ) / 2 ;  <NL> float df = fft parms . get sample frequency ( ) ;  <NL> cw = cosine bell wavelet . create complex wavelet ( nf , 0 , df , flc , flp , fhp , fhc ) ;  <NL>  }  COM: <s> define a band pass wavelet with cosine tapers </s>

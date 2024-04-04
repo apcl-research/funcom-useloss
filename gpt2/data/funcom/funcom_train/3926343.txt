@@ -1,0 +1,1 @@
+TDAT: public void add ( int val ) {  <NL> ensure capacity ( 1 ) ;  <NL> ilist [ list size + + ] = val ;  <NL> if ( unit size = = - 1 ) {  <NL> if ( list size = = 1 ) {  <NL> ii list . add ( 0 ) ;  <NL>  } else if ( ilist [ list size - 2 ] = = - 1 ) {  <NL> ii list . add ( list size - 1 ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> add a value to the int array </s>

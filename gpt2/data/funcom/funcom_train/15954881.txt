@@ -1,0 +1,1 @@
+TDAT: public void test set hour ( ) {  <NL> data time l data time1 = new data time ( f hour , f minute , f second , f time zone ) ;  <NL> int l hour = 11 ;  <NL> l data time1 . set hour ( l hour ) ;  <NL> assert equals ( l hour , l data time1 . get hour ( ) ) ;  <NL>  }  COM: <s> test of set hour method </s>

@@ -1,0 +1,1 @@
+TDAT: private void write ( string name , byte [ ] data ) throws io exception {  <NL> final output stream os = this . class loader writer . get output stream ( ' / ' + name . replace ( ' . ' , ' / ' ) + " . class " ) ;  <NL> os . write ( data ) ;  <NL> os . close ( ) ;  <NL>  }  COM: <s> write the classfile </s>

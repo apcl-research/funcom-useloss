@@ -1,0 +1,1 @@
+TDAT: public void service found ( dnssd service browser , int flags , int if index , string service name , string reg type , string domain ) {  <NL> system . out . println ( " * * found service * * " + service name ) ;  <NL> contact list . add contact ( service name , domain , reg type , if index ) ;  <NL>  }  COM: <s> this callback is invoked when a node joins the network </s>

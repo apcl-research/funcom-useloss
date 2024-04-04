@@ -1,0 +1,1 @@
+TDAT: public boolean is limit char ( char c ) {  <NL> if ( ( c = = ' a ' ) || <NL>  ( c = = ' a ' ) || <NL>  ( c = = ' 9 ' ) || <NL>  ( c = = ' x ' ) || <NL>  ( c = = ' x ' ) || <NL>  ( c = = ' c ' ) || <NL>  ( c = = ' c ' ) || <NL> is new limit char ( c ) ) {  <NL> return true ;  <NL>  }  <NL> else {  <NL> return false ;  <NL>  }  <NL>  }  COM: <s> is limit char </s>

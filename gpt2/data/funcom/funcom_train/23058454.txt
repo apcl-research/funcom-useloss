@@ -1,0 +1,1 @@
+TDAT: private void set default layout ( ) {  <NL> root window . set window ( new split window ( true ,  <NL> 0 . 2f ,  <NL> views [ 0 ] ,  <NL> new split window ( false ,  <NL> 0 . 7f , views [ 1 ]  <NL>  , new tab window ( new view [ ] { views [ 2 ] } ) )  <NL>  ) ) ;  <NL>  }  COM: <s> sets the default window layout </s>

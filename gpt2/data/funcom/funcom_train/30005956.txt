@@ -1,0 +1,1 @@
+TDAT: private j text area get info area ( ) {  <NL> if ( info area = = null ) {  <NL> info area = new j text area ( ) ;  <NL> info area . set opaque ( false ) ;  <NL> info area . set editable ( false ) ;  <NL> info area . set line wrap ( true ) ;  <NL> info area . set wrap style word ( true ) ;  <NL>  }  <NL> return info area ;  <NL>  }  COM: <s> gets the info area </s>

@@ -1,0 +1,1 @@
+TDAT: public void test equals ( ) {  <NL> day time duration dtd a = new day time duration ( true , 1 , 2 , 3 , 4 ) ;  <NL> day time duration dtd b = new day time duration ( true , 1 , 2 , 3 , 4 ) ;  <NL>  <NL> assert equals ( true , dtd a . equals ( dtd b ) ) ;  <NL>  }  COM: <s> test the year month shortcut </s>

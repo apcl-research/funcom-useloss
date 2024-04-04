@@ -1,0 +1,1 @@
+TDAT: public void test content html ( ) throws interpreter exception {  <NL> string program = " get ( ' http : / / www . bbc . co . uk / ' , list ( ) ) , content ( $ ) ; " ;  <NL> value result = interpreter . process ( program ) ;  <NL> system . out . println ( " result : " + result ) ;  <NL> check result ( " html " , result ) ;  <NL>  }  COM: <s> tests i content i operation </s>

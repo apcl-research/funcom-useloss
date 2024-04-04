@@ -1,0 +1,1 @@
+TDAT: public void test spacing ( ) {  <NL> this . add tag ( html tag type . open , " html " ) ;  <NL> this . add tag ( html tag type . open _ close , " body " ) ;  <NL> this . add tag ( html tag type . close , " html " ) ;  <NL> this . do transform test ( " < html > \t \r \n < body / > < / html > " , null ) ;  <NL>  }  COM: <s> ensure includes spacing </s>

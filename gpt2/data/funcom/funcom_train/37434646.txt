@@ -1,0 +1,1 @@
+TDAT: public void run ( ) throws xml exception {  <NL> display = new display ( ) ;  <NL> shell = ( shell ) start composite ( null ) ;  <NL> fill layout layout = new fill layout ( swt . vertical ) ;  <NL> shell . set layout ( layout ) ;  <NL> load file ( " xsd\\xml schema . xsd " ) ; / / todo remove this test <NL> end composite ( null ) ;  <NL>  }  COM: <s> run the sample </s>

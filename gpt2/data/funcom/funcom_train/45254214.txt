@@ -1,0 +1,1 @@
+TDAT: public void add data ( map other data ) {  <NL> for ( iterator i = other data . key set ( ) . iterator ( ) ; i . has next ( ) ; ) {  <NL> object key = i . next ( ) ;  <NL> if ( data map . contains key ( key ) ) {  <NL> continue ;  <NL>  }  <NL> data map . put ( key , other data . get ( key ) ) ;  <NL>  }  <NL>  }  COM: <s> add the data from another map to this data </s>

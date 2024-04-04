@@ -1,0 +1,1 @@
+TDAT: private void save content calendar ( document new doc , element item , p content calendar cont date ) {  <NL> save content time list ( new doc , item , cont date ) ;  <NL> save calendar timetables ( new doc , item , cont date ) ;  <NL> save calendar periodical ( new doc , item , cont date ) ;  <NL>  }  COM: <s> saves the content of a calendar </s>

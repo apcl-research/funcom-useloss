@@ -1,0 +1,1 @@
+TDAT: public int substitute ( int [ ] p , int x ) {  <NL> int result = 0 ;  <NL> int y = 1 ;  <NL> for ( int i = 0 ; i < p . length ; i + + ) {  <NL> result = result ^ mul table [ p [ i ] ] [ y ] ;  <NL> y = mul table [ x ] [ y ] ;  <NL>  }  <NL> return result ;  <NL>  }  COM: <s> substitute x into polynomial p x </s>

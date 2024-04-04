@@ -1,0 +1,1 @@
+TDAT: public list sub list ( int i , int j ) {  <NL> if ( i < 0 || j > _ size || i > j ) {  <NL> throw new index out of bounds exception ( ) ;  <NL>  } else if ( i = = 0 & & j = = _ size ) {  <NL> return this ;  <NL>  } else {  <NL> return new cursorable sub list ( this , i , j ) ;  <NL>  }  <NL>  }  COM: <s> returns a fail fast sublist </s>

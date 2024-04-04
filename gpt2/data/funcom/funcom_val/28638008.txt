@@ -1,0 +1,1 @@
+TDAT: public boolean checkout ( string file name ) {  <NL> if ( debug ) {  <NL> out . prln ( " root : " + root ) ;  <NL> out . prln ( " working dir : " + working dir ) ;  <NL>  }  <NL>  <NL> string [ ] com = build command array ( file name , " co " , null ) ;  <NL> return run command ( com ) ;  <NL>  } / / checkout  COM: <s> check out a file directory or module </s>

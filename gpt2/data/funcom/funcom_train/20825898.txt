@@ -1,0 +1,1 @@
+TDAT: public point get wheel coordinates ( final point panel point ) {  <NL> int x = panel point . x - get origin x ( ) - gap - ( wheel . get size ( ) / 2 ) ;  <NL> int y = panel point . y - get origin y ( ) - gap - ( wheel . get size ( ) / 2 ) ;  <NL> return new point ( x , y ) ;  <NL>  }  COM: <s> translates panel coordinates to wheel coordinates </s>

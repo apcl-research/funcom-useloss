@@ -1,0 +1,1 @@
+TDAT: public cached elements list get list id ( long listid ) {  <NL> for ( int i = 0 ; i < this . lists . size ( ) ; i + + ) {  <NL> cached elements list temp = ( ( cached elements list ) this . lists . element at ( i ) ) ;  <NL> if ( temp . get list id ( ) = = listid ) return temp ;  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> returns the list with the given listid </s>

@@ -1,0 +1,1 @@
+TDAT: private value read value ( type type , class real , node map node , string key ) throws exception {  <NL> value value = read value ( type , real , node ) ;  <NL>  <NL> if ( key ! = null ) {  <NL> return new allocate ( value , this , key ) ;  <NL>  }  <NL> return value ;  <NL>  }  COM: <s> this is used to acquire the code value code which can be used </s>

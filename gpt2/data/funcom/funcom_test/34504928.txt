@@ -1,0 +1,1 @@
+TDAT: public void handle event ( char character , int key code , int state mask ) {  <NL>  <NL> if ( f mode = = mode . cmd ) {  <NL> handle cmd key event ( character , key code , state mask ) ;  <NL>  } else if ( f mode = = mode . ex ) {  <NL> handle ex key event ( character , key code , state mask ) ;  <NL>  }  <NL>  <NL>  }  COM: <s> handle a key event </s>

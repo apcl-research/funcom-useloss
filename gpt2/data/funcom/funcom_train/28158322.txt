@@ -1,0 +1,1 @@
+TDAT: public boolean equals rounded ( final vector3 other ) {  <NL> if ( other = = this ) {  <NL> return true ;  <NL>  }  <NL> return ( math . round ( other . x ) = = math . round ( x )  <NL>  & & math . round ( other . y ) = = math . round ( y )  <NL>  & & math . round ( other . z ) = = math . round ( z ) ) ;  <NL>  }  COM: <s> see if this vector is rounded equal to another </s>

@@ -1,0 +1,1 @@
+TDAT: public void sort ( comparator c ) {  <NL> arrays . sort ( m _ programs , c ) ;  <NL> float f = 0 ;  <NL> for ( int i = 0 ; i < m _ programs . length ; i + + ) {  <NL> m _ fitness rank [ i ] = f ;  <NL> f + = m _ programs [ i ] . get fitness value ( ) ;  <NL>  }  <NL>  }  COM: <s> sorts the population into ascending order using some criterion for </s>

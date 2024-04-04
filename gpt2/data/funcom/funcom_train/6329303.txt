@@ -1,0 +1,1 @@
+TDAT: public void put all ( map m ) {  <NL> iterator itr = m . entry set ( ) . iterator ( ) ;  <NL> int pos = m . size ( ) ;  <NL> while ( - - pos > = 0 ) {  <NL> map . entry e = ( map . entry ) itr . next ( ) ;  <NL> put ( e . get key ( ) , e . get value ( ) ) ;  <NL>  }  <NL>  }  COM: <s> copies all elements of the given map into this hashtable </s>

@@ -1,0 +1,1 @@
+TDAT: public boolean set int ( int _ row , int _ column , int _ value ) {  <NL> if ( int row list [ _ row ] = = null )  <NL> return false ;  <NL> if ( int v [ _ row ] . length > = _ column )  <NL> return false ;  <NL> int v [ _ row ] [ _ column ] = _ value ;  <NL> return true ;  <NL>  }  COM: <s> code set int code sets a int at a specified position </s>

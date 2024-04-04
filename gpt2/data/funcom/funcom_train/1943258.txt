@@ -1,0 +1,1 @@
+TDAT: private string buffer get path ( string buffer path , folder folder ) {  <NL> if ( folder . get parent ( ) = = null ) {  <NL> return path ;  <NL>  } else {  <NL> path . insert ( 0 , folder . get name ( ) ) . insert ( 0 , " / " ) ;  <NL> return get path ( path , folder . get parent ( ) ) ;  <NL>  }  <NL>  }  COM: <s> recursively builds the path from root to folder </s>

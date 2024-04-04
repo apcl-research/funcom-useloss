@@ -1,0 +1,1 @@
+TDAT: public void add column ( string table , string column , string caption , int type , int flags , string href , string format ) throws exception {  <NL> add column ( table , column , caption , type , flags , href , format , null , null , null ) ;  <NL>  }  COM: <s> creates a datastore column and corresponding display components for the search and list </s>

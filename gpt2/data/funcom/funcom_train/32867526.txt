@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> string exp = " - " ;  <NL> string tail = " " ;  <NL> if ( ! get expanded ( ) ) {  <NL> exp = " + " ;  <NL> tail = " ( " + get status count ( ) + " of " + get jid count ( ) + " ) " ;  <NL>  }  <NL> return exp + get name ( ) + tail ;  <NL>  }  COM: <s> convert group header to string with count of users in group </s>

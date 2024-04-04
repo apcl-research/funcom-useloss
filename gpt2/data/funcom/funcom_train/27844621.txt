@@ -1,0 +1,1 @@
+TDAT: public void test get set index var name ( ) throws exception {  <NL>  _ slist model . set index var name ( " i " ) ;  <NL> assert equals ( " i " , _ slist model . get index var name ( ) ) ;  <NL>  _ slist model . set index var name ( " j " ) ;  <NL> assert equals ( " j " , _ slist model . get index var name ( ) ) ;  <NL>  }  COM: <s> test for get set index var name </s>

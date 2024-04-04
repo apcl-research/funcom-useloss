@@ -1,0 +1,1 @@
+TDAT: public void visit ( java code production n , a argu ) {  <NL> n . f0 . accept ( this , argu ) ;  <NL> n . f1 . accept ( this , argu ) ;  <NL> n . f2 . accept ( this , argu ) ;  <NL> n . f3 . accept ( this , argu ) ;  <NL> n . f4 . accept ( this , argu ) ;  <NL>  }  COM: <s> f0 javacode tk </s>

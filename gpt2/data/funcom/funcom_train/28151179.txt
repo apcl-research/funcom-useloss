@@ -1,0 +1,1 @@
+TDAT: @ override public string to string ( ) {  <NL> string builder sb = new string builder ( ) ;  <NL> for ( int i = 0 ; i < tuple . arity ( ) ; i + + ) {  <NL> if ( i > 0 ) sb . append ( " - > " ) ;  <NL> sb . append ( atom ( i ) ) ;  <NL>  }  <NL> return sb . to string ( ) ;  <NL>  }  COM: <s> prints a human readable description of this tuple </s>

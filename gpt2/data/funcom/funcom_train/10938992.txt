@@ -1,0 +1,1 @@
+TDAT: public t remove ( servlet request request , map < string , object > expand context ) {  <NL> attribute accessor < t > aa = new attribute accessor < t > ( name , expand context , this . attribute name , this . fma , this . needs expand ) ;  <NL> return aa . remove ( request ) ;  <NL>  }  COM: <s> based on name remove from servlet request or from list in servlet request </s>

@@ -1,0 +1,1 @@
+TDAT: public void add history ( string record ) {  <NL> string doc = " ( " + spv properties . get property ( include . app _ name ) + " " +  <NL> spv properties . get property ( include . app _ version ) + " on " +  <NL>  ( new date ( ) ) . to string ( ) + " ) " ;  <NL> store ( history , record + doc ) ;  <NL>  }  COM: <s> adds an history record to the header </s>

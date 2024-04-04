@@ -1,0 +1,1 @@
+TDAT: public j menu bar create menu bar ( ) {  <NL> j menu bar mb = new j menu bar ( ) ;  <NL> string [ ] menu keys = res manager . get resource description ( " menubar " ) ;  <NL> for ( int i = 0 ; i < menu keys . length ; i + + ) {  <NL> add to menu bar ( mb , menu keys [ i ] ) ;  <NL>  }  <NL> return mb ;  <NL>  }  COM: <s> create the menubar for the app </s>

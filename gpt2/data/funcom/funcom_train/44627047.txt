@@ -1,0 +1,1 @@
+TDAT: public void test initially5 ( ) {  <NL> help tcf ( " a . java " , " class a { int k ; boolean b ; boolean bb ; \n / / @ static initially b ; \n } "  <NL>  , " / a . java : 2 : non - static variable b cannot be referenced from a static context " , 22 <NL>  ) ;  <NL>  }  COM: <s> tests initially may be static </s>

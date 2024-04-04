@@ -1,0 +1,1 @@
+TDAT: public void set quad at ( int i , int p0 , int p1 , int p2 , int p3 ) {  <NL> quad indices [ 4 * i ] = p0 ;  <NL> quad indices [ 4 * i + 1 ] = p1 ;  <NL> quad indices [ 4 * i + 2 ] = p2 ;  <NL> quad indices [ 4 * i + 3 ] = p2 ;  <NL>  <NL> bounding volume = null ;  <NL>  }  COM: <s> given a triangle structure and an i position this method copies </s>

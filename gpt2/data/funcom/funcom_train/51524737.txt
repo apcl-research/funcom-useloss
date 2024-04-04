@@ -1,0 +1,1 @@
+TDAT: public void set type parts ( string [ ] parts ) {  <NL> this . type full = parts [ 0 ] ;  <NL> this . type raw = parts [ 1 ] ;  <NL> this . type generic name = parts [ 2 ] ! = null ? parts [ 2 ] : " " ;  <NL> this . type generic extends = parts [ 3 ] ! = null ? parts [ 3 ] : " " ;  <NL>  }  COM: <s> sets the bean type </s>

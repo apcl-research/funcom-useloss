@@ -1,0 +1,1 @@
+TDAT: public void test set p ( ) {  <NL> system . out . println ( " set p " ) ;  <NL> int [ ] pp = { 0 , 1 , 3 , 4 , 5 , 2 , 6 } ;  <NL> permutation instance = new permutation ( ) ;  <NL> instance . set p ( pp ) ;  <NL> assert equals ( " ( 1 3 4 5 2 6 ) " , instance . to string ( ) ) ;  <NL>  }  COM: <s> test of set p method of class scio </s>

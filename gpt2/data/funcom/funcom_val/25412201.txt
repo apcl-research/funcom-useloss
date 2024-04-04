@@ -1,0 +1,1 @@
+TDAT: public int hash code ( ) {  <NL> int hash = 1 ;  <NL> for ( int c = 0 ; c < = max c ; c + + ) {  <NL> for ( int r = 0 ; r < = max r ; r + + ) {  <NL> hash + = ( c * 3 + r ) * cells [ c ] [ r ] ;  <NL>  }  <NL>  }  <NL>  <NL> return hash ;  <NL>  }  COM: <s> to enable this board to be a key in a hashtable </s>

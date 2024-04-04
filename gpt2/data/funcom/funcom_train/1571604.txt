@@ -1,0 +1,1 @@
+TDAT: public string string by quoting identifier ( final string _ id ) {  <NL>  / / tbd : could use get identifier quote string ( ) of java . sql . database meta data <NL> if ( _ id = = null ) return null ;  <NL>  <NL>  / / todo : fix me <NL> return " \ " " + escape ( _ id , ' " ' ) + " \ " " ;  <NL>  }  COM: <s> method used for quoting identifiers </s>

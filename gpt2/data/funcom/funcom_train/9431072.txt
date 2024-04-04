@@ -1,0 +1,1 @@
+TDAT: public void delete database ( ) {  <NL> close ( ) ;  <NL> if ( m path = = null ) return ;  <NL> try {  <NL> new file ( m path ) . delete ( ) ;  <NL> if ( dbg ) log . d ( tag , " deleted " + m path ) ;  <NL>  } catch ( exception e ) {  <NL> log . w ( tag , " couldn ' t delete " + m path , e ) ;  <NL>  }  <NL>  }  COM: <s> deletes the database file </s>

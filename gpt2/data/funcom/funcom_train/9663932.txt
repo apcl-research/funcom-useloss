@@ -1,0 +1,1 @@
+TDAT: public void display ( ) {  <NL> set style name ( " advanced - master detail panel " ) ;  <NL> for ( int i = 0 ; i < get row count ( ) ; i + + ) {  <NL> for ( int j = 0 ; j < get cell count ( i ) ; j + + ) {  <NL> get cell formatter ( ) . set style name ( i , j , " grid panel - cell " ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> use this method just to apply css </s>

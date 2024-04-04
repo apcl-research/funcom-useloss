@@ -1,0 +1,1 @@
+TDAT: public void remove tags of ( graph object element ) {  <NL>  / / system . out . println ( " remove tags of " ) ;  <NL> for ( int i = tags . size ( ) - 1 ; i > = 0 ; i - - )  <NL> if ( ( ( abstract tag ) tags . get ( i ) ) . get element ( ) = = element ) {  <NL> tags . remove ( i ) ;  <NL>  }  <NL>  }  COM: <s> remove the primitives associated with the element </s>

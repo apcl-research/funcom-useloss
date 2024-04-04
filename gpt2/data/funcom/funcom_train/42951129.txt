@@ -1,0 +1,1 @@
+TDAT: public bit set e ( bit set r ) {  <NL> int eptr = 0 ;  <NL> bit set e = new bit set ( 48 ) ;  <NL>  <NL> for ( int group = 0 ; group < 8 ; group + + ) {  <NL> for ( int i = 0 ; i < 6 ; i + + ) {  <NL> e . set ( eptr + + , r . get ( ( 31 + ( group * 4 ) + i ) % 32 ) ) ;  <NL>  }  <NL>  }  <NL> return e ;  <NL>  }  COM: <s> des expansion permutation for feistel function </s>

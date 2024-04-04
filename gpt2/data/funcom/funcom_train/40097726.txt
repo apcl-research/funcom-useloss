@@ -1,0 +1,1 @@
+TDAT: public void prev ( action event e ) {  <NL> integer f = get first ( ) ;  <NL> int first = f = = null ? 0 : f ;  <NL> integer r = get rows ( ) ;  <NL> int rows = r = = null ? 0 : r ;  <NL> first - = rows ;  <NL> if ( first < 0 ) {  <NL> first = 0 ;  <NL>  }  <NL> this . first = first ;  <NL> value = null ;  <NL>  }  COM: <s> the previous action event handler </s>

@@ -1,0 +1,1 @@
+TDAT: private void draw colored box at ( graphics g , int row , int column , color color ) {  <NL> g . set color ( color ) ;  <NL> g . draw rect ( insets . left + column * ( element size . width + get spacing ( ) ) , insets . top + row * element size . height , element size . width - 1 , element size . height - 1 ) ;  <NL>  }  COM: <s> draws a rectangle with specified color </s>

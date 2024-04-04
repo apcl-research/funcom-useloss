@@ -1,0 +1,1 @@
+TDAT: public void put ( string key , string pattern ) {  <NL> mappings . put ( pattern , key ) ;  <NL> if ( pattern . index of ( ' ? ' ) > - 1 || ( pattern . index of ( " * " ) > - 1 & & pattern . length ( ) > 1 ) ) {  <NL> complex paths . add ( pattern ) ;  <NL>  }  <NL>  }  COM: <s> add a key and appropriate matching pattern </s>

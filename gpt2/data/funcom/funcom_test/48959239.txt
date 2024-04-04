@@ -1,0 +1,1 @@
+TDAT: public void exit ( ) {  <NL> assert invariant ( ) ;  <NL> quit ( ) ;  <NL> the viewer . dispose ( ) ;  <NL>  / / no need for a hard exit using , e . g . , system . exit ( 0 ) :  <NL>  / / we ' d like to be able to run a series of pacman ' s in a single <NL>  / / j unit test suite .  <NL> assert invariant ( ) ;  <NL>  }  COM: <s> terminate the game </s>

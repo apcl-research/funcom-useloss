@@ -1,0 +1,1 @@
+TDAT: public void target finished ( build event event ) {  <NL> if ( project . msg _ info < = msg output level ) {  <NL> string msg = " < / pre > " + string utils . line _ sep + " < / div > " ;  <NL> print message ( msg , out , event . get priority ( ) ) ;  <NL> log ( msg ) ;  <NL>  }  <NL>  }  COM: <s> no op implementation </s>

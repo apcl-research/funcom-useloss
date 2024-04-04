@@ -1,0 +1,1 @@
+TDAT: private void gui init ( ) {  <NL> progress layout = new grid bag layout ( ) ;  <NL> logo label = new j label ( gui icons . get icon ( gui icons . ptis _ icon ) ) ;  <NL> message label = new j label ( ) ;  <NL> prgrs init = new j progress bar ( ) ;  <NL> main panel = new j panel ( new grid bag layout ( ) ) ;  <NL>  }  COM: <s> author dmi try dmi </s>

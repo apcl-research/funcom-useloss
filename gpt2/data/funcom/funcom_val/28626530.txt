@@ -1,0 +1,1 @@
+TDAT: public void mouse dragged ( mouse event e ) {  <NL> system . out . println ( " drawingview : mouse dragged " ) ;  <NL> point p = constrain point ( new point ( e . get x ( ) , e . get y ( ) ) ) ;  <NL> map pane ( ) . manager ( ) . tool ( ) . mouse drag ( e , map pane ( ) ) ;  <NL> check damage ( ) ;  <NL>  }  COM: <s> handles mouse drag events </s>

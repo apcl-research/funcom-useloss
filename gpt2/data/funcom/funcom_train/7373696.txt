@@ -1,0 +1,1 @@
+TDAT: private boolean write error to hdfs ( int limit , string task id ) {  <NL> if ( command . get persist stderr ( ) ) {  <NL> int tip id = task attempt id . for name ( task id ) . get task id ( ) . get id ( ) ;  <NL> return tip id < command . get log files limit ( ) ;  <NL>  }  <NL> return false ;  <NL>  }  COM: <s> should the stderr data of this task be persisted on hdfs </s>

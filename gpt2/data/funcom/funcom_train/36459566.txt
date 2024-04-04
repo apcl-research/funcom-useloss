@@ -1,0 +1,1 @@
+TDAT: public facet create ( final map < string , string > config , final string selected uri , data data ) {  <NL> facet impl facet = new facet impl ( config . get ( facet . facet _ title ) ) ;  <NL> facet . set state ( create state ( config , selected uri , data ) ) ;  <NL> return facet ;  <NL>  }  COM: <s> p creates a fully constrained facet </s>

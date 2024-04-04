@@ -1,0 +1,1 @@
+TDAT: public void update auth info ( client c ) throws exception {  <NL> if ( auth info = = null ) {  <NL> auth info = dispatcher . get auth info ( c ) ;  <NL> if ( auth info ! = null ) {  <NL> auth info . class name = get class name ( ) ;  <NL> auth info . id = db _ id ;  <NL> dispatcher . put ( this , auth info ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> updates auth info </s>

@@ -1,0 +1,1 @@
+TDAT: private void add binders ( rule element element ) {  <NL> for ( type guard guard : element . get type guards ( ) ) {  <NL> label var var = guard . get var ( ) ;  <NL> add key ( this . var map , var ) . add ( element ) ;  <NL> add key ( this . binder map , var ) . add ( element ) ;  <NL>  }  <NL>  }  COM: <s> adds a given rule element to the variable binding map </s>

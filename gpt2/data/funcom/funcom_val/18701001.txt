@@ -1,0 +1,1 @@
+TDAT: public string get org group by name ( string name , string handle ) throws io exception {  <NL> map < string , string > params = prepare param map ( " get org group by name " , handle ) ;  <NL> params . put ( " name " , name ) ;  <NL> return execute get ( _ service uri , params ) ;  <NL>  }  COM: <s> gets the org group with the specified name </s>

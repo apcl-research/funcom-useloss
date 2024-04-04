@@ -1,0 +1,1 @@
+TDAT: public void test traslation ( ) {  <NL> grid g = new grid ( ranges , nr , nc ) ;  <NL> g . set value ( 0 , 0 , 1 ) ;  <NL> assert equals ( 1 , g . get value ( new double [ ] { 1 . 5 , 1 . 5 } ) ) ;  <NL> g . set value ( 0 , 9 , 1 ) ;  <NL> assert equals ( 1 , g . get value ( new double [ ] { 1 . 5 , 10 . 5 } ) ) ;  <NL>  }  COM: <s> test coordinates traslation system </s>

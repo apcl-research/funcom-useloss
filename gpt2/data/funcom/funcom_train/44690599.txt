@@ -1,0 +1,1 @@
+TDAT: public j button add button ( string field name , string text , string tool tip text ) {  <NL> j button button = new j button ( text ) ;  <NL> add row ( field name , new j label ( field name ) , button , null , tool tip text , left _ label , none ) ;  <NL> return button ;  <NL>  }  COM: <s> adds a jbutton to this dialog </s>

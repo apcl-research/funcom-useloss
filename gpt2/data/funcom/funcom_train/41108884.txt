@@ -1,0 +1,1 @@
+TDAT: public void add author into isbn ( long author id , string isbn ) {  <NL> if ( isbn = = null ) {  <NL> throw new null pointer exception ( " isbn " ) ;  <NL>  }  <NL> for ( book book : guest manager . get books with isbn ( isbn ) ) {  <NL> add author ( author id , book . get id ( ) ) ;  <NL>  }  <NL>  }  COM: <s> it adds author into all books according to the given isbn </s>

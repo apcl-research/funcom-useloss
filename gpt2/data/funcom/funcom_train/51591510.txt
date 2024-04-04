@@ -1,0 +1,1 @@
+TDAT: private table model get simple model ( )  <NL>  { if ( simple model = = null )  <NL> simple model = new default table model ( new object [ ] [ ] { { 1 , 2 } , { 3 , 4 } , { 5 , 6 } , { 7 , 8 } } , new object [ ] { " a " , " b " } ) ;  <NL> return simple model ;  <NL>  }  COM: <s> method that create a table model </s>

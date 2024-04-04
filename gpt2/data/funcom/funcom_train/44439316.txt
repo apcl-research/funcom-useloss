@@ -1,0 +1,1 @@
+TDAT: public void select ( int index , boolean b ) {  <NL> if ( index ! = get selected index ( ) ) {  <NL>  ( ( note list cell ) get component ( get selected index ( ) ) ) . set selected ( false ) ;  <NL>  ( ( note list cell ) get component ( index ) ) . set selected ( b ) ;  <NL> selected index = index ;  <NL>  }  <NL>  }  COM: <s> selects or deselects a cell in this </s>

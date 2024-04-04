@@ -1,0 +1,1 @@
+TDAT: public float distance ( point2d p ) {  <NL> return ( float ) (  <NL> math . abs ( this . get a ( ) * p . get x ( ) - this . get b ( ) * p . get y ( ) + this . get c ( ) ) /  <NL> math . sqrt ( math . pow ( this . get a ( ) , 2 ) + math . pow ( this . get b ( ) , 2 ) ) ) ;  <NL>  }  COM: <s> returns the distance to given point </s>

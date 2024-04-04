@@ -1,0 +1,1 @@
+TDAT: protected void play long midi ( ) {  <NL> try {  <NL> midi player . stop ( ) ;  <NL> m control . long midi event ( longmidievent , 0 , ptr arr ) ;  <NL> midi player . start ( ) ;  <NL>  } catch ( exception e ) {  <NL> ui utils . log ( " error while playing long midi event : " + e . get message ( ) ) ;  <NL>  }  <NL>  }  COM: <s> plays long midi event </s>

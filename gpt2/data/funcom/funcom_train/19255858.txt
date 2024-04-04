@@ -1,0 +1,1 @@
+TDAT: public string get string ( int where , int len ) throws bad location exception {  <NL> if ( where < 0 || where > s . length ( ) || where + len > s . length ( ) )  <NL> throw new bad location exception ( " out of bounds " , where ) ;  <NL> return s . to string ( ) . substring ( where , where + len ) ;  <NL>  }  COM: <s> retrieves a string from the content </s>

@@ -1,0 +1,1 @@
+TDAT: public void divide complex ( complex a , complex b ) {  <NL> this . real = a . real * b . real + a . imaginary * b . imaginary ;  <NL> this . imaginary = a . imaginary * b . real - a . real * b . imaginary ;  <NL> this . scale complex ( this , b . squared magnitude complex ( ) ) ;  <NL>  }  COM: <s> method to divide two complex numbers </s>

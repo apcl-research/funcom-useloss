@@ -1,0 +1,1 @@
+TDAT: public filter get filter pre ( ) {  <NL> envelope e = get envelope ( ) ;  <NL>  <NL> if ( e = = null ) {  <NL> return filter . include ;  <NL>  } else {  <NL> return new filter factory impl ( ) . bbox ( geom , e . get min x ( ) , e . get min y ( ) , e . get max x ( ) ,  <NL> e . get max y ( ) , srs ) ;  <NL>  }  <NL>  }  COM: <s> return the bbox part of original filter </s>

@@ -1,0 +1,1 @@
+TDAT: public void set love hate ( game character character , double like ) {  <NL> if ( like < - 1 . 0 ) like = - 1 . 0 ;  <NL> else if ( like > 1 . 0 ) like = 1 . 0 ;  <NL> double ld = new double ( like ) ;  <NL> this . abt chars . put ( ( object ) character , ( object ) ld ) ;  <NL>  }  COM: <s> set friend enemy value for a specific game character </s>

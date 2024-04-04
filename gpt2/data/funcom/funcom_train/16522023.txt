@@ -1,0 +1,1 @@
+TDAT: private void add cas map ( int first , int last ) {  <NL>  / / system . out . println ( " addcas " + first + " : : " + last ) ;  <NL> for ( int i = first ; i < last ; i + + ) {  <NL> cas . put ( ( string ) table . get xml value at ( i , 5 ) , ( string ) table . get xml value at ( i , 6 ) ) ;  <NL>  }  <NL>  }  COM: <s> add cas map </s>

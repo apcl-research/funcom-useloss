@@ -1,0 +1,1 @@
+TDAT: public void paint ( graphics g ) {  <NL> sea base base = sea base . singleton ;  <NL> if ( base . root pane . is dirty ( ) ) {  <NL> base . root pane . paint ( ) ;  <NL>  }  <NL> g . draw image ( base . root pane . get image ( ) , 0 , 0 , null ) ;  <NL> paint components ( g ) ;  <NL>  }  COM: <s> paints the custom gui and then swing components </s>

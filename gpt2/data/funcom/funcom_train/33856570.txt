@@ -1,0 +1,1 @@
+TDAT: public void test string to int string ( ) {  <NL> assert true ( " string to int ( string ) 1 failed " , number utils . string to int ( " 12345 " ) = = 12345 ) ;  <NL> assert true ( " string to int ( string ) 2 failed " , number utils . string to int ( " abc " ) = = 0 ) ;  <NL>  }  COM: <s> test for int string to int string </s>

@@ -1,0 +1,1 @@
+TDAT: public string get name ( ) {  <NL> if ( string utils . is not empty ( name ) ) {  <NL> return name ;  <NL>  }  <NL> else {  <NL> if ( get aspected ( ) ! = null ) {  <NL> return ( ( meta field ) get aspected ( ) ) . get name ( ) ;  <NL>  }  <NL>  }  <NL> log . warn ( " could not determine name . . . " ) ;  <NL> return null ;  <NL>  <NL>  }  COM: <s> returns the name </s>

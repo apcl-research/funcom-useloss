@@ -1,0 +1,1 @@
+TDAT: public ode state add scaled ( ode state s , double scale ) {  <NL> double [ ] temp = state . clone ( ) ;  <NL> for ( int i = 0 ; i < state . length ; i + + ) {  <NL> temp [ i ] + = scale * s . get array ( ) [ i ] ;  <NL>  }  <NL> return new ode state ( temp ) ;  <NL>  }  COM: <s> p returns a new odestate equal to the sum of this odestate plus </s>

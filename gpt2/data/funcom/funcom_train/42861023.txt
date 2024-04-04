@@ -1,0 +1,1 @@
+TDAT: private void print document ( node node , string indent ) {  <NL>  <NL> system . out . println ( indent + node . get node name ( ) ) ;  <NL> node child = node . get first child ( ) ;  <NL> while ( child ! = null ) {  <NL> print document ( child , indent + " " ) ;  <NL> child = child . get next sibling ( ) ;  <NL>  }  <NL>  }  COM: <s> prints document to console </s>

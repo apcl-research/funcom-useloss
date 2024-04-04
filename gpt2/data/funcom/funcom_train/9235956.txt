@@ -1,0 +1,1 @@
+TDAT: private string get java version ( ) {  <NL> return system . get property ( " java . vm . name " , " unknown " ) + " "  <NL>  + system . get property ( " java . vm . version " , " unknown " ) + " [ "  <NL>  + system . get property ( " java . vm . vendor " , " uknown " ) + " ] " ;  <NL>  }  COM: <s> returns the systems java version </s>

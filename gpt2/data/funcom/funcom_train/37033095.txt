@@ -1,0 +1,1 @@
+TDAT: public void print ( ) {  <NL> system . out . println ( " email : " + email ) ;  <NL> system . out . println ( " passes form check ? " + form check ) ;  <NL> system . out . println ( " passes dns check ? " + dns check ) ;  <NL> system . out . println ( " passes send check ? " + send check ) ;  <NL>  }  COM: <s> a function for dumping the contents to system </s>

@@ -1,0 +1,1 @@
+TDAT: public void set value ( object p value ) {  <NL> object _ old value = super . get value ( ) ;  <NL> if ( p value = = _ old value ) return ;  <NL> if ( p value ! = null & & _ old value ! = null & & p value . equals ( _ old value ) ) return ;  <NL>  <NL> super . set value ( p value ) ;  <NL>  }  COM: <s> set the value of this property </s>

@@ -1,0 +1,1 @@
+TDAT: protected int get array size ( random r ) {  <NL> double log min = math . log ( min bytes ) ;  <NL> return math . round ( ( float ) math . round ( ( float ) math . exp ( r . next double ( )  <NL>  * ( math . log ( max bytes + 1 ) - log min ) + log min ) - 0 . 5f ) ) ;  <NL>  }  COM: <s> generates a logarithmically distributed size of the array </s>

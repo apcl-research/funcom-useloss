@@ -1,0 +1,1 @@
+TDAT: protected void set time spans ( time span [ ] spans ) {  <NL> for ( int i = 0 ; i < num _ span _ plates ; i + + ) {  <NL> if ( i < spans . length ) {  <NL> m _ plates [ i ] . set time span ( spans [ i ] ) ;  <NL>  } else {  <NL> m _ plates [ i ] . clear ( ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> shows all the spans in the array </s>

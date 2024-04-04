@@ -1,0 +1,1 @@
+TDAT: public mm object node get new node ( string owner ) {  <NL> mm object node node = super . get new node ( owner ) ;  <NL>  / / read cd info ( ) ;  <NL>  / / if ( diskid ! = null ) node . set value ( " disc id " , diskid ) ;  <NL>  / / if ( playtime ! = - 1 ) node . set value ( " playtime " , playtime ) ;  <NL> return ( node ) ;  <NL>  }  COM: <s> get new node </s>

@@ -1,0 +1,1 @@
+TDAT: public void paint rectangle ( int center x , int center y , int radius , int color _ r , int color _ g , int color _ b ) {  <NL> set color ( color _ r , color _ g , color _ b ) ;  <NL> g2 . fill rect ( center ( center x , radius ) , center ( center y , radius ) , radius , radius ) ;  <NL>  }  COM: <s> paints a rectangle to the image only in memory </s>

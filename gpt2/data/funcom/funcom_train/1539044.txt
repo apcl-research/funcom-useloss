@@ -1,0 +1,1 @@
+TDAT: protected long set val ( int i , long e ) {  <NL> byte x = val [ i ] ;  <NL> if ( e > = max byte || e < = min byte ) {  <NL> throw new illegal argument exception ( " exponent to large : " + e ) ;  <NL>  }  <NL> val [ i ] = ( byte ) e ;  <NL> hash = 0 ; / / beware of race condition <NL> return x ;  <NL>  }  COM: <s> set the exponent at position i to e </s>

@@ -1,0 +1,1 @@
+TDAT: public void set key bindings ( ) {  <NL>  / / this . get content pane ( ) . get input map ( ) . put ( key stroke . get key stroke ( " / " ) , " slash " ) ;  <NL>  / / this . get content pane ( ) . get action map ( ) . put ( " slash " , null ) ; / / do search <NL>  }  COM: <s> need to figure out how to use some keybindings </s>

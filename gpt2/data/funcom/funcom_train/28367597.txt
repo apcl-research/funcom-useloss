@@ -1,0 +1,1 @@
+TDAT: public boolean is parameter ( )  <NL>  {  <NL> boolean begin , end ;  <NL> boolean opt = this . is optional ( ) ;  <NL> begin = text . char at ( opt ? 1 : 0 ) = = char _ begin _ param ;  <NL> end = text . char at ( text . length ( ) - ( opt ? 2 : 1 ) ) = = char _ end _ param ;  <NL> return begin & & end ;  <NL>  }  COM: <s> checks if its a parameter token </s>

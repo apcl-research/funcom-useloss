@@ -1,0 +1,1 @@
+TDAT: public boolean is occupied ( float x , float y ) {  <NL> boolean dirx = ( x > = this . get min x ( ) ) ;  <NL> dirx & = ( x < = this . get max x ( ) ) ;  <NL> boolean diry = ( y > = this . get min y ( ) ) ;  <NL> diry & = ( y < = this . get max y ( ) ) ;  <NL> return dirx & & diry ;  <NL>  }  COM: <s> checks if a given point on the map is occupied by this object </s>

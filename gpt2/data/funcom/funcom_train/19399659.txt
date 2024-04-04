@@ -1,0 +1,1 @@
+TDAT: static public void close tx ( long start time , long commit time , boolean aborted ) {  <NL>  <NL> if ( info ) log . info ( " tx = " + start time + " , commit time = " + commit time <NL>  + " , aborted = " + aborted + " , elapsed = "  <NL>  + ( commit time - start time ) ) ;  <NL>  <NL>  }  COM: <s> report completion of a transaction </s>

@@ -1,0 +1,1 @@
+TDAT: public double green mean ( ) {  <NL> double mean = 0 . f ;  <NL>  <NL> for ( int v = 0 ; v < get height ( ) ; v + + )  <NL>  {  <NL> for ( int u = 0 ; u < get width ( ) ; u + + )  <NL>  {  <NL> mean + = green ( u , v ) ;  <NL>  }  <NL>  }  <NL> mean / = get width ( ) * get height ( ) ;  <NL> return mean ;  <NL>  }  COM: <s> returns the mean green pixel value in band 1 </s>

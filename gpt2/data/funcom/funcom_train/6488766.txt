@@ -1,0 +1,1 @@
+TDAT: public void set experimental labels ( string min exp , string max exp ) {  <NL> log tools . trace ( logger , 25 , " mapper panel . set experimental labels ( " + min exp + " , " + max exp + " ) " ) ;  <NL>  _ min exp = min exp ;  <NL>  _ max exp = max exp ;  <NL>  }  COM: <s> set experimental value labels </s>

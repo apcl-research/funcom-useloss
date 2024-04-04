@@ -1,0 +1,1 @@
+TDAT: public void log warning ( string msg , exception e ) {  <NL> if ( msg = = null )  <NL> msg = " " ; / / $ non - nls - 1 $  <NL>  <NL> get log ( ) . log ( new status ( i status . warning , get bundle ( ) . get symbolic name ( ) , i status . warning , msg , e ) ) ;  <NL>  }  COM: <s> log a warning message </s>

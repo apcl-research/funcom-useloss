@@ -1,0 +1,1 @@
+TDAT: public void insert genre ( long id , string name ) {  <NL> string sql = " insert into genre ( id , name ) values ( ? , ? ) " ;  <NL> object [ ] args = new object [ ] { new long ( id ) , name } ;  <NL> jdbc template . update ( sql , args ) ;  <NL>  }  COM: <s> inserts a new genre record to the genre table </s>

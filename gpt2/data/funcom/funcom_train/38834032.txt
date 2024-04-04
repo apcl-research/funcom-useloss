@@ -1,0 +1,1 @@
+TDAT: protected connector request get login request ( ) {  <NL> final map < string , object > my params login = new hash map < string , object > ( ) ;  <NL> my params login . put ( " u " , " admin " ) ;  <NL> my params login . put ( " pw " , " admin " ) ;  <NL> return new standard connector request ( " login " , my params login ) ;  <NL>  }  COM: <s> gets the login request </s>

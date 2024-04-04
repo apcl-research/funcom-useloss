@@ -1,0 +1,1 @@
+TDAT: private void do set year ( int year ) {  <NL> int date = get date ( ) ;  <NL> internal calendar . set ( calendar . year , year ) ;  <NL>  / / if invalid date , change date , but don ' t fire event .  <NL> if ( get days in month ( ) < date )  <NL> do set date ( get days in month ( ) ) ;  <NL> enforce min max ( ) ;  <NL>  }  COM: <s> makes the actual year change </s>

@@ -1,0 +1,1 @@
+TDAT: public void print tree ( list < jc tree > list ) {  <NL> system . out . println ( " nodes for " + get name ( ) ) ;  <NL> for ( jc tree t : list ) {  <NL> system . out . println ( t . get class ( ) + " " + t . get start position ( ) + " " + t . get preferred position ( ) + " " + parser . get end pos ( t ) ) ;  <NL>  }  <NL>  }  COM: <s> prints out the nodes of the tree </s>

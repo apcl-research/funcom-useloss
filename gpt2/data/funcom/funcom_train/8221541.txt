@@ -1,0 +1,1 @@
+TDAT: private void add recordset panel ( as object rs , int number ) {  <NL> table model model = new recordset table model ( rs ) ;  <NL> j table rs table = new j table ( model ) ;  <NL> j scroll pane rs scroll = new j scroll pane ( rs table ) ;  <NL> get amf tabbed pane ( ) . add tab ( " recordset " + number , rs scroll ) ;  <NL>  <NL>  }  COM: <s> adds the recordset panel </s>

@@ -1,0 +1,1 @@
+TDAT: public void update atts ( ) {  <NL> dimension d = get size ( ) ;  <NL> insets in = get insets ( ) ;  <NL> atts . put ( " width " , new integer ( d . width - ( in . left + in . right ) ) . to string ( ) ) ;  <NL> atts . put ( " height " , new integer ( d . height - ( in . top + in . bottom ) ) . to string ( ) ) ;  <NL>  }  COM: <s> make sure the atrributes are uptodate </s>

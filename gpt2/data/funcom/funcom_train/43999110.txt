@@ -1,0 +1,1 @@
+TDAT: public int get index from item ( j list list , object item ) {  <NL> list model lm = list . get model ( ) ;  <NL> for ( int i = 0 ; i < lm . get size ( ) ; i + + ) {  <NL> object o = lm . get element at ( i ) ;  <NL> if ( o . equals ( item ) ) {  <NL> return i ;  <NL>  }  <NL>  }  <NL> return - 1 ;  <NL>  }  COM: <s> given an object finds its index in the list </s>

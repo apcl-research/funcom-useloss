@@ -1,0 +1,1 @@
+TDAT: public void set sky color ( int sky color ) {  <NL> if ( sky color ! = this . sky color ) {  <NL> int old sky color = this . sky color ;  <NL> this . sky color = sky color ;  <NL> this . property change support . fire property change ( property . sky _ color . name ( ) , old sky color , sky color ) ;  <NL>  }  <NL>  }  COM: <s> sets the edited sky color </s>

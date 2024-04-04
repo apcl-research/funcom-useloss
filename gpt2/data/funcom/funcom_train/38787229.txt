@@ -1,0 +1,1 @@
+TDAT: public void order _ move ( double x , double y ) {  <NL> if ( order able ( ) ) {  <NL> order order = new order ( ) ;  <NL> order . target = new order target ( x , y ) ;  <NL> order . ordertype = order . order type . move ;  <NL> order add ( order ) ;  <NL>  }  <NL> set return point ( null ) ;  <NL>  }  COM: <s> order ship move to these coordinates </s>

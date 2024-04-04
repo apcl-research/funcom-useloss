@@ -1,0 +1,1 @@
+TDAT: public void init ( living l ) {  <NL> if ( is _ property _ set ( " water " ) || is _ property _ set ( " underwater " ) ) {  <NL> if ( l . query _ not _ wet ( ) ) {  <NL> l . set _ wet ( l . wet _ duration ) ;  <NL> l . tell ( " you get wet . " ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> this function is called when the living enters the room </s>

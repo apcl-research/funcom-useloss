@@ -1,0 +1,1 @@
+TDAT: public void paint icon ( component c , graphics g , int x , int y ) {  <NL> xp style xp = xp style . get xp ( ) ;  <NL> assert xp ! = null ;  <NL> if ( xp ! = null ) {  <NL> skin skin = xp . get skin ( null , part ) ;  <NL> skin . paint skin ( g , x , y , state ) ;  <NL>  }  <NL>  }  COM: <s> draw the icon at the specified location </s>

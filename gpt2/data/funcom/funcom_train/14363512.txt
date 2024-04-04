@@ -1,0 +1,1 @@
+TDAT: public void set next sibling ( ast a ast ) {  <NL> super . set next sibling ( a ast ) ;  <NL> if ( a ast ! = null & & m parent ! = null ) {  <NL>  ( ( detail ast ) a ast ) . set parent ( m parent ) ;  <NL>  }  <NL> if ( a ast ! = null ) {  <NL>  ( ( detail ast ) a ast ) . set previous sibling ( this ) ;  <NL>  }  <NL>  }  COM: <s> sets asts next sibling </s>

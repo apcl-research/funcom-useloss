@@ -1,0 +1,1 @@
+TDAT: public method type prims as ints ( ) {  <NL> method type ct = prims as ints ;  <NL> if ( ct ! = null ) return ct ;  <NL> method type t = erased type ;  <NL> ct = canonicalize ( t , raw _ return , ints ) ;  <NL> if ( ct = = null ) ct = t ; / / no prims to int - ify <NL> return prims as ints = ct ;  <NL>  }  COM: <s> turn all primitive types to either int or long </s>

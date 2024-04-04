@@ -1,0 +1,1 @@
+TDAT: protected int pass ( ) {  <NL> rotate ( ) ;  <NL> e . pf = ( byte ) ( ( e . pf % 128 ) * 2 + 1 ) ;  <NL> pass = ( byte ) math . min ( + + pass , 16 ) ;  <NL> thought . offer last ( encode ( choices , e . pf , e . exp ) ) ;  <NL> return 1 ;  <NL>  }  COM: <s> record a success </s>

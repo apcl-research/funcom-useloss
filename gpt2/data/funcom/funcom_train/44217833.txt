@@ -1,0 +1,1 @@
+TDAT: public void run ( ) {  <NL> byte [ ] b = new byte [ 256 ] ;  <NL> int n = 0 ;  <NL> while ( reader ! = null & & n > = 0 ) try {  <NL> n = read ( b ) ;  <NL>  / * drop the bytes into the sink : ) * /  <NL>  } catch ( io exception e ) {  <NL> reader = null ;  <NL> break ;  <NL>  }  <NL>  }  COM: <s> continuously read from our back end and drop the data </s>

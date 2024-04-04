@@ -1,0 +1,1 @@
+TDAT: public void label mouse dragged ( mouse event e ) {  <NL> point pos = this . get location ( ) ;  <NL> pos . x + = e . get point ( ) . x - repos point . x ;  <NL> pos . y + = e . get point ( ) . y - repos point . y ;  <NL> this . set location ( pos ) ;  <NL> update links ( ) ;  <NL>  }  COM: <s> performs event when mouse is dragged over the label of this table box </s>

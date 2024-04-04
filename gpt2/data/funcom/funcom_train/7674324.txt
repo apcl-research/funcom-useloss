@@ -1,0 +1,1 @@
+TDAT: public void get bytes ( byte [ ] out , int offset ) {  <NL> if ( ( out . length - offset ) < size ) {  <NL> throw new index out of bounds exception ( " ( out . length - offset ) < " +  <NL>  " size ( ) " ) ;  <NL>  }  <NL>  <NL> system . arraycopy ( bytes , start , out , offset , size ) ;  <NL>  }  COM: <s> copies the contents of this instance into the given raw </s>

@@ -1,0 +1,1 @@
+TDAT: public void swap ( int x1 , int y1 , int x2 , int y2 ) {  <NL> int temp = n puzzle data [ y1 * n grid width + x1 ] ;  <NL> n puzzle data [ y1 * n grid width + x1 ] = n puzzle data [ y2 * n grid width + x2 ] ;  <NL> n puzzle data [ y2 * n grid width + x2 ] = temp ;  <NL>  + + _ counter value ;  <NL>  }  COM: <s> swaps two pieces of the puzzle </s>

@@ -1,0 +1,1 @@
+TDAT: public int get number of days in month ( ) {  <NL> if ( ( get month ( ) = = 1 ) & & ( ( get year ( ) % 400 = = 0 ) || <NL>  ( ( get year ( ) % 100 ! = 0 ) & & ( get year ( ) % 4 = = 0 ) ) ) )  <NL> return 29 ;  <NL> else <NL> return days _ per _ month [ get month ( ) ] ;  <NL>  }  COM: <s> this method gets a number of days in the month </s>

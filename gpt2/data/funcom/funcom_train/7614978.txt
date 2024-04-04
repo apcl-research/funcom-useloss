@@ -1,0 +1,1 @@
+TDAT: public boolean hit clip ( int x , int y , int width , int height ) {  <NL>  / / todo : create package private method rectangle . intersects ( int , int ,  <NL>  / / int , int ) ;  <NL> return get clip bounds ( ) . intersects ( new rectangle ( x , y , width , height ) ) ;  <NL>  }  COM: <s> determines whether or not the specified rectangle intersects the current </s>

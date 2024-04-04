@@ -1,0 +1,1 @@
+TDAT: private int random level ( ) {  <NL> int level = 0 ;  <NL> int r = random seed ;  <NL> int x = r ^ ( r < < 13 ) ;  <NL> x ^ = x > > > 17 ;  <NL> random seed = x ^ ( x < < 5 ) ;  <NL> if ( r < 0 ) {  <NL> while ( ( r < < = 1 ) > 0 )  <NL>  + + level ;  <NL>  }  <NL> return level ;  <NL>  }  COM: <s> returns a random level for inserting a new node </s>

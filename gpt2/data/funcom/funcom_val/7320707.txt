@@ -1,0 +1,1 @@
+TDAT: public enum get enum ( class enum type , string key ) throws invalid param {  <NL> string name = get ( key ) ;  <NL> try {  <NL> return enum . value of ( enum type , name ) ;  <NL>  } catch ( illegal argument exception e ) {  <NL> throw new invalid ( " not an enum of type : " + enum type , key , name ) ;  <NL>  }  <NL>  }  COM: <s> return the config value as an enum </s>

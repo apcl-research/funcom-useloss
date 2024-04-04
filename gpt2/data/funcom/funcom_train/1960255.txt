@@ -1,0 +1,1 @@
+TDAT: public void test get ( ) {  <NL> table . clear ( ) ;  <NL> table . put ( ip1 , mac1 , 0 ) ;  <NL> assert equals ( table . get address ( new ip address ( ( byte ) 10 , ( byte ) 10 ,  <NL>  ( byte ) 10 , ( byte ) 10 ) ) , mac1 ) ;  <NL>  }  COM: <s> tests the get method of the address table </s>

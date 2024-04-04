@@ -1,0 +1,1 @@
+TDAT: public void set factors ( int row , float . . . values ) {  <NL> if ( row > = rows ) {  <NL> return ;  <NL>  }  <NL> int length = values . length < columns ? values . length : columns ;  <NL> int start = row * columns ;  <NL> system . arraycopy ( values , 0 , factors , start , length ) ;  <NL>  }  COM: <s> sets all the factors of a row in the matrix </s>

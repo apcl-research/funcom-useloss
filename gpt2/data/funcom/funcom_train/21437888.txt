@@ -1,0 +1,1 @@
+TDAT: public string get string positions ( ) {  <NL> string builder ss = new string builder ( ) ;  <NL> for ( int i = 0 ; i < positions . length ; i + + ) {  <NL> if ( i > 0 )  <NL> ss . append ( " , " ) ;  <NL> ss . append ( positions [ i ] ) ;  <NL>  }  <NL> return ss . to string ( ) ;  <NL>  }  COM: <s> the list of positions in which the residue could be placed </s>

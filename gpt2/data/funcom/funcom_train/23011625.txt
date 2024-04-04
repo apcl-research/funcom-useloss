@@ -1,0 +1,1 @@
+TDAT: protected void union storages ( data storage ds2 ) {  <NL> int count = ds2 . size ( ) ;  <NL> for ( int i = 0 ; i < count ; i + + ) {  <NL> record rec = ds2 . get record ( i , 0 ) ;  <NL> data . add element ( rec ) ;  <NL> rec . index = data . size ( ) - 1 ;  <NL>  }  <NL>  }  COM: <s> unions two data storages </s>

@@ -1,0 +1,1 @@
+TDAT: public string serialize ( object obj ) {  <NL> return obj . to string ( ) . trim ( ) . replace all ( " & " , " & amp ; " ) . replace all ( " \ " " , " & quot ; " )  <NL>  . replace all ( " < " , " & lt ; " ) . replace all ( " > " , " & gt ; " ) ;  <NL>  }  COM: <s> serialize an object to xml </s>

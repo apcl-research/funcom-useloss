@@ -1,0 +1,1 @@
+TDAT: public data adapter ui get ui ( io operation op ) {  <NL> data adapter ui ui = ( data adapter ui ) synteny op to ui . get ( op ) ;  <NL> if ( ui = = null ) {  <NL> ui = new synteny adapter gui ( op , this ) ;  <NL> synteny op to ui . put ( op , ui ) ;  <NL>  }  <NL> return ui ;  <NL>  }  COM: <s> gets ui for op from cache </s>

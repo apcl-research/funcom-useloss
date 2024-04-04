@@ -1,0 +1,1 @@
+TDAT: public double pdf ( double x ) {  <NL> if ( x < = 0 . 0 )  <NL> throw new illegal argument exception ( ) ;  <NL> double log gamma = fun . log gamma ( freedom / 2 . 0 ) ;  <NL> return math . exp ( ( freedom / 2 . 0 - 1 . 0 ) * math . log ( x / 2 . 0 ) - x / 2 . 0 - log gamma ) / 2 . 0 ;  <NL>  }  COM: <s> returns the probability distribution function </s>

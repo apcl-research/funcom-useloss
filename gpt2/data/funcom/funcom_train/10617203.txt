@@ -1,0 +1,1 @@
+TDAT: public void test crl exception06 ( ) {  <NL> crl exception t e = new crl exception ( null , null ) ;  <NL> assert null ( " get message ( ) must return null " , t e . get message ( ) ) ;  <NL> assert null ( " get cause ( ) must return null " , t e . get cause ( ) ) ;  <NL>  }  COM: <s> test for code crlexception string throwable code constructor </s>

@@ -1,0 +1,1 @@
+TDAT: public void generate sets ( ) {  <NL> for ( string left : this . get lefts ( ) ) {  <NL> this . first sets . put ( left , this . first set ( left ) . to string ( ) ) ;  <NL> this . next sets . put ( left , this . next set ( left ) . to string ( ) ) ;  <NL>  }  <NL>  }  COM: <s> generates all the first and next sets for the grammar </s>

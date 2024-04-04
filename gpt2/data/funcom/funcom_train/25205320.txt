@@ -1,0 +1,1 @@
+TDAT: public void add ( int key , int val ) {  <NL>  <NL> synchronized ( data ) {  <NL> int pos = search ( key ) ;  <NL> while ( pos < size ( ) & & at ( pos ) . get key ( ) = = key ) {  <NL> pos + + ;  <NL>  }  <NL> insert ( new tfm key int ( key , val ) , pos ) ;  <NL>  }  <NL>  }  COM: <s> adds a new key value pair </s>

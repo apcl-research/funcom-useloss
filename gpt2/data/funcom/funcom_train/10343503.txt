@@ -1,0 +1,1 @@
+TDAT: public void paint ( graphics2d g2d , boolean set color ) {  <NL> if ( set color )  <NL> g2d . set color ( m _ color ) ;  <NL>  <NL> final int x = ( int ) m _ x pos ;  <NL> final int y = ( int ) m _ y pos ;  <NL>  <NL> g2d . fill rect ( x - size , y - size , size , size ) ;  <NL>  }  COM: <s> displays the star </s>

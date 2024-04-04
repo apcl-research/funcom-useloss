@@ -1,0 +1,1 @@
+TDAT: / / public int get index of child ( object parent , object child ) {  <NL>  / / javax . swing . tree . default mutable tree node node = ( javax . swing . tree . default mutable tree node ) parent ;  <NL>  / / return node . get index of child ( ( javax . swing . tree . tree node ) child ) ;  <NL>  / / }  COM: <s> returns the index of child in parent </s>

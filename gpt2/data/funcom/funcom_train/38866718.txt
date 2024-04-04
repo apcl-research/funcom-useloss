@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> return " table : " + this . table +  <NL>  " , stn : " + this . stn +  <NL>  " , elem : " + this . elem +  <NL>  " , yr mon : " + this . yr mon +  <NL>  " , yr mon2 : " + this . yr mon2 +  <NL>  " , num recs : " + this . num recs ;  <NL>  }  COM: <s> converts the object to string </s>

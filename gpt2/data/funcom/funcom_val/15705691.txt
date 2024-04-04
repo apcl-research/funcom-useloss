@@ -1,0 +1,1 @@
+TDAT: public constraint lex ( int var [ ] v1 , int var [ ] v2 ) {  <NL> if ( v1 . length ! = v2 . length )  <NL> throw new error ( " the vectors of variables should be of same size for lex " + v1 . length + " and " + v2 . length ) ;  <NL> return create lex ( v1 , v2 , true ) ;  <NL>  }  COM: <s> enforce a strict lexicographic ordering on two vectors of integer </s>

@@ -1,0 +1,1 @@
+TDAT: public dimension get preferred size ( ) {  <NL> if ( is preferred size set ( ) )  <NL> return super . get preferred size ( ) ;  <NL> font metrics fm = get font metrics ( get font ( ) ) ;  <NL> return new dimension ( ( status text = = null ? 0 : fm . string width ( status text ) ) + 5 , fm . get height ( ) + 8 ) ;  <NL>  }  COM: <s> overrides the size from the super </s>

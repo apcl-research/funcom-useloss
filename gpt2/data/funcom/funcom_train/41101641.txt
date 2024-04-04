@@ -1,0 +1,1 @@
+TDAT: public void add integer ( int integer ) {  <NL> byte [ ] elem = new byte [ ] {  <NL>  ( byte ) ( integer > > 24 & 0xff ) ,  <NL>  ( byte ) ( integer > > 16 & 0xff ) ,  <NL>  ( byte ) ( integer > > 8 & 0xff ) ,  <NL>  ( byte ) ( integer & 0xff )  <NL>  } ;  <NL> elements . add element ( elem ) ;  <NL>  }  COM: <s> add an integer to the payload </s>

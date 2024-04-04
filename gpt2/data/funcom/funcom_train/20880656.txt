@@ -1,0 +1,1 @@
+TDAT: public void repaint brush ( ) {  <NL> int x1 = math . min ( start x , end x ) ;  <NL> int y1 = math . min ( start y , end y ) ;  <NL> int x2 = math . max ( start x , end x ) ;  <NL> int y2 = math . max ( start y , end y ) ;  <NL> repaint ( x1 - 128 , y1 - 128 , x2 - x1 + 256 , y2 - y1 + 256 ) ;  <NL>  }  COM: <s> repaint the area containing the brush </s>

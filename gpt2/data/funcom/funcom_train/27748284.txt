@@ -1,0 +1,1 @@
+TDAT: public int read int ( ) throws io exception {  <NL> byte [ ] buf = new byte [ 4 ] ;  <NL> read ( buf ) ;  <NL> return ( ( ( ( ( ( buf [ 3 ] & 0x ff ) < < 8 ) | <NL>  ( buf [ 2 ] & 0x ff ) ) < < 8 ) | <NL>  ( buf [ 1 ] & 0x ff ) ) < < 8 ) | <NL>  ( buf [ 0 ] & 0x ff ) ;  <NL>  }  COM: <s> answer an integer comprised of the next </s>

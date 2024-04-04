@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> string buffer b = new string buffer ( ) ;  <NL> b . append ( " id = " + suite id ) ;  <NL> b . append ( " , midlet to run = " + midlet to run ) ;  <NL> b . append ( " , proxy = " + proxy ) ;  <NL> return b . to string ( ) ;  <NL>  }  COM: <s> returns a string representation of the midlet suite info object </s>

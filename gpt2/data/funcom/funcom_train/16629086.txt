@@ -1,0 +1,1 @@
+TDAT: public void print ( bot bot , string msg ) {  <NL> if ( msg ! = null ) {  <NL> if ( ! msg . starts with ( " < font " ) ) {  <NL> msg = " < font color = # ffffff > " + msg + " < / font > " ;  <NL>  }  <NL> messages . add ( message . obtain ( handler , text , msg ) ) ;  <NL>  }  <NL>  }  COM: <s> prints a string </s>

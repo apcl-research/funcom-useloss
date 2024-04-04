@@ -1,0 +1,1 @@
+TDAT: public void write attribute ( print writer writer , string name , string value ) {  <NL> if ( value = = null ) {  <NL> return ;  <NL>  }  <NL> writer . print ( " " ) ;  <NL> writer . print ( name ) ;  <NL> writer . print ( " = \ " " ) ;  <NL> writer . print ( value ) ;  <NL> writer . print ( " \ " " ) ;  <NL>  }  COM: <s> writes a xml attribute to the given writer </s>

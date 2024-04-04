@@ -1,0 +1,1 @@
+TDAT: public void test find domain bounds ( ) {  <NL> xy dataset dataset = create xy dataset1 ( ) ;  <NL> range r = dataset utilities . find domain bounds ( dataset ) ;  <NL> assert equals ( 1 . 0 , r . get lower bound ( ) , epsilon ) ;  <NL> assert equals ( 3 . 0 , r . get upper bound ( ) , epsilon ) ;  <NL>  }  COM: <s> some tests for the find domain bounds method </s>

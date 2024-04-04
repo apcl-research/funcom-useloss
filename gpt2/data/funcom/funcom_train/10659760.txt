@@ -1,0 +1,1 @@
+TDAT: public void test sasl exception04 ( ) {  <NL> sasl exception t e = new sasl exception ( null , null ) ;  <NL> assert null ( " get message ( ) must return null " , t e . get message ( ) ) ;  <NL> assert null ( " get cause ( ) must return null " , t e . get cause ( ) ) ;  <NL>  }  COM: <s> test for code sasl exception string detail throwable ex code constructor </s>

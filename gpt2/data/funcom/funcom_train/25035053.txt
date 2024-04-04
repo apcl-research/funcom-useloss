@@ -1,0 +1,1 @@
+TDAT: public texture get texture ( string resource name ) throws io exception {  <NL> return get texture ( resource name <NL>  / / , texture filter . nearest filtered texture ) ; / /  <NL>  , texture filter . none ) ;  <NL>  / / , texture filter . linear filtered texture ) ; / /  <NL>  / / , texture filter . mip mapped ) ; / /  <NL>  }  COM: <s> load a texture </s>

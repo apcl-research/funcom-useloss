@@ -1,0 +1,1 @@
+TDAT: protected void set return type ( class return type , q name xml return type ) {  <NL> if ( ! _ is one way & & return type ! = void . class ) {  <NL> super . set return type ( return type , xml return type ) ;  <NL>  }  <NL> else {  <NL>  _ call . set return type ( xml type . axis _ void ) ;  <NL>  }  <NL>  }  COM: <s> set the return type for the call </s>

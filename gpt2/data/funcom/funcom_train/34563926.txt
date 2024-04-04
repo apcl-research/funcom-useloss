@@ -1,0 +1,1 @@
+TDAT: public void update ( final table t ) {  <NL> data = t ;  <NL> model . fire table changed ( null ) ;  <NL> for ( int i = 1 ; i < data . cols ( ) ; i + + ) {  <NL> final table column tc = get column model ( ) . get column ( i ) ;  <NL> tc . set resizable ( false ) ;  <NL> tc . set preferred width ( 30 ) ;  <NL>  }  <NL>  }  COM: <s> updates the table </s>

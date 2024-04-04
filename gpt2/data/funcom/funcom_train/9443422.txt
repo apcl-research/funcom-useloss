@@ -1,0 +1,1 @@
+TDAT: public string get hashable name ( ) {  <NL> string builder result = new string builder ( ) ;  <NL> result . append ( name ( ) ) ;  <NL> for ( parameter info p info : m parameters ) {  <NL> result . append ( " : " ) . append ( p info . type ( ) . full name ( ) ) ;  <NL>  }  <NL> return result . to string ( ) ;  <NL>  }  COM: <s> returns a name consistent with the </s>

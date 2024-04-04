@@ -1,0 +1,1 @@
+TDAT: public boolean is property known ( string property ) {  <NL> string tmp = property . replace ( ' / ' , ' . ' ) ;  <NL> return ( properties . get ( property ) ! = null || <NL>  ( properties . is empty ( ) & & ( db field types . get ( property ) ! = null || <NL> db field types . get ( tmp ) ! = null ) ) ) ;  <NL>  }  COM: <s> checks if a property mapping or table </s>

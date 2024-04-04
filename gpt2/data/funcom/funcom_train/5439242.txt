@@ -1,0 +1,1 @@
+TDAT: public vec2d rot internal ( double angle ) {  <NL> double cos = math . cos ( - angle ) ;  <NL> double sin = math . sin ( - angle ) ;  <NL> double xh = this . x * cos - this . y * sin ;  <NL> this . y = this . x * sin + this . y * cos ;  <NL> this . x = xh ;  <NL> return this ;  <NL>  }  COM: <s> rotates for angle </s>

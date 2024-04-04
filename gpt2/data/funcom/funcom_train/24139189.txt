@@ -1,0 +1,1 @@
+TDAT: private int compute element hash code ( ) {  <NL> int hash code = 1 ;  <NL> iterator < t > i = elements . iterator ( ) ;  <NL> while ( i . has next ( ) ) {  <NL> t obj = i . next ( ) ;  <NL> hash code = 31 * hash code + ( obj = = null ? 0 : obj . hash code ( ) ) ;  <NL>  }  <NL> return hash code ;  <NL>  }  COM: <s> computes hashcode of collection without </s>

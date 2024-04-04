@@ -1,0 +1,1 @@
+TDAT: public void set payload ( byte [ ] payload , int len )  <NL>  { if ( packet _ len > = 12 )  <NL>  { int header _ len = get header length ( ) ;  <NL> for ( int i = 0 ; i < len ; i + + ) packet [ header _ len + i ] = payload [ i ] ;  <NL> packet _ len = header _ len + len ;  <NL>  }  <NL>  }  COM: <s> sets the payload </s>

@@ -1,0 +1,1 @@
+TDAT: public pv node get parent ( ) {  <NL> if ( ( path = = null ) || ( path . length = = 0 ) ) return null ;  <NL>  <NL> pvi [ ] new path = new pvi [ path . length - 1 ] ;  <NL> for ( int i = 0 ; i < new path . length ; i + + ) {  <NL> new path [ i ] = path [ i ] ;  <NL>  }  <NL> return new pv node ( param , new path ) ;  <NL>  }  COM: <s> returns the parent of this node </s>

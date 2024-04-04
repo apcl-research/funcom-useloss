@@ -1,0 +1,1 @@
+TDAT: private void do up ( ) {  <NL> int job num = job list . get selected index ( ) ;  <NL> if ( job num ! = - 1 & & job num ! = 0 ) {  <NL> jt . swap job ( job num , job num - 1 ) ;  <NL> refresh list ( ) ;  <NL> template changed = true ;  <NL> job list . set selected index ( job num - 1 ) ;  <NL>  }  <NL>  }  COM: <s> move a job up in the list </s>

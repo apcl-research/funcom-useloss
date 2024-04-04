@@ -1,0 +1,1 @@
+TDAT: public void finish making element ( element parent ) throws runtime exception {  <NL> double [ ] array = this . get xml content ( ) ;  <NL> if ( array = = null ) {  <NL> log . warn ( " plane must not be empty " ) ;  <NL>  } else if ( array . length ! = 4 ) {  <NL> log . warn ( " plane must have 4 double components " ) ;  <NL>  }  <NL>  }  COM: <s> check plane is ok </s>

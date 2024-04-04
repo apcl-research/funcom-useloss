@@ -1,0 +1,1 @@
+TDAT: public void pre apply ( gl matrix3d left ) {  <NL> pre apply ( left . m00 , left . m01 , left . m02 , left . m03 ,  <NL> left . m10 , left . m11 , left . m12 , left . m13 ,  <NL> left . m20 , left . m21 , left . m22 , left . m23 ,  <NL> left . m30 , left . m31 , left . m32 , left . m33 ) ;  <NL>  }  COM: <s> apply another matrix to the left of this one </s>

@@ -1,0 +1,1 @@
+TDAT: public void dump ref ( xs att group decl decl ) {  <NL> schema tree node new node = new schema tree node ( " attribute group ref \ " { "  <NL>  + decl . get target namespace ( ) + " } " + decl . get name ( ) + " \ " " , decl <NL>  . get locator ( ) ) ;  <NL> this . curr node . add ( new node ) ;  <NL>  }  COM: <s> creates node of attribute group decalration reference </s>

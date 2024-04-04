@@ -1,0 +1,1 @@
+TDAT: private int _ get index ( matrix in , double check x , double check y ) {  <NL> for ( int row = 0 ; row < in . get row count ( ) ; row + + )  <NL> if ( check x = = in . get as double ( row , 0 ) & & check y = = in . get as double ( row , 1 ) )  <NL> return row ;  <NL> return - 1 ;  <NL>  }  COM: <s> finds the index of check x check y in matrix in </s>

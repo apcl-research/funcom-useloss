@@ -1,0 +1,1 @@
+TDAT: private void close all ( list < base token > node list , clean time values clean time values ) {  <NL> tag pos first tag pos = clean time values . _ open tags . find first tag pos ( ) ;  <NL> if ( first tag pos ! = null ) {  <NL> close snippet ( node list , first tag pos , null , clean time values ) ;  <NL>  }  <NL>  }  COM: <s> close all unclosed tags if there are any </s>

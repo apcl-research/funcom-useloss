@@ -1,0 +1,1 @@
+TDAT: public void action click ( component c , component location loc ) {  <NL> if ( loc instanceof j tree location ) {  <NL> tree path path = convert location safely to path ( ( j tree ) c , ( j tree location ) loc ) ;  <NL> if ( path ! = null )  <NL> make visible ( c , path ) ;  <NL>  }  <NL> super . action click ( c , loc ) ;  <NL>  }  COM: <s> click at the given location </s>

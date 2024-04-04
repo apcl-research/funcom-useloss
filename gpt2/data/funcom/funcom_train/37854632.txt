@@ -1,0 +1,1 @@
+TDAT: public void start target ( file path ) {  <NL> try {  <NL> my target path = path ;  <NL> add attribute ( path _ attr , path . get path ( ) ) ;  <NL> open tag ( target _ tag ) ;  <NL>  } catch ( sax exception e ) {  <NL> get debug log ( ) . log severe ( svn log type . default , e ) ;  <NL>  }  <NL>  }  COM: <s> begins an xml tree with the target path for which the </s>

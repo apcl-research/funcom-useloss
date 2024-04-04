@@ -1,0 +1,1 @@
+TDAT: private boolean interpolation parameters valid ( double s low , double s up , int s nr parts ) {  <NL> return s low > = 0 & & s up < = 1 & & s low < s up & & s nr parts > 0 <NL> || s low = = s up & & s nr parts = = 0 ;  <NL>  / / special case included <NL>  }  COM: <s> checks if the given parameters are valid interpolation parameters </s>

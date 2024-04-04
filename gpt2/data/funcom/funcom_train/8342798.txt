@@ -1,0 +1,1 @@
+TDAT: public void set selected item ( final object an object ) {  <NL> if ( ( selected object ! = null & & ! selected object . equals ( an object ) ) || <NL> selected object = = null & & an object ! = null ) {  <NL> selected object = an object ;  <NL> fire contents changed ( this , - 1 , - 1 ) ;  <NL>  }  <NL>  }  COM: <s> set the value of the selected item </s>

@@ -1,0 +1,1 @@
+TDAT: public void test limit to current ( ) {  <NL> list results = new test file finder ( null , 0 ) . find ( current ) ;  <NL> assert equals ( " result size " , 1 , results . size ( ) ) ;  <NL> assert true ( " current dir " , results . contains ( new file ( " . " ) ) ) ;  <NL>  }  COM: <s> test limiting to current directory </s>

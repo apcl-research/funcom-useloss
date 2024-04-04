@@ -1,0 +1,1 @@
+TDAT: protected test info get test info ( test case test ) throws class not found exception , io exception {  <NL> return ( test info ) serializer . read object ( new file ( " / tmp / " + test . get class ( ) . get name ( ) + " . " + test . get name ( ) + " . ser " ) ) ;  <NL>  }  COM: <s> gets the testinfo generated in the remote grid machine </s>

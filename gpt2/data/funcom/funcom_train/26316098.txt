@@ -1,0 +1,1 @@
+TDAT: private void decode armor and internals ( mech mech , int loc , string s ) {  <NL> mech . initialize armor ( integer . parse int ( s . substring ( 2 , 4 ) ) , loc ) ;  <NL> mech . initialize internal ( integer . parse int ( s . substring ( 12 ) ) , loc ) ;  <NL>  }  COM: <s> decodes and sets the mechs armor and internal structure values </s>

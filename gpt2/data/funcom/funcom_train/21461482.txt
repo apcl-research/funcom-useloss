@@ -1,0 +1,1 @@
+TDAT: private entity user make fake user ( string user id , string eid ) {  <NL> if ( eid = = null ) {  <NL> eid = user id ;  <NL>  }  <NL> entity user eu = new entity user ( eid , eid + " @ dev . null " , " first last - " + user id , eid , null , " fake " ) ;  <NL> eu . set id ( user id ) ;  <NL> return eu ;  <NL>  }  COM: <s> creates a fake user based on the user id </s>

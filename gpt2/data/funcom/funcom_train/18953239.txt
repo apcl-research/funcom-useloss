@@ -1,0 +1,1 @@
+TDAT: public string get after text ( ) {  <NL> if ( logger . is debug enabled ( ) ) {  <NL> logger . debug ( " get after text ( ) - start " ) ;  <NL>  }  <NL>  <NL> if ( logger . is debug enabled ( ) ) {  <NL> logger . debug ( " get after text ( ) - end - return value = " + after text ) ;  <NL>  }  <NL> return after text ;  <NL>  }  COM: <s> text to appear after the label </s>

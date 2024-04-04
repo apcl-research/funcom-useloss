@@ -1,0 +1,1 @@
+TDAT: private void set initial values ( ) {  <NL> friends . add ( make friend ( " joe " , " schuler " , 35 ) ) ;  <NL> friends . add ( make friend ( " tim " , " chaplain " , 42 ) ) ;  <NL> friends . add ( make friend ( " bonnie " , " grubb " , 22 ) ) ;  <NL>  }  COM: <s> generate some initial content for our friends list </s>

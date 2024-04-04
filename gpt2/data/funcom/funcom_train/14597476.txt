@@ -1,0 +1,1 @@
+TDAT: public boolean add back link ( base node dtn , boolean mirror ) {  <NL> int old count = back links . length ( ) ;  <NL> back links = back links . base node union ( dtn ) ;  <NL> if ( mirror ) {  <NL> dtn . add fore link ( this , false ) ;  <NL>  }  <NL> return old count ! = back links . length ( ) ;  <NL>  }  COM: <s> adds a backlink to this node </s>

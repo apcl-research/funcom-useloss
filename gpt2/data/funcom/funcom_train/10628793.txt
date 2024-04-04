@@ -1,0 +1,1 @@
+TDAT: public void test long value positive2 ( ) {  <NL> byte a bytes [ ] = { 12 , 56 , 100 , 18 , - 105 , 34 , - 18 , 45 } ;  <NL> long result = 880563758158769709l ;  <NL> long a number = new big integer ( a bytes ) . long value ( ) ;  <NL> assert true ( a number = = result ) ;  <NL>  }  COM: <s> convert a number to a positive long value </s>

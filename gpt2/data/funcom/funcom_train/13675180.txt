@@ -1,0 +1,1 @@
+TDAT: public void set view style list ( string list ) {  <NL> string [ ] styles = string util . split ( list , " , " ) ;  <NL> m _ view styles . clear ( ) ;  <NL> for ( int i = 0 ; i < styles . length ; i + + ) {  <NL> add view style ( styles [ i ] ) ;  <NL>  }  <NL>  } / / set view style list  COM: <s> convenience method for setting the supported </s>

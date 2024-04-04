@@ -1,0 +1,1 @@
+TDAT: public node type pair compile expr ( expr e ) throws has cl exception {  <NL> e = e . transform ( this ) ;  <NL> typeable te = e . simplify ( this , false ) ;  <NL> type t = te . check ( this , new hash map < string , type > ( ) ) ;  <NL> return new node type pair ( te . generate ( this ) , t ) ;  <NL>  }  COM: <s> compile an expression relative to this module </s>

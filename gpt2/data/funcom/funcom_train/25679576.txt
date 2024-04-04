@@ -1,0 +1,1 @@
+TDAT: private void insert block ( block b ) {  <NL> last id + + ;  <NL> b . set id ( last id ) ;  <NL> int zeros = b . get zeros ( ) ;  <NL> id mapping . put ( b . get id ( ) , b ) ;  <NL> get cache item ( zeros , b . get sum ( ) ) . add ( b ) ;  <NL>  }  COM: <s> insert block into database </s>

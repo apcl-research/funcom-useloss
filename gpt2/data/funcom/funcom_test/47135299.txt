@@ -1,0 +1,1 @@
+TDAT: private string implode ( string [ ] array , string separator ) {  <NL> string str = " " ;  <NL> int i = 0 ;  <NL> while ( i < array . length - 1 ) {  <NL> str + = array [ i ] + separator ;  <NL> i + + ;  <NL>  }  <NL> if ( i < array . length ) {  <NL> str + = array [ i ] ;  <NL>  }  <NL> return str ;  <NL>  }  COM: <s> implodes an array of strings to a string </s>

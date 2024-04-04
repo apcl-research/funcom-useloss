@@ -1,0 +1,1 @@
+TDAT: public int compare to ( object arg0 ) {  <NL> int i = new integer ( get weight ( ) ) . compare to ( new integer ( ( ( abstract key store import type ) arg0 ) . get weight ( ) ) ) ;  <NL> return i = = 0 ? get name ( ) . compare to ( ( ( abstract key store import type ) arg0 ) . get name ( ) ) : i ;  <NL>  }  COM: <s> compare this type with another based on the weight </s>

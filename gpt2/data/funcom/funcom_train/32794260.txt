@@ -1,0 +1,1 @@
+TDAT: public void out a if expression ( a if expression ie ) {  <NL> exp result = new exp if ( get var ( ie . get if branch ( ) ) , get var ( ie . get then branch ( ) ) ,  <NL> get var ( ie . get else branch ( ) ) ) ;  <NL> set var ( ie , result ) ;  <NL>  }  COM: <s> if a then b else c endif </s>

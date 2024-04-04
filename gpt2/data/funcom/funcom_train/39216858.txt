@@ -1,0 +1,1 @@
+TDAT: public void test next ( ) {  <NL> char tokenizer tokenizer = new char tokenizer ( " one , two , three " , ' , ' ) ;  <NL> for ( int i = 0 ; tokenizer . has more tokens ( ) ; i + + ) {  <NL> string s = tokenizer . next token ( ) ;  <NL> if ( i < 3 )  <NL> assert not null ( s ) ;  <NL> else <NL> assert null ( s ) ;  <NL>  }  <NL>  }  COM: <s> test method next </s>

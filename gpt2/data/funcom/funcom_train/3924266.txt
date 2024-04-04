@@ -1,0 +1,1 @@
+TDAT: public boolean equals ( object o ) {  <NL>  / / return ( o ! = null & & o . get class ( ) . equals ( this . get class ( ) ) & & this . class name . equals ( ( ( id ) o ) . class name ) & & this . id = = ( ( id ) o ) . id ) ;  <NL> return to string ( ) . equals ( " " + o ) ;  <NL>  }  COM: <s> ids are equal if class name without package and id match </s>

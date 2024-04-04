@@ -1,0 +1,1 @@
+TDAT: public list get a es ( ) {  <NL> try {  <NL> aes = ( list ) server . invoke ( ae service name , " list a es " , null , null ) ;  <NL> return aes ;  <NL>  } catch ( exception x ) {  <NL> log . error ( " exception occured in get a es : " + x . get message ( ) , x ) ;  <NL> return null ;  <NL>  }  <NL>  }  COM: <s> return list of all configured ae </s>

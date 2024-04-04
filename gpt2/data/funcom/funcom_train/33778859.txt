@@ -1,0 +1,1 @@
+TDAT: public void invoke stop actions ( ) {  <NL> registered action stop action ;  <NL> for ( iterator < registered action > i = stop actions . iterator ( ) ; i . has next ( ) ; ) {  <NL> stop action = i . next ( ) ;  <NL> stop action . invoke ( new object [ ] { new point in time ( start point , p . frame count ) } ) ;  <NL>  }  <NL>  }  COM: <s> invokes the stop actions </s>

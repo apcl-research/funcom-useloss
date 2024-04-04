@@ -1,0 +1,1 @@
+TDAT: public void apply hard char formatting ( style with properties style , before after ba ) {  <NL> palette . get i18n ( ) . apply language ( style , true , false , ba ) ;  <NL> apply font ( style , true , false , ba , new context ( ) ) ;  <NL> if ( ! ba . is empty ( ) ) { ba . add ( " " , " " ) ; }  <NL>  }  COM: <s> p apply hard character formatting no inheritance </s>

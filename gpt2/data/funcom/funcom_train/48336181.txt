@@ -1,0 +1,1 @@
+TDAT: public void characters ( char ch [ ] , int start , int length ) {  <NL> if ( ( new string ( ch , start , length ) ) . trim ( ) . length ( ) ! = 0 ) {  <NL> data . add value ( new string ( ch , start , length ) . trim ( ) ) ;  <NL>  }  <NL>  }  COM: <s> receive notification of non element and non attribute characters ignoring whitespace </s>

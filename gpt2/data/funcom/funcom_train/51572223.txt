@@ -1,0 +1,1 @@
+TDAT: public void test audit file get set ( ) throws exception {  <NL> uncle uncle = new uncle ( ) ;  <NL> assert null ( uncle . get audit file ( ) ) ;  <NL> file audit file = new file ( " my dir / my project . audit " ) ;  <NL> uncle . set audit file ( audit file ) ;  <NL> assert equals ( audit file , uncle . get audit file ( ) ) ;  <NL>  }  COM: <s> test audit file get set </s>

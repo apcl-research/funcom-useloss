@@ -1,0 +1,1 @@
+TDAT: private int get packet byte ( int channel index , int buffer index ) {  <NL>  / / # define get _ packet _ byte ( c , b )  <NL>  / / ( bx _ selected _ controller ( ( c ) ) . buffer [ ( b ) ] )  <NL> int result = channels [ channel index ] . get selected controller ( ) . get buffer ( ) [ buffer index ] ;  <NL>  <NL> return result ;  <NL>  }  COM: <s> get packet byte </s>

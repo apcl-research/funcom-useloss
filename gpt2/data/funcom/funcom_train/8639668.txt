@@ -1,0 +1,1 @@
+TDAT: public page stamp create page stamp ( pdf imported page i page ) {  <NL> int page num = i page . get page number ( ) ;  <NL> pdf reader reader = i page . get pdf reader instance ( ) . get reader ( ) ;  <NL> pdf dictionary page n = reader . get page n ( page num ) ;  <NL> return new page stamp ( reader , page n , this ) ;  <NL>  }  COM: <s> create a page stamp </s>

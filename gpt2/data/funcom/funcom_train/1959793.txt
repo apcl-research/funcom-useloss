@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> int a0 = ( address [ 0 ] + 256 ) % 256 ;  <NL> int a1 = ( address [ 1 ] + 256 ) % 256 ;  <NL> int a2 = ( address [ 2 ] + 256 ) % 256 ;  <NL> int a3 = ( address [ 3 ] + 256 ) % 256 ;  <NL> return a0 + " . " + a1 + " . " + a2 + " . " + a3 ;  <NL>  }  COM: <s> get the ipaddress in the dotted string representation </s>

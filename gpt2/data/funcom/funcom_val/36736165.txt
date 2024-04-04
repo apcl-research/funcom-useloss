@@ -1,0 +1,1 @@
+TDAT: public boolean accept ( final java . io . file p1 ) {  <NL> boolean ext exists = false ;  <NL> for ( int i = 0 ; i < my ext . length ; i + + ) ext exists| = p1 . get name ( ) . to lower case ( ) . last index of ( " . " + my ext [ i ] ) ! = - 1 ;  <NL> return ext exists ;  <NL>  }  COM: <s> the accept criteria based on the file name </s>

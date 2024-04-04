@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> return " edge " +  <NL>  " from ( # " + from ( ) . get id ( ) + " , " + which _ succ ( ) + " ) " +  <NL>  " to ( # " + to ( ) . get id ( ) + " , " + which _ pred ( ) + " ) " ;  <NL>  }  COM: <s> returns a human readable representation of the edge </s>

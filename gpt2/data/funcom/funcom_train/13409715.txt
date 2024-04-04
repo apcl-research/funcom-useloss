@@ -1,0 +1,1 @@
+TDAT: public void set image data ( image data data ) {  <NL> for ( int i = 0 ; i < data . width ; i + + ) {  <NL> for ( int j = 0 ; j < data . height ; j + + ) {  <NL> data . set pixel ( i , j , ( int ) ( heightmap . get true height at point ( i , j ) ) ) ;  <NL>  }  <NL>  }  <NL> image data = data ;  <NL>  }  COM: <s> sets the image data and fill it with algorithm generated </s>

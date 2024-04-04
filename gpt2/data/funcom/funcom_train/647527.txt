@@ -1,0 +1,1 @@
+TDAT: public object get allele ( ) {  <NL> list alleles = new vector ( ) ;  <NL> gene gene ;  <NL> int size = m _ genes . size ( ) ;  <NL> for ( int i = 0 ; i < size ; i + + ) {  <NL> gene = ( gene ) m _ genes . get ( i ) ;  <NL> alleles . add ( gene . get allele ( ) ) ;  <NL>  }  <NL> return alleles ;  <NL>  }  COM: <s> retrieves the value represented by this gene </s>

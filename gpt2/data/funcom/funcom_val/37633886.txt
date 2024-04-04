@@ -1,0 +1,1 @@
+TDAT: private void configure button names ( ) {  <NL> next str = i18n . get ( " gui . wizard . button . nextstr " ) ;  <NL> back str = i18n . get ( " gui . wizard . button . backstr " ) ;  <NL> cancel str = i18n . get ( " gui . wizard . button . cancelstr " ) ;  <NL> finish str = i18n . get ( " gui . wizard . button . finishstr " ) ;  <NL>  }  COM: <s> get the button names </s>

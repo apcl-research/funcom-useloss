@@ -1,0 +1,1 @@
+TDAT: public void test equal date and calendar ( ) {  <NL> assert equals ( " equal date and calendar " , date utils . lenient compare ( today calendar1 , today date1 ) , 0 ) ;  <NL> assert equals ( " equal calendar and date " , date utils . lenient compare ( today date1 , today calendar1 ) , 0 ) ;  <NL>  }  COM: <s> tesing equal date and calendar </s>

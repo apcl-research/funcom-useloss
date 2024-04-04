@@ -1,0 +1,1 @@
+TDAT: public void send car arrives ( car m _ car , object m _ source ) {  <NL> for ( int i = 0 ; i < m _ listeners . length ; i + + ) {  <NL> if ( m _ listeners [ i ] ! = null & & ! ( m _ listeners [ i ] instanceof control panel ) ) {  <NL> m _ listeners [ i ] . car arrives ( m _ car ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> car was created and sent to the next component </s>

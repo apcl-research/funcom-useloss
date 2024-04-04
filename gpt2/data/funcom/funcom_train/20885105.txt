@@ -1,0 +1,1 @@
+TDAT: public void test text content ( ) {  <NL> text content dto dto = new text content dto ( ) ;  <NL> dto . int field = 21689 ;  <NL> assert true ( j sefa test util . serialize ( xml , dto ) . index of ( " 21689 " ) > = 0 ) ;  <NL> j sefa test util . assert repeated round trip succeeds ( xml , dto ) ;  <NL>  }  COM: <s> tests it for a text content </s>

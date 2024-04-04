@@ -1,0 +1,1 @@
+TDAT: public void save update ( ) {  <NL> model . update row ( pers . get surname ( ) , pers . get first name ( ) , pers . get address ( ) , pers . get zip ( ) , pers . get city ( ) , pers <NL>  . get birthday ( ) , actual row ) ;  <NL>  }  COM: <s> the action save after edit </s>

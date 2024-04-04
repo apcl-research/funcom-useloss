@@ -1,0 +1,1 @@
+TDAT: public void set range ( range range , boolean turn off auto range , boolean notify ) {  <NL> double size = range . get upper bound ( ) - range . get lower bound ( ) ;  <NL> if ( size > this . period ) {  <NL> this . period = size ;  <NL>  }  <NL> super . set range ( range , turn off auto range , notify ) ;  <NL>  }  COM: <s> sets a new axis range </s>

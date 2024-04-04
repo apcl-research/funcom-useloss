@@ -1,0 +1,1 @@
+TDAT: public long long value ( ) {  <NL> try {  <NL>  / / miscellaneous . println ( hex value ( start , end ) ) ;  <NL> return long . parse long ( hex value ( 0 , data . length - 1 ) , 16 ) ;  <NL>  } catch ( exception d ) {  <NL> d . print stack trace ( ) ;  <NL> miscellaneous . exit ( ) ;  <NL>  }  <NL> return 0 ;  <NL>  }  COM: <s> return the 32 bit long value </s>

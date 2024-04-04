@@ -1,0 +1,1 @@
+TDAT: public void add reference ( context c ) {  <NL> if ( ! refs . contains ( c ) ) {  <NL> string alias = c . get db identity ( ) ;  <NL> refs . add ( c ) ;  <NL> references . add ( new string [ ] { alias , " ids " , alias + " ids " , alias , this . get db identity ( ) } ) ;  <NL>  }  <NL>  }  COM: <s> add a foreign table reference to this context </s>

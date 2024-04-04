@@ -1,0 +1,1 @@
+TDAT: public boolean send ( message msg ) throws io exception {  <NL> if ( closed ) {  <NL> throw new io exception ( " broken connection " ) ;  <NL>  }  <NL>  <NL> if ( log . is enabled for ( level . debug ) ) {  <NL> log . debug ( " sending a message " ) ;  <NL>  }  <NL> msgr . send message b ( msg , null , null ) ;  <NL> return true ;  <NL>  }  COM: <s> sends a message </s>

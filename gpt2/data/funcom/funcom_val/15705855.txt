@@ -1,0 +1,1 @@
+TDAT: public void set edge and publish ( int i , int j ) throws contradiction exception {  <NL> assert ( 1 < = i & & i < = nb left vertices & & 1 < = j & & j < = nb right vertices ) ;  <NL> set match ( i , j ) ;  <NL> vars [ i ] . instantiate ( j + min value , c indices [ i ] ) ;  <NL>  }  COM: <s> implement the other main event </s>

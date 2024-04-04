@@ -1,0 +1,1 @@
+TDAT: public loop open loop ( list < ? extends object > content , string . . . fields ) {  <NL> loop parent = ( loop ) parameters . get ( " forloop " ) ;  <NL> loop child = new loop ( content , parent , this , fields ) ;  <NL> parameters . put ( " forloop " , child ) ;  <NL> return child ;  <NL>  }  COM: <s> opens a loop on this opject </s>

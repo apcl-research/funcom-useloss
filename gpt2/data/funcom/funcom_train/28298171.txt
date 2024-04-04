@@ -1,0 +1,1 @@
+TDAT: private void add point selection ( ) {  <NL> trans base selection sel = map . get selection ( ) ;  <NL> if ( sel ! = null & & sel . is point ( ) ) {  <NL> trans base node n = map . get node ( sel . get from ( ) ) ;  <NL> if ( n ! = null ) add node to sel ( n , true ) ;  <NL>  }  <NL>  }  COM: <s> add a new selection if a point is selected </s>

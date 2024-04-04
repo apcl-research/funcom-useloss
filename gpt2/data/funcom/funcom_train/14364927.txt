@@ -1,0 +1,1 @@
+TDAT: private void fill actions bars ( i action bars action bars _ p , list < i action > actions _ p ) {  <NL> for ( i action action : actions _ p ) {  <NL> if ( action . is enabled ( ) ) {  <NL> action bars _ p . set global action handler ( action . get id ( ) , action ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> fill action bars </s>

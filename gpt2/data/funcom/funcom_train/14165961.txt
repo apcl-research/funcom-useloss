@@ -1,0 +1,1 @@
+TDAT: public void show regular som ( ) {  <NL> if ( ! regular display & & som bg ! = null & & data bg ! = null ) {  <NL> som bg . display regular som ( som bg . get topology ( ) ) ;  <NL> data bg . show data points ( false ) ;  <NL> vis tg . set axis visible ( false ) ;  <NL> regular display = true ;  <NL>  }  <NL>  }  COM: <s> displays the som in regular coordinates i </s>

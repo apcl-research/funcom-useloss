@@ -1,0 +1,1 @@
+TDAT: public long range intersection ( long range r ) {  <NL> if ( r . a < a ) return r . intersection ( this ) ;  <NL> if ( b < r . a ) return new long range ( 0l , 0l ) ;  <NL> if ( r . b < = b ) return r ;  <NL> return new long range ( r . a , b ) ;  <NL>  }  COM: <s> compute the intersection of two ranges </s>

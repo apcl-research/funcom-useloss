@@ -1,0 +1,1 @@
+TDAT: private void advance run state ( int target state ) {  <NL> for ( ; ; ) {  <NL> int c = ctl . get ( ) ;  <NL> if ( run state at least ( c , target state ) || <NL> ctl . compare and set ( c , ctl of ( target state , worker count of ( c ) ) ) )  <NL> break ;  <NL>  }  <NL>  }  COM: <s> transitions run state to given target or leaves it alone if </s>

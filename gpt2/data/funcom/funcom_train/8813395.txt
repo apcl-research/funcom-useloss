@@ -1,0 +1,1 @@
+TDAT: private void update progress bar ( ) {  <NL>  <NL> if ( max = = 0 ) {  <NL> bar . update progress ( 1 , " " ) ;  <NL>  } else {  <NL> bar . update progress ( new double ( counter ) / new double ( max ) ,  <NL> counter + " / " + max + " " + i18n . constants . refresh project list project loaded ( ) + " . " ) ;  <NL>  }  <NL>  }  COM: <s> update the progress bar state </s>

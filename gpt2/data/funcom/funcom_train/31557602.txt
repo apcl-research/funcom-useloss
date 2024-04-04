@@ -1,0 +1,1 @@
+TDAT: public float distance to ( point3d point ) {  <NL>  / / pythagorean distance - - yet again !  <NL> float dx = this . x - point . x ;  <NL> float dy = this . y - point . y ;  <NL> float dz = this . z - point . z ;  <NL> return ( float ) math . sqrt ( dx * dx + dy * dy + dz * dz ) ;  <NL>  }  COM: <s> compute the pythagorean distance between two points </s>

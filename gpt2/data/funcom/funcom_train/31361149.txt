@@ -1,0 +1,1 @@
+TDAT: public void set position ( int x , int y ) {  <NL> if ( has card ) card layer . set bounds ( x , y , card _ width , card _ height ) ;  <NL> select layer . set bounds ( x , y , card _ width , card _ height ) ;  <NL> block layer . set bounds ( x , y , card _ width , card _ height ) ;  <NL>  }  COM: <s> method set position </s>

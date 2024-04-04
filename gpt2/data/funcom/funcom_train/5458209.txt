@@ -1,0 +1,1 @@
+TDAT: public void draw buff rectangle ( int x1 , int y1 , int x2 , int y2 , color c ) {  <NL> point2d . double a = new point2d . double ( x1 , y1 ) ;  <NL> point2d . double b = new point2d . double ( x2 , y2 ) ;  <NL> draw buff rectangle ( a , b , c ) ;  <NL>  }  COM: <s> draws a rectangle out of 2 sets of coordinates for corner points </s>

@@ -1,0 +1,1 @@
+TDAT: protected jc expression parse lbl expr ( int pos , jml token jml token ) {  <NL>  / / the jml token is already scanned <NL> name n = ident ( ) ;  <NL> jc expression e = parse expression ( ) ;  <NL> return to p ( jml f . at ( pos ) . jml lbl expression ( jml token , n , e ) ) ;  <NL>  }  COM: <s> parses identifier expression </s>

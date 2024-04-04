@@ -1,0 +1,1 @@
+TDAT: / / / / / / / / public void selection event ( object selectionsource ) {  <NL>  / / / / / / / /  <NL>  / / / / / / / / for ( selection listener sl : textview . get listeners ( ) ) {  <NL>  / / / / / / / / sl . selection event ( this ) ;  <NL>  / / / / / / / / }  <NL>  / / / / / / / / }  COM: <s> this event occurs when something in the text view has been selected </s>

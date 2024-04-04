@@ -1,0 +1,1 @@
+TDAT: public int array with ( final int new int ) {  <NL> final int [ ] new ints = new int [ ints . length + 1 ] ;  <NL> system . arraycopy ( ints , 0 , new ints , 0 , ints . length ) ;  <NL> new ints [ ints . length ] = new int ;  <NL> return new int array ( new ints ) ;  <NL>  }  COM: <s> creates a code int array code with an appended code int code </s>

@@ -1,0 +1,1 @@
+TDAT: private void set pos ( int x , int y ) {  <NL> point p = new point ( x , y ) ;  <NL> this . tier = calculate tier number ( p ) ;  <NL> this . pixel pos = get pixel position ( x , y , tier ) ;  <NL> this . tier pos = get tier position ( x , y , tier ) ;  <NL> this . bp = get base pair ( x , y , tier ) ;  <NL>  }  COM: <s> updates the necessary position state </s>

@@ -1,0 +1,1 @@
+TDAT: public void test get increment ( ) {  <NL> system . out . println ( " test get increment " ) ;  <NL>  <NL> int i = 1 ;  <NL> boolean b = true ;  <NL> j graph g = new j graph ( new default graph model ( ) ) ;  <NL> rule x = new rule ( i , b , g ) ;  <NL> double d ;  <NL> d = x . get increment ( ) ;  <NL>  }  COM: <s> test of get increment method of class rule </s>

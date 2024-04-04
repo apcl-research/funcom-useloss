@@ -1,0 +1,1 @@
+TDAT: public void set body color ( color color ) {  <NL> this . body color [ redindex ] = ( ( double ) color . get red ( ) / 255 . 0f ) ;  <NL> this . body color [ greenindex ] = ( ( double ) color . get green ( ) / 255 . 0f ) ;  <NL> this . body color [ blueindex ] = ( ( double ) color . get blue ( ) / 255 . 0f ) ;  <NL>  }  COM: <s> set the robots body color </s>

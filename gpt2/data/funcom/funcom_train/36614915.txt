@@ -1,0 +1,1 @@
+TDAT: private boolean is legal word ( string word ) {  <NL> int i = 0 ;  <NL> for ( ; i < word . length ( ) ; + + i ) {  <NL> if ( word . char at ( i ) < 96 || word . char at ( i ) > 123 ) {  <NL> break ;  <NL>  }  <NL>  }  <NL> return ( i = = ( word . length ( ) ) ) ;  <NL>  }  COM: <s> checks if a word is a valid word or not </s>

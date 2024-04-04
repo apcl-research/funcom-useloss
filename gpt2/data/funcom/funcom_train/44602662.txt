@@ -1,0 +1,1 @@
+TDAT: public void test _ result _ 01 ( ) {  <NL> compile and exec given statement (  <NL>  " x . java " ,  <NL>  " class x { \n " +  <NL>  " / / @ ensures \\result = = 10 ; \n " +  <NL>  " public int m ( ) { return 10 ; } \n " +  <NL>  " } \n " ,  <NL>  " new x ( ) . m ( ) " ) ;  <NL>  }  COM: <s> is result translated </s>

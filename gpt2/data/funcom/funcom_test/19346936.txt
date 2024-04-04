@@ -1,0 +1,1 @@
+TDAT: public void test is browse ( ) throws io exception , record exception {  <NL>  <NL> assert false ( " file should be editable " , po file rep . is browse ( ) ) ;  <NL>  <NL> file view tmp = new file view ( po file name , po copy book , true ) ;  <NL> assert true ( " file should not be editable " , tmp . is browse ( ) ) ;  <NL>  <NL>  }  COM: <s> check i browse function </s>

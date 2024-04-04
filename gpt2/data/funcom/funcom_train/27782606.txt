@@ -1,0 +1,1 @@
+TDAT: public cell merge ( cell m , cell e ) {  <NL> if ( m . cmd = = e . cmd & & m . ref = = e . ref & & m . skip = = e . skip ) {  <NL> cell c = new cell ( m ) ;  <NL> c . cnt + = e . cnt ;  <NL> return c ;  <NL>  } else {  <NL> return null ;  <NL>  }  <NL>  }  COM: <s> merge the given cells and return the resulting cell </s>

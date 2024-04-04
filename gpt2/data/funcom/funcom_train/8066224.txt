@@ -1,0 +1,1 @@
+TDAT: public void execute cmd ( cmd c , input event ie ) {  <NL> if ( c = = null )  <NL> return ;  <NL> try {  <NL> c . do it ( ) ;  <NL>  } catch ( java . lang . throwable ex ) {  <NL> log . debug ( " while executing " + c + " on event " + ie <NL>  + " the following error occured : " , ex ) ;  <NL>  }  <NL>  }  COM: <s> the editor acts as a shell for cmds </s>

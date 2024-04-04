@@ -1,0 +1,1 @@
+TDAT: public void mouse dragged ( int x , int y , int mouse x , int mouse y ) {  <NL> if ( selected box ! = null & & ! gui . get gui status ( ) & & ! debug gui . get debug gui status ( ) ) {  <NL>  <NL> selected box . move to ( mouse x , mouse y , ( int ) selected box . z ( ) ) ;  <NL>  }  <NL>  }  COM: <s> this method also takes care of the the bounding area </s>

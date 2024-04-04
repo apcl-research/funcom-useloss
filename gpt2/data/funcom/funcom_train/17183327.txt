@@ -1,0 +1,1 @@
+TDAT: public void add ( n501070324 _ posto trabalho pt ) {  <NL> if ( pt . get numero ( ) = = integer . min _ value ) {  <NL> pt . set numero ( + + next id ) ;  <NL>  } else {  <NL> if ( pt . get numero ( ) > next id ) {  <NL> next id = pt . get numero ( ) ;  <NL>  }  <NL>  }  <NL>  <NL> list postos trabalho . add ( pt ) ;  <NL>  }  COM: <s> add a posto trabalho to the list </s>

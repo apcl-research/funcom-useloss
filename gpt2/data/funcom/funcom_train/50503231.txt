@@ -1,0 +1,1 @@
+TDAT: public void load ( ) {  <NL> vo select box . remove all items ( ) ;  <NL> list vos = settings . get value objects ( ) ;  <NL> iterator iter = vos . iterator ( ) ;  <NL> while ( iter . has next ( ) ) {  <NL> value object vo = ( value object ) iter . next ( ) ;  <NL> vo select box . add item ( vo ) ;  <NL>  }  <NL>  }  COM: <s> this method loads the editors values </s>

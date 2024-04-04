@@ -1,0 +1,1 @@
+TDAT: public animation create anim ( list < buffered image > images , int frame duration , int start frame , int total frame count , boolean loop ) {  <NL> animation anim = new animation ( loop , total frame count ) ;  <NL> add frames ( anim , images , frame duration , start frame , total frame count ) ;  <NL> return anim ;  <NL>  }  COM: <s> creates an animation </s>

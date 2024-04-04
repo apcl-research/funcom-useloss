@@ -1,0 +1,1 @@
+TDAT: public void set coordinates ( int x1 , int y1 , int x2 , int y2 ) {  <NL> logger . print ( d _ id ( ) + " . set coordinates ( " + x1 + " , " + y1 + " , " + x2 + " , " + y2 + " ) " ) ;  <NL> this . x1 = x1 ;  <NL> this . x2 = x2 ;  <NL> this . y1 = y1 ;  <NL> this . y2 = y2 ;  <NL>  }  COM: <s> sets the coordinates of the current rectangle </s>

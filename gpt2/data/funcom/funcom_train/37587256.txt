@@ -1,0 +1,1 @@
+TDAT: public void text get line1 ( ) throws bad location exception {  <NL> final string s = " a\n " ;  <NL>  _ doc . insert string ( 0 , s , null ) ;  <NL>  _ doc . set current location ( 2 ) ;  <NL> assert equals ( " # 0 . 0 " , 2 , _ doc . get current line ( ) ) ;  <NL>  }  COM: <s> test returning second line in a two line document </s>

@@ -1,0 +1,1 @@
+TDAT: public void set title ( string title ) {  <NL> this . title = title ;  <NL> string builder out = inner frame . open script buffer ( ) ;  <NL> if ( out ! = null ) {  <NL> out . append ( " wa . set window title ( ' " ) ;  <NL> out . append ( w util . escape s quote ( title ) ) ;  <NL> out . append ( " ' ) ; \n " ) ;  <NL>  }  <NL>  }  COM: <s> set this windows title </s>

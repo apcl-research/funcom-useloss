@@ -1,0 +1,1 @@
+TDAT: public void player shoot ( ) {  <NL> for ( player bullet b : player bullets ) {  <NL> if ( ! b . is active ( ) ) {  <NL> b . move to ( ship . get x ( ) + ship . bounds . width ( ) / 2 - 1 , ship . get y ( ) ) ;  <NL> b . set active ( true ) ;  <NL> return ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> attempts to add a player bullet to the game </s>

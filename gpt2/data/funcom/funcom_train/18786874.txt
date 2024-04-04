@@ -1,0 +1,1 @@
+TDAT: public void remove property ( object bean , object value ) {  <NL> assert ( ( bean ! = null ) & & ( value ! = null ) ) ;  <NL> class [ ] types = { value . get class ( ) } ;  <NL> object [ ] params = { value } ;  <NL> reflect utilities . execute ( bean , remove method name , types , params ) ;  <NL>  }  COM: <s> removes the item from the indexed property </s>

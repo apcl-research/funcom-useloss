@@ -1,0 +1,1 @@
+TDAT: private q model index encode ( string name , int row ) {  <NL> int id = find id ( name ) ;  <NL> if ( id < 0 ) {  <NL> data data = new data ( name , row , + + next id ) ;  <NL> id = data . id ;  <NL> indexes . put ( id , data ) ;  <NL>  }  <NL> return create index ( row , 0 , id ) ;  <NL>  }  COM: <s> look up the id for the given path and return the index for </s>

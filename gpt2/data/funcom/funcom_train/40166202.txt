@@ -1,0 +1,1 @@
+TDAT: public string get id ( ) {  <NL> string builder sb = new string builder ( get name ( ) ) . append ( ' _ ' ) . append ( get player1 ( ) . get username ( ) ) . append ( ' _ ' ) . append ( get player2 ( ) . get username ( ) ) . append ( ' _ ' ) ;  <NL> return sb . to string ( ) ;  <NL>  }  COM: <s> returns a unique string id representation of the game </s>

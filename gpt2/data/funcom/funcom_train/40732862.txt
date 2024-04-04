@@ -1,0 +1,1 @@
+TDAT: public java script object get data ( ) {  <NL> return get data impl ( file url ( ) , get input name ( ) , get file name ( ) , get basename ( ) , get server response ( ) , get server info ( ) . message , get status ( ) . to string ( ) , get server info ( ) . size ) ;  <NL>  }  COM: <s> returns a java script object properties with the url of the uploaded file </s>

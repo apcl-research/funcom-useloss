@@ -1,0 +1,1 @@
+TDAT: public void test test class ( ) {  <NL> assert equals ( " to string test . test class [ names = "  <NL>  + " string [ ] [ { \ " heinz\ " , \ " joern\ " , \ " pieter\ " , \ " herman\ " "  <NL>  + " , \ " john\ " } ] , total iq = 900 ] " , to string facade <NL>  . to string ( new test class ( ) ) ) ;  <NL>  }  COM: <s> tests support for classes </s>

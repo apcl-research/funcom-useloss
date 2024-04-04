@@ -1,0 +1,1 @@
+TDAT: public item container get items ( int x , int y ) {  <NL> if ( x < 0 || x > = this . width || <NL> y < 0 || y > = this . height )  <NL> return null ;  <NL>  <NL> if ( this . items [ x ] [ y ] = = null )  <NL> this . items [ x ] [ y ] = new item container ( ) ;  <NL>  <NL> return this . items [ x ] [ y ] ;  <NL>  }  COM: <s> get item container by coordinate </s>

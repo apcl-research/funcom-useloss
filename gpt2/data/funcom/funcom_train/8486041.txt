@@ -1,0 +1,1 @@
+TDAT: / * public at object base _ new ( at object [ ] initargs ) throws interpreter exception {  <NL>  / / root . new ( @ initargs )  <NL> at object root = evaluator . get global lexical scope ( ) ;  <NL> return root . meta _ invoke ( root , nat nil . _ new _ name _ , nat table . at value ( initargs ) ) ;  <NL>  } * /  COM: <s> instantiate the tt root tt object </s>

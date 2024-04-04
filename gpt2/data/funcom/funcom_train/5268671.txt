@@ -1,0 +1,1 @@
+TDAT: public void into byte array ( byte [ ] data , int offset ) {  <NL> save game handler . int into byte array ( type , data , offset + 0 ) ;  <NL> save game handler . int into byte array ( hitpoints , data , offset + 4 ) ;  <NL> save game handler . int into byte array ( total hitpoints , data , offset + 8 ) ;  <NL>  }  COM: <s> save this monster into a byte array </s>

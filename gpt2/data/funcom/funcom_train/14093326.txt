@@ -1,0 +1,1 @@
+TDAT: public void test read file from class context ( ) {  <NL> class clz = this . get class ( ) ;  <NL> string file name = " xml util t . class " ;  <NL> input stream actual return = m _ xml util . read file from class context ( clz , file name ) ;  <NL> assert not null ( " input stream is null " , actual return ) ;  <NL>  }  COM: <s> test read file from class context </s>

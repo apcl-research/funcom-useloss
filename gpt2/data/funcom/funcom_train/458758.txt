@@ -1,0 +1,1 @@
+TDAT: public string last command ( ) {  <NL> if ( last command = = null ) return " n / a " ;  <NL> string builder str = new string builder ( last command ) . append ( " \n " ) ;  <NL> for ( string s : last sql ) str . append ( s ) . append ( " \n " ) ;  <NL> return str . to string ( ) ;  <NL>  }  COM: <s> returns last call to util db routines executed by this instance of </s>

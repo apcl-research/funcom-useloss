@@ -1,0 +1,1 @@
+TDAT: public animation get city anim ( city city , color color ) {  <NL> return city . can be captured ( ) ?  <NL> anim lib . get city anim ( city . get img row id ( ) , color , " " ) :  <NL> anim lib . get city anim ( city . get img row id ( ) + anim lib . neutral _ city _ offset , color , " " ) ;  <NL>  }  COM: <s> get a city animation </s>

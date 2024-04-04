@@ -1,0 +1,1 @@
+TDAT: private string get arg ( string str , int off , int len ) {  <NL> if ( off < len & & str . char at ( off ) = = ' { ' ) {  <NL> int end = str . index of ( ' } ' , off + 1 ) ;  <NL> if ( end > 0 ) {  <NL> return str . substring ( off + 1 , end ) ;  <NL>  }  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> parse out an argument from the format string </s>

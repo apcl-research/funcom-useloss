@@ -1,0 +1,1 @@
+TDAT: public void new season ( ) {  <NL> team stats = new vector < team stats > ( ) ;  <NL> team stats group = new vector < team stats > ( ) ;  <NL> team stats league = new vector < team stats > ( ) ;  <NL> this . team stats total = new team stats ( this , null ) ;  <NL> this . get sponsoring ( ) . new season ( ) ;  <NL>  }  COM: <s> reset team stats etc </s>

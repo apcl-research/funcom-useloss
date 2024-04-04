@@ -1,0 +1,1 @@
+TDAT: private void hex size action performed ( action event e ) {  <NL> context . hex size size = btn normal size . is selected ( ) ? context . hex size . normal : context . hex size . big ;  <NL> ctx . put ( context . property . hex _ size , size . to string ( ) ) ;  <NL> game panel . set hex size ( size ) ;  <NL>  }  COM: <s> sets new hexagons size </s>

@@ -1,0 +1,1 @@
+TDAT: public void paint ( int x , int y , int draw flags ) {  <NL> int [ ] tl = get top left corner ( x , y , draw flags ) ;  <NL> x = tl [ 0 ] ;  <NL> y = tl [ 1 ] ;  <NL>  <NL>  / / draw our slice <NL> wrapped . paint at ( x , y ) ;  <NL>  }  COM: <s> draw flags contains the graphics flags </s>

@@ -1,0 +1,1 @@
+TDAT: protected void translate impl ( int dx , int dy ) {  <NL>  _ x1 + = dx ;  <NL>  _ y1 + = dy ;  <NL>  _ x2 + = dx ;  <NL>  _ y2 + = dy ;  <NL>  _ x + = dx ;  <NL>  _ y + = dy ; / / dont calc bounds because _ w and _ h are unchanged <NL> fire prop change ( " bounds " , null , null ) ;  <NL>  }  COM: <s> translate this fig </s>

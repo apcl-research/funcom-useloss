@@ -1,0 +1,1 @@
+TDAT: private boolean is delimiter ( char c ) {  <NL> final boolean not a delimiter = ( c > = ' 0 ' & & c < = ' 9 ' ) || <NL>  ( c > = ' a ' & & c < = ' z ' ) || <NL>  ( c > = ' a ' & & c < = ' z ' ) ;  <NL> return ! not a delimiter ;  <NL>  }  COM: <s> returns true if the character is not a letter or digit </s>

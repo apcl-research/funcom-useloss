@@ -1,0 +1,1 @@
+TDAT: public string full path to string ( ) {  <NL> string builder sb = new string builder ( 500 ) ;  <NL> path node p ;  <NL> for ( p = this ; p ! = null ; p = p . next ) {  <NL> sb . append ( p . to string ( ) ) ;  <NL> sb . append ( " \n " ) ;  <NL>  }  <NL> return sb . to string ( ) ;  <NL>  }  COM: <s> another debug helper </s>

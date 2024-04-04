@@ -1,0 +1,1 @@
+TDAT: public void add int field value ( string field name , integer field value ) {  <NL> validate field type ( field name , data type . int ) ;  <NL> if ( int data = = null ) {  <NL> int data = new multi value map < integer > ( ) ;  <NL>  }  <NL> int data . add field value ( field name , field value ) ;  <NL>  }  COM: <s> add an integer value to the given field </s>

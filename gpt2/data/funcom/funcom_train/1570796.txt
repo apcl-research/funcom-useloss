@@ -1,0 +1,1 @@
+TDAT: public void println ( string [ ] [ ] values ) {  <NL> for ( int i = 0 ; i < values . length ; i + + ) {  <NL> println ( values [ i ] ) ;  <NL>  }  <NL> if ( values . length = = 0 ) {  <NL> this . out . println ( ) ;  <NL>  }  <NL> this . out . flush ( ) ;  <NL> this . new line = true ;  <NL>  }  COM: <s> print several lines of comma separated values </s>

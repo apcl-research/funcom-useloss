@@ -1,0 +1,1 @@
+TDAT: public void clip rect ( int x , int y , int width , int height ) {  <NL> org . eclipse . swt . graphics . rectangle clip = this . gc . get clipping ( ) ;  <NL> clip . intersects ( x , y , width , height ) ;  <NL> this . gc . set clipping ( clip ) ;  <NL>  }  COM: <s> sets the clipping to the intersection of the current clip region and </s>

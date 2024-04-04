@@ -1,0 +1,1 @@
+TDAT: protected int get names width ( font metrics metrics ) {  <NL> int max width = 0 ;  <NL> for ( int i = 1 ; i < = get max x value ( ) ; i + + ) {  <NL> max width = math . max ( max width , metrics . string width ( ( string ) genes [ i - 1 ] ) ) ;  <NL>  }  <NL> return max width ;  <NL>  }  COM: <s> returns max width of gene indices </s>

@@ -1,0 +1,1 @@
+TDAT: public void set shape ( shape in shape ) {  <NL> super . set shape ( in shape ) ;  <NL> if ( in shape instanceof point ) {  <NL> point temp point = ( point ) in shape ;  <NL> my x field . set text ( " " + temp point . get x ( ) ) ;  <NL> my y field . set text ( " " + temp point . get y ( ) ) ;  <NL>  }  <NL>  }  COM: <s> set the point into the panel </s>

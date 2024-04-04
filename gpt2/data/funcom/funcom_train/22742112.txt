@@ -1,0 +1,1 @@
+TDAT: protected void start app ( ) {  <NL> if ( control = = null ) {  <NL> init application ( ) ;  <NL> e manager . enqueue ( new event ( this , event . type _ app , event . sub _ app _ startup ) ) ;  <NL>  } else {  <NL> e manager . enqueue ( new event ( this , event . type _ app , event . sub _ app _ restart ) ) ;  <NL>  }  <NL>  }  COM: <s> called at application startup </s>

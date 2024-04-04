@@ -1,0 +1,1 @@
+TDAT: public void unlock ( ) throws io exception {  <NL> synchronized ( this ) {  <NL> if ( task ! = null ) task . cancel ( ) ;  <NL> task = null ;  <NL>  }  <NL> if ( is open ( ) = = false ) return ;  <NL> send ( new smb com close ( fid , 0l ) , new smb com blank response ( ) ) ;  <NL> opened = false ;  <NL>  }  COM: <s> unlocks the resource </s>

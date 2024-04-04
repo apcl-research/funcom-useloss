@@ -1,0 +1,1 @@
+TDAT: public double get max side length ( ) {  <NL> return math . max ( point2d . distance ( p1 . x , p1 . y , p2 . x , p2 . y ) ,  <NL> math . max ( point2d . distance ( p2 . x , p2 . y , p3 . x , p3 . y ) ,  <NL> point2d . distance ( p3 . x , p3 . y , p1 . x , p1 . y ) ) ) ;  <NL>  }  COM: <s> returns the length of this triangles longest side </s>

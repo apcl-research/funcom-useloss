@@ -1,0 +1,1 @@
+TDAT: public void test length ( ) throws expression exception {  <NL> assert true ( exi . eval int ( " $ { string length } " , properties , format helper ) = = 14 ) ;  <NL> assert true ( exi . eval int ( " $ { string + ' 123 ' length } " , properties , format helper ) = = 18 ) ;  <NL>  }  COM: <s> tests the length operation </s>

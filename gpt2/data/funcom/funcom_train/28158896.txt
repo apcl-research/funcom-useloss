@@ -1,0 +1,1 @@
+TDAT: public tile map to tile map ( ) {  <NL>  <NL> final int [ ] t = new int [ tiles ] ;  <NL> for ( int i = 0 ; i < tiles ; i + + ) {  <NL> t [ i ] = i ;  <NL>  }  <NL>  <NL> final tile map map = new tile map ( this , tiles x , tiles y , t ) ;  <NL> return map ;  <NL>  }  COM: <s> create a tile map which simply looks like this entire tileset </s>

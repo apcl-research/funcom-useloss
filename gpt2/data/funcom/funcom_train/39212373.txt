@@ -1,0 +1,1 @@
+TDAT: public void refresh ( ) {  <NL> tree . get display ( ) . async exec ( new runnable ( ) {  <NL> public void run ( ) {  <NL> point s = tree . get size ( ) ;  <NL> tree . set size ( s . x - 1 , s . y - 1 ) ;  <NL> tree . set size ( s . x , s . y ) ;  <NL>  }  <NL>  } ) ;  <NL>  }  COM: <s> its a bug of swt </s>

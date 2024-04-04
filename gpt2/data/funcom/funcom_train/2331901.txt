@@ -1,0 +1,1 @@
+TDAT: public void before insert all of from to ( int index , abstract short list other , int from , int to ) {  <NL> int length = to - from + 1 ;  <NL> this . before insert dummies ( index , length ) ;  <NL> this . replace from to with from ( index , index + length - 1 , other , from ) ;  <NL>  }  COM: <s> inserts the part of the specified list between code other from code </s>

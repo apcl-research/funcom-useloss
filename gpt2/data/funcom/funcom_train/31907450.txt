@@ -1,0 +1,1 @@
+TDAT: public boolean match ( object o1 , object o2 ) {  <NL> if ( key1 ! = null ) {  <NL> if ( ! key1 . equals ( o1 ) ) {  <NL> return false ;  <NL>  }  <NL>  } else if ( o1 ! = null ) {  <NL> return false ;  <NL>  }  <NL> if ( key2 ! = null ) {  <NL> return key2 . equals ( o2 ) ;  <NL>  }  <NL> return o2 = = null ;  <NL>  }  COM: <s> whether this entry match the given keys </s>

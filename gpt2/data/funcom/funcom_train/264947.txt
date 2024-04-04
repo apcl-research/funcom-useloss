@@ -1,0 +1,1 @@
+TDAT: public void set value at ( object obj , int row , int col ) {  <NL> if ( display numbering ) {  <NL> if ( col > 0 )  <NL> model . set value at ( obj , index list [ row ] , col - 1 ) ;  <NL>  } else <NL> model . set value at ( obj , index list [ row ] , col ) ;  <NL>  }  COM: <s> implements table model by forwarding the message set value at substitutes </s>

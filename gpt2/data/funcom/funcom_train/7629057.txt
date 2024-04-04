@@ -1,0 +1,1 @@
+TDAT: public void acquire ( ) {  <NL> synchronized ( m binder ) {  <NL> if ( m ref counted ? ( + + m ref count > 0 ) : ( ! m held ) ) {  <NL> try {  <NL> m service . acquire wifi lock ( m binder , m lock type , m tag ) ;  <NL>  } catch ( remote exception ignore ) {  <NL>  }  <NL> m held = true ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> locks the wi fi radio on until </s>

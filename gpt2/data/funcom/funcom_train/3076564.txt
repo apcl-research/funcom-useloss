@@ -1,0 +1,1 @@
+TDAT: public void add view value ( string view ) {  <NL> string val = view . trim ( ) ;  <NL> for ( int i = 0 ; i < this . view value . size ( ) ; i + + )  <NL> if ( ( ( string ) this . view value . get ( i ) ) . equals ( val ) ) return ;  <NL> this . view value . add ( val ) ;  <NL>  }  COM: <s> adds a line to the client spec view value </s>

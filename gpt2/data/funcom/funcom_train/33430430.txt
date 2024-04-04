@@ -1,0 +1,1 @@
+TDAT: public boolean is within bounds ( final int map x , final int map y ) {  <NL> return map x > = min point . get x ( ) & & map x < = max point . get x ( ) & & map y > = min point . get y ( )  <NL>  & & map y < = max point . get y ( ) ;  <NL>  }  COM: <s> is given position on tile map within map bounds </s>

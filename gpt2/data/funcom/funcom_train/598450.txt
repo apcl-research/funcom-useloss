@@ -1,0 +1,1 @@
+TDAT: private void set integer at ( int data , int at ) {  <NL> buffer [ offset + at + + ] = ( byte ) ( data > > 24 ) ;  <NL> buffer [ offset + at + + ] = ( byte ) ( data > > 16 ) ;  <NL> buffer [ offset + at + + ] = ( byte ) ( data > > 8 ) ;  <NL> buffer [ offset + at ] = ( byte ) data ;  <NL>  }  COM: <s> set an integer at specified offset in network order </s>

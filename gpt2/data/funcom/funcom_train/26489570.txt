@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> return " user header = { " +  <NL>  " user id = " + user id + " } , { " +  <NL>  " template group = " + template group + " } , { " +  <NL>  " country = " + country + " } , { " +  <NL>  " language = " + language + ' } ' ;  <NL>  }  COM: <s> returns the user header represented as a string </s>

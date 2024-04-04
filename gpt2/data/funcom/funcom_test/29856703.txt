@@ -1,0 +1,1 @@
+TDAT: public void set object ( int r , object v ) {  <NL> if ( v instanceof byte [ ] ) {  <NL> byte [ ] b = ( byte [ ] ) v ;  <NL> set color ( r , new color ( reformat ( b [ 0 ] ) , reformat ( b [ 1 ] ) , reformat ( b [ 2 ] ) ) ) ;  <NL>  } else {  <NL> set color ( r , ( color ) v ) ;  <NL>  }  <NL>  }  COM: <s> sets the field value of given record </s>

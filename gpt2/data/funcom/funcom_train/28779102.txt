@@ -1,0 +1,1 @@
+TDAT: private void call method ( string method name , boolean [ ] req params , class [ ] class params , object [ ] obj params ) {  <NL> j unit utils . check on wrong args ( new just class with required args in method ( ) , method name , req params , class params ,  <NL> obj params ) ;  <NL>  }  COM: <s> this is method introduced just to reduce code duplication </s>

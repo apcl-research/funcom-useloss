@@ -1,0 +1,1 @@
+TDAT: public boolean is possible position ( int i x , int i y , int i wid , int i hei ) {  <NL> if ( i x < 160 || i y < 160 || i x + i wid > 800 || i y + i hei > 640 ) {  <NL> return false ;  <NL>  }  <NL> return o data world . is possible ground position ( i x , i y , i wid , i hei ) ;  <NL>  }  COM: <s> indicates whether a position is possible </s>

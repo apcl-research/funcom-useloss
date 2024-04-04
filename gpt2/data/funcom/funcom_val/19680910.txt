@@ -1,0 +1,1 @@
+TDAT: public void get and save ( ) {  <NL> my check box . set relation ( ( string ) ( ( ( j combo box ) info vector . element at ( 1 ) ) . get selected item ( ) ) ) ;  <NL>  / / system . out . println ( " is " + ( string ) ( ( ( j combo box ) info vector . element at ( 1 ) ) . get selected item ( ) ) ) ;  <NL>  }  COM: <s> this function is used to get the info and save it </s>

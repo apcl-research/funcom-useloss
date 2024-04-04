@@ -1,0 +1,1 @@
+TDAT: private font get font ( string font string ) {  <NL> string [ ] s = font string . split ( " , " ) ;  <NL> return new font ( s [ 0 ] . trim ( ) , integer . parse int ( s [ 1 ] . trim ( ) ) , integer . parse int ( s [ 2 ] . trim ( ) ) ) ;  <NL>  }  COM: <s> parses the font string of format code fontname style size code </s>

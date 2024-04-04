@@ -1,0 +1,1 @@
+TDAT: private color get quality color ( double the quality ) {  <NL> int q = ( int ) ( 0 . 75 * ( 255 * the quality / 100 ) ) ;  <NL>  / / color quality color = new color ( 0x00 , 0x66 , 0xff , q ) ;  <NL> color quality color = new color ( 0x ea , 0x ff , 0x35 , q ) ;  <NL> return quality color ;  <NL>  }  COM: <s> generate a color to symbolize the link quality </s>

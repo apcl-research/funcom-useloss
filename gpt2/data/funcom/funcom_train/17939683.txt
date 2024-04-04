@@ -1,0 +1,1 @@
+TDAT: public void remove ban ( string banmask ) {  <NL> string [ ] bans = new string [ banlist . size ( ) ] ;  <NL> banlist . to array ( bans ) ;  <NL> for ( int i = 0 ; i < bans . length ; i + + )  <NL> if ( bans [ i ] . starts with ( banmask ) )  <NL> banlist . remove ( bans [ i ] ) ;  <NL>  }  COM: <s> removes a banmask from the arraylist </s>

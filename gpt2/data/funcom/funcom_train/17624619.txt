@@ -1,0 +1,1 @@
+TDAT: public void update title ( ) {  <NL> string type = this . settings . get string ( this . settings . get game type ( ) . get title id ( ) ) ;  <NL>  ( ( j frame ) this . get parent ( ) . get parent ( ) . get parent ( ) ) . set title ( settings . get string ( " title " ) + " - " + type ) ;  <NL>  }  COM: <s> updates game window title depending on game type </s>

@@ -1,0 +1,1 @@
+TDAT: public void test1096282 ( ) {  <NL> serial date d = serial date . create instance ( 29 , 2 , 2004 ) ;  <NL> d = serial date . add years ( 1 , d ) ;  <NL> serial date expected = serial date . create instance ( 28 , 2 , 2005 ) ;  <NL> assert true ( d . is on ( expected ) ) ;  <NL>  }  COM: <s> a test for bug report 1096282 now fixed </s>

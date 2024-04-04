@@ -1,0 +1,1 @@
+TDAT: public shopping cart model get model ( ) {  <NL> return new shopping cart model ( c _ id , sc _ date , sc _ sub _ total , sc _ tax , sc _ ship _ cost ,  <NL> sc _ total , sc _ c _ fname , sc _ c _ lname , sc _ c _ discount , cart , null ) ;  <NL>  }  COM: <s> returns the full data of the cart </s>

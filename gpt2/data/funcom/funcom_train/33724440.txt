@@ -1,0 +1,1 @@
+TDAT: private bn text field get bn text field3 ( ) {  <NL> if ( bn text field3 = = null ) {  <NL> bn text field3 = new bn text field ( ) ;  <NL> bn text field3 . set path ( new path ( " this . street " ) ) ;  <NL> bn text field3 . set model provider ( get my data source ( ) ) ;  <NL>  }  <NL> return bn text field3 ;  <NL>  }  COM: <s> this method initializes bn text field3 </s>

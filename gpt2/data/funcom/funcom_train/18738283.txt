@@ -1,0 +1,1 @@
+TDAT: public void test _ missing ctor in introduced class ( ) {  <NL> file test base = new file ( base dir , " test a " ) ;  <NL> run source and binary testcase ( test base , new string [ ] { " top4 . java " , " middle4 . java " , " bottom4 . java " } ,  <NL> new string [ ] { " aspect x4 . java " } , true , false ) ;  <NL>  }  COM: <s> three classes top4 middle4 bottom4 </s>

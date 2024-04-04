@@ -1,0 +1,1 @@
+TDAT: public void set type ( string str type ) {  <NL> if ( str type . equals ignore case ( " open " ) ) {  <NL> type = arc2d . open ;  <NL>  } else if ( str type . equals ignore case ( " pie " ) ) {  <NL> type = arc2d . pie ;  <NL>  } else if ( str type . equals ignore case ( " chord " ) ) {  <NL> type = arc2d . chord ;  <NL>  }  <NL>  }  COM: <s> set the type of arc </s>

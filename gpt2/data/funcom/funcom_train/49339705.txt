@@ -1,0 +1,1 @@
+TDAT: public void set image ( int i ) {  <NL> if ( i > = 0 & & i < image . length ) {  <NL> current image = i ;  <NL> repaint ( ) ;  <NL>  } else {  <NL> throw new index out of bounds exception ( " player size = " + image . length + " , index " + i + " out of range . " ) ;  <NL>  }  <NL>  }  COM: <s> sets displays the image i and repaints the canvas </s>

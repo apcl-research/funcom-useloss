@@ -1,0 +1,1 @@
+TDAT: public boolean admits ( int num int , int num long , int num double , int num string ) {  <NL> return ( num int = = number of ints ) & & ( num long = = number of longs ) & & ( num double = = number of doubles ) & & ( num string = = number of strings ) ;  <NL>  }  COM: <s> does this event type accept the supplied number of attributes of each type </s>

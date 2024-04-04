@@ -1,0 +1,1 @@
+TDAT: public void clear counters ( ) {  <NL> this . hit count . set ( 0 ) ;  <NL> this . miss count not found . set ( 0 ) ;  <NL> this . miss count expired . set ( 0 ) ;  <NL> this . miss count soft ref . set ( 0 ) ;  <NL> this . remove hit count . set ( 0 ) ;  <NL> this . remove miss count . set ( 0 ) ;  <NL>  }  COM: <s> clears the hit and miss counters </s>

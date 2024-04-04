@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> if ( root . length = = 0 )  <NL> return " " ;  <NL> else if ( root . length = = 1 )  <NL> return root [ 0 ] ;  <NL> string path = root [ 0 ] ;  <NL> for ( int i = 1 ; i < root . length ; i + + )  <NL> path + = path _ sep + root [ i ] ;  <NL> return path ;  <NL>  }  COM: <s> return a textual representation of this class path </s>

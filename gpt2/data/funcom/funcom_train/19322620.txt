@@ -1,0 +1,1 @@
+TDAT: public int compare to ( object o ) {  <NL> if ( o = = null ) { return - 1 ; }  <NL> m let argument tmp = ( m let argument ) o ;  <NL> compare to builder builder = new compare to builder ( ) ;  <NL> builder . append ( get type ( ) , tmp . get type ( ) ) ;  <NL>  <NL> return builder . to comparison ( ) ;  <NL>  }  COM: <s> compare according to type </s>

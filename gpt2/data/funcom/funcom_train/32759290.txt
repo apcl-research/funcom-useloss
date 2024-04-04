@@ -1,0 +1,1 @@
+TDAT: private string pad ( string str label ) {  <NL> int sz lbl = str label . length ( ) ;  <NL> string buffer buf label = new string buffer ( str label ) ;  <NL>  <NL> for ( int i = sz lbl ; i < int _ label _ len ; i + + )  <NL> buf label . append ( " " ) ;  <NL>  <NL> return buf label . to string ( ) ;  <NL>  }  COM: <s> pads the given string with whitespace until it </s>

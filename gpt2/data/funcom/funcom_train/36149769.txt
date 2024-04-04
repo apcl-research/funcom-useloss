@@ -1,0 +1,1 @@
+TDAT: private double sum x sq ( ) {  <NL> double sum = 0 ;  <NL> for ( int i = 0 ; i < x . size ( ) ; + + i ) {  <NL> sum + = ( ( double ) x . element at ( i ) ) . double value ( ) *  <NL>  ( ( double ) x . element at ( i ) ) . double value ( ) ;  <NL>  }  <NL> return sum ;  <NL>  }  COM: <s> returns the sum of sqaures of the x values </s>

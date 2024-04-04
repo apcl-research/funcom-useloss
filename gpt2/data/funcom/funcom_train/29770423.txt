@@ -1,0 +1,1 @@
+TDAT: protected void post news ( post spec ps , string target , news item [ ] news , int amount ) {  <NL> for ( int i = 0 ; i < amount & & i < news . length ; i + + ) {  <NL> send message ( target , ps . get formatter ( ) . format news item announcement ( ps , news [ i ] ) ) ;  <NL>  }  <NL>  <NL>  }  COM: <s> posts given news array to the given target channel or nickname </s>

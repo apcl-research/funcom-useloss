@@ -1,0 +1,1 @@
+TDAT: public x var binding for var ( x var v ) {  <NL> x promise p = ( ( x native var ) v ) . nfp ( this ) ;  <NL> if ( p ! = null & & p . term ( ) instanceof x var & & ! p . term ( ) . equals ( v ) ) {  <NL> return ( x native var ) p . term ( ) . nf ( this ) ;  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> return the term v is bound to in this constraint and null </s>

@@ -1,0 +1,1 @@
+TDAT: private string replace ( string sql ) {  <NL> string result = sql ;  <NL> for ( map . entry < string , string > entry : var replacement . entry set ( ) ) {  <NL> result = text . replace ( result , entry . get key ( ) , entry . get value ( ) ) . trim ( ) ;  <NL>  }  <NL> return result ;  <NL>  }  COM: <s> applies the variable replacement to the given string </s>

@@ -1,0 +1,1 @@
+TDAT: public void parse ( ) throws exception {  <NL> if ( ( this . filename . starts with ( " http : / / " ) ) || <NL>  ( this . filename . starts with ( " https : / / " ) ) ) this . parse from url ( ) ;  <NL> else this . parse from reader ( this . get reader from file ( this . filename ) ) ;  <NL>  }  COM: <s> parses the rss file </s>

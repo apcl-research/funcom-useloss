@@ -1,0 +1,1 @@
+TDAT: public string to string cache ( ) {  <NL> double perc = 0 ;  <NL> if ( cache hit > 0 ) perc = ( ( int ) ( 10000 * ( ( ( double ) cache miss ) / ( ( double ) cache hit ) ) ) ) / 100 ;  <NL> return " cache size : " + cache pdf . size ( ) + " \t miss / hit : " + cache miss + " / " + cache hit + " ( " + perc + " % ) " ;  <NL>  }  COM: <s> some cache statistics </s>

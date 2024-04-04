@@ -1,0 +1,1 @@
+TDAT: private void direct solve ( ) {  <NL> int k = m - 1 ;  <NL> u [ k ] . assign ( f [ k ] ) ;  <NL> if ( transpose ) {  <NL> lu . set lu ( lu . get lu ( ) . view dice ( ) ) ;  <NL> lu . solve ( u [ k ] ) ;  <NL> lu . set lu ( lu . get lu ( ) . view dice ( ) ) ;  <NL>  } else <NL> lu . solve ( u [ k ] ) ;  <NL>  }  COM: <s> solves directly at the coarsest level </s>

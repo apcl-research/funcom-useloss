@@ -1,0 +1,1 @@
+TDAT: public color get color ( int x , int y ) {  <NL> if ( ( ( buffered image ) get image ( ) ) . get alpha raster ( ) . get sample ( x , y , 0 ) = = 0 ) {  <NL> return null ;  <NL>  } else {  <NL> return new color ( ( ( buffered image ) get image ( ) ) . get rgb ( x , y ) ) ;  <NL>  }  <NL>  }  COM: <s> returns the color of the pixel localized at code x code </s>

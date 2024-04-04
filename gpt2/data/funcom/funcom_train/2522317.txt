@@ -1,0 +1,1 @@
+TDAT: public void put all ( map < ? extends k , ? extends v > map ) {  <NL> iterator < ? extends k > i = map . key set ( ) . iterator ( ) ;  <NL> while ( i . has next ( ) ) {  <NL> k key = i . next ( ) ;  <NL> this . put ( key , map . get ( key ) ) ;  <NL>  }  <NL>  }  COM: <s> copies the specified map into this map </s>

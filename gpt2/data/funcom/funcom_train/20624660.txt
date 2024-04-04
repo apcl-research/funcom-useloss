@@ -1,0 +1,1 @@
+TDAT: protected string get gmt date ( ) {  <NL> date d = new date ( ) ;  <NL> date format df = new simple date format ( " mmm dd yyyy hh : mm : ss ' gmt ' " ,  <NL> locale . us ) ;  <NL> df . set time zone ( time zone . get time zone ( " africa / casablanca " ) ) ;  <NL> return df . format ( d ) ;  <NL>  }  COM: <s> return todays date in a gmt format </s>

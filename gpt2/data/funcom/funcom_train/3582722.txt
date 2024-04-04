@@ -1,0 +1,1 @@
+TDAT: public void paint edge ( graphics g , edge e , int x1 , int y1 , int x2 , int y2 ) {  <NL> this . tg2d . set delegate ( ( graphics2d ) g ) ;  <NL> paint edge ( tg2d , e , x1 , y1 , x2 , y2 ) ;  <NL>  }  COM: <s> overridded to wrap passed graphics in transforming graphics then call </s>

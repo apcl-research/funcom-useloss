@@ -1,0 +1,1 @@
+TDAT: public void paint ( graphics g ) {  <NL>  <NL> this . make medium font ( g ) ;  <NL>  <NL> g . set color ( 255 , 255 , 255 ) ;  <NL> g . fill rect ( 0 , 0 , get width ( ) , get height ( ) ) ;  <NL>  <NL> g . set color ( 0 , 0 , 0 ) ;  <NL>  <NL> this . draw key conf ( g ) ;  <NL>  <NL>  }  COM: <s> paints this screen </s>

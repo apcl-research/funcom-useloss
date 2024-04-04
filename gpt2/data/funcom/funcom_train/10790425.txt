@@ -1,0 +1,1 @@
+TDAT: public void set columns ( column [ ] cols ) {  <NL> column [ ] cur = get columns ( ) ;  <NL> for ( int i = 0 ; i < cur . length ; i + + )  <NL> remove column ( cur [ i ] ) ;  <NL>  <NL> if ( cols ! = null )  <NL> for ( int i = 0 ; i < cols . length ; i + + )  <NL> add column ( cols [ i ] ) ;  <NL>  }  COM: <s> set the columns the constraint spans </s>

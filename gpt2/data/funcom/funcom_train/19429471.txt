@@ -1,0 +1,1 @@
+TDAT: public void dump ( print stream s , int depth ) {  <NL> for ( enumeration e = signatures . elements ( ) ; e . has more elements ( ) ; ) {  <NL> signature sig = ( signature ) e . next element ( ) ;  <NL> pad ( s , depth ) ;  <NL> s . println ( " method : " + sig . fqn ( ) ) ;  <NL>  }  <NL>  }  COM: <s> dump the contents of this method to standard output </s>

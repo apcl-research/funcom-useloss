@@ -1,0 +1,1 @@
+TDAT: public void paint ( graphics g , int offs0 , int offs1 , shape bounds , j text component c ) {  <NL> if ( offs0 ! = offs1 ) {  <NL> try {  <NL> offs1 = draw highlight ( g , offs0 , offs1 , c ) ;  <NL> draw marks ( g , offs0 , offs1 , c ) ;  <NL>  } catch ( bad location exception e ) {  <NL>  }  <NL>  }  <NL>  }  COM: <s> pinta o highlight </s>

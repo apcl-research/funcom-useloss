@@ -1,0 +1,1 @@
+TDAT: public string get path ( ) throws service exception {  <NL> string path = get folder ( ) . get path ( ) , name = get name ( ) ;  <NL> if ( name = = null || path = = null )  <NL> return null ;  <NL> return path + ( path . ends with ( " / " ) ? " " : " / " ) + name ;  <NL>  }  COM: <s> returns the path to the mail item </s>

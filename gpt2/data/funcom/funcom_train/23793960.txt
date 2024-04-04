@@ -1,0 +1,1 @@
+TDAT: public lookup switch ( operand value , operand unknown1 , operand unknown2 , branch operand default target , branch profile operand default branch profile , int num var ops ) {  <NL> super ( value , unknown1 , unknown2 , default target , default branch profile , num var ops ) ;  <NL>  }  COM: <s> constructor for lookup switch </s>

@@ -1,0 +1,1 @@
+TDAT: public void scale ( final double sx , final double sy ) {  <NL>  / / [ a b c d xx yy ]  <NL> m [ 0 ] = sx * m [ 0 ] ;  <NL> m [ 1 ] = sx * m [ 1 ] ;  <NL> m [ 2 ] = sy * m [ 2 ] ;  <NL> m [ 3 ] = sy * m [ 3 ] ;  <NL>  }  COM: <s> creates a scaled copy of this matrix </s>

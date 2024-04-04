@@ -1,0 +1,1 @@
+TDAT: public void call service and check ( ) throws exception {  <NL> string xml reply = post xml ( get service uri ( ) ,  <NL>  _ soap request . replace ( " $ { endpoint name } " , _ endpoint name ) , " urn : "  <NL>  + _ ws name ) ;  <NL> assert equals ( _ soap reply , xml reply ) ;  <NL>  }  COM: <s> perform a complete request </s>

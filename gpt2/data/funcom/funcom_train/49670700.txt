@@ -1,0 +1,1 @@
+TDAT: private void create label released ( ) {  <NL> label released = new label ( shell , swt . none ) ;  <NL> label released . set text ( " released : " ) ;  <NL> label released . set font ( shared style . font _ bold ) ;  <NL> label released . set layout data ( shared style . relative to ( label version , logo ) ) ;  <NL>  }  COM: <s> creates label that says released </s>

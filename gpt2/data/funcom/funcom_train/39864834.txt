@@ -1,0 +1,1 @@
+TDAT: private void write hex ( int i ) throws io exception {  <NL> int cursor = 8 ;  <NL> do {  <NL> hex [ - - cursor ] = hex _ digits [ i & 0xf ] ;  <NL>  } while ( ( i > > > = 4 ) ! = 0 ) ;  <NL> socket out . write ( hex , cursor , hex . length - cursor ) ;  <NL>  }  COM: <s> equivalent to but cheaper than writing integer </s>

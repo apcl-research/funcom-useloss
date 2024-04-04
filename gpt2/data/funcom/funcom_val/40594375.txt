@@ -1,0 +1,1 @@
+TDAT: public void test single element ( ) {  <NL> element div = factory . create div builder ( ) . text ( " hello world " ) . finish ( ) ;  <NL> assert true ( " div " . equals ignore case ( div . get tag name ( ) ) ) ;  <NL> assert equals ( " hello world " , div . get inner text ( ) ) ;  <NL>  }  COM: <s> single element with text </s>

@@ -1,0 +1,1 @@
+TDAT: public int hash code ( ) {  <NL>  / / add the hash codes of the name and class name properties <NL> int result = 0 ;  <NL> if ( m name ! = null ) {  <NL> result + = m name . hash code ( ) ;  <NL>  }  <NL> if ( m class name ! = null ) {  <NL> result + = m class name . hash code ( ) ;  <NL>  }  <NL> return result ;  <NL>  }  COM: <s> gets the hash code for this object </s>

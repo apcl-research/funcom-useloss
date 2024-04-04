@@ -1,0 +1,1 @@
+TDAT: public void display terrain ( graphics2d g , map map , tile tile , int x , int y ) {  <NL> display base tile ( g , map , tile , x , y , true ) ;  <NL> display tile items ( g , map , tile , x , y ) ;  <NL>  / / display unexplored borders ( g , map , tile , x , y ) ;  <NL>  }  COM: <s> displays the given tile onto the given graphics2 d object at the </s>

@@ -1,0 +1,1 @@
+TDAT: public int get image height ( image img ) {  <NL> double h = 0 . 0 ;  <NL>  <NL> for ( int i = 0 ; i < 10 ; i + + ) {  <NL> h = img . get height ( image label ) ;  <NL> tag util . please wait ( 10 ) ;  <NL>  }  <NL>  <NL> if ( h < = 0 . 0 ) {  <NL> h = 600 ;  <NL>  }  <NL>  <NL> return ( int ) h ;  <NL>  }  COM: <s> returns the height of image </s>

@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL>  <NL>  / * return get class ( ) . get name ( ) + " [ hgap = " + m _ h gap + " , vgap = "  <NL>  + m _ v gap + " , divider = " + m _ divider + " ] " ; * /  <NL> return get class ( ) . get name ( ) + " [ hgap = " + m _ h gap + " ] " ;  <NL>  <NL>  }  COM: <s> returns a string representation of this status bar layouts values </s>

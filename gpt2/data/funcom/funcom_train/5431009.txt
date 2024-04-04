@@ -1,0 +1,1 @@
+TDAT: protected void create socket ( ) throws io exception {  <NL> server socket = new h socket creator ( ) . create socket ( servlet context manager config . get port ( ) ) ;  <NL> log ( h abstract system logger . log _ level _ information , " h servlet context manager " , " run " , " listening on " + server socket ) ;  <NL>  }  COM: <s> create a new listen socket </s>

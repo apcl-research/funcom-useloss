@@ -1,0 +1,1 @@
+TDAT: public boolean add validator ( i validator validator , string name ) {  <NL> if ( validators . get ( name ) ! = null ) {  <NL> return false ;  <NL>  }  <NL> context . get resolver ( ) . add reference ( this . get name ( ) + " / validators / " + name , validator ) ;  <NL> validators . put ( name , validator ) ;  <NL> return true ;  <NL>  }  COM: <s> add a validator </s>

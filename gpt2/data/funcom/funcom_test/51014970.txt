@@ -1,0 +1,1 @@
+TDAT: public void set of _ type _ fk ( string of _ type _ fk ) {  <NL> if ( of _ type _ fk = = null || of _ type _ fk . length ( ) = = 0 ) throw new null pointer exception ( " of _ type _ fk is null " ) ;  <NL> this . of _ type _ fk = of _ type _ fk . intern ( ) ;  <NL>  }  COM: <s> sets of type fk </s>

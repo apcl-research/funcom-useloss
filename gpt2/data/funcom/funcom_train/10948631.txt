@@ -1,0 +1,1 @@
+TDAT: public void test comparator ( ) {  <NL> assert equals ( " equal " , 0 , comparator . compare ( equal file1 , equal file2 ) ) ;  <NL> assert true ( " less " , comparator . compare ( less file , more file ) < 0 ) ;  <NL> assert true ( " more " , comparator . compare ( more file , less file ) > 0 ) ;  <NL>  }  COM: <s> test the comparator </s>

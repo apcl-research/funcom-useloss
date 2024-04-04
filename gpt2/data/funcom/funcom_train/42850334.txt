@@ -1,0 +1,1 @@
+TDAT: public symbol get symbol ( int i ) {  <NL> if ( i > = 0 & & i < this . size ( ) ) {  <NL> return this . get ( i ) ;  <NL>  }  <NL> else {  <NL> throw new array index out of bounds exception ( " unable to get the symbol at the index " + i <NL>  + " , the string length " + this . size ( ) + " ! " ) ;  <NL>  }  <NL>  }  COM: <s> return symbol at the position specified </s>

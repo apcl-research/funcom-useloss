@@ -1,0 +1,1 @@
+TDAT: protected j menu get option menu ( ) {  <NL> if ( option menu = = null ) {  <NL> option menu = new j menu ( ) ;  <NL> option menu . set text ( " options " ) ;  <NL> option menu . set mnemonic ( key event . vk _ o ) ;  <NL> option menu . add ( get look and feel menu ( ) ) ;  <NL>  }  <NL> return option menu ;  <NL>  }  COM: <s> this method initializes option menu </s>

@@ -1,0 +1,1 @@
+TDAT: public void do open ( string name ) {  <NL> try {  <NL> open file ( new file ( name ) ) ;  <NL>  } catch ( io exception ioe ) {  <NL> system . err . println ( " * * * * * * * * * * * * * * 66666666666 * * * * * * * * * * * * * * * * * " ) ;  <NL>  }  <NL>  }  COM: <s> open a local file given a string filename </s>

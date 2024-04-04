@@ -1,0 +1,1 @@
+TDAT: public void relocate workers ( ) {  <NL> if ( get unit ( ) ! = null ) {  <NL> for ( work location wl : get colony ( ) . get work locations ( ) ) {  <NL> if ( wl ! = this & & wl . can add ( get unit ( ) ) ) {  <NL> get unit ( ) . work ( wl ) ;  <NL> break ;  <NL>  }  <NL>  }  <NL>  }  <NL>  }  COM: <s> relocates any worker on this code colony tile code </s>

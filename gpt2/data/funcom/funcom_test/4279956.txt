@@ -1,0 +1,1 @@
+TDAT: public void validate ( ) {  <NL> assert . is true ( ( kind ! = null )  <NL>  & & (  <NL> kind . equals ( renamed ) || kind . equals ( renamed _ reset ) || kind . equals ( equivalent ) || kind . equals ( alias )  <NL> || kind . equals ( bundled )  <NL>  ) , " invalid kind for conflict : " + kind ) ;  <NL>  }  COM: <s> ensures the object is valid </s>

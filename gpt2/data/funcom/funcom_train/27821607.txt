@@ -1,0 +1,1 @@
+TDAT: public int get item index at point ( int x , int y ) {  <NL> for ( int i = 0 ; i < get item count ( ) ; i + + ) {  <NL> if ( get title panel ( i ) . contains ( x , y ) )  <NL> return i ;  <NL> if ( get item component ( i ) . contains ( x , y ) )  <NL> return i ;  <NL>  }  <NL> return - 1 ;  <NL>  }  COM: <s> returns the index of the item where the point points to </s>

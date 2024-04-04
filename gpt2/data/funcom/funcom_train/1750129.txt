@@ -1,0 +1,1 @@
+TDAT: private string check log when success ( string p _ log when success ) {  <NL> if ( p _ log when success . equals ignore case ( " yes " ) = = true ) return " yes " ;  <NL> else if ( p _ log when success . equals ignore case ( " no " ) = = true ) return " no " ;  <NL> else return fail value ;  <NL>  }  COM: <s> check the value gotten in the log when success </s>

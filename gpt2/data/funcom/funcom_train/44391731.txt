@@ -1,0 +1,1 @@
+TDAT: private void create sash form ( ) {  <NL> sash form = new sash form ( s shell , swt . v _ scroll ) ;  <NL> button = new button ( sash form , swt . none ) ;  <NL> button . set text ( " dddddddddd " ) ;  <NL> c combo = new c combo ( sash form , swt . none ) ;  <NL> c combo . set text ( " dtdtdt " ) ;  <NL>  }  COM: <s> this method initializes sash form </s>

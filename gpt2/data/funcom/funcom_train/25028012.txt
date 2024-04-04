@@ -1,0 +1,1 @@
+TDAT: static public big integer xor ( big integer a , big integer b ) {  <NL>  / / xor ( a , b ) = ( a | b ) & ( ~ ( a & b ) )  <NL> big integer a _ or _ b = a . or ( b ) ;  <NL> big integer not _ a _ and _ b = a . and ( b ) . not ( ) ;  <NL> return a _ or _ b . and ( not _ a _ and _ b ) ;  <NL>  }  COM: <s> xor operation for big integer </s>

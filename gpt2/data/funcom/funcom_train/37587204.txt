@@ -1,0 +1,1 @@
+TDAT: public void text goto line7 ( ) throws bad location exception {  <NL> final string s = " 11111\n2222\n33333\n44444 " ;  <NL>  _ doc . insert string ( 0 , s , null ) ;  <NL>  _ doc . goto line ( 3 ) ;  <NL> assert equals ( " # 0 . 0 " , 11 , _ doc . get current location ( ) ) ;  <NL>  }  COM: <s> test that going to a line within the documents line count </s>

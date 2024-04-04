@@ -1,0 +1,1 @@
+TDAT: private void remove element ( int id ) {  <NL> this . _ element table . remove ( new integer ( id ) ) ;  <NL> try {  <NL> log . info ( " the module ( type = " + sql utils . get table name ( this . _ pool type )  <NL>  + " id = " + id + " ) is removed from the pool " , 5 ) ;  <NL>  } catch ( exception e ) { }  <NL>  }  COM: <s> removes a poolelement from the pool </s>

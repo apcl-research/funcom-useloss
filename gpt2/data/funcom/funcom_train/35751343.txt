@@ -1,0 +1,1 @@
+TDAT: private void clean search query ( ) {  <NL> search string = search string . replace all ( regex _ whitespace , " " ) ;  <NL>  / / replace " or " to " or " and " and " to " and "  <NL> search string = search string . replace all ( " or " , " or " ) ;  <NL> search string = search string . replace all ( " and " , " and " ) ;  <NL>  }  COM: <s> cleans the search string </s>

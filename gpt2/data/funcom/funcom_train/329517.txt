@@ -1,0 +1,1 @@
+TDAT: public double get start gradient ( int n bins ) {  <NL> n bins = math . min ( n bins , get num slices ( ) ) ;  <NL> return ( ( double ) ( slice data . get ( n bins - 1 ) . peak info [ 0 ] [ 1 ] - get first slice data ( ) . peak info [ 0 ] [ 1 ] ) ) /  <NL>  ( double ) ( n bins - 1 ) ;  <NL>  }  COM: <s> gradient at the start of the shape for the first peak </s>

@@ -1,0 +1,1 @@
+TDAT: public void add row ( table row row ) {  <NL> if ( row list . add ( row ) ) {  <NL> fire table changed ( new table model event ( this , row list . size ( ) - 1 ,  <NL> row list . size ( ) - 1 , table model event . all _ columns ,  <NL> table model event . insert ) ) ;  <NL>  }  <NL>  }  COM: <s> adds a row to the end of the list of rows </s>

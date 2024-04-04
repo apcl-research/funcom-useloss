@@ -1,0 +1,1 @@
+TDAT: public list get recs ( ) {  <NL> if ( log . is debug enabled ( ) )  <NL> log . debug ( " get recs : " + ( m _ recs ! = null ? m _ recs . size ( ) : 0 ) ) ;  <NL>  / / log . warn ( " temporary : get recs : recs = " + recs ) ;  <NL> return m _ recs ! = null ? m _ recs : new vector ( ) ;  <NL>  }  COM: <s> obtain a list of rec objects </s>

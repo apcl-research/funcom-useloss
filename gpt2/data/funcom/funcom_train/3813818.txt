@@ -1,0 +1,1 @@
+TDAT: public void set end time ( int end time ) {  <NL> if ( get begin time ( ) > end time ) {  <NL> throw new error ( " attempting to set an end time ( " + end time +  <NL>  " ) that is earlier than the start time ( " +  <NL> get begin time ( ) + " ) . " ) ;  <NL>  }  <NL> this . end time = end time ;  <NL>  }  COM: <s> sets the frame number when the words ended </s>

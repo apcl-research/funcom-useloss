@@ -1,0 +1,1 @@
+TDAT: private void append trimmed ( final string s ) {  <NL> boolean skip = true ;  <NL> for ( int i = 0 ; i < s . length ( ) ; i + + ) {  <NL> final char c = s . char at ( i ) ;  <NL> if ( c ! = ' ' ) {  <NL> skip = false ;  <NL>  }  <NL> if ( ! skip ) {  <NL> append ( c ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> appends a string but skipping any leading space characters </s>

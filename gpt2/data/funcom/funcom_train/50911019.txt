@@ -1,0 +1,1 @@
+TDAT: public polar divide by ( polar f ) throws euclid runtime exception {  <NL> polar temp = new polar ( this ) ;  <NL> if ( real . is zero ( f . r , real . get epsilon ( ) ) ) {  <NL> throw new euclid runtime exception ( ) ;  <NL>  }  <NL> temp . r = r / f . r ;  <NL> temp . theta = theta - f . theta ;  <NL> return temp ;  <NL>  }  COM: <s> divide a polar by a polar </s>

@@ -1,0 +1,1 @@
+TDAT: private menu bar build add menu ( ) {  <NL> menu bar bar = create menu bar ( true ) ;  <NL> widget option [ ] a = get widget option list ( ) ;  <NL> for ( int i = 0 ; i < a . length ; i + + ) {  <NL> bar . add item ( create add menu item ( a [ i ] ) ) ;  <NL>  }  <NL> return bar ;  <NL>  }  COM: <s> build a menu to add new widgets to the layout </s>

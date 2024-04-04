@@ -1,0 +1,1 @@
+TDAT: private mutable tree node insert document node ( node what , mutable tree node where ) {  <NL> mutable tree node tree node = insert node ( ( ( document ) what ) . get root element ( ) . get local name ( ) , where ) ;  <NL> node map . put ( tree node , what ) ;  <NL> return tree node ;  <NL>  } / / end of insert document node ( )  COM: <s> inserts the document node </s>

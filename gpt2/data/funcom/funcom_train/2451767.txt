@@ -1,0 +1,1 @@
+TDAT: public code writer write ( object o ) {  <NL> if ( o ! = null ) {  <NL> if ( o instanceof codeable ) {  <NL>  ( ( codeable ) o ) . to code ( this ) ;  <NL>  } else {  <NL> this . out . print ( o ) ;  <NL> this . col no + = o . to string ( ) . length ( ) ;  <NL> this . is line new = false ;  <NL>  }  <NL>  }  <NL> return this ;  <NL>  }  COM: <s> writes an object </s>

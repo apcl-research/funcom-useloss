@@ -1,0 +1,1 @@
+TDAT: public void set grey ( int u , int v , int value ) {  <NL> int b ;  <NL> if ( ( b = get num bands ( ) ) = = 1 )  <NL> set sample ( u , v , 0 , value ) ;  <NL> else <NL>  {  <NL> for ( int x = 0 ; x < b ; x + + )  <NL>  {  <NL> set sample ( u , v , x , value ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> sets the pixel value in band 0 at the given position </s>

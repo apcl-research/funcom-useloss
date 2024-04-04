@@ -1,0 +1,1 @@
+TDAT: protected file create out file ( string file name , string extension , string prefix ) throws exception {  <NL> return org . apache . axis2 . util . file writer . create class file ( this . root dir ,  <NL>  " " ,  <NL>  ( prefix = = null ? axis2 _ prefix : prefix ) + file name ,  <NL> extension ) ;  <NL>  }  COM: <s> creates the output file </s>

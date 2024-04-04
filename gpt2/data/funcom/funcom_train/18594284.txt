@@ -1,0 +1,1 @@
+TDAT: public void test character generation ( ) {  <NL> show frame ( tf ) ;  <NL> robot . focus ( tf ) ;  <NL> robot . wait for idle ( ) ;  <NL> robot . key string ( char list ) ;  <NL> robot . wait for idle ( ) ;  <NL> assert equals ( " not all ascii characters were produced properly " ,  <NL> char list , tf . get text ( ) ) ;  <NL>  }  COM: <s> test the basic ascii set </s>

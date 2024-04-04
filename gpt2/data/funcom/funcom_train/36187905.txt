@@ -1,0 +1,1 @@
+TDAT: public boolean mouse _ pressed ( mouse event e ) {  <NL> int x = e . get x ( ) ;  <NL> int y = e . get y ( ) ;  <NL> if ( y > y _ pos & & y < y _ pos + height & & x > x _ pos & & x < x _ pos + width ) {  <NL> tmp _ colour = button _ pressed _ colour ;  <NL> return true ;  <NL>  }  <NL> return false ;  <NL>  }  COM: <s> check whether the pressed mouse hits the button </s>

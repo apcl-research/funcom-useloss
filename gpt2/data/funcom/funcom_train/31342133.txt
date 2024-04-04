@@ -1,0 +1,1 @@
+TDAT: public char next ( char c ) throws json exception {  <NL> char n = next ( ) ;  <NL> if ( n ! = c ) {  <NL> throw syntax error ( nls . bind ( " expected ' ' { 0 } ' ' and instead saw ' ' { 1 } ' ' " , c , n ) ) ; / / $ non - nls - 1 $  <NL>  }  <NL> return n ;  <NL>  }  COM: <s> consume the next character and check that it matches a specified </s>

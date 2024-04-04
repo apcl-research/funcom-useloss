@@ -1,0 +1,1 @@
+TDAT: public double probability ( double x ) {  <NL> check range ( x ) ;  <NL> if ( x = = 0 . 0 || x = = 1 . 0 )  <NL> return 0 . 0 ;  <NL> return math . exp ( - special math . log beta ( p , q ) + ( p - 1 . 0 ) * math . log ( x ) + ( q - 1 . 0 ) * math . log ( 1 . 0 - x ) ) ;  <NL>  }  COM: <s> probability density function of a beta distribution </s>

@@ -1,0 +1,1 @@
+TDAT: public void set value at ( object a value , int a row , int a column ) {  <NL> cell point point = new cell point ( a row , a column ) ;  <NL> history . add ( this , new cell range ( point , point ) ) ;  <NL> do set value at ( a value , a row , a column ) ;  <NL>  }  COM: <s> sets the value of the cell </s>

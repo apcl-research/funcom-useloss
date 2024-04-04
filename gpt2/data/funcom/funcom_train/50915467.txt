@@ -1,0 +1,1 @@
+TDAT: public vector3 get vector3 ( cml atom atom1 ) {  <NL> vector3 v = null ;  <NL> if ( atom1 ! = null ) {  <NL> point3 p0 = this . get xyz3 ( ) ;  <NL> point3 p1 = atom1 . get xyz3 ( ) ;  <NL> if ( p1 ! = null & & p0 ! = null ) {  <NL> v = p1 . subtract ( p0 ) ;  <NL>  }  <NL>  }  <NL> return v ;  <NL>  }  COM: <s> gets vector from this atom to another </s>

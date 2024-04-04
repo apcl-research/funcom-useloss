@@ -1,0 +1,1 @@
+TDAT: protected void show exception ( exception e ) throws headless exception {  <NL> e . print stack trace ( ) ;  <NL> j option pane . show message dialog ( null , e . get class ( ) . get name ( ) + " \n "  <NL>  + e . get message ( ) , " alert " , j option pane . error _ message ) ;  <NL>  }  COM: <s> shows the exception in a message box </s>

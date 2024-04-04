@@ -1,0 +1,1 @@
+TDAT: public void translate ( double trans x , double trans y ) {  <NL> if ( is null ( ) ) {  <NL> return ;  <NL>  }  <NL> init ( get min x ( ) + trans x , get max x ( ) + trans x ,  <NL> get min y ( ) + trans y , get max y ( ) + trans y ) ;  <NL>  }  COM: <s> translates this envelope by given amounts in the x and y direction </s>

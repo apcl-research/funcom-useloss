@@ -1,0 +1,1 @@
+TDAT: protected void assert text ( string xpath , string expected ) {  <NL> final html element h1 = get html element ( xpath ) ;  <NL> assert not null ( " element " + xpath + " not found on the page " , h1 ) ;  <NL> assert equals ( " text not found in path " + xpath , expected , h1 . as text ( ) ) ;  <NL>  }  COM: <s> checks the content of the html elements </s>

@@ -1,0 +1,1 @@
+TDAT: static public double filter spline ( double x ) {  <NL> double xx ;  <NL> if ( x < 0 ) x = - x ;  <NL> if ( x < 1 ) {  <NL> xx = x * x ;  <NL> return ( . 5 * xx * x ) - xx + ( 2 . / 3 . ) ;  <NL>  } else if ( x < 2 ) {  <NL> x = 2 . - x ;  <NL> return ( 1 . / 6 . ) * ( x * x * x ) ;  <NL>  }  <NL> return 0 ;  <NL>  }  COM: <s> spline filter used in interpolation </s>

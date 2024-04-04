@@ -1,0 +1,1 @@
+TDAT: public void add plot ( plot data2d new plot ) throws exception {  <NL> m _ plot . add plot ( new plot ) ;  <NL> if ( m _ plot . m _ plot2d . get master plot ( ) ! = null ) {  <NL> set up combo boxes ( new plot . m _ plot instances ) ;  <NL>  }  <NL> m _ save but . set enabled ( true ) ;  <NL> repaint ( ) ;  <NL>  }  COM: <s> set a new plot to the visualize panel </s>

@@ -1,0 +1,1 @@
+TDAT: public void resize ( int new size ) {  <NL> if ( new size < = 0 ) {  <NL> return ;  <NL>  }  <NL> list removed = new array list ( ) ;  <NL> synchronized ( this ) {  <NL> max size = new size ;  <NL> while ( cache . size ( ) > max size ) {  <NL> removed . add ( remove lru ( ) ) ;  <NL>  }  <NL>  }  <NL> cleanup all ( removed ) ;  <NL>  }  COM: <s> resize the cache </s>

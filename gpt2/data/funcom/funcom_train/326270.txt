@@ -1,0 +1,1 @@
+TDAT: private void set square drawn polygon ( int x1 , int y1 , int x2 , int y2 ) {  <NL> int [ ] xp = { x1 , x1 , x2 , x2 } ;  <NL> int [ ] yp = { y1 , y2 , y2 , y1 } ;  <NL> drawn polygon = new polygon ( xp , yp , 4 ) ;  <NL>  }  COM: <s> called to set a square drawn polygon when </s>

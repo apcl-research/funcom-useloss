@@ -1,0 +1,1 @@
+TDAT: public void update ruler ( ) {  <NL> if ( cell ! = null & & node ! = null ) {  <NL> if ( cell instanceof ruler info holder ) {  <NL> scene worker . add worker ( new ruler work commit ( node , cell . get cell id ( ) . to string ( ) , ( ruler info holder ) cell ) ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> update the rendering of the ruler cell after a change has been made </s>

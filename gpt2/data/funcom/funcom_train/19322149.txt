@@ -1,0 +1,1 @@
+TDAT: public string get ref id ( final f obj fobj , final fo context context ) {  <NL> final pd ref id property = ( pd ref id ) get property ( fo property . ref _ id ) ;  <NL> if ( property = = null ) {  <NL> return pd ref id . get value no instance ( ) ;  <NL>  }  <NL> return property . get value ( context , fobj ) ;  <NL>  }  COM: <s> returns the ref id property </s>

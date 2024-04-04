@@ -1,0 +1,1 @@
+TDAT: public string rep format ( ) {  <NL> string rep r = string rep . create rep ( a type . get name ( ) ) ;  <NL> r = r . append combine ( a type . get value type ( ) . format ( a value ) ) ;  <NL> r = r . append combine ( " = " ) ; / / $ non - nls - 1 $  <NL> return r ;  <NL>  }  COM: <s> return a formatted representation of this parameter </s>

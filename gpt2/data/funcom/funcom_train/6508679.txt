@@ -1,0 +1,1 @@
+TDAT: public void do phase ( int phase , bot [ ] bots ) {  <NL> board bot [ ] b = new board bot [ bots . length ] ;  <NL> for ( int i = 0 ; i < bots . length ; i + + ) {  <NL> b [ i ] = ( board bot ) bots [ i ] ;  <NL>  }  <NL> do phase real ( phase , b ) ;  <NL>  }  COM: <s> simulates a phase </s>

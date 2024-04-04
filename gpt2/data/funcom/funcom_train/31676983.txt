@@ -1,0 +1,1 @@
+TDAT: public void remove last row ( ) {  <NL> double [ ] [ ] old = elems ;  <NL> elems = new double [ get rows ( ) - 1 ] [ get cols ( ) ] ;  <NL> for ( int r = 0 ; r < elems . length ; r + + )  <NL> system . arraycopy ( old [ r ] , 0 , elems [ r ] , 0 , old [ r ] . length ) ;  <NL>  }  COM: <s> removes last row from matrix </s>

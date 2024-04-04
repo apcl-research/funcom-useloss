@@ -1,0 +1,1 @@
+TDAT: public account get account ( string name ) {  <NL> vector list = file data . get accounts ( ) ;  <NL> for ( int i = 0 ; i < list . size ( ) ; i + + ) {  <NL> account item = ( account ) list . get ( i ) ;  <NL> if ( item . is equal ( name ) ) {  <NL> return item ;  <NL>  }  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> retrieve an account from a string name </s>

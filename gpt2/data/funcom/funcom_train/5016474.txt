@@ -1,0 +1,1 @@
+TDAT: private string dtd element ref table ( ) {  <NL> return " < ! element " + xml builder . node _ reftable + " ( " +  <NL> xml builder . node _ refcolumn + " + ) > " + config . ls +  <NL>  " < ! attlist " + xml builder . node _ reftable + " " +  <NL> xml builder . node _ reftable _ attr _ name + " cdata # required > " ;  <NL>  }  COM: <s> write element referenced table </s>

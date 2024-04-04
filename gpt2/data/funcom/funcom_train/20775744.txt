@@ -1,0 +1,1 @@
+TDAT: public void add ( element value ) {  <NL> this . list [ this . index ] = value ;  <NL>  <NL> this . index = ( this . index + 1 ) % this . list . length ;  <NL> if ( ! this . is full ) {  <NL> this . n + + ;  <NL>  <NL> if ( this . n > = this . list . length ) {  <NL> this . is full = true ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> adds a value to the circular list </s>

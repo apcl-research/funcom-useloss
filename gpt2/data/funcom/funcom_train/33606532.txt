@@ -1,0 +1,1 @@
+TDAT: public void test remove crossings ( ) {  <NL> system . out . println ( " remove crossings " ) ;  <NL> assert equals ( " before " , " ? ? " , a4 . to string ( ) ) ;  <NL> a4 . remove crossings ( ) ;  <NL> assert equals ( " after " , " ? ? " , a4 . to string ( ) ) ;  <NL>  }  COM: <s> test of remove crossings method of class scio </s>

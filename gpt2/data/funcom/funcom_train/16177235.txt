@@ -1,0 +1,1 @@
+TDAT: public void draw ( sim graphics g , int from x , int to x , int from y , int to y ) {  <NL> if ( is directed ) {  <NL> g . draw directed link ( color , from x , to x , from y , to y ) ;  <NL>  } else {  <NL> g . draw link ( color , from x , to x , from y , to y ) ;  <NL>  }  <NL>  }  COM: <s> draws this default drawable edge </s>

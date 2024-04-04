@@ -1,0 +1,1 @@
+TDAT: public task find task by id ( long task id ) {  <NL> synchronized ( this ) {  <NL> for ( int i = 0 ; i < task list . size ( ) ; i + + ) {  <NL> task task = ( task ) task list . get ( i ) ;  <NL> if ( task . get id ( ) = = task id ) {  <NL> return task ;  <NL>  }  <NL>  }  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> find a particular task by its id </s>

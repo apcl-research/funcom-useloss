@@ -1,0 +1,1 @@
+TDAT: public void compile arrays ( ) {  <NL>  / / create a regular array for each hash set in raw words .  <NL> for ( int i = 0 ; i < 14 ; i + + ) {  <NL> words [ i ] = raw words . get ( i ) . to array ( new character array [ 0 ] ) ;  <NL>  }  <NL>  <NL>  / / clear out the raw words .  <NL> raw words = null ;  <NL>  }  COM: <s> compiles the arrays of words used in processing </s>

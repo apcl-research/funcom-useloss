@@ -1,0 +1,1 @@
+TDAT: public data search ( data header data header ) {  <NL> object object = db search ( net . sf . uninet . common . content . data . data . class , " id = = ' " + data header . get id ( ) + " ' " ) ;  <NL> if ( object ! = null ) { return ( data ) object ; }  <NL> return null ;  <NL>  }  COM: <s> search uni net data </s>

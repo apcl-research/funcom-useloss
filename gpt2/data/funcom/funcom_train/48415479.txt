@@ -1,0 +1,1 @@
+TDAT: protected void remove user ( user user , file user dir ) {  <NL> file user file = new file ( user dir , get file name ( user . get login ( ) ) ) ;  <NL> if ( user file . exists ( ) ) {  <NL> file backup = new file ( user file . get path ( ) + " . removed " ) ;  <NL> user file . rename to ( backup ) ;  <NL>  }  <NL>  } ;  COM: <s> remove user files from directory </s>

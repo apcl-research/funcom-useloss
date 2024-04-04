@@ -1,0 +1,1 @@
+TDAT: public node state get root ( ) {  <NL> if ( root = = null ) {  <NL> root = new node state ( root node id , name constants . jcr _ root ,  <NL> null , node state . status _ existing , false ) ;  <NL> if ( listener ! = null ) {  <NL> root . set container ( listener ) ;  <NL>  }  <NL>  }  <NL> return root ;  <NL>  }  COM: <s> return the root node </s>

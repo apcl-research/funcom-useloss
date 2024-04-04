@@ -1,0 +1,1 @@
+TDAT: public void test enabled ( ) {  <NL> assert o ut ! = null ;  <NL> o ut . set enabled ( false ) ;  <NL> assert o ut ! = null ;  <NL> assert false ( o ut . is enabled ( ) ) ;  <NL> assert o ut ! = null ;  <NL> o ut . set enabled ( true ) ;  <NL> assert o ut ! = null ;  <NL> assert true ( o ut . is enabled ( ) ) ;  <NL>  }  COM: <s> test case for </s>

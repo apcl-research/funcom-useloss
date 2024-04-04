@@ -1,0 +1,1 @@
+TDAT: private void remove from lru list ( key key ) {  <NL> if ( key . prev ! = null ) {  <NL> key . prev . next = key . next ;  <NL>  } else {  <NL> tail = key . next ;  <NL>  }  <NL> if ( key . next ! = null ) {  <NL> key . next . prev = key . prev ;  <NL>  } else {  <NL> head = key . prev ;  <NL>  }  <NL>  }  COM: <s> remove key from the double linked lru list </s>

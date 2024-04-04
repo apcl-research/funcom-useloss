@@ -1,0 +1,1 @@
+TDAT: public void store patch ( patch p , int bank num , int patch num ) {  <NL> int ofst = 0 ;  <NL> for ( int i = 0 ; i < roland vg88single driver . num _ patch ; i + + , ofst + = single size ) {  <NL> single driver . store patch ( get patch ( p , i ) , 0 , i ) ;  <NL>  }  <NL>  }  COM: <s> store all user patchs </s>

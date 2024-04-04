@@ -1,0 +1,1 @@
+TDAT: public void print board ( ) {  <NL> string str = " \n " ;  <NL> for ( int i = 0 ; i < height ; i + + ) {  <NL> str + = " | " ;  <NL> for ( int j = 0 ; j < width ; j + + ) {  <NL> str + = boggle board [ i ] [ j ] + " " ;  <NL>  }  <NL> str + = " | " ;  <NL> str + = " \n " ;  <NL>  }  <NL> system . out . println ( str ) ;  <NL>  }  COM: <s> print out the board </s>

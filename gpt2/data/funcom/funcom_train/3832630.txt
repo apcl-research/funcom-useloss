@@ -1,0 +1,1 @@
+TDAT: private float calc resolution ( gm _ surface surf , int width , int height ) {  <NL>  <NL> float f = ( float ) ( surf . get envelope ( ) . get width ( ) * surf . get envelope ( ) . get height ( ) ) / ( width * height ) ;  <NL> f = ( float ) math . sqrt ( f ) ;  <NL> return f ;  <NL>  }  COM: <s> calculates the resolution based on the surface size and the dimensions </s>

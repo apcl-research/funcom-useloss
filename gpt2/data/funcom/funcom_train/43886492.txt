@@ -1,0 +1,1 @@
+TDAT: protected polygon create polygon ( ) {  <NL> polygon poly = gf . create polygon ( ring ( new double [ ] { 9 , 5 , 13 , 5 , 11 , 8 , 9 , 5 } ) , null ) ;  <NL> poly . set srid ( - 1 ) ; / / don ' t have an srid number <NL>  <NL> return poly ;  <NL>  }  COM: <s> construct a polygon of a triangle </s>

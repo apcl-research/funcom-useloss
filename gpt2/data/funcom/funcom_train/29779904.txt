@@ -1,0 +1,1 @@
+TDAT: private void init gaps ( gap [ ] gaps ) {  <NL> gaps [ 0 ] . set inc size ( gaps [ 0 ] . get size ( ) ) ;  <NL> for ( int i = 1 ; i < gaps . length ; i + + ) {  <NL> gaps [ i ] . set inc size ( gaps [ i ] . get size ( ) + gaps [ i - 1 ] . get inc size ( ) ) ;  <NL>  }  <NL>  }  COM: <s> evaluate the incremental sum of a sequence of gaps starting from the left </s>

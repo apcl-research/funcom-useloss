@@ -1,0 +1,1 @@
+TDAT: public void check limits ( int x , int y ) {  <NL> int factor = 10 ;  <NL> int w = ( get width ( ) / factor ) ;  <NL> int h = ( get height ( ) / factor ) ;  <NL> if ( x < ( 0 + w ) || x > ( get width ( ) - w ) || y < ( 0 + h ) || y > ( get height ( ) - h ) )  <NL> set center ( x , y ) ;  <NL>  }  COM: <s> checking if coordinate is outside of window </s>

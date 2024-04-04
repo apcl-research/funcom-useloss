@@ -1,0 +1,1 @@
+TDAT: public void add noise ( double amplitude ) {  <NL> for ( int x = 0 ; x < m _ rows ; + + x ) {  <NL> for ( int y = 0 ; y < m _ cols ; + + y ) {  <NL> if ( enabled [ x ] [ y ] & & ! fixed [ x ] [ y ] ) {  <NL> value [ x ] [ y ] + = ( - amplitude + math . random ( ) * ( 2 * amplitude ) ) ;  <NL>  }  <NL>  }  <NL>  }  <NL>  }  COM: <s> adds noise to the weights </s>

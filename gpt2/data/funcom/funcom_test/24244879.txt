@@ -1,0 +1,1 @@
+TDAT: private void take reading ( float angle , int i ) {  <NL> int range byte = ( int ) range . get range ( ) ;  <NL> float range ;  <NL>  <NL> if ( range byte > max _ reliable _ range _ reading ) range = - 1f ;  <NL> else range = ( ( float ) range byte ) ;  <NL> readings . set range ( i , angle , range ) ;  <NL>  }  COM: <s> take a single range reading </s>

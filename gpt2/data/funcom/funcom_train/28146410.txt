@@ -1,0 +1,1 @@
+TDAT: public void put ( class < ? > clazz , t v ) {  <NL> if ( guards . can reference directly ( class loader , clazz . get class loader ( ) ) ) {  <NL> map . put ( clazz , v ) ;  <NL>  }  <NL> else {  <NL> synchronized ( weak map ) {  <NL> weak map . put ( clazz , new soft reference < t > ( v ) ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> associates a value with the class </s>

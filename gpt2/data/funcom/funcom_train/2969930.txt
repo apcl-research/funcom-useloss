@@ -1,0 +1,1 @@
+TDAT: public void test add ( ) {  <NL> system . out . println ( " add " ) ;  <NL> add assert ( " 1 " ) ;  <NL> add assert ( " 2 " ) ;  <NL> add assert ( " 3 " ) ;  <NL> add assert ( " 5 " ) ;  <NL> add assert ( " 6 " ) ;  <NL> add assert ( " 7 " ) ;  <NL> add assert ( " 8 " ) ;  <NL>  }  COM: <s> test of add method of class limited sorted set </s>

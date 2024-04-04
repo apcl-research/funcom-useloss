@@ -1,0 +1,1 @@
+TDAT: public void commit ( ) throws sql exception {  <NL> log . debug ( " transaction commit begins " ) ;  <NL> if ( conn ! = null ) {  <NL> conn . commit ( ) ;  <NL> log . debug ( " commit end " ) ;  <NL> conn . close ( ) ;  <NL> my tx controller . set ( null ) ;  <NL> log . debug ( " closed " ) ;  <NL> conn = null ;  <NL>  }  <NL>  }  COM: <s> p transaction commits p </s>

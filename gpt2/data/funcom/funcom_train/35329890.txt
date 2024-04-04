@@ -1,0 +1,1 @@
+TDAT: public snmp oid to oid ( ) {  <NL> long [ ] oid = new long [ engine id . length + 1 ] ;  <NL> oid [ 0 ] = engine id . length ;  <NL> for ( int i = 1 ; i < = engine id . length ; i + + )  <NL> oid [ i ] = ( long ) ( engine id [ i - 1 ] & 0x ff ) ;  <NL> return new snmp oid ( oid ) ;  <NL>  }  COM: <s> translates an engine id in an snmp oid format </s>

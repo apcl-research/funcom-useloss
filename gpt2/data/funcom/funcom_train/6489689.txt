@@ -1,0 +1,1 @@
+TDAT: public run get run ( window w ) {  <NL>  / / if ( ! ( w instanceof result gui ) ) {  <NL>  / / log tools . warn ( logger , " run window controller . get run ( ) - we expected a window which is an instanceof result gui , but it was not ! " ) ;  <NL>  / / return null ;  <NL>  / / }  <NL> return ( run ) _ runs . get ( w ) ;  <NL>  }  COM: <s> get a run based on a window </s>

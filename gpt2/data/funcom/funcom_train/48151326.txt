@@ -1,0 +1,1 @@
+TDAT: public void reset ( ) {  <NL> super . reset ( ) ;  <NL> get record table ( ) . append ( " \t y\t m\t u\t v\t z " ) ;  <NL> dice board . show dice ( 0 ) ;  <NL> for ( int i = 0 ; i < 5 ; i + + )  <NL> rv [ i ] . reset ( ) ;  <NL> rv graph . reset ( ) ;  <NL> rv table . reset ( ) ;  <NL>  }  COM: <s> this method resets the experiment including the record table the dice </s>

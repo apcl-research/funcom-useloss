@@ -1,0 +1,1 @@
+TDAT: public void set joins ( column [ ] cols , column [ ] pk cols ) {  <NL> column [ ] cur = get columns ( ) ;  <NL> for ( int i = 0 ; i < cur . length ; i + + )  <NL> remove join ( cur [ i ] ) ;  <NL>  <NL> if ( cols ! = null )  <NL> for ( int i = 0 ; i < cols . length ; i + + )  <NL> join ( cols [ i ] , pk cols [ i ] ) ;  <NL>  }  COM: <s> set the foreign keys joins </s>

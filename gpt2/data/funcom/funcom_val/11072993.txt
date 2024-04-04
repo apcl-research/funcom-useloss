@@ -1,0 +1,1 @@
+TDAT: private void ensure args capacity ( arg arg ) {  <NL> if ( arg . get position ( ) > = this . args . length ) {  <NL> map [ ] new args = new map [ arg . get position ( ) + 1 ] ;  <NL> system . arraycopy ( this . args , 0 , new args , 0 , this . args . length ) ;  <NL> this . args = new args ;  <NL>  }  <NL>  }  COM: <s> ensures that the args array can hold the given arg </s>

@@ -1,0 +1,1 @@
+TDAT: protected void go back and wait ( ) throws failing http status code exception , malformed url exception , io exception {  <NL> if ( ! page history . is empty ( ) ) {  <NL> page history . pop ( ) ;  <NL>  }  <NL> if ( ! page history . is empty ( ) ) {  <NL> page = ( html page ) page history . peek ( ) ;  <NL>  }  <NL>  }  COM: <s> returns to the previous page </s>

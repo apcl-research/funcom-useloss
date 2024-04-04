@@ -1,0 +1,1 @@
+TDAT: private string number ( final cmd cmd ) throws query exception {  <NL> consume ws ( ) ;  <NL> final token builder tb = new token builder ( ) ;  <NL> if ( curr ( ) = = ' - ' ) tb . add ( consume ( ) ) ;  <NL> while ( digit ( curr ( ) ) ) tb . add ( consume ( ) ) ;  <NL> return finish ( cmd , tb ) ;  <NL>  }  COM: <s> parses and returns a number </s>

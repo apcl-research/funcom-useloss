@@ -1,0 +1,1 @@
+TDAT: public int get low container row ( ) {  <NL> int low = - 1 ;  <NL> int lowc = - 1 ;  <NL> for ( int i = 0 ; i < container row . length ; i + + ) {  <NL> if ( low < 0 || container row [ i ] < low ) {  <NL> low = container row [ i ] ;  <NL> lowc = i ;  <NL>  }  <NL>  }  <NL> return lowc ;  <NL>  }  COM: <s> returns the row with the least containers </s>

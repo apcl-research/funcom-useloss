@@ -1,0 +1,1 @@
+TDAT: public int kb name id get ( string kb name ) throws not found exception {  <NL> integer id obj = ( integer ) kb name ids . get ( kb name ) ;  <NL> if ( null = = id obj ) {  <NL> throw new not found exception ( " no id for kb - name \ " " + kb name + " \ " " ) ;  <NL>  }  <NL> return id obj . int value ( ) ;  <NL>  }  COM: <s> get id for knowledgebase name </s>

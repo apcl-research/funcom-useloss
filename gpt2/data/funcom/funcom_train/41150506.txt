@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL>  <NL>  / / xxx maybe we should use stringbuffer and fixed width . . .  <NL> string s = " [ " + get num symbols ( ) + " ] : " ;  <NL> for ( int i = 0 ; i < get num symbols ( ) ; i + + ) {  <NL> s + = " " + get probability ( i ) ;  <NL>  }  <NL> return s ;  <NL>  }  COM: <s> get a string representation of the given code </s>

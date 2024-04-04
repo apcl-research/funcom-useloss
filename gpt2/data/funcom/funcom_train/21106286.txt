@@ -1,0 +1,1 @@
+TDAT: private mj check box get ch bs _ since ( ) {  <NL> if ( ch bs _ since = = null ) {  <NL> ch bs _ since = new mj check box ( ) ;  <NL> ch bs _ since . set text ( " since " ) ;  <NL> ch bs _ since . set horizontal text position ( javax . swing . swing constants . leading ) ;  <NL>  }  <NL> return ch bs _ since ;  <NL>  }  COM: <s> this method initializes mjcheck box </s>

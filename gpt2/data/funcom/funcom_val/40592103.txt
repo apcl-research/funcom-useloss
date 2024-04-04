@@ -1,0 +1,1 @@
+TDAT: public void test set hours ( ) {  <NL> for ( int i = 0 ; i < 24 ; i + + ) {  <NL> date accum0 = create ( ) ;  <NL> if ( is dst ( accum0 ) ) {  <NL>  / / this test fails on the day of dst , so skip it .  <NL> return ;  <NL>  }  <NL> accum0 . set hours ( i ) ;  <NL> assert equals ( accum0 . get hours ( ) , i ) ;  <NL>  }  <NL>  }  COM: <s> testing for public void java </s>

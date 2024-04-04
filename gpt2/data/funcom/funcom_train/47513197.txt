@@ -1,0 +1,1 @@
+TDAT: private boolean convert map ( map map ) {  <NL> for ( int i = 0 ; i < map data [ 0 ] . length ; i + + ) {  <NL> for ( int j = 0 ; j < map data [ 0 ] . length ; j + + ) {  <NL> map data [ j ] [ i ] = map . get square difference ( ( byte ) ( i ) , ( byte ) ( j ) ) ;  <NL>  }  <NL>  }  <NL> return true ;  <NL>  }  COM: <s> convert the map to do the closest path </s>

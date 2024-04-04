@@ -1,0 +1,1 @@
+TDAT: private void append data ref key ( string builder sb , string key ) {  <NL> if ( js _ reserved _ words . contains ( key ) ) {  <NL> sb . append ( " [ ' " ) . append ( key ) . append ( " ' ] " ) ;  <NL>  } else {  <NL> sb . append ( " . " ) . append ( key ) ;  <NL>  }  <NL>  }  COM: <s> appends a key onto a data reference expression </s>

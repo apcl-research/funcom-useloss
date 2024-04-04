@@ -1,0 +1,1 @@
+TDAT: public year month day with day of month ( int day of month ) {  <NL> int [ ] new values = get values ( ) ;  <NL> new values = get chronology ( ) . day of month ( ) . set ( this , day _ of _ month , new values , day of month ) ;  <NL> return new year month day ( this , new values ) ;  <NL>  }  COM: <s> returns a copy of this date with the day of month field updated </s>

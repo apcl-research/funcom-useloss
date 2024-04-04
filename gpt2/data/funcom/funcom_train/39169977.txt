@@ -1,0 +1,1 @@
+TDAT: private string get for medline ( string f ) {  <NL> for ( int x = 0 ; x < old fields . size ( ) ; x + + ) {  <NL> if ( ( ( string ) ( old fields . get ( x ) ) ) . equals ( f ) ) { return ( string ) ( old values . get ( x ) ) ; }  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> return the value associated with a field </s>

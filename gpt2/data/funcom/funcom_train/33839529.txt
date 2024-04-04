@@ -1,0 +1,1 @@
+TDAT: private char get tform var type ( string tform ) {  <NL>  <NL> int ind = tform . index of ( " p " ) ;  <NL> if ( ind < 0 ) {  <NL> ind = tform . index of ( " q " ) ;  <NL>  }  <NL> if ( tform . length ( ) > ind + 1 ) {  <NL> return tform . char at ( ind + 1 ) ;  <NL>  } else {  <NL> return 0 ;  <NL>  }  <NL>  }  COM: <s> get the type in a varying length column tform </s>

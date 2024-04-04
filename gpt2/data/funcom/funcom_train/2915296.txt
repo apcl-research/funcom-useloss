@@ -1,0 +1,1 @@
+TDAT: public i path add file ( final i path root , final string file name , final string contents ) {  <NL> check assertion ( " a workspace must be open " , f is open ) ; / / $ non - nls - 1 $  <NL> final i path file path = root . append ( file name ) ;  <NL> create file ( file path , contents . get bytes ( ) ) ;  <NL> return file path ;  <NL>  }  COM: <s> adds a file </s>

@@ -1,0 +1,1 @@
+TDAT: public void set element ( final int i , final int j , final double x ) {  <NL> if ( i > = 0 & & i < num rows & & j > = 0 & & j < num cols & & i = = j )  <NL> diag [ i ] = x ;  <NL> else <NL> throw new matrix dimension exception ( get invalid element msg ( i , j ) ) ;  <NL>  }  COM: <s> sets the value of an element of the matrix </s>

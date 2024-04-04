@@ -1,0 +1,1 @@
+TDAT: public float get distance ( object o1 , object o2 ) {  <NL> if ( o1 instanceof date & & o2 instanceof date ) {  <NL> date d1 , d2 ;  <NL> d1 = ( date ) o1 ;  <NL> d2 = ( date ) o2 ;  <NL> return ( float ) math . abs ( d1 . get time ( ) - d2 . get time ( ) ) ;  <NL>  } else <NL> return - 1f ;  <NL>  }  COM: <s> calculates and returns the distance between two objects </s>

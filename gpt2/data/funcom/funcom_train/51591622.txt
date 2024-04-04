@@ -1,0 +1,1 @@
+TDAT: public string create random string ( ) {  <NL> string buffer sb = new string buffer ( ) ;  <NL> int length = generator . next int ( 100 ) + 1 ;  <NL> for ( int i = 0 ; i < length ; i + + ) {  <NL> sb . append ( ( char ) ( generator . next int ( 26 ) + 65 ) ) ;  <NL>  }  <NL> return ( sb . to string ( ) ) ;  <NL>  }  COM: <s> create a random string </s>

@@ -1,0 +1,1 @@
+TDAT: public void change image ( int type , int x , int y ) {  <NL> switch ( type ) {  <NL> case board . white :  <NL> board . make white move ( new position ( y , x ) ) ;  <NL> break ;  <NL> case board . black :  <NL> board . make black move ( new position ( y , x ) ) ;  <NL> break ;  <NL>  }  <NL> repaint ( ) ;  <NL>  }  COM: <s> change image where mouse was clicked </s>

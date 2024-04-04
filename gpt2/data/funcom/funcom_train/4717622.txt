@@ -1,0 +1,1 @@
+TDAT: public void test synth pan right ( ) {  <NL> syn message msg = new syn ( ) . synth ( 1 ) . pan ( 100 ) ;  <NL> assert equals ( " fi " , msg . get typetag ( ) ) ;  <NL> assert equals ( ( syn message . max _ 32bit ) , msg . get arguments ( ) [ 1 ] ) ;  <NL> assert equals ( " / syn / id1 / pan " , msg . get address ( ) ) ;  <NL>  }  COM: <s> synth pan right </s>

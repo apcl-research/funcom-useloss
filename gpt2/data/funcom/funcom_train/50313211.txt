@@ -1,0 +1,1 @@
+TDAT: public string read property ( string resource , string property ) throws cms exception {  <NL> return m _ rb . read property ( m _ context . current user ( ) , m _ context . current project ( ) , m _ context . get site root ( resource ) , m _ context . get site root ( ) , property , false ) ;  <NL>  }  COM: <s> looks up a specified property from a resource </s>

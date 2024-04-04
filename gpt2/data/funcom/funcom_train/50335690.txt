@@ -1,0 +1,1 @@
+TDAT: public void set held ( boolean new held ) {  <NL> boolean old held = m held ;  <NL> m held = new held ;  <NL> if ( old held ! = new held ) {  <NL>  / / notify listeners , if any <NL> fire property change ( " held " , boolean . value of ( old held ) , boolean . value of ( new held ) ) ;  <NL>  }  <NL>  <NL>  }  COM: <s> set the held parameter </s>

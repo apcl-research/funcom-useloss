@@ -1,0 +1,1 @@
+TDAT: public rectangle get peer bounds ( ) {  <NL> rectangle result = new rectangle ( bounds . x , bounds . y , bounds . width , bounds . height ) ;  <NL> int trim = get trim ( ) ;  <NL> result . x + = trim ;  <NL> result . y + = trim ;  <NL> result . width - = 2 * trim ;  <NL> result . height - = 2 * trim ;  <NL> return result ;  <NL>  }  COM: <s> method get peer bounds </s>

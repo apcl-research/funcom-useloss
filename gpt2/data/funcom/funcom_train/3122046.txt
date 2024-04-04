@@ -1,0 +1,1 @@
+TDAT: private void in order to list ( binary tree current , list list ) {  <NL> if ( current ! = null ) {  <NL> in order to list ( current . get left ( ) , list ) ;  <NL> list . add ( current . get data ( ) ) ;  <NL> in order to list ( current . get right ( ) , list ) ;  <NL>  }  <NL>  } / / of method  COM: <s> a helper method to perform an in order traversal on this tree </s>

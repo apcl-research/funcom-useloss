@@ -1,0 +1,1 @@
+TDAT: public void close ( boolean save ) {  <NL> m _ table . m _ cell editor = null ;  <NL>  / / m _ control . set visible ( false ) ;  <NL> gc gc = new gc ( m _ table ) ;  <NL> m _ table . draw cell ( gc , m _ col , m _ row ) ;  <NL> gc . dispose ( ) ;  <NL> this . dispose ( ) ;  <NL>  }  COM: <s> deactivates the editor </s>

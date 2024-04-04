@@ -1,0 +1,1 @@
+TDAT: public object get first value ( string name ) {  <NL> object v = _ fields . get ( name ) ;  <NL> if ( v = = null || ! ( v instanceof collection ) ) return v ;  <NL> collection c = ( collection ) v ;  <NL> if ( c . size ( ) > 0 ) {  <NL> return c . iterator ( ) . next ( ) ;  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> returns the first value for a field </s>

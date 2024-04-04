@@ -1,0 +1,1 @@
+TDAT: private void add basic attributes ( field meta data fmd , annotation builder ab ) {  <NL> if ( ! fmd . is in default fetch group ( ) )  <NL> ab . add ( " fetch " , fetch type . lazy ) ;  <NL> if ( fmd . get null value ( ) = = field meta data . null _ exception )  <NL> ab . add ( " optional " , false ) ;  <NL>  }  COM: <s> add basic attributes </s>

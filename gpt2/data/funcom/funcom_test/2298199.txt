@@ -1,0 +1,1 @@
+TDAT: private net3int data read three int ( ) throws io exception {  <NL> net3int data data = new net3int data ( in . read int ( ) , in . read int ( ) ,  <NL> in . read int ( ) ) ;  <NL> if ( expects user id ) {  <NL> data . set user id ( in . read int ( ) ) ;  <NL>  }  <NL> return data ;  <NL>  }  COM: <s> reads in the three ints required when creating a new drawn object </s>

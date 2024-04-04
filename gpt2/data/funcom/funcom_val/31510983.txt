@@ -1,0 +1,1 @@
+TDAT: public boolean validate form ( ) {  <NL> return ra . double value ( ) > = 0 . 0 & & ra . double value ( ) < 24 . 0 & &  <NL> dec . double value ( ) > = - 90 . 0 & & dec . double value ( ) < 90 . 0 & &  <NL> radius . double value ( ) > 0 . 0 & & radius . double value ( ) < 10 . 0 ;  <NL>  }  COM: <s> used by search wizard2 panel </s>

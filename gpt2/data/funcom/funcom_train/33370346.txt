@@ -1,0 +1,1 @@
+TDAT: public container replace ( widget old , widget widget ) {  <NL> int pos = widgets . index of ( old ) ;  <NL> if ( pos ! = - 1 ) {  <NL> widgets . insert element at ( widget , pos ) ;  <NL> if ( focused > = pos ) {  <NL> focused + + ;  <NL>  }  <NL> remove ( old ) ;  <NL>  }  <NL> add ( widget ) ;  <NL> return this ;  <NL>  }  COM: <s> replaces one widget with another </s>

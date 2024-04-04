@@ -1,0 +1,1 @@
+TDAT: public void set bounds ( final int new x , final int new y , final int width , final int height ) {  <NL>  / / grab the dimension information <NL>  <NL> comp pos . set location ( new x , new y ) ;  <NL> super . set bounds ( new x , new y , width , height ) ;  <NL>  }  COM: <s> this method is overridden to keep us up to date with the components </s>

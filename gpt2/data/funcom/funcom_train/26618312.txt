@@ -1,0 +1,1 @@
+TDAT: public graphics2d pre paint ( i widget widget , i context context , graphics2d graphics2d ) {  <NL> for ( iterator it = m _ children . iterator ( ) ; it . has next ( ) ; ) {  <NL> graphics2d = pre paint ( ( i trait ) it . next ( ) , widget , context , graphics2d ) ;  <NL>  }  <NL> return graphics2d ;  <NL>  }  COM: <s> prior to the </s>

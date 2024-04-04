@@ -1,0 +1,1 @@
+TDAT: public int add and get index ( e e ) {  <NL> integer index = indexes . get ( e ) ;  <NL> if ( index ! = null ) {  <NL> return index ;  <NL>  }  <NL>  / / else , add <NL> int new index = size ( ) ;  <NL> objects . add ( e ) ;  <NL> indexes . put ( e , new index ) ;  <NL> return new index ;  <NL>  }  COM: <s> add an element to the indexer if not already present </s>

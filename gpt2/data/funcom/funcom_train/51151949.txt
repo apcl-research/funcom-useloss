@@ -1,0 +1,1 @@
+TDAT: public object add component ( string type , int x , int y , int w , int h ) {  <NL> object c = super . add component ( type , x , y , w , h , null ) ;  <NL> apply style ( c , ( string ) null , w > 0 || h > 0 ? true : false ) ;  <NL> return c ;  <NL>  }  COM: <s> pass the add named component call to the xstyle factory base class </s>

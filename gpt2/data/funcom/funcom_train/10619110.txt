@@ -1,0 +1,1 @@
+TDAT: public void get char ( char [ ] dst , int offset , int length ) {  <NL> if ( byte base ! = null ) {  <NL> byte base . get char ( dst , offset , length ) ;  <NL>  } else {  <NL> throw new unsupported operation exception ( " not inmplemented " ) ; / / $ non - nls - 1 $  <NL>  }  <NL>  }  COM: <s> this method transfers chars into the given destination array </s>

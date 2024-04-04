@@ -1,0 +1,1 @@
+TDAT: public int get rail color ( int from , int to ) {  <NL> if ( from < 0||from > = get nr rails ( ) ||to < 0||to > = get nr rails ( ) ) return - 1 ;  <NL> if ( ! rail [ from ] . contains key ( new integer ( to ) ) ) return - 1 ;  <NL> return ( ( integer ) rail [ from ] . get ( new integer ( to ) ) ) . int value ( ) ;  <NL>  }  COM: <s> returns the color of the given rail </s>

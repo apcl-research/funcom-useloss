@@ -1,0 +1,1 @@
+TDAT: public via header get via header ( )  <NL>  { / / header h = get header ( sip headers . via ) ;  <NL>  / / if ( h = = null ) return null ; else return new via header ( h ) ;  <NL> multiple header mh = get vias ( ) ;  <NL> if ( mh = = null ) return null ; return new via header ( mh . get top ( ) ) ;  <NL>  }  COM: <s> gets the first via header </s>

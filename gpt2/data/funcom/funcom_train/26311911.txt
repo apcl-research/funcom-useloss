@@ -1,0 +1,1 @@
+TDAT: public void send mount facing change ( int n entity , int n equip , int n facing ) {  <NL> object [ ] data = { new integer ( n entity ) , new integer ( n equip ) ,  <NL> new integer ( n facing ) } ;  <NL> send ( new packet ( packet . command _ entity _ mounted _ facingchange , data ) ) ;  <NL>  }  COM: <s> send mount facing change data to the server </s>

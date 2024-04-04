@@ -1,0 +1,1 @@
+TDAT: public double dhyperg ( int x , int t , int m , int n ) {  <NL> double p ;  <NL> p = ( ( double ) m ) / ( ( double ) n ) ;  <NL>  <NL> return ( dbinom ( x , t , p ) * dbinom ( m - x , n - t , p ) / dbinom ( m , n , p ) ) ;  <NL>  }  COM: <s> returns the binomial approximation of a discrete value from the hypergeometric distribution </s>

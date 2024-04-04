@@ -1,0 +1,1 @@
+TDAT: public void add ( int index , dc menu model sub menu model ) {  <NL> synchronized ( items ) {  <NL> items . add ( sub menu model ) ;  <NL> dc menu model event event = new dc menu model event ( dc menu model event . add _ event , index , sub menu model , this ) ;  <NL> fire menu changed ( event ) ;  <NL>  }  <NL>  }  COM: <s> add a sub menu to the end of this menu model </s>

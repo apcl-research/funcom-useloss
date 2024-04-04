@@ -1,0 +1,1 @@
+TDAT: private string get href ( file report xml ) throws malformed url exception {  <NL> string file name = report xml . get path ( ) ;  <NL> string href = file name . substring ( 0 , file name . last index of ( ' . ' ) ) + " . html " ;  <NL> return new url ( base url , href ) . to external form ( ) ;  <NL>  }  COM: <s> computes the url to the report online </s>

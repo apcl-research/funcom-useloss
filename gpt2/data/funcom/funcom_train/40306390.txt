@@ -1,0 +1,1 @@
+TDAT: public void mouse dragged ( mouse event e ) {  <NL>  / / if we clicked the right - mouse button before <NL> if ( m _ b drag enabled )  <NL> m _ gui . get renderer ( ) . set rotation ( ( e . get y ( ) - m _ point drag start . y ) / 4 , ( e . get x ( ) - m _ point drag start . x ) / 4 ) ;  <NL>  }  COM: <s> called by gui components mouse dragged event </s>

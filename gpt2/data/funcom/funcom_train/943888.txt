@@ -1,0 +1,1 @@
+TDAT: public boolean is asserted ( quad quad ) {  <NL> iterator it = this . get matching quads ( quad . get context ( ) , quad . get subject ( ) ,  <NL> quad . get predicate ( ) , quad . get object ( ) , quad . object is literal ( ) ) ;  <NL> return it . has next ( ) ;  <NL>  }  COM: <s> return true if quad is asserted in this </s>

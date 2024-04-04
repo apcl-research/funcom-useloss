@@ -1,0 +1,1 @@
+TDAT: static public point3d on segment ( point3d p1 , point3d p2 , double dist ) {  <NL> return new point3d (  <NL> p1 . x + ( p2 . x - p1 . x ) * dist ,  <NL> p1 . y + ( p2 . y - p1 . y ) * dist ,  <NL> p1 . z + ( p2 . z - p1 . z ) * dist ) ;  <NL>  }  COM: <s> returns point at given percentage of distance between two other points </s>

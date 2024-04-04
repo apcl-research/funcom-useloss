@@ -1,0 +1,1 @@
+TDAT: public void create response header ( ) {  <NL> get http servlet response ( ) . set content type ( " text / html " ) ;  <NL> get http servlet response ( ) . set header ( " cache - control " , " max - age = 0 " ) ;  <NL> get http servlet response ( ) . set header ( " cache " , " no - cache " ) ;  <NL>  }  COM: <s> creates the default response header </s>

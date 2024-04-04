@@ -1,0 +1,1 @@
+TDAT: public void paint ( graphics g ) {  <NL> graphics2d g2 = ( graphics2d ) g ;  <NL> super . paint ( g2 ) ;  <NL> if ( m _ selection ) {  <NL> g2 . set color ( color . orange ) ;  <NL> g2 . draw rect ( m _ x sel , m _ y sel , m _ w sel , m _ h sel ) ;  <NL>  }  <NL>  }  COM: <s> to draw the selection rectangle if necessary </s>

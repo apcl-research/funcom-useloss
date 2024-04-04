@@ -1,0 +1,1 @@
+TDAT: public double y predicted ( matrix var ) {  <NL> double y = has constant ? x . get ( 0 , 0 ) : 0 ;  <NL> int offset = has constant ? 1 : 0 ;  <NL>  <NL> for ( int i = 0 ; i < k ; + + i ) {  <NL> y + = ( double ) var . get ( 0 , i ) * x . get ( i + offset , 0 ) ;  <NL>  }  <NL> return y ;  <NL>  }  COM: <s> returns the predicted y value given a vector of values of the </s>

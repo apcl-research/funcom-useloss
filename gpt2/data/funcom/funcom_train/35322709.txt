@@ -1,0 +1,1 @@
+TDAT: public void clear ( ) {  <NL> final segment < k , v > [ ] segments = this . segments ;  <NL> for ( int j = 0 ; j < segments . length ; + + j ) {  <NL> segment < k , v > s = segment at ( segments , j ) ;  <NL> if ( s ! = null )  <NL> s . clear ( ) ;  <NL>  }  <NL>  }  COM: <s> removes all of the mappings from this map </s>

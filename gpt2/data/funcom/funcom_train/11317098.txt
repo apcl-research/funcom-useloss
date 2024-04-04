@@ -1,0 +1,1 @@
+TDAT: public void add message ( entity publisher , string node name , string item id , xml element payload ) {  <NL> map < string , payload item > messages = node messages . get ( node name ) ;  <NL> messages . put ( item id , new payload item ( publisher , payload , item id ) ) ;  <NL>  }  COM: <s> add a message to the storage </s>

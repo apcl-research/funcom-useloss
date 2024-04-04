@@ -1,0 +1,1 @@
+TDAT: protected mj button get b del ( ) {  <NL> if ( b del = = null ) {  <NL> b del = new mj button ( ) ;  <NL> b del . set text ( " delete " ) ;  <NL> b del . set mnemonic ( key event . vk _ d ) ;  <NL> b del . set preferred size ( new java . awt . dimension ( 85 , 26 ) ) ;  <NL>  }  <NL> return b del ;  <NL>  }  COM: <s> this method initializes b del </s>

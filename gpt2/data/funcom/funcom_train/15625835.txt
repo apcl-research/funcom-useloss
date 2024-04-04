@@ -1,0 +1,1 @@
+TDAT: public boolean is empty ( ) {  <NL> for ( int x = 0 ; x < map size . get width ( ) ; x + + ) {  <NL> for ( int y = 0 ; y < map size . get height ( ) ; y + + ) {  <NL> if ( ! map grid . get ( x ) . get ( y ) . is empty ( ) ) {  <NL> return false ;  <NL>  }  <NL>  }  <NL>  }  <NL> return true ;  <NL>  }  COM: <s> returns whether the map is empty </s>

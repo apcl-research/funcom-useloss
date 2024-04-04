@@ -1,0 +1,1 @@
+TDAT: public void test4 ( ) {  <NL> int mod = i . class . get modifiers ( ) ;  <NL> assert true ( " private " , modifier . is private ( mod ) ) ;  <NL> assert true ( " interface " , modifier . is interface ( mod ) ) ;  <NL> assert true ( " abstract " , modifier . is abstract ( mod ) ) ;  <NL>  }  COM: <s> an interface should always has abstract and interface modifiers on </s>

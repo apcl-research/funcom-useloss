@@ -1,0 +1,1 @@
+TDAT: public void remove entry ( nce consist roster entry e ) {  <NL> if ( log . is debug enabled ( ) ) log . debug ( " remove entry " + e ) ;  <NL>  _ list . remove ( _ list . index of ( e ) ) ;  <NL> set dirty ( true ) ;  <NL> fire property change ( " remove " , null , e ) ;  <NL>  }  COM: <s> remove a roster entry object from the in memory roster </s>

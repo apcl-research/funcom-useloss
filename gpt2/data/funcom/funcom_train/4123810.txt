@@ -1,0 +1,1 @@
+TDAT: public unit data get unit data ( unit type unit type ) {  <NL> unit data data = unit data map . get ( unit type . get id ( ) ) ;  <NL> if ( data = = null ) {  <NL> data = new unit data ( unit type ) ;  <NL> unit data map . put ( unit type . get id ( ) , data ) ;  <NL>  }  <NL> return data ;  <NL>  }  COM: <s> get profession data create on demand </s>

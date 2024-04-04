@@ -1,0 +1,1 @@
+TDAT: private void write packet header ( byte buffer pkt , int data len , int packet len ) {  <NL> pkt . clear ( ) ;  <NL> packet header header = new packet header ( packet len , offset , seqno ,  <NL>  ( data len = = 0 ) , data len ) ;  <NL> header . put in buffer ( pkt ) ;  <NL>  }  COM: <s> write packet header into </s>

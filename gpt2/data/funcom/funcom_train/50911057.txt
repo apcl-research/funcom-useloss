@@ -1,0 +1,1 @@
+TDAT: public void set max ( int max ) throws euclid runtime exception {  <NL> for ( int i = 0 ; i < nelem ; i + + ) {  <NL> if ( array [ i ] > max ) {  <NL> throw new euclid runtime exception ( " element in set ( " + array [ i ]  <NL>  + " ) greater than new max ( " + max + s _ rbrak ) ;  <NL>  }  <NL>  }  <NL> this . max = max ;  <NL>  }  COM: <s> set maximum allowed value </s>

@@ -1,0 +1,1 @@
+TDAT: public void for each pair ( each term pair action etpa ) {  <NL> iterator < string > i = term pairs . iterator ( ) ;  <NL> while ( i . has next ( ) ) {  <NL> string s = i . next ( ) ;  <NL> string [ ] ss = s . split ( glue ) ;  <NL> etpa . do action ( ss [ 0 ] , ss [ 1 ] ) ;  <NL>  }  <NL>  }  COM: <s> apply an action to each term pair occuring in this set </s>

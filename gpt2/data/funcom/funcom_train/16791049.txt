@@ -1,0 +1,1 @@
+TDAT: protected void build entry ( string label key , string value , print writer writer ) {  <NL> writer . printf ( " < p class = \ " entry\ " > < span class = \ " label\ " > % s < / span > < span class = \ " value\ " > % s < / span > < / p > \n " , this . resources . get string ( label key ) , value ) ;  <NL>  }  COM: <s> display a simple string entry </s>

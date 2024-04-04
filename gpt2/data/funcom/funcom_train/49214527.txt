@@ -1,0 +1,1 @@
+TDAT: public void test parse lu fields ( ) {  <NL> string lu string = " key1 : val1 , key2 : val2 , key3 " ;  <NL> hash map lu map = property helper . parse lu fields ( lu string ) ;  <NL> assert equals ( lu map . get ( " key1 " ) , " val1 " ) ;  <NL> assert true ( lu map . size ( ) = = 3 ) ;  <NL>  }  COM: <s> test of parse lu fields method of class property helper </s>

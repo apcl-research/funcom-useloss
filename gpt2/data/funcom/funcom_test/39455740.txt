@@ -1,0 +1,1 @@
+TDAT: private string get text of element ( ) {  <NL> string text = char buffer . to string ( ) ;  <NL> text = text . replace all ( " [ \n\r\t ] + " , " " ) ;  <NL> text = text . replace all ( " ^ \\s + " , " " ) ;  <NL> char buffer . delete ( 0 , char buffer . length ( ) ) ;  <NL> return text ;  <NL>  }  COM: <s> return a string without tab an eof characters </s>

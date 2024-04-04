@@ -1,0 +1,1 @@
+TDAT: private void add child listener ( meta object o ) {  <NL> if ( o ! = null ) log . lg ( get path ( ) + " adding child listener " + o . get path ( ) , 4 , " meta object implementation " ) ;  <NL> if ( o = = null <NL> || childlisteners . contains key ( o ) ) return ;  <NL> else childlisteners . put ( o , null ) ;  <NL>  }  COM: <s> add a child listener </s>

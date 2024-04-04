@@ -1,0 +1,1 @@
+TDAT: public string next ( int n ) throws parse exception {  <NL> int i = this . my index ;  <NL> int j = i + n ;  <NL> if ( j > = this . my source . length ( ) ) {  <NL> throw syntax error ( " substring bounds error " ) ;  <NL>  }  <NL> this . my index + = n ;  <NL> return this . my source . substring ( i , j ) ;  <NL>  }  COM: <s> get the next n characters </s>

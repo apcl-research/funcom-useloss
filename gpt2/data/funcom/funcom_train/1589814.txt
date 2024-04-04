@@ -1,0 +1,1 @@
+TDAT: public time of day with millis of second ( int millis ) {  <NL> int [ ] new values = get values ( ) ;  <NL> new values = get chronology ( ) . millis of second ( ) . set ( this , millis _ of _ second , new values , millis ) ;  <NL> return new time of day ( this , new values ) ;  <NL>  }  COM: <s> returns a copy of this time with the millis of second field updated </s>

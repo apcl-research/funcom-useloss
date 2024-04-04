@@ -1,0 +1,1 @@
+TDAT: public line2d convert ( line2d l )  <NL>  { double x1 = x to pixel ( l . get x1 ( ) ) ;  <NL> double y1 = y to pixel ( l . get y1 ( ) ) ;  <NL> double x2 = x to pixel ( l . get x2 ( ) ) ;  <NL> double y2 = y to pixel ( l . get y2 ( ) ) ;  <NL> l . set line ( x1 , y1 , x2 , y2 ) ;  <NL> return l ;  <NL>  }  COM: <s> converts a line from user coordinates to pixels </s>

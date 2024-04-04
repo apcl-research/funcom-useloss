@@ -1,0 +1,1 @@
+TDAT: public void add tag ( string tag , string attribute ) {  <NL> string tag lower = tag . to lower case ( ) ;  <NL> vector v = ( vector ) tags _ . get ( tag lower ) ;  <NL> if ( v = = null ) v = new vector ( ) ;  <NL> v . add ( attribute . to lower case ( ) ) ;  <NL> tags _ . put ( tag lower , v ) ;  <NL>  }  COM: <s> specify a new attribute to edit </s>

@@ -1,0 +1,1 @@
+TDAT: public void print packet ( ) {  <NL> system . out . print ( ' p ' ) ;  <NL> system . out . print ( ' : ' ) ;  <NL> for ( int i = 0 ; i < used length ; i + + ) {  <NL> system . out . print ( data [ i ] ) ;  <NL> system . out . print ( ' ' ) ;  <NL>  }  <NL> system . out . println ( ) ;  <NL>  }  COM: <s> ram friendly printing of packet </s>

@@ -1,0 +1,1 @@
+TDAT: public void dolly ( float d ) {  <NL>  <NL> vector3f gaze = new vector3f ( target ) ;  <NL> gaze . sub ( position ) ;  <NL> double dist = gaze . length ( ) ;  <NL> gaze . normalize ( ) ;  <NL> d * = 6 ;  <NL>  <NL> if ( dist + d > 0 . 01 )  <NL> position . scale add ( - d , gaze , position ) ;  <NL>  }  COM: <s> dolly this camera </s>

@@ -1,0 +1,1 @@
+TDAT: public vector n acceleration ( earth ref e ref , spacecraft sc ) {  <NL> this . omega _ e = e ref . get _ omega _ e ( ) ;  <NL> time t = new time ( e ref . mjd _ utc ( ) ) ;  <NL> compute ( t , e ref , sc . r ( ) , sc . v ( ) ) ;  <NL> return drag accel ( ) ;  <NL>  }  COM: <s> returns the acceleration developed on the spacecraft at the current time and position </s>

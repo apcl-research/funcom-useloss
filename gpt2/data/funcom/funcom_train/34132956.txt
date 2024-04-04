@@ -1,0 +1,1 @@
+TDAT: public void set cursor position ( int pos ) {  <NL>  <NL> int length = get editor ( ) . get document ( ) . get length ( ) ;  <NL> if ( pos < 0 ) {  <NL> pos = 0 ;  <NL>  }  <NL> else if ( pos > = length & & length > 0 ) {  <NL> pos = length - 1 ;  <NL>  }  <NL> get editor ( ) . set caret position ( pos ) ;  <NL>  }  COM: <s> sets the position of the cursor </s>

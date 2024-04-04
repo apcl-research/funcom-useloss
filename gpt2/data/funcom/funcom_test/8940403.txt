@@ -1,0 +1,1 @@
+TDAT: public string as java string ( ) {  <NL> i ruby object as string = check string type ( ) ;  <NL> if ( ! as string . is nil ( ) ) return ( ( ruby string ) as string ) . as java string ( ) ;  <NL> throw get runtime ( ) . new type error ( inspect ( ) . to string ( ) + " is not a symbol " ) ;  <NL>  }  COM: <s> rb to id </s>

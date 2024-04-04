@@ -1,0 +1,1 @@
+TDAT: protected double get euclidean ( node x , node y ) {  <NL> return math . abs ( math . sqrt ( math . pow ( y . get location ( ) . x - x . get location ( ) . x , 2 ) + math . pow ( y . get location ( ) . y - x . get location ( ) . y , 2 ) ) ) ;  <NL>  }  COM: <s> returns the euclidean distance between 2 nodes </s>

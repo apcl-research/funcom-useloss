@@ -1,0 +1,1 @@
+TDAT: private string encode ( selectable publishers sp ) {  <NL> string builder sb = new string builder ( ) ;  <NL> for ( select item si : sp . get items ( ) ) {  <NL> if ( sb . length ( ) > 0 ) {  <NL> sb . append ( " \r\n " ) ;  <NL>  }  <NL> sb . append ( encode ( si ) ) ;  <NL>  }  <NL> return sb . to string ( ) ;  <NL>  }  COM: <s> encodes selectable publishers </s>

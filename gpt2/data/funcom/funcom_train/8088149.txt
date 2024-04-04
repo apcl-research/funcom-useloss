@@ -1,0 +1,1 @@
+TDAT: <NL> protected void swap ( int a , int b , stack < d _ node > cover _ set ) {  <NL> d _ node tmp = cover _ set . element ( a ) ;  <NL> cover _ set . set ( a , cover _ set . element ( b ) ) ;  <NL> cover _ set . set ( b , tmp ) ;  <NL>  }  COM: <s> swap two nodes in a cover set </s>

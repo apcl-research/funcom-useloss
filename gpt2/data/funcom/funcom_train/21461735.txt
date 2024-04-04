@@ -1,0 +1,1 @@
+TDAT: public void set request values ( map < string , object > params ) {  <NL> if ( params ! = null & & params . size ( ) > 0 ) {  <NL> for ( entry < string , object > entry : params . entry set ( ) ) {  <NL> set request value ( entry . get key ( ) , entry . get value ( ) ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> place all these params into the request storage </s>

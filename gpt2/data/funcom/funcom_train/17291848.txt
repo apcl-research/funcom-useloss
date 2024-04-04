@@ -1,0 +1,1 @@
+TDAT: public void print table row ( row table row ) {  <NL>  <NL> system . out . println ( " id = " + table row . get string ( 0 ) + " , name = "  <NL>  + table row . get string ( 1 ) + " , surname = "  <NL>  + table row . get string ( 2 ) + " , city = "  <NL>  + table row . get string ( 3 ) ) ;  <NL>  <NL>  }  COM: <s> prints the contents of a single row </s>

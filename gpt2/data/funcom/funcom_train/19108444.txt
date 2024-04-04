@@ -1,0 +1,1 @@
+TDAT: public string get display prog ( prog p node prog ) {  <NL> string str name = get prog name ( p node prog ) ;  <NL> string str version = get prog version ( p node prog ) ;  <NL> return ( ( str name = = null ) ? " " : ( str name + " " ) ) + ( ( str version = = null ) ? " " : str version ) ;  <NL>  }  COM: <s> gets the programme display name </s>

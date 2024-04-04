@@ -1,0 +1,1 @@
+TDAT: private void check ( ) {  <NL> string [ ] result = m _ checker . check ( m _ passage . get text ( ) ) ;  <NL> if ( result ! = null ) {  <NL> m _ result . set text ( result . length + " word ( s ) are mispelled " ) ;  <NL>  } else {  <NL> m _ result . set text ( " all words are correct " ) ;  <NL>  }  <NL>  }  COM: <s> check button action </s>

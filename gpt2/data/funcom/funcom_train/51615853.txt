@@ -1,0 +1,1 @@
+TDAT: public boolean compare list ( quick list other ) {  <NL> if ( this . is empty ( ) & & other . is empty ( ) ) return true ;  <NL> if ( this . is empty ( ) || other . is empty ( ) ) return false ;  <NL> if ( this . head . equals ( other . head ) ) return tail . compare list ( other . tail ) ;  <NL> return false ;  <NL>  }  COM: <s> compare two lists for equality </s>

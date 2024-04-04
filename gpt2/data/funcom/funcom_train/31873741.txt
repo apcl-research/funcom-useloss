@@ -1,0 +1,1 @@
+TDAT: public void invoke start ( int x , int y , drawing view view ) {  <NL> f connection = create connection ( ) ;  <NL> point p = locate ( ) ;  <NL> f connection . start point ( p . x , p . y ) ;  <NL> f connection . end point ( p . x , p . y ) ;  <NL> view . drawing ( ) . add ( f connection ) ;  <NL>  }  COM: <s> creates the connection </s>

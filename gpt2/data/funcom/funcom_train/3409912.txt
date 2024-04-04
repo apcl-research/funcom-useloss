@@ -1,0 +1,1 @@
+TDAT: private boolean continue line ( string line ) {  <NL> int slash count = 0 ;  <NL> int index = line . length ( ) - 1 ;  <NL> while ( ( index > = 0 ) & & ( line . char at ( index - - ) = = ' \\ ' ) ) {  <NL> slash count + + ;  <NL>  }  <NL> return ( slash count % 2 = = 1 ) ;  <NL>  }  COM: <s> copied from java </s>

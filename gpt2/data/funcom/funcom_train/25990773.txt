@@ -1,0 +1,1 @@
+TDAT: public void test lookups ( ) throws exception {  <NL>  / / value equality <NL>  / / result = eval ( " key = 3 ; arr = [ ] ; arr [ key ] = ' one ' ; arr . store ( 3 , ' two ' ) ; puts arr [ key ] " ) ;  <NL>  / / assert equals ( " two " , result ) ;  <NL>  }  COM: <s> test array store and array retrieve </s>

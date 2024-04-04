@@ -1,0 +1,1 @@
+TDAT: public void polygon ( int [ ] xp , int [ ] yp , int np ) {  <NL>  / / new path ( ) not needed here as moveto does it ; - )  <NL> moveto ( xp [ 0 ] , yp [ 0 ] ) ;  <NL> for ( int i = 1 ; i < np ; i + + )  <NL> lineto ( xp [ i ] , yp [ i ] ) ;  <NL>  }  COM: <s> this is used to add a polygon to the current path </s>

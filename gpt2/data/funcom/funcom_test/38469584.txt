@@ -1,0 +1,1 @@
+TDAT: static public string char trim ( string str , char cc )  <NL>  {  <NL> int i = 0 , j = str . length ( ) ;  <NL> while ( ( i < j ) & & str . char at ( i ) = = cc ) { i + + ; }  <NL> while ( ( i < j ) & & str . char at ( j - 1 ) = = cc ) { j - - ; }  <NL>  <NL> return str . substring ( i , j ) ;  <NL>  }  COM: <s> trim char from a string </s>

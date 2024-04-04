@@ -1,0 +1,1 @@
+TDAT: private void on scroll selection ( ) {  <NL> top index = - 1 ;  <NL> bottom index = - 1 ;  <NL> refresh hover state ( ) ;  <NL> redraw ( get client area ( ) . x , get client area ( ) . y , get client area ( ) . width , get client area ( ) . height , false ) ;  <NL>  }  COM: <s> scrollbar selection event handler </s>

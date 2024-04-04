@@ -1,0 +1,1 @@
+TDAT: public void set tile ( tile tile ) {  <NL> if ( tile = = null ) {  <NL> destroy ( ) ;  <NL> return ;  <NL>  }  <NL> tm . set tile ( ( int ) ( x - tm . get x ( ) ) / tm . get tile width ( ) , ( int ) ( y - tm . get y ( ) ) / tm . get tile height ( ) , tile ) ;  <NL> this . tile = tile ;  <NL>  }  COM: <s> changes the current tile image </s>

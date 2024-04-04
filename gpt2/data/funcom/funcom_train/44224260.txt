@@ -1,0 +1,1 @@
+TDAT: public void set ( float x1 , float y1 , float x2 , float y2 ) {  <NL> min [ 0 ] = math . min ( x1 , x2 ) ;  <NL> min [ 1 ] = math . min ( y1 , y2 ) ;  <NL> max [ 0 ] = math . max ( x1 , x2 ) ;  <NL> max [ 1 ] = math . max ( y1 , y2 ) ;  <NL>  }  COM: <s> sets the size of the rectangle </s>

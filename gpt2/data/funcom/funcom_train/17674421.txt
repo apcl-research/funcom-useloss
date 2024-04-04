@@ -1,0 +1,1 @@
+TDAT: public void dump ( string indent ) {  <NL> system . out . println ( indent + this ) ;  <NL> if ( type = = type _ server _ bean ) {  <NL> indent = indent + " " ;  <NL> int n = children . length ;  <NL> for ( int i = 0 ; i < n ; i + + ) children [ i ] . dump ( indent ) ;  <NL>  }  <NL>  }  COM: <s> dump to system </s>

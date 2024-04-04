@@ -1,0 +1,1 @@
+TDAT: private void blackman ( ) {  <NL> int n = window . length ;  <NL> double pi = math . pi ;  <NL> for ( int n = 0 ; n < n ; n + + ) {  <NL> window [ n ] = 0 . 42 - ( 0 . 5 * math . cos ( 2 * pi * n / ( n - 1 ) ) )  <NL>  + ( 0 . 08 * math . cos ( 4 * pi * n / ( n - 1 ) ) ) ;  <NL>  }  <NL>  }  COM: <s> create a blackman window </s>

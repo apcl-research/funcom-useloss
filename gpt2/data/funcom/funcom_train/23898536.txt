@@ -1,0 +1,1 @@
+TDAT: public boolean is text node ( ) {  <NL> string node name = get node name ( ) ;  <NL> boolean result = node . text _ node = = get node type ( ) ;  <NL> if ( result ) {  <NL> lgr . debug ( " is text node " ) ;  <NL>  } else {  <NL> lgr . debug ( " not a text node : " + node name ) ;  <NL>  }  <NL> return result ;  <NL>  }  COM: <s> check if node is text node </s>

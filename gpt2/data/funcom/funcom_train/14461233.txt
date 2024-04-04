@@ -1,0 +1,1 @@
+TDAT: public void set row number ( int i ) {  <NL> byte [ ] r = byte tools . c long to le bytes ( i ) ;  <NL>  / / byte [ ] dt = this . get data ( ) ;  <NL>  / / if ( dt ! = null ) / / todo : lazy this <NL> system . arraycopy ( r , 0 , get data ( ) , 0 , 2 ) ;  <NL> rw = i ;  <NL>  }  COM: <s> set the row </s>

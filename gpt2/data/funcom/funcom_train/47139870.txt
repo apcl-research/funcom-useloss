@@ -1,0 +1,1 @@
+TDAT: public void set value at ( object o value , int row , int col ) {  <NL> object o record = get record ( row ) ;  <NL> if ( o record ! = null ) {  <NL> m _ ted entry descriptor . set value at ( o record , col , o value ) ;  <NL>  <NL> fire table cell updated ( row , col ) ;  <NL>  }  <NL>  }  COM: <s> set the value of the given cell in this </s>

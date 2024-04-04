@@ -1,0 +1,1 @@
+TDAT: public void send ( job job , tool reply to ) throws remote exception {  <NL> save ( job , reply to ) ;  <NL> job = convert ( job ) ;  <NL> if ( child . equals ( reply to ) ) { / / job comes from child , so send replies <NL> send replies ( job ) ;  <NL>  } else { / / forward job to child <NL> forward ( job ) ;  <NL>  }  <NL>  }  COM: <s> sends a job to this tool </s>

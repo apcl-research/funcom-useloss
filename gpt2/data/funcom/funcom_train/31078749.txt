@@ -1,0 +1,1 @@
+TDAT: public string get type name ( ) {  <NL> if ( get type index ( ) = = 0 )  <NL> return null ;  <NL> utf8entry entry = ( utf8entry ) get pool ( ) . get entry ( get type index ( ) ) ;  <NL> return get project ( ) . get name cache ( ) . get external form ( entry . get value ( ) ,  <NL> false ) ;  <NL>  }  COM: <s> return the full name of the locals type or null if unset </s>

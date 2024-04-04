@@ -1,0 +1,1 @@
+TDAT: public void paint fill ( component c , graphics g , rectangle r ) {  <NL> int x = r . x , y = r . y , w = r . width , h = r . height ;  <NL> configure graphics ( c , g , x , y , w , h ) ;  <NL> g . draw line ( x , y , x + w , y + h ) ;  <NL> g . draw line ( x + w , y , x , y + h ) ;  <NL>  }  COM: <s> draw a cross or x in the specified rectangle </s>

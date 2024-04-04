@@ -1,0 +1,1 @@
+TDAT: private void log exception ( exception e ) {  <NL> string writer writer = new string writer ( ) ;  <NL> e . print stack trace ( new print writer ( writer ) ) ;  <NL> add to log ( " cannot compare ! , see stack trace . . . " ) ;  <NL> add to log ( writer . to string ( ) ) ;  <NL> set result ( false ) ;  <NL>  }  COM: <s> logs an exception during the comparison process </s>

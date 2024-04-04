@@ -1,0 +1,1 @@
+TDAT: private void fill collection ( collection < object > col , map < ? , ? > params ) {  <NL> if ( params ! = null ) {  <NL> for ( int i = 0 ; i < params . size ( ) ; i + + ) {  <NL> col . add ( params . get ( integer . value of ( i ) ) ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> helper to fill collection from a map expecting object </s>

@@ -1,0 +1,1 @@
+TDAT: public boolean test event ( sax event s e ) {  <NL> if ( s e . get type ( ) ! = sax event . start _ element ) {  <NL> return false ;  <NL>  }  <NL>  <NL> return test ( s e . get uri ( ) , s e . get local name ( ) , s e . get qualified name ( ) ,  <NL> s e . get attributes ( ) ) ;  <NL>  }  COM: <s> test if the event satisfy the conditions </s>

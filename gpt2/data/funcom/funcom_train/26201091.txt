@@ -1,0 +1,1 @@
+TDAT: public void set clip ( int x , int y , int w , int h ) {  <NL> clip rectangle = new rectangle ( x , y , w , h ) ;  <NL> close block ( ) ; / / finish off any existing paths <NL> draw rect ( x , y , w , h ) ;  <NL> close block ( " w n " ) ; / / clip to current path <NL>  }  COM: <s> clips to a set of coordinates </s>

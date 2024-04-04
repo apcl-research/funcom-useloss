@@ -1,0 +1,1 @@
+TDAT: protected void write cluster ( cluster c ) {  <NL> log stream . println ( string . format ( " % d % e % e % e % e " , c . last event timestamp , c . location . x , c . location . y , c . velocity pps . x , c . velocity pps . y ) ) ;  <NL>  }  COM: <s> writes out a single cluster info for the case statement </s>

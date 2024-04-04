@@ -1,0 +1,1 @@
+TDAT: public view get view ( ) {  <NL>  / / create view lazily only once it ' s needed <NL> if ( this . home frame view = = null ) {  <NL> this . home frame view = new home frame pane ( this . home , this . application , this . content manager , this ) ;  <NL>  }  <NL> return this . home frame view ;  <NL>  }  COM: <s> returns the view associated with this controller </s>

@@ -1,0 +1,1 @@
+TDAT: protected void init actions ( ) {  <NL> class c = get class ( ) ;  <NL> add action ( c , action _ exit _ app , new exit action ( this ) ) ;  <NL> add action ( c , action _ about _ app , new about app action ( this ) ) ;  <NL> add action ( c , action _ show _ help _ contents , new help contents action ( ) ) ;  <NL>  }  COM: <s> initialize this applications action table </s>

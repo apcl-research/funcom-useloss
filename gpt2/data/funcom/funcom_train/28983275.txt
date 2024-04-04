@@ -1,0 +1,1 @@
+TDAT: public void blink ( ) {  <NL> for ( int i = 1 ; i < leds . length - 1 ; i + + ) {  <NL> leds [ i ] . set on ( ) ;  <NL> leds [ i ] . set rgb ( 100 , 100 , 100 ) ;  <NL>  }  <NL>  <NL> utils . sleep ( 1000 ) ;  <NL>  <NL> for ( int i = 1 ; i < leds . length - 1 ; i + + ) {  <NL> leds [ i ] . set off ( ) ;  <NL>  }  <NL>  }  COM: <s> blinks the leds after initalisation </s>

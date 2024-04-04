@@ -1,0 +1,1 @@
+TDAT: public void test get command output ( ) {  <NL> string output = command runner . get command output ( new file ( " . " ) , new file (  <NL> system . get property ( " java . home " ) , " bin / java " ) . get absolute path ( ) , " - help " ) ;  <NL> assert not null ( output ) ;  <NL>  }  COM: <s> test that java help runs successfully </s>

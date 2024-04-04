@@ -1,0 +1,1 @@
+TDAT: protected j button create arrow button ( ) {  <NL> j button button = new my metal combo box button ( combo box , new metal combo box icon ( ) ,  <NL> combo box . is editable ( ) ? true : false ,  <NL> current value pane , list box ) ;  <NL> button . set margin ( new insets ( 0 , 1 , 1 , 3 ) ) ;  <NL> return button ;  <NL>  }  COM: <s> installs my metal combo box button </s>

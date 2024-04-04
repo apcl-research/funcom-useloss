@@ -1,0 +1,1 @@
+TDAT: public void add table ( j table table ) {  <NL> table column model tcm = table . get column model ( ) ;  <NL> for ( int i = 0 ; i < tcm . get column count ( ) ; i + + ) {  <NL> table column tc = tcm . get column ( i ) ;  <NL> add column ( tc ) ;  <NL>  }  <NL> tcm . add column model listener ( this ) ;  <NL>  _ tracked . add ( tcm ) ;  <NL>  }  COM: <s> adds the table </s>

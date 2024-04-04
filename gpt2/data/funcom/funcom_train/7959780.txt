@@ -1,0 +1,1 @@
+TDAT: public void install dock view settings ( ) {  <NL> ui manager . put ( " dock view ui " , " com . vlsolutions . swing . docking . ui . dock view ui " ) ;  <NL> ui manager . put ( " detached dock view ui " , " com . vlsolutions . swing . docking . ui . detached dock view ui " ) ;  <NL>  }  COM: <s> installs the dock view related properties </s>

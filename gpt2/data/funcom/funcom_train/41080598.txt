@@ -1,0 +1,1 @@
+TDAT: public void set value ( double value ) throws java . beans . property veto exception {  <NL> this . set init ( true ) ;  <NL> this . value = value ;  <NL> this . old value = value ;  <NL> nd . set value ( value ) ;  <NL> this . set text ( number format . format ( get value ( ) ) ) ;  <NL> this . set init ( false ) ;  <NL>  }  COM: <s> setter for property value </s>

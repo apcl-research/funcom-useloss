@@ -1,0 +1,1 @@
+TDAT: public object clone ( ) {  <NL> int32primitive vector v = ( int32primitive vector ) super . clone ( ) ;  <NL> if ( vals ! = null ) {  <NL> v . vals = new int [ vals . length ] ;  <NL> system . arraycopy ( vals , 0 , v . vals , 0 , vals . length ) ;  <NL>  }  <NL> return v ;  <NL>  }  COM: <s> returns a clone of this code int32 primitive vector code </s>

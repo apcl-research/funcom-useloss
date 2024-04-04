@@ -1,0 +1,1 @@
+TDAT: public float matrix1d make ( cern . colt . list . tfloat . abstract float list values ) {  <NL> int size = values . size ( ) ;  <NL> float matrix1d vector = make ( size ) ;  <NL> for ( int i = size ; - - i > = 0 ; )  <NL> vector . set ( i , values . get ( i ) ) ;  <NL> return vector ;  <NL>  }  COM: <s> constructs a matrix from the values of the given list </s>

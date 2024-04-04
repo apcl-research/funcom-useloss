@@ -1,0 +1,1 @@
+TDAT: public double get element ( final int i , final int j ) {  <NL> if ( i > = 0 & & i < num rows & & j > = 0 & & j < num cols ) {  <NL> if ( i = = j )  <NL> return diag [ i ] ;  <NL> else <NL> return 0 . 0 ;  <NL>  } else <NL> throw new matrix dimension exception ( get invalid element msg ( i , j ) ) ;  <NL>  }  COM: <s> returns an element of the matrix </s>

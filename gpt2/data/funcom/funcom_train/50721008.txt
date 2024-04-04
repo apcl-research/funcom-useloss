@@ -1,0 +1,1 @@
+TDAT: private void show editor ( ) {  <NL> component editor = get editor ( ) ;  <NL> int result = j option pane . show confirm dialog ( this , editor , " settings " , j option pane . ok _ cancel _ option ) ;  <NL> if ( result = = j option pane . ok _ option ) {  <NL> set editor ( editor ) ;  <NL>  }  <NL>  }  COM: <s> show an editor to set various parameters </s>

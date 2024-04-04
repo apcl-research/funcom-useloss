@@ -1,0 +1,1 @@
+TDAT: public void set applications ( final map < string , string > apps ) {  <NL> applications = apps ;  <NL> logger . info ( " loaded applications : " ) ;  <NL> for ( string id : applications . key set ( ) ) {  <NL> final string url = applications . get ( id ) ;  <NL> logger . info ( " - " + id + " : " + url ) ;  <NL>  }  <NL>  }  COM: <s> sets the configured applications </s>

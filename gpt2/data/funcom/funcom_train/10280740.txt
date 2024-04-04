@@ -1,0 +1,1 @@
+TDAT: public void update row ( int p row ) {  <NL> k feed table model l model = ( k feed table model ) m feed table . get model ( ) ;  <NL> int l view row = l model . map row index to table ( p row ) ;  <NL> for ( int k = 0 ; k < l model . get column count ( ) ; k + + ) {  <NL> m feed table . update cell ( k , l view row ) ;  <NL>  }  <NL>  }  COM: <s> update a row </s>

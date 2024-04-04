@@ -1,0 +1,1 @@
+TDAT: public i font create font ( p applet pa , string font file name , int font size , boolean anti aliased ) {  <NL> return create font ( pa , font file name , font size , new mt color ( 0 , 0 , 0 , 255 ) , new mt color ( 0 , 0 , 0 , 255 ) , anti aliased ) ;  <NL>  }  COM: <s> creates the font </s>

@@ -1,0 +1,1 @@
+TDAT: public vector get neighbourhood area i ds ( int area ) {  <NL> vector rtn = new vector ( ) ;  <NL> vector row = ( vector ) data . get ( area ) ;  <NL> for ( int i = 0 ; i < row . size ( ) ; i + + ) {  <NL> if ( are neighbours ( area , i ) ) {  <NL> rtn . add ( new integer ( i ) ) ;  <NL>  }  <NL>  }  <NL> return rtn ;  <NL>  }  COM: <s> get the ids of areas on the map </s>

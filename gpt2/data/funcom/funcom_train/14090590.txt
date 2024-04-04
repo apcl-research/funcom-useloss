@@ -1,0 +1,1 @@
+TDAT: public string get full request url ( ) {  <NL> return get http request ( ) . get scheme ( ) + " : / / "  <NL>  + get http request ( ) . get server name ( ) + " : "  <NL>  + get http request ( ) . get server port ( ) + get http request ( ) . get context path ( )  <NL>  + get request url ( ) ;  <NL>  }  COM: <s> indicates the url that the user agent used for this request </s>

@@ -1,0 +1,1 @@
+TDAT: public void set refresh rate ( int rate ) {  <NL> if ( rate < 0 )  <NL> meta refresh . set content ( null ) ;  <NL> else {  <NL> if ( rate = = 0 ) rate = get application bean ( ) . get default jsf refresh rate ( ) ;  <NL> meta refresh . set content ( rate + " ; url = . / user work queues . jsp " ) ;  <NL>  }  <NL>  }  COM: <s> sets the auto refresh rate of the page </s>

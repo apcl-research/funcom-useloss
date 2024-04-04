@@ -1,0 +1,1 @@
+TDAT: public void interaction begin at ( int x , int y )  <NL>  {  <NL> start selection . set location ( x , y ) ;  <NL> moving point . set location ( x , y ) ;  <NL> its xor handler . begin at ( x , y ) ;  <NL> its running g = gc . get graphic destination ( ) . get graphics ( ) ;  <NL> active = true ;  <NL>  }  COM: <s> used to set the starting point of the interaction </s>

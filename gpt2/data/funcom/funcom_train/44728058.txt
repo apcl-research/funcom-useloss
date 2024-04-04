@@ -1,0 +1,1 @@
+TDAT: public void test user object is correct ( ) {  <NL> generic node gn = new default generic node ( " test " , " user object " ) ;  <NL> assert equals ( gn . get user object ( ) . get class ( ) , string . class ) ;  <NL> assert equals ( gn . get user object ( ) . to string ( ) , " user object " ) ;  <NL>  }  COM: <s> test that user object works </s>

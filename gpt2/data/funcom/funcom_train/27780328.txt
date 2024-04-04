@@ -1,0 +1,1 @@
+TDAT: public void remove ( int i ) {  <NL> if ( i = = 0 ) {  <NL> used - - ;  <NL> if ( used > = 0 ) {  <NL> first = a [ 0 ] ;  <NL> system . arraycopy ( a , 1 , a , 0 , used ) ;  <NL>  }  <NL>  } else {  <NL> system . arraycopy ( a , i + 1 , a , i , - - used ) ;  <NL>  }  <NL>  }  COM: <s> remove the item in the inverted list at the given position </s>

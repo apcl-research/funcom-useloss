@@ -1,0 +1,1 @@
+TDAT: public void add level entry ( string name , string value ) {  <NL> object [ ] new entry = new object [ 2 ] ;  <NL> new entry [ 0 ] = name ;  <NL> new entry [ 1 ] = value ;  <NL> m _ rows . add ( new entry ) ;  <NL> int last elem = m _ rows . size ( ) - 1 ;  <NL> fire table rows inserted ( last elem , last elem ) ;  <NL>  }  COM: <s> adds the level to the table </s>

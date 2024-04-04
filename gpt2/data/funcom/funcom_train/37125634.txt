@@ -1,0 +1,1 @@
+TDAT: public void close ( ) {  <NL>  <NL> if ( debug ) { system . out . println ( " > > > > > ! ! close ! ! > > > > > " + m _ name ) ; }  <NL>  <NL>  / / set off the reactivity before closing to remove listeners <NL>  / / that may keep a reference on this object <NL> remove listeners ( ) ;  <NL>  <NL> super . close ( ) ;  <NL>  }  COM: <s> remove the reactivity on closing </s>

@@ -1,0 +1,1 @@
+TDAT: private void cancel existing cb ( ) {  <NL> assert ( thread . holds lock ( this ) ) ;  <NL> if ( m cb ! = null ) {  <NL>  / / cancel the existing waiter <NL> m cb . data ready ( this , - 1 , true , null ) ;  <NL> m cb = null ;  <NL> m last accessed time = system . current time millis ( ) ;  <NL>  }  <NL>  }  COM: <s> cancel any existing callback </s>

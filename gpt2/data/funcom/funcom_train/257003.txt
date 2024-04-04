@@ -1,0 +1,1 @@
+TDAT: public void centre window ( ) {  <NL> toolkit t = toolkit . get default toolkit ( ) ;  <NL> dimension d = t . get screen size ( ) ;  <NL>  <NL> point p = new point ( ( d . width - ( this . get width ( ) ) ) / 2 ,  <NL>  ( d . height - ( this . get height ( ) ) ) / 2 ) ;  <NL> this . set location ( p ) ;  <NL>  }  COM: <s> centers the window on the screen </s>

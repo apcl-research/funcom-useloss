@@ -1,0 +1,1 @@
+TDAT: private float curl ( int i , int j ) {  <NL> float du dy = ( u [ i ( i , j + 1 ) ] - u [ i ( i , j - 1 ) ] ) * 0 . 5f ;  <NL> float dv dx = ( v [ i ( i + 1 , j ) ] - v [ i ( i - 1 , j ) ] ) * 0 . 5f ;  <NL>  <NL> return du dy - dv dx ;  <NL>  }  COM: <s> calculate the curl at position i j in the fluid grid </s>

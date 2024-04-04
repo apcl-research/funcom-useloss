@@ -1,0 +1,1 @@
+TDAT: public string get class name and clause ( ) {  <NL> if ( get cause ( ) = = null ) {  <NL> return this . get class ( ) . get name ( ) ;  <NL>  } else {  <NL> return this . get class ( ) . get name ( ) + " : "  <NL>  + this . get cause ( ) . get class ( ) . get name ( ) ;  <NL>  }  <NL>  }  COM: <s> returns jupload exception class name cause class name </s>

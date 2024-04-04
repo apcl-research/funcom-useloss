@@ -1,0 +1,1 @@
+TDAT: public void sort ( ) {  <NL> call record [ ] data array = get data array ( ) ;  <NL> java . util . list l = arrays . as list ( data array ) ;  <NL> collections . sort ( l , this ) ;  <NL> set data array ( ( call record [ ] ) l . to array ( ( object [ ] ) data array ) ) ;  <NL>  }  COM: <s> sort the data array using the current sort column </s>

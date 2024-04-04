@@ -1,0 +1,1 @@
+TDAT: public void set up ( ) throws io exception {  <NL> loader = new read to end loader ( ( load func )  <NL> pig context . instantiate func from spec ( l file . get func spec ( ) ) ,  <NL> configuration util . to configuration ( pc . get properties ( ) ) ,  <NL> l file . get file name ( ) , 0 ) ;  <NL>  }  COM: <s> set up the loader by </s>

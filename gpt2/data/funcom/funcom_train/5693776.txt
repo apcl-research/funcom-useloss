@@ -1,0 +1,1 @@
+TDAT: public int get ( int from , int to ) {  <NL> if ( bits = = null )  <NL> throw new illegal state exception ( ) ;  <NL> int dec = 0 ;  <NL> int pow = 1 ;  <NL> for ( int i = from ; i < = to ; i + + ) {  <NL> dec + = bits [ i ] * pow ;  <NL> pow * = 2 ;  <NL>  }  <NL> return dec ;  <NL>  }  COM: <s> extracts a series of bits as an int </s>

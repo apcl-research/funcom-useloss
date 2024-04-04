@@ -1,0 +1,1 @@
+TDAT: public int select ( string s , string s1 , int i , object aobj [ ] ) {  <NL> int j = j option pane . show option dialog ( this , s1 , s , 0 , 3 , null ,  <NL> aobj , aobj [ i ] ) ;  <NL> return j ;  <NL>  }  COM: <s> general selection dialog </s>

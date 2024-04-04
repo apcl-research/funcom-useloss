@@ -1,0 +1,1 @@
+TDAT: public paint get paint ( double value ) {  <NL> double v = math . max ( value , this . lower bound ) ;  <NL> v = math . min ( v , this . upper bound ) ;  <NL> int g = ( int ) ( ( v - this . lower bound ) / ( this . upper bound <NL>  - this . lower bound ) * 255 . 0 ) ;  <NL> return new color ( g , g , g ) ;  <NL>  }  COM: <s> returns a paint for the specified value </s>

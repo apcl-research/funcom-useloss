@@ -1,0 +1,1 @@
+TDAT: public void put ( j k1 , k k2 , v val ) {  <NL> map < k , v > i = contains ( k1 ) ? get ( k1 ) : new hash map < k , v > ( ) ;  <NL> i . put ( k2 , val ) ;  <NL> outer . put ( k1 , i ) ;  <NL>  }  COM: <s> store val t with key pair k1 k2 </s>

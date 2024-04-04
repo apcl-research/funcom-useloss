@@ -1,0 +1,1 @@
+TDAT: public void node selected ( ) {  <NL> node manager m = get parent ( ) . get node manager ( ) ;  <NL> m . set nodes ( this , nodes ) ;  <NL> m . set aux nodes ( visual pane . get point ( start , null ) , visual pane . get point ( end , null ) ) ;  <NL> m . set editable ( true ) ;  <NL>  }  COM: <s> this enables the node manager to handle our intermediate nodes </s>

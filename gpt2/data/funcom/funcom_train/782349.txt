@@ -1,0 +1,1 @@
+TDAT: public int hash code ( ) {  <NL> int hc = 13 * sort ;  <NL> if ( sort = = type . object || sort = = type . array ) {  <NL> for ( int i = off , end = i + len ; i < end ; i + + ) {  <NL> hc = 17 * ( hc + buf [ i ] ) ;  <NL>  }  <NL>  }  <NL> return hc ;  <NL>  }  COM: <s> returns a hash code value for this type </s>

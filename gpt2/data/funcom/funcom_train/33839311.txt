@@ -1,0 +1,1 @@
+TDAT: public void test get base array ( ) {  <NL>  <NL> int [ ] [ ] [ ] test = new int [ 2 ] [ 3 ] [ 4 ] ;  <NL> byte b = 0 ;  <NL> array funcs . test pattern ( test , b ) ;  <NL>  <NL> assert equals ( array funcs . get base array ( test ) , test [ 0 ] [ 0 ] ) ;  <NL>  }  COM: <s> test of get base array method of class nom </s>

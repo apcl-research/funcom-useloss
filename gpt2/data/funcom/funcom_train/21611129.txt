@@ -1,0 +1,1 @@
+TDAT: public void test print ( ) throws interpreter exception {  <NL> value v = interpreter . process ( " print ( ' this ' , ' is ' , ' an ' ) , print ( ' hello ' , ' world ' , ' ! ! ' ) ; " ) ;  <NL> assert equals ( " unespected result . " , " hello world ! ! " , v . as string ( ) . get native value ( ) ) ;  <NL>  }  COM: <s> tests the print function </s>

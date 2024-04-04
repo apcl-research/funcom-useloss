@@ -1,0 +1,1 @@
+TDAT: protected void create frame ( ) {  <NL> internal frame = new j internal frame ( " add3d " , true , true , true ) ;  <NL> internal frame . set size ( 300 , 80 ) ;  <NL> internal frame . set j menu bar ( get menubar ( ) ) ;  <NL> system . out . println ( " = = = add3d opened = = = " ) ;  <NL>  }  COM: <s> creates the internal frame </s>

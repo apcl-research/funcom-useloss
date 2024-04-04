@@ -1,0 +1,1 @@
+TDAT: public void set background ( int row , int column , color color ) {  <NL> bg color . set element at ( row , column , color ) ;  <NL> attribute model event e = new attribute model event ( this , attribute model event . cells _ updated , row , column , 1 , 1 ) ;  <NL> fire data changed ( e ) ;  <NL>  }  COM: <s> set the background color of cell row column </s>

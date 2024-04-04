@@ -1,0 +1,1 @@
+TDAT: public boolean is connected with selection ( int p1 , int p2 , trans base selection [ ] test sel , int not to test ) {  <NL> if ( is connected ( p1 , p2 ) ) return true ;  <NL>  / / include the actual connection <NL> return is selection connected ( p1 , p2 , test sel , not to test ) ;  <NL>  }  COM: <s> says if the given players are connected by the rails consider </s>

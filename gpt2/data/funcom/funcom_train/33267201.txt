@@ -1,0 +1,1 @@
+TDAT: public void draw polygon ( polygon p , int thickness , int dash on len , int dash off len ) {  <NL> draw poly ( p . xpoints , p . ypoints , p . npoints , thickness , dash on len , dash off len , center , true ) ;  <NL>  }  COM: <s> draws a polygon defined by the specified point </s>

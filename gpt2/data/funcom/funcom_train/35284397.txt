@@ -1,0 +1,1 @@
+TDAT: public string pad num zero ( long num , int total len ) {  <NL> string num str = long . to string ( num ) ;  <NL> int len = total len - num str . length ( ) ;  <NL> string pads = " " ;  <NL> for ( int i = 0 ; i < len ; i + + ) {  <NL> pads + = " 0 " ;  <NL>  }  <NL> return pads + num str ;  <NL>  }  COM: <s> right aligns a long number with zeros for printing </s>

@@ -1,0 +1,1 @@
+TDAT: private void init scan ( ) {  <NL> graph scan . remove all graph data ( ) ;  <NL> for ( int i = 0 , n = measured values v . size ( ) ; i < n ; i + + ) {  <NL> measured value mv _ tmp = ( measured value ) measured values v . get ( i ) ;  <NL> mv _ tmp . remove all data containers ( ) ;  <NL>  }  <NL> set colors ( 1 ) ;  <NL>  }  COM: <s> clear all data and start over </s>

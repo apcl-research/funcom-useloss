@@ -1,0 +1,1 @@
+TDAT: private void write int ( data output out , int val ) throws io exception {  <NL> int buf [ 0 ] = ( byte ) ( val > > 24 ) ;  <NL> int buf [ 1 ] = ( byte ) ( val > > 16 ) ;  <NL> int buf [ 2 ] = ( byte ) ( val > > 8 ) ;  <NL> int buf [ 3 ] = ( byte ) val ;  <NL> out . write ( int buf ) ;  <NL>  }  COM: <s> write an int value in single write operation </s>

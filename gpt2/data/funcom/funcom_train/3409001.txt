@@ -1,0 +1,1 @@
+TDAT: public int read ( byte [ ] b , int off , int len ) throws io exception {  <NL> int result = in . read ( b , off , len ) ;  <NL> if ( on & & result ! = - 1 ) {  <NL> digest . update ( b , off , result ) ;  <NL>  }  <NL> return result ;  <NL>  }  COM: <s> reads into a byte array and updates the message digest if the </s>

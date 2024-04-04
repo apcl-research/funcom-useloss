@@ -1,0 +1,1 @@
+TDAT: @ override <NL> public boolean on create options menu ( menu menu ) {  <NL> super . on create options menu ( menu ) ;  <NL> menu . add ( 0 , 0 , " add contact " ) ;  <NL> menu . add ( 0 , 1 , " remove contact " ) ;  <NL> menu . add ( 0 , 2 , " edit preferences " ) ;  <NL> return true ;  <NL>  }  COM: <s> creates the options menu </s>

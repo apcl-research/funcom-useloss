@@ -1,0 +1,1 @@
+TDAT: public void set all row values ( object val , int column index ) {  <NL> for ( int i = 0 ; i < get row count ( ) ; i + + ) {  <NL> object old val = get value at ( i , column index ) ;  <NL> if ( ! val . equals ( old val ) ) {  <NL> set value at ( val , i , column index ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> sets all the values of the given column to the given value </s>

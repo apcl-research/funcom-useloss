@@ -1,0 +1,1 @@
+TDAT: public void init log observer ( ) {  <NL> for ( int i = 0 ; i < log factory . get instance ( ) . get loggers ( ) . size ( ) ; i + + ) {  <NL> try {  <NL> register new log observer ( ( logger ) log factory . get instance ( ) . get loggers ( ) . element at ( i ) ) ;  <NL>  }  <NL> catch ( exception e ) { }  <NL>  }  <NL>  }  COM: <s> initialize the log observer </s>

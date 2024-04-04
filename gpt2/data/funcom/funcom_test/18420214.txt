@@ -1,0 +1,1 @@
+TDAT: private void send to random ( pastry antibody a , int amount ) {  <NL> for ( int i = 0 ; i < amount ; i + + ) {  <NL> id target = m _ nid factory . generate node id ( ) ;  <NL> m _ network endpoint . route ( target , a , null ) ;  <NL> m _ statistics . antibodies sent + + ;  <NL>  }  <NL>  }  COM: <s> sens an antibody to random selected nodes </s>

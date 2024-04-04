@@ -1,0 +1,1 @@
+TDAT: public layer get default ms layer ( ) {  <NL> rgb rgb = new rgb ( 255 , 255 , 0 ) ;  <NL> if ( this . geom type code = = geometry . point || this . geom type code = = geometry . point ) {  <NL> rgb = new rgb ( 255 , 0 , 0 ) ;  <NL>  }  <NL> return get ms layer ( rgb , false ) ;  <NL>  }  COM: <s> default param layer constructor in case no info is given easier for </s>

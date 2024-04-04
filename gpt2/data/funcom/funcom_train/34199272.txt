@@ -1,0 +1,1 @@
+TDAT: public void wrap ( rectangle rect ) {  <NL> if ( x > rect . right ( ) ) { x = rect . left ( ) ; } else <NL> if ( x < rect . left ( ) ) { x = rect . right ( ) ; }  <NL> if ( y > rect . bottom ( ) ) { y = rect . top ( ) ; } else <NL> if ( y < rect . top ( ) ) { y = rect . bottom ( ) ; }  <NL>  }  COM: <s> wraps the point within the given rectangle </s>

@@ -1,0 +1,1 @@
+TDAT: public cursor fetch all feeds ( ) {  <NL>  <NL> return m db . query ( database _ table , new string [ ] { key _ rowid , key _ title ,  <NL> key _ uri , key _ type , key _ extra } , null , null , null , null , null ) ;  <NL>  }  COM: <s> return a cursor over the list of all notes in the database </s>

@@ -1,0 +1,1 @@
+TDAT: protected void gt ( final byte [ ] a , final byte [ ] b ) {  <NL>  <NL> final int cmp = bytes util . compare bytes ( a , b ) ;  <NL>  <NL> if ( cmp > 0 )  <NL> return ;  <NL>  <NL> fail ( " cmp = " + cmp + " , a = " + bytes util . to string ( a ) + " , b = "  <NL>  + bytes util . to string ( b ) ) ;  <NL>  <NL>  }  COM: <s> succeeds iff a gt b </s>

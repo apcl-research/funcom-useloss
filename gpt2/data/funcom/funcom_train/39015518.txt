@@ -1,0 +1,1 @@
+TDAT: public void update shader ( ) {  <NL> if ( shader = = null ) return ;  <NL> shader . clear uniforms ( ) ;  <NL> shader . set uniform ( " alpha " , shadow col . a ) ;  <NL> shader . set uniform ( " shadow map " , 0 ) ;  <NL> shader . set uniform ( " offset " , shadow map softness / shadow map size ) ;  <NL>  }  COM: <s> call this method to update shader uniform values </s>

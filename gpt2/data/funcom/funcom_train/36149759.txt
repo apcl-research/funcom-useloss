@@ -1,0 +1,1 @@
+TDAT: public double regression eq y int ( ) {  <NL> double sum x = sum x ( ) ;  <NL> double sum y = sum y ( ) ;  <NL> double sum x sq = sum x sq ( ) ;  <NL> return ( sum y * sum x sq - sum x * sum xy ( ) ) /  <NL>  ( n * sum x sq ( ) - sum x * sum x ) ;  <NL>  }  COM: <s> returns the y intercept of the regression equation b0 </s>

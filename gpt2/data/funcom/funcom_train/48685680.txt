@@ -1,0 +1,1 @@
+TDAT: protected void add rt entry ( rt key key _ , int interfaces , object entry extension _ , double timeout )  <NL>  {  <NL> rt config . add ( key _ , new rt entry ( rt config . next _ hop _ no _ change ,  <NL> new drcl . data . bit set ( new int [ ] { interfaces } ) , entry extension _ ) , timeout , rtconfig port ) ;  <NL>  }  COM: <s> adds replaces a route entry via </s>

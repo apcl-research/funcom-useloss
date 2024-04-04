@@ -1,0 +1,1 @@
+TDAT: public void open ( integration entity entity ) {  <NL> application ui utils . log if not on edt ( get class ( ) , " open " ) ;  <NL> log request ( entity ) ;  <NL> wait lock wait lock = view . get window ( ) . start wait ( ) ;  <NL> job job = new job ( entity , wait lock ) ;  <NL> job . run ( ) ;  <NL>  }  COM: <s> opens the page for the requested entity synchronously </s>

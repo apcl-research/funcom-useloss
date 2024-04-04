@@ -1,0 +1,1 @@
+TDAT: public int rank ( ) {  <NL> double eps = math . pow ( 2 . 0 , - 52 . 0 ) ;  <NL> double tol = math . max ( m , n ) * s [ 0 ] * eps ;  <NL> int r = 0 ;  <NL> for ( double value : s ) {  <NL> if ( value > tol ) {  <NL> r + + ;  <NL>  }  <NL>  }  <NL> return r ;  <NL>  }  COM: <s> returns the effective numerical matrix rank which is the number of </s>

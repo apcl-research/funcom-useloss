@@ -1,0 +1,1 @@
+TDAT: public void add toc ( string name , string [ ] [ ] content ) {  <NL> if ( tocs . contains ( name ) ) {  <NL> int index = tocs . index of ( name ) ;  <NL> tocs . add ( index , name ) ;  <NL> tocs . remove ( index + 1 ) ;  <NL>  } else {  <NL> tocs . add ( name ) ;  <NL>  }  <NL>  <NL> toc ht . put ( name , content ) ;  <NL>  }  COM: <s> adds a toc content </s>

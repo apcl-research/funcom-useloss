@@ -1,0 +1,1 @@
+TDAT: public void append properties ( string buffer buf ) {  <NL> if ( type ! = null ) {  <NL> buf . append ( " with " ) . append ( type . name ( ) . to lower case ( ) ) ;  <NL> super . append properties ( buf ) ;  <NL>  <NL> if ( fill ! = null & & type . filled ) fill . append properties ( buf ) ;  <NL>  }  <NL>  }  COM: <s> gather the properties of this style </s>

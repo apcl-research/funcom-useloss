@@ -1,0 +1,1 @@
+TDAT: public string get name ( ) throws org . xmldb . api . base . xmldb exception {  <NL> try {  <NL> return stub . get name ( ) ;  <NL>  } catch ( java . rmi . remote exception e ) {  <NL> throw new org . xmldb . api . base . xmldb exception ( org . xmldb . api . base . error codes . vendor _ error , e ) ;  <NL>  }  <NL>  }  COM: <s> returns the name </s>

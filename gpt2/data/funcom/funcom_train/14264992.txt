@@ -1,0 +1,1 @@
+TDAT: private void drop image ( ) {  <NL> logger . global . finest ( " dropping photo from cache : " + this ) ;  <NL> cachesize = cachesize - ( image . get height ( ) * image . get width ( ) ) ;  <NL> logger . global . finest ( " cache size = " + cachesize ) ;  <NL> image = null ;  <NL> image cached = new date ( 0 ) ;  <NL>  }  COM: <s> drop the cached image from this photo </s>

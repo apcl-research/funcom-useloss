@@ -1,0 +1,1 @@
+TDAT: public set get query nodes ( ) {  <NL> hash set nodes = new hash set ( ) ;  <NL>  <NL> for ( iterator i = get nodes ( ) . iterator ( ) ; i . has next ( ) ; )  <NL>  {  <NL> bbn node n = ( bbn node ) i . next ( ) ;  <NL> if ( ! n . is evidence ( ) ) nodes . add ( n ) ;  <NL>  }  <NL> return nodes ;  <NL>  }  COM: <s> return the set of query nodes </s>

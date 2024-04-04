@@ -1,0 +1,1 @@
+TDAT: public boolean remove ( string path ) {  <NL> string res ;  <NL> res = exec . execute ( sshpath + " / ssh - q - l " + dstuser + " " + dsthost + " rm - f " + path ) ;  <NL> log . debug ( " sc pcopy - > remove " + path + " : " + res ) ;  <NL> return res . length ( ) < = 0 ;  <NL>  }  COM: <s> removes a file at the host </s>

@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> return new to string builder ( this ) . append ( " name " , get name ( ) ) .  <NL> append ( " description " , get description ( ) ) .  <NL> append ( " options " , get options ( ) ) .  <NL> append ( " data " , get config data ( ) ) . to string ( ) ;  <NL>  }  COM: <s> convert to a string </s>

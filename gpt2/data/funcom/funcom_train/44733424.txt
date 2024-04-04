@@ -1,0 +1,1 @@
+TDAT: public void set vision mode night ( ) throws stellarium exception {  <NL> if ( ! get vision mode night ( ) ) {  <NL> core . set color scheme ( conf , " night _ color " ) ;  <NL>  / / ui . set color scheme ( get config file ( ) , " night _ color " ) ;  <NL>  }  <NL> draw mode = drawmode . night ;  <NL>  }  COM: <s> set flag for activating night vision mode </s>

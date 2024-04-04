@@ -1,0 +1,1 @@
+TDAT: public string get db type ( a xattribute attrib ) {  <NL> int length = integer . parse int ( attrib . get tagged value ( " length " , " 50 " ) ) ;  <NL> string type = attrib . get tagged value ( " db - type " , attrib . get type ( ) . get qualified name ( ) ) ;  <NL> return get db type ( type , length ) ;  <NL>  }  COM: <s> p get the db type for the given attribute p </s>

@@ -1,0 +1,1 @@
+TDAT: public swing property editor create editor pane ( string sub property , string sub template ) {  <NL> get logger ( ) . fine ( " creating editor for " + sub property + " , template " + sub template ) ;  <NL> return ( swing property editor ) manager . get factory ( ) . create editor ( sub property , sub template , manager ) ;  <NL>  }  COM: <s> creates an editor </s>

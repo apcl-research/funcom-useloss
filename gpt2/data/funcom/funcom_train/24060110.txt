@@ -1,0 +1,1 @@
+TDAT: public void write ( byte [ ] buf , int off , int len ) {  <NL>  <NL> this . my println calls . inc ( ) ;  <NL> string a string = new string ( buf , off , len ) ;  <NL> this . found in any line . set actual ( a string ) ;  <NL> this . in last line . set actual ( a string ) ;  <NL>  }  COM: <s> must override the print stream method because this will be called </s>

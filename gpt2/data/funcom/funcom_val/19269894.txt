@@ -1,0 +1,1 @@
+TDAT: public note bean value get value ( ) {  <NL>  / / logger . info ( " get note bean value ( ) " ) ;  <NL> note bean value value = new note bean value ( id , object id , get note type ( ) , note type id , get owner name ( ) , owner id , create date , description , subject , view ) ;  <NL> return value ;  <NL>  }  COM: <s> get note bean value </s>

@@ -1,0 +1,1 @@
+TDAT: public void draw line ( posn p1 , posn p2 , color color ) {  <NL>  / / this . draw shape ( new line2d . double ( p1 . x , p1 . y , p2 . x , p2 . y ) ,  <NL>  / / color , true ) ;  <NL> this . draw shape ( new line2d . double ( p1 . x , p1 . y , p2 . x , p2 . y ) ,  <NL> color , false ) ;  <NL>  }  COM: <s> p draws a line in this panel p </s>

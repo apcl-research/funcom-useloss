@@ -1,0 +1,1 @@
+TDAT: public void init ( ) {  <NL> set title ( simple application interface . get header ( ) ) ;  <NL> set bounds ( 0 , 0 , ( get toolkit ( ) . get screen size ( ) . width ) - 250 , math . round ( get toolkit ( ) . get screen size ( ) . height / 4 * 3 ) ) ;  <NL> set visible ( true ) ;  <NL>  }  COM: <s> displays the frame </s>

@@ -1,0 +1,1 @@
+TDAT: protected void check naked actions ( ) {  <NL> if ( naked actions = = null )  <NL> return ; / / nothing to do <NL> int len = naked actions . size ( ) ;  <NL> for ( int i = 0 ; i < len ; i + + ) {  <NL> naked action na = ( naked action ) naked actions . get ( i ) ;  <NL> na . check abouts ( ) ;  <NL>  }  <NL>  }  COM: <s> check all naked actions if they are available </s>

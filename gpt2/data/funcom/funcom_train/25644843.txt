@@ -1,0 +1,1 @@
+TDAT: public int run javadoc ( string [ ] args ) {  <NL> float java version = float . parse float ( java _ version . substring ( 0 , 3 ) ) ;  <NL> string doclet class = java version < 1 . 5 ?  <NL> default _ doclet _ class _ old : default _ doclet _ class ;  <NL> return run javadoc ( doclet class , args ) ;  <NL>  }  COM: <s> execute javadoc using the default doclet </s>

@@ -1,0 +1,1 @@
+TDAT: public void save comment ( ) {  <NL> comment = db exception handler . call db manager ( db , new save comment exception handler ( text area . get text ( ) , priv ,  <NL> global ? null : tree , profile , structure ) , true ) ;  <NL>  <NL> update creation info ( comment ) ;  <NL> save button . set enabled ( false ) ;  <NL>  }  COM: <s> saves the this </s>

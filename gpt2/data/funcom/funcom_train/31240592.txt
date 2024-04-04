@@ -1,0 +1,1 @@
+TDAT: public void get glyphs ( glyph [ ] glyph , int [ ] x , int [ ] y ) {  <NL> system . arraycopy ( this . glyph , 0 , glyph , 0 , num glyphs ) ;  <NL> system . arraycopy ( this . x , 0 , x , 0 , num glyphs ) ;  <NL> system . arraycopy ( this . y , 0 , y , 0 , num glyphs ) ;  <NL>  }  COM: <s> returns the glyphs and their offsets </s>

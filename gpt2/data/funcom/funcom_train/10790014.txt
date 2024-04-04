@@ -1,0 +1,1 @@
+TDAT: private void remove loaded fields ( open jpa state manager sm , bit set fields ) {  <NL> for ( int i = 0 , len = fields . length ( ) ; i < len ; i + + )  <NL> if ( fields . get ( i ) & & sm . get loaded ( ) . get ( i ) )  <NL> fields . clear ( i ) ;  <NL>  }  COM: <s> return a list formed by removing all loaded fields from the given one </s>

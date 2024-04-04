@@ -1,0 +1,1 @@
+TDAT: public int read ( byte [ ] b , int off , int len ) throws io exception {  <NL> int l = in . read ( b , off , len ) ;  <NL> read counter + = l ;  <NL>  <NL> if ( read counter > length reset ) {  <NL> read counter - = length reset ;  <NL> scheduler . reset trigger ( trigger name ) ;  <NL>  }  <NL>  <NL> return l ;  <NL>  }  COM: <s> read an array of bytes from the stream </s>

@@ -1,0 +1,1 @@
+TDAT: public string find extension ( string url ) {  <NL> int dot pos = url . last index of ( ' . ' ) ;  <NL> int slash pos = url . last index of ( ' / ' ) ;  <NL> if ( dot pos > slash pos & & dot pos > - 1 ) {  <NL> return url . substring ( dot pos + 1 ) ;  <NL>  }  <NL> return default extension ;  <NL>  }  COM: <s> finds the extension in the url </s>

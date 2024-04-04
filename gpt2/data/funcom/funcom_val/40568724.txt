@@ -1,0 +1,1 @@
+TDAT: public void set field initializer as constructor ( string field name , j class type type , string . . . args ) {  <NL> set field initializer ( field name , format code ( " new % s ( % s ) " , type . get qualified source name ( ) ,  <NL> as comma separated list ( args ) ) ) ;  <NL>  }  COM: <s> instructs the writer to initialize the field with a specific constructor </s>

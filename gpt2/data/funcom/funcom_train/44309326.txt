@@ -1,0 +1,1 @@
+TDAT: private void delete ( file file ) {  <NL> if ( file = = null ) {  <NL> return ;  <NL>  } else if ( file . is directory ( ) ) {  <NL> file files [ ] = file . list files ( ) ;  <NL> for ( int i = 0 ; i < files . length ; i + + )  <NL> delete ( files [ i ] ) ;  <NL>  }  <NL> file . delete ( ) ;  <NL>  }  COM: <s> deletes a directory and all its subdirectories </s>

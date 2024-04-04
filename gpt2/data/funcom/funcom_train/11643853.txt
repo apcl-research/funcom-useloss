@@ -1,0 +1,1 @@
+TDAT: public void test set short ( ) {  <NL> assert equals ( bf _ multi . set short ( ( short ) 0 ) , ( short ) 0x3f80 ) ;  <NL> assert equals ( bf _ single . set short ( ( short ) 0 ) , ( short ) 0x4000 ) ;  <NL> assert equals ( bf _ zero . set short ( ( short ) 0 ) , ( short ) 0 ) ;  <NL>  }  COM: <s> test the set short method </s>

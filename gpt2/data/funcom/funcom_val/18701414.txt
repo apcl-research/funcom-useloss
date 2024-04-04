@@ -1,0 +1,1 @@
+TDAT: public object clone ( ) throws clone not supported exception {  <NL> y net copy container = _ net . get clone container ( ) ;  <NL> if ( copy container . get net elements ( ) . contains key ( this . get id ( ) ) ) {  <NL> return copy container . get net element ( this . get id ( ) ) ;  <NL>  }  <NL> return super . clone ( ) ;  <NL>  }  COM: <s> clones this atomic task </s>

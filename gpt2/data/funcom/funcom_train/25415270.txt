@@ -1,0 +1,1 @@
+TDAT: private void swap ( double a [ ] , int i , int j ) {  <NL> double t ;  <NL> t = a [ i ] ;  <NL> a [ i ] = a [ j ] ;  <NL> a [ j ] = t ;  <NL> int t ;  <NL> t = order [ i ] ;  <NL> order [ i ] = order [ j ] ;  <NL> order [ j ] = t ;  <NL>  }  COM: <s> swap two positions </s>

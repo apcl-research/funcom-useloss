@@ -1,0 +1,1 @@
+TDAT: public void subtract ( e o ) {  <NL> integer count = cset . get ( o ) ;  <NL> if ( count ! = null ) {  <NL> int c = count . int value ( ) - 1 ;  <NL> if ( c = = 0 ) {  <NL> cset . remove ( o ) ;  <NL>  }  <NL> else {  <NL> cset . put ( o , integer . value of ( c ) ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> reduces the count associated with this object by 1 </s>

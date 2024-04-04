@@ -1,0 +1,1 @@
+TDAT: private void check focused ( view focused ) {  <NL> assert equals ( focused = = m to view , m to view . is focused ( ) ) ;  <NL> assert equals ( focused = = m subject view , m subject view . is focused ( ) ) ;  <NL> assert equals ( focused = = m message view , m message view . is focused ( ) ) ;  <NL>  }  COM: <s> helper method to verify which field has the focus </s>

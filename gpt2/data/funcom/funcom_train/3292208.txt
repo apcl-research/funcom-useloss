@@ -1,0 +1,1 @@
+TDAT: public string hostname _ function ( string url ) {  <NL> if ( url . starts with ( " http : / / " ) ) {  <NL> url = url . substring ( 7 ) ;  <NL>  }  <NL> int pos = url . index of ( " / " ) ;  <NL> if ( pos ! = - 1 ) {  <NL> url = url . substring ( 0 , pos ) ;  <NL>  }  <NL> return url ;  <NL>  }  COM: <s> hostname parses the hostname from a url so http www </s>

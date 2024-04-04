@@ -1,0 +1,1 @@
+TDAT: public big quaternion inverse ( ) {  <NL> big rational a = norm ( ) . re . inverse ( ) ;  <NL> return new big quaternion ( re . multiply ( a ) ,  <NL> im . multiply ( a . negate ( ) ) ,  <NL> jm . multiply ( a . negate ( ) ) ,  <NL> km . multiply ( a . negate ( ) ) ) ;  <NL>  }  COM: <s> big quaternion inverse </s>

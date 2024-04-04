@@ -1,0 +1,1 @@
+TDAT: public void set model suffix ( string new model suffix ) {  <NL> model suffix = new model suffix ;  <NL> scope source source = ( scope source ) get file producer ( " model " ) ;  <NL> source . set suffix ( model suffix ) ;  <NL> prefs . get instance ( ) . set ( " generator " , " model suffix " , model suffix ) ;  <NL>  }  COM: <s> sets the model suffix </s>

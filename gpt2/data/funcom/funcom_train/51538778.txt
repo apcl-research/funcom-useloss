@@ -1,0 +1,1 @@
+TDAT: public boolean contains point ( int x , int y ) {  <NL> if ( x > = bounds [ x ] & & x < = ( bounds [ x ] + bounds [ w ] ) ) {  <NL> if ( y > = bounds [ y ] & & y < = ( bounds [ y ] + bounds [ h ] ) ) {  <NL> return true ;  <NL>  }  <NL>  }  <NL> return false ;  <NL>  }  COM: <s> utility method to determine if the given point lies within </s>

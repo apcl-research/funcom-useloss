@@ -1,0 +1,1 @@
+TDAT: public int set intersection with ( int set is ) {  <NL> int set ix = new int set ( ) ;  <NL> for ( int i = 0 ; i < is . nelem ; i + + ) {  <NL> int ii = is . element at ( i ) ;  <NL> if ( this . contains ( ii ) ) {  <NL> ix . add element ( ii ) ;  <NL>  }  <NL>  }  <NL> return ix ;  <NL>  }  COM: <s> intersect two sets that is elements common to both </s>

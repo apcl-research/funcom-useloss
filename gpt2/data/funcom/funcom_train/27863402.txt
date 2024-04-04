@@ -1,0 +1,1 @@
+TDAT: public menu item get item for glyph ( glyph glyph ) {  <NL> int idx = elems . index of ( glyph ) ;  <NL> if ( idx = = - 1 ) {  <NL> return null ;  <NL>  }  <NL> assert ( elems . get ( idx ) . get owner ( ) instanceof menu item ) ;  <NL> return ( menu item ) ( elems . get ( idx ) . get owner ( ) ) ;  <NL>  }  COM: <s> returns the menu item associated to a given glyph if </s>

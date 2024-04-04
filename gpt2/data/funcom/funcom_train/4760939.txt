@@ -1,0 +1,1 @@
+TDAT: public void half interval ( ) {  <NL> interval < c > v = ring . engine . half interval ( ring . root , ring . algebraic . modul ) ;  <NL>  / / system . out . println ( " old v = " + ring . root + " , new v = " + v ) ;  <NL> ring . set root ( v ) ;  <NL>  }  COM: <s> real algebraic number half interval </s>

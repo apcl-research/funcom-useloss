@@ -1,0 +1,1 @@
+TDAT: public void look for space ( ) throws io exception {  <NL> last char = ' \0 ' ;  <NL> while ( last char ! = ' ' ) {  <NL> if ( actual > = readed ) {  <NL> if ( available ( ) < = 0 ) break ;  <NL> readed = super . read ( buffer ) ;  <NL> actual = 0 ;  <NL>  }  <NL> last char = ( char ) buffer [ actual + + ] ;  <NL>  }  <NL>  }  COM: <s> loops to a space </s>

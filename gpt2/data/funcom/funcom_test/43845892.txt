@@ -1,0 +1,1 @@
+TDAT: public byte code helper str builder to string ( int pos ) {  <NL> mv . visit var insn ( opcodes . aload , pos ) ;  <NL> mv . visit method insn ( opcodes . invokevirtual , " java / lang / string builder " , " to string " , " ( ) ljava / lang / string ; " ) ;  <NL> mv . visit insn ( opcodes . pop ) ;  <NL> return this ;  <NL>  }  COM: <s> string builder to string </s>

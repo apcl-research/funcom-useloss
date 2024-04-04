@@ -1,0 +1,1 @@
+TDAT: private boolean has error code in list ( list < field error > list , string error code ) {  <NL> int i = 0 ;  <NL> while ( i < list . size ( ) ) {  <NL> if ( list . get ( i ) . get code ( ) . equals ( error code ) ) {  <NL> return true ;  <NL>  }  <NL> i + + ;  <NL>  }  <NL> return false ;  <NL>  }  COM: <s> searches for the given error code in the list of field errors </s>

@@ -1,0 +1,1 @@
+TDAT: public matf transpose ( ) {  <NL> matf tmp = new matf ( n col , n row ) ;  <NL> for ( int i = 0 ; i < n row ; i + + ) {  <NL> for ( int j = 0 ; j < n col ; j + + ) {  <NL> tmp . set ( j , i , get ( i , j ) ) ;  <NL>  }  <NL>  }  <NL> return tmp ;  <NL>  }  COM: <s> returns transpose of this matrix creates new matrix </s>

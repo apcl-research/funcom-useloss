@@ -1,0 +1,1 @@
+TDAT: private string print option ( string attribute , string [ ] value ) {  <NL> string ret = attribute + " = \ " " ;  <NL> for ( int i = 0 ; i < value . length ; i + + ) {  <NL> if ( i > 0 )  <NL> ret + = " " ;  <NL> ret + = value [ i ] ;  <NL>  }  <NL> return ret + " \ " " ;  <NL>  }  COM: <s> write a string list option </s>

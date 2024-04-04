@@ -1,0 +1,1 @@
+TDAT: public int y to line ( int y ) {  <NL> font metrics fm = painter . get font metrics ( ) ;  <NL> int height = ( int ) ( fm . get height ( ) * line spacing ) ;  <NL> return math . max ( 0 , math . min ( get line count ( ) - 1 ,  <NL> y / height + first line ) ) ;  <NL>  }  COM: <s> converts a y co ordinate to a line index </s>

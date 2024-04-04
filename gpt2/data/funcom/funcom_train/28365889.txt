@@ -1,0 +1,1 @@
+TDAT: public void add point ( double x , double y ) {  <NL> resize ( n points + 1 ) ;  <NL> points x [ n points ] = x ;  <NL> points y [ n points ] = y ;  <NL> n points + + ;  <NL> if ( x _ min > x ) x _ min = x ;  <NL> if ( y _ min > y ) y _ min = y ;  <NL> if ( x _ max < x ) x _ max = x ;  <NL> if ( y _ max < y ) y _ max = y ;  <NL>  }  COM: <s> adds a point </s>

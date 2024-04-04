@@ -1,0 +1,1 @@
+TDAT: public el set width ( int width , boolean adjust ) {  <NL> if ( adjust & & ! is border box ( ) ) {  <NL> width - = get frame width ( " lr " ) ;  <NL>  }  <NL> if ( width > = 0 ) {  <NL> dom . get style ( ) . set property px ( " width " , width ) ;  <NL>  }  <NL> return this ;  <NL>  }  COM: <s> sets the elementss width </s>

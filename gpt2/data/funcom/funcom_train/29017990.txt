@@ -1,0 +1,1 @@
+TDAT: public int get text limit ( ) {  <NL> check widget ( ) ;  <NL> int / * long * / hwnd text = os . get dlg item ( handle , cbid _ edit ) ;  <NL> if ( hwnd text = = 0 ) return limit ;  <NL> return ( int ) / * 64 * / os . send message ( hwnd text , os . em _ getlimittext , 0 , 0 ) & 0x7fffffff ;  <NL>  }  COM: <s> returns the maximum number of characters that the receivers </s>

@@ -1,0 +1,1 @@
+TDAT: public float distance ( float x , float y ) {  <NL> if ( ! transforming x ) {  <NL> return metric . distance ( 0 , y - lens y ) ;  <NL>  } else if ( ! transforming y ) {  <NL> return metric . distance ( x - lens x , 0 ) ;  <NL>  }  <NL> return metric . distance ( x - lens x , y - lens y ) ;  <NL>  }  COM: <s> returns the distance of the specified point from the focus </s>

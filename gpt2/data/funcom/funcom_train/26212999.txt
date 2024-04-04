@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> string buffer result = new string buffer ( ) ;  <NL> result . append ( ( this . user name = = null ) ? " null " : this . user name ) ;  <NL> result . append ( " : " ) ;  <NL> result . append ( ( this . password = = null ) ? " null " : this . password ) ;  <NL> return result . to string ( ) ;  <NL>  }  COM: <s> get this object string </s>

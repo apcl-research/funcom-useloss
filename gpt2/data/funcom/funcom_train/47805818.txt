@@ -1,0 +1,1 @@
+TDAT: private void generate matrix ( ) {  <NL> this . matrix = new int [ rows ] [ columns ] ;  <NL> for ( int i = 0 ; i < rows ; i + + ) {  <NL> for ( int j = 0 ; j < columns ; j + + ) {  <NL> matrix [ i ] [ j ] = rand . next int ( 6 ) + 1 ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> generates the game board matrix </s>

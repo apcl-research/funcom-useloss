@@ -1,0 +1,1 @@
+TDAT: private j menu get j menu file ( ) {  <NL> if ( j menu file = = null ) {  <NL> j menu file = new j menu ( ) ;  <NL> j menu file . set font ( gui font . font _ plain ) ;  <NL> j menu file . set text ( " fichier " ) ;  <NL> j menu file . add ( get j menu item quit ( ) ) ;  <NL>  }  <NL> return j menu file ;  <NL>  }  COM: <s> this method initializes j menu file </s>

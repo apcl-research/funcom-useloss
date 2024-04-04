@@ -1,0 +1,1 @@
+TDAT: public void set property ( string property , object value ) {  <NL> if ( doc text ! = null ) {  <NL> final tree < xml lite . data > xml node = doc text . get xml node ( ) ;  <NL> if ( xml node ! = null ) {  <NL> xml node . get data ( ) . set property ( property , value ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> set the property on the doc texts xml node </s>

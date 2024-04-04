@@ -1,0 +1,1 @@
+TDAT: public void send http response ( int status , map < string , string > headers , string content type , string content , boolean keep alive ) throws io exception {  <NL> send http response ( status , headers , content type , content . get bytes ( " utf - 8 " ) , keep alive ) ;  <NL>  }  COM: <s> send http response with given status headers content type and content </s>

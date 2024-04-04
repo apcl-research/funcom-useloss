@@ -1,0 +1,1 @@
+TDAT: private mj check box get ch bs _ user ( ) {  <NL> if ( ch bs _ user = = null ) {  <NL> ch bs _ user = new mj check box ( ) ;  <NL> ch bs _ user . set text ( " user : " ) ;  <NL> ch bs _ user . set horizontal text position ( javax . swing . swing constants . leading ) ;  <NL>  }  <NL> return ch bs _ user ;  <NL>  }  COM: <s> this method initializes ch bs user </s>

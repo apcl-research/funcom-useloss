@@ -1,0 +1,1 @@
+TDAT: public void test base cents ( ) {  <NL> syn message msg = new syn ( ) . synth ( 1 ) . tuning ( 10 ) . cents ( ) ;  <NL> assert equals ( " / syn / id1 / tuning " , msg . get address ( ) ) ;  <NL> assert equals ( " f fi " , msg . get typetag ( ) ) ;  <NL> assert equals ( new integer ( 163840 ) , msg . get arguments ( ) [ 2 ] ) ;  <NL>  }  COM: <s> base frequency in cents </s>

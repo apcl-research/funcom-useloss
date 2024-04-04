@@ -1,0 +1,1 @@
+TDAT: private void notify of remove ( int pos , node < t > point ) {  <NL> for ( model iterator listener : _ listeners ) {  <NL> int lis pos = listener . _ pos ;  <NL> if ( lis pos = = pos ) listener . _ point = point ;  <NL> else if ( lis pos > pos ) listener . _ pos = lis pos - 1 ;  <NL>  }  <NL>  }  COM: <s> notifies the iterators in listeners that a node has been removed </s>

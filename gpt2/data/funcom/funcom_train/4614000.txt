@@ -1,0 +1,1 @@
+TDAT: private void display number ( int val , led color col ) {  <NL> for ( int i = 0 , mask = 1 ; i < 7 ; i + + , mask < < = 1 ) {  <NL> leds [ 7 - i ] . set color ( col ) ;  <NL> leds [ 7 - i ] . set on ( ( val & mask ) ! = 0 ) ;  <NL>  }  <NL>  }  COM: <s> display a number base 2 in leds 1 7 </s>

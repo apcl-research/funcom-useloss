@@ -1,0 +1,1 @@
+TDAT: public boolean is guess consistent ( guess g ) {  <NL> result r = evaluate guess ( g , guess ) ;  <NL> return ( ( r . hit [ 0 ] = = hit [ 0 ] ) & & ( r . hit [ 1 ] = = hit [ 1 ] )  <NL>  & & ( r . hit [ 2 ] = = hit [ 2 ] ) & & ( r . hit [ 3 ] = = hit [ 3 ] ) ) ;  <NL>  }  COM: <s> functions is executed multiple times to make sure the outcome is not the </s>

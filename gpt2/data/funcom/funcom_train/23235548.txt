@@ -1,0 +1,1 @@
+TDAT: private void draw base ( int code , graphics g ) {  <NL> clean ( g ) ;  <NL> sprite store . get ( ) . get sprites ( outfit store . get ( ) . get base sprite ( bodies _ index ) , animation , 3 , 2 , 3 ) [ 1 ] . draw ( g , 2 , 2 ) ;  <NL>  }  COM: <s> draws a base from an outfit code </s>

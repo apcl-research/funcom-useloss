@@ -1,0 +1,1 @@
+TDAT: public boolean is name and type ( int index ) {  <NL> if ( ( index < 1 ) || ( index > = item type . length ) || ( item type [ index ] = = 0 ) )  <NL> throw new class format error ( " constant pool item does not exist " ) ;  <NL> return item type [ index ] = = constant _ name _ and _ type ;  <NL>  }  COM: <s> check if a constant pool item is a name and type constant </s>

@@ -1,0 +1,1 @@
+TDAT: private point get lens location ( ) {  <NL> int y = ( get image panel ( ) . get location on screen ( ) . get y ( ) > 0 ) ? 10 : ( 10 - ( int ) ( get image panel ( ) . get location on screen ( ) . get y ( ) ) ) ;  <NL> return ( new point ( 10 , y ) ) ;  <NL>  }  COM: <s> returns lens location as a point </s>

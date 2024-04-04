@@ -1,0 +1,1 @@
+TDAT: public document groups _ get members ( number group id ) throws facebook exception , io exception {  <NL> assert ( null ! = group id ) ;  <NL> return this . call method ( facebook method . groups _ get _ members ,  <NL> new pair < string , char sequence > ( " gid " , group id . to string ( ) ) ) ;  <NL>  }  COM: <s> retrieves the membership list of a group </s>

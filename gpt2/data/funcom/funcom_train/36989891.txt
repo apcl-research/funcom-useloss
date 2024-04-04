@@ -1,0 +1,1 @@
+TDAT: public void clear ( ) {  <NL>  / / system . out . println ( " p graphics3 . clear ( " +  <NL>  / / p applet . hex ( background color ) + " ) " ) ;  <NL> for ( int i = 0 ; i < pixel count ; i + + ) {  <NL> pixels [ i ] = background color ;  <NL> zbuffer [ i ] = max _ float ;  <NL> stencil [ i ] = 0 ;  <NL>  }  <NL>  }  COM: <s> clears pixel buffer </s>

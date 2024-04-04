@@ -1,0 +1,1 @@
+TDAT: public string to log entry ( ) {  <NL> return get time ( ) + " " +  <NL> get client ( ) . get class name ( ) + " " +  <NL> get client ( ) . get id ( ) + " " +  <NL> get class name ( ) + " " +  <NL> get id ( ) + " " +  <NL> get event name ( ) + " " +  <NL> get event value ( ) + " ; " ;  <NL>  }  COM: <s> returns request string suitable for logging </s>

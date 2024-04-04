@@ -1,0 +1,1 @@
+TDAT: protected void ok pressed ( ) {  <NL> data . set property ( " jgoodies theme " , m color scheme . get selected item ( ) . get class ( ) . get name ( ) ) ;  <NL> data . set property ( " jgoodies shadow " , string . value of ( m shadow . is selected ( ) ) ) ;  <NL> set visible ( false ) ;  <NL>  }  COM: <s> ok was pressed </s>

@@ -1,0 +1,1 @@
+TDAT: protected void archive rule ( rule r ) {  <NL> string path = this . rule archive dir . get path ( ) + file _ separator +  <NL> r . get name ( ) . get wref ( ) + " . " + r . get version ( ) ;  <NL> file archive = new file ( path ) ;  <NL> this . write rule ( archive , r ) ;  <NL>  }  COM: <s> when a rule is updated we first archive the old version </s>

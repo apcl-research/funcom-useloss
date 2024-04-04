@@ -1,0 +1,1 @@
+TDAT: public void test and ( ) {  <NL> m _ filter = get filter ( " ( att1 is ' r ' ) and ( att2 < = 5 ) " ) ;  <NL> instances result = use filter ( ) ;  <NL> assert equals ( m _ instances . num attributes ( ) , result . num attributes ( ) ) ;  <NL> assert equals ( 6 , result . num instances ( ) ) ;  <NL>  }  COM: <s> tests the att1 shortcut with is and restricting it via and </s>

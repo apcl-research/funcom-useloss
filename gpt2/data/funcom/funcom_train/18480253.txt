@@ -1,0 +1,1 @@
+TDAT: private void fire change listeners ( change event ev ) {  <NL> java . util . list < change listener > listeners = new array list < change listener > ( change _ listeners ) ;  <NL> for ( int i = listeners . size ( ) - 1 ; i > = 0 ; i - - ) {  <NL> listeners . get ( i ) . state changed ( ev ) ;  <NL>  }  <NL>  }  COM: <s> calls all action listeners for a change event </s>

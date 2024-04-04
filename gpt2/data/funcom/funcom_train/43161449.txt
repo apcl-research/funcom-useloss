@@ -1,0 +1,1 @@
+TDAT: public long get long ( int ndx , long dft ) {  <NL> object obj = this . get value ( ndx ) ;  <NL> if ( obj instanceof long ) {  <NL> return ( ( long ) obj ) . long value ( ) ;  <NL>  }  <NL> else if ( obj instanceof double ) {  <NL> return ( ( double ) obj ) . long value ( ) ;  <NL>  }  <NL> return dft ;  <NL>  }  COM: <s> returns the long value at the desired index </s>

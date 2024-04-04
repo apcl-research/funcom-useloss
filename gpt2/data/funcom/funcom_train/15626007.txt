@@ -1,0 +1,1 @@
+TDAT: public void add filter ( @ not null final string name , @ not null final filter < ? , ? > filter ) {  <NL> if ( sub filters . contains key ( name ) ) {  <NL> return ;  <NL>  }  <NL>  <NL> sub filters . put ( name , filter ) ;  <NL> fire event ( named filter change type . add , name , filter ) ;  <NL>  }  COM: <s> adds a sub </s>

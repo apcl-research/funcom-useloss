@@ -1,0 +1,1 @@
+TDAT: public participant snapshot get data ( ) {  <NL> return new participant snapshot ( get member id ( ) , get rowing id ( ) ,  <NL> get participant id ( ) , get seat preference ( ) , get replaces id ( ) ,  <NL> get initial seat id ( ) , get final seat id ( ) , get attendance ( ) ) ;  <NL>  }  COM: <s> return a bare naked snapshot </s>

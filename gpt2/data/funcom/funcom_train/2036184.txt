@@ -1,0 +1,1 @@
+TDAT: public void clear area ( boolean [ ] [ ] btn area ) {  <NL> for ( int i = 0 ; i < cell . get colspan ( ) ; i + + ) {  <NL> int x = cell . get pos x ( ) + i ;  <NL> for ( int j = 0 ; j < cell . get rowspan ( ) ; j + + ) {  <NL> int y = cell . get pos y ( ) + j ;  <NL> btn area [ x ] [ y ] = false ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> clear the cell holds area </s>

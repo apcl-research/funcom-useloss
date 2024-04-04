@@ -1,0 +1,1 @@
+TDAT: public symbol lookup ( string name ) {  <NL> symbol s = symbols . get ( name ) ;  <NL> if ( s ! = null ) {  <NL> return s ; / / found it <NL>  }  <NL>  / / if not , then check enclosing scope <NL> if ( parent ! = null ) {  <NL> return parent . lookup ( name ) ;  <NL>  }  <NL> return null ; / / couldn ' t find it <NL>  }  COM: <s> try to look up variable with given name </s>

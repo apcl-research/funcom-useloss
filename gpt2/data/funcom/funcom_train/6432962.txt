@@ -1,0 +1,1 @@
+TDAT: public void copy into ( object an array [ ] [ ] ) {  <NL> for ( int i = 0 ; i < an array . length ; i + + )  <NL>  {  <NL> for ( int j = 0 ; j < an array [ i ] . length ; j + + )  <NL>  {  <NL> an array [ i ] [ j ] = element at ( i , j ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> fills an array with corresponding values in data vector by calling </s>

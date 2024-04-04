@@ -1,0 +1,1 @@
+TDAT: public void create context menu ( context menu menu , view v , context menu info menu info ) {  <NL> menu . add ( 0 , play _ now _ id , 0 , resources . get string ( r . string . play _ now ) ) ;  <NL> menu . add ( 0 , cancel _ id , 0 , resources . get string ( r . string . cancel ) ) ;  <NL>  }  COM: <s> called when a context menu is created </s>

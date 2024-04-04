@@ -1,0 +1,1 @@
+TDAT: private void set height at point ( final float [ ] height data , final float height , final int x , final int z ) {  <NL> int base index = ( x + z * size ) * 3 ;  <NL> height data [ base index ] = x ;  <NL> height data [ base index + 1 ] = height ;  <NL> height data [ base index + 2 ] = z ;  <NL>  }  COM: <s> sets the height value for a given coordinate </s>

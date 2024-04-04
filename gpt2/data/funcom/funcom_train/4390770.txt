@@ -1,0 +1,1 @@
+TDAT: public void remove chatbox interface ( player p ) {  <NL> set tab ( p , 68 , 752 ) ;  <NL> p . get byte vector ( ) . create frame ( 246 ) ;  <NL> p . get byte vector ( ) . write word ( 752 ) ;  <NL> p . get byte vector ( ) . write word ( 12 ) ;  <NL> p . chatbox interface id = - 1 ;  <NL>  }  COM: <s> set the chatbox back removing any interfaces on it </s>

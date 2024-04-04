@@ -1,0 +1,1 @@
+TDAT: public void test unquoting values ( ) {  <NL> cn cn = new cn ( " \ " x , xx\ " " ) ;  <NL>  <NL> assert equals ( " x , xx " , cn . get value ( ) ) ;  <NL> assert equals ( " cn = \ " x , xx\ " " , cn . to string ( ) ) ;  <NL>  }  COM: <s> test unquoting of value strings </s>

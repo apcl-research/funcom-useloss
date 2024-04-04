@@ -1,0 +1,1 @@
+TDAT: private void set step view ( view step view ) {  <NL> if ( step view ! = this . step view ) {  <NL> view old step view = this . step view ;  <NL> this . step view = step view ;  <NL> this . property change support . fire property change ( property . step _ view . name ( ) , old step view , step view ) ;  <NL>  }  <NL>  }  COM: <s> sets the step view </s>

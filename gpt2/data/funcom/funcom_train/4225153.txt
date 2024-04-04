@@ -1,0 +1,1 @@
+TDAT: public genotype builder integer ( int bits , boolean gray ) {  <NL> if ( bits < 1 ) exc ( " one bit is minimum " ) ;  <NL> grays . add ( gray ) ;  <NL> pos . add ( cum ) ;  <NL> len . add ( bits ) ;  <NL> min . add ( null ) ;  <NL> max . add ( null ) ;  <NL> cum + = bits ;  <NL> no + + ;  <NL> return this ;  <NL>  }  COM: <s> adds gene to genotype definition </s>

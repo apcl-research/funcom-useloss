@@ -1,0 +1,1 @@
+TDAT: public void reset bool vars ( ) {  <NL> node list nl = get node list x path ( " / userdata / boolvar " ) ;  <NL> for ( int i = 0 ; i < nl . get length ( ) ; i + + ) {  <NL> element elem = ( element ) nl . item ( i ) ;  <NL> elem . set attribute ( " value " , " no " ) ;  <NL>  }  <NL> invalidate cache ( ) ;  <NL>  }  COM: <s> set all boolvars to false </s>

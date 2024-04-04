@@ -1,0 +1,1 @@
+TDAT: protected int get initial sort column ( ) {  <NL> for ( int i = 0 ; i < columns . size ( ) ; i + + ) {  <NL> if ( columns . get ( i ) . get comparator ( ) ! = null ) {  <NL> return i ;  <NL>  }  <NL>  }  <NL> throw new illegal state exception ( " at least one data view column must have a comparator . " ) ;  <NL>  }  COM: <s> get the default sort column </s>

@@ -1,0 +1,1 @@
+TDAT: public void focus gained ( final focus event e ) {  <NL>  / / log . debug ( e . get source ( ) . get class ( ) . get name ( ) + " to " + e . get opposite component ( ) . get class ( ) . get name ( ) ) ;  <NL> set component focused ( e ) ;  <NL> if ( border ! = null )  <NL> border . set focus ( true ) ;  <NL>  }  COM: <s> set the borders focus mode to reflect in focus </s>

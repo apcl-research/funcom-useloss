@@ -1,0 +1,1 @@
+TDAT: protected content get nav link class index ( ) {  <NL> content all classes content = get hyper link ( relative path +  <NL> all classes frame writer . output _ file _ name _ noframes , " " ,  <NL> allclasses label , " " , " " ) ;  <NL> content li = html tree . li ( all classes content ) ;  <NL> return li ;  <NL>  }  COM: <s> get link for generated index </s>

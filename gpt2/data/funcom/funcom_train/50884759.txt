@@ -1,0 +1,1 @@
+TDAT: public void start ( ) {  <NL> card layout cl = ( card layout ) card panel . get layout ( ) ;  <NL> cl . show ( card panel , list . current panel ( ) . get title ( ) ) ;  <NL> list . current panel ( ) . will enter ( ) ;  <NL> update state ( ) ;  <NL> validate ( ) ;  <NL> on started ( ) ;  <NL> show ( ) ;  <NL>  }  COM: <s> starts the wizard </s>

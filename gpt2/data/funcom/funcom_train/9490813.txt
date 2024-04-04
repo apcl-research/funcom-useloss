@@ -1,0 +1,1 @@
+TDAT: protected void write dash ( float [ ] dash , float phase ) throws io exception {  <NL>  / / for backward compatibility <NL> double [ ] dd = new double [ dash . length ] ;  <NL> for ( int i = 0 ; i < dash . length ; i + + )  <NL> dd [ i ] = dash [ i ] ;  <NL> write dash ( dd , phase ) ;  <NL>  }  COM: <s> writes out the dash of the stroke </s>

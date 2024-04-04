@@ -1,0 +1,1 @@
+TDAT: public void inverse translate vect ( float [ ] vec ) throws exception {  <NL> if ( vec . length ! = 3 ) { throw new exception (  <NL>  " vec must be of size 3 . " ) ; }  <NL>  <NL> vec [ 0 ] = vec [ 0 ] - m03 ;  <NL> vec [ 1 ] = vec [ 1 ] - m13 ;  <NL> vec [ 2 ] = vec [ 2 ] - m23 ;  <NL>  }  COM: <s> code inverse translate vect code translates a given vector3 d by the </s>

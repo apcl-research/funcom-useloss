@@ -1,0 +1,1 @@
+TDAT: public py object get doc ( ) {  <NL> py object doc = super . get doc ( ) ;  <NL> if ( ! builtin & & doc ! = null & & doc . get type ( ) . lookup ( " _ _ get _ _ " ) ! = null ) {  <NL> return doc . _ _ get _ _ ( null , this ) ;  <NL>  }  <NL> return doc ;  <NL>  }  COM: <s> equivalent of cpythons typeobject type get doc handles doc descriptors </s>

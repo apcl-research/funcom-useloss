@@ -1,0 +1,1 @@
+TDAT: public boolean is ( object ob , string cname ) {  <NL> try {  <NL> if ( cname . index of ( " . " ) < 0 )  <NL> cname = " org . jtri . model . " + cname ;  <NL> class c = class . for name ( cname ) ;  <NL> return c . is instance ( ob ) ;  <NL>  } catch ( exception ex ) {  <NL> return false ;  <NL>  }  <NL>  }  COM: <s> check if object ob is of class cname </s>

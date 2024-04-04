@@ -1,0 +1,1 @@
+TDAT: public void delete ( string user , path sub dir , path . . . base dirs ) {  <NL>  / / todo if parent owned by nm , rename within parent inline <NL> sched . schedule ( new file deletion ( user , sub dir , base dirs ) ,  <NL> debug delay , time unit . seconds ) ;  <NL>  }  COM: <s> delete the path s as this user </s>

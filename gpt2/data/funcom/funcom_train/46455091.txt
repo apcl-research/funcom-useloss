@@ -1,0 +1,1 @@
+TDAT: public void set axes ( drawable axes _ axes ) {  <NL> axes = _ axes ;  <NL> if ( axes = = null ) {  <NL> axes = new custom axes ( this ) ;  <NL> set preferred gutters ( 0 , 0 , 0 , 0 ) ;  <NL> set clip at gutter ( false ) ;  <NL> axes . set visible ( false ) ;  <NL>  } else {  <NL> set clip at gutter ( true ) ;  <NL>  }  <NL>  }  COM: <s> sets the axes </s>

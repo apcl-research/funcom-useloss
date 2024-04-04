@@ -1,0 +1,1 @@
+TDAT: public void add subject ( minglet a ) {  <NL> if ( a = = null ) return ;  <NL>  <NL>  / / todo : this is slow !  <NL>  / / we ' d like to find a better way to do this some time !  <NL> subjects . add element ( new mingle node ( a . get owner ( ) , a . get address ( ) , a . get last seen ( ) ) ) ;  <NL>  }  COM: <s> add a new minglet to the vector </s>

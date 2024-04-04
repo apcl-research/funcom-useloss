@@ -1,0 +1,1 @@
+TDAT: public int add row ( ) {  <NL> int rows = srx . get mapping rules ( ) . size ( ) ;  <NL> srx . get mapping rules ( ) . add (  <NL> new map rule ( o strings . get string ( " seg _ new _ ln _ co " ) , " ln - co " , new array list < rule > ( ) ) ) ;  <NL> fire table rows inserted ( rows , rows ) ;  <NL> return rows ;  <NL>  }  COM: <s> adds a new empty mapping rule </s>

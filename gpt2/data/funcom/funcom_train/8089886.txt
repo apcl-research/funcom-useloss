@@ -1,0 +1,1 @@
+TDAT: public void set perturbation fraction ( double value ) {  <NL> if ( ( value > = 0 . 0 ) & & ( value < = 1 . 0 ) )  <NL> m _ perturbation fraction = value ;  <NL> else <NL> throw new illegal argument exception (  <NL>  " perturbation fraction must be in [ 0 , 1 ] ( provided : " + value + " ) ! " ) ;  <NL>  }  COM: <s> sets the perturbation fraction </s>

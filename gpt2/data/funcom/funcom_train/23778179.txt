@@ -1,0 +1,1 @@
+TDAT: public void set to airport ( airport bo airport to ) {  <NL> this . to airport = airport to ;  <NL> this . j l faa to . set text ( string utils . trim to empty ( to airport . get faa ( ) ) + " ( " + string utils . trim to empty ( to airport . get name ( ) ) + " ) " ) ;  <NL>  }  COM: <s> takes the airport object and sets it to a label </s>

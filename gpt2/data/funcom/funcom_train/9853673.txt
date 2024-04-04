@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> return get class ( ) . get name ( ) + " [ " + host + " , " + get port ( ) + " , " + username + " , " +  <NL> nick + " , " + realname + " , " + pass + " , " + is connected ( ) + " ] " ;  <NL>  }  COM: <s> generates a code string code with some information about the instance of </s>

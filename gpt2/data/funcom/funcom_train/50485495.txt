@@ -1,0 +1,1 @@
+TDAT: public boolean fire confirm insert mode ( ) {  <NL> for ( int i = 0 ; i < listeners . size ( ) ; i + + )  <NL> if ( ! ( ( row listener ) listeners . element at ( i ) ) . confirm insert mode ( new row event ( db row , " confirm insert mode " ) ) )  <NL> return false ;  <NL> return true ;  <NL>  }  COM: <s> fire confirmation for insert mode </s>

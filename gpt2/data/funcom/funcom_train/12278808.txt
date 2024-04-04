@@ -1,0 +1,1 @@
+TDAT: public void register module ( string name , class module class , string message resources key , boolean primary , boolean secondary , boolean system ) {  <NL> modules . put ( name , new authentication module definition ( name , module class , message resources key , primary , secondary , system ) ) ;  <NL>  }  COM: <s> register a new module definition </s>

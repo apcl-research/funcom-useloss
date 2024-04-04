@@ -1,0 +1,1 @@
+TDAT: protected void write cache to file ( ) throws io exception {  <NL>  / / hopefully this starts at the current file position <NL>  / * /  <NL> misc . debug ( this , " writing " + i cache pos + " bytes to file " ) ;  <NL>  / * /  <NL> this . write ( cache bytes , 0 , ( int ) i cache pos ) ;  <NL>  }  COM: <s> write the current cache to the file </s>

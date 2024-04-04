@@ -1,0 +1,1 @@
+TDAT: public void do mouse dragged ( mouse event e ) {  <NL>  / /  <NL> system . out . println ( " dragged " + " ( " + e . get x ( ) + " , " + e . get y ( ) + " ) "  <NL>  + " detected on "  <NL>  + e . get component ( ) . get class ( ) . get name ( )  <NL>  + " " ) ;  <NL>  }  COM: <s> does something if mouse was dragged </s>

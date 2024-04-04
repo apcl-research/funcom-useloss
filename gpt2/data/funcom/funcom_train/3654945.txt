@@ -1,0 +1,1 @@
+TDAT: public key stroke get key stroke ( string obj id ) {  <NL> string ks txt = get text ( obj id ) ;  <NL> if ( null = = ks txt ) {  <NL> return null ;  <NL>  } else if ( ks txt . length ( ) = = 1 ) {  <NL> ks txt = " typed " + ks txt ;  <NL>  }  <NL> return key stroke . get key stroke ( ks txt ) ;  <NL>  }  COM: <s> converts the localized string corresponding to the </s>

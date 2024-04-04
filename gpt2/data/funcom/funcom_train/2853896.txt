@@ -1,0 +1,1 @@
+TDAT: public void test single char ops ( ) throws exception {  <NL>  / / string str = " | + = - * / < > " ;  <NL> string str = " | + = - " ;  <NL> lexer = new tokenizer ( str ) ;  <NL> for ( int i = 0 ; i < str . length ( ) ; i + + )  <NL> expected op ( str . char at ( i ) ) ;  <NL>  }  COM: <s> xxx cannot yet handle characters also beginning multi char ops </s>

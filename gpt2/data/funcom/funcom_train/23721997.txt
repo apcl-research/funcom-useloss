@@ -1,0 +1,1 @@
+TDAT: public void add ( int restriction , string value ) {  <NL> integer r = integer . value of ( restriction ) ;  <NL> list < string > list = map . get ( r ) ;  <NL> if ( list = = null ) {  <NL> list = new array list < string > ( ) ;  <NL> map . put ( r , list ) ;  <NL>  }  <NL> list . add ( value ) ;  <NL>  }  COM: <s> add a restriction to the set </s>

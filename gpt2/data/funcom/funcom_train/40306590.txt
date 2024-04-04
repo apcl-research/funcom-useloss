@@ -1,0 +1,1 @@
+TDAT: private void do grid rotation ( gl gl ) {  <NL> gl . gl rotatef ( m _ f rotate tile rotation , 0 , 0 , m _ c rotate tiles ) ;  <NL> gl . gl translatef ( 0 , 0 , ( float ) math . sin ( math . to radians ( m _ f rotate tile rotation ) * 2 ) / 5 ) ;  <NL>  }  COM: <s> performs the individual tile rotation in the grid </s>

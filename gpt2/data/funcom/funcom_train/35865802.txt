@@ -1,0 +1,1 @@
+TDAT: public void set equipment owner ( string serial id , string owner , string room id ) {  <NL> equipment entity equipment = find equipment by serial id ( serial id , room id ) ;  <NL> if ( null ! = equipment ) {  <NL> equipment . set owner ( owner ) ;  <NL> em . merge ( equipment ) ;  <NL>  }  <NL> em . flush ( ) ;  <NL>  }  COM: <s> set the owner of a piece of equipment </s>

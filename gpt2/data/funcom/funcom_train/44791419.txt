@@ -1,0 +1,1 @@
+TDAT: private geo point ge oxygene point to geo point ( int id , i geometry geom ) {  <NL> gm _ point ge oxy point = ( gm _ point ) geom ;  <NL> geo point geo point = new geo point ( id , ge oxy point . get position ( ) . get x ( ) ,  <NL> ge oxy point . get position ( ) . get y ( ) ) ;  <NL> return geo point ;  <NL>  }  COM: <s> convert a gm point to a geo point </s>

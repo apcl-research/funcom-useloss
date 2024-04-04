@@ -1,0 +1,1 @@
+TDAT: public map get attributes ( ) {  <NL> map map = super . get attributes ( ) ;  <NL> map . put ( tag _ class , get target class name ( ) ) ;  <NL> map . put ( tag _ method , get method name ( ) ) ;  <NL> if ( args . length ! = 0 ) {  <NL> map . put ( tag _ args , get encoded arguments ( ) ) ;  <NL>  }  <NL> return map ;  <NL>  }  COM: <s> attributes to save in script </s>

@@ -1,0 +1,1 @@
+TDAT: private double sigma ( final double lat , final double lon , final node node ) {  <NL> lat lon time zone lltz = node . get tz ( ) ;  <NL> return ( lltz . get latitude ( ) - lat ) * ( lltz . get latitude ( ) - lat )  <NL>  + ( lltz . get longitude ( ) - lon ) * ( lltz . get longitude ( ) - lon ) ;  <NL>  }  COM: <s> return estimated error </s>

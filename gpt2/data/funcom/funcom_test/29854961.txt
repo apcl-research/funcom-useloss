@@ -1,0 +1,1 @@
+TDAT: public int get integer ( ) {  <NL> if ( value instanceof integer ) {  <NL> return ( ( integer ) value ) . int value ( ) ;  <NL>  }  <NL> throw new inconsistency exception ( ) ;  <NL>  / / ! ! ! throw new positioned error ( get token reference ( ) , " vk - not - integer " , get label ( ) , value ) ;  <NL>  }  COM: <s> returns the value of this node as an integer </s>

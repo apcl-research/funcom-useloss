@@ -1,0 +1,1 @@
+TDAT: public void test get property key2 ( ) {  <NL> assert equals ( " failed to get key2 " , " key2 value " , config . get property ( " key2 " , null , " a " ) ) ;  <NL> assert equals ( " failed to get key2 " , " key2 value " , config . get category ( " a " ) . get property ( " key2 " ) ) ;  <NL>  }  COM: <s> needs patch to work </s>

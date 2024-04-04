@@ -1,0 +1,1 @@
+TDAT: protected void fill missing cells ( ) {  <NL> for ( int y = 0 ; y < peer rows ; y + + ) {  <NL> for ( int x = 0 ; x < peer cols ; x + + ) {  <NL> if ( x > = cols || y > = rows ) {  <NL> peer . set cell ( x , y , peer . get cell ( x % cols , y % rows ) ) ;  <NL>  }  <NL>  }  <NL>  }  <NL>  }  COM: <s> sets tile indices in the backing tiled layer to ensure a constant </s>

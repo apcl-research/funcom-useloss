@@ -1,0 +1,1 @@
+TDAT: public void paint ( graphics g paint ) {  <NL> g paint . set color ( get color ( ) ) ;  <NL> g paint . draw line ( get start ( ) . get x ( ) , get start ( ) . get y ( ) , get end ( ) . get x ( ) , get end ( ) . get y ( ) ) ;  <NL> super . paint ( g paint ) ;  <NL>  }  COM: <s> just a line between two points </s>

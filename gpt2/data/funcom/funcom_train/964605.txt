@@ -1,0 +1,1 @@
+TDAT: public void test reject duplicate row index ( ) {  <NL> try {  <NL> layout . set row groups ( new int [ ] [ ] { { 1 , 2 } , { 2 , 3 } } ) ;  <NL> fail ( " a duplicate row index should be rejected . " ) ;  <NL>  } catch ( illegal argument exception e ) {  <NL>  / / the expected behavior <NL>  }  <NL>  }  COM: <s> tests if duplicate row indices are rejected </s>

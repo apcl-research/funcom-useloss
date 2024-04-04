@@ -1,0 +1,1 @@
+TDAT: private void trigger cb hosts reload ( ) {  <NL> cb hosts . remove all items ( ) ;  <NL> for ( string name : host dao . get host names ( ) ) {  <NL> cb hosts . add item ( name ) ;  <NL>  }  <NL>  / / cb hosts . set model ( new javax . swing . default combo box model ( host dao . get host names ( ) ) ) ;  <NL>  }  COM: <s> re init hosts list </s>

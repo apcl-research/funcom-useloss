@@ -1,0 +1,1 @@
+TDAT: public void set num bits per card ( int bits ) {  <NL> if ( ( bits = = 24 ) || ( bits = = 32 ) || ( bits = = 16 ) ) {  <NL> bits per card = bits ;  <NL>  }  <NL> else {  <NL> log . warn ( " unexpected number of bits per card : " + integer . to string ( bits ) ) ;  <NL> bits per card = bits ;  <NL>  }  <NL>  }  COM: <s> public method to set number of bits per card </s>

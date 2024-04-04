@@ -1,0 +1,1 @@
+TDAT: private string byte to hex ( byte [ ] base ) {  <NL> char [ ] c = new char [ base . length * 2 ] ;  <NL> int i = 0 ;  <NL>  <NL> for ( byte b : base ) {  <NL> int j = b ;  <NL> j = j + 128 ;  <NL> c [ i + + ] = tohex [ j / 0x10 ] ;  <NL> c [ i + + ] = tohex [ j % 0x10 ] ;  <NL>  }  <NL> return new string ( c ) ;  <NL>  }  COM: <s> encode a byte array </s>

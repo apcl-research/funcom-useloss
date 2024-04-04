@@ -1,0 +1,1 @@
+TDAT: private void paint arrow ( graphics g , int x2 , int y2 , int direction ) {  <NL> if ( direction = = arrow _ dir _ right ) {  <NL> g . draw line ( x2 - 4 , y2 - 7 , x2 - 4 , y2 - 1 ) ;  <NL> g . draw line ( x2 - 3 , y2 - 6 , x2 - 3 , y2 - 2 ) ;  <NL> g . draw line ( x2 - 2 , y2 - 5 , x2 - 2 , y2 - 3 ) ;  <NL>  }  <NL>  }  COM: <s> paint the arrow of dependence </s>

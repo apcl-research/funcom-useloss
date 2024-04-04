@@ -1,0 +1,1 @@
+TDAT: public zz cell handle s ( zz cell handle c , int steps , zz obs o ) {  <NL> string id = get relative cell id ( c . id , steps ) ;  <NL> if ( id = = null || id . equals ( next id ) )  <NL> return null ;  <NL> return ( dim cell ) get cell by id ( id ) ;  <NL>  }  COM: <s> get a cell id along the dimension </s>

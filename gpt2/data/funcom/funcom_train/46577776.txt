@@ -1,0 +1,1 @@
+TDAT: public void insert string ( int offset , string s , attribute set a ) throws bad location exception {  <NL> if ( offset + s . length ( ) < = max length ) {  <NL> super . insert string ( offset , s , a ) ;  <NL>  } else {  <NL> if ( beep ) toolkit . get default toolkit ( ) . beep ( ) ;  <NL>  }  <NL>  }  COM: <s> overridden to check and limit the number of characters </s>

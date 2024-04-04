@@ -1,0 +1,1 @@
+TDAT: public void draw round rect ( rect f rect , float rx , float ry , paint paint ) {  <NL> if ( rect = = null ) {  <NL> throw new null pointer exception ( ) ;  <NL>  }  <NL> native _ draw round rect ( m native canvas , rect , rx , ry ,  <NL> paint . m native paint ) ;  <NL>  }  COM: <s> draw the specified round rect using the specified paint </s>

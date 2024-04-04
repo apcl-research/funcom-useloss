@@ -1,0 +1,1 @@
+TDAT: public string get url html ( ) {  <NL> if ( ! supports html ( ) )  <NL> return null ;  <NL> if ( paramstring = = null||paramstring . equals ( " " ) )  <NL> return ( new link ( page id ) ) . to string ( ) ;  <NL>  <NL> return ( new link ( page id + " ? " + paramstring . to string ( ) ) ) . to string ( ) ;  <NL>  }  COM: <s> returns the link url for html devices </s>

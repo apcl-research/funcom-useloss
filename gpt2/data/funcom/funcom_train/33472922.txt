@@ -1,0 +1,1 @@
+TDAT: public void set direction ( int d ) {  <NL> if ( d ! = top _ down & & d ! = bottom _ up & & d ! = left _ to _ right & &  <NL> d ! = right _ to _ left ) {  <NL> throw new illegal argument exception ( " invalid direction . " ) ;  <NL>  }  <NL>  <NL> this . direction = d ;  <NL> show ( this . percent visible ) ;  <NL>  }  COM: <s> sets the direction the component expands </s>

@@ -1,0 +1,1 @@
+TDAT: public void shutdown ( ) {  <NL> if ( should destroy port ( ) ) {  <NL> if ( factory ! = null & & servant count = = 0 ) {  <NL> factory . destroy for port ( port ) ;  <NL>  } else {  <NL> log . log ( level . warning , " failed _ to _ shutdown _ engine _ msg " , port ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> this method will shut down the server engine and </s>

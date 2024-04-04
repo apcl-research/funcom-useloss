@@ -1,0 +1,1 @@
+TDAT: private boolean need tabbed panes ( ) {  <NL> boolean need tabbed panes = false ;  <NL> for ( int i = 0 , n = editor model . get count ( ) ; i < n ; i + + ) {  <NL> if ( editor model . get pane title ( i ) ! = null ) {  <NL> need tabbed panes = true ;  <NL>  }  <NL>  }  <NL> return need tabbed panes ;  <NL>  }  COM: <s> returns the value for tabbed panes </s>

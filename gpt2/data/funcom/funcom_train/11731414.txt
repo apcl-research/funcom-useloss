@@ -1,0 +1,1 @@
+TDAT: public string to string ( string field ) {  <NL> string buffer sb = new string buffer ( ) ;  <NL> sb . append ( " parent axis query ( " ) ;  <NL> sb . append ( context query ) ;  <NL> sb . append ( " , " ) ;  <NL> sb . append ( name test ) ;  <NL> sb . append ( " ) " ) ;  <NL> return sb . to string ( ) ;  <NL>  }  COM: <s> always returns parent axis query </s>

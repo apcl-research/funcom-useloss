@@ -1,0 +1,1 @@
+TDAT: public grid model get rules wm ( ) {  <NL> grid model w _ rules = ( grid model ) get widget cache ( ) . get model ( " rules " ) ;  <NL> if ( w _ rules = = null ) {  <NL> w _ rules = populate rules model ( ) ;  <NL> get widget cache ( ) . add model ( " rules " , w _ rules ) ;  <NL>  }  <NL> return w _ rules ;  <NL>  }  COM: <s> getter for property rules </s>

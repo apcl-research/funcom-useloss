@@ -1,0 +1,1 @@
+TDAT: private int get rg bor zero ( point p , buffered image bi ) {  <NL> if ( p . x < 0 || p . y < 0 || p . x > bi . get width ( ) - 1 || p . y > bi . get height ( ) - 1 ) {  <NL> return 0 ;  <NL>  }  <NL> else {  <NL> return bi . get rgb ( p . x , p . y ) ;  <NL>  }  <NL>  }  COM: <s> return rgb value of the buffered imge at position x y or zero </s>

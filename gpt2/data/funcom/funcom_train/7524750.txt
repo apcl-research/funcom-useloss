@@ -1,0 +1,1 @@
+TDAT: public void receive ( address sender , byte [ ] data , int offset , int length ) {  <NL> if ( receiver ! = null ) {  <NL> receiver . receive ( sender , data , offset , length ) ;  <NL>  }  <NL> else <NL> if ( log . is error enabled ( ) ) log . error ( " receiver is null ( not set ) ! " ) ;  <NL>  }  COM: <s> calls the receiver callback </s>

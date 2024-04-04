@@ -1,0 +1,1 @@
+TDAT: protected void paint top left ( component c , graphics g , int x , int y , int width , int height ) {  <NL> graphics cg = g . create ( ) ;  <NL> cg . set clip ( x , y , width , height ) ;  <NL> tile icons [ 0 ] . paint icon ( c , cg , x , y ) ;  <NL> cg . dispose ( ) ;  <NL>  }  COM: <s> only called by paint border </s>

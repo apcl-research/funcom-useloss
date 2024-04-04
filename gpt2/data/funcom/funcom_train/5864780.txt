@@ -1,0 +1,1 @@
+TDAT: protected string get info text ( ) {  <NL> int last item = ( _ actpg + 1 ) * _ pgsz ;  <NL> return " [ " + ( _ actpg * _ pgsz + 1 ) + ( ! " os " . equals ( get mold ( ) ) ? " - " + ( last item > _ ttsz ? _ ttsz : last item ) : " " ) + " / " + _ ttsz + " ] " ;  <NL>  }  COM: <s> returns the information text of the paging if </s>

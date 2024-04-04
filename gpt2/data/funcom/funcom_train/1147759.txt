@@ -1,0 +1,1 @@
+TDAT: private void create wheels ( final boolean steer ) {  <NL> left wheel = new wheel ( left base , car data . wheel _ z _ offset , steer ) ;  <NL> this . attach child ( left wheel ) ;  <NL> right wheel = new wheel ( right base , - car data . wheel _ z _ offset , steer ) ;  <NL> this . attach child ( right wheel ) ;  <NL>  }  COM: <s> creates both left and right wheels </s>

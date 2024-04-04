@@ -1,0 +1,1 @@
+TDAT: private j button get j history button ( ) {  <NL> if ( this . j history button = = null ) {  <NL> this . j history button = new j button ( ) ;  <NL> fill tab button ( this . j history button , " history " , get j history panel ( ) . get name ( ) ) ;  <NL>  }  <NL> return this . j history button ;  <NL>  }  COM: <s> this method initializes j history button </s>

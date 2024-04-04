@@ -1,0 +1,1 @@
+TDAT: public void engage ( int value ) {  <NL>  <NL> context ( ) . set quantity ( ( context ( ) . input double ( ) ) ) ;  <NL> context ( ) . clear input ( ) ;  <NL> set prompt text ( context ( ) . pos parameters ( ) . get string ( " enter item " ) ) ;  <NL> context ( ) . oper prompt ( ) . update ( this ) ;  <NL>  }  COM: <s> get the quantity from the input line and set the </s>

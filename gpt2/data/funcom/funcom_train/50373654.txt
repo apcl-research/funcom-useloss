@@ -1,0 +1,1 @@
+TDAT: public void update limits ( float x , float y , boolean is first ) {  <NL> if ( is first ) {  <NL> x min = x max = x ;  <NL> y min = y max = y ;  <NL>  } else {  <NL> if ( x > x max ) x max = x ;  <NL> if ( x < x min ) x min = x ;  <NL> if ( y > y max ) y max = y ;  <NL> if ( y < y min ) y min = y ;  <NL>  }  <NL>  }  COM: <s> updates the min and max data point values </s>

@@ -1,0 +1,1 @@
+TDAT: public void mouse clicked ( mouse event e ) {  <NL> if ( get selected row ( ) > - 1 ) {  <NL> if ( swing utilities . is right mouse button ( e ) ) {  <NL> log table popup menu popup = new log table popup menu ( ) ;  <NL> popup . show menu ( this , e . get x ( ) , e . get y ( ) ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> fired when teh mouse is clicked on the table </s>

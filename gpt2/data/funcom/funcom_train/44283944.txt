@@ -1,0 +1,1 @@
+TDAT: private void setup danish drvr panel ( j panel parent panel , patch patch ) {  <NL> add widget ( parent panel , new knob widget ( " distortion " , patch , 0 , 127 , 0 , new scaled param model ( patch , 53 + pgm dumpheader size , 127 , 127 ) , new cc sender ( 55 ) ) , 6 , 0 , 1 , 1 , 44 ) ;  <NL>  }  COM: <s> sets up the danish driver effects panel </s>

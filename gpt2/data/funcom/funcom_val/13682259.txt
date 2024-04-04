@@ -1,0 +1,1 @@
+TDAT: public boolean is script ( int i ) {  <NL> return i > = 0 & & i < size ( ) & & get argument ( i ) instanceof math function & &  <NL>  ( " ^ " . equals ( ( ( math function ) get argument ( i ) ) . get name ( ) ) || <NL>  " _ " . equals ( ( ( math function ) get argument ( i ) ) . get name ( ) ) ) ;  <NL>  }  COM: <s> is ith argument script </s>

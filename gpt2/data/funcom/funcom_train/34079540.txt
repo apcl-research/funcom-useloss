@@ -1,0 +1,1 @@
+TDAT: public void force refresh ( ) {  <NL>  <NL> for ( int i = 0 ; i < 12 ; i + + ) {  <NL> slot [ i ] . update pg ( ) ;  <NL> slot [ i ] . update rks ( ) ;  <NL> slot [ i ] . update tll ( ) ;  <NL> slot [ i ] . update wf ( ) ;  <NL> slot [ i ] . update eg ( ) ;  <NL>  }  <NL>  }  COM: <s> force refresh when external program changes some parameters </s>

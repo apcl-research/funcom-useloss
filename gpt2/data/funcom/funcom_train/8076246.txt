@@ -1,0 +1,1 @@
+TDAT: private void set num of nodes ( node r , int l ) {  <NL> edge e ;  <NL> l + + ;  <NL>  <NL> m _ levels [ l ] + + ;  <NL> for ( int noa = 0 ; ( e = r . get child ( noa ) ) ! = null & & r . get c visible ( ) ; noa + + ) {  <NL> set num of nodes ( e . get target ( ) , l ) ;  <NL>  }  <NL>  }  COM: <s> this function finds the number of nodes on each level recursively </s>

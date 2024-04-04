@@ -1,0 +1,1 @@
+TDAT: public input stream get conf path xml stream ( string file path name ) {  <NL> int i = file path name . last index of ( " . xml " ) ;  <NL> string name = file path name . substring ( 0 , i ) ;  <NL> name = name . replace ( ' . ' , ' / ' ) ;  <NL> name + = " . xml " ;  <NL> return get conf stream ( name ) ;  <NL>  }  COM: <s> same as get conf path xml file </s>

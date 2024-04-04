@@ -1,0 +1,1 @@
+TDAT: public void assert text present ( string text ) {  <NL> if ( ! ( get testing engine ( ) . get page text ( ) . contains ( text ) ) )  <NL> fail ( " expected text not found in current page : [ " + text <NL>  + " ] \n page content was : [ "  <NL>  + get testing engine ( ) . get page text ( ) + " ] " ) ;  <NL>  }  COM: <s> assert that supplied text is present </s>

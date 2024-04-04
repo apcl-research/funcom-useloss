@@ -1,0 +1,1 @@
+TDAT: public void set ( string seq ) {  <NL> for ( int i = 0 ; i < i cnt . length ; i + + )  <NL> i cnt [ i ] = 0 ;  <NL> for ( int i = 0 ; i < i sequence . length ; i + + ) {  <NL> i sequence [ i ] = ( seq . char at ( i ) - ' a ' ) ;  <NL> i cnt [ i sequence [ i ] ] + + ;  <NL>  }  <NL>  }  COM: <s> set the sequence from a string representation a </s>

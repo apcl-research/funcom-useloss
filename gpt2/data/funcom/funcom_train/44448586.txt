@@ -1,0 +1,1 @@
+TDAT: public void set cfg ( sr config config ) {  <NL> this . config = config ;  <NL> reset ( config . get threshold ( ) , config . get allowed _ pause ( ) , config <NL>  . get bytes _ to _ read ( ) , config . get append _ length ( ) , config <NL>  . get env _ noise _ cnt ( ) , sig disp ) ;  <NL>  }  COM: <s> sets the configuration </s>

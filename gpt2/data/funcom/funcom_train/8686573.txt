@@ -1,0 +1,1 @@
+TDAT: public boolean has patterns ( project p ) {  <NL> if ( is reference ( ) ) {  <NL> return get ref ( p ) . has patterns ( p ) ;  <NL>  } else {  <NL> return includes file list . size ( ) > 0 || excludes file list . size ( ) > 0 <NL> || include list . size ( ) > 0 || exclude list . size ( ) > 0 ;  <NL>  }  <NL>  }  COM: <s> helper for file set classes </s>

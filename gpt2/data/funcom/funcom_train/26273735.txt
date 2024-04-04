@@ -1,0 +1,1 @@
+TDAT: public void write _ long ( int v ) throws io exception {  <NL> target stream _ . write ( ( byte ) ( v > > > 24 ) ) ;  <NL> target stream _ . write ( ( byte ) ( v > > > 16 ) ) ;  <NL> target stream _ . write ( ( byte ) ( v > > > 8 ) ) ;  <NL> target stream _ . write ( ( byte ) ( v > > > 0 ) ) ;  <NL>  }  COM: <s> writes an int in a message </s>

@@ -1,0 +1,1 @@
+TDAT: private tile get tile at ( int x , int y ) {  <NL> int tiles per row = get tiles per row ( ) ;  <NL> int tile at = y * tiles per row + x ;  <NL>  <NL> if ( tile at > = tileset map . size ( ) ) {  <NL> return null ;  <NL>  } else {  <NL> return ( tile ) tileset map . get ( tile at ) ;  <NL>  }  <NL>  }  COM: <s> retrieves the tile at the given tile coordinates </s>

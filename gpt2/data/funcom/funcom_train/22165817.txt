@@ -1,0 +1,1 @@
+TDAT: public void merge with ( named entity type pi _ ne , named entity explanation pi _ info ) {  <NL>  / / merge bit pos and uids <NL> m _ bit value . or ( pi _ ne . m _ bit value ) ;  <NL> this . merge uid ( pi _ ne . m _ uid ) ;  <NL>  <NL>  / / add explanation <NL> add new info ( pi _ info ) ;  <NL>  }  COM: <s> merge primitive type of current and parameter entity </s>

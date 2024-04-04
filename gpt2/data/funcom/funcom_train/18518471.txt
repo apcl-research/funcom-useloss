@@ -1,0 +1,1 @@
+TDAT: public string get id ( ) {  <NL>  <NL> string buffer id str = new string buffer ( guid generator . generate guid ( get instance ( ) ) . to upper case ( ) ) ;  <NL> for ( int i = id str . length ( ) - 4 ; i > 0 ; i - = 4 ) {  <NL> id str . insert ( i , ' . ' ) ;  <NL>  }  <NL> return id str . to string ( ) ;  <NL>  }  COM: <s> generates the ocurrence id </s>

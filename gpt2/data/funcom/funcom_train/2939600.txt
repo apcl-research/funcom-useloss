@@ -1,0 +1,1 @@
+TDAT: public void add event type ( event type event type ) {  <NL> event type [ ] new elements = new event type [ elements . length + 1 ] ;  <NL> system . arraycopy ( elements , 0 , new elements , 0 , elements . length ) ;  <NL> new elements [ elements . length ] = event type ;  <NL> elements = new elements ;  <NL>  }  COM: <s> adds one event type to this event type group </s>

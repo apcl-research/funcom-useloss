@@ -1,0 +1,1 @@
+TDAT: public void listen ( )  <NL>  { if ( username ! = null ) m _ invite dialog = new extended invite dialog ( m _ sip provider , username , realm , passwd , this ) ;  <NL> else m _ invite dialog = new extended invite dialog ( m _ sip provider , this ) ;  <NL> m _ invite dialog . listen ( ) ;  <NL>  }  COM: <s> waits for an incoming call </s>

@@ -1,0 +1,1 @@
+TDAT: protected void check data node ( ) {  <NL> add port check ( " datanode _ http _ port " , datanode _ http _ port ) ;  <NL> add port check ( " datanode _ https _ port " , datanode _ https _ port ) ;  <NL> add port check ( " datanode _ ipc _ port " , datanode _ ipc _ port ) ;  <NL>  }  COM: <s> add checks for the job tracker </s>

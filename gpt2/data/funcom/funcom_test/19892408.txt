@@ -1,0 +1,1 @@
+TDAT: public object clear global app data ( string keys ) {  <NL> string url = api _ global _ app _ data _ keys _ xml _ url . replace first ( " % s " , keys ) ;  <NL> return put user data ( " delete " , url , new hash map < string , string > ( ) , new hash map < string , string > ( ) ) ;  <NL>  }  COM: <s> clears the global app data with the given keys </s>

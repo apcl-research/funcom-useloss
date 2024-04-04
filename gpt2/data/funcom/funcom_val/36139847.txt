@@ -1,0 +1,1 @@
+TDAT: public void add to food history ( string history event ) {  <NL> if ( food type . equals ignore case ( " n / a " ) ) {  <NL> food type = " file _ op " ;  <NL>  }  <NL> this . food history = food history + " \n " + mts . get short milli time string ( )  <NL>  + " , " + food type + " , " + history event ;  <NL>  }  COM: <s> adds a formatted event to the foods history </s>

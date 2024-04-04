@@ -1,0 +1,1 @@
+TDAT: public string cancel case ( string case id , string session handle ) throws io exception {  <NL> map < string , string > params = prepare param map ( " cancel case " , session handle ) ;  <NL> params . put ( " case id " , case id ) ;  <NL> return execute post ( _ back end uri str , params ) ;  <NL>  }  COM: <s> cancels the case with case id </s>

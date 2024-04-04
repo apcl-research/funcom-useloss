@@ -1,0 +1,1 @@
+TDAT: public int distance ( synset s1 , synset s2 ) {  <NL> int d1 [ ] = new int [ 1 ] ;  <NL> int d2 [ ] = new int [ 1 ] ;  <NL> if ( nca ( s1 , s2 , d1 , d2 ) ! = null ) return ( d1 [ 0 ] + d2 [ 0 ] ) ;  <NL> else return ( - 1 ) ;  <NL>  }  COM: <s> returns the length of s1 nca s2 1 in case of failure </s>

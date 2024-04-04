@@ -1,0 +1,1 @@
+TDAT: static public string trim ( string expr , char open , char close ) {  <NL> expr = expr . trim ( ) ;  <NL> if ( matches ( expr , open , close ) ) {  <NL> return expr . substring ( expr . index of ( open ) + 1 , expr . last index of ( close ) ) ;  <NL>  } else {  <NL> return expr ;  <NL>  }  <NL>  }  COM: <s> removes a given outermost bracket pair from a given expression </s>

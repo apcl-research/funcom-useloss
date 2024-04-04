@@ -1,0 +1,1 @@
+TDAT: public string get type ( ) {  <NL> string name = get name ( ) ;  <NL> if ( name . last index of ( " . " ) = = - 1 )  <NL> return null ;  <NL> string ext = name . substring ( name . last index of ( " . " ) + 1 , name . length ( ) ) ;  <NL> return ext . to lower case ( ) ;  <NL>  }  COM: <s> return a type like a extension in lower case format </s>

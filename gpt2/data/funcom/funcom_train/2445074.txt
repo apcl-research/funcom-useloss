@@ -1,0 +1,1 @@
+TDAT: public string goto chunk ( int chunk ) throws io exception {  <NL>  / / chunk is one - based ( for a more intuitive public api ) , but current chunk is 0 - based .  <NL> check argument ( chunk < = get number of chunks ( ) , chunk + " number of chunks are not available " ) ;  <NL> return move to chunk ( chunk ) ;  <NL>  }  COM: <s> read the given chunk </s>

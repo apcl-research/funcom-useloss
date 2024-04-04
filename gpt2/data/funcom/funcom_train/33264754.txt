@@ -1,0 +1,1 @@
+TDAT: public void set bounds ( int x , int y , int width , int height , boolean invalidate parent ) {  <NL> super . set bounds ( x , y , width , height , invalidate parent ) ;  <NL> point offset = get offset ( ) ;  <NL> component . reshape ( offset . x , offset . y , width , height ) ;  <NL>  }  COM: <s> sets the boundaries of the component </s>

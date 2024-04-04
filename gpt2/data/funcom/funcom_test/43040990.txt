@@ -1,0 +1,1 @@
+TDAT: public bean mapper configurator add path mapping ( class < ? > src type , string property , class src , string path , boolean read only , string profile ) {  <NL> return add path mapping ( src type , property , src , path , ( i property converter ) null , read only , profile ) ;  <NL>  }  COM: <s> adds a path mapping </s>

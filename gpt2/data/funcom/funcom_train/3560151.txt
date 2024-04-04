@@ -1,0 +1,1 @@
+TDAT: public void show authors ( ) throws db exception {  <NL> db iterator res ;  <NL>  <NL> if ( ! is initialized ( ) )  <NL> init ( ) ;  <NL> res = prv . get authors ( null ) . iterator ( ) ;  <NL> table utils . fill sorted table ( tab author list , res , author indexes , 0 ) ;  <NL> init author table sizes ( ) ;  <NL>  }  COM: <s> shows the authors </s>

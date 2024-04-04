@@ -1,0 +1,1 @@
+TDAT: public void mouse released ( mouse event evt ) {  <NL> if ( origin = = null ) return ;  <NL> current = evt . get point ( ) ;  <NL> rectangle r = points to rect ( origin , current ) ;  <NL> if ( ! too small ( r ) ) {  <NL> fire ( r , true ) ;  <NL> repaint ( ) ;  <NL>  }  <NL> redispatch event ( evt ) ;  <NL>  }  COM: <s> mouse was released potentially finishing a drag </s>

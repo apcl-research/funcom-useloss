@@ -1,0 +1,1 @@
+TDAT: private void ensure row array ( int capacity ) {  <NL> if ( rows . length < capacity ) {  <NL> row [ ] array = new row [ math . max ( capacity , rows . length * 2 ) + 1 ] ;  <NL> system . arraycopy ( rows , 0 , array , 0 , row count ) ;  <NL> rows = array ;  <NL>  }  <NL>  }  COM: <s> versichert dass der row array genug lang f r code capacity code </s>

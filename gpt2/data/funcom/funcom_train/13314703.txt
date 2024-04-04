@@ -1,0 +1,1 @@
+TDAT: public void visit ( nadic relation union n , a argu ) {  <NL> n . node token . accept ( this , argu ) ;  <NL> n . node optional . accept ( this , argu ) ;  <NL> n . node token1 . accept ( this , argu ) ;  <NL> n . relation exp commalist . accept ( this , argu ) ;  <NL> n . node token2 . accept ( this , argu ) ;  <NL>  }  COM: <s> node token union </s>

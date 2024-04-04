@@ -1,0 +1,1 @@
+TDAT: public void add bounds ( bounds bounds ) {  <NL> bounds . add ( xmin ( ) , y ( ) , xmax ( ) - xmin ( ) , 0 ) ;  <NL> bounds . up pixels = math . max ( bounds . up pixels , 1 ) ;  <NL> bounds . down pixels = math . max ( bounds . down pixels , 1 ) ;  <NL>  }  COM: <s> adds the bounds of this line to the given rectangular bounds </s>

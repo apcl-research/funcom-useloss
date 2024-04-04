@@ -1,0 +1,1 @@
+TDAT: public void ytem changed ( ytem changed event oj evt ) {  <NL> if ( imp = = null ) {  <NL> return ;  <NL>  } else if ( imp . get window ( ) = = null ) {  <NL> return ;  <NL>  } else if ( imp . get window ( ) . is visible ( ) / * & & batch filter ( ) * / ) { / / 6 . 2 . 2011 <NL> repaint ( ) ;  <NL>  }  <NL>  }  COM: <s> repaints image if ytem has changed </s>

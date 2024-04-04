@@ -1,0 +1,1 @@
+TDAT: public list smart list ( class from class , string [ ] projections , string [ ] where equal , object [ ] parameters , order by [ ] order by ) {  <NL> return smart list ( from class , projections , where clause . get where clause from strings eq ( where equal , parameters ) , order by ) ;  <NL>  }  COM: <s> return list of pojos </s>

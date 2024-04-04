@@ -1,0 +1,1 @@
+TDAT: public vector get upload active ( ) {  <NL> vector v = new vector ( ) ;  <NL> for ( int i = 0 ; i < d thread . length ; i + + ) {  <NL> if ( d thread [ i ] . get state thread ( ) = = runnable ) {  <NL> v . add ( d thread [ i ] . get upload info ( ) ) ;  <NL>  }  <NL>  }  <NL> return v ;  <NL>  }  COM: <s> get upload active </s>

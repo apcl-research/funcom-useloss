@@ -1,0 +1,1 @@
+TDAT: public boolean param ( string name , boolean def ) {  <NL> string s = param ( name ) ;  <NL> if ( " 1 " . equals ( s ) || " t " . equals ( s ) || " true " . equals ( s ) )  <NL> return true ;  <NL> if ( " 0 " . equals ( s ) || " f " . equals ( s ) || " false " . equals ( s ) )  <NL> return false ;  <NL> return def ;  <NL>  }  COM: <s> http request parameter as boolean </s>

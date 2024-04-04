@@ -1,0 +1,1 @@
+TDAT: public void verify pin ( byte [ ] pin data ) throws card service exception {  <NL> command apdu c = new command apdu ( 0 , ins _ verify , 0 , 0 , pin data ) ;  <NL> response apdu r = service . transmit ( c ) ;  <NL> check sw ( r , " verify pin failed : " ) ;  <NL>  }  COM: <s> verify the user pin with the card </s>

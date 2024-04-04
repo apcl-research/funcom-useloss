@@ -1,0 +1,1 @@
+TDAT: public void register json value processor ( class bean class , class property type , json value processor json value processor ) {  <NL> if ( bean class ! = null & & property type ! = null & & json value processor ! = null ) {  <NL> bean type map . put ( bean class , property type , json value processor ) ;  <NL>  }  <NL>  }  COM: <s> registers a json value processor </s>

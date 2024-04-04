@@ -1,0 +1,1 @@
+TDAT: private void get type command ( commandline cmd ) {  <NL> string typenm = null ;  <NL>  <NL> if ( get type name ( ) ! = null ) {  <NL> typenm = get type name ( ) ;  <NL> if ( get vob ( ) ! = null ) {  <NL> typenm + = " @ " + get vob ( ) ;  <NL>  }  <NL> cmd . create argument ( ) . set value ( typenm ) ;  <NL>  }  <NL>  }  COM: <s> get the type name </s>

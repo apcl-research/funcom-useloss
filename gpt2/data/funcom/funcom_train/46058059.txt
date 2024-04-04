@@ -1,0 +1,1 @@
+TDAT: public new bg controller create new bg controller ( user request ureq , window control w control , user activity logger ual , boolean min max enabled , bg context bg context ) {  <NL> return create new bg controller ( ureq , w control , ual , min max enabled , bg context , false , null ) ;  <NL>  }  COM: <s> create controller for new business group creation </s>

@@ -1,0 +1,1 @@
+TDAT: public tree map node build leaf ( object value , tree map node parent ) {  <NL> tree map node node = new tree map node ( value , get weight ( value ) ) ;  <NL> if ( parent ! = null ) {  <NL> parent . add ( node ) ;  <NL>  } else if ( this . root = = null ) {  <NL> this . root = node ;  <NL>  }  <NL> return node ;  <NL>  }  COM: <s> add a leaf to the tree </s>

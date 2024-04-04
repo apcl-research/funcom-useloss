@@ -1,0 +1,1 @@
+TDAT: public void test jvmquery ( ) throws exception {  <NL> jaxbgen ( " jvmquery " , new file ( cob _ xsd _ dir , " jvmquery . xsd " ) , true , 1l ,  <NL> true , null , null , null , null , false , false ) ;  <NL> check ( " jvmquery " ) ;  <NL>  }  COM: <s> the jvmquery case </s>

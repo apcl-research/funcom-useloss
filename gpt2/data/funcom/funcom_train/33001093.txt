@@ -1,0 +1,1 @@
+TDAT: protected string read version ( )  <NL>  {  <NL> if ( is verbose mode ( ) ) log ( " read version " , " begin " ) ;  <NL>  <NL> byte array ch = read bytes ( ) ;  <NL> string c = string helper . trim right ( ch . to string ( ) ) ;  <NL>  <NL> if ( is verbose mode ( ) ) log ( " read version " , " end " ) ;  <NL> return c ;  COM: <s> reads the version </s>

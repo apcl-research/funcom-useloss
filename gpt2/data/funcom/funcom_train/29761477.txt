@@ -1,0 +1,1 @@
+TDAT: protected stack get entity stack ( ) throws jsp exception {  <NL> stack stack = ( stack ) get jsp context ( ) . get attribute ( json _ object _ stack _ key , json _ object _ stack _ scope ) ;  <NL> if ( stack = = null ) {  <NL> stack = create entity stack ( ) ;  <NL> m new stack created = true ;  <NL>  }  <NL> return stack ;  <NL>  }  COM: <s> get the json object stack </s>

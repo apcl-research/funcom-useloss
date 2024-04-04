@@ -1,0 +1,1 @@
+TDAT: public void add wrong ( question data q ) {  <NL> tot answers + + ; / / 4 dec 02 <NL> if ( q . get right ( ) + q . get wrong ( ) = = 1 )  <NL> n answered + + ;  <NL> if ( ( q . get right ( ) < 1 ) & & ( q . get wrong ( ) = = 1 ) ) {  <NL> n only wrongs + + ;  <NL>  }  <NL> recalc ( ) ;  <NL>  }  COM: <s> call when the question has been answered incorrectly </s>

@@ -1,0 +1,1 @@
+TDAT: private string remove suffix ( string value , string to remove ) {  <NL>  / / be - safe ! ! !  <NL> if ( ( value = = null ) || <NL>  ( to remove = = null ) || <NL>  ! suffix ( value , to remove ) ) {  <NL> return value ;  <NL>  }  <NL>  <NL> return value . substring ( 0 , value . length ( ) - to remove . length ( ) ) ;  <NL>  }  COM: <s> remove a string suffix </s>

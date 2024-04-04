@@ -1,0 +1,1 @@
+TDAT: public void set row ( int row , object [ ] values ) {  <NL> if ( values . length ! = columns ( ) ) throw new index out of bounds exception ( " too many values for a row ! " ) ;  <NL> for ( int i = values . length - 1 ; i > = 0 ; i - - ) {  <NL> set quick ( row , i , values [ i ] ) ;  <NL>  }  <NL>  }  COM: <s> set an entire row of data got by get row </s>

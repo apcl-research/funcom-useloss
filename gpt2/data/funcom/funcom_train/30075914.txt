@@ -1,0 +1,1 @@
+TDAT: public model and view oss handler ( http servlet request request , http servlet response response ) throws servlet exception {  <NL> map model = new hash map ( ) ;  <NL> model . put ( " oss " , gpir . get o ss ( ) ) ;  <NL> return new model and view ( " oss view " , " model " , model ) ;  <NL>  }  COM: <s> custom handler for oss display </s>

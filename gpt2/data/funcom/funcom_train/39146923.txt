@@ -1,0 +1,1 @@
+TDAT: private void create ogre log ( ) {  <NL> ogre log manager = new log manager ( ) ;  <NL> ogre log manager . create log ( " ogre plugin . log " , true , false , true ) ;  <NL> ogre log listener = new ogre eclipse log listener ( ) ;  <NL> ogre log manager . get default log ( ) . add listener ( ogre log listener ) ;  <NL>  }  COM: <s> creates ogre log </s>

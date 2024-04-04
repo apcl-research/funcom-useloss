@@ -1,0 +1,1 @@
+TDAT: public edif port ref add port connection ( edif cell instance eci , string port name , int bus member ) {  <NL> edif port p = eci . get parent ( ) . get port ( port name ) ;  <NL> return add port connection ( new edif port ref ( this , p . get single bit port ( bus member ) , eci ) ) ;  <NL>  }  COM: <s> add a port connection to the net </s>

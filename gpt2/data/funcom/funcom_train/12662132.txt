@@ -1,0 +1,1 @@
+TDAT: private string get names ( final string entity name ) {  <NL> final string buffer sb = new string buffer ( ) ;  <NL> sb . append ( " documents . " ) . append ( entity name + " . " ) . append ( constants . property _ doc _ names _ field ) ;  <NL> return get project ( ) . get property ( sb . to string ( ) ) ;  <NL>  }  COM: <s> return the list of documents </s>

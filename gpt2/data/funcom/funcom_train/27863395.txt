@@ -1,0 +1,1 @@
+TDAT: protected v text make label ( menu item item , double xpos , double ypos ) {  <NL> v text retval = new v text ( xpos , ypos , 0 , color . white ,  <NL> item . get text ( ) ) ;  <NL> retval . set text anchor ( v text . text _ anchor _ middle ) ;  <NL> return retval ;  <NL>  }  COM: <s> override this method if you need to customize menu labels </s>

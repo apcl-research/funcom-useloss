@@ -1,0 +1,1 @@
+TDAT: public void draw fps ( graphics2d g , int x , int y ) {  <NL> this . font manager . get font ( " fps font " ) . draw string ( g , " fps = " + this . get current fps ( ) + " / " + this . get fps ( ) , x , y ) ;  <NL>  }  COM: <s> draws game frame per second fps to specified location </s>

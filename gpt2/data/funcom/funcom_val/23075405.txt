@@ -1,0 +1,1 @@
+TDAT: public void seed ( int seed ) {  <NL> sfmt [ 0 ] = seed ;  <NL>  <NL> for ( int i = 1 ; i < n32 ; i + + ) {  <NL> int prev = sfmt [ i - 1 ] ;  <NL> sfmt [ i ] = 1812433253 * ( prev ^ ( prev > > > 30 ) ) + i ;  <NL>  }  <NL>  <NL> period certification ( ) ;  <NL> idx = n32 ;  <NL>  }  COM: <s> initializes the internal state array with a 32 bit seed </s>

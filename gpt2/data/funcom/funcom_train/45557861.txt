@@ -1,0 +1,1 @@
+TDAT: public void command action ( command cmd , displayable dsp ) {  <NL> if ( cmd . get command type ( ) = = command . exit ) {  <NL> midlet . send data . add abandon message ( ) ;  <NL>  / / stop ( ) ;  <NL>  ( ( blue midlet ) this . midlet ) . end game ( end game type . you _ left _ game ) ;  <NL>  }  <NL>  }  COM: <s> methods from command listener interface </s>

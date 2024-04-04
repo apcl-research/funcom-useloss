@@ -1,0 +1,1 @@
+TDAT: private void j menu help help _ action performed ( action event e ) {  <NL>  / / help . j menu help ( user tabbed pane . get tab count ( ) , user tabbed pane . get selected index ( ) ) ;  <NL> new browser ( " http : / / " + server + " / index . htm " , " instructions " ) . set visible ( true ) ;  <NL>  }  COM: <s> clicked on instructions in main menu </s>

@@ -1,0 +1,1 @@
+TDAT: public void after unassigned ( long iteration , exam placement value ) {  <NL> exam placement p = value ;  <NL> i table [ p . get period ( ) . get index ( ) ] . remove ( value . variable ( ) ) ;  <NL> i day table [ p . get period ( ) . get day ( ) ] . remove ( value . variable ( ) ) ;  <NL>  }  COM: <s> an exam was unassigned update student assignment table </s>

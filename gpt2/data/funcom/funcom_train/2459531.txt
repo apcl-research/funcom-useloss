@@ -1,0 +1,1 @@
+TDAT: public void set voice ( string voice , string user type ) throws um exception {  <NL> s . user types . add ( user type , new u type vals ( ) ) ; / / fails if user type already exists <NL>  ( ( u type vals ) ( s . user types . get val ( user type ) ) ) . voice = voice ;  <NL>  }  COM: <s> set the desired voice e </s>

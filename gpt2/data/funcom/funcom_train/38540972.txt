@@ -1,0 +1,1 @@
+TDAT: public double get distance ( ) {  <NL> return math . sqrt ( ( m to . get x ( ) - m from . get x ( ) ) * ( m to . get x ( ) - m from . get x ( ) ) + ( m to . get y ( ) - m from . get y ( ) ) * ( m to . get y ( ) - m from . get y ( ) ) ) ;  <NL>  }  COM: <s> calculates the distance between the two points in the vector2 d </s>

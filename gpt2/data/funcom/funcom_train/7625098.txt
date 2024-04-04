@@ -1,0 +1,1 @@
+TDAT: public xml resource parser load xml meta data ( package manager pm , string name ) {  <NL> if ( meta data ! = null ) {  <NL> int resid = meta data . get int ( name ) ;  <NL> if ( resid ! = 0 ) {  <NL> return pm . get xml ( package name , resid , null ) ;  <NL>  }  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> load an xml resource attached to the meta data of this item </s>

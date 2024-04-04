@@ -1,0 +1,1 @@
+TDAT: public void add ( rtc node rtc n ) {  <NL> add ( rtc n . get node id ( ) , rtc n ) ;  <NL> add ( rtc n . get node id ( ) , rtc n . get ip ( ) , rtc n ) ;  <NL> add ( rtc n . get node id ( ) , rtc n . get ip ( ) , rtc n . get svc name ( ) , rtc n ) ;  <NL>  }  COM: <s> add an rtc node </s>

@@ -1,0 +1,1 @@
+TDAT: public hashtable get hash table ( string elements , string key , string value ) {  <NL>  / / if the filter as no " arg " element , then the contxt node is null .  <NL> if ( arg node = = null ) {  <NL> return null ;  <NL>  }  <NL> return processor . get hash table2 ( arg node , elements , key , value ) ;  <NL>  }  COM: <s> translate an xml pattern into a hashtable </s>

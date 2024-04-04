@@ -1,0 +1,1 @@
+TDAT: public void set default params ( ) {  <NL> set all algorithm params ( cytoscape . get current network ( ) . get identifier ( ) , network , " " , new integer [ 0 ] ,  <NL> false , 2 , 2 , false , 100 , 0 . 2 , false , true , 0 . 1 , 3 , 2 , 1 . 0 , 3 , 2 , true , false ) ;  <NL>  }  COM: <s> method for setting all parameters to their default values </s>

@@ -1,0 +1,1 @@
+TDAT: public void service query ( string cyclist , string returnpath , string query ) {  <NL> try {  <NL> send answers ( returnpath , cyc . converse object ( " ( cyc - query ' " +  <NL> to cyc list string ( query ) + " # $ inference psc ) " ) ) ;  <NL>  } catch ( exception e ) {  <NL> send message ( returnpath , " " + e ) ;  <NL>  }  <NL>  }  COM: <s> process a query command </s>

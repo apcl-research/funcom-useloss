@@ -1,0 +1,1 @@
+TDAT: public graphics create ( ) {  <NL> dxf graphics dxf = new dxf graphics ( ) ;  <NL> dxf . set out ( get out ( ) ) ;  <NL> dxf . set color ( get color ( ) ) ;  <NL> dxf . set layers ( get layers ( ) ) ;  <NL> dxf . set layer ( get layer ( ) ) ;  <NL> dxf . translate ( x , y ) ;  <NL> return dxf ;  <NL>  }  COM: <s> creates a new code graphics code object that is </s>

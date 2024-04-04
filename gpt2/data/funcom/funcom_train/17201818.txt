@@ -1,0 +1,1 @@
+TDAT: private boolean ok for8 ( register r ) {  <NL> register esp = phys . get esp ( ) ;  <NL> register ebp = phys . get ebp ( ) ;  <NL> register esi = phys . get esi ( ) ;  <NL> register edi = phys . get edi ( ) ;  <NL> return ( r ! = esp & & r ! = ebp & & r ! = esi & & r ! = edi ) ;  <NL>  }  COM: <s> can physical register r hold an 8 bit value </s>

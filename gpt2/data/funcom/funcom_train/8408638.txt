@@ -1,0 +1,1 @@
+TDAT: private int opposite index ( final int index ) {  <NL>  <NL>  / / old trick . . . to find the opposite of a value , m or n ,  <NL>  / / subtract the value from the sum of the two possible <NL>  / / values . ( m + n ) - m = n ; ( m + n ) - n = m <NL> return sum _ of _ indices - index ;  <NL>  }  COM: <s> get the opposite index of the specified index </s>

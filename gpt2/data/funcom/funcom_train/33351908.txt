@@ -1,0 +1,1 @@
+TDAT: private int k value ( double a , double b , instant instant , boolean after ) {  <NL> double days = instant . get year ( ) * 365 . 2425 + instant . get day of year ( ) ;  <NL> double t = ( days - a + 1721060 . 0 ) / b ;  <NL> return ( int ) ( after ? math . ceil ( t ) : math . floor ( t ) ) ;  <NL>  }  COM: <s> meeus eqn 35 </s>

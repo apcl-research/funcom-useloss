@@ -1,0 +1,1 @@
+TDAT: public boolean set field row datum ( int row , string field name , string datum )  <NL>  { / * set field row datum * /  <NL> int f idx = lookup field idx ( field name ) ;  <NL> return ( set field idx row datum ( row , f idx , datum ) ) ;  <NL>  } / * set field row datum * /  COM: <s> set field row datum set datum by field name with row index </s>

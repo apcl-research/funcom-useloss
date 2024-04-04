@@ -1,0 +1,1 @@
+TDAT: public cursor fetch all markets ( ) {  <NL>  <NL> return m db . query ( db _ table , new string [ ] { key _ id , key _ title ,  <NL> key _ street , key _ plz , key _ locality } , null , null , null , null ,  <NL> null ) ;  <NL>  }  COM: <s> return a cursor over the list of all markets in the database </s>

@@ -1,0 +1,1 @@
+TDAT: public t intern ( t o ) {  <NL> weak reference < t > ref = map . get ( o ) ;  <NL> if ( ref = = null ) {  <NL> ref = generics . new weak reference ( o ) ;  <NL> map . put ( o , ref ) ;  <NL>  }  <NL>  / / else {  <NL>  / / system . err . println ( " found dup for " + o ) ;  <NL>  / / }  <NL> return ref . get ( ) ;  <NL>  }  COM: <s> returns a unique object o that </s>

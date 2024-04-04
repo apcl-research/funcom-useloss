@@ -1,0 +1,1 @@
+TDAT: public void set soft2manual ( int format , int direction ) {  <NL> data [ 3 ] & = 0x1f ; / / clean the upper three bits <NL> data [ 3 ] | = 0x80 ;  <NL> data [ 3 ] | = ( format = = format . old _ motorola ) ? 0x40 : 0 ;  <NL> data [ 3 ] | = ( direction = = direction . forward ) ? 0 : 0x20 ;  <NL>  }  COM: <s> set the state so it will program a temporary transfer from </s>

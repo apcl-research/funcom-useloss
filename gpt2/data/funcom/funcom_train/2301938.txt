@@ -1,0 +1,1 @@
+TDAT: protected void set id ( int id ) {  <NL> if ( ( " q " + this . id ) . equals ( name ) ) name = null ;  <NL> this . id = id ;  <NL> get automaton ( ) . distribute state event <NL>  ( new automata state event ( get automaton ( ) , this , false , false , true ) ) ;  <NL>  }  COM: <s> sets the id for this state </s>

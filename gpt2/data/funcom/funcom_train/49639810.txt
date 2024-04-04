@@ -1,0 +1,1 @@
+TDAT: public void test lower case only ( ) throws exception {  <NL> assert analyzer ( new summa analyzer ( " " , false , " " , false , true ) , " foo - % 4g 123 / er w ' d ; _ foo " ,  <NL>  " foo - % 4g " , " 123 / erw ' d ; _ foo " ) ;  <NL>  }  COM: <s> test lower case only </s>

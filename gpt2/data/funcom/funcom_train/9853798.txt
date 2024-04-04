@@ -1,0 +1,1 @@
+TDAT: public string get nick ( ) {  <NL> int i = prefix . index of ( ' ! ' ) ;  <NL> if ( i ! = - 1 || ( i = prefix . index of ( ' @ ' ) ) ! = - 1 )  <NL> return prefix . substring ( 0 , i ) ;  <NL> return ( prefix . length ( ) ! = 0 ) ? prefix : null ;  <NL>  }  COM: <s> returns the nickname of the person who sent the line </s>

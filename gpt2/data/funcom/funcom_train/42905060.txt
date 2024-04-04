@@ -1,0 +1,1 @@
+TDAT: private void autocorr ( double [ ] r , final double [ ] x , int n , int order ) {  <NL>  <NL> for ( int lag = 0 ; lag < = order ; lag + + ) {  <NL> double sum = 0 ;  <NL> for ( int n = 0 ; n < n - lag ; n + + ) {  <NL> sum + = x [ n ] * x [ n + lag ] ;  <NL>  }  <NL> r [ lag ] = sum ;  <NL>  }  <NL>  }  COM: <s> calculation of auto correlation </s>

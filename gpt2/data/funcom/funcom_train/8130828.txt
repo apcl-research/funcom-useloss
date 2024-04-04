@@ -1,0 +1,1 @@
+TDAT: public i button create link ( i composite parent , string image src , string title key , string tooltip key , string link url , string target ) {  <NL> return new link button ( null , parent , image src , title key , tooltip key , link url , target ) ;  <NL>  }  COM: <s> creates a link to a url </s>

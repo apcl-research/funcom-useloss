@@ -1,0 +1,1 @@
+TDAT: public void mutate ( j bdd variable newv , j bdd node newl , j bdd node newh ) {  <NL> assert ( this . variable = = null ) & & ( this . low = = null ) & & ( this . high = = null ) ;  <NL> this . variable = newv ;  <NL> this . low = newl ;  <NL> this . high = newh ;  <NL>  }  COM: <s> mutates a reclaimed node to a new instance </s>

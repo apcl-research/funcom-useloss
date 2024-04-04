@@ -1,0 +1,1 @@
+TDAT: public void action performed ( action event e ) {  <NL> if ( e . get action command ( ) . equals ( " ok " ) ) {  <NL> selected = list . get selected index ( ) ;  <NL> dispose ( ) ;  <NL>  }  <NL> if ( e . get action command ( ) . equals ( " cancel " ) ) {  <NL> selected = - 1 ;  <NL> dispose ( ) ;  <NL>  }  <NL>  }  COM: <s> invoked when an action occurs </s>

@@ -1,0 +1,1 @@
+TDAT: public int get index ( string q name ) {  <NL> for ( int i = 0 ; i < attributes . length ; i + + ) {  <NL> if ( attributes [ i ] . get qualified name ( ) ! = null <NL>  & & attributes [ i ] . get qualified name ( ) . equals ( q name ) ) {  <NL> return i ;  <NL>  }  <NL>  }  <NL> return - 1 ;  <NL>  }  COM: <s> gets the index of an attribute by qualified name </s>

@@ -1,0 +1,1 @@
+TDAT: public void fore unlock ( ) {  <NL> if ( lock = = null ) {  <NL> log . warn ( " unlock of token ' " + id + " ' forced , but it is not locked " ) ;  <NL>  }  <NL> log . debug ( " foce unlock of token [ " + id + " ] which was locked by " + lock ) ;  <NL> lock = null ;  <NL>  }  COM: <s> force unlocking the token even if the owner is not known </s>

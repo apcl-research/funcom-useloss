@@ -1,0 +1,1 @@
+TDAT: public void test tx commit ( ) throws exception {  <NL> connection con = test ctrl . get connection ( ) ;  <NL> con . set auto commit ( false ) ;  <NL> test ctrl . insert user row ( " larry " , 1 , " small " ) ;  <NL> test ctrl . insert user row ( " shemp " , 1 , " small " ) ;  <NL> con . commit ( ) ;  <NL>  }  COM: <s> test test transaction commit </s>

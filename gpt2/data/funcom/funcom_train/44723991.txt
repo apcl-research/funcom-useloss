@@ -1,0 +1,1 @@
+TDAT: public pageable list execute finder ( string entity name , string finder name , object [ ] params , int offset , int max results , boolean return full count ) {  <NL> return execute finder ( entity name , finder name , params , null , offset , max results , return full count ) ;  <NL>  }  COM: <s> execute finder which returns a pageable list </s>

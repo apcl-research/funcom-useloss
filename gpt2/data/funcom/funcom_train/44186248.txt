@@ -1,0 +1,1 @@
+TDAT: public void close ( ) {  <NL> if ( this . out = = null ) {  <NL> return ;  <NL>  }  <NL> try {  <NL> this . out . flush ( ) ;  <NL> this . out . close ( ) ;  <NL> this . out = null ;  <NL>  } catch ( io exception e ) {  <NL> logger . log ( level . severe , " problem closing journal " , e ) ;  <NL>  }  <NL>  }  COM: <s> flush and close the underlying io objects </s>

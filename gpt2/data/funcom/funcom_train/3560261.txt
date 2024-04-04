@@ -1,0 +1,1 @@
+TDAT: public void show data sets ( ) throws db exception {  <NL> db iterator res ;  <NL>  <NL> if ( ! is initialized ( ) )  <NL> init ( ) ;  <NL> res = prv . get data sets ( null ) . iterator ( ) ;  <NL> table utils . fill sorted table ( tab data set list , res , data set indexes , 0 ) ;  <NL> init data set table sizes ( ) ;  <NL>  }  COM: <s> shows the data sets list </s>

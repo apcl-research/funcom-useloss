@@ -1,0 +1,1 @@
+TDAT: public void test query config ( ) throws exception {  <NL> if ( time zone . get default ( ) . get display name ( false , time zone . short ) . equals ( " est " ) ) {  <NL> string param = get core ( ) . get parameter value ( " test parameter " ) ;  <NL> assert not null ( param ) ;  <NL> assert equals ( " 2 " , param ) ;  <NL>  }  <NL>  }  COM: <s> if the timezone in est </s>

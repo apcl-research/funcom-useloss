@@ -1,0 +1,1 @@
+TDAT: public void run list classes test ( int depth , int ns , int ni , boolean with props ) {  <NL> create test ( depth , ns , ni , with props ) ;  <NL> long t = list ( null , rdf . type . as node ( ) , rdfs . class . as node ( ) , false ) ;  <NL> system . out . println ( " took " + t + " ms " ) ;  <NL>  }  COM: <s> create and run a list classes test </s>

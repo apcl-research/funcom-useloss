@@ -1,0 +1,1 @@
+TDAT: public boolean is at drag area ( point p ) {  <NL> if ( math . abs ( ( p . get x ( ) / height ) * ( p . get x ( ) / height ) + ( p . get y ( ) / width ) * ( p . get y ( ) / width ) - 1 ) < 0 . 3 )  <NL> return true ;  <NL> else <NL> return false ;  <NL>  }  COM: <s> calculates if the point p is at the drawing area of the ellipse </s>

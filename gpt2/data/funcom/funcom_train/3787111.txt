@@ -1,0 +1,1 @@
+TDAT: public void draw plus ( graphics g , int zoom value , int x , int y , color color )  <NL>  { / * draw plus * /  <NL> int w = 2 ;  <NL> g . set color ( color ) ;  <NL> g . draw line ( x , y - w , x , y + w ) ;  <NL> g . draw line ( x - w , y , x + w , y ) ;  <NL>  } / * draw plus * /  COM: <s> draw plus draw plus sign at the specified color </s>

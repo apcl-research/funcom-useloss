@@ -1,0 +1,1 @@
+TDAT: public string get sort key ( ) {  <NL> string domain = get domain ( ) ;  <NL> return ( domain . starts with ( " . " ) )  <NL>  ? domain . substring ( 1 ) + " \1 . \1 " + get path ( ) + " \1 " + get name ( )  <NL>  : domain + " \1\1 " + get path ( ) + " \1 " + get name ( ) ;  <NL>  }  COM: <s> create a sort key for this cookie that will cause it to sort </s>

@@ -1,0 +1,1 @@
+TDAT: public void set head point ( point2d p ) {  <NL> if ( m xml restore underway ) {  <NL> head . x = ( float ) p . get x ( ) ;  <NL> head . y = ( float ) p . get y ( ) ;  <NL>  } else {  <NL> set head point ( ( float ) p . get x ( ) , ( float ) p . get y ( ) ) ;  <NL>  }  <NL>  }  COM: <s> for persistance init undo only </s>

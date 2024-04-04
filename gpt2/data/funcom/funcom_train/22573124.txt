@@ -1,0 +1,1 @@
+TDAT: protected void do new topic ( ) {  <NL> i data model object context = get forum topic manager ( ) . get context ( ) ;  <NL> if ( context ! = null ) {  <NL> dialog dialog = new new forum topic dialog ( get site ( ) . get shell ( ) , context , get forum topic manager ( ) ) ;  <NL> dialog . open ( ) ;  <NL>  }  <NL>  }  COM: <s> add a new forum topic </s>

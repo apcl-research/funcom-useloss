@@ -1,0 +1,1 @@
+TDAT: public speaker make copy ( ) {  <NL> return new speaker ( this . get id ( ) , this . get abbreviation ( ) , this . get sex ( ) , this . get languages used ( ) ,  <NL> this . get l1 ( ) , this . get l2 ( ) , this . get ud speaker information ( ) . make copy ( ) , this . get comment ( ) ) ;  <NL>  }  COM: <s> returns a copy of this speaker </s>

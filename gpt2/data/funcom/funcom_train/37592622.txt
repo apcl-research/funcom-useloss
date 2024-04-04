@@ -1,0 +1,1 @@
+TDAT: public void set file field ( file file ) {  <NL>  _ file = file ;  <NL> if ( file ! = null & & ! file . get path ( ) . equals ( " " ) ) {  <NL> try { _ file = file . get canonical file ( ) ; }  <NL> catch ( io exception e ) { / * do nothing * / }  <NL>  }  <NL> reset file field ( ) ;  <NL>  }  COM: <s> sets the text of the file field to be the given file </s>

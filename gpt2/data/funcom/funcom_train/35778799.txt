@@ -1,0 +1,1 @@
+TDAT: public void print document entry ( document list entry doc ) {  <NL> string short id = doc . get id ( ) . substring ( doc . get id ( ) . last index of ( ' / ' ) + 1 ) ;  <NL> out . println (  <NL>  " - - document ( " + doc . get title ( ) . get plain text ( ) + " / " + short id + " ) " ) ;  <NL>  }  COM: <s> prints out the specified document entry </s>

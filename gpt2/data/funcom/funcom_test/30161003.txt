@@ -1,0 +1,1 @@
+TDAT: protected void test parent ( branch parent ) {  <NL> for ( int i = 0 , size = parent . node count ( ) ; i < size ; i + + ) {  <NL> node node = parent . node ( i ) ;  <NL> assert true ( " child node of root has parent of root " , node <NL>  . get parent ( ) = = parent ) ;  <NL>  }  <NL>  }  COM: <s> tests all the children of the branch have the correct parent </s>

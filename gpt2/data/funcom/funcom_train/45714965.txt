@@ -1,0 +1,1 @@
+TDAT: public void open next ytem ( ) {  <NL> open ytem ( cell . get ytem by index ( ytem index + 1 ) ) ;  <NL> ytem def name = cell . get ytem by index ( ytem index + 1 ) . get ytem def ( ) ;  <NL> oj . get data ( ) . get ytem defs ( ) . set selected ytem def ( ytem def name ) ;  <NL>  }  COM: <s> fills ytem proxy with data of next ytem </s>

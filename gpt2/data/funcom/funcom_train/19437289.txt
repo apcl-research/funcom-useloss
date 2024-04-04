@@ -1,0 +1,1 @@
+TDAT: private void initialze diagram ( graphics draw , string which ) {  <NL>  / / draw border , initalize axis , description of axis . . .  <NL> draw border ( draw ) ;  <NL> draw y axis ( draw ) ;  <NL> draw x axis ( draw , which ) ;  <NL> draw . set color ( new color ( 255 , 0 , 0 ) ) ;  <NL>  }  COM: <s> initialze the diagram border axis </s>

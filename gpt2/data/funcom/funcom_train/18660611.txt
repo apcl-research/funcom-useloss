@@ -1,0 +1,1 @@
+TDAT: public void test to string ( ) {  <NL> picture info pi = new picture info ( " c : \\picture . jpg " , " file : / / / lores / thumbnail . jpg " , " my sample picture " , " film 123 " ) ;  <NL> assert equals ( " should return the description " , " my sample picture " , pi . to string ( ) ) ;  <NL>  }  COM: <s> test of to string method of class picture info </s>

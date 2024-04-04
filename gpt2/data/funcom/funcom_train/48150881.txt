@@ -1,0 +1,1 @@
+TDAT: public double minimum ( double [ ] dist data ) {  <NL> double min = 0 ;  <NL> if ( dist data . length > 0 ) min = dist data [ 0 ] ;  <NL> for ( int i = 1 ; i < dist data . length ; i + + )  <NL> if ( min > dist data [ i ] ) min = dist data [ i ] ;  <NL> return ( min ) ;  <NL>  }  COM: <s> the method finds the minimum of a double array </s>

@@ -1,0 +1,1 @@
+TDAT: protected string print stack ( ) {  <NL> if ( stack . empty ( ) )  <NL> return " " ;  <NL> string buffer s = new string buffer ( ) ;  <NL> for ( int k = 0 ; k < stack . size ( ) ; + + k )  <NL> s . append ( ' . ' ) . append ( ( string ) stack . get ( k ) ) ;  <NL> return s . substring ( 1 ) ;  <NL>  }  COM: <s> outputs the stack as the sequence of elements separated </s>

@@ -1,0 +1,1 @@
+TDAT: public void set label font ( font font ) {  <NL> pie plot plot = ( pie plot ) this . chart . get plot ( ) ;  <NL> if ( plot ! = null ) {  <NL> font old = plot . get label font ( ) ;  <NL> plot . set label font ( font ) ;  <NL> fire property change ( " label font " , old , font ) ;  <NL>  }  <NL>  }  COM: <s> sets the font used to draw the section labels and fires a </s>

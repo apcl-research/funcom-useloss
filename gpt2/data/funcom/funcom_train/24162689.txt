@@ -1,0 +1,1 @@
+TDAT: public string get value ( string key ) {  <NL> string result = values . get ( key ) ;  <NL> if ( logs ! = null ) {  <NL> if ( result = = null ) {  <NL> logs . config get ( key , null , false ) ;  <NL>  } else {  <NL> logs . config get ( key , result , true ) ;  <NL>  }  <NL>  }  <NL> return result ;  <NL>  }  COM: <s> get a value from the config </s>

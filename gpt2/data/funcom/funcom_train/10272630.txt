@@ -1,0 +1,1 @@
+TDAT: public void set rgb ( int r , int g , int b ) {  <NL> color old = base color ;  <NL> base color = new color ( r , g , b ) ;  <NL> new color panel . set background ( base color ) ;  <NL> rgb = new int [ ] { r , g , b } ;  <NL> hsb = null ;  <NL> pcs . fire property change ( " rgb " , old , base color ) ;  <NL>  }  COM: <s> sets the color to the rgb value </s>

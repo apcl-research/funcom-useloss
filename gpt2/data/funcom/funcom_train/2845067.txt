@@ -1,0 +1,1 @@
+TDAT: public void chain annotations ( annotation a , annotation b ) {  <NL> get annotation file ( ) . set saved ( false ) ;  <NL> if ( prev map . get ( a ) = = null ) {  <NL> heads . add ( a ) ;  <NL>  }  <NL> next map . put ( a , b ) ;  <NL> prev map . put ( b , a ) ;  <NL>  }  COM: <s> creates a chain between the two specified annotations </s>

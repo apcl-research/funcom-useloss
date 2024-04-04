@@ -1,0 +1,1 @@
+TDAT: public void test f not in but model ( ) {  <NL> help tcf ( " a . java " ,  <NL>  " import org . jmlspecs . annotation . * ; \n " +  <NL>  " public class a { \n " +  <NL>  " / / @ public model jml data group q ; \n " +  <NL>  " / / @ secret model int m ; \n " +  <NL>  " } \n "  <NL>  ) ;  <NL>  }  COM: <s> ok model fields are their own datagroups </s>

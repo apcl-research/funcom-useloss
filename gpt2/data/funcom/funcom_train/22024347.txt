@@ -1,0 +1,1 @@
+TDAT: public void add vector ( vector v ) {  <NL> if ( vector size = = - 1 ) vector size = v . size ( ) ; / / set the vector size if this is the first vector added <NL> assert vector size = = v . size ( ) : " vector is of a differnt size to vectors allready added " ;  <NL> vectors . add ( v ) ;  <NL>  }  COM: <s> appends a vector to the end of this vector </s>

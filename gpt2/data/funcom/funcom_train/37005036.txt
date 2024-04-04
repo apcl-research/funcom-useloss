@@ -1,0 +1,1 @@
+TDAT: public void set from table ( fit table fit table ) {  <NL> this . set valid fit table ( fit table . is valid fit table ( ) ) ;  <NL> this . set default cell value ( fit table . get default cell value ( ) ) ;  <NL> this . set id value ( fit table . get id value ( ) ) ;  <NL> this . set rows ( fit table . get rows ( ) ) ;  <NL>  }  COM: <s> copies data from a </s>

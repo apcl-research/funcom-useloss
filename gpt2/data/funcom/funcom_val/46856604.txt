@@ -1,0 +1,1 @@
+TDAT: public void test get messages id ( ) throws exception {  <NL> for ( int i = 0 ; i < 100 ; i + + ) {  <NL> string message = " toto " + i ;  <NL> this . log . add message ( " message " + i , message ) ;  <NL>  }  <NL>  <NL> assert equals ( this . log . get messages id ( ) . length , 100 ) ;  <NL>  }  COM: <s> the the function which return all add messages keys </s>

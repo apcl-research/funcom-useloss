@@ -1,0 +1,1 @@
+TDAT: public void add global field ( field field ) {  <NL> type def module = get type def by name ( " " , " < module > " ) ;  <NL> if ( module = = null ) {  <NL> module = new type def ( " " , " < module > " , 0 ) ;  <NL> module . set parent ( this ) ;  <NL>  }  <NL> module . add field ( field ) ;  <NL>  }  COM: <s> adds a global field to this module </s>

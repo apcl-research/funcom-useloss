@@ -1,0 +1,1 @@
+TDAT: protected j menu item create entity item ( integration entity entity , icon icon ) {  <NL> if ( entity = = pre selected entity ) {  <NL> return new j check box menu item ( entity . get name ( ) , icon , true ) ;  <NL>  } else {  <NL> return new j menu item ( entity . get name ( ) , icon ) ;  <NL>  }  <NL>  }  COM: <s> creates a code jmenu item code for the given entity </s>

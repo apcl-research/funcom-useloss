@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> return " tmp object ( id = \ " " + id + " \ " , user = \ " " + uti . user . get name ( )  <NL>  + " \ " , key = \ " " + get key ( ) + " \ " , node = { " + node <NL>  + " } , dispose when not referenced = " + dispose when not referenced + " ) " ;  <NL>  }  COM: <s> to string method displays most important fields </s>

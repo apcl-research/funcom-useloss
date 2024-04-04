@@ -1,0 +1,1 @@
+TDAT: public string to string ( )  <NL>  {  <NL> return " ( " + get sensor value ( 1 ) + " , " + get sensor value ( 2 ) + " , "  <NL>  + get sensor value ( 3 ) + " , " + get sensor value ( 4 ) + " , "  <NL>  + get sensor value ( 5 ) + " ) " ;  <NL>  }  COM: <s> returns a string representation of the strengths </s>

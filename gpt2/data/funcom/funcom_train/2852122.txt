@@ -1,0 +1,1 @@
+TDAT: public string get status char ( ) {  <NL> string [ ] stat c = { " r " , " e " , " a " , " p " , " s " , " n " , " f " } ;  <NL> if ( status < stat c . length )  <NL> return stat c [ status ] ;  <NL> return ( " err " ) ;  <NL>  }  COM: <s> returns current status as a char </s>

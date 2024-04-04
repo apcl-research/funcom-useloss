@@ -1,0 +1,1 @@
+TDAT: public void remove agent ( string agent name ) {  <NL> iterator it = agents . iterator ( ) ;  <NL> while ( it . has next ( ) ) {  <NL> agent agent = ( agent ) it . next ( ) ;  <NL> if ( agent name . equals ( agent . agent name ) & & agent . on canv = = true ) {  <NL> agents . remove ( agent ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> removes an agent from the list </s>

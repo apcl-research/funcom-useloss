@@ -1,0 +1,1 @@
+TDAT: public void fill rect ( int x , int y , int w , int h , int color , int mode ) {  <NL> for ( int row = 0 ; row < h ; row + + ) {  <NL> draw line ( x , y + row , x + w - 1 , y + row , color , mode ) ;  <NL>  }  <NL>  }  COM: <s> fill a rectangle with the given color </s>

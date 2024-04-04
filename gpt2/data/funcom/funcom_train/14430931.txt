@@ -1,0 +1,1 @@
+TDAT: protected string class name from file ( string class file name ) {  <NL> string s = class file name . substring ( 0 , class file name . length ( ) - 6 ) ;  <NL> string s2 = s . replace ( ' / ' , ' . ' ) . replace ( ' \\ ' , ' . ' ) ;  <NL> return s2 . starts with ( " . " ) ? s2 . substring ( 1 ) : s2 ;  <NL>  }  COM: <s> converts the filename into a classname </s>

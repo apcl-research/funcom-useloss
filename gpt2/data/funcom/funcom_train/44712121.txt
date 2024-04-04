@@ -1,0 +1,1 @@
+TDAT: public mapping get mapping ( ) {  <NL> string path [ ] = { get property ( ) . get name ( ) } ;  <NL> mapping mapping = new mapping ( path ,  <NL> get column ( ) . get table ( ) . get alias ( ) ,  <NL> get alias ( ) ) ;  <NL> mapping . set line info ( get property ( ) ) ;  <NL> return mapping ;  <NL>  }  COM: <s> this returns the standard mapping with a slight twist </s>

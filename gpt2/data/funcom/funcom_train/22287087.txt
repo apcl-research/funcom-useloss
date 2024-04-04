@@ -1,0 +1,1 @@
+TDAT: public void set attach ( int north , int east , int south , int west ) {  <NL> this . north = ( north > = 0 ) ? north : 0 ;  <NL> this . east = ( east > = 0 ) ? east : 0 ;  <NL> this . south = ( south > = 0 ) ? south : 0 ;  <NL> this . west = ( west > = 0 ) ? west : 0 ;  <NL>  }  COM: <s> set the attachments of this widget to the given </s>

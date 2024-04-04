@@ -1,0 +1,1 @@
+TDAT: public void test quantified predicate specialization ( ) {  <NL> assert predicate specialization ( te , / /  <NL>  " ∀x , y·x ∈ ℕ ∧ y ∈ ℕ ⇒ x + y ∈ ℕ " , / /  <NL> m spec ( te , / /  <NL> new string [ 0 ] , / /  <NL> m list ( " x " , " ℤ " , " t " , " ℤ " ) ) ) ;  <NL>  }  COM: <s> ensures that a quantified predicated remains unchanged if bound </s>

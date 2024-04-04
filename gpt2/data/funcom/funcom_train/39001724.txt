@@ -1,0 +1,1 @@
+TDAT: public void print ( ) {  <NL> system . out . print ( ' t ' ) ;  <NL> system . out . println ( ' [ ' ) ;  <NL> for ( int loop = 0 ; loop < routes . length ; loop + + ) {  <NL> if ( routes [ loop ] ! = null ) {  <NL> routes [ loop ] . print ( ) ;  <NL>  }  <NL>  }  <NL> system . out . println ( ' ] ' ) ;  <NL>  }  COM: <s> prints the routing table </s>

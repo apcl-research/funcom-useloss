@@ -1,0 +1,1 @@
+TDAT: public void update ( int val ) {  <NL> byte [ ] b = new byte [ 4 ] ;  <NL> b [ 0 ] = ( byte ) ( ( val > > > 24 ) & 0xff ) ;  <NL> b [ 1 ] = ( byte ) ( ( val > > > 16 ) & 0xff ) ;  <NL> b [ 2 ] = ( byte ) ( ( val > > > 8 ) & 0xff ) ;  <NL> b [ 3 ] = ( byte ) ( val & 0xff ) ;  <NL> update ( b ) ;  <NL>  }  COM: <s> updates the crc32 value from each byte of the given int </s>

@@ -1,0 +1,1 @@
+TDAT: public boolean write ( type field , object value , node map < output node > node , map map ) throws exception {  <NL> boolean result = strategy . write ( field , value , node , map ) ;  <NL> interceptor . write ( field . get type ( ) , node ) ;  <NL> return result ;  <NL>  }  COM: <s> here we change the xml element after it has been annotated by </s>

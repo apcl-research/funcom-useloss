@@ -1,0 +1,1 @@
+TDAT: public void set edit mode ( boolean f edit mode ) {  <NL>  / / if ( f edit mode )  <NL>  / / misc . debug ( this , " turn edit mode for br table model on " ) ;  <NL>  / / else <NL>  / / misc . debug ( this , " turn edit mode for br table model off " ) ;  <NL> m _ f edit mode = f edit mode ;  <NL>  }  COM: <s> set the table enabled for editing or not </s>

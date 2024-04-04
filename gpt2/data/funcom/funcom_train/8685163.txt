@@ -1,0 +1,1 @@
+TDAT: public void characters ( char [ ] buf , int start , int count ) throws sax parse exception {  <NL> string s = new string ( buf , start , count ) . trim ( ) ;  <NL>  <NL> if ( s . length ( ) > 0 ) {  <NL> throw new sax parse exception ( " unexpected text \ " " + s + " \ " " , helper impl . locator ) ;  <NL>  }  <NL>  }  COM: <s> handles text within an element </s>

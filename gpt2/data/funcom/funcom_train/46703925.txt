@@ -1,0 +1,1 @@
+TDAT: private company load company ( ) {  <NL> if ( data file . is file ( ) ) try {  <NL> return ujo manager xml . get instance ( ) . parse xml ( data file , company . class , " load company " ) ;  <NL>  } catch ( throwable e ) {  <NL> e . print stack trace ( ) ;  <NL>  }  <NL> return new company ( ) ;  <NL>  }  COM: <s> load company from file </s>

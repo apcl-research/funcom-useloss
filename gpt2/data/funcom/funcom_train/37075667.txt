@@ -1,0 +1,1 @@
+TDAT: public void flip flop ( ) {  <NL> set strand ( get strand ( ) * - 1 ) ;  <NL> for ( int i = 0 ; i < size ( ) ; i + + ) {  <NL> seq feature i span = get feature at ( i ) ;  <NL> span . flip flop ( ) ; / / recurses if feature set <NL>  }  <NL> sort ( get strand ( ) ) ;  <NL>  }  COM: <s> overrides seq feature </s>

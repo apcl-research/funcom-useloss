@@ -1,0 +1,1 @@
+TDAT: private void update clients locked ( ) {  <NL> for ( int i = 0 , count = m clients . size ( ) ; i < count ; i + + ) {  <NL> try {  <NL> m clients . get ( i ) . set enabled ( m is enabled ) ;  <NL>  } catch ( remote exception re ) {  <NL> m clients . remove ( i ) ;  <NL> count - - ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> updates the state of </s>

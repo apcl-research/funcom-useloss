@@ -1,0 +1,1 @@
+TDAT: public void set attribute ( string name , object value ) {  <NL> if ( get log ( ) . is trace enabled ( ) ) {  <NL> get log ( ) . trace ( sm . get string ( " abstract protocol handler . set attribute " ,  <NL> name , value ) ) ;  <NL>  }  <NL> attributes . put ( name , value ) ;  <NL>  }  COM: <s> generic property setter called when a property for which a specific </s>

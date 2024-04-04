@@ -1,0 +1,1 @@
+TDAT: public void test sax parse xsd ( ) throws exception {  <NL> spnv . set property ( jaxp _ schema _ language , w3c _ xml _ schema ) ;  <NL> xml reader xr = spnv . get xml reader ( ) ;  <NL> xr . set error handler ( new my error handler ( ) ) ;  <NL> xr . parse ( new input data ( " personal - schema . xml " ) ) ;  <NL>  }  COM: <s> should not cause a validation error </s>

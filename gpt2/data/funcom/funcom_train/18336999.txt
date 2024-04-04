@@ -1,0 +1,1 @@
+TDAT: public void write ( input stream in ) throws io exception {  <NL> int n ;  <NL> int length = buf . length ;  <NL> while ( ( n = in . read ( buf , count , length - count ) ) > = 0 ) {  <NL> if ( ( count + = n ) > = length ) {  <NL> out . write ( buf , count = 0 , length ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> writes the content of the input stream to the output stream </s>

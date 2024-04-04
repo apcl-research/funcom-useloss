@@ -1,0 +1,1 @@
+TDAT: public boolean equals ( shopping cart item item ) {  <NL> if ( item = = null ) return false ;  <NL> return this . equals ( item . get product id ( ) , item . additional product feature and appls , item . attributes , item . prod catalog id , item . selected amount , item . get is promo ( ) ) ;  <NL>  }  COM: <s> compares the specified object with this cart item </s>

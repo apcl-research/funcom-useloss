@@ -1,0 +1,1 @@
+TDAT: public void set creation ( date v ) {  <NL> if ( v ! = null )  <NL> this . creation = new date ( v . get year ( ) , v . get month ( ) , v . get date ( ) , v . get hours ( ) , v . get minutes ( ) , v . get seconds ( ) ) ;  <NL> else <NL> this . creation = v ;  <NL>  }  COM: <s> set the value of creation </s>

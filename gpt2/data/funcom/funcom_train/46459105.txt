@@ -1,0 +1,1 @@
+TDAT: public void set start frame number ( int n ) {  <NL> if ( n = = start frame number ) return ;  <NL> n = math . max ( 0 , n ) ;  <NL> start frame number = math . min ( end frame number , n ) ;  <NL> fire property change ( " startframe " , null , new integer ( start frame number ) ) ; / / $ non - nls - 1 $  <NL>  }  COM: <s> sets the start frame number </s>

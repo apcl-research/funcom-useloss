@@ -1,0 +1,1 @@
+TDAT: private void deselect all ( list < view info > view infos ) {  <NL> for ( list iterator < selection > it = m selections . list iterator ( ) ; it . has next ( ) ; ) {  <NL> selection s = it . next ( ) ;  <NL> if ( view infos . contains ( s . get view info ( ) ) ) {  <NL> it . remove ( ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> deselects multiple view infos </s>

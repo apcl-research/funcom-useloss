@@ -1,0 +1,1 @@
+TDAT: public void start element ( string uri , string loc , string raw , attributes a ) throws sax exception {  <NL> xpath handler . start element ( uri , loc , raw , a ) ;  <NL>  <NL> if ( super . content handler ! = null )  <NL> super . content handler . start element ( uri , loc , raw , a ) ;  <NL>  }  COM: <s> receive notification of the beginning of an element </s>

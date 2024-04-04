@@ -1,0 +1,1 @@
+TDAT: private void fire finished file ( file file , string relative name , big hash file hash ) {  <NL> fire ( new add file tool event ( add file tool event . action _ finished , add file tool event . type _ file , file , relative name , file hash , null , null ) ) ;  <NL>  }  COM: <s> p notifies listeners that a file was uploaded </s>

@@ -1,0 +1,1 @@
+TDAT: public void ban user ( vector < user > v , string message , long millis , string banned by ) {  <NL> for ( enumeration < user > e = v . elements ( ) ; e . has more elements ( ) ; ) {  <NL> user u = ( user ) e . next element ( ) ;  <NL> this . ban user ( u , message , millis , banned by ) ;  <NL>  }  <NL>  }  COM: <s> ban all users contained in given vector </s>

@@ -1,0 +1,1 @@
+TDAT: public element to xml element ( ) {  <NL> element result = create message ( get xml element tag name ( ) ,  <NL>  " unit " , unit id ,  <NL>  " carrier " , carrier id ) ;  <NL> if ( direction string ! = null ) {  <NL> result . set attribute ( " direction " , direction string ) ;  <NL>  }  <NL> return result ;  <NL>  }  COM: <s> convert this embark message to xml </s>

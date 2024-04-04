@@ -1,0 +1,1 @@
+TDAT: public document events _ get members ( number event id ) throws facebook exception , io exception {  <NL> assert ( null ! = event id ) ;  <NL> return this . call method ( facebook method . events _ get _ members ,  <NL> new pair < string , char sequence > ( " eid " , event id . to string ( ) ) ) ;  <NL>  }  COM: <s> retrieves the membership list of an event </s>

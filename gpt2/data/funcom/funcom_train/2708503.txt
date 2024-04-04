@@ -1,0 +1,1 @@
+TDAT: private string make cache key ( string format , int page num , double resolution ) {  <NL> int i resolution = ( int ) ( resolution * 100 ) ;  <NL> return image output file + " _ " + format + " _ " + integer . to string ( page num ) + " _ " + integer . to string ( i resolution ) ;  <NL>  }  COM: <s> encode the requested format and page number into a cache key </s>

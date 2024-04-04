@@ -1,0 +1,1 @@
+TDAT: public string get dump l mset spots str ( int k , string msg )  <NL>  { / * get dump l mset spots str * /  <NL> return ( get dump l mset spots str ( k , msg , null , null , false , false ) ) ;  <NL>  } / * get dump l mset spots str * /  COM: <s> get dump lmset spots str get a printable lm set k string of </s>

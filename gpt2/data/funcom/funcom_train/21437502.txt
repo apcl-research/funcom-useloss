@@ -1,0 +1,1 @@
+TDAT: static public void export ( output stream os , glycan renderer gr , collection < glycan > structures , boolean show _ masses , boolean show _ redend , string format ) throws exception {  <NL> export ( os , gr , structures , show _ masses , show _ redend , 1 . , format ) ;  <NL>  }  COM: <s> export a representation of a set of glycan structure to a stream </s>

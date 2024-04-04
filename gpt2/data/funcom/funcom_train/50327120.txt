@@ -1,0 +1,1 @@
+TDAT: public void note read reply ( int block ) {  <NL>  / / check to see if we ' re doing a read of an entire se <NL> int section = block % ( entrysize / 4 ) ;  <NL> if ( keep reading & & ( section < ( entrysize / 4 - 1 ) ) ) {  <NL> send read ( block + 1 ) ;  <NL>  } else {  <NL> keep reading = false ;  <NL>  }  <NL>  }  COM: <s> keep a read going if needed </s>

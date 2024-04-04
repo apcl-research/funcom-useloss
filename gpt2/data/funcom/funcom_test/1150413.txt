@@ -1,0 +1,1 @@
+TDAT: public void skip past ( string to ) {  <NL> this . my index = this . my source . index of ( to , this . my index ) ;  <NL> if ( this . my index < 0 ) {  <NL> this . my index = this . my source . length ( ) ;  <NL>  } else {  <NL> this . my index + = to . length ( ) ;  <NL>  }  <NL>  }  COM: <s> skip characters until past the requested string </s>

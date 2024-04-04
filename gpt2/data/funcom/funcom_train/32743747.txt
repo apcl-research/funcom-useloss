@@ -1,0 +1,1 @@
+TDAT: public void set value ( string field name , dictionary < string , object > d , result set rs , int i ) throws sql exception {  <NL> object o = get value ( " " , rs , i ) ;  <NL> if ( o ! = null ) {  <NL> d . put ( field name , o ) ;  <NL>  } else {  <NL> d . remove ( field name ) ;  <NL>  }  <NL>  }  COM: <s> set the java value in a data chunk </s>

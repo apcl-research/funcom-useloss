@@ -1,0 +1,1 @@
+TDAT: private void create policy name pkg map ( ) {  <NL> m _ pkg policy map = new hash map < package , policy manage > ( ) ;  <NL> if ( has policies ( ) ) {  <NL> for ( policy manage pm : policies ( ) ) {  <NL> m _ pkg policy map . put ( pm . get package ( ) , pm ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> go throw the rancid configuration and find a map from </s>

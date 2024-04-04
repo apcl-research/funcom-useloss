@@ -1,0 +1,1 @@
+TDAT: public void put value ( string name , object value ) {  <NL>  / / remove the object with the matching name if the object is null <NL> if ( value = = null )  <NL> remove value ( name ) ;  <NL>  <NL>  _ sess . set attribute ( session _ value _ members _ website _ user + " _ " + _ app name + " _ " + name , value ) ;  <NL>  }  COM: <s> stores a object to the session </s>

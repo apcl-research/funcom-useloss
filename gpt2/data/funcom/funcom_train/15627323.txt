@@ -1,0 +1,1 @@
+TDAT: public void set erroneous map squares ( @ not null final map < map square < g , a , r > , validation error < g , a , r > > erroneous map squares ) {  <NL> this . erroneous map squares = new hash map < map square < g , a , r > , validation error < g , a , r > > ( erroneous map squares ) ;  <NL>  }  COM: <s> sets the map squares that are known to contain errors </s>

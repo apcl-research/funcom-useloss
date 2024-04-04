@@ -1,0 +1,1 @@
+TDAT: public int use first possible literal ( ) {  <NL> for ( int i = 0 ; i < used literals . length ; i + + ) {  <NL> if ( used literals [ i ] = = false & & disabled literals [ i ] = = false ) {  <NL> used literals [ i ] = true ;  <NL> return i ;  <NL>  }  <NL>  }  <NL> return item . cannot _ be _ used ;  <NL>  }  COM: <s> we assume that no literal is used </s>

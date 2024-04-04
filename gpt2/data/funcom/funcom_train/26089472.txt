@@ -1,0 +1,1 @@
+TDAT: public string delete ( ) {  <NL> user manager . remove user ( user . get id ( ) . to string ( ) ) ;  <NL> list < object > args = new array list < object > ( ) ;  <NL> args . add ( user . get nombre completo ( ) ) ;  <NL> save message ( get text ( " user . deleted " , args ) ) ;  <NL>  <NL> return success ;  <NL>  }  COM: <s> delete the user passed in </s>

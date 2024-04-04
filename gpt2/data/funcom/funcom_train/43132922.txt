@@ -1,0 +1,1 @@
+TDAT: public html renderer context open ( url url , string arg1 , string arg2 , boolean arg3 ) {  <NL> loader loader = loader factory . get instance ( ) . new loader ( ) ;  <NL> loader . download ( url . to string ( ) , new target ( library . primary _ frame , null ) ) ;  <NL> return null ;  <NL>  }  COM: <s> open in the same window </s>

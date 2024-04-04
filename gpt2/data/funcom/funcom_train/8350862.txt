@@ -1,0 +1,1 @@
+TDAT: private string get group id attribute ( ) {  <NL> for ( object obj key : this . group attributes . key set ( ) ) {  <NL> string key = ( string ) obj key ;  <NL> if ( string utils . equals ignore case ( key , " id " ) ) {  <NL> return this . group attributes . get property ( key ) ;  <NL>  }  <NL>  }  <NL> return " " ;  <NL>  }  COM: <s> gets the group id attribute </s>

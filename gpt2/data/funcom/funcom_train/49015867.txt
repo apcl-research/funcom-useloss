@@ -1,0 +1,1 @@
+TDAT: public void set value at ( object obj , int row , int column ) {  <NL>  / / set flag that tells value has been changed <NL> flag = true ;  <NL> list temp = ( array list ) this . song _ records . get ( row ) ;  <NL> temp . set ( column , obj ) ;  <NL> fire table cell updated ( row , column ) ;  <NL>  }  COM: <s> sets the cell value at a specified index </s>

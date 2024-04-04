@@ -1,0 +1,1 @@
+TDAT: public int search answers ( string s ) {  <NL> int total = 0 ;  <NL> iterator < answer > i = answers . iterator ( ) ;  <NL> while ( i . has next ( ) ) {  <NL> answer a = i . next ( ) ;  <NL> if ( s . compare to ( a . get answer ( ) ) = = 0 ) {  <NL> total + + ;  <NL>  }  <NL>  }  <NL> return total ;  <NL>  }  COM: <s> searchs for the answers in the arraylist </s>

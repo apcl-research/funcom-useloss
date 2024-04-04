@@ -1,0 +1,1 @@
+TDAT: public void clean ( ) {  <NL> file [ ] rep files = repository . list files ( ) ;  <NL> for ( file file : rep files ) {  <NL> string file name = file . get name ( ) ;  <NL> if ( file name . ends with ( " _ tmp . png " ) || file name . ends with ( " _ old . png " ) ) {  <NL> file . delete ( ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> clean the repository </s>

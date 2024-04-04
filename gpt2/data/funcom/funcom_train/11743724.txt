@@ -1,0 +1,1 @@
+TDAT: protected string rtrim ( string value ) {  <NL> int end = value . length ( ) - 1 ;  <NL> int count = end ;  <NL> while ( ( end > = 0 ) & & ( value . char at ( end ) < = ' ' ) ) {  <NL> end - - ;  <NL>  }  <NL> return ( end = = count ) ? value : value . substring ( 0 , end + 1 ) ;  <NL>  }  COM: <s> trim right spaces </s>

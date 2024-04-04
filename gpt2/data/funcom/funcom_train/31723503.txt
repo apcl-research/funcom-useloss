@@ -1,0 +1,1 @@
+TDAT: public void add get command ( string tag , string cmd , long p , boolean a ) {  <NL> command c ;  <NL> if ( tag ! = null & & cmd ! = null ) {  <NL> c = new command ( tag , cmd , p , a ) ;  <NL> synchronized ( get cmds ) {  <NL> get cmds . put ( c . tag , c ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> add a get command for this device </s>

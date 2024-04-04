@@ -1,0 +1,1 @@
+TDAT: public void uci ( ) throws engine exception {  <NL> if ( is quit received ( ) ) {  <NL> logger . info ( " quit received , command ignored [ " + uci + " ] " ) ;  <NL>  } else {  <NL> engine plugin . submit command and listen wait result (  <NL> uci , uciok , new default engine output listener ( ) , null ) ;  <NL>  }  <NL>  }  COM: <s> sends uci command </s>

@@ -1,0 +1,1 @@
+TDAT: public boolean is satisfied ( ) {  <NL> final int [ ] tuple = new int [ get nb vars ( ) ] ;  <NL> for ( int i = 0 ; i < tuple . length ; i + + ) {  <NL> assert ( get var ( i ) . is instantiated ( ) ) ;  <NL> tuple [ i ] = get var ( i ) . get val ( ) ;  <NL>  }  <NL> return is satisfied ( tuple ) ;  <NL>  }  COM: <s> default implementation of the is satisfied by </s>

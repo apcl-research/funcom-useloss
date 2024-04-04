@@ -1,0 +1,1 @@
+TDAT: public void reset connections ( ) {  <NL> for ( enumeration < i connection > conn enum = connections . elements ( ) ; conn enum . has more elements ( ) ; ) {  <NL> i connection conn = conn enum . next element ( ) ;  <NL> send ( conn . get id ( ) , new packet ( packet . command _ reset _ connection ) ) ;  <NL>  }  <NL>  }  COM: <s> resets all the connections </s>

@@ -1,0 +1,1 @@
+TDAT: public boolean is attribute ( object object ) {  <NL> return ( ( object instanceof node ) & & ( ( ( ( node ) ( object ) ) . get node type ( ) ) = = ( node . attribute _ node ) ) ) & & ( ! ( " http : / / www . w3 . org / 2000 / xmlns / " . equals ( ( ( node ) ( object ) ) . get namespace uri ( ) ) ) ) ;  <NL>  }  COM: <s> test if a node is an attribute </s>

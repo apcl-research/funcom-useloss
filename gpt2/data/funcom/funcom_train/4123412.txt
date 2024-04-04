@@ -1,0 +1,1 @@
+TDAT: public void display chat ( string sender name , string message , boolean private chat ) {  <NL> if ( private chat ) {  <NL> chat area . append ( sender name + " ( private ) : " + message + ' \n ' ) ;  <NL>  } else {  <NL> chat area . append ( sender name + " : " + message + ' \n ' ) ;  <NL>  }  <NL>  }  COM: <s> displays a chat message to the user </s>

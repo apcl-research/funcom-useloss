@@ -1,0 +1,1 @@
+TDAT: public int get family ( ) {  <NL> ct int property family = _ ct font . size of family array ( ) = = 0 ? _ ct font . add new family ( ) : _ ct font . get family array ( 0 ) ;  <NL> return family = = null ? font family . not _ applicable . get value ( ) : font family . value of ( family . get val ( ) ) . get value ( ) ;  <NL>  }  COM: <s> get the font family to use </s>

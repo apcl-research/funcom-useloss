@@ -1,0 +1,1 @@
+TDAT: public void test funimage ( ) {  <NL>  <NL> final i type environment te = m type environment ( " a " , " ℙ ( a ) " , " b " , " ℤ ↔ ℤ " ,  <NL>  " f " , " ℤ " ) ;  <NL>  <NL> test translation v2 _ 0ver default solver ( te , " b ( f ) = b ( f ) " , " false " ) ;  <NL>  }  COM: <s> while funimage can not be translated yet false is returned instead </s>

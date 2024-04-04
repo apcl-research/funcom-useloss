@@ -1,0 +1,1 @@
+TDAT: public void set variable ( object [ ] var def , object value ) throws parser failure {  <NL> if ( locals . size ( ) > 0 & & ( ( map ) locals . peek ( ) ) . contains key ( var def [ 0 ] ) ) {  <NL> set sub variable ( locals . peek ( ) , var def , value ) ;  <NL>  } else {  <NL> set sub variable ( globals , var def , value ) ;  <NL>  }  <NL>  }  COM: <s> sets a variable </s>

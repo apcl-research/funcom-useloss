@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> return get course id ( ) + " , " + get day ( ) + " , " + get start time ( ) + " , " +  <NL> get end time ( ) + " , " + get location ( ) + " , " + this . get type ( ) + " \n " ;  <NL>  }  COM: <s> returns a string representation of the time slot </s>

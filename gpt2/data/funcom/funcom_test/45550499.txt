@@ -1,0 +1,1 @@
+TDAT: protected java problem add problem ( ast node node , object . . . args ) {  <NL> if ( null = = node ) {  <NL> throw new illegal argument exception ( " can not log on an empty node in " + get key ( ) ) ;  <NL>  }  <NL>  <NL> return manager . add problem ( get key ( ) , node , make message ( args ) ) ;  <NL>  }  COM: <s> register a problem on the given node </s>

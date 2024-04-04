@@ -1,0 +1,1 @@
+TDAT: public void test get set ( ) {  <NL> atomic boolean ai = new atomic boolean ( true ) ;  <NL> assert equals ( true , ai . get ( ) ) ;  <NL> ai . set ( false ) ;  <NL> assert equals ( false , ai . get ( ) ) ;  <NL> ai . set ( true ) ;  <NL> assert equals ( true , ai . get ( ) ) ;  <NL>  <NL>  }  COM: <s> get returns the last value set </s>

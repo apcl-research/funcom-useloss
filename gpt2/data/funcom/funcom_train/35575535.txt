@@ -1,0 +1,1 @@
+TDAT: private void add entry ( string source class , string source method , string msg , string level ) {  <NL> string entry = format entry ( source class , source method , msg , level ) ;  <NL> synchronized ( the log queue ) {  <NL> the log queue . add ( entry ) ;  <NL> the log queue . notify ( ) ;  <NL>  }  <NL>  }  COM: <s> h4 adds a log entry to the log queue </s>

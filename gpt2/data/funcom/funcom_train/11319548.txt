@@ -1,0 +1,1 @@
+TDAT: protected string to bean name ( class < ? > a class ) {  <NL> string class name = a class . get name ( ) ;  <NL> string bean name = class name . substring ( class name . last index of ( " . " ) + 1 ) ;  <NL> return character . to lower case ( bean name . char at ( 0 ) ) + bean name . substring ( 1 ) ;  <NL>  }  COM: <s> return the spring bean name for the given class </s>

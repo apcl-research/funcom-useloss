@@ -1,0 +1,1 @@
+TDAT: public void set filters ( string [ ] filters ) {  <NL> if ( filters ! = null ) {  <NL> this . filters = filters ;  <NL>  } else {  <NL> this . filters = no _ filters ;  <NL>  }  <NL> model . fire tree structure changed (  <NL> model . get root ( ) ,  <NL> new object [ ] { model . get root ( ) } ,  <NL> null ,  <NL> null ) ;  <NL>  }  COM: <s> sets the filters </s>

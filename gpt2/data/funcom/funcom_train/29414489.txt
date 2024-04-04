@@ -1,0 +1,1 @@
+TDAT: public void paint ( graphics g ) {  <NL> dimension d = get size ( ) ;  <NL> graphics2d g2 = create graphics2d ( d . width , d . height ) ;  <NL> draw whirlis ( d . width , d . height , g2 ) ;  <NL> g2 . dispose ( ) ;  <NL> g . draw image ( bimg , 0 , 0 , this ) ;  <NL>  }  COM: <s> paints the current state of the whirlis </s>

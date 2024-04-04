@@ -1,0 +1,1 @@
+TDAT: public void listen ( string host , int port ) throws unknown host exception , io exception {  <NL> socket = new socket ( host , port ) ;  <NL> out = new print writer ( socket . get output stream ( ) , true ) ;  <NL> in = new buffered reader ( new input stream reader ( socket . get input stream ( ) ) ) ;  <NL>  }  COM: <s> creates a socket </s>

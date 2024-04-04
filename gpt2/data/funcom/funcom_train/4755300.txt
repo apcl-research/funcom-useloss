@@ -1,0 +1,1 @@
+TDAT: private void check sample data ( final double [ ] data ) {  <NL> if ( data = = null ) {  <NL> throw new null argument exception ( ) ;  <NL>  }  <NL> if ( data . length < 2 ) {  <NL> throw new number is too small exception ( localized formats . insufficient _ data _ for _ t _ statistic ,  <NL> data . length , 2 , true ) ;  <NL>  }  <NL>  }  COM: <s> check sample data </s>

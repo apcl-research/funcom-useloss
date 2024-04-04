@@ -1,0 +1,1 @@
+TDAT: public int option value to int ( object value ) {  <NL> int n ;  <NL> try {  <NL> n = integer . parse int ( value . to string ( ) ) ;  <NL>  } catch ( number format exception e ) {  <NL> system . out . println ( " couldn ' t convert option " + value + " to integer . " ) ;  <NL> n = 0 ;  <NL>  }  <NL> return n ;  <NL>  }  COM: <s> convert an option value to an integer </s>

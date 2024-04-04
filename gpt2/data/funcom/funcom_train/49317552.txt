@@ -1,0 +1,1 @@
+TDAT: protected j label make label ( string s , string tip ) {  <NL> if ( s = = null ) {  <NL> return null ;  <NL>  }  <NL> j label label = new j label ( s , j label . left ) ;  <NL> if ( tip ! = null & & tip . length ( ) ! = 0 ) {  <NL> label . set tool tip text ( tip ) ;  <NL>  }  <NL> return label ;  <NL>  }  COM: <s> make panel label with the given text </s>

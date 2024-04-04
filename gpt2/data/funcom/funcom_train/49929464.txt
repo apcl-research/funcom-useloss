@@ -1,0 +1,1 @@
+TDAT: public void hit image ( hit counter counter , image image ) {  <NL> if ( counter = = null || image = = null ) {  <NL> return ;  <NL>  }  <NL> int id = image . get id ( ) ;  <NL> if ( ! this . hit image ids . contains ( id ) ) {  <NL> this . hit image ids . add ( id ) ;  <NL> counter . hit image ( image ) ;  <NL>  }  <NL>  }  COM: <s> cover facade for hit counter </s>

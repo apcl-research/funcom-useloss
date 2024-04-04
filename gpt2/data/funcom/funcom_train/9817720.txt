@@ -1,0 +1,1 @@
+TDAT: public boolean load memory file ( string filename ) {  <NL> memory file parser . parse memory file ( filename , get memory width ( ) , address bits , this , jout . error , 20 ) ;  <NL> return memory file parser . parse memory file ( filename , get memory width ( ) , address bits , this , jout . error , 20 , true ) ;  <NL>  }  COM: <s> loads memory from a file </s>

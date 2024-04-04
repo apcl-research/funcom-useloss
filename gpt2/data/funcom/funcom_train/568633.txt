@@ -1,0 +1,1 @@
+TDAT: public void draw cells ( java . util . list cells , tile alive ) {  <NL> graphics g = get graphics ( ) ;  <NL> if ( g ! = null ) {  <NL> color bg = get background ( ) ;  <NL> fill screen ( g , bg ) ;  <NL> list transaction . execute ( new draw cell ( g , alive ) , cells ) ;  <NL>  }  <NL>  }  COM: <s> draw the given cells on the grid </s>

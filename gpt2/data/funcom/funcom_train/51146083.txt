@@ -1,0 +1,1 @@
+TDAT: public void add node ( string path , string name ) {  <NL> x model model = ( x model ) ( path . length ( ) > 0 ? root model . get ( path ) : root model ) ;  <NL> x model new node = ( x model ) model . append ( name ) ;  <NL> new node . set tag name ( " data " ) ;  <NL> current project . set modified ( true ) ;  <NL>  }  COM: <s> add a new node to the model </s>

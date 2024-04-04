@@ -1,0 +1,1 @@
+TDAT: public string get explorer body uri ( ) {  <NL>  <NL> string body = " explorer _ body _ fs . jsp " ;  <NL> if ( cms string util . is not empty or whitespace only ( m _ uri ) ) {  <NL> body + = " ? " + parameter _ uri + " = " + m _ uri ;  <NL>  }  <NL> return get jsp ( ) . link ( body ) ;  <NL>  }  COM: <s> returns the explorer body frame content uri </s>

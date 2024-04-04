@@ -1,0 +1,1 @@
+TDAT: private vector find leaf features ( vector features ) {  <NL> vector sets = new vector ( ) ;  <NL> for ( int i = 0 ; i < features . size ( ) ; i + + ) {  <NL> seq feature i sf = ( seq feature i ) features . element at ( i ) ;  <NL> add leaf feats ( sf , sets ) ;  <NL>  }  <NL> return sets ;  <NL>  }  COM: <s> creates vector of all leaf descendants of feats in features </s>

@@ -1,0 +1,1 @@
+TDAT: private void fill data in xy series ( xy series s left , xy series s right , double value bottom , number value left , number value right ) {  <NL> s left . add ( value bottom , value left ) ;  <NL> if ( s right ! = null ) {  <NL> s right . add ( value bottom , value right ) ;  <NL>  }  <NL>  }  COM: <s> fills the specified data to the left and right xy series </s>

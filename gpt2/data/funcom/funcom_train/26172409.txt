@@ -1,0 +1,1 @@
+TDAT: public entry ( byte [ ] buf , int off , int len , int tag , byte [ ] src , int pos ) {  <NL> this ( buf , off , len , tag ) ;  <NL> system . arraycopy ( src , pos , _ buf , _ off , _ len ) ;  <NL>  }  COM: <s> constructs a field and copies the value from a source buffer </s>

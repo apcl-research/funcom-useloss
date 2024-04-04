@@ -1,0 +1,1 @@
+TDAT: private string get face image path ( card card ) {  <NL> if ( card . is face card ( ) || <NL> card . equals ( new card ( rank . ace , suit . spades ) ) ) {  <NL> return " faces / " + card . to string ( ) . replace ( ' ' , ' _ ' ) + extension ;  <NL>  } else {  <NL> return null ;  <NL>  }  <NL>  }  COM: <s> gets the relative path to the face image of a given face card </s>

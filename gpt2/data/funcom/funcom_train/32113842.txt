@@ -1,0 +1,1 @@
+TDAT: public char to char ( ) {  <NL>  <NL> if ( ( being = = null ) || ( being . visible > 0 ) ) {  <NL> if ( items = = null )  <NL> return ch ;  <NL> else if ( items . is empty ( ) )  <NL> return ch ;  <NL> else <NL> return ( items . get first ( ) . to char ( ) ) ;  <NL>  }  <NL> else <NL> return being . ch ;  <NL>  <NL>  }  COM: <s> return the last objects char </s>

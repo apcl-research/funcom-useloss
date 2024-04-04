@@ -1,0 +1,1 @@
+TDAT: public boolean is subtype unchecked ( type t , list < type > ts , warner warn ) {  <NL> for ( list < type > l = ts ; l . non empty ( ) ; l = l . tail )  <NL> if ( ! is subtype unchecked ( t , l . head , warn ) )  <NL> return false ;  <NL> return true ;  <NL>  }  COM: <s> is t a subtype of every type in given list ts br </s>

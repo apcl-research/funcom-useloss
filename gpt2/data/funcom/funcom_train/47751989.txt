@@ -1,0 +1,1 @@
+TDAT: public frame tree node merge child ( frame tree node node ) {  <NL> frame tree node child = find child ( node . get frame ( ) . get name ( ) ) ;  <NL> if ( child = = null ) {  <NL> attach child ( node ) ;  <NL> return node ;  <NL>  }  <NL> else {  <NL> frame tree . merge frame trees ( node , child ) ;  <NL> return child ;  <NL>  }  <NL>  }  COM: <s> merge a child </s>

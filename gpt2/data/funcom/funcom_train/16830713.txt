@@ -1,0 +1,1 @@
+TDAT: public int compare to ( pair < t1 , t2 > another ) {  <NL> int comp = ( ( comparable ) first ( ) ) . compare to ( another . first ( ) ) ;  <NL> if ( comp ! = 0 ) {  <NL> return comp ;  <NL>  } else {  <NL> return ( ( comparable ) second ( ) ) . compare to ( another . second ( ) ) ;  <NL>  }  <NL>  }  COM: <s> compares this code pair code to another object </s>

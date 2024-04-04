@@ -1,0 +1,1 @@
+TDAT: public void perform ( date p time of call , long p remaining repetitions ) {  <NL> log . info ( " schedulable examples is called at : " + p time of call +  <NL>  " , remaining repetitions : " + p remaining repetitions +  <NL>  " , test , name : " + m name + " , value : " + m value ) ;  <NL>  }  COM: <s> just log the call </s>

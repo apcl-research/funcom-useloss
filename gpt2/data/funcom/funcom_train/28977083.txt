@@ -1,0 +1,1 @@
+TDAT: public string get query ( ) {  <NL> return " select * from " + streaming object . class . get name ( ) + " where type . name = \ " " + simple cluster handler . finished _ type . get name ( )  <NL>  + " \ " and event . name = \ " " + simple cluster handler . finished _ event . get name ( ) + " \ " " ;  <NL>  }  COM: <s> the events we care to listen for </s>

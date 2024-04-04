@@ -1,0 +1,1 @@
+TDAT: private int convert release type string to int ( string type ) {  <NL> for ( int i = 0 ; i < release _ titles . length ; i + + ) if ( type . equals ( release _ titles [ i ] ) ) return i ;  <NL> return 0 ; / / oops - - something bad happened . assume it ' s an alpha release .  <NL>  } / / end - method  COM: <s> converts a release type string to a release type integer </s>

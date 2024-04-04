@@ -1,0 +1,1 @@
+TDAT: public double get kurtosis ( ) {  <NL> int n = this . get n ( ) ;  <NL> double m4 = ( ( ( double ) n ) / ( n - 1 ) ) * ( quadsum / n - math . pow ( get average ( ) , 4 ) ) ;  <NL> return ( m4 / math . pow ( get st d ( ) , 4 ) ) - 3 ;  <NL>  }  COM: <s> computes the kurtosis on the node values distribution and </s>

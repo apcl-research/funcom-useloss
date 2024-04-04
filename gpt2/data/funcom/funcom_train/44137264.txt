@@ -1,0 +1,1 @@
+TDAT: public void paint ( graphics g ) {  <NL> super . paint ( g ) ;  <NL> g . set color ( color . black ) ;  <NL> g . draw line ( m _ x1 , m _ y1 , m _ x2 , m _ y2 ) ;  <NL> g . draw line ( m _ x1 + 1 , m _ y1 , m _ x2 + 1 , m _ y2 ) ;  <NL>  }  COM: <s> to draw this component </s>

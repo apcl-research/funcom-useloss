@@ -1,0 +1,1 @@
+TDAT: protected string get area text ( ) {  <NL> string buffer sb = new string buffer ( " area : " ) ;  <NL> sb . append ( two _ digits _ fmt . format ( get area ( ) ) ) ;  <NL> if ( _ header . get image pixel spacing array ( ) ! = null ) sb . append ( " sq . mm " ) ;  <NL> return ( sb . to string ( ) ) ;  <NL>  }  COM: <s> returns a string representation of area value </s>

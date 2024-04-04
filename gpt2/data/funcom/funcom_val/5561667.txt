@@ -1,0 +1,1 @@
+TDAT: public void paint ( graphics g , int x offset , int y offset ) {  <NL> draw boards ( g , x offset , y offset , get zoom ( ) , the map ) ;  <NL> draw drawable ( g , false ) ;  <NL> draw pieces ( g , x offset , y offset ) ;  <NL> draw drawable ( g , true ) ;  <NL>  }  COM: <s> paint the map at the given offset i </s>

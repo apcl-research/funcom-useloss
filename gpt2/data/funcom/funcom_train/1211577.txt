@@ -1,0 +1,1 @@
+TDAT: public t get ( int c , string s ) {  <NL> t obj = objects by col name . get ( s ) ;  <NL> if ( obj ! = null ) return obj ;  <NL>  <NL> if ( objects by col num . size ( ) < c ) return null ;  <NL>  <NL> obj = objects by col num . get ( c - 1 ) ;  <NL> return obj = = null ? null : obj ;  <NL>  }  COM: <s> put prio on name over num </s>

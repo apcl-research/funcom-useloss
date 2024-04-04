@@ -1,0 +1,1 @@
+TDAT: public void test bug3489973 ( ) {  <NL> do test ( " prj2 ( r ( a ↦ b ) ) ∈ t " , / /  <NL>  " ∃aa· ( ∀a1 , b1·a ↦ b ↦ ( a1 ↦ b1 ) ∈ r ⇒ b1 = aa ) ∧ aa ∈ t " , / /  <NL> true , / /  <NL> m type environment ( " r " , " ℤ×ℤ ↔ ℤ×ℤ " ) ) ;  <NL>  }  COM: <s> ensures that bug 3489973 npe in pp trans is fixed original predicate </s>

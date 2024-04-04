@@ -1,0 +1,1 @@
+TDAT: public void execute invite trigger ( final channel to channel , final irc user invited by ) {  <NL> momo bot . get bot instance ( ) . join channel ( to channel . to string ( ) ) ;  <NL> momo bot . get bot instance ( ) . send notice ( invited by , " allez , c ' est bien parce que c ' est toi . " ) ;  <NL>  }  COM: <s> on est sympa on join tout </s>

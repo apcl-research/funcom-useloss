@@ -1,0 +1,1 @@
+TDAT: public svn commit info do commit ( file [ ] paths , boolean keep locks , string commit message , boolean force , boolean recursive ) throws svn exception {  <NL> return do commit ( paths , keep locks , commit message , null , null , false , force , svn depth . get infinity or empty depth ( recursive ) ) ;  <NL>  }  COM: <s> committs local changes to the repository </s>

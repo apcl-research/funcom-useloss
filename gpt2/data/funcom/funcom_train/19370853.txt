@@ -1,0 +1,1 @@
+TDAT: public boolean show quit dialog ( component owner ) {  <NL> int value = j option pane . show confirm dialog ( owner ,  <NL>  " are you sure you want to quit ? " ,  <NL>  " quit owl watcher " ,  <NL> j option pane . yes _ no _ option ) ;  <NL> return ( value = = j option pane . yes _ option ) ;  <NL>  }  COM: <s> the usual dialog for exiting the application </s>

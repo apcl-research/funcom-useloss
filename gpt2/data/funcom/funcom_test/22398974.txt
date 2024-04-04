@@ -1,0 +1,1 @@
+TDAT: public int get column ( ) {  <NL> check mark usable ( ) ;  <NL> if ( this . pos = = invalid _ mark _ line )  <NL> return 0 ;  <NL> my segment seg = get line segment ( get line ( ) ) ;  <NL> int len = seg . length ( ) - 1 ;  <NL> return seg . length ( ) < = 0 ? 0 : math . min ( col , len ) ;  <NL>  }  COM: <s> note may return column position of newline </s>

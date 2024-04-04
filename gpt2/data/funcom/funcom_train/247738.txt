@@ -1,0 +1,1 @@
+TDAT: public url canonify ( ) {  <NL>  <NL> ftpurl impl res = new ftpurl impl ( ) ;  <NL> canonify ( this , res ) ;  <NL> if ( res . get component count ( ) = = 0 ) res . set path ( new string [ ] { " / " } ) ;  <NL> res . user info = user info ;  <NL> res . domain = domain ;  <NL> res . port = port ;  <NL> return res ;  <NL>  }  COM: <s> rules for canonification ol </s>

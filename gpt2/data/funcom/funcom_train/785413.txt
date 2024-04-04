@@ -1,0 +1,1 @@
+TDAT: public int get depth ( int node ) {  <NL> if ( ! get node table ( ) . is valid row ( node ) )  <NL> return - 1 ;  <NL>  <NL> int depth = 0 ;  <NL> for ( int i = node ; i ! = m _ root & & i > = 0 ; + + depth , i = get parent ( i ) ) ;  <NL> return depth ;  <NL>  }  COM: <s> get the depth of the given node id in the tree </s>

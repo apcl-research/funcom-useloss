@@ -1,0 +1,1 @@
+TDAT: public string to r ( int k , int n , int d , int n , boolean lower tail ) {  <NL> return " phyper ( " + ( k - 1 ) + " , " + d + " , " + ( n - d ) + " , " + n + " , lower . tail = " + boolean . to string ( lower tail ) . to upper case ( ) + " ) " ;  <NL>  }  COM: <s> convert values to fishers r command </s>

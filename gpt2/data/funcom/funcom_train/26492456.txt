@@ -1,0 +1,1 @@
+TDAT: public void set first link ( string name1 , string url1 , string description1 , int language1 , string url1web ) {  <NL> this . first link = new object submitted site ( this . id , name1 , this . cid , url1 , description1 , this . userid , this . date , language1 , url1web ) ;  <NL>  }  COM: <s> set the first link submitted by the potential editor </s>

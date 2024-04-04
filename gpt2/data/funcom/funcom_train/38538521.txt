@@ -1,0 +1,1 @@
+TDAT: protected void set up ( ) {  <NL> gac = solver impl . create default algorithm ( ) ;  <NL> x = new int set variable ( " x " , 1 , 10 ) ;  <NL> y = new int set variable ( " y " , 1 , 10 ) ;  <NL> z = new int set variable ( " z " , 1 , 10 ) ;  <NL> intersect = new int set variable ( " intersect " , 1 , 10 ) ;  <NL>  }  COM: <s> called to initialize the test </s>

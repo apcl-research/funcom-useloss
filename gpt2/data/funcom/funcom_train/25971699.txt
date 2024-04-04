@@ -1,0 +1,1 @@
+TDAT: public void insert ( string description , double longitud , double latitud ) {  <NL> my db . exec sql ( " insert into " + database _ table + " ( description , longitud , latitud ) "  <NL>  + " values ( ' " + description + " ' , ' " + longitud + " ' , ' " + latitud + " ' ) ; " ) ;  <NL>  }  COM: <s> insert location in data base </s>

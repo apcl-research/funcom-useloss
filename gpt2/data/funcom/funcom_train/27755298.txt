@@ -1,0 +1,1 @@
+TDAT: public void set hrd schema ( string schemaid ) {  <NL> for ( int idx = 0 ; idx < hrd schema . get item count ( ) ; idx + + ) {  <NL> final string entry = hrd schema . get item ( idx ) ;  <NL> if ( hrd schema . get data ( entry ) . equals ( schemaid ) ) {  <NL> hrd schema . select ( idx ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> set currently selected hrd schema in list </s>

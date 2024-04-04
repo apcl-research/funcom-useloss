@@ -1,0 +1,1 @@
+TDAT: public void set data set factory master ( string type , data set data set ) {  <NL> log ( " initializing data set factory master , name = " + type + " , class = " + misc . get class name ( data set ) ) ;  <NL> data set factory master list . put ( type , data set ) ;  <NL>  }  COM: <s> p register a data set into the factory </s>

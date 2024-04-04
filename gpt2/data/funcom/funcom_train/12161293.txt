@@ -1,0 +1,1 @@
+TDAT: public void test get range cost simple ( ) throws exception {  <NL> check get range cost ( " abc " , new int [ ] [ ] {  <NL>  { 0 , 1 , 2 , 3 } ,  <NL>  { 0 , 1 , 2 } ,  <NL>  { 0 , 1 } ,  <NL>  { 0 }  <NL>  } ) ;  <NL>  }  COM: <s> test that a composite string of simple individual characters implements </s>

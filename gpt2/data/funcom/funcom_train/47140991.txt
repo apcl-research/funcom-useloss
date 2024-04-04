@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> return ( s transaction name + " at " + s sales point name + " ( logged : " +  <NL> get log date ( ) + " ) " + ( f cancelled ? " transaction cancelled " +  <NL>  ( ( error info ! = 0 ) ? " with errorcode " + error info : " " ) + " . "  <NL>  : " " ) ) ;  <NL>  }  COM: <s> return a short description of this log entry </s>

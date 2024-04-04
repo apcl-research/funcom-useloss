@@ -1,0 +1,1 @@
+TDAT: public void run test ( ) {  <NL> log . fine ( " running pred test ( " + get name ( ) + " ) " ) ;  <NL> pred result = animator _ . eval pred ( pred _ ) ;  <NL> assert not null ( result ) ;  <NL> assert true ( result instanceof true pred ) ;  <NL> system . out . println ( " passed test : " + get name ( ) ) ;  <NL>  }  COM: <s> test that a predicate evaluates to true pred </s>

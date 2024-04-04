@@ -1,0 +1,1 @@
+TDAT: public boolean in bounds ( ) {  <NL> return ( position . compare ( vector2d . zero vector ( ) ) > = 3 & & position . compare ( game frame . gp . get engine ( ) . get map ( ) . get size ( ) ) = = 0 ) ; / / 3 means position is greater than zero vector , 0 means position is less than mapsize <NL>  }  COM: <s> is the rocket in the display </s>

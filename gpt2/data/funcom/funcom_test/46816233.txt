@@ -1,0 +1,1 @@
+TDAT: protected int select pivot ( byte [ ] a , int from index , int to index ) {  <NL> final int first = from index , last = to index - 1 , mid = ( from index + to index ) / 2 ;  <NL> return median ( a , first , mid , last ) ;  <NL>  }  COM: <s> select a pivot element from the given array section </s>

@@ -1,0 +1,1 @@
+TDAT: public void append boolean value ( boolean bool , string builder sb ) {  <NL> if ( bool ! = null ) {  <NL> sb . append ( syntax elements . single _ quote ) . append ( bool ? " t " : " f " ) . append ( syntax elements . single _ quote ) ;  <NL>  } else {  <NL> sb . append ( " null " ) ;  <NL>  }  <NL>  }  COM: <s> append a boolean value </s>

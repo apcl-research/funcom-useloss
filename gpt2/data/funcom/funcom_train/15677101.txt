@@ -1,0 +1,1 @@
+TDAT: public box2d clip ( box2d box ) {  <NL> this . xmin = max ( this . xmin , box . xmin ) ;  <NL> this . xmax = min ( this . xmax , box . xmax ) ;  <NL> this . ymin = max ( this . ymin , box . ymin ) ;  <NL> this . ymax = min ( this . ymax , box . ymax ) ;  <NL> return this ;  <NL>  }  COM: <s> clip this bounding box such that after clipping it is totally contained </s>

@@ -1,0 +1,1 @@
+TDAT: private void check domain ( string domain ) throws malformed object name exception {  <NL> if ( domain . index of ( ' , ' ) > = 0 || domain . index of ( ' : ' ) > 0 <NL> || domain . index of ( ' = ' ) > = 0 ) {  <NL> throw new malformed object name exception (  <NL>  " object name : invalid domain - > " + domain ) ;  <NL>  }  <NL>  }  COM: <s> check if valid domain </s>

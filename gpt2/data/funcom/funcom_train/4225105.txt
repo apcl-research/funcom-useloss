@@ -1,0 +1,1 @@
+TDAT: public network create network for online learning ( double a , double b , double r , double t , int col ) {  <NL> set parameters ( a , b , r , t , col ) ;  <NL> network result = new network ( a , b , r , t , col ) ;  <NL> result . learning mode ( true ) ;  <NL> return result ;  <NL>  }  COM: <s> use this method to create network that wont be learned using instances </s>

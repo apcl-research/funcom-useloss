@@ -1,0 +1,1 @@
+TDAT: private void add item element ( element td elem ) {  <NL> element tr ;  <NL> if ( vertical ) {  <NL> tr = dom . create tr ( ) ;  <NL> dom . append child ( body , tr ) ;  <NL>  } else {  <NL> tr = dom . get child ( body , 0 ) ;  <NL>  }  <NL> dom . append child ( tr , td elem ) ;  <NL>  }  COM: <s> physically add the td element of a </s>

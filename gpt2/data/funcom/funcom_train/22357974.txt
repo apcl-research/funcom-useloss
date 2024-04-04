@@ -1,0 +1,1 @@
+TDAT: public void add unit ( unit u ) {  <NL> if ( units = = null ) {  <NL> units = collection factory . < entity id , unit > create sync ordered map ( 3 , . 6f ) ;  <NL>  <NL>  / / enforce the creation of a new collection view :  <NL> unit collection = null ;  <NL>  }  <NL>  <NL> units . put ( u . get id ( ) , u ) ;  <NL>  }  COM: <s> adds a unit to this container </s>

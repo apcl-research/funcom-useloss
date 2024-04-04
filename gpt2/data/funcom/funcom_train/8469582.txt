@@ -1,0 +1,1 @@
+TDAT: public void add to ( calendar c ) {  <NL> c . add ( calendar . year , years ) ;  <NL> c . add ( calendar . month , months ) ;  <NL> c . add ( calendar . week _ of _ year , weeks ) ;  <NL> c . add ( calendar . day _ of _ year , days ) ;  <NL> c . add ( calendar . hour _ of _ day , hours ) ;  <NL>  }  COM: <s> adds the duration of this time span to the provided </s>

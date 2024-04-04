@@ -1,0 +1,1 @@
+TDAT: public void set bounds ( int x , int y , int width , int height , boolean invalidate parent ) {  <NL> if ( width ! = this . width || height ! = this . height ) {  <NL> picture = null ;  <NL>  }  <NL> super . set bounds ( x , y , width , height , invalidate parent ) ;  <NL>  }  COM: <s> set bounds reshapes the component to the specified bounding box </s>

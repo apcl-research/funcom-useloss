@@ -1,0 +1,1 @@
+TDAT: public boolean remove enumerate ( string name ) {  <NL> for ( int i = 0 ; i < enums . size ( ) ; + + i ) {  <NL> enum e = ( enum ) enums . get ( i ) ;  <NL> if ( e . get name ( ) . equals ( name ) ) {  <NL> enums . remove ( e ) ;  <NL> return true ;  <NL>  }  <NL>  }  <NL> return false ;  <NL>  }  COM: <s> remove the enumerate with the given name </s>

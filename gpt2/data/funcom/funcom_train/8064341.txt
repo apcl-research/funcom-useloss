@@ -1,0 +1,1 @@
+TDAT: private void unicode ( char c ) {  <NL> this . add ( " \\u " ) ;  <NL>  <NL> int n = c ;  <NL>  <NL> for ( int i = 0 ; i < 4 ; + + i ) {  <NL> int digit = ( n & 0xf000 ) > > 12 ;  <NL>  <NL> this . add ( com . cozilyworks . cocoz . tools . opensymphony . support . json . json writer . hex [ digit ] ) ;  <NL> n < < = 4 ;  <NL>  }  <NL>  }  COM: <s> represent as unicode </s>

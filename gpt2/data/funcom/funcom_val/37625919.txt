@@ -1,0 +1,1 @@
+TDAT: private void add some confirm dialogues ( ) {  <NL> for ( int i = 0 ; i < 3 ; i + + ) {  <NL> buttons [ i ] . add script listener ( new java script listener ( java script event . on _ click ,  <NL>  " return window . confirm ( ' please confirm click of button " + ( i + 1 ) + " ' ) ; " ) ) ;  <NL>  }  <NL>  }  COM: <s> register and use some code java script event </s>

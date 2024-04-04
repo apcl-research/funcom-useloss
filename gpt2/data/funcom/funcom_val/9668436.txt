@@ -1,0 +1,1 @@
+TDAT: public int _ relocate _ children ( int old _ id , int new _ id ) {  <NL>  / / old _ id = intval ( old _ id ) ;  <NL>  / / new _ id = intval ( new _ id ) ;  <NL> return g vars . wpdb . query ( " update " + g vars . wpdb . posts + " set post _ parent = " + new _ id + " where post _ parent = " + old _ id ) ;  <NL>  }  COM: <s> move child posts to a new parent </s>

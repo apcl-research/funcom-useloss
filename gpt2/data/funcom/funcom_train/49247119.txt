@@ -1,0 +1,1 @@
+TDAT: private void init ( string url , string user , string pass ) {  <NL> error = null ;  <NL> try {  <NL> class . for name ( " org . postgresql . driver " ) ;  <NL> this . con = driver manager . get connection ( url , user , pass ) ;  <NL>  } catch ( exception err ) {  <NL> error ( err , err ) ;  <NL>  }  <NL>  }  COM: <s> connects to the database </s>

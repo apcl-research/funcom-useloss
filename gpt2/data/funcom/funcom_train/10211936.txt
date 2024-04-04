@@ -1,0 +1,1 @@
+TDAT: protected void write marker ( data output stream sink , byte marker ) throws io exception {  <NL>  / / for ( int i = 0 ; i < 4 ; i + + )  <NL> sink . write byte ( marker ) ;  <NL> sink . write byte ( ( byte ) 0 ) ;  <NL> sink . write byte ( ( byte ) 0 ) ;  <NL> sink . write byte ( ( byte ) 0 ) ;  <NL>  }  COM: <s> writes a marker byte to the output stream </s>

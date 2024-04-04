@@ -1,0 +1,1 @@
+TDAT: private mouse event clone mouse event ( mouse event e ) {  <NL> mouse event clone = new mouse event ( e . get component ( ) , e . get id ( ) , e . get when ( ) ,  <NL> e . get modifiers ( ) , e . get x ( ) , e . get y ( ) , e . get click count ( ) , e . is popup trigger ( ) ) ;  <NL> return clone ;  <NL>  }  COM: <s> clones a mouse event </s>

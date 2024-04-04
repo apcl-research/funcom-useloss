@@ -1,0 +1,1 @@
+TDAT: public void add string ( string value ) {  <NL> if ( null = = value ) {  <NL> internal add ( current path . resolve ( " null " ) , metadata class mapper . null ,  <NL> true ) ;  <NL>  } else {  <NL> internal add ( current path . resolve ( value ) , metadata class mapper . null , false ) ;  <NL>  }  <NL>  }  COM: <s> add a string value this may be null </s>

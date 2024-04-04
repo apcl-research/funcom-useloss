@@ -1,0 +1,1 @@
+TDAT: public void log ( admin admin , int caid , int module , date time , string username , certificate certificate , int event , string comment ) {  <NL> do log ( admin , caid , module , time , username , certificate , event , comment , null ) ;  <NL>  } / / log  COM: <s> session beans main function </s>

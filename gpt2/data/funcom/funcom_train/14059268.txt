@@ -1,0 +1,1 @@
+TDAT: public void to table text ( final i text destination td , final boolean use ni ) {  <NL> int i ;  <NL>  <NL> for ( i = 0 ; i < this . m _ params . length ; i + + ) {  <NL> basic config . put cell ( this . m _ params [ i ] , td ) ;  <NL>  }  <NL>  <NL> this . put stat ( td , use ni ) ;  <NL>  <NL>  }  COM: <s> append this objects default textual representation to a text </s>

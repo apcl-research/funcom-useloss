@@ -1,0 +1,1 @@
+TDAT: public void fast clear ( long index ) {  <NL> assert index > = 0 & & index < num bits ;  <NL> int word num = ( int ) ( index > > 6 ) ; / / div 64 <NL> int bit = ( int ) index & 0x3f ; / / mod 64 <NL> long bitmask = 1l < < bit ;  <NL> bits [ word num ] & = ~ bitmask ;  <NL>  }  COM: <s> clears a bit </s>

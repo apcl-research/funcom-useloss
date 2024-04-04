@@ -1,0 +1,1 @@
+TDAT: public double calc norm ( cr vector v ) {  <NL> double diff x = math . pow ( this . x - v . x , 2 ) ;  <NL> double diff y = math . pow ( this . y - v . y , 2 ) ;  <NL> double diff z = math . pow ( this . z - v . z , 2 ) ;  <NL> return diff x + diff y + diff z ;  <NL>  }  COM: <s> calc norm calculates the square of the magnitude of the vector </s>

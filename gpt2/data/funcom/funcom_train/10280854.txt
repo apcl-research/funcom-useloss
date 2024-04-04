@@ -1,0 +1,1 @@
+TDAT: public void build columns ( ) {  <NL> for ( int i = 0 ; i < m column names . length ; i + + ) {  <NL> table column l column = new table column ( m table , m column alignments [ i ] ) ;  <NL> l column . set text ( m column names [ i ] ) ;  <NL> l column . set width ( m column width [ i ] ) ;  <NL>  }  <NL>  }  COM: <s> generate the table columns </s>

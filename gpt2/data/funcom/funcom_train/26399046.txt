@@ -1,0 +1,1 @@
+TDAT: public void test start content ( ) {  <NL> assert true ( html . starts with (  <NL>  " < ! doctype html public \ " - / / w3c / / dtd xhtml 1 . 0 strict / / en\ " " +  <NL>  " \ " http : / / www . w3 . org / tr / xhtml1 / dtd / xhtml1 - strict . dtd\ " > \n < html > " ) ) ;  <NL>  }  COM: <s> tests the static content at the beginning of the html file </s>

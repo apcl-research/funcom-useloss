@@ -1,0 +1,1 @@
+TDAT: public function type build ( ) {  <NL> return new function type ( registry , name , source node ,  <NL> new arrow type ( registry , parameters node , return type , inferred return type ) ,  <NL> type of this , template type name , is constructor , is native type ) ;  <NL>  }  COM: <s> construct a new function type </s>

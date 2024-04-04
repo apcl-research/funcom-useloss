@@ -1,0 +1,1 @@
+TDAT: public string get participant from user id ( string user id , string handle ) throws io exception {  <NL> map < string , string > params = prepare param map ( " get participant from user id " , handle ) ;  <NL> params . put ( " id " , user id ) ;  <NL> return execute get ( _ service uri , params ) ;  <NL>  }  COM: <s> gets the participant with the specified user id </s>

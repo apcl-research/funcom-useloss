@@ -1,0 +1,1 @@
+TDAT: public void run ( ) {  <NL> try {  <NL> for ( int i = 0 ; i < msgs . length ; i + + ) {  <NL> invoke status update ( splash window . this . msgs [ i ] ) ;  <NL> thread . sleep ( splash window . this . interval ) ;  <NL>  }  <NL>  } catch ( interrupted exception e ) {  <NL> log . warn ( " splash sleep interrupted " , e ) ;  <NL>  }  <NL>  }  COM: <s> thread of execution </s>

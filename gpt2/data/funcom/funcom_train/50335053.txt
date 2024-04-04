@@ -1,0 +1,1 @@
+TDAT: public int get cv val ( int cv ) {  <NL>  / / try to get something from hash table <NL> integer saw = ( m values . get ( integer . value of ( cv ) ) ) ;  <NL> if ( saw ! = null ) return saw . int value ( ) ;  <NL> log . warn ( " cv " + cv + " has no defined value " ) ;  <NL> return - 1 ;  <NL>  }  COM: <s> get the cv value directly without going through </s>

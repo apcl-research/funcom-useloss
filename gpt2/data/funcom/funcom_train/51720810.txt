@@ -1,0 +1,1 @@
+TDAT: public void dbgwri ( i _ stack _ elt module , string txt , boolean isrcv ) {  <NL> if ( module . isdebug ( ) ) {  <NL> string dir = " down " ;  <NL> if ( ! ( isrcv ^ module . isfrommedia ( ) ) ) {  <NL> dir = " up " ;  <NL>  }  <NL> t deb . wri ( " | " + module . to string ( ) + " | " + dir + " | " + txt ) ;  <NL>  }  <NL>  }  COM: <s> report for stacks logs </s>

@@ -1,0 +1,1 @@
+TDAT: private void init area ( ) {  <NL> int x = get x ( ) - menu _ item _ margin ;  <NL> int y = get y ( ) - menu _ item _ margin ;  <NL> int max width = get max width ( ) + menu _ item _ margin ;  <NL> int max height = get max height ( ) + menu _ item _ margin ;  <NL> set area ( x , y , max width , max height ) ;  <NL>  }  COM: <s> set the area that this menu items covers </s>

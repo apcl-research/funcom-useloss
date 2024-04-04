@@ -1,0 +1,1 @@
+TDAT: protected void add match ( match m , int index ) {  <NL> times _ [ index ] + + ;  <NL> if ( m . is win ( ) ) wins _ [ index ] + + ;  <NL> else if ( m . is draw ( ) ) draws _ [ index ] + + ;  <NL> else if ( m . is loss ( ) ) losses _ [ index ] + + ;  <NL>  }  COM: <s> updates the times and results indexes </s>

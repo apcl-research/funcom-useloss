@@ -1,0 +1,1 @@
+TDAT: public void test update ( ) {  <NL> system . out . println ( " test update " ) ;  <NL>  <NL> action event e = new action event ( new object ( ) , action event . action _ performed , " command " ) ;  <NL> gp graphpad gp = new gp graphpad ( ) ;  <NL> file new fn = new file new ( gp ) ;  <NL> fn . update ( ) ;  <NL>  }  COM: <s> tests update method of class file new </s>

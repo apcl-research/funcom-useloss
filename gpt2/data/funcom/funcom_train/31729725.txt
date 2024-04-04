@@ -1,0 +1,1 @@
+TDAT: protected void draw line ( graphics g , int x1 , int y1 , int x2 , int y2 ) {  <NL> if ( g instanceof graphics2d )  <NL>  ( ( graphics2d ) g ) . draw ( new line2d . double ( x1 , y1 , x2 , y2 ) ) ;  <NL> else <NL> g . draw line ( x1 , y1 , x2 , y2 ) ;  <NL>  }  COM: <s> a special function to draw lines </s>

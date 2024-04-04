@@ -1,0 +1,1 @@
+TDAT: public void test hashcode ( ) throws exception {  <NL> point mutation pm = new point mutation ( 42 , " w " , " g " ) ;  <NL> assert equals ( ( pm . get class ( ) . get name ( ) + pm . to string ( ) ) . hash code ( ) , pm . hash code ( ) ) ;  <NL>  }  COM: <s> test that the hashcode method functions as expected </s>

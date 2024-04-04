@@ -1,0 +1,1 @@
+TDAT: private void initialize ( object [ ] sorted ) {  <NL> keys . remove all elements ( ) ;  <NL> data . remove all elements ( ) ;  <NL> int n = sorted . length ;  <NL> for ( int i = 0 ; i < n ; i + = 2 ) {  <NL> keys . add element ( sorted [ i ] ) ;  <NL> data . add element ( sorted [ i + 1 ] ) ;  <NL>  }  <NL>  }  COM: <s> initialize with a set of already sorted </s>

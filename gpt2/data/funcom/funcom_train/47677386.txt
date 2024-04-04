@@ -1,0 +1,1 @@
+TDAT: private void set cur cell y ( int p _ row id , excel object p _ excel object ) {  <NL> int row id = p _ row id ;  <NL> if ( row id < - 1 ) {  <NL> row id = - 1 ;  <NL>  }  <NL> p _ excel object . set current cell ( new int [ ] { p _ excel object . get current cell ( ) [ 0 ] , row id } ) ;  <NL>  }  COM: <s> sets the row id of the current cell y position </s>

@@ -1,0 +1,1 @@
+TDAT: private splash window start splash ( ) {  <NL> string [ ] msgs = { " db prophet 1 . 0 " , " calvin yu " , " www . mobi x . org " } ;  <NL> splash window splash = new splash window ( image factory . get instance ( ) . get image ( " splash . jpg " ) ) ;  <NL> splash . start ( msgs , 1500 ) ;  <NL> return splash ;  <NL>  }  COM: <s> run the splash sequence </s>

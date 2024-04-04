@@ -1,0 +1,1 @@
+TDAT: private float distance ( float x1 , float x2 , float y1 , float y2 , float z1 , float z2 ) {  <NL> float xdiff , ydiff , zdiff ;  <NL> xdiff = x2 - x1 ;  <NL> ydiff = y2 - y1 ;  <NL> zdiff = z2 - z1 ;  <NL> return ( float ) math . sqrt ( xdiff * xdiff + ydiff * ydiff + zdiff * zdiff ) ;  <NL>  }  COM: <s> the private distance method </s>

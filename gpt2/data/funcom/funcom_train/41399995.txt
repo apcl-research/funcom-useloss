@@ -1,0 +1,1 @@
+TDAT: public void set selected item ( object item ) {  <NL> if ( ( ( selected item ! = null ) & & ! selected item . equals ( item ) ) || ( ( selected item = = null ) & & ( item ! = null ) ) ) {  <NL> selected item = ( t ) item ;  <NL> fire contents changed ( this , - 1 , - 1 ) ;  <NL>  }  <NL>  }  COM: <s> sets the selected item attribute of the sorted combo box model object </s>

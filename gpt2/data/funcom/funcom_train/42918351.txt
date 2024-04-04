@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> return " texture [ " + texture id + " , " + width + " , " + height + " , " +  <NL> texture width + " , " + texture heigth + " , " + width ratio + " , " + height ratio + " ] " ;  <NL>  }  COM: <s> returns a string representation of the image </s>

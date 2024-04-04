@@ -1,0 +1,1 @@
+TDAT: public i value type get local ( int index ) {  <NL> if ( ( index < 0 ) || ( index > = _ max locals ) ) {  <NL> throw new invalid method state exception ( " variable index out of range ( was " + index + " , should be 0 . . " + ( _ max locals - 1 ) + " ) " ) ;  <NL>  }  <NL> return _ locals [ index ] ;  <NL>  }  COM: <s> return the content of a local variable </s>

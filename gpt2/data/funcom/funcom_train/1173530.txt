@@ -1,0 +1,1 @@
+TDAT: public boolean is only mana cost ( ) {  <NL> return ! sac cost & & ! exile cost & & ! exile from hand cost & & ! exile from grave cost & & ! exile from top cost & & ! tap cost & &  <NL>  ! tap x type cost & & ! untap cost & & ! subtract counter cost & & ! add counter cost & & ! life cost & & ! discard cost & & ! return cost ;  <NL>  }  COM: <s> p is only mana cost </s>

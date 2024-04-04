@@ -1,0 +1,1 @@
+TDAT: public dt node get child node by sym ( int sym ) {  <NL> for ( int i = 0 ; i < child nodes . size ( ) ; i + + )  <NL> if ( ( ( dt node ) child nodes . get ( i ) ) . symbol = = sym )  <NL> return ( dt node ) this . child nodes . get ( i ) ;  <NL> return null ;  <NL>  }  COM: <s> return the child node with the symbol sym </s>

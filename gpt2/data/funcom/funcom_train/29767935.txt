@@ -1,0 +1,1 @@
+TDAT: public void add resource bundle ( locale locale , resource bundle bundle ) {  <NL> v sert . arg not null ( " locale " , locale ) ;  <NL> v sert . arg not null ( " bundle " , bundle ) ;  <NL> synchronized ( _ res bundles ) {  <NL> get res bundles ( ) . put ( locale , bundle ) ;  <NL>  }  <NL>  }  COM: <s> adds a resource bundle </s>

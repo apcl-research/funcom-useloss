@@ -1,0 +1,1 @@
+TDAT: private void add post ( post post , boolean is update ) {  <NL> delicious . add post ( post . get href ( ) , post . get description ( ) , post . get extended ( ) ,  <NL> null , post . get time ( ) , is update , post . is shared ( ) ) ;  <NL>  }  COM: <s> adds a post to the delicious site </s>

@@ -1,0 +1,1 @@
+TDAT: protected void parse end ( final element cur , final species species ) {  <NL> final element elm = cur . get child ( " end " ) ;  <NL> if ( elm = = null ) { return ; }  <NL> end action = action prototype . build from xml ( elm , species ) ;  <NL>  / / @ ad fixme et si on veut faire un " set " ou un " add / remove " ? ? ?  <NL>  }  COM: <s> parses the end </s>

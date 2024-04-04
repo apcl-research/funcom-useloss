@@ -1,0 +1,1 @@
+TDAT: public boolean is non working day ( final e date ) {  <NL> if ( date ! = null & & ( holiday calendar . get early boundary ( ) ! = null || holiday calendar . get late boundary ( ) ! = null ) ) {  <NL> check boundary ( date ) ;  <NL>  }  <NL> return ( is weekend ( date ) || holiday calendar . is holiday ( date ) ) ;  <NL>  }  COM: <s> is the given date a non working day </s>

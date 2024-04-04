@@ -1,0 +1,1 @@
+TDAT: private boolean equals string ( string s1 , string s2 ) {  <NL> if ( ( s1 = = null || s1 . length ( ) = = 0 ) & & ( s2 = = null || s2 . length ( ) = = 0 ) ) {  <NL> return true ;  <NL>  }  <NL> return s1 ! = null & & s2 ! = null & & s1 . equals ( s2 ) ;  <NL>  }  COM: <s> compares two string </s>

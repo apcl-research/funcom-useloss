@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> return get class ( ) + " \n var ferr : " + var feci + " \n var orth : "  <NL>  + var orth ci + " \n vec ferr : " + vec feci + " \n vec orth : "  <NL>  + vec orth ci + " \n svar : " + svar ci + " \n svec : " + svec ci ;  <NL>  }  COM: <s> a string representation of this </s>

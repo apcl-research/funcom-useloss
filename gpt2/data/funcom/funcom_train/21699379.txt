@@ -1,0 +1,1 @@
+TDAT: private void update range ( final double x , final double y ) {  <NL> m min x = math . min ( m min x , x ) ;  <NL> m max x = math . max ( m max x , x ) ;  <NL> m min y = math . min ( m min y , y ) ;  <NL> m max y = math . max ( m max y , y ) ;  <NL>  }  COM: <s> updates the range on both axes </s>

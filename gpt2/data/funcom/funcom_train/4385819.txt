@@ -1,0 +1,1 @@
+TDAT: public double get hub score ( string url ) {  <NL> long id = ( long ) ( url _ to _ id . get ( new long ( ( ( object ) ( url . to string ( ) ) ) . hash code ( ) ) ) ) ;  <NL> double aux = ( double ) ( url _ hub _ score . get ( id ) ) ;  <NL> return ( aux = = null ) ? - 1 : aux . double value ( ) ;  <NL>  }  COM: <s> gets the hub score attribute of the related object </s>

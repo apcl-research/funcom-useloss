@@ -1,0 +1,1 @@
+TDAT: public void export screen capture ( ) {  <NL> date format date format = new simple date format ( " yyyy - mm - dd _ hh : mm : ss " ) ;  <NL> date date = new date ( ) ;  <NL> tree . export screen capture ( frame . dir _ path + " / tree _ screencaps / " + date format . format ( date ) + " . png " ) ;  <NL>  }  COM: <s> exports the current tree view as screencap </s>

@@ -1,0 +1,1 @@
+TDAT: protected color get color ( color color , double probability ) {  <NL> int r = color . get red ( ) ;  <NL> int g = color . get green ( ) ;  <NL> int b = color . get blue ( ) ;  <NL> int a = ( int ) ( color . get alpha ( ) * probability ) ;  <NL> return new color ( r , g , b , a ) ;  <NL>  }  COM: <s> improves the opacity of the color to match the probability </s>

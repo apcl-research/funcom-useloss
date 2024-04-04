@@ -1,0 +1,1 @@
+TDAT: public int compare to ( object o ) {  <NL> try {  <NL> common concept key other = ( ( cap common ref ) o ) . get pk ( ) ;  <NL> return my key . compare to ( other ) ;  <NL>  }  <NL> catch ( cap service exception e ) {  <NL> throw new cap service exception ( e , " failed to compare keys in cap common " ) ;  <NL>  }  <NL>  }  COM: <s> comparable implementation method </s>

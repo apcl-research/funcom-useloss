@@ -1,0 +1,1 @@
+TDAT: public void add ( command def sequence cmd def seq ) {  <NL> for ( int i = 0 ; i < cmd def seq . user data . size ( ) ; i + + ) {  <NL> command def cmd def = ( command def ) cmd def seq . user data . get ( i ) ;  <NL> put ( cmd def . name , cmd def ) ;  <NL>  }  <NL>  }  COM: <s> add all command defs in cmd def seq to this collection </s>

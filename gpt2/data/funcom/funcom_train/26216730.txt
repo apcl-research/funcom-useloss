@@ -1,0 +1,1 @@
+TDAT: private int create texture id ( ) {  <NL> log . fine ( " get texture id " ) ;  <NL> int [ ] texture i ds = new int [ 1 ] ;  <NL> gl . gl gen textures ( 1 , texture i ds , 0 ) ;  <NL> log . fine ( " texture i ds [ 0 ] : " + texture i ds [ 0 ] ) ;  <NL> return texture i ds [ 0 ] ;  <NL>  }  COM: <s> creates texture id </s>

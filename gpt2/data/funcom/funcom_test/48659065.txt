@@ -1,0 +1,1 @@
+TDAT: public void record ( string token , string app id , string client id , string description ) throws exception {  <NL> record ( token , app id , event . event _ type _ record , client id , description , - 1 . 0 , event . nolat , event . nolon , - 1 . 0 ) ;  <NL>  }  COM: <s> records an event for the given application identified by app id </s>

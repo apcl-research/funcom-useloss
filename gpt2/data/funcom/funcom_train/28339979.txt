@@ -1,0 +1,1 @@
+TDAT: public double norm2 ( ) {  <NL> this . set elem ( phase index hom . hom , phase index hom . hom , 0 . 0 ) ;  <NL> double dbl norm = this . get matrix ( ) . norm2 ( ) ;  <NL> this . set elem ( phase index hom . hom , phase index hom . hom , 1 . 0 ) ;  <NL>  <NL> return dbl norm ;  <NL>  } ;  COM: <s> return the l 2 norm of this matrix which is the maximum </s>

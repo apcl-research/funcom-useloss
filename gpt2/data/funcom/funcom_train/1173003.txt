@@ -1,0 +1,1 @@
+TDAT: public void add intrinsic keyword ( string s ) {  <NL> if ( s . trim ( ) . length ( ) ! = 0 )  <NL> intrinsic keyword . add ( s ) ;  <NL>  / / intrinsic keyword . add ( ( get name ( ) . trim ( ) . length ( ) = = 0 ? s : s . replace all ( get name ( ) , " cardname " ) ) ) ;  <NL>  }  COM: <s> p add intrinsic keyword </s>

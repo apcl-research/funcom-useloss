@@ -1,0 +1,1 @@
+TDAT: public string format for sql statement ( string value ) {  <NL> if ( needs quotation marks ( ) ) {  <NL> return " \ ' " + value . replace ( " \\ " , " \\\\ " ) . replace ( " ' " , " \\\ ' " ) . replace ( " \ " " , " \\\ " " ) + " \ ' " ;  <NL>  } else {  <NL> return value ;  <NL>  }  <NL>  }  COM: <s> returns the given string to be used in an sql statement </s>

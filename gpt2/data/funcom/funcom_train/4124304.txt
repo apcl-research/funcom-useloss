@@ -1,0 +1,1 @@
+TDAT: public image get overlay image ( tile type type , int x , int y ) {  <NL> if ( ( x + y ) % 2 = = 0 ) {  <NL> return overlay1 . get ( type . get id ( ) ) . get image ( ) ;  <NL>  } else {  <NL> return overlay2 . get ( type . get id ( ) ) . get image ( ) ;  <NL>  }  <NL>  }  COM: <s> returns the overlay image for the given type </s>

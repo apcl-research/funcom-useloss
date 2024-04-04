@@ -1,0 +1,1 @@
+TDAT: public app version get current app version ( ) {  <NL> return new app version ( get sequence number ( ) ) . set release name ( get release name ( ) ) . set timestamp ( get timestamp ( ) )  <NL>  . set num classes ( get project stats ( ) . get num classes ( ) ) . set code size ( get project stats ( ) . get code size ( ) ) ;  <NL>  }  COM: <s> get the current app version </s>

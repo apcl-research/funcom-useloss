@@ -1,0 +1,1 @@
+TDAT: protected dicom annotation create geom annotation ( ) {  <NL> point2d [ ] axes = convert to axes ( get location ( ) [ 0 ] , get location ( ) [ 1 ] ) ;  <NL> return new dicom elliptical measurement annotation . dicom ellipse annotation ( 1 , axes [ 0 ] , axes [ 1 ] , axes [ 2 ] , axes [ 3 ] ) ;  <NL>  }  COM: <s> method create geom annotation </s>

@@ -1,0 +1,1 @@
+TDAT: protected int add ( int x , int y ) {  <NL> int l = ( x & 0x ffff ) + ( y & 0x ffff ) ;  <NL> int h = ( x > > 16 ) + ( y > > 16 ) + ( l > > 16 ) ;  <NL> return ( h < < 16 ) | ( l & 0x ffff ) ;  <NL>  / / return ( x + y ) & 0x0ffffffff ;  <NL>  } ;  COM: <s> this method adds two values using 16 bit operations </s>

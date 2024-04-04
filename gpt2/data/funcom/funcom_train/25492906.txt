@@ -1,0 +1,1 @@
+TDAT: public void draw circle ( double x , double y , color color , float size ) {  <NL> cb . set line width ( 1f ) ;  <NL> cb . set color stroke ( color ) ;  <NL> cb . circle ( ( float ) ( x / scale + x min ) , ( float ) ( y / scale ) + y min , size ) ;  <NL> cb . stroke ( ) ;  <NL>  }  COM: <s> draws a circle with the specified position color and size </s>

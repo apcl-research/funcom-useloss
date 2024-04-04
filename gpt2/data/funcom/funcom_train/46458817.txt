@@ -1,0 +1,1 @@
+TDAT: public void set xy ( double x , double y ) {  <NL> super . set xy ( x , y ) ;  <NL> double cos = origin . cos ( this ) ;  <NL> double sin = origin . sin ( this ) ;  <NL> int n = vid panel . get frame number ( ) ;  <NL> vid panel . get coords ( ) . set cosine sine ( n , cos , sin ) ;  <NL>  }  COM: <s> overrides tpoint set xy method </s>

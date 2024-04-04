@@ -1,0 +1,1 @@
+TDAT: public void select all rows ( ) {  <NL> if ( get table ( ) . get row count ( ) > 0 ) {  <NL> get table ( ) . get selection model ( ) . set selection interval ( 0 , get table ( ) . get row count ( ) - 1 ) ;  <NL>  <NL>  / / giving the focus to the table to enable copy <NL> get table ( ) . request focus ( ) ;  <NL>  }  <NL>  }  COM: <s> make all the rows selected </s>

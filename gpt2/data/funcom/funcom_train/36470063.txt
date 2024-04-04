@@ -1,0 +1,1 @@
+TDAT: public void set log file name ( string new name ) {  <NL> if ( f log ! = null ) {  <NL> try {  <NL> f log . close ( ) ;  <NL>  } catch ( io exception ex ) {  <NL> new report exception ( ex ) . execute ( ) ;  <NL>  }  <NL> f log = null ;  <NL>  }  <NL> file log name = new name ;  <NL> my track . v points . set size ( 0 ) ;  <NL>  }  COM: <s> set the log file name </s>

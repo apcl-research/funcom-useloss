@@ -1,0 +1,1 @@
+TDAT: protected void remove args ( int i , int n ) {  <NL> array list < string > a = new array list < string > ( arrays . as list ( this . arguments ) ) ;  <NL> while ( n - - > 0 ) a . remove ( i ) ;  <NL> this . arguments = a . to array ( new string [ a . size ( ) ] ) ;  <NL>  }  COM: <s> argument pair was removed adjust rest of args accordingly </s>

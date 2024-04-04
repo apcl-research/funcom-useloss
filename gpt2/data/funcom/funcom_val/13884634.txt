@@ -1,0 +1,1 @@
+TDAT: public void update edge ( ) {  <NL>  / / gl appearance app = new gl appearance ( ) ;  <NL>  / / app = geom . get app ( ) ;  <NL>  / /  <NL>  / / gl line line = ( gl line ) geom ;  <NL>  <NL>  / / line . set coordinate ( gl line . from _ vertex , from p ) ;  <NL>  / / line . set coordinate ( gl line . to _ vertex , to p ) ;  <NL>  }  COM: <s> method update edge </s>

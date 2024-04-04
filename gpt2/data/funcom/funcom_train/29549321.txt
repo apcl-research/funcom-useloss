@@ -1,0 +1,1 @@
+TDAT: public void create subject2predicate edge ( node subject node , node predicate node ) {  <NL> final edge edge = new edge ( subject node , predicate node , edge . default _ length , edge . edge _ type _ line ) ;  <NL> edge . set color ( render . get edge default color ( ) ) ;  <NL> tg panel . add edge ( edge ) ;  <NL>  }  COM: <s> create subject to predicate edge </s>

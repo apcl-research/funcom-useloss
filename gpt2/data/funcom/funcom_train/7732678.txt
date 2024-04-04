@@ -1,0 +1,1 @@
+TDAT: public int push ( string s ) {  <NL> int res ;  <NL> string buffer msg = new string buffer ( ) ;  <NL> msg . append ( " id = " ) . append ( user ) . append ( " & " ) . append ( s ) ;  <NL> res = push ( wp url , msg . to string ( ) ) ;  <NL> return res ;  <NL>  / / return push ( url , s ) ;  <NL>  }  COM: <s> post data in bytes to the server </s>

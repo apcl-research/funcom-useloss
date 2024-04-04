@@ -1,0 +1,1 @@
+TDAT: public void show ( string ident ) {  <NL> if ( _ j < 0 )  <NL> system . out . println ( ident + " : " + get real ( ) + " - j "  <NL>  + math . abs ( get imag ( ) ) ) ;  <NL> else <NL> system . out . println ( ident + " : " + get real ( ) + " + j " + get imag ( ) ) ;  <NL>  } / / show  COM: <s> print this complex number to console with an identifier before </s>

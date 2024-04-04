@@ -1,0 +1,1 @@
+TDAT: private boolean test outer reshape ( ) {  <NL> int [ ] [ ] starting shapes = { { 2 , 3 , 4 , 5 , 6 } , { 1 , 2 , 7 , 5 } , { 1 , 2 , 4 , 5 } } ; / / , { 100 , 105 , 150 , 71 } } ;  COM: <s> test outer reshape tests the out reshape functions for the block </s>

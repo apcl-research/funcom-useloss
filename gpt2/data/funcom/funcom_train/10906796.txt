@@ -1,0 +1,1 @@
+TDAT: public void write c map ( ) throws io exception {  <NL> write cid init ( ) ;  <NL> write cid system info ( " adobe " , " ucs " , 0 ) ;  <NL> write name ( " adobe - identity - ucs " ) ;  <NL> write type ( " 2 " ) ;  <NL> write code space range ( single byte ) ;  <NL> write bf entries ( ) ;  <NL> write wrap up ( ) ;  <NL>  }  COM: <s> writes the cmap to a writer </s>

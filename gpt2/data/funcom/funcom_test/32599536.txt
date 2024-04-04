@@ -1,0 +1,1 @@
+TDAT: protected boolean apply values ( ) {  <NL> text = new string [ 2 ] ;  <NL> text [ 0 ] = segment name text field . get text ( ) ;  <NL> text [ 1 ] = " segment " + segment name text field . get text ( ) + " { \n "  <NL>  + advanced text area . get text ( ) + " \n "  <NL>  + " } \n " ;  <NL> return true ;  <NL>  }  COM: <s> takes current textfield entry as text </s>

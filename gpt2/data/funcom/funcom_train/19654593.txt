@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> string buffer buf = new string buffer ( " das method . id : ' " ) ;  <NL> buf . append ( id )  <NL>  . append ( " ' method : ' " )  <NL>  . append ( ( cv id = = null ) ? " null " : cv id )  <NL>  . append ( " ' " ) ;  <NL> return buf . to string ( ) ;  <NL>  }  COM: <s> to string simple representation of this object </s>

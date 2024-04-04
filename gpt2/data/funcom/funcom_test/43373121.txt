@@ -1,0 +1,1 @@
+TDAT: public string print count ( ) {  <NL> if ( is null ( ) ) return " " ;  <NL> string count base = " " ;  <NL> for ( int a count : base count ) {  <NL> count base + = a count + " \t " ;  <NL>  }  <NL> return chromosome + " \t " + index + " \t " + ref + " \t " + count base + indel ;  <NL>  }  COM: <s> print count information </s>

@@ -1,0 +1,1 @@
+TDAT: private void ls finterpolate2a _ dec ( double [ ] a , double [ ] lsf1 , double [ ] lsf2 , int lsf2p , double coef , int length ) {  <NL> double [ ] lsftmp = new double [ lpc _ filterorder ] ;  <NL>  <NL> interpolate ( lsftmp , lsf1 , lsf2 , lsf2p , coef , length ) ;  <NL> lsf2a ( a , lsftmp ) ;  <NL>  }  COM: <s> interpolation of lsf coefficients for the decoder </s>

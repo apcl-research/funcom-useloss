@@ -1,0 +1,1 @@
+TDAT: public void show error message ( string msg ) {  <NL> document doc = console . get styled document ( ) ;  <NL> try {  <NL> doc . insert string ( doc . get end position ( ) . get offset ( ) - 1 , msg + " \n " ,  <NL> this . red set ) ;  <NL>  } catch ( bad location exception e ) {  <NL>  / / ignore the error <NL>  }  <NL>  }  COM: <s> shows an error message </s>

@@ -1,0 +1,1 @@
+TDAT: protected void set into ( configuration conf , log log ) {  <NL> if ( log ! = null & & log . is trace enabled ( ) )  <NL> log . trace ( _ loc . get ( " conf - load " , get properties ( ) ) ) ;  <NL> if ( _ props ! = null )  <NL> conf . from properties ( _ props ) ;  <NL>  }  COM: <s> set properties into configuration </s>

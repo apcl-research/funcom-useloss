@@ -1,0 +1,1 @@
+TDAT: public void add attribute ( string name , string value ) throws io exception {  <NL> spacing ( ) ;  <NL> m _ out . write ( name ) ;  <NL> m _ out . write ( ' = ' ) ;  <NL> m _ out . write ( ' \ " ' ) ;  <NL> escape string ( value ) ;  <NL> m _ out . write ( ' \ " ' ) ;  <NL> writeln ( ) ;  <NL>  }  COM: <s> write a new attribut to an existing tag </s>

@@ -1,0 +1,1 @@
+TDAT: public void test sleep ( ) throws native exception {  <NL> int time = 200 ;  <NL> long begin = system . current time millis ( ) ;  <NL> native impl . sleep ( time ) ;  <NL> long end = system . current time millis ( ) ;  <NL> long diff = end - begin ;  <NL> assert true ( " unespected time : " + diff , diff > = time ) ;  <NL>  }  COM: <s> tests the sleep method </s>

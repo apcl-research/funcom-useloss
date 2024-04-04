@@ -1,0 +1,1 @@
+TDAT: public script event fire _ before output ( ) {  <NL> script event source event source = this . get event source ( " before output " ) ;  <NL> return get session ( ) . fire event ( this , event source . name , " " , " " , " " , event source , get filename ( ) , false ) ;  <NL>  }  COM: <s> this event is fired just before expanding </s>

@@ -1,0 +1,1 @@
+TDAT: public t cast ( object classss , @ optional object . . . expr ) {  <NL> if ( expr . length = = 0 ) {  <NL>  _ begin param ( ) . _ add ( classss ) . _ end param ( ) ;  <NL>  } else {  <NL> call ( get ( classss , classs ) , " cast " , expr ) ;  <NL>  }  <NL> return _ this ( ) ;  <NL>  }  COM: <s> yields a cast </s>

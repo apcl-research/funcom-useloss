@@ -1,0 +1,1 @@
+TDAT: private void gen getter method for proxy ( mof class proxy ) {  <NL> if ( proxy . get visibility ( ) = = visibility kind enum . public _ vis ) {  <NL> sline ( " public " + type ( proxy ) + " class " ) ;  <NL> println ( " get " + jmi . name of interface ( proxy ) + " ( ) ; " ) ;  <NL>  }  <NL>  }  COM: <s> generates getter method for proxy objects </s>

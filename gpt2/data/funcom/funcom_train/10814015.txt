@@ -1,0 +1,1 @@
+TDAT: public object js eval ( string name , string script ) {  <NL> try {  <NL> return get context ( ) . evaluate string ( scope , script , name , 1 , null ) ;  <NL>  } catch ( ecma error e ) {  <NL> throw new runtime exception ( " can ' t evaluate " + name + " : " + script , e ) ;  <NL>  }  <NL>  }  COM: <s> evaluate a javascript string </s>

@@ -1,0 +1,1 @@
+TDAT: public void add json ( integer id , string msg ) {  <NL> assert . not null ( id ) ;  <NL> assert . is true ( id > = 0 ) ;  <NL> if ( json = = null ) {  <NL> this . json = new hash map < integer , string > ( ) ;  <NL>  }  <NL> this . json . put ( id , msg ) ;  <NL>  }  COM: <s> id play two roles flag bit and message identification </s>

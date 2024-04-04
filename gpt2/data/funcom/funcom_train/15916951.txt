@@ -1,0 +1,1 @@
+TDAT: public boolean can reach ( x promise p ) {  <NL> if ( p = = this ) return true ;  <NL> if ( value ! = null ) return value . can reach ( p ) ;  <NL> if ( fields ! = null )  <NL> for ( x promise q : fields . values ( ) )  <NL> if ( q . can reach ( p ) ) return true ;  <NL> return false ;  <NL>  }  COM: <s> is there a path from here to p </s>

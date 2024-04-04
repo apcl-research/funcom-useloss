@@ -1,0 +1,1 @@
+TDAT: public boolean edge exists ( char start , char end ) {  <NL>  / / get the edge ' s indices <NL> int my _ start = translate char index ( start ) ;  <NL> int my _ end = translate char index ( end ) ;  <NL>  <NL>  / / return whether the edge exists or not <NL> return my _ edgeset [ my _ start ] [ my _ end ] . is activated ( ) ;  <NL>  }  COM: <s> functon edge exists </s>

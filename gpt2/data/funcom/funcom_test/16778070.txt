@@ -1,0 +1,1 @@
+TDAT: public void axpy ( double alpha , i matrix x ) {  <NL> for ( int i = 0 ; i < this . m ; i + + ) {  <NL> for ( int j = 0 ; j < this . n ; j + + ) {  <NL> this . values [ i ] [ j ] + = alpha * x . get value ( i , j ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> axpy operation on matrices y alpa x y </s>

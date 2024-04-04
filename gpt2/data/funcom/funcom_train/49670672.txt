@@ -1,0 +1,1 @@
+TDAT: private void create label app name ( ) {  <NL> label app name = new label ( shell , swt . none ) ;  <NL> label app name . set text ( version . app _ name ) ;  <NL> label app name . set layout data ( shared style . relative to ( null , logo ) ) ;  <NL> label app name . set font ( shared style . font _ bold ) ;  <NL>  }  COM: <s> creates label with application name </s>

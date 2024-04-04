@@ -1,0 +1,1 @@
+TDAT: public void add list ( bean descriptor < ? > desc , list < object > id list ) {  <NL>  <NL> bean persist ids r = get persist ids ( desc ) ;  <NL> for ( int i = 0 ; i < id list . size ( ) ; i + + ) {  <NL> r . add id ( persist request . type . delete , ( serializable ) id list . get ( i ) ) ;  <NL>  }  <NL>  }  COM: <s> add a list of insert update or delete ids </s>

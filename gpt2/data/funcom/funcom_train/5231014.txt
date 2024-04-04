@@ -1,0 +1,1 @@
+TDAT: public void set acceptable dates ( date [ ] dates ) {  <NL> string [ ] s dates = new string [ dates . length ] ;  <NL> for ( int i = 0 ; i < dates . length ; i + + ) {  <NL> s dates [ i ] = date fmt . format ( dates [ i ] ) ;  <NL>  }  <NL> super . set acceptable values ( s dates ) ;  <NL>  }  COM: <s> sets the values that will be acceptable for this parameter using </s>

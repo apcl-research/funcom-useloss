@@ -1,0 +1,1 @@
+TDAT: public void init flags ( ) {  <NL>  _ flags . clear ( ) ;  <NL> for ( int i = 1 ; i < env _ height ; + + i ) {  <NL> for ( int j = 1 ; j < env _ width ; + + j ) {  <NL> if ( get square type ( i , j ) = = type of element . flag ) {  <NL>  _ flags . add ( get flag ( i , j ) ) ;  <NL>  }  <NL>  }  <NL>  }  <NL>  }  COM: <s> initializing all flags in the game </s>

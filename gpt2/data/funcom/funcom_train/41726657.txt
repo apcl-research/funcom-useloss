@@ -1,0 +1,1 @@
+TDAT: public void set max count ( final int count ) {  <NL> if ( ( count < 1 ) || ( count < m min count ) ) {  <NL> throw new illegal argument exception ( " max count ( " + count <NL>  + " ) must not be 0 or less than min count ( " + m min count + " ) " ) ;  <NL>  }  <NL> m max count = count ;  <NL>  }  COM: <s> sets the maximum number of times the flag can be specified </s>

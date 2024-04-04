@@ -1,0 +1,1 @@
+TDAT: public void set ( int pos ) {  <NL> if ( pos > = 0 ) {  <NL> if ( pos > = bits . length * elm _ size ) {  <NL> grow bits ( pos ) ;  <NL>  }  <NL> bits [ pos / elm _ size ] | = 1l < < ( pos % elm _ size ) ;  <NL>  } else {  <NL> throw new index out of bounds exception ( " negative index specified " ) ;  <NL>  }  <NL>  }  COM: <s> sets the bit at index pos to 1 </s>

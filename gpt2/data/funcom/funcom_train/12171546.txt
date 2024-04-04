@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> return new string buffer ( ) . append ( " x = ' " ) . append ( x ) .  <NL> append ( " ' y = ' " ) . append ( y ) .  <NL> append ( " ' width = ' " ) . append ( width ) .  <NL> append ( " ' height = ' " ) . append ( height ) . append ( " ' " ) . to string ( ) ;  <NL>  }  COM: <s> for debug purposes only </s>

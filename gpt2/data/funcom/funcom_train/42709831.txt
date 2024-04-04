@@ -1,0 +1,1 @@
+TDAT: public double get spread ( ) {  <NL> double spread = 0 ;  <NL> for ( int i = 0 ; i < stats . size ( ) ; i + + ) {  <NL> double s = stats . get ( i ) . spread ( goals . get ( i ) ) ;  <NL> spread + = s * s * goal weights . get ( i ) ;  <NL>  }  <NL> return spread ;  <NL>  }  COM: <s> full difference compute delta squared difference between stats and goals going </s>

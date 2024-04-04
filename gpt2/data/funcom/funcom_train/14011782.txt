@@ -1,0 +1,1 @@
+TDAT: private void trim x ( ) {  <NL> if ( grid y size = = 1 ) {  <NL> cell [ ] cell array = get cell array ( 0 , false ) ;  <NL> for ( int i = 0 ; i < grid x size ; + + i ) {  <NL> if ( cell array [ i ] = = null ) {  <NL> grid x size = i ;  <NL>  }  <NL>  }  <NL>  }  <NL>  }  COM: <s> special case trim excess null cells from grid x size if the </s>

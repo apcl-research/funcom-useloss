@@ -1,0 +1,1 @@
+TDAT: public boolean lookup resource ( pastry id id ) {  <NL> if ( ! is joined ( ) )  <NL> throw new illegal state exception ( " node " + owner . get pastry id ( ) + " is in state " + get state ( ) + " , thus cannot issue pastry lookups " ) ;  <NL> return this . lookup resource ( id , 0 ) ;  <NL>  }  COM: <s> starts a pastry resource lookup operation </s>

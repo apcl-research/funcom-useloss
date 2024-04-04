@@ -1,0 +1,1 @@
+TDAT: public jc literal make boolean literal ( int pos , boolean value ) {  <NL> jc literal r = factory . at ( pos ) . literal ( type tags . boolean , value ? 1 : 0 ) ;  <NL> r . type = syms . boolean type ; / / fixme - make constant - but do we use a booleann value or the 0 / 1 <NL> return r ;  <NL>  }  COM: <s> makes a constant boolean literal ast node </s>

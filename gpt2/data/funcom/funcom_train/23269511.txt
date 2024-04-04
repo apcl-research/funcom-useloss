@@ -1,0 +1,1 @@
+TDAT: public boolean is default path restriction enabled ( final page . request page request ) throws ww weee portal . exception {  <NL> return get config prop ( default _ path _ restriction _ enable _ prop , page request , rs properties . result _ boolean _ converter , boolean . false , false , false ) . boolean value ( ) ;  <NL>  }  COM: <s> is the default path restriction </s>

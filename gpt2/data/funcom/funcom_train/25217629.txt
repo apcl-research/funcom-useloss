@@ -1,0 +1,1 @@
+TDAT: public void print ( print writer w , string prefix ) {  <NL>  <NL> string [ ] keys = map . key set ( ) . to array ( new string [ map . size ( ) ] ) ;  <NL> arrays . sort ( keys ) ;  <NL> for ( string key : keys ) {  <NL> map . get ( key ) . print ( w , prefix ) ;  <NL>  }  <NL>  }  COM: <s> print this net </s>

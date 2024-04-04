@@ -1,0 +1,1 @@
+TDAT: protected void refresh vita rows ( ) {  <NL> remove all vita rows ( ) ;  <NL> for ( int i = 0 ; i < this . get vita rows ( ) . size ( ) ; i + + ) {  <NL> this . get col rows ( ) . add ( this . get vita rows ( ) . get ( i ) . get column ( ) ) ;  <NL>  }  <NL>  }  COM: <s> removes all vita rows from the panel and adds them again </s>

@@ -1,0 +1,1 @@
+TDAT: public list get ann paths ( ) {  <NL>  / / itterate over children <NL> list paths = new array list ( ) ;  <NL> for ( int ci = 0 ; ci < children . size ( ) ; ci + + ) {  <NL> paths . add ( ( ( project item ) children . get ( ci ) ) . get file path ( ) ) ;  <NL>  }  <NL> return ( paths ) ;  <NL>  }  COM: <s> provides a list of paths to annotated files for this item </s>

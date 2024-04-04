@@ -1,0 +1,1 @@
+TDAT: public void add known uri prefixes ( map < string , uri > known uri prefixes ) {  <NL> for ( final entry < string , uri > entry : known uri prefixes . entry set ( ) ) {  <NL> this . known uri prefixes . put ( entry . get key ( ) , entry . get value ( ) ) ;  <NL>  }  <NL> known uri prefixes set = true ;  <NL>  }  COM: <s> add an uri map used as n3 prefixes </s>

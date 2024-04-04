@@ -1,0 +1,1 @@
+TDAT: public project get project ( string title ) throws aris exception {  <NL> list result = super . get hibernate template ( ) . find by named query and named param ( " project . getbytitle " , " title " , title ) ;  <NL> if ( result . size ( ) < 1 ) return null ;  <NL> return ( project ) result . get ( 0 ) ;  <NL>  }  COM: <s> gets the project with the given title </s>

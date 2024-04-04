@@ -1,0 +1,1 @@
+TDAT: public int compare to ( jumping solitaire state jss ) {  <NL> for ( int i = 0 ; i < filled . length ; i + + ) {  <NL> if ( ! filled [ i ] & & jss . filled [ i ] ) { return - 1 ; }  <NL> if ( filled [ i ] & & ! jss . filled [ i ] ) { return + 1 ; }  <NL>  }  <NL>  <NL> return 0 ; / / must be same !  <NL>  }  COM: <s> support some meaningful comparison </s>

@@ -1,0 +1,1 @@
+TDAT: public matrix divide ( final matrix b , final matrix c ) {  <NL> check size ( b ) ;  <NL> check size ( c ) ;  <NL> for ( matrix entry me : c ) {  <NL> final int row = me . row ( ) , col = me . column ( ) ;  <NL> me . set ( this . get ( row , col ) / b . get ( row , col ) ) ;  <NL>  }  <NL> return c ;  <NL>  }  COM: <s> c a b where the division is elementwise </s>

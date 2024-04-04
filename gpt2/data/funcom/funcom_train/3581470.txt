@@ -1,0 +1,1 @@
+TDAT: public boolean remove vertex ( v vertex ) {  <NL> for ( iterator < e > iterator = edges . iterator ( ) ; iterator . has next ( ) ; ) {  <NL> edge < v > edge = iterator . next ( ) ;  <NL> if ( edge . get endpoints ( ) . contains ( vertex ) ) {  <NL> iterator . remove ( ) ;  <NL>  }  <NL>  }  <NL> return vertices . remove ( vertex ) ;  <NL>  }  COM: <s> remove the vertex </s>

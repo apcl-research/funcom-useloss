@@ -1,0 +1,1 @@
+TDAT: private void make pm table ( ) {  <NL>  <NL> for ( int i = 0 ; i < pm _ pg _ width ; i + + ) {  <NL> pm table [ i ] = ( int ) ( pm _ amp * math . pow ( 2 , pm _ depth * math . sin ( 2 . 0 * math . pi * i / pm _ pg _ width ) / 1200 ) ) ;  <NL>  }  <NL>  }  COM: <s> table for pitch modulator </s>

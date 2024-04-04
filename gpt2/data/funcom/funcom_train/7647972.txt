@@ -1,0 +1,1 @@
+TDAT: protected void set up ( ) {  <NL> hm = new linked hash map ( ) ;  <NL> for ( int i = 0 ; i < obj array . length ; i + + )  <NL> hm . put ( obj array2 [ i ] , obj array [ i ] ) ;  <NL> hm . put ( " test " , null ) ;  <NL> hm . put ( null , " test " ) ;  <NL>  }  COM: <s> sets up the fixture for example open a network connection </s>

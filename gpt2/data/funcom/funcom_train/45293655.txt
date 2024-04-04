@@ -1,0 +1,1 @@
+TDAT: public void report exception ( throwable ex ) {  <NL> if ( ex . get class ( ) ! = utils . user exception . class )  <NL> ex . print stack trace ( ) ;  <NL> j option pane . show message dialog ( frame , ex . get message ( ) , " max q error " ,  <NL> j option pane . error _ message ) ;  <NL>  }  COM: <s> show an error report in a message box </s>

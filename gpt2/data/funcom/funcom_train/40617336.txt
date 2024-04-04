@@ -1,0 +1,1 @@
+TDAT: protected void assert single value ( statement stat , string sql , int expected ) throws sql exception {  <NL> result set rs = stat . execute query ( sql ) ;  <NL> assert true ( rs . next ( ) ) ;  <NL> assert equals ( expected , rs . get int ( 1 ) ) ;  <NL> assert false ( rs . next ( ) ) ;  <NL>  }  COM: <s> check that the result set of a query is exactly this value </s>

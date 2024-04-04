@@ -1,0 +1,1 @@
+TDAT: public hssf client anchor create anchor ( int dx1 , int dy1 , int dx2 , int dy2 , int col1 , int row1 , int col2 , int row2 ) {  <NL> return new hssf client anchor ( dx1 , dy1 , dx2 , dy2 , ( short ) col1 , row1 , ( short ) col2 , row2 ) ;  <NL>  }  COM: <s> creates a new client anchor and sets the top left and bottom right </s>

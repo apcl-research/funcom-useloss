@@ -1,0 +1,1 @@
+TDAT: public string list ( int send to , int reply to , string actor , uuid actor _ id , string attribute ) throws srcp exception {  <NL> return message ( send to , reply to , actor , actor _ id , " list " , attribute , " " ) ;  <NL>  }  COM: <s> crcf syntax lt actor gt lt actor id gt list lt attribute gt </s>

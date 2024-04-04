@@ -1,0 +1,1 @@
+TDAT: public string get path ( ) {  <NL>  / / todo : cache ? compute upfront ?  <NL> if ( m parent = = null )  <NL> return z mailbox . path _ separator ;  <NL> else {  <NL> string pp = m parent . get path ( ) ;  <NL> return pp . length ( ) = = 1 ? ( pp + m name ) : ( pp + z mailbox . path _ separator + m name ) ;  <NL>  }  <NL>  }  COM: <s> returns the folders absolute path </s>

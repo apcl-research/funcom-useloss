@@ -1,0 +1,1 @@
+TDAT: public string insert values ( string p text ) {  <NL> return perform subs ( standard . empty , p text , i properties , new hash map ( ) , true ) ;  <NL>  / / return perform substitutions ( standard . empty , p text , i properties , new hash map ( ) , true ) ;  <NL>  }  COM: <s> insert values by foo subsitution </s>

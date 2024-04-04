@@ -1,0 +1,1 @@
+TDAT: protected void assert spell ( final i spell the out , final string description ) {  <NL> assert not null ( " caster " , the out . get caster ( ) ) ;  <NL> assert not null ( " target " , the out . get target ( ) ) ;  <NL> assert equals ( " description " , description , the out . get description ( ) ) ;  <NL>  }  COM: <s> assert the basics are correct on the spell </s>

@@ -1,0 +1,1 @@
+TDAT: public void apply replace ( monadic operator fun ) {  <NL>  <NL> for ( int i = 1 ; i < = this . get rows ( ) ; i + + ) {  <NL> for ( int j = 1 ; j < = this . get cols ( ) ; j + + ) {  <NL> this . set entry ( i , j , fun . apply ( this . get entry ( i , j ) ) ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> sets this matrix to the result of applying a specified function </s>

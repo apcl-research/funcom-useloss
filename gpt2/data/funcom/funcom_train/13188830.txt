@@ -1,0 +1,1 @@
+TDAT: public void test expand ( ) {  <NL> range r1 = new range ( 0 . 0 , 100 . 0 ) ;  <NL> range r2 = range . expand ( r1 , 0 . 10 , 0 . 10 ) ;  <NL> assert equals ( - 10 . 0 , r2 . get lower bound ( ) , 0 . 001 ) ;  <NL> assert equals ( 110 . 0 , r2 . get upper bound ( ) , 0 . 001 ) ;  <NL>  }  COM: <s> a simple test for the expand method </s>

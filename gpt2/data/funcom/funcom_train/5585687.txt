@@ -1,0 +1,1 @@
+TDAT: public void print stack trace ( throwable ex ) {  <NL>  / * only available in jdk 1 . 4 :  <NL> stack trace element [ ] ste = ex . get stack trace ( ) ;  <NL> for ( int i = 0 ; i < ste . length ; i + + ) {  <NL> println ( ste [ i ] . to string ( ) ) ;  <NL>  }  <NL>  * /  <NL> ex . print stack trace ( ) ;  <NL>  }  COM: <s> logs the stack trace of the given exception </s>

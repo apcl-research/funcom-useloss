@@ -1,0 +1,1 @@
+TDAT: public void test get int property ( ) {  <NL> test task tt = new test task ( null , " custom " , test task . get definition ( ) , null ) ;  <NL>  <NL> assert equals ( 99 , tt . get int property ( " int test " , - 1 ) ) ;  <NL> assert equals ( - 1 , tt . get int property ( " dummy " , - 1 ) ) ;  <NL>  }  COM: <s> test method for get int property java </s>

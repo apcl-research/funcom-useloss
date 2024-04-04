@@ -1,0 +1,1 @@
+TDAT: public void remove tenant ( integer tenant id ) {  <NL> remote tenant r = remote tenant dao . get ( tenant id ) ;  <NL> if ( r ! = null ) {  <NL> item dao . remove items ( r . get id ( ) ) ;  <NL> remote tenant dao . remove ( r . get operator id ( ) , r . get string id ( ) ) ;  <NL>  }  <NL>  <NL>  }  COM: <s> removes a tenant with all its dependencies items actions </s>

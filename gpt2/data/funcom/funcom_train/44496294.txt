@@ -1,0 +1,1 @@
+TDAT: public void set columns ( string [ ] columns ) {  <NL> this . columns count = columns . length ;  <NL> this . columns = new string [ columns count ] ;  <NL> for ( int i = 0 ; i < columns count ; i + + ) {  <NL> this . columns [ i ] = columns [ i ] ;  <NL>  }  <NL> this . rows = new array list ( ) ;  <NL>  }  COM: <s> set the code columns code that were queried </s>

@@ -1,0 +1,1 @@
+TDAT: public void write ( short line number , byte [ ] b ) {  <NL> if ( b . length = = 0 ) return ;  <NL>  <NL> int ico = this . current inserter . offset ;  <NL> this . make space ( line number , b . length ) ;  <NL> system . arraycopy ( b , 0 , this . code , ico , b . length ) ;  <NL>  }  COM: <s> inserts a sequence of bytes at the current insertion position </s>

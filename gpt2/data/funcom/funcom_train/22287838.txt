@@ -1,0 +1,1 @@
+TDAT: public source writer create source writer ( generator context ctx , print writer print writer ) {  <NL> return new class source file composer ( ctx , print writer , get created package ( ) ,  <NL> get created class short name ( ) , get superclass name ( ) , get interface names ( ) ,  <NL> get imports ( ) ) ;  <NL>  }  COM: <s> creates an implementation of </s>

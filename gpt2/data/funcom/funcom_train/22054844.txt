@@ -1,0 +1,1 @@
+TDAT: private void draw fill prov points ( graphics2d g , province data prov _ inf , color c ) {  <NL> draw fill prov points ( g , prov _ inf . i point _ x , prov _ inf . i point _ y ,  <NL> prov _ inf . get x offset ( get area ( ) ) ,  <NL> prov _ inf . get y offset ( get area ( ) ) , c ) ;  <NL>  }  COM: <s> draws the borders for the province passed in colour passed </s>

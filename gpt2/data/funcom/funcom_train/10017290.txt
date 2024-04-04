@@ -1,0 +1,1 @@
+TDAT: static private int _ get size of namespace ( int namespace , int [ ] nodes ) {  <NL> return exi schema layout . sz _ namespace + _ get elem count of namespace ( namespace , nodes ) +  <NL>  _ get attr count of namespace ( namespace , nodes ) + _ get type count of namespace ( namespace , nodes ) ;  <NL>  }  COM: <s> returns the size of a namespace </s>

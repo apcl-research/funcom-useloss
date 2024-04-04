@@ -1,0 +1,1 @@
+TDAT: public void apply lens ( j graph pane the j graph pane , point2d point ) {  <NL> for ( int i = 0 ; i < m _ lenses . size ( ) ; i + + ) {  <NL> lens lens = ( lens ) m _ lenses . get ( i ) ;  <NL> lens . apply lens ( the j graph pane , point ) ;  <NL>  }  <NL>  }  COM: <s> applies the lenses </s>

@@ -1,0 +1,1 @@
+TDAT: public void store output dir ( string project name , string outdir , boolean is absolute ) {  <NL> m _ storage . set value ( project name + test ng plugin constants . s _ outdir , outdir ) ;  <NL> m _ storage . set value ( project name + test ng plugin constants . s _ absolutepath , is absolute ) ;  <NL>  }  COM: <s> saves the output directory information </s>

@@ -1,0 +1,1 @@
+TDAT: private boolean is an option ( string str ) {  <NL> if ( str . char at ( 0 ) ! = ' - ' & & str . char at ( 0 ) ! = ' + ' ) {  <NL> return false ;  <NL>  } else return true ;  <NL>  / / check if option is a valid option <NL>  / / return opt syntax . contains key ( str . substring ( 1 ) ) ;  <NL>  }  COM: <s> returns true if the given string b could be b an option </s>

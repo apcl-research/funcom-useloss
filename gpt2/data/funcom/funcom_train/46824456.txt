@@ -1,0 +1,1 @@
+TDAT: public void game over ( server connection thread conn , int table num , int result type ) {  <NL> if ( is game playing ( table num ) ) {  <NL> system . out . println ( " game is over " ) ;  <NL> game over ( conn , table num , conn . get username ( ) , result type ) ;  <NL>  <NL>  }  <NL>  }  COM: <s> called when a game is over </s>

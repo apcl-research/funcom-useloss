@@ -1,0 +1,1 @@
+TDAT: public void test build search parameters ( ) {  <NL> system . out . println ( " test build search parameters " ) ;  <NL> search parameters params = flickr helper . build search parameters ( m user id ,  <NL> null , null , null , null , null , null , null , null ) ;  <NL> assert not null ( params ) ;  <NL>  }  COM: <s> test of build search parameters method of class org </s>

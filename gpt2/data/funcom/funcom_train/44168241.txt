@@ -1,0 +1,1 @@
+TDAT: private map build map ( boolean with build raw mat ) {  <NL> map builder builder = new map builder ( get game ( ) ) ;  <NL> if ( with build raw mat ) {  <NL> builder . set tile ( 4 , 8 , forest type ) ;  <NL> builder . set tile ( 6 , 8 , mountain type ) ;  <NL>  }  <NL> return builder . build ( ) ;  <NL>  }  COM: <s> creates the special map for the tests </s>

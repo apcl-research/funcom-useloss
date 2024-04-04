@@ -1,0 +1,1 @@
+TDAT: public document data get data ( ) {  <NL> if ( logger . is debug enabled ( ) )  <NL> logger . debug ( " getting data of document " + key ) ;  <NL> return new document data ( key . get repository ( ) , key . get path ( ) ,  <NL> last modified , permission , properties , get versions ( ) ) ;  <NL>  }  COM: <s> get complete document data </s>

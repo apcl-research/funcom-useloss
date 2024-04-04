@@ -1,0 +1,1 @@
+TDAT: public void save state ( ) {  <NL> old stored goods . clear ( ) ;  <NL> for ( map . entry < goods type , integer > entry : stored goods . entry set ( ) ) {  <NL> old stored goods . put ( entry . get key ( ) , new integer ( entry . get value ( ) . int value ( ) ) ) ;  <NL>  }  <NL>  }  COM: <s> prepares this code goods container code for a new turn </s>

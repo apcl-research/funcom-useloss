@@ -1,0 +1,1 @@
+TDAT: public boolean set c wroi ( int r x1 , int r y1 , int r x2 , int r y2 )  <NL>  { / * set c wroi * /  <NL> return ( set c wroi ( r x1 , r y1 , r x2 , r y2 , acc row data ) ) ;  <NL>  } / * set c wroi * /  COM: <s> set cwroi set region of interest roi to computing window cw </s>

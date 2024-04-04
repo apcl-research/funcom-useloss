@@ -1,0 +1,1 @@
+TDAT: private void generate categories ( ) {  <NL> int team _ count = _ teams . size ( ) ;  <NL>  _ categories = new array list ( team _ count ) ;  <NL> for ( int i = 0 ; i < team _ count ; i + + ) {  <NL>  _ categories . add ( ( ( team race do ) _ teams . get ( i ) ) . get name ( ) ) ;  <NL>  }  <NL>  }  COM: <s> generate the category list from the team list </s>

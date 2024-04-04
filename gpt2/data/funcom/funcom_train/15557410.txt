@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> return (  <NL> this . type . equals ( type enum . int _ t ) ? " int " :  <NL> this . type . equals ( type enum . dim _ t ) ? " dim " :  <NL> this . type . equals ( type enum . set _ t ) ? " set " : " unknown type "  <NL>  ) + ( is tuple ( ) ? " [ ] " : " " ) ;  <NL>  <NL>  }  COM: <s> convert the type to a printable string </s>

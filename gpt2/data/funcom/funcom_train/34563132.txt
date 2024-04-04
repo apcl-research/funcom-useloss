@@ -1,0 +1,1 @@
+TDAT: public void add coll ( final nod iter ni , final byte [ ] name ) {  <NL> if ( colls = = collect . length ) {  <NL> collect = arrays . copy of ( collect , colls < < 1 ) ;  <NL> coll name = arrays . copy of ( coll name , colls < < 1 ) ;  <NL>  }  <NL> collect [ colls ] = ni ;  <NL> coll name [ colls + + ] = name ;  <NL>  }  COM: <s> adds a collection </s>

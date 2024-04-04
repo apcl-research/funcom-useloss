@@ -1,0 +1,1 @@
+TDAT: public int decode ( text data buffer out , byte [ ] buffer , int off , int len , long position ) {  <NL> final decode text data decoder decoder = resolve ( buffer , off , len ) ;  <NL>  <NL> return ( decoder ! = null ? decoder . decode ( out , buffer , off , len , position ) : 0 ) ;  <NL>  }  COM: <s> decode bytes to a code text data buffer code </s>

@@ -1,0 +1,1 @@
+TDAT: protected int index of decimal point ( string s ) {  <NL> int i = s . last index of ( ' . ' ) ;  <NL> if ( i < 0 )  <NL> i = s . last index of ( ' e ' ) ;  <NL> if ( i < 0 )  <NL> i = s . last index of ( ' e ' ) ;  <NL> if ( i < 0 )  <NL> i = s . length ( ) ;  <NL> return i ;  <NL>  }  COM: <s> returns the index of the decimal point </s>

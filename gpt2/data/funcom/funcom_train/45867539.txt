@@ -1,0 +1,1 @@
+TDAT: public void draw rect ( posn nw , int width , int height , color color ) {  <NL> if ( width < 0 || height < 0 )  <NL> return ;  <NL> if ( color = = null )  <NL> color = new color ( 0 , 0 , 0 ) ;  <NL> this . draw shape ( new rectangle2d . double ( nw . x , nw . y , width , height ) ,  <NL> color , true ) ;  <NL>  }  COM: <s> p draws a rectangle in this panel p </s>

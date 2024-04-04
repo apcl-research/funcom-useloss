@@ -1,0 +1,1 @@
+TDAT: public int next int ( int n ) {  <NL> if ( n < = 0 ) {  <NL> throw math runtime exception . create illegal argument exception (  <NL>  " upper bound must be positive ( { 0 } ) " , n ) ;  <NL>  }  <NL> int result = ( int ) ( next double ( ) * n ) ;  <NL> return result < n ? result : n - 1 ;  <NL>  }  COM: <s> returns a pseudorandom uniformly distributed tt int tt value </s>

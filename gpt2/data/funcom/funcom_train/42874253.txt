@@ -1,0 +1,1 @@
+TDAT: public void mouse ( int x , int y , int but ) throws throwable {  <NL> event e = allocate ( 6 ) ;  <NL> write card8 ( e , 5 ) ;  <NL> write card8 ( e , but ) ;  <NL> write card16 ( e , x ) ;  <NL> write card16 ( e , y ) ;  <NL> flush ( e ) ;  <NL>  }  COM: <s> move the mouse </s>

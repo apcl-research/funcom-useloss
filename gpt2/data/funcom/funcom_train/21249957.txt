@@ -1,0 +1,1 @@
+TDAT: public int get group id ( string n ) {  <NL> int i ;  <NL>  <NL> for ( i = 0 ; i < snm pgroups . size ( ) ; i + + ) {  <NL> if ( snm pgroups . get ( i ) . name . compare to ignore case ( n ) = = 0 ) break ;  <NL>  }  <NL> if ( i > = snm pgroups . size ( ) ) return ( - 1 ) ;  <NL> return i ;  <NL>  }  COM: <s> this method return index by string name of variable </s>

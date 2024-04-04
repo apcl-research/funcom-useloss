@@ -1,0 +1,1 @@
+TDAT: private void increment count ( hash map < hierarchical cluster node < s > , integer > node count , hierarchical cluster node < s > node ) {  <NL> if ( node count . contains key ( node ) ) {  <NL> node count . put ( node , node count . get ( node ) + 1 ) ;  <NL>  } else {  <NL> node count . put ( node , 1 ) ;  <NL>  }  <NL>  }  COM: <s> increments the count of </s>

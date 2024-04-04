@@ -1,0 +1,1 @@
+TDAT: public void log ( exception e ) {  <NL> string plugin name = super . get bundle ( ) . get symbolic name ( ) ;  <NL> i status status = new status ( i status . error , plugin name , 0 , e . get message ( ) , e ) ;  <NL> plugin . get log ( ) . log ( status ) ;  <NL>  }  COM: <s> logs out the exception or error message for eclipse sensor plug in </s>

@@ -1,0 +1,1 @@
+TDAT: private int find field index ( field field ) {  <NL> list < string > labs = get field labels ( ) ;  <NL> string name = field . get label ( ) ;  <NL> for ( int i = 0 ; i < labs . size ( ) ; i + + ) {  <NL> if ( labs . get ( i ) . equals ( name ) ) return i ;  <NL>  }  <NL> return - 1 ;  <NL>  }  COM: <s> find the index of the named field in the current output </s>

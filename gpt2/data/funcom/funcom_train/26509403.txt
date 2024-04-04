@@ -1,0 +1,1 @@
+TDAT: public object next ( ) throws no such element exception {  <NL> if ( ! has next ( ) ) throw new no such element exception ( ) ;  <NL> position . push ( last next , 0 ) ;  <NL> last left = null ;  <NL> last right = null ;  <NL> last next = null ;  <NL> return external view ( position . peek ( ) . get object ( ) ) ;  <NL>  }  COM: <s> describe code next code method here </s>

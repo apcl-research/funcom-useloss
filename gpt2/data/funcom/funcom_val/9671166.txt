@@ -1,0 +1,1 @@
+TDAT: public string wp _ kses _ no _ null ( string string ) {  <NL> string = q reg ex perl . preg _ replace ( " / \\0 + / " , " " , string ) ;  <NL> string = q reg ex perl . preg _ replace ( " / ( \\\\0 ) + / " , " " , string ) ;  <NL>  <NL> return string ;  <NL>  }  COM: <s> wp kses no null removes any null characters in string </s>

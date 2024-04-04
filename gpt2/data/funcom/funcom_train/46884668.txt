@@ -1,0 +1,1 @@
+TDAT: private void expect re ( final string re ) throws io exception {  <NL> string line = read line ( ) ;  <NL> if ( line ! = null & & ! pattern . matches ( re , line ) ) {  <NL> throw new runtime exception (  <NL>  " expected ' " + re + " ' , got ' " + line + " ' " ) ;  <NL>  }  <NL>  }  COM: <s> expect input from xboard which is matched against the supplied </s>

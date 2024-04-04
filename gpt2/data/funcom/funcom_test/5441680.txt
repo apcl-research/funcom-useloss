@@ -1,0 +1,1 @@
+TDAT: public un sync string buffer delete char at ( int index ) {  <NL> if ( ( index < 0 ) || ( index > = count ) )  <NL> throw new string index out of bounds exception ( ) ;  <NL> system . arraycopy ( value , index + 1 , value , index , count - index - 1 ) ;  <NL> count - - ;  <NL> return this ;  <NL>  }  COM: <s> removes the character at the specified position in this </s>

@@ -1,0 +1,1 @@
+TDAT: public node create pre condition node ( string path ) {  <NL> node node = new node ( m _ tree component , this , 0 , ( is xml ( ) ? " [ p ] " : " " ) + c _ s condition , false , path , " p " , false ) ;  <NL> node . set precondition flag ( ) ;  <NL> return node ;  <NL>  }  COM: <s> creates a pre condition node with the given path </s>

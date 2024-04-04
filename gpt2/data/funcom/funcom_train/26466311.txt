@@ -1,0 +1,1 @@
+TDAT: public void set cash ( double cash ) throws property veto exception {  <NL> double old cash = this . cash ;  <NL> vetoable change support . fire vetoable change ( " cash " , old cash , cash ) ;  <NL> this . cash = cash ;  <NL> property change support . fire property change ( " cash " , old cash , cash ) ;  <NL>  }  COM: <s> setter for property cash </s>

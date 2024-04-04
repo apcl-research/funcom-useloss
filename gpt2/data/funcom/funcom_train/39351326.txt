@@ -1,0 +1,1 @@
+TDAT: public void add ( type t ) {  <NL> trace . trace ( trace . item . parser , " defining type % s " , t ) ;  <NL> if ( table . contains key ( t . get name ( ) ) )  <NL> throw new runtime exception ( " type " + t . get name ( ) + " already defined " ) ;  <NL> table . put ( t . get name ( ) , t ) ;  <NL>  }  COM: <s> add a new type to the table </s>

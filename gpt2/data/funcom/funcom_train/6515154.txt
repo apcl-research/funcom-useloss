@@ -1,0 +1,1 @@
+TDAT: public object item at ( int pos ) {  <NL> if ( ( pos < 1 ) || ( pos > fields . size ( ) ) ) {  <NL> return _ tbl . format error ( " invalid index : " + pos <NL>  + " . the column index must be between 1 and " + fields . size ( ) ) ;  <NL>  }  <NL> return fields . get entry ( pos - 1 ) ;  <NL>  }  COM: <s> allows access to columns within a row by position 1 based </s>

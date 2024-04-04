@@ -1,0 +1,1 @@
+TDAT: public zip long ( byte [ ] bytes , int offset ) {  <NL> value = ( bytes [ offset + 3 ] < < 24 ) & 0x ff000000l ;  <NL> value + = ( bytes [ offset + 2 ] < < 16 ) & 0x ff0000 ;  <NL> value + = ( bytes [ offset + 1 ] < < 8 ) & 0x ff00 ;  <NL> value + = ( bytes [ offset ] & 0x ff ) ;  <NL>  }  COM: <s> create instance from the four bytes starting at offset </s>

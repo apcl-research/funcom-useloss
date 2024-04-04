@@ -1,0 +1,1 @@
+TDAT: private string get option ( string att name , string default value ) {  <NL> element opt = dom util . get element ( dom , " options " ) ;  <NL> if ( opt ! = null ) {  <NL> string s = dom util . get attribute ( opt , att name ) ;  <NL> if ( s ! = null )  <NL> return s ;  <NL>  }  <NL> return default value ;  <NL>  }  COM: <s> gets the value from the option element </s>

@@ -1,0 +1,1 @@
+TDAT: private void initialize ( ) {  <NL> this . set title ( " hot key settings " ) ;  <NL> this . set size ( 415 , 485 ) ;  <NL> this . set content pane ( get j scroll pane ( ) ) ;  <NL> this . pack ( ) ;  <NL> common . set preferred location ( this ) ;  <NL>  <NL>  / / this . get content pane ( ) . get components ( ) ;  <NL>  <NL>  }  COM: <s> this method initializes this </s>

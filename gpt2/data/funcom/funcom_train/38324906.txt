@@ -1,0 +1,1 @@
+TDAT: protected fact create ns fact ( object data , defclass dclass , long id ) {  <NL> deftemplate dft = ( deftemplate ) get current focus ( ) . get template ( dclass ) ;  <NL> ns fact fact = new ns fact ( dft , dclass , data , dft . get all slots ( ) , id ) ;  <NL> return fact ;  <NL>  }  COM: <s> convienance method for creating a non shadow fact </s>

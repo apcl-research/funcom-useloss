@@ -1,0 +1,1 @@
+TDAT: public ds script builder astro real time ( astro obj ao , string brightness , ds delay rate time drt ) {  <NL> body . append ( string . format ( " \t astro real time \ " % s\ " % s % s\n " , ao . to string ( ) , brightness , drt ) ) ;  <NL> return this ;  <NL>  }  COM: <s> astro real time br br </s>

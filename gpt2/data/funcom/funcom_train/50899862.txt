@@ -1,0 +1,1 @@
+TDAT: public boolean load ( jdc connection o conn , string s gu sales man ) throws sql exception {  <NL> boolean b ret val = super . load ( o conn , s gu sales man ) ;  <NL> if ( b ret val )  <NL> o user = new acl user ( o conn , get string ( db . gu _ sales _ man ) ) ;  <NL> return b ret val ;  <NL>  }  COM: <s> load sales man and initialize internal user instance </s>

@@ -1,0 +1,1 @@
+TDAT: public void mouse exited ( java . awt . event . mouse event evt ) {  <NL> clear label . set font ( new font ( clear label . get font ( ) . get family ( ) , font . plain , 9 ) ) ;  <NL> clear label . set text ( controls res . get string ( " osp control . clear " ) ) ; / / $ non - nls - 1 $  <NL>  }  COM: <s> method mouse exited </s>

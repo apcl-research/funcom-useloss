@@ -1,0 +1,1 @@
+TDAT: public boolean set failed ( string res name , boolean failed ) {  <NL>  / / all the p es are failed ( or recovered , depending on fail )  <NL> this . failed = failed ;  <NL> pe list . set status failed ( get pe list ( ) , res name , get id ( ) , failed ) ;  <NL> return true ;  <NL>  }  COM: <s> sets the pes of this machine to a failed status </s>

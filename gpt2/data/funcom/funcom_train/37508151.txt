@@ -1,0 +1,1 @@
+TDAT: public j menu item get menu view options ( ) {  <NL> if ( m _ menu view options = = null ) {  <NL> m _ menu view options = new j menu item ( " view options " , ' o ' ) ;  <NL> m _ menu view options . set action command ( action _ view _ options ) ;  <NL>  }  <NL> return m _ menu view options ;  <NL>  }  COM: <s> returns the view options item </s>

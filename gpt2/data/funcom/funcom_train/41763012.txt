@@ -1,0 +1,1 @@
+TDAT: public void get followings ( final string user , final int page , context c , callbackable callback instance ) {  <NL> execute command ( follwings , new string [ ] { user , integer . to string ( page ) } , true , cb _ following , false , true , c , callback instance ) ;  <NL>  }  COM: <s> this method returns the users followed by the user used as input argument </s>

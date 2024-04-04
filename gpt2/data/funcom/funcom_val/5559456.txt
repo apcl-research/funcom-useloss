@@ -1,0 +1,1 @@
+TDAT: public area get single square shape ( int center x , int center y ) {  <NL> double dx = get dx ( ) ;  <NL> double dy = get dy ( ) ;  <NL> rectangle rect = new rectangle ( ( int ) ( center x - dx / 2 ) , ( int ) ( center y - dy / 2 ) , ( int ) dx , ( int ) dy ) ;  <NL> return new area ( rect ) ;  <NL>  }  COM: <s> return the shape of a single grid square </s>

@@ -1,0 +1,1 @@
+TDAT: public int get values ( object [ ] elements , int from ) {  <NL> for ( int i = 0 , j = 0 ; i < f table size & & j < f num ; i + + ) {  <NL> for ( entry entry = f buckets [ i ] ; entry ! = null ; entry = entry . next ) {  <NL> elements [ from + j ] = entry . value ;  <NL> j + + ;  <NL>  }  <NL>  }  <NL> return f num ;  <NL>  }  COM: <s> add all values to the given array </s>

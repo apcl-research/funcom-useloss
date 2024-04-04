@@ -1,0 +1,1 @@
+TDAT: public string to xml ( ) {  <NL> return ( " < text x = \ " " + x + " \ " y = \ " " + y + " \ " halign = \ " " + halign +  <NL>  " \ " valign = \ " " + valign + " \ " fontsize = \ " " + fontsize +  <NL>  " \ " color = \ " " + color + " \ " > " + text + " < / text > \n " ) ;  <NL>  }  COM: <s> returns the gaigs xml representation of this code gaigstext code </s>

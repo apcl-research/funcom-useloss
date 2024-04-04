@@ -1,0 +1,1 @@
+TDAT: public void error ( string msg ) {  <NL> string name = get class ( ) . to string ( ) ;  <NL> name = name . substring ( name . last index of ( ' . ' ) + 1 ) ;  <NL> system . err . println ( name + ( id ! = null ? " ( " + id + " ) " : " " ) + " : " + msg ) ;  <NL>  }  COM: <s> print an error message to stderr prepending the plugin name </s>

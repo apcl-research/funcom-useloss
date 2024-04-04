@@ -1,0 +1,1 @@
+TDAT: public int get num points ( ) {  <NL> int temp num points = 0 ;  <NL> if ( my polygons ! = null ) {  <NL> for ( int i = 0 ; i < my polygons . length ; i + + ) {  <NL> temp num points = temp num points + my polygons [ i ] . get num points ( ) ;  <NL>  }  <NL>  }  <NL> return temp num points ;  <NL>  } ;  COM: <s> return the number of points in this shape </s>

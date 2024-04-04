@@ -1,0 +1,1 @@
+TDAT: public void print key ( ) {  <NL> system . out . println ( " pt . . . . . . . . . . . . . . . . ct " ) ;  <NL> for ( int i = 0 ; i < cables . length ; i + + ) {  <NL> system . out . println ( ( char ) ( i + 65 ) + " . . . . . . . . . . . . . . . . . . " + cables [ i ] ) ;  <NL>  }  <NL>  }  COM: <s> prints the whole key for the plugboard for testing purposes </s>

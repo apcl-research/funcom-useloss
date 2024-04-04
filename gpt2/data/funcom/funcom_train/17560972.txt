@@ -1,0 +1,1 @@
+TDAT: public void put ( string key , string val ) {  <NL> if ( dict . contains key ( key ) ) {  <NL> logger . warning ( " put ( " + key +  <NL>  " ) called , but there is already a value for this key . " ) ;  <NL>  }  <NL> dict . put ( key . to upper case ( ) , val ) ;  <NL>  }  COM: <s> puts a string value into the dictionary </s>

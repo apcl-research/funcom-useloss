@@ -1,0 +1,1 @@
+TDAT: protected void save file ( ) throws io exception {  <NL> save file ( i tunes genre index ) ;  <NL> saved = true ;  <NL> if ( system . get property ( " os . name " ) . index of ( " mac " ) ! = - 1 ) get root pane ( ) . put client property ( " window . document modified " , boolean . false ) ;  <NL>  }  COM: <s> saves the currently opened genre list file </s>

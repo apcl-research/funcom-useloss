@@ -1,0 +1,1 @@
+TDAT: final private boolean is keychar ( final char chr ) {  <NL> return ( ( chr > = ' a ' ) & & ( chr < = ' z ' ) )  <NL> || ( ( chr > = ' a ' ) & & ( chr < = ' z ' ) )  <NL> || ( ( chr > = ' 0 ' ) & & ( chr < = ' 9 ' ) )  <NL> || ( chr = = ' - ' ) || ( chr = = ' . ' ) ;  <NL>  }  COM: <s> keychar alpha digit </s>

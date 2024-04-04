@@ -1,0 +1,1 @@
+TDAT: public string encode ( character set character set ) throws io exception {  <NL> string builder sb = new string builder ( ) ;  <NL> for ( int i = 0 ; i < size ( ) ; i + + ) {  <NL> if ( i > 0 )  <NL> sb . append ( ' & ' ) ;  <NL> get ( i ) . encode ( sb , character set ) ;  <NL>  }  <NL> return sb . to string ( ) ;  <NL>  }  COM: <s> url encodes the form </s>

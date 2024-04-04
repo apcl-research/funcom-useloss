@@ -1,0 +1,1 @@
+TDAT: private int get label nr ( map < type label , integer > label nr map , type label label ) {  <NL> integer result = label nr map . get ( label ) ;  <NL> if ( result = = null ) {  <NL> label nr map . put ( label , result = label nr map . size ( ) ) ;  <NL>  }  <NL> return result ;  <NL>  }  COM: <s> returns the number of a type label creating a fresh number </s>

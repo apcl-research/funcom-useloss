@@ -1,0 +1,1 @@
+TDAT: public complex array subtract ( complex scalar rhs ) {  <NL> complex array result = new complex array ( this . get length ( ) ) ;  <NL> for ( int i = 0 ; i < this . re . length ; i + + ) {  <NL> result . set element ( this . get element ( i ) . subtract ( rhs ) , i ) ;  <NL>  }  <NL> return result ;  <NL>  }  COM: <s> subtract a complex scalar from this complex array </s>

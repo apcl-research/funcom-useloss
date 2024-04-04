@@ -1,0 +1,1 @@
+TDAT: public void set event path prefix ( string prefix ) {  <NL> if ( prefix = = null & & ! my path prefixes stack . is empty ( ) ) {  <NL> my path prefixes stack . remove ( my path prefixes stack . size ( ) - 1 ) ;  <NL>  } else if ( prefix ! = null ) {  <NL> my path prefixes stack . add ( prefix ) ;  <NL>  }  <NL>  }  COM: <s> removes or adds a path prefix </s>

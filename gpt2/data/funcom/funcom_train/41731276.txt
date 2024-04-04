@@ -1,0 +1,1 @@
+TDAT: public void add ( short [ ] values , object data ) {  <NL> if ( width < = 0 ) {  <NL> width = values . length ;  <NL>  }  <NL> if ( work temp = = null ) {  <NL> work temp = new entry [ width ] ;  <NL>  }  <NL> add internal ( false , - 1 , work temp , values , 0 , data ) ;  <NL>  }  COM: <s> adds a monomial to the tree with associated data </s>

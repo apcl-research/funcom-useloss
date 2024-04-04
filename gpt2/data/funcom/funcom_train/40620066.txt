@@ -1,0 +1,1 @@
+TDAT: private text box add text field ( string field ) {  <NL> text box box = new text box ( ) ;  <NL> box . set title ( field ) ;  <NL> booking . set text ( cur row , 0 , field + " : " ) ;  <NL> booking . set widget ( cur row , 1 , box ) ;  <NL>  + + cur row ;  <NL> return box ;  <NL>  }  COM: <s> create a boring text field </s>

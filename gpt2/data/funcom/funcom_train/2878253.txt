@@ -1,0 +1,1 @@
+TDAT: public void get sf files ( vector list ) {  <NL> int index = list . size ( ) ;  <NL> while ( ( index - - ) > 0 ) {  <NL> system . out . println ( " jar : " + list . get ( index ) ) ;  <NL> this . list jar content ( ( string ) list . get ( index ) , filters ) ;  <NL>  }  <NL>  }  COM: <s> gets the s ffiles attribute of the load sffiles object </s>

@@ -1,0 +1,1 @@
+TDAT: public void close ( ) throws io exception {  <NL> if ( ( debug ! = null ) & & debug . is on ( " ssl " ) ) {  <NL> system . out . println ( thread name ( ) + " , called close ( ) " ) ;  <NL>  }  <NL> close internal ( true ) ; / / caller is initiating close <NL> set connection state ( cs _ app _ closed ) ;  <NL>  }  COM: <s> closes the ssl connection </s>

@@ -1,0 +1,1 @@
+TDAT: public void paint component ( graphics g ) {  <NL> if ( ( origin ! = null ) & & ( current ! = null ) ) {  <NL> rectangle r = points to rect ( origin , current ) ;  <NL> if ( too small ( r ) ) return ;  <NL> g . set color ( get foreground ( ) ) ;  <NL> g . draw rect ( r . x , r . y , r . width , r . height ) ;  <NL>  }  <NL>  }  COM: <s> draw this panel </s>

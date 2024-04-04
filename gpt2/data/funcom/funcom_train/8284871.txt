@@ -1,0 +1,1 @@
+TDAT: public void move attend to deleted ( item class id , item user id ) {  <NL> del attends table . save ( new item [ ] { class id , user id } , new item [ ] { class id , user id } , dbsql accessor . and ) ;  <NL> attends table . delete ( new item [ ] { class id , user id } , dbsql accessor . and ) ;  <NL>  }  COM: <s> moves an attendance relationship to the deleted table </s>

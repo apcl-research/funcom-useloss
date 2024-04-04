@@ -1,0 +1,1 @@
+TDAT: public position get flex table positon ( final int i , final int j ) {  <NL> if ( ! this . inverse side ) {  <NL>  / / extra row , column for showing row , column .  <NL> return new position ( i + 1 , j + 1 ) ;  <NL>  } else {  <NL>  / /  <NL> return new position ( ( 7 - i ) + 1 , ( 7 - j ) + 1 ) ;  <NL>  }  <NL>  }  COM: <s> locate cell in the flextable cell </s>

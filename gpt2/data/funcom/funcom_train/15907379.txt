@@ -1,0 +1,1 @@
+TDAT: public void add formal ( int rank , uml formal parameter formal ) throws runtime exception {  <NL> uml com . send _ cmd ( identifier _ ( ) , on instance cmd . add formal cmd , rank , formal . _ name ,  <NL> formal . _ type , formal . _ default _ value , formal . _ extends ) ;  <NL> uml com . check ( ) ;  <NL>  }  COM: <s> adds a formal at the given rank 0 </s>

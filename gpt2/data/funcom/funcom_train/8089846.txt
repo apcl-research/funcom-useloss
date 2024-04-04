@@ -1,0 +1,1 @@
+TDAT: private string probs to string ( vector probs ) {  <NL> string buffer txt = new string buffer ( " " ) ;  <NL> for ( int i = 0 ; i < probs . size ( ) ; i + + ) {  <NL> txt . append ( " " + ( ( double ) ( probs . element at ( i ) ) ) . double value ( ) + " " ) ;  <NL>  }  <NL> return txt . to string ( ) ;  <NL>  }  COM: <s> print the probabilities after testing </s>

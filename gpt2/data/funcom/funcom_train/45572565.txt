@@ -1,0 +1,1 @@
+TDAT: public void set1value ( int index , const sf color color ) {  <NL> float [ ] c = { 0 . 0f , 0 . 0f , 0 . 0f } ;  <NL> color . get value ( c ) ;  <NL> this . set1value ( index , c [ 0 ] , c [ 1 ] , c [ 2 ] ) ;  <NL>  }  COM: <s> set an element in an mfcolor field </s>

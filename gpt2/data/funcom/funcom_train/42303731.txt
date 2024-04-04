@@ -1,0 +1,1 @@
+TDAT: public double distance ( final int i , final int j ) {  <NL> final int c1 = this . path [ i % this . path . length ] ;  <NL> final int c2 = this . path [ j % this . path . length ] ;  <NL> segment seg = new segment ( points [ c1 ] , this . points [ c2 ] ) ;  <NL> return seg . get length ( ) ;  <NL>  }  COM: <s> called to get the distance between two cities </s>

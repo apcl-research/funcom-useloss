@@ -1,0 +1,1 @@
+TDAT: protected string get text ( string xpath ) {  <NL> final html element h1 = get html element ( xpath ) ;  <NL> assert not null ( " element " + xpath + " not found on the page " , h1 ) ;  <NL> return h1 . as text ( ) . replace all ( " [ \\r\\n ] " , " " ) . replace all ( " \\s + " , " " ) ;  <NL>  }  COM: <s> returns the text inside html element </s>

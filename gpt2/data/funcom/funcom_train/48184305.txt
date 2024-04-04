@@ -1,0 +1,1 @@
+TDAT: private string remove indices etc ( string supertag ) {  <NL> string res = " " ;  <NL> res = supertag ;  <NL> res = res . replace all ( " [ * ] " , " " ) ;  <NL> res = res . replace all ( " ~ " , " " ) ;  <NL> res = res . replace all ( " \\d + " , " " ) ;  <NL> res = res . replace all ( " _ " , " " ) ;  <NL> return res ;  <NL>  }  COM: <s> remove indices 1 2 etc </s>

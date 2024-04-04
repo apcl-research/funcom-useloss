@@ -1,0 +1,1 @@
+TDAT: public void send console cmd ( string cmd ) {  <NL> if ( torque debug = = null ) {  <NL> return ;  <NL>  }  <NL> if ( cmd ! = null & & cmd . length ( ) > 0 & & cmd . ends with ( " ; " ) ) {  <NL>  / / send the command to the engine <NL> torque debug . raw command ( " ceval " + cmd ) ;  <NL>  }  <NL>  }  COM: <s> sends a console command to the engine </s>

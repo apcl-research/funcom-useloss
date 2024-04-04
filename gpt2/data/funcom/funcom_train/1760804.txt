@@ -1,0 +1,1 @@
+TDAT: public void set info ( string document id , date edited , string editor ) {  <NL> info . set html ( " saved on < a href = \ " http : / / docs . google . com / revs ? id = " + document id + " & tab = revlist\ " target = \ " _ blank\ " > " +  <NL> edited + " < / a > by " + editor ) ;  <NL>  }  COM: <s> sets the displayed document info </s>

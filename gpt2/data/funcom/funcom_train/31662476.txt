@@ -1,0 +1,1 @@
+TDAT: public void set peaks ( peak1d [ ] peaks ) {  <NL> this . peaks = null ;  <NL> if ( peaks ! = null ) {  <NL> this . peaks = new peak1d [ peaks . length ] ;  <NL> for ( int i = 0 ; i < peaks . length ; i + + )  <NL> this . peaks [ i ] = ( peak1d ) peaks [ i ] . clone ( ) ;  <NL>  }  <NL>  }  COM: <s> sets peaks by copying a peak array </s>

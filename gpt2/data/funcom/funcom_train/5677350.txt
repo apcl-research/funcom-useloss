@@ -1,0 +1,1 @@
+TDAT: public void remove element ( object o )  <NL>  { int i = index of ( o ) ;  <NL> if ( i < 0 ) return ;  <NL> o [ i ] = null ; on - - ;  <NL> if ( gap < 0 || gap > i ) gap = i ;  <NL> if ( i = = o last - 1 ) o last - - ;  <NL> while ( o last > 0 & & o [ o last - 1 ] = = null ) o last - - ;  <NL> if ( gap > = o last ) gap = - 1 ;  <NL>  }  COM: <s> remove a single element </s>

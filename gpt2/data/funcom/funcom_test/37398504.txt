@@ -1,0 +1,1 @@
+TDAT: private void init match all patterns ( ) {  <NL> for ( int i = 0 ; i < this . uri patterns . length ; i + + ) {  <NL> string pattern = this . uri patterns [ i ] ;  <NL> if ( pattern . equals ( wildcard ) || pattern . equals ( " / * " ) ) {  <NL> this . uri patterns [ 0 ] = wildcard ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> initialize patterns matching all uri </s>

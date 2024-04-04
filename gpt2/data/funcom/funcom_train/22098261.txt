@@ -1,0 +1,1 @@
+TDAT: public boolean check ( ) {  <NL> try {  <NL> socket s = new socket ( ) ;  <NL> s . bind ( new inet socket address ( 0 ) ) ;  <NL> s . connect ( new inet socket address ( host , port ) , timeout ) ;  <NL> s . close ( ) ;  <NL> return true ;  <NL>  } catch ( io exception e ) {  <NL> return false ;  <NL>  }  <NL>  }  COM: <s> pings the remote host </s>

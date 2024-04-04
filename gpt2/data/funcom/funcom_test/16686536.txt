@@ -1,0 +1,1 @@
+TDAT: private void mid point ( point f point , wrap motion event event ) {  <NL>  / / . . .  <NL> float x = event . get x ( 0 ) + event . get x ( 1 ) ;  <NL> float y = event . get y ( 0 ) + event . get y ( 1 ) ;  <NL> point . set ( x / 2 , y / 2 ) ;  <NL>  }  COM: <s> calculate the mid point of the first two fingers </s>

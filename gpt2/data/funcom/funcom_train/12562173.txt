@@ -1,0 +1,1 @@
+TDAT: private void check info array size ( ) {  <NL> if ( ( mcount + pitch < minfo . length ) || ( mcount > = minfo . length ) ) {  <NL> running mi dlet suite info [ ] n =  <NL> new running mi dlet suite info [ mcount + pitch ] ;  <NL> system . arraycopy ( minfo , 0 , n , 0 , mcount ) ;  <NL> minfo = n ;  <NL>  }  <NL>  }  COM: <s> ensures that info array has enough capacity </s>

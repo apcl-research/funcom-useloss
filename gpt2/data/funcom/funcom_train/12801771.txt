@@ -1,0 +1,1 @@
+TDAT: public double natural distance ( key other key ) {  <NL> return math . log ( new big integer ( 1 , hash ) . subtract ( new big integer ( 1 , other key . hash ) ) . mod ( new big integer ( 1 , max _ key . hash ) . add ( new big integer ( " 1 " ) ) ) . double value ( ) ) / math . log ( 2 ) ;  <NL>  }  COM: <s> calculates log2 this other key 2 161 </s>

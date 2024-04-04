@@ -1,0 +1,1 @@
+TDAT: public story get story ( int project id , int story id ) throws tracker exception {  <NL> http request request = new http get data request ( get user token ( ) , create uri ( projects _ path , project id ,  <NL> stories _ path , story id ) ) ;  <NL> return ( story ) get tracker entity ( request ) ;  <NL>  }  COM: <s> get a single story on a project </s>

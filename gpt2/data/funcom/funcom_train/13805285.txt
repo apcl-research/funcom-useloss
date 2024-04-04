@@ -1,0 +1,1 @@
+TDAT: / *  <NL>  * private string binl2rstr ( string input ) { string buffer ret = new string buffer ( ) ; for ( int i = 0 ; i <  <NL>  * input . length ( ) * 32 ; i + = 8 ) ret . append ( ( char ) ( ( input . char at ( i > > 5 ) > > > ( i % 32 ) ) & 0x ff ) ) ; return <NL>  * ret . to string ( ) ; }  COM: <s> convert an array of little endian words to a string </s>

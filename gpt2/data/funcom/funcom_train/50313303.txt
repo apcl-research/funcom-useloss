@@ -1,0 +1,1 @@
+TDAT: public vector read tasks for project ( int project id , int tasktype , string order by , string sort ) throws cms exception {  <NL> return ( m _ rb . read tasks for project ( m _ context . current user ( ) , m _ context . current project ( ) , project id , tasktype , order by , sort ) ) ;  <NL>  }  COM: <s> reads all tasks for a project </s>

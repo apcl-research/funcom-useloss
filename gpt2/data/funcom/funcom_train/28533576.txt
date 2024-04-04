@@ -1,0 +1,1 @@
+TDAT: public final static string [ ] weather _ descs =  <NL>  { " clear " , " cloudy " , " windy " , " rain " , " thunderstorm " , " snow " , " hail " , " heat " , " sleet " , " blizzard " , " dust " , " drought " , " cold " } ;  COM: <s> descriptive strings for the climate </s>

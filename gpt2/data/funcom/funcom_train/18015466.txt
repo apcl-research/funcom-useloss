@@ -1,0 +1,1 @@
+TDAT: private int get flags ( ) {  <NL>  <NL> int ps = 0x20 ;  <NL> if ( n ) ps | = 0x80 ;  <NL> if ( v ) ps | = 0x40 ;  <NL> if ( b ) ps | = 0x10 ;  <NL> if ( d ) ps | = 0x08 ;  <NL> if ( i ) ps | = 0x04 ;  <NL> if ( ! not z ) ps | = 0x02 ;  <NL> if ( c ) ps | = 0x01 ;  <NL>  <NL> return ps ;  <NL>  }  COM: <s> retrieves the flag values as if they were part of a single byte </s>

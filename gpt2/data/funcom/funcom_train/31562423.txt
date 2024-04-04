@@ -1,0 +1,1 @@
+TDAT: public void select ( program program , maverick string result , key key ) throws maverick exception {  <NL> if ( type = = type _ mv _ file ) {  <NL>  ( ( file ) data ) . select ( program , result , key ) ;  <NL>  } else {  <NL> super . select ( program , result , key ) ;  <NL>  }  <NL>  }  COM: <s> returns a select list from the current string </s>

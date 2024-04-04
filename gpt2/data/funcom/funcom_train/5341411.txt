@@ -1,0 +1,1 @@
+TDAT: public int index of ( object o ) {  <NL> if ( is all ( o ) )  <NL> return 0 ;  <NL> else {  <NL> iterator iter = key set ( ) . iterator ( ) ;  <NL> for ( int i = 1 ; iter . has next ( ) ; i + + )  <NL> if ( compare ( o , iter . next ( ) ) = = 0 )  <NL> return i ;  <NL> return - 1 ;  <NL>  }  <NL>  }  COM: <s> returns the index of the given value </s>

@@ -1,0 +1,1 @@
+TDAT: public void add errors ( string el , i error description . . . error ) {  <NL> final i error description [ ] msg = errors . get ( el ) ;  <NL>  / / we expect that the main scenario is to add only once errors per property . . .  <NL> errors . put ( el , msg = = null ? error : merge ( msg , error ) ) ;  <NL>  }  COM: <s> adds the given error for the given property </s>

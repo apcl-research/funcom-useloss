@@ -1,0 +1,1 @@
+TDAT: private image get button image ( image orig image ) {  <NL> image image = ( image ) image cache . get ( orig image ) ;  <NL> if ( image = = null ) {  <NL> image = combine image with arrow ( orig image ) ;  <NL> if ( image ! = null ) {  <NL> image cache . put ( orig image , image ) ;  <NL>  }  <NL>  }  <NL> return image ;  <NL>  }  COM: <s> gets the image for the button </s>

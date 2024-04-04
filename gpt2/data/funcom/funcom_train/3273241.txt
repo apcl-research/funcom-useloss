@@ -1,0 +1,1 @@
+TDAT: protected void set missile size ( ) {  <NL> set details ( initial _ missile _ max _ mass , initial _ missile _ max _ space , initial _ missile _ max _ internal _ hit _ points , initial _ missile _ max _ external _ hit _ points ) ;  <NL> set personal details ( initial _ missile _ max _ output ) ;  <NL>  }  COM: <s> set the values for the missile component version </s>

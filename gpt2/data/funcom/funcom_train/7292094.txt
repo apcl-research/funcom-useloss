@@ -1,0 +1,1 @@
+TDAT: public void setup value map _ map ( short offset , short count ) {  <NL> value map _ map = new short [ count ] ;  <NL> for ( int i = 0 ; i < count ; + + i ) {  <NL>  / / start of each entry . each entry is 6 bytes long .  <NL> value map _ map [ i ] = ( short ) ( offset + i * 6 ) ;  <NL>  }  <NL>  }  COM: <s> the value map map must be setup in advance </s>

@@ -1,0 +1,1 @@
+TDAT: public string get path ( ) {  <NL> string buffer path = new string buffer ( " / " ) ;  <NL> path . append ( this . get name ( ) ) ;  <NL> if ( this . get parent ( ) = = null ) {  <NL> return " / " ;  <NL>  } else {  <NL> return get path ( path , this . get parent ( ) ) . to string ( ) ;  <NL>  }  <NL>  }  COM: <s> returns folders path </s>

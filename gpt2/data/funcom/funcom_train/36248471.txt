@@ -1,0 +1,1 @@
+TDAT: private void initialize colors ( ) {  <NL> toolkit . get colors ( ) . create color ( " amazon - orange " , 222 , 123 , 32 ) ;  <NL> toolkit . get colors ( ) . create color ( " module - header " , 94 , 124 , 169 ) ;  <NL> toolkit . get colors ( ) . create color ( " module - subheader " , 102 , 102 , 102 ) ;  <NL>  }  COM: <s> initializes color resources </s>

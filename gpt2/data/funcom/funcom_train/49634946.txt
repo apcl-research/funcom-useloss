@@ -1,0 +1,1 @@
+TDAT: public void collect ( int [ ] doc i ds ) {  <NL> count time = system . current time millis ( ) ;  <NL> hit count = doc i ds . length ;  <NL> for ( int doc id : doc i ds ) {  <NL> map . update counter ( tag counts , doc id ) ;  <NL>  }  <NL> count time = system . current time millis ( ) - count time ;  <NL>  }  COM: <s> uses the given doc ids to update the tag counts </s>

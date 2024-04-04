@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> return super . to string ( ) + " ( " + this . n row start + " , " +  <NL> this . n row end + " , " + this . n col left start + " , " +  <NL> this . n col right start + " , " + this . n col left end + " , " +  <NL> this . n col right end + " ) " ;  <NL>  }  COM: <s> returns a string describing the current instance </s>

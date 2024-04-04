@@ -1,0 +1,1 @@
+TDAT: public void add component request ( final string id , final string id type , final string min version ) {  <NL> if ( log . is debug enabled ( ) ) {  <NL> log . debug ( " call to add component request ( " + id + " , " + id type + " , " + min version + " ) ignored . " ) ;  <NL>  }  <NL>  }  COM: <s> adds the specified component to the queue of components to be installed </s>

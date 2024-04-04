@@ -1,0 +1,1 @@
+TDAT: protected void zap ( int y ) {  <NL> for ( int n = y ; this . legal y ( n ) ; - - n )  <NL> for ( int m = 0 ; this . legal x ( m ) ; + + m )  <NL> this . data [ m ] [ n ] = n = = 0 ? 0 : this . data [ m ] [ n - 1 ] ;  <NL>  }  COM: <s> remove a row and move everything down leaving the top row empty </s>

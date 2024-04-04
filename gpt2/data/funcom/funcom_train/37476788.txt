@@ -1,0 +1,1 @@
+TDAT: public void leave node ( node node , string user name ) throws storage exception {  <NL> logger . debug ( " leaving node : " + node . get name ( ) ) ;  <NL> history manager . create ( " node _ leave " , node . get id ( ) , get id ( ) , user name , null ) ;  <NL> node . deactivate ( ) ;  <NL>  }  COM: <s> leave a node </s>

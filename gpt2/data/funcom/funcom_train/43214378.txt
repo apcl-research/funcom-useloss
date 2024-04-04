@@ -1,0 +1,1 @@
+TDAT: private void fire failed directory ( file file , collection < propagation exception wrapper > exceptions ) {  <NL> fire failure ( new add file tool event ( add file tool event . action _ failed , add file tool event . type _ directory , file , null , null , null , null ) , exceptions ) ;  <NL>  }  COM: <s> p notifies listeners that a directory upload has failed </s>

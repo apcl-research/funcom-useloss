@@ -1,0 +1,1 @@
+TDAT: private j menu bar create menu bar ( ) {  <NL> j menu bar menu bar = new j menu bar ( ) ;  <NL> menu bar . add ( create tabbed panel menu ( ) ) ;  <NL> menu bar . add ( create titled tab menu ( ) ) ;  <NL> menu bar . add ( create theme menu ( ) ) ;  <NL> menu bar . add ( create hover menu ( ) ) ;  <NL> return menu bar ;  <NL>  }  COM: <s> creates the menu bar </s>

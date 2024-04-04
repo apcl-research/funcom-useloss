@@ -1,0 +1,1 @@
+TDAT: public void restore values ( ) {  <NL> f object box = new object box ( - 1 , - 1 , this , " : " + f ass . name ( ) ) ;  <NL> f activations = new array list ( ) ;  <NL> f activation nesting = 0 ;  <NL> f draw = false ;  <NL> f is deleted = false ;  <NL> f max mess length = 0 ;  <NL>  }  COM: <s> restores some values to be sure that all values will be calculated </s>

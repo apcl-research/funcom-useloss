@@ -1,0 +1,1 @@
+TDAT: public jcv mat sub ( jcv scalar val ) {  <NL> jcv mat ret = new jcv mat ( num rows , num cols , num channels ) ;  <NL>  <NL> for ( int i = 0 ; i < num rows * num cols * num channels ; + + i ) {  <NL> ret . data [ i ] = data [ i ] - val . val [ i % num channels ] ;  <NL>  }  <NL>  <NL> return ret ;  <NL>  }  COM: <s> matrix scalar subtraction </s>

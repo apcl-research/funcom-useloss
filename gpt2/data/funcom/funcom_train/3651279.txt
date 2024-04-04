@@ -1,0 +1,1 @@
+TDAT: public void connect ( ) throws io exception {  <NL> super . connect ( ) ;  <NL> write xml ( " < stream : stream to = \ " " + url . get host ( ) + " \ " " +  <NL>  " xmlns = \ " jabber : client\ " " +  <NL>  " xmlns : stream = \ " http : / / etherx . jabber . org / streams\ " > " ) ;  <NL>  }  COM: <s> opens the connection then initiates the jabber session with an </s>

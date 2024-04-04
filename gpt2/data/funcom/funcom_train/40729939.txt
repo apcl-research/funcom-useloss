@@ -1,0 +1,1 @@
+TDAT: public void put ( int matching id , int parent id ) {  <NL> node n = map . get ( parent id ) ;  <NL> if ( n = = null ) {  <NL> n = new node ( ) ;  <NL> n . add possible ( parent id ) ;  <NL> map . put ( parent id , n ) ;  <NL>  }  <NL> n . add match ( matching id ) ;  <NL>  }  COM: <s> inserts a new matching node into the tree </s>

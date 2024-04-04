@@ -1,0 +1,1 @@
+TDAT: public void move ( ) {  <NL> graphics g = panel . get graphics ( ) ;  <NL> polygon p = new polygon ( ) ;  <NL> asteroid . set direction ( asteroid . get direction ( ) + math . pi / 180 ) ;  <NL> if ( ! paused ) {  <NL> move asteroid ( asteroid ) ;  <NL>  }  <NL> show asteroid ( g , color . black , asteroid ) ;  <NL>  }  COM: <s> coordinates the asteroids movement </s>

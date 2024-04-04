@@ -1,0 +1,1 @@
+TDAT: private void draw point ( point point , int radius ) {  <NL> graphic . set color ( color . red ) ;  <NL> graphic . fill oval ( ( int ) point . get x ( ) - radius / 2 , ( int ) point . get y ( )  <NL>  - radius / 2 , radius , radius ) ;  <NL> graphic . set color ( color . black ) ;  <NL>  } / / draw point  COM: <s> draws a point marking the start of a stroke </s>

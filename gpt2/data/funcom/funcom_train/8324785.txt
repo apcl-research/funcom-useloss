@@ -1,0 +1,1 @@
+TDAT: public void grant ( cube cube , access access ) {  <NL> util . assert precondition ( cube ! = null , " cube ! = null " ) ;  <NL> assert access = = access . all || access = = access . none ;  <NL> util . assert precondition ( is mutable ( ) , " is mutable ( ) " ) ;  <NL> cube grants . put ( cube , access ) ;  <NL>  }  COM: <s> defines access to a cube </s>

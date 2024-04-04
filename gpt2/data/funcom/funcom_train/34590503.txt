@@ -1,0 +1,1 @@
+TDAT: private void check all general action performed ( java . awt . event . action event evt ) {  <NL> boolean check = general check box . is selected ( ) ;  <NL> for ( int i = 0 ; i < general table . get row count ( ) ; i + + ) {  <NL> general table . set value at ( check , i , 0 ) ;  <NL>  }  <NL>  }  COM: <s> check all checkboxes </s>

@@ -1,0 +1,1 @@
+TDAT: public string get message ( ) {  <NL>  / / turn 1 to w001 <NL>  / / turn 204 to e204 <NL> string id str = id ! = 0 ? " { " + ( id < 200 ? " w " : " e " )  <NL>  + ( " " + ( 1000 + id ) ) . substring ( 1 ) + " } " : " " ;  <NL>  <NL> return id str + super . get message ( ) ;  <NL>  }  COM: <s> the message without location information </s>

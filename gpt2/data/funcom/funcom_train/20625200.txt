@@ -1,0 +1,1 @@
+TDAT: protected string ref by ( ) {  <NL> if ( ref _ by = = ref by enum . ref _ by _ id )  <NL> return " id " ;  <NL> if ( ref _ by = = ref by enum . ref _ by _ code )  <NL> return " code " ;  <NL> if ( ref _ by = = ref by enum . ref _ by _ name )  <NL> return " name " ;  <NL> return " error " ;  <NL>  }  COM: <s> this use a static from another unrelated class </s>

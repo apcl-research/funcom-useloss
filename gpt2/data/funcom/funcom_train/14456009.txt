@@ -1,0 +1,1 @@
+TDAT: public boolean isset vierde ( ) {  <NL> return ( isset1b1 ( ) ? 1 : 0 ) + ( isset1b2 ( ) ? 1 : 0 ) + ( isset1b3 ( ) ? 1 : 0 ) + ( isset1b4 ( ) ? 1 : 0 ) + ( isset1b5 ( ) ? 1 : 0 ) > = 4 ; / / 4 or more trees have to be visited <NL>  }  COM: <s> checks whether attribute vierde is set </s>

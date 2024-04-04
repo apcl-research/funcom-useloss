@@ -1,0 +1,1 @@
+TDAT: public zx get zx ( ) {  <NL>  / * *  <NL>  * exit early if a valid handle to z x .  <NL>  * /  <NL> if ( this . not _ null & & ! this . zx . is in cached ( ) ) {  <NL> return this . zx ;  <NL>  }  <NL>  <NL> this . zx = thread local zx . get zx ( ) ;  <NL> this . not _ null = true ;  <NL> return this . zx ;  <NL>  }  COM: <s> get the current zx handle </s>

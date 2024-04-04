@@ -1,0 +1,1 @@
+TDAT: public void error ( string message , string source name , int line , string line source , int line offset ) {  <NL> if ( line < 0 ) {  <NL> log . error ( message ) ;  <NL>  } else {  <NL> log . error ( " [ " + filename + " : " + line + " ] " + message ) ;  <NL>  }  <NL>  }  COM: <s> reports an error </s>

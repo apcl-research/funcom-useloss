@@ -1,0 +1,1 @@
+TDAT: public boolean is hotkey hit ( vector3f mouse pos ) {  <NL> int pixels width = cubes width * cube . size ;  <NL> if ( mouse pos . x < pixels width - cube . size || mouse pos . x > pixels width )  <NL> return false ;  <NL> if ( mouse pos . y < 0 || mouse pos . y > cube . size )  <NL> return false ;  <NL> return true ;  <NL>  }  COM: <s> tests for hit at hotkey area </s>

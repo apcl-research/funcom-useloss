@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> return " com . zwarg . xml . rss feed item [ title = " + this . str item title +  <NL>  " , link = " + this . str item link + " , description = " +  <NL> this . str item description + " , imageurl = " + this . str item image url + " ] " ;  <NL>  }  COM: <s> describe this object and its members </s>

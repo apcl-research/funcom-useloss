@@ -1,0 +1,1 @@
+TDAT: public float get new y ( float current y , float speed y ) {  <NL>  / / subtract by a small thread to make sure that it does not cross the bound .  <NL> if ( t > t _ epsilon ) {  <NL> return ( float ) ( current y + speed y * ( t - t _ epsilon ) ) ;  <NL>  } else {  <NL> return current y ;  <NL>  }  <NL>  }  COM: <s> return the y position after impact </s>

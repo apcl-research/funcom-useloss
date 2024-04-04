@@ -1,0 +1,1 @@
+TDAT: public int max blue ( ) {  <NL> int m = integer . min _ value ;  <NL> for ( int v = 0 ; v < get height ( ) ; v + + )  <NL>  {  <NL> for ( int u = 0 ; u < get width ( ) ; u + + )  <NL>  {  <NL> if ( blue ( u , v ) > m ) m = blue ( u , v ) ;  <NL>  }  <NL>  }  <NL> return m ;  <NL>  }  COM: <s> returns the maximum blue pixel value in band 2 </s>

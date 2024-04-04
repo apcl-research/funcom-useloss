@@ -1,0 +1,1 @@
+TDAT: public string get md5 ( ) {  <NL> if ( md5 = = null ) {  <NL>  / / for now don ' t do this because big files take a long time <NL>  / / file file = get the file ( ) ;  <NL>  / / if ( file . exists ( ) ) {  <NL>  / / md5 = io util . get md5 ( file . to string ( ) ) ;  <NL>  / / }  <NL>  }  <NL> return md5 ;  <NL>  }  COM: <s> get the md5 property </s>

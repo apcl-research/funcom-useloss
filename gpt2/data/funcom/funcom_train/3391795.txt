@@ -1,0 +1,1 @@
+TDAT: protected void write class name ( string class str ) {  <NL> table ( 1 , 3 , 0 ) ;  <NL> tr bgcolor style ( " # eeeeff " , " table sub heading color " ) ;  <NL> th align colspan ( " left " , 3 ) ;  <NL> write ( class str ) ;  <NL> th end ( ) ;  <NL> tr end ( ) ;  <NL>  }  COM: <s> print the class name in the table heading </s>

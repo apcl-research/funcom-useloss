@@ -1,0 +1,1 @@
+TDAT: public void reset options ( ) {  <NL> m _ support = 0 . 33 ;  <NL> m _ min improvement = 0 . 01 ; / / 1 %  <NL> m _ max branching factor = 2 ;  <NL> m _ minimize = false ;  <NL> m _ debug = false ;  <NL> set target ( " last " ) ;  <NL> set target index ( " first " ) ;  <NL> m _ error message = null ;  <NL>  }  COM: <s> reset options to their defaults </s>

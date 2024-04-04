@@ -1,0 +1,1 @@
+TDAT: protected string r ( string s , string u ) throws exception {  <NL> date d = parser . parse ( s ) ;  <NL> calendar c = calendar . get instance ( utc , locale . us ) ;  <NL> c . set time ( d ) ;  <NL> date math parser . round ( c , u ) ;  <NL> return fmt . format ( c . get time ( ) ) ;  <NL>  }  COM: <s> macro round parses s rounds with u fmts </s>

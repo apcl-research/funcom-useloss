@@ -1,0 +1,1 @@
+TDAT: public void set by month ( string b ) {  <NL> int [ ] bm = parse int set ( b , " month " , 1 , 12 , false ) ;  <NL>  <NL> if ( bm ! = null ) {  <NL> for ( int i = 0 ; i < bm . length ; i + + ) {  <NL> bm [ i ] + = calendar . january - 1 ;  <NL>  }  <NL>  }  <NL> set by month ( bm ) ;  <NL>  }  COM: <s> set the list of month constraints for this recurrence </s>

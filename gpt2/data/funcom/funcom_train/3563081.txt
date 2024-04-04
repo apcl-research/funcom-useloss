@@ -1,0 +1,1 @@
+TDAT: public void remove editor ( integer editor id ) throws db exception {  <NL> nv pair [ ] parms ;  <NL>  <NL> parms = new nv pair [ 1 ] ;  <NL> parms [ 0 ] = new nv pair ( " editor id " , editor id . to string ( ) ) ;  <NL> simple request ( remove _ editor _ page , " cannot remove editor " , parms ) ;  <NL>  }  COM: <s> deletes an editor </s>

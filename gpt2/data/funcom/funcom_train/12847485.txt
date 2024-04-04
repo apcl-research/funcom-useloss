@@ -1,0 +1,1 @@
+TDAT: public double swe _ radnorm ( double x ) {  <NL> double y ;  <NL> y = x % sweph data . twopi ;  <NL> if ( math . abs ( y ) < 1e - 13 ) {  <NL> y = 0 ; / * alois fix 11 - dec - 1999 * /  <NL>  }  <NL> if ( y < 0 . 0 ) {  <NL> y + = sweph data . twopi ;  <NL>  }  <NL> return ( y ) ;  <NL>  }  COM: <s> normalizes a double to the range 0 </s>

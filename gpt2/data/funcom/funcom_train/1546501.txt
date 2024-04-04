@@ -1,0 +1,1 @@
+TDAT: public void add value ( double v ) {  <NL> if ( window size ! = infinite _ window ) {  <NL> if ( get n ( ) = = window size ) {  <NL> e da . add element rolling ( v ) ;  <NL>  } else if ( get n ( ) < window size ) {  <NL> e da . add element ( v ) ;  <NL>  }  <NL>  } else {  <NL> e da . add element ( v ) ;  <NL>  }  <NL>  }  COM: <s> adds the value to the dataset </s>

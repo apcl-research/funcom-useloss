@@ -1,0 +1,1 @@
+TDAT: public void trim ( int n ) {  <NL> if ( n > 0 ) {  <NL> if ( n > value . length ) {  <NL> n = value . length ;  <NL>  }  <NL> int [ ] new value = new int [ value . length - n ] ;  <NL> system . arraycopy ( value , 0 , new value , 0 , value . length - n ) ;  <NL> value = new value ;  <NL>  }  <NL>  }  COM: <s> remove the n rightmost subidentifiers from this oid </s>

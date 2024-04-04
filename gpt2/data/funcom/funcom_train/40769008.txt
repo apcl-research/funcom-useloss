@@ -1,0 +1,1 @@
+TDAT: private int sha1 _ ft ( int t , int b , int c , int d ) {  <NL> if ( t < 20 )  <NL> return ( b & c ) | ( ( ~ b ) & d ) ;  <NL> if ( t < 40 )  <NL> return b ^ c ^ d ;  <NL> if ( t < 60 )  <NL> return ( b & c ) | ( b & d ) | ( c & d ) ;  <NL> return b ^ c ^ d ;  <NL>  }  COM: <s> perform the appropriate triplet combination private for the current </s>

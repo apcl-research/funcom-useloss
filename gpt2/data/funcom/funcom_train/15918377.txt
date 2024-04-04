@@ -1,0 +1,1 @@
+TDAT: private stmt seq flatten if ( if stmt ) {  <NL> list < stmt > stmts = new array list < stmt > ( ) ;  <NL> expr cond = get primary and statements ( stmt . cond ( ) , stmts ) ;  <NL> stmts . add ( stmt . cond ( cond ) ) ;  <NL> return syn . create stmt seq ( stmt . position ( ) , stmts ) ;  <NL>  }  COM: <s> flatten a conditional statement </s>

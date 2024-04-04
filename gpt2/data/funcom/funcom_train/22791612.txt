@@ -1,0 +1,1 @@
+TDAT: public url get url ( string file name ) {  <NL> string path = get class ( ) . get package ( ) . get name ( ) . replace ( ' . ' , ' / ' ) ;  <NL> path = " / " + path + " / " + file name ;  <NL> url result = get class ( ) . get resource ( path ) ;  <NL> return result ;  <NL>  }  COM: <s> returns a url of resource </s>

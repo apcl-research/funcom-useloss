@@ -1,0 +1,1 @@
+TDAT: private integer num tries ( string id ) {  <NL> integer valor = 1 ;  <NL> if ( tries . contains key ( id ) ) {  <NL> valor = ( integer ) tries . get ( id ) ;  <NL> tries . remove ( id ) ;  <NL> tries . put ( id , valor + 1 ) ;  <NL>  } else <NL> tries . put ( id , valor ) ;  <NL> return valor ;  <NL>  }  COM: <s> control function attempts to assign a person </s>

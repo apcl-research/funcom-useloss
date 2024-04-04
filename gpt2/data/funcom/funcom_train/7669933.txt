@@ -1,0 +1,1 @@
+TDAT: public void set formats by argument index ( format [ ] formats ) {  <NL> for ( int j = 0 ; j < formats . length ; j + + ) {  <NL> for ( int i = 0 ; i < max offset + 1 ; i + + ) {  <NL> if ( argument numbers [ i ] = = j ) {  <NL> this . formats [ i ] = formats [ j ] ;  <NL>  }  <NL>  }  <NL>  }  <NL>  }  COM: <s> sets the formats used for each argument </s>

@@ -1,0 +1,1 @@
+TDAT: private void end ( int count ) {  <NL> end = system . current time millis ( ) ;  <NL> long time = ( end - start ) ;  <NL> result . time = result . time + time ;  <NL> result . runs = result . runs + count ;  <NL> result . avg = ( result . time * 1000000 ) / result . runs ;  <NL> system . out . print ( " . " ) ;  <NL>  }  COM: <s> end the stopwatch and print the result </s>

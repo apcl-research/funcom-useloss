@@ -1,0 +1,1 @@
+TDAT: public object get value at ( int row , int column ) {  <NL> object value pair ovp = ( object value pair ) ll . get ( reverse ? get row count ( ) - 1 - row : row ) ;  <NL> if ( column = = 0 ) return ovp . get object ( ) ;  <NL> if ( column = = 1 ) return ovp . get value ( ) ;  <NL> return null ;  <NL>  }  COM: <s> gets a specific value for the table </s>

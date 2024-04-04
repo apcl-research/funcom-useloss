@@ -1,0 +1,1 @@
+TDAT: private void read bytes ( byte [ ] b , int off , int len ) {  <NL>  <NL> for ( int i = 0 ; i < len ; i + + ) {  <NL> b [ off + i ] = buffer [ pointer + + ] ;  <NL> if ( pointer > = buffer . length ) {  <NL> throw new index out of bounds exception ( ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> reads a sub array as a sequence of bytes </s>

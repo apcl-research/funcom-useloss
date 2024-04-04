@@ -1,0 +1,1 @@
+TDAT: public int hash code ( ) {  <NL> int hash code = 1 ;  <NL> for ( int i = 0 ; i < element count ; i + + ) {  <NL> object obj = elements [ i ] ;  <NL> hash code = 31 * hash code + ( obj = = null ? 0 : obj . hash code ( ) ) ;  <NL>  }  <NL> return hash code ;  <NL>  } / / - - hash code  COM: <s> as defined by the jdk 1 </s>

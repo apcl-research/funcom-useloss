@@ -1,0 +1,1 @@
+TDAT: private void create via ( ) {  <NL> via . put ( via _ form , new player attribute ( via _ form , 0 ) ) ;  <NL> via . put ( via _ energy , new player attribute ( via _ energy , 0 ) ) ;  <NL> via . put ( via _ motivation , new player attribute ( via _ motivation , 0 ) ) ;  <NL>  }  COM: <s> create the via attributes for player </s>

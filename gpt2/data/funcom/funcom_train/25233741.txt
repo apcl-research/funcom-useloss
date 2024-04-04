@@ -1,0 +1,1 @@
+TDAT: public void set family ( string . . . family ) {  <NL> if ( family . length = = 0 ) {  <NL> family = null ;  <NL> return ;  <NL>  }  <NL>  <NL> string builder sb = new string builder ( ) ;  <NL>  <NL> for ( string f : family ) {  <NL> append string ( sb , f , ' , ' ) ;  <NL>  }  <NL>  <NL> this . family = sb . to string ( ) ;  <NL>  }  COM: <s> list of font families </s>

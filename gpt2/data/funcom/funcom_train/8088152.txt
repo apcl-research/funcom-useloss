@@ -1,0 +1,1 @@
+TDAT: public void register ( object handler , class cls , string name ) {  <NL> read ( ) . add ( cls , xml serialization method handler . find read method ( handler , " read " + name ) ) ;  <NL> write ( ) . add ( cls , xml serialization method handler . find write method ( handler , " write " + name ) ) ;  <NL>  }  COM: <s> adds read and write methods for the given class i </s>

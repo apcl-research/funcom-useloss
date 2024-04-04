@@ -1,0 +1,1 @@
+TDAT: public boolean multiple of ( exp vector v ) {  <NL> byte [ ] u = val ;  <NL> byte [ ] v = ( ( exp vector byte ) v ) . val ;  <NL> boolean t = true ;  <NL> for ( int i = 0 ; i < u . length ; i + + ) {  <NL> if ( u [ i ] < v [ i ] ) {  <NL> return false ;  <NL>  }  <NL>  }  <NL> return t ;  <NL>  / / return evmt ( this , v ) ;  <NL>  }  COM: <s> exp vector multiple test </s>

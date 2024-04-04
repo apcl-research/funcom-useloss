@@ -1,0 +1,1 @@
+TDAT: public boolean is high score ( final int dif , final score score ) {  <NL> final int size = scores [ dif ] . size ( ) ;  <NL> if ( size < list length ) { return true ; }  <NL> final score last = ( score ) scores [ dif ] . element at ( size - 1 ) ;  <NL> return ( score . score > last . score ) ;  <NL>  }  COM: <s> checks if is high score </s>

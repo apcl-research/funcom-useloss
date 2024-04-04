@@ -1,0 +1,1 @@
+TDAT: public xssf cell style get cell style ( ) {  <NL> xssf cell style style = null ;  <NL> if ( _ styles source . get num cell styles ( ) > 0 ) {  <NL> long idx = _ cell . is set s ( ) ? _ cell . get s ( ) : 0 ;  <NL> style = _ styles source . get style at ( ( int ) idx ) ;  <NL>  }  <NL> return style ;  <NL>  }  COM: <s> return the cells style </s>

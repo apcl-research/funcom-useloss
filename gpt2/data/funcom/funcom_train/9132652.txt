@@ -1,0 +1,1 @@
+TDAT: public string get rulesets ( ) {  <NL> string [ ] values = get project ( ) . get configuration ( ) . get string array ( rulesets _ argument _ key ) ;  <NL> if ( values ! = null & & values . length > 0 ) {  <NL> return string utils . join ( values , ' , ' ) ;  <NL>  }  <NL> return default _ ruleset _ argument ;  <NL>  }  COM: <s> gets the rulesets </s>

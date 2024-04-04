@@ -1,0 +1,1 @@
+TDAT: public void test get count map ( ) {  <NL> system . out . println ( " test get count map " ) ;  <NL> map < string , integer > map = set . get count map ( ) ;  <NL> for ( string s : map . key set ( ) ) {  <NL> system . out . println ( s + " recieved " + map . get ( s ) + " counts " ) ;  <NL>  }  <NL>  }  COM: <s> test of get count map method of class jxl </s>

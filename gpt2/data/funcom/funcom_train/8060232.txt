@@ -1,0 +1,1 @@
+TDAT: public void set proxy ( string host , int port ) {  <NL> properties props = system . get properties ( ) ;  <NL> props . put ( " proxy set " , " true " ) ;  <NL> props . put ( " proxy host " , host ) ;  <NL> props . put ( " proxy port " , string . value of ( port ) ) ;  <NL>  }  COM: <s> set proxy host and port </s>

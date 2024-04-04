@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> return ( id ! = null ) ?  <NL>  " jrmp exporter [ " + id + " , " + port + " , " + csf + " , " + ssf + " ] " :  <NL>  " jrmp exporter [ " + port + " , " + csf + " , " + ssf + " ] " ;  <NL>  }  COM: <s> returns the string representation for this exporter </s>

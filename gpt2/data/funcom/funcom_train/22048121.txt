@@ -1,0 +1,1 @@
+TDAT: public void update ( ) {  <NL> update ui ( ) ;  <NL> m _ list . update ui ( ) ;  <NL> int i index = m _ list . get selected index ( ) ;  <NL> if ( ( i index > = 0 ) & & is single item list ( ) ) {  <NL> m _ list . set selection interval ( i index , i index ) ;  <NL>  }  <NL>  }  COM: <s> update the ui and ensure only one item is selected </s>

@@ -1,0 +1,1 @@
+TDAT: public i ruby object call ( thread context context , i ruby object self , ruby module klazz , string name , i ruby object arg , block block ) {  <NL> return call ( context , self , klazz , name , new i ruby object [ ] { arg } , block ) ;  <NL>  }  COM: <s> a default implementation of one arity block receiving call method </s>

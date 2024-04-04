@@ -1,0 +1,1 @@
+TDAT: private convolve op get blur op ( int size ) {  <NL> float [ ] data = new float [ size * size ] ;  <NL> float value = 1 / ( float ) ( size * size ) ;  <NL> for ( int i = 0 ; i < data . length ; i + + ) {  <NL> data [ i ] = value ;  <NL>  }  <NL> return new convolve op ( new kernel ( size , size , data ) ) ;  <NL>  }  COM: <s> something obscure for the transparence </s>

@@ -1,0 +1,1 @@
+TDAT: public i role get role ( int id , i ticket user ) throws security exception {  <NL> iterator iter = roles . iterator ( ) ;  <NL> while ( iter . has next ( ) ) {  <NL> i role role = ( i role ) iter . next ( ) ;  <NL> if ( role . get id ( ) = = id )  <NL> return role ;  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> getting a role given its internal id </s>

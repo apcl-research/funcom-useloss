@@ -1,0 +1,1 @@
+TDAT: private big decimal set id ( ) throws persistence exception {  <NL> if ( ! is new ( ) ) {  <NL> return get id ( ) ;  <NL>  }  <NL> big decimal current id = get id ( ) ;  <NL> if ( current id = = null ) {  <NL> current id = generate id ( ) ;  <NL> set ( " id " , current id ) ;  <NL>  }  <NL> return current id ;  <NL>  }  COM: <s> sets the value of the id property to </s>

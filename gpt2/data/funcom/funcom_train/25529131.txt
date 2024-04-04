@@ -1,0 +1,1 @@
+TDAT: protected double get number of non symbols ( int i min rank , int i max rank ) {  <NL> double d sum = 0 ;  <NL> for ( int i cnt = i min rank ; i cnt < = i max rank ; i cnt + + ) {  <NL> d sum + = non symbols per rank . get value ( i cnt ) ;  <NL>  }  <NL> return d sum ;  <NL>  }  COM: <s> returns the number of non symbols summed over a specific range of ranks </s>

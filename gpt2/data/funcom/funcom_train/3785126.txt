@@ -1,0 +1,1 @@
+TDAT: public void mouse released ( mouse event e )  <NL>  { / * mouse released * /  <NL> map rel x yto image ( e ) ; / * map mouse to this . ( x img , y img ) * /  <NL>  / / string msg = show image mouse positions ( e , csi . disp name ) ;  <NL>  / / csi . show img msg ( msg ) ;  <NL>  } / * mouse released * /  COM: <s> mouse released display data </s>

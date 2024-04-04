@@ -1,0 +1,1 @@
+TDAT: public int get contains file row ( string file path ) {  <NL> for ( int i = 0 ; i < this . get row count ( ) ; i + + ) {  <NL> if ( ( ( string ) file list map . get ( i ) [ 1 ] ) . compare to ( file path ) = = 0 ) {  <NL> return i ;  <NL>  }  <NL>  }  <NL> return - 1 ;  <NL>  }  COM: <s> returns a negative integer or others </s>

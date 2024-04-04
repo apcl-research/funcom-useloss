@@ -1,0 +1,1 @@
+TDAT: public void table ( int border , int cellpadding , int cellspacing ) {  <NL> println ( doclet constants . nl +  <NL>  " < table border = \ " " + border +  <NL>  " \ " cellpadding = \ " " + cellpadding +  <NL>  " \ " cellspacing = \ " " + cellspacing +  <NL>  " \ " summary = \ " \ " > " ) ;  <NL>  }  COM: <s> print html lt table border border cellpadding cellpadding </s>

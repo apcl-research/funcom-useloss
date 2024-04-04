@@ -1,0 +1,1 @@
+TDAT: private void output java files ( ) {  <NL> try {  <NL> file file = new file ( config . cfg . get output dir ( ) ) ;  <NL> file . mkdirs ( ) ;  <NL> cm . build ( file , ( print stream ) null ) ;  <NL>  } catch ( io exception e ) {  <NL> throw new runtime exception ( " error generating the java files " , e ) ;  <NL>  }  <NL>  }  COM: <s> outputs the meta contents of </s>

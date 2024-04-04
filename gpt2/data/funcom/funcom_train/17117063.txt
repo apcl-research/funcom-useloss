@@ -1,0 +1,1 @@
+TDAT: public bundle to bundle ( bundle b ) {  <NL> b . put long ( extras _ id , id ) ;  <NL> b . put long ( extras _ thread _ id , thread id ) ;  <NL> b = contact . to bundle ( b ) ;  <NL> b . put long ( extras _ timestamp , time stamp ) ;  <NL> b . put string ( extras _ body , body ) ;  <NL>  <NL> return b ;  <NL>  }  COM: <s> add ssmessage bundle to an existing bundle </s>

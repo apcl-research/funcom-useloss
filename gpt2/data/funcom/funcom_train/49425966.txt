@@ -1,0 +1,1 @@
+TDAT: public void execute ( final nifty render engine r ) {  <NL> if ( is hover effect ( ) ) {  <NL> effect impl . execute ( element , time interpolator . get value ( ) , falloff , r ) ;  <NL>  } else {  <NL> effect impl . execute ( element , time interpolator . get value ( ) , null , r ) ;  <NL>  }  <NL>  }  COM: <s> execute the effect </s>

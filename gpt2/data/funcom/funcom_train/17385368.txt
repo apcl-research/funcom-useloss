@@ -1,0 +1,1 @@
+TDAT: protected boolean verify ( ) {  <NL> int accum = 3 ;  <NL> cdkey = cdkey . to lower case ( ) ;  <NL>  <NL> for ( int i = 0 ; i < ( cdkey . length ( ) - 1 ) ; i + + )  <NL> accum + = ( ( cdkey . char at ( i ) - ' 0 ' ) ^ ( accum * 2 ) ) ;  <NL>  <NL> return ( ( accum % 10 ) = = ( cdkey . char at ( 12 ) - ' 0 ' ) ) ;  <NL>  }  COM: <s> verifies that the cdkey is valid </s>

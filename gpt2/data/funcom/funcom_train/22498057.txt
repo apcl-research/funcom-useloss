@@ -1,0 +1,1 @@
+TDAT: private void indent ( final int len ) throws io exception {  <NL> if ( indent chars = = null || len > indent chars . length ) {  <NL> indent chars = new char [ len ] ;  <NL> for ( int i = 0 ; i < len ; i + + ) {  <NL> indent chars [ i ] = ' ' ;  <NL>  }  <NL>  }  <NL> writer . write ( indent chars , 0 , len ) ;  <NL>  }  COM: <s> indent by a given number of characters </s>

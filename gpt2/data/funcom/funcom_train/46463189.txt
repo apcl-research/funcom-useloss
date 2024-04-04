@@ -1,0 +1,1 @@
+TDAT: @ test method <NL> public void test doubles ( tester t ) {  <NL>  / * * test double - s * /  <NL> t . check expect ( pt1 . dist to0 ( ) , 5 . 0 , " distance to 0 - double - test1 : " ) ;  <NL> t . check fail ( pt2 . dist to0 ( ) , 100 . 0 , " distance to 0 - double - test2 : " ) ;  <NL>  }  COM: <s> test the comparisons for inexact numbers of the types </s>

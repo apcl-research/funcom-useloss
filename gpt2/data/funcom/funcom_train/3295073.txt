@@ -1,0 +1,1 @@
+TDAT: private image set image ( int w , int h , int pix [ ] ) {  <NL>  / / ok , we can ' t do this !  <NL>  / / return ( create image ( new memory image source ( w , h , pix , 0 , w ) ) ) ;  <NL> return ( null ) ;  <NL>  }  COM: <s> set the image from a 1 d rgb pixel array </s>

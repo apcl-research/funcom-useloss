@@ -1,0 +1,1 @@
+TDAT: public void set insets ( int top , int bottom , int left , int right ) {  <NL> insets . top = top ;  <NL> insets . bottom = bottom ;  <NL> insets . left = left ;  <NL> insets . right = right ;  <NL> set size ( ( int ) width , ( int ) height ) ; / / resize the object with the new insets <NL>  }  COM: <s> set the insets used to slice the texture </s>

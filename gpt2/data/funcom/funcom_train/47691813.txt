@@ -1,0 +1,1 @@
+TDAT: public double variance ( ) {  <NL>  / / return alpha * ( ( 1 + alpha ) + beta ) / ( ( alpha + beta ) * ( 1 + alpha + beta ) ) - mean ( ) * mean ( ) ;  <NL> return alpha * beta <NL>  / ( ( alpha + beta ) * ( alpha + beta ) * ( alpha + beta + 1 ) ) ;  <NL>  }  COM: <s> specify the variance in close form </s>

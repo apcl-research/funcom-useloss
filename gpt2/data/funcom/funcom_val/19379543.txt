@@ -1,0 +1,1 @@
+TDAT: public void z pauli ( int j ) {  <NL> for ( int k = 0 ; k < power2 ( size ) ; k + = power2 ( j ) ) {  <NL> for ( int l = 0 ; l < power2 ( j - 1 ) ; l + + ) {  <NL> int i1 = k + l + power2 ( j - 1 ) ;  <NL>  <NL> real [ i1 ] * = - 1 ;  <NL> imaginary [ i1 ] * = - 1 ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> applies the pauli z gate to the i j i th qubit </s>

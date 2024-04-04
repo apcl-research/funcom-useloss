@@ -1,0 +1,1 @@
+TDAT: public void set window pane ( player p , int set ) {  <NL> if ( p = = null || p . stream = = null || p . disconnected [ 0 ] ) {  <NL> return ;  <NL>  }  <NL> p . stream . create frame ( 239 ) ;  <NL> p . stream . write word ( set ) ;  <NL> p . stream . write byte a ( 0 ) ;  <NL>  }  COM: <s> set either fullscreen or normal </s>

@@ -1,0 +1,1 @@
+TDAT: public void add ( final q nm name ) throws query exception {  <NL> final byte [ ] ln = name . ln ( ) ;  <NL> if ( eq ( ln , xml ) || eq ( ln , xmlns ) ) err . or ( nsdef , name ) ;  <NL> final byte [ ] uri = name . uri . str ( ) ;  <NL> if ( eq ( xmluri , uri ) ) err . or ( noxmlns , name ) ;  <NL> ns . add ( ln , uri ) ;  <NL>  }  COM: <s> adds the specified namespace </s>

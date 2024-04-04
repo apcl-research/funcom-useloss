@@ -1,0 +1,1 @@
+TDAT: protected void store patch ( patch p , int bank num , int patch num ) {  <NL>  / / replace old values in patch p <NL> p . sysex [ 6 ] = ( byte ) bank num ;  <NL>  / / recalculate the new checksum with the new bank num in the patch .  <NL> calculate checksum ( p , 5 , 16 , 17 ) ;  <NL>  / / send patch ( p ) ;  <NL>  }  COM: <s> sends a settings to a set patch p </s>

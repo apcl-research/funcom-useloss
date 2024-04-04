@@ -1,0 +1,1 @@
+TDAT: private void add drawing rect ( rectangle2d rect , float x , float y ) {  <NL>  <NL> add drawing rect ( ( float ) ( rect . get x ( ) + x ) ,  <NL>  ( float ) ( rect . get y ( ) + y ) ,  <NL>  ( float ) rect . get width ( ) ,  <NL>  ( float ) rect . get height ( ) ) ;  <NL>  <NL>  }  COM: <s> shift the rectangle rect to the position x y </s>

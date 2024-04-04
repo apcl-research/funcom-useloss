@@ -1,0 +1,1 @@
+TDAT: public joins join ( joins joins , boolean force outer , boolean to many ) {  <NL> if ( _ fk = = null )  <NL> return joins ;  <NL> if ( _ outer || force outer )  <NL> return joins . outer join ( _ fk , true , to many ) ;  <NL> return joins . join ( _ fk , true , to many ) ;  <NL>  }  COM: <s> joins from the owning class table to the table where this field lies </s>

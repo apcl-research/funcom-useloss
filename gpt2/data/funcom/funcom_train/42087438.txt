@@ -1,0 +1,1 @@
+TDAT: public void remove comic ( ) {  <NL> if ( all comics . is empty ( ) ) {  <NL>  / / nothing to remove . . .  <NL> return ;  <NL>  }  <NL> if ( current < 0 || current > = all comics . size ( ) ) current = 0 ;  <NL> all comics . remove ( current ) ;  <NL> if ( current > = all comics . size ( ) ) current = 0 ;  <NL>  }  COM: <s> removes a comic site from the list </s>

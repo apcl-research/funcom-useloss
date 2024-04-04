@@ -1,0 +1,1 @@
+TDAT: public void test contractions backwards ( ) throws io exception {  <NL> analyzer a = new italian analyzer ( version . lucene _ 31 ) ;  <NL> assert analyzes to ( a , " dell ' italia " , new string [ ] { " dell ' ital " } ) ;  <NL> assert analyzes to ( a , " l ' italiano " , new string [ ] { " l ' ital " } ) ;  <NL>  }  COM: <s> test that we dont enable this before 3 </s>

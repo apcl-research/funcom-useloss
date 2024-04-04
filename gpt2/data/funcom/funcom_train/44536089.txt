@@ -1,0 +1,1 @@
+TDAT: public void set size ( long l ) {  <NL> if ( l = = - 1 ) {  <NL> l = ( this . get subject ( ) ! = null ) ? this . get subject ( ) . length ( ) : 0 ;  <NL> l + = ( this . get body ( ) ! = null ) ? this . get body ( ) . length ( ) : 0 ;  <NL>  }  <NL> this . size = l ;  <NL>  }  COM: <s> set size of message </s>

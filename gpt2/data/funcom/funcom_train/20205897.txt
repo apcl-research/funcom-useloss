@@ -1,0 +1,1 @@
+TDAT: private void remove index ( control control ) {  <NL> if ( control . get name ( ) = = null ) {  <NL> return ;  <NL>  }  <NL> int index = control . get name ( ) . last index of ( " _ " ) ;  <NL> if ( index > = 0 ) {  <NL> control . set name ( control . get name ( ) . substring ( 0 , index ) ) ;  <NL>  }  <NL>  }  COM: <s> remove the index from the given control name </s>

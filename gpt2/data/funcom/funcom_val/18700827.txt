@@ -1,0 +1,1 @@
+TDAT: public string get non human resource ( string id , string handle ) throws io exception {  <NL> map < string , string > params = prepare param map ( " get non human resource " , handle ) ;  <NL> params . put ( " id " , id ) ;  <NL> return execute get ( _ service uri , params ) ;  <NL>  }  COM: <s> gets a specific non human resource </s>

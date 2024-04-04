@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> string builder sb = new string builder ( ) ;  <NL> sb . append ( " [ " ) . append ( this . get class ( ) . get name ( ) ) . append ( " ] " )  <NL>  . append ( " id = " ) . append ( get id ( ) ) ;  <NL> return sb . to string ( ) ;  <NL>  }  COM: <s> returns a multi line string with key value pairs </s>

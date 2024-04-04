@@ -1,0 +1,1 @@
+TDAT: public void mouse released ( mouse event e ) {  <NL> rectangle . set size ( math . abs ( e . get x ( ) - rectangle . x ) ,  <NL> math . abs ( e . get y ( ) - rectangle . y ) ) ;  <NL> if ( e . get button ( ) ! = mouse event . button3 ) {  <NL> color selected nodes ( ) ;  <NL>  }  <NL>  }  COM: <s> starts when a mouse button is released </s>

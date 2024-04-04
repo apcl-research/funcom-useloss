@@ -1,0 +1,1 @@
+TDAT: public void insert text ( string s ) throws bad location exception {  <NL> doc . insert string ( doc . get length ( ) , s , null ) ;  <NL> server text pane . scroll rect to visible ( new rectangle ( 0 , server text pane . get height ( ) - 2 , 1 , 1 ) ) ;  <NL>  }  COM: <s> function called to insert normal styled text into the server text field </s>

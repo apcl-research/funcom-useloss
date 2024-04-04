@@ -1,0 +1,1 @@
+TDAT: public void set item container ( int x , int y , item container container ) {  <NL> this . items [ x ] [ y ] = container ;  <NL>  <NL>  / / proxy <NL> map point pt = new map point ( x , y ) ;  <NL> this . item proxy . put ( ( object ) pt , ( object ) this . items [ x ] [ y ] ) ;  <NL>  }  COM: <s> set item container for a coordinate used when loading maps </s>

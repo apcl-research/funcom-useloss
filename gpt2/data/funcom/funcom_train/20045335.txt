@@ -1,0 +1,1 @@
+TDAT: public void _ get text ( ) {  <NL>  <NL> log . println ( " testing get text . . . " ) ;  <NL> x text o frame text = o obj . get text ( ) ;  <NL> string content = o frame text . get string ( ) ;  <NL> t res . tested ( " get text ( ) " , content . equals ( " the frame text " ) ) ;  <NL>  }  COM: <s> gets the text of the frame </s>

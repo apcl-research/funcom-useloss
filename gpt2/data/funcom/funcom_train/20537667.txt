@@ -1,0 +1,1 @@
+TDAT: private void add url property ( composite parent , string name , final string href , color bg color , color fg color , color name fg color ) {  <NL> add url property ( parent , name , href , bg color , fg color , name fg color , false ) ;  <NL>  }  COM: <s> adds a url property to the editor </s>

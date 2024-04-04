@@ -1,0 +1,1 @@
+TDAT: public void draw line ( int x1 , int y1 , int x2 , int y2 ) {  <NL> set state to local ( ) ;  <NL> m _ printstream . println ( x transform ( x scale ( x1 ) ) + " " + y transform ( y scale ( y1 ) ) + " moveto " + x transform ( x scale ( x2 ) ) + " " + y transform ( y scale ( y2 ) ) + " lineto stroke " ) ;  <NL>  }  COM: <s> draw a line in current pen color </s>

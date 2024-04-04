@@ -1,0 +1,1 @@
+TDAT: private void add input set ( string label , j text field input ) {  <NL> if ( ( pi = = null ) || ( pl = = null ) ) {  <NL> pi = new j panel ( new grid layout ( 5 , 5 , 5 , 5 ) ) ;  <NL> pl = new j panel ( new grid layout ( 5 , 5 , 5 , 5 ) ) ;  <NL>  }  <NL> pi . add ( input ) ;  <NL> pl . add ( new j label ( label ) ) ;  <NL>  }  COM: <s> add a new set of input gui </s>

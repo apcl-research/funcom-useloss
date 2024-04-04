@@ -1,0 +1,1 @@
+TDAT: public void start ( ) {  <NL> logger . log ( level . finer , " starting the state machine " ) ; / / $ non - nls - 1 $  <NL> if ( start id = = null ) {  <NL> throw new illegal state exception ( " no starting state has been defined . " ) ; / / $ non - nls - 1 $  <NL>  }  <NL> change state ( start id ) ;  <NL>  }  COM: <s> starts the state machine with the starting state </s>

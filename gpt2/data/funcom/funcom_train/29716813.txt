@@ -1,0 +1,1 @@
+TDAT: private svg entity get svg entity ( diagram element e ) {  <NL> for ( int i = 0 ; i < objects . size ( ) ; i + + ) {  <NL> svg entity en = ( svg entity ) objects . get ( i ) ;  <NL> if ( en . get entity ( ) . get name ( ) . equals ( e . get name ( ) ) )  <NL> return en ;  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> returns the svgentity wrapper for a diagram element </s>

@@ -1,0 +1,1 @@
+TDAT: public void set ambient occlusion shader ( ) {  <NL> shader . set ambient occlusion shader ( new color ( calc r , calc g , calc b ) , new color ( calc r * . 25f , calc g * . 25f , calc b * . 25f ) , 16 , 10 ) ;  <NL>  / / save name for use with primitives <NL> curr shader = shader . current name ;  <NL>  }  COM: <s> sets default ambient occlusion shader </s>

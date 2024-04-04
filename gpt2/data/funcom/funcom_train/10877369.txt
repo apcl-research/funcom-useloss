@@ -1,0 +1,1 @@
+TDAT: public void write string ( string s ) throws io exception {  <NL> final bytes ref utf8result = new bytes ref ( 10 ) ;  <NL> unicode util . utf16to utf8 ( s , 0 , s . length ( ) , utf8result ) ;  <NL> write v int ( utf8result . length ) ;  <NL> write bytes ( utf8result . bytes , 0 , utf8result . length ) ;  <NL>  }  COM: <s> writes a string </s>

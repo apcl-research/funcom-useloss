@@ -1,0 +1,1 @@
+TDAT: public void apply filters ( ) {  <NL> if ( elements = = null ) return ;  <NL> int count = elements . length ;  <NL> for ( int i = 0 ; i < count ; i + + ) {  <NL> widget w = find item ( elements [ i ] ) ;  <NL> if ( w ! = null ) {  <NL> w . set visible ( ! is filtered ( null , elements [ i ] ) ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> applies the viewers filters </s>

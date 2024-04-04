@@ -1,0 +1,1 @@
+TDAT: protected int fill in statement ( prepared statement ps , object [ ] values , int [ ] sql types , int from index ) throws sql exception {  <NL> for ( int i = 0 ; i < values . length ; i + + ) {  <NL> ps . set object ( from index + i , values [ i ] , sql types [ i ] ) ;  <NL>  }  <NL>  <NL> return values . length ;  <NL>  }  COM: <s> fills values into the </s>

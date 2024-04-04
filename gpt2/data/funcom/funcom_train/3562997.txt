@@ -1,0 +1,1 @@
+TDAT: public void remove author ( integer author id ) throws db exception {  <NL> nv pair [ ] parms ;  <NL>  <NL> parms = new nv pair [ 1 ] ;  <NL> parms [ 0 ] = new nv pair ( " author id " , author id . to string ( ) ) ;  <NL> simple request ( remove _ author _ page , " cannot author genre " , parms ) ;  <NL>  }  COM: <s> deletes an author </s>

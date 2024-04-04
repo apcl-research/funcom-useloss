@@ -1,0 +1,1 @@
+TDAT: public void _ is form design mode ( ) {  <NL> required method ( " set form design mode ( ) " ) ;  <NL>  <NL> log . println ( " test for is form design mode ( ) is ok since test for ' set form desing mode ( ) ' use it " ) ;  <NL> t res . tested ( " is form design mode ( ) " , true ) ;  <NL>  }  COM: <s> this test calls the test for code set form design mode code </s>

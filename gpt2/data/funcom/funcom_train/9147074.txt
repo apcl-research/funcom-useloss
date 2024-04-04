@@ -1,0 +1,1 @@
+TDAT: public void prune ( int min count ) {  <NL> iterator < map . entry < e , counter > > it = entry set ( ) . iterator ( ) ;  <NL> while ( it . has next ( ) )  <NL> if ( it . next ( ) . get value ( ) . value ( ) < min count )  <NL> it . remove ( ) ; / / remove this entry <NL>  }  COM: <s> removes all entries in this counter that have less than </s>

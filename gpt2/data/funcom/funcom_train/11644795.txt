@@ -1,0 +1,1 @@
+TDAT: public void test replace adjacent at start ( ) {  <NL> values . put ( " code " , " gbp " ) ;  <NL> values . put ( " amount " , " 12 . 50 " ) ;  <NL> str substitutor sub = new str substitutor ( values ) ;  <NL> assert equals ( " gbp12 . 50 charged " , sub . replace ( " $ { code } $ { amount } charged " ) ) ;  <NL>  }  COM: <s> tests adjacent keys </s>

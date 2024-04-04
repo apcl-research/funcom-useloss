@@ -1,0 +1,1 @@
+TDAT: private void store ( sax parse exception ex , string type ) {  <NL>  / / build error text <NL> string error string = type + " at line number , " + ex . get line number ( )  <NL>  + " : " + ex . get message ( ) ;  <NL>  / / adds it to the error list <NL> error nodes . add ( error string ) ;  <NL>  }  COM: <s> stores an error </s>

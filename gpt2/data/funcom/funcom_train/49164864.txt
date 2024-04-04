@@ -1,0 +1,1 @@
+TDAT: private void generic callback ( string function , object [ ] param ) {  <NL> if ( js listener = = null ) {  <NL> return ;  <NL>  }  <NL> try {  <NL> js listener . call ( function , param ) ;  <NL>  } catch ( exception ex ) {  <NL> system . err . println ( ex . to string ( ) + " " + js listener . to string ( ) ) ;  <NL>  }  <NL>  }  COM: <s> callback to javascript </s>

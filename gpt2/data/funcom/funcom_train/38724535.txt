@@ -1,0 +1,1 @@
+TDAT: private buffered image set new image ( buffered image old image ) {  <NL> buffered image new image = new buffered image ( sketch width , sketch height , buffered image . type _ int _ argb ) ;  <NL> new image . create graphics ( ) . draw image ( old image , 0 , 0 , this ) ;  <NL> return new image ;  <NL>  }  COM: <s> clones the current tt buffered image tt </s>

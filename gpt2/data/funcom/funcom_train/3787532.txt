@@ -1,0 +1,1 @@
+TDAT: public string get guid ( ) {  <NL> return ( digits ( most sig > > 32 , 8 ) + " - "  <NL>  + digits ( most sig > > 16 , 4 ) + " - "  <NL>  + digits ( most sig , 4 ) + " - "  <NL>  + digits ( least sig > > 48 , 4 ) + " - "  <NL>  + digits ( least sig , 12 ) ) ;  <NL>  }  COM: <s> gets the guid attribute of the uuid object </s>

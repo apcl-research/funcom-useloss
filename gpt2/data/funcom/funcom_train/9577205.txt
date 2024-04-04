@@ -1,0 +1,1 @@
+TDAT: public void add geo file ( ) {  <NL> geo parser parser = new geo parser ( geo file ) ;  <NL>  <NL>  / / for each of the data sets , add the file <NL> for ( integer h = 1 ; h < parser . get file count ( ) ; h + + ) {  <NL>  / / add the geo data to the file <NL> parser . add data to genome ( g , h , true ) ;  <NL>  }  <NL>  }  COM: <s> add geo file to the current genome </s>

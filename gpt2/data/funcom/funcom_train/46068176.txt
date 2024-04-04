@@ -1,0 +1,1 @@
+TDAT: public string get arzt name ( int arzt id ) {  <NL> log . debug ( " gui request : get arzt name ( ) for " + arzt id ) ;  <NL> i arzt a = dh . geti arzt ( arzt id ) ;  <NL>  <NL> string ret = a . get benutzervorname ( ) . char at ( 0 ) + " . " + a . get benutzernachname ( ) ;  <NL> return ret ;  <NL>  }  COM: <s> return the doctor name </s>

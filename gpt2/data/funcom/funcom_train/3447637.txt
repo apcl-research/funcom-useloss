@@ -1,0 +1,1 @@
+TDAT: public void swap ( int i , int j ) {  <NL> if ( i = = j ) return ;  <NL> int tmp = direct . get ( i ) ;  <NL> direct . set ( i , direct . get ( j ) ) ;  <NL> direct . set ( j , tmp ) ;  <NL> invalidate inverse ( ) ;  <NL> disable notify ( ) ;  <NL> modified ( i ) ;  <NL> modified ( j ) ;  <NL> enable notify ( ) ;  <NL>  }  COM: <s> exchange two value </s>

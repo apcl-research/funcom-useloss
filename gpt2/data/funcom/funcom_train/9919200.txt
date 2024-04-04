@@ -1,0 +1,1 @@
+TDAT: public void begin update vertices ( ) {  <NL> gl . gl bind buffer arb ( gl . gl _ array _ buffer _ arb , vert coords vbo [ 0 ] ) ;  <NL> byte buffer temp = gl . gl map buffer arb ( gl . gl _ array _ buffer _ arb , gl . gl _ write _ only ) ;  <NL> vertices = temp . as float buffer ( ) ;  <NL>  }  COM: <s> enables vertex updating to be done with the </s>

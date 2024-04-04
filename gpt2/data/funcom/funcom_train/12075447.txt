@@ -1,0 +1,1 @@
+TDAT: public void setup focused component ( ) {  <NL> component c = get most recent focus owner ( ) ;  <NL> if ( c ! = null ) {  <NL> if ( c . get window ( ) ! = this || ! c . is showing ( ) || ! c . is focusable ( ) ) {  <NL> set focused component ( null ) ;  <NL> get most recent focus owner ( ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> called by pack and revalidate </s>

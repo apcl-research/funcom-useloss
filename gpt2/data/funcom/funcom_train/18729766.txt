@@ -1,0 +1,1 @@
+TDAT: public vertex multiply ( vertex v , boolean as vertex ) {  <NL> double fourth = as vertex ? 1 : 0 ;  <NL> double res [ ] = multiply ( new double [ ] { v . get x ( ) , v . get y ( ) , v . get z ( ) , fourth } ) ;  <NL> return new vertex ( res [ 0 ] , res [ 1 ] , res [ 2 ] ) ;  <NL>  }  COM: <s> multiply a vertex with a matrix either as a vertex or vector </s>

@@ -1,0 +1,1 @@
+TDAT: public void submit ( ) {  <NL>  / / fire the on submit event , because javascript ' s form . submit ( ) does not <NL>  / / fire the built - in onsubmit event .  <NL> if ( form handlers ! = null ) {  <NL> if ( form handlers . fire on submit ( this ) )  <NL> return ;  <NL>  }  <NL>  <NL> impl . submit ( get element ( ) , iframe ) ;  <NL>  }  COM: <s> submits the form </s>

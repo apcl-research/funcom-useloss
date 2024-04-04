@@ -1,0 +1,1 @@
+TDAT: private polynomial reduce exponent ( final int p ) {  <NL>  / / compute ( x ^ q ^ p mod f )  <NL> big integer q _ to _ p = q . pow ( p ) ;  <NL> polynomial x _ to _ q _ to _ p = x . mod pow ( q _ to _ p , this ) ;  <NL>  <NL>  / / subtract ( x mod f )  <NL> return x _ to _ q _ to _ p . xor ( x ) . mod ( this ) ;  <NL>  }  COM: <s> computes x 2 p x mod f </s>

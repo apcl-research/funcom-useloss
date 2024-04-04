@@ -1,0 +1,1 @@
+TDAT: public void draw arc ( int x , int y , int width , int height , int start angle , int arc angle ) {  <NL> get graphics ( ) . draw arc ( x + this . translate x , y + this . translate y , width , height , start angle , arc angle ) ;  <NL>  }  COM: <s> draws the outline of a circular or elliptical arc </s>

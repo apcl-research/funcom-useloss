@@ -1,0 +1,1 @@
+TDAT: public string name ( ) {  <NL> if ( get package ( ) = = null || get package ( ) . id ( ) = = null || get package ( ) . id ( ) . length ( ) < 1 ) {  <NL> return super . name ( ) ;  <NL>  }  <NL> return id ( ) . substring ( get package ( ) . id ( ) . length ( ) + 1 ) ;  <NL>  }  COM: <s> the name of a type is the package less id </s>

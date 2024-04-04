@@ -1,0 +1,1 @@
+TDAT: public void test unary predicate ( ) {  <NL> te = m type environment ( " s " , " s " ) ;  <NL> assert predicate specialization ( te , / /  <NL>  " ¬ ( s ∈ s ) " , / /  <NL> m spec ( te , / /  <NL> m list ( " s " , " y " ) , / /  <NL> m list ( " s " , " s " , " y " , " y " ) ) ) ;  <NL>  }  COM: <s> ensures that an unary predicate with two children gets specialized </s>

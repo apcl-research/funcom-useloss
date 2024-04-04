@@ -1,0 +1,1 @@
+TDAT: private validation status validate list items ( ) {  <NL> validation status status = ok _ status ;  <NL> string [ ] items = list . get items ( ) ;  <NL> for ( int i = 0 ; i < items . length & & status . is ok ( ) ; i + + ) {  <NL> status = list validator . validate ( items [ i ] ) ;  <NL>  }  <NL> return status ;  <NL>  }  COM: <s> validates the items in the list </s>

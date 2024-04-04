@@ -1,0 +1,1 @@
+TDAT: public void remove card ( final card card ) {  <NL>  <NL> suit count . put ( card . get suit ( ) , suit count . get ( card . get suit ( ) ) - 1 ) ;  <NL> suit points . put ( card . get suit ( ) , suit count . get ( card . get suit ( ) ) - card . get rank ( ) . get points ( ) ) ;  <NL>  }  COM: <s> removes a card from the suit point counter </s>

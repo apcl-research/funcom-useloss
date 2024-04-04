@@ -1,0 +1,1 @@
+TDAT: public void save resource bundle ( file output file , ujo ujo , string header , object context ) throws io exception {  <NL> final output stream out = get output stream ( output file ) ;  <NL> try {  <NL> save resource bundle ( out , ujo , header , context ) ;  <NL>  } finally {  <NL> out . close ( ) ;  <NL>  }  <NL>  }  COM: <s> save ujo into java resource bundle </s>

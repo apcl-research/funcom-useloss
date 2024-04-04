@@ -1,0 +1,1 @@
+TDAT: public void test turkish ( ) throws exception {  <NL> analyzer a = new snowball analyzer ( test _ version _ current , " turkish " ) ;  <NL>  <NL> assert analyzes to ( a , " ağacı " , new string [ ] { " ağaç " } ) ;  <NL> assert analyzes to ( a , " ağaci " , new string [ ] { " ağaç " } ) ;  <NL>  }  COM: <s> test turkish lowercasing </s>

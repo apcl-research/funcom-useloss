@@ -1,0 +1,1 @@
+TDAT: private search result create search result ( string in search item name , string in cn , string in uid , string in name , string in sn , string in mail ) {  <NL> return new search result ( in search item name , null , create attributes ( in cn , in uid , in name , in sn , in mail ) ) ;  <NL>  }  COM: <s> each code search result code is an entry </s>

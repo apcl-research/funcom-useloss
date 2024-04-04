@@ -1,0 +1,1 @@
+TDAT: private j tabbed pane get tp main ( ) {  <NL> if ( tp main = = null ) {  <NL> tp main = new j tabbed pane ( ) ;  <NL> tp main . add tab ( " general " , null , get panel general ( ) , null ) ;  <NL> tp main . add tab ( " contents " , null , get panel contents ( ) , null ) ;  <NL>  }  <NL> return tp main ;  <NL>  }  COM: <s> this method initializes tp options </s>

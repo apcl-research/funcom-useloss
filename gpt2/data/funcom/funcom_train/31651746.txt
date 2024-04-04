@@ -1,0 +1,1 @@
+TDAT: public void add user to role ( string role name , string user ) throws exception {  <NL> init ( ) ;  <NL> server . invoke ( configuration . get state manager ( ) ,  <NL>  " add user to role " ,  <NL> new object [ ] { role name , user } ,  <NL> new string [ ] { " java . lang . string " , " java . lang . string " } ) ;  <NL>  }  COM: <s> add a user to a role </s>

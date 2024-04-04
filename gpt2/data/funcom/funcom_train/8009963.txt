@@ -1,0 +1,1 @@
+TDAT: public html text edit new short edit ( string table , string column , boolean primary key , int size , string format ) {  <NL> return new edit column ( table , column , primary key , size , 25 , data store . datatype _ short , format ) ;  <NL>  }  COM: <s> this method creates a new short edit column </s>

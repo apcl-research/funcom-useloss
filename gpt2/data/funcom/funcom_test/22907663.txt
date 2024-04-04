@@ -1,0 +1,1 @@
+TDAT: public date get parsed firmware date ( ) {  <NL> date date = null ;  <NL> try {  <NL> date = obex date formatter . parse ( firmware date ) ;  <NL>  } catch ( parse exception ex ) {  <NL> logger . get logger ( dev info . class . get name ( ) ) . log ( level . severe , null , ex ) ;  <NL>  }  <NL> return date ;  <NL>  }  COM: <s> get the formatted firmware date </s>

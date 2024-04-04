@@ -1,0 +1,1 @@
+TDAT: public string get author ( ) {  <NL> if ( ! author . equals ( " " ) ) { / / $ non - nls - 1 $  <NL> return author ;  <NL>  } else if ( is root ( ) ) {  <NL> return " " ; / / $ non - nls - 1 $  <NL>  }  <NL> launch node parent = ( launch node ) get parent ( ) ;  <NL> return parent . get author ( ) ;  <NL>  }  COM: <s> gets the author </s>

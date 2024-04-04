@@ -1,0 +1,1 @@
+TDAT: public int hash code ( ) {  <NL> int h = hash ;  <NL> if ( h = = 0 & & count > 0 ) {  <NL> int off = offset ;  <NL> char val [ ] = value ;  <NL> int len = count ;  <NL>  <NL> for ( int i = 0 ; i < len ; i + + ) {  <NL> h = 31 * h + val [ off + + ] ;  <NL>  }  <NL> hash = h ;  <NL>  }  <NL> return h ;  <NL>  }  COM: <s> returns a hash code for this string </s>

@@ -1,0 +1,1 @@
+TDAT: private int inet2int ( inet address inet addr ) {  <NL> byte [ ] bytes = inet addr . get address ( ) ;  <NL> int value = 0 ;  <NL> for ( int i = 0 ; i < 4 ; i + + ) {  <NL> int shift = ( 3 - i ) * 8 ;  <NL> value + = ( bytes [ i ] & 0x000000ff ) < < shift ;  <NL>  }  <NL> return value ;  <NL>  }  COM: <s> converts a inet address into an integer </s>

@@ -1,0 +1,1 @@
+TDAT: public void test get cause ( ) {  <NL> throwable th = new throwable ( ) ;  <NL> throwable th1 = new throwable ( ) ;  <NL> assert null ( " cause should be null " , th . get cause ( ) ) ;  <NL> th = new throwable ( th1 ) ;  <NL> assert same ( " incorrect cause " , th1 , th . get cause ( ) ) ;  <NL>  }  COM: <s> method under test throwable get cause </s>

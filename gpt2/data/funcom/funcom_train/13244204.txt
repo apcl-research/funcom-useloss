@@ -1,0 +1,1 @@
+TDAT: public int get x accel ( ) {  <NL> byte [ ] vals = get data ( x _ accel _ lsb , 2 ) ;  <NL>  / / system . out . print ( " lsb = " + vals [ 0 ] + " msb = " + vals [ 1 ] + " " ) ;  <NL> int accel = ( vals [ 0 ] ) | ( ( vals [ 1 ] ) < < 8 ) ;  <NL> return accel ;  <NL>  }  COM: <s> acceleration along x axis </s>

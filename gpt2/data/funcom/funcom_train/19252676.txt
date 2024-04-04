@@ -1,0 +1,1 @@
+TDAT: public void set any object ( java . lang . object [ ] any object array ) {  <NL>  / / - - copy array <NL>  _ any object . clear ( ) ;  <NL> for ( int i = 0 ; i < any object array . length ; i + + ) {  <NL>  _ any object . add ( any object array [ i ] ) ;  <NL>  }  <NL>  } / / - - void set any object ( java . lang . object )  COM: <s> method set any object </s>

@@ -1,0 +1,1 @@
+TDAT: protected void paint game object if visible ( @ not null final graphics2d g , final int x start , final int y start , @ not null final g game object ) {  <NL> final g head = game object . get head ( ) ;  <NL> if ( is game object visible ( head ) ) {  <NL> paint game object ( g , x start , y start , game object , false ) ;  <NL>  }  <NL>  }  COM: <s> paints a single </s>

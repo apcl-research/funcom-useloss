@@ -1,0 +1,1 @@
+TDAT: public double get min ( ) {  <NL>  <NL> if ( get axis attributes ( ) . get ( " min " ) = = null ) {  <NL> return axis min ;  <NL>  } else {  <NL> double min = type converter . get double (  <NL> get axis attributes ( ) . get ( " min " ) , axis min ) ;  <NL> if ( min > axis min )  <NL> min = axis min ;  <NL> return min ;  <NL>  }  <NL>  <NL>  }  COM: <s> gets the min </s>

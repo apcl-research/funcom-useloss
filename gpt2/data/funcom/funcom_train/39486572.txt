@@ -1,0 +1,1 @@
+TDAT: public void add ( e key , int val ) {  <NL> entry < e > e = new entry < e > ( key , val ) ;  <NL> if ( key = = null ) {  <NL> null entry = e ;  <NL>  } else {  <NL> maybe rehash ( ) ;  <NL> do add ( e , get table index ( key ) ) ;  <NL>  }  <NL> size + + ;  <NL>  }  COM: <s> only use if you are sure no previous binding for key exists </s>

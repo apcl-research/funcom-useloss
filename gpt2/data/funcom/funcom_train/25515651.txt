@@ -1,0 +1,1 @@
+TDAT: public void paint ( graphics g ) {  <NL>  <NL>  / / draw image <NL> g . draw image ( frame , 0 , 0 , null ) ;  <NL>  / / draw squares <NL> g . set color ( color . red ) ;  <NL>  <NL> for ( rectangle f : faces ) {  <NL> g . draw rect ( f . x , f . y , f . width , f . height ) ;  <NL>  }  <NL>  <NL>  }  COM: <s> draw video frame and each detected faces area </s>

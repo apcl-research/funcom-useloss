@@ -1,0 +1,1 @@
+TDAT: public double get value at ( int i , int j ) throws index out of bounds exception {  <NL> if ( ( i < 0 ) || ( i > = m ) || ( j < 0 ) || ( j > = n ) ) throw new index out of bounds exception ( ) ;  <NL> return array [ i ] [ j ] ;  <NL>  } / / method get value at ( int , int )  COM: <s> returns the value of the given element </s>

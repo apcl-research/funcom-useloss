@@ -1,0 +1,1 @@
+TDAT: public void show image for page ( int p page number ) {  <NL> if ( p page number > 0 & & p page number < = get pcl page count ( ) ) {  <NL> j tree t j tree = get pages j tree ( ) ;  <NL> if ( t j tree ! = null ) {  <NL> t j tree . set selection row ( p page number ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> call this method to show the image for the passed in page number </s>

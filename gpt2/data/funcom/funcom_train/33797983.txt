@@ -1,0 +1,1 @@
+TDAT: public void flush all ( os event ev ) {  <NL> for ( iterator i = alloc table . key set ( ) . iterator ( ) ; i . has next ( ) ; ) {  <NL> buffer cache key key = ( buffer cache key ) i . next ( ) ;  <NL>  / / allocate a fresh event for each block <NL> flush ( key . block , new os event ( ev ) ) ;  <NL>  }  <NL>  }  COM: <s> flush every entries in the buffer cache to disk </s>

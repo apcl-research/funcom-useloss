@@ -1,0 +1,1 @@
+TDAT: public void init ( ) {  <NL> this . set id ( 0 ) ;  <NL> this . set db id ( 0 ) ;  <NL> this . set name ( null ) ;  <NL> this . set element ( null ) ;  <NL> this . set isotope ( null ) ;  <NL> this . set charge ( null ) ;  <NL> this . set connections ( new array list < atom connection > ( ) ) ;  <NL>  }  COM: <s> initialize the atom properties </s>

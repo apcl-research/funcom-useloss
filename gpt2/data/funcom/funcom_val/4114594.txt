@@ -1,0 +1,1 @@
+TDAT: public string rip off end token ( string line , string token ) throws parse exception {  <NL> if ( line . ends with ( token ) )  <NL> return line . substring ( 0 , line . length ( ) - token . length ( ) ) . trim ( ) ;  <NL> else {  <NL> throw new parse exception ( line + " : " + token , token . length ( ) ) ;  <NL>  }  <NL>  }  COM: <s> rip off end token </s>

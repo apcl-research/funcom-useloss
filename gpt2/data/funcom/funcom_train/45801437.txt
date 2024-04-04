@@ -1,0 +1,1 @@
+TDAT: public string get validation type ( ) {  <NL> topic if o type = ontopoly model utils . get topic if ( get topic map ( ) , psi . on _ validation _ type ) ;  <NL> occurrence if occ = ontopoly model utils . find occurrence ( o type , get topic if ( ) ) ;  <NL> return occ = = null ? null : occ . get value ( ) ;  <NL>  }  COM: <s> returns the validation type </s>

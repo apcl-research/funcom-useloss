@@ -1,0 +1,1 @@
+TDAT: public pss method metadata get method by name ( string name ) {  <NL> for ( int i = 0 ; i < m _ methods . size ( ) ; i + + ) {  <NL> pss method metadata met = ( pss method metadata ) m _ methods . get ( i ) ;  <NL> if ( met . get method ( ) . get name ( ) . equals ( name ) ) { return met ; }  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> get a method by its name </s>

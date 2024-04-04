@@ -1,0 +1,1 @@
+TDAT: public boolean is complete ( variable v ) {  <NL> list dims = v . get dimensions ( ) ;  <NL> for ( int i = 0 ; i < dims . size ( ) ; i + + ) {  <NL> dimension d = ( dimension ) dims . get ( i ) ;  <NL> if ( ! ( domain . contains ( d ) ) ) return false ;  <NL>  }  <NL> return true ;  <NL>  }  COM: <s> true if all dimensions in v are in the domain of this </s>

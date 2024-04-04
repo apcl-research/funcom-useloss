@@ -1,0 +1,1 @@
+TDAT: public void add ( command h command _ next ) {  <NL> if ( h command _ next . m _ h command _ next ! = null ) {  <NL> throw new illegal argument exception ( " only one command can be added " ) ;  <NL>  }  <NL> h command _ next . m _ h command _ next = m _ h command _ next ;  <NL> m _ h command _ next = h command _ next ;  <NL>  }  COM: <s> adds a command to this command </s>

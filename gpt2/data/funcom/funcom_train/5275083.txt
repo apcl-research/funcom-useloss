@@ -1,0 +1,1 @@
+TDAT: private void add ( quick string buffer word ) {  <NL> int wlen = word . length ( ) ;  <NL> if ( wlen > = min length ) {  <NL> int max = math . min ( max length , wlen ) ;  <NL> for ( int i = min length ; i < = max ; i + + ) {  <NL> add ( word . sub sequence ( wlen - i , wlen ) ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> add the last ngrams from the specified word </s>

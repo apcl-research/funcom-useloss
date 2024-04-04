@@ -1,0 +1,1 @@
+TDAT: public boolean is visible ( int x , int y , int width , int height ) {  <NL> if ( x + width > = top x tile & & x - width < = top x tile + x tiles ) {  <NL> if ( y + height > = top y tile & & y - height < = top y tile + y tiles ) {  <NL> return true ;  <NL>  }  <NL>  }  <NL> return false ;  <NL>  }  COM: <s> checks if a given area is inside the cameras view </s>

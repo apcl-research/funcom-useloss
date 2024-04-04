@@ -1,0 +1,1 @@
+TDAT: public void test xml month ( ) throws exception {  <NL> xml gregorian calendar xml day = tstamp . make timestamp ( " 2003 - 08 - 01 " ) ;  <NL> month month = new month ( xml day ) ;  <NL> assert equals ( " checking month ' s to string ( ) method " , " aug - 2003 " , month . to string ( ) ) ;  <NL>  }  COM: <s> test the xmlgregorian calendar constructor </s>

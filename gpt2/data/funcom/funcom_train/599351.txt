@@ -1,0 +1,1 @@
+TDAT: public void write values ( class < ? > clazz , object o , map < string , object > values ) {  <NL> for ( map . entry < string , object > value : values . entry set ( ) ) {  <NL> write value ( o , value . get key ( ) , value . get value ( ) ) ;  <NL>  }  <NL>  }  COM: <s> tries to write all attributes from given map into the object </s>

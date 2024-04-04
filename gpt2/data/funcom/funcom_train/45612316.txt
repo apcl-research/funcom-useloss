@@ -1,0 +1,1 @@
+TDAT: public boolean is supported ( string feature , string version ) {  <NL> string my version = user data . get property ( " features . " + feature + " . version " , version ) ;  <NL> string my feature = user data . get property ( " features . " + feature ) ;  <NL>  <NL> return my version = = null || my feature = = null ;  <NL>  }  COM: <s> simply looks in the user data </s>

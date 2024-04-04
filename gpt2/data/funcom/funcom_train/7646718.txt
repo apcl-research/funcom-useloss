@@ -1,0 +1,1 @@
+TDAT: public print stream append ( char sequence csq , int start , int end ) {  <NL> if ( null = = csq ) {  <NL> print ( token _ null . substring ( start , end ) ) ;  <NL>  } else {  <NL> print ( csq . sub sequence ( start , end ) . to string ( ) ) ;  <NL>  }  <NL> return this ;  <NL>  }  COM: <s> appends a subsequence of the character sequence </s>

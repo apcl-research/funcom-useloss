@@ -1,0 +1,1 @@
+TDAT: public void test for chain ( ) {  <NL> int [ ] [ ] three element chain context = new int [ ] [ ] {  <NL>  { 0 , 0 , 1 } ,  <NL>  { 0 , 1 , 1 } ,  <NL>  { 1 , 1 , 1 }  <NL>  } ;  <NL> check layer function for lattice from context ( three element chain context ) ;  <NL>  }  COM: <s> main requirement for layer assignment function preservation of lattice order </s>

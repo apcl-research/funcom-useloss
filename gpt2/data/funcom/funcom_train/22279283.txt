@@ -1,0 +1,1 @@
+TDAT: public void key typed ( java . awt . event . key event e ) {  <NL> extended key event kte = new extended key event ( e . get when ( ) , e . get key code ( ) , e . get key char ( ) , e . get modifiers ( ) ,  <NL> extended key event . key _ typed ) ;  <NL>  / / panel . add event ( kte ) ;  <NL>  }  COM: <s> invoked when a key has been typed </s>

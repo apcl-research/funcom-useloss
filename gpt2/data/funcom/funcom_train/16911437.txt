@@ -1,0 +1,1 @@
+TDAT: public string debug string ( ) {  <NL> string ret = new string ( ) ;  <NL> ret + = ( " group with " + this . get neuron list ( ) . size ( ) + " neuron ( s ) , " ) ;  <NL> ret + = ( " " + this . get synapse list ( ) . size ( ) + " synapse ( s ) . " ) ;  <NL> return ret ;  <NL>  }  COM: <s> returns a debug string </s>

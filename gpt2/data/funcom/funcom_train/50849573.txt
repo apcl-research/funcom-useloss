@@ -1,0 +1,1 @@
+TDAT: public void draw ( gl gl , glu glu ) {  <NL> draw tube circle ( gl , glu , 0 ) ;  <NL> draw tube circle ( gl , glu , - k out constants . tube _ length / 2 ) ;  <NL> draw tube circle ( gl , glu , k out constants . tube _ length / 2 ) ;  <NL> draw coordinate system ( gl , glu ) ;  <NL>  }  COM: <s> draws a reference circle </s>

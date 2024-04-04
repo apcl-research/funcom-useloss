@@ -1,0 +1,1 @@
+TDAT: public void test domain ( ) {  <NL> assert equals ( " www . yourdomain . com " , blog . get domain name ( ) ) ;  <NL>  <NL> pebble context . get instance ( ) . get configuration ( ) . set url ( " http : / / www . yourdomain . com : 8080 / blog " ) ;  <NL> assert equals ( " www . yourdomain . com " , blog . get domain name ( ) ) ;  <NL>  }  COM: <s> tests the domain </s>

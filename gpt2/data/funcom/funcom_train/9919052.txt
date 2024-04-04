@@ -1,0 +1,1 @@
+TDAT: public void set vec attribute ( string name , float x , float y , float z , float w ) {  <NL> int loc = get attrib location ( name ) ;  <NL> if ( - 1 < loc ) gl . gl vertex attrib4f arb ( loc , x , y , z , w ) ;  <NL>  }  COM: <s> sets the vec4 attribute with name to the given values </s>

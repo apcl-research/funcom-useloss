@@ -1,0 +1,1 @@
+TDAT: public void put all ( map < a , b > t ) {  <NL> iterator < map . entry < a , b > > i = t . entry set ( ) . iterator ( ) ;  <NL> while ( i . has next ( ) ) {  <NL> map . entry < a , b > e = i . next ( ) ;  <NL> put ( e . get key ( ) , e . get value ( ) ) ;  <NL>  }  <NL>  }  COM: <s> copies all of the mappings from the specified map to this one </s>

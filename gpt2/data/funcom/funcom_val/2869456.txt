@@ -1,0 +1,1 @@
+TDAT: public url get required url ( node node , string name , url base ) throws parse exception {  <NL>  / / probably should change " " to null so that url is always <NL>  / / required even if ! strict <NL> get required attribute ( node , name , " " ) ;  <NL>  <NL> return get url ( node , name , base ) ;  <NL>  }  COM: <s> returns the same result as get url except that a </s>

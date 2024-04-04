@@ -1,0 +1,1 @@
+TDAT: public void test named create ( ) {  <NL> artist a = new artist ( 1 , " jimmy " ) ;  <NL> assert true ( a . get id ( ) = = 1 ) ;  <NL> assert true ( a . get name ( ) . equals ( " jimmy " ) ) ;  <NL> assert true ( a . get type ( ) = = mp3config . artist _ type ) ;  <NL>  }  COM: <s> tests the creation of an aritst </s>

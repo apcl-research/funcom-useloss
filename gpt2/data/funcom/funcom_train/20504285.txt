@@ -1,0 +1,1 @@
+TDAT: public void set right seat for seat ( long seat id , long right seat id ) {  <NL> string sql = " update seat set right _ seat _ id = ? where id = ? " ;  <NL> object [ ] args = new object [ ] { new long ( right seat id ) , new long ( seat id ) } ;  <NL> jdbc template . update ( sql , args ) ;  <NL>  }  COM: <s> sets the right seat of the given seat </s>

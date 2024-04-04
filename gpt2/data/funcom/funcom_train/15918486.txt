@@ -1,0 +1,1 @@
+TDAT: private stmt handle if ( if if stmt , term outer closure , list < var instance < ? extends var def > > env ) {  <NL> if ( if stmt . cond ( ) instanceof binary )  <NL> return if stmt . cond ( handle binary ( ( binary ) if stmt . cond ( ) , outer closure , env ) ) ;  <NL>  <NL> return if stmt ;  <NL>  }  COM: <s> handle the case for x10 if stmt </s>

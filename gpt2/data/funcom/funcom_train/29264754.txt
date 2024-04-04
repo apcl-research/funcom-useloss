@@ -1,0 +1,1 @@
+TDAT: public void run ( ) {  <NL>  / / try {  <NL>  / / disk queue . mutex . acquire ( ) ;  <NL> if ( write )  <NL> disk . begin write ( i , buf ) ;  <NL> else <NL> disk . begin read ( i , buf ) ;  <NL>  / / } catch ( interrupted exception ie ) {  <NL>  / / thread . current thread ( ) . interrupt ( ) ;  <NL>  / / }  <NL>  }  COM: <s> run the request i </s>

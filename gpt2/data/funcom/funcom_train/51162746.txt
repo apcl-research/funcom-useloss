@@ -1,0 +1,1 @@
+TDAT: public int hash code ( ) {  <NL> if ( hash code = = 0 ) {  <NL> int result = 17 ;  <NL> result = 37 * result + ( item = = null ? 0 : item . hash code ( ) ) ;  <NL> result = 37 * result + ( combo box = = null ? 0 : combo box . hash code ( ) ) ;  <NL> hash code = result ;  <NL>  }  <NL> return hash code ;  <NL>  }  COM: <s> returns a hash code for this item referrence </s>

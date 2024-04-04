@@ -1,0 +1,1 @@
+TDAT: public void set limit ( int start row , int end row ) {  <NL> if ( dialect ! = null ) {  <NL> final int params offset = dialect . set records limit ( query , start row , end row ) ;  <NL> if ( params offset > 0 )  <NL> change parameter position ( - 1 , params offset , 0 ) ;  <NL>  }  <NL>  }  COM: <s> sets record limit in query </s>

@@ -1,0 +1,1 @@
+TDAT: private double dot product ( coordinate p , coordinate p0 , coordinate p1 ) {  <NL> double dx0 = p0 . x - p . x ;  <NL> double dy0 = p0 . y - p . y ;  <NL> double dx1 = p1 . x - p . x ;  <NL> double dy1 = p1 . y - p . y ;  <NL>  <NL> return ( dx0 * dx1 ) + ( dy0 * dy1 ) ;  <NL>  }  COM: <s> computes the dot product of the vectors p p0 and p p1 </s>

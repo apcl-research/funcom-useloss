@@ -1,0 +1,1 @@
+TDAT: public double get step ( ) {  <NL> double min1 = double . value of ( get value ( " . min " ) ) ;  <NL> double min2 = min1 + double . value of ( get value ( " . step " ) ) ;  <NL> return to si ( min2 ) - to si ( min1 ) ; / / double . value of ( get value ( " . step " ) ) ;  <NL>  }  COM: <s> returns the range step </s>

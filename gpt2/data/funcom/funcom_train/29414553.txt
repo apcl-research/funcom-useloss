@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> string output ;  <NL>  <NL> output = " w @ ( " + get x ( ) + " , " + get y ( ) + " ) , v @ ( " + get xvel ( ) + " , " + get yvel ( ) + " ) , s : " + get strategy ( ) + " , ip : " + get inport ( ) ;  <NL> return ( output ) ;  <NL>  }  COM: <s> print a textual representation of this whirli </s>

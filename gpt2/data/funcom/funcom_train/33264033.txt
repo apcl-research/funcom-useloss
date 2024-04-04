@@ -1,0 +1,1 @@
+TDAT: public void set row arg ( int row index , object arg ) {  <NL> ensure row count ( row index + 1 ) ;  <NL> gadget gadgets [ ] = listgrid . get gadgets ( ) ;  <NL> row panel row = ( row panel ) ( ( ( list grid item ) gadgets [ row index ] ) . get gadget ( ) ) ;  <NL> row . set arg ( arg ) ;  <NL>  }  COM: <s> set row arg </s>

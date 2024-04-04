@@ -1,0 +1,1 @@
+TDAT: public void set save bases ( int fort , int will , int ref ) {  <NL> super . get saves ( ) . get fort ( ) . set base stat ( fort ) ;  <NL> super . get saves ( ) . get will ( ) . set base stat ( will ) ;  <NL> super . get saves ( ) . get ref ( ) . set base stat ( ref ) ;  <NL>  }  COM: <s> set the base saving throws of all three saving throws </s>

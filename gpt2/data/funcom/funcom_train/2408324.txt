@@ -1,0 +1,1 @@
+TDAT: public int hash code ( ) {  <NL> int out = get class ( ) . get name ( ) . hash code ( ) ;  <NL> out ^ = lowest ;  <NL> out ^ = default value ;  <NL> if ( array ! = null ) {  <NL> for ( int i = 0 ; i < array . length ; i + + ) {  <NL> out ^ = array [ i ] ;  <NL>  }  <NL>  }  <NL> return out ;  <NL>  }  COM: <s> returns the hash code of this object </s>

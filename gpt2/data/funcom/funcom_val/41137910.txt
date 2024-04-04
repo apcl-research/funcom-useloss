@@ -1,0 +1,1 @@
+TDAT: public void parameter changed ( parameter param , object old value , object new value ) {  <NL> super . parameter changed ( param , old value , new value ) ;  <NL>  / / if ( ( param = = aa ) || ( param = = hh ) || ( param = = u patch count ) || ( param = = mp ) ) / / this is not enough <NL> needs new array = true ;  <NL>  }  COM: <s> overrides to set needs new array </s>

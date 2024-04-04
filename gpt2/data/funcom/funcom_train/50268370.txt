@@ -1,0 +1,1 @@
+TDAT: public void action performed ( action event e )  <NL>  { / * j button e b = ( j button ) e . get source ( ) ;  <NL> for ( int i = 0 ; i < bands ; i + + )  <NL>  { if ( e b = = ( j button ) button vector . get ( i ) )  <NL> graph . plot ( ( int [ ] ) values vector . get ( i ) ) ;  <NL>  } * /  <NL>  }  COM: <s> displays the graph that corresponds tothe button clicked </s>

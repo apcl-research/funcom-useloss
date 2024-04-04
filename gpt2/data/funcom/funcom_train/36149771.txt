@@ -1,0 +1,1 @@
+TDAT: private double sum y sq ( ) {  <NL> double sum = 0 ;  <NL> for ( int i = 0 ; i < y . size ( ) ; + + i ) {  <NL> sum + = ( ( double ) y . element at ( i ) ) . double value ( ) *  <NL>  ( ( double ) y . element at ( i ) ) . double value ( ) ;  <NL>  }  <NL> return sum ;  <NL>  }  COM: <s> returns the sum of sqaures of the y values </s>

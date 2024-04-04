@@ -1,0 +1,1 @@
+TDAT: private void grow ( ) {  <NL> if ( stack . length = = max size ) {  <NL> throw new stack exception ( " stack full " ) ;  <NL>  } else {  <NL> final item [ ] tmp = new item [ math . min ( max size , stack . length * 2 ) ] ;  <NL> system . arraycopy ( stack , 0 , tmp , 0 , stack . length ) ;  <NL> stack = tmp ;  <NL>  }  <NL>  }  COM: <s> grow the stack capacity </s>

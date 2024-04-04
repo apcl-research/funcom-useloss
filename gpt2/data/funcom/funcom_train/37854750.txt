@@ -1,0 +1,1 @@
+TDAT: public long do checkout ( svnurl url , file dst path , svn revision peg revision , svn revision revision , boolean recursive ) throws svn exception {  <NL> return do checkout ( url , dst path , peg revision , revision , svn depth . from recurse ( recursive ) , false ) ;  <NL>  }  COM: <s> checks out a working copy from a repository </s>

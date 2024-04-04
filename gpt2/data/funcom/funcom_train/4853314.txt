@@ -1,0 +1,1 @@
+TDAT: public action editor ( ) {  <NL> set layout ( new grid bag layout ( ) ) ;  <NL> choice = new action feature choice ( ) ;  <NL> constrain . add ( this , choice , constrain . label like ( 0 , 0 ) ) ;  <NL> constrain . add ( this , choice . get args ( ) , constrain . area like ( 0 , 1 ) ) ;  <NL> set action ( null ) ;  <NL>  }  COM: <s> make a action editor </s>

@@ -1,0 +1,1 @@
+TDAT: public void hsql db connect ( string conn string , string user , string password ) throws exception , sql exception {  <NL> class . for name ( " org . hsqldb . jdbc driver " ) . new instance ( ) ;  <NL> conn = driver manager . get connection ( conn string , user , password ) ;  <NL> conn . set auto commit ( true ) ;  <NL>  }  COM: <s> hsql db connect </s>

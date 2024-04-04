@@ -1,0 +1,1 @@
+TDAT: public void multiply ( double scalar ) {  <NL>  / / system . out . println ( " multyplying by " + scalar ) ;  <NL> double value ;  <NL> for ( int i = 0 ; i < 3 ; i + + )  <NL> for ( int j = 0 ; j < 3 ; j + + ) {  <NL> value = get ( i , j ) ;  <NL> set ( i , j , value * scalar ) ;  <NL>  }  <NL>  }  COM: <s> multyply matrix by a scalar </s>

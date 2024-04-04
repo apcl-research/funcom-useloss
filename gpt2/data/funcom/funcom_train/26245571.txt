@@ -1,0 +1,1 @@
+TDAT: private string sanitise allegiance ( string code ) {  <NL> string [ ] im = { " li " , " fi " , " st " } ;  <NL> string [ ] jp = { " jo " , " jp " , " jp " , " jr " , " ju " , " jv " } ;  <NL>  <NL> return code ;  <NL>  }  COM: <s> try and work out what the allegiance should be </s>

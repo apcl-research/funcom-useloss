@@ -1,0 +1,1 @@
+TDAT: public void start ( ) {  <NL> system . err . println ( " tp < " + poolname + " > : starting " + num threads ( ) + " threads " ) ;  <NL> for ( int i = 0 ; i < threads . size ( ) ; i + + ) {  <NL> thread t = ( thread ) threads . element at ( i ) ;  <NL> t . start ( ) ;  <NL>  }  <NL>  }  COM: <s> start the thread pool </s>

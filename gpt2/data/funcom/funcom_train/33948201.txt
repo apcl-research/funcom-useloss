@@ -1,0 +1,1 @@
+TDAT: public rectangle get rect ( ) {  <NL> if ( get type ( ) = = shape _ rect || get type ( ) = = shape _ oval )  <NL> return ( rectangle ) m shape ;  <NL> else if ( get type ( ) = = shape _ poly ) {  <NL> polygon p = ( polygon ) m shape ;  <NL> return p . get bounds ( ) ;  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> returns the bounds of the shape </s>

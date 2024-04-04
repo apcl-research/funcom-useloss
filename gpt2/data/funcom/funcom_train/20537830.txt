@@ -1,0 +1,1 @@
+TDAT: private void write boolean cell ( int col , int row , writable sheet sheet , boolean b ) throws write exception {  <NL> jxl . write . boolean bool = new boolean ( col , row , b ) ;  <NL> sheet . add cell ( bool ) ;  <NL> update column text length ( col , b ? " true " : " false " ) ;  <NL>  }  COM: <s> writes a boolean value into a cell of the spreadsheet </s>

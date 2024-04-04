@@ -1,0 +1,1 @@
+TDAT: private void _ init ( ) throws exception {  <NL> dd sexo default options . set options ( new com . sun . webui . jsf . model . option [ ] { new com . sun . webui . jsf . model . option ( " m " , " m " ) , new com . sun . webui . jsf . model . option ( " f " , " f " ) } ) ;  <NL>  }  COM: <s> p automatically managed component initialization </s>

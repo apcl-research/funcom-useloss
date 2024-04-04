@@ -1,0 +1,1 @@
+TDAT: public int get num areas ( ) {  <NL> int num areas = 0 ;  <NL> int num segments = chart data . size ( ) ;  <NL> for ( int i = 0 ; i < num segments ; i + + ) {  <NL> double [ ] row = ( double [ ] ) chart data . get ( i ) ;  <NL> num areas = math . max ( num areas , row . length ) ;  <NL>  }  <NL> return num areas ;  <NL>  }  COM: <s> gets the number of areas </s>

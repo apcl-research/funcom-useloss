@@ -1,0 +1,1 @@
+TDAT: public string get context argument ( ) {  <NL> return event _ bell . to lower case ( ) + " | " + event _ update . to lower case ( ) + " | " +  <NL> event _ match . to lower case ( ) + " | " + event _ mismatch . to lower case ( ) + " | " + event _ clipboard . to lower case ( ) ;  <NL>  }  COM: <s> implementation of the get context argument method </s>

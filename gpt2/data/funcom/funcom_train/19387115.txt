@@ -1,0 +1,1 @@
+TDAT: public void add component ( string label , component comp ) {  <NL> j label l = new j label ( label ) ;  <NL> l . set border ( new empty border ( 0 , 0 , 0 , 12 ) ) ;  <NL> add component ( l , comp , grid bag constraints . both ) ;  <NL>  } / / } } }  <NL>  <NL>  / / { { { add component ( ) method  COM: <s> adds a labeled component to the option pane </s>

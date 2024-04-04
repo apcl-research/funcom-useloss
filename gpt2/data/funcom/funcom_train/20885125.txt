@@ -1,0 +1,1 @@
+TDAT: public void test long csv ( ) {  <NL> long dto dto = new long dto ( ) ;  <NL> dto . long field = new long ( 92837 ) ;  <NL> assert true ( j sefa test util . serialize ( csv , dto ) . index of ( " 92837 " ) > = 0 ) ;  <NL> j sefa test util . assert repeated round trip succeeds ( csv , dto ) ;  <NL>  }  COM: <s> tests long csv </s>

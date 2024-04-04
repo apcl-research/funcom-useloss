@@ -1,0 +1,1 @@
+TDAT: public void add ( named sql def qd ) {  <NL> if ( m _ queries . contains key ( qd . get name ( ) ) ) {  <NL> qd . error ( " duplicate query definition in model " + get name ( ) +  <NL>  " : " + qd . get name ( ) ) ;  <NL>  }  <NL> m _ queries . put ( qd . get name ( ) , qd ) ;  <NL> super . add ( qd ) ;  <NL>  }  COM: <s> add a named sqldef to this model def </s>

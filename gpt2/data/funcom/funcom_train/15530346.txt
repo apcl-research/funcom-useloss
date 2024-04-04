@@ -1,0 +1,1 @@
+TDAT: private void check jsp ( string jsp path ) {  <NL> logger . debug ( " checking if jsp ' " + jsp path + " ' is found " ) ;  <NL> if ( ! new file ( jsp path ) . exists ( ) ) {  <NL>  / / todo set marker in tiles - defs . xml <NL> logger . warn ( " file ' " + jsp path + " ' does not exist . " ) ;  <NL>  }  <NL>  }  COM: <s> checks if file with given path exists </s>

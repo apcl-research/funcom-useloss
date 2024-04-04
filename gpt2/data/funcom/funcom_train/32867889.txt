@@ -1,0 +1,1 @@
+TDAT: public void group chat presence ( string s new presence ) {  <NL> enumeration e = group chats . keys ( ) ;  <NL> while ( e . has more elements ( ) ) {  <NL> object obj = group chats . get ( e . next element ( ) ) ;  <NL>  ( ( group chat ) obj ) . presence change ( mo jabber comm , s new presence ) ;  <NL>  }  <NL>  }  COM: <s> user has changed his her presence </s>

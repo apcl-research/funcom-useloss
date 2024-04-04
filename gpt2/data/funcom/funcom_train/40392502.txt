@@ -1,0 +1,1 @@
+TDAT: private void print data ( ) {  <NL>  <NL> system . out . println ( " no of nodes ' " + my nodes . size ( ) + " ' . " ) ;  <NL>  <NL> iterator it = my nodes . iterator ( ) ;  <NL> while ( it . has next ( ) ) {  <NL> system . out . println ( it . next ( ) . to string ( ) ) ;  <NL>  }  <NL>  }  COM: <s> iterate through the list and print the </s>

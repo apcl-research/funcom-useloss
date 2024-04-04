@@ -1,0 +1,1 @@
+TDAT: public void write header ( string header , i cell style style ) {  <NL> if ( region = = null ) {  <NL> throw new illegal state exception ( " begin table ( ) has to be called " ) ;  <NL>  }  <NL> write cell ( 0 , current row + + , width , 1 , header , style ) ;  <NL>  }  COM: <s> writes table header </s>

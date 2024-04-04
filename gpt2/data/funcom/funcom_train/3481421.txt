@@ -1,0 +1,1 @@
+TDAT: protected string get insert message type ( ) {  <NL> return " insert into " + t _ msg _ type +  <NL>  " ( f _ message _ type _ id , f _ message _ type , f _ version _ major , f _ version _ minor , f _ version _ patch , f _ xml _ details ) " +  <NL>  " values ( ? , ? , ? , ? , ? , ? ) " ;  <NL>  }  COM: <s> hsql sql to insert a message type record </s>

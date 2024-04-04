@@ -1,0 +1,1 @@
+TDAT: private j panel get rhs panel ( ) {  <NL> rhs panel = new j panel ( ) ;  <NL> rhs panel . set layout ( new box layout ( rhs panel , box layout . y _ axis ) ) ;  <NL> rhs panel . add ( get chapter title panel ( ) ) ;  <NL> rhs panel . add ( get description scroll pane ( ) ) ;  <NL> return rhs panel ;  <NL>  }  COM: <s> this method initializes the rhs panel </s>

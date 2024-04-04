@@ -1,0 +1,1 @@
+TDAT: public void debug ( gantt rectangle client rect , string message ) {  <NL> logger . debug ( get category ( ) + " [ x = " + client rect . x + " , y = " + client rect . y + " ] " + " [ w = " + client rect . width <NL>  + " , h = " + client rect . height + " ] " + message ) ;  <NL>  <NL>  }  COM: <s> debug log with rectangle position and size on the canvas </s>

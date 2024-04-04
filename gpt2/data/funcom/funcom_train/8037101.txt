@@ -1,0 +1,1 @@
+TDAT: public void add header ( final string header key , final string header value , final list < string > list ) {  <NL> final header header = new header ( header key , header value , list ) ;  <NL> this . header data . add ( header ) ;  <NL> this . header data map . put ( header key . to lower case ( ) . trim ( ) , header ) ;  <NL>  }  COM: <s> method add header </s>

@@ -1,0 +1,1 @@
+TDAT: protected void draw filled scaled box ( final double p [ ] ) {  <NL> view box ( p [ 0 ] , p [ 1 ] ) ;  <NL>  <NL> final double d = graphics x point ( p [ 0 ] ) ;  <NL> final double e = graphics y point ( p [ 1 ] ) ;  <NL> g2 . fill rect ( ( int ) d - 3 , ( int ) e - 3 , 6 , 6 ) ;  <NL>  }  COM: <s> draws a filled box arround the given point </s>

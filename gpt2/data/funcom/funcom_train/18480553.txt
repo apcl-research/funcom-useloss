@@ -1,0 +1,1 @@
+TDAT: public void set num iters u ( int num _ iters _ u ) {  <NL> if ( num _ iters _ u ! = this . num _ iters _ u ) {  <NL> int old = this . num _ iters _ u ;  <NL> this . num _ iters _ u = num _ iters _ u ;  <NL> notify changed ( numitersu , old , num _ iters _ u ) ;  <NL> create contents ( ) ;  <NL>  }  <NL>  }  COM: <s> sets the number of iterations to use for the base </s>

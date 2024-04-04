@@ -1,0 +1,1 @@
+TDAT: public xwpf table get table ( ct tbl ct tbl ) {  <NL> for ( int i = 0 ; i < tables . size ( ) ; i + + ) {  <NL> if ( get tables ( ) . get ( i ) . get ct tbl ( ) = = ct tbl ) {  <NL> return get tables ( ) . get ( i ) ;  <NL>  }  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> get a table by its cttbl object </s>

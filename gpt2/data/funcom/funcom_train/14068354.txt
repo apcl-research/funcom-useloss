@@ -1,0 +1,1 @@
+TDAT: public void set trash ( node type type , long trash ) {  <NL> if ( type ! = null ) {  <NL> if ( is group ( trash ) || is category ( trash ) ) {  <NL> this . trash [ get node type int ( type ) ] = trash ;  <NL> dag . set trash node ( get node from handle ( trash ) , type ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> set the trash node </s>

@@ -1,0 +1,1 @@
+TDAT: final public geo conic ellipse ( string label , geo point a , geo point b , geo point c ) {  <NL> algo ellipse foci point algo = new algo ellipse foci point ( cons , label , a , b , c ) ;  <NL> geo conic ellipse = algo . get ellipse ( ) ;  <NL> return ellipse ;  <NL>  }  COM: <s> ellipse with foci a b passing thorugh c michael borcherds 2008 04 06 </s>

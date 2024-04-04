@@ -1,0 +1,1 @@
+TDAT: public int dim idx ( dimension dim ) {  <NL> if ( hiers = = null || hiers . length = = 0 )  <NL> return - 1 ; / / quax was not initialized yet <NL> for ( int i = 0 ; i < hiers . length ; i + + ) {  <NL> if ( hiers [ i ] . get dimension ( ) . equals ( dim ) )  <NL> return i ;  <NL>  }  <NL> return - 1 ;  <NL>  }  COM: <s> find out whether axis contains dimension </s>

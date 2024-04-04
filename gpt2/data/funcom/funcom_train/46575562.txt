@@ -1,0 +1,1 @@
+TDAT: public int get control styles ( named node map nnm , int def ) {  <NL> int style = def ;  <NL> style | = get attribute bool ( nnm , " border " , false ) ? swt . border : 0 ;  <NL> style | = get attribute bool ( nnm , " righttoleft " , false ) ? swt . right _ to _ left : 0 ;  <NL> return style ;  <NL>  }  COM: <s> styles common to all controls </s>

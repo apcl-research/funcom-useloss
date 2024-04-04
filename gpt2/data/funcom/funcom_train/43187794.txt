@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> string s = get class ( ) . get name ( ) + " = [ \n " ;  <NL>  <NL> for ( enumeration e = rectangles ( ) ; e . has more elements ( ) ; )  <NL>  {  <NL> s + = " ( " + ( rectangle ) e . next element ( ) + " ) \n " ;  <NL>  }  <NL> return s + " ] " ;  <NL>  }  COM: <s> converts the list of rectangles to a displayable string </s>

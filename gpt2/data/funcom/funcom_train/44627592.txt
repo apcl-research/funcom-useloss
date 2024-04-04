@@ -1,0 +1,1 @@
+TDAT: public void test jm lprecedence4 ( ) {  <NL> help expr ( " a + b = = > c || d " ,  <NL> jml binary . class , 9 ,  <NL> jc binary . class , 2 ,  <NL> jc ident . class , 0 ,  <NL> jc ident . class , 7 ,  <NL> jc binary . class , 16 ,  <NL> jc ident . class , 14 ,  <NL> jc ident . class , 21 ) ;  <NL>  }  COM: <s> test precedence between implies and java operators </s>

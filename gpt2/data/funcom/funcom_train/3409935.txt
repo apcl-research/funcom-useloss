@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> if ( ! is bound ( ) )  <NL> return " server socket [ unbound ] " ;  <NL> return " server socket [ addr = " + impl . get inet address ( ) +  <NL>  " , port = " + impl . get port ( ) +  <NL>  " , localport = " + impl . get local port ( ) + " ] " ;  <NL>  }  COM: <s> returns the implementation address and implementation port of </s>

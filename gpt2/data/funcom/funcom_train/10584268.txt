@@ -1,0 +1,1 @@
+TDAT: public void set path ( document document , string path ) throws transaction exception {  <NL> validate . not null ( path ) ;  <NL> validate . not null ( document ) ;  <NL> string key = get key ( document . get uuid ( ) , document . get language ( ) ) ;  <NL> doc2path ( ) . put ( key , path ) ;  <NL> save ( ) ;  <NL>  }  COM: <s> sets the path for a document </s>

@@ -1,0 +1,1 @@
+TDAT: private ft index iterator get ( final byte [ ] tok , final boolean f ) {  <NL> final int p = token ( tok ) ;  <NL> return p > - 1 ? iter ( pointer ( p , tok . length ) ,  <NL> size ( p , tok . length ) , dat , f ) : ft index iterator . emp ;  <NL>  }  COM: <s> gets pre and pos values stored for token out of index </s>

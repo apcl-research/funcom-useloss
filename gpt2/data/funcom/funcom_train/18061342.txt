@@ -1,0 +1,1 @@
+TDAT: private void conn eto m4 ( java . awt . event . key event arg1 ) {  <NL> try {  <NL> if ( arg1 . get key char ( ) = = ' \n ' ) {  <NL> parse text entry ( get text entry ( ) . get text ( ) ) ;  <NL>  }  <NL>  }  <NL> catch ( java . lang . throwable ivj exc ) {  <NL> handle component exception ( ivj exc ) ;  <NL>  }  <NL>  }  COM: <s> conn eto m4 text entry </s>

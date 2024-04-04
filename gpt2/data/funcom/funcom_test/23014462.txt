@@ -1,0 +1,1 @@
+TDAT: public void move forward ( ) {  <NL> vector3f fw vec = new vector3f ( get direction ( ) . get x ( ) , get direction ( ) . get y ( ) , get direction ( ) . get z ( ) ) ;  <NL> fw vec . normalize to ( speed ) ;  <NL> get eye ( ) . dirty add ( fw vec ) ;  <NL> changed = true ;  <NL>  }  COM: <s> moves the viewpoint forward </s>

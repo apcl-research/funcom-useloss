@@ -1,0 +1,1 @@
+TDAT: public void paint ( graphics g ) {  <NL> if ( selected || is mouse inside || always on )  <NL> super . paint ( g ) ;  <NL> else {  <NL> g . set clip ( 2 , 2 , icon width - 4 , icon height - 4 ) ;  <NL> g . draw image ( bean , 2 - real image pos , 2 , ( icon width - 4 ) * states , icon height - 4 , this ) ;  <NL>  }  <NL>  }  COM: <s> paints the button </s>

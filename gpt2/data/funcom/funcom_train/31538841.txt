@@ -1,0 +1,1 @@
+TDAT: public void read file ( string class name , input stream in ) throws io exception {  <NL> byte [ ] buff = this . get class bytes ( in ) ;  <NL> classes . put ( class name , this . define class ( class name , buff , 0 , buff . length ) ) ;  <NL> this . log . info ( " class loaded : " + class name ) ;  <NL>  }  COM: <s> load a class object given file passed as parameter </s>

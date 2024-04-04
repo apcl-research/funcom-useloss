@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> return " ( db = " + d store . get database name ( ) + " ) " + path + " # exists = " +  <NL> exists ( ) + " , is directory = " + is directory ( ) + " , length = " +  <NL> length ( ) + " , can write = " + can write ( ) ;  <NL>  }  COM: <s> returns a textual representation of this file </s>

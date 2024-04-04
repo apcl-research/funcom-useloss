@@ -1,0 +1,1 @@
+TDAT: public string level _ location ( double level ) {  <NL> int i = javaxt . utils . string . cint ( level ) ;  <NL> return new java . io . file ( cache _ dir , string . format ( " % 02d " , i ) ) . to string ( ) ;  <NL>  / / return os . path . join ( self . cache _ dir , " % 02d " % level )  <NL>  }  COM: <s> return the path where all tiles for level will be stored </s>

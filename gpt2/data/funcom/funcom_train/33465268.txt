@@ -1,0 +1,1 @@
+TDAT: public void write raw little endian32 ( final int value ) throws io exception {  <NL> write raw byte ( ( value ) & 0x ff ) ;  <NL> write raw byte ( ( value > > 8 ) & 0x ff ) ;  <NL> write raw byte ( ( value > > 16 ) & 0x ff ) ;  <NL> write raw byte ( ( value > > 24 ) & 0x ff ) ;  <NL>  }  COM: <s> write a little endian 32 bit integer </s>

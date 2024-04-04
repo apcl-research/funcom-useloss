@@ -1,0 +1,1 @@
+TDAT: public void set data context ( string new db name ) {  <NL> if ( string util . not null ( new db name ) . equals ( " " ) ) {  <NL> log . error ( " must specify db / context " ) ;  <NL> db name = " default " ;  <NL>  } else {  <NL> db name = new db name ;  <NL>  }  <NL>  } / * set db name ( string ) * /  COM: <s> sets the job handlers data context </s>

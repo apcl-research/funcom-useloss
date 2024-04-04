@@ -1,0 +1,1 @@
+TDAT: public boolean equal to ( user n ) {  <NL> if ( ( n ) . _ _ get c name ( ) . equals ( this . _ _ get c name ( ) ) & & ( n ) . _ _ get ids ( ) . int value ( ) = = this . _ _ get ids ( ) . int value ( ) ) {  <NL> return true ;  <NL>  } else {  <NL> return false ;  <NL>  }  <NL>  }  COM: <s> if the usernames ids match return true </s>

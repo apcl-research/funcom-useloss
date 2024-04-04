@@ -1,0 +1,1 @@
+TDAT: @ override public void flush ( ) throws io exception {  <NL> if ( sync flush ) {  <NL> int byte count ;  <NL> while ( ( byte count = def . deflate ( buf , 0 , buf . length , deflater . sync _ flush ) ) ! = 0 ) {  <NL> out . write ( buf , 0 , byte count ) ;  <NL>  }  <NL>  }  <NL> out . flush ( ) ;  <NL>  }  COM: <s> flushes the underlying stream </s>

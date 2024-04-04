@@ -1,0 +1,1 @@
+TDAT: public void add node ( string node , string options ) {  <NL>  <NL> string s = " \tnode " ;  <NL> string a = options = = null ? " " : options ;  <NL>  <NL>  / * add attributes if any * /  <NL> if ( a . length ( ) > 0 ) {  <NL> s + = " [ " + a + " ] " ;  <NL>  }  <NL>  <NL> s + = " \ " " + node + " \ " ; " ;  <NL> addln ( s ) ;  <NL>  }  COM: <s> add a node to the graph </s>

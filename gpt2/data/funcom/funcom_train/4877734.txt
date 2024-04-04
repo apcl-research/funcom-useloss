@@ -1,0 +1,1 @@
+TDAT: private void set all square to default ( ) {  <NL> for ( int i = 0 ; i < get lines ( ) ; i + + ) {  <NL> for ( int j = 0 ; j < get columns ( ) ; j + + ) {  <NL> set square ( new empty square ( ) , new coordinates ( i , j ) ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> this method fills the whole square matrix to empty squares </s>

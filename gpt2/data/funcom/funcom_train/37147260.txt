@@ -1,0 +1,1 @@
+TDAT: private string get tool tip text ( object item ) {  <NL> if ( item instanceof task & & has auto fix options ( ( task ) item ) ) {  <NL> return " < html > < body > " + gantt language . get instance ( ) . get text ( " datafilter . quick fix options " ) + " < / body > < / html > " ;  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> tooltips for filter tree </s>

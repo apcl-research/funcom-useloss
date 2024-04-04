@@ -1,0 +1,1 @@
+TDAT: public point2d get center ( ) {  <NL> double cot = math . cos ( this . theta ) ;  <NL> double sit = math . sin ( this . theta ) ;  <NL> double xc = x0 + this . w * cot / 2 - this . h * sit / 2 ;  <NL> double yc = y0 + this . w * sit / 2 + this . h * cot / 2 ;  <NL> return new point2d ( xc , yc ) ;  <NL>  }  COM: <s> returns the center point of the rectangle </s>

@@ -1,0 +1,1 @@
+TDAT: protected void set m bounds ( int x0 , int y0 , int width , int height , int w , int h ) {  <NL>  <NL> set position ( x0 , y0 ) ;  <NL> set container size ( width , height ) ;  <NL> set components size ( w , h ) ;  <NL> reset bounds ( false ) ;  <NL>  }  COM: <s> set the new bounds </s>

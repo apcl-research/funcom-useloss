@@ -1,0 +1,1 @@
+TDAT: public point get minimap location ( ) {  <NL> final int c x = bot . get client ( ) . get base x ( ) + ( c . get x ( ) / 32 - 2 ) / 4 ;  <NL> final int c y = bot . get client ( ) . get base y ( ) + ( c . get y ( ) / 32 - 2 ) / 4 ;  <NL> return calculations . world to minimap ( c x , c y ) ;  <NL>  }  COM: <s> gets the minimap location of the character </s>

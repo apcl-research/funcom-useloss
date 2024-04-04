@@ -1,0 +1,1 @@
+TDAT: public int encode asn ( byte [ ] buf , int offset , asn encoder encoder ) throws asn encoding exception {  <NL> if ( m _ data = = null )  <NL> throw new asn encoding exception ( " no data in octet string " ) ;  <NL>  <NL> return encoder . build string ( buf , offset , type id ( ) , m _ data ) ;  <NL>  }  COM: <s> encodes the asn </s>

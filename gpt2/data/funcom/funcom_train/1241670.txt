@@ -1,0 +1,1 @@
+TDAT: public void changed update ( document event e ) {  <NL> string text = add _ service _ field . get text ( ) ;  <NL> if ( ( text ! = null ) & & ( text . length ( ) > 0 ) ) {  <NL> add _ service _ button . set enabled ( true ) ;  <NL>  } else {  <NL> add _ service _ button . set enabled ( false ) ;  <NL>  }  <NL>  }  COM: <s> handle changes to the text field </s>

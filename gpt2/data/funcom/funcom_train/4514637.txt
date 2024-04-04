@@ -1,0 +1,1 @@
+TDAT: public void set flat ( boolean is flat ) {  <NL> boolean old = this . is flat ;  <NL> this . is flat = is flat ;  <NL> if ( old ! = this . is flat ) {  <NL> this . fire property change ( " flat " , old , this . is flat ) ;  <NL>  }  <NL>  <NL> if ( old ! = is flat ) {  <NL> repaint ( ) ;  <NL>  }  <NL>  }  COM: <s> sets the flat appearance of this button </s>

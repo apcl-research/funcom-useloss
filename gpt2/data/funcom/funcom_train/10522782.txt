@@ -1,0 +1,1 @@
+TDAT: public void test sql escape ( ) throws exception {  <NL> result set rs = test ctrl . get just one user ( " fname = ' tester4 ' " ) ;  <NL> assert not null ( rs ) ;  <NL> rs . next ( ) ;  <NL> string name = rs . get string ( " fname " ) ;  <NL> assert equals ( name , " tester4 " ) ;  <NL> rs . close ( ) ;  <NL>  }  COM: <s> test query with sql escape </s>

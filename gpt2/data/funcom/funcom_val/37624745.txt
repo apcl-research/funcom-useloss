@@ -1,0 +1,1 @@
+TDAT: public void set value ( int n ) {  <NL> bounded range model m = get model ( ) ;  <NL> int old value = m . get value ( ) ;  <NL> m . set value ( n ) ;  <NL> reload if change ( n , old value ) ;  <NL> property change support . fire property change ( " value " , old value , m . get value ( ) ) ;  <NL>  }  COM: <s> sets the sliders current value </s>

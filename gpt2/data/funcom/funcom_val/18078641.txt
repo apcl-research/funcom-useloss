@@ -1,0 +1,1 @@
+TDAT: public void show frame debug ( object obj , string name ) {  <NL> frame debug doc = new frame debug ( current user , obj , name ) ;  <NL> synchronized ( this ) {  <NL> desktop . add ( doc , desktop . get component count ( ) ) ;  <NL>  }  <NL> center frame ( doc ) ;  <NL> doc . set visible ( true ) ;  <NL>  }  COM: <s> shows a debug frame </s>

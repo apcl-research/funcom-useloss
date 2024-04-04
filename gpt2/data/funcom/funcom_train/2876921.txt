@@ -1,0 +1,1 @@
+TDAT: public void refresh ( ) {  <NL> string [ ] title = { " message " , " time " } ;  <NL> object [ ] [ ] data = null ; / / { { " " } , { " " } } ;  <NL> this . table . set model ( new default table model ( data , title ) ) ;  <NL> this . system view tree . update ui ( ) ;  <NL> this . table . repaint ( ) ;  <NL>  }  COM: <s> refreshes the panel </s>

@@ -1,0 +1,1 @@
+TDAT: public void _ remove by name ( ) {  <NL> required method ( " add new by name ( ) " ) ;  <NL>  <NL> o obj . remove by name ( " x table charts " ) ;  <NL> t res . tested ( " remove by name ( ) " , ! o obj . has by name ( " x table charts " ) ) ;  <NL>  <NL>  } / / remove by name ( )  COM: <s> removes the chart added before </s>

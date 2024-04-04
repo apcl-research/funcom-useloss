@@ -1,0 +1,1 @@
+TDAT: private void setup filepart ( http sampler http sampler , string file field , file file , string mime type ) {  <NL> http file arg [ ] hfa = { new http file arg ( file = = null ? " " : file . get absolute path ( ) , file field , mime type ) } ;  <NL> http sampler . set http files ( hfa ) ;  <NL>  }  COM: <s> setup the filepart with specified values </s>

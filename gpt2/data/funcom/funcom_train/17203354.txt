@@ -1,0 +1,1 @@
+TDAT: public void append instruction ( instruction s ) {  <NL> current bble . block . append instruction ( s ) ;  <NL> s . position = gc . inline sequence ;  <NL> s . bc index = instr index ;  <NL> last instr = s ;  <NL> if ( dbg _ instr || dbg _ selected ) db ( " - > " + s . bc index + " : \t " + s ) ;  <NL>  }  COM: <s> append an instruction to the current basic block </s>

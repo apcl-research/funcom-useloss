@@ -1,0 +1,1 @@
+TDAT: public double coord distance sq ( double x1 , double x2 ) {  <NL> return math . min ( math . abs ( x1 % max - x2 % max ) , math . min ( math . abs ( x1 % max + max - x2 % max ) , math . abs ( x1 % max - max - x2 % max ) ) ) ;  <NL>  }  COM: <s> finds the distance between a single coordinate </s>

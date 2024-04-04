@@ -1,0 +1,1 @@
+TDAT: public float correlation ( point2d pt ) {  <NL> float len1 = this . length ( ) ;  <NL> float len2 = pt . length ( ) ;  <NL> if ( len1 = = ( float ) 0 . 0 || len2 = = ( float ) 0 . 0 ) {  <NL> return ( ( float ) 0 . 0 ) ;  <NL>  } else {  <NL> return ( dot product ( pt ) / ( len1 * len2 ) ) ;  <NL>  }  <NL>  }  COM: <s> correlation between two points vectors </s>

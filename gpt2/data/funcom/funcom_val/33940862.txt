@@ -1,0 +1,1 @@
+TDAT: public mutable vector4f get col ( int col , mutable vector4f store ) {  <NL> if ( store = = null )  <NL> store = new vector4f ( ) ;  <NL>  <NL> return store . set ( get ( 0 , col ) , get ( 1 , col ) , get ( 2 , col ) , get ( 3 , col ) ) ;  <NL>  }  COM: <s> store the four column values for the given column index into the vector </s>

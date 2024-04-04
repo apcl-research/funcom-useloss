@@ -1,0 +1,1 @@
+TDAT: public void remove item ( int id ) {  <NL> int i = id + leaf cnt ;  <NL> tree [ i ] = strip width + 1 ;  <NL> while ( i > 1 ) {  <NL> i > > = 1 ;  <NL> tree [ i ] = math . min ( tree [ i < < 1 ] , tree [ ( i < < 1 ) | 1 ] ) ;  <NL>  }  <NL>  }  COM: <s> removes item with given </s>

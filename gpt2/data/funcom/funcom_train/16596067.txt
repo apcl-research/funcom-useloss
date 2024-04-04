@@ -1,0 +1,1 @@
+TDAT: public void del f frame ( int index ) {  <NL> for ( int i = 0 ; i < get efs ( ) . get all f frames ( ) . length ; i + + ) {  <NL> if ( get efs ( ) . get f frame ( i ) . equals ( get f frame ( index ) ) ) {  <NL> get efs ( ) . remove f frame ( i ) ;  <NL>  }  <NL>  }  <NL> update f frames ( ) ;  <NL>  }  COM: <s> remove the fframe of index </s>

@@ -1,0 +1,1 @@
+TDAT: public object get ( object key ) {  <NL> object val = super . get ( key ) ;  <NL> if ( val = = null & & debug is active ) {  <NL> system . out . print ( " have been asked for key \ " " + key . to string ( ) ) ;  <NL> system . out . println ( " \ " which is not part of params . " ) ;  <NL>  }  <NL> return val ;  <NL>  }  COM: <s> wraper around get with some debug output </s>

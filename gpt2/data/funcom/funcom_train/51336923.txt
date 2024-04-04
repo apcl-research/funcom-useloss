@@ -1,0 +1,1 @@
+TDAT: public void do stress test ( final int ntrials , final int nnodes ) {  <NL>  <NL>  / *  <NL>  * some branching factors to choose from .  <NL>  * /  <NL> final int [ ] branching factors = new int [ ] { 3 , 4 , 8 , 16 , 27 , 32 , 48 , 64 ,  <NL> 96 , 99 , 112 , 128 , 256 , 512 , 1024 } ; / / , 4096 } ;  COM: <s> run a stress test </s>

@@ -1,0 +1,1 @@
+TDAT: public void test fail ( ) {  <NL> log . info ( " test fail ( ) : called = " + set up called ) ;  <NL> thread util . sleep ( run tests parallel j unit4test . time _ to _ wait ) ;  <NL> try {  <NL> fail ( " ups " ) ;  <NL>  } catch ( assertion error expected ) {  <NL> log . info ( " expected : " + expected ) ;  <NL>  }  <NL>  }  COM: <s> simple test that expects to fail </s>

@@ -1,0 +1,1 @@
+TDAT: public string get value ( string . . . keys ) {  <NL> for ( int key _ i = 0 ; key _ i < keys . length ; key _ i + + ) {  <NL> if ( arg map . get ( keys [ key _ i ] ) ! = null ) {  <NL> return arg map . get ( keys [ key _ i ] ) ;  <NL>  }  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> returns the value of the first key found in the map </s>

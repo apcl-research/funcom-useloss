@@ -1,0 +1,1 @@
+TDAT: public void test3 ( ) {  <NL> method [ ] ms = a . class . get declared methods ( ) ;  <NL> assert not null ( " null expected " , ms ) ;  <NL> assert equals ( " array length : " , 1 , ms . length ) ;  <NL> assert equals ( " incorrect name " , " method1 " , ms [ 0 ] . get name ( ) ) ;  <NL>  }  COM: <s> this test case checks several statements </s>

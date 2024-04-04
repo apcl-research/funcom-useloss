@@ -1,0 +1,1 @@
+TDAT: private void test no add ( string in ) throws exception {  <NL>  <NL> p . push ( new t string ( in , null ) ) ;  <NL> new add period ( " add . period $ " ) . execute ( p , null , null ) ;  <NL> assert equals ( in , p . pop string ( null ) . get value ( ) ) ;  <NL>  }  COM: <s> run a test case where no period is added </s>

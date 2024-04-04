@@ -1,0 +1,1 @@
+TDAT: private void set selected user ( final i user user ) {  <NL> if ( user = = null ) {  <NL> user label . set text ( messages . get string ( " user browser view . nouser . text " ) ) ; / / $ non - nls - 1 $  <NL>  } else {  <NL> user label . set text ( user . get full name ( true ) ) ;  <NL>  }  <NL>  }  COM: <s> displays the given user as the selected one </s>

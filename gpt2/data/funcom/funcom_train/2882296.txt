@@ -1,0 +1,1 @@
+TDAT: protected void signal result ( service url s url ) {  <NL> try {  <NL> system . out . println ( sf complete name ( ) + " found " + s url ) ;  <NL>  } catch ( exception ex ) { ex . print stack trace ( ) ; }  <NL> store result ( s url ) ;  <NL> this . send event ( s url . get service type ( ) . to string ( ) ) ;  <NL>  }  COM: <s> signal the arrival of a new result </s>

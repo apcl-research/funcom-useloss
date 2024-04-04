@@ -1,0 +1,1 @@
+TDAT: public game item get item ( string id ) {  <NL> iterator iter = this . contains . iterator ( ) ;  <NL> while ( iter . has next ( ) ) {  <NL> game item i = ( game item ) iter . next ( ) ;  <NL> if ( i ! = null & & i . get id ( ) . equals ( id ) )  <NL> return i ;  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> get game item by id </s>

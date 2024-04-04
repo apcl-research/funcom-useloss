@@ -1,0 +1,1 @@
+TDAT: public void update ( string workspace name ) {  <NL> string buffer buf = new string buffer ( ) ;  <NL> if ( workspace name ! = null ) {  <NL> buf . append ( workspace name ) . append ( " - " ) ;  <NL>  }  <NL> buf . append ( app info . get value ( " appname " ) ) ;  <NL>  _ parent . set title ( buf . to string ( ) ) ;  <NL>  }  COM: <s> update the parent windows title </s>

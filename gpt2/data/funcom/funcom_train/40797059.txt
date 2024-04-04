@@ -1,0 +1,1 @@
+TDAT: public void start ( bundle context bc ) {  <NL> this . bc = bc ;  <NL>  <NL>  / / get config <NL> hashtable p = new hashtable ( ) ;  <NL> p . put ( constants . service _ pid , get class ( ) . get name ( ) ) ;  <NL> bc . register service ( managed service . class . get name ( ) , this , p ) ;  <NL>  }  COM: <s> called by the framework when this bundle is started </s>

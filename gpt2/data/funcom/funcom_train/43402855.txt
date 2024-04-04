@@ -1,0 +1,1 @@
+TDAT: public int compare to ( list denotator other ) {  <NL> int c = get form ( ) . compare to ( other . get form ( ) ) ;  <NL> if ( c = = 0 ) {  <NL> c = name compare to ( other ) ;  <NL> if ( c = = 0 ) {  <NL> c = get list morphism map ( ) . compare to ( other . get list morphism map ( ) ) ;  <NL>  }  <NL>  }  <NL> return c ;  <NL>  }  COM: <s> compares two list denotators </s>

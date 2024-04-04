@@ -1,0 +1,1 @@
+TDAT: private void replace ( node x , node n ) throws hsql exception {  <NL>  <NL> if ( x . equals ( root ) ) {  <NL> root = n ;  <NL>  <NL> if ( n ! = null ) {  <NL> n . set parent ( null ) ;  <NL>  }  <NL>  } else {  <NL> set ( x . get parent ( ) , x . is from left ( ) , n ) ;  <NL>  }  <NL>  }  COM: <s> replace two nodes </s>

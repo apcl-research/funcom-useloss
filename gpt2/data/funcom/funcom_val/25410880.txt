@@ -1,0 +1,1 @@
+TDAT: public int compare to ( small puzzle tp ) {  <NL> if ( s [ 0 ] < tp . s [ 0 ] ) return - 1 ;  <NL> if ( s [ 0 ] > tp . s [ 0 ] ) return + 1 ;  <NL>  <NL> if ( s [ 1 ] < tp . s [ 1 ] ) return - 1 ;  <NL> if ( s [ 1 ] > tp . s [ 1 ] ) return + 1 ;  <NL>  <NL> return 0 ; / / must be sasme !  <NL>  }  COM: <s> needed for nodes to be placed within binary tree </s>

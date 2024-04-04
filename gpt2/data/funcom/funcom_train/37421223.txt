@@ -1,0 +1,1 @@
+TDAT: public void log off ( ) {  <NL> string s = xml wrapper . wrap log off ( session id ) ;  <NL> if ( debug )  <NL> system . out . println ( " go t client - logoff : \n " + s ) ;  <NL> send to server ( s ) ;  <NL> if ( debug )  <NL> system . out . println ( " go t client - disconnect : \n " ) ;  <NL> io . disconnect ( ) ;  <NL>  }  COM: <s> called when a user logs off </s>

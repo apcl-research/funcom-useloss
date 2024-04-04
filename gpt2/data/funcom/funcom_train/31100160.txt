@@ -1,0 +1,1 @@
+TDAT: public short read byte ( ) throws io exception {  <NL> short s = in stream . read byte ( ) ;  <NL>  / / now , we ' ve got to trick java into forgetting the sign <NL> int s1 = ( ( ( s & 0x f0 ) > > > 4 ) < < 4 ) + ( s & 0x0f ) ;  <NL> return ( short ) s1 ;  <NL>  }  COM: <s> parses a one byte value out of the stream </s>

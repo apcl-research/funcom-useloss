@@ -1,0 +1,1 @@
+TDAT: public void test replace ( ) throws bml exception {  <NL> string ls value = " good ! ! ! " ;  <NL> data string ld string = new data string ( f blank ) ;  <NL> ld string . set string ( ls value ) ;  <NL>  <NL> ld string . replace ( 1 , 2 , " hell " ) ;  <NL> assert equals ( " g helld ! ! ! " , ld string . to string ( ) ) ;  <NL>  }  COM: <s> test of replace method </s>

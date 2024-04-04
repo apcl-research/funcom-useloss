@@ -1,0 +1,1 @@
+TDAT: public void add ( string term , double weight ) {  <NL>  <NL> cosine + = weight ;  <NL>  <NL> nterms + + ;  <NL>  <NL> if ( debug ) {  <NL>  <NL> log . debug ( " doc id = " + doc id + " , term : " + term + " , nterms = "  <NL>  + nterms + " , weight = " + weight + " , cosine = " + cosine ) ;  <NL>  <NL>  }  <NL>  <NL>  }  COM: <s> adds another component to the cosine </s>

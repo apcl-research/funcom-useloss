@@ -1,0 +1,1 @@
+TDAT: public boolean add all ( int index , collection c ) {  <NL> iterator ci = c . iterator ( ) ;  <NL> int size = c . size ( ) ;  <NL> list iterator i = list iterator ( index ) ;  <NL> for ( int pos = size ; pos > 0 ; pos - - )  <NL> i . add ( ci . next ( ) ) ;  <NL> return size > 0 ;  <NL>  }  COM: <s> insert the contents of a collection into the list at a given position </s>

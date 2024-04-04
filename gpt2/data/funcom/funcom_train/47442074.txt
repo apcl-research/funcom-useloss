@@ -1,0 +1,1 @@
+TDAT: public double get double ( string key ) {  <NL> string val = ( string ) get ( key ) ;  <NL> if ( val = = null ) {  <NL> system . out . println ( " key \ " " + key + " \ " is not in this tb dictionary ! " ) ;  <NL>  }  <NL> double d = new double ( val ) ;  <NL> return d . double value ( ) ;  <NL>  }  COM: <s> get the double referenced by key </s>

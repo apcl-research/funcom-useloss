@@ -1,0 +1,1 @@
+TDAT: public string found name card ( string r str ) {  <NL> int temp ;  <NL> int i ;  <NL>  <NL> for ( i = 0 ; i < r str . length ( ) ; i + + ) {  <NL> temp = r str . code point at ( i ) ;  <NL> if ( temp > = 48 & & temp < = 57 ) {  <NL> break ;  <NL>  <NL>  }  <NL>  <NL>  }  <NL> return r str . substring ( 0 , i - 1 ) ;  <NL>  }  COM: <s> p found name card </s>

@@ -1,0 +1,1 @@
+TDAT: public int read ( ) throws io exception {  <NL> int ret = this . in . read ( this . buff , 0 , this . buff size ) ;  <NL> if ( ret < = 0 ) {  <NL> this . eof found = true ;  <NL>  } else {  <NL> this . out . write ( this . buff , 0 , ret ) ;  <NL>  }  <NL> return ret ;  <NL>  }  COM: <s> reads a section of the file into an internal buffer </s>

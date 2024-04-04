@@ -1,0 +1,1 @@
+TDAT: public accessible get accessible at ( point p ) {  <NL> int tab = ( ( tabbed pane ui ) ui ) . tab for coordinate ( j tabbed pane . this ,  <NL> p . x , p . y ) ;  <NL> if ( tab = = - 1 ) {  <NL> tab = get selected index ( ) ;  <NL>  }  <NL> return get accessible child ( tab ) ;  <NL>  }  COM: <s> returns the code accessible code child contained at </s>

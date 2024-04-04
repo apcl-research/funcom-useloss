@@ -1,0 +1,1 @@
+TDAT: private void convert gaps ( string gaps ) {  <NL> for ( int i = 0 ; i < sequences . size ( ) ; i + + ) {  <NL> for ( int j = 0 ; j < gaps . length ( ) ; j + + ) {  <NL> sequences . set ( i , sequences . get ( i ) . replace ( gaps . char at ( j ) , alignment . gap ) ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> converts all gap characters to alignment </s>

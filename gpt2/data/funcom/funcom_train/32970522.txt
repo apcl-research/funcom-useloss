@@ -1,0 +1,1 @@
+TDAT: public list get permissions for groups ( collection groups ) {  <NL> return persistence . create query (  <NL>  " from permission p where p . id . group in ( : groups ) order by p . id . categ . id " )  <NL>  . set parameter list ( " groups " , groups , hibernate . entity ( groupx . class ) )  <NL>  . list ( ) ;  <NL>  }  COM: <s> ordered by category id </s>

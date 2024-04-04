@@ -1,0 +1,1 @@
+TDAT: public stock item to get data ( ) {  <NL> stock item to stock item to = new stock item to ( get date ( ) , get order id ( ) , get item entity ( ) . get data ( ) , get quantity ( ) ) ;  <NL> stock item to . set id ( get id ( ) ) ;  <NL> return stock item to ;  <NL>  }  COM: <s> returns a stock item to transfer object </s>

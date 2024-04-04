@@ -1,0 +1,1 @@
+TDAT: public boolean is equal ( char [ ] char array , int item index ) {  <NL> short hash index = get word item table index ( char array [ 0 ] ) ;  <NL> return utility . compare array ( char array , 1 ,  <NL> word item _ char array table [ word index table [ hash index ] ] [ item index ] , 0 ) = = 0 ;  <NL>  }  COM: <s> char array char array 0 word index char array </s>

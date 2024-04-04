@@ -1,0 +1,1 @@
+TDAT: public void set bounds ( int x , int y , int w , int h ) {  <NL> begin update ( ) ;  <NL> set column width ( 0 , w - col width1 - col width2 - 24 ) ;  <NL> set column width ( 1 , col width1 ) ;  <NL> set column width ( 2 , col width2 ) ;  <NL> super . set bounds ( x , y , w , h ) ;  <NL> end update ( ) ;  <NL>  }  COM: <s> set bounds of the component </s>

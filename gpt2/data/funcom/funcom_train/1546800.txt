@@ -1,0 +1,1 @@
+TDAT: public void new sample data ( double [ ] y , double [ ] [ ] x , double [ ] [ ] covariance ) {  <NL> validate sample data ( x , y ) ;  <NL> new y sample data ( y ) ;  <NL> new x sample data ( x ) ;  <NL> validate covariance data ( x , covariance ) ;  <NL> new covariance data ( covariance ) ;  <NL>  }  COM: <s> replace sample data overriding any previous sample </s>

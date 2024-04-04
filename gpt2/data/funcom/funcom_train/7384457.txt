@@ -1,0 +1,1 @@
+TDAT: public rectangle get rectangle ( ) {  <NL> int ix = ( int ) math . round ( x ) ;  <NL> int iy = ( int ) math . round ( y ) ;  <NL> int iw = ( int ) math . round ( width - ix + x ) ;  <NL> int ih = ( int ) math . round ( height - iy + y ) ;  <NL>  <NL> return new rectangle ( ix , iy , iw , ih ) ;  <NL>  }  COM: <s> returns the bounds as a new rectangle </s>

@@ -1,0 +1,1 @@
+TDAT: public void write header ( string header , string value ) throws io exception {  <NL>  / / do not write empty headers <NL> if ( value ! = null & & value . length ( ) > 0 ) {  <NL> write ( header ) ;  <NL> write ( " : " ) ;  <NL> write ( mime utility . encode text ( value , " utf - 8 " , null ) ) ;  <NL> write ln ( ) ;  <NL>  }  <NL>  }  COM: <s> write mime header </s>

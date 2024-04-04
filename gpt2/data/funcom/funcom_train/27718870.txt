@@ -1,0 +1,1 @@
+TDAT: public void set active ( boolean active ) {  <NL> if ( active ! = is active ( ) ) {  <NL> boolean old active = is active ( ) ;  <NL> this . active = active ;  <NL> if ( is activation border enabled ( ) ) {  <NL> set activation border ( ) ;  <NL>  }  <NL> fire property change ( " active " , old active , active ) ;  <NL>  }  <NL>  }  COM: <s> setter for property active </s>

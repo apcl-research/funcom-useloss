@@ -1,0 +1,1 @@
+TDAT: public void test create log ( ) {  <NL> system . out . println ( " - > test create log " ) ;  <NL> d log log = get session ( ) . create log ( " domingo _ log " ) ;  <NL> log . open notes log ( get server name ( ) , " log . nsf " ) ;  <NL> log . log action ( " log something " ) ;  <NL>  }  COM: <s> tests create log string </s>

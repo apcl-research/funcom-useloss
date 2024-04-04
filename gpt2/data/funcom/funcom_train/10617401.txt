@@ -1,0 +1,1 @@
+TDAT: public void test signature exception06 ( ) {  <NL> signature exception t e = new signature exception ( null , null ) ;  <NL> assert null ( " get message ( ) must return null " , t e . get message ( ) ) ;  <NL> assert null ( " get cause ( ) must return null " , t e . get cause ( ) ) ;  <NL>  }  COM: <s> test for code signature exception string throwable code constructor </s>

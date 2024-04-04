@@ -1,0 +1,1 @@
+TDAT: public void set on the line ( boolean b ) {  <NL> this . m _ is on the line = b ;  <NL> if ( this . m _ is on the line = = true )  <NL> this . m _ document . get presentation ( ) . add page ( this . get page ( ) ) ;  <NL> else <NL> this . m _ document . get presentation ( ) . remove page ( this . get page ( ) ) ;  <NL>  }  COM: <s> to set this element on the line </s>

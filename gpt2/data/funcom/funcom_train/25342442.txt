@@ -1,0 +1,1 @@
+TDAT: public void unregister ( playlist playlist ) {  <NL> int old num = this . playlists . size ( ) ;  <NL> this . playlists by id . remove ( playlist . get id ( ) ) ;  <NL> this . playlists . remove ( playlist ) ;  <NL> this . get pcs ( ) . fire property change ( " num playlists " , old num , this . playlists . size ( ) ) ;  <NL>  }  COM: <s> unregisters a playlist </s>

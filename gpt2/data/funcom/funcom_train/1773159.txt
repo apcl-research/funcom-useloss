@@ -1,0 +1,1 @@
+TDAT: public void test add _ add2filters ( ) {  <NL> int max size = ( filter . get encoded size ( ) * 2 ) + filter . get operator size ( ) ;  <NL> bucket bucket = new bucket ( max size , 1000 , filter ) ;  <NL> bucket . add ( filter ) ;  <NL> assert equals ( 2 , bucket . get filter list ( ) . size ( ) ) ;  <NL>  }  COM: <s> tests adding 2 filters </s>

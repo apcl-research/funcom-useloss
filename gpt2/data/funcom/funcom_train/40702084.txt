@@ -1,0 +1,1 @@
+TDAT: public void events get members ( long eid , async callback < event members > callback ) {  <NL> json j = new json ( ) . put ( " eid " , eid ) ;  <NL> call method ret object ( " events . get members " , j . get java script object ( ) , event members . class , callback ) ;  <NL>  }  COM: <s> returns membership list data associated with an event </s>

@@ -1,0 +1,1 @@
+TDAT: public void set maximum ( int maximum ) {  <NL> int old max = get model ( ) . get maximum ( ) ;  <NL> get model ( ) . set maximum ( maximum ) ;  <NL> reload if change ( maximum , old max ) ;  <NL> property change support . fire property change ( " maximum " , old max , get model ( ) . get maximum ( ) ) ;  <NL>  }  COM: <s> sets the models maximum property </s>

@@ -1,0 +1,1 @@
+TDAT: public void print out ( ) {  <NL>  <NL> size = synonyme . size ( ) ;  <NL>  <NL> system . out . println ( " the term " + this . name + " has the following synonyms : " ) ;  <NL>  <NL> for ( int i = 0 ; i < size ; i + + ) {  <NL>  <NL> system . out . println ( " " + synonyme . get ( i ) ) ;  <NL>  <NL>  }  <NL>  }  COM: <s> prints out the synonyms of each term </s>

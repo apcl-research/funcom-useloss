@@ -1,0 +1,1 @@
+TDAT: public string to xml ( ) {  <NL> string builder xml = new string builder ( " < user > " ) ;  <NL> xml . append ( " < name > " ) . append ( get name ( ) . get full name ( ) ) . append ( " < / name > " ) ;  <NL> xml . append ( " < / user > " ) ;  <NL> return xml . to string ( ) ;  <NL>  }  COM: <s> returns the xml representation fo this user info </s>

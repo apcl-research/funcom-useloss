@@ -1,0 +1,1 @@
+TDAT: public void open file ( environment env ) {  <NL> final int [ ] r = env . get cpu ( ) . r ;  <NL> final memory map memory map = env . get memory map ( ) ;  <NL> final int handle = open file ( memory map . get string0 ( r [ 1 ] ) ) . get handle ( ) ;  <NL> memory map . store word ( r [ 0 ] , handle ) ;  <NL>  }  COM: <s> this swi opens a message file </s>

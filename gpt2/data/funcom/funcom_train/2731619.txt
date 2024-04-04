@@ -1,0 +1,1 @@
+TDAT: public string visit ( macro call rule macro ) {  <NL> return ( show asm name ? ( defs . get asm name ( macro . get called macro ( ) ) + " : : " ) : " " )  <NL>  + macro . get called macro ( ) . get name ( ) + visit ( macro . get parameters ( ) , " [ " , " ] " ) ;  <NL>  }  COM: <s> converts a macro call rule into string </s>

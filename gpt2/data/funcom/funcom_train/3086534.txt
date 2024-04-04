@@ -1,0 +1,1 @@
+TDAT: public void set maximum ( int n ) {  <NL> int new min = math . min ( n , min ) ;  <NL> int new value = math . min ( n , value ) ;  <NL> int new extent = math . min ( n - new value , extent ) ;  <NL>  <NL> set range properties ( new value , new extent , new min , n , is adjusting ) ;  <NL>  }  COM: <s> sets the maximum to i n i after ensuring that i n i </s>

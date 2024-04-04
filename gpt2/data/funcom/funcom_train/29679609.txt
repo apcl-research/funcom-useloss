@@ -1,0 +1,1 @@
+TDAT: public void do print title ( string buffer buffer , string title ) {  <NL> if ( title ! = null ) {  <NL> map map = new hash map ( ) ;  <NL> map . put ( " style class " , style class ) ;  <NL> map . put ( " title " , title ) ;  <NL> this . process template ( title _ template _ name , map , buffer ) ;  <NL>  }  <NL>  }  COM: <s> do print title method comment </s>

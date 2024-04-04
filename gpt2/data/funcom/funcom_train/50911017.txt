@@ -1,0 +1,1 @@
+TDAT: public boolean includes ( int2range r ) {  <NL> if ( ! is valid ( ) || r = = null || ! r . is valid ( ) ) {  <NL> return false ;  <NL>  }  <NL> int range xr = r . get x range ( ) ;  <NL> int range yr = r . get y range ( ) ;  <NL> return ( xrange . includes ( xr ) & & yrange . includes ( yr ) ) ;  <NL>  }  COM: <s> is one int2 range completely within another </s>

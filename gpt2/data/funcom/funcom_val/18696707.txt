@@ -1,0 +1,1 @@
+TDAT: private boolean validate plan ( utilisation plan plan ) {  <NL> string case id = plan . get case id ( ) ;  <NL> if ( ! _ rm . get clients ( ) . is running case id ( plan . get case id ( ) ) ) {  <NL> plan . set error ( " there is no running case with id : " + case id ) ;  <NL> return false ;  <NL>  }  <NL> return true ;  <NL>  }  COM: <s> validates plan values </s>

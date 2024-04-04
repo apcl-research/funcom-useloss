@@ -1,0 +1,1 @@
+TDAT: public void add failure ( test test , throwable t ) {  <NL> string test name = j unit version helper . get test case name ( test ) ;  <NL> log test listener event ( " add failure ( " + test name + " , " + t . get message ( ) + " ) " ) ;  <NL> if ( halt on failure ) {  <NL> res . stop ( ) ;  <NL>  }  <NL>  }  COM: <s> interface test listener for junit lt 3 </s>

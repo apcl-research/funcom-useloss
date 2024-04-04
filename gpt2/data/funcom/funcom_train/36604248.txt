@@ -1,0 +1,1 @@
+TDAT: private color get random color ( ) {  <NL> int red = ( int ) ( math . random ( ) * 255 ) ;  <NL> int green = ( int ) ( math . random ( ) * 255 ) ;  <NL> int blue = ( int ) ( math . random ( ) * 255 ) ;  <NL> return new color ( red , green , blue ) ;  <NL>  }  COM: <s> this method is generates random color </s>

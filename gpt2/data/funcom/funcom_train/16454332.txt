@@ -1,0 +1,1 @@
+TDAT: public void interval added ( list data event e ) {  <NL> int start idx = e . get index0 ( ) ;  <NL> int end idx = e . get index1 ( ) + 1 ;  <NL> for ( int idx = start idx ; idx < end idx ; idx + + ) {  <NL> this . add ( model . get element at ( idx ) , idx ) ;  <NL>  }  <NL>  }  COM: <s> sent after the indices in the index0 index1 </s>

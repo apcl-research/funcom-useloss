@@ -1,0 +1,1 @@
+TDAT: public long add or incr ( string key , long inc , integer hash code ) {  <NL> boolean ret = set ( " add " , key , inc , null , hash code , true , 0 ) ;  <NL>  <NL> if ( ret ) {  <NL> return inc ;  <NL>  } else {  <NL> return incrdecr ( " incr " , key , inc , hash code ) ;  <NL>  }  <NL>  }  COM: <s> thread safe way to initialize and increment a counter </s>

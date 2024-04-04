@@ -1,0 +1,1 @@
+TDAT: public double get phase ( ) {  <NL> if ( r = = 0 . d ) {  <NL> return i < 0 . d ? - pi2 : i > 0 . d ? + pi2 : 0 . d ;  <NL>  }  <NL> final double at = math . atan ( i / r ) ;  <NL> return r > 0 . d ? at : i < 0 . d ? at - math . pi : at + math . pi ;  <NL>  }  COM: <s> get the phase value the complex argument value </s>

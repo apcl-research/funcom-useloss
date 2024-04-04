@@ -1,0 +1,1 @@
+TDAT: public double get y ( double t ) {  <NL> int n = list . size ( ) ;  <NL> t = t * n ;  <NL> double di = strict math . floor ( t ) ;  <NL> int i = ( int ) di ;  <NL> if ( i < 0 ) return start y ; else if ( i > = n ) return end y ; else return get y ( list . get ( i ) , t - di ) ;  <NL>  }  COM: <s> returns the y position at the given point 0 t 1 </s>

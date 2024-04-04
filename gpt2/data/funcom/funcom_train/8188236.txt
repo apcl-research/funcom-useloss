@@ -1,0 +1,1 @@
+TDAT: public int get users count ( ) {  <NL> transaction tx = get session ( ) . begin transaction ( ) ;  <NL> string hql = " select count ( * ) from user as user where user . is active = ' y ' " ;  <NL> return ( ( long ) ( get session ( ) . create query ( hql ) . iterate ( ) . next ( ) ) ) . int value ( ) ;  <NL>  }  COM: <s> returns customers count </s>

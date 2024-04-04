@@ -1,0 +1,1 @@
+TDAT: public void test echo q name array ( ) throws exception {  <NL> q name qname = new q name ( " http : / / foo . bar " , " foofoo " ) ;  <NL> q name array [ ] = new q name [ ] { qname , qname } ;  <NL> assert true ( arrays . equals ( array , client . echo q name ( array ) ) ) ;  <NL>  }  COM: <s> echo a qname array </s>

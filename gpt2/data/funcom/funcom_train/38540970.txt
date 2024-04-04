@@ -1,0 +1,1 @@
+TDAT: public point2d get next cycle position estimation ( ) {  <NL> double x = m to . get x ( ) + math . cos ( math . to radians ( m angle ) ) * m magnitude ;  <NL> double y = m to . get y ( ) + math . sin ( math . to radians ( m angle ) ) * m magnitude ;  <NL> return new point2d . double ( x , y ) ;  <NL>  }  COM: <s> estimates where the next position will be </s>

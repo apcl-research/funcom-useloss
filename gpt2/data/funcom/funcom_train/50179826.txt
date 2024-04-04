@@ -1,0 +1,1 @@
+TDAT: public string get db type ( a xassociation assoc ) {  <NL> int length = integer . parse int ( assoc . get tagged value ( " length " , " 50 " ) ) ;  <NL> string type = assoc . get tagged value ( " db - type " , " java . lang . string " ) ;  <NL> return get db type ( type , length ) ;  <NL>  }  COM: <s> p get the db type for the given assoc p </s>

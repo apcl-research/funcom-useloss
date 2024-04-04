@@ -1,0 +1,1 @@
+TDAT: public void test add variable ( ) {  <NL> om binding binding = new om binding ( ) ;  <NL> binding . set body ( new om integer ( " 1 " ) ) ;  <NL> binding . add variable ( new om variable ( " a " ) ) ;  <NL> assert true ( ( ( om variable ) binding . get variable at ( 0 ) ) . get name ( ) . equals ( " a " ) ) ;  <NL>  }  COM: <s> test of add variable method of class nl </s>

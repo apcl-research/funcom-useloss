@@ -1,0 +1,1 @@
+TDAT: public scroll get scroll ( ) {  <NL> if ( dom = = xdom . get body ( ) || dom = = xdom . get document ( ) ) {  <NL> return new scroll ( xdom . get body scroll left ( ) , xdom . get body scroll top ( ) ) ;  <NL>  } else {  <NL> return new scroll ( get scroll left ( ) , get scroll top ( ) ) ;  <NL>  }  <NL>  }  COM: <s> returns the body elements current scroll position </s>

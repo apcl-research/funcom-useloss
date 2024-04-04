@@ -1,0 +1,1 @@
+TDAT: public void new topic map ( string id ) {  <NL> logger . cat . debug ( " xtm session new topic map " + id ) ;  <NL> this . current tm id = id ;  <NL> system . out . println ( " xtm session new topic map " + id + " " + tab name ) ;  <NL> this . current tm = new xtm topic map ( id , tab name , null , true , commander ) ;  <NL>  }  COM: <s> new tm becomes current tm </s>

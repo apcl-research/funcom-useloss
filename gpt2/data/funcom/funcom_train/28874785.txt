@@ -1,0 +1,1 @@
+TDAT: public void force compile ( ) {  <NL> set yellow ( ) ;  <NL> packer . generate ( packer . type _ sid , song , " player . s " , option . get tmp path ( ) ,  <NL>  " temp " , option . get tmp path ( ) , 0x0801 , false ,  <NL> option . get a4freq ( ) ) ;  <NL> set green ( ) ;  <NL> is compiled = true ;  <NL>  }  COM: <s> force a compilation of tune </s>

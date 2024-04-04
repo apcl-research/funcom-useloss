@@ -1,0 +1,1 @@
+TDAT: public void show canvas menu ( component src , int x , int y ) {  <NL> j popup menu popup = new j popup menu ( ) ;  <NL> popup . add ( make edit menu ( ) ) ;  <NL> popup . add ( make display menu ( ) ) ;  <NL> popup . add ( make align menu ( ) ) ;  <NL> do popup ( popup , src , x , y ) ;  <NL>  }  COM: <s> called from the menu button click </s>

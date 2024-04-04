@@ -1,0 +1,1 @@
+TDAT: public boolean exists ( connection c ) {  <NL> try {  <NL> return new query runner ( ) . query ( c , " select * from user _ db _ links where db _ link = ? " , get global name ( ) , new map handler ( ) ) ! = null ;  <NL>  } catch ( sql exception e ) {  <NL> return false ;  <NL>  }  <NL>  <NL>  }  COM: <s> tests the existense of the link </s>

@@ -1,0 +1,1 @@
+TDAT: public void inid ( int i )  <NL>  { id = i ;  <NL> system . out . println ( " this client got id : " + id ) ;  <NL> in . setid ( id ) ;  <NL> out = new net send ( client , id , this ) ;  <NL> out . start ( ) ;  <NL> outname ( ) ;  <NL> showmessage ( " [ connected to server ] " ) ;  <NL>  }  COM: <s> gives this client an id number </s>

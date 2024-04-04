@@ -1,0 +1,1 @@
+TDAT: public string to db string ( ) {  <NL> return " " + c . get ( calendar . year ) + " - "  <NL>  + ( c . get ( calendar . month ) < 9 ? " 0 " : " " ) + ( c . get ( calendar . month ) + 1 ) + " - "  <NL>  + ( c . get ( calendar . day _ of _ month ) < 10 ? " 0 " : " " ) + c . get ( calendar . day _ of _ month ) ;  <NL>  }  COM: <s> return the date in db format </s>

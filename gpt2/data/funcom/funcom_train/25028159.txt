@@ -1,0 +1,1 @@
+TDAT: public node external _ serialize ( node start at ) throws exception {  <NL> start at . is good args cnt ( 1 , 2 ) ;  <NL> node res = null ;  <NL> res = abstrasy . externals . a ext tools . serialization tk . create init expr ( " math : integer " , new node ( number . get ( ) . to string ( ) ) ) ;  <NL> return res ;  <NL>  }  COM: <s> s rialisation du integer </s>

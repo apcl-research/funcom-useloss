@@ -1,0 +1,1 @@
+TDAT: public object put ( final object key , final object value ) {  <NL> final object result = this . delegate . put ( key , value ) ;  <NL> if ( result ! = null ) {  <NL> this . fire entry replaced event ( key , result , value ) ;  <NL>  } else {  <NL> this . fire entry added event ( key , value ) ;  <NL>  }  <NL> return result ;  <NL>  }  COM: <s> binds the supplied value </s>

@@ -1,0 +1,1 @@
+TDAT: public int get nr human players ( ) {  <NL> int human player = 0 ;  <NL> int num p = get nr players ( ) ;  <NL> for ( int i = 0 ; i < num p ; i + + ) {  <NL> trans sib player p = get player ( i ) ;  <NL> if ( is human ( p ) ) human player + + ;  <NL>  }  <NL> return human player ;  <NL>  }  COM: <s> returns the number of human players </s>

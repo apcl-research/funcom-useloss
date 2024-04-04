@@ -1,0 +1,1 @@
+TDAT: public object send ( string url ) throws exception {  <NL> if ( url = = null ) url = " / / / main " ;  <NL> else if ( url . starts with ( " / / " ) & & url . ends with ( " / " ) ) url + = " main " ;  <NL> return invoke ( get item ( url ) , " send " , this ) ;  <NL>  }  COM: <s> this method sends its remote reference to another item either from a </s>

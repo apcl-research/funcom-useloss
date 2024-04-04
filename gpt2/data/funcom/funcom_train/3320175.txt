@@ -1,0 +1,1 @@
+TDAT: public int compare ( object e1 , object e2 ) {  <NL> string to comp1 = e1 . to string ( ) . trim ( ) ;  <NL> string to comp2 = e2 . to string ( ) . trim ( ) ;  <NL> int ret = to comp1 . to upper case ( ) . compare to ( to comp2 . to upper case ( ) ) ;  <NL> return ret ;  <NL>  }  COM: <s> compares its two arguments for order </s>

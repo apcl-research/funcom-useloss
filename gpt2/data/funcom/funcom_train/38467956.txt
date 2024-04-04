@@ -1,0 +1,1 @@
+TDAT: public void add node ( tree node node ) {  <NL> node . parent = this ;  <NL>  <NL> tree node [ ] nodes = new tree node [ this . next . length + 1 ] ;  <NL> system . arraycopy ( next , 0 , nodes , 0 , this . next . length ) ;  <NL> nodes [ nodes . length - 1 ] = node ;  <NL> this . next = nodes ;  <NL>  }  COM: <s> adds a subnode to this node </s>

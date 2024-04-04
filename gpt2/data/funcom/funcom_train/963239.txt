@@ -1,0 +1,1 @@
+TDAT: public void fire test started ( final algorithm < i , o > algorithm , final i input ) {  <NL> new safe notifier ( ) {  <NL>  @ override <NL> protected void notify listener ( run listener < i , o > each ) throws exception {  <NL> each . test started ( algorithm , input ) ;  <NL>  } ;  <NL>  } . run ( ) ;  <NL>  }  COM: <s> invoke to tell listeners that an </s>

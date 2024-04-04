@@ -1,0 +1,1 @@
+TDAT: public int array without ( final int i ) {  <NL> final int [ ] new arr = new int [ ints . length - 1 ] ;  <NL> system . arraycopy ( ints , 0 , new arr , 0 , i ) ;  <NL> system . arraycopy ( ints , i + 1 , new arr , i , new arr . length - i ) ;  <NL> return new int array ( new arr ) ;  <NL>  }  COM: <s> return a new code int array code that contains the same elements </s>

@@ -1,0 +1,1 @@
+TDAT: @ override public icon get icon ( dot palette pal ) {  <NL> int i = 0 ;  <NL> for ( object choice : dot palette . values ( ) ) {  <NL> if ( i > = icons . size ( ) ) break ;  <NL> if ( pal = = choice ) return icons . get ( i ) ;  <NL> i + + ;  <NL>  }  <NL> return icons . get ( 0 ) ;  <NL>  }  COM: <s> returns the icon to use based on the given palette </s>

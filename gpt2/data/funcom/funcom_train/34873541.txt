@@ -1,0 +1,1 @@
+TDAT: public void test compete ( ) {  <NL> do compete ( " * " , " * " ) ;  <NL> do compete ( " # " , " # " ) ;  <NL> do compete ( " \\ " , " \\ " ) ;  <NL> do compete ( " * " , " # " ) ;  <NL> do compete ( " * " , " \\ " ) ;  <NL> do compete ( " # " , " \\ " ) ;  <NL>  }  COM: <s> test for the compete method </s>

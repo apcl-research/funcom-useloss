@@ -1,0 +1,1 @@
+TDAT: public void remove service ( rendezvous rendezvous , string type , string name ) {  <NL> if ( name . ends with ( " . " + type ) ) {  <NL> name = name . substring ( 0 , name . length ( ) - ( type . length ( ) + 1 ) ) ;  <NL>  }  <NL>  / / system . out . println ( " remove : " + name ) ;  <NL> services . remove element ( name ) ;  <NL>  }  COM: <s> remove a service </s>

@@ -1,0 +1,1 @@
+TDAT: public boolean add edge ( e edge , v source , v target , edge type edge type ) {  <NL> cy node s = nm . get ( source ) ;  <NL> cy node t = nm . get ( target ) ;  <NL> cy edge e = net . add edge ( s , t , ( edge type = = edge type . directed ) ) ;  <NL> em . put ( edge , e ) ;  <NL> return true ;  <NL>  }  COM: <s> convenience method for multigraphs </s>

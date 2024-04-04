@@ -1,0 +1,1 @@
+TDAT: protected void gen header ( ) {  <NL> println ( " / / $ antlr " + tool . version + " : " +  <NL>  " \ " " + antlr tool . file minus path ( antlr tool . grammar file ) + " \ " " +  <NL>  " - > " +  <NL>  " \ " " + grammar . get class name ( ) + " . java\ " $ " ) ;  <NL>  }  COM: <s> generate a header that is common to all java files </s>

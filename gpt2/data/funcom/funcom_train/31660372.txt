@@ -1,0 +1,1 @@
+TDAT: public void remove thread by id ( int id ) {  <NL> try {  <NL> logger . fine ( " remove thread from pool : " + id ) ;  <NL> on going threads . remove ( new integer ( id ) ) ;  <NL>  } catch ( exception e ) {  <NL> logger . log ( level . severe , " can ' t remove thread from pool : " + id , e ) ;  <NL>  }  <NL>  }  COM: <s> remove a thread by its identifier </s>

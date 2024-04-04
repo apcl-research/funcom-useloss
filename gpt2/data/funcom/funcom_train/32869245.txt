@@ -1,0 +1,1 @@
+TDAT: public void presence unsubscribed ( jid new jid ) {  <NL> if ( mo jabber comm . send presence ( new jid . get jid ( ) , " " , " unsubscribed " , " " , " 1 " , " " ) ! = constants . send _ succeeded )  <NL> system . out . println ( " failed unsubscribed " ) ;  <NL>  }  COM: <s> user rejects a subscription reqeust </s>

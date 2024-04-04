@@ -1,0 +1,1 @@
+TDAT: private void initialize combo controls ( composite composite , string [ ] labels , key [ ] keys , int tabkind ) {  <NL> for ( int i = 0 , max = labels . length ; i < max ; i + + ) {  <NL> create combo control ( composite , labels [ i ] , keys [ i ] , tabkind ) ;  <NL>  }  <NL>  }  COM: <s> creates a set of combo boxes for the given string key pairs </s>

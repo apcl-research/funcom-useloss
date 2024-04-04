@@ -1,0 +1,1 @@
+TDAT: private string get password ( ) {  <NL>  / / return password text field . get text ( ) ;  <NL> char [ ] pass = password text field . get password ( ) ;  <NL> string buffer sb = new string buffer ( ) ;  <NL> for ( int i = 0 ; i < pass . length ; i + + ) {  <NL> sb . append ( pass [ i ] ) ;  <NL>  }  <NL> return sb . to string ( ) ;  <NL>  }  COM: <s> get password value </s>

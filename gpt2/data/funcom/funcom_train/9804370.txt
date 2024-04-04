@@ -1,0 +1,1 @@
+TDAT: public void set label ( string label , string font , int size ) {  <NL> string fontname = " " ;  <NL> if ( font ! = null ) {  <NL> fontname = " font ' " + font + ( ( size > 1 ) ? " , " + size : " " ) + " ' " ;  <NL>  }  <NL> set ( get name ( ) + " label " , " ' " + label + " ' " + fontname ) ;  <NL>  }  COM: <s> set the label and the font of the current axis </s>

@@ -1,0 +1,1 @@
+TDAT: public void set value at ( object new value , int row index , int column index ) {  <NL>  <NL> if ( column index = = column _ value ) {  <NL> this . put ( this . key set ( ) . to array ( ) [ row index ] , new value ) ;  <NL>  }  <NL>  <NL> fire table rows updated ( row index , row index ) ;  <NL>  }  COM: <s> sets the value at a specific row and column to a new value </s>

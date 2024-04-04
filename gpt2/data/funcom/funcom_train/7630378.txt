@@ -1,0 +1,1 @@
+TDAT: public void play ( ) {  <NL> if ( m audio = = null ) {  <NL> try {  <NL> open media player ( ) ;  <NL>  } catch ( exception ex ) {  <NL> log . e ( tag , " play ( ) caught " , ex ) ;  <NL> m audio = null ;  <NL>  }  <NL>  }  <NL> if ( m audio ! = null ) {  <NL> m audio . start ( ) ;  <NL>  }  <NL>  }  COM: <s> plays the ringtone </s>

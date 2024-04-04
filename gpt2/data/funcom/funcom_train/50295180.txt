@@ -1,0 +1,1 @@
+TDAT: public void append object ( string name , object target ) {  <NL> element base e = element factory . create element ( root , name , target ) ; / / new element impl ( root , name , target ) ;  <NL>  ( ( element for bean ) root ) . append child ( e ) ;  <NL>  / / info . append children ( root , target ) ;  <NL>  }  COM: <s> append an object to the root element </s>

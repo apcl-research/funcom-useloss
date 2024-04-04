@@ -1,0 +1,1 @@
+TDAT: public void put image ( int x , int y , int cx , int cy , int [ ] data ) {  <NL>  <NL> backstore . set rgb no conversion ( x , y , cx , cy , data , 0 , / / drawing entire <NL>  / / image , no <NL>  / / offset needed <NL> cx ) ;  <NL>  <NL> this . repaint ( x , y , cx , cy ) ;  <NL>  }  COM: <s> draw an image from an integer array of colour data to the backstore </s>

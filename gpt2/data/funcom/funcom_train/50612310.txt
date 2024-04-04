@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> return ( level = = 0 ? " warning " : " error " ) + " id : " + id + " , level : " + level + " , name : " + name + " , description : " + description + " , implemented : "  <NL>  + implemented + " , implementation notes : " + implementation notes ;  <NL>  }  COM: <s> the string representation </s>

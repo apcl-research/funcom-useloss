@@ -1,0 +1,1 @@
+TDAT: public void add line ( final diagram node < o , a > from , final diagram node < o , a > to ) {  <NL> this . lines . add ( new diagram line < o , a > ( from , to , this ) ) ;  <NL> this . coordinate system checked = false ;  <NL> send change event ( ) ;  <NL>  }  COM: <s> adds a line to the diagram at the end of the list </s>

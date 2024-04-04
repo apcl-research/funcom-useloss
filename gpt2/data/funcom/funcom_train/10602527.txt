@@ -1,0 +1,1 @@
+TDAT: public void update ( item new item ) throws access control exception {  <NL> this . items . remove ( new item . get id ( ) ) ;  <NL> this . items . put ( new item . get id ( ) , new item ) ;  <NL> if ( get logger ( ) . is debug enabled ( ) ) {  <NL> get logger ( ) . debug ( " item [ " + new item + " ] updated . " ) ;  <NL>  }  <NL>  }  COM: <s> update an item </s>

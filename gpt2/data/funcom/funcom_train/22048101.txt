@@ -1,0 +1,1 @@
+TDAT: public void set enabled ( boolean b ) {  <NL> if ( b ) {  <NL> m _ list . set background ( ui manager . get color ( " text area . background " ) ) ;  <NL>  } else {  <NL> m _ list . set background ( ui manager . get color ( " label . background " ) ) ;  <NL>  }  <NL> m _ list . set enabled ( b ) ;  <NL>  }  COM: <s> set weather the listd is enabled or disabled </s>

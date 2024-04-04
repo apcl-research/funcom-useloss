@@ -1,0 +1,1 @@
+TDAT: public string dump ( ) {  <NL> final decimal format df = new decimal format ( " # 0 . 00 " ) ;  <NL> final string x = df . format ( get x ( ) ) . replace ( " , " , " . " ) ;  <NL> final string y = df . format ( get y ( ) ) . replace ( " , " , " . " ) ;  <NL> return " ( " + x + " , " + y + " ) " ;  <NL>  }  COM: <s> dump the content of the point as string representation </s>

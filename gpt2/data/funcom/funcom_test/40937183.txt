@@ -1,0 +1,1 @@
+TDAT: public double get three hourly kp ( absolute date date ) {  <NL>  <NL> double ap = get ap ( date ) ;  <NL> int i = 0 ;  <NL> for ( i = 0 ; ap > = ap tab [ i ] ; i + + ) {  <NL> if ( i = = ap tab . length - 1 ) {  <NL> i + + ;  <NL> break ;  <NL>  }  <NL>  }  <NL> return kp tab [ i - 1 ] ;  <NL>  }  COM: <s> the 3 h kp is derived from the ap index </s>

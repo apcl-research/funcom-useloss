@@ -1,0 +1,1 @@
+TDAT: public int get keep alive count ( ) {  <NL> if ( pollers = = null ) {  <NL> return 0 ;  <NL>  } else {  <NL> int keep alive count = 0 ;  <NL> for ( int i = 0 ; i < pollers . length ; i + + ) {  <NL> keep alive count + = pollers [ i ] . get keep alive count ( ) ;  <NL>  }  <NL> return keep alive count ;  <NL>  }  <NL>  }  COM: <s> number of keepalive sockets </s>

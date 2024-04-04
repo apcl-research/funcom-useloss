@@ -1,0 +1,1 @@
+TDAT: public java file object use source ( java file object file ) {  <NL> java file object prev = ( source = = null ? null : source . get file ( ) ) ;  <NL> if ( file ! = prev ) source = get source ( file ) ; / / drc - added the test to speed up use s ource when there is no change in file <NL> return prev ;  <NL>  }  COM: <s> re assign source returning previous setting </s>

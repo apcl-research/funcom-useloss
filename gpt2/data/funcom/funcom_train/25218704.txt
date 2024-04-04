@@ -1,0 +1,1 @@
+TDAT: public chromosome create chromosome ( int min opening , int max opening , int min end , int max end , int min , int max ) {  <NL> return chromosome factory . create ( min opening , max opening , min end , max end , min , max ) ;  <NL>  }  COM: <s> creates chromosome of specific minimum maximum value of features and </s>

@@ -1,0 +1,1 @@
+TDAT: protected void setup test capability ( ) {  <NL> simple jdbc template . update (  <NL>  " insert into solardras . capability ( id , dr _ kind , max _ power , max _ energy , max _ var ) "  <NL>  + " values ( ? , ? , ? , ? , ? ) " ,  <NL> test _ capability _ id , " test " , 11 , 12 , 13 ) ;  <NL>  }  COM: <s> insert a test capability into the solardras </s>

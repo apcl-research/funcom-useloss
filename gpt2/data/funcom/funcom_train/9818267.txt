@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> string str = " netlist of cell " + parent cell + " \n " ;  <NL> enumeration all _ nets = net _ table . elements ( ) ;  <NL> while ( all _ nets . has more elements ( ) )  <NL> str + = " net : " + all _ nets . next element ( ) + " \n " ;  <NL> return str ;  <NL>  }  COM: <s> prints out all of the connections in the association list </s>

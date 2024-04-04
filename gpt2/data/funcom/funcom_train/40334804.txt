@@ -1,0 +1,1 @@
+TDAT: public double pdf ( double x ) {  <NL> if ( x > = 0 ) {  <NL> return ( x / math . pow ( params [ alpha ] , 2d )  <NL>  * math . exp ( - math . pow ( x , 2d ) ) / ( 2 * math . pow ( params [ alpha ] , 2d ) ) ) ;  <NL>  } else {  <NL> return 0 ;  <NL>  }  <NL>  }  COM: <s> returns the value of the probability distribution function at x </s>

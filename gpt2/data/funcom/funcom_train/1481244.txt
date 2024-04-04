@@ -1,0 +1,1 @@
+TDAT: public void add ( char ch ) {  <NL> if ( b . length < = i + extra ) {  <NL> char [ ] new _ b = new char [ b . length + inc ] ;  <NL> system . arraycopy ( b , 0 , new _ b , 0 , b . length ) ;  <NL> b = new _ b ;  <NL>  }  <NL> b [ i + + ] = ch ;  <NL>  }  COM: <s> add a character to the word being stemmed </s>

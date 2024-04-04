@@ -1,0 +1,1 @@
+TDAT: public void add data field ( string key , byte [ ] value , string content type , string filename ) {  <NL>  / / set encoding type <NL> enc type = enctype _ multipart ;  <NL> field f = new field ( key , value ) ;  <NL> f . content type = content type ;  <NL> f . filename = filename ;  <NL> fields . add element ( f ) ;  <NL>  }  COM: <s> add a data field </s>

@@ -1,0 +1,1 @@
+TDAT: public void registe new command ( gs base command com ) {  <NL> system . out . println ( " register new command ' " + com . get cmd string ( ) + " ' - " + com . get short desc ( ) ) ;  <NL>  _ commands . put ( com . get cmd string ( ) . to lower case ( ) , com ) ;  <NL>  _ commands a . add ( com ) ;  <NL>  }  COM: <s> registe new command com </s>

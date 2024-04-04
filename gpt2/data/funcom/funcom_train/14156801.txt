@@ -1,0 +1,1 @@
+TDAT: public string debug to string ( ) {  <NL> string buffer sb = new string buffer ( ) ;  <NL>  <NL> sb . append ( " name : " ) ; sb . append ( name ) ;  <NL> sb . append ( " desc : " ) ; sb . append ( description ) ;  <NL> sb . append ( stream info . to string ( ) ) ;  <NL>  <NL> return sb . to string ( ) ;  <NL>  }  COM: <s> more complete than to string returns all </s>

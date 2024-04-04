@@ -1,0 +1,1 @@
+TDAT: protected string get std dev text ( ) {  <NL> string buffer sb = new string buffer ( " std . dev . : " ) ;  <NL> sb . append ( two _ digits _ fmt . format ( get std dev ( ) ) ) ;  <NL> if ( _ is ct ) sb . append ( " hu " ) ;  <NL> return ( sb . to string ( ) ) ;  <NL>  }  COM: <s> returns string representation of sd </s>

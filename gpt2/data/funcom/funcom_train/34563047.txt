@@ -1,0 +1,1 @@
+TDAT: private int h2b ( final byte b ) throws query exception {  <NL> if ( b > = ' 0 ' & & b < = ' 9 ' ) return b - ' 0 ' ;  <NL> if ( b > = ' a ' & & b < = ' f ' || b > = ' a ' & & b < = ' f ' ) return ( b & 15 ) + 9 ;  <NL> cast err ( ( char ) b ) ;  <NL> return 0 ;  <NL>  }  COM: <s> converts a single character into a byte value </s>

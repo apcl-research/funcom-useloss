@@ -1,0 +1,1 @@
+TDAT: public void set map code ( string map code , int layer , int x , int y ) {  <NL>  ( ( default tile map layer ) map . get ( layer ) ) . set map code ( map code , x , y ) ;  <NL>  } / / set map code ( string map code , int layer , int x , int y )  COM: <s> sets the usual two character map code which identifies the tile </s>

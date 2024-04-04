@@ -1,0 +1,1 @@
+TDAT: public void test parse ( ) {  <NL> test parse base ( " - / / apache software foundation / / dtd struts configuration 1 . 2 / / en " ,  <NL>  " / org / apache / struts / resources / struts - config _ 1 _ 2 . dtd " ,  <NL>  " / org / apache / struts / config / struts - config . xml " ) ;  <NL>  }  COM: <s> test parsing of a struts config </s>

@@ -1,0 +1,1 @@
+TDAT: public type info make type info ( / * @ non _ null * / string public name , / * @ non _ null * / i type t ) {  <NL> string key = t . get key ( ) ;  <NL> type info ti = new type info ( public name , key , null ) ;  <NL> ti . itype = t ;  <NL> typemap . put ( key , ti ) ;  <NL> return ti ;  <NL>  }  COM: <s> finds or creates a type info for the given type binding and </s>

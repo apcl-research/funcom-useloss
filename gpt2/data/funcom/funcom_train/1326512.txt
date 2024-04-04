@@ -1,0 +1,1 @@
+TDAT: public void test createcss class ( ) throws parse exception {  <NL> log . info ( " test la cr�ation d ' une css " ) ;  <NL> css css = new css ( ) ;  <NL> css . set libelle ( " test " ) ;  <NL> css . set chemin ( " test " ) ;  <NL> assert true ( ! css . get libelle ( ) . equals ( " " ) ) ;  <NL>  }  COM: <s> test de creation dune nouvelle css </s>

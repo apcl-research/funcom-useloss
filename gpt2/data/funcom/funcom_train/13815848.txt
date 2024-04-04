@@ -1,0 +1,1 @@
+TDAT: public void test constant ( ) {  <NL> color curve c = new color curve ( ) ;  <NL> c . add point ( 0 . 4 , 0 . 2 ) ;  <NL> for ( double d = - 1 . 0 ; d < 2 . 0 ; d + = 0 . 1 ) {  <NL> assert equals ( " should have constant value " , 0 . 2 , c . get value ( d ) , delta ) ;  <NL>  }  <NL>  }  COM: <s> for 1 control point should return constant data </s>

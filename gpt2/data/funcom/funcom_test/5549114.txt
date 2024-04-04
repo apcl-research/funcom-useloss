@@ -1,0 +1,1 @@
+TDAT: public object convert ( context context , object file ) throws conversion exception {  <NL> try {  <NL> return new file input stream ( ( file ) file ) ;  <NL>  } catch ( file not found exception e ) {  <NL> throw new conversion exception ( " cannot find file ' " + ( ( file ) file ) . get name ( ) + " ' " , e ) ;  <NL>  }  <NL>  }  COM: <s> returns file as input stream </s>

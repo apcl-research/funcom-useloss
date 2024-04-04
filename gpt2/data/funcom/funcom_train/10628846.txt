@@ -1,0 +1,1 @@
+TDAT: public void test one one ( ) {  <NL> big integer a number = big integer . one ;  <NL> big integer b number = big integer . one ;  <NL> big integer result = a number . and ( b number ) ;  <NL> assert true ( result . equals ( big integer . one ) ) ;  <NL> assert equals ( " incorrect sign " , 1 , result . signum ( ) ) ;  <NL>  }  COM: <s> and for one and one </s>

@@ -1,0 +1,1 @@
+TDAT: private void add bit of border ( int x , int y , int style , int type ) {  <NL> point point = current state . transform point ( x , y ) ;  <NL> if ( is lay inside ( point . x , point . y ) ) {  <NL> bm . add border element ( point . x , point . y , style , type ) ;  <NL>  }  <NL>  }  COM: <s> adds one element of border </s>

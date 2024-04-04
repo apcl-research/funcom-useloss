@@ -1,0 +1,1 @@
+TDAT: public void add menu ( string menuid , j menu menu ) {  <NL> log . debug ( " adding menu [ " + menuid + " ] " ) ;  <NL> menus . put ( menuid , menu ) ;  <NL>  <NL> if ( get component count ( ) > 2 & & menuid ! = menu _ help )  <NL> this . add ( menu , this . get component count ( ) - 2 ) ;  <NL> else <NL> add ( menu ) ;  <NL>  }  COM: <s> add a new menu to the menubar </s>

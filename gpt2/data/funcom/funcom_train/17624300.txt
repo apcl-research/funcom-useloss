@@ -1,0 +1,1 @@
+TDAT: public point get position ( brick brick ) {  <NL> for ( int i = 0 ; i < layout . max ; i + + ) {  <NL> for ( int j = 0 ; j < layout . max ; j + + ) {  <NL> if ( bricks [ i ] [ j ] = = brick ) {  <NL> return new point ( i , j ) ;  <NL>  }  <NL>  }  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> returns position of the selected brick at the window </s>

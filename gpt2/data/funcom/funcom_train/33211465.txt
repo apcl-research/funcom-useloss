@@ -1,0 +1,1 @@
+TDAT: public void test quantity big integer unit ( ) {  <NL> quantity q = new quantity ( new big integer ( " 12345678901234567890 " ) , " kg " ) ;  <NL> assert equals ( q . get quantity ( ) , new big decimal ( " 12345678901234567890 " ) ) ;  <NL> assert equals ( q . get unit of measure ( ) , " kg " ) ;  <NL>  }  COM: <s> test method for basics </s>

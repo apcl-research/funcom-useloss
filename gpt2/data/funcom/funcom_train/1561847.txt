@@ -1,0 +1,1 @@
+TDAT: final public geo list t test ( string label , geo numeric mean , geo numeric sd , geo numeric n , geo numeric hyp mean , geo text tail ) {  <NL> algo t test algo = new algo t test ( cons , label , mean , sd , n , hyp mean , tail ) ;  <NL> geo list result = algo . get result ( ) ;  <NL> return result ;  <NL>  }  COM: <s> ttest with sample statistics </s>

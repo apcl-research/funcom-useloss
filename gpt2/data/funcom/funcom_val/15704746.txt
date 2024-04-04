@@ -1,0 +1,1 @@
+TDAT: public int exp mult ( int a , int exp x ) {  <NL> if ( a ! = 0 ) {  <NL> int term t = new int term ( 1 ) ;  <NL> t . set coefficient ( 0 , a ) ;  <NL> t . set variable ( 0 , ( int var ) x ) ;  <NL> return t ;  <NL>  } else {  <NL> return null ;  <NL>  }  <NL>  }  COM: <s> creates a simple linear term from one coefficient and one variable </s>

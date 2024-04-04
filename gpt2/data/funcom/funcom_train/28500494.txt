@@ -1,0 +1,1 @@
+TDAT: public void set http operation ( boolean p set , final int p value ) {  <NL> switch ( p value ) {  <NL> case post _ as _ get : m post _ as _ get = p set ; break ;  <NL> case put _ as _ get : m put _ as _ get = p set ; break ;  <NL> case delete _ as _ get : m delete _ as _ get = p set ; break ;  <NL>  }  <NL> return ;  <NL>  }  COM: <s> set http operation </s>

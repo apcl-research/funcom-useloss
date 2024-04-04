@@ -1,0 +1,1 @@
+TDAT: public string package name ( ) {  <NL> string qfn = " " ;  <NL> package p = package ( ) ;  <NL> while ( p ! = null ) {  <NL> if ( qfn . length ( ) > 0 ) {  <NL> qfn = " . " + qfn ;  <NL>  }  <NL> qfn = p . name ( ) + qfn ;  <NL> p = p . super package ( ) ;  <NL>  }  <NL> return qfn ;  <NL>  }  COM: <s> returns the package name of the class de </s>

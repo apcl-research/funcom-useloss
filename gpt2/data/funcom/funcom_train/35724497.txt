@@ -1,0 +1,1 @@
+TDAT: private string execute action ( final int code ) throws io exception {  <NL> if ( code < 0 || code > 14 ) {  <NL> throw new illegal argument exception ( " unknown action < " + code + " > ; must be in the range 1 - 14 " ) ;  <NL>  }  <NL>  <NL> return execute api command ( " action = " + string . value of ( code ) ) ;  <NL>  }  COM: <s> executes an action </s>

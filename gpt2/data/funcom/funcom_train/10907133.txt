@@ -1,0 +1,1 @@
+TDAT: public void write tj mapped char ( char codepoint ) {  <NL> if ( buf tj = = null ) {  <NL> buf tj = new string buffer ( ) ;  <NL>  }  <NL> if ( buf tj . length ( ) = = 0 ) {  <NL> buf tj . append ( " [ " ) . append ( start text ) ;  <NL>  }  <NL> write char ( codepoint , buf tj ) ;  <NL>  }  COM: <s> writes a char to the tj buffer </s>

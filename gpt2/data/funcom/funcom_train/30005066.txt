@@ -1,0 +1,1 @@
+TDAT: private j label get comment label ( ) {  <NL> if ( this . comment label = = null ) {  <NL> this . comment label = new j label ( language controller . get instance ( ) . get string ( this . plugin ,  <NL>  " test _ execution _ child _ sequence _ end _ panel _ comment _ label " ) ) ;  <NL>  }  <NL> return this . comment label ;  <NL>  }  COM: <s> gets the comment label </s>

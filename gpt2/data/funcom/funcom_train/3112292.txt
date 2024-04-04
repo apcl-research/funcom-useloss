@@ -1,0 +1,1 @@
+TDAT: public static final string default _ text = " public void main ( string [ ] args ) \n " +  <NL>  " { \n " + " \tfor ( int i = 0 ; i < args . length ; i + + ) \n " + " \t { \n " +  <NL>  " \t\t system . out . println ( args [ i ] ) \n " + " \t } \n " + " } " ;  COM: <s> this is the text that is set default in the default text </s>

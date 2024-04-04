@@ -1,0 +1,1 @@
+TDAT: private boolean is room above ( position position ) {  <NL> int row = position . get row ( ) ;  <NL> int col = position . get col ( ) ;  <NL> for ( int r = row - 1 ; r > = 0 ; r - - ) {  <NL> if ( is cell empty ( r , col ) ) {  <NL> return true ;  <NL>  }  <NL>  }  <NL> return false ;  <NL>  }  COM: <s> returns true if theres an empty cell in the same column in a </s>

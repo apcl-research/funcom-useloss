@@ -1,0 +1,1 @@
+TDAT: public void paint ( graphics g ) {  <NL> prepare component ( ) ;  <NL>  <NL> if ( image = = null ) {  <NL> return ;  <NL>  }  <NL>  <NL>  / / draw picture ;  <NL> int [ ] pos = { x + padding , y + padding - y offset } ;  <NL> g . draw image ( image , pos [ 0 ] , pos [ 1 ] , graphics . left | graphics . top ) ;  <NL>  }  COM: <s> paints the image box </s>

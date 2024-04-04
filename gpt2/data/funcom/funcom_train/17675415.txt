@@ -1,0 +1,1 @@
+TDAT: public jdo extension find fetch group ext ( jdo extension [ ] a ) {  <NL> if ( a = = null ) return null ;  <NL> int n = a . length ;  <NL> for ( int i = 0 ; i < n ; i + + ) {  <NL> if ( a [ i ] . key = = jdo extension keys . fetch _ group ) return a [ i ] ;  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> return the first fetch group extension in a or null if none </s>

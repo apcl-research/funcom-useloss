@@ -1,0 +1,1 @@
+TDAT: protected void set parameter map ( final parameter map shared map ) {  <NL>  <NL> m map . clear ( ) ;  <NL> final set < string > key set = shared map . keys ( ) ;  <NL> for ( final string key : key set ) {  <NL> final string value = shared map . get param ( key ) ;  <NL> m map . set param ( key , value ) ;  <NL>  }  <NL>  }  COM: <s> loads the parameter map </s>

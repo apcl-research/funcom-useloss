@@ -1,0 +1,1 @@
+TDAT: private void exit pressed ( ) {  <NL> int result = j option pane . show confirm dialog ( this , " are you sure you want to quit ? " , " confirm exit " , j option pane . yes _ no _ option ) ;  <NL> if ( result = = j option pane . yes _ option ) {  <NL> close ( 0 ) ;  <NL>  }  <NL>  }  COM: <s> this method is called whenever the exit button is pressed </s>

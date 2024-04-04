@@ -1,0 +1,1 @@
+TDAT: public string format rectangle to array ( rectangle2d rect ) {  <NL> return " [ " + format double ( rect . get x ( ) ) + " "  <NL>  + format double ( rect . get y ( ) ) + " "  <NL>  + format double ( rect . get width ( ) ) + " "  <NL>  + format double ( rect . get height ( ) ) + " ] " ;  <NL>  }  COM: <s> formats a rectangle2 d to an array </s>

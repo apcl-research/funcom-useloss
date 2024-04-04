@@ -1,0 +1,1 @@
+TDAT: public customer find customer ( int a number , int a pin )  <NL>  {  <NL> for ( int i = 0 ; i < customers . size ( ) ; i + + )  <NL>  {  <NL> customer c = ( customer ) customers . get ( i ) ;  <NL> if ( c . match ( a number , a pin ) )  <NL> return c ;  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> finds a customer in the bank </s>

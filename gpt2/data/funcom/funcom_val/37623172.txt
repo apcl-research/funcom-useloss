@@ -1,0 +1,1 @@
+TDAT: protected void put parameter ( string name , string value ) {  <NL> array list v = ( array list ) parameters . get ( name ) ;  <NL>  / / there is no parameter yet ; create one <NL> if ( v = = null ) {  <NL> v = new array list ( 2 ) ;  <NL> parameters . put ( name , v ) ;  <NL>  }  <NL> v . add ( value ) ;  <NL>  }  COM: <s> stores a parameter identified in this request </s>

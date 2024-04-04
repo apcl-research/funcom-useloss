@@ -1,0 +1,1 @@
+TDAT: public void set all visible ( boolean b ) {  <NL> this . m _ title . set visible ( b ) ;  <NL> this . m _ body . set visible ( b ) ;  <NL> this . m _ number . set visible ( b ) ;  <NL> this . m _ medias . set visible ( b ) ;  <NL> this . m _ back ground . set visible ( b ) ;  <NL>  }  COM: <s> to set visible or not all component </s>

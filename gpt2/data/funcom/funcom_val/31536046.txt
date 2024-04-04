@@ -1,0 +1,1 @@
+TDAT: public string get identity ( )  <NL>  { string id = object to string ( ) ;  <NL> int pos = id . last index of ( ' @ ' ) + 1 ;  <NL>  <NL> if ( pos < 0 || pos > = id . length ( ) )  <NL> pos = id . length ( ) - 6 ;  <NL> if ( pos < 0 )  <NL> pos = 0 ;  <NL>  <NL> return " _ " + id . substring ( pos ) ;  <NL>  } ;  COM: <s> get an unique indentifying name </s>

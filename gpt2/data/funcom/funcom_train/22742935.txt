@@ -1,0 +1,1 @@
+TDAT: protected void process jump to file ( int modifiers ) {  <NL> tag search ts = new tag search ( this ) ;  <NL> ts . set icon image ( config . get icon parent ( ) . get image ( ) ) ;  <NL> ts . set size ( 400 , 300 ) ;  <NL> ts . set location ( loader . get location ( ) ) ;  <NL> ts . display ( ) ;  <NL>  }  COM: <s> process jump file event </s>

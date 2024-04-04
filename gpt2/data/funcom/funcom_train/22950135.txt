@@ -1,0 +1,1 @@
+TDAT: public double optimize ( univariate function f , double tol ) {  <NL> num fun = 2 ;  <NL> double min = f . get lower bound ( ) ;  <NL> double max = f . get upper bound ( ) ;  <NL> return minin ( min , max , f . evaluate ( min ) , f . evaluate ( max ) , f , tol ) ;  <NL>  }  COM: <s> the actual optimization routine brents golden section method </s>

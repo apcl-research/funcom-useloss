@@ -1,0 +1,1 @@
+TDAT: public string get mvs url ( ) {  <NL> url url ;  <NL> try {  <NL> url = search config . get configured instance ( ) . get mapviewer url2 ( ) ;  <NL> if ( url ! = null )  <NL> return url . to string ( ) ;  <NL>  } catch ( search exception e ) {  <NL> log . log ( level . fine , " " , e ) ;  <NL>  }  <NL> return " " ;  <NL>  <NL>  <NL>  }  COM: <s> gets the mvs url </s>

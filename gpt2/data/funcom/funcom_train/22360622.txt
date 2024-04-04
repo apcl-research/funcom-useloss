@@ -1,0 +1,1 @@
+TDAT: public int compare ( faction o1 , faction o2 ) {  <NL> faction f1 = o1 ;  <NL> faction f2 = o2 ;  <NL> int t1 = f1 . get trust level ( ) ;  <NL> int t2 = f2 . get trust level ( ) ;  <NL> return ( t2 = = t1 & & same trust sub cmp ! = null ) ? same trust sub cmp . compare ( o1 , o2 ) : ( t2 - t1 ) ;  <NL>  }  COM: <s> compares the exact trust levels of the two factions </s>

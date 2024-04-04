@@ -1,0 +1,1 @@
+TDAT: public day add workdays ( int count , holiday config config ) {  <NL>  <NL> int step = ( count < 0 ) ? - 1 : 1 ;  <NL> count = math . abs ( count ) ;  <NL> while ( count > 0 ) {  <NL> add ( date , step ) ;  <NL> if ( config . is workday ( this ) ) {  <NL> count - - ;  <NL>  }  <NL>  }  <NL> return this ;  <NL>  }  COM: <s> adds an amount of workdays to this object </s>

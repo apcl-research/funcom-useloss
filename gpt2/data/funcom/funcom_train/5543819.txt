@@ -1,0 +1,1 @@
+TDAT: synchronized public boolean matches ( i term that ) {  <NL> term stack trail = new term stack ( ) ;  <NL> io . traceln ( " curr : > > " + trail . pprint ( ) ) ;  <NL> boolean ok = unify ( that , trail ) ;  <NL> trail . unwind ( 0 ) ;  <NL> io . traceln ( " curr t < < : " + trail . pprint ( ) ) ;  <NL> return ok ;  <NL>  }  COM: <s> tests if this term unifies with that </s>

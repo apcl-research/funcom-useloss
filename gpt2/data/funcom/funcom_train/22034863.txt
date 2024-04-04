@@ -1,0 +1,1 @@
+TDAT: public void export data set ( form form ) {  <NL> string item = ( string ) formula box . get selected item ( ) ;  <NL> string var name = item . substring ( 0 , item . index of ( " : " ) ) ;  <NL> display cells [ cur x ] [ cur y ] . save data dialog ( var name , form ) ;  <NL>  }  COM: <s> exports a data set using the given form </s>

@@ -1,0 +1,1 @@
+TDAT: public void next iterate ( ) {  <NL> dd1 [ 0 ] = pow2 _ 53 * d1 ;  <NL> dd1 [ 1 ] = 0 . 0 ;  <NL> dddivd ( dd1 , pow3 _ 33 , dd2 ) ;  <NL> ddmuldd ( pow3 _ 33 , math . floor ( dd2 [ 0 ] ) , dd2 ) ;  <NL> ddsub ( dd1 , dd2 , dd3 ) ;  <NL> d1 = dd3 [ 0 ] ;  <NL> if ( d1 < 0 . 0 ) {  <NL> d1 + = pow3 _ 33 ;  <NL>  }  <NL>  }  COM: <s> compute the next iterate </s>

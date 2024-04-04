@@ -1,0 +1,1 @@
+TDAT: public double get total amount ( ) {  <NL> double total = 0 ;  <NL> for ( sales line line : sale . get instance ( ) . get list ( ) ) {  <NL> total + = ( line . get qty ( ) * main ctr . get item ctr ( ) . get item ( line . get id ( ) ) . get price ( ) ) ;  <NL>  }  <NL> return total ;  <NL>  }  COM: <s> this method returns the total amount of the sale </s>

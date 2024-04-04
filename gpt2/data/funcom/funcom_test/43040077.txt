@@ -1,0 +1,1 @@
+TDAT: public void refresh ( boolean force load ) {  <NL>  / / todo async call <NL> list = data manager . get list ( type , sub type , settings , force load ) ;  <NL> if ( comparator ! = null )  <NL> collections . sort ( list , comparator ) ;  <NL> fire contents changed ( this , - 1 , - 1 ) ;  <NL>  }  COM: <s> refreshes the list </s>

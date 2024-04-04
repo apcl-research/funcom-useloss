@@ -1,0 +1,1 @@
+TDAT: private void stop shine ( ) {  <NL> for ( int i = 0 ; i < article matrix . height ; i + + ) {  <NL> for ( int j = 0 ; j < article matrix . width ; j + + ) {  <NL> if ( article labels [ i ] [ j ] . get icon ( ) ! = null ) {  <NL> article labels [ i ] [ j ] . stop shine ( ) ;  <NL>  }  <NL>  }  <NL>  }  <NL>  }  COM: <s> stop article labels shining </s>

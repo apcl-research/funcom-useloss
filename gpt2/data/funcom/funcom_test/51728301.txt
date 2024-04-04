@@ -1,0 +1,1 @@
+TDAT: public identifier typer clone typer ( ) {  <NL> identifier typer ret = new identifier typer ( ) ;  <NL> for ( int j = 0 ; j < entries . size ( ) ; j + + ) {  <NL> entry e = ( entry ) entries . get ( j ) ;  <NL> ret . add entry ( e . start , e . end , e . var , e . type , e . descr ) ;  <NL>  }  <NL> return ret ;  <NL>  }  COM: <s> clones this instance </s>

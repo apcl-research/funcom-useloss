@@ -1,0 +1,1 @@
+TDAT: public int get next value ( int x ) {  <NL> i state binary tree . node n = btree . next node ( x ) ;  <NL> if ( n = = null ) {  <NL> return integer . max _ value ;  <NL>  } else if ( n . contains ( x + 1 ) ) {  <NL> return x + 1 ;  <NL>  } else {  <NL> return n . get inf ( ) ;  <NL>  }  <NL>  }  COM: <s> gets the next value of x in this domain </s>

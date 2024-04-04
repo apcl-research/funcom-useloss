@@ -1,0 +1,1 @@
+TDAT: public void on warning ( string msg , string source file , int line , int position ) {  <NL> if ( ! this . ignore warnings ) {  <NL> if ( warnings = = null ) {  <NL> warnings = new array list < compiler message > ( ) ;  <NL>  }  <NL> warnings . add ( new compiler message ( source file , line , position , msg ) ) ;  <NL>  }  <NL>  }  COM: <s> notification of a warning </s>

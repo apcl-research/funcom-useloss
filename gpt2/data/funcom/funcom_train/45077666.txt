@@ -1,0 +1,1 @@
+TDAT: public void write file ( string file ) {  <NL> try {  <NL> java . io . file output stream file out = new java . io . file output stream ( file ) ;  <NL> store ( file out , null ) ;  <NL> file out . close ( ) ;  <NL>  } catch ( io exception e ) {  <NL> cat . error ( " write file ; " + e ) ;  <NL>  }  <NL>  }  COM: <s> write the file </s>

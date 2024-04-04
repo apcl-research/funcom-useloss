@@ -1,0 +1,1 @@
+TDAT: public file get save file name ( ) {  <NL> logger . debug ( " get save file name ( ) called . " ) ;  <NL> string filename = file . separator + " xml " ;  <NL> j file chooser fc = new j file chooser ( new file ( filename ) ) ;  <NL> fc . show save dialog ( this ) ;  <NL> return fc . get selected file ( ) ;  <NL>  }  COM: <s> show save as dialog </s>

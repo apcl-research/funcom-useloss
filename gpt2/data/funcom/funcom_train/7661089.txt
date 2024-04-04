@@ -1,0 +1,1 @@
+TDAT: public void test to string ( ) {  <NL> mutex sync = new mutex ( ) ;  <NL> string us = sync . to string ( ) ;  <NL> assert true ( us . index of ( " state = 0 " ) > = 0 ) ;  <NL> sync . acquire ( 1 ) ;  <NL> string ls = sync . to string ( ) ;  <NL> assert true ( ls . index of ( " state = 1 " ) > = 0 ) ;  <NL>  }  COM: <s> to string indicates current state </s>

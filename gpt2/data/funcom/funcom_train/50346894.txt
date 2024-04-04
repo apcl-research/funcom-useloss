@@ -1,0 +1,1 @@
+TDAT: public string run auto train ( boolean run ) {  <NL> string msg = get block at ( 0 ) . allocate ( this ) ;  <NL> if ( msg ! = null ) {  <NL> return msg ;  <NL>  }  <NL> allocate route ( ) ;  <NL> return set run mode ( run ? mode _ run : mode _ manual , _ dcc address , null , _ throttle commands , _ run blind ) ;  <NL>  }  COM: <s> starts or ends an automated train run </s>

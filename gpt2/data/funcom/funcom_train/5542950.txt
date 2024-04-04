@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> string s = " { type error : " + goal . to string ( ) ;  <NL> if ( arg no > 0 ) s + = " - arg " + arg no ;  <NL> s + = " : expected " + type ;  <NL> s + = " , found " + culprit . to string ( ) ;  <NL> s + = " } " ;  <NL> return s ;  <NL>  }  COM: <s> returns a string representation of this code illegal type exception code </s>

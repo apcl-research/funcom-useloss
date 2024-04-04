@@ -1,0 +1,1 @@
+TDAT: public void manage ( object item , int index , int padding , boolean expand , boolean fill ) {  <NL> linear cell box = new linear cell ( ) ;  <NL> box . padding = padding ;  <NL> box . expand = expand ;  <NL> box . fill = fill ;  <NL> this . add cell ( box , item , index ) ;  <NL>  }  COM: <s> insert the given item with the given box properties </s>

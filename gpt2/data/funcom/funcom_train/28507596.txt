@@ -1,0 +1,1 @@
+TDAT: private void retrieve camera right ( vector3f p _ dest ) {  <NL> m _ t cam mtx rx . rot x ( m _ camera rx ) ;  <NL> m _ t cam mtx ry . rot y ( m _ camera ry ) ;  <NL> m _ t cam mtx . mul ( m _ t cam mtx ry , m _ t cam mtx rx ) ;  <NL> m _ t cam mtx . transform ( m _ s cam right , p _ dest ) ;  <NL>  }  COM: <s> retrieve camera right vector </s>

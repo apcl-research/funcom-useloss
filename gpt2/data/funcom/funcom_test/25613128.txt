@@ -1,0 +1,1 @@
+TDAT: public object get ride result ( ride [ ] rides array , int ind ) {  <NL> if ( rides array [ ind ] . is nv ( ) || big decimal . zero . equals ( rides array [ ind ] . get result ( ) ) ) {  <NL> return new nv result ( rides array [ ind ] . get result ( ) ) ;  <NL>  } else {  <NL> return rides array [ ind ] . get result ( ) ;  <NL>  }  <NL>  }  COM: <s> creates and returns </s>

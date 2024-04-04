@@ -1,0 +1,1 @@
+TDAT: private collection get all skills ( user user ) {  <NL> set all skills = new hash set ( ) ;  <NL> for ( iterator iter = user . get skills ( ) . iterator ( ) ; iter . has next ( ) ; ) {  <NL> skill item = ( skill ) iter . next ( ) ;  <NL> all skills . add ( item . get skill id ( ) ) ;  <NL>  }  <NL> return all skills ;  <NL>  }  COM: <s> get all skills </s>

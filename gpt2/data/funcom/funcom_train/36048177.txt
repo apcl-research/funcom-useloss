@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> return " [ " + this . get class ( ) . get name ( ) + " : type = " + get type ( )  <NL>  + ( r ! = null ? ( " , rectangle = " + r ) : " " )  <NL>  + ( pixels ! = null & & pixels . length < 20 ? ( " , pixels = " + get stamp as string ( ) ) : " " )  <NL>  + " ] " ;  <NL>  }  COM: <s> get details of this pattern as a string </s>

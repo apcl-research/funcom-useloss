@@ -1,0 +1,1 @@
+TDAT: public void set alpha ( int alpha ) {  <NL> alpha + = alpha > > 7 ; / / make it 0 . . 256 <NL> int base alpha = m state . m base color > > > 24 ;  <NL> int use alpha = base alpha * alpha > > 8 ;  <NL> m state . m use color = ( m state . m base color < < 8 > > > 8 ) | ( use alpha < < 24 ) ;  <NL>  }  COM: <s> sets the colors alpha value </s>

@@ -1,0 +1,1 @@
+TDAT: public void add line ( string m text , gl color m color ) {  <NL>  / / if we are on the limit we erase the first <NL>  / / before we insert the new <NL> if ( lines . size ( ) = = max lines )  <NL> lines . remove element at ( 0 ) ;  <NL> lines . add ( new line ( m text , m color ) ) ;  <NL>  }  COM: <s> adds a new text line to the console </s>

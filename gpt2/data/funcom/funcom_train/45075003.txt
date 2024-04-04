@@ -1,0 +1,1 @@
+TDAT: public void get leaves ( vector v ) {  <NL> if ( get number ( ) = = 0 & & ! type . equals ( b ) ) {  <NL> v . add element ( this ) ;  <NL>  } else {  <NL> iterator en = elements ( ) ;  <NL>  <NL> while ( en . has next ( ) ) {  <NL>  ( ( trait _ ) en . next ( ) ) . get leaves ( v ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> put all trait leaves into a vector </s>

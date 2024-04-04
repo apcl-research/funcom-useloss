@@ -1,0 +1,1 @@
+TDAT: public void do align sx ( hmi element e ) {  <NL>  / / int x = e . xml size v - x grid offset ;  <NL>  / / set parm ( e , 2 , string . value of ( align to ( x , x grid unit ) + x grid offset ) ) ;  <NL> int x = e . sx ;  <NL> set parm ( e , 2 , string . value of ( align to ( x , x grid unit ) ) ) ;  <NL>  }  COM: <s> align a widgets horizontal size </s>

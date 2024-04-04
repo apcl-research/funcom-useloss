@@ -1,0 +1,1 @@
+TDAT: protected void set attribute theme and niveau ( int idtheme , int id niveau ) throws sql exception {  <NL> request . set attribute ( " theme " , theme dao . get by id ( idtheme ) . get libelle ( ) ) ;  <NL> request . set attribute ( " niveau " , niveau dao . get by id ( id niveau ) . get libelle ( ) ) ;  <NL>  }  COM: <s> initialise les attributs theme et niveau </s>

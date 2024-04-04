@@ -1,0 +1,1 @@
+TDAT: public void shutdown ( ) {  <NL> is running . set ( false ) ;  <NL> try {  <NL> if ( socket io ! = null ) socket io . close ( ) ;  <NL> if ( socket ! = null ) socket . close ( ) ;  <NL>  }  <NL> catch ( io exception ioe ) {  <NL> this . ioe = ioe ;  <NL>  }  <NL>  <NL> this . socket = null ;  <NL> this . socket io = null ;  <NL>  }  COM: <s> shutdown this server </s>

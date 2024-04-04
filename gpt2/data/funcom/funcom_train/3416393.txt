@@ -1,0 +1,1 @@
+TDAT: public void exiting ( string source class , string source method , object result ) {  <NL> if ( level . finer . int value ( ) < level value ) {  <NL> return ;  <NL>  }  <NL> object params [ ] = { result } ;  <NL> logp ( level . finer , source class , source method , " return { 0 } " , result ) ;  <NL>  }  COM: <s> log a method return with result object </s>

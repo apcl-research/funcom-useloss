@@ -1,0 +1,1 @@
+TDAT: public void put text ( chat user u , string t ) {  <NL> if ( text canvas ! = null ) {  <NL> text canvas . add message ( u , t ) ;  <NL>  }  <NL> text area . set text ( text area . get text ( ) + " \n ( " + u . get name ( ) + " ) " + t ) ;  <NL>  }  COM: <s> write the given text to the chat text area </s>

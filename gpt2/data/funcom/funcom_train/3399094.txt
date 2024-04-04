@@ -1,0 +1,1 @@
+TDAT: public long get serial version uid ( ) {  <NL> element serial = dom util . get element ( dom , xjc _ ns , " serializable " ) ;  <NL> if ( serial = = null ) return null ;  <NL>  <NL> string v = dom util . get attribute ( serial , " uid " ) ;  <NL> if ( v = = null ) v = " 1 " ;  <NL> return new long ( v ) ;  <NL>  }  COM: <s> gets the serial version uid if its turned on </s>

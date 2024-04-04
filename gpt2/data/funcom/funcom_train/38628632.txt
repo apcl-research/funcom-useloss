@@ -1,0 +1,1 @@
+TDAT: public void set bounds ( final int max , final int deadband max , final int center , final int deadband min , final int min ) {  <NL> m _ max pwm = max ;  <NL> m _ deadband max pwm = deadband max ;  <NL> m _ center pwm = center ;  <NL> m _ deadband min pwm = deadband min ;  <NL> m _ min pwm = min ;  <NL>  }  COM: <s> set the bounds on the pwm values </s>

@@ -1,0 +1,1 @@
+TDAT: public void test _ assert _ 28 ( ) {  <NL> compile and exec given statement (  <NL>  " x . java " ,  <NL>  " public class x { " +  <NL>  " void m ( ) { \n " +  <NL>  " int a [ ] = { 0 , 1 , 2 , - 3 , 4 } ; \n " +  <NL>  " / / @ assert a . length = = 5 ; \n " +  <NL>  " } \n " +  <NL>  " } \n " ,  <NL>  " new x ( ) . m ( ) " ) ;  <NL>  }  COM: <s> is assert supported </s>

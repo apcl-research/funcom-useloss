@@ -1,0 +1,1 @@
+TDAT: public void paint tabbed pane tab border ( synth context context , graphics g , int x , int y , int w , int h , int tab index ) {  <NL> paint border ( context , g , x , y , w , h , null ) ;  <NL>  }  COM: <s> paints the border of a tab of a tabbed pane </s>

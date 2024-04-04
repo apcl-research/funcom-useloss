@@ -1,0 +1,1 @@
+TDAT: public void append rows ( string sheet name , collection < row > rows ) {  <NL> node table = get table element ( sheet name ) ;  <NL> for ( iterator < row > iter = rows . iterator ( ) ; iter . has next ( ) ; ) {  <NL> table . append child ( iter . next ( ) . create element ( doc ) ) ;  <NL>  }  <NL>  }  COM: <s> appends all the </s>

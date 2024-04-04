@@ -1,0 +1,1 @@
+TDAT: public void set date ( int i hours , int i days , int i months , int i year ) {  <NL> l date = ( long ) ( i hours + ( ( i days - 1 ) * i hours to day ) +  <NL>  ( ( i months - 1 ) * get hours in month ( ) ) +  <NL>  ( ( i year - i year of start ) * get hours in year ( ) ) ) ;  <NL>  }  COM: <s> setting the date routines </s>

@@ -1,0 +1,1 @@
+TDAT: public int get address ( string s ) {  <NL> for ( int i = 0 ; i < table . size ( ) ; i + + ) {  <NL> if ( ( ( symbol ) ( table . get ( i ) ) ) . get name ( ) . equals ( s ) ) {  <NL> return ( ( symbol ) table . get ( i ) ) . get address ( ) ;  <NL>  }  <NL>  }  <NL> return not _ found ;  <NL>  }  COM: <s> method to return the address associated with the given label </s>

@@ -1,0 +1,1 @@
+TDAT: protected void check info entry ( map info , string key , string expected ) {  <NL> assert true ( " missing event info key : " + key , info . contains key ( key ) ) ;  <NL> assert equals ( " wrong event info value for : " + key ,  <NL> expected , ( string ) info . get ( key ) ) ;  <NL>  }  COM: <s> checks if the info map contains the given code key code with the </s>

@@ -1,0 +1,1 @@
+TDAT: public void create warning box ( elemental list list , boolean blocking ) {  <NL> int width = 400 ;  <NL> int height = 200 ;  <NL> create warning box ( list , new vector2d ( ( view . get width ( ) - width ) / 2 , ( view . get height ( ) - height ) / 2 ) , new vector2d ( 400 , 200 ) , blocking ) ;  <NL>  }  COM: <s> shows a warning to the player </s>

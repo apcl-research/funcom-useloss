@@ -1,0 +1,1 @@
+TDAT: private file set file set ( ) {  <NL> file build base = new file ( base file , source _ dir ) ;  <NL> local file set f set = new local file set ( build base ) ;  <NL> f set . use default archive patterns ( ) ;  <NL> f set . include ( new file glob ( " * * / * " ) ) ; / / nopmd <NL> return f set ;  <NL>  }  COM: <s> file set on the code source 1 code directory </s>

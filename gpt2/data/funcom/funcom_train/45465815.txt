@@ -1,0 +1,1 @@
+TDAT: public xml type get base type ( ) {  <NL> if ( ( _ base type ! = null ) & & ( super . get base type ( ) = = null ) ) {  <NL> xml type base type = get schema ( ) . get type ( _ base type ) ;  <NL> set base type ( base type ) ;  <NL>  }  <NL> return super . get base type ( ) ;  <NL>  } / / - - get base type  COM: <s> returns the base type that this type inherits from </s>

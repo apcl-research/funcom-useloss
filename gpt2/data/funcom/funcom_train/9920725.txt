@@ -1,0 +1,1 @@
+TDAT: public boolean equals ( term t ) {  <NL> if ( t . indices . length ! = this . indices . length ) return false ;  <NL> for ( int i = 0 ; i < indices . length ; i + + )  <NL> if ( t . indices [ i ] ! = indices [ i ] ||t . functions [ i ] ! = functions [ i ] ) return false ;  <NL> return true ;  <NL>  }  COM: <s> returns whether this term is identical to another term </s>

@@ -1,0 +1,1 @@
+TDAT: public void close project ( i path project path ) {  <NL> check assertion ( " a workspace must be open " , this . is open ) ; / / $ non - nls - 1 $  <NL> try {  <NL> get java project ( project path ) . get project ( ) . close ( null ) ;  <NL>  } catch ( core exception e ) {  <NL> e . print stack trace ( ) ;  <NL>  }  <NL>  }  COM: <s> close a project from the workspace </s>

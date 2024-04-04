@@ -1,0 +1,1 @@
+TDAT: public void add test ( string tag id , abstract tag test test ) {  <NL> list < abstract tag test > tag tests = test map . get ( tag id ) ;  <NL> if ( tag tests = = null ) {  <NL> tag tests = new array list < abstract tag test > ( ) ;  <NL> test map . put ( tag id , tag tests ) ;  <NL>  }  <NL> tag tests . add ( test ) ;  <NL>  }  COM: <s> adds a test to the given </s>

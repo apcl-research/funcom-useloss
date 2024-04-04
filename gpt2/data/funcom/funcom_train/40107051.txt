@@ -1,0 +1,1 @@
+TDAT: private void _ write prefixes ( ) throws io exception {  <NL> if ( _ slo prefixes . is empty ( ) & & _ sid prefixes . is empty ( ) ) {  <NL> return ;  <NL>  }  <NL>  _ write section ( " prefixes " ) ;  <NL>  _ write prefixes ( _ sid prefixes , ' @ ' ) ;  <NL>  _ write prefixes ( _ slo prefixes , ' % ' ) ;  <NL>  }  COM: <s> writes the registered prefixes </s>

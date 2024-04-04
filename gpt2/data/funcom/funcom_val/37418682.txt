@@ -1,0 +1,1 @@
+TDAT: public byte send _ hci _ hc _ write _ scan _ enable ( byte scan type ) throws hci exception {  <NL> byte [ ] data = { cmd _ pkt , 0x1a , 0x0c , 0x01 , scan type } ;  <NL> byte [ ] result data = send _ hci _ command _ packet ( data ) ;  <NL> return result data [ 6 ] ;  <NL>  }  COM: <s> this command will write the value for the scan enable parameter </s>

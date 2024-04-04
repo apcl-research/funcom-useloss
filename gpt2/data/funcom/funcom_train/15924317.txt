@@ -1,0 +1,1 @@
+TDAT: public void add executable path ( array list < string > cxx cmd ) {  <NL> file exe = target file path ( ) ;  <NL> if ( exe ! = null ) {  <NL> cxx cmd . add ( " - o " ) ;  <NL> cxx cmd . add ( exe . get absolute path ( ) . replace ( file . separator char , ' / ' ) ) ;  <NL>  }  <NL>  }  COM: <s> adds the target executable o file to the cxx cmd </s>

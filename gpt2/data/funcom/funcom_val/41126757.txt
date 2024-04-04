@@ -1,0 +1,1 @@
+TDAT: private void set ( big integer y ) {  <NL> if ( y . words = = null ) {  <NL> set ( y . ival ) ;  <NL>  } else if ( this ! = y ) {  <NL> realloc ( y . ival ) ;  <NL> system . arraycopy ( y . words , 0 , words , 0 , y . ival ) ;  <NL> ival = y . ival ;  <NL>  }  <NL>  }  COM: <s> destructively set the value of this to that of y </s>

@@ -1,0 +1,1 @@
+TDAT: protected string uc first ( string s ) {  <NL> if ( s = = null || s . length ( ) = = 0 ) return s ;  <NL> if ( s . length ( ) = = 1 ) {  <NL> return s . to upper case ( ) ;  <NL>  }  <NL> return s . substring ( 0 , 1 ) . to upper case ( ) + s . substring ( 1 ) ;  <NL>  }  COM: <s> changes the first character of a string to uppercase </s>

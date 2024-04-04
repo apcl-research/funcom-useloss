@@ -1,0 +1,1 @@
+TDAT: public int hash code ( ) {  <NL> int result = 19 ;  <NL> result = 37 * result <NL>  + ( int ) ( ( long ) this . segment size ^ ( ( long ) this . segment size > > > 32 ) ) ;  <NL> result = 37 * result + ( int ) ( ( long ) this . start time ^ ( ( long ) this . start time > > > 32 ) ) ;  <NL> return result ;  <NL>  }  COM: <s> returns a hash code for this object </s>

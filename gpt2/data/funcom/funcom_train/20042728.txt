@@ -1,0 +1,1 @@
+TDAT: public void _ add item ( ) {  <NL> required method ( " get item count ( ) " ) ;  <NL>  <NL> boolean result = true ;  <NL> o obj . add item ( " item1 " , item count ) ;  <NL> result = o obj . get item count ( ) = = item count + 1 ;  <NL>  <NL> t res . tested ( " add item ( ) " , result ) ;  <NL>  }  COM: <s> adds one item to the last position and check the number of </s>

@@ -1,0 +1,1 @@
+TDAT: public int get writing mode ( int lrtb , int rltb , int tbrl ) {  <NL> switch ( writing mode ) {  <NL> case constants . en _ lr _ tb : return lrtb ;  <NL> case constants . en _ rl _ tb : return rltb ;  <NL> case constants . en _ tb _ rl : return tbrl ;  <NL> default :  <NL>  / / nop <NL>  }  <NL> return - 1 ;  <NL>  }  COM: <s> uses the stored writing mode </s>

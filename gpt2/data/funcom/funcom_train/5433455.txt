@@ -1,0 +1,1 @@
+TDAT: public short get sight ( ) {  <NL> enumeration e = the units . elements ( ) ;  <NL> short ret = 0 ;  <NL> while ( e . has more elements ( ) ) {  <NL> unit u = ( unit ) e . next element ( ) ;  <NL> ret = ( short ) math . max ( ret , u . the design . the shell . sight ) ;  <NL>  }  <NL> return ret ;  <NL>  }  COM: <s> returns the longest sight of all the units </s>

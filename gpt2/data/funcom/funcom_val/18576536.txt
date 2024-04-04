@@ -1,0 +1,1 @@
+TDAT: public void draw line ( double x , double y , double x2 , double y2 ) {  <NL>  _ g . draw line ( ( int ) ( ( x - x view port ) * scale x ) , ( int ) ( ( y view port - y ) * scale y ) ,  <NL>  ( int ) ( ( x2 - x view port ) * scale x ) , ( int ) ( ( y view port - y2 ) * scale y ) ) ;  <NL>  }  COM: <s> draw a line </s>

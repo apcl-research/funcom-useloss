@@ -1,0 +1,1 @@
+TDAT: public void set gpt to csw xslt path ( string path ) {  <NL>  <NL> this . set gpt to csw xslt template ( null ) ;  <NL> if ( path = = null || " " . equals ( path . trim ( ) ) ) {  <NL> path = " gpt / search / gpt2csw _ ogccore . xslt " ;  <NL>  }  <NL> this . gpt to csw xslt path = val . chk str ( path ) ;  <NL>  <NL>  }  COM: <s> sets the gpt to csw xslt </s>

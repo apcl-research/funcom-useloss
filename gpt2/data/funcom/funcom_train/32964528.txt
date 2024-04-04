@@ -1,0 +1,1 @@
+TDAT: public account user add account user ( account account , tolven user user , date now , boolean account permission , public key user public key ) {  <NL> return add account user ( null , account , user , null , now , account permission , user public key ) ;  <NL>  }  COM: <s> associate a user with an account without sending using invitation </s>

@@ -1,0 +1,1 @@
+TDAT: public fraction reduce ( int divisor ) {  <NL> int num = this . num ;  <NL> int den = this . den ;  <NL> while ( num % divisor = = 0 & & den % divisor = = 0 & & den > 1 & & math . abs ( num ) > 0 ) {  <NL> num / = divisor ;  <NL> den / = divisor ;  <NL>  }  <NL> return new fraction ( num , den ) ;  <NL>  }  COM: <s> reduces the fraction by the given divisor </s>

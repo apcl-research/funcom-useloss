@@ -1,0 +1,1 @@
+TDAT: protected void load query ( confabulator profile . query q , active properties p ) {  <NL> p . put ( q . get entity name ( ) ,  <NL> q . get property ( ) ,  <NL> q . get info space url ( ) ,  <NL> q . get x path ( ) ,  <NL> active properties . subscribe ) ;  <NL>  } / / of method  COM: <s> load a single confabulator profile </s>

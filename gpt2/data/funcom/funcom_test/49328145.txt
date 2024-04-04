@@ -1,0 +1,1 @@
+TDAT: public capability exception ( ztex1 ztex , string cap ) {  <NL> super ( " bus = " + ztex . dev ( ) . dev ( ) . get bus ( ) . get dirname ( ) + " device = " + ztex . dev ( ) . dev ( ) . get filename ( ) + " : " + cap + " not supported " ) ;  <NL>  }  COM: <s> constructs an instance from a givig device and capability string </s>

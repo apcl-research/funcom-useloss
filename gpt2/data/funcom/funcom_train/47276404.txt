@@ -1,0 +1,1 @@
+TDAT: public radio add radio ( final string the name , final int the x , final int the y ) {  <NL> radio my controller = new radio ( control p5 , ( tab ) control p5 . control window . tabs ( ) . get ( 1 ) , the name , the x , the y ) ;  <NL> control p5 . register ( my controller ) ;  <NL> return my controller ;  <NL>  }  COM: <s> add a radio list to control p5 </s>

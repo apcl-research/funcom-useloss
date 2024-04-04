@@ -1,0 +1,1 @@
+TDAT: public void clear patch ( ) {  <NL> dimmers dimmers = context . get show ( ) . get dimmers ( ) ;  <NL> for ( int i = 0 ; i < dimmers . size ( ) ; i + + ) {  <NL> dimmers . get ( i ) . set channel ( null ) ;  <NL>  }  <NL>  / / context . get show ( ) . update channel inputs ( ) ; / / ? ? ? ?  <NL>  }  COM: <s> removes the patch information from all dimmers sets all </s>

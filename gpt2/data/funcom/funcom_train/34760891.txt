@@ -1,0 +1,1 @@
+TDAT: private void init arrows ( ) {  <NL> right arrow = arrows . get right arrow ( 60 , 8 ) ;  <NL> sw arrow = arrows . get sw arrow ( 33 , 26 ) ;  <NL> right arrow2 = arrows . get right arrow ( 60 , 29 ) ;  <NL> ne arrow = arrows . get ne arrow ( 102 , 12 ) ;  <NL>  }  COM: <s> setup the graphics for the tracer </s>

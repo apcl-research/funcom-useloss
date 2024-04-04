@@ -1,0 +1,1 @@
+TDAT: public void make service offline ( administrable administrable ) throws remote exception {  <NL> logger . log ( level . fine , " { 0 } goes offline . . . " , administrable ) ;  <NL> set services groups ( administrable , lookup discovery . no _ groups ) ;  <NL> logger . log ( level . fine , " [ ok ] " ) ;  <NL>  }  COM: <s> removes the service from all lookup groups </s>

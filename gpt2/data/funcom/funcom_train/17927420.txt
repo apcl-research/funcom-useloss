@@ -1,0 +1,1 @@
+TDAT: public void initialize ( ) {  <NL>  / / log . debug ( " timefactor " + m _ f time factor ) ;  <NL>  / / log . debug ( " wakeup after milliseconds : " + ( long ) ( 1000 . 0f /  <NL>  / / m _ f time factor ) ) ;  <NL> wakeup on ( new wakeup on elapsed time ( ( long ) ( 1000 . 0f / m _ f time factor ) ) ) ;  <NL>  }  COM: <s> the first method the system calls </s>

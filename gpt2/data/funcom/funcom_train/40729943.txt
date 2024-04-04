@@ -1,0 +1,1 @@
+TDAT: private void log orphans ( tree tree ) {  <NL> if ( logger . is loggable ( log _ orphans _ level ) ) {  <NL> for ( map . entry < integer , node > entry : tree . entry set ( ) ) {  <NL> log orphans ( entry . get value ( ) . get matches ( ) , entry . get key ( ) ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> logs a warning for orphans discovered in the hierarchy </s>

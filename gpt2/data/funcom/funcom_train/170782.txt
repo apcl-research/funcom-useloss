@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> table layout constraints c = new table layout constraints ( cr1 [ c ] ,  <NL> cr1 [ r ] , cr2 [ c ] , cr2 [ r ] , alignment [ c ] , alignment [ r ] ) ;  <NL>  <NL> return " ( " + c + " ) " + component ; / / $ non - nls - 1 $ / / $ non - nls - 2 $  <NL>  }  COM: <s> gets the string representation of this entry </s>

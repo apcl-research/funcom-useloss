@@ -1,0 +1,1 @@
+TDAT: public void shutdown ( gl10 gl ) {  <NL> if ( gl ! = null ) {  <NL> if ( m state > state _ new ) {  <NL> int [ ] textures = new int [ 1 ] ;  <NL> textures [ 0 ] = m texture id ;  <NL> gl . gl delete textures ( 1 , textures , 0 ) ;  <NL> m state = state _ new ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> call when the surface has been destroyed </s>

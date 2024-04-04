@@ -1,0 +1,1 @@
+TDAT: public void show document ( url url , string name ) {  <NL> try {  <NL> get applet context ( ) . show document ( url , name ) ;  <NL>  } catch ( exception e ) {  <NL> system . out . println ( " can ' t show " + url + " in page " + name ) ;  <NL> e . print stack trace ( ) ;  <NL>  }  <NL>  }  COM: <s> shows the content of a url in a browser frame </s>

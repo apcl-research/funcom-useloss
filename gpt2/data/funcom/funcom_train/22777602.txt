@@ -1,0 +1,1 @@
+TDAT: public void add items ( int index , object [ ] items ) {  <NL> final int index0 = index ;  <NL> final int index1 = index + items . length - 1 ;  <NL> for ( int i = 0 ; i < items . length ; i + + ) {  <NL> item list . add ( index0 + i , items [ i ] ) ;  <NL>  }  <NL> listeners . fire interval added ( index0 , index1 ) ;  <NL>  }  COM: <s> add itme at position </s>

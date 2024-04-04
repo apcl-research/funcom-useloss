@@ -1,0 +1,1 @@
+TDAT: public int ser ( byte [ ] src , byte [ ] dst , int pos ) {  <NL>  / / implicit 0 <NL> if ( 0 ! = _ tag ) {  <NL> pos = convert . itos ( _ tag , dst , pos ) ;  <NL> dst [ pos + + ] = 9 ;  <NL>  }  <NL> system . arraycopy ( src , _ off , dst , pos , _ len ) ;  <NL> pos + = _ len ;  <NL> dst [ pos + + ] = 10 ;  <NL> return pos ;  <NL>  }  COM: <s> serializes a field </s>

@@ -1,0 +1,1 @@
+TDAT: private url to url ( file path ) {  <NL> try {  <NL> return new url ( path . to uri ( ) . to string ( ) ) ;  <NL>  } catch ( exception e ) {  <NL> get log ( ) . error ( " could not resolve \ " " + path . get path ( ) + " \ " . " , e ) ;  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> converts the given path to an url </s>

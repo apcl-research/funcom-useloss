@@ -1,0 +1,1 @@
+TDAT: protected int checks if _ icmp ( int input ) {  <NL> if ( input = = 0 ) {  <NL> return 700 ;  <NL>  } else if ( input > = 1 & & input < = 10 ) {  <NL> return 800 ;  <NL>  } else if ( input > 10 & & input < 100 ) {  <NL> return 900 ;  <NL>  } else if ( input ! = 100 ) {  <NL> return 1000 ;  <NL>  }  <NL> return 2000 ;  <NL>  }  COM: <s> it checks if icmp opcodes </s>

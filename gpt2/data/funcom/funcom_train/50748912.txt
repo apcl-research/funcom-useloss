@@ -1,0 +1,1 @@
+TDAT: public void characters ( char [ ] ch , int start , int length ) throws sax exception {  <NL> if ( is processing error ( ) ) {  <NL> get buffer ( ) . append ( new string ( ch , start , length ) ) ;  <NL>  } else if ( is processing body ( ) ) {  <NL> super . characters ( ch , start , length ) ;  <NL>  }  <NL>  }  COM: <s> consumes the data if necessary </s>

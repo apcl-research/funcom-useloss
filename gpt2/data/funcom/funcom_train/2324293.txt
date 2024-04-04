@@ -1,0 +1,1 @@
+TDAT: protected void fetch next block ( ) {  <NL> if ( n > 0 ) {  <NL> long last = buffer [ buffer position ] ;  <NL> sampler . next block ( ( int ) math . min ( n , max _ buffer _ size ) , buffer , 0 ) ;  <NL> skip = buffer [ 0 ] - last - 1 ;  <NL> buffer position = 0 ;  <NL>  }  <NL>  }  COM: <s> not yet commented </s>

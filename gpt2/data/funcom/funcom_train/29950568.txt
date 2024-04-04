@@ -1,0 +1,1 @@
+TDAT: public void paint focus ( ) {  <NL> super . paint focus ( ) ;  <NL>  <NL> point point = m _ face . get position ( ) ;  <NL> size size = m _ face . get size ( ) ;  <NL> m _ select label . set position (  <NL> new point ( point . m _ x + size . m _ width - 1 , point . m _ y ) ) ;  <NL> m _ select label . show ( ) ;  <NL>  }  COM: <s> paint a focused component </s>

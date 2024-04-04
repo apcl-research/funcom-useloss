@@ -1,0 +1,1 @@
+TDAT: public void example invalid if ( ) {  <NL> int a = 1 ;  <NL> int b = 1 ;  <NL> boolean ok = false ;  <NL>  / / - - - violation - - -  <NL> if ( a + b = = b + a )  <NL> ok = true ;  <NL>  / / - - - violation - - -  <NL> if ( a + b = = b + a )  <NL>  {  <NL> ok = true ;  <NL>  }  <NL>  }  COM: <s> violating use of an if statement </s>

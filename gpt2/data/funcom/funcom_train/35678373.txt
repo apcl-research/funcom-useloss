@@ -1,0 +1,1 @@
+TDAT: public void test get qual class name ( ) {  <NL> code gen helper helper = new code gen helper ( ) ;  <NL> assert equals ( " class name " , helper . get qual class name ( null , " class name " ) ) ;  <NL> assert equals ( " package . class name " , helper . get qual class name ( " package " , " class name " ) ) ;  <NL>  }  COM: <s> get fully qualified class name </s>

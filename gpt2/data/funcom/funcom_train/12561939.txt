@@ -1,0 +1,1 @@
+TDAT: public void set seed ( byte [ ] b , int off , int len ) {  <NL> int j = 0 ;  <NL>  <NL> if ( ( len < = 0 ) || ( b . length < ( off + len ) ) )  <NL> return ;  <NL> for ( int i = 0 ; i < seed . length ; i + + , j + + ) {  <NL> if ( j = = len ) j = 0 ;  <NL> seed [ i ] = b [ off + j ] ;  <NL>  }  <NL>  }  COM: <s> set the random number seed </s>

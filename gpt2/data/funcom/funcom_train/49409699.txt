@@ -1,0 +1,1 @@
+TDAT: private void set arc reader id ( string name ) {  <NL> string ext = " arc " ;  <NL> name = name . substring ( 0 , name . length ( ) - ext . length ( ) ) ;  <NL> arc reader id = name . substring ( name . last index of ( system . get property ( " file . separator " ) ) , name . length ( ) ) ;  <NL>  }  COM: <s> called by constructor to set arcid for arc reader instance </s>

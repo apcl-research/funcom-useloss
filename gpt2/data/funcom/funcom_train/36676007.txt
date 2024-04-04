@@ -1,0 +1,1 @@
+TDAT: public void draw config line ( string config , string config val , boolean high light , graphics g ) {  <NL> color default color = main menu graphics . get h1color ( ) ;  <NL> draw config line ( config , config val , high light ? highlight _ color : default color , default color , g ) ;  <NL>  }  COM: <s> paints a config txt and next to it the value on 1 line </s>

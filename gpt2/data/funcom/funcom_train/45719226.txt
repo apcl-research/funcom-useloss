@@ -1,0 +1,1 @@
+TDAT: public long get time ( ) {  <NL> if ( time = = - 1l ) {  <NL> if ( offset = = - 1 ) {  <NL> return time _ begin _ value ;  <NL>  } else if ( offset = = - 2 ) {  <NL> return time _ end _ value ;  <NL>  } else {  <NL> throw new error ( " the watch is not a time , no time available " ) ;  <NL>  }  <NL>  }  <NL> return time ;  <NL>  }  COM: <s> retrieve the universal time </s>

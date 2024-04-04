@@ -1,0 +1,1 @@
+TDAT: public void append ( @ not null final named object named object ) throws illegal named object exception {  <NL> if ( parent ! = null ) {  <NL> throw new illegal named object exception ( " node ' " + named object . get path ( ) + " ' is not a root node " ) ;  <NL>  }  <NL> append ( named object . get path ( ) , named object ) ;  <NL>  }  COM: <s> append a node </s>

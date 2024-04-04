@@ -1,0 +1,1 @@
+TDAT: public void add discount ( string reason , reference relates to , string contributes to , string depends on , rate rate ) {  <NL> add line ( new rate behaviour ( generate line id ( ) , reason , relates to , contributes to , depends on , behaviour type . discount , rate ) ) ;  <NL>  }  COM: <s> same as add discount but generates the line id automatically </s>

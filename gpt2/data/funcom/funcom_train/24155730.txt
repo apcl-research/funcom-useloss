@@ -1,0 +1,1 @@
+TDAT: public boolean equals ( double a , double b ) {  <NL> if ( a = = b ) {  <NL> return true ;  <NL>  }  <NL>  / / if the difference is less than epsilon , treat as equal .  <NL> return math . abs ( a - b ) < epsilon * math . max ( math . abs ( a ) , math . abs ( b ) ) ;  <NL>  }  COM: <s> compare two doubles using default epsilon </s>

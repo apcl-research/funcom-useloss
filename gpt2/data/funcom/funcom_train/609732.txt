@@ -1,0 +1,1 @@
+TDAT: public void add card ( card [ ] card array , card c , int i )  <NL>  {  <NL> if ( i < card array . length )  <NL> card array [ i ] = c ;  <NL> else {  <NL> system . out . println ( " tried to put card on position " + i <NL>  + " but arrays length is only " + card array . length ) ; / / do nothing .  <NL>  }  <NL>  }  COM: <s> add a specified card </s>

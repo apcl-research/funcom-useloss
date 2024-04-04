@@ -1,0 +1,1 @@
+TDAT: public j gimp channel append new channel ( int width , int height , string name , double opacity , color channel compositing color ) throws j gimp exception {  <NL> return this . insert new channel ( width , height , name , opacity , channel compositing color , - 1 ) ;  <NL>  }  COM: <s> creates and appends a new channel to this image </s>

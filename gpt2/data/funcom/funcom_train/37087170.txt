@@ -1,0 +1,1 @@
+TDAT: private text get text ( ) {  <NL> return new text ( g3d , get font ( ) , label , colix contrast ( ) ,  <NL> node . get colix ( ) , node . screen x + 3 , node . screen y + 2 ,  <NL> label z , integer . min _ value , object2d . align _ center , 0 ) ;  <NL>  }  COM: <s> why making new text every time why not reuse </s>

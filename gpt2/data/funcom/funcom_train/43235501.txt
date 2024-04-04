@@ -1,0 +1,1 @@
+TDAT: private int new _ mnode ( eojeol eojeol , string wp _ tag , double prob ) {  <NL> mn [ mn _ end ] . eojeol = eojeol ;  <NL> mn [ mn _ end ] . wp _ tag = wp _ tag ;  <NL> mn [ mn _ end ] . prob _ wt = prob ;  <NL> mn [ mn _ end ] . backptr = 0 ;  <NL> mn [ mn _ end ] . sibling = 0 ;  <NL> return mn _ end + + ;  <NL>  }  COM: <s> adds a new node for the markov model </s>

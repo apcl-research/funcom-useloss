@@ -1,0 +1,1 @@
+TDAT: private j label get j label3 ( ) {  <NL> if ( j label blue = = null ) {  <NL> j label blue = new j label ( ) ;  <NL> j label blue . set text ( " blue : " ) ;  <NL> j label blue . set layout ( null ) ;  <NL> j label blue . set bounds ( 10 , 50 , 127 , 13 ) ;  <NL>  }  <NL> return j label blue ;  <NL>  }  COM: <s> p getter for the field code j label3 code </s>

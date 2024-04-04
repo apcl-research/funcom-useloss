@@ -1,0 +1,1 @@
+TDAT: private void load example ( file [ ] e files ) {  <NL> examples = new array list < text file4ie > ( ) ;  <NL> text file4ie example ;  <NL> for ( int i = 0 ; i < e files . length ; i + + ) {  <NL> example = new text file4ie ( e files [ i ] ) ;  <NL> examples . add ( example ) ;  <NL> example . dump ( ) ;  <NL>  }  <NL>  }  COM: <s> load examples from files </s>

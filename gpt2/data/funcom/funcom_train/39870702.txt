@@ -1,0 +1,1 @@
+TDAT: public void add data ( string tag , byte [ ] data , int flags ) {  <NL> if ( data = = null ) throw new null pointer exception ( " data = = null " ) ;  <NL> try { m service . add ( new entry ( tag , 0 , data , flags ) ) ; } catch ( remote exception e ) { }  <NL>  }  COM: <s> stores binary data which may be ignored or discarded as with </s>

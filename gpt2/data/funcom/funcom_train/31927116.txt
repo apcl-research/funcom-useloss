@@ -1,0 +1,1 @@
+TDAT: public set key set ( ) {  <NL> hash set keys = new hash set ( ) ;  <NL> for ( enumeration e = _ map . keys ( ) ; e . has more elements ( ) ; ) {  <NL> keys . add ( _ decompose hash key ( ( string ) e . next element ( ) ) ) ;  <NL> system . out . println ( ) ;  <NL>  }  <NL> return keys ;  <NL>  }  COM: <s> returns an enumeration with the keys </s>

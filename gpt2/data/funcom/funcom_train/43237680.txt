@@ -1,0 +1,1 @@
+TDAT: private void reply ( string action target , string [ ] data ) {  <NL> hp document to send = new hp document ( parent , " reply " , action target , data ) ;  <NL> if ( ! to send . is complete ( ) )  <NL> to send . write headers ( ) ;  <NL> output . write document ( to send ) ;  <NL>  }  COM: <s> sends a reply over the code socket code accepting a </s>

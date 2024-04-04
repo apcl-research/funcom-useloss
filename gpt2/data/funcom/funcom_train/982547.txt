@@ -1,0 +1,1 @@
+TDAT: public void glu ortho2d ( double left , double right , double bottom , double top ) {  <NL> java gl . gl ortho ( ( float ) left , ( float ) right ,  <NL>  ( float ) bottom , ( float ) top ,  <NL>  ( float ) - 1 . 0 , ( float ) 1 . 0 ) ;  <NL>  }  COM: <s> glvoid glu ortho2 d gldouble left gldouble right gldouble bottom gldouble top </s>

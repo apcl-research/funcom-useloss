@@ -1,0 +1,1 @@
+TDAT: public void print stack trace ( final print stream s ) {  <NL> super . print stack trace ( s ) ;  <NL> if ( this . parent ! = null ) {  <NL> s . print ( " parent exception : " ) ;  <NL> this . parent . print stack trace ( s ) ;  <NL>  }  <NL> else {  <NL> s . println ( " parent exception : < null > " ) ;  <NL>  }  <NL>  }  COM: <s> prints the stack trace </s>

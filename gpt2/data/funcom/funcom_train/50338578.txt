@@ -1,0 +1,1 @@
+TDAT: private boolean name ok ( catalog tree node node , string name ) {  <NL> tree node [ ] nodes = node . get path ( ) ;  <NL> for ( int i = 0 ; i < nodes . length ; i + + ) {  <NL> if ( name . equals ( nodes [ i ] . to string ( ) ) ) {  <NL> return false ;  <NL>  }  <NL>  }  <NL> return true ;  <NL>  }  COM: <s> node names in the path to the root must be unique </s>

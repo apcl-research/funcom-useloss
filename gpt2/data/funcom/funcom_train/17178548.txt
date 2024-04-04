@@ -1,0 +1,1 @@
+TDAT: public file get enzymes file ( ) {  <NL> file result = new file ( enzyme _ file ) ;  <NL> if ( ! result . exists ( ) ) {  <NL> j option pane . show message dialog ( null , enzyme _ file + " not found . " , " enzymes file error " , j option pane . error _ message ) ;  <NL>  }  <NL> return result ;  <NL>  }  COM: <s> returns the user defined enzymes file </s>

@@ -1,0 +1,1 @@
+TDAT: private string insert statement ( ) {  <NL> return " insert into enzymes ( enzyme _ id , ec1 , ec2 , ec3 , ec4 , history , note , status , source , active ) " +  <NL>  " values ( ? , ? , ? , ? , ? , ? , ? , ? , ? , ? ) " ;  <NL>  }  COM: <s> returns the insert statement for inserting an enzyme </s>

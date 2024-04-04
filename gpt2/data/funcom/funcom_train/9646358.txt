@@ -1,0 +1,1 @@
+TDAT: public bezier path clone ( ) {  <NL> bezier path that = ( bezier path ) super . clone ( ) ;  <NL> for ( int i = 0 , n = this . size ( ) ; i < n ; i + + ) {  <NL> that . set ( i , ( node ) this . get ( i ) . clone ( ) ) ;  <NL>  }  <NL> return that ;  <NL>  }  COM: <s> creates a deep copy of the bezier path </s>

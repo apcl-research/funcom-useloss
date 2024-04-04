@@ -1,0 +1,1 @@
+TDAT: @ test public void test backslash6 ( ) {  <NL> help scanner ( " / * @ \\ \\result * / " ,  <NL> new enum < ? > [ ] { error , bsresult , ejml } ,  <NL> null ,  <NL> 1 ) ;  <NL> check messages ( " / test . java : 1 : a backslash in a jml comment expects to be followed by a valid identifier " , 5 ) ;  <NL>  }  COM: <s> test for a jml backslash with no identifier </s>

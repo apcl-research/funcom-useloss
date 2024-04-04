@@ -1,0 +1,1 @@
+TDAT: public string get purchase description ( ) {  <NL> return " < em > " + get description ( ) + " < / em > < br > " + get upgrade description ( ) +  <NL>  " < br > < br > < u > current stats : < / u > " + get stats ( ) +  <NL>  " < br > < u > upgraded stats : < / u > " + get upgraded stats ( ) ;  <NL>  <NL>  }  COM: <s> p get purchase description </s>

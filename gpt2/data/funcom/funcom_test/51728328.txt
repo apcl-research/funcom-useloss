@@ -1,0 +1,1 @@
+TDAT: public list exercises ( ) {  <NL> list l = new vector ( ) ;  <NL> for ( int i = 0 ; i < size ( ) ; i + + ) {  <NL> exercise group g = get group ( i ) ;  <NL> for ( int j = 0 ; j < g . size ( ) ; j + + ) {  <NL> exercise e = g . get item ( j ) ;  <NL> l . add ( e ) ;  <NL>  }  <NL>  }  <NL> return l ;  <NL>  }  COM: <s> gets a list of all of the exercises in the file </s>

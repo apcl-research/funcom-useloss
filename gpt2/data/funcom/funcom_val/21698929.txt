@@ -1,0 +1,1 @@
+TDAT: public cursor get travellers ( int travel _ id ) {  <NL> log . i ( tag , " get travellers " ) ;  <NL> return m db . query ( table _ name , new string [ ] { id , travel _ id , person _ id , money _ flow } , travel _ id + " = " + travel _ id , null , null , null , null ) ;  <NL>  }  COM: <s> sql select from travellers where travel id travel id </s>

@@ -1,0 +1,1 @@
+TDAT: protected boolean bug exists ( int id ) throws hibernate exception {  <NL> int count = query count value ( " select count ( * ) from net . sf . jagzilla . hibernate . bug b where b . id = ' " + id + " ' " ) ;  <NL> log . debug ( " count product : " + id + " = " + count ) ;  <NL> return count > = 1 ;  <NL>  }  COM: <s> tells if the given bug exists </s>

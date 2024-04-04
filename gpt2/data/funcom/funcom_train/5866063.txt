@@ -1,0 +1,1 @@
+TDAT: public void set src ( string src ) {  <NL> if ( src ! = null & & src . length ( ) = = 0 )  <NL> src = null ;  <NL>  <NL> if ( _ image ! = null || ! objects . equals ( _ src , src ) ) {  <NL>  _ src = src ;  <NL>  _ image = null ;  <NL> smart update deferred ( " src " , new encoded url ( ) ) ; / / bug 1850895 <NL>  }  <NL>  }  COM: <s> sets the source uri of the image </s>

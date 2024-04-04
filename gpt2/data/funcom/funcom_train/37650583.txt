@@ -1,0 +1,1 @@
+TDAT: private void save new content ( i file file , string new content ) {  <NL> try {  <NL> file . set contents ( new byte array input stream ( new content . get bytes ( ) ) , false , true , get monitor ( ) ) ;  <NL>  } catch ( core exception e ) {  <NL> log error ( string keys . error _ core _ exception , e ) ;  <NL>  }  <NL>  }  COM: <s> save the file </s>

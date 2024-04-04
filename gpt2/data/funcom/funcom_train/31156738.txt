@@ -1,0 +1,1 @@
+TDAT: public int get speed ( ) {  <NL> int speed = integer . max _ value ;  <NL> iterator it = ships . iterator ( ) ;  <NL> while ( it . has next ( ) ) {  <NL> ship ship = ( ship ) it . next ( ) ;  <NL> if ( ship . get speed ( ) < speed ) {  <NL> speed = ship . get speed ( ) ;  <NL>  }  <NL>  }  <NL> return speed ;  <NL>  }  COM: <s> get speed of the fleet </s>

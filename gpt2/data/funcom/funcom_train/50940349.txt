@@ -1,0 +1,1 @@
+TDAT: public void remove row ( int row ) {  <NL> if ( this . txns ! = null & & ! this . txns . is empty ( ) ) {  <NL> try {  <NL> this . txns . remove ( row ) ;  <NL> fire table rows deleted ( row , row ) ;  <NL>  } catch ( index out of bounds exception ie ) {  <NL> log . log exception ( ie ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> removes the row at row from the model </s>

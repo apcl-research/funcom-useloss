@@ -1,0 +1,1 @@
+TDAT: protected boolean visit array ref assign op ( c ast node n , c ast node v , c ast node a , boolean pre , c c , c ast visitor < c > visitor ) {  <NL> return delegate . visit array ref assign op ( n , v , a , pre , c , visitor ) ;  <NL>  }  COM: <s> visit an array ref op assignment node after visiting the rhs </s>

@@ -1,0 +1,1 @@
+TDAT: public void insert ( int index , py object o ) {  <NL> if ( index < 0 )  <NL> index = 0 ;  <NL> if ( index > length )  <NL> index = length ;  <NL> resize ( length + 1 ) ;  <NL> system . arraycopy ( list , index , list , index + 1 , length - index - 1 ) ;  <NL> list [ index ] = o ;  <NL>  }  COM: <s> insert the argument element into the list at the specified </s>

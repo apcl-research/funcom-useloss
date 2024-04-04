@@ -1,0 +1,1 @@
+TDAT: public void set position ( point p ) {  <NL> if ( this . x ! = p . x || this . y ! = p . y ) {  <NL> this . x = p . x ;  <NL> this . y = p . y ;  <NL> bounds . set location ( x - r _ offset , y - r _ offset ) ;  <NL> repaint ( ) ;  <NL>  }  <NL>  }  COM: <s> sets the position of the node </s>

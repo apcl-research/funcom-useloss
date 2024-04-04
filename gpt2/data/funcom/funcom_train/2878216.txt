@@ -1,0 +1,1 @@
+TDAT: public int append path ( string ref ) {  <NL> if ( ! ( contains key ( path ) ) || ( get ( path ) = = null ) ) {  <NL> put ( path , new string buffer ( ref ) ) ;  <NL>  } else {  <NL>  ( ( string buffer ) get ( path ) ) . append ( ref ) ;  <NL>  }  <NL> return ( ( string buffer ) get ( path ) ) . length ( ) ;  <NL>  }  COM: <s> appends the path information </s>

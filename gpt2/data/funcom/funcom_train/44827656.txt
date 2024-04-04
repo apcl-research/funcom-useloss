@@ -1,0 +1,1 @@
+TDAT: public schema tag get mapped schema ( ) {  <NL> domain metadata parent = ( domain metadata ) get parent ( ) ;  <NL> if ( parent ! = null & & schema name ! = null ) {  <NL> return ( schema tag ) parent . get tag of type by name ( schema tag . schema _ tag , schema name ) ;  <NL>  } else {  <NL> return null ;  <NL>  }  <NL>  }  COM: <s> get mapped schema </s>

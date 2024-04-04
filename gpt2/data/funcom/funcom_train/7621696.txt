@@ -1,0 +1,1 @@
+TDAT: public void scroll to ( int x , int y ) {  <NL> if ( m scroll x ! = x || m scroll y ! = y ) {  <NL> int old x = m scroll x ;  <NL> int old y = m scroll y ;  <NL> m scroll x = x ;  <NL> m scroll y = y ;  <NL> on scroll changed ( m scroll x , m scroll y , old x , old y ) ;  <NL> invalidate ( ) ;  <NL>  }  <NL>  }  COM: <s> set the scrolled position of your view </s>

@@ -1,0 +1,1 @@
+TDAT: public void add post watch ( pid pid , member id member id ) {  <NL> stored member temp = this . get stored member ( member id ) ;  <NL> if ( temp ! = null ) {  <NL> stored post post = this . get stored post ( pid ) ;  <NL> if ( post ! = null ) {  <NL> temp . add post watch ( post ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> adds a post watch to an account </s>

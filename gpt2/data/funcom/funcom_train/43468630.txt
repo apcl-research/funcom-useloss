@@ -1,0 +1,1 @@
+TDAT: public string has is query ( zxbo pobj base bo , zxbo pobj has bo , zxbo pobj is bo ) throws zx exception {  <NL> return has is query ( pobj base bo , pobj has bo , pobj is bo , " * " , false , " * " , false ) ;  <NL>  }  COM: <s> generate a query to retrieve a many to many relation </s>

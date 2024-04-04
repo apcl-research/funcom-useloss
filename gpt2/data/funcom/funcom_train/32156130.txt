@@ -1,0 +1,1 @@
+TDAT: private j spinner get max nb of meeting ( ) {  <NL> if ( max nb of meeting = = null ) {  <NL> max nb of meeting = new j spinner ( new spinner number model ( 11 , 5 , 50 , 1 ) ) ;  <NL> max nb of meeting . set bounds ( new rectangle ( 340 , 175 , 60 , 22 ) ) ;  <NL>  }  <NL> return max nb of meeting ;  <NL>  }  COM: <s> this method initializes max nb of meeting </s>

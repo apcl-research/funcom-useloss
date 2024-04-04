@@ -1,0 +1,1 @@
+TDAT: public void set column name ( int column index , string column name ) {  <NL> string old column name = columns [ column index - 1 ] . name ;  <NL> columns [ column index - 1 ] . name = column name ;  <NL> pcs . fire property change ( " column name " + column index , old column name , column name ) ;  <NL>  }  COM: <s> sets the column name at the specified index </s>

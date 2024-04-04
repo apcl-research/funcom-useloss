@@ -1,0 +1,1 @@
+TDAT: public void set selected user ( int uid ) {  <NL> for ( int i = 0 ; i < get model ( ) . get size ( ) ; i + + ) {  <NL> user u = ( user ) ( get model ( ) . get element at ( i ) ) ;  <NL> if ( u . get uid ( ) . equals ( " " + uid ) ) {  <NL> get model ( ) . set selected item ( u ) ;  <NL> break ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> set selection to user with given uid </s>

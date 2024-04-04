@@ -1,0 +1,1 @@
+TDAT: public void log ( admin admin , int caid , int module , date time , string username , certificate certificate , int event , string comment , exception exception ) {  <NL> do log ( admin , caid , module , time , username , certificate , event , comment , exception ) ;  <NL>  }  COM: <s> overloaded function that also logs an exception </s>

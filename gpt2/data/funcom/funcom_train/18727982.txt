@@ -1,0 +1,1 @@
+TDAT: public void test constructor ( ) {  <NL> jaxo paintable grid grid = new jaxo default grid ( 15 , jaxo paintable grid . type _ hexagonal , grid size ) ;  <NL> assert equals ( 16 , grid . get grid size ( ) ) ;  <NL> assert equals ( jaxo paintable grid . type _ hexagonal , grid . get grid type ( ) ) ;  <NL>  }  COM: <s> tests constructor of class jaxo draw </s>

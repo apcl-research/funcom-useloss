@@ -1,0 +1,1 @@
+TDAT: public void play ( byte [ ] audio , audio format format ) {  <NL> if ( open line ( format ) ) {  <NL> line . start ( ) ;  <NL> line . write ( audio , 0 , audio . length ) ;  <NL> line . drain ( ) ;  <NL> line . stop ( ) ;  <NL> line . close ( ) ;  <NL> line = null ;  <NL>  }  <NL>  }  COM: <s> plays the given byte array audio to the systems audio device </s>

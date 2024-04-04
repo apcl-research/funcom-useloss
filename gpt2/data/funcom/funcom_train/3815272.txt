@@ -1,0 +1,1 @@
+TDAT: public void dump ( ) {  <NL> system . out . println ( " denominator = " + denominator ) ;  <NL> system . out . println ( " numerators = " ) ;  <NL> for ( int i = 0 ; i < numerator . length ; i + + ) {  <NL> system . out . println ( " [ " + i + " ] = " + numerator [ i ] ) ;  <NL>  }  <NL>  }  COM: <s> dump info about this buffer </s>

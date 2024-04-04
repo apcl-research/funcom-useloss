@@ -1,0 +1,1 @@
+TDAT: private void check boundary fields ( ) {  <NL> max range field . set enabled ( ! model . is auto range ( ) ) ;  <NL> min range field . set enabled ( ! model . is auto range ( ) ) ;  <NL> max domain field . set enabled ( ! model . is auto domain ( ) ) ;  <NL> min domain field . set enabled ( ! model . is auto domain ( ) ) ;  <NL>  }  COM: <s> updates the boundary fields </s>

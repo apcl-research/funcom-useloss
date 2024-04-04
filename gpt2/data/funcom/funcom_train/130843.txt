@@ -1,0 +1,1 @@
+TDAT: public void home cmd ( ) {  <NL> try {  <NL> send header ( player _ msgtype _ cmd , player _ limb _ cmd _ home , 0 ) ;  <NL> os . flush ( ) ;  <NL>  } catch ( io exception e ) {  <NL> throw new player exception <NL>  ( " [ limb ] : couldn ' t send homing command : " +  <NL> e . to string ( ) , e ) ;  <NL>  }  <NL>  }  COM: <s> command home player limb home cmd </s>

@@ -1,0 +1,1 @@
+TDAT: public void item state changed ( item event e ) {  <NL> if ( e . get state change ( ) = = item event . deselected ) {  <NL> cm . disconnect beans ( this . meth , this . l bean ) ;  <NL>  } else if ( e . get state change ( ) = = item event . selected ) {  <NL> cm . reconnect beans ( this . meth , this . l bean ) ;  <NL>  }  <NL>  }  COM: <s> we listen to our box </s>

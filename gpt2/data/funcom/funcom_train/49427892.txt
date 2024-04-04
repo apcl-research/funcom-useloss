@@ -1,0 +1,1 @@
+TDAT: public int get preferred height ( ) {  <NL> int pref height = border top + border bottom + get preferred inner height ( ) ;  <NL> image bg = get background ( ) ;  <NL> if ( bg ! = null ) {  <NL> pref height = math . max ( pref height , bg . get height ( ) ) ;  <NL>  }  <NL> return math . max ( min height , pref height ) ;  <NL>  }  COM: <s> returns the preferred height </s>

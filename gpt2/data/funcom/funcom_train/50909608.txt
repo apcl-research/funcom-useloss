@@ -1,0 +1,1 @@
+TDAT: public void pick up item ( i item item ) {  <NL> try {  <NL> inventory . pick item ( item , model . get player character ( ) ) ;  <NL> model . action completed ( ) ;  <NL>  } catch ( exception e ) {  <NL> logger . severe ( " picking up item failed . message : " + e . get message ( ) ) ;  <NL>  / / todo : error handling <NL>  }  <NL>  }  COM: <s> picks up item </s>

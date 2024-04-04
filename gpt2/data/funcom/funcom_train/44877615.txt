@@ -1,0 +1,1 @@
+TDAT: public void add arc ( int npts , trim vertex [ ] pts , long _ nuid ) {  <NL> arc jarc = new arc ( arc . side _ none , _ nuid ) ;  <NL> jarc . pwl arc = new pwl arc ( npts , pts ) ;  <NL> initialbin . addarc ( jarc ) ;  <NL> pjarc = jarc . append ( pjarc ) ;  <NL>  }  COM: <s> adds a pwl arc to a trim loop and to a bin </s>

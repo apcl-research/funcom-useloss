@@ -1,0 +1,1 @@
+TDAT: public n binding update ( string id , n node loc , n type type , n binding . kind kind ) {  <NL> if ( type = = null ) {  <NL> throw new illegal argument exception ( " null type : id = " + id + " , loc = " + loc ) ;  <NL>  }  <NL> return update ( id , new def ( loc ) , type , kind ) ;  <NL>  }  COM: <s> adds a new binding for </s>

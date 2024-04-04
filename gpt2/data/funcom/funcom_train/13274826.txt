@@ -1,0 +1,1 @@
+TDAT: public void set icon yaw ( float icon yaw ) {  <NL> if ( icon yaw ! = this . icon yaw ) {  <NL> float old icon yaw = this . icon yaw ;  <NL> this . icon yaw = icon yaw ;  <NL> this . property change support . fire property change ( property . icon _ yaw . name ( ) , old icon yaw , icon yaw ) ;  <NL>  }  <NL>  }  COM: <s> sets the yaw angle of the piece icon </s>

@@ -1,0 +1,1 @@
+TDAT: public boolean is top left point at ( float x , float y , float margin ) {  <NL> float [ ] [ ] points = get points ( ) ;  <NL> return math . abs ( x - points [ 0 ] [ 0 ] ) < = margin & & math . abs ( y - points [ 0 ] [ 1 ] ) < = margin ;  <NL>  }  COM: <s> returns code true code if the top left point of this piece is </s>

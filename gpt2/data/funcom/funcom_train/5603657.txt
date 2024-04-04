@@ -1,0 +1,1 @@
+TDAT: protected void start method ( string name , type ret , type . . . args ) {  <NL> assert mv = = null ;  <NL> mv = cv . visit method ( acc _ public , name , method desc ( ret , args ) , null , null ) ;  <NL> mv . visit code ( ) ;  <NL>  }  COM: <s> starts building a method in the class being generated </s>

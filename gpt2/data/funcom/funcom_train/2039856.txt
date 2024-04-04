@@ -1,0 +1,1 @@
+TDAT: private text view create cache text ( ) {  <NL> text view cache text = new text view ( this ) ;  <NL> cache text . set padding ( 10 , 5 , 0 , 5 ) ;  <NL> cache text . set text ( " image cache : " ) ;  <NL> cache text . set background color ( color . dkgray ) ;  <NL> return cache text ;  <NL>  }  COM: <s> creates the image cache text view </s>

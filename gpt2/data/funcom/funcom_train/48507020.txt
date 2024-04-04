@@ -1,0 +1,1 @@
+TDAT: private double earth periodic term summation ( double terms [ ] [ ] , int count , double jme ) {  <NL> int i ;  <NL> double sum = 0 ;  <NL> for ( i = 0 ; i < count ; i + + ) {  <NL> sum + = terms [ i ] [ 0 ] * math . cos ( terms [ i ] [ 1 ] + terms [ i ] [ 2 ] * jme ) ;  <NL>  }  <NL> return sum ;  <NL>  }  COM: <s> calculate l0i ai cos bi ci jme </s>

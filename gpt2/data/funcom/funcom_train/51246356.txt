@@ -1,0 +1,1 @@
+TDAT: private void create run menu ( ) {  <NL> run menu = new j menu ( " run " ) ;  <NL> run menu . add ( get run sql menu item ( ) ) ;  <NL> run menu . add ( get run all sql menu item ( ) ) ;  <NL> run menu . add ( get run all sql from current menu item ( ) ) ;  <NL> add ( run menu ) ;  <NL>  }  COM: <s> creates the run menu </s>

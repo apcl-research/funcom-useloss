@@ -1,0 +1,1 @@
+TDAT: public gaig sarray ( int rows , boolean is bar ) {  <NL> set instance variables ( rows , 1 , is bar , default _ name , default _ color ,  <NL> default _ x1 , default _ y1 , default _ x2 , default _ y2 , default _ font _ size ) ;  <NL>  }  COM: <s> create a 1 d array of length rows explicitly setting the display mode </s>

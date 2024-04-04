@@ -1,0 +1,1 @@
+TDAT: public void test set pos ( ) {  <NL> system . out . println ( " test set pos " ) ;  <NL>  <NL> gp bar entry be = new gp bar entry ( " barkey " , 10 , " barvalue " ) ;  <NL> be . set pos ( 12 ) ;  <NL> int num = be . get pos ( ) ;  <NL> assert equals ( num , 12 ) ;  <NL>  }  COM: <s> test of set pos method of class gpbar entry </s>

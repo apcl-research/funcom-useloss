@@ -1,0 +1,1 @@
+TDAT: public int mouse wheel down ( int x , int y , int modifiers , int count , string wait ) throws io exception {  <NL> return mouse event ( " wheeldown " , modifiers , mouse event . button2 , null , new point ( x , y ) , count , wait ) ;  <NL>  }  COM: <s> p scroll down the mouse wheel on the current desktop </s>

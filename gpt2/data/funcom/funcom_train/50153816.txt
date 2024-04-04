@@ -1,0 +1,1 @@
+TDAT: public void add form ( action form class _ form , i forward action ) {  <NL> if ( ! ( forms . contains ( _ form ) & & ( form actions . get ( _ form ) = = action ) ) ) {  <NL> set forms ( forms . size ( ) , _ form ) ;  <NL> form actions . put ( _ form , action ) ;  <NL>  }  <NL>  }  COM: <s> method add form </s>

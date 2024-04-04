@@ -1,0 +1,1 @@
+TDAT: public void set std dev ( int col , int row , double value ) {  <NL> if ( ( col > = 0 ) & & ( col < get col count ( ) )  <NL>  & & ( row > = 0 ) & & ( row < get row count ( ) ) )  <NL> m _ std dev [ row ] [ col ] = value ;  <NL>  }  COM: <s> sets the std deviation at the given position if the position is valid </s>

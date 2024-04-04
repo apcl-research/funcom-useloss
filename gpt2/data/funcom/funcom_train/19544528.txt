@@ -1,0 +1,1 @@
+TDAT: private void validate damage ( property map map , damage type type , int damage , int wounds ) {  <NL> assert equals ( big decimal . value of ( damage ) , map . get ( type . get damage prop ( ) ) ) ;  <NL> assert equals ( big decimal . value of ( wounds ) , map . get ( type . get wound prop ( ) ) ) ;  <NL>  }  COM: <s> check the damage of a particular type </s>

@@ -1,0 +1,1 @@
+TDAT: public void init ( int x , int y ) {  <NL> for ( int i = 0 ; i < sparks . length ; + + i ) {  <NL> sparks [ i ] . x = x ;  <NL> sparks [ i ] . y = y ;  <NL> sparks [ i ] . vx = ( float ) ( math . random ( ) * 60 ) - 30 ;  <NL> sparks [ i ] . vy = ( float ) ( math . random ( ) * 60 ) - 30 ;  <NL>  }  <NL>  }  COM: <s> initialized a bomb at a given position </s>

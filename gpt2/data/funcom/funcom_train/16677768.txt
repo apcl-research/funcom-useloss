@@ -1,0 +1,1 @@
+TDAT: private void create p list ( ) {  <NL>  / *  <NL>  * use 16x16 icons in xp list !  <NL>  * /  <NL> p list = new xp list ( form , p list . border , xp list . list type . simple ) ;  <NL> swt util . set grid data ( p list , true , true , swt . fill , swt . fill , 1 , 1 ) ;  <NL>  }  COM: <s> creates the navigation list on the left side </s>

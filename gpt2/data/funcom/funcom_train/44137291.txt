@@ -1,0 +1,1 @@
+TDAT: private void create back ground ( ) {  <NL> m _ back ground = new osm back ground component ( this , color . blue ) ;  <NL>  / / m _ back ground . set bounds ( 10 , 10 , m _ width - 20 , m _ height - 20 ) ;  <NL> this . add ( m _ back ground ) ;  <NL> this . move to back ( m _ back ground ) ;  <NL>  }  COM: <s> to create slide background </s>

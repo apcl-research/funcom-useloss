@@ -1,0 +1,1 @@
+TDAT: public int send roster request ( string resource ) {  <NL> string status = " " ;  <NL> string s xml = " < iq type = \ " get\ " id = \ " " + resource + " \ " > "  <NL>  + " < query xmlns = \ " jabber : iq : roster\ " / > "  <NL>  + " < / iq > " ;  <NL> return send raw xml ( s xml ) ;  <NL>  }  COM: <s> send roster request </s>

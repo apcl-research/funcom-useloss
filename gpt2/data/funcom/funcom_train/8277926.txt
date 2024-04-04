@@ -1,0 +1,1 @@
+TDAT: public void grab screen contents ( int buffer buff , int x , int y , int w , int h ) {  <NL> gl11 . gl read pixels ( x , y , w , h , gl12 . gl _ bgra , gl11 . gl _ unsigned _ byte ,  <NL> buff ) ;  <NL>  }  COM: <s> code grab screen contents code reads a block of pixels from the </s>

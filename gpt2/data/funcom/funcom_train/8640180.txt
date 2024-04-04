@@ -1,0 +1,1 @@
+TDAT: public int hash code ( ) {  <NL> int h = hash ;  <NL> if ( h = = 0 ) {  <NL> int ptr = 0 ;  <NL> int len = bytes . length ;  <NL>  <NL> for ( int i = 0 ; i < len ; i + + )  <NL> h = 31 * h + ( bytes [ ptr + + ] & 0xff ) ;  <NL> hash = h ;  <NL>  }  <NL> return h ;  <NL>  }  COM: <s> returns a hash code value for the object </s>

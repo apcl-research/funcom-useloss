@@ -1,0 +1,1 @@
+TDAT: public void set payload xml ( object payload ) {  <NL> soap body body = mc . get envelope ( ) . get body ( ) ;  <NL> for ( iterator it = body . get children ( ) ; it . has next ( ) ; ) {  <NL> it . next ( ) ;  <NL> it . remove ( ) ;  <NL>  }  <NL> body . add child ( convertor . from script ( payload ) ) ;  <NL>  }  COM: <s> set the soap body payload from xml </s>

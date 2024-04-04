@@ -1,0 +1,1 @@
+TDAT: public void test _ qualified _ name _ 01 ( ) {  <NL> compile and exec given statement (  <NL>  " x . java " ,  <NL>  " class x { \n " +  <NL>  " int val = 10 ; \n " +  <NL>  " / / @ requires x . val = = 10 ; \n " +  <NL>  " int m ( x x ) { return 10 ; } \n " +  <NL>  " } \n " ,  <NL>  " new x ( ) . m ( new x ( ) ) " ) ;  <NL>  }  COM: <s> jml qualified name </s>

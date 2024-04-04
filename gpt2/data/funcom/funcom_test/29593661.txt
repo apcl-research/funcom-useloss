@@ -1,0 +1,1 @@
+TDAT: static public void arraycopy ( array abstract array src , int src pos , array abstract array dst , int dst pos , int len ) {  <NL> system . arraycopy ( array src . get storage ( ) , src pos , array dst . get storage ( ) , dst pos , len ) ;  <NL>  }  COM: <s> cover for system </s>

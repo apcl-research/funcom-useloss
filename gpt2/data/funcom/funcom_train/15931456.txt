@@ -1,0 +1,1 @@
+TDAT: private int busy join ( fork join worker thread w ) {  <NL> int s ;  <NL> fork join task < ? > t ;  <NL> while ( ( s = status ) > = 0 & & ( t = w . scan while joining ( this ) ) ! = null )  <NL> t . quietly exec ( ) ;  <NL> return ( s > = 0 ) ? await done ( w , false ) : s ; / / block if no work <NL>  }  COM: <s> main implementation of help join </s>

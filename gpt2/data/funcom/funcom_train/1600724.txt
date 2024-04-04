@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> string s = " " ;  <NL> for ( int i = 0 ; i < objects size ; i + + ) {  <NL> if ( objects [ i ] ! = null ) s + = " [ " + i + " is not null ] \n " ;  <NL> else s + = " [ " + i + " is null ] \n " ;  <NL>  }  <NL> return s ;  <NL>  }  COM: <s> method for converting object references into a string representation </s>

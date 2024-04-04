@@ -1,0 +1,1 @@
+TDAT: public string get name ( ) {  <NL> if ( this . name = = null ) {  <NL> string n = super . get name ( ) ;  <NL> if ( n . ends with ( " flow " ) ) {  <NL> n = n . substring ( 0 , n . length ( ) - 4 ) ;  <NL>  }  <NL> return n ;  <NL>  } else {  <NL> return this . name ;  <NL>  }  <NL>  }  COM: <s> get the name of the item </s>

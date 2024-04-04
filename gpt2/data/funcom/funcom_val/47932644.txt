@@ -1,0 +1,1 @@
+TDAT: public temp dir make temp dir ( string dir , boolean should scour ) {  <NL> temp dir tmp dir = new temp dir ( io util . join dir ( get tmp dir ( ) , dir ) ) ;  <NL> io util . make dir recursive ( tmp dir . get dir ( ) ) ;  <NL> if ( should scour ) {  <NL> add temp dir ( tmp dir ) ;  <NL>  }  <NL> return tmp dir ;  <NL>  }  COM: <s> make a temporary directory </s>

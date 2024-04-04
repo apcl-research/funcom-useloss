@@ -1,0 +1,1 @@
+TDAT: protected void append row ( row row , string builder result ) {  <NL> for ( column column : row . get columns ( ) ) {  <NL> result . append ( object formatter . format ( column . get value ( ) ) ) ;  <NL> result . append ( " , " ) ;  <NL>  }  <NL> result . set length ( result . length ( ) - 2 ) ;  <NL>  }  COM: <s> appends the values of the given row to the result </s>

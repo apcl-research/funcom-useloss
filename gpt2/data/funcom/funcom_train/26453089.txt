@@ -1,0 +1,1 @@
+TDAT: private void add row ( alert alert ) {  <NL> if ( alert ! = null ) {  <NL> string temp string [ ] = { integer . to string ( alert . id ( ) ) , alert . date ( ) , alert . source _ ip ( ) , alert . signature ( ) } ;  <NL> table model . add row ( temp string ) ;  <NL>  }  <NL>  }  COM: <s> adds an alert to the table </s>

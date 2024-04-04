@@ -1,0 +1,1 @@
+TDAT: private string get file path ( string path ) {  <NL> if ( path = = null || path . trim ( ) = = " " ) {  <NL> path = score _ data _ path ;  <NL>  }  <NL> class loader loader = thread . current thread ( ) . get context class loader ( ) ;  <NL> url url = loader . get resource ( path ) ;  <NL> return url . get path ( ) ;  <NL>  }  COM: <s> get files path </s>

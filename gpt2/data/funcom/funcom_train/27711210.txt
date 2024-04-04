@@ -1,0 +1,1 @@
+TDAT: private void shift ( int src [ ] , int pos , int offset ) {  <NL>  <NL> int temp = src [ offset ] ;  <NL> for ( int i = offset ; i > pos ; i - - ) {  <NL> src [ i ] = src [ i - 1 ] ;  <NL>  }  <NL> src [ pos ] = temp ;  <NL>  <NL>  } / / shift ( int [ ] , int , int )  COM: <s> shifts a value into position </s>

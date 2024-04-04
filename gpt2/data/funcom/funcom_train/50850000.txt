@@ -1,0 +1,1 @@
+TDAT: public void draw orbit circles ( gl gl ) {  <NL> gl . gl disable ( gl . gl _ texture _ 2d ) ;  <NL> joglib material . set material lighting ( gl , joglib material . silver ) ;  <NL> for ( int pos = 1 ; pos < 10 ; pos + + ) {  <NL> draw circle ( gl , ( float ) ( pos * 1 ) ) ;  <NL>  }  <NL> gl . gl enable ( gl . gl _ texture _ 2d ) ;  <NL>  }  COM: <s> draws an orbit </s>

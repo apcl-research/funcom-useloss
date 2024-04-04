@@ -1,0 +1,1 @@
+TDAT: public void add row ( conversation id id , string method , http url url ) {  <NL> object [ ] row = new object [ ] { new date ( ) , id , method , url , null } ;  <NL>  _ rows . add ( row ) ;  <NL> fire table rows inserted ( _ rows . size ( ) - 1 , _ rows . size ( ) - 1 ) ;  <NL>  }  COM: <s> adds the row </s>

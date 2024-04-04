@@ -1,0 +1,1 @@
+TDAT: private j panel get button panel ( ) {  <NL> j panel button panel = new j panel ( ) ;  <NL> button panel . add ( get add button ( ) , null ) ;  <NL> button panel . add ( get edit button ( ) , null ) ;  <NL> button panel . add ( get delete button ( ) , null ) ;  <NL> return button panel ;  <NL>  }  COM: <s> this method creates the button panel </s>

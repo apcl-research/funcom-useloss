@@ -1,0 +1,1 @@
+TDAT: protected void init ( ) {  <NL> contract map storage = new hash map < k , list < v > > ( ) ;  <NL> subscribed contract map ser = new hash map < k , ser > ( ) ;  <NL> subscribed symbol map contract = new hash map < string , k > ( ) ;  <NL> ser mapchain ser = new hash map < ser , ser > ( ) ;  <NL>  }  COM: <s> this should be called before really usage </s>

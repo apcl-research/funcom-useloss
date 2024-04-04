@@ -1,0 +1,1 @@
+TDAT: public void add messag filter filter ( message filter msg filter ) {  <NL> array list new list = new array list ( arrays . as list ( _ message filters ) ) ;  <NL> new list . add ( msg filter ) ;  <NL>  _ message filters = ( message filter [ ] ) new list . to array ( new message filter [ new list . size ( ) ] ) ;  <NL>  }  COM: <s> adds a message filter to this flow </s>

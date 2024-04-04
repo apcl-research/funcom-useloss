@@ -1,0 +1,1 @@
+TDAT: public int compare to ( object o ) {  <NL> if ( ! ( o instanceof town ) ) {  <NL> throw new class cast exception ( " not a town instance : " + o . get class ( ) . get name ( ) ) ;  <NL>  }  <NL> town t = ( town ) o ;  <NL> return get name ( ) . compare to ( t . get name ( ) ) ;  <NL>  }  COM: <s> compare to another town </s>

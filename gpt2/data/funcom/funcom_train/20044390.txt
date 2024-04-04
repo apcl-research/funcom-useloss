@@ -1,0 +1,1 @@
+TDAT: public void _ set formula1 ( ) {  <NL> required method ( " get formula1 ( ) " ) ;  <NL> o obj . set formula1 ( " $ sheet1 . $ c $ " + thread . active count ( ) ) ;  <NL> t res . tested ( " set formula1 ( ) " , ! formula1 . equals ( o obj . get formula1 ( ) ) ) ;  <NL>  }  COM: <s> test sets new value of formula1 gets formula1 again and compares </s>

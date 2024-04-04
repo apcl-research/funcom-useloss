@@ -1,0 +1,1 @@
+TDAT: public double get skewness ( ) {  <NL> int n = this . get n ( ) ;  <NL> double m3 = ( ( ( double ) n ) / ( n - 1 ) ) * ( cubicsum / n - math . pow ( get average ( ) , 3 ) ) ;  <NL> return ( m3 / math . pow ( get st d ( ) , 3 ) ) ;  <NL>  }  COM: <s> computes the skewness on the node values distribution and </s>

@@ -1,0 +1,1 @@
+TDAT: public void draw curve to ( int cx , int cy , int ax , int ay ) {  <NL> shape _ records . add element ( new curved edge record ( cx - last _ x , cy - last _ y , ax - cx , ay - cy ) ) ;  <NL> last _ x = ax ;  <NL> last _ y = ay ;  <NL>  }  COM: <s> draws curve record </s>

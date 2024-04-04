@@ -1,0 +1,1 @@
+TDAT: public int get scan mode ( ) {  <NL> if ( get state ( ) ! = state _ on ) return scan _ mode _ none ;  <NL> try {  <NL> return m service . get scan mode ( ) ;  <NL>  } catch ( remote exception e ) { log . e ( tag , " " , e ) ; }  <NL> return scan _ mode _ none ;  <NL>  }  COM: <s> get the current bluetooth scan mode of the local bluetooth adapter </s>

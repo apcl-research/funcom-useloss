@@ -1,0 +1,1 @@
+TDAT: public int get head state ( int num ) {  <NL> if ( log . is debug enabled ( ) ) log . debug ( " asked for state of " + get se name ( )  <NL>  + " / " + num + " , is " + heads [ num ] . get appearance ( ) ) ;  <NL> return heads [ num ] . get appearance ( ) ;  <NL>  }  COM: <s> access the state of a specific head </s>

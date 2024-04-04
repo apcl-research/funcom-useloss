@@ -1,0 +1,1 @@
+TDAT: public void fire property change ( string property name , int old value , int new value ) {  <NL> if ( ( change support ! = null ) & & ( old value ! = new value ) ) {  <NL> change support . fire property change ( property name , new integer ( old value ) , new integer ( new value ) ) ;  <NL>  }  <NL>  }  COM: <s> reports a bound property change </s>

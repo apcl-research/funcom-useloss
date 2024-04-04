@@ -1,0 +1,1 @@
+TDAT: public void get project summary data ( string project id , async callback < project summary data > callback ) {  <NL> service . get project summary data ( session . get sensorbase host ( ) , session . get dpd host ( ) , session <NL>  . get user ( ) , session . get password ( ) , project id , callback ) ;  <NL>  }  COM: <s> gets the project extendeded summary </s>

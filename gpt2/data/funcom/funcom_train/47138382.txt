@@ -1,0 +1,1 @@
+TDAT: public int insert ( final journal entry entry ) {  <NL> object [ ] params = new object [ ] { new long ( entry . get id ( ) ) , entry . get username ( ) , entry . get category ( ) ,  <NL> entry . get text ( ) , entry . get created ( ) } ;  <NL> return update ( params ) ;  <NL>  }  COM: <s> insert journal entry into database </s>

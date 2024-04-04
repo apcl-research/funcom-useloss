@@ -1,0 +1,1 @@
+TDAT: public void step ( ant a ) {  <NL> cell new pos = a . get position ( ) . get neighbour ( a . get direction ( ) ) ;  <NL> if ( new pos . get rocky ( ) || new pos . has ant ( ) ) {  <NL> a . set state ( cannot move ) ;  <NL> return ;  <NL>  }  <NL> a . set position ( new pos ) ;  <NL> a . set state ( do move ) ;  <NL>  }  COM: <s> move forward if possible </s>

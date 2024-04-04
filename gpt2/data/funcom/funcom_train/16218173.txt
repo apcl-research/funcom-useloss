@@ -1,0 +1,1 @@
+TDAT: public boolean check pos mouse ( int x1 , int y1 , int x2 , int y2 ) {  <NL> return ( this . get mouse x ( ) > = x1 & & this . get mouse y ( ) > = y1 & & this . get mouse x ( ) < = x2 & & this . get mouse y ( ) < = y2 ) ;  <NL>  }  COM: <s> returns whether the mouse pointer is inside specified screen boundary </s>

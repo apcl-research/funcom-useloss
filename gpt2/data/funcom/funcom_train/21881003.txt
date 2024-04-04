@@ -1,0 +1,1 @@
+TDAT: private void invalidate ctx ( string key ) {  <NL> boolean seen = false ;  <NL> for ( int i = 0 ; i < ctx _ keys . length ; i + + ) {  <NL> if ( ! seen & & ctx _ keys [ i ] . equals ( key ) ) {  <NL> seen = true ;  <NL>  }  <NL> if ( seen ) {  <NL> clear ctx ( ctx _ keys [ i ] ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> empty a context level and all lower levels </s>

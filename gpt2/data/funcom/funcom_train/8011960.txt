@@ -1,0 +1,1 @@
+TDAT: public int insert menu item at ( int menu , string title , string href , string target , int horiz padding , int i location ) throws exception {  <NL> return insert menu item at ( menu , title , href , target , horiz padding , true , i location ) ;  <NL>  }  COM: <s> inserts a menu item into navigation menu at specified location </s>

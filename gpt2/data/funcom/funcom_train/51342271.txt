@@ -1,0 +1,1 @@
+TDAT: static public void close tx ( long tx , long revision time , boolean aborted ) {  <NL>  <NL> if ( log . is info enabled ( ) )  <NL> log . info ( " tx = " + tx + " , revision time = " + revision time <NL>  + " , aborted = " + aborted + " , elapsed = "  <NL>  + ( revision time - tx ) ) ;  <NL>  <NL>  }  COM: <s> report completion of a transaction </s>

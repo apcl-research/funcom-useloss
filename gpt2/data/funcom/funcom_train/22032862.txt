@@ -1,0 +1,1 @@
+TDAT: public void mouse released ( mouse event evt ) {  <NL> if ( ( evt . get modifiers ( ) & ( evt . button2 _ mask|evt . button3 _ mask ) ) = = 0 ) {  <NL> return ;  <NL>  }  <NL> state = ( state + 1 ) % ( has alpha ? 4 : 3 ) ;  <NL> if ( cursor ! = null ) {  <NL> set cursor ( cursor [ state ] ) ;  <NL>  }  <NL>  }  COM: <s> listens for releases of the right mouse button </s>

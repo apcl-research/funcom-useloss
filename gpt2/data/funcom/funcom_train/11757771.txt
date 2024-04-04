@@ -1,0 +1,1 @@
+TDAT: public void cut ( ) {  <NL> alice . util . linked list l = terms executed ;  <NL> while ( ! l . is empty list ( ) ) {  <NL>  ( ( goal info ) l . head ) . context = null ;  <NL> l = l . tail ;  <NL>  }  <NL> compatible goals = new alice . util . linked list ( ) ;  <NL> n compatible goals = 0 ;  <NL> n open terms executed = 0 ;  <NL>  }  COM: <s> cuts current sld tree </s>

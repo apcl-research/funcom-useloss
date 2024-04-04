@@ -1,0 +1,1 @@
+TDAT: public void put tag suggestion ( string tag name , class [ ] clazzes ) {  <NL> vector suggestions = new vector ( ) ;  <NL> for ( int i = 0 ; i < clazzes . length ; i + + ) {  <NL> suggestions . add ( clazzes [ i ] . get name ( ) ) ;  <NL>  }  <NL> tag table . put ( tag name , suggestions ) ;  <NL>  }  COM: <s> adds tag with multiple suggested components to tag table </s>

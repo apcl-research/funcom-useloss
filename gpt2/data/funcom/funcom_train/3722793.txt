@@ -1,0 +1,1 @@
+TDAT: public void show error message ( string message , string title , exception ex ) {  <NL> get message pane ( ) . add message ( message , " error " , 10 ) ;  <NL> j option pane . show message dialog ( this ,  <NL> message ,  <NL> title ,  <NL> j option pane . error _ message ) ;  <NL>  }  COM: <s> show this error message </s>

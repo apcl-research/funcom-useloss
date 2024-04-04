@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> return super . to string ( ) + " ( " + this . c min y + " , " + this . c max y + " , " +  <NL> this . c min slope + " , " + this . c max slope + " , " + this . c steps + " ) " ;  <NL>  }  COM: <s> return a string describing the current instance giving the values </s>

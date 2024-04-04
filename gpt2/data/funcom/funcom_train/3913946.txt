@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> return " event [ uol id = " + get uol id ( ) + " , trigger id = " + get trigger id ( ) +  <NL>  " , type = " + get type ( ) + " , class name = " +  <NL> get class name ( ) + " , component id = " + get component id ( ) + " ] " ;  <NL>  }  COM: <s> returns a string representation of this event </s>

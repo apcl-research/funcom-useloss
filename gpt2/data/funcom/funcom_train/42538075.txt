@@ -1,0 +1,1 @@
+TDAT: public string stub method ( ) {  <NL> return ( " / * * static stub method for calling " + method name ( ) + " * / \n " +  <NL>  " public static " + method return ( ) + " " + stub method name ( ) + " ( object o ) { \n " +  <NL>  " " + stub method body ( ) + " \n } \n\n " ) ;  <NL>  }  COM: <s> the full static stub method within the generated class </s>

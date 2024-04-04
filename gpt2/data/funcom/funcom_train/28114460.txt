@@ -1,0 +1,1 @@
+TDAT: public void on focus ( ) {  <NL> draw ( true ) ;  <NL> inf . draw ( true ) ;  <NL> if ( ! drawn ) return ;  <NL> g . set color ( color . black ) ;  <NL> g . set xor mode ( color . red ) ;  <NL> g . draw rect ( rect . x , rect . y , rect . width , rect . height ) ;  <NL>  }  COM: <s> defines what the ann will do if it gets focus </s>

@@ -1,0 +1,1 @@
+TDAT: public void add ( int access flags , string name , string descriptor , attribute writer aw ) {  <NL> int name index = const pool . add utf8info ( name ) ;  <NL> int desc index = const pool . add utf8info ( descriptor ) ;  <NL> add ( access flags , name index , desc index , aw ) ;  <NL>  }  COM: <s> adds a new field </s>

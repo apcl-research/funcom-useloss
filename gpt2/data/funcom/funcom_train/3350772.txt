@@ -1,0 +1,1 @@
+TDAT: public t get keyboard event action ( keyboard event event ) {  <NL> char ch = event . get key char ( ) ;  <NL> if ( ch = = key event . char _ undefined ) {  <NL> return get vk action ( event . get key code ( ) , event . get modifiers ( ) ) ;  <NL>  } else {  <NL> return get char action ( ch ) ;  <NL>  }  <NL>  }  COM: <s> lookup the action for a given keyboard event </s>

@@ -1,0 +1,1 @@
+TDAT: public void free resources ( ) {  <NL> if ( icons ! = null ) {  <NL> for ( iterator < string > it = icons . key set ( ) . iterator ( ) ; it . has next ( ) ; ) {  <NL> string key = it . next ( ) ;  <NL> image image = icons . get ( key ) ;  <NL> image . dispose ( ) ;  <NL>  }  <NL> icons . clear ( ) ;  <NL>  }  <NL>  }  COM: <s> frees the resources </s>

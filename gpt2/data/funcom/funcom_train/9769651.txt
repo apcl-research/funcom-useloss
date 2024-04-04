@@ -1,0 +1,1 @@
+TDAT: @ test ( expected = illegal argument exception . class ) public void test constructor1to9 ( ) {  <NL> combo [ ] combos = new combo [ ] { this . bamboo _ 123 , this . bamboo _ 345 , this . circle _ 555 , this . character _ 33 , this . circle _ 789 } ;  <NL> new scoreentry _ high _ low ( combos ) ;  <NL>  }  COM: <s> check if the suits fails if the cards are from 1 to 9 </s>

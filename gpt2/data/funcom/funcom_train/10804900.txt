@@ -1,0 +1,1 @@
+TDAT: private int read header ( char [ ] buf , int off , int len ) {  <NL> int read = 0 ;  <NL> for ( ; len > 0 & & _ header pos < _ header . length ; read + + , off + + , len - - )  <NL> buf [ off ] = _ header [ _ header pos + + ] ;  <NL>  <NL> return read ;  <NL>  }  COM: <s> read from the buffered header to the given array returning the </s>

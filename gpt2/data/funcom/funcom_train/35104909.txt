@@ -1,0 +1,1 @@
+TDAT: public int read int ( int addr ) throws memory exception {  <NL> return ( this . read byte ( addr + 3 ) & 0x ff ) < < 24 | ( this . read byte ( addr + 2 ) & 0x ff ) < < 16 | ( this . read byte ( addr + 1 ) & 0x ff ) < < 8 | ( this . read byte ( addr ) & 0x ff ) ;  <NL>  }  COM: <s> read one int from memory </s>

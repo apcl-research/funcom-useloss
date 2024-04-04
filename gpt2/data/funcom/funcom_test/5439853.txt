@@ -1,0 +1,1 @@
+TDAT: public void add resource loader ( locale a locale , url a resource root ) {  <NL> url [ ] the ur ls = new url [ 1 ] ;  <NL> the ur ls [ 0 ] = a resource root ;  <NL> class loader the resource loader = new url class loader ( the ur ls ) ;  <NL> this . localized resource loaders . put ( a locale , the resource loader ) ;  <NL>  }  COM: <s> adds a localized document root </s>

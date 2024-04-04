@@ -1,0 +1,1 @@
+TDAT: public void zoom ( int new x , int new y ) {  <NL> double tmp , x2 = x to math ( new x ) , y2 = y to math ( new y ) ;  <NL>  <NL> if ( x2 < x1 ) { tmp = x1 ; x1 = x2 ; x2 = tmp ; }  <NL> if ( y2 < y1 ) { tmp = y1 ; y1 = y2 ; y2 = tmp ; }  <NL>  <NL> automatic scale ( x1 , x2 , y1 , y2 ) ;  <NL>  }  COM: <s> this method zooms in an rectangle </s>

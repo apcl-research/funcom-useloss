@@ -1,0 +1,1 @@
+TDAT: public void add seperator ( int index ) {  <NL> synchronized ( items ) {  <NL> items . add ( index , dc menu model . seperator ) ;  <NL> dc menu model event event = new dc menu model event ( dc menu model event . add _ event , index , dc menu model . seperator , this ) ;  <NL> fire menu changed ( event ) ;  <NL>  }  <NL>  }  COM: <s> add a seperator to this menu model </s>

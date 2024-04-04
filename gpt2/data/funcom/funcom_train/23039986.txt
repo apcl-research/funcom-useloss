@@ -1,0 +1,1 @@
+TDAT: public tag load tag for text ( string text ) {  <NL> return ( tag ) session factory . get current session ( ) . create query ( " from " + tag . class . get name ( ) + " as t where t . text = : tag text " )  <NL>  . set string ( " tag text " , text )  <NL>  . unique result ( ) ;  <NL>  }  COM: <s> loads the tag object for a given tag </s>

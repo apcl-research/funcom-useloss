@@ -1,0 +1,1 @@
+TDAT: public security element get security element ( int i ) {  <NL> security element se = m hash se . get ( integer . value of ( i ) ) ;  <NL> if ( se ! = null ) return se ;  <NL> else {  <NL> se = new security element ( i ) ;  <NL> m hash se . put ( integer . value of ( i ) , se ) ;  <NL> return se ;  <NL>  }  <NL>  }  COM: <s> create a new object as needed </s>

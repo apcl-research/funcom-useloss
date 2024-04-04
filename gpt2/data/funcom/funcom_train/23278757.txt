@@ -1,0 +1,1 @@
+TDAT: public project get project by id ( long id ) {  <NL> list result = super . get hibernate template ( ) . find by named query and named param ( " project . getbyid " , " id " , id ) ;  <NL> if ( result . size ( ) < 1 ) return null ;  <NL> return ( project ) result . get ( 0 ) ;  <NL>  }  COM: <s> gets the project related to the id given </s>

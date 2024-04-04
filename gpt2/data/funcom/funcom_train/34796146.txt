@@ -1,0 +1,1 @@
+TDAT: public string get applet info ( ) {  <NL> return " plot applet " + plot box . ptplot _ release + " : a data plotter . \n "  <NL>  + " by : edward a . lee and\n " + " christopher hylands\n "  <NL>  + " ( $ id : plot applet . java , v 1 . 76 2005 / 07 / 30 05 : 30 : 56 cxh exp $ ) " ;  <NL>  }  COM: <s> return a string describing this applet </s>

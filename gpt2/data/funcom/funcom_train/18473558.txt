@@ -1,0 +1,1 @@
+TDAT: public boolean is sortable ( position position ) {  <NL> member [ ] members = position . get members ( ) ;  <NL> for ( int i = 0 ; i < members . length ; i + + )  <NL> if ( members [ i ] . get level ( ) . get hierarchy ( ) . get dimension ( ) . is measure ( ) )  <NL> return true ;  <NL> return false ;  <NL>  }  COM: <s> returns true if one of the members is a measure </s>

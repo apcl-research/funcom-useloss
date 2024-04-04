@@ -1,0 +1,1 @@
+TDAT: public site dir add dir ( string s ) throws exception {  <NL> site dir dir = new site dir ( new string buffer ( dir name )  <NL>  . append ( s ) . to string ( ) ) ;  <NL> sub dirs . push ( dir ) ;  <NL> debug _ msg ( " . add dir ( " + dir . dir name ( ) + " ) " ) ;  <NL> return dir ;  <NL>  }  COM: <s> add a subdirectory below this one prefixing a path </s>

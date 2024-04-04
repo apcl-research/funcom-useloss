@@ -1,0 +1,1 @@
+TDAT: public void step simple ( float stepsize ) {  <NL> simple stepper . instance . step ( this , time , time + stepsize ) ;  <NL> time + = stepsize ;  <NL> for ( int i = 0 ; i < step listeners . size ( ) ; i + + ) {  <NL> step listeners . get ( i ) . notify step ( this , time ) ;  <NL>  }  <NL>  }  COM: <s> steps the world using simple stepper </s>

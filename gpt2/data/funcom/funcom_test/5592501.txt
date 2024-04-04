@@ -1,0 +1,1 @@
+TDAT: public void rename tab ( file new file , wp tab tab ) throws wp exception {  <NL>  <NL> int index = index of tab ( tab . get file ( ) . get name ( ) ) ;  <NL> if ( index ! = - 1 ) {  <NL> tab . set file ( new file ) ;  <NL> this . set title at ( index , new file . get name ( ) ) ;  <NL>  }  <NL>  }  COM: <s> rename the tab title and set a new file </s>

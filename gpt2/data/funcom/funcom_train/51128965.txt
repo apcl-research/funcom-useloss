@@ -1,0 +1,1 @@
+TDAT: public string get formated date ( ) {  <NL> simple date format df = new simple date format ( " dd . mm . yyyy " ) ;  <NL> if ( this . is done ( ) ) {  <NL> return df . format ( day . get time ( ) ) ;  <NL>  } else {  <NL> return " [ " + df . format ( day . get time ( ) ) + " ] " ;  <NL>  }  <NL>  }  COM: <s> returns formated date </s>

@@ -1,0 +1,1 @@
+TDAT: public jpl consensus spectrum clone ( ) {  <NL> array list < integer > new frag spectrum i ds = new array list < integer > ( ) ;  <NL> new frag spectrum i ds . add all ( frag spectrum i ds ) ;  <NL> return new jpl consensus spectrum ( spectrum . clone ( ) , nr of occurences . clone ( ) , new frag spectrum i ds ) ;  <NL>  }  COM: <s> clone the object deep copy </s>

@@ -1,0 +1,1 @@
+TDAT: public void add ind id ( array list < financial relation > fr , int id , int group ) {  <NL> for ( int i = 0 ; i < fr . size ( ) ; i + + )  <NL> if ( fr . get ( i ) . get ca ( ) . get id ( ) = = id ) {  <NL> fr . get ( i ) . add role to verbal ( group to node ( group ) ) ;  <NL>  }  <NL>  <NL>  }  COM: <s> add group to in memory presentation </s>

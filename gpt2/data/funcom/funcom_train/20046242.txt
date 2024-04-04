@@ -1,0 +1,1 @@
+TDAT: public boolean is match to ( string tag name , x attribute list list ) {  <NL> if ( ! name . equals ( tag name ) ) return false ;  <NL> boolean result = true ;  <NL> for ( int i = 0 ; i < attr list . length ; i + + ) {  <NL> result & = check attr ( i , list ) ;  <NL>  }  <NL> return result ;  <NL>  }  COM: <s> checks if this tag matches tag passed in parameters </s>

@@ -1,0 +1,1 @@
+TDAT: private void head ( url url , http response result ) {  <NL> if ( debug ) system . out . println ( " [ checkweb : head ] started " ) ;  <NL> string method = " head " ;  <NL> this . send request ( url , method , result ) ;  <NL> if ( debug ) system . out . println ( " [ checkweb : head ] ended " ) ;  <NL>  }  COM: <s> sends a head request to the specified url </s>

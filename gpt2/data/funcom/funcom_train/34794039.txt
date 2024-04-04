@@ -1,0 +1,1 @@
+TDAT: public void set name ( string name ) {  <NL> hash decay mappings = get cache ( ) ;  <NL> synchronized ( mappings ) {  <NL> mappings . remove ( this . name ) ;  <NL> this . name = name ;  <NL> if ( null ! = name & & ! name . trim ( ) . equals ( " " ) ) {  <NL> mappings . put ( this . name , this ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> sets the name of the mapping </s>

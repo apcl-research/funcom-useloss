@@ -1,0 +1,1 @@
+TDAT: public void test primitives ( ) {  <NL> check cu (  <NL>  " class a { " +  <NL>  " int i ; " +  <NL>  " short j ; " +  <NL>  " long k ; " +  <NL>  " byte b ; " +  <NL>  " boolean n ; " +  <NL>  " float f ; " +  <NL>  " double d ; " +  <NL>  " char c ; " +  <NL>  / / " void m ( ) { } " +  <NL>  " } " ) ;  <NL>  }  COM: <s> tests the various primitive types </s>

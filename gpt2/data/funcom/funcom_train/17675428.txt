@@ -1,0 +1,1 @@
+TDAT: public void find fetch groups ( array list a ) {  <NL> fetch group [ ] groups = class meta data . fetch groups ;  <NL> int n = groups . length ;  <NL> for ( int i = 0 ; i < n ; i + + ) {  <NL> fetch group g = groups [ i ] ;  <NL> if ( g . contains ( this ) ) a . add ( g ) ;  <NL>  }  <NL>  }  COM: <s> add all fetch groups we belong to to a </s>

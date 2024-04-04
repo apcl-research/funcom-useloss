@@ -1,0 +1,1 @@
+TDAT: public void test exists ( ) throws exception {  <NL> check out test dir ( ) ;  <NL> assert true (  <NL>  " test dir is unknown : " + rep . get command output ( ) ,  <NL> rep . exists ( checked out dir name )  <NL>  ) ;  <NL> assert false ( " unknown dir exists " , rep . exists ( " thing - thing - thing " ) ) ;  <NL>  }  COM: <s> check test exists </s>

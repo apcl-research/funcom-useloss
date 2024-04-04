@@ -1,0 +1,1 @@
+TDAT: public void alter ( instance instance , transform matrix , alpha transform cxform , int ratio ) {  <NL> placement placement = new placement ( instance , matrix , cxform , null , ratio , - 1 , frame number , true , false , null ) ;  <NL>  <NL> placements . add ( placement ) ;  <NL>  }  COM: <s> alter the symbol instance by applying the given properties </s>

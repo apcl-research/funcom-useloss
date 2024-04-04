@@ -1,0 +1,1 @@
+TDAT: public string get value ( string key ) {  <NL> string res ;  <NL>  <NL> synchronized ( this . key vals ) {  <NL> res = ( string ) this . key vals . get ( key ) ;  <NL>  }  <NL> if ( log . is debug enabled ( ) ) {  <NL> this . log . debug ( " got " + key + " = ' " + res + " ' " ) ;  <NL>  }  <NL> return res ;  <NL>  }  COM: <s> gets a value from the storage object </s>

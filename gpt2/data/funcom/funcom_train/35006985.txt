@@ -1,0 +1,1 @@
+TDAT: public void print key ( ) {  <NL> system . out . println ( " pt . . . . . . . . . . . . . . . . ct " ) ;  <NL> for ( int i = 0 ; i < reflector key . length ; i + + ) {  <NL> system . out . println ( i + " . . . . . . . . . . . . . . . . . . " + reflector key [ i ] ) ;  <NL>  }  <NL>  }  COM: <s> prints the whole key for the reflector for testing purposes </s>

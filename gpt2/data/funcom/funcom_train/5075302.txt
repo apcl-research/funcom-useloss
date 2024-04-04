@@ -1,0 +1,1 @@
+TDAT: private boolean is empty ( file dir ) {  <NL> file [ ] list = dir . list files ( ) ;  <NL> for ( int i = 0 ; i < list . length ; i + + ) {  <NL> if ( list [ i ] . is file ( ) ) {  <NL> return false ;  <NL>  } else if ( ! is empty ( list [ i ] ) ) {  <NL> return false ;  <NL>  }  <NL>  }  <NL> return true ;  <NL>  }  COM: <s> checks if the directory is empty </s>

@@ -1,0 +1,1 @@
+TDAT: public void set last scan date ( final date last _ scan _ date ) {  <NL> final date old _ last _ scan _ date = this . last _ scan _ date ;  <NL> this . last _ scan _ date = last _ scan _ date ;  <NL> event _ dispatcher . last scan changed ( this , old _ last _ scan _ date , last _ scan _ date ) ;  <NL>  }  COM: <s> sets this medias last scan date </s>

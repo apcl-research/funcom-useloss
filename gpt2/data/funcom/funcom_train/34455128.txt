@@ -1,0 +1,1 @@
+TDAT: public void induce model ( graph graph , data split split ) {  <NL> super . induce model ( graph , split ) ;  <NL> tmp vector = new double [ class prior . length ] ;  <NL> local estimate = new estimate ( graph , split . get view ( ) . get node type ( ) , split . get view ( ) . get attribute ( ) ) ;  <NL>  }  COM: <s> induce the model </s>

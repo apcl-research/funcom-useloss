@@ -1,0 +1,1 @@
+TDAT: public void write ten milli cell ( int cell id , int ten milli cell id , int count , boolean left of date line ) throws io exception {  <NL> lat long bounding box llbb = ten milli to bounding box ( cell id , ten milli cell id ) ;  <NL> write out lat long bounding box ( llbb , count , left of date line ) ;  <NL>  }  COM: <s> output a tenmilli cell density </s>

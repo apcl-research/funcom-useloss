@@ -1,0 +1,1 @@
+TDAT: public void set to ( string s ) {  <NL> string tokenizer str = new string tokenizer ( s , " , ; " ) ;  <NL> to = new string [ str . count tokens ( ) ] ;  <NL> int index = 0 ;  <NL> while ( str . has more tokens ( ) ) {  <NL> to [ index + + ] = str . next token ( ) ;  <NL>  }  <NL>  }  COM: <s> parses a to string to set field array </s>

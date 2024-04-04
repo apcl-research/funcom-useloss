@@ -1,0 +1,1 @@
+TDAT: private boolean is a number ( char ch ) {  <NL> return ( ch = = ' 0 ' || ch = = ' 1 ' || ch = = ' 2 ' || ch = = ' 3 ' || ch = = ' 4 '  <NL> || ch = = ' 5 ' || ch = = ' 6 ' || ch = = ' 7 ' || ch = = ' 8 ' || ch = = ' 9 '  <NL> || ch = = swt . del || ch = = swt . bs || ch = = swt . cr || ch = = swt . tab ) ;  <NL>  }  COM: <s> check if a char is a number or del bs cr </s>

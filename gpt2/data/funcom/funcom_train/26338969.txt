@@ -1,0 +1,1 @@
+TDAT: public int set rates ( int tax , int luxury ) {  <NL> int rates = ( tax / 10 ) + ( ( luxury / 10 ) < < 4 ) ;  <NL> int ret = java bridge . server call ( protocol . s set rates , _ index , rates , null ) ;  <NL> check changes ( ) ;  <NL> return ret ;  <NL>  }  COM: <s> sets tax and luxury rates </s>

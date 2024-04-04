@@ -1,0 +1,1 @@
+TDAT: public void send cmd ( string cmd ) {  <NL> this . last command = cmd ;  <NL> if ( this . method . equals ( " ref " ) ) {  <NL> this . ref ( cmd ) ;  <NL>  }  <NL> else if ( this . method . equals ( " mod " ) ) {  <NL> this . mod ( cmd ) ;  <NL>  }  <NL> else {  <NL> this . rcon ( cmd ) ;  <NL>  }  <NL>  }  COM: <s> sends an authenticated command to the server </s>

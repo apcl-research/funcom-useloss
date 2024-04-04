@@ -1,0 +1,1 @@
+TDAT: public void create two way relationship ( node n1 , node n2 , string type , int order ) throws duplicate key exception , create exception , remote exception {  <NL> create relationship ( n1 , n2 , type , order ) ;  <NL> create relationship ( n2 , n1 , type , order ) ;  <NL>  }  COM: <s> create a two single way relationships </s>

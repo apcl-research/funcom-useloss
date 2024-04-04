@@ -1,0 +1,1 @@
+TDAT: public void run ( ) {  <NL> try {  <NL> if ( ( m _ plugin ! = null ) & & ( m _ info ! = null ) ) {  <NL> m _ plugin . add information ( m _ info ) ;  <NL>  }  <NL>  } catch ( rp exception e ) {  <NL> logger . get root logger ( ) . debug ( e . get message ( ) , e ) ;  <NL>  }  <NL>  }  COM: <s> execute the process of adding the information by the specified plugin </s>

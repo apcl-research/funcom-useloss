@@ -1,0 +1,1 @@
+TDAT: private void request ( string action target , string [ ] data ) {  <NL> hp document to send = new hp document ( parent , " request " , action target , data ) ;  <NL> if ( ! to send . is complete ( ) )  <NL> to send . write headers ( ) ;  <NL> output . write document ( to send ) ;  <NL>  }  COM: <s> makes an code action target code request to the client and includes </s>

@@ -1,0 +1,1 @@
+TDAT: public void cancel ( ) {  <NL> if ( m job instanceof cancelable print job ) {  <NL> try {  <NL>  ( ( cancelable print job ) m job ) . cancel ( ) ;  <NL>  } catch ( print exception e ) {  <NL> show error ( pooka . get property ( " print display . message . error canceling " , " error canceling job : " ) , e ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> cancels the printjob </s>

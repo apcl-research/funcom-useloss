@@ -1,0 +1,1 @@
+TDAT: public void sort ( ) {  <NL>  / / insertion sort <NL> for ( int i = 1 , j ; i < size ( ) ; i + + ) {  <NL> int t = get ( i ) ;  <NL> for ( j = i - 1 ; j > = 0 & & ( get ( j ) > t ) ; j - - ) {  <NL> set ( j + 1 , get ( j ) ) ;  <NL>  }  <NL> set ( j + 1 , t ) ;  <NL>  }  <NL>  }  COM: <s> sort the array by value </s>

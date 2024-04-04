@@ -1,0 +1,1 @@
+TDAT: protected void set border container ( string border color , int border width ) {  <NL> set border ( get container element ( ) , corners , border color ) ;  <NL> css . set property ( get container element ( ) ,  <NL> css . a . border _ width , " 0 " + border width + " px " ) ;  <NL>  }  COM: <s> set the left and or right border and color on the container element </s>

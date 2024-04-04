@@ -1,0 +1,1 @@
+TDAT: public input stream open source ( string filename ) {  <NL> try {  <NL> file f = new file ( filename ) ;  <NL> return new file input stream ( f ) ;  <NL>  } catch ( io exception e ) {  <NL> log . error ( position . nopos , " cant . read . file " , new object [ ] { filename } ) ;  <NL> return null ;  <NL>  }  <NL>  }  COM: <s> try to open input stream with given name </s>

@@ -1,0 +1,1 @@
+TDAT: public void test get fields ( ) {  <NL> field meta data [ ] fmds = _ meta test2 . get fields ( ) ;  <NL> assert equals ( " double field " , fmds [ 0 ] . get name ( ) ) ;  <NL> assert equals ( " int field " , fmds [ 2 ] . get name ( ) ) ;  <NL> assert equals ( " collection field2 " , fmds [ 8 ] . get name ( ) ) ;  <NL>  }  COM: <s> test the methods to get fields </s>

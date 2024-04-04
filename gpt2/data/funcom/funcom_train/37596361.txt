@@ -1,0 +1,1 @@
+TDAT: @ override public type context import field ( dj class c , string name ) {  <NL> import context result = new import context ( this ) ;  <NL>  / / under strict circumstances , a duplicate import for a name is illegal , but dynamic java allows it <NL> result . _ imported fields . put ( name , c ) ;  <NL> return result ;  <NL>  }  COM: <s> import the field s of </s>

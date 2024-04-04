@@ -1,0 +1,1 @@
+TDAT: public void paint frame ( graphics2d g , shape style style , boolean selected , point2d p , double r ) {  <NL> style . draw ( g , new ellipse2d . double ( p . get x ( ) - r , p . get y ( ) - r , 2 * r , 2 * r ) , selected ) ;  <NL>  }  COM: <s> paints outside frame at given window location and pixel radius </s>

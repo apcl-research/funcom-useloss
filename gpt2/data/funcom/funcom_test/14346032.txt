@@ -1,0 +1,1 @@
+TDAT: public void undo lens ( j graph pane the j graph pane , point2d point ) {  <NL> for ( int i = m _ lenses . size ( ) - 1 ; i > = 0 ; i - - ) {  <NL> lens lens = ( lens ) m _ lenses . get ( i ) ;  <NL> lens . undo lens ( the j graph pane , point ) ;  <NL>  }  <NL>  }  COM: <s> undoes the lenses </s>

@@ -1,0 +1,1 @@
+TDAT: public void draw ( graphics g ) {  <NL> int i = 0 ;  <NL> g . set color ( color ) ;  <NL> g . draw line ( x , y + height / 2 , x + width , y + height / 2 ) ;  <NL> if ( draw handles ) {  <NL> for ( i = 0 ; i < num handles ; i + + )  <NL> handle [ i ] . draw ( g ) ;  <NL>  }  <NL>  }  COM: <s> draws an xtool </s>

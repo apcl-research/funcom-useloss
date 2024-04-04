@@ -1,0 +1,1 @@
+TDAT: public void test consturctor ( ) {  <NL> new abstract button finder ( " test " ) ;  <NL> new abstract button finder ( " test " , false ) ;  <NL> new abstract button finder ( " test " , m _ valid icon3 ) ;  <NL> new abstract button finder ( m _ valid icon ) ;  <NL> new abstract button finder ( " test " , m _ valid icon , false ) ;  <NL>  }  COM: <s> test the constructor </s>

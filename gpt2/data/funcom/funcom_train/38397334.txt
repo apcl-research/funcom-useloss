@@ -1,0 +1,1 @@
+TDAT: public boolean valid coordinates ( int x , int y , int z ) {  <NL> if ( ( x > = 0 ) & & ( x < columns ( ) ) & &  <NL>  ( y > = 0 ) & & ( y < rows ( ) ) & &  <NL>  ( z > = 0 ) & & ( z < slices ( ) ) ) {  <NL> return true ;  <NL>  } else {  <NL> return false ;  <NL>  }  <NL>  }  COM: <s> determines whether coordinates are valid or not </s>

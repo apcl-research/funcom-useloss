@@ -1,0 +1,1 @@
+TDAT: public void map format ( int rtp type , format format ) {  <NL> mapped formats . put ( rtp type , format ) ;  <NL> if ( receive managers ! = null ) {  <NL> for ( int i = 0 ; i < receive managers . size ( ) ; i + + ) {  <NL> receive managers . get ( i ) . add format ( format , rtp type ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> maps a format to an rtp type identifier </s>

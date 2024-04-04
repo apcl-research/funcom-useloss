@@ -1,0 +1,1 @@
+TDAT: private void write initial recordables ( ) throws io exception {  <NL> record . record ( new calendar recordable ( env ) ) ;  <NL> record . record ( new system info recordable ( env ) ) ;  <NL> record . record ( new keyboard state recordable ( env , false , false , false ,  <NL> true , true , true ) ) ;  <NL>  }  COM: <s> writes some initial recordables to the record </s>

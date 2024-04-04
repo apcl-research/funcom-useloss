@@ -1,0 +1,1 @@
+TDAT: public void add options tab ( string title , object data , object id ) {  <NL> if ( new bean info resolver ( ) . get bean info ( data ) . get property descriptors ( ) . length > 0 ) {  <NL> property sheet page page = new property sheet page ( data , id ) ;  <NL> tabs . add tab ( title , page ) ;  <NL>  }  <NL>  }  COM: <s> adds a tab to the options pane </s>

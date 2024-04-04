@@ -1,0 +1,1 @@
+TDAT: public int get day ( ) {  <NL> final int control = cmos . get register ( rtc _ control ) ;  <NL> final int date = cmos . get register ( cmos _ rtc _ day _ of _ month ) ;  <NL> if ( ( control & rtc _ dm _ binary ) ! = 0 ) {  <NL> return date ;  <NL>  } else {  <NL> return bcd utils . bcd2bin ( date ) ;  <NL>  }  <NL>  }  COM: <s> gets the current day of the month </s>

@@ -1,0 +1,1 @@
+TDAT: public void print ( ) {  <NL> if ( ! ( ( home pane ) get view ( ) ) . print ( ) ) {  <NL> string message = string . format ( this . resource . get string ( " print error " ) , this . home . get name ( ) ) ;  <NL>  ( ( home pane ) get view ( ) ) . show error ( message ) ;  <NL>  }  <NL>  }  COM: <s> controls the print of this home </s>

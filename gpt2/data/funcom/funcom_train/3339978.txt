@@ -1,0 +1,1 @@
+TDAT: public void mouse pressed ( mouse event e ) {  <NL> if ( swing utilities . is left mouse button ( e ) ) {  <NL> if ( this . contains ( e . get x ( ) , e . get y ( ) ) ) {  <NL> if ( ! this . has focus ( ) & & this . is request focus enabled ( ) ) {  <NL> this . request focus ( ) ;  <NL>  }  <NL>  }  <NL>  }  <NL>  }  COM: <s> handle mouse input </s>

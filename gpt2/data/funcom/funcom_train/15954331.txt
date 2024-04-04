@@ -1,0 +1,1 @@
+TDAT: public void test set string ( ) throws bml exception {  <NL>  <NL> string ls value = " 123 . 01 " ;  <NL> data float ld float = new data float ( fl value ) ;  <NL> ld float . set string ( ls value ) ;  <NL> assert equals ( 123 . 01 , 123 . 01 , ( double ) ld float . get value ( ) ) ;  <NL>  }  COM: <s> test of normal float using set string </s>

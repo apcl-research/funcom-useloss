@@ -1,0 +1,1 @@
+TDAT: public void log failure ( db info db info , database exception de ) {  <NL> if ( de ! = null ) {  <NL> system . err . println ( new date ( ) + " : bdb . " + db info . get db name ( ) + " . pop ( ) failed ! " ) ;  <NL> de . print stack trace ( system . err ) ;  <NL>  }  <NL>  }  COM: <s> log failure due to a database exception </s>

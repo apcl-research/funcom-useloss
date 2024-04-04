@@ -1,0 +1,1 @@
+TDAT: public void perform defaults ( ) {  <NL> odin text . set text ( odin project . get default odin ( ) ) ;  <NL> args text . set text ( odin project . get default args ( ) ) ;  <NL> cache text . set text ( odin project . get default cache ( ) ) ;  <NL> view text . set text ( odin project . get default view ( ) ) ;  <NL>  }  COM: <s> reset to the defaults </s>

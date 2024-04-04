@@ -1,0 +1,1 @@
+TDAT: public void set guid value ( final guid value ) {  <NL> this . container type . assert constraints ( this . name , value . get bytes ( ) ,  <NL> type _ guid , this . stream number , this . language index ) ;  <NL> this . content = value . get bytes ( ) ;  <NL> this . descriptor type = type _ guid ;  <NL>  }  COM: <s> sets the value of the metadata descriptor </s>

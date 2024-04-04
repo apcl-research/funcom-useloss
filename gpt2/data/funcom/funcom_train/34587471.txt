@@ -1,0 +1,1 @@
+TDAT: public void end sync ( ) throws sync source exception {  <NL> logger . debug ( " ! - - - - - - - - - - - - end synchronization - - - - - - - - - - - - - ! " ) ;  <NL> if ( zimbra port ! = null )  <NL> zimbra port . close ( ) ;  <NL> context = null ;  <NL>  <NL> super . end sync ( ) ;  <NL>  }  COM: <s> called after the modifications have been applied </s>

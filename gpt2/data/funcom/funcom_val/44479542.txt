@@ -1,0 +1,1 @@
+TDAT: public void refresh data ( ) {  <NL> for ( iterator i = get id map ( ) . key set ( ) . iterator ( ) ; i . has next ( ) ; ) {  <NL> object c = get id map ( ) . get ( ( string ) i . next ( ) ) ;  <NL> if ( c instanceof data source ) {  <NL>  ( ( data source ) c ) . clear cache ( ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> reset the cacheable data sources by calling </s>

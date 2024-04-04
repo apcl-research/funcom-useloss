@@ -1,0 +1,1 @@
+TDAT: public string get attribute value ( string namespace uri , string name ) {  <NL> if ( this . get attributes ( ) ! = null ) {  <NL> xml attribute attr = this . get attributes ( ) . find ( namespace uri , name ) ;  <NL> if ( attr ! = null ) return attr . get node info ( ) . get node value ( ) ;  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> gets a child attribute value </s>

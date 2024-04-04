@@ -1,0 +1,1 @@
+TDAT: public void set origin ( point2d origin ) {  <NL> if ( origin = = null ) {  <NL> return ;  <NL>  }  <NL>  <NL> point2d old = get origin ( ) ;  <NL> origin x = origin . get x ( ) ;  <NL> origin y = origin . get y ( ) ;  <NL> fire property change ( " origin " , old , get origin ( ) ) ;  <NL> repaint ( ) ;  <NL>  }  COM: <s> p sets the origin of the graph </s>

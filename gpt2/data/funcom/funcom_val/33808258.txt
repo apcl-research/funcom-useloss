@@ -1,0 +1,1 @@
+TDAT: final static protected string replace ( string s , char c , string sub ) {  <NL> char x ;  <NL> string r = " " ;  <NL> for ( int i = 0 ; i < s . length ( ) ; + + i ) {  <NL> x = s . char at ( i ) ;  <NL> if ( x = = c )  <NL> r + = sub ;  <NL> else <NL> r + = x ;  <NL>  }  <NL> return r ;  <NL>  }  COM: <s> replace all code c code characters in code s code with string </s>

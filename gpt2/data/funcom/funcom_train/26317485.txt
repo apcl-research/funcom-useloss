@@ -1,0 +1,1 @@
+TDAT: public void reverse facing ( ) {  <NL> facing = move path . get adjusted facing ( facing , move step type . turn _ right ) ;  <NL> facing = move path . get adjusted facing ( facing , move step type . turn _ right ) ;  <NL> facing = move path . get adjusted facing ( facing , move step type . turn _ right ) ;  <NL>  }  COM: <s> for yaws reverse the current facing </s>

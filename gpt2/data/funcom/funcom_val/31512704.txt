@@ -1,0 +1,1 @@
+TDAT: public void draw rect ( int x , int y , int width , int height ) {  <NL> ge . stroke path ( ) ;  <NL> ge . rectangle ( t x ( ( double ) x ) , t y ( ( double ) y ) - ( double ) height , ( double ) width , ( double ) height ) ;  <NL> ge . stroke path ( ) ;  <NL>  }  COM: <s> we overide draw rect because the default draws 4 lines which dont actually </s>

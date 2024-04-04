@@ -1,0 +1,1 @@
+TDAT: public void test jm lprecedence2a ( ) {  <NL> help expr ( " a < = = > b < = = > c < = = > d " ,  <NL> jml binary . class , 16 ,  <NL> jml binary . class , 9 ,  <NL> jml binary . class , 2 ,  <NL> jc ident . class , 0 ,  <NL> jc ident . class , 7 ,  <NL> jc ident . class , 14 ,  <NL> jc ident . class , 21 ) ;  <NL>  }  COM: <s> test association of equiv operators </s>

@@ -1,0 +1,1 @@
+TDAT: public int get df residual ( string model name ) throws r srv exception , r web service exception {  <NL> load model ( model name , " lm " , connection ) ;  <NL>  <NL> rexp ret = connection . eval ( model name + " $ df . residual " ) ;  <NL> if ( ! maintain state ) connection . close ( ) ;  <NL> return ret . as int ( ) ;  <NL>  }  COM: <s> gets the code df </s>

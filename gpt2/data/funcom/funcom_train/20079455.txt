@@ -1,0 +1,1 @@
+TDAT: public void move ( int x , int y ) {  <NL> if ( running ) return ;  <NL> rectangle r = my dom . get bounds ( elem , false ) ;  <NL> effect xe = new effect ( elem , " x " , r . x , x ) ;  <NL> effect ye = new effect ( elem , " y " , r . y , y ) ;  <NL> start ( new effect [ ] { xe , ye } ) ;  <NL>  }  COM: <s> moves a element to a new location </s>

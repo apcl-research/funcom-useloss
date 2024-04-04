@@ -1,0 +1,1 @@
+TDAT: protected string get color name ( color c ) {  <NL> color [ ] ar = canvas draw . colors ;  <NL> int n = ar . length - 1 ; / / ignore null color at end <NL> for ( int i = 0 ; i < n ; i + + ) {  <NL> if ( ar [ i ] = = c ) {  <NL> return canvas draw . color _ names [ i ] ;  <NL>  }  <NL>  }  <NL> return " white " ;  <NL>  }  COM: <s> return the name of the given color </s>

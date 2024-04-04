@@ -1,0 +1,1 @@
+TDAT: public v hist find or create v hist ( string logical name ) {  <NL> v hist vh = ( v hist ) v hist map . get ( ( object ) logical name ) ;  <NL> if ( vh = = null ) {  <NL> vh = new v hist ( ) ;  <NL> v hist map . put ( ( object ) logical name , ( object ) vh ) ;  <NL>  }  <NL> return vh ;  <NL>  }  COM: <s> if created the new vhist is empty </s>

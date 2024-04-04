@@ -1,0 +1,1 @@
+TDAT: protected string build select goods ids sql ( int group id ) {  <NL> return " select distinct gu . id as sku _ id from goods g , "  <NL>  + " sku gu , goods _ group gg where gg . id = "  <NL>  + group id <NL>  + " and gg . id = g . group _ id and g . id = gu . ref _ goods order by gu . id " ;  <NL>  }  COM: <s> sql query to select goods by group id </s>

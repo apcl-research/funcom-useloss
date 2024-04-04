@@ -1,0 +1,1 @@
+TDAT: public void test multi array ( ) {  <NL> assert equals ( " long [ ] [ ] [ ] [ ] [ { { { { 1 , 2 , 3 } , { 4 } } , { { 5 } } } } ] " , to string facade <NL>  . to string ( new long [ ] [ ] [ ] [ ] { { { { 1 , 2 , 3 } , { 4 } } ,  <NL>  { { 5 } } } } ) ) ;  <NL>  }  COM: <s> tests support for multidimensional arrays </s>

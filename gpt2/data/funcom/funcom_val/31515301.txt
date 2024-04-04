@@ -1,0 +1,1 @@
+TDAT: public image find image ( long sectionid , long nodeid , string name ) throws sql exception {  <NL> return ( image ) find first by sql ( get sql select ( ) + " where sectionid = " + sectionid + " and nodeid = " + nodeid + " and nm = ' " + name + " ' and pendingimageid = 0 " ) ;  <NL>  }  COM: <s> return an image based on the section or nodeid </s>

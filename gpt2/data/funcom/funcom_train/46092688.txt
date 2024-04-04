@@ -1,0 +1,1 @@
+TDAT: private character is char token ( char ch ) {  <NL> string all elements = ( string ) get operators ( ) . get ( 0 ) ;  <NL> for ( int i = 0 ; i < all elements . length ( ) ; i + + )  <NL> if ( all elements . char at ( i ) = = ch ) return new character ( ch ) ;  <NL> return null ;  <NL>  }  COM: <s> returns null if ch isnt token </s>

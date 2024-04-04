@@ -1,0 +1,1 @@
+TDAT: private i step find first ( i step root , string s ) {  <NL> enumeration e = root . children ( ) ;  <NL> while ( e . has more elements ( ) ) {  <NL> i step son = ( i step ) e . next element ( ) ;  <NL> if ( s . equals ( son . get tree string ( false , false ) ) ) return son ;  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> method find first </s>

@@ -1,0 +1,1 @@
+TDAT: public portal user ( object [ ] user ) {  <NL> super ( val ) ;  <NL> for ( int i = 0 ; i < math . min ( val . _ members . length , user . length ) ; i + + )  <NL>  _ data [ i ] = null = = user [ i ] ? new object [ 0 ] : new object [ ] { user [ i ] } ;  <NL>  }  COM: <s> create a new user </s>

@@ -1,0 +1,1 @@
+TDAT: private void add gears ( ) {  <NL> for ( int i = 0 ; i < this . amount of gears ; i + + ) {  <NL> gears . add ( new gear ( this . x + ( int ) ( this . width / 1 . 2 ) * i + ( int ) ( this . width / 20 ) ,  <NL> this . y + ( int ) ( this . width / 3 ) ,  <NL>  ( int ) ( this . width / 1 . 6 ) ) ) ;  <NL>  }  <NL>  }  COM: <s> create gear objects for this </s>

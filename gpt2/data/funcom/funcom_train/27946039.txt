@@ -1,0 +1,1 @@
+TDAT: private int fine scale ( int x ) {  <NL> if ( x < = 10 )  <NL> return 10 ;  <NL> int d = 1 ;  <NL> int i = x ;  <NL> while ( i > = 10 ) {  <NL> i / = 10 ;  <NL> d * = 10 ;  <NL>  }  <NL>  / / d is power of than < = x <NL> return ( x + d - 1 ) / d * d ;  <NL>  }  COM: <s> returns round number greater or equal to argument </s>

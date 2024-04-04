@@ -1,0 +1,1 @@
+TDAT: protected void fire status changed ( string e ) {  <NL> if ( status listeners ! = null ) {  <NL> vector listeners = status listeners ;  <NL> int count = listeners . size ( ) ;  <NL> for ( int i = 0 ; i < count ; i + + ) {  <NL>  ( ( status listener ) listeners . element at ( i ) ) . status changed ( e ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> notifies all the </s>

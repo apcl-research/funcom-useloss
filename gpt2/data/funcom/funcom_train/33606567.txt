@@ -1,0 +1,1 @@
+TDAT: public void test init lul ( ) {  <NL> system . out . println ( " init lul " ) ;  <NL> temperley lieb term x = new temperley lieb term ( ) ;  <NL> x . init lul ( 2 , 3 , 3 ) ;  <NL> assert equals ( " 233 " , " { ( 1 - 8 ) ( 2 - 3 ) ( 4 - 7 ) ( 5 - 6 ) } in tl ( 5 , 3 ) " , x . to long string ( ) ) ;  <NL>  }  COM: <s> test of init lul method </s>

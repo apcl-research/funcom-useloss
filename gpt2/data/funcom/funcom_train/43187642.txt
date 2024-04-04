@@ -1,0 +1,1 @@
+TDAT: public tool tip ( string str text ) {  <NL> super ( new frame ( ) ) ;  <NL>  <NL> font font ;  <NL>  <NL> arr strings = new string [ 1 ] ;  <NL> arr strings [ 0 ] = new string ( str text ) ;  <NL> font = new font ( " helvetica " , font . plain , 10 ) ;  <NL> this . set font ( font ) ;  <NL> resize popup ( ) ;  <NL>  }  COM: <s> constructs the tool tip object </s>

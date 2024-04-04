@@ -1,0 +1,1 @@
+TDAT: public void add rule ( rule rule ) {  <NL> m _ del rules by original rule . put ( rule , generate del rules ( rule ) ) ;  <NL> m _ red rule by original rule . put ( rule , generate red rule ( rule ) ) ;  <NL> m _ ins rules by original rule . put ( rule , generate ins rules ( rule ) ) ;  <NL>  }  COM: <s> adds a rule that defines this predicate to this object </s>

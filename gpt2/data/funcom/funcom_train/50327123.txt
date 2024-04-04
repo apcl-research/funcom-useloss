@@ -1,0 +1,1 @@
+TDAT: public void note write complete ( int block ) {  <NL>  / / check to see if we ' re doing a write of an entire se <NL> int section = block % ( entrysize / 4 ) ;  <NL> if ( keep writing & & ( section < ( entrysize / 4 - 1 ) ) ) {  <NL> send write ( block + 1 ) ;  <NL>  } else {  <NL> keep writing = false ;  <NL>  }  <NL>  }  COM: <s> keep a write going if needed </s>

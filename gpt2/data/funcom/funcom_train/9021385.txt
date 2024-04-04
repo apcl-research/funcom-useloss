@@ -1,0 +1,1 @@
+TDAT: public boolean inc match ( string st ) {  <NL> str pos sp = new str pos ( this ) ;  <NL> int i ;  <NL> for ( i = 0 ; i < st . length ( ) ; i + + ) {  <NL> if ( ! sp . match ( st . char at ( i ) ) )  <NL> return false ;  <NL> sp . inc ( ) ;  <NL>  }  <NL> dup ( sp ) ;  <NL> return true ;  <NL>  }  COM: <s> increment the string pointer by each character in </s>

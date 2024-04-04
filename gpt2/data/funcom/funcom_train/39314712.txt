@@ -1,0 +1,1 @@
+TDAT: public void test get eraser shape ( ) {  <NL> system . out . println ( " test get eraser shape " ) ;  <NL> eraser tool my eraser = new eraser tool ( ) ;  <NL> rectangle r = new rectangle ( 7 , 7 , 6 , 6 ) ;  <NL> assert equals ( my eraser . get eraser shape ( 10 , 10 ) , r ) ;  <NL>  }  COM: <s> test of get eraser shape method of class eraser tool </s>

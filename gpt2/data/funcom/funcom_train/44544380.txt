@@ -1,0 +1,1 @@
+TDAT: public void test trim filename unix paths src not ends with slash ( ) {  <NL> final string the src dir = " / users / tester / src " ;  <NL> final string the file path = " / users / tester / src / main / java / com / test / some test . java " ;  <NL> validate ( the src dir , the file path ) ;  <NL>  }  COM: <s> test trim filename with a unix style path and src dir </s>

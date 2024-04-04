@@ -1,0 +1,1 @@
+TDAT: public void print ( print writer out , phylogeny phylo , boolean print lengths , boolean print internal labels , boolean nhx ) {  <NL> element node = phylo . get root clade ( ) ;  <NL> this . print ( out , phylo , node , print lengths , print internal labels , nhx ) ;  <NL>  }  COM: <s> prints out a </s>

@@ -1,0 +1,1 @@
+TDAT: public void set oem name ( string name ) {  <NL> for ( int i = 0 ; i < 8 ; i + + ) {  <NL> char ch ;  <NL> if ( i < name . length ( ) ) {  <NL> ch = name . char at ( i ) ;  <NL>  } else {  <NL> ch = ( char ) 0 ;  <NL>  }  <NL> set8 ( 0x3 + i , ch ) ;  <NL>  }  <NL>  }  COM: <s> sets the oem name </s>

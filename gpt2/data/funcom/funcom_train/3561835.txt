@@ -1,0 +1,1 @@
+TDAT: public void expand ( javax . swing . j tree tree , javax . swing . tree . tree path path ) {  <NL> object [ ] temp object ;  <NL>  <NL> temp object = new object [ 2 ] ;  <NL> temp object [ 0 ] = tree ;  <NL> temp object [ 1 ] = path ;  <NL> node queue . put ( temp object ) ;  <NL> if ( ! processing )  <NL> restart dispatch ( ) ;  <NL>  }  COM: <s> expands a node </s>

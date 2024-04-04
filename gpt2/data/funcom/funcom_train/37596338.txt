@@ -1,0 +1,1 @@
+TDAT: private void update all stacks ( throwable cause , string [ ] [ ] extra stack ) {  <NL> stack trace element [ ] current = new throwable ( ) . get stack trace ( ) ;  <NL> while ( cause ! = null ) {  <NL> update stack ( cause , current , extra stack ) ;  <NL> cause = cause . get cause ( ) ;  <NL>  }  <NL>  }  COM: <s> eliminate matching stack elements in </s>

@@ -1,0 +1,1 @@
+TDAT: public double local position ( double t ) {  <NL> int i = this . curve index ( t ) ;  <NL> t curve = curves . get ( i ) ;  <NL> double t0 = curve . get t0 ( ) ;  <NL> double t1 = curve . get t1 ( ) ;  <NL> return curves2d . from unit segment ( t - 2 * i , t0 , t1 ) ;  <NL>  }  COM: <s> converts the position on the curve set which is comprised between 0 and </s>

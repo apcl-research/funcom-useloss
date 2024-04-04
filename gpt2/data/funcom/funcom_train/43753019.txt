@@ -1,0 +1,1 @@
+TDAT: private int get item index in cart ( string item name ) {  <NL> for ( int i = 0 ; i < item cart table . get row count ( ) ; i + + ) {  <NL> string row item name = item cart table . get text ( i , 1 ) ;  <NL> if ( row item name . equals ( item name ) ) {  <NL> return i ;  <NL>  }  <NL>  }  <NL> return - 1 ;  <NL>  }  COM: <s> returns 1 if none found </s>

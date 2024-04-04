@@ -1,0 +1,1 @@
+TDAT: public void add go term ( string go term ) {  <NL>  / / drop n / a terms - not sure why thats even in database ? ? ?  <NL> if ( go term = = na ) return ; / / error msg ?  <NL> go term set . add ( go term ) ;  <NL>  / / graph elt set . get current graph ( ) . add go term ( go term ) ; ? ? ?  <NL>  }  COM: <s> should we use term object in view </s>

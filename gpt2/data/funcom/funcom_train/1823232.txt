@@ -1,0 +1,1 @@
+TDAT: public int get field number ( string name ) {  <NL> for ( int i = 0 ; i < numfields ; i + + ) {  <NL>  / / system . out . println ( i ) ;  <NL> if ( name . equals ignore case ( fielddef [ i ] . fieldname . to string ( ) ) ) {  <NL> return i ;  <NL>  }  <NL>  }  <NL> return - 1 ; / / not found <NL>  }  COM: <s> looks up the field number for the given named column </s>

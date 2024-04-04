@@ -1,0 +1,1 @@
+TDAT: protected int get int ( byte [ ] array ) {  <NL> int i = ( ( array [ 3 ] & 0x ff ) < < 24 ) | <NL>  ( ( array [ 2 ] & 0x ff ) < < 16 ) | <NL>  ( ( array [ 1 ] & 0x ff ) < < 8 ) | <NL>  ( array [ 0 ] & 0x ff ) ;  <NL> return i ;  <NL>  }  COM: <s> reconstructs an int from a bitwise byte array </s>

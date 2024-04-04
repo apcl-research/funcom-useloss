@@ -1,0 +1,1 @@
+TDAT: public void set version string ( string sversion ) {  <NL> sversion = sversion . replace ( ' . ' , ' ' ) ;  <NL> string [ ] s = sversion . split ( " " ) ;  <NL> version = ( byte ) ( ( integer . parse int ( s [ 0 ] ) & 0x0f ) < < 4 | <NL>  ( integer . parse int ( s [ 1 ] ) ) ) ;  <NL>  }  COM: <s> set the version via a formatted string major </s>

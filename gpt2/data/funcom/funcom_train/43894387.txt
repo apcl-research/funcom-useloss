@@ -1,0 +1,1 @@
+TDAT: protected service info create meta data ( data store data store , progress listener monitor ) {  <NL> return new default service info ( data store factory . get display name ( ) ,  <NL> data store factory . get description ( ) , null , null , null , null , null , null ) ;  <NL>  }  COM: <s> creates the service metadata </s>

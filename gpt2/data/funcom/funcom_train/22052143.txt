@@ -1,0 +1,1 @@
+TDAT: public int sort row ( vector v1 , vector v2 ) {  <NL> if ( v1 . size ( ) < = m _ sort col ) {  <NL> return 0 ;  <NL>  }  <NL> if ( v1 . size ( ) < = m _ sort col ) {  <NL> return 0 ;  <NL>  }  <NL> return sort cell ( ( ( vector ) v1 ) . element at ( m _ sort col ) ,  <NL>  ( ( vector ) v2 ) . element at ( m _ sort col ) ) ;  <NL>  }  COM: <s> compare two rows </s>

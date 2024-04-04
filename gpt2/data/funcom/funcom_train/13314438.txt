@@ -1,0 +1,1 @@
+TDAT: public void visit ( user scalar type def n , a argu ) {  <NL> n . node token . accept ( this , argu ) ;  <NL> n . user scalar type name . accept ( this , argu ) ;  <NL> n . node optional . accept ( this , argu ) ;  <NL> n . node optional1 . accept ( this , argu ) ;  <NL> n . node choice . accept ( this , argu ) ;  <NL>  }  COM: <s> node token type </s>

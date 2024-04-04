@@ -1,0 +1,1 @@
+TDAT: public void set title ( string value ) {  <NL> node list titles = get document ( ) . get elements by tag name ( " title " ) ;  <NL> if ( titles . get length ( ) = = 1 ) {  <NL> dom util . set element text ( ( element ) titles . item ( 0 ) , value = = null ? " " : value ) ;  <NL>  }  <NL>  }  COM: <s> convenience method to set the title of the document </s>

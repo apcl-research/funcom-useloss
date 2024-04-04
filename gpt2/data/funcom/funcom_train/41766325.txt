@@ -1,0 +1,1 @@
+TDAT: public void to rgb ( rgb image image , int dest x , int dest y , int x , int y , int width , int height ) {  <NL> get rgb ( image . get rgb ( ) , dest x * dest y , width , x , y , width , height ) ;  <NL>  }  COM: <s> extracts data from this image into the given rgbimage </s>

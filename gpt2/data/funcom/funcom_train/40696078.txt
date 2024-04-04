@@ -1,0 +1,1 @@
+TDAT: public void on module load ( ) {  <NL> if ( ! g data . is loaded ( default package ) ) {  <NL> g data . load g data api ( g data demo . gdata _ api _ key , new runnable ( ) {  <NL> public void run ( ) {  <NL> on g data load ( ) ;  <NL>  }  <NL>  } , default package ) ;  <NL>  } else {  <NL> on g data load ( ) ;  <NL>  }  <NL>  }  COM: <s> the entrypoint for this demo </s>

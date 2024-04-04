@@ -1,0 +1,1 @@
+TDAT: public problem ( string agent name , map < string , string > owners , map < string , v [ ] > domains , list < ? extends utility solution space < v , u > > spaces ) {  <NL> this ( agent name , owners , domains , spaces , false ) ;  <NL>  }  COM: <s> constructor for a minimization problem </s>

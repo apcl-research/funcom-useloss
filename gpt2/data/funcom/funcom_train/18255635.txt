@@ -1,0 +1,1 @@
+TDAT: public boolean is valid ( int x position , int y position ) {  <NL> if ( ( x position > = 0 ) & & ( x position < cells . length ) & & ( y position > = 0 ) & & ( cells . length > 0 ) & & ( y position < cells [ 0 ] . length ) ) {  <NL> return true ;  <NL>  }  <NL> return false ;  <NL>  }  COM: <s> determines whether the supplied position is valid in the space </s>

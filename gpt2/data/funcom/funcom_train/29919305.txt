@@ -1,0 +1,1 @@
+TDAT: public void start server ( ) throws sql exception , io exception {  <NL> dao = dao factory . get dao factory ( database type . hsqldb , properties ) ;  <NL> logger . debug ( " starting the server . . . " ) ;  <NL> start ( ) ;  <NL> logger . info ( " started server listening at port " + elvyx . get port ( ) + " . " ) ;  <NL>  }  COM: <s> start the elvyx server </s>

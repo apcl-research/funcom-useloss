@@ -1,0 +1,1 @@
+TDAT: private string id string ( int id1 , int id2 ) {  <NL> return " 0x " + integer . to hex string ( id2 & 0x7f ) + " 0x "  <NL>  + integer . to hex string ( id1 & 0x7f ) + " ( "  <NL>  + ( ( id2 & 0x7f ) * 128 + ( id1 & 0x7f ) ) + " ) " ;  <NL>  } / / end of private string id string ( int id1 , int id2 )  COM: <s> convert throttle id to a human friendly format </s>

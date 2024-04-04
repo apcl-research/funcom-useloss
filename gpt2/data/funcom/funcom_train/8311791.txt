@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> string prefix = get prefix ( ) ;  <NL> string q name = " " . equals ( prefix ) ? get local name ( ) : ( ( get prefix ( ) ) + " : " ) + ( get local name ( ) ) ;  <NL> return ( " [ ( default name step ) : " + q name ) + " ] " ;  <NL>  }  COM: <s> returns a full information debugging string </s>

@@ -1,0 +1,1 @@
+TDAT: public void show ( j tree comp tree , j table comp table , int x , int y , deploy tree panel parent panel ) {  <NL> temp tree = comp tree ;  <NL> temp table = comp table ;  <NL> temp x = x ;  <NL> temp y = y ;  <NL> this . parent = parent panel ;  <NL> popup table . show ( ( component ) comp table , x , y ) ;  <NL>  }  COM: <s> displays the popup table object </s>

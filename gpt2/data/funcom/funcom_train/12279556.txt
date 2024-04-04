@@ -1,0 +1,1 @@
+TDAT: public menu item get child ( string id ) {  <NL> if ( children ! = null ) {  <NL> for ( iterator i = children . iterator ( ) ; i . has next ( ) ; ) {  <NL> menu item it = ( menu item ) i . next ( ) ;  <NL> if ( it . get id ( ) . equals ( id ) ) {  <NL> return it ;  <NL>  }  <NL>  }  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> get a child menu item given its name </s>

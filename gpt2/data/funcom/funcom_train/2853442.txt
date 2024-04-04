@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> string buffer sb = new string buffer ( " outgoing message to " )  <NL>  . append ( addr )  <NL>  . append ( ' : ' )  <NL>  . append ( port )  <NL>  . append ( " \n " )  <NL>  . append ( string lib . byte array to hex ( msg , 0 , msg . length ) ) ;  <NL> return sb . to string ( ) ;  <NL>  }  COM: <s> xxx preliminary format </s>

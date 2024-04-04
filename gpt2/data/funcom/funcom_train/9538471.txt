@@ -1,0 +1,1 @@
+TDAT: public void set suspend ( int s ) {  <NL> if ( s = = suspend ) {  <NL> return ;  <NL>  }  <NL> int old = suspend ;  <NL> suspend = s ;  <NL> if ( javalb ! = null ) {  <NL> javalb . set suspend ( s ) ;  <NL>  }  <NL> fire property change ( prop _ suspend , new integer ( old ) , new integer ( s ) ) ;  <NL>  }  COM: <s> sets value of suspend property </s>

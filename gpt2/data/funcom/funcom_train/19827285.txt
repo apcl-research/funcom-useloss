@@ -1,0 +1,1 @@
+TDAT: public int index of ( component comp ) {  <NL> int max = get model ( ) . size ( ) ;  <NL> tab data model mdl = get model ( ) ;  <NL> for ( int i = 0 ; i < max ; i + + ) {  <NL> if ( get component converter ( ) . get component ( mdl . get tab ( i ) ) = = comp ) {  <NL> return i ;  <NL>  }  <NL>  }  <NL> return - 1 ;  <NL>  }  COM: <s> get the index of a component </s>

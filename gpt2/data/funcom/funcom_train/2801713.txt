@@ -1,0 +1,1 @@
+TDAT: public int get type ( ) {  <NL> int type = super . type ;  <NL> if ( ( type = = psf message types . any ) & & ( super . data ! = null ) ) {  <NL> rv utils utils = new rv utils ( ) ;  <NL> type = utils . native type ( super . data . get class ( ) ) ;  <NL> set type ( type ) ;  <NL>  }  <NL> return type ;  <NL>  }  COM: <s> returns the type of the object </s>

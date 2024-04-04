@@ -1,0 +1,1 @@
+TDAT: private void read ( ) {  <NL> data . reset ( ) ;  <NL> data . read byte ( ) ;  <NL> data . read short int ( ) ;  <NL> for ( int i = 0 ; i < page count ; i + = 8 ) {  <NL> int x = data . read byte ( ) & 255 ;  <NL> used . set byte ( i , x ) ;  <NL>  }  <NL> full = false ;  <NL>  }  COM: <s> read the page from the disk </s>

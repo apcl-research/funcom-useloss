@@ -1,0 +1,1 @@
+TDAT: public void flooding ( graph g , int [ ] b , int k ) {  <NL>  <NL> dist ( g , k ) ;  <NL>  <NL> for ( int i = 0 ; i < b . length ; + + i ) b [ i ] = 0 ;  <NL> for ( int i = 0 ; i < d . length ; + + i )  <NL>  {  <NL> if ( d [ i ] > = 0 & & d [ i ] < b . length ) b [ d [ i ] ] + + ;  <NL>  }  <NL>  }  COM: <s> performs flooding from given node </s>

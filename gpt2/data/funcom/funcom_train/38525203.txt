@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> string to return = " [ " ;  <NL> for ( iterator it = class list . values ( ) . iterator ( ) ; it . has next ( ) ; ) {  <NL> to return + = ( " , " + ( ( dep class ) it . next ( ) ) . get name ( ) ) ;  <NL>  }  <NL>  <NL> return to return + " ] " ;  <NL>  }  COM: <s> return a string value describing the list </s>

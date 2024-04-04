@@ -1,0 +1,1 @@
+TDAT: protected void do stop ( ) {  <NL> if ( this . intf = = null ) {  <NL> this . result . set text ( " interface not running " ) ;  <NL> return ;  <NL>  }  <NL> this . intf . remove property change listener ( this ) ;  <NL> this . intf . stop ( ) ;  <NL> this . intf = null ;  <NL> this . result . set text ( " interface stopped " ) ;  <NL>  }  COM: <s> stop the interface </s>

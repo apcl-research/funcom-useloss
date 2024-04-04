@@ -1,0 +1,1 @@
+TDAT: public void dump dot ( file writer f ) throws io exception {  <NL> string label = " " + acoustic score + " , " + lm score ;  <NL> f . write ( " \tnode " + from node . get id ( ) + " - > node " + to node . get id ( )  <NL>  + " [ label = \ " " + label + " \ " ] \n " ) ;  <NL>  }  COM: <s> internal routine used when dumping a lattice as an graphviz file </s>

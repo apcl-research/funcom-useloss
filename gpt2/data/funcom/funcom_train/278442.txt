@@ -1,0 +1,1 @@
+TDAT: public void set pdb file ( file pdb file ) {  <NL> if ( pdb file . exists ( ) & & ! pdb file . can write ( ) ) {  <NL> add error ( " { 0 } exists but is not writable " , new object [ ] { pdb file . get absolute path ( ) } ) ;  <NL>  }  <NL> this . pdb file = pdb file ;  <NL>  }  COM: <s> sets the pdb file </s>

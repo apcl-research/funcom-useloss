@@ -1,0 +1,1 @@
+TDAT: public void set sw1 ( int sw1 ) throws illegal argument exception {  <NL> sw1 & = 0x ff ;  <NL> if ( ( ( sw1 & 0x f0 ) ! = 0x90 ) & &  <NL>  ( ( sw1 & 0x f0 ) ! = 0x60 ) )  <NL> throw new illegal argument exception ( " sw1 = 0x " + a string utilities . byte to hex ( sw1 ) ) ;  <NL> this . sw1 = ( byte ) sw1 ;  <NL>  }  COM: <s> set the value of sw1 </s>

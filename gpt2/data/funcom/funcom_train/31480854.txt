@@ -1,0 +1,1 @@
+TDAT: public void write ( string str , int off , int len ) throws io exception {  <NL> char [ ] ca = new char [ len ] ; / / char array to put the slice <NL> str . get chars ( off , off + len , ca , 0 ) ; / / of string in .  <NL> this . write ( ca , 0 , ca . length ) ;  <NL>  }  COM: <s> write a portion of a string </s>

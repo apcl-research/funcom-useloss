@@ -1,0 +1,1 @@
+TDAT: protected void print metrics row ( string header key , int count ) {  <NL> out . print ( " < tr > < td > " ) ;  <NL> out . print ( resources . get html ( " report . " + header key ) ) ;  <NL> out . print ( " : & nbsp ; < / td > < td > " ) ;  <NL> out . print ( count ) ;  <NL> out . println ( " < / td > < / tr > " ) ;  <NL>  }  COM: <s> print out one row of metrics </s>

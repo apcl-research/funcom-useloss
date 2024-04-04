@@ -1,0 +1,1 @@
+TDAT: private boolean get bundle stability ( bundle context bc ) {  <NL> boolean stability = true ;  <NL> bundle [ ] bundles = bc . get bundles ( ) ;  <NL> for ( int i = 0 ; i < bundles . length ; i + + ) {  <NL> stability = stability & & ( bundles [ i ] . get state ( ) = = bundle . active ) ;  <NL>  }  <NL> return stability ;  <NL>  }  COM: <s> are bundle stables </s>

@@ -1,0 +1,1 @@
+TDAT: protected void report exception ( exception e ) {  <NL> assert e ! = null ;  <NL>  <NL> findbugs plugin . get default ( ) . log exception ( e , e . get localized message ( ) ) ;  <NL> message dialog . open error ( findbugs plugin . get shell ( ) , " bug resolution failed . " , e . get localized message ( ) ) ;  <NL>  }  COM: <s> reports an exception to the user </s>

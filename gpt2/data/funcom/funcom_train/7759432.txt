@@ -1,0 +1,1 @@
+TDAT: public void set relay seed ur is ( list seeds ) {  <NL> relay config . clear seed relays ( ) ;  <NL> for ( iterator it = seeds . iterator ( ) ; it . has next ( ) ; ) {  <NL> string seed str = ( string ) it . next ( ) ;  <NL> relay config . add seed relay ( new endpoint address ( seed str ) ) ;  <NL>  }  <NL>  }  COM: <s> sets the list relay seeds represented as strings </s>

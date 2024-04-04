@@ -1,0 +1,1 @@
+TDAT: public void set selection path ( tree path path ) {  <NL> try {  <NL> fire disabled = true ;  <NL>  <NL> for ( int i = 0 ; i < path . get path count ( ) ; i + + ) {  <NL> select row ( path . get path component ( i ) , i , path ) ;  <NL>  }  <NL>  }  <NL> finally {  <NL> fire disabled = false ;  <NL>  }  <NL>  }  COM: <s> sets new selection path and fires an event </s>

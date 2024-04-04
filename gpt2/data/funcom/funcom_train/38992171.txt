@@ -1,0 +1,1 @@
+TDAT: public void reset ( ) {  <NL> angles = new vector < double > ( ) ;  <NL> cursor . set location ( 20 , this . get height ( ) / 2 ) ;  <NL> path . reset ( ) ;  <NL> path . move to ( 20 , this . get height ( ) / 2 ) ;  <NL> name = " new tile 1 " ;  <NL> connect = false ;  <NL> fill = false ;  <NL> color = color . red ;  <NL>  }  COM: <s> resets the editor to a fresh state </s>

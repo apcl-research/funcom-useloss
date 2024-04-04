@@ -1,0 +1,1 @@
+TDAT: public boolean is consecutive ( coordinates coordinates ) {  <NL> int diff x = this . get x ( ) - coordinates . get x ( ) ;  <NL> int diff y = this . get y ( ) - coordinates . get y ( ) ;  <NL> return ( diff x > = - 1 ) & & ( diff x < = 1 ) & & ( diff y > = - 1 ) & & ( diff y < = 1 ) ;  <NL>  }  COM: <s> checks if cells defined with coordintes are consecutive </s>

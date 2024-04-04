@@ -1,0 +1,1 @@
+TDAT: public void log state ( ) {  <NL>  / * * queues get too large for this * /  <NL>  / / log ( avnmp debug . lpstate _ d , " lvt : " + getlvt ( ) + " \n\n lm : " + lm + " \n\n send queue : " + vmoutq + " \n\n receive queue : " + vminq + " \n\n state queue : " + stateq , html . state ) ;  <NL>  }  COM: <s> log the complete lp state </s>

@@ -1,0 +1,1 @@
+TDAT: public void paint full border ( component c , graphics g , int x , int y , int width , int height ) {  <NL> g . set color ( this . b color ) ;  <NL>  / / g . draw rect ( x , y , width + 10 , height + 10 ) ;  <NL> g . draw rect ( x , y , width , height ) ;  <NL>  }  COM: <s> paint a border around the whole cell </s>

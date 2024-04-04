@@ -1,0 +1,1 @@
+TDAT: protected int remove ws ( int offset ) {  <NL> if ( offset > = m buffer . length ( ) )  <NL> return parse _ error ;  <NL> int sum = 0 ;  <NL> char ch ;  <NL> while ( ( ch = m buffer . char at ( offset ) ) = = ' ' || ch = = ' \t ' ) {  <NL> offset + + ;  <NL> sum + + ;  <NL>  }  <NL> return sum ;  <NL>  }  COM: <s> skip the white space in string </s>

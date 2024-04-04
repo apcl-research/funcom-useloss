@@ -1,0 +1,1 @@
+TDAT: public void set title ( string title ) {  <NL> if ( title = = null || title . length ( ) = = 0 ) {  <NL> if ( blog entry ! = null ) {  <NL> this . title = " re : " + blog entry . get title ( ) ;  <NL>  } else {  <NL> this . title = " comment " ;  <NL>  }  <NL>  } else {  <NL> this . title = title ;  <NL>  }  <NL>  }  COM: <s> sets the title of this comment </s>

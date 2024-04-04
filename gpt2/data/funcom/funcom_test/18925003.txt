@@ -1,0 +1,1 @@
+TDAT: public pop up get pop up1b ( ) {  <NL> pop up p = new pop up ( ) ;  <NL> p . set label ( " popup 1b " ) ;  <NL>  / / anonymous group <NL> group item g = new group item support ( " group 1 " ) ;  <NL> add items ( g . get children ( ) ) ;  <NL> p . add item ( g ) ;  <NL> return p ;  <NL>  }  COM: <s> 2 items in named group </s>

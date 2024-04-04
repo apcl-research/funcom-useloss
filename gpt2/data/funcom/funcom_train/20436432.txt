@@ -1,0 +1,1 @@
+TDAT: protected string get label ( vertex v ) {  <NL> if ( m string labeller = = null ) return " " ; / / $ non - nls - 1 $  <NL> string s = m string labeller . get label ( v ) ;  <NL> if ( s = = null ) {  <NL> return " ? " ; / / $ non - nls - 1 $  <NL>  } else {  <NL> return s ;  <NL>  }  <NL>  }  COM: <s> simple label function returns the string labellers notion of vs label </s>

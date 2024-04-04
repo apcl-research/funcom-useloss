@@ -1,0 +1,1 @@
+TDAT: private void new card panel ( ) {  <NL> card panel . remove all ( ) ;  <NL> button map = new hash map < card , j toggle button > ( ) ;  <NL>  / / add the check - boxes <NL> for ( card card : cards ) {  <NL> card panel . add ( create card button ( card ) ) ;  <NL>  }  <NL> validate ( ) ;  <NL> repaint ( ) ;  <NL>  }  COM: <s> updates the card panel </s>

@@ -1,0 +1,1 @@
+TDAT: protected void add component ( j component component , grid bag constraints gbc ) {  <NL> component . set border ( border factory . create compound border ( border factory . create bevel border ( bevel border . lowered ) , border factory . create empty border ( 0 , 4 , 0 , 4 ) ) ) ;  <NL> add ( component , gbc ) ;  <NL>  }  COM: <s> adds a component to the status bar </s>

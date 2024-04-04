@@ -1,0 +1,1 @@
+TDAT: public void peek ( byte [ ] b , int off , int len ) {  <NL> if ( ( off < 0 ) || ( off > count ) || ( len < 0 ) || ( ( off + len ) > count ) || <NL>  ( ( off + len ) < 0 ) ) {  <NL> throw new index out of bounds exception ( ) ;  <NL>  }  <NL>  <NL> system . arraycopy ( buf , off , b , 0 , len ) ;  <NL>  }  COM: <s> returns some data from the buffer non destructively </s>

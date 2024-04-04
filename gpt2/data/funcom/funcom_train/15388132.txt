@@ -1,0 +1,1 @@
+TDAT: public double point at ( int pos , double offset ) {  <NL> return offset * y [ pos + 1 ] - ( ( offset - 1 . 0 ) * offset * ( ( offset - 2 . 0 ) * y2 [ pos ] - ( offset + 1 . 0 ) * y2 [ pos + 1 ] ) ) / 6 . 0 + y [ pos ] - offset * y [ pos ] ;  <NL>  }  COM: <s> returns a cubic spline interpolated value y for the point between </s>

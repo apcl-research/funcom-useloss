@@ -1,0 +1,1 @@
+TDAT: public float get outter radius pixels ( ) {  <NL> return math . max ( math . max ( math . abs ( location . x - min x ) , math . abs ( location . x - max x ) ) , math . max ( math . abs ( location . y - min y ) , math . abs ( location . y - max y ) ) ) ;  <NL>  }  COM: <s> returns the outter radius of the group </s>

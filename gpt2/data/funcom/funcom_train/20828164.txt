@@ -1,0 +1,1 @@
+TDAT: public element node new element node ( string base uri , q name name , sequence attributes , sequence children , q name type , environment < string , string > in scope namespaces ) {  <NL> return new dm _ element node ( base uri , name , attributes , children , type , boolean . false , in scope namespaces ) ;  <NL>  }  COM: <s> method new element node </s>

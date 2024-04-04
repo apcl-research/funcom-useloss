@@ -1,0 +1,1 @@
+TDAT: public void recurse ( double start , double end , int n ) {  <NL> if ( n = = 0 )  <NL> return ;  <NL> final double l _ 3 = ( end - start ) / 3 . 0 ;  <NL> erase line ( start + l _ 3 , end - l _ 3 ) ;  <NL> recurse ( start , start + l _ 3 , n - 1 ) ;  <NL> recurse ( end - l _ 3 , end , n - 1 ) ;  <NL>  }  COM: <s> the recursive algorithm for cantor dust </s>

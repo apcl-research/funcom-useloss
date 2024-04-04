@@ -1,0 +1,1 @@
+TDAT: private string get separator ( string target string ) {  <NL> return ( target string . index of ( ' , ' ) > - 1 ? " , " : ( target string . index of ( ' ; ' ) > - 1 ? " ; " : ( target string . index of ( " regex : " ) > - 1 ? " " : " : " ) ) ) ;  <NL>  }  COM: <s> returns the character used to delineate multiple addresses </s>

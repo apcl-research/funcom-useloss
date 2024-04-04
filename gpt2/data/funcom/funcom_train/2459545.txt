@@ -1,0 +1,1 @@
+TDAT: public void change user type ( string user name , string user type ) throws um exception {  <NL> u name vals val = ( u name vals ) s . users . get val ( user name ) ;  <NL> if ( val = = null ) throw new um exception ( " user " + user name + " does not exist " ) ;  <NL> val . user type = user type ;  <NL>  }  COM: <s> change the type of a particular user </s>

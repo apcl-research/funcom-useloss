@@ -1,0 +1,1 @@
+TDAT: public void set extra fields ( zip extra field [ ] fields ) {  <NL> extra fields = new linked hash map ( ) ;  <NL> for ( int i = 0 ; i < fields . length ; i + + ) {  <NL> extra fields . put ( fields [ i ] . get header id ( ) , fields [ i ] ) ;  <NL>  }  <NL> set extra ( ) ;  <NL>  }  COM: <s> replaces all currently attached extra fields with the new array </s>

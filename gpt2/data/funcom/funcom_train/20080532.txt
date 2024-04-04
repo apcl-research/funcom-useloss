@@ -1,0 +1,1 @@
+TDAT: public void set url ( string url ) {  <NL> frame f = new frame ( url ) ;  <NL> my dom . set style attribute ( f . get element ( ) , " frameborder " , " 0 " ) ;  <NL> f . set size ( " 100 % " , " 100 % " ) ;  <NL> container . layout = null ;  <NL> container . remove all ( ) ;  <NL> container . add ( f ) ;  <NL>  }  COM: <s> sets a url for the content area of the item </s>

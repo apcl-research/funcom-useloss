@@ -1,0 +1,1 @@
+TDAT: public sound handle load music ( final sound system sound system , final string filename ) {  <NL> try {  <NL> return new slick music handle ( sound system , new music ( filename , true ) ) ;  <NL>  } catch ( slick exception e ) {  <NL> log . warning ( " loading of ' " + filename + " ' failed " + e ) ;  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> load a music piece </s>

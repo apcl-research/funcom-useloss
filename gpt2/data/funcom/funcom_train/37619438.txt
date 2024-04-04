@@ -1,0 +1,1 @@
+TDAT: public void set ( int bit ) {  <NL> if ( bit < 0 ) {  <NL> throw new index out of bounds exception ( integer . to string ( bit ) ) ;  <NL>  }  <NL> ensure capacity ( bit ) ;  <NL> if ( bits1 = = null )  <NL> bits0 | = ( 1l < < bit ) ; / / we know that bit < = 64 <NL> else <NL> bits1 [ subscript ( bit ) ] | = ( 1l < < ( bit & mask ) ) ;  <NL>  }  COM: <s> sets a bit </s>

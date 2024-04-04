@@ -1,0 +1,1 @@
+TDAT: static public void setcursor ( zz cell cur , zz cell c ) {  <NL> remove from cursor list ( cur ) ;  <NL> if ( c ! = null ) add to cursor list ( cur , c ) ;  <NL> if ( cur . s ( " d . cursor - sub " ) ! = null ) cur . disconnect ( " d . cursor - sub " , 1 ) ;  <NL> trigger ( cur ) ;  <NL>  }  COM: <s> set the given cursor cell to point to a cell </s>

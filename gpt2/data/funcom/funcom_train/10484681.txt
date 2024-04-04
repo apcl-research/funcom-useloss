@@ -1,0 +1,1 @@
+TDAT: private void check capacity ( int minimum capacity ) {  <NL> if ( minimum capacity > buffer . length ) {  <NL> byte b [ ] = new byte [ math . max ( buffer . length < < 1 , minimum capacity ) ] ;  <NL> system . arraycopy ( buffer , 0 , b , 0 , size ) ;  <NL> buffer = b ;  <NL>  }  <NL>  }  COM: <s> ensures the the buffer has at least the minimum capacity specified </s>

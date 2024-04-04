@@ -1,0 +1,1 @@
+TDAT: public void set int ( int pos , int x ) {  <NL> byte [ ] buff = data ;  <NL> buff [ pos ] = ( byte ) ( x > > 24 ) ;  <NL> buff [ pos + 1 ] = ( byte ) ( x > > 16 ) ;  <NL> buff [ pos + 2 ] = ( byte ) ( x > > 8 ) ;  <NL> buff [ pos + 3 ] = ( byte ) x ;  <NL>  }  COM: <s> update an integer at the given position </s>

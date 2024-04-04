@@ -1,0 +1,1 @@
+TDAT: public wire xor _ o ( wire in , wire out , string name ) {  <NL> if ( in . get width ( ) = = 1 ) {  <NL> return buf _ o ( in , out , name ) ;  <NL>  }  <NL> return xor _ o ( new wire [ ] { in } , out , name ) ;  <NL>  }  COM: <s> constructs a new arbitrary number input xor gate </s>

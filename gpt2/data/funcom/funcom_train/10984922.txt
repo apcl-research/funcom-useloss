@@ -1,0 +1,1 @@
+TDAT: public void insert ( ) throws model exception {  <NL>  <NL> model . insert (  <NL> get id ( ) ,  <NL> get date ( ) ,  <NL> get amount ( ) ,  <NL> get check ( ) ,  <NL> get phone ( ) ,  <NL> get zip ( ) ,  <NL> get email ( ) ,  <NL> get text ( ) ,  <NL> get wizard ( )  <NL>  ) ;  <NL>  <NL>  }  COM: <s> insert code key code record </s>

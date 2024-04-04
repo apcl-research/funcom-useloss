@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> string buffer tmp = new string buffer ( " [ " ) ;  <NL> for ( int i = 0 ; i < symbols . length ; i + + ) {  <NL> tmp . append ( symbols [ i ] ) ;  <NL> if ( i < symbols . length - 1 )  <NL> tmp . append ( ' , ' ) ;  <NL>  }  <NL> tmp . append ( " ] " ) ;  <NL> return tmp . to string ( ) ;  <NL>  }  COM: <s> output of symbols </s>

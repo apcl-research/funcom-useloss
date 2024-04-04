@@ -1,0 +1,1 @@
+TDAT: public long get long ( address address ) {  <NL> if ( align _ check _ long ) {  <NL> assert ( ( address . to long ( ) ) % bytes _ in _ long ) = = 0 : " misaligned 8b access " ;  <NL>  }  <NL> return long from2ints ( get int ( address ) , get int ( address . plus ( bytes _ in _ cell ) ) ) ;  <NL>  }  COM: <s> load a long value from this page </s>

@@ -1,0 +1,1 @@
+TDAT: public object get value at ( int r , int c ) {  <NL> switch ( c ) {  <NL> case sname _ column : / / slot number <NL> return get manager ( ) . get system name list ( ) . get ( r ) ;  <NL> default :  <NL> log . warn ( " get value at should not have been asked about c = " + c ) ;  <NL> return null ;  <NL>  }  <NL>  }  COM: <s> user name column must be handled by subclass </s>

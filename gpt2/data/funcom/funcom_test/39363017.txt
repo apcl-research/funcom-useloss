@@ -1,0 +1,1 @@
+TDAT: private void do init ( ) {  <NL> get connection ( ) ;  <NL> drop table ( ) ;  <NL> create table ( ) ;  <NL> close all ( ) ;  <NL> out . println ( " init successful ! " ) ;  <NL> out . println ( " < br > < a href = \ " . / web / control / user . jsp\ " > user control < / a > " ) ;  <NL>  <NL>  }  COM: <s> initialize user table database </s>

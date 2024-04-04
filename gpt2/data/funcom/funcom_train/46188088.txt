@@ -1,0 +1,1 @@
+TDAT: public blog entry load blog entry ( blog blog , string blog entry id ) throws persistence exception {  <NL> file path = new file ( get path ( blog , blog entry id , gmt ) ) ;  <NL> file file = new file ( path , blog entry id + " . xml " ) ;  <NL> return load blog entry ( blog , file ) ;  <NL>  }  COM: <s> loads a specific blog entry </s>

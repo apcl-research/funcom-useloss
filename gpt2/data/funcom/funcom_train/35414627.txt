@@ -1,0 +1,1 @@
+TDAT: public pmt key next nth pmt key ( int nth ) {  <NL>  <NL> calendar cal = calendar . get instance ( ) ;  <NL> cal . set time in millis ( key ) ;  <NL> cal . add ( interval . duration ( ) , interval . increment ( ) * nth ) ;  <NL> return ( new default pmt key ( interval , cal . get time in millis ( ) ) ) ;  <NL>  }  COM: <s> gets the next nth tt default pmt key tt </s>

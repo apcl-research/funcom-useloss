@@ -1,0 +1,1 @@
+TDAT: public void set nullify ( string [ ] nullify ) {  <NL> this . nullify = nullify ;  <NL> if ( nullify ! = null ) {  <NL> if ( log . is debug enabled ( ) )  <NL> log . debug ( " fields to be nullified : " + arrays . to string ( nullify ) ) ;  <NL> for ( string s : nullify )  <NL> value changed ( s , null ) ;  <NL>  }  <NL>  }  COM: <s> setter for property nullify </s>

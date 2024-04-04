@@ -1,0 +1,1 @@
+TDAT: public void expand node ( object tree node node ) {  <NL> i database object info info = node . get database object info ( ) ;  <NL> tree path path = get tree path ( info . get catalog name ( ) ,  <NL> info . get schema name ( ) ,  <NL> info . get simple name ( ) ) ;  <NL>  _ tree . fire tree expanded ( path ) ;  <NL>  }  COM: <s> expands the specified tree node </s>

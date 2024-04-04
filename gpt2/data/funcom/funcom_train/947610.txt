@@ -1,0 +1,1 @@
+TDAT: protected void set up ( ) throws exception {  <NL> file f = new file ( " test . m " ) ;  <NL> mc = new matlab counter ( f ) ;  <NL> fc = new matlab file creator ( " test . m " ) ;  <NL> fc . write ( ) ;  <NL> file ffail = new file ( " not exist " ) ;  <NL> mcfail = new matlab counter ( ffail ) ;  <NL>  }  COM: <s> standard junit set up method creates a matlab test file </s>

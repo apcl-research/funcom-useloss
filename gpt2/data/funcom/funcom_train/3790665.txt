@@ -1,0 +1,1 @@
+TDAT: public object clone ( ) {  <NL> path p = new path ( _ map , _ origin , _ dest , _ path user ) ;  <NL> enumeration enum = this . get path enum ( ) ;  <NL> while ( enum . has more elements ( ) ) {  <NL> p . add adjacent place to path ( ( path place ) enum . next element ( ) ) ;  <NL>  }  <NL> return p ;  <NL>  }  COM: <s> clones this path </s>

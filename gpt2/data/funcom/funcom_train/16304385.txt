@@ -1,0 +1,1 @@
+TDAT: public void add layer ( layer layer ) {  <NL> layer . set parent network ( this ) ;  <NL> this . layers = arrays . copy of ( layers , layers . length + 1 ) ; / / grow existing layers array to make space for new layer <NL> this . layers [ layers . length - 1 ] = layer ; / / add new layer at the end of array <NL>  }  COM: <s> adds layer to neural network </s>

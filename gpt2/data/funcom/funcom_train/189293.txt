@@ -1,0 +1,1 @@
+TDAT: protected void paint ( graphics g ) {  <NL> if ( initialized ) {  <NL> g . set color ( 255 , 255 , 255 ) ;  <NL> g . fill rect ( 0 , 0 , get width ( ) , get height ( ) ) ;  <NL> g . draw image ( image util . get instance ( ) . load image ( " splash . png " ) , 0 , 0 , graphics . top|graphics . left ) ;  <NL>  }  <NL>  }  COM: <s> required paint implementation </s>

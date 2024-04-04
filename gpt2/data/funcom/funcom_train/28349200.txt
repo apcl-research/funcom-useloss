@@ -1,0 +1,1 @@
+TDAT: public void print ( ) {  <NL> system . out . println ( " sys = " + get system ( ) + " subsys = " + get sub system ( ) + " spname = " + get sp name ( ) + " sp val = " + get sp value as string ( ) + " rbname = " + get rb name ( ) + " rb val = " + get rb value as string ( ) + " urbasp = " + _ use rb ) ;  <NL>  }  COM: <s> dump to screen </s>

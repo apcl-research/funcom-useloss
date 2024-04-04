@@ -1,0 +1,1 @@
+TDAT: public void sample metrics ( int [ ] [ ] buf , int pos ) {  <NL> buf [ metric local pm idle . get index ( ) ] [ pos ] = idle count ;  <NL> buf [ metric local pm allocated . get index ( ) ] [ pos ] = allocated count ;  <NL> buf [ metric local pm returned . get index ( ) ] [ pos ] = returned count ;  <NL>  }  COM: <s> get values for our metrics </s>

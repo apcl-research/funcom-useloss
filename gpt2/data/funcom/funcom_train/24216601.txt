@@ -1,0 +1,1 @@
+TDAT: public void add ( string piece name , boolean is white ) {  <NL> hash map < string , integer > h = get map ( is white ) ;  <NL> int value = h . contains key ( piece name ) ? h . get ( piece name ) . int value ( ) + 1 : 1 ;  <NL> h . put ( piece name , new integer ( value ) ) ;  <NL>  }  COM: <s> add a piece to this count list when it has been taken </s>

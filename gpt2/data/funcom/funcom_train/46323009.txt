@@ -1,0 +1,1 @@
+TDAT: public text page add page ( string name , text page p ) {  <NL> if ( pages . contains key ( name ) ) {  <NL> log ( " warning : a page with the name ' " + name + " ' already exists and will be deleted ! " ) ;  <NL>  }  <NL> pages . put ( name , p ) ;  <NL> return pages . get ( name ) ;  <NL>  }  COM: <s> add a named page to the book </s>

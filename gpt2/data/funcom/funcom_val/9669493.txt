@@ -1,0 +1,1 @@
+TDAT: public void dolly _ css ( ) {  <NL> echo (  <NL>  <NL>  " \n\t < style type = \ ' text / css\ ' > \n\t # dolly { \n\t\tposition : absolute ; \n\t\ttop : 2 . 3em ; \n\t\tmargin : 0 ; \n\t\tpadding : 0 ; \n\t\tright : 10px ; \n\t\tfont - size : 16px ; \n\t\tcolor : # d54e21 ; \n\t } \n\t < / style > \n\t " ) ;  <NL>  }  COM: <s> we need some css to position the paragraph </s>

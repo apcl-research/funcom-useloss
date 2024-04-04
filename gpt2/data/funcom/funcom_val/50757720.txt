@@ -1,0 +1,1 @@
+TDAT: private void print enter handler ( print writer strm , defmessagehandler h ) {  <NL> for ( int i = 0 ; i < indent ; i + + ) strm . print ( " | " ) ;  <NL> strm . println ( " > > " + h . get name ( ) + " " + h . get type name ( ) + " in class " + h . get cls ( ) . get name ( ) ) ;  <NL> indent + + ;  <NL>  }  COM: <s> print handler entry </s>

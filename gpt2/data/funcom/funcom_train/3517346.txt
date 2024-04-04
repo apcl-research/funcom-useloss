@@ -1,0 +1,1 @@
+TDAT: protected void initialize main model ( model main model ) throws model exception {  <NL> logger . fine ( " initializing main model . . . " ) ;  <NL> try {  <NL> write to file ( main model file , main model . get code ( ) . get bytes ( ) ) ;  <NL>  } catch ( io exception e ) {  <NL> throw new model exception ( e ) ;  <NL>  }  <NL>  }  COM: <s> initializes the main model </s>

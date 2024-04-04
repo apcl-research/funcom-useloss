@@ -1,0 +1,1 @@
+TDAT: private void clear freq component ( int int freq , abstract complex vector vec trans ) {  <NL> int n = this . get data size ( ) ;  <NL>  <NL> vec trans . set component ( int freq , complex . zero ) ;  <NL>  <NL> if ( int freq = = 0 ) return ;  <NL> vec trans . set component ( n - int freq , complex . zero ) ;  <NL>  }  COM: <s> set the given frequency component to zero </s>

@@ -1,0 +1,1 @@
+TDAT: public object put ( int key , object value ) {  <NL> t hash set val = ( t hash set ) get ( key ) ;  <NL> if ( val = = null ) {  <NL> val = new t hash set ( ) ;  <NL> val . add ( value ) ;  <NL> super . put ( key , val ) ;  <NL>  } else {  <NL> val . add ( value ) ;  <NL>  }  <NL> return val ;  <NL>  }  COM: <s> adds the given key value pair to the map </s>

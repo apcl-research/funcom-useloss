@@ -1,0 +1,1 @@
+TDAT: public void set location ( final int x1 , final int y1 , final int x2 , final int y2 , final int p3 , final int q3 ) {  <NL> set location ( x1 , y1 , x2 , y2 ) ;  <NL> point3 . set location ( p3 , q3 ) ;  <NL> set point ( handle . p3 , point3 ) ;  <NL>  }  COM: <s> sets the points of this 3 point object </s>

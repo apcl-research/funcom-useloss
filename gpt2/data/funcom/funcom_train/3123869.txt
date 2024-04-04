@@ -1,0 +1,1 @@
+TDAT: public boolean add route ( c inet route route ) {  <NL>  / / check if we already have this item <NL> c inet route [ ] inr = get routes ( ) ;  <NL> for ( int i = 0 ; i < inr . length ; i + + ) {  <NL> if ( inr [ i ] . equals ( route ) ) {  <NL> return false ;  <NL>  }  <NL>  }  <NL> routes . add element ( route ) ;  <NL> return true ;  <NL>  }  COM: <s> add a route </s>

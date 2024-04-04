@@ -1,0 +1,1 @@
+TDAT: private void put error ( int offset , list < word > list , int from , int to , string message ) {  <NL> put error ( offset + list . get ( from ) . get begin ( ) ,  <NL> list . get ( to ) . get end ( ) - list . get ( from ) . get begin ( ) + 1 ,  <NL> message ) ;  <NL>  }  COM: <s> puts error market to file </s>

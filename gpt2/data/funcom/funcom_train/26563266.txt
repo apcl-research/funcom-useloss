@@ -1,0 +1,1 @@
+TDAT: public void execute ( ) {  <NL> file to dir = null ;  <NL> if ( _ docdir = = null ) {  <NL> to dir = new file ( _ prefix , doc ) ;  <NL>  } else {  <NL> to dir = _ docdir ;  <NL>  }  <NL> file from dir = new file ( _ from , doc ) ;  <NL> copy tree ( from dir , to dir , _ perm ) ;  <NL>  }  COM: <s> install the contents of the b doc b direcotry of the builds output </s>

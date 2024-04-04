@@ -1,0 +1,1 @@
+TDAT: public void preorder walk ( tree node x , tree walk handler , object misc ) {  <NL> if ( x ! = nil ) {  <NL> handler . node ( x , misc ) ;  <NL> tree node [ ] childs = x . get childs ( ) ;  <NL> for ( int i = 0 ; i < childs . length ; i + + )  <NL> preorder walk ( childs [ i ] , handler , misc ) ;  <NL>  }  <NL>  }  COM: <s> walks the tree preorder </s>

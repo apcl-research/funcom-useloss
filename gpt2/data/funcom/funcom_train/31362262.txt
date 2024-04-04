@@ -1,0 +1,1 @@
+TDAT: private void flush ( ) {  <NL> int bsize = bout . size ( ) ;  <NL> if ( bsize > 0 ) {  <NL> if ( size > buffer . length ) increase capacity ( size ) ;  <NL> system . arraycopy ( bout . to byte array ( ) , 0 , buffer , size - bsize , bsize ) ;  <NL> bout . reset ( ) ;  <NL>  }  <NL>  }  COM: <s> flush data from the backing up stream into the byte buffer </s>

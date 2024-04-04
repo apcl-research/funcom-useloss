@@ -1,0 +1,1 @@
+TDAT: public void start ( ) throws io exception {  <NL> if ( ! is bound ) {  <NL> tcp . bind ( last tcp address ) ;  <NL> udp . bind ( last udp address ) ;  <NL>  }  <NL> new thread ( thread = new connection runnable ( tcp , udp ) ) . start ( ) ;  <NL> log . log ( level . info , " [ { 0 } ] [ ? ? ? ] started server . " , label ) ;  <NL>  }  COM: <s> start this server </s>

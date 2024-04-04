@@ -1,0 +1,1 @@
+TDAT: public void unmap task ( task task ) {  <NL>  / / parameter checks <NL> if ( task = = null ) throw new null pointer exception ( " task does not exist " ) ;  <NL>  <NL> app resource map . remove ( task . get ident ( ) ) ;  <NL> task . get mapped to ( ) . unmap sched elem ( task ) ;  <NL> task . set mapped to ( null ) ;  <NL>  }  COM: <s> removes the mapping of a task </s>

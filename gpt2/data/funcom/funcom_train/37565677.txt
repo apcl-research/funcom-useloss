@@ -1,0 +1,1 @@
+TDAT: public void rename ( string srcf , string dstf ) throws io exception {  <NL> if ( nfs . rename ( new file ( srcf ) , new file ( dstf ) ) ) {  <NL> system . out . println ( " renamed " + srcf + " to " + dstf ) ;  <NL>  } else {  <NL> system . out . println ( " rename failed " ) ;  <NL>  }  <NL>  }  COM: <s> rename an ndfs file </s>

@@ -1,0 +1,1 @@
+TDAT: public void add enum field value ( string field name , string field value ) {  <NL> validate field type ( field name , data type . enum ) ;  <NL> if ( enm data = = null ) {  <NL> enm data = new multi value map < string > ( ) ;  <NL>  }  <NL> enm data . add field value ( field name , field value ) ;  <NL>  }  COM: <s> add an enumerated value to the given field </s>

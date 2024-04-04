@@ -1,0 +1,1 @@
+TDAT: public void full build ( ) {  <NL> check assertion ( " a workspace must be open " , this . is open ) ; / / $ non - nls - 1 $  <NL> try {  <NL> get workspace ( ) . build ( incremental project builder . full _ build , null ) ;  <NL>  } catch ( core exception e ) {  <NL> handle ( e ) ;  <NL>  }  <NL>  }  COM: <s> batch builds the workspace </s>

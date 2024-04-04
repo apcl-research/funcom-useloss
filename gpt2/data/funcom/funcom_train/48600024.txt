@@ -1,0 +1,1 @@
+TDAT: public void xml in ( buffered reader uri , writer xml out , boolean validating ) {  <NL> try {  <NL> xml in ( new input source ( uri ) , out , validating ) ;  <NL>  } catch ( sax exception e ) {  <NL> system . err . println ( uri . to string ( ) ) ;  <NL> xml exception ( e ) ;  <NL>  }  <NL>  }  COM: <s> runs the parser based on a buffered reader </s>

@@ -1,0 +1,1 @@
+TDAT: public point2 get center ( ) {  <NL> double x = 0 ;  <NL> double y = 0 ;  <NL> for ( int i = 0 ; i < num p ( ) ; i + + ) {  <NL> point2 p0 = get p ( i ) ;  <NL> x + = p0 . get x ( ) ;  <NL> y + = p0 . get y ( ) ;  <NL>  }  <NL> return new point2 ( x / num p ( ) , y / num p ( ) ) ;  <NL>  }  COM: <s> returns the center of this polygon </s>

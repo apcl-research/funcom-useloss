@@ -1,0 +1,1 @@
+TDAT: public void test compare ( ) throws exception {  <NL> assert true ( bean utils . compare ( " test " , " test " ) = = 0 ) ;  <NL> assert false ( bean utils . compare ( " test2 " , " test1 " ) < 0 ) ;  <NL> assert false ( bean utils . compare ( " test1 " , " test2 " ) > 0 ) ;  <NL>  }  COM: <s> tests the compare method </s>

@@ -1,0 +1,1 @@
+TDAT: public string get class desc ( ) {  <NL> string s = get modifier desc ( ) ;  <NL> if ( ! cl . is interface ( ) ) {  <NL> s = s + " class " ;  <NL>  }  <NL> s = s + " " + cl . get name ( ) ;  <NL> s = s + " " + get extends desc ( ) ;  <NL> s = s + " " + get implements desc ( ) ;  <NL> return s ;  <NL>  }  COM: <s> return a string describing the class the class modifiers </s>

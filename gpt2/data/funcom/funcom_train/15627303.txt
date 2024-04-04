@@ -1,0 +1,1 @@
+TDAT: public void add edit type ( final int new type ) {  <NL> for ( final map control < g , a , r > map control : map manager . get opened maps ( ) ) {  <NL> map control . get map model ( ) . add active edit type ( new type ) ; / / calculate new type <NL>  }  <NL> refresh all maps ( ) ;  <NL>  }  COM: <s> calculate a new type for all opened maps </s>

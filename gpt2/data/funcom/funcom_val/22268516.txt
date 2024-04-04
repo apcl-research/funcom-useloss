@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> string result = " " ;  <NL> for ( int i = 0 ; i < 4 ; i + + ) {  <NL> for ( int j = 0 ; j < 4 ; j + + ) {  <NL> result + = data [ i * 4 + j ] + " " ;  <NL>  }  <NL> result + = " \n " ;  <NL>  }  <NL> return result ;  <NL>  }  COM: <s> returns string of matrix in a human readable format </s>

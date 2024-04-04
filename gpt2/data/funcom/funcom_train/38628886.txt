@@ -1,0 +1,1 @@
+TDAT: public vector to vector ( ) {  <NL> final vector vector = new vector ( size ) ;  <NL>  / / todo : there should be a better way to do this <NL> for ( int i = 0 ; i < size ; + + i ) {  <NL> vector . add element ( elements [ i ] ) ;  <NL>  } / / for ( )  <NL> return vector ;  <NL>  } / / to vector ( )  COM: <s> returns a vector containing all elements in the buffer </s>

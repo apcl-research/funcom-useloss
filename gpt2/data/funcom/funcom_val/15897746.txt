@@ -1,0 +1,1 @@
+TDAT: public void set value at ( int row , int col , object val ) {  <NL> row = get column row ( row , col ) ;  <NL> get column ( col ) . set ( val , row ) ;  <NL>  <NL>  / / we don ' t fire a notification here , as we catch the <NL>  / / notification from the column itself and then dispatch <NL>  }  COM: <s> set the value of at the given row and column numbers </s>

@@ -1,0 +1,1 @@
+TDAT: public string get string ( locale l , string key ) {  <NL> string res = key ;  <NL> map < string , string > key map = table . get ( l ) ;  <NL>  <NL> if ( key map ! = null ) {  <NL> string tmp = key map . get ( key ) ;  <NL> if ( tmp ! = null ) {  <NL> res = tmp ;  <NL>  }  <NL>  }  <NL>  <NL> return res ;  <NL>  }  COM: <s> get a translation </s>

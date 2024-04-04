@@ -1,0 +1,1 @@
+TDAT: public void add neighbor ( short id , byte [ ] mac , boolean parent ) {  <NL>  <NL> if ( contains key ( id ) ) {  <NL> return ;  <NL>  }  <NL> byte [ ] new _ mac = arrays . copy of ( mac , mac . length ) ;  <NL> if ( parent ) {  <NL> mark as parent ( id , new _ mac ) ;  <NL>  }  <NL> put ( id , new _ mac ) ;  <NL>  }  COM: <s> adds a neighbor to the set of neighbors </s>

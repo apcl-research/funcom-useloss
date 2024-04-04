@@ -1,0 +1,1 @@
+TDAT: public void draw ( ) {  <NL> if ( this . menu = = null )  <NL> this . set menu ( ) ;  <NL> this . menu <NL>  . draw ( this . x pos , this . y pos , ro b . display . get double buffered graphics ( ) , jade menu . vertical , jade menu . left , 0 , 0 , jade menu . horizontal , 0 , 0 ) ;  <NL>  }  COM: <s> draw the menu to the current scene </s>

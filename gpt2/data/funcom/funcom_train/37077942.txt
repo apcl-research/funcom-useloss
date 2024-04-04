@@ -1,0 +1,1 @@
+TDAT: public object get value at ( int row , int column ) {  <NL> seq feature i sf = ( seq feature i ) data . element at ( row ) ;  <NL> string prop = ( ( column property ) property list . element at ( column ) ) . get heading ( ) ;  <NL> return detail info . get property for feature ( prop , sf ) ;  <NL>  }  COM: <s> retrieve object to be displayed at row column </s>

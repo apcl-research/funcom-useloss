@@ -1,0 +1,1 @@
+TDAT: public char array string copy ( ) {  <NL> final char [ ] new chars = new char [ this . len ] ;  <NL> system . arraycopy ( this . chars , 0 , new chars , 0 , this . len ) ;  <NL> return new char array string ( new chars , 0 , this . len ) ;  <NL>  }  COM: <s> copy this string </s>

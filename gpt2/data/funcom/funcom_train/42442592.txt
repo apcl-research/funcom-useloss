@@ -1,0 +1,1 @@
+TDAT: private void record move attempt ( string x , string y ) {  <NL> general functions gf = new general functions ( syslog ) ;  <NL> engine modobo modobo = new engine modobo ( gf . get game serialized from db ( gameid ) , true , syslog , gameid ) ;  <NL> modobo . do move ( x , y , username ) ;  <NL> modobo . persist game2db ( ) ;  <NL>  }  COM: <s> record a move </s>

@@ -1,0 +1,1 @@
+TDAT: private void first inner table start ( options opt , int n rows ) {  <NL> w . print ( line prefix + line prefix + " < tr > " + opt . shape . extra column ( n rows ) +  <NL>  " < td > < table border = \ " 0\ " cellspacing = \ " 0\ " " +  <NL>  " cellpadding = \ " 1\ " > " + line postfix ) ;  <NL>  }  COM: <s> start the first inner table of a class </s>

@@ -1,0 +1,1 @@
+TDAT: public void render ( class < ? extends sub view > cls ) {  <NL> int saved = context ( ) . nest level ;  <NL> get instance ( cls ) . render partial ( ) ;  <NL> if ( context ( ) . nest level ! = saved ) {  <NL> throw new web app exception ( " view " + cls . get simple name ( ) + " not complete " ) ;  <NL>  }  <NL>  }  COM: <s> render a sub view </s>

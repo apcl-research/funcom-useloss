@@ -1,0 +1,1 @@
+TDAT: public int read pack7i ( ) throws io exception {  <NL> byte i ;  <NL> int rt = 0 ;  <NL> for ( i = read0 ( ) ; i < 0 ; i = read0 ( ) ) {  <NL> rt = ( rt < < 7 ) | ( i & 0x7f ) ;  <NL>  }  <NL> rt = ( rt < < 7 ) | ( i & 0x ff ) ;  <NL> return rt ;  <NL>  }  COM: <s> read a pack7 encoded byte from the input stream </s>

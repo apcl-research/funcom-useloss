@@ -1,0 +1,1 @@
+TDAT: public void set player names ( string [ ] names ) {  <NL> if ( names = = null ) { return ; }  <NL> for ( int i = math . min ( max _ players , names . length ) - 1 ; i > = 0 ; i - - ) {  <NL> if ( names [ i ] ! = null ) { player names [ i ] = names [ i ] ; }  <NL>  }  <NL>  }  COM: <s> setter for property player names </s>

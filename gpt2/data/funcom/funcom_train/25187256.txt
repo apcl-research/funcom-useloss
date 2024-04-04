@@ -1,0 +1,1 @@
+TDAT: public void test get pos ( ) {  <NL> system . out . println ( " get pos " ) ;  <NL> structure error info instance = new structure error info ( 1 , 2 , " 1 " , " 2 " ) ;  <NL> int exp result = 2 ;  <NL> int result = instance . get pos ( ) ;  <NL> assert equals ( exp result , result ) ;  <NL>  }  COM: <s> test of get pos method of class structure error info </s>

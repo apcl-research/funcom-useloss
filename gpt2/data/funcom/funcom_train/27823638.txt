@@ -1,0 +1,1 @@
+TDAT: public void save model ( ) throws io exception {  <NL> try {  <NL> rdf util . write model ( m _ model , new file ( m _ output url ) , rdf util . default _ encoding ) ;  <NL>  }  <NL> catch ( exception e ) {  <NL> io exception ioe = new io exception ( " error saving model " ) ;  <NL> ioe . init cause ( e ) ;  <NL> throw ioe ;  <NL>  }  <NL>  }  COM: <s> saves the model </s>

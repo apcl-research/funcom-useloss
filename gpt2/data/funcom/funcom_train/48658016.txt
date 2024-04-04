@@ -1,0 +1,1 @@
+TDAT: public void send multicast ( network obj ob ) throws io exception {  <NL> string trans = serial . serialize message ( ob ) ;  <NL> datagram packet dp = new datagram packet ( trans . get bytes ( ) , trans . get bytes ( ) . length , group , port num ) ;  <NL> ms . send ( dp ) ;  <NL> last sent = ob ;  <NL>  }  COM: <s> this sends a message via a multicast link </s>

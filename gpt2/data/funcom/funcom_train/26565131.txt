@@ -1,0 +1,1 @@
+TDAT: protected void init ( ) {  <NL> put ( " html " , " text / html " ) ;  <NL> put ( " txt " , " text / plain " ) ;  <NL> put ( " xml " , " text / xml " ) ;  <NL> put ( " css " , " text / css " ) ;  <NL> put ( " gif " , " image / gif " ) ;  <NL> put ( " jpg " , " image / jpeg " ) ;  <NL> put ( " png " , " image / png " ) ;  <NL>  }  COM: <s> initialize the mime type map </s>

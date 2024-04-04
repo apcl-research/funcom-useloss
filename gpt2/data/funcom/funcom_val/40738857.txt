@@ -1,0 +1,1 @@
+TDAT: @ test public void test regression episode type1 ( ) throws exception {  <NL> string args [ ] = { } ;  <NL> string output = this . interpreter . interpret ( " regression " , " 1 " , args ) ;  <NL> string expected = " " ;  <NL> assert equals ( " test regression episode type 1 " , expected , output ) ;  <NL>  }  COM: <s> test regression episode type 1 </s>

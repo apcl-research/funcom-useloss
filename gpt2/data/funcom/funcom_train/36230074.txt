@@ -1,0 +1,1 @@
+TDAT: public camera get camera ( int num ) {  <NL> if ( num > 0 ) {  <NL> for ( int i = 0 ; i < size ( ) ; i + + ) {  <NL> camera cmr = get camera at ( i ) ;  <NL> if ( cmr ! = null & & cmr . get idn ( ) = = num ) {  <NL> return cmr ;  <NL>  }  <NL>  }  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> get the camera object which has the input number num get idn </s>

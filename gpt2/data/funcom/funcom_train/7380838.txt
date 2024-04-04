@@ -1,0 +1,1 @@
+TDAT: public money bag add ( final money amount ) {  <NL> function map < currency , money > new totals =  <NL> new function map < currency , money > ( add _ map _ function ) ;  <NL> new totals . put all ( totals ) ;  <NL> new totals . put ( amount . currency ( ) , amount ) ;  <NL> return new money bag ( new totals ) ;  <NL>  }  COM: <s> add money to the money bag </s>

@@ -1,0 +1,1 @@
+TDAT: public void set pixel ( int x , int y , int color ) {  <NL> check recycled ( " can ' t call set pixel ( ) on a recycled bitmap " ) ;  <NL> if ( ! is mutable ( ) ) {  <NL> throw new illegal state exception ( ) ;  <NL>  }  <NL> check pixel access ( x , y ) ;  <NL> native set pixel ( m native bitmap , x , y , color ) ;  <NL>  }  COM: <s> write the specified </s>

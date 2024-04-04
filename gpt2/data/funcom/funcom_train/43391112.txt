@@ -1,0 +1,1 @@
+TDAT: public void run binary ( string p bin , string p params , string p std out , string p std err ) throws io exception {  <NL> fw . write ( path + p bin + " " + p params + " > " + p std out + " 2 > " + p std err + " \n " ) ;  <NL> fw . flush ( ) ;  <NL>  }  COM: <s> genrating command to run binary </s>

@@ -1,0 +1,1 @@
+TDAT: public void update ( ) throws io exception {  <NL> super block vh = fs . get volume header ( ) ;  <NL> long offset = vh . get catalog file ( ) . get extent ( 0 ) . get start offset ( vh . get block size ( ) ) ;  <NL> fs . get api ( ) . write ( offset , this . get bytes ( ) ) ;  <NL>  }  COM: <s> save catalog file to disk </s>

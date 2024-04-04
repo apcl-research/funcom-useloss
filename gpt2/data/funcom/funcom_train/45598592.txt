@@ -1,0 +1,1 @@
+TDAT: private element get pwd ( string text , string size , string set ) {  <NL> element pwd = xml . create element ( " pwd " ) ;  <NL> pwd . set attribute ( " txt " , text ) ;  <NL> pwd . set attribute ( " size " , size ) ;  <NL> pwd . set attribute ( " set " , set ) ;  <NL> return pwd ;  <NL>  }  COM: <s> gets the pwd elemnet </s>

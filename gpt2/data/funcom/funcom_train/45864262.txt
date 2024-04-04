@@ -1,0 +1,1 @@
+TDAT: public void paint ( graphics g , int offset x , int offset y ) {  <NL> super . paint ( g , offset x , offset y ) ;  <NL> for ( int n = ( used rows < visible rows ? used rows : visible rows ) - 1 ; n > = 0 ; n - - ) {  <NL> line [ n ] . paint ( g , offset x , offset y ) ;  <NL>  }  <NL>  }  COM: <s> draws the text viewer and scroll arrows if required </s>

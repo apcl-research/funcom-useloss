@@ -1,0 +1,1 @@
+TDAT: public void step ( ant a ) {  <NL> if ( a . get has food ( ) || a . get position ( ) . get food ( ) = = 0 )  <NL> a . set state ( has food already ) ;  <NL> else {  <NL> a . get position ( ) . set food ( a . get position ( ) . get food ( ) - 1 ) ;  <NL> a . set has food ( true ) ;  <NL> a . set state ( new food ) ;  <NL>  }  <NL>  }  COM: <s> pick up food if possible </s>

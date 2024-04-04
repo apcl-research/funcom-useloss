@@ -1,0 +1,1 @@
+TDAT: public string get uri path ( final path p ) {  <NL> check path ( p ) ;  <NL> string s = p . to uri ( ) . get path ( ) ;  <NL> if ( ! is valid name ( s ) ) {  <NL> throw new invalid path exception ( " path part " + s + " from uri " + p <NL>  + " is not a valid filename . " ) ;  <NL>  }  <NL> return s ;  <NL>  }  COM: <s> get the path part of a pathname </s>

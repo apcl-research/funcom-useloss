@@ -1,0 +1,1 @@
+TDAT: private void initialise hash code ( ) {  <NL> hash code = name = = null ? 0 : name . hash code ( ) ; ;  <NL> for ( int i = 0 ; i < size ( ) ; i + + ) {  <NL> class cl = get class ( i ) ;  <NL> if ( cl ! = null )  <NL> hash code = ( hash code + cl . hash code ( ) ) % integer . max _ value ;  <NL>  }  <NL>  }  COM: <s> initialise the hash code of this instance </s>

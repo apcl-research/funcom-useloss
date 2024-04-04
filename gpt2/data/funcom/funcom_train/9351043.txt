@@ -1,0 +1,1 @@
+TDAT: public void create message ( ) {  <NL> string s = " " ;  <NL> for ( int i = 0 ; i < = books . size ( ) ; i + + ) {  <NL> s = books . get ( i ) . get library ( ) + books . get ( i ) . get title ( ) + books . get ( i ) . get due date ( ) ;  <NL> msg . append ( message type . simple , s ) ;  <NL>  }  <NL>  }  COM: <s> appends the books into the messenger </s>

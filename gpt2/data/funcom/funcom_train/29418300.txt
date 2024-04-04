@@ -1,0 +1,1 @@
+TDAT: @ override public int hash code ( ) {  <NL> int i = ( a = = null ) ? 0 : a . hash code ( ) ;  <NL> int j = ( b = = null ) ? 0 : b . hash code ( ) ;  <NL> int k = ( c = = null ) ? 0 : c . hash code ( ) ;  <NL> return i * 173123 + j * 131 + k ;  <NL>  }  COM: <s> returns a hashcode based on a null 0 a </s>

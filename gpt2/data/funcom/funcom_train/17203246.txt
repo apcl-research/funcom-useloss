@@ -1,0 +1,1 @@
+TDAT: public void break code order ( basic block bb1 , basic block bb2 ) {  <NL> if ( ir . sanity _ check ) vm . _ assert ( bb1 . next = = bb2 ) ;  <NL> if ( ir . sanity _ check ) vm . _ assert ( bb2 . prev = = bb1 ) ;  <NL> bb1 . next = null ;  <NL> bb2 . prev = null ;  <NL>  }  COM: <s> create a break in the code order between bb1 and bb2 </s>

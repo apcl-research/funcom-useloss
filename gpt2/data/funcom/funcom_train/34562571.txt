@@ -1,0 +1,1 @@
+TDAT: public void create db ( final string dbname ) {  <NL> final create db c = new create db ( " < " + deep fs . s _ fsml + " / > " , dbname ) ;  <NL> if ( ! c . exec ( ctx ) ) main . notexpected (  <NL>  " failed to create file system database ( % ) . " , c . info ( ) ) ;  <NL> ctx . data . meta . deepfs = true ;  <NL>  }  COM: <s> creates a fsml database </s>

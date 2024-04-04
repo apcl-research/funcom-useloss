@@ -1,0 +1,1 @@
+TDAT: public void set reference ( int constant pool id ) {  <NL> assert ( constant pool id < = 0x ffff ) ;  <NL>  <NL> if ( _ ref size = = 1 ) {  <NL>  _ code [ 1 ] = ( byte ) ( 0x00ff & constant pool id ) ;  <NL>  }  <NL> else {  <NL> types . bytes from short ( ( short ) ( 0x ffff & constant pool id ) , _ code , 1 ) ;  <NL>  }  <NL>  }  COM: <s> set the constant pool id </s>

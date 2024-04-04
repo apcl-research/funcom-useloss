@@ -1,0 +1,1 @@
+TDAT: public void set voxel ( int x , int y , int z , int val ) {  <NL> if ( x < 0 || y < 0 || z < 0 || x > = width || y > = height || z > = depth ) {  <NL> return ;  <NL>  }  <NL> short [ ] slice = writer . get slice ( z ) ;  <NL> slice [ x + y * width ] = ( short ) val ;  <NL>  }  COM: <s> set a voxel to the given value </s>

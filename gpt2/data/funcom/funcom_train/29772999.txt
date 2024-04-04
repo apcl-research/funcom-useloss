@@ -1,0 +1,1 @@
+TDAT: protected void create frame ( ) {  <NL> internal frame = new j internal frame ( " addripversion " , true , true , true ) ;  <NL> internal frame . set size ( 300 , 80 ) ;  <NL> internal frame . set j menu bar ( get menubar ( ) ) ;  <NL> system . out . println ( " = = = addripversion opened = = = " ) ;  <NL>  }  COM: <s> creates the internal frame </s>

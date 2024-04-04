@@ -1,0 +1,1 @@
+TDAT: private void create marker ( ) throws core exception {  <NL> marker handler . create marker ( f resource , f severity , f message , f line no ) ;  <NL> string log msg = " add marker : " + f resource + " ( " + f line no + " ) : " + f severity + " : " + f message ;  <NL> plugin log . debug ( log msg ) ;  <NL>  }  COM: <s> create the actual marker </s>

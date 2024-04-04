@@ -1,0 +1,1 @@
+TDAT: public void start ( ) {  <NL> system . out . println ( " start ( ) " ) ;  <NL> for ( int z = 0 ; z < 5 ; z + + ) {  <NL> players [ z ] = new player ( 0 , 0 , " " ) ;  <NL>  }  <NL>  <NL> game = new cli game ( this ) ;  <NL>  <NL> cli net = new cli net ( this , game , get document base ( ) ) ;  <NL> cli net . start ( ) ;  <NL>  }  COM: <s> starts an applet thread </s>

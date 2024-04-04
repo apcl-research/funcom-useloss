@@ -1,0 +1,1 @@
+TDAT: public void add item ( final invoice item item ) {  <NL> if ( items . add ( item ) ) {  <NL> item . set invoice ( this ) ;  <NL> sub total = sub total . add ( item . get amount ( ) ) ;  <NL> total = total . add ( item . get amount ( ) ) ;  <NL> item count = item count . add ( new big decimal ( " 1 " ) ) ;  <NL>  }  <NL>  }  COM: <s> add an item to the invoice </s>

@@ -1,0 +1,1 @@
+TDAT: public boolean is west square ocean ( int column , int row ) {  <NL> return this . is terrain type in direction of square ( column , row , basis map . ocean , cardinal point . west )  <NL> || this . is terrain type in direction of square ( column , row , basis map . void , cardinal point . west ) ;  <NL>  }  COM: <s> p check is the square in the west direction is of </s>

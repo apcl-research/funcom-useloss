@@ -1,0 +1,1 @@
+TDAT: public void on reconnect ( bean wrapper element p _ old wrapper , bean wrapper element p _ new wrapper , boolean p _ was target ) {  <NL> get category ( ) . get strategy ( get clazz ( ) , is service ) . on reconnect ( this , p _ old wrapper , p _ new wrapper , p _ was target ) ;  <NL>  }  COM: <s> this method should be used for work that has to be done after </s>

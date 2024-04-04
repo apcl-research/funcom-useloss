@@ -1,0 +1,1 @@
+TDAT: public cards get cards ( ) {  <NL> cards temp = new cards ( total players , false ) ;  <NL> temp . make shared cards ( cards . shared cards ) ;  <NL> temp . make your hand ( to bet . get a is hand ( ) . first card , to bet . get a is hand ( ) . second card ) ;  <NL> return temp ;  <NL>  }  COM: <s> returns a code cards code object indicating the cards that have </s>

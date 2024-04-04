@@ -1,0 +1,1 @@
+TDAT: static public list find list by email ( string email , session s ) {  <NL> try {  <NL> list l = s . find ( " select user from user user where user . email = ? " , email , hibernate . string ) ;  <NL> return l ;  <NL>  } catch ( exception e ) {  <NL> log . print ( e ) ;  <NL> return new linked list ( ) ;  <NL>  }  <NL>  }  COM: <s> finds all users with this email </s>

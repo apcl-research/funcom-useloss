@@ -1,0 +1,1 @@
+TDAT: public double get length ( ) {  <NL> double dx = to . get x ( ) - from . get x ( ) ;  <NL> double dy = to . get y ( ) - from . get y ( ) ;  <NL> double dz = to . get z ( ) - from . get z ( ) ;  <NL> return math . sqrt ( dx * dx + dy * dy + dz * dz ) ;  <NL>  }  COM: <s> returns the length of the edge </s>

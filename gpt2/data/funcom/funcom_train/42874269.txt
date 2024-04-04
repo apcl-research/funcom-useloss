@@ -1,0 +1,1 @@
+TDAT: public void key ( int key code , boolean down ) throws throwable {  <NL> event e = allocate ( 8 ) ;  <NL> write card8 ( e , 4 ) ; / / message type <NL> write card8 ( e , ( down ? 1 : 0 ) ) ;  <NL> write card16 ( e , 0 ) ; / / padding <NL> write card32 ( e , key code ) ;  <NL> flush ( e ) ;  <NL>  }  COM: <s> sends a single key event to the server </s>

@@ -1,0 +1,1 @@
+TDAT: public command mark moved pieces ( ) {  <NL> command c = null ;  <NL> if ( ! moves to mark . is empty ( ) ) {  <NL> c = new null command ( ) ;  <NL> for ( move summary ms : moves to mark ) {  <NL> for ( game piece p : ms . pieces ) {  <NL> c . append ( mark moved ( p ) ) ;  <NL>  }  <NL>  }  <NL>  }  <NL> return c ;  <NL>  }  COM: <s> mark all pieces with the </s>

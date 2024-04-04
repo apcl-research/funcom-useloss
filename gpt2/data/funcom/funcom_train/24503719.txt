@@ -1,0 +1,1 @@
+TDAT: public void write frequencies ( file red file , file green file , file blue file ) {  <NL> if ( is greyscale ) {  <NL> throw new illegal argument exception ( " image not rgb . " ) ;  <NL>  }  <NL>  <NL> write band ( red file , 0 ) ;  <NL> write band ( green file , 1 ) ;  <NL> write band ( blue file , 2 ) ;  <NL>  }  COM: <s> write frequencies for an rgb image </s>

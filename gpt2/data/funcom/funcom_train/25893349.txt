@@ -1,0 +1,1 @@
+TDAT: public void launch bomb ( ) {  <NL>  / / vec2 pos = new vec2 ( parent . random ( - 15 . 0f , 15 . 0f ) , 30 . 0f ) ;  <NL> vec2 pos = new vec2 ( 0 . 0f , 30 . 0f ) ;  <NL> vec2 vel = pos . mul ( - 5 . 0f ) ;  <NL> launch bomb ( pos , vel ) ;  <NL>  }  COM: <s> space launches a bomb from a random default position </s>

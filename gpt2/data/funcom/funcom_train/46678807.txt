@@ -1,0 +1,1 @@
+TDAT: public sync point make copy ( ) {  <NL> sync point result = new sync point ( ) ;  <NL> result . set id ( this . get id ( ) ) ;  <NL> result . set format ( this . get format ( ) ) ;  <NL> result . set offset ( this . get offset ( ) ) ;  <NL> result . set text ( this . get text ( ) ) ;  <NL> return result ;  <NL>  }  COM: <s> returns a copy of this object </s>

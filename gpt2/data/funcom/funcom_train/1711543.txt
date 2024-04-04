@@ -1,0 +1,1 @@
+TDAT: public void reset total area ( int current _ story , int head ) {  <NL>  <NL> if ( this . lx1 ! = null ) {  <NL> lx1 [ head ] = lx1 [ current _ story ] ;  <NL> lx2 [ head ] = lx2 [ current _ story ] ;  <NL> ly1 [ head ] = ly1 [ current _ story ] ;  <NL> ly2 [ head ] = ly2 [ current _ story ] ;  <NL>  }  <NL>  }  COM: <s> update changed links </s>

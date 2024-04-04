@@ -1,0 +1,1 @@
+TDAT: public void invert ( ) {  <NL> affine transform at = affine transform . get translate instance ( bi . get width ( ) , 0 ) ;  <NL> at . scale ( - 1 . 0 , 1 . 0 ) ;  <NL> affine transform op op = new affine transform op ( at , null ) ;  <NL> bi = op . filter ( bi , null ) ;  <NL>  }  COM: <s> inverts the current jpg image object </s>

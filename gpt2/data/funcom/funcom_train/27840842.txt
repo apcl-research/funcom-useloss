@@ -1,0 +1,1 @@
+TDAT: public void set view suffix ( string new view suffix ) {  <NL> view suffix = new view suffix ;  <NL> scope source source = ( scope source ) get file producer ( " view " ) ;  <NL> source . set suffix ( view suffix ) ;  <NL> prefs . get instance ( ) . set ( " generator " , " view suffix " , view suffix ) ;  <NL>  }  COM: <s> sets the view suffix </s>

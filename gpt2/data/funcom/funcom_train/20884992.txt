@@ -1,0 +1,1 @@
+TDAT: public void test enum csv ( ) {  <NL> enum dto dto = new enum dto ( ) ;  <NL> dto . enum field = enum type . enum _ value2 ;  <NL> assert true ( j sefa test util . serialize ( csv , dto ) . index of ( " enum value 2 " ) > = 0 ) ;  <NL> j sefa test util . assert repeated round trip succeeds ( csv , dto ) ;  <NL>  }  COM: <s> tests enum csv </s>

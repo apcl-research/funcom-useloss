@@ -1,0 +1,1 @@
+TDAT: public boolean equals ( final object obj ) {  <NL> if ( obj = = null || ( ! ( obj instanceof position ) ) ) {  <NL> return false ;  <NL>  } else {  <NL> position pos = ( position ) obj ;  <NL> return ( pos . get file ( ) . equals ( get file ( ) )  <NL>  & & ( pos . get rank ( ) = = get rank ( ) ) ) ;  <NL>  }  <NL>  }  COM: <s> whether two objects are equal </s>

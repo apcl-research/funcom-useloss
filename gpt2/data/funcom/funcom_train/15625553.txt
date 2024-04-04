@@ -1,0 +1,1 @@
+TDAT: public void un select ( ) {  <NL> begin transaction ( ) ;  <NL> try {  <NL> unset flags ( 0 , 0 , grid size . get width ( ) - 1 , grid size . get height ( ) - 1 , grid _ flag _ selection | grid _ flag _ selecting ) ;  <NL>  } finally {  <NL> end transaction ( ) ;  <NL>  }  <NL>  }  COM: <s> clears all selection and pre selection flags from the grid </s>

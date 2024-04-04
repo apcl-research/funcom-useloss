@@ -1,0 +1,1 @@
+TDAT: public void delete edge and publish ( int i , int j ) throws contradiction exception {  <NL> assert ( 0 < = i & & i < nb left vertices & & 0 < = j & & j < nb right vertices ) ;  <NL> delete match ( i , j ) ;  <NL> vars [ i ] . remove val ( j + min value , this , false ) ;  <NL>  }  COM: <s> implement one of the two main events </s>

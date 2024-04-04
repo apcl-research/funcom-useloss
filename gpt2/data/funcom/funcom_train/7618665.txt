@@ -1,0 +1,1 @@
+TDAT: protected boolean is letter or digit ( char ch ) {  <NL> if ( ch > = ' 0 ' & & ch < = ' 9 ' )  <NL> return true ;  <NL> if ( ch > = ' a ' & & ch < = ' z ' )  <NL> return true ;  <NL> if ( ch > = ' a ' & & ch < = ' z ' )  <NL> return true ;  <NL> return false ;  <NL>  }  COM: <s> if it is a letter or digit </s>

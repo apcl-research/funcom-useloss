@@ -1,0 +1,1 @@
+TDAT: public void message error ( jid to address , string err type , string error ) {  <NL> j option pane . show message dialog ( this , " message to " + to address . to string ( ) +  <NL>  " error " + err type + " " + error ,  <NL>  " message error " , j option pane . error _ message ) ;  <NL>  }  COM: <s> code bsmessage listener code function </s>

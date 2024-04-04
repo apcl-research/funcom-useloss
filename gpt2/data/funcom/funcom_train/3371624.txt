@@ -1,0 +1,1 @@
+TDAT: public void repaint ( long tm , int x , int y , int w , int h ) {  <NL> container parent = get parent ( ) ;  <NL> if ( parent ! = null )  <NL> parent . repaint ( tm , x + get x ( ) , y + get y ( ) , w , h ) ;  <NL> else <NL> super . repaint ( tm , x , y , w , h ) ;  <NL>  }  COM: <s> always repaint in the parents coordinate system to make sure </s>

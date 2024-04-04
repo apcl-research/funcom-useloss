@@ -1,0 +1,1 @@
+TDAT: public int generate lrc ( string str ) {  <NL> int sum = 0 ;  <NL>  / / system . out . println ( " generate lrc from : " + str ) ;  <NL> for ( int i = 0 ; i < str . length ( ) ; i + + ) {  <NL> sum + = str . char at ( i ) ;  <NL>  }  <NL> int computed _ lrc = sum % 256 ;  <NL>  <NL> return computed _ lrc ;  <NL>  }  COM: <s> generate an lrc value from a given string </s>

@@ -1,0 +1,1 @@
+TDAT: public void add attributes ( attributes a ) {  <NL> if ( a ! = null ) {  <NL> for ( iterator it = a . key set ( ) . iterator ( ) ; it . has next ( ) ; ) {  <NL> string key = it . next ( ) . to string ( ) ;  <NL> atts . put value ( key , a . get value ( key ) ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> copy an attributes into this entrys attributs </s>

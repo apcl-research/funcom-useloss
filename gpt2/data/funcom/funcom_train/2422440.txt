@@ -1,0 +1,1 @@
+TDAT: public port set port ( port port ) {  <NL> port old = get port ( ) ;  <NL> if ( objects . equal ( old , port ) ) {  <NL> return port ;  <NL>  }  <NL> if ( port ! = null ) {  <NL> data . set property ( property name , port . get port ( ) ) ;  <NL>  } else {  <NL> data . set property ( property name , null ) ;  <NL>  }  <NL> return old ;  <NL>  }  COM: <s> sets the port </s>

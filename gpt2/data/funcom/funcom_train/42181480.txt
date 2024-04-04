@@ -1,0 +1,1 @@
+TDAT: public void drop ( final list < ? extends object > items , float dx , float dy ) {  <NL>  / / always use selection mode after a drop operation <NL> get plan controller ( ) . set mode ( plan controller . mode . selection ) ;  <NL> add items ( items , dx , dy , " undo drop name " ) ;  <NL>  }  COM: <s> adds items to home moves them of dx dy </s>

@@ -1,0 +1,1 @@
+TDAT: private tree make op ( int pos , int top op , tree od1 , tree od2 ) {  <NL> if ( top op = = instanceof ) {  <NL> return f . at ( pos ) . type test ( od1 , od2 ) ;  <NL>  } else {  <NL> return f . at ( pos ) . binary ( optag ( top op ) , od1 , od2 ) ;  <NL>  }  <NL>  }  COM: <s> construct a binary or type test node </s>

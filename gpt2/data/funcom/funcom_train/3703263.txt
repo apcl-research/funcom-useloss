@@ -1,0 +1,1 @@
+TDAT: protected string get days of week as description ( ) {  <NL> int [ ] days arr = get days of week as int array ( ) ;  <NL> if ( days arr . length < = 0 ) {  <NL> return ( null ) ;  <NL>  }  <NL> return ( day of week lib . to consecutive days ( days arr , " - " , false ) ) ;  <NL>  } / / of method  COM: <s> get the days of week as a human readable string </s>

@@ -1,0 +1,1 @@
+TDAT: public void send mode change ( int n entity , int n equip , int n mode ) {  <NL> object [ ] data = { new integer ( n entity ) , new integer ( n equip ) ,  <NL> new integer ( n mode ) } ;  <NL> send ( new packet ( packet . command _ entity _ modechange , data ) ) ;  <NL>  }  COM: <s> send mode change data to the server </s>

@@ -1,0 +1,1 @@
+TDAT: public boolean set value ( string field , object value ) {  <NL> if ( ! this . writable )  <NL> return false ;  <NL> if ( value = = null ) {  <NL> this . fields . remove ( new attr name ( field ) ) ;  <NL>  } else {  <NL> this . fields . put ( new attr name ( field ) , value ) ;  <NL>  }  <NL> return true ;  <NL>  }  COM: <s> modify the value of a field </s>

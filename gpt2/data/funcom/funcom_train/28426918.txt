@@ -1,0 +1,1 @@
+TDAT: protected int engine pad ( byte [ ] in , int offset , int length ) {  <NL> int pad len = pad length ( length ) ;  <NL> int j = offset + length ;  <NL> in [ j + + ] = ( byte ) 0x80 ;  <NL> for ( int i = 1 ; i < pad len ; i + + )  <NL> in [ j + + ] = 0x00 ;  <NL>  <NL> return pad len ;  <NL>  }  COM: <s> pads a given array of bytes </s>

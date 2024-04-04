@@ -1,0 +1,1 @@
+TDAT: public void build id ( final string prefix , final int pos ) {  <NL> final string my id = prefix + integer . to string ( pos , character . max _ radix ) ;  <NL> set id ( my id ) ;  <NL> int cnt = 0 ;  <NL> for ( final unit u : this ) {  <NL> cnt + + ;  <NL> u . build id ( my id + " . " , cnt ) ;  <NL>  }  <NL>  }  COM: <s> builds the id </s>

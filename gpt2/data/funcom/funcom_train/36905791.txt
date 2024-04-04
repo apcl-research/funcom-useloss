@@ -1,0 +1,1 @@
+TDAT: public void set contact type ( java . lang . string value ) throws cache exception {  <NL> dataholder dh = new dataholder ( value ) ;  <NL> m internal . set property ( ii _ contact type , jj _ contact type , kk _ contact type , database . ret _ prim , " contact type " , dh ) ;  <NL> return ;  <NL>  }  COM: <s> sets new value for code contact type code </s>

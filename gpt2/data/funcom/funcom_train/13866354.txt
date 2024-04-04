@@ -1,0 +1,1 @@
+TDAT: public void set text ( int row , int column , string text ) {  <NL> prepare cell ( row , column ) ;  <NL> element td ;  <NL> td = clean cell ( row , column , text = = null ) ;  <NL> if ( text ! = null ) {  <NL> dom . set inner text ( td , text ) ;  <NL>  }  <NL>  }  COM: <s> sets the text within the specified cell </s>

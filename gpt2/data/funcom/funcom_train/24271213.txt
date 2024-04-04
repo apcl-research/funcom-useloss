@@ -1,0 +1,1 @@
+TDAT: public void normalize ( ) {  <NL> double len sqr = x * x + y * y + z * z ;  <NL> double err = len sqr - 1 ;  <NL> if ( err > ( 2 * double _ prec ) || <NL> err < - ( 2 * double _ prec ) ) {  <NL> double len = math . sqrt ( len sqr ) ;  <NL> x / = len ;  <NL> y / = len ;  <NL> z / = len ;  <NL>  }  <NL>  }  COM: <s> normalizes this vector in place </s>

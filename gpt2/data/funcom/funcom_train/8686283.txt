@@ -1,0 +1,1 @@
+TDAT: protected input stream wrap stream ( input stream in ) throws io exception {  <NL> for ( int i = 0 ; i < magic . length ; i + + ) {  <NL> if ( in . read ( ) ! = magic [ i ] ) {  <NL> throw new io exception ( " invalid bz2 stream . " ) ;  <NL>  }  <NL>  }  <NL> return new cb zip2input stream ( in ) ;  <NL>  }  COM: <s> decompress on the fly using </s>

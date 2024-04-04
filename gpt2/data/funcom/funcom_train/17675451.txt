@@ -1,0 +1,1 @@
+TDAT: public void clear tx dirty list ( ) {  <NL> for ( pc state man i = tx dirty list tail ; i ! = null ; ) {  <NL> pc state man next = i . next ;  <NL> i . prev = null ;  <NL> i . next = null ;  <NL> i = next ;  <NL> dirty cmd bits . clear ( ) ;  <NL>  }  <NL> tx dirty list head = tx dirty list tail = null ;  <NL>  }  COM: <s> clear the dirty list </s>

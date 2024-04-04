@@ -1,0 +1,1 @@
+TDAT: public void append to xml ( string buffer buf ) {  <NL> if ( message ! = null ) {  <NL> buf . append ( " < error type = \ " cancel\ " > " ) ;  <NL> buf . append ( " < " ) . append ( message ) . append ( " xmlns = \ " " ) . append ( namespace ) . append (  <NL>  " \ " / > " ) ;  <NL> buf . append ( " < / error > " ) ;  <NL>  }  <NL>  }  COM: <s> returns the error as xml </s>

@@ -1,0 +1,1 @@
+TDAT: public void test to string _ file not null line minus2 ( ) {  <NL> stack trace element ste = new stack trace element ( " class " , " method " , " file " , - 2 ) ;  <NL> assert equals ( " incorrect output " , " class . method ( file ) " , ste . to string ( ) ) ;  <NL>  }  COM: <s> method under test string to string </s>

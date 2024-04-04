@@ -1,0 +1,1 @@
+TDAT: public void test max ( ) {  <NL> linked list < test object > list = new test list ( ) ;  <NL> assert equals ( new integer ( 8 ) , attributes . max ( list , test object . int _ attr ) ) ;  <NL> assert equals ( " two " , attributes . max ( list , test object . str _ attr ) ) ;  <NL>  }  COM: <s> tests the use of the attributes </s>

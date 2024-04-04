@@ -1,0 +1,1 @@
+TDAT: public void post _ sale ( transaction t , payment p , connection conn ) throws data exception , sql exception {  <NL> if ( p ! = null ) {  <NL> payment dao . get instance ( ) . save ( p , conn ) ;  <NL>  }  <NL> transaction dao . get instance ( ) . save ( t , conn ) ;  <NL>  }  COM: <s> performs all of the database updates necessary for posting a sale </s>

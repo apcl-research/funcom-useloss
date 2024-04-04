@@ -1,0 +1,1 @@
+TDAT: protected void add xml to response ( response response , file desc fd ) {  <NL> list < lime xml document > docs = fd . get lime xml documents ( ) ;  <NL> if ( docs . size ( ) = = 0 )  <NL> return ;  <NL> if ( docs . size ( ) = = 1 )  <NL> response . set document ( docs . get ( 0 ) ) ;  <NL>  }  COM: <s> adds xml to the response </s>

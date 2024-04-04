@@ -1,0 +1,1 @@
+TDAT: public void add ( final gps track a track ) {  <NL> add element ( a track ) ;  <NL>  / / add track display properties .  <NL> properties p = new properties ( ) ;  <NL> p . put ( " color " , get next default color ( ) ) ;  <NL> props . put ( a track , p ) ;  <NL> notify add track ( a track ) ;  <NL>  }  COM: <s> adds given track to the tracks storage </s>

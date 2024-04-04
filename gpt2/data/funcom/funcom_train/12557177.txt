@@ -1,0 +1,1 @@
+TDAT: private void update uid ( ) {  <NL> string value = key . to string ( ) ;  <NL> int field = get uid field ( ) ;  <NL> if ( count values ( field ) = = 0 ) {  <NL> add value ( field , 0 , value , true ) ;  <NL>  } / / don ' t change uid value , it can be set by user <NL>  }  COM: <s> update the uid field </s>

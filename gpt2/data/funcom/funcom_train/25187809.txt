@@ -1,0 +1,1 @@
+TDAT: public void test put get ( ) {  <NL> reopen map map = new reopen map ( ) ;  <NL> file f = new file ( " 1234l " ) ;  <NL> map . set file ( 1234l , f ) ;  <NL> file file = map . get file ( 0 ) ;  <NL> assert equals ( " put get mismatch " , f , file ) ;  <NL> assert equals ( " size failed " , 1 , map . get size ( ) ) ;  <NL>  }  COM: <s> check we can put and get values </s>

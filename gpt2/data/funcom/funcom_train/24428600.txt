@@ -1,0 +1,1 @@
+TDAT: private date get date ( string day ) {  <NL> date date = null ;  <NL> try {  <NL> date format formatter = new simple date format ( " yyyy - mm - dd " ) ;  <NL> date = formatter . parse ( day ) ;  <NL>  } catch ( parse exception e ) {  <NL> log . warn ( " cannot parse date : " + day , e ) ;  <NL>  }  <NL> return date ;  <NL>  }  COM: <s> parse date for day string </s>

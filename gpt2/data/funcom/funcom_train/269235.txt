@@ -1,0 +1,1 @@
+TDAT: public void start ( ) {  <NL> thread t = this . thread var . get ( ) ;  <NL>  / / log . applidebug ( " start worker " ) ;  <NL> if ( t ! = null ) { / / log . applidebug ( " starting worker " ) ;  <NL> t . start ( ) ;  <NL>  }  <NL>  / / else log . applidebug ( " no thread worker " ) ;  <NL>  <NL>  }  COM: <s> start the worker thread </s>

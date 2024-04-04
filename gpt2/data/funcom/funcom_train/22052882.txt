@@ -1,0 +1,1 @@
+TDAT: public void clear _ items ( ) {  <NL> if ( this . get item count ( ) > 0 ) {  <NL> this . remove all items ( ) ;  <NL>  }  <NL> if ( t item . size ( ) > 0 ) {  <NL> t item . remove all elements ( ) ;  <NL>  }  <NL> if ( i item id . size ( ) > 0 ) {  <NL> i item id . remove all elements ( ) ;  <NL>  }  <NL>  }  COM: <s> completely clears all options from the combo box </s>

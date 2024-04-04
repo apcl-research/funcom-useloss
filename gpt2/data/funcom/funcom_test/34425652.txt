@@ -1,0 +1,1 @@
+TDAT: private void docs link ( z writer wr , string f , string s ) throws exception {  <NL> wr . write exc ( " < a href = \ " " ) ;  <NL> wr . write exc ( f ) ;  <NL> wr . write exc ( " \ " > " ) ;  <NL> docs write ( wr , s ) ;  <NL> wr . writeln exc ( " < / a > " ) ;  <NL>  }  COM: <s> helper method which the specified arguments to the file writer as a html </s>

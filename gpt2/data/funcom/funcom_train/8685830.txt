@@ -1,0 +1,1 @@
+TDAT: public void set mapper ( string type , string from , string to ) {  <NL> mapper m = create mapper ( ) ;  <NL> mapper . mapper type mapper type = new mapper . mapper type ( ) ;  <NL> mapper type . set value ( type ) ;  <NL> m . set type ( mapper type ) ;  <NL> m . set from ( from ) ;  <NL> m . set to ( to ) ;  <NL>  }  COM: <s> set a mapper to change property names </s>

@@ -1,0 +1,1 @@
+TDAT: public void paint horiz border ( component c , graphics g , int x , int y , int width , int height ) {  <NL> g . set color ( this . b color ) ;  <NL> g . draw line ( x , y , x + width , y ) ;  <NL> g . draw line ( x , y - height , x + width , y ) ;  <NL>  }  COM: <s> paint a border on just the top and bottom </s>

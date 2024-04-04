@@ -1,0 +1,1 @@
+TDAT: protected void set enable ( boolean b ) {  <NL> m _ media delete btn . set enabled ( b ) ;  <NL> m _ media import btn . set enabled ( b ) ;  <NL> m _ media input btn . set enabled ( b ) ;  <NL> m _ chkb media . set enabled ( b ) ;  <NL> if ( b = = false )  <NL> m _ media card layout . show ( this , virgin _ state ) ;  <NL>  }  COM: <s> to set enable or not the panel </s>

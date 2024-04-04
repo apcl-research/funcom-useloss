@@ -1,0 +1,1 @@
+TDAT: protected native stream create native stream ( ) {  <NL> x86constants . mode mode = ( ( vm x86architecture ) get architecture ( ) )  <NL>  . get mode ( ) ;  <NL> return new x86binary assembler ( get cpuid ( ) , mode , load _ addr ,  <NL> initial _ objrefs _ capacity , initial _ size , initial _ size ) ;  <NL>  }  COM: <s> create a platform specific native stream </s>

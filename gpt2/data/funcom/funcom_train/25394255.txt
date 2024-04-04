@@ -1,0 +1,1 @@
+TDAT: public void set ( final string a _ initstr ) {  <NL>  <NL> string [ ] tmp = a _ initstr . trim ( ) . split ( " " ) ;  <NL> x = ( double . parse double ( tmp [ 0 ] ) ) ;  <NL> y = ( double . parse double ( tmp [ 1 ] ) ) ;  <NL> z = ( double . parse double ( tmp [ 2 ] ) ) ;  <NL>  }  COM: <s> initialize by string separate with </s>

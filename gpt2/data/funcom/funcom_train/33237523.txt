@@ -1,0 +1,1 @@
+TDAT: public void add date control ( form form ) {  <NL> this . script = " onblur = \ " " +  <NL>  " if ( ! is date ( " + field name + " . value ) ) { " +  <NL> form . get unique name ( ) + " . " + field name + " . value = ' ' ; " +  <NL> field name + " . focus ( ) ; " +  <NL>  " return false ; " +  <NL>  " } \ " " ;  <NL>  }  COM: <s> to be used in case of calendar field </s>

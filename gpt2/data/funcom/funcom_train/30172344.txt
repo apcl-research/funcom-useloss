@@ -1,0 +1,1 @@
+TDAT: public void stop all thread ( ) {  <NL> this . debug . println ( " pooled transfer : stop all process " ) ;  <NL> for ( int i = 0 ; i < d thread . length ; i + + ) {  <NL>  ( ( transfer thread ) d thread [ i ] ) . stop thread ( ) ;  <NL>  }  <NL> synchronized ( pool ) {  <NL> pool . notify all ( ) ;  <NL>  }  <NL>  }  COM: <s> stop all thread </s>

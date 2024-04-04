@@ -1,0 +1,1 @@
+TDAT: public var node find var ( string name ) {  <NL> if ( vars = = null ) return null ;  <NL> for ( int i = vars . length - 1 ; i > = 0 ; i - - ) {  <NL> var node v = vars [ i ] ;  <NL> if ( v . get identifier ( ) . equals ( name ) ) return v ;  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> find the variable with name or null if none </s>

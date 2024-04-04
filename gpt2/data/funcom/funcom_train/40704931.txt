@@ -1,0 +1,1 @@
+TDAT: public void stream remove comment ( final string comment id , final async callback < java script object > callback ) {  <NL> json j = new json ( ) . put ( " comment _ id " , comment id ) ;  <NL> call method ( " stream . remove comment " , j . get java script object ( ) , callback ) ;  <NL>  }  COM: <s> this method removes a comment from a post </s>

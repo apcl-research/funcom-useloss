@@ -1,0 +1,1 @@
+TDAT: public void add ( rectangle2d rec ) {  <NL> add ( new point2d . double ( rec . get x ( ) , rec . get y ( ) ) ) ;  <NL> add ( new point2d . double ( rec . get x ( ) + rec . get width ( ) , rec . get y ( ) + rec . get height ( ) ) ) ;  <NL>  }  COM: <s> forces the bounding box to include the extents of the given rectangle </s>

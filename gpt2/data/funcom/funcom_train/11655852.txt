@@ -1,0 +1,1 @@
+TDAT: private method get method ( object clazz , string method ) {  <NL> if ( clazz ! = null & & method ! = null ) {  <NL> try {  <NL> return clazz . get class ( ) . get method ( method , new class [ 0 ] ) ;  <NL>  } catch ( no such method exception e ) {  <NL> log . warn ( e . get message ( ) ) ;  <NL>  }  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> get a method </s>

@@ -1,0 +1,1 @@
+TDAT: public void set width ( int width ) {  <NL> int old width = this . width ;  <NL> this . width = width ;  <NL> fire property change ( " width " , old width , width ) ;  <NL> if ( wabit utils . get workspace ( this ) . is magic enabled ( ) ) {  <NL> adjust margin for page width ( old width , width ) ;  <NL>  }  <NL>  }  COM: <s> sets the apparent width of the page </s>

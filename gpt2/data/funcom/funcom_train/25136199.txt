@@ -1,0 +1,1 @@
+TDAT: private boolean is same style set ( state info info , int style set ) {  <NL> if ( info = = null ) {  <NL> return false ;  <NL>  } else {  <NL> return ( ( ( style set ! = - 1 ) & & ( info . get component style set ( ) = = style set ) ) || ( info . get component style set ( ) = = - 1 ) ) ;  <NL>  }  <NL>  }  COM: <s> check if the state info has the defined style set </s>

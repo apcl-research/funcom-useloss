@@ -1,0 +1,1 @@
+TDAT: public void clear selection ( ) {  <NL> for ( int i = efs . get all f frames ( ) . length - 1 ; i > = 0 ; i - - ) {  <NL> if frame fframe = efs . get f frame ( i ) ;  <NL> if ( fframe . get selected ( ) ! = if frame . noselect ) {  <NL> fframe . set selected ( false ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> clear the selection of fframes </s>

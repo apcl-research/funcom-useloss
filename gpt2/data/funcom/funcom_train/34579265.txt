@@ -1,0 +1,1 @@
+TDAT: public void paint component ( graphics g ) {  <NL> g . draw image ( i , x , y , width , height , this ) ;  <NL> g . set color ( color . gray ) ;  <NL>  <NL> for ( int z = 2 ; z < = borderthik ; z + + ) {  <NL> g . draw3d rect ( x - z , y - z , width + z + 1 , height + z + 1 , false ) ;  <NL>  }  <NL>  }  COM: <s> paints the border and the picture </s>

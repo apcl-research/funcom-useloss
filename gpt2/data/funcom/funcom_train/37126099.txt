@@ -1,0 +1,1 @@
+TDAT: private void reset log ( ) {  <NL> file log dir = new file ( " etc / testing / log " ) ;  <NL> file [ ] log files = log dir . list files ( ) ;  <NL> for ( int i = 0 ; i < log files . length ; i + + ) log files [ i ] . delete ( ) ;  <NL> log4j init . force init ( ) ;  <NL>  }  COM: <s> delete and reinitialise the log directory files </s>

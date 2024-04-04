@@ -1,0 +1,1 @@
+TDAT: public int compare byte arrays ( ) {  <NL> int a = 0 ;  <NL> for ( int i = 0 ; i < image . length ; i + + ) {  <NL> if ( image [ i ] ! = image2 [ i ] ) {  <NL> a + + ;  <NL> system . out . println ( i + " " + image [ i ] + " " + image2 [ i ] ) ;  <NL>  }  <NL>  }  <NL> return a ;  <NL>  }  COM: <s> compares two byte arrays which are supposed to be equel </s>

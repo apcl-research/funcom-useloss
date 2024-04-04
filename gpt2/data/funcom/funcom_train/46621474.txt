@@ -1,0 +1,1 @@
+TDAT: public void execute script ( map attributes , map elements ) {  <NL> runner . add bean ( " attributes " , attributes ) ;  <NL> runner . add bean ( " elements " , elements ) ;  <NL> runner . add bean ( " project " , get project ( ) ) ;  <NL> runner . execute script ( " scriptdef < " + name + " > " ) ;  <NL>  }  COM: <s> execute the script </s>

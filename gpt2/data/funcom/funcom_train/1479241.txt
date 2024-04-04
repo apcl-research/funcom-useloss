@@ -1,0 +1,1 @@
+TDAT: public string get npc description ( int npc id ) {  <NL> if ( npc id = = - 1 || npc id > = max listed np cs ) {  <NL> return new string ( " an npc . " ) ;  <NL>  }  <NL> if ( npc lists [ npc id ] ! = null ) {  <NL> return ( npc lists [ npc id ] . examine ) ;  <NL>  }  <NL> return new string ( " npc " + npc id ) ;  <NL>  }  COM: <s> returns the description of npc id </s>

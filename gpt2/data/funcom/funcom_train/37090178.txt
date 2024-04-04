@@ -1,0 +1,1 @@
+TDAT: public void write world info ( string title , string info ) throws io exception {  <NL> write line ( " world info { " ) ;  <NL> write line ( " title \ " " + title + " \ " " ) ;  <NL> write line ( " info \ " " + info + " \ " " ) ;  <NL> write line ( " } " ) ;  <NL> write line ( " " ) ;  <NL>  }  COM: <s> writes world info to the vrml file </s>

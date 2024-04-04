@@ -1,0 +1,1 @@
+TDAT: protected void stateful server response ( transaction server ts , message resp )  <NL>  { print log ( " inside stateful server response ( msg ) " , log level . medium ) ;  <NL> print log ( " server response : " + resp . get status line ( ) . to string ( ) , log level . medium ) ;  <NL> ts . respond with ( resp ) ;  <NL>  }  COM: <s> sends a server final response </s>

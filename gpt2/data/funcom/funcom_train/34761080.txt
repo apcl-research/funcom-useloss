@@ -1,0 +1,1 @@
+TDAT: private void paint elip ( graphics2d g ) {  <NL> g . set color ( color . green ) ;  <NL> for ( int i = 0 ; i < 47 ; i + + ) {  <NL> for ( int j = 0 ; j < 21 ; j + + ) {  <NL> g . draw string ( elip array [ i ] [ j ] , i * 12 + 5 , j * 12 + 73 ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> paint the eliptical curve encryption cipher </s>

@@ -1,0 +1,1 @@
+TDAT: public void read external ( object input in ) throws io exception , class not found exception {  <NL> int size = in . read int ( ) ;  <NL> for ( int i = 0 ; i < size ; i + + ) {  <NL> object key = in . read object ( ) ;  <NL> object value = in . read object ( ) ;  <NL> put ( key , value ) ;  <NL>  }  <NL>  }  COM: <s> deserializes this map from the given stream </s>

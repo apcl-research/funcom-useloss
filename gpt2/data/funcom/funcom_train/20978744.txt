@@ -1,0 +1,1 @@
+TDAT: private j combo box get ed max pawns ( ) {  <NL> if ( ed max pawns = = null ) {  <NL> ed max pawns = new j combo box ( ) ;  <NL> ed max pawns . set name ( " combobox _ maxpawns " ) ;  <NL> ed max pawns . set bounds ( new rectangle ( 254 , 249 , 257 , 25 ) ) ;  <NL>  }  <NL> return ed max pawns ;  <NL>  }  COM: <s> this method initializes ed max pawns </s>

@@ -1,0 +1,1 @@
+TDAT: public boolean is in transaction ( string name ) {  <NL> connection conn = m _ rc . get connection ( name ) ;  <NL> try {  <NL> return conn . get auto commit ( ) ;  <NL>  } catch ( sql exception e ) {  <NL> m _ log . warn ( " failed to access tx ' " + name + " ' " , e ) ;  <NL> return false ;  <NL>  }  <NL>  }  COM: <s> return the transaction status of the save session </s>

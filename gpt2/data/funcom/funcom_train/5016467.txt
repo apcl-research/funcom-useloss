@@ -1,0 +1,1 @@
+TDAT: private string dtd element primary key ( ) {  <NL> return " < ! element " + xml builder . node _ primarykey + " ( " +  <NL> xml builder . node _ refcolumn + " + ) > " + config . ls +  <NL>  " < ! attlist " + xml builder . node _ primarykey + " " +  <NL> xml builder . node _ primarykey _ attr _ name + " cdata # required > " ;  <NL>  }  COM: <s> write element primary key </s>

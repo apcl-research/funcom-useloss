@@ -1,0 +1,1 @@
+TDAT: public void vertex ( final float the x , final float the y , final float the z ) {  <NL> double [ ] my vertex = new double [ 3 ] ;  <NL> my vertex [ 0 ] = the x ;  <NL> my vertex [ 1 ] = the y ;  <NL> my vertex [ 2 ] = the z ;  <NL>  <NL> glu . glu tess vertex ( _ my tesselator , my vertex , 0 , my vertex ) ;  <NL>  }  COM: <s> adds a vertex to the current polygon path </s>

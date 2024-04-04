@@ -1,0 +1,1 @@
+TDAT: private int get int ( byte [ ] buf , int offset ) {  <NL> return ( ( buf [ offset + 0 ] & 0xff ) < < 24 ) | ( ( buf [ offset + 1 ] & 0xff ) < < 16 ) | <NL>  ( ( buf [ offset + 2 ] & 0xff ) < < 8 ) | ( buf [ offset + 3 ] & 0xff ) ;  <NL>  }  COM: <s> get an integer from an array </s>

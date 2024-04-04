@@ -1,0 +1,1 @@
+TDAT: public void test contains ( ) {  <NL> person bean p1 = new person bean ( " ruud " , " van nistelroy " ) ;  <NL> context cache . put bean ( p1 . get first name ( ) , p1 ) ;  <NL> boolean found = context cache . contains ( p1 . get first name ( ) ) ;  <NL> assert true ( " failure in contains method " , found ) ;  <NL>  }  COM: <s> test the containment method </s>

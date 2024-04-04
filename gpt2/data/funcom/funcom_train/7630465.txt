@@ -1,0 +1,1 @@
+TDAT: public void set routing ( int mode , int routes , int mask ) {  <NL> i audio service service = get service ( ) ;  <NL> try {  <NL> service . set routing ( mode , routes , mask ) ;  <NL>  } catch ( remote exception e ) {  <NL> log . e ( tag , " dead object in set routing " , e ) ;  <NL>  }  <NL>  }  COM: <s> sets the audio routing for a specified mode </s>

@@ -1,0 +1,1 @@
+TDAT: protected void do start page ( ) {  <NL> if ( page number > 1 )  <NL> out . println ( " \\newpage " ) ;  <NL> out . println ( " % = = = = = = = = page " + page number + " = = = = = = = = " ) ;  <NL> out . println ( " \\begin { picture } ( " + page width ( ) + " , " + page height ( ) + " ) " ) ;  <NL>  }  COM: <s> start a new page </s>

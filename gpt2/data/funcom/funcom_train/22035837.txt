@@ -1,0 +1,1 @@
+TDAT: protected void refresh cells ( ) {  <NL> util . invoke ( false , basic ss cell . debug , new runnable ( ) {  <NL> public void run ( ) {  <NL> for ( int i = 0 ; i < num vis x ; i + + ) {  <NL> for ( int j = 0 ; j < num vis y ; j + + ) display cells [ i ] [ j ] . refresh ( ) ;  <NL>  }  <NL>  }  <NL>  } ) ;  <NL>  }  COM: <s> refreshes spreadsheet cells </s>

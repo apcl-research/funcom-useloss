@@ -1,0 +1,1 @@
+TDAT: public void test append ( ) {  <NL> system . out . println ( " append " ) ;  <NL> p1 . append ( p2 ) ;  <NL> assert equals ( " + 2x " , p1 . to string ( ) ) ;  <NL> p2 . append ( p3 ) ;  <NL> assert equals ( " + 1 . 5x + 1 - 0 . 7x ^ - 1 " , p2 . to string ( ) ) ;  <NL>  }  COM: <s> test of append method of class scio </s>

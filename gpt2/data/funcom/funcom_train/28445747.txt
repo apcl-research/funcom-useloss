@@ -1,0 +1,1 @@
+TDAT: public lookahead look ( int k , one or more block blk ) {  <NL> if ( debug _ analyzer ) x . java . lang . system . out ( ) . println ( " look + " + k + " , " + blk + " ) " ) ;  <NL> lookahead p = look ( k , ( alternative block ) blk ) ;  <NL> return p ;  <NL>  }  COM: <s> the lookahead of a </s>

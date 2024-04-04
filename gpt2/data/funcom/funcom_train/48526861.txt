@@ -1,0 +1,1 @@
+TDAT: protected string convert ( string string ) {  <NL> if ( string . index of ( ' & ' ) < 0 )  <NL> return string ;  <NL>  <NL> for ( int i = 0 ; i < entities . length ; i + + )  <NL> string = string . replace all ( entities [ i ] [ 0 ] , entities [ i ] [ 1 ] ) ;  <NL>  <NL> return string ;  <NL>  }  COM: <s> internal method which deconverts all of the html xml entities </s>

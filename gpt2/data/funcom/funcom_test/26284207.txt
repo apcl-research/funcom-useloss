@@ -1,0 +1,1 @@
+TDAT: private boolean is next month ( int row , int col ) {  <NL> if ( row > 0 & & first col dates [ row ] + col > model . get days in month ( ) )  <NL> return true ;  <NL> if ( row > 1 & & first col dates [ row ] < first col dates [ row - 1 ] )  <NL> return true ;  <NL> return false ;  <NL>  }  COM: <s> check whether the specified cell is in the next month </s>

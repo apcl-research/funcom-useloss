@@ -1,0 +1,1 @@
+TDAT: public int convert unix number to perms ( int l _ unix code ) {  <NL> int result = 0 ;  <NL> for ( int idx = 0 ; idx < 3 ; idx + + ) {  <NL> result = result | ( ( ( l _ unix code / ( int ) math . pow ( 10 , idx ) ) % 10 ) < < idx * 3 ) ;  <NL>  }  <NL>  <NL> return result ;  <NL>  }  COM: <s> converts unix permissions to the permissions used by the jsch permissions </s>

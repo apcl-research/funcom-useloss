@@ -1,0 +1,1 @@
+TDAT: @ test public void test harness8 ( ) {  <NL> help failure ( " number of start / end locations ( 1 ) should be double the number of tokens ( 2 ) " ,  <NL>  " a " , new enum < ? > [ ] { identifier , eof } , new int [ ] { 0 } , 0 ) ;  <NL>  }  COM: <s> this tests that the test harness fails if too few positions are given </s>

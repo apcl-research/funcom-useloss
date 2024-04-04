@@ -1,0 +1,1 @@
+TDAT: public boolean do read ( byte buffer cb ) {  <NL> boolean complete = do actual read ( cb ) ;  <NL> while ( ! complete & & ready to read data & & chunked & & cb . has remaining ( ) ) {  <NL> complete = do actual read ( cb ) ;  <NL>  }  <NL> if ( complete ) {  <NL> if ( data ! = null ) data . flip ( ) ;  <NL>  }  <NL> return complete ;  <NL>  }  COM: <s> post path http 1 </s>

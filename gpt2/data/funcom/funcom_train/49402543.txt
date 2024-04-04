@@ -1,0 +1,1 @@
+TDAT: public void encode ( final string val ) {  <NL> try {  <NL> byte buffer . clear ( ) ;  <NL> byte buffer . put int ( val . length ( ) ) ;  <NL> os . write ( byte buffer . array ( ) ) ;  <NL> os . write ( val . get bytes ( ) ) ;  <NL>  } catch ( io exception e ) {  <NL> throw new runtime io exception ( e ) ;  <NL>  }  <NL>  }  COM: <s> write object to file </s>

@@ -1,0 +1,1 @@
+TDAT: public void set attributes ( int attrs ) throws smb exception {  <NL> if ( get unc path0 ( ) . length ( ) = = 1 ) {  <NL> throw new smb exception ( " invalid operation for workgroups , servers , or shares " ) ;  <NL>  }  <NL> set path information ( attrs & attr _ set _ mask , 0l , 0l , 0l ) ;  <NL>  }  COM: <s> set the attributes of this file </s>

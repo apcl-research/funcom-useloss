@@ -1,0 +1,1 @@
+TDAT: public void draw ( graphics g , int x , int y , double zoom ) {  <NL> image img = get scaled image ( zoom ) ;  <NL> if ( img ! = null ) {  <NL>  / / i have no idea why i have to subtract the height of the image .  <NL> g . draw image ( img , x , y - get height ( ) , null ) ;  <NL>  }  <NL>  }  COM: <s> draws the tile at the given pixel coordinates in the given </s>

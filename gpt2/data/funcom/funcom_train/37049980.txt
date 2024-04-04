@@ -1,0 +1,1 @@
+TDAT: public void test beginning gen ( ) {  <NL> sch . schedule action beginning ( 1 , this , " action method " ) ;  <NL> for ( int i = 0 ; i < 10 ; i + + ) {  <NL> sch . execute ( ) ;  <NL>  }  <NL>  <NL> for ( int i = 0 ; i < 10 ; i + + ) {  <NL> assert equals ( i + 1 , results . get ( i ) , 0 . 0 ) ;  <NL>  }  <NL>  }  COM: <s> tests simple action beginning at 1 </s>

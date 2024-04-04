@@ -1,0 +1,1 @@
+TDAT: public string display ( element el ) {  <NL> string buffer out = new string buffer ( ) ;  <NL> element info object eio = get element info ( el , false ) ;  <NL> display ( eio , 0 , out , true , true , false ) ;  <NL> return ( out . to string ( ) ) ;  <NL>  } / / display  COM: <s> footprint into display </s>

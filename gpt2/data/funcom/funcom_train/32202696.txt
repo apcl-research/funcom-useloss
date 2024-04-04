@@ -1,0 +1,1 @@
+TDAT: protected void evaluate ( imagava context a imagava context , context a context , scriptable a scope , reader a reader , string a file name , int a line no , object a security domain ) throws io exception {  <NL> a context . evaluate reader ( a scope , a reader , a file name , a line no , a security domain ) ;  <NL>  }  COM: <s> called to internally execute the js </s>

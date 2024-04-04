@@ -1,0 +1,1 @@
+TDAT: protected int hash ( byte [ ] term1 , byte [ ] term2 , int probe , int num features ) {  <NL> long r = murmur hash . hash64a ( term1 , probe ) ;  <NL> r = murmur hash . hash64a ( term2 , ( int ) r ) % num features ;  <NL> if ( r < 0 ) {  <NL> r + = num features ;  <NL>  }  <NL> return ( int ) r ;  <NL>  }  COM: <s> hash two byte arrays and an integer into the range 0 </s>

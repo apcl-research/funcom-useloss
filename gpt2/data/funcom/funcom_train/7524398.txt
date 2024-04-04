@@ -1,0 +1,1 @@
+TDAT: private void remove expired ( lock decree decree ) {  <NL>  / / remove the invalid ( expired ) lock <NL> lock decree local lock = ( lock decree ) held locks . get ( decree . get key ( ) ) ;  <NL> if ( local lock ! = null & & ! local lock . is valid ( ) )  <NL> held locks . remove ( local lock . get key ( ) ) ;  <NL>  }  COM: <s> removes expired locks </s>

@@ -1,0 +1,1 @@
+TDAT: public action create action ( ) {  <NL> return new action (  <NL> alias wrapper . get alias wrapper ( ) . get group name ( ) ,  <NL> get name ( ) ,  <NL> new action type [ ] { core action type . unknown _ command , } ,  <NL> get response ( ) ,  <NL> get arguments ( ) ,  <NL>  " " ) ;  <NL>  }  COM: <s> creates an action corresponding to this alias </s>

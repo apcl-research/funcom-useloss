@@ -1,0 +1,1 @@
+TDAT: public void set evidence table ( hashtable tbl ) {  <NL> for ( enumeration e = tbl . keys ( ) ; e . has more elements ( ) ; ) {  <NL> string name = ( string ) e . next element ( ) ;  <NL> bbn node n = ( bbn node ) get node ( name ) ;  <NL> n . set evidence value ( tbl . get ( name ) ) ;  <NL>  }  <NL>  }  COM: <s> set the evidence values based on the table </s>

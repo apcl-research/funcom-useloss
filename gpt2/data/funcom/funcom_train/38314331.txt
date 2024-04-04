@@ -1,0 +1,1 @@
+TDAT: public void set q name ( string q name ) {  <NL> this . q name = q name ;  <NL> int i = q name . index of ( ' : ' ) ;  <NL> if ( i > - 1 ) {  <NL> this . set local name ( q name . substring ( i + 1 ) ) ;  <NL>  }  <NL> else {  <NL> this . set local name ( q name ) ;  <NL>  }  <NL>  }  COM: <s> sets the q name </s>

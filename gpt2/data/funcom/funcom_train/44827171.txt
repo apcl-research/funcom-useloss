@@ -1,0 +1,1 @@
+TDAT: public plugin def get plugin def by name ( string plugin name ) {  <NL> plugin def [ ] plgs = get plugin defs ( ) ;  <NL> for ( int i = 0 ; i < plgs . length ; i + + ) {  <NL> if ( plgs [ i ] . get name ( ) . equals ( plugin name ) ) {  <NL> return plgs [ i ] ;  <NL>  }  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> get a plugin def in the domain by its name </s>

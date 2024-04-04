@@ -1,0 +1,1 @@
+TDAT: public void put ( servlet request request , object value , map < string , object > expand context ) {  <NL> attribute accessor aa = new attribute accessor ( name , expand context , this . attribute name , this . fma , this . needs expand ) ;  <NL> aa . put ( request , value ) ;  <NL>  }  COM: <s> based on name put in servlet request or from list in servlet request </s>

@@ -1,0 +1,1 @@
+TDAT: public float get jump velocity ( float jump height ) {  <NL>  / / use velocity / acceleration formal : v * v = - 2 * a ( y - y0 )  <NL>  / / ( v is jump velocity , a is accel , y - y0 is max height )  <NL> return ( float ) math . sqrt ( - 2 * gravity accel * jump height ) ;  <NL>  }  COM: <s> returns the vertical velocity needed to jump the specified </s>

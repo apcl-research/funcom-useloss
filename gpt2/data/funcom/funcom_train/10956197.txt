@@ -1,0 +1,1 @@
+TDAT: public string get text ( string key , string default value , list < ? > args , value stack stack ) {  <NL> if ( this . texts . contains key ( key ) ) {  <NL> return this . texts . get ( key ) ;  <NL>  } else {  <NL> return super . get text ( key , default value , args , stack ) ;  <NL>  }  <NL>  }  COM: <s> this is the method invoked by the </s>

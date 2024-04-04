@@ -1,0 +1,1 @@
+TDAT: public boolean is before ( sync point sp1 , sync point sp2 ) {  <NL>  / / system . out . println ( " comparing " + sp1 . get id ( ) + " and " + sp2 . get id ( ) ) ;  <NL> return ( lookup id ( sp1 . get id ( ) ) < lookup id ( sp2 . get id ( ) ) ) ;  <NL>  }  COM: <s> returns true iff sp1 is before sp2 in this obejct </s>

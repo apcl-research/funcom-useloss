@@ -1,0 +1,1 @@
+TDAT: private boolean invalid ( string buffer match , int offset ) {  <NL> return ( match . char at ( offset ) = = ' 0 ' || <NL> match . char at ( offset ) = = ' 1 ' || <NL>  ( match . char at ( offset + 1 ) = = ' 1 ' & &  <NL> match . char at ( offset + 2 ) = = ' 1 ' ) ) ;  <NL>  }  COM: <s> first digit of area code or exchange must be 2 9 </s>

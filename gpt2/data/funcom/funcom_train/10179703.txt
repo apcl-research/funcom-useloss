@@ -1,0 +1,1 @@
+TDAT: protected void render attribute ( string buffer results , string attribute , string value ) {  <NL> if ( value ! = null ) {  <NL> results . append ( " " ) ;  <NL> results . append ( attribute ) ;  <NL> results . append ( " = \ " " ) ;  <NL> results . append ( value ) ;  <NL> results . append ( " \ " " ) ;  <NL>  }  <NL>  }  COM: <s> renders attribute value if not null </s>

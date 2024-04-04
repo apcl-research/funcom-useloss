@@ -1,0 +1,1 @@
+TDAT: public void test bad padding exception01 ( ) {  <NL> bad padding exception t e = new bad padding exception ( ) ;  <NL> assert null ( " get message ( ) must return null . " , t e . get message ( ) ) ;  <NL> assert null ( " get cause ( ) must return null " , t e . get cause ( ) ) ;  <NL>  }  COM: <s> test for code bad padding exception code constructor assertion </s>

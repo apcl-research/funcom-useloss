@@ -1,0 +1,1 @@
+TDAT: public void add disabled tokens ( ) {  <NL> final iterator iter = this . timed tokens . key set ( ) . iterator ( ) ;  <NL> while ( iter . has next ( ) ) {  <NL> final object token = iter . next ( ) ;  <NL> final place place = ( place ) this . timed tokens . get ( token ) ;  <NL> place . add token quietly ( token ) ;  <NL>  }  <NL>  }  COM: <s> special utility method </s>

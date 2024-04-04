@@ -1,0 +1,1 @@
+TDAT: public void ping ( ) throws io exception {  <NL> for ( list < abstract daemon client > set : daemons . values ( ) ) {  <NL> for ( abstract daemon client daemon : set ) {  <NL> log . info ( " daemon is : " + daemon . get host name ( ) + " pinging . . . . " ) ;  <NL> daemon . ping ( ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> ping all the daemons of the cluster </s>

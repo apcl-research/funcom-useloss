@@ -1,0 +1,1 @@
+TDAT: public void test set up ( ) {  <NL> assert equals ( no _ of _ elements , model . get size ( ) ) ;  <NL> assert true ( model . contains ( signals [ no _ of _ elements / 2 ] ) ) ;  <NL> assert true ( model . contains ( signals [ 0 ] ) ) ;  <NL> assert true ( model . contains ( signals [ no _ of _ elements - 1 ] ) ) ;  <NL>  }  COM: <s> set up the test </s>

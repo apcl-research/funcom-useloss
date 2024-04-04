@@ -1,0 +1,1 @@
+TDAT: public void handle ( string [ ] columns ) {  <NL> table meta data = new basic table meta data ( table name , columns ) ;  <NL> for ( int i = 0 ; i < columns . length ; i + + ) {  <NL> column name indexes . put ( trim ( columns [ i ] . to upper case ( ) ) , i ) ;  <NL>  }  <NL>  }  COM: <s> handles the header row i </s>

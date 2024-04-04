@@ -1,0 +1,1 @@
+TDAT: public date get last day of month ( ) {  <NL> date day = ( date ) date . clone ( ) ;  <NL> day . set date ( get days in month ( day . get year ( ) , day . get month ( ) ) ) ;  <NL> day . set hours ( 12 ) ;  <NL> day . set minutes ( 59 ) ;  <NL> day . set seconds ( 59 ) ;  <NL> return day ;  <NL>  }  COM: <s> the last date of the displayed month </s>

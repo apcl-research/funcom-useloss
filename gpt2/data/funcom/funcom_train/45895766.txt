@@ -1,0 +1,1 @@
+TDAT: public void paint to ( graphics2d g2 , int x0 , int y0 , int color ) {  <NL> int y = y0 + rect . y ;  <NL> for ( int i = 0 ; i < rows . size ( ) ; i + + ) {  <NL> txt . paint to ( g2 , x0 + rect . x , y + 3 , 14 , color , rows . get ( i ) ) ;  <NL> y + = 20 ;  <NL>  }  <NL>  }  COM: <s> paint the rows </s>

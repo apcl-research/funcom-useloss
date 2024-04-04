@@ -1,0 +1,1 @@
+TDAT: public object lookup _ object _ by _ id ( string _ id ) {  <NL> object o = driver . query _ object _ by _ id ( _ id ) ;  <NL> if ( o = = null ) return null ;  <NL>  <NL> if ( ( ( basic ) o ) . query _ location ( ) . equals ( query _ id ( ) ) )  <NL> return o ;  <NL> else <NL> return null ;  <NL>  }  COM: <s> this method returns a pointer to an object </s>

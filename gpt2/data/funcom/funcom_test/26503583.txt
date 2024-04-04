@@ -1,0 +1,1 @@
+TDAT: public void release all ( ) {  <NL> for ( int i = 0 ; i < _ busy ports . size ( ) ; i + + ) {  <NL> integer busy = ( integer ) _ busy ports . get ( i ) ;  <NL> if ( ! _ available ports . contains ( busy ) ) {  <NL>  _ available ports . add ( busy ) ;  <NL>  }  <NL>  }  <NL>  _ busy ports . clear ( ) ;  <NL>  }  COM: <s> releases all active ports </s>

@@ -1,0 +1,1 @@
+TDAT: public void write pose ( string clid , string n , long s , double [ ] pose ) throws remote exception {  <NL>  / / need to check for 3 values . . .  <NL> string p = pose [ 0 ] + " " + pose [ 1 ] + " " + pose [ 2 ] ;  <NL> add entry ( clid , n , " pose " , s , p ) ;  <NL>  }  COM: <s> writes a pose x y theta entry to the log </s>

@@ -1,0 +1,1 @@
+TDAT: public void feed ( ) {  <NL> parent . perspective ( fov , aspect , near clip , far clip ) ;  <NL> parent . camera ( camera x , camera y , camera z ,  <NL> target x , target y , target z ,  <NL> up x , up y , up z ) ;  <NL>  }  COM: <s> send what this camera sees to the view port </s>

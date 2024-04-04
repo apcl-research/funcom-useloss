@@ -1,0 +1,1 @@
+TDAT: public void set formats ( format [ ] new formats ) {  <NL> int runs to copy = new formats . length ;  <NL> if ( runs to copy > max offset + 1 ) {  <NL> runs to copy = max offset + 1 ;  <NL>  }  <NL> for ( int i = 0 ; i < runs to copy ; i + + ) {  <NL> formats [ i ] = new formats [ i ] ;  <NL>  }  <NL>  }  COM: <s> sets the formats to use for the format elements in the </s>

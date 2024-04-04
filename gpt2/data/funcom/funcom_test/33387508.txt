@@ -1,0 +1,1 @@
+TDAT: public void redraw ( ) {  <NL> if ( is attached ( ) ) {  <NL> int width = dom . get element property int ( get element ( ) , " client width " ) ;  <NL> int height = dom . get element property int ( get element ( ) , " client height " ) ;  <NL> on resize ( width , height ) ;  <NL>  }  <NL>  }  COM: <s> redraw the progress bar when something changes the layout </s>

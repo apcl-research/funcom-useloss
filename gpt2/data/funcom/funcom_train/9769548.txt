@@ -1,0 +1,1 @@
+TDAT: @ test public void test single network string to score ( ) {  <NL> assert not null ( scoreentry . get scoreentry by string ( " double _ sequence 1 ( 1 ( bamboo ( 1 ) ) , 2 ( bamboo ( 2 ) ) , 3 ( bamboo ( 3 ) ) ) 2 ( 4 ( circle ( 1 ) ) , 5 ( circle ( 2 ) ) , 6 ( circle ( 3 ) ) ) 1 " ) ) ;  <NL>  }  COM: <s> test if a valid string can be converted to a score </s>

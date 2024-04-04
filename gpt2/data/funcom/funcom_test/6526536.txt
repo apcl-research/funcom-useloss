@@ -1,0 +1,1 @@
+TDAT: public int get number of pages ( ) {  <NL> int number = 0 ;  <NL> if ( _ hits . size ( ) > 0 & & _ page range > 0 ) {  <NL> number = _ hits . size ( ) / _ page range ;  <NL> if ( ( _ hits . size ( ) - number * _ page range ) > 0 )  <NL> number + + ;  <NL>  }  <NL> return number ;  <NL>  }  COM: <s> gets the number of pages </s>

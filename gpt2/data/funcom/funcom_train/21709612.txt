@@ -1,0 +1,1 @@
+TDAT: public boolean equals ( object obj ) {  <NL> if ( this = = obj ) {  <NL> return true ;  <NL>  }  <NL>  <NL> if ( ! ( obj instanceof txn node id ) ) {  <NL> return false ;  <NL>  }  <NL>  <NL> return ( ( ( ( txn node id ) obj ) . txn id = = txn id ) & &  <NL>  ( ( ( txn node id ) obj ) . node id = = node id ) ) ;  <NL>  }  COM: <s> compare two txn node id objects </s>

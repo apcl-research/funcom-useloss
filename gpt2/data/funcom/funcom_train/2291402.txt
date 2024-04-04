@@ -1,0 +1,1 @@
+TDAT: public list get index names ( ) {  <NL>  <NL> list index names = new array list ( ) ;  <NL> for ( int i = 0 , n = m _ indexes . size ( ) ; i < n ; i + + ) {  <NL> index names . add ( ( ( cms search index ) m _ indexes . get ( i ) ) . get name ( ) ) ;  <NL>  }  <NL>  <NL> return index names ;  <NL>  }  COM: <s> returns the names of all configured indexes </s>

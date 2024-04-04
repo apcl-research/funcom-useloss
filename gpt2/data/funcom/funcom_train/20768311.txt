@@ -1,0 +1,1 @@
+TDAT: public void write header line ( string s ) throws io exception {  <NL> if ( wrote packet ) {  <NL> log . warning ( " already wrote a packet , not writing the header " ) ;  <NL> return ;  <NL>  }  <NL> write byte ( ' # ' ) ;  <NL> write bytes ( s ) ;  <NL> write byte ( ' \r ' ) ;  <NL> write byte ( ' \n ' ) ;  <NL>  }  COM: <s> writes a comment header line </s>

@@ -1,0 +1,1 @@
+TDAT: public void draw ( gl gl ) {  <NL> gl . gl color3f ( . 01f , . 2f , . 01f ) ;  <NL> gl . gl push matrix ( ) ;  <NL>  {  <NL> gl . gl translated ( x , y - body hieght + mountradius , 0 ) ;  <NL> draw turret ( gl ) ;  <NL> draw body ( gl ) ;  <NL>  }  <NL> gl . gl pop matrix ( ) ;  <NL>  }  COM: <s> draw the tank using jogl </s>

@@ -1,0 +1,1 @@
+TDAT: public faction get faction ( id id ) {  <NL> return ( faction view ( ) = = null ) ? null : ( faction view ( ) . get ( id ) ! = null ? faction view ( ) . get ( id )  <NL>  : ( id . equals ( get null faction ( ) . get id ( ) ) ? get null faction ( ) : null ) ) ;  <NL>  }  COM: <s> retrieve a faction from factions by id </s>

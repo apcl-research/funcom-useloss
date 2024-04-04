@@ -1,0 +1,1 @@
+TDAT: private void trim ( ) {  <NL> array list values = new array list ( cache . key set ( ) ) ;  <NL> int num = ( int ) ( ( ( double ) cache . size ( ) ) * ( 1 - load ) ) ;  <NL> for ( int i = 0 ; i < num ; i + + ) {  <NL> cache . remove ( values . get ( ( int ) ( i / ( 1 - load ) ) ) ) ;  <NL>  }  <NL>  <NL>  <NL>  <NL>  }  COM: <s> purge keys form cache </s>

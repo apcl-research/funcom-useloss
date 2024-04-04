@@ -1,0 +1,1 @@
+TDAT: public void set text ( string language , string text ) {  <NL> if ( i18n text = = null ) {  <NL> i18n text = new hash map < string , string > ( ) ;  <NL>  }  <NL> i18n text . put ( language , text ) ;  <NL> if ( language . equals ( constants . get default language ( ) ) )  <NL> set default text ( text ) ;  <NL>  }  COM: <s> sets the text in the given language </s>

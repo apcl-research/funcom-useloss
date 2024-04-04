@@ -1,0 +1,1 @@
+TDAT: public void draw ( object obj gfx , boolean transparency , int x , int y , int width , int height ) {  <NL> draw ( obj gfx , transparency , true , true , true , true , x , y , width , height ) ;  <NL>  }  COM: <s> renders a partial area of the layer using the given gfx object </s>

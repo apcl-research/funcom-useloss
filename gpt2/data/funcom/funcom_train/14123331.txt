@@ -1,0 +1,1 @@
+TDAT: private void create buttons ( ) {  <NL> new button = new html ( " < a href = ' javascript : ; " + mediator . get message value ( igwt message keys . link _ new ) + " < / a > " , true ) ;  <NL> new button . set style name ( " form _ note " ) ;  <NL> new button . add click listener ( a click listener ) ;  <NL>  }  COM: <s> create button new for adding new mail folders </s>

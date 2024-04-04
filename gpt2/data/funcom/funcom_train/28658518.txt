@@ -1,0 +1,1 @@
+TDAT: public void send ( byte [ ] a buf , int a len ) {  <NL> try {  <NL> for ( int i = 0 ; i < a len ; i + + ) {  <NL> iv out . write ( a buf [ i ] ) ;  <NL> if ( a buf [ i ] = = iac )  <NL> iv out . write ( iac ) ;  <NL>  }  <NL>  }  <NL> catch ( io exception ex ) {  <NL> catched io exception ( ex ) ;  <NL>  }  <NL>  }  COM: <s> sends a data buffer iac bytes are doubled </s>

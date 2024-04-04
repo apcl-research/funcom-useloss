@@ -1,0 +1,1 @@
+TDAT: public void run ( runnable r , runnable infinite case , t1 arg1 , t2 arg2 ) {  <NL> runnable to run = ( contains ( arg1 , arg2 ) ? infinite case : r ) ;  <NL> push ( arg1 , arg2 ) ;  <NL> try { to run . run ( ) ; }  <NL> finally { pop ( arg1 , arg2 ) ; }  <NL>  }  COM: <s> if the given arguments are not on the stack run </s>

@@ -1,0 +1,1 @@
+TDAT: public void add application ( int kind , i file input file , string output file name , i container output folder , string main class , string compiler params ) {  <NL> applications . add ( new application ( this , kind , input file , output file name , output folder , main class , compiler params ) ) ;  <NL>  }  COM: <s> add new code application code to output </s>

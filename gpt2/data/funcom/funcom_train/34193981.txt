@@ -1,0 +1,1 @@
+TDAT: public boolean set label ( int row , int col , string value ) {  <NL> if ( row > 0 & & row < = 3 & & col > 0 & & col < = 3 ) {  <NL> label [ ( row - 1 ) * 3 + col - 1 ] . set text ( value ) ;  <NL> return true ;  <NL>  } else {  <NL> return false ;  <NL>  }  <NL>  }  COM: <s> set label at element according to row and colume </s>

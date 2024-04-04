@@ -1,0 +1,1 @@
+TDAT: private string create file name ( font font ) {  <NL> return font . get name ( ) . replace ( " " , " " ) . to lower case ( ) + ( font . is bold ( ) ? " b " : " " ) + ( font . is italic ( ) ? " i " : " " ) + " . exp0 . tif " ;  <NL>  }  COM: <s> creates file name </s>

@@ -1,0 +1,1 @@
+TDAT: private shape decode edge ( int width , int height ) {  <NL> path . reset ( ) ;  <NL> path . move to ( width - 2 , 0 ) ;  <NL> path . line to ( width - 2 , height - 4 ) ;  <NL> path . line to ( width - 4 , height - 2 ) ;  <NL> path . line to ( 3 , height - 2 ) ;  <NL>  <NL> return path ;  <NL>  }  COM: <s> create the button edge shape </s>

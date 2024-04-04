@@ -1,0 +1,1 @@
+TDAT: private void obtain random address ( ) {  <NL> double aux ;  <NL> aux = ( random generator . next double ( ) * m _ model . get bound x ( ) ) ;  <NL> x coordinate = aux . float value ( ) ;  <NL> aux = ( random generator . next double ( ) * m _ model . get bound y ( ) ) ;  <NL> y coordinate = aux . float value ( ) ;  <NL>  }  COM: <s> obtain one random address point </s>

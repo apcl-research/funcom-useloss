@@ -1,0 +1,1 @@
+TDAT: public void set ban for user ( string u , boolean on ) {  <NL> if ( ! this . is valid ( ) )  <NL> return ;  <NL> string uname = u . to lower case ( ) ;  <NL> if ( on & & ! ban list . contains ( uname ) )  <NL> ban list . add element ( uname ) ;  <NL> else if ( ! on )  <NL> ban list . remove element ( uname ) ;  <NL>  }  COM: <s> set the group ban state for a user </s>

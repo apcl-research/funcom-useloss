@@ -1,0 +1,1 @@
+TDAT: private void draw rect around pixel ( point2i point , color color ) {  <NL> int x = point . x - rect _ width / 2 ;  <NL> int y = point . y - rect _ height / 2 ;  <NL>  <NL> graphics . set color ( color ) ;  <NL> graphics . draw rect ( x , y , rect _ width , rect _ height ) ;  <NL>  }  COM: <s> draw rect around pixel </s>

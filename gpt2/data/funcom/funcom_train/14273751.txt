@@ -1,0 +1,1 @@
+TDAT: public int insert titles ( dlp record rec ) {  <NL> record = rec ;  <NL> int col = 0 ;  <NL>  <NL> for ( int i = 0 ; i < dlprecordtitles . length ; i + + ) {  <NL> set element at ( new jscsv cell ( dlprecordtitles [ i ] ) , title _ row , col + + ) ;  <NL>  }  <NL>  <NL> return col ;  <NL>  } / / end - method  COM: <s> insert title row into document from dlprecord csx </s>

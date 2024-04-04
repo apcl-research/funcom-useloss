@@ -1,0 +1,1 @@
+TDAT: public boolean select index ( string name ) {  <NL> int i ;  <NL> for ( i = 0 ; i < indexs . size ( ) ; i + + ) {  <NL> index data id = ( index data ) indexs . get ( i ) ;  <NL> if ( id . name . equals ( name ) ) {  <NL> default index = id ;  <NL> return true ;  <NL>  }  <NL>  }  <NL> return false ;  <NL>  }  COM: <s> operation select index </s>

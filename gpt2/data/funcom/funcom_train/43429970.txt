@@ -1,0 +1,1 @@
+TDAT: protected void boardcopy ( final board b ) {  <NL> this . width = b . width ;  <NL> this . places = b . places ;  <NL> for ( int i = 0 ; i < width + 2 ; i + + )  <NL> system . arraycopy ( b . board [ i ] , 0 , board [ i ] , 0 , b . board [ 0 ] . length ) ;  <NL>  }  COM: <s> copies a code board code b on this code board code </s>

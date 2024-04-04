@@ -1,0 +1,1 @@
+TDAT: public boolean get pref value boolean ( final string p path , final string p name , final boolean p user pref ) throws jc _ exception {  <NL> jc _ propertyable p = get pref property ( p path , p name , p user pref ) ;  <NL> return ( boolean ) p . get value as ( boolean . class ) ;  <NL>  }  COM: <s> get pref value boolean </s>

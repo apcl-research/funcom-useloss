@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> return ( " ( " + ( ( int ) this . x & 0xff ) + " , " + ( ( int ) this . y & 0xff ) + " , "  <NL>  + ( ( int ) this . z & 0xff ) + " , " + ( ( int ) this . w & 0xff ) + " ) " ) ;  <NL>  }  COM: <s> returns a string that contains the values of this tuple4b </s>

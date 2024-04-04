@@ -1,0 +1,1 @@
+TDAT: public boolean probe ( int slave address , int probe data ) {  <NL> check open ( ) ;  <NL> return ( vm . exec sync io ( channel constants . i2c _ probe , slave address > > 1 , probe data , 0 , 0 , 0 , 0 , null , null ) ! = 0 ) ;  <NL>  }  COM: <s> check if a slave device is present at the given address </s>

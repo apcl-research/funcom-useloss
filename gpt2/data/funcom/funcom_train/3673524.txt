@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> return " line segment with p1 = ( " + get x1 ( ) + " , " + get y1 ( ) + " ) and p2 = ( " +  <NL> get x2 ( ) + " , " + get y2 ( ) + " ) = > phi = " + get phi ( ) + " , respective length = " +  <NL> get length ( ) ;  <NL>  }  COM: <s> returns a code string code representation of this code hessian line2 d code </s>

@@ -1,0 +1,1 @@
+TDAT: public void start app ( ) {  <NL> form f = new form ( " nams test service " ) ;  <NL> f . append ( " run \ " telnet 127 . 0 . 0 . 1 " + nams test service . port +  <NL>  " \ " to send commands to the ams . " ) ;  <NL> display . get display ( this ) . set current ( f ) ;  <NL>  }  COM: <s> starts the midlet </s>

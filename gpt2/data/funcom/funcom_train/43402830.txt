@@ -1,0 +1,1 @@
+TDAT: public int name compare to ( denotator d ) {  <NL> if ( get name ( ) = = null ) {  <NL> return ( d . get name ( ) = = null ) ? 0 : - 1 ;  <NL>  }  <NL> else if ( d . get name ( ) = = null ) {  <NL> return 1 ;  <NL>  }  <NL> else {  <NL> return get name ( ) . compare to ( d . get name ( ) ) ;  <NL>  }  <NL>  }  COM: <s> compares the names of two denotators </s>

@@ -1,0 +1,1 @@
+TDAT: public void set assembler ( assembler assembler )  <NL>  { try { _ _ clover _ 10 _ 0 . clover rec . m [ 70 ] + + ;  <NL>  _ _ clover _ 10 _ 0 . clover rec . s [ 262 ] + + ; m _ assembler = assembler ;  <NL>  } finally { _ _ clover _ 10 _ 0 . clover rec . maybe flush ( ) ; } }  COM: <s> set the assembler to be used with the create instance method </s>

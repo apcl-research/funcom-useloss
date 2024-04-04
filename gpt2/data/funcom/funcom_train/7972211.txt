@@ -1,0 +1,1 @@
+TDAT: public i view image get default image ( ) {  <NL> if ( _ default image = = null ) {  <NL>  _ default image = _ factory . make image ( image path ( _ vars ,  <NL> get unique id ( ) , _ view manager . get size ( ) , _ view manager <NL>  . get language ( ) ) ) ;  <NL>  }  <NL> return _ default image ;  <NL>  }  COM: <s> this is the getter for default image </s>

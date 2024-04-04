@@ -1,0 +1,1 @@
+TDAT: public void test area ( ) {  <NL> system . out . println ( " area " ) ;  <NL>  <NL> triangle instance = new triangle ( new point ( 0 , 0 ) , new point ( math . pi / 2 , 0 ) , new point ( 0 , math . pi / 2 ) ) ;  <NL>  <NL> double exp result = math . pi / 2 ;  <NL> assert equals ( exp result , instance . area ( ) ) ;  <NL>  }  COM: <s> test of area method of class com </s>

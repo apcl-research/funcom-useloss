@@ -1,0 +1,1 @@
+TDAT: public double get dist ( ) {  <NL> double diff = 0 ;  <NL> for ( int s = 0 ; s < stats . size ( ) ; s + + ) {  <NL> double d = math . abs ( get sum ( goals . get ( s ) ) - get sum ( stats . get ( s ) ) ) ;  <NL> diff + = d ;  <NL>  }  <NL> return diff ;  <NL>  }  COM: <s> cartesian difference compute sum of difference between stats and goals </s>

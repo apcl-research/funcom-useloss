@@ -1,0 +1,1 @@
+TDAT: public void add function ( string value ) {  <NL> function tree model ftm = new function tree model ( value ) ;  <NL> string label = " f ( " + ftm . get root ( ) . get variables ( ) . to string ( ) + " ) = " ;  <NL> s . add ( new settings property ( label , ftm , settings . edit _ function ) ) ;  <NL>  }  COM: <s> appends a function to the panel </s>

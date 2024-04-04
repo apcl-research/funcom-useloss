@@ -1,0 +1,1 @@
+TDAT: private void initialize ( ) {  <NL> this . set default close operation ( j frame . exit _ on _ close ) ;  <NL> this . set content pane ( get j panel ( ) ) ;  <NL> this . set j menu bar ( get jj menu bar ( ) ) ;  <NL> this . set size ( 300 , 200 ) ;  <NL> this . set title ( " application " ) ;  <NL>  }  COM: <s> this method initializes this </s>

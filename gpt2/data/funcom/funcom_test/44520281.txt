@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> return ( " ( " + atom serial number + " , " + residue serial number + " , " + chain id + " , " + name + " , " + residue symbol + " , " + super . x + " , " + super . y + " , " + super . z + " ) " ) ;  <NL>  }  COM: <s> returns a string that describes a vertex </s>

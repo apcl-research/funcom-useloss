@@ -1,0 +1,1 @@
+TDAT: public rectangle2d get logical bounds ( ) {  <NL> rectangle2d ret = null ;  <NL> for ( int idx = 0 ; idx < gvs . length ; idx + + ) {  <NL> rectangle2d b = gvs [ idx ] . get logical bounds ( ) ;  <NL> if ( ret = = null ) ret = b ;  <NL> else ret = ret . create union ( b ) ;  <NL>  }  <NL> return ret ;  <NL>  }  COM: <s> returns the logical bounds of this glyph vector </s>

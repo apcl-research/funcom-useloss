@@ -1,0 +1,1 @@
+TDAT: public void write ( char [ ] cbuf , int off , int len ) throws io exception {  <NL> string str = new string ( cbuf , off , len ) ;  <NL> spy response ( str ) ;  <NL> m original writer . write ( cbuf , off , len ) ;  <NL> m original writer . flush ( ) ;  <NL>  }  COM: <s> write a portion of character array </s>

@@ -1,0 +1,1 @@
+TDAT: protected void calculate checksum ( patch patch , int start , int end , int offset ) {  <NL> int sum = 0 ;  <NL>  <NL> for ( int i = start ; i < = end ; i + + ) {  <NL> sum + = patch . sysex [ i ] ;  <NL>  }  <NL> patch . sysex [ offset ] = ( byte ) ( sum % 128 ) ;  <NL>  }  COM: <s> calculates the checksum for the dm5 </s>

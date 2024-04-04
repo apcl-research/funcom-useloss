@@ -1,0 +1,1 @@
+TDAT: public void add all ( map < k , v > m ) {  <NL> if ( m instanceof collection valued map ) {  <NL> throw new unsupported operation exception ( ) ;  <NL>  }  <NL> for ( map . entry < k , v > e : m . entry set ( ) ) {  <NL> add ( e . get key ( ) , e . get value ( ) ) ;  <NL>  }  <NL>  }  COM: <s> adds all of the mappings in m to this collection valued map </s>

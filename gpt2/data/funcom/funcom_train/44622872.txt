@@ -1,0 +1,1 @@
+TDAT: public jc binary make binary ( int pos , int optag , jc expression lhs , jc expression rhs ) {  <NL> return make binary ( pos , optag , find op symbol ( optag , max type ( lhs . type . base type ( ) , rhs . type . base type ( ) ) ) , lhs , rhs ) ;  <NL>  }  COM: <s> makes an attributed java binary operator node with boolean result </s>

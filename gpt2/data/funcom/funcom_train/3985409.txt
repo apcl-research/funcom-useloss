@@ -1,0 +1,1 @@
+TDAT: public p vector mult ( p vector source , p vector target ) {  <NL> if ( target = = null ) {  <NL> target = new p vector ( ) ;  <NL>  }  <NL> target . x = m00 * source . x + m01 * source . y + m02 ;  <NL> target . y = m10 * source . x + m11 * source . y + m12 ;  <NL> return target ;  <NL>  }  COM: <s> multiply the x and y coordinates of a pvector against this matrix </s>

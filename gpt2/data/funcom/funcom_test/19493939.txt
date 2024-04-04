@@ -1,0 +1,1 @@
+TDAT: public void test br5 _ simple ( ) {  <NL>  <NL> do test ( " s ≠ t " ,  <NL>  " ¬ ( s = t ) " , false , br _ te ) ;  <NL> do test ( " x ≠ 0 " ,  <NL>  " ¬ ( x = 0 ) " , false , br _ te ) ;  <NL> do test ( " x ≠ true " ,  <NL>  " ¬ ( x = true ) " , false , br _ te ) ;  <NL>  }  COM: <s> tests for br5 </s>

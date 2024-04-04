@@ -1,0 +1,1 @@
+TDAT: public number computes ( number a , number b ) {  <NL> if ( a instanceof integer & & b instanceof integer ) {  <NL> return integer . value of ( a . int value ( ) - b . int value ( ) ) ;  <NL>  }  <NL> else {  <NL> return double . value of ( a . double value ( ) - b . double value ( ) ) ;  <NL>  }  <NL>  }  COM: <s> performs binary operation </s>

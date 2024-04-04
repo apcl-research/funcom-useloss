@@ -1,0 +1,1 @@
+TDAT: public void set box ( float x , float y , float width , float height ) {  <NL> set box ( ( int ) ( display . get width ( ) * x ) , ( int ) ( display . get height ( ) * ( 1f - y ) ) , ( int ) ( display . get width ( ) * width ) , ( int ) ( display . get height ( ) * height ) ) ;  <NL>  }  COM: <s> define a box in percentages related to display size </s>

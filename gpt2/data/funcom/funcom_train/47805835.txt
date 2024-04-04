@@ -1,0 +1,1 @@
+TDAT: public int get node number ( int i , int j ) {  <NL> int [ ] data = new int [ 2 ] ;  <NL> data [ 0 ] = i ;  <NL> data [ 1 ] = j ;  <NL> int val = get board value ( i , j ) ;  <NL> return node _ stack . get data position ( new game node ( val , data ) ) ;  <NL>  }  COM: <s> get number if node with data i j </s>

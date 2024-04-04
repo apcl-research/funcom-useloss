@@ -1,0 +1,1 @@
+TDAT: public void paint ( graphics g ) {  <NL> g . set color ( get color ( ) ) ;  <NL> if ( is filled ( ) )  <NL> g . fill oval ( ( int ) get x ( ) , ( int ) get y ( ) , ( int ) diameter , ( int ) diameter ) ;  <NL> else <NL> g . draw oval ( ( int ) get x ( ) , ( int ) get y ( ) , ( int ) diameter , ( int ) diameter ) ;  <NL>  }  COM: <s> paints the code circle code </s>

@@ -1,0 +1,1 @@
+TDAT: protected boolean match ( map < string , object > filter , map < string , object > datapoint ) {  <NL> for ( string key : filter . key set ( ) ) {  <NL> if ( ! is equal ( datapoint . get ( key ) , filter . get ( key ) ) ) {  <NL> return false ;  <NL>  }  <NL>  }  <NL> return true ;  <NL>  }  COM: <s> tests if a datapoint matches a filter if all filter properties are </s>

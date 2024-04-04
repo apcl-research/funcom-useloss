@@ -1,0 +1,1 @@
+TDAT: public int compare ( object o1 , object o2 ) {  <NL> genome a = ( genome ) o1 ;  <NL> genome b = ( genome ) o2 ;  <NL> if ( a . get time ( ) < b . get time ( ) ) {  <NL> return - 1 ;  <NL>  } else if ( b . get time ( ) < a . get time ( ) ) {  <NL> return 1 ;  <NL>  } else {  <NL> return 0 ;  <NL>  }  <NL>  }  COM: <s> compares the genomes </s>

@@ -1,0 +1,1 @@
+TDAT: public char get mnem ( string key ) {  <NL> string s ;  <NL> try {  <NL> s = resource . get string ( key + " . mnem " ) ;  <NL>  } catch ( missing resource exception e ) {  <NL> s = null ;  <NL>  }  <NL> return ( s = = null || s . length ( ) = = 0 ) ? ' \0 ' : s . char at ( 0 ) ;  <NL>  }  COM: <s> get a mnemonic from the resource bundle </s>

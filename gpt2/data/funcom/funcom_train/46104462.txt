@@ -1,0 +1,1 @@
+TDAT: public v get opposite ( v node , e edge ) {  <NL> cy node n = nm . get ( node ) ;  <NL> cy edge e = em . get ( edge ) ;  <NL> cy node op = net . get node (  <NL> e . get source ( ) . get index ( ) ^ e . get target ( ) . get index ( ) ^ n . get index ( ) ) ;  <NL> return nm . get key ( op ) ;  <NL>  }  COM: <s> get the opposite node for a couple node edge </s>

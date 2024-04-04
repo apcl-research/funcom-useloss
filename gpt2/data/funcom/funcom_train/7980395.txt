@@ -1,0 +1,1 @@
+TDAT: public void begin crawl stop ( ) {  <NL> logger . fine ( " started . " ) ;  <NL> send crawl state change event ( stopping , this . s exit ) ;  <NL> if ( this . frontier ! = null ) {  <NL> this . frontier . terminate ( ) ;  <NL> this . frontier . unpause ( ) ;  <NL>  }  <NL> logger . fine ( " finished . " ) ;  <NL>  }  COM: <s> start the process of stopping the crawl </s>

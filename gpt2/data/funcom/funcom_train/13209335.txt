@@ -1,0 +1,1 @@
+TDAT: private void draw played card ( int x , int y , int percent size , card card , graphics g ) {  <NL> if ( card ! = null ) {  <NL> card active card = part util . get active card ( card ) ;  <NL> draw part ( x , y , percent size , active card , g ) ;  <NL>  }  <NL>  }  COM: <s> draws the played card </s>

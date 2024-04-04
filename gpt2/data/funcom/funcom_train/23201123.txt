@@ -1,0 +1,1 @@
+TDAT: public void notify ( string msg ) {  <NL> for ( abstract message handler handler : handlers ) {  <NL> handler . set skype client ( get skype client ( ) ) ;  <NL> if ( handler . handle ( msg ) ) {  <NL> log . debug ( " handled by " + handler . get class ( ) . get simple name ( ) + " : " + msg ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> notification from skype </s>

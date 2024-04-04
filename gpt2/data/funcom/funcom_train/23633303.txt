@@ -1,0 +1,1 @@
+TDAT: public string buffer get text ( ) {  <NL> if ( type = = type _ literal ) return new string buffer ( value ) ;  <NL> string buffer sb = new string buffer ( ) ;  <NL> for ( int i = 0 ; i < get child count ( ) ; i + + ) {  <NL> sb . append ( get child ( i ) . get text ( ) ) ;  <NL>  }  <NL> return sb ;  <NL>  }  COM: <s> retrieves the transformed text of this node </s>

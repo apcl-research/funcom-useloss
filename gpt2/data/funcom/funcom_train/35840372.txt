@@ -1,0 +1,1 @@
+TDAT: private string format array ( string [ ] array ) {  <NL> if ( array = = null ) {  <NL> return null ;  <NL>  }  <NL> string result = " [ " ;  <NL> for ( int i = 0 ; i < array . length ; i + + ) {  <NL> result = result + array [ i ] + " , " ;  <NL>  }  <NL> return result . substring ( 0 , result . length ( ) - 2 ) + " ] " ;  <NL>  }  COM: <s> formatters for debug output </s>

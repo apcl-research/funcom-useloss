@@ -1,0 +1,1 @@
+TDAT: public string get model ( ) {  <NL> char [ ] str = new char [ 40 ] ;  <NL> for ( int i = 0 ; i < 20 ; i + + ) {  <NL> int v = data [ 27 + i ] ;  <NL> str [ i * 2 ] = ( char ) ( ( v > > 8 ) & 0x ff ) ;  <NL> str [ i * 2 + 1 ] = ( char ) ( v & 0x ff ) ;  <NL>  }  <NL> return string . value of ( str ) . trim ( ) ;  <NL>  }  COM: <s> gets the model identifier </s>

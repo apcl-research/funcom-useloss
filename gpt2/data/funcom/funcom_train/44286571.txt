@@ -1,0 +1,1 @@
+TDAT: protected void end ( ) {  <NL> if ( list ! = null ) {  <NL> if ( list . contains ( sub entity ) ) {  <NL> xml . xml message ( factory writer xml . error ,  <NL>  " error : duplicate : name : sub " ,  <NL> sub entity . get name ( ) ) ;  <NL>  } else {  <NL> list . add ( sub entity ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> ends the tag interpretation </s>

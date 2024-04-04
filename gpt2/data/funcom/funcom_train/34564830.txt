@@ -1,0 +1,1 @@
+TDAT: public boolean create ( final string usern , final string pass ) {  <NL>  / / check if user exists already <NL> if ( get ( usern ) ! = null ) return false ;  <NL>  <NL> final user user = new user ( usern , token ( md5 ( pass ) ) , user . write ) ;  <NL> add ( user ) ;  <NL> write ( ) ;  <NL> return true ;  <NL>  }  COM: <s> stores a user and encrypted password </s>

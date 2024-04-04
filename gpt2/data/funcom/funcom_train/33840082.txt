@@ -1,0 +1,1 @@
+TDAT: public void delete columns ( int start , int len ) throws fits exception {  <NL> get data ( ) ;  <NL> try {  <NL> row len = table . delete columns ( start , len ) ;  <NL> n col - = len ;  <NL>  } catch ( exception e ) {  <NL> throw new fits exception ( " error deleting columns from binary table : " + e ) ;  <NL>  }  <NL>  }  COM: <s> delete a set of columns </s>

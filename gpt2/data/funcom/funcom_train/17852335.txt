@@ -1,0 +1,1 @@
+TDAT: private string encode string ( string string ) throws unsupported encoding exception {  <NL> return url encoder . encode ( string . trim ( ) , string utils . replace ( m formatting . get encoding value ( ) / * . get property ( " encoding " , " utf - 8 " ) ) * / , " + " ,  <NL>  " % 20 " ) ) ;  <NL>  }  COM: <s> encodes a string into an url encoded string </s>

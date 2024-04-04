@@ -1,0 +1,1 @@
+TDAT: public void import track ( track track ) {  <NL> for ( int i = 0 ; i < num _ steps ; i + + ) {  <NL> set gate ( i , track . get gate ( i ) ) ;  <NL> set gate len ( i , track . get gate len ( i ) ) ;  <NL> set data ( i , track . get data ( i ) ) ;  <NL>  }  <NL>  }  COM: <s> import another track </s>

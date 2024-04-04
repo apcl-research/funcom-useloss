@@ -1,0 +1,1 @@
+TDAT: public float get decay time ( ) {  <NL> if ( is live or compiled ( ) )  <NL> if ( ! this . get capability ( allow _ decay _ time _ read ) )  <NL> throw new capability not set exception ( ding3d i18n . get string ( " aural attributes29 " ) ) ;  <NL> return ( ( aural attributes retained ) this . retained ) . get decay time ( ) ;  <NL>  }  COM: <s> retrieve decay time </s>

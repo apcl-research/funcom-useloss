@@ -1,0 +1,1 @@
+TDAT: public void on tick ( ) {  <NL>  <NL> object info ball = robo core . get memory ( ) . get visual info ( ) . get ball ( ) ;  <NL>  <NL>  <NL> if ( ( ball = = null ) || ( ball . probability < 0 . 5 ) ) {  <NL> robo core . get body ( ) . turn ( 45 ) ;  <NL>  }  <NL> else {  <NL> robo core . get body ( ) . turn ( ball . dir ) ;  <NL>  }  <NL>  }  COM: <s> look at the ball </s>

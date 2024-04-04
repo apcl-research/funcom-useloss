@@ -1,0 +1,1 @@
+TDAT: public void append ( string text , string estr , float kern ) {  <NL> float [ ] k = null ;  <NL> if ( estr ! = null || text ! = null ) { k = new float [ estr ! = null ? estr . length ( ) : text . length ( ) ] ; arrays . fill ( k , kern ) ; }  <NL> append ( text , estr , k ) ;  <NL>  }  COM: <s> append text with constant kerning between new characters </s>

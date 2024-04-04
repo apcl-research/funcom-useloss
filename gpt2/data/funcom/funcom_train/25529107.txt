@@ -1,0 +1,1 @@
+TDAT: static public double kl _ symmetric ( distribution p , distribution q ) {  <NL> if ( p . as tree map ( ) . size ( ) = = q . as tree map ( ) . size ( ) ) {  <NL> return ( 0 . 5 * ( kl _ asymmetric ( p , q ) + kl _ asymmetric ( q , p ) ) ) ;  <NL>  } else {  <NL> return 0 ;  <NL>  }  <NL>  }  COM: <s> the static method where the computation of symmetric kl is performed </s>

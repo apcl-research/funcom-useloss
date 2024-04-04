@@ -1,0 +1,1 @@
+TDAT: private string indent spaces ( int indent ) {  <NL> string buffer result = new string buffer ( ) ;  <NL> for ( int i = 1 ; i < indent ; + + i ) {  <NL> for ( int j = 0 ; j < 8 ; + + j ) {  <NL> result . append ( " & nbsp ; " ) ;  <NL>  }  <NL>  }  <NL> return result . to string ( ) ;  <NL>  }  COM: <s> returns space string of given length </s>

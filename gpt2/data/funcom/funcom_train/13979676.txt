@@ -1,0 +1,1 @@
+TDAT: private void init defaults ( ) {  <NL> default values . put ( " server " , " " ) ;  <NL> default values . put ( " port " , " 3306 " ) ;  <NL> default values . put ( " username " , " " ) ;  <NL> default values . put ( " password " , " " ) ;  <NL> default values . put ( " db " , " " ) ;  <NL>  }  COM: <s> create the default values hashtable </s>

@@ -1,0 +1,1 @@
+TDAT: private boolean is ended ( string ename ) {  <NL> string content = new string ( f current entity . buffer , f current entity . offset , f current entity . length - f current entity . offset ) ;  <NL> return content . to lower case ( ) . index of ( " < / " + ename . to lower case ( ) + " > " ) ! = - 1 ;  <NL>  }  COM: <s> returns true if the given element has an end tag </s>

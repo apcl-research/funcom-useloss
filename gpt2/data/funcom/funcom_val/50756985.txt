@@ -1,0 +1,1 @@
+TDAT: public void add method ( defmethod m ) {  <NL> if ( m . get index ( ) = = - 1 ) m . set index ( get unique index ( ) ) ; / / set a default index if not done so before <NL> remove similar method ( m ) ; / / overwrite any old method with the same signature <NL> get methods ( ) . add ( m ) ;  <NL>  }  COM: <s> add a new method to a generic function </s>

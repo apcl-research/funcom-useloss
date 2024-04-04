@@ -1,0 +1,1 @@
+TDAT: private void paint splash ( ) {  <NL> g . draw image ( splash background , 0 , 0 , graphics . top | graphics . left ) ;  <NL> g . set color ( 0x ffffff ) ;  <NL> g . fill rect ( 0 , 0 , get width ( ) , get height ( ) - splash index * get height ( ) / 50 ) ;  <NL> flush graphics ( ) ;  <NL>  }  COM: <s> paint splash screen </s>

@@ -1,0 +1,1 @@
+TDAT: public void append row ( object [ ] data ) {  <NL> object [ ] [ ] newdata = new object [ row count + 1 ] [ ] ;  <NL> system . arraycopy ( this . data , 0 , newdata , 0 , row count ) ;  <NL> newdata [ row count ] = data ;  <NL> row count + + ;  <NL> this . data = newdata ;  <NL> reset ( ) ;  <NL>  }  COM: <s> adds one row at the end </s>

@@ -1,0 +1,1 @@
+TDAT: public z exp get column update ( int index ) {  <NL> if ( - - index < 0 ) return null ;  <NL> if ( columns _ = = null || index > = columns _ . size ( ) ) return null ;  <NL> string col = ( string ) columns _ . element at ( index ) ;  <NL> return ( z exp ) set _ . get ( col ) ;  <NL>  }  COM: <s> get the sql expression that specifies a given columns update value </s>

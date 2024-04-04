@@ -1,0 +1,1 @@
+TDAT: public void log ( job job , tool tool ) {  <NL> if ( tool = = null ) {  <NL> return ;  <NL>  }  <NL> collection tools = ( collection ) replies . get ( job ) ;  <NL> if ( tools = = null ) {  <NL> tools = new hash set ( ) ;  <NL> replies . put ( job , tools ) ;  <NL>  }  <NL> tools . add ( tool ) ;  <NL>  }  COM: <s> logs a job and tool into the manager </s>

@@ -1,0 +1,1 @@
+TDAT: public string get string from map ( map _ map , string _ key , string _ def value ) {  <NL> if ( ( _ map = = null ) || ( _ key = = null ) ) {  <NL> return _ def value ;  <NL>  }  <NL> string value = ( string ) _ map . get ( _ key ) ;  <NL> return ( ( value ! = null ) ? value : _ def value ) ;  <NL>  }  COM: <s> get value from map for given key </s>

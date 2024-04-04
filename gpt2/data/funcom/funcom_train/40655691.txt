@@ -1,0 +1,1 @@
+TDAT: private boolean in widget ( int abs x , int abs y , widget widget ) {  <NL> return in rectangle (  <NL> abs x , abs y ,  <NL> widget . get absolute left ( ) , widget . get absolute top ( ) ,  <NL> widget . get offset width ( ) , widget . get offset height ( ) ) ;  <NL>  }  COM: <s> returns true if abs x abs y in absolute coordinates lies within </s>

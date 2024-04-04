@@ -1,0 +1,1 @@
+TDAT: public boolean subsumes ( type super type , type sub type ) {  <NL>  / / assert ( super type ! = null ) ;  <NL>  / / assert ( sub type ! = null ) ;  <NL> return this . subsumes ( ( ( type impl ) super type ) . get code ( ) , ( ( type impl ) sub type ) . get code ( ) ) ;  <NL>  }  COM: <s> does one type inherit from the other </s>

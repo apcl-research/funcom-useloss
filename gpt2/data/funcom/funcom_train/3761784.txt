@@ -1,0 +1,1 @@
+TDAT: protected vector cmd exit ( multiplayer server , world world , vector utils , player player ) {  <NL> logmsg ( world , " lp processing exit . . . " ) ;  <NL> string arg1 = ( string ) utils . get ( 1 ) ;  <NL> utils . set ( 0 , exit _ lc ) ;  <NL> utils . set ( 1 , " " ) ;  <NL> return utils ;  <NL>  }  COM: <s> exit command processing </s>

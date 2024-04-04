@@ -1,0 +1,1 @@
+TDAT: public boolean matches index value ( int v ) {  <NL> if ( pattern . length ( ) = = 0 ) {  <NL> return true ;  <NL>  }  <NL> int c = utf16 . char at ( pattern , 0 ) ;  <NL> unicode matcher m = data . lookup matcher ( c ) ;  <NL> return ( m = = null ) ? ( ( c & 0x ff ) = = v ) : m . matches index value ( v ) ;  <NL>  }  COM: <s> implement unicode matcher </s>

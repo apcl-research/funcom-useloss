@@ -1,0 +1,1 @@
+TDAT: public void set rounded borders ( boolean set ) {  <NL> shape mask = null ;  <NL> if ( set ) {  <NL> mask = new area ( new round rectangle2d . float ( 2 , 2 , width - 3 , height - 3 , 20 , 25 ) ) ;  <NL>  }  <NL> gui utils . set window shape ( this , mask ) ;  <NL>  }  COM: <s> sets rounded borders </s>

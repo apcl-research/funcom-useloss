@@ -1,0 +1,1 @@
+TDAT: public room link get room link ( int room link id ) {  <NL> if ( room links = = null ) return null ;  <NL>  <NL> for ( int i = 0 ; i < room links . length ; i + + )  <NL> if ( room links [ i ] . get room link id ( ) = = room link id )  <NL> return room links [ i ] ;  <NL>  <NL> return null ; / / not found <NL>  }  COM: <s> returns a room link from its id </s>

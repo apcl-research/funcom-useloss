@@ -1,0 +1,1 @@
+TDAT: public void visit ( int version , int access , string name , string signature , string super name , string [ ] interfaces ) {  <NL> m _ ids = new tree map < string , element > ( ) ;  <NL> m _ elements = new linked hash map < element , string > ( ) ;  <NL> m _ class name = name ;  <NL>  }  COM: <s> start visiting a class </s>

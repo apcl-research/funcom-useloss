@@ -1,0 +1,1 @@
+TDAT: public void copy ( i const map list ) {  <NL> elements . clear ( ) ;  <NL> set keys = list . key set ( ) ;  <NL> for ( iterator i = keys . iterator ( ) ; i . has next ( ) ; ) {  <NL> object item = i . next ( ) ;  <NL> elements . put ( item , list . get ( item ) ) ;  <NL>  }  <NL> fire changed ( ) ;  <NL>  }  COM: <s> copies the given map </s>

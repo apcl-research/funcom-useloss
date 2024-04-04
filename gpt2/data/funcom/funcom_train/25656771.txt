@@ -1,0 +1,1 @@
+TDAT: public void set priority ( int p ) {  <NL> if ( ( p > = 0 ) & & ( p < = 100 ) ) {  <NL> priority = p ;  <NL>  } else {  <NL> log . error ( " invalid value to job executable . set priority ( ) " + p <NL>  + " . set operation ignored - - priority remains : " + get priority ( ) ) ;  <NL>  }  <NL>  }  COM: <s> set the priority for this executable </s>

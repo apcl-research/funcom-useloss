@@ -1,0 +1,1 @@
+TDAT: public void update ( ) {  <NL> level element element ;  <NL> for ( int x = 0 ; x < this . width ; x + + ) {  <NL> for ( int y = 0 ; y < this . height ; y + + ) {  <NL> element = this . get level element ( x , y ) ;  <NL> if ( element ! = null ) {  <NL> element . update ( ) ;  <NL>  }  <NL>  }  <NL>  }  <NL>  }  COM: <s> updates the level </s>

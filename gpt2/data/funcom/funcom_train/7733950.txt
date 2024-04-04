@@ -1,0 +1,1 @@
+TDAT: public int hash code ( ) {  <NL> return new integer ( mask ) . hash code ( )  <NL>  ^ new integer ( min job interval ) . hash code ( ) ^ mon id . hash code ( )  <NL>  ^ new boolean ( prefix mon id ) . hash code ( )  <NL>  ^ var id . hash code ( )  <NL>  ^ new boolean ( prefix var id ) . hash code ( ) ;  <NL>  }  COM: <s> create an integer hash of the object </s>

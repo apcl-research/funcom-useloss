@@ -1,0 +1,1 @@
+TDAT: private list get add feed menu ( ) {  <NL> if ( s add feed menu = = null ) {  <NL> s add feed menu = application . get menu ( application . messages [ news reader . msg _ me _ addfeed ] , news reader . me _ addfeed , - 1 , application . c back ) ;  <NL>  }  <NL> return s add feed menu ;  <NL>  }  COM: <s> gets the adds the feed menu </s>

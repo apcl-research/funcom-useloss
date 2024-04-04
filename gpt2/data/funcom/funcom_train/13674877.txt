@@ -1,0 +1,1 @@
+TDAT: protected void insert ( object x ) {  <NL> synchronized ( m _ put lock ) {  <NL> linked node p = new linked node ( x ) ;  <NL> synchronized ( m _ tail ) {  <NL> m _ tail . m _ next node = p ;  <NL> m _ tail = p ;  <NL>  }  <NL> if ( m _ waiting for take > 0 )  <NL> m _ put lock . notify ( ) ;  <NL>  }  <NL>  } / / insert  COM: <s> main mechanics for put offer </s>

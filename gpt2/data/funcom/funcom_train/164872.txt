@@ -1,0 +1,1 @@
+TDAT: public void test is root ( ) {  <NL> system . out . println ( " is root " ) ;  <NL>  <NL> path instance = new path ( " a / b / c / d " ) ;  <NL> assert true ( ! instance . is root ( ) ) ;  <NL> instance = new path ( " c / . . " ) ;  <NL> assert true ( instance . is root ( ) ) ;  <NL>  }  COM: <s> test of is root method of class org </s>

@@ -1,0 +1,1 @@
+TDAT: public void execute ( ) {  <NL> file to dir = null ;  <NL> if ( _ libdir = = null ) {  <NL> to dir = new file ( _ prefix , lib ) ;  <NL>  } else {  <NL> to dir = _ libdir ;  <NL>  }  <NL> file from dir = new file ( _ from , lib ) ;  <NL> copy tree ( from dir , to dir , _ perm ) ;  <NL>  }  COM: <s> install the contents of the b lib b direcotry of the builds output </s>

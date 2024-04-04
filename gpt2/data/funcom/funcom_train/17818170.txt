@@ -1,0 +1,1 @@
+TDAT: public void set point ( point2d . double p , int position ) {  <NL> x . add ( p . x , position ) ;  <NL> dx . add ( p . x , position ) ;  <NL> y . add ( p . y , position ) ;  <NL> dy . add ( p . y , position ) ;  <NL> create polygon ( ) ;  <NL>  }  COM: <s> sets the posistion in the polygon specified to the point specified </s>

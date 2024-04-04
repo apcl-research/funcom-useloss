@@ -1,0 +1,1 @@
+TDAT: public void add chapter ref with template ( doc chapter ref , doc info info ) {  <NL> if ( ref = = null ) return ;  <NL> string text = info . template text ( ) ;  <NL> if ( text . length ( ) > 0 ) add chapter ref ( ref , true , text ) ;  <NL> else add chapter ref ( ref , true ) ;  <NL>  }  COM: <s> add one reference to a chapter as specified in the doc info record </s>

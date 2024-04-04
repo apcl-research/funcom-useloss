@@ -1,0 +1,1 @@
+TDAT: public boolean equals ( object obj ) {  <NL> if ( obj instanceof rectangle ) {  <NL> rectangle r = ( rectangle ) obj ;  <NL> return ( ( x = = r . x ) & & ( y = = r . y ) & &  <NL>  ( width = = r . width ) & & ( height = = r . height ) ) ;  <NL>  } else {  <NL> return super . equals ( obj ) ;  <NL>  }  <NL>  }  COM: <s> test if the rectangle is equal to a given object </s>

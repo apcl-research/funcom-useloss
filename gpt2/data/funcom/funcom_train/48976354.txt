@@ -1,0 +1,1 @@
+TDAT: private j combo box get j combo box ( ) {  <NL> if ( j combo box = = null ) {  <NL> string [ ] set = { " best effort " , " ack " , " sliding window " } ;  <NL> j combo box = new j combo box ( set ) ;  <NL> j combo box . set bounds ( new rectangle ( 663 , 75 , 90 , 27 ) ) ;  <NL>  }  <NL> return j combo box ;  <NL>  }  COM: <s> this method initializes j combo box </s>

@@ -1,0 +1,1 @@
+TDAT: protected point get icon position ( projection p ) {  <NL> return new point ( p . to pixels ( m destination , null ) . x - ( m drawable . get intrinsic width ( ) / 2 ) ,  <NL> p . to pixels ( m destination , null ) . y - ( m drawable . get intrinsic height ( ) ) ) ;  <NL>  }  COM: <s> gets the top left position of the icon not the shadow </s>

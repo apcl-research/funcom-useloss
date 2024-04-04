@@ -1,0 +1,1 @@
+TDAT: protected point2d get point ( point2d cp , double r , double alpha ) {  <NL> double angle = math . to radians ( alpha ) ;  <NL> double x = cp . get x ( ) + r * math . cos ( angle ) ;  <NL> double y = cp . get y ( ) - r * math . sin ( angle ) ;  <NL> return new point2d . double ( x , y ) ;  <NL>  }  COM: <s> returns the point from center point bei alpha angle </s>

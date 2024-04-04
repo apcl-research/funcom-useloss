@@ -1,0 +1,1 @@
+TDAT: private void assert deal ( deal expected , deal actual ) {  <NL> assert auditable entity ( expected , actual ) ;  <NL> assert deal points ( expected . get deal points ( ) , actual . get deal points ( ) ) ;  <NL> assert legal points ( expected . get legal points ( ) , actual . get legal points ( ) ) ;  <NL>  }  COM: <s> p asserts the two deal entities are equal </s>

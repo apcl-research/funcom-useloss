@@ -1,0 +1,1 @@
+TDAT: public int read ( ) throws io exception {  <NL> byte [ ] b = new byte [ 1 ] ;  <NL> int read = read ( b , 0 , 1 ) ;  <NL>  <NL> if ( read < 0 )  <NL> return - 1 ; / / fixme : should we also check for read ! = 1 ?  <NL> return ( b [ 0 ] & 0xff ) ; / / convert byte value to a positive int <NL>  }  COM: <s> read from the boundary delimited stream </s>

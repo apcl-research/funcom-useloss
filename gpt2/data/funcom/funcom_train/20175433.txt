@@ -1,0 +1,1 @@
+TDAT: public void set gwt property ( string property , string value ) {  <NL> if ( ! contains key ( " gwt properties " ) ) {  <NL> put ( " gwt properties " , new hash map < string , string > ( ) ) ;  <NL>  }  <NL>  ( ( map < string , string > ) get ( " gwt properties " ) ) . put ( property , value ) ;  <NL>  }  COM: <s> adds a property that can be accessed by gwt modules </s>

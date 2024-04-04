@@ -1,0 +1,1 @@
+TDAT: public void write ( int b ) {  <NL> string str = string . value of ( ( char ) b ) ;  <NL> try {  <NL> text . get document ( ) . insert string ( text . get document ( ) . get length ( ) , str , null ) ;  <NL>  }  <NL> catch ( javax . swing . text . bad location exception ex ) {  <NL>  }  <NL>  }  COM: <s> writes a single byte </s>

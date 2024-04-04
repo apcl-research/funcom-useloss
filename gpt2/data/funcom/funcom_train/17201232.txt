@@ -1,0 +1,1 @@
+TDAT: private void swap ( int i , int j ) {  <NL> double tmp s = counts [ i ] ;  <NL> counts [ i ] = counts [ j ] ;  <NL> counts [ j ] = tmp s ;  <NL> int tmp c = cmids [ i ] ;  <NL> cmids [ i ] = cmids [ j ] ;  <NL> cmids [ j ] = tmp c ;  <NL> map [ cmids [ i ] ] = i ;  <NL> map [ cmids [ j ] ] = j ;  <NL>  }  COM: <s> swap the heap entries at i and j </s>

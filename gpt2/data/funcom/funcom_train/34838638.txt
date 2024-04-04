@@ -1,0 +1,1 @@
+TDAT: public int compare ( object o1 , object o2 ) {  <NL> object v1 = get real value at ( o1 , sorted column ) ;  <NL> object v2 = get real value at ( o2 , sorted column ) ;  <NL>  <NL> int comp = compare values ( v1 , v2 ) ;  <NL> if ( ! ascending ) {  <NL> comp = - comp ;  <NL>  }  <NL> return comp ;  <NL>  }  COM: <s> compares its two arguments for order </s>

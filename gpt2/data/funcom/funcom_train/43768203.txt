@@ -1,0 +1,1 @@
+TDAT: public boolean remove ( t x ) {  <NL> acquire ( x ) ;  <NL> try {  <NL> int my bucket = math . abs ( x . hash code ( ) % table . length ) ;  <NL> boolean result = table [ my bucket ] . remove ( x ) ;  <NL> size = result ? size - 1 : size ;  <NL> return result ;  <NL>  } finally {  <NL> release ( x ) ; / / always unlock <NL>  }  <NL>  }  COM: <s> remove item from set </s>

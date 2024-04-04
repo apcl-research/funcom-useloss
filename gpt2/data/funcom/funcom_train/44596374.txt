@@ -1,0 +1,1 @@
+TDAT: public int compare buffer ( char [ ] keyword ) {  <NL> return ( this . without unicode ptr ! = 0 ) ?  <NL> compare ( keyword , this . without unicode buffer , 1 , 1 + this . without unicode ptr )  <NL>  : compare ( keyword , this . source , this . start position ,  <NL> this . current position ) ;  <NL>  }  COM: <s> compares the argument with the current token text </s>

@@ -1,0 +1,1 @@
+TDAT: public void run ( action event ae ) {  <NL>  <NL> if ( this . file manager . is generated ( get param value ( ae ) ) ) {  <NL>  <NL> get request ( ) . set attribute ( " is popup " ,  <NL>  " window . open ( ' / jrapid / reports / "  <NL>  + get param value ( ae ) + " / out . html ' ) ; " ) ;  <NL>  }  <NL>  }  COM: <s> run runs selected report </s>

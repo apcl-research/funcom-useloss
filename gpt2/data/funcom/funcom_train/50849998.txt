@@ -1,0 +1,1 @@
+TDAT: public void draw arrow line ( gl gl , glu glu , float x , float y , float z , double distance ) {  <NL> gl . gl begin ( gl . gl _ lines ) ;  <NL> gl . gl vertex3d ( 0 , 0 , 0 ) ;  <NL> gl . gl vertex3d ( x * distance , y * distance , z * distance ) ;  <NL> gl . gl end ( ) ;  <NL>  }  COM: <s> draws an arrow </s>

@@ -1,0 +1,1 @@
+TDAT: public void set prova ( string prova ) throws java . beans . property veto exception {  <NL> string old prova = this . prova ;  <NL> vetoable change support . fire vetoable change ( " prova " , old prova , prova ) ;  <NL> this . prova = prova ;  <NL> property support . fire property change ( " prova " , old prova , prova ) ;  <NL>  }  COM: <s> setter for property prova </s>

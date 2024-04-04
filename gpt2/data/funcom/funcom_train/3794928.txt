@@ -1,0 +1,1 @@
+TDAT: public void set fin ( saci . fecha fin ) throws java . beans . property veto exception {  <NL> saci . fecha old fin = this . fin ;  <NL> vetoable change support . fire vetoable change ( " fin " , old fin , fin ) ;  <NL> this . fin = fin ;  <NL> property change support . fire property change ( " fin " , old fin , fin ) ;  <NL>  }  COM: <s> setter for property fin </s>

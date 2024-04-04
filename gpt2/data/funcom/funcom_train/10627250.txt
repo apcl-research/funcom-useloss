@@ -1,0 +1,1 @@
+TDAT: public void test static ( ) throws exception {  <NL> int current id = get test id ( ) ;  <NL> statement s = new statement ( statement test . class , " next test id " ,  <NL> new object [ ] { } ) ;  <NL> s . execute ( ) ;  <NL> assert equals ( + + current id , get test id ( ) ) ;  <NL>  }  COM: <s> the test checks the method execute for static method </s>

@@ -1,0 +1,1 @@
+TDAT: public void set hi res coord ( int [ ] x , int [ ] y , int [ ] z ) {  <NL> int i ;  <NL>  <NL> for ( i = 0 ; i < 8 ; i + + ) {  <NL> this . x [ i ] = x [ i ] ;  <NL> this . y [ i ] = y [ i ] ;  <NL> this . z [ i ] = z [ i ] ;  <NL>  }  <NL>  <NL>  }  COM: <s> sets this hi res coord to the location specified by the </s>

@@ -1,0 +1,1 @@
+TDAT: public int get move count ( ) {  <NL> int moves = 0 ;  <NL> for ( int ant index = 0 ; ant index < m _ pop size ; ant index + + ) {  <NL> if ( get ants ( ) [ ant index ] ! = null ) {  <NL> moves = get ants ( ) [ ant index ] . get moves ( ) ;  <NL>  }  <NL>  }  <NL> return moves ;  <NL>  }  COM: <s> asks each ant for the number of moves and sums up the result </s>

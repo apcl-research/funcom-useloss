@@ -1,0 +1,1 @@
+TDAT: public void crawl url property ( property property , resource parent node , rdf container rdf container ) {  <NL> node property value = get rdf property value ( rdf container , property , ical data type . uri ) ;  <NL> add statement ( rdf container , parent node , ncal . url , property value ) ;  <NL>  }  COM: <s> crawls the url property </s>

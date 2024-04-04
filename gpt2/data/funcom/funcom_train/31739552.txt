@@ -1,0 +1,1 @@
+TDAT: public boolean is double possible ( ) {  <NL> return ( ( is suit bid ( bids . size ( ) - 1 ) ) || <NL>  ( ( is pass bid ( bids . size ( ) - 1 ) & &  <NL> is pass bid ( bids . size ( ) - 2 ) & &  <NL> is suit bid ( bids . size ( ) - 3 ) ) ) ) ;  <NL>  }  COM: <s> checks whether the active player is allowed to double according </s>

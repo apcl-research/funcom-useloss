@@ -1,0 +1,1 @@
+TDAT: protected void sort ( ) {  <NL> final object [ ] o ;  <NL> final default list model lm ;  <NL> int i ;  <NL>  <NL> lm = this . m _ lm ;  <NL> o = lm . to array ( ) ;  <NL> arrays . sort ( o ) ;  <NL>  <NL> for ( i = o . length ; ( - - i ) > = 0 ; ) {  <NL> lm . set ( i , o [ i ] ) ;  <NL>  }  <NL>  <NL> this . repaint ( ) ;  <NL>  }  COM: <s> sort this list </s>

@@ -1,0 +1,1 @@
+TDAT: public int compare to ( object o ) {  <NL>  / / this is incomplete ! ! ! !  <NL> angle a = ( angle ) o ;  <NL> if ( this . degrees < a . get degrees ( ) ) return - 1 ;  <NL> else if ( this . degrees > a . get degrees ( ) ) return 1 ;  <NL>  / / need to consider if degrees are equal , etc .  <NL> return 0 ;  <NL>  }  COM: <s> compares this angle to another angle </s>

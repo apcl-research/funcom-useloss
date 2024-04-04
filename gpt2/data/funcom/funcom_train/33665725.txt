@@ -1,0 +1,1 @@
+TDAT: public void add alg ( string urn , rule comb alg alg ) {  <NL>  <NL> rule comb algs . put ( urn , alg ) ;  <NL> if ( log . is loggable ( level . config ) ) {  <NL> log . config ( " successfully added to algorithm list ( urn , fn ) : " + urn + " , " + alg . get class ( ) . get name ( ) ) ;  <NL>  }  <NL>  }  COM: <s> adds combining algorithm to the factory </s>

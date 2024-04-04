@@ -1,0 +1,1 @@
+TDAT: private void draw triangle ( final gl gl ) {  <NL> gl . gl color3f ( 0 . 9f , 0 . 5f , 0 . 2f ) ;  <NL> gl . gl begin ( gl . gl _ triangle _ fan ) ;  <NL> gl . gl vertex3f ( - 20 , - 20 , 0 ) ;  <NL> gl . gl vertex3f ( + 20 , - 20 , 0 ) ;  <NL> gl . gl vertex3f ( 0 , 20 , 0 ) ;  <NL> gl . gl end ( ) ;  <NL>  }  COM: <s> draws a simple triangle </s>

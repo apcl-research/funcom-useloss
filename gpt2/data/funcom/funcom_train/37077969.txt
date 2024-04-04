@@ -1,0 +1,1 @@
+TDAT: public void clear features ( ) {  <NL> for ( int i = 0 ; i < tiers . size ( ) ; i + + )  <NL>  ( ( feature tier ) tiers . element at ( i ) ) . clear drawables ( ) ;  <NL> tiers = new vector ( ) ; / / tiers = null ;  <NL> drawables = null ; / / new feature set ( ) ; ?  <NL> tierhash . clear ( ) ;  <NL>  }  COM: <s> clears features from tiers and clear tiers </s>

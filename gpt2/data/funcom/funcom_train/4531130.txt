@@ -1,0 +1,1 @@
+TDAT: public void deserialize ( record input rin , string tag ) throws io exception {  <NL>  / / read in any header , version info <NL> rin . start record ( tag ) ;  <NL>  / / name <NL> this . name = rin . read string ( tag ) ;  <NL> s tid . read ( rin , tag ) ;  <NL> rin . end record ( tag ) ;  <NL>  }  COM: <s> deserialize the type information for a record </s>

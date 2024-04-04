@@ -1,0 +1,1 @@
+TDAT: private int get int ( byte [ ] ba ) {  <NL> return ( ( ( ( ( int ) ba [ 3 ] ) < < 24 ) & 0x ff000000 ) | <NL>  ( ( ( ( int ) ba [ 2 ] ) < < 16 ) & 0x00ff0000 ) | <NL>  ( ( ( ( int ) ba [ 1 ] ) < < 8 ) & 0x0000ff00 ) | <NL>  ( ( ( int ) ba [ 0 ] ) & 0x000000ff ) ) ;  <NL>  }  COM: <s> gets an integer from a little endian byte array </s>

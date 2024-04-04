@@ -1,0 +1,1 @@
+TDAT: public void set focus ( ) {  <NL> switch ( platform ui . get preference store ( ) . get int ( " show view " ) ) { / / $ non - nls - 1 $  <NL> case view _ palette :  <NL> palette view . get control ( ) . set focus ( ) ;  <NL> break ;  <NL> default :  <NL> tree view . get control ( ) . set focus ( ) ;  <NL>  }  <NL>  }  COM: <s> passing the focus request to the org </s>

@@ -1,0 +1,1 @@
+TDAT: public point transform point ( point p , ctm ctm ) {  <NL> rectangle2d r = new rectangle2d . double ( p . x , p . y , 0 , 0 ) ;  <NL> ctm nctm = refine ctm ( ctm ) ;  <NL> r = nctm . transform ( r ) ;  <NL> return new point ( ( int ) r . get x ( ) , ( int ) r . get y ( ) ) ;  <NL>  }  COM: <s> transforms code point code using code ctm code </s>

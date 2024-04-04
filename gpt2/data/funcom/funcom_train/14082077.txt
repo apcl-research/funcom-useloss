@@ -1,0 +1,1 @@
+TDAT: public boolean rep ok _ roots ( int base rep ok to call , int num of roots ) {  <NL> if ( ! call base rep ok ( base rep ok to call ) )  <NL> return false ;  <NL>  / / check the number of roots <NL> calc roots ( ) ;  <NL> if ( num of roots ! = roots . size ( ) )  <NL> return false ;  <NL> return true ;  <NL>  }  COM: <s> p this rep ok method is used for batch executions </s>

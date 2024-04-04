@@ -1,0 +1,1 @@
+TDAT: public void test no cut off ( ) {  <NL> syn message msg = new syn ( ) . synth ( 1 ) . voice ( 1 ) . on ( ) . cut off ( false ) ;  <NL> assert equals ( " / syn / id1 / v1 / on " , msg . get address ( ) ) ;  <NL> assert equals ( " ff ti fi " , msg . get typetag ( ) ) ;  <NL>  }  COM: <s> note on message with no cut off </s>

@@ -1,0 +1,1 @@
+TDAT: public define text field set left margin ( final integer a number ) {  <NL> if ( ( a number ! = null ) & & ( ( a number < 0 ) || ( a number > max _ space ) ) ) {  <NL> throw new illegal argument range exception ( 0 , max _ space , a number ) ;  <NL>  }  <NL> left margin = a number ;  <NL> return this ;  <NL>  }  COM: <s> sets the left margin in twips </s>

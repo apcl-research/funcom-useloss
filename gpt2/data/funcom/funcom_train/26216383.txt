@@ -1,0 +1,1 @@
+TDAT: public point get location ( ) {  <NL> if ( container = = null ) {  <NL> return new point ( bounds . get location ( ) ) ;  <NL>  }  <NL> return new point ( bounds . get location ( ) . x + container . get location ( ) . x ,  <NL> bounds . get location ( ) . y + container . get location ( ) . y ) ;  <NL>  }  COM: <s> returns the location of the component </s>

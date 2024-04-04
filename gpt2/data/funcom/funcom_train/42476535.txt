@@ -1,0 +1,1 @@
+TDAT: private void populate fields ( ) {  <NL> if ( m row id ! = pack list dao . invalid _ key _ rowid ) {  <NL> m title text . set text ( m pl . get name ( ) ) ;  <NL>  }  <NL> m list view . set adapter ( new array adapter < string > ( this , r . layout . packlist _ item , m pl . get list ( ) ) ) ;  <NL>  }  COM: <s> populates the gui elements </s>

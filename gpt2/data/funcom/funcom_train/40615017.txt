@@ -1,0 +1,1 @@
+TDAT: public boolean is uncommitted from other session ( session session , row row ) {  <NL> cursor c = delta . find ( session , row , row ) ;  <NL> while ( c . next ( ) ) {  <NL> row r = c . get ( ) ;  <NL> return r . get session id ( ) ! = session . get id ( ) ;  <NL>  }  <NL> return false ;  <NL>  }  COM: <s> check if there is an uncommitted row with the given key </s>

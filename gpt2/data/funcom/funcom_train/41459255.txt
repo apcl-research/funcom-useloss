@@ -1,0 +1,1 @@
+TDAT: protected void queue ( dtmf event impl evt ) {  <NL> if ( queue . size ( ) = = size ) {  <NL> queue . poll ( ) ;  <NL>  }  <NL> queue . offer ( evt ) ;  <NL> logger . info ( string . format ( " ( % s ) buffer size : % d " , detector . get name ( ) , queue . size ( ) ) ) ;  <NL>  }  COM: <s> queues specified event </s>

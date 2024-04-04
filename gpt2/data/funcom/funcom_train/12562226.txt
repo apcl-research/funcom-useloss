@@ -1,0 +1,1 @@
+TDAT: public void paint ( graphics g ) {  <NL>  <NL>  / / white background <NL> g . set color ( 255 , 255 , 255 ) ;  <NL> g . fill rect ( 0 , 0 , get width ( ) , get height ( ) ) ;  <NL>  <NL> if ( splash screen ! = null ) {  <NL> g . draw image ( splash screen , 0 , 0 , graphics . left | graphics . top ) ;  <NL>  }  <NL>  }  COM: <s> paint splash screen </s>

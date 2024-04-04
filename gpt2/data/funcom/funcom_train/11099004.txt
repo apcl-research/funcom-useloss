@@ -1,0 +1,1 @@
+TDAT: protected string create root dir ( ) {  <NL> string prefix = get generated root dir prefix ( ) ;  <NL> for ( int i = 1 ; true ; i + + ) {  <NL> file file = new file ( prefix + i ) ;  <NL> if ( ! file . exists ( ) ) {  <NL> file . mkdirs ( ) ;  <NL> return file . get absolute path ( ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> creates a new root dir </s>

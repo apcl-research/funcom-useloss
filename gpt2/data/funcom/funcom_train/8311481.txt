@@ -1,0 +1,1 @@
+TDAT: public object call ( context context , vector args ) throws function call exception {  <NL> if ( ( args . size ( ) ) = = 1 ) {  <NL> return not function . evaluate ( args . element at ( 0 ) , context . get navigator ( ) ) ;  <NL>  }  <NL> throw new function call exception ( " not ( ) requires one argument . " ) ;  <NL>  }  COM: <s> returns code boolean </s>

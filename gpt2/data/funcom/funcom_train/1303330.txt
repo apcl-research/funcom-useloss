@@ -1,0 +1,1 @@
+TDAT: public void mark ( ) {  <NL> final int [ ] stored state = new int [ cur info . length ] ;  <NL> for ( int i = 0 ; i < cur info . length ; + + i ) stored state [ i ] = cur info [ i ] ;  <NL> states . add last ( stored state ) ;  <NL> strings . add last ( captured string . to string ( ) ) ;  <NL>  }  COM: <s> mark this instances current state </s>

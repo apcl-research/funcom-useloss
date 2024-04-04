@@ -1,0 +1,1 @@
+TDAT: public void add widget ( widget widget , int x , int y , int width , int height , int vertical constraint , int horizontal constraint ) {  <NL>  _ father . add widget ( widget , new grid layout constraint ( x , y , width , height , horizontal constraint , vertical constraint ) ) ;  <NL>  <NL>  }  COM: <s> adds a widget to the boundeb container </s>

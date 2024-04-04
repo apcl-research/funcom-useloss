@@ -1,0 +1,1 @@
+TDAT: protected void adjust ( int unit , int how much ) {  <NL> from date . add ( unit , how much ) ;  <NL> to date . add ( unit , how much ) ;  <NL> f to date . set text ( to date . amer date ( ) ) ;  <NL> f from date . set text ( from date . amer date ( ) ) ;  <NL>  }  COM: <s> change both dates by the amount specified </s>

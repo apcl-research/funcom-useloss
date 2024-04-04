@@ -1,0 +1,1 @@
+TDAT: public void test _ 1 ( ) {  <NL> compile and exec given statement expect runtime error (  <NL>  " x . java " ,  <NL>  " class x { \n " +  <NL>  " x ( ) { throw new null pointer exception ( ) ; } \n " +  <NL>  " } \n " ,  <NL>  " new x ( ) " ,  <NL> null ,  <NL> null pointer exception . class ) ;  <NL>  }  COM: <s> is spec protected supported </s>

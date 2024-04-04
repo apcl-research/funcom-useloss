@@ -1,0 +1,1 @@
+TDAT: public void start search ( ) {  <NL> list path = find path ( ) ;  <NL> path event event = new path event ( this , path ) ;  <NL> for ( iterator i = listeners . iterator ( ) ; i . has next ( ) ; ) {  <NL> path listener listener = ( path listener ) i . next ( ) ;  <NL> listener . done ( event ) ;  <NL>  }  <NL>  }  COM: <s> execute the path finding algorithm </s>

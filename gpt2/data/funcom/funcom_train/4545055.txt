@@ -1,0 +1,1 @@
+TDAT: public void set position ( component c , int x , int y ) {  <NL> insets insets = get insets ( ) ;  <NL> c . set bounds ( x + insets . left , y + insets . top , c . get preferred size ( ) . width , c . get preferred size ( ) . height ) ;  <NL> validate ( ) ;  <NL>  }  COM: <s> sets the position of a component to the specified location </s>

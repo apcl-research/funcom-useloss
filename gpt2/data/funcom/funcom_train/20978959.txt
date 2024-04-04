@@ -1,0 +1,1 @@
+TDAT: private j editor pane get ed abot text ( ) {  <NL> if ( ed abot text = = null ) {  <NL> ed abot text = new j editor pane ( ) ;  <NL> ed abot text . set editable ( false ) ;  <NL> ed abot text . set content type ( " text / html " ) ;  <NL> ed abot text . set opaque ( false ) ;  <NL>  }  <NL> return ed abot text ;  <NL>  }  COM: <s> this method initializes ed abot text </s>

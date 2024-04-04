@@ -1,0 +1,1 @@
+TDAT: public int do connection ( window parent , boolean hide auto connect ) {  <NL> server connection sc = get new connection ( get apel config ( ) . get connection type ( ) ,  <NL> null , parent , hide auto connect ) ;  <NL> if ( sc ! = null ) {  <NL> set server conn ( sc ) ;  <NL>  }  <NL> return connection _ status ;  <NL>  }  COM: <s> perform the do connection method </s>

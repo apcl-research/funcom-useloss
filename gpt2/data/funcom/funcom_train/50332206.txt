@@ -1,0 +1,1 @@
+TDAT: public void update sensors from poll ( acela reply r ) {  <NL> for ( int i = 0 ; i < get num nodes ( ) ; i + + ) {  <NL> acela node node = ( acela node ) get node ( i ) ;  <NL> if ( node . get sensor bits per card ( ) > 0 ) {  <NL> node . mark changes ( r ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> for each sensor node call mark changes </s>

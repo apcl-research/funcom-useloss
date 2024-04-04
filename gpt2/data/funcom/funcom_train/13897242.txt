@@ -1,0 +1,1 @@
+TDAT: public string get as html ( ) {  <NL> string str = " < html > \n " ;  <NL> str + = " < title > " + title + " < / title > \n " ;  <NL> iterator < html code > itr = code . iterator ( ) ;  <NL> while ( itr . has next ( ) )  <NL> str + = itr . next ( ) . get as html ( ) ;  <NL> str + = " < / html > " ;  <NL> return str ;  <NL>  }  COM: <s> get as html </s>

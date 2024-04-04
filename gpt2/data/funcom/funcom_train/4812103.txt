@@ -1,0 +1,1 @@
+TDAT: public void go forward ( ) {  <NL> if ( left bound + milliseconds _ per _ width / 2 < = audio info . get length ( ) * 1000 )  <NL> left bound + = milliseconds _ per _ width / 2 ;  <NL> else <NL> left bound = ( int ) audio info . get length ( ) * 1000 - milliseconds _ per _ width / 2 ;  <NL> repaint wave ( ) ;  <NL>  }  COM: <s> the next timeframe will be shown </s>

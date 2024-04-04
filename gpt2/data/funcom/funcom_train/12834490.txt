@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> string res = " " ;  <NL> for ( int i = 0 ; i < roles _ array . length ; i + + ) {  <NL> if ( ! ( roles _ array [ i ] instanceof default group ) ) {  <NL> res + = roles _ array [ i ] . to string ( ) + " " ;  <NL>  }  <NL>  }  <NL> return res ;  <NL>  }  COM: <s> prints the roles of this agent </s>

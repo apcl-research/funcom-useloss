@@ -1,0 +1,1 @@
+TDAT: public void test get trace ( ) throws capi exception {  <NL> testable message tm = new testable message ( new byte [ ] { 1 , 2 , 3 , 4 } ) ;  <NL>  <NL> assert equals ( " check trace - message " , " < 01 , 02 , 03 , 04 > " , tm . get trace message ( ) ) ;  <NL>  }  COM: <s> tests the functionality of get trace </s>

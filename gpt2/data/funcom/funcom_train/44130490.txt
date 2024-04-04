@@ -1,0 +1,1 @@
+TDAT: public void add attribute ( attribute a ) {  <NL> attributes . put ( a . get name ( ) , a ) ;  <NL> log . debug ( " item id = " + id + " attribute added . name = " + a . get name ( ) + " value = " + a . get value ( ) + " type = " + a . get type ( ) ) ;  <NL>  }  COM: <s> add an attribute to this workflow item </s>

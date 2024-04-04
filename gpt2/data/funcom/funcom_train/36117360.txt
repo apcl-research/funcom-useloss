@@ -1,0 +1,1 @@
+TDAT: private void init _ pubsub _ list ( ) {  <NL> ns . subscribe ( " tanso _ request _ tansoadmin _ orm " , this ) ;  <NL> ns . subscribe ( " tanso _ request _ arm _ orm " , this ) ;  <NL> ns . subscribe ( " tanso _ response _ arm _ orm " , this ) ;  <NL> ns . subscribe ( " tanso _ nodestatus _ node _ orm " , this ) ;  <NL>  }  COM: <s> init pubsub services </s>

@@ -1,0 +1,1 @@
+TDAT: private void exit form ( java . awt . event . window event evt ) {  <NL> try {  <NL>  ( ( i editor session ) ( this . get context ( ) . get ( i editor session . class ) ) ) . stop ( ) ;  <NL>  } catch ( exception x ) {  <NL> x . print stack trace ( ) ; / / if i editor session isn ' t working , what will work ?  <NL>  }  <NL>  <NL>  }  COM: <s> exit the application </s>

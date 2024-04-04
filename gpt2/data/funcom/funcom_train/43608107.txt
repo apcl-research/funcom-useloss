@@ -1,0 +1,1 @@
+TDAT: public void pretty print ( code writer w , pretty printer tr ) {  <NL> for ( iterator i = sources . iterator ( ) ; i . has next ( ) ; ) {  <NL> source file s = ( source file ) i . next ( ) ;  <NL> print ( s , w , tr ) ;  <NL> w . newline ( 0 ) ;  <NL>  }  <NL>  }  COM: <s> write the source files to an output file </s>

@@ -1,0 +1,1 @@
+TDAT: public void draw oval ( int x , int y , int width , int height ) {  <NL> if ( handle = = null ) swt . error ( swt . error _ graphic _ disposed ) ;  <NL> handle . draw oval ( x , y , width , height ) ;  <NL>  / / ensure area clean ( x , y , width , height ) ;  <NL>  }  COM: <s> draws the outline of an oval using the foreground color </s>

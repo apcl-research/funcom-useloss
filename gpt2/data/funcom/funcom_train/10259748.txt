@@ -1,0 +1,1 @@
+TDAT: public void warning ( sax parse exception e ) throws sax exception {  <NL> parse errors . add ( " warning parsing xml at line : " + e . get line number ( ) + " / col : " + e . get column number ( ) + " : " + e . get message ( ) ) ;  <NL> system . out . println ( e . to string ( ) ) ;  <NL> e . print stack trace ( ) ;  <NL>  }  COM: <s> report xml parse warnings </s>

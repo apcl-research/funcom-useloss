@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> return " fp = " + file position + " , bs = " + buffer start +  <NL>  " , de = " + data end + " , ds = " + data size +  <NL>  " , bl = " + buffer . length + " , m = " + mode +  <NL>  " , bm = " + buffer modified ;  <NL>  }  COM: <s> create a string representation of this object </s>

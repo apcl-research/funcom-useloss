@@ -1,0 +1,1 @@
+TDAT: public sparse vector get colum ( int i ) {  <NL> sparse vector s = new sparse vector ( ) ;  <NL> for ( int row = 0 ; row < size ( ) ; row + + ) {  <NL> double v = get ( row , i ) ;  <NL> if ( v ! = 0 . ) {  <NL> s . put ( row , v ) ;  <NL>  }  <NL>  }  <NL> return s ;  <NL>  }  COM: <s> get a column of the sparse matrix expensive </s>

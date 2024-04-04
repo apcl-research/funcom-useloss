@@ -1,0 +1,1 @@
+TDAT: public void set block ( int row , int col ) {  <NL> object f = get field ( row , col ) ;  <NL> if ( f ! = null & & f ! = block )  <NL> throw new illegal argument exception ( " the field " + row + " , " + col <NL>  + " is already occupied by " + f ) ;  <NL> set field ( row , col , block ) ;  <NL>  }  COM: <s> set a field on the board to an unconstrained block </s>

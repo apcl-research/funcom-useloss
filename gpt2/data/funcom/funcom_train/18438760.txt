@@ -1,0 +1,1 @@
+TDAT: public int get random ( int min , int max ) {  <NL>  / / assert max > min : " the maximum was not greater than minimum " ;  <NL>  / / get a random number between 1 and max - min <NL> int rv = random . next int ( ( max + 1 ) - min ) ;  <NL>  / / add min + 1 to it <NL> return ( rv + min ) ;  <NL>  }  COM: <s> gets a random number between the minimum and maximum values </s>

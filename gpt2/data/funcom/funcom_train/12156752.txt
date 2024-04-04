@@ -1,0 +1,1 @@
+TDAT: public void test separator at end ( ) {  <NL> byte [ ] array = { 0 , 0 , 0 , 1 , 2 } ;  <NL> byte [ ] separator = { 1 , 2 } ;  <NL> byte [ ] [ ] expected results = {  <NL>  { 0 , 0 , 0 } ,  <NL>  { } ,  <NL>  } ;  <NL> do tokenization test ( array , separator , expected results ) ;  <NL>  }  COM: <s> test for the case where the separator appears at the end of the </s>

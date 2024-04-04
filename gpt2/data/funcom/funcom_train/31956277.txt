@@ -1,0 +1,1 @@
+TDAT: public void save ( ) {  <NL> try {  <NL>  _ properties . store ( new file output stream ( _ file ) , " j sky user preferences " ) ;  <NL>  } catch ( exception e ) {  <NL> system . out . println ( " error saving preferences file : " + _ file . get path ( ) + " : " + e . to string ( ) ) ;  <NL>  }  <NL>  }  COM: <s> save the current preferences to this </s>

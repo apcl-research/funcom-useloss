@@ -1,0 +1,1 @@
+TDAT: public void shuffle ( ) {  <NL> if ( ! is empty ( ) ) {  <NL> for ( int i = 0 ; i < sb . size ( ) ; i + + ) {  <NL> int j = rand . next int ( sb . size ( ) ) ;  <NL> t x = sb . set ( j , sb . get first ( ) ) ;  <NL> sb . set ( 0 , x ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> shuffle the elements of the bag </s>

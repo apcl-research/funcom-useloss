@@ -1,0 +1,1 @@
+TDAT: public void test to hex ( ) {  <NL> assert equals ( " 0000 " , number utils . to hex ( 0 , 4 ) ) ;  <NL> assert equals ( " 00fe " , number utils . to hex ( 254 , 4 ) ) ;  <NL> assert equals ( " e " , number utils . to hex ( 254 , 1 ) ) ;  <NL>  }  COM: <s> method test to hex in class number utils test </s>

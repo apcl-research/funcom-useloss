@@ -1,0 +1,1 @@
+TDAT: public void set clips ( list < long > oids ) {  <NL> logger . entering ( " list view " , " get clips ( ) " ) ;  <NL> logger . info ( " dn d - got " + oids . size ( ) + " clips to drop " ) ;  <NL> logger . exiting ( " list view " , " get clips ( ) " ) ;  <NL>  }  COM: <s> sets clips to the list view </s>

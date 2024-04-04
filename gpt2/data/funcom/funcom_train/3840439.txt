@@ -1,0 +1,1 @@
+TDAT: public boolean set tile ( move move ) {  <NL> if ( ! is empty ( move . get xi ( ) , move . get yi ( ) ) ) {  <NL>  / / the slot is already taken <NL> return false ;  <NL>  }  <NL> this . rawset tile ( move . get xi ( ) , move . get yi ( ) , ( tile ) move ) ;  <NL> return true ;  <NL>  }  COM: <s> sets a move on the board </s>

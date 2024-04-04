@@ -1,0 +1,1 @@
+TDAT: protected boolean has magic ( ) {  <NL> if ( buffer [ offset + 4 ] = = zrtp magic [ 0 ]  <NL>  & & buffer [ offset + 5 ] = = zrtp magic [ 1 ]  <NL>  & & buffer [ offset + 6 ] = = zrtp magic [ 2 ]  <NL>  & & buffer [ offset + 7 ] = = zrtp magic [ 3 ] ) {  <NL> return true ;  <NL>  }  <NL> return false ;  <NL>  }  COM: <s> check if it is really a zrtp packet </s>

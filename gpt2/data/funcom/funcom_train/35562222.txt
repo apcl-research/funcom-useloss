@@ -1,0 +1,1 @@
+TDAT: protected string format log ( log record record ) {  <NL> string message =  <NL> record . get source class name ( )  <NL>  + " "  <NL>  + record . get source method name ( )  <NL>  + " : "  <NL>  + record . get message ( ) ;  <NL> return format log ( record . get millis ( ) , record . get level ( ) . get name ( ) , message ) ;  <NL>  }  COM: <s> formats the log </s>

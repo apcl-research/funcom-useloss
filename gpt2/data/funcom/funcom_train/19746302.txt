@@ -1,0 +1,1 @@
+TDAT: protected integer get number of topics ( long forum id ) {  <NL> string hql = new string buffer ( " select count ( topic ) from topic as topic " )  <NL>  . append ( " where topic . forum . id = ? " )  <NL>  . to string ( ) ;  <NL> return find unique integer result ( hql , new object [ ] { forum id } ) ;  <NL>  }  COM: <s> returns number of topics in a forum </s>

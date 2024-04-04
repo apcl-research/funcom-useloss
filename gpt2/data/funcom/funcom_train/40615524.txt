@@ -1,0 +1,1 @@
+TDAT: public value create blob ( input stream x , long length ) {  <NL> if ( x = = null ) {  <NL> return value null . instance ;  <NL>  }  <NL> if ( length < = 0 ) {  <NL> length = - 1 ;  <NL>  }  <NL> value v = session . get data handler ( ) . get lob storage ( ) . create blob ( x , length ) ;  <NL> return v ;  <NL>  }  COM: <s> create a blob value from this input stream </s>

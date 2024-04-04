@@ -1,0 +1,1 @@
+TDAT: private void on browse ( ) {  <NL> j file chooser choose = new j file chooser ( ) ;  <NL> choose . set dialog title ( " select sgf editor " ) ;  <NL> if ( choose . show open dialog ( this ) = = j file chooser . approve _ option ) {  <NL> sgf tf . set text ( choose . get selected file ( ) . get absolute path ( ) ) ;  <NL>  }  <NL>  }  COM: <s> browse for an sgf editor </s>

@@ -1,0 +1,1 @@
+TDAT: public void paint circle ( int center x , int center y , int radius , int color _ r , int color _ g , int color _ b ) {  <NL> set color ( color _ r , color _ g , color _ b ) ;  <NL> g2 . fill oval ( center ( center x , radius ) , center ( center y , radius ) , radius , radius ) ;  <NL>  }  COM: <s> paints a circle to the image only in memory </s>

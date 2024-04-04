@@ -1,0 +1,1 @@
+TDAT: public void order frame buffer update ( int window , boolean isroot , byte [ ] img , int x , int y , int w , int h , int encoding ) {  <NL> send ( new fbu msg ( window , isroot , img , x , y , w , h , encoding ) ) ;  <NL>  }  COM: <s> sends a frame buffer update to the zvtm client </s>

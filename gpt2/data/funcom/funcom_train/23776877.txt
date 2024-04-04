@@ -1,0 +1,1 @@
+TDAT: public aircraft type bo get aircraft type ( aircraft bo aircraft ) {  <NL> try {  <NL> return get logbook service ( ) . get aircraft type by id ( aircraft . get type id ( ) ) ;  <NL>  } catch ( service exception se ) {  <NL> return new aircraft type bo ( " cessna " , " 150m " , " c - 150m " , 1 ) ;  <NL>  }  <NL>  }  COM: <s> used to get the type of aircraft </s>

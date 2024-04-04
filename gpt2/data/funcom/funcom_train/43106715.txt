@@ -1,0 +1,1 @@
+TDAT: public void view ( final garage sale model sale ) {  <NL> view . show ( garage sale view . view ( sale , logged _ user , new d2 < garage sale model , integer > ( ) {  <NL> public void call ( garage sale model sale , integer rating ) {  <NL> d . rating . save ( sale , rating ) ;  <NL>  }  <NL>  } ) ) ;  <NL>  }  COM: <s> view a single garage sale </s>

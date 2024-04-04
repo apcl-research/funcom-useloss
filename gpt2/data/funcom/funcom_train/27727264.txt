@@ -1,0 +1,1 @@
+TDAT: public void set orbit ( double sqrta , double e , double i , double raan , double w , double m0 ) {  <NL> this . sqrt a = sqrta ;  <NL> this . ecc = e ;  <NL> this . inc = i ;  <NL> this . omega = raan ;  <NL> this . argp = w ;  <NL> this . ma = m0 ;  <NL>  }  COM: <s> set the orbit elements </s>

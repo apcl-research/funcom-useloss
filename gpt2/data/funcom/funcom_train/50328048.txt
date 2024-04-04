@@ -1,0 +1,1 @@
+TDAT: public int get byte ( int b ) {  <NL> if ( ( b > = 0 ) & & ( b < = 7 ) ) {  <NL> int index = b * 2 + _ rt roffset + 1 ;  <NL> int hi = get hex digit ( index + + ) ;  <NL> int lo = get hex digit ( index ) ;  <NL> if ( ( hi < 16 ) & & ( lo < 16 ) ) {  <NL> return ( hi * 16 + lo ) ;  <NL>  }  <NL>  }  <NL> return 0 ;  <NL>  }  COM: <s> get a hex data byte from the message </s>

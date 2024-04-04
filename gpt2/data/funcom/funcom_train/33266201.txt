@@ -1,0 +1,1 @@
+TDAT: private gadget get moused item ( mouse event mouse ) {  <NL> gadget gadget = get gadget at ( 1 , mouse . get y ( ) ) ;  <NL> if ( gadget = = this ) {  <NL> return null ;  <NL>  }  <NL> while ( ( gadget ! = null ) & &  <NL>  ( gadget . parent ! = this ) ) {  <NL> gadget = gadget . parent ;  <NL>  }  <NL> return gadget ;  <NL>  }  COM: <s> get mouse item </s>

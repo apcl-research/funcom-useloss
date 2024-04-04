@@ -1,0 +1,1 @@
+TDAT: / * * public void test get brown ( ) {  <NL> system . out . println ( " test get brown " ) ;  <NL> system . out . println ( " this function was created to help in j unit testing . " ) ;  <NL> assert equals ( f . get brown ( ) , f . red ) ; / / its a weird thing isn ' t it <NL>  }  COM: <s> public void test get red </s>

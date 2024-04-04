@@ -1,0 +1,1 @@
+TDAT: public void add dialog mapping ( final string tag , final dialog dialog ) {  <NL> dialogs . put ( tag , dialog ) ;  <NL> if ( logger . is debug enabled ( ) ) {  <NL> logger . debug ( " added dialog template ' " + dialog . get class ( )  <NL>  + " ' to handle tag ' " + tag + " ' " ) ;  <NL>  }  <NL>  }  COM: <s> adds the dialog as a template to handle the given tag </s>

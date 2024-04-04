@@ -1,0 +1,1 @@
+TDAT: public void first ( s container parent ) {  <NL> check layout ( parent ) ;  <NL> for ( int i = 0 ; i < parent . get component count ( ) ; i + + )  <NL> if ( i > 0 )  <NL> parent . get component ( i ) . set visible ( false ) ;  <NL> else <NL> parent . get component ( i ) . set visible ( true ) ;  <NL>  }  COM: <s> flips to the first card of the container </s>

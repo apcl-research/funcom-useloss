@@ -1,0 +1,1 @@
+TDAT: public void register hidden state names ( string [ ] state names ) {  <NL> if ( state names ! = null ) {  <NL> hidden state names = hash bi map . create ( ) ;  <NL> for ( int i = 0 ; i < state names . length ; + + i ) {  <NL> hidden state names . put ( state names [ i ] , i ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> register an array of hidden state names </s>

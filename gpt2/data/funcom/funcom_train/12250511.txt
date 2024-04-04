@@ -1,0 +1,1 @@
+TDAT: public int get ( int max ) {  <NL>  <NL> if ( this . bottom . get ( max ) = = this . left . get ( max ) &  <NL> this . bottom . get ( max ) = = this . right . get ( max ) &  <NL> this . bottom . get ( max ) = = this . top . get ( max )  <NL>  ) { return this . bottom . get ( max ) ; }  <NL> else {  <NL> return 0 ;  <NL>  }  <NL>  }  COM: <s> get int max </s>

@@ -1,0 +1,1 @@
+TDAT: public boolean key is row num ( ) {  <NL> int [ ] key = this . get key ( ) ;  <NL> if ( array utils . is empty ( key ) )  <NL> return false ;  <NL> if ( key . length > 1 )  <NL> return false ;  <NL> dk column model key column = this . get column ( key [ 0 ] ) ;  <NL> return key column . is row num ( ) ;  <NL>  }  COM: <s> convenience method that checks if key </s>

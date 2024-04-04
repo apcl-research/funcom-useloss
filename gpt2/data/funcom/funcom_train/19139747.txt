@@ -1,0 +1,1 @@
+TDAT: public object clone ( ) {  <NL> t int array list clone = null ;  <NL> try {  <NL> clone = ( t int array list ) super . clone ( ) ;  <NL> clone . _ data = ( int [ ] ) _ data . clone ( ) ;  <NL>  } catch ( clone not supported exception e ) {  <NL>  / / it ' s supported <NL>  } / / end of try - catch <NL> return clone ;  <NL>  }  COM: <s> returns a clone of this list </s>

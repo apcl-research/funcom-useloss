@@ -1,0 +1,1 @@
+TDAT: public boolean equals ( object o ) {  <NL> if ( ! ( o instanceof final state ) ) return false ;  <NL> if ( o = = this ) return true ;  <NL> final state oo = ( final state ) o ;  <NL> return ( ( ( object ) s ) . equals ( oo . s ) ) & & ( ( ( object ) tok ) . equals ( oo . tok ) ) ;  <NL>  }  COM: <s> is the given object equal to this final state </s>

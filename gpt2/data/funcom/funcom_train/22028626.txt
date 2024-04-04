@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> string class name = get class ( ) . get name ( ) ;  <NL> int last dot = class name . last index of ( ' . ' ) ;  <NL> class name = class name . substring ( last dot + 1 ) ;  <NL> return class name . substring ( 0 , class name . index of ( " nav " ) ) ;  <NL>  }  COM: <s> return a code string code representation of this nav module </s>

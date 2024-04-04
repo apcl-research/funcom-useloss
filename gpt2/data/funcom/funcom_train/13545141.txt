@@ -1,0 +1,1 @@
+TDAT: protected string to string from sets ( collection vertex set , collection edge set ) {  <NL> return " ( " + vertex set . to string ( ) + " , " + edge set . to string ( ) + " ) " ; / / $ non - nls - 1 $ / / $ non - nls - 2 $ / / $ non - nls - 3 $  <NL>  }  COM: <s> helper for subclass implementations of to string </s>

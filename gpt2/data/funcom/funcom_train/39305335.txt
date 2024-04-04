@@ -1,0 +1,1 @@
+TDAT: public void write ( byte [ ] data , int offset , int length ) {  <NL> for ( int x = offset ; x < ( offset + length ) & & x < data . length ; x + + ) {  <NL> if ( data [ x ] = = 13 )  <NL> newline = this . count + x ;  <NL>  }  <NL> super . write ( data , 0 , data . length ) ;  <NL>  }  COM: <s> overrides the basic write does inline checking to see if the return </s>

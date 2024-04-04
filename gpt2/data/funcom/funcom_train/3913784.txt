@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> return ( " uol [ id = " + id + " , title = " + util . quoted str ( title ) + " , uri = " + util . quoted str ( uri ) + " , content uri = " +  <NL> util . quoted str ( content uri ) + " ] " ) ;  <NL>  }  COM: <s> returns a string representation of the unit of learning for presentation purposes </s>

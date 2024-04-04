@@ -1,0 +1,1 @@
+TDAT: protected int exec sync ( string cmd , file cwd , input stream in , output stream out , output stream err , int timeout ) throws verinec exception , interrupted exception {  <NL> return program exec . exec sync ( cmd , cwd , in , out , err , timeout ) ;  <NL>  }  COM: <s> overwrite to call exec sync on the desired implementation </s>

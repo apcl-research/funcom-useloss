@@ -1,0 +1,1 @@
+TDAT: public int max _ row ( ) {  <NL> double max = this . get ( 0 , 0 ) ;  <NL> int row = 0 ;  <NL> for ( int i = 0 ; i < m ; i + + )  <NL> for ( int j = 0 ; j < n ; j + + )  <NL> if ( get ( i , j ) > max ) {  <NL> max = get ( i , j ) ;  <NL> row = i ;  <NL>  }  <NL> return row ;  <NL>  }  COM: <s> find row of max elem </s>

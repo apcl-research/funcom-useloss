@@ -1,0 +1,1 @@
+TDAT: public int compare to ( object o ) {  <NL> m add int x = ( m add int ) o ;  <NL> int i = 0 ;  <NL> if ( nf ! = x . nf ) { return nf - x . nf ; }  <NL> while ( i < nf - 1 & & get ( i ) = = x . get ( i ) ) { i + + ; }  <NL> return get ( i ) - x . get ( i ) ;  <NL>  }  COM: <s> compare to another mult add int </s>

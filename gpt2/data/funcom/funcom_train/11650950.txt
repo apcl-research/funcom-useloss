@@ -1,0 +1,1 @@
+TDAT: private void init ( ) {  <NL>  / / standard setup <NL> set layout ( new border layout ( 0 , 5 ) ) ;  <NL> set border ( make border ( ) ) ;  <NL> add ( make title panel ( ) , border layout . north ) ; / / add the standard title <NL> add ( make data panel ( ) , border layout . center ) ;  <NL>  }  COM: <s> helper method to set up the gui screen </s>

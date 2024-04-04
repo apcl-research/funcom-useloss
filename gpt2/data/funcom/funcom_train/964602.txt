@@ -1,0 +1,1 @@
+TDAT: public void test reject duplicate column index ( ) {  <NL> try {  <NL> layout . set column groups ( new int [ ] [ ] { { 1 , 2 } , { 2 , 3 } } ) ;  <NL> fail ( " a duplicate column index should be rejected . " ) ;  <NL>  } catch ( illegal argument exception e ) {  <NL>  / / the expected behavior <NL>  }  <NL>  }  COM: <s> tests if duplicate column indices are rejected </s>

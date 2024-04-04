@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> final string buffer buf = new string buffer ( 5 ) ;  <NL> buf . append ( vector [ 0 ] ) . append ( ' , ' ) . append ( vector [ 1 ] ) . append ( ' , ' ) . append ( vector [ 2 ] ) ;  <NL> return buf . to string ( ) ;  <NL>  }  COM: <s> returns a comma delimited string representing the value of this vector </s>

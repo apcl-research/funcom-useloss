@@ -1,0 +1,1 @@
+TDAT: private void add cache container ( ) {  <NL> container [ ] temp = new container [ + + _ container count ] ;  <NL> system . arraycopy ( _ cache , 0 , temp , 1 , _ cache . length ) ;  <NL> temp [ 0 ] = _ pool [ - - _ pool count ] ;  <NL> temp [ 0 ] . update timestamp ( ) ;  <NL>  _ cache = temp ;  <NL>  }  COM: <s> add an empty container from the pool to the cache </s>

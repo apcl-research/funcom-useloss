@@ -1,0 +1,1 @@
+TDAT: public void test negative range query ( ) {  <NL> assert q ( " collated range q : " ,  <NL> req ( " fl " , " id " , " q " , " sort _ ar : [ \u062f to \u0698 ] " , " sort " , " id asc " ) ,  <NL>  " / / * [ @ num found = ' 0 ' ] "  <NL>  ) ;  <NL>  }  COM: <s> test rangequery again with an arabic collator </s>

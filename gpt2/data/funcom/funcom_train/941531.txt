@@ -1,0 +1,1 @@
+TDAT: private string to csv format ( final string token ) {  <NL> string csv token = token . replace all ( " \ " " , " \ " \ " " ) ;  <NL> if ( csv token . contains ( " , " ) ) {  <NL> csv token = " \ " " + csv token + " \ " " ;  <NL>  }  <NL> return csv token ;  <NL>  }  COM: <s> transfer the token into csv format </s>

@@ -1,0 +1,1 @@
+TDAT: public void pad octet ( ) {  <NL> for ( int pad = offset3 + 1 ; pad < 4 ; pad + + ) {  <NL> octet [ pad ] = ( byte ) ' = ' ;  <NL>  }  <NL> clear octet ( ) ; / / because the next operation is <NL>  / / to get the byte from octet ,  <NL>  / / and since octet is loaded ,  <NL>  / / the offset is 0 .  <NL>  }  COM: <s> if the octet is not fully loaded yet pad it with </s>

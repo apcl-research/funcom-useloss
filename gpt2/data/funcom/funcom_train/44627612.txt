@@ -1,0 +1,1 @@
+TDAT: public void test jm lprecedence8 ( ) {  <NL> help expr ( " a < # b < # = c < # d " ,  <NL> jml binary . class , 12 ,  <NL> jml binary . class , 7 ,  <NL> jml binary . class , 2 ,  <NL> jc ident . class , 0 ,  <NL> jc ident . class , 5 ,  <NL> jc ident . class , 10 ,  <NL> jc ident . class , 15 <NL>  ) ;  <NL>  }  COM: <s> test associativity of lock operators </s>

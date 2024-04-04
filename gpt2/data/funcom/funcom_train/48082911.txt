@@ -1,0 +1,1 @@
+TDAT: public object set value ( object obj ) {  <NL> object old = get value ( ) ;  <NL> if ( parent . value type > hard ) {  <NL> ref value . clear ( ) ;  <NL> ref value = to reference ( parent . value type , ( reference ) obj , hash code ) ;  <NL>  } else {  <NL> super . set value ( obj ) ;  <NL>  }  <NL> return old ;  <NL>  }  COM: <s> sets the value of the entry </s>

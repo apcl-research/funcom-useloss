@@ -1,0 +1,1 @@
+TDAT: public void test mul real ( ) {  <NL> value v = _ rv1 . mul ( _ rv2 ) ;  <NL> assert true ( " return type check . " , v instanceof real value ) ;  <NL> assert equals ( 12 . 0 , ( ( real value ) v ) . double value ( ) , 0 . 00001 ) ;  <NL> assert equals ( new real value ( 12 ) , v ) ;  <NL>  }  COM: <s> tests multiplication of two real values </s>

@@ -1,0 +1,1 @@
+TDAT: public void award trophy ( trophy t , string nick ) {  <NL> if ( ! trophy manager . have trophy ( t , nick ) ) {  <NL> trophy manager . add trophy ( t , nick ) ;  <NL> get network ( ) . get connection ( ) . send privmsg ( channel name , nick <NL>  + " : du har fått en trofé - " + t . get name ( ) ) ;  <NL>  }  <NL>  }  COM: <s> award trophy to user </s>

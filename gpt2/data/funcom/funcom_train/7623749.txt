@@ -1,0 +1,1 @@
+TDAT: public int connect sink ( string address ) {  <NL> if ( dbg ) log ( " connect sink ( " + address + " ) " ) ;  <NL> try {  <NL> return m service . connect sink ( address ) ;  <NL>  } catch ( remote exception e ) {  <NL> log . w ( tag , " " , e ) ;  <NL> return bluetooth error . error _ ipc ;  <NL>  }  <NL>  }  COM: <s> initiate a connection to an a2 dp sink </s>

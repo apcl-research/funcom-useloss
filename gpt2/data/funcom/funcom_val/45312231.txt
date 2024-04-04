@@ -1,0 +1,1 @@
+TDAT: public void add text field value ( string field name , string field value ) {  <NL> validate field type ( field name , data type . text ) ;  <NL> if ( str data = = null ) {  <NL> str data = new multi value map < string > ( ) ;  <NL>  }  <NL> str data . add field value ( field name , field value ) ;  <NL>  }  COM: <s> add a text value to the given field </s>

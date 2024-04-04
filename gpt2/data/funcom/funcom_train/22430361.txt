@@ -1,0 +1,1 @@
+TDAT: protected void bingo ( int risk , int reliability , string uri , string param , string other info , http message msg ) {  <NL> bingo ( risk , reliability , this . get name ( ) , this . get description ( ) , uri , param , other info , this . get solution ( ) , msg ) ;  <NL>  }  COM: <s> generate an alert when a security issue risk info is found </s>

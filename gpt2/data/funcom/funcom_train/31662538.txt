@@ -1,0 +1,1 @@
+TDAT: public void set value ( java . lang . object value ) {  <NL> object old value = field value ;  <NL> field value = value ;  <NL> if ( old value = = value )  <NL> return ;  <NL> if ( old value ! = null & & old value . equals ( value ) )  <NL> return ;  <NL> fire property change ( " value " , old value , value ) ;  <NL>  }  COM: <s> sets the value property java </s>

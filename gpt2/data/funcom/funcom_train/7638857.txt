@@ -1,0 +1,1 @@
+TDAT: private string entry path to class name ( string entry path ) {  <NL> return entry path . replace first ( " \\ . class $ " , " " ) . replace all ( " [ / \\\\ ] " , " . " ) ; / / $ non - nls - 1 $ / / $ non - nls - 2 $ / / $ non - nls - 3 $  <NL>  }  COM: <s> helper method that converts a zip entry path into a corresponding </s>

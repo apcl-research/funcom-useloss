@@ -1,0 +1,1 @@
+TDAT: public boolean accept ( file pathname ) {  <NL> return ( pathname . get name ( ) . to upper case ( ) . ends with ( " . jar " ) || pathname . get name ( ) . to upper case ( ) . ends with ( " . zip " ) || pathname . get name ( ) . to upper case ( ) . ends with ( " . war " ) ) ;  <NL>  }  COM: <s> description of the method </s>

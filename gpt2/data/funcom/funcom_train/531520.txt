@@ -1,0 +1,1 @@
+TDAT: private string server url ( string str ) {  <NL> int i = str . index of ( " / / " ) ;  <NL> if ( i < 0 ) return str ;  <NL>  <NL> str = str . substring ( i + 2 ) ;  <NL> i = str . index of ( " / " ) ;  <NL> if ( i < 0 ) return str ;  <NL>  <NL> return str . substring ( i ) ;  <NL>  }  COM: <s> find the some file </s>

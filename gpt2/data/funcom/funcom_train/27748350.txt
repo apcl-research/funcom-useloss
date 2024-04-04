@@ -1,0 +1,1 @@
+TDAT: public void initialize project ( ) throws build exception {  <NL> this . project . init ( ) ;  <NL> this . project . set user property ( " ant . version " , " 1 . 5 . 1 " ) ;  <NL> this . project . set user property ( " ant . file " , this . build file . get absolute path ( ) ) ;  <NL>  <NL> this . project initialized = true ;  <NL>  }  COM: <s> initializes the project </s>

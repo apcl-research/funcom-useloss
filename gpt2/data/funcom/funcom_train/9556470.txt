@@ -1,0 +1,1 @@
+TDAT: public object get bean ( final string bean name ) {  <NL> if ( ( null = = bean name ) || ( bean name . length ( ) = = 0 ) ) {  <NL> log . fatal ( " bean name is null or empty " ) ;  <NL> throw new illegal argument exception ( " bean name is invalid " ) ;  <NL>  }  <NL> return factory . get bean ( bean name ) ;  <NL>  }  COM: <s> get the managed beans </s>

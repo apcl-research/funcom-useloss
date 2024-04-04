@@ -1,0 +1,1 @@
+TDAT: private string strip none word chars ( string unclean string ) {  <NL> return unclean string . replace ( " . " , " " ) . replace ( " : " , " " ) . replace ( " @ " , " " ) . replace ( " - " , " " ) . replace ( " _ " , " " ) . replace ( " < " , " " ) . replace ( " > " , " " ) ;  <NL>  <NL>  }  COM: <s> removes unwanted chars from a given string </s>

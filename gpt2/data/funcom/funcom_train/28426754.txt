@@ -1,0 +1,1 @@
+TDAT: public trinomial lfsr ( int l , int k ) {  <NL> super ( l ) ;  <NL> if ( k < 1 || k > l - 1 ) throw new illegal argument exception ( ) ;  <NL> l = l ;  <NL> k = k ;  <NL> warp factor = math . min ( k , l - k ) ;  <NL> slice = math . min ( 64 , warp factor ) ;  <NL>  }  COM: <s> define an lfsr with code l code stages and with a connection </s>

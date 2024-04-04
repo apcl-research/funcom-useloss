@@ -1,0 +1,1 @@
+TDAT: public string get mti name ( int direction ) {  <NL> int value = mti . get value ( ) ;  <NL>  / * ms = = > sc * /  <NL> if ( direction = = tpdu . direction _ ms _ to _ sc ) return ms _ to _ sc _ name [ value ] ;  <NL>  / * sc = = > ms * /  <NL> return sc _ to _ ms _ name [ value ] ;  <NL>  }  COM: <s> this will return the name of the message type </s>

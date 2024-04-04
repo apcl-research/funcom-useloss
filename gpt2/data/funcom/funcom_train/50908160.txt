@@ -1,0 +1,1 @@
+TDAT: private point get square from point ( point p ) {  <NL>  / / todo : rename method .  <NL> for ( int y = 0 ; y < 8 ; + + y ) {  <NL> for ( int x = 0 ; x < 8 ; + + x ) {  <NL> rectangle r = rectangles [ x ] [ y ] ;  <NL> if ( r . contains ( p ) ) {  <NL> return new point ( x , y ) ;  <NL>  }  <NL>  }  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> a poorly named method </s>

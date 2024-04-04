@@ -1,0 +1,1 @@
+TDAT: private void action one dict boxes ( ) {  <NL> if ( m _ dict list . get selected index ( ) ! = - 1 ) {  <NL> j dict p base . get instance ( ) . change to panel ( crs cur panel . panel _ boxlist , m _ dicts [ m _ dict list . get selected index ( ) ] , null , null ) ;  <NL>  }  <NL>  }  COM: <s> goto selected dict but directly to boxes </s>

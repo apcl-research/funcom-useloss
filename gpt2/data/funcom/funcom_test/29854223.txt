@@ -1,0 +1,1 @@
+TDAT: protected string convert timestamp ( int yy , int mo , int dd , int hh , int mi , int ss , int ns ) {  <NL> return " to _ date ( ' " + yy + " - " + mo + " - " + dd + " " + hh + " : " + mi + " : " + ss + " ' , ' yyyy - mm - dd hh24 : mi : ss ' ) " ;  <NL>  }  COM: <s> converts a timestamp into native syntax </s>

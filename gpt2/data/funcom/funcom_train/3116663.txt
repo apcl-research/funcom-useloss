@@ -1,0 +1,1 @@
+TDAT: public int hash code ( ) {  <NL> double sum1 = left + bottom ;  <NL> double sum2 = right + top ;  <NL> double val1 = sum1 * ( sum1 + 1 ) / 2 + left ;  <NL> double val2 = sum2 * ( sum2 + 1 ) / 2 + top ;  <NL> double sum3 = val1 + val2 ;  <NL> return ( int ) ( sum3 * ( sum3 + 1 ) / 2 + val2 ) ;  <NL>  }  COM: <s> returns the hash code for this insets </s>

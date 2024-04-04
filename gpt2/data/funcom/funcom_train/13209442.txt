@@ -1,0 +1,1 @@
+TDAT: public boolean is everything occupied ( int [ ] [ ] field ) {  <NL> for ( int l = 0 ; l < field . length ; l + + ) {  <NL> for ( int r = 0 ; r < field . length ; r + + ) {  <NL> if ( field [ l ] [ r ] = = - 1 ) return false ;  <NL>  }  <NL>  }  <NL> return true ;  <NL>  }  COM: <s> retursn true if all fields are occupied </s>

@@ -1,0 +1,1 @@
+TDAT: public print writer append ( char sequence csq , int start , int end , final async callback < boolean > callback ) {  <NL> char sequence cs = ( csq = = null ? " null " : csq ) ;  <NL> write ( cs . sub sequence ( start , end ) . to string ( ) , callback ) ;  <NL> return this ;  <NL>  }  COM: <s> appends a subsequence of the specified character sequence to this writer </s>

@@ -1,0 +1,1 @@
+TDAT: public int set ball ( int x , int y ) {  <NL> int res = - 1 ;  <NL> try { res = ( ( integer ) m _ set ball . invoke ( rch , new object [ ] { new integer ( x ) , new integer ( y ) } ) ) . int value ( ) ; }  <NL> catch ( exception e ) { e . print stack trace ( ) ; }  <NL> return res ;  <NL>  }  COM: <s> places the ball on the field </s>

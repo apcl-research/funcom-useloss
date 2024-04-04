@@ -1,0 +1,1 @@
+TDAT: public void decode line ( string line ) {  <NL> string key , val ;  <NL> int pos = line . index of ( ' : ' ) ;  <NL> key = line . substring ( 0 , pos ) . trim ( ) ;  <NL> val = line . substring ( pos + 1 ) . trim ( ) ;  <NL> set header ( key , val ) ;  <NL> if ( key . equals ( cookie header ) ) decode cookie ( val ) ;  <NL>  }  COM: <s> decodes the incoming line </s>

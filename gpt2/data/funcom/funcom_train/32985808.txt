@@ -1,0 +1,1 @@
+TDAT: public void save ( connection db con ) throws torque exception {  <NL> super . save ( db con ) ;  <NL> if ( coords2 ! = null ) {  <NL> coords2 . set db atom ( this ) ;  <NL> coords2 . save ( db con ) ;  <NL>  }  <NL> if ( coords3 ! = null ) {  <NL> coords3 . set db atom ( this ) ;  <NL> coords3 . save ( db con ) ;  <NL>  }  <NL>  }  COM: <s> saves this object incl </s>

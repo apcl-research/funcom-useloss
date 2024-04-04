@@ -1,0 +1,1 @@
+TDAT: public void set normal font ( byte [ ] ttf afm ) throws io exception , document exception {  <NL>  / / creating base font <NL>  / / changed by kiran <NL> this . normal font = base font . create font (  <NL> name + " . ttf " , base font . identity _ h ,  <NL> embedded , cached , ttf afm , null <NL>  ) ;  <NL>  }  COM: <s> setter method for the the property normal font </s>

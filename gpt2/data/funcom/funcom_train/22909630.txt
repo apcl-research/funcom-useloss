@@ -1,0 +1,1 @@
+TDAT: public void undo ( ) {  <NL> if ( ! can undo ( ) ) {  <NL> throw new cannot undo exception ( ) ;  <NL>  }  <NL>  / / undo all edits in reverse order <NL> for ( int i = edits . size ( ) - 1 ; i > = 0 ; i - - ) {  <NL> edits . get ( i ) . undo ( ) ;  <NL>  }  <NL> has been done = false ;  <NL>  }  COM: <s> throws cannot undo exception if can undo returns false </s>

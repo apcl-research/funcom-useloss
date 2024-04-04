@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> to string builder sb = new to string builder ( this ) ;  <NL> sb . append ( " server url " , url ) ;  <NL> sb . append ( " username " , username ) ;  <NL> sb . append ( " password " , " * * * * * * " ) ;  <NL> return sb . to string ( ) ;  <NL>  }  COM: <s> returns a string representation of the object </s>

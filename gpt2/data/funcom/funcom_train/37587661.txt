@@ -1,0 +1,1 @@
+TDAT: protected void set up ( ) throws exception {  <NL> super . set up ( ) ;  <NL>  / / use system . get property ( " user . dir " ) as working directory here and in call on reset ( . . . ) below <NL>  _ doc = new interactions document ( new interactions dj document ( ) ) ;  <NL>  _ doc . set banner ( test _ banner ) ;  <NL>  }  COM: <s> initialize fields for each test </s>

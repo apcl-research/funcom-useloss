@@ -1,0 +1,1 @@
+TDAT: public long to long ( ) {  <NL> long tmp e = m _ e ;  <NL> long tmp val = m _ val ;  <NL>  / /  <NL> while ( tmp e ! = 0 ) {  <NL> if ( tmp e < 0 ) {  <NL> tmp val / = 10 ;  <NL> tmp e + + ;  <NL>  }  <NL> else {  <NL> tmp val * = 10 ;  <NL> tmp e - - ;  <NL>  }  <NL>  }  <NL> return tmp val ;  <NL>  }  COM: <s> convert float object to long number </s>

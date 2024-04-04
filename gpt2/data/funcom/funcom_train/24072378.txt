@@ -1,0 +1,1 @@
+TDAT: public apl module clone ( ) {  <NL> apl module module = new apl module ( i events , e events , envs , delib ,  <NL> messenger , name , mas , parent , stopping cond , beliefs , goals ,  <NL> beliefupdates , pgrules , prrules , pcrules , plans , in environment ) ;  <NL> return module ;  <NL>  }  COM: <s> creates cloned instance of this module </s>

@@ -1,0 +1,1 @@
+TDAT: public calendar make gmt calendar ( ) {  <NL> calendar gmt cal = calendar . get instance ( time zone . get time zone ( " gmt " ) , locale . get default ( ) ) ;  <NL> gmt cal . set ( year , month - 1 , day , hour , min , sec ) ;  <NL> return gmt cal ;  <NL>  }  COM: <s> creates a calendar object using gmt timezone </s>

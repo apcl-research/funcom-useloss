@@ -1,0 +1,1 @@
+TDAT: public url get host url ( ) {  <NL> try {  <NL> url url = new url ( request . get scheme ( ) ,  <NL> request . get server name ( ) ,  <NL> request . get server port ( ) , " / " ) ;  <NL> return url ;  <NL>  } catch ( malformed url exception e ) {  <NL> throw new extended runtime exception ( " could not get host uri " , e ) ;  <NL>  }  <NL>  }  COM: <s> get the host url </s>

@@ -1,0 +1,1 @@
+TDAT: public boolean remove id ( int id ) {  <NL> boolean result = false ;  <NL> iterator < integer > i = this . get used ids ( ) . iterator ( ) ;  <NL> while ( i . has next ( ) ) {  <NL> if ( i . next ( ) . int value ( ) = = id ) {  <NL> result = true ;  <NL> i . remove ( ) ;  <NL>  }  <NL>  }  <NL> return result ;  <NL>  }  COM: <s> removes an id from the used id set </s>

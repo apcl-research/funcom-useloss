@@ -1,0 +1,1 @@
+TDAT: public void init ( int max gray )  <NL>  { / * init * /  <NL> clean ( ) ; / * clean up the state * /  <NL>  <NL>  / * the map does not exist , so make a ( db sample . max gray pixel + 1 )  <NL>  * level 1 : 1 map .  <NL>  * /  <NL> set map gray to cal ( null , max gray ) ;  <NL>  } / * init * /  COM: <s> init init the calibration with calibration map </s>

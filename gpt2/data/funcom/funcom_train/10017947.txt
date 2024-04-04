@@ -1,0 +1,1 @@
+TDAT: private void put done node id ( object node , int id ) {  <NL> if ( m _ done nodes . get ( node ) = = null ) {  <NL> integer nd = new integer ( id ) ;  <NL> m _ done nodes . put ( node , nd ) ;  <NL> m _ done nodes reverse . put ( nd , node ) ;  <NL>  }  <NL>  }  COM: <s> register a node if it has not yet been done so </s>

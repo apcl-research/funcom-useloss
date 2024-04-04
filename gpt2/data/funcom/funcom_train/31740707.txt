@@ -1,0 +1,1 @@
+TDAT: public wait object execute async ( list tasks ) {  <NL> wait object wait object = new wait object ( tasks . size ( ) ) ;  <NL> for ( int i = 0 ; i < tasks . size ( ) ; i + + ) {  <NL> get worker thread ( ) . set task ( ( runnable ) tasks . get ( i ) , wait object ) ;  <NL>  }  <NL>  <NL> return wait object ;  <NL>  }  COM: <s> executes a list of tasks asynchronous </s>

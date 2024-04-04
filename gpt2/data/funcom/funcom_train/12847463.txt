@@ -1,0 +1,1 @@
+TDAT: public void set jul day ( double new jd ) {  <NL> this . jd = new jd ;  <NL> deltat is valid = false ;  <NL> i date dt = swe _ revjul ( new jd , this . cal type ) ;  <NL> this . year = dt . year ;  <NL> this . month = dt . month ;  <NL> this . day = dt . day ;  <NL> this . hour = dt . hour ;  <NL>  }  COM: <s> sets the new julian day for this object </s>

@@ -1,0 +1,1 @@
+TDAT: public void reset ( ) {  <NL> for ( int i = 0 ; i < inputs . length ; i + + ) {  <NL>  / / inputs [ i ] . put bv ( this , input values [ i ] ) ;  <NL> inputs [ i ] . put bv ( this , new bv ( inputs [ i ] . get width ( ) , 0 ) ) ;  <NL>  }  <NL>  }  COM: <s> puts values on the input wires when the circuit is reset </s>

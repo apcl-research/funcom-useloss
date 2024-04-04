@@ -1,0 +1,1 @@
+TDAT: public void on notice ( string target , irc user user , string msg ) {  <NL> string nick = user . get nick ( ) ;  <NL> int index = moep . get selected index ( ) ;  <NL> string line = " * notice : " + nick + " to " + target + " : " + msg ;  <NL> moep . update tab ( index , line , moep . get other color ( ) ) ;  <NL>  }  COM: <s> fired when a notice is received </s>

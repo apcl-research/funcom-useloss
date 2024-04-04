@@ -1,0 +1,1 @@
+TDAT: public void shift index ( int less than , int delta ) {  <NL> int size = info . length ;  <NL> for ( int i = 2 ; i < size ; i + = 10 ) {  <NL> int org = byte array . read u16bit ( info , i + 8 ) ;  <NL> if ( org > = less than )  <NL> byte array . write16bit ( org + delta , info , i + 8 ) ;  <NL>  }  <NL>  }  COM: <s> for each code local variable table i </s>

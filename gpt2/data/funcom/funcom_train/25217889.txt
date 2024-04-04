@@ -1,0 +1,1 @@
+TDAT: private void show banner ( ) {  <NL>  <NL> if ( banner ) {  <NL> string build = " $ revision : 8505 $ " . replace all ( " [ ^ 0 - 9 ] " , " " ) ;  <NL> logger . log ( level . info , localizer . format ( " banner " , build , / /  <NL> system . get property ( " java . version " ) ) ) ;  <NL> banner = false ;  <NL>  }  <NL>  }  COM: <s> show the program banner </s>

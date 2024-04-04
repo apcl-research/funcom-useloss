@@ -1,0 +1,1 @@
+TDAT: public bit set init perm ( bit set p ) {  <NL> p = util . copy bit set ( p , 64 ) ;  <NL> bit set p _ perm = new bit set ( 64 ) ;  <NL> for ( int i = 0 ; i < 64 ; i + + ) {  <NL> p _ perm . set ( i , p . get ( ip [ i ] - 1 ) ) ;  <NL>  }  <NL> return p _ perm ;  <NL>  }  COM: <s> compute initial permutation ip </s>

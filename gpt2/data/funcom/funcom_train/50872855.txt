@@ -1,0 +1,1 @@
+TDAT: public void test put ( ) {  <NL> om attribution attribution = new om attribution ( ) ;  <NL> attribution . set constructor ( new om integer ( " 1 " ) ) ;  <NL> attribution . put ( new om symbol ( " a " , " a " ) , new om integer ( " 1 " ) ) ;  <NL> assert true ( attribution . get attributions ( ) . size ( ) = = 1 ) ;  <NL>  }  COM: <s> test of put method of class nl </s>

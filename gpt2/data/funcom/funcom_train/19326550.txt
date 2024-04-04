@@ -1,0 +1,1 @@
+TDAT: public int trait z index ( final f obj fobj , final fo context context ) {  <NL> final pd z index property = ( pd z index ) get property ( fo property . z _ index ) ;  <NL> if ( property ! = null ) {  <NL> return property . get value ( context , fobj ) ;  <NL>  }  <NL> return pd z index . get value no instance ( ) ;  <NL>  }  COM: <s> returns the z index property </s>

@@ -1,0 +1,1 @@
+TDAT: public void add ( string type , creator c ) {  <NL> type = type . to lower case ( ) ;  <NL> array list cl = ( array list ) get entry ( type ) ;  <NL> if ( cl = = null ) {  <NL> cl = new array list ( ) ;  <NL> put entry ( type , cl ) ;  <NL>  }  <NL> cl . add ( c ) ;  <NL>  }  COM: <s> adds a new creator associated with a specified type name </s>

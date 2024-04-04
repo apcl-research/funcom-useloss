@@ -1,0 +1,1 @@
+TDAT: protected json representation ecapsulate exception json ( service exception ex ) {  <NL> return create j son error ( ex . get localized message ( ) , null , ( ex . get http status ( ) ! = null ? ex . get http status ( ) . get name ( ) : status . client _ error _ bad _ request . get name ( ) ) ) ;  <NL>  }  COM: <s> todo add correct date remove magic </s>

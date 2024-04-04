@@ -1,0 +1,1 @@
+TDAT: public void xor ( fixed size bit vector set ) {  <NL> if ( set = = null ) {  <NL> throw new illegal argument exception ( " set is null " ) ;  <NL>  }  <NL> int set length = set . bits . length ;  <NL> for ( int i = set length ; i - - > 0 ; ) {  <NL> bits [ i ] ^ = set . bits [ i ] ;  <NL>  }  <NL>  }  COM: <s> logically xors this bit set with the specified set of bits </s>

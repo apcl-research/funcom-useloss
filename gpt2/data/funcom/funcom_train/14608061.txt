@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> list names = new vector ( ) ;  <NL> for ( iterator types = get converters ( ) . key set ( ) . iterator ( ) ; types . has next ( ) ; )  <NL> names . add ( ( ( class ) types . next ( ) ) . get name ( ) ) ;  <NL> return names . to string ( ) ;  <NL>  }  COM: <s> output a list of converters supported </s>

@@ -1,0 +1,1 @@
+TDAT: public void insert ( int pos , byte [ ] insertbuf , int off , int len ) {  <NL>  <NL>  / / / / 1 . insert some space in .  <NL> insert ( pos , len ) ;  <NL>  <NL>  / / / / 2 . copy the bytes over .  <NL> system . arraycopy ( insertbuf , off , databuf , pos , len ) ;  <NL>  <NL>  } / / of insert  COM: <s> insert the specified buffer at the specified position </s>

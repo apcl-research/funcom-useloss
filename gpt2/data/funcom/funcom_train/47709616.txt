@@ -1,0 +1,1 @@
+TDAT: public void shape ( p shape shape , float x , float y , float c , float d ) {  <NL> if ( recorder ! = null ) recorder . shape ( shape , x , y , c , d ) ;  <NL> g . shape ( shape , x , y , c , d ) ;  <NL>  }  COM: <s> displays shapes to the screen </s>

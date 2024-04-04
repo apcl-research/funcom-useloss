@@ -1,0 +1,1 @@
+TDAT: private void add to queue ( ) {  <NL> status widget . set status ( i upload status . status . queued ) ;  <NL> status widget . set progress ( 0 , 0 ) ;  <NL> if ( ! file queue . contains ( file input . get name ( ) ) ) {  <NL> on start upload ( ) ;  <NL> file queue . add ( file input . get name ( ) ) ;  <NL>  }  <NL>  }  COM: <s> adds a file to the upload queue </s>

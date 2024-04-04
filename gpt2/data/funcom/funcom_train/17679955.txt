@@ -1,0 +1,1 @@
+TDAT: private sql exp find where exp ( sql exp list ) {  <NL> sql exp e = where exp ;  <NL> if ( e ! = null ) list = list . next = e ;  <NL> for ( join j = join list ; j ! = null ; j = j . next ) {  <NL> list = j . select exp . find where exp ( list ) ;  <NL>  }  <NL> return list ;  <NL>  }  COM: <s> recursively add all where expressions we can find to list and </s>

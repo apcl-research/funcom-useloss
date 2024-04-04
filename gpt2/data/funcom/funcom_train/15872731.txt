@@ -1,0 +1,1 @@
+TDAT: public void column invalidate ( final string s column name ) {  <NL> table column core tc = table column manager . get instance ( ) . get table column core (  <NL> s table id , s column name ) ;  <NL> if ( tc ! = null )  <NL> column invalidate ( tc , tc . get type ( ) = = table column core . type _ text _ only ) ;  <NL>  }  COM: <s> invalidate all the cells in a column </s>

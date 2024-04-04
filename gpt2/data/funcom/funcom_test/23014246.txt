@@ -1,0 +1,1 @@
+TDAT: public float calculate float ( float time , vector4f first , vector4f second ) {  <NL> float delta = second . get x ( ) - first . get x ( ) ;  <NL> float ratio = ( time - first . get x ( ) ) / delta ;  <NL>  <NL> return first . get y ( ) + ratio * ( second . get y ( ) - first . get y ( ) ) ;  <NL>  }  COM: <s> interpolates the curve at the given time the x coordinate </s>

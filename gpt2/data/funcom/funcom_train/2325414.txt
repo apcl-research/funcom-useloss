@@ -1,0 +1,1 @@
+TDAT: public void sort row indexes ( ) {  <NL> scs = scs _ transpose . cs _ transpose ( scs , true ) ;  <NL> scs = scs _ transpose . cs _ transpose ( scs , true ) ;  <NL> if ( scs = = null ) {  <NL> throw new illegal argument exception ( " exception occured in cs _ transpose ( ) ! " ) ;  <NL>  }  <NL> row indexes sorted = true ;  <NL>  }  COM: <s> sorts row indexes </s>

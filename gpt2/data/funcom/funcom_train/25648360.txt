@@ -1,0 +1,1 @@
+TDAT: public void remove graph editor ( int index ) {  <NL> this . tab panel . remove ( index ) ;  <NL> if ( ( index - 1 ) > - 1 & & ( index - 1 ) < title updaters . size ( ) ) {  <NL> event queue . remove listener ( title updaters . get ( index - 1 ) ) ;  <NL> title updaters . remove ( index - 1 ) ;  <NL>  }  <NL>  }  COM: <s> remove a graph editor tab on given index </s>

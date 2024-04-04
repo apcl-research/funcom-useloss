@@ -1,0 +1,1 @@
+TDAT: protected void draw minus ( gc gc , int size , int x , int y ) {  <NL> gc . draw line ( x + _ sign insets , y + size / 2 , x + size - _ sign insets , y + size / 2 ) ;  <NL> gc . draw rectangle ( x , y , size , size ) ;  <NL>  }  COM: <s> draw the minus sign </s>

@@ -1,0 +1,1 @@
+TDAT: protected string escape message format ( string text ) {  <NL> if ( text . index of ( ' { ' ) = = - 1 & & text . index of ( ' } ' ) = = - 1 ) {  <NL> return text ;  <NL>  }  <NL> return text . replace all ( " \\ { " , " ' { ' " ) . replace all ( " \\ } " , " ' } ' " ) ;  <NL>  }  COM: <s> escapes the specified text so that it can be used as input value </s>

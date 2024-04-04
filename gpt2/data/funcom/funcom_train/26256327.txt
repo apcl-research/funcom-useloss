@@ -1,0 +1,1 @@
+TDAT: protected void add buffer space ( int length ) {  <NL> int new length = len + length ;  <NL> if ( new length > buffer . length ) {  <NL> char [ ] new buffer = new char [ 2 * new length ] ;  <NL> system . arraycopy ( buffer , 0 , new buffer , 0 , len ) ;  <NL> buffer = new buffer ;  <NL>  }  <NL>  }  COM: <s> makes the buffer have room for code len code more chars </s>

@@ -1,0 +1,1 @@
+TDAT: private void insert ( string [ ] enc , string s ) {  <NL>  <NL> string [ ] split = s . split ( " / " ) ;  <NL> try {  <NL> int nr = integer . parse int ( split [ 0 ] . trim ( ) ) ;  <NL> enc [ nr ] = split [ 1 ] . trim ( ) ;  <NL>  } catch ( exception e ) {  <NL>  / / ignore <NL>  }  <NL>  }  COM: <s> insert the values dup 32 space put into the string array </s>

@@ -1,0 +1,1 @@
+TDAT: public void test newline ( ) {  <NL> assert equals ( " nothing should be in the buffer " , " " , buf . to string ( ) ) ;  <NL> buf . newline ( ) ;  <NL> assert true ( " should contain newline " , buf . to string ( ) . index of ( ' \n ' ) ! = - 1 ) ;  <NL> assert equals ( " line position should be 0 " , 0 , buf . line pos ) ;  <NL>  }  COM: <s> test the newline </s>

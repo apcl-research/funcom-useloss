@@ -1,0 +1,1 @@
+TDAT: public void label right eye ( ae packet raw ae raw right ) {  <NL> int [ ] adr = ae raw right . get addresses ( ) ;  <NL> int n = ae raw right . get num events ( ) ;  <NL> for ( int i = 0 ; i < n ; i + + ) {  <NL> adr [ i ] = ( int ) ( adr [ i ] | stereopsis . mask _ right _ addr ) ;  <NL>  }  <NL>  }  COM: <s> labels all events in raw packet as coming from right eye </s>

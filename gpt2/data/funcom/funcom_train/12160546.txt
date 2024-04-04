@@ -1,0 +1,1 @@
+TDAT: public void dispose ( ) {  <NL> super . dispose ( ) ;  <NL> for ( iterator it = image cache . values ( ) . iterator ( ) ; it . has next ( ) ; ) {  <NL> image image = ( image ) it . next ( ) ;  <NL> if ( image ! = null ) {  <NL> image . dispose ( ) ;  <NL>  }  <NL>  }  <NL> image cache . clear ( ) ;  <NL>  }  COM: <s> disposes of the images in the image cache </s>

@@ -1,0 +1,1 @@
+TDAT: public string msg xsd message ( string type , string msg , string system id , int line , int col ) {  <NL> return this . format ( " { 0 } : [ { 2 } @ l { 3 } : c { 4 } ] : { 1 } " , type , msg , system id , line , col ) ;  <NL>  }  COM: <s> format a log message about an xsd related warning or error </s>

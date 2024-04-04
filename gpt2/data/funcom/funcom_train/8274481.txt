@@ -1,0 +1,1 @@
+TDAT: public void add row ( string p _ node , string p _ group , string p _ role ) {  <NL> m _ data rows . add element ( new object [ ] { p _ node , p _ group , p _ role } ) ;  <NL> fire table rows inserted ( m _ data rows . size ( ) - 1 , m _ data rows . size ( ) ) ;  <NL>  }  COM: <s> add a new row to the table </s>

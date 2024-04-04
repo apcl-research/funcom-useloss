@@ -1,0 +1,1 @@
+TDAT: public void commit ( ) {  <NL> for ( int i = 0 ; i < capacity ( ) ; i + + ) {  <NL> try {  <NL> if ( slot [ i ] ! = emptyslot ) {  <NL> manager . commit ( slot [ i ] ) ;  <NL>  }  <NL>  } catch ( slot exception x ) {  <NL> logger . log ( level . warning , " commit " , x ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> commit this object to memory </s>

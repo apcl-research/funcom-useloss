@@ -1,0 +1,1 @@
+TDAT: public void set ( final int bit index ) {  <NL> if ( ( bit index < 0 ) || ( bit index > bit num ) ) { throw new index out of bounds exception ( " " + bit index ) ; }  <NL> final int block index = bit set . block index ( bit index ) ;  <NL> bits [ block index ] | = bit set . bit ( bit index ) ;  <NL>  }  COM: <s> sets the bit specified by the index to code true code </s>

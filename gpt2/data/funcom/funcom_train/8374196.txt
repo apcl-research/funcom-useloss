@@ -1,0 +1,1 @@
+TDAT: public void train ( string codebook , string index , string train , string train _ dir , string test _ dir ) {  <NL>  / / internally , call the private train method with < code > mode < / code > set to < code > true < / mode >  <NL> train ( codebook , index , train , train _ dir , test _ dir , true ) ;  <NL>  }  COM: <s> method to train a system </s>

@@ -1,0 +1,1 @@
+TDAT: private double is left ( point2d p0 , point2d p1 , point2d p2 ) {  <NL> return ( ( p1 . get x ( ) - p0 . get x ( ) ) * ( p2 . get y ( ) - p0 . get y ( ) ) - ( p2 . get x ( ) - p0 . get x ( ) ) * ( p1 . get y ( ) - p0 . get y ( ) ) ) ;  <NL>  }  COM: <s> tests if a point is left on right of an infinite line </s>

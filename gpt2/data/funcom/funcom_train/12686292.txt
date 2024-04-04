@@ -1,0 +1,1 @@
+TDAT: public void set maximum ( double max ) {  <NL> this . max = max ;  <NL>  <NL>  / / convert min and max to string by adding " "  <NL> set columns ( math . max ( ( " " + min ) . length ( ) , ( " " + max ) . length ( ) ) * 3 / 4 ) ;  <NL>  ( ( double document ) get document ( ) ) . set maximum ( max ) ;  <NL>  }  COM: <s> set maximal value and adjust textfield length </s>

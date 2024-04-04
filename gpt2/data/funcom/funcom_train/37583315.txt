@@ -1,0 +1,1 @@
+TDAT: public t last ( ) {  <NL> iterable < ? extends t > last non empty = null ;  <NL> for ( iterable < ? extends t > iter : _ iters ) {  <NL> if ( last non empty = = null || ! iter util . is empty ( iter ) ) { last non empty = iter ; }  <NL>  }  <NL> return iter util . last ( last non empty ) ;  <NL>  }  COM: <s> determine the last value in the iterable </s>

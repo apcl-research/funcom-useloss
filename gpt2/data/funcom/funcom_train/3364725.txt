@@ -1,0 +1,1 @@
+TDAT: public rectangle get bounds ( rectangle rv ) {  <NL> if ( rv = = null ) {  <NL> return new rectangle ( get x ( ) , get y ( ) , get width ( ) , get height ( ) ) ;  <NL>  }  <NL> else {  <NL> rv . set bounds ( get x ( ) , get y ( ) , get width ( ) , get height ( ) ) ;  <NL> return rv ;  <NL>  }  <NL>  }  COM: <s> stores the bounds of this component into return value </s>

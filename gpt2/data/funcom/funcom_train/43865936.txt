@@ -1,0 +1,1 @@
+TDAT: public void mouse pressed ( mouse event e ) {  <NL> x1 = e . get x ( ) ;  <NL> y1 = e . get y ( ) ;  <NL> point p = new point ( x1 , y1 ) ;  <NL> if ( in canvas ( p ) ) {  <NL> add cell in vector by cell ( find cell by point ( p ) , color . dark _ gray , tempv ) ;  <NL>  }  <NL>  }  COM: <s> mouse was pressed in the canvas area </s>

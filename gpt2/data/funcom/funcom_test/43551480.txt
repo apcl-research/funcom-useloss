@@ -1,0 +1,1 @@
+TDAT: public revenue source bo create ( ) throws exception {  <NL> string id = guid . generate ( ) ;  <NL> conversion bo bo = new conversion bo ( id ) ;  <NL> bo . set type ( " sale " ) ;  <NL> cache c = cache . get instance ( ) ;  <NL> c . put ( bo . get rev src id ( ) , bo ) ;  <NL> return bo ;  <NL>  }  COM: <s> create an instance of conversion bo </s>

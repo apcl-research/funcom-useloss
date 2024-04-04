@@ -1,0 +1,1 @@
+TDAT: public void test separator at start ( ) {  <NL> byte [ ] array = { 1 , 2 , 0 , 0 , 0 } ;  <NL> byte [ ] separator = { 1 , 2 } ;  <NL> byte [ ] [ ] expected results = {  <NL>  { } ,  <NL>  { 0 , 0 , 0 } ,  <NL>  } ;  <NL> do tokenization test ( array , separator , expected results ) ;  <NL>  }  COM: <s> test for the case where the separator appears at the start of the </s>

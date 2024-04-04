@@ -1,0 +1,1 @@
+TDAT: private entry get entry ( thread local key ) {  <NL> int i = key . thread local hash code & ( table . length - 1 ) ;  <NL> entry e = table [ i ] ;  <NL> if ( e ! = null & & e . get ( ) = = key )  <NL> return e ;  <NL> else <NL> return get entry after miss ( key , i , e ) ;  <NL>  }  COM: <s> get the entry associated with key </s>

@@ -1,0 +1,1 @@
+TDAT: static public void sort ( vector v , comparer c ) {  <NL> object ov [ ] = new object [ v . size ( ) ] ;  <NL> v . copy into ( ov ) ;  <NL> quick sort ( ov , 0 , ov . length - 1 , c ) ;  <NL> v . remove all elements ( ) ;  <NL> for ( int i = 0 ; i < ov . length ; i + + ) {  <NL> v . add element ( ov [ i ] ) ;  <NL>  }  <NL>  }  COM: <s> sort v according to c </s>

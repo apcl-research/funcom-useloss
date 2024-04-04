@@ -1,0 +1,1 @@
+TDAT: public void create boundaries d ( int i x0 , int i xe , int i y0 , int i ye ) {  <NL> this . i x0 = i x0 ;  <NL> this . i xe = i xe ;  <NL> this . i y0 = i y0 ;  <NL> this . i ye = i ye ;  <NL> n space d = new rectangle ( i x0 , i y0 , i xe - i x0 , i ye - i y0 ) ;  <NL>  }  COM: <s> creates the boundaries those on screen to draw in </s>

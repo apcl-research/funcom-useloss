@@ -1,0 +1,1 @@
+TDAT: protected void append attribute ( string buffer out , string name , string value ) {  <NL> out . append ( " " ) . append ( name ) . append ( " = \ " " ) ;  <NL> if ( value ! = null )  <NL> out . append ( general util . html encode ( value ) ) ;  <NL> out . append ( " \ " " ) ;  <NL>  }  COM: <s> appends an attribute ensuring that html rules are followed </s>

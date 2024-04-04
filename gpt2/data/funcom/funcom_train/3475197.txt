@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> return " mouse event recordable [ " + get source name ( ) + " , id = " + get id ( ) + " , when = " +  <NL> get when ( ) + " , modifiers = " + get modifiers ( ) + " , " + get duration ( ) + " , x = " + get x ( ) +  <NL>  " , y = " + get y ( ) + " ] " ;  <NL>  }  COM: <s> returns a string representation of the mouse event recordable </s>

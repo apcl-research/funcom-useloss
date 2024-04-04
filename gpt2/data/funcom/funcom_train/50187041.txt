@@ -1,0 +1,1 @@
+TDAT: public int hash code ( ) {  <NL> int result = super . hash code ( ) ;  <NL> result = 29 * result + stxtype ;  <NL> result = 29 * result + ( event ! = null ? event . hash code ( ) : 0 ) ;  <NL> result = 29 * result + ( inst ! = null ? inst . hash code ( ) : 0 ) ;  <NL> return result ;  <NL>  }  COM: <s> returns a hash code value for this instance </s>

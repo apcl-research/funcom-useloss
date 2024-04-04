@@ -1,0 +1,1 @@
+TDAT: public void set bounds ( int x , int y , int width , int height ) {  <NL> if ( _ user x > = 0 & & _ user y > = 0 ) {  <NL> x = _ user x ;  <NL> y = _ user y ;  <NL>  }  <NL> super . set bounds ( x , y , width , height ) ;  <NL>  }  COM: <s> force magnifier to stay at the location the user moved it </s>

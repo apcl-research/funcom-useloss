@@ -1,0 +1,1 @@
+TDAT: public void divide ( int x ) {  <NL> int g = number theory . gcd ( x , num ) ;  <NL> num = num / g ;  <NL> denom = denom * x / g ;  <NL> if ( denom = = 0 ) {  <NL> throw new arithmetic exception ( ) ;  <NL>  }  <NL> if ( denom < 0 ) {  <NL> num = - num ;  <NL> denom = - denom ;  <NL>  }  <NL>  }  COM: <s> divides this number by the integer code n code </s>

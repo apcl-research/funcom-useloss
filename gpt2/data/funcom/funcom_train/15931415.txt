@@ -1,0 +1,1 @@
+TDAT: private void main loop ( ) {  <NL> while ( ! is shutdown ( ) ) {  <NL> fork join task < ? > t = poll task ( ) ;  <NL> if ( t ! = null || ( t = poll submission ( ) ) ! = null )  <NL> t . quietly exec ( ) ;  <NL> else if ( try inactivate ( ) )  <NL> pool . sync ( this ) ;  <NL>  }  <NL>  }  COM: <s> execute tasks until shut down </s>

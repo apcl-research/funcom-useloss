@@ -1,0 +1,1 @@
+TDAT: public void save xml ( file xml file , ujo textable ujo , string xml header , object context ) throws io exception {  <NL> final output stream os = get output stream ( xml file ) ;  <NL> try {  <NL> save xml ( os , ujo , xml header , context ) ;  <NL>  } finally {  <NL> os . close ( ) ;  <NL>  }  <NL>  }  COM: <s> write properties to xml include xml header </s>

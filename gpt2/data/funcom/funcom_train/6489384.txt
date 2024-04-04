@@ -1,0 +1,1 @@
+TDAT: public component create sub heading ( string text ) {  <NL> area color = new area ( ) ;  <NL> color . set tag ( " font " ) ;  <NL> color . set tag options ( " color = \ " # " + report config . sub heading color + " \ " " ) ;  <NL> color . add ( new heading ( report config . sub heading size , text ) ) ;  <NL>  <NL> return color ;  <NL>  }  COM: <s> create a sub heading </s>

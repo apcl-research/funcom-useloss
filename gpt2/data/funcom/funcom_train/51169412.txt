@@ -1,0 +1,1 @@
+TDAT: public void stop playback ( ) {  <NL> if ( ( m _ status = = playing ) || ( m _ status = = paused ) ) {  <NL> if ( m _ line ! = null ) {  <NL> m _ line . flush ( ) ;  <NL> m _ line . stop ( ) ;  <NL>  }  <NL> m _ status = stopped ;  <NL> trace ( 1 , get class ( ) . get name ( ) , " stop called " ) ;  <NL>  }  <NL>  }  COM: <s> stops the playback </s>

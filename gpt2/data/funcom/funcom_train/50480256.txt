@@ -1,0 +1,1 @@
+TDAT: public boolean nearly equals ( time span ts ) {  <NL> if ( ( ( int ) ( ts . get start ( ) * 100 ) = = ( int ) ( start * 100 ) ) & &  <NL>  ( ( int ) ( ts . get end ( ) * 100 ) = = ( int ) ( end * 100 ) ) ) {  <NL> return true ;  <NL>  }  <NL>  <NL> return false ;  <NL>  }  COM: <s> times are equal within the resolution of digitization 0 </s>

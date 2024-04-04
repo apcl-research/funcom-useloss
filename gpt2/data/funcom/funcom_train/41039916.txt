@@ -1,0 +1,1 @@
+TDAT: public linked in api url builder with field enum ( string name , field enum value ) {  <NL> if ( value . field name ( ) = = null || value . field name ( ) . length ( ) = = 0 ) {  <NL> fields map . put ( name , " " ) ;  <NL>  } else {  <NL> fields map . put ( name , " : " + value . field name ( ) ) ;  <NL>  }  <NL>  <NL> return this ;  <NL>  }  COM: <s> with field enum </s>

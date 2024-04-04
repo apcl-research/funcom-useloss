@@ -1,0 +1,1 @@
+TDAT: public void sync order column ( field mapping field ) {  <NL> if ( field . get order column ( ) ! = null )  <NL>  _ order col = sync column ( field , field . get order column ( ) , 1 , false ,  <NL> field . get table ( ) , null , null , false ) ;  <NL> else <NL>  _ order col = null ;  <NL>  }  COM: <s> synchronize internal order column information with the given field </s>

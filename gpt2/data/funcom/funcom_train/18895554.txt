@@ -1,0 +1,1 @@
+TDAT: private void check ( ) {  <NL> assert root id ! = avl node . null _ node || nr nodes = = 0 :  <NL>  " avl file is empty but nr nodes = = " + nr nodes ;  <NL> assert root id = = avl node . null _ node || nr nodes > 0 :  <NL>  " avl file not empty but nr nodes = = " + nr nodes ;  <NL>  }  COM: <s> debug check that the structure of the tree is as expected </s>

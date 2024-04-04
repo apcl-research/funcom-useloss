@@ -1,0 +1,1 @@
+TDAT: static public void populate ( action form action form , org . dataisland . cms . bean . user user ) {  <NL> dyna validator form user delete form = ( dyna validator form ) action form ;  <NL> user delete form . set ( " id " , user . get id ( ) ) ;  <NL> user delete form . set ( " name " , user . get name ( ) ) ;  <NL>  }  COM: <s> populate form according to a user bean </s>

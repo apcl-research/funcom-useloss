@@ -1,0 +1,1 @@
+TDAT: public int read ( ) {  <NL> if ( this . input = = null ) throw new illegal state exception ( " closed " ) ;  <NL> try {  <NL> return input . read ( ) ;  <NL>  } catch ( io exception e ) {  <NL> throw new dav exception ( 403 , " can ' t read data " , e , this . resource ) ;  <NL>  }  <NL>  }  COM: <s> p read data from this </s>

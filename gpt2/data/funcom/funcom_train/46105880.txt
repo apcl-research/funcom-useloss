@@ -1,0 +1,1 @@
+TDAT: private int get last row index ( ) {  <NL> int last valid row = 0 ;  <NL> for ( table iterator iter = table . iterator ( ) ; iter . has next ( ) ; ) {  <NL> int i = iter . next int ( ) ;  <NL> if ( table . is valid row ( i ) ) {  <NL> last valid row = i ;  <NL>  }  <NL>  }  <NL> return last valid row ;  <NL>  }  COM: <s> returns the last valid row of this table </s>

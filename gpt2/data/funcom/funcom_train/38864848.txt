@@ -1,0 +1,1 @@
+TDAT: public ursi list get ursi list ( ) {  <NL> ursi list ul = new ursi list ( connection ) ;  <NL> for ( int i = 0 ; i < i data . size ( ) ; i + + ) {  <NL> iono data id = ( iono data ) i data . element at ( i ) ;  <NL> ul . add ursi ( id . get ursi ( ) ) ;  <NL>  }  <NL> return ul ;  <NL>  }  COM: <s> get the list of ursi codes in the vector of data arrays </s>

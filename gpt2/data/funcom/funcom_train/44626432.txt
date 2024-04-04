@@ -1,0 +1,1 @@
+TDAT: @ test public void test match field3a ( ) {  <NL> add mock file ( " $ a / a . jml " , " public class a { / * @ int k ; * / } " ) ;  <NL> help tcf ( " a . java " , " public class a { } " ,  <NL>  " / $ a / a . jml : 1 : a declaration within a jml annotation must be either ghost or model " , 26 ) ;  <NL>  }  COM: <s> missing a ghost or model modifier </s>

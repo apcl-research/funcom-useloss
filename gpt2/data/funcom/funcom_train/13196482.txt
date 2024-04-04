@@ -1,0 +1,1 @@
+TDAT: private void clear board ( ) {  <NL> for ( int i = 0 ; i < dc constants . boards ; i + + ) {  <NL> for ( int j = 0 ; j < dc constants . files ; j + + ) {  <NL> for ( int k = 0 ; k < dc constants . ranks ; k + + ) {  <NL> board [ i ] [ j ] [ k ] = null ;  <NL>  }  <NL>  }  <NL>  }  <NL>  }  COM: <s> removes all the pieces from the board </s>

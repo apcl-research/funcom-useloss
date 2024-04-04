@@ -1,0 +1,1 @@
+TDAT: private void test alert ( ) {  <NL> system . out . println ( " = = = = test alert = = = = " ) ;  <NL>  <NL> system . out . println ( " opening native alert window " ) ;  <NL> sys . alert ( " sys test " , " hello world ! " ) ;  <NL>  <NL> system . out . println ( " - - - - test alert - - - - \n " ) ;  <NL>  }  COM: <s> tests the alert </s>

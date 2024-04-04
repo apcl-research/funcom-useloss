@@ -1,0 +1,1 @@
+TDAT: public void unbiasnet ( ) {  <NL>  <NL> int i ;  <NL>  <NL> for ( i = 0 ; i < netsize ; i + + ) {  <NL> network [ i ] [ 0 ] > > = netbiasshift ;  <NL> network [ i ] [ 1 ] > > = netbiasshift ;  <NL> network [ i ] [ 2 ] > > = netbiasshift ;  <NL> network [ i ] [ 3 ] = i ; / * record colour no * /  <NL>  }  <NL>  }  COM: <s> unbias network to give byte values 0 </s>

@@ -1,0 +1,1 @@
+TDAT: final public void fill ( int n ) {  <NL> ensure capacity ( n - 1 ) ;  <NL> int max chunk = subscript ( n ) ;  <NL> for ( int i = 0 ; i < max chunk ; i + + ) {  <NL> set w ( i , ~ 0l ) ;  <NL>  }  <NL> if ( max chunk < length ( ) ) {  <NL> or w ( max chunk , ( 1l < < ( n & mask ) ) - 1 ) ;  <NL>  }  <NL>  }  COM: <s> fills the n first bit of this bit vector </s>

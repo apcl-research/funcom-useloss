@@ -1,0 +1,1 @@
+TDAT: private j panel get j panel input ( ) {  <NL> if ( j panel input = = null ) {  <NL> j panel input = new j panel ( ) ;  <NL> j panel input . set layout ( new grid bag layout ( ) ) ;  <NL> j panel input . set bounds ( new rectangle ( 359 , 5 , 0 , 0 ) ) ;  <NL>  }  <NL> return j panel input ;  <NL>  }  COM: <s> this method initializes j panel input </s>

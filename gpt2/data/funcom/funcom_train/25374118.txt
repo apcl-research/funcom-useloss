@@ -1,0 +1,1 @@
+TDAT: public my idx list append ( my idx list list1 , my idx list list2 ) {  <NL> my idx list temp = new my idx list ( list1 . size ( ) + list2 . size ( ) ) ;  <NL> temp . m _ list . add all ( list1 . m _ list ) ;  <NL> temp . m _ list . add all ( list2 . m _ list ) ;  <NL> return temp ;  <NL>  }  COM: <s> appends one list at the end of the other </s>

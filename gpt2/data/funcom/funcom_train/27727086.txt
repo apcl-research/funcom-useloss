@@ -1,0 +1,1 @@
+TDAT: public void print ( string title ) {  <NL> system . out . println ( title + " gps time " ) ;  <NL> system . out . println ( " gps week : " + this . gps _ week ) ;  <NL> system . out . println ( " gps sow : " + this . gps _ sow ) ;  <NL> system . out . println ( " mjd : " + this . mjd ( ) ) ;  <NL>  }  COM: <s> print out the gps time </s>

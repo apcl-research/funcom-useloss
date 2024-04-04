@@ -1,0 +1,1 @@
+TDAT: public void set heading ( widget heading ) {  <NL> if ( heading row < 0 ) {  <NL> heading row = flex table . insert row ( 0 ) ;  <NL> button panel row + + ;  <NL> flex table . get flex cell formatter ( ) . set col span ( heading row , 0 , 2 ) ;  <NL>  }  <NL>  <NL> flex table . set widget ( heading row , 0 , heading ) ;  <NL>  }  COM: <s> sets the heading of the form </s>

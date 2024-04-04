@@ -1,0 +1,1 @@
+TDAT: private long get jar entries size ( jar file jar ) throws exception {  <NL> long size = 0l ;  <NL> for ( enumeration e = jar . entries ( ) ; e . has more elements ( ) ; ) {  <NL> size + = ( ( jar entry ) e . next element ( ) ) . get size ( ) ;  <NL>  }  <NL> jar . close ( ) ;  <NL> return size ;  <NL>  }  COM: <s> returns the size for the jar </s>

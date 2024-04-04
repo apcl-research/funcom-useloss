@@ -1,0 +1,1 @@
+TDAT: public int get component number from title ( string a title ) {  <NL> string l temp = a title . substring ( a title . index of ( " _ " ) + 1 , a title . index of ( " _ " , a title . index of ( " _ " ) + 1 ) ) ;  <NL> return integer . value of ( l temp ) ;  <NL>  }  COM: <s> this method gets the component number from a query parsed title </s>

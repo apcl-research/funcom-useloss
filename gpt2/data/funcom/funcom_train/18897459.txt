@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> string result = " rules = { \n " ;  <NL> iterator i = rules . iterator ( ) ;  <NL> while ( i . has next ( ) ) {  <NL> rule r = ( rule ) i . next ( ) ;  <NL> result + = r . get name ( ) + " \n " ;  <NL>  }  <NL> result + = " } " ;  <NL> return result ;  <NL>  }  COM: <s> debug method to view the contents of a rule structure </s>

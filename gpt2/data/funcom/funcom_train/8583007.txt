@@ -1,0 +1,1 @@
+TDAT: public default entity view info create track info ( color color ) {  <NL> return new default entity view info ( 1e - 9f , 0 , 0 , color ,  <NL> create circle ( 12 , color , gray _ trans ) , true , color , 2f , true , null , false ) ;  <NL>  }  COM: <s> creates an entity view info for tracks </s>

@@ -1,0 +1,1 @@
+TDAT: public void register for cleanup ( gl object obj ) {  <NL> gl object ref ref = new gl object ref ( obj ) ;  <NL> ref list . add ( ref ) ;  <NL> if ( logger . is loggable ( level . finest ) )  <NL> logger . log ( level . finest , " registered : { 0 } " , new string [ ] { obj . to string ( ) } ) ;  <NL>  }  COM: <s> register a globject with the manager </s>

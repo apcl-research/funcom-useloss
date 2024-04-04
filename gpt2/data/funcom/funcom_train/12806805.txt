@@ -1,0 +1,1 @@
+TDAT: public void update ( byte [ ] buf , int off , int len ) throws signature exception {  <NL> if ( rs adata ! = null || digest attr ! = null || is tsp )  <NL> message digest . update ( buf , off , len ) ;  <NL> else <NL> sig . update ( buf , off , len ) ;  <NL>  }  COM: <s> update the digest with the specified bytes </s>

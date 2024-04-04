@@ -1,0 +1,1 @@
+TDAT: public launch board get launch board ( long id ) {  <NL> list objects = get hibernate template ( ) . find by named query and named param ( " launch board . getby id " , " id " , id ) ;  <NL> if ( objects . size ( ) ! = 1 )  <NL> return null ;  <NL> return ( launch board ) objects . get ( 0 ) ;  <NL>  }  COM: <s> returns the launch board related to the given id </s>

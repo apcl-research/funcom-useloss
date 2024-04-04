@@ -1,0 +1,1 @@
+TDAT: public integer get rank of ( com . hp . hpl . jena . graph . node node ) {  <NL> for ( int i = 0 ; i < nodes . size ( ) ; i + + ) {  <NL> if ( ( ( page ) nodes . get ( i ) ) . get node ( ) . equals ( node ) ) {  <NL> return new integer ( i + 1 ) ;  <NL>  }  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> ranks begin with zero returns null if the node was not ranked </s>

@@ -1,0 +1,1 @@
+TDAT: public void write sync data bytes ( sq lite database db , string account , byte [ ] data ) {  <NL> content values values = new content values ( ) ;  <NL> values . put ( " data " , data ) ;  <NL> db . update ( sync _ state _ table , values , account _ where , new string [ ] { account } ) ;  <NL>  }  COM: <s> sets the sync data bytes for the given account </s>

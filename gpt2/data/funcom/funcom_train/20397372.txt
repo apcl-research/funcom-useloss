@@ -1,0 +1,1 @@
+TDAT: public boolean set lengths of dists ( int [ ] ls ) {  <NL> if ( ( ls = = null ) || ( ls . length ! = get number of cp ( ) ) )  <NL> return false ;  <NL> else {  <NL> for ( int i = 0 ; i < ls . length ; i + + )  <NL> set length of dist ( i + 1 , ls [ i ] ) ;  <NL>  }  <NL> return true ;  <NL>  }  COM: <s> method for set all lengths of laps </s>

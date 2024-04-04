@@ -1,0 +1,1 @@
+TDAT: public void refresh node ( ) {  <NL> try {  <NL>  ( ( deploy tree panel ) panel tree ) . refresh ( ) ;  <NL>  } catch ( throwable ex ) {  <NL> if ( sf log static ( ) . is ignore enabled ( ) ) {  <NL> sf log static ( ) . ignore ( " failure refresh node ( ) sf deploy display ! " , ex ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> refresh node the display panel </s>

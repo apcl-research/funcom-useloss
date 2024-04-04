@@ -1,0 +1,1 @@
+TDAT: public complex vector3d minimal to helper ( complex vector3d mn ) {  <NL> return new complex vector3d ( ( mn . x . plus ( mn . y . times ( i _ c ) ) ) . times ( - 0 . 5 ) , mn . x . minus ( mn . y . times ( i _ c ) ) . times ( 0 . 5 ) , mn . z ) ;  <NL>  }  COM: <s> inverse function to the previous helper to minimal </s>

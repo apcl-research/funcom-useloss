@@ -1,0 +1,1 @@
+TDAT: public void add a song ( song a song ) throws technical exception {  <NL> if ( a song = = null )  <NL> throw new technical exception ( this . get class ( ) . get name ( ) , " impossible to add a null song " ) ;  <NL> else <NL> songs . put ( a song . get unique id ( ) , a song ) ;  <NL>  }  COM: <s> add a song to this album </s>

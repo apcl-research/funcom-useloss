@@ -1,0 +1,1 @@
+TDAT: public void set root attributes ( map map ) {  <NL> object [ ] keys = map . key set ( ) . to array ( ) ;  <NL> for ( int i = 0 ; i < keys . length ; i + + ) {  <NL> document element . set attribute ( keys [ i ] . to string ( ) , map . get ( keys [ i ] ) . to string ( ) ) ;  <NL>  }  <NL>  }  COM: <s> adds new attributes </s>

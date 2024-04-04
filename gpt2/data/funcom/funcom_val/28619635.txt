@@ -1,0 +1,1 @@
+TDAT: public void rename ( ) {  <NL> string name = ( string )  <NL> j option pane . show input dialog ( null , " enter a new name : " , " rename . . . " ,  <NL> j option pane . question _ message , null , null , get name ( ) ) ;  <NL>  <NL> if ( name ! = null )  <NL> set name ( name ) ;  <NL>  }  COM: <s> helper method for prompting the user to rename the component </s>

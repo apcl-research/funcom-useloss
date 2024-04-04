@@ -1,0 +1,1 @@
+TDAT: public void set labels ( ) {  <NL> tabbed pane . set title at ( 0 , geogebra . menu . general ) ;  <NL> tabbed pane . set title at ( 1 , plain . display ) ;  <NL> tabbed pane . set title at ( 2 , plain . spreadsheet ) ;  <NL> tabbed pane . set title at ( 3 , geogebra . menu . export ) ;  <NL>  }  COM: <s> update the labels of the current panel </s>

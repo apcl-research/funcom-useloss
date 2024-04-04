@@ -1,0 +1,1 @@
+TDAT: public string get uploaded file name ( ) {  <NL> try {  <NL> return file path . substring ( ( ( file path . last index of ( " \\ " ) ! = - 1 )  <NL>  ? file path . last index of ( " \\ " )  <NL>  : file path . last index of ( " / " ) ) + 1 ) ;  <NL>  }  <NL> catch ( exception e ) {  <NL> return " " ;  <NL>  }  <NL>  }  COM: <s> get the code uploaded file name code </s>

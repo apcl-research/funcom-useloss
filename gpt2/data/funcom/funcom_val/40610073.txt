@@ -1,0 +1,1 @@
+TDAT: public string get entry ( string category , gwt locale locale , string key ) {  <NL> map key map key = new map key ( category , locale ) ;  <NL> map < string , string > map = maps . get ( map key ) ;  <NL> if ( map = = null ) {  <NL> return null ;  <NL>  }  <NL> return map . get ( key ) ;  <NL>  }  COM: <s> return a single value </s>

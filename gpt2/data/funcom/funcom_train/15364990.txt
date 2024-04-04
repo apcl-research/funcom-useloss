@@ -1,0 +1,1 @@
+TDAT: public void write d word _ v1 ( int i ) {  <NL> buffer [ current offset + + ] = ( byte ) ( i > > 8 ) ;  <NL> buffer [ current offset + + ] = ( byte ) i ;  <NL> buffer [ current offset + + ] = ( byte ) ( i > > 24 ) ;  <NL> buffer [ current offset + + ] = ( byte ) ( i > > 16 ) ;  <NL>  }  COM: <s> p writes a dword to the buffer p </s>

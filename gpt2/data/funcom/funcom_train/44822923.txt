@@ -1,0 +1,1 @@
+TDAT: public ctx prop domain def get domain def by name ( string domain name ) {  <NL> for ( int i = 0 ; domain defs ! = null & & i < domain defs . length ; i + + ) {  <NL> if ( domain defs [ i ] . get name ( ) . equals ( domain name ) ) return domain defs [ i ] ;  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> get the ctx prop domain def object for a given domain name </s>

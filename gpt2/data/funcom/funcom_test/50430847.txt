@@ -1,0 +1,1 @@
+TDAT: private int index of ( string email ) {  <NL> for ( int i = 0 ; i < contacts . size ( ) ; i + + ) {  <NL> string a = ( ( contact ) contacts . get ( i ) ) . get email ( ) . get address ( ) ;  <NL> if ( a . equals ignore case ( email ) ) {  <NL> return i ;  <NL>  }  <NL>  }  <NL> return - 1 ;  <NL>  }  COM: <s> returns index of the contact with the specified </s>

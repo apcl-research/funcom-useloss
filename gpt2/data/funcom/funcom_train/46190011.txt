@@ -1,0 +1,1 @@
+TDAT: public void test number of parents is correct when nested ( ) {  <NL> comment . set parent ( new blog entry ( blog ) . create comment ( " " , " " , " " , " " , " " , " " ) ) ;  <NL> assert equals ( 1 , comment . get number of parents ( ) ) ;  <NL>  }  COM: <s> tests that the number of parents is correct when comments are nested </s>

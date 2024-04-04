@@ -1,0 +1,1 @@
+TDAT: private string get delete artist command ( string artist id ) {  <NL> return " < xu : remove select = \ " / artists / artist [ @ id = \ ' " + artist id + " \ ' ] \ " / > " +  <NL>  " < xu : remove select = \ " / comments / comment [ music _ id = \ ' " + artist id + " \ ' ] \ " / > " ;  <NL>  }  COM: <s> delete artist and comments for that artist command </s>

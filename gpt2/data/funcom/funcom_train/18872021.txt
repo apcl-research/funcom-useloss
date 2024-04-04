@@ -1,0 +1,1 @@
+TDAT: private bit set from byte array ( byte [ ] bytes ) {  <NL> bit set bits = new bit set ( ) ;  <NL> bits . clear ( ) ;  <NL> for ( int i = 0 ; i < bytes . length ; i + + ) {  <NL> if ( bytes [ i ] = = ' 1 ' )  <NL>  {  <NL> bits . set ( i ) ;  <NL>  }  <NL>  }  <NL>  <NL> return bits ;  <NL>  }  COM: <s> from byte array </s>

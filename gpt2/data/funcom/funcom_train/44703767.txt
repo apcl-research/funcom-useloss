@@ -1,0 +1,1 @@
+TDAT: protected string get my host mask ( ) {  <NL> if ( my host mask = = null ) {  <NL> return get bot ( ) . get nick ( ) + " ! " + get bot ( ) . get login ( ) + " @ " + get bot ( ) . get inet address ( ) . get canonical host name ( ) ;  <NL>  }  <NL> return my host mask ;  <NL>  }  COM: <s> returns the bots hostmask or an approximation thereof if not known </s>

@@ -1,0 +1,1 @@
+TDAT: public void add int ( int b ) {  <NL> ensure capacity ( size + 4 ) ;  <NL> data [ size + + ] = ( byte ) ( b & 0x ff ) ;  <NL> data [ size + + ] = ( byte ) ( ( b & 0x ff00 ) > > 8 ) ;  <NL> data [ size + + ] = ( byte ) ( ( b & 0x ff0000 ) > > 16 ) ;  <NL> data [ size + + ] = ( byte ) ( ( b & 0x ff000000 ) > > 24 ) ;  <NL>  }  COM: <s> adds an int 4 bytes </s>

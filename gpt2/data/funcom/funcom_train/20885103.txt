@@ -1,0 +1,1 @@
+TDAT: public void test element ( ) {  <NL> element dto dto = new element dto ( ) ;  <NL> dto . int field = 21689 ;  <NL> assert true ( j sefa test util . serialize ( xml , dto ) . index of ( " 21689 " ) > = 0 ) ;  <NL> j sefa test util . assert repeated round trip succeeds ( xml , dto ) ;  <NL>  }  COM: <s> tests it for an element </s>

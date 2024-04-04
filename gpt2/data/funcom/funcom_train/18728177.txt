@@ -1,0 +1,1 @@
+TDAT: public void test get greek letter ( ) {  <NL> assert equals ( jaxo greek . alpha , jaxo greek . get character ( " \\alpha " ) ) ;  <NL> assert equals ( jaxo greek . upper _ omega , jaxo greek . get character ( " \\omega " ) ) ;  <NL> assert equals ( ' \u0000 ' , jaxo greek . get character ( " " ) ) ;  <NL>  }  COM: <s> test of get greek letter method of class jaxo draw </s>

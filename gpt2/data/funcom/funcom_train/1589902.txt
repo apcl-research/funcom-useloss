@@ -1,0 +1,1 @@
+TDAT: public time of day set copy ( int value ) {  <NL> int [ ] new values = i time of day . get values ( ) ;  <NL> new values = get field ( ) . set ( i time of day , i field index , new values , value ) ;  <NL> return new time of day ( i time of day , new values ) ;  <NL>  }  COM: <s> sets this field in a copy of the time of day </s>

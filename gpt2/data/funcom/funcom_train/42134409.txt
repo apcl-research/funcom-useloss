@@ -1,0 +1,1 @@
+TDAT: public int get content length ( ) {  <NL> string len = get header ( headers . rtsp _ content _ length ) ;  <NL> if ( ( len = = null ) || ( len . length ( ) = = 0 ) ) {  <NL> content length = 0 ;  <NL>  } else {  <NL> content length = integer . value of ( len ) . int value ( ) ;  <NL>  }  <NL> return content length ;  <NL>  }  COM: <s> returns the content length header </s>

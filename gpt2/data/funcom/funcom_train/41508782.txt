@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> if ( my url = = null ) {  <NL> my url = compose url ( get protocol ( ) , get user info ( ) , get host ( ) , my is default port ? - 1 : get port ( ) , get uri encoded path ( ) ) ;  <NL>  }  <NL> return my url ;  <NL>  }  COM: <s> returns a string representing a utf 8 encoded url </s>

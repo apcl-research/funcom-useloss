@@ -1,0 +1,1 @@
+TDAT: private void save class measure ( sensor context context , php unit test report file report , metric metric , double value , project project ) {  <NL> if ( ! double . is na n ( value ) ) {  <NL> context . save measure ( get unit test resource ( file report , project ) , metric , value ) ;  <NL>  }  <NL>  }  COM: <s> save class measure </s>

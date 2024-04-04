@@ -1,0 +1,1 @@
+TDAT: public ejb relation role get role ( string name ) {  <NL> if ( name . equals ( _ roles [ 0 ] . get name ( ) ) ) {  <NL> return _ roles [ 0 ] ;  <NL>  } else if ( name . equals ( _ roles [ 1 ] . get name ( ) ) ) {  <NL> return _ roles [ 1 ] ;  <NL>  } else {  <NL> return null ;  <NL>  }  <NL>  }  COM: <s> find a role by name </s>

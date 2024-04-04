@@ -1,0 +1,1 @@
+TDAT: public void test _ jml _ array _ type _ reference _ 01 ( ) {  <NL> compile and exec given statement (  <NL>  " x . java " ,  <NL>  " class x { \n " +  <NL>  " / / @ requires ( ( integer [ ] ) null ) = = null ; \n " +  <NL>  " void m ( ) { \n " +  <NL>  " } \n " +  <NL>  " } \n " ,  <NL>  " new x ( ) . m ( ) " ) ;  <NL>  }  COM: <s> jml array type reference </s>

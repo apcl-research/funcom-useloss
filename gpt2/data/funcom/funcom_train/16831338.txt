@@ -1,0 +1,1 @@
+TDAT: public boolean crosses ( constituent c ) {  <NL> return ( start ( ) < c . start ( ) & & c . start ( ) < end ( ) & & end ( ) < c . end ( ) ) || ( c . start ( ) < start ( ) & & start ( ) < c . end ( ) & & c . end ( ) < end ( ) ) ;  <NL>  }  COM: <s> detects whether this constituent overlaps a constituent without </s>

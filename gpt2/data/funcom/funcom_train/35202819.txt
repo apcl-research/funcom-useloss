@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> string buffer rep = new string buffer ( " [ look up table16 " ) ;  <NL> int row , col ;  <NL> rep . append ( " max = " + dw max output ) ;  <NL> rep . append ( " , nentries = " + dw max output ) ;  <NL> return rep . append ( " ] " ) . to string ( ) ; }  COM: <s> create an abbreviated string representation of a 16 bit lut </s>

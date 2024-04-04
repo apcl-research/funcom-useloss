@@ -1,0 +1,1 @@
+TDAT: public void draw segment ( d point p1 , d point p2 ) {  <NL> if ( p1 = = null || p2 = = null )  <NL> return ;  <NL> g . draw ( new line2d . double ( get true x ( p1 . get x ( ) ) , get true y ( p1 . get y ( ) ) ,  <NL> get true x ( p2 . get x ( ) ) , get true y ( p2 . get y ( ) ) ) ) ;  <NL>  }  COM: <s> draws a segment between two points </s>

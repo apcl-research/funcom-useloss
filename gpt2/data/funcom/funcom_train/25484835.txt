@@ -1,0 +1,1 @@
+TDAT: public void write ( writer out ) throws io exception {  <NL> out . write ( " \t\t < isaid id = \ " " + get id ( ) + " \ " pos x = \ " " + get x ( ) + " \ " pos y = \ " " + get y ( ) + " \ " > < / isaid > \n " ) ;  <NL>  }  COM: <s> writes the xml rule for this isa relationship to the write buffer </s>

@@ -1,0 +1,1 @@
+TDAT: private matrix all _ pairs _ shortest _ path ( matrix w ) {  <NL> int n = w . get row dimension ( ) ;  <NL> int m = 1 ;  <NL> matrix l = w . copy ( ) ;  <NL> while ( m < n - 1 ) {  <NL> l = extended _ shortest _ path ( l , l ) ;  <NL> m = 2 * m ;  <NL>  }  <NL> return l ;  <NL>  <NL>  }  COM: <s> caloculates the shortest paths between all the nodes </s>

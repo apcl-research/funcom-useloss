@@ -1,0 +1,1 @@
+TDAT: private boolean needs escape ( char ch ) {  <NL> if (  <NL>  ( ch = = ' , ' ) || <NL>  ( ch = = ' + ' ) || <NL>  ( ch = = ' \ " ' ) || <NL>  ( ch = = ' ; ' ) || <NL>  ( ch = = ' < ' ) || <NL>  ( ch = = ' > ' ) || <NL>  ( ch = = ' \\ ' ) )  <NL> return true ;  <NL> else <NL> return false ;  <NL>  }  COM: <s> checks a character to see if it must always be escaped in the </s>

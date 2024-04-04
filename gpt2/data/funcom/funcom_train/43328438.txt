@@ -1,0 +1,1 @@
+TDAT: public string add public ( ) {  <NL> string txt = " " ;  <NL> txt + = " < font color = # 00ff00 > & lt ; < / font > < font color = # ff00ff > " + name + " < / font > < font color = # 00ff00 > & gt ; : " ;  <NL> txt + = texto + " < / font > < br / > " ;  <NL> return txt ;  <NL>  }  COM: <s> get the html of the state public </s>

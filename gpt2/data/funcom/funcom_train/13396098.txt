@@ -1,0 +1,1 @@
+TDAT: public void stop player ( ) {  <NL>  <NL> if ( player ! = null & & is playing ( ) ) {  <NL>  <NL> player . close ( ) ;  <NL> system . out . println ( " tras parar el player , el trhead esta vivo ? : " + thread . is alive ( ) ) ;  <NL> player = null ;  <NL> audio stream = null ;  <NL> set playing ( false ) ;  <NL>  }  <NL>  }  COM: <s> stops the audio player </s>

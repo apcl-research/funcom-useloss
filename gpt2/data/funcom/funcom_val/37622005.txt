@@ -1,0 +1,1 @@
+TDAT: protected int get int ( string size ) {  <NL> try {  <NL> return new decimal format ( ) . parse ( size , new parse position ( 0 ) ) . int value ( ) ;  <NL>  }  <NL> catch ( exception e ) {  <NL> logger . warn ( " can not parse [ " + size + " ] " , e ) ;  <NL> return - 1 ;  <NL>  }  <NL>  }  COM: <s> extract number from string </s>

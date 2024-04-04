@@ -1,0 +1,1 @@
+TDAT: public void update ( line event e ) {  <NL> if ( e . get type ( ) = = line event . type . stop ) {  <NL> this . status = base audio renderer . end _ of _ sound ;  <NL> this . clip . stop ( ) ;  <NL> this . clip . set microsecond position ( 0 ) ;  <NL> this . clip . remove line listener ( this ) ;  <NL>  }  <NL>  }  COM: <s> notified when the sound is stopped externally </s>

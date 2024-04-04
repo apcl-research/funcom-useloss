@@ -1,0 +1,1 @@
+TDAT: public void center frame ( window frame ) {  <NL> point center = graphics environment . get local graphics environment ( ) . get center point ( ) ;  <NL> dimension frame size = frame . get size ( ) ;  <NL> frame . set location ( center . x - frame size . width / 2 , center . y - frame size . height / 2 - 10 ) ;  <NL>  }  COM: <s> centers a window on screen </s>

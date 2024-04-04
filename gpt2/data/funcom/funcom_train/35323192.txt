@@ -1,0 +1,1 @@
+TDAT: private e dequeue ( ) {  <NL>  / / assert take lock . is held by current thread ( ) ;  <NL>  / / assert head . item = = null ;  <NL> node < e > h = head ;  <NL> node < e > first = h . next ;  <NL> h . next = h ; / / help gc <NL> head = first ;  <NL> e x = first . item ;  <NL> first . item = null ;  <NL> return x ;  <NL>  }  COM: <s> removes a node from head of queue </s>

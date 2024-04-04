@@ -1,0 +1,1 @@
+TDAT: public int get days between ( string small date , string big date ) {  <NL> long big = long . parse long ( big date ) ;  <NL> long small = long . parse long ( small date ) ;  <NL> int days = ( int ) ( ( big - small ) / ( 24 * 60 * 60 * 1000 ) ) ;  <NL> system . out . println ( " days : " + days ) ;  <NL> return days ;  <NL>  }  COM: <s> small date string form of long </s>

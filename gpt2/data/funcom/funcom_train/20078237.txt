@@ -1,0 +1,1 @@
+TDAT: private string get delete track command ( string track id ) {  <NL> return " < xu : remove select = \ " / tracks / track [ @ id = \ ' " + track id + " \ ' ] \ " / > " +  <NL>  " < xu : remove select = \ " / comments / comment [ music _ id = \ ' " + track id + " \ ' ] \ " / > " ;  <NL>  }  COM: <s> delete track and comments for that track command </s>

@@ -1,0 +1,1 @@
+TDAT: private void initialize ( ) {  <NL> this . set size ( 550 , 440 ) ;  <NL> this . set content pane ( this . get j content pane ( ) ) ;  <NL> this . set title ( lr item . label _ settings . get string ( ) ) ;  <NL> this . set location relative to ( get parent ( ) ) ;  <NL> this . set modal ( true ) ;  <NL>  }  COM: <s> this method initializes the dialog </s>

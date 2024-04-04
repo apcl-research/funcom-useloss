@@ -1,0 +1,1 @@
+TDAT: public void delete user ( user user ) {  <NL> user list . remove ( user ) ;  <NL> delete files ( user ) ;  <NL> if ( current user = = user ) {  <NL>  / / make sure we select a new current user , find the first active user <NL> set current user ( get user list ( ) . get ( 0 ) ) ;  <NL>  }  <NL> settings . save ( ) ;  <NL>  }  COM: <s> delete a user from cronometer </s>

@@ -1,0 +1,1 @@
+TDAT: private void parse title string ( bibtex entry be ) throws io exception {  <NL>  / / skip article number <NL> this . last line = this . last line . substring ( this . last line . index of ( ' . ' ) + 1 , this . last line . length ( ) ) ;  <NL> be . set field ( " title " , read multiple lines ( ) ) ;  <NL>  }  COM: <s> implements grammar rule title string </s>

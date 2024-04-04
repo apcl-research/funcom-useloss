@@ -1,0 +1,1 @@
+TDAT: public void show ( widget widget ) {  <NL> int [ ] offset = new int [ ] { 0 , 2 } ;  <NL> point p = my dom . get align to xy ( get element ( ) , widget . get element ( ) , null , offset ) ;  <NL> my dom . set left top ( get element ( ) , p . x , p . y ) ;  <NL> on show popup ( ) ;  <NL>  }  COM: <s> displays the popup aligned to the bottom left of the widget </s>

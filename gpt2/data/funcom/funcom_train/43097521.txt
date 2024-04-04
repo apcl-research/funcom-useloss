@@ -1,0 +1,1 @@
+TDAT: public void test set base to null ( ) {  <NL> model . get collaborations helper ( ) . set base ( elem , bases [ 0 ] ) ;  <NL> model . get collaborations helper ( ) . set base ( elem , null ) ;  <NL> model . get pump ( ) . flush model events ( ) ;  <NL> assert null ( model . get selected item ( ) ) ;  <NL>  }  COM: <s> test setting the base to null </s>

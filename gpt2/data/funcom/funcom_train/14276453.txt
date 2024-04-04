@@ -1,0 +1,1 @@
+TDAT: public hardware address get hardware address ( ) {  <NL> int len = this . hlen & 0xff ;  <NL> if ( len > 16 ) {  <NL> len = 16 ;  <NL>  }  <NL> byte [ ] buf = new byte [ len ] ;  <NL> system . arraycopy ( this . chaddr , 0 , buf , 0 , len ) ;  <NL> return new hardware address ( this . htype , buf ) ;  <NL>  }  COM: <s> return the hardware address </s>

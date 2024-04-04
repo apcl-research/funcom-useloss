@@ -1,0 +1,1 @@
+TDAT: public int get and remove element ( ) {  <NL> int i = 0 ;  <NL> int o = 0 ;  <NL> long m = 1 ;  <NL>  <NL> while ( bits [ i ] = = 0 ) i + + ;  <NL>  <NL> while ( ( bits [ i ] & m ) = = 0 ) {  <NL> m < < = 1 ;  <NL> o + + ;  <NL>  }  <NL>  <NL> bits [ i ] & = ~ m ;  <NL>  <NL> return ( i < < bits ) + o ;  <NL>  }  COM: <s> returns one element of the set and removes it </s>

@@ -1,0 +1,1 @@
+TDAT: private double angle ( state state1 , state state2 ) {  <NL> point p1 = state1 . get point ( ) ;  <NL> point p2 = state2 . get point ( ) ;  <NL> double x = ( double ) ( p2 . x - p1 . x ) ;  <NL> double y = ( double ) ( p2 . y - p1 . y ) ;  <NL> return math . atan2 ( y , x ) ;  <NL>  }  COM: <s> what is the angle on state1 of the point closest to state2 </s>

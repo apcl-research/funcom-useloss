@@ -1,0 +1,1 @@
+TDAT: private int core _ operation ( int q , int a , int b , int x , int s , int t ) {  <NL> return add integer _ wrapping at32 ( bitwise rotate32bit number left (  <NL> add integer _ wrapping at32 ( add integer _ wrapping at32 ( a , q ) ,  <NL> add integer _ wrapping at32 ( x , t ) ) , s ) , b ) ;  <NL>  }  COM: <s> core operation of md5 message digest algorithm </s>

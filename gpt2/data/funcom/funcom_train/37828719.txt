@@ -1,0 +1,1 @@
+TDAT: private string java string escape ( string string ) {  <NL> return string . replace ( " \\ " , " \\\\ " )  <NL>  . replace ( " \ " " , " \\\ " " )  <NL>  . replace ( " \r\n " , " \\r\\n " )  <NL>  . replace ( " \n " , " \\n " )  <NL>  . replace ( " \r " , " \\r " ) ;  <NL>  }  COM: <s> escapes a java string </s>

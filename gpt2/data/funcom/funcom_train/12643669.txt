@@ -1,0 +1,1 @@
+TDAT: public void fill arc ( int x , int y , int w , int h , int start angle , int end angle ) {  <NL> p fill arc ( psd , x + origin x , y + origin y , w , h , start angle , end angle ) ;  <NL>  }  COM: <s> fills an arc </s>

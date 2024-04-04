@@ -1,0 +1,1 @@
+TDAT: private string bbox ( envelope env ) {  <NL> return " [ " + double . to string ( env . get min x ( ) ) + " , " + sp ( ) + double . to string ( env . get min y ( ) ) + " , " + sp ( ) + double . to string ( env . get max x ( ) ) + " , " + sp ( ) + double . to string ( env . get max y ( ) ) + " ] " ;  <NL>  }  COM: <s> makes bounding box </s>

@@ -1,0 +1,1 @@
+TDAT: public void go ( ) {  <NL> system . out . println ( " * " + href ) ;  <NL>  / / get browser ( ) . eventq ( html . set _ url , this . target _ ) ;  <NL> viewer object . event before after ( new semantic event ( this , html . set _ url , href ) , null ) ;  <NL>  }  COM: <s> when click with target set search for named frame or create new window </s>

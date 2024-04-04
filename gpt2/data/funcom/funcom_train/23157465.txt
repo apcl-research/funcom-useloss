@@ -1,0 +1,1 @@
+TDAT: private default mutable tree node get tree parent ( string n ) {  <NL> for ( int x = 0 ; x < parents . length ; x + + ) {  <NL> if ( parents [ x ] ! = null ) {  <NL> if ( parents [ x ] . get user object ( ) . equals ( n ) )  <NL> return parents [ x ] ;  <NL>  }  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> get a tree parent with the given name </s>

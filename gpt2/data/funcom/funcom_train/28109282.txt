@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> string rval = " product [ name = " + get name ( ) + " \n "  <NL>  + " model _ number = " + get model _ number ( ) + " \n "  <NL>  + " description = " + get description ( ) + " \n "  <NL>  + " category = " + get category ( ) + " \n "  <NL>  + " ] " ;  <NL> return rval ;  <NL>  }  COM: <s> produces a string representation of the record </s>

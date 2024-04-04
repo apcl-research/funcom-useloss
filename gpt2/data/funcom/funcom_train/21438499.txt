@@ -1,0 +1,1 @@
+TDAT: public void fire undo redo action ( boolean is _ undo ) {  <NL> glycan undo redo event e = new glycan undo redo event ( this , is _ undo ) ;  <NL> for ( iterator < glycan undo redo listener > i = listeners . iterator ( ) ; i . has next ( ) ; )  <NL> i . next ( ) . undo redo happened ( e ) ;  <NL>  }  COM: <s> notify all listeners that either an undo or redo action has </s>

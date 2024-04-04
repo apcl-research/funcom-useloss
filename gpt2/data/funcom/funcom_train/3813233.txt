@@ -1,0 +1,1 @@
+TDAT: public string get global property ( string property name ) {  <NL>  / / property name = property name . starts with ( " $ " ) ? property name : " $ { " + property name + " } " ;  <NL> string glob prop = global properties . get ( property name ) ;  <NL> return glob prop ! = null ? glob prop . to string ( ) : null ;  <NL>  }  COM: <s> returns a global property </s>

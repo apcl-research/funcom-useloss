@@ -1,0 +1,1 @@
+TDAT: private int header len ( ) {  <NL> int len = 0 ;  <NL>  <NL> len + = 4 ; / / int value of the id - length <NL> len + = this . id . length ( ) ; / / id itself <NL> len + = 4 ; / / int value of the package number length ( int = 4 byte )  <NL> len + = 1 ; / / boolean = one byte <NL>  <NL> return len ;  <NL>  }  COM: <s> return the length of the header in bytes </s>

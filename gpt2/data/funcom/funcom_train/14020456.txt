@@ -1,0 +1,1 @@
+TDAT: public boolean process pointer event ( motion event evt , boolean down event , boolean use right button ) {  <NL> return process pointer event ( ( int ) evt . get x ( ) , ( int ) evt . get y ( ) , evt . get action ( ) , evt . get meta state ( ) , down event , use right button ) ;  <NL>  }  COM: <s> convert a motion event to a format suitable for sending over the wire </s>

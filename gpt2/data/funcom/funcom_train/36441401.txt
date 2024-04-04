@@ -1,0 +1,1 @@
+TDAT: public void add last ( e element ) {  <NL> num elts + + ;  <NL> d node < e > old last = trailer . get prev ( ) ;  <NL> d node < e > new node = new d node < e > ( old last , trailer , element ) ;  <NL> old last . set next ( new node ) ;  <NL> trailer . set prev ( new node ) ;  <NL>  }  COM: <s> insert the given element at the end of the list returning </s>

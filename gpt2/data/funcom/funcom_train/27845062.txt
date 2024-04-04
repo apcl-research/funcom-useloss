@@ -1,0 +1,1 @@
+TDAT: public void init sub models ( ) {  <NL> list model sub models = new list model ( ) ;  <NL>  <NL> sub models . add ( new test active model ( " a " , 1 ) ) ;  <NL> sub models . add ( new test active model ( " b " , 2 ) ) ;  <NL> sub models . add ( new test active model ( " c " , 3 ) ) ;  <NL> set sub models ( sub models ) ;  <NL>  }  COM: <s> init the submodels </s>

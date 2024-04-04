@@ -1,0 +1,1 @@
+TDAT: public void set changed ( boolean c ) {  <NL> changed = c ;  <NL> if ( c ) {  <NL> main . get instance ( ) . save _ menu . set enabled ( true ) ;  <NL> set top text ( sys _ link . translate ( " ctrl _ s " ) , 0 ) ;  <NL>  } else <NL> main . get instance ( ) . save _ menu . set enabled ( false ) ;  <NL>  }  COM: <s> the build changed mark it </s>

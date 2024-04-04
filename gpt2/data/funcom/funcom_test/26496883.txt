@@ -1,0 +1,1 @@
+TDAT: public void test pop ( ) {  <NL> call stack st = new call stack ( new id factory ( ) ) ;  <NL> super . assert true ( st . peek ( ) = = null ) ;  <NL> call c = st . create ( ) ;  <NL> super . assert equals ( c , st . peek ( ) ) ;  <NL> st . pop ( ) ;  <NL> super . assert true ( st . peek ( ) = = null ) ;  <NL>  }  COM: <s> test of pop method of class org </s>

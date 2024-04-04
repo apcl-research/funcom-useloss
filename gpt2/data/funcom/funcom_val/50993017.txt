@@ -1,0 +1,1 @@
+TDAT: public void set groups ( vector groups ) {  <NL> this . _ groups . clear ( ) ;  <NL> for ( int i = 0 ; i < groups . size ( ) ; i + + ) {  <NL> group g = ( group ) groups . element at ( i ) ;  <NL> this . _ groups . put ( new integer ( g . get id ( ) ) , g ) ;  <NL>  }  <NL>  }  COM: <s> sets the groups of a groupable object </s>

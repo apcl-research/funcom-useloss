@@ -1,0 +1,1 @@
+TDAT: public int compare ( string s1 , string s2 ) {  <NL> if ( s1 . ends with ( " * " ) & & ! s2 . ends with ( " * " ) ) {  <NL> return - 1 ;  <NL>  } else if ( ! s1 . ends with ( " * " ) & & s2 . ends with ( " * " ) ) {  <NL> return 1 ;  <NL>  } else {  <NL> return s1 . compare to ( s2 ) ;  <NL>  }  <NL>  }  COM: <s> sorts the list of resource names </s>

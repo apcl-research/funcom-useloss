@@ -1,0 +1,1 @@
+TDAT: public void test p1y2m ( ) {  <NL> duration d = new duration ( " p1y2m " ) ;  <NL> assert equals ( 1 , d . get years ( ) ) ;  <NL> assert equals ( 2 , d . get months ( ) ) ;  <NL> assert equals ( 0 , d . get days ( ) ) ;  <NL> assert equals ( " p1y2m " , d . to string ( ) ) ;  <NL>  }  COM: <s> test p1 y2 m </s>

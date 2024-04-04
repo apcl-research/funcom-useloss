@@ -1,0 +1,1 @@
+TDAT: public string get desc value ( ) {  <NL> string buffer buf = new string buffer ( ) ;  <NL> for ( int i = 0 ; i < this . desc value . size ( ) ; i + + )  <NL> buf . append ( " \t " + ( string ) this . desc value . get ( i ) + " \n " ) ;  <NL> return buf . to string ( ) ;  <NL>  }  COM: <s> returns client spec description is string form lines separated by n t </s>

@@ -1,0 +1,1 @@
+TDAT: public int get width ( int col _ index , int width ) {  <NL> for ( int i = 0 ; i < outlines _ . size ( ) ; i + + ) {  <NL> if ( element at ( i ) . match ( col _ index ) ) {  <NL> return element at ( i ) . get width ( col _ index , width ) ;  <NL>  }  <NL>  }  <NL> return width ;  <NL>  } ;  COM: <s> get the width of the column </s>

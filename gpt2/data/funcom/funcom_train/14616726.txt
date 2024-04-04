@@ -1,0 +1,1 @@
+TDAT: private simple hash make hash1 ( ) {  <NL> simple hash hash1 = new simple hash ( ) ;  <NL> hash1 . put ( " string10 " , " scalar10 " ) ;  <NL> hash1 . put ( " string11 " , new fast scalar ( " scalar11 " ) ) ;  <NL> hash1 . put ( " string12 " , new simple scalar ( " scalar12 " ) ) ;  <NL> return hash1 ;  <NL>  }  COM: <s> make a new hash model </s>

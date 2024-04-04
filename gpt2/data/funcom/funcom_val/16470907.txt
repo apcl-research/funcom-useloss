@@ -1,0 +1,1 @@
+TDAT: public void center camera at ( int x , int y ) {  <NL>  <NL> m scroll x = bound int ( - x + m surface width / 2 , - ( m virtual width - m surface width ) , 0 ) ;  <NL> m scroll y = bound int ( - y + m surface height / 2 , - ( m virtual height - m surface height ) , 0 ) ;  <NL>  }  COM: <s> move the scrolled position so the camera is focused on a particular point </s>

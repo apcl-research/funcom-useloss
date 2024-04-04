@@ -1,0 +1,1 @@
+TDAT: public void push ( string type , string decl , int index ) {  <NL> string builder sb = new string builder ( " ( " ) ;  <NL> sb . append ( type ) . append ( " ) " ) ;  <NL> sb . append ( decl ) . append ( " [ " ) . append ( index ) . append ( " ] " ) ;  <NL> push ( sb . to string ( ) ) ;  <NL>  }  COM: <s> push an array access onto the context </s>

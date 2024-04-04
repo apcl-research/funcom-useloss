@@ -1,0 +1,1 @@
+TDAT: public double score cluster ( cluster cluster ) {  <NL> int num nodes = 0 ;  <NL> double density = 0 . 0 , score = 0 . 0 ;  <NL> num nodes = cluster . get gp cluster ( ) . get node count ( ) ;  <NL> density = calc density ( cluster . get gp cluster ( ) , true ) ;  <NL> score = density * num nodes ;  <NL> return ( score ) ;  <NL>  }  COM: <s> score a cluster </s>

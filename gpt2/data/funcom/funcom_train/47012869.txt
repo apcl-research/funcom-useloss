@@ -1,0 +1,1 @@
+TDAT: protected void paint black ( graphics g ) {  <NL> g . set color ( ( velocity = = 0 ) ? new color ( 0 , 0 , 0 ) : new color ( 55 , 55 , 55 ) ) ;  <NL> g . fill rect ( x , y , piano _ black _ width , piano _ black _ height ) ;  <NL>  }  COM: <s> paint method for black keys </s>

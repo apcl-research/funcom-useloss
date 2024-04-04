@@ -1,0 +1,1 @@
+TDAT: public int update ( final content content ) {  <NL> object [ ] params = new object [ ] { content . get tag ( ) , content . get text ( ) , content . get binary ( ) ,  <NL> content . get created ( ) , content . get last changed ( ) , new long ( content . get id ( ) ) } ;  <NL> return update ( params ) ;  <NL>  }  COM: <s> update content in database </s>

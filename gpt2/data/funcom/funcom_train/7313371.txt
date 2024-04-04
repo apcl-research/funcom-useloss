@@ -1,0 +1,1 @@
+TDAT: public void test get sub type ( ) {  <NL> system . out . println ( " test get sub type " ) ;  <NL> if ( c7 . get sub type ( ) ! = null )  <NL> fail ( " wrong subtype " ) ;  <NL> if ( ! c6 . get sub type ( ) . equals ( " var a " ) )  <NL> fail ( " wrong subtype " ) ;  <NL>  }  COM: <s> test of get sub type method of class nl </s>

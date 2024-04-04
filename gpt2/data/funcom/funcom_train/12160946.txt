@@ -1,0 +1,1 @@
+TDAT: public void test multiple lines ( ) {  <NL> check ( new string [ ] { " us - ascii ; q = 0 . 1 " , " utf - 16 " } , null , " utf - 16 " ) ;  <NL> check ( new string [ ] { " us - ascii " , " utf - 16 ; q = 0 . 1 " } , null , " us - ascii " ) ;  <NL>  }  COM: <s> if the user provides charsets across multiple headers lines we use </s>

@@ -1,0 +1,1 @@
+TDAT: protected void finalize ( ) throws throwable {  <NL> super . finalize ( ) ;  <NL>  / / system . err . println ( " soft cache : initial capacity = " + _ capacity + " , load factor = " + _ load factor + " , high tide = " + _ high tide + " , ninserts = " + _ ninserts ) ;  <NL>  }  COM: <s> writes some debug information </s>

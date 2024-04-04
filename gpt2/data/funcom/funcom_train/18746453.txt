@@ -1,0 +1,1 @@
+TDAT: public type edge add edge ( int nr , type node source , type node target ) {  <NL> simple morphism morph =  <NL> new simple morphism ( type edge . prefix + nr , source , target ) ;  <NL> type edge edge = new type edge ( nr , source , target , morph ) ;  <NL> add edge ( edge ) ;  <NL> return edge ;  <NL>  }  COM: <s> creates and returns a new edge with an empty morphism </s>

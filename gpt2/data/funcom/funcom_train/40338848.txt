@@ -1,0 +1,1 @@
+TDAT: private void handle file browse ( text cell ) {  <NL> file dialog dialog = new file dialog ( get shell ( ) ) ;  <NL> dialog . set filter extensions ( new string [ ] { " * . jar " , " * . zip " , " * . * " } ) ;  <NL> cell . set text ( dialog . open ( ) ) ;  <NL>  }  COM: <s> open a file and write the name in the given </s>

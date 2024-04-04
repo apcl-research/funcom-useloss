@@ -1,0 +1,1 @@
+TDAT: public string internal next ( ) {  <NL> string next ;  <NL> try {  <NL> next = br . read line ( ) ;  <NL> if ( announce chars ! = - 1 & & next ! = null ) announce . progress at ( announce chars + = next . length ( ) ) ;  <NL>  } catch ( io exception e ) {  <NL> throw new runtime exception ( e ) ;  <NL>  }  <NL> return ( next ) ;  <NL>  }  COM: <s> returns next line </s>

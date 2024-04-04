@@ -1,0 +1,1 @@
+TDAT: public void set action ( fina2 . web . fina action action , utilities util ) {  <NL> this . action = action ;  <NL> this . action . set util ( util ) ;  <NL> description = action . get description ( ) ;  <NL> name = action . get name ( ) ;  <NL> icon url = action . get icon url ( ) ;  <NL> url = action . get url ( ) ;  <NL>  }  COM: <s> setter for property action </s>

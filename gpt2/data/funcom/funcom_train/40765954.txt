@@ -1,0 +1,1 @@
+TDAT: private void create common note line lists ( ) {  <NL> make line lists ( head lines , prop ( og _ first in ) , prop ( og _ next in ) ) ;  <NL> make line lists ( tail lines , prop ( og _ first out ) , prop ( og _ next out ) ) ;  <NL>  <NL> head lines . clear ( ) ;  <NL> tail lines . clear ( ) ;  <NL>  }  COM: <s> create the lists of lines sharing common notes </s>

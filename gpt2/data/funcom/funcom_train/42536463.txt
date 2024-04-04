@@ -1,0 +1,1 @@
+TDAT: public boolean equals ( object o ) {  <NL> if ( ! ( o instanceof type use cons ) ) return false ;  <NL> if ( o = = this ) return true ;  <NL> type use cons oo = ( type use cons ) o ;  <NL> return ( ( ( object ) first ) . equals ( oo . first ) ) & & ( ( ( object ) rest ) . equals ( oo . rest ) ) ;  <NL>  }  COM: <s> is the given object equal to this type use cons </s>

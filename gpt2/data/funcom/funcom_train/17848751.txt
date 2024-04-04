@@ -1,0 +1,1 @@
+TDAT: private void change file ( ) {  <NL> j file chooser chooser = new j file chooser ( new file ( m file . get text ( ) ) ) ;  <NL> if ( chooser . show open dialog ( this ) = = j file chooser . approve _ option ) {  <NL> m file . set text ( chooser . get selected file ( ) . get absolute path ( ) ) ;  <NL>  }  <NL>  }  COM: <s> call the file chooser for the executable </s>

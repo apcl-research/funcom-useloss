@@ -1,0 +1,1 @@
+TDAT: public void test ssl exception05 ( ) {  <NL> ssl exception t e = new ssl exception ( null , null ) ;  <NL> assert null ( " get message ( ) must return null " , t e . get message ( ) ) ;  <NL> assert null ( " get cause ( ) must return null " , t e . get cause ( ) ) ;  <NL>  }  COM: <s> test for code sslexception string throwable code constructor </s>

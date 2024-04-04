@@ -1,0 +1,1 @@
+TDAT: private string get class name ( ) {  <NL> final string builder str = new string builder ( ) ;  <NL> str . append ( prop name ) ;  <NL> str . append ( " keys " ) ;  <NL> str . set char at ( 0 , character . to upper case ( prop name . char at ( 0 ) ) ) ;  <NL> return str . to string ( ) ;  <NL>  }  COM: <s> returns the class name for the class to create </s>

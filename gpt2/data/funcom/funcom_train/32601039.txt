@@ -1,0 +1,1 @@
+TDAT: private void warn ( string msg ) {  <NL> if ( url ! = null ) {  <NL> log . warn ( messages . get string ( " table data model . 2 " ) + url ) ; / / $ non - nls - 1 $  <NL>  / / set the url to null so it won ' t be logged again <NL> url = null ;  <NL>  }  <NL> log . warn ( msg ) ;  <NL>  }  COM: <s> log a warning message but log the url only once </s>

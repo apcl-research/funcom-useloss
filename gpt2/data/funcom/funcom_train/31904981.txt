@@ -1,0 +1,1 @@
+TDAT: public void append ( rule r ) {  <NL> if ( size = = rules . length ) {  <NL> rule [ ] t = new rule [ size * 2 ] ;  <NL> for ( int i = 0 ; i < size ; i + + ) {  <NL> t [ i ] = rules [ i ] ;  <NL>  }  <NL> rules = t ;  <NL>  }  <NL> rules [ size + + ] = r ;  <NL>  }  COM: <s> appends a rule to the stylesheet </s>

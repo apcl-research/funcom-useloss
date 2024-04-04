@@ -1,0 +1,1 @@
+TDAT: public void add alias ( alias alias ) {  <NL>  <NL> for ( int i = 0 ; i < aliases . size ( ) ; i + + ) {  <NL>  <NL> if ( alias . get name ( ) . equals ( aliases . get ( i ) . get name ( ) ) ) {  <NL>  <NL> aliases . remove ( i ) ;  <NL> break ;  <NL>  }  <NL>  }  <NL>  <NL> aliases . add ( alias ) ;  <NL>  }  COM: <s> adds an alias to this manager </s>

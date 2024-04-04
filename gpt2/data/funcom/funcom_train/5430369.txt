@@ -1,0 +1,1 @@
+TDAT: public int read int ( int pos ) {  <NL> return <NL>  ( ( ( int ) ( data [ pos + 0 ] & 0xff ) < < 24 ) | <NL>  ( ( int ) ( data [ pos + 1 ] & 0xff ) < < 16 ) | <NL>  ( ( int ) ( data [ pos + 2 ] & 0xff ) < < 8 ) | <NL>  ( ( int ) ( data [ pos + 3 ] & 0xff ) < < 0 ) ) ;  <NL>  }  COM: <s> reads an int from the indicated position </s>

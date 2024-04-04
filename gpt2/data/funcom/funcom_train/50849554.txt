@@ -1,0 +1,1 @@
+TDAT: public void fire ( float [ ] position ) {  <NL> final int dim count = position . length ;  <NL> if ( null = = this . position ) {  <NL> this . position = new float [ dim count ] ;  <NL>  }  <NL> system . arraycopy ( position , 0 , this . position , 0 , dim count ) ;  <NL> current distance = 0 ;  <NL>  }  COM: <s> fires the shot </s>

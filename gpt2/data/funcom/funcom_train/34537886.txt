@@ -1,0 +1,1 @@
+TDAT: public void add filter field ( string _ field , string _ type ) {  <NL> query field structure p = new query field structure ( _ field , " " , " " , _ type ) ;  <NL> if ( this . filter = = null ) this . filter = new vector < query field structure > ( ) ;  <NL> filter . add element ( p ) ;  <NL>  }  COM: <s> adds new field to the filter clause </s>

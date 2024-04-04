@@ -1,0 +1,1 @@
+TDAT: public void add axis label ( string type , list < string > labels , string color ) {  <NL> this . axis types . add ( type ) ;  <NL> this . axis labels . add ( labels ) ;  <NL> this . axis max range . add ( new array list < double > ( ) ) ;  <NL> this . axis color . add ( color ) ;  <NL>  }  COM: <s> add a label with given label values </s>

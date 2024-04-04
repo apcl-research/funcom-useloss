@@ -1,0 +1,1 @@
+TDAT: public void add protease ( protease a protease ) {  <NL> protease f protease = ( protease ) _ registry . put ( a protease . get name ( ) , a protease ) ;  <NL> if ( f protease ! = null )  <NL>  / / system . out . println ( " replaced protease " + f protease . get name ( ) ) ;  <NL> set changed ( ) ;  <NL>  }  COM: <s> adds a new proteases to the factory </s>

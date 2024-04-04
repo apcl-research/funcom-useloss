@@ -1,0 +1,1 @@
+TDAT: protected void set up ( ) throws exception {  <NL> super . set up ( ) ;  <NL> test root node . add node ( node name1 , test node type ) ;  <NL> test root node . add node ( node name2 , test node type ) ;  <NL> test root node . add node ( node name3 , test node type ) ;  <NL> test root node . save ( ) ;  <NL>  }  COM: <s> sets up the fixture for test cases </s>

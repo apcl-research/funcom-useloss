@@ -1,0 +1,1 @@
+TDAT: protected void bind object ( name component n , org . omg . corba . object obj , binding type holder type ) throws system exception {  <NL>  / / fairly simple table put . . .  <NL> bindings . put ( new binding key ( n ) , new bound object ( n , obj , type . value ) ) ;  <NL>  }  COM: <s> bind an object into the current context </s>

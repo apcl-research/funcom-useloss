@@ -1,0 +1,1 @@
+TDAT: public void test add keys ( ) {  <NL> node instance = new node ( ) ;  <NL> instance . add key ( new key ( 1 ) ) ;  <NL> instance . add key ( new key ( 2 ) ) ;  <NL> instance . add key ( new key ( 3 ) ) ;  <NL> int result = instance . get key count ( ) ;  <NL> assert equals ( 3 , result ) ;  <NL>  }  COM: <s> test of add keys method of class org </s>

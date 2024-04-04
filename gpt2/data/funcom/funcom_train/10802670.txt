@@ -1,0 +1,1 @@
+TDAT: public void set load key ( string key ) {  <NL> if ( this . load key ! = null & & key ! = null & & ! this . load key . equals ( key ) )  <NL> throw new parse exception ( s _ loc . get ( " multiple - load - key " ,  <NL> load key , key ) ) ;  <NL> load key = key ;  <NL>  }  COM: <s> sets key under which this value was loaded </s>

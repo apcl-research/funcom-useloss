@@ -1,0 +1,1 @@
+TDAT: / * public path expand ( ) {  <NL> if ( steps . get ( 0 ) instanceof variable ) {  <NL> path path = ( ( variable ) steps . get ( 0 ) ) . get path ( ) ;  <NL> this . steps . remove ( 0 ) ;  <NL> this . steps . add all ( 0 , path . steps ) ;  <NL>  }  <NL> return this ;  <NL>  } * /  COM: <s> returns expanded path </s>

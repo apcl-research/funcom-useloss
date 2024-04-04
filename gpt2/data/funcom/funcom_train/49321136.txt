@@ -1,0 +1,1 @@
+TDAT: public void clear selection ( ) {  <NL> if ( _ menu items ! = null & & _ menu items . length ! = 0 ) {  <NL> for ( int i = 0 ; i < _ menu items . length ; i + + ) {  <NL> if ( _ menu items [ i ] . is selected ( ) ) {  <NL>  _ menu items [ i ] . set selected ( false ) ;  <NL>  }  <NL>  }  <NL>  }  <NL>  }  COM: <s> deselect all items </s>

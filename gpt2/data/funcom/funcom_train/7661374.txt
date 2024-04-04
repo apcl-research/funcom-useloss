@@ -1,0 +1,1 @@
+TDAT: public void test take ( ) {  <NL> try {  <NL> delay queue q = populated queue ( size ) ;  <NL> for ( int i = 0 ; i < size ; + + i ) {  <NL> assert equals ( new p delay ( i ) , ( ( p delay ) q . take ( ) ) ) ;  <NL>  }  <NL>  } catch ( interrupted exception e ) {  <NL> unexpected exception ( ) ;  <NL>  }  <NL>  }  COM: <s> take retrieves elements in priority order </s>

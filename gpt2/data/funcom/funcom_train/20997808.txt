@@ -1,0 +1,1 @@
+TDAT: public void set coordinates ( int x , int y ) {  <NL>  / / logger . print ( d _ id ( ) + " . set coordinates ( " + x + " , " + y + " ) " ) ;  <NL> logger . begin ( this , x + " , " + y , true ) ;  <NL> set x ( x ) ;  <NL> set y ( y ) ;  <NL> logger . end ( this , x + " , " + y ) ;  <NL>  }  COM: <s> sets the coordinates of the vector </s>

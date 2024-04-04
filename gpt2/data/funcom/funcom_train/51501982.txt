@@ -1,0 +1,1 @@
+TDAT: public void foreach proceed ( stl data type a , stl data type b , int i ) {  <NL> stl string temp s = new stl string ( ( string ) ( ( ( stl list ) b ) . get vlist ( ) ) . element at ( i ) ) ;  <NL> symtbl . set value ( a . get name ( ) , temp s , true , 0 ) ;  <NL>  }  COM: <s> the function is called to check the boolean condition of foreach </s>

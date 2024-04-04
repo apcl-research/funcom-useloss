@@ -1,0 +1,1 @@
+TDAT: public int delete ( d config key key ) {  <NL> int i ret = 0 ;  <NL> jt = new jdbc template ( get data source ( ) ) ;  <NL> i ret = jt . update ( delete _ key , new object [ ] { key . get id ( ) } ) ;  <NL> new d config system dao ( ) . set new data change time stamp ( ) ;  <NL> return i ret ;  <NL>  }  COM: <s> deletes a specified key </s>

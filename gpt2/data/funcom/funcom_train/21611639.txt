@@ -1,0 +1,1 @@
+TDAT: public void test string ( ) throws interpreter exception {  <NL> check result ( " klmno " , interpreter . process ( " sub string ( ' abcdefghijklmnopqrstuvwxyz ' , 10 , 15 ) ; " ) ) ;  <NL> check result ( 10 , interpreter . process ( " s index of ( ' abcdefghijklmnopqrstuvwxyz ' , ' k ' ) ; " ) ) ;  <NL>  }  COM: <s> tests the string support </s>

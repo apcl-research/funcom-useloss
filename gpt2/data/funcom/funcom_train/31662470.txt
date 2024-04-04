@@ -1,0 +1,1 @@
+TDAT: public void set peak table ( peak1d [ ] new peak table ) {  <NL> if ( new peak table ! = peak table ) {  <NL> peak table = new peak table ;  <NL> if ( peak table ! = null )  <NL> for ( int i = 0 ; i < peak table . length ; i + + )  <NL> peak table [ i ] . set spectrum ( this ) ;  <NL>  }  <NL>  }  COM: <s> sets a new peak table </s>

@@ -1,0 +1,1 @@
+TDAT: private string get list string ( list < ? extends object > list ) {  <NL> string builder sb = new string builder ( ) ;  <NL> for ( object s : list ) {  <NL> if ( s ! = list . get ( 0 ) )  <NL> sb . append ( " " ) ;  <NL> sb . append ( s . to string ( ) ) ;  <NL>  }  <NL> return sb . to string ( ) ;  <NL>  }  COM: <s> list to string </s>

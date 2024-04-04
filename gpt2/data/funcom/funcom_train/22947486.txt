@@ -1,0 +1,1 @@
+TDAT: private double mse ( double [ ] calculated , double [ ] real ) {  <NL> double mse = 0 ;  <NL> int count = calculated . length ;  <NL>  <NL> for ( int i = 0 ; i < count ; i + + ) {  <NL> mse + = math . pow ( ( real [ i ] - calculated [ i ] ) , 2 ) ;  <NL>  }  <NL>  <NL> mse / = count ;  <NL> return mse ;  <NL>  }  COM: <s> calculate mean squared error of a dataset </s>

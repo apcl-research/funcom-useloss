@@ -1,0 +1,1 @@
+TDAT: private query node to term query ( term query query , string space ) {  <NL> if ( debug ) system . out . println ( space + " term = " + query . index + " : " + query . term ) ;  <NL> return new gate . mimir . search . query . term query ( query . index , query . term ) ;  <NL>  }  COM: <s> conversion of the term query </s>

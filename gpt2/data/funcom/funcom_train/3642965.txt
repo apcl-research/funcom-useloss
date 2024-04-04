@@ -1,0 +1,1 @@
+TDAT: private void array write bit ( int state , int index , byte [ ] buf ) {  <NL>  <NL> int nbyt = ( index > > > 3 ) ;  <NL> int nbit = index - ( nbyt < < 3 ) ;  <NL>  <NL> if ( state = = 1 )  <NL> buf [ nbyt ] | = ( 0x01 < < nbit ) ;  <NL> else <NL> buf [ nbyt ] & = ~ ( 0x01 < < nbit ) ;  <NL>  }  COM: <s> writes the bit state in a byte array </s>

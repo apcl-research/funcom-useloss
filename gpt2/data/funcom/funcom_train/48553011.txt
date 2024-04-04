@@ -1,0 +1,1 @@
+TDAT: public void render ( int threads , frame buffer window fbw ) {  <NL> v = fbw ;  <NL> load balancer lb = new load balancer ( w , h ) ;  <NL> total pieces = lb . get pieces ( ) . length ;  <NL> render ( lb . get pieces ( ) , lb . get uniform segments ( threads ) , threads ) ;  <NL>  }  COM: <s> performs a multithreaded local render of the scene </s>

@@ -1,0 +1,1 @@
+TDAT: protected void write end ( ) {  <NL> byte pos = write int4 ( 0 , byte pos ) ;  <NL> byte pos = write bytes ( iend , byte pos ) ;  <NL> crc . reset ( ) ;  <NL> crc . update ( iend ) ;  <NL> crc value = crc . get value ( ) ;  <NL> byte pos = write int4 ( ( int ) crc value , byte pos ) ;  <NL>  }  COM: <s> write a png iend chunk into the png bytes array </s>

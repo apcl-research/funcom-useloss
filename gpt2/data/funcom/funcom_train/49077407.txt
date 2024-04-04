@@ -1,0 +1,1 @@
+TDAT: public query set event ( string . . . str ) throws sql exception {  <NL> has ran ( ) ;  <NL> string cols = " " ;  <NL> for ( int i = 0 ; i < str . length ; i + + ) {  <NL> cols + = str [ i ] ;  <NL> if ( str . length ! = i + 1 ) {  <NL> cols + = " , " ;  <NL>  }  <NL>  }  <NL> select set = cols ;  <NL> return this ;  <NL>  }  COM: <s> build the event statement </s>

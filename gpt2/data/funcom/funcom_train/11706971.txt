@@ -1,0 +1,1 @@
+TDAT: public int put ( string key , int value ) {  <NL> integer i = ( integer ) this . map . get ( key ) ;  <NL> int rc ;  <NL> if ( i = = null ) {  <NL> rc = 0 ;  <NL>  } else {  <NL> rc = i . int value ( ) ;  <NL>  }  <NL> i = integer . value of ( value ) ;  <NL> this . map . put ( key , i ) ;  <NL> return rc ;  <NL>  }  COM: <s> add a key value pair to the map </s>

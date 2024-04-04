@@ -1,0 +1,1 @@
+TDAT: public int select row ( ujo row ) {  <NL> ujo table model model = get model ( ) ;  <NL> if ( row ! = null ) for ( int i = 0 ; i < model . get row count ( ) ; i + + ) {  <NL> if ( row = = model . get row ( i ) ) {  <NL> select row ( i ) ;  <NL> return i ;  <NL>  }  <NL>  }  <NL> clear selection ( ) ;  <NL> return - 1 ;  <NL>  }  COM: <s> select an ujo </s>

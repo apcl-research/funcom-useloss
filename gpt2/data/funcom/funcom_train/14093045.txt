@@ -1,0 +1,1 @@
+TDAT: public void test calculate center ( ) {  <NL> my test class my class = new my test class ( ) ;  <NL> my class . set position ( center ) ;  <NL> point l = my class . calculate point ( new rectangle ( 0 , 0 , 7 , 7 ) ) ;  <NL> point v = new point ( 3 , 3 ) ;  <NL> assert equals ( " center : " , v , l ) ;  <NL>  }  COM: <s> test calculation of center position </s>

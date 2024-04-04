@@ -1,0 +1,1 @@
+TDAT: public void close ( ) {  <NL> if ( close = = false ) {  <NL> return ;  <NL>  }  <NL> try {  <NL> if ( opened ( ) ) {  <NL> get cr ( ) . close ( ) ;  <NL> fl = null ;  <NL>  }  <NL>  } catch ( java . io . io exception x ) {  <NL> logger . log ( level . warning , " close " , x ) ;  <NL>  }  <NL>  }  COM: <s> close this file </s>

@@ -1,0 +1,1 @@
+TDAT: public ztex scan bus1 ( int usb vendor id , int usb product id , boolean scan unconfigured , boolean quiet , int interface version , string sn string ) {  <NL> this ( usb vendor id , usb product id , scan unconfigured , quiet , interface version , sn string , - 1 , - 1 , - 1 , - 1 ) ;  <NL>  }  COM: <s> scans the usb for suitable devices and constructs a list of them </s>

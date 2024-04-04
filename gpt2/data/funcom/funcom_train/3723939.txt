@@ -1,0 +1,1 @@
+TDAT: public int compare to ( object other ) {  <NL> if ( other = = this )  <NL> return 0 ;  <NL> atlas type type = ( atlas type ) other ;  <NL> int result = get atlas class ( ) . compare to ( type . get atlas class ( ) ) ;  <NL> return ( ( result ! = 0 ) ? result : name . compare to ( type . get name ( ) ) ) ;  <NL>  }  COM: <s> not consistent with equals </s>

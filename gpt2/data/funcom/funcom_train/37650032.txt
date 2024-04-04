@@ -1,0 +1,1 @@
+TDAT: public void refresh ( ) {  <NL> if ( ! tree viewer . get control ( ) . is disposed ( ) ) {  <NL>  / / this . tree viewer . get control ( ) . set redraw ( false ) ;  <NL> tree viewer . refresh ( ) ;  <NL> refresh menu ( ) ;  <NL>  / / this . tree viewer . get control ( ) . set redraw ( true ) ;  <NL>  }  <NL>  }  COM: <s> refresh the view and its elements </s>

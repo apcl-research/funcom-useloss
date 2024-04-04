@@ -1,0 +1,1 @@
+TDAT: public xine osd create osd ( int xpos , int ypos , int width , int height ) {  <NL> swigtype _ p _ xine _ osd _ s osd = xine lib . xine _ osd _ new ( stream , xpos , ypos , width , height ) ;  <NL> if ( osd = = null ) {  <NL> return null ;  <NL>  }  <NL> return new xine osd ( osd ) ;  <NL>  }  COM: <s> create an on screen display renderer instance </s>

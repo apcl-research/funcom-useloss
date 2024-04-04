@@ -1,0 +1,1 @@
+TDAT: public void remove all lines ( ) {  <NL> iterator it = m _ line list . iterator ( ) ;  <NL> while ( it . has next ( ) ) {  <NL> osm slide body line line = ( osm slide body line ) it . next ( ) ;  <NL> line . set element ( null ) ;  <NL>  }  <NL> m _ line list . clear ( ) ;  <NL> remove all ( ) ;  <NL>  }  COM: <s> to remove all lines of the body </s>

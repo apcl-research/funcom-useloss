@@ -1,0 +1,1 @@
+TDAT: public void fill rect ( int x1 , int y1 , int x2 , int y2 ) {  <NL> java . awt . graphics graphics = screen . get graphics ( ) ;  <NL> graphics . fill rect ( x1 , y1 , x2 - x1 , y2 - y1 ) ;  <NL>  } / / fill rect ( int x1 , int y1 , int x2 , int y2 )  COM: <s> fills a retangle </s>

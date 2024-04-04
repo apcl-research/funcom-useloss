@@ -1,0 +1,1 @@
+TDAT: public void test get base class ( ) {  <NL> system . out . println ( " get base class " ) ;  <NL>  <NL> assert equals ( array funcs . get base class ( new int [ 2 ] [ 3 ] ) , int . class ) ;  <NL> assert equals ( array funcs . get base class ( new string [ 3 ] ) , string . class ) ;  <NL>  }  COM: <s> test of get base class method of class nom </s>

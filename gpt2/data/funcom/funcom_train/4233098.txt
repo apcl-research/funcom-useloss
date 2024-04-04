@@ -1,0 +1,1 @@
+TDAT: private void set series colors ( ) {  <NL> for ( int i = 0 ; i < data collection . get series count ( ) ; i + + ) {  <NL> string series = ( string ) data collection . get series key ( i ) ;  <NL> xy plot . get renderer ( ) . set series paint ( i , colors . get ( series ) ) ;  <NL>  }  <NL>  }  COM: <s> set the color for all the series </s>

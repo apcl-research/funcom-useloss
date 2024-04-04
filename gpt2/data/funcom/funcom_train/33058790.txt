@@ -1,0 +1,1 @@
+TDAT: private void proc obj clss ( string line , string use line , object store tmp obj ) throws exception {  <NL> int start = line . index of ( " < class > " ) + 7 ;  <NL> int end = line . index of ( " < / class > " ) ;  <NL> tmp obj . set class name ( use line . substring ( start , end ) ) ;  <NL>  }  COM: <s> reads in classname and passes it to an objectstore </s>

@@ -1,0 +1,1 @@
+TDAT: public void load program ( program p ) {  <NL> int start = arithmetic . max ( p . program _ start , flash _ start ) ;  <NL> int max = arithmetic . min ( p . program _ end , data _ size ) ;  <NL> load code ( p , start , max ) ;  <NL> load data ( p , start , max ) ;  <NL>  }  COM: <s> the code load program code method loads a program into this data segment </s>

@@ -1,0 +1,1 @@
+TDAT: public void add until ( player p , command c ) {  <NL> if ( null = = p ) p = all zone . get phase ( ) . get player turn ( ) ;  <NL>  <NL> if ( until . contains key ( p ) ) until . get ( p ) . add ( c ) ;  <NL> else until . put ( p , new command list ( c ) ) ;  <NL>  }  COM: <s> p add until </s>

@@ -1,0 +1,1 @@
+TDAT: public int uri ( final byte [ ] n , final boolean elem ) {  <NL> if ( uri . size ( ) = = 0 ) return 0 ;  <NL> final byte [ ] pr = token . pref ( n ) ;  <NL> int u = elem ? uri stack [ uri l ] : 0 ;  <NL> if ( pr . length ! = 0 ) u = uri ( pr , root ) ;  <NL> return u ;  <NL>  }  COM: <s> returns the namespace uri reference for the specified name </s>

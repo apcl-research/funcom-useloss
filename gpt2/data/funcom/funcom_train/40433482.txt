@@ -1,0 +1,1 @@
+TDAT: private string get ship to change anchor x path ( ) {  <NL> return " / / div [ @ id = ' address view ' ] "  <NL>  + " / / table / / tbody / / tr [ 2 ] / / td [ 2 ] / / table / / tbody / / tr [ 1 ] / / td "  <NL>  + " / / table / / tbody / / tr / / td [ 3 ] / / div / / a " ;  <NL>  }  COM: <s> returns the xpath string for the change anchor </s>

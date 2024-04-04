@@ -1,0 +1,1 @@
+TDAT: public void set date ( final int year , final int month , final int day ) {  <NL> setup calendar if required ( ) ;  <NL> calendar . set ( calendar . year , year ) ;  <NL> calendar . set ( calendar . month , month - 1 ) ;  <NL> calendar . set ( calendar . day _ of _ month , day ) ;  <NL>  }  COM: <s> sets the date but the time portion is left unchanged </s>

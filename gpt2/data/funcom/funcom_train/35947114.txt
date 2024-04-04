@@ -1,0 +1,1 @@
+TDAT: public void print ( writer writer ) throws io exception {  <NL> for ( int i = 0 ; i < _ length ; i + = c1 ) {  <NL> char [ ] chars = _ high [ i > > b1 ] ;  <NL> writer . write ( chars , 0 , math lib . min ( c1 , _ length - i ) ) ;  <NL>  }  <NL>  }  COM: <s> prints out this text builder to the specified writer </s>

@@ -1,0 +1,1 @@
+TDAT: private void invoke ( x element element ) {  <NL> if ( actual size = = max size ) {  <NL> elements . poll ( ) ;  <NL> actual size - - ;  <NL>  }  <NL> elements . add ( element ) ;  <NL> actual size + + ;  <NL> if ( max size = = actual size || eager ) {  <NL> dispatch ( out , resolver ( ) . create ( elements ) ) ;  <NL>  }  <NL>  }  COM: <s> invoke the computation </s>

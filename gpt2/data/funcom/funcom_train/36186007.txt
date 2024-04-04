@@ -1,0 +1,1 @@
+TDAT: public void add service ( service s ) {  <NL> if ( ! has service ( s . id ) ) {  <NL> services . add ( s ) ;  <NL> log . debug ( " service " + s . id + " added to " + peer id ) ;  <NL>  }  <NL> else {  <NL> log . debug ( " service " + s . id + " has already been added to " + peer id ) ;  <NL>  }  <NL>  }  COM: <s> add given service to list of services on this device </s>

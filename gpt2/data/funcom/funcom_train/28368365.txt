@@ -1,0 +1,1 @@
+TDAT: public void add entity ( final situated entity e ) {  <NL> final species species = e . get species ( ) ;  <NL> if ( ! entities . contains key ( species ) ) {  <NL> entities . put ( species , new hash set < situated entity > ( ) ) ;  <NL>  }  <NL> entities . get ( species ) . add ( e ) ;  <NL> e . set place ( this ) ;  <NL>  }  COM: <s> adds the entity to the place </s>

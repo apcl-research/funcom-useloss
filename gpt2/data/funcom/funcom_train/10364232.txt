@@ -1,0 +1,1 @@
+TDAT: private reference entry create entry ( int index , int hash code , object key , object value ) {  <NL> reference entry new entry = new reference entry ( this , data [ index ] , hash code , key , value ) ;  <NL> data [ index ] = new entry ;  <NL> size + + ;  <NL> check capacity ( ) ;  <NL> return new entry ;  <NL>  }  COM: <s> creates a new reference entry </s>

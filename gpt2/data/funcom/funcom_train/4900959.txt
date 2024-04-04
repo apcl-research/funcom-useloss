@@ -1,0 +1,1 @@
+TDAT: public void set elements ( element . . . elements ) {  <NL> element [ ] old = get elements ( ) ;  <NL> this . elements . clear ( ) ;  <NL> if ( elements ! = null ) {  <NL> this . elements . add all ( arrays . as list ( elements ) ) ;  <NL>  }  <NL> fire property change ( " elements " , old , get elements ( ) ) ;  <NL>  }  COM: <s> sets the elements </s>

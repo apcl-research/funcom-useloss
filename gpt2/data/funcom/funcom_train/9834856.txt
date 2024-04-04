@@ -1,0 +1,1 @@
+TDAT: public wire addsub ( wire a , wire b , wire add ) {  <NL> wire s = wire ( a . get width ( ) , name ( " sum " ) ) ;  <NL> return addsub _ o ( a , b , not ( add ) , add , s , ( string ) null ) ;  <NL>  }  COM: <s> constructs a new adder subtractor with no carry in or carry out </s>

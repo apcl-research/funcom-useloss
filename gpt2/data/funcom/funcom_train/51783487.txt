@@ -1,0 +1,1 @@
+TDAT: public void test draw rubberband ( ) {  <NL> mock g2d . expects ( once ( ) ) . method ( " set stroke " ) ;  <NL> mock g2d . expects ( once ( ) ) . method ( " set color " ) ;  <NL> mock g2d . expects ( once ( ) ) . method ( " draw " ) ;  <NL> drawing context . draw rubberband ( 0 , 1 , 100 , 101 ) ;  <NL>  }  COM: <s> tests the draw rubberband method </s>

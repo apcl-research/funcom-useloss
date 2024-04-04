@@ -1,0 +1,1 @@
+TDAT: public void draw line ( int x1 , int y1 , int x2 , int y2 , color color , int width ) {  <NL> shape s = new line2d . float ( ( float ) x1 , ( float ) y1 , ( float ) x2 , ( float ) y2 ) ;  <NL> draw shape ( s , color , width ) ;  <NL>  }  COM: <s> draw line of given color between two points </s>

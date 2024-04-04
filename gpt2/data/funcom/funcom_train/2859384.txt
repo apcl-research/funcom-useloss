@@ -1,0 +1,1 @@
+TDAT: final private void get _ nibble ( ) {  <NL> if ( ! bottom _ half )  <NL>  {  <NL> get _ letter ( ) ;  <NL> cur _ nibble = ( byte ) ( ( letter & 0xf0 ) > > 4 ) ;  <NL>  }  <NL> else <NL> cur _ nibble = ( byte ) ( letter & 0x0f ) ;  <NL> bottom _ half = ! bottom _ half ;  <NL> length _ in _ nibble = 4 ;  <NL>  }  COM: <s> get a nibble </s>

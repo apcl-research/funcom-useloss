@@ -1,0 +1,1 @@
+TDAT: public void set position ( int o ) {  <NL> if ( is horizontal ( ) ) {  <NL> if ( o > = jl axis . horizontal _ down & & o < = jl axis . horizontal _ org2 )  <NL> orientation = o ;  <NL>  } else {  <NL> if ( o > = jl axis . vertical _ right & & o < = jl axis . vertical _ org )  <NL> orientation = o ;  <NL>  }  <NL>  }  COM: <s> sets the axis position </s>

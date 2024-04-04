@@ -1,0 +1,1 @@
+TDAT: public string param ( date d val ) {  <NL> string s = string . format ( " % 1 $ t y / % 1 $ tm / % 1 $ td % 1 $ t h : % 1 $ t m : % 1 $ t s " , d val ) ;  <NL> return " to _ date ( " + param ( s ) + " , ' yyyy / mm / dd hh24 : mi : ss ' ) " ;  <NL>  }  COM: <s> oracle handles date time using strings and a type conversion </s>

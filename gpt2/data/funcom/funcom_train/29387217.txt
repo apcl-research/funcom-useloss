@@ -1,0 +1,1 @@
+TDAT: public validator add validation ( object comp , string validation name , string method , int mask , xml element page ele ) {  <NL> return event handler . get validation handler ( ) . add validation ( event handler , comp , validation name , method , mask , page ele ) ;  <NL>  }  COM: <s> adds a validation to this page </s>

@@ -1,0 +1,1 @@
+TDAT: public void put holder name ( string i name , string i surname ) throws open pgp card exception {  <NL> byte [ ] data = ( i surname + " < < " + i name ) . get bytes ( ) ;  <NL> put generic data ( tlv _ holder _ name [ 0 ] , tlv _ holder _ name [ 1 ] , data , max _ name _ len ) ;  <NL>  }  COM: <s> stores the holder name and surname on the card </s>

@@ -1,0 +1,1 @@
+TDAT: public c scalar product ( gen vector < c > b ) {  <NL> c a = modul . co fac . get zero ( ) ;  <NL> list < c > oval = b . val ;  <NL> int i = 0 ;  <NL> for ( c c : val ) {  <NL> c c2 = c . multiply ( oval . get ( i + + ) ) ;  <NL> a = a . sum ( c2 ) ;  <NL>  }  <NL> return a ;  <NL>  }  COM: <s> scalar dot product of this vector with other vector </s>

@@ -1,0 +1,1 @@
+TDAT: public void delete friend history ( string friend name ) {  <NL> update database ( " delete from history where " + " ( from whom = \ " " + my name + " \ " and to whom = \ " " + friend name + " \ " ) or ( from whom = \ " " + friend name + " \ " and to whom = \ " " + my name + " \ " ) " ) ;  <NL>  }  COM: <s> delete target contact history from database </s>

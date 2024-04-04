@@ -1,0 +1,1 @@
+TDAT: protected void send pos change ( int oldx , int oldy ) {  <NL> if ( oldx ! = this . get x pos ( ) || oldy ! = this . get y pos ( ) )  <NL> this . m _ event sender . send event ( moved _ event , this , new location data ( oldx , oldy ) ) ;  <NL>  }  COM: <s> send a moved event if the size has actually changed </s>

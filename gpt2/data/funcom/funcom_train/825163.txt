@@ -1,0 +1,1 @@
+TDAT: synchronized public void do next ( ) {  <NL> if ( ( anim schedule ! = null ) & & ( anim schedule . size ( ) > 0 ) ) {  <NL> anim schedule . remove ( 0 ) ;  <NL>  }  <NL> if ( ( global anim schedule ! = null ) & & ( global anim schedule . size ( ) > 0 ) ) {  <NL> global anim schedule . remove ( 0 ) ;  <NL>  }  <NL>  }  COM: <s> calls the next animation </s>

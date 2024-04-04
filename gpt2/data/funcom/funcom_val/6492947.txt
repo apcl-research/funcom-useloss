@@ -1,0 +1,1 @@
+TDAT: public void load standard codecs ( ) {  <NL> register codec ( " presence " , " com . dicarta . jabber . xml . presence codec " ) ;  <NL> register codec ( " message " , " com . dicarta . jabber . xml . message codec " ) ;  <NL> register codec ( " url " , " com . dicarta . jabber . xml . url message codec " ) ;  <NL>  } ;  COM: <s> need to figure out how to load this </s>

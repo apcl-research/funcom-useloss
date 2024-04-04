@@ -1,0 +1,1 @@
+TDAT: public void place queen ( int x , int y , queen q ) {  <NL> eq game . get board ( ) . get grid ( ) [ x ] [ y ] . set piece ( q ) ;  <NL> eq game . get board ( ) . get grid ( ) [ x ] [ y ] . get piece ( ) . set player ( true ) ;  <NL> eq game . get board ( ) . get grid ( ) [ x ] [ y ] . set occupied ( true ) ;  <NL>  }  COM: <s> helper method to assist in testing </s>

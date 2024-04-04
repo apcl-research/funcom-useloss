@@ -1,0 +1,1 @@
+TDAT: private void create panel ( ) {  <NL> if ( task . get tasks ( ( goal ) goal pointer . get cap common ( ) ) . size ( ) = = 0 ) {  <NL> main panel . add ( new j label ( " no tasks " ) ) ;  <NL> return ;  <NL>  }  <NL> pro . get ( ) . imprint and exec ( new create goal exec panel ( this ) ) ;  <NL>  }  COM: <s> creates the code jpanel code for this component </s>

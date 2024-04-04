@@ -1,0 +1,1 @@
+TDAT: public void test read buffer ( ) {  <NL> string input = " < numbers > 123456789012 < / numbers > " ;  <NL> reader reader = do config ( input , null , null ) ;  <NL> string result = do read ( reader , - 1 ) ;  <NL> assert equals ( " < fragment > " + input + " < / fragment > " , result ) ;  <NL>  }  COM: <s> tests the reading of characters from the stream </s>

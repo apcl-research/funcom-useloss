@@ -1,0 +1,1 @@
+TDAT: public int get value ( ) {  <NL> string text = super . get text ( ) ;  <NL> if ( text . length ( ) = = 0 ) {  <NL> return 0 ;  <NL>  }  <NL> try {  <NL> return nf . parse ( super . get text ( ) ) . int value ( ) ;  <NL>  } catch ( parse exception e ) {  <NL> log . quit ( e ) ;  <NL> return 0 ;  <NL>  }  <NL>  }  COM: <s> get the integer value </s>

@@ -1,0 +1,1 @@
+TDAT: public void send file ( jid jid ) {  <NL> bs file transfer dialog dlg = new bs file transfer dialog ( this , jid ,  <NL> file server , file server port , file server path ,  <NL> proxy , proxy port ) ;  <NL> dlg . show ( ) ;  <NL> set proxy ( proxy , proxy port ) ;  <NL>  }  COM: <s> opens dialog for file sending and possible uploads the file </s>

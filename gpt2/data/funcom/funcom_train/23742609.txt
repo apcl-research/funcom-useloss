@@ -1,0 +1,1 @@
+TDAT: public void test set global time source ( ) {  <NL> expect ( mock time source . time in millis ( ) ) . and return ( 100l ) . at least once ( ) ;  <NL> replay ( mock time source ) ;  <NL> system time . set global time source ( mock time source ) ;  <NL> assert equals ( 100l , system time . as millis ( ) ) ;  <NL> verify ( ) ;  <NL>  }  COM: <s> test method for </s>

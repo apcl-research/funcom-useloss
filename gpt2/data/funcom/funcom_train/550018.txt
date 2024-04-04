@@ -1,0 +1,1 @@
+TDAT: public void clear commands ( ) {  <NL> if ( j option pane . show confirm dialog ( null , " do you really want to "  <NL>  + " clear the command table ? " , " alert " ,  <NL> j option pane . yes _ no _ option ) = = j option pane . yes _ option )  <NL> command table . clear ( ) ;  <NL>  }  COM: <s> code clear commands code calls the code clear code of the second </s>

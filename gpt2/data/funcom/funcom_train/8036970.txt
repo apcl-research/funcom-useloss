@@ -1,0 +1,1 @@
+TDAT: public void remove all ( ) {  <NL> list selection model lsm = connection table . get selection model ( ) ;  <NL> lsm . clear selection ( ) ;  <NL> while ( request responses . size ( ) > 0 ) {  <NL>  ( ( request response ) request responses . get ( 0 ) ) . remove ( ) ;  <NL>  }  <NL> lsm . set selection interval ( 0 , 0 ) ;  <NL>  }  COM: <s> method remove all </s>

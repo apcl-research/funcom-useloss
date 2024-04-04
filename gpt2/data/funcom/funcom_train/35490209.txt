@@ -1,0 +1,1 @@
+TDAT: public boolean is level ( string needle ) {  <NL> int i , len ;  <NL>  <NL> for ( i = 0 , len = this . levels . get size ( ) ; i < len ; i + + ) {  <NL> if ( this . levels . get element at ( i ) . to string ( ) . equals ( needle ) ) {  <NL> return true ;  <NL>  }  <NL>  }  <NL>  <NL> return false ;  <NL>  }  COM: <s> determines if the string is part of the tick policy </s>

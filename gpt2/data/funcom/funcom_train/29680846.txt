@@ -1,0 +1,1 @@
+TDAT: public void set answered ( long id , boolean answered ) {  <NL> log4j . debug ( " set answered result id : " + id ) ;  <NL> result entity ie = null ;  <NL> if ( id ! = null ) ie = ( result entity ) em . find ( result entity . class , id ) ;  <NL> ie . set answered ( answered ) ;  <NL> em . persist ( ie ) ;  <NL>  }  COM: <s> sets a results answered state </s>

@@ -1,0 +1,1 @@
+TDAT: public int set int ( buffer buff , int offset , int newval ) {  <NL> int oldval = buff . get int ( offset ) ;  <NL> block blk = buff . block ( ) ;  <NL> if ( is temp block ( blk ) )  <NL> return - 1 ;  <NL> else <NL> return new set int record ( txnum , blk , offset , oldval ) . write to log ( ) ;  <NL>  }  COM: <s> writes a setint record to the log and returns its lsn </s>

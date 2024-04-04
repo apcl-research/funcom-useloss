@@ -1,0 +1,1 @@
+TDAT: public string get prefix ( string uri ) {  <NL> if ( collection mode ) {  <NL> return declare namespace ( uri , null , false ) ;  <NL>  } else {  <NL> for ( int i = size - 1 ; i > = 0 ; i - - )  <NL> if ( ns uris [ i ] . equals ( uri ) )  <NL> return prefixes [ i ] ;  <NL> return null ;  <NL>  }  <NL>  }  COM: <s> returns the prefix of the specified uri </s>

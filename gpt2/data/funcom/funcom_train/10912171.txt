@@ -1,0 +1,1 @@
+TDAT: public void add sub data ( bookmark data sub ) {  <NL> sub data . add ( sub ) ;  <NL> if ( sub . page ref = = null ) {  <NL> put unresolved ( sub . get id ref ( ) , sub ) ;  <NL> string [ ] ids = sub . get id refs ( ) ;  <NL> for ( string id : ids ) {  <NL> put unresolved ( id , sub ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> add a child bookmark data object </s>

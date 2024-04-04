@@ -1,0 +1,1 @@
+TDAT: private void check lenient ( type a , type b , ast l ) {  <NL> if ( possibly eq ( a , b ) ) return ;  <NL> errors . add ( new fb error ( fb error . type . bad _ type , l ,  <NL> type utils . type to string ( a ) , type utils . type to string ( b ) ) ) ;  <NL>  }  COM: <s> checks that two types may be equal </s>

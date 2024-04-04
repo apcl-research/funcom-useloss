@@ -1,0 +1,1 @@
+TDAT: private number min x ( ) throws propagation failure exception {  <NL> number x max = x . get max ( ) ;  <NL> number x min = x . get min ( ) ;  <NL>  <NL>  / / retrieve negative of max value <NL> number math . neg ( x max , v1 ) ;  <NL> number math . min ( x min , v1 , v1 ) ;  <NL>  <NL> return v1 ;  <NL>  }  COM: <s> returns min abs of node a </s>

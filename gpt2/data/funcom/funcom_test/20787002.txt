@@ -1,0 +1,1 @@
+TDAT: public void add parameter ( string algorithm , string key , string value ) {  <NL> map < string , string > parameters = get parameters ( algorithm ) ;  <NL> parameters . put ( key , value ) ;  <NL> property change support . fire property change ( " parameters " , null , value ) ;  <NL>  } / / add parameter  COM: <s> adds a key value parameter to the specified algorithm </s>

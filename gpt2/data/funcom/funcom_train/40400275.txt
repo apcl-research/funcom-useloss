@@ -1,0 +1,1 @@
+TDAT: public void constrain ( int min left , int min top , int max left , int max top ) {  <NL> left = math . max ( min left , math . min ( left , max left ) ) ;  <NL> top = math . max ( min top , math . min ( top , max top ) ) ;  <NL>  }  COM: <s> constrain the widget location to the provided minimum and maximum values </s>

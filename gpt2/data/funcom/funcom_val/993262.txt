@@ -1,0 +1,1 @@
+TDAT: public void set color range ( int first index , int last index , int color1 , int color2 ) {  <NL> for ( int i = first index ; i < = last index ; i + + )  <NL> map [ i ] = image math . mix colors ( ( float ) ( i - first index ) / ( last index - first index ) , color1 , color2 ) ;  <NL>  }  COM: <s> set a range of the colormap interpolating between two colors </s>

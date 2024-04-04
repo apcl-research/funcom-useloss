@@ -1,0 +1,1 @@
+TDAT: public boolean is absolute ( ) {  <NL> return ( ( storage = = type ) & & / / must be storage <NL>  ( null = = ident ) & & / / not id - relative <NL>  ( null ! = path ) & & / / must have a path <NL>  ( 0 < path . length ) & &  <NL>  " / " . equals ( path [ 0 ] ) ) ; / / first segment " / "  <NL>  }  COM: <s> determine whether this structured i o resource descriptor </s>

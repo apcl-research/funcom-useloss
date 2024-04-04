@@ -1,0 +1,1 @@
+TDAT: public void set config ( player p , int id , int set ) {  <NL> if ( p = = null || p . stream = = null || p . disconnected [ 0 ] ) {  <NL> return ;  <NL>  }  <NL> p . get byte vector ( ) . set id ( 100 ) ;  <NL> p . get byte vector ( ) . add short a ( id ) ;  <NL> p . get byte vector ( ) . add byte a ( set ) ;  <NL>  }  COM: <s> setting client configs </s>

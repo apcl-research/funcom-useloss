@@ -1,0 +1,1 @@
+TDAT: public string decompile function ( function fun , int indent ) {  <NL> if ( fun instanceof base function )  <NL> return ( ( base function ) fun ) . decompile ( this , indent , false ) ;  <NL> else <NL> return " function " + fun . get class name ( ) +  <NL>  " ( ) { \n\t [ native code ] \n } \n " ;  <NL>  }  COM: <s> decompile a java script function </s>

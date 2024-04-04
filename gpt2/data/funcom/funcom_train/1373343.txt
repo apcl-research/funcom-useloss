@@ -1,0 +1,1 @@
+TDAT: public void pto computer ( ) {  <NL> int x = 0 , y = 0 ;  <NL> int position ;  <NL> if ( p first = = false ) {  <NL> x = 7 ;  <NL> y = 7 ;  <NL> bpanel . update board ( x , y ) ;  <NL> bpanel . draw chess ( x , y ) ;  <NL> begin flag = true ;  <NL>  } else {  <NL> begin flag = true ;  <NL>  }  <NL>  }  COM: <s> do people play with computer </s>

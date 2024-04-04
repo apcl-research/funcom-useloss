@@ -1,0 +1,1 @@
+TDAT: public void append properties ( map props ) {  <NL> for ( iterator i = props . entry set ( ) . iterator ( ) ; i . has next ( ) ; ) {  <NL> map . entry e = ( map . entry ) i . next ( ) ;  <NL> append ( ( string ) e . get key ( ) ) ;  <NL> append quoted ( ( string ) e . get value ( ) ) ;  <NL>  }  <NL>  }  COM: <s> append a map of properties </s>

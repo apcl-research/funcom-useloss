@@ -1,0 +1,1 @@
+TDAT: protected void set para line ( para the para ) {  <NL> loc ann loc ann = ( loc ann ) the para . get ann ( loc ann . class ) ;  <NL> context . para line = loc ann . get line ( ) . int value ( ) + 1 ;  <NL> file table . add para ( loc ann . get loc ( ) , context . para line ) ;  <NL> context . schema = " " ;  <NL>  }  COM: <s> utility to set the paraline from a paragraph </s>

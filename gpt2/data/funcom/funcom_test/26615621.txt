@@ -1,0 +1,1 @@
+TDAT: public void repaint ( ) {  <NL> if ( error graph = = null )  <NL> return ;  <NL>  <NL> list graph data = error graph . get graph data ( ) ;  <NL>  <NL> if ( graph data = = null )  <NL> return ;  <NL>  <NL> double x = ( double ) graph data . size ( ) ;  <NL> graph viewer . set graph bounds ( 0 . 0 , 0 . 0 , x , 1 . 0 ) ;  <NL>  }  COM: <s> forces a repaint of the graph </s>

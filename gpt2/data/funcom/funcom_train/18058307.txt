@@ -1,0 +1,1 @@
+TDAT: public string try arg ( int k , string s ) {  <NL> string value ;  <NL> try {  <NL> value = the args [ k ] ;  <NL>  } catch ( array index out of bounds exception e ) {  <NL> if ( opt err )  <NL> system . err . println ( " try arg : no the args [ " + k + " ] " ) ;  <NL> return s ;  <NL>  }  <NL> return value ;  <NL>  }  COM: <s> try to process a string argument </s>

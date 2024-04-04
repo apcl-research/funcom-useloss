@@ -1,0 +1,1 @@
+TDAT: protected properties get properties ( string driver , string user , string pwd , string url ) {  <NL> properties props = new properties ( ) ;  <NL> props . put ( driver , driver ) ;  <NL> props . put ( user , user ) ;  <NL> props . put ( password , pwd ) ;  <NL> props . put ( url , url ) ;  <NL> return props ;  <NL>  }  COM: <s> helper method to build properties </s>

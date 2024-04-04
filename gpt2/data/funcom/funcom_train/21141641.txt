@@ -1,0 +1,1 @@
+TDAT: public void start of field ( string tag , char i1 , char i2 ) {  <NL>  / / system . out . println ( " field is : " + tag ) ;  <NL> try {  <NL> f = new field ( tag , i1 , i2 ) ;  <NL>  } catch ( exception e ) {  <NL> system . out . println ( e ) ;  <NL>  }  <NL> fieldstarted = true ;  <NL>  }  COM: <s> this method starts the field </s>

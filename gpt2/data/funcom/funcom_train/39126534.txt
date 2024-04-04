@@ -1,0 +1,1 @@
+TDAT: public void add ( lane lane ) {  <NL> project lane . add child lane ( lane ) ;  <NL>  / / system . out . println ( " about to lane . onload " ) ; f <NL> lane . on load ( ) ;  <NL> edit history container . push ( this ,  <NL> edit history recordable action . edit _ history _ type _ add , lane ) ;  <NL>  }  COM: <s> adds a lane to the project and updates the history </s>

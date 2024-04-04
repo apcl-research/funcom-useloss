@@ -1,0 +1,1 @@
+TDAT: public int hash code ( ) {  <NL> int res = 23 ;  <NL> res = res * 37 + get start ( ) ;  <NL> res = res * 37 + get end ( ) ;  <NL> if ( get type ( ) = = null ) {  <NL> res = res * 37 ;  <NL>  } else {  <NL> res = res * 37 + get type ( ) . hash code ( ) ;  <NL>  }  <NL>  <NL> return res ;  <NL>  }  COM: <s> generates a hash code of the current span </s>

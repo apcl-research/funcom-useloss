@@ -1,0 +1,1 @@
+TDAT: public font get font ( font data fd ) {  <NL> font font ;  <NL>  <NL> if ( fd = = null )  <NL> return null ;  <NL> font = this . fonts . get ( fd ) ;  <NL> if ( font ! = null )  <NL> return font ;  <NL> font = new font ( this . display , fd ) ;  <NL> this . fonts . put ( fd , font ) ;  <NL> return font ;  <NL>  }  COM: <s> get a font described by some font data </s>

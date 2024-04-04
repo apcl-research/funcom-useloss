@@ -1,0 +1,1 @@
+TDAT: public boolean is entry ( string m t , string m f )  <NL>  { / * is entry * /  <NL> for ( int i = 0 ; i < n map ; i + + )  <NL> if ( mae table map [ i ] . equals ( m t ) & & mae table map [ i ] . equals ( m f ) )  <NL> return ( true ) ;  <NL>  <NL> return ( false ) ;  <NL>  } / * is entry * /  COM: <s> is entry has an entry for m t m f in the list </s>

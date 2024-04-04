@@ -1,0 +1,1 @@
+TDAT: public expression replace symbol ( symbol s , expression expr ) {  <NL> list new list = new list ( ) ;  <NL> for ( int i = 0 ; i < entries . size ( ) ; i + + ) {  <NL> new list . add entry ( get entry ( i ) . replace symbol ( s , expr ) ) ;  <NL>  }  <NL> return new list ;  <NL>  }  COM: <s> replaces all symbols equal to s in this list with the specified </s>

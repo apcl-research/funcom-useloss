@@ -1,0 +1,1 @@
+TDAT: public void add row selection ( object p row , boolean p scroll ) {  <NL> int index = ( ( table view adapter ) super . get model ( ) ) . index of ( p row ) ;  <NL> add row selection interval ( index , index ) ;  <NL> if ( p scroll ) {  <NL> scroll rect to visible ( this . get cell rect ( index , index , true ) ) ;  <NL>  }  <NL>  }  COM: <s> select a new row </s>

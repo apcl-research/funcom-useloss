@@ -1,0 +1,1 @@
+TDAT: public void set column class ( int column index , class column class ) {  <NL> class old column class = columns [ column index - 1 ] . klass ;  <NL> columns [ column index - 1 ] . klass = column class ;  <NL> pcs . fire property change ( " column class " + column index , old column class , column class ) ;  <NL>  }  COM: <s> sets the column class at the specified index </s>

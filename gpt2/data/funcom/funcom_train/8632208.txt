@@ -1,0 +1,1 @@
+TDAT: public void fill aligned ( ) {  <NL>  / / todo datapage : fill aligned should not use a fixed constant ' 2 '  <NL>  / / 0 . . 6 > 8 , 7 . . 14 > 16 , 15 . . 22 > 24 , . . .  <NL> fill ( math utils . round up ( pos + 2 , constants . file _ block _ size ) ) ;  <NL>  }  COM: <s> fill up the buffer with empty space and an initially empty checksum </s>

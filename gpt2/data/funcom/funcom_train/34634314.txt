@@ -1,0 +1,1 @@
+TDAT: public void paint ( layout context context , int x , int y ) {  <NL>  <NL> if ( skip paint ( context , x , y ) )  <NL> return ;  <NL>  <NL> this . draw box ( context , x , y , 0 , true ) ; / / todo css violation <NL> super . paint ( context , x , y ) ;  <NL>  }  COM: <s> override to paint background and borders </s>

@@ -1,0 +1,1 @@
+TDAT: / / public set values ( ) {  <NL>  / / set result = new hash set ( ) ;  <NL>  / / for ( int i = 0 ; i < rows . size ( ) ; i + + ) {  <NL>  / / result . add all ( ( ( map ) rows . get ( i ) ) . values ( ) ) ;  <NL>  / / }  <NL>  / / return result ;  <NL>  / / }  COM: <s> returns al values stored in the map2 d without duplicates </s>

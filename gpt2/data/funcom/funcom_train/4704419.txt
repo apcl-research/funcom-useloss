@@ -1,0 +1,1 @@
+TDAT: public void draw part ( final int i _ start index phi , final int i _ end index phi , final int i _ start index theta , final int i _ end index theta ) {  <NL> draw part ( i _ start index phi , i _ end index phi , i _ start index theta , i _ end index theta , 1 , 1 ) ;  <NL>  }  COM: <s> draws the part of the surface between the passing bounding </s>

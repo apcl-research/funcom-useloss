@@ -1,0 +1,1 @@
+TDAT: public sql and fields get drop ( class < ? > clazz , string schema ) {  <NL> string full table name = translate class to table ( clazz , schema ) ;  <NL> string drop = " drop table " + full table name ;  <NL> sql and fields sql and fields = new sql and fields ( drop , null ) ;  <NL> return sql and fields ;  <NL>  }  COM: <s> creates the drop </s>

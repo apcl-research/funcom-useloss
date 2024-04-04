@@ -1,0 +1,1 @@
+TDAT: public void draw line ( double angle1 , double radius1 , double angle2 , double radius2 ) {  <NL> g _ . draw line ( get screen x ( angle1 , radius1 ) , get screen y ( angle1 , radius1 ) , get screen x ( angle2 , radius2 ) , get screen y ( angle2 , radius2 ) ) ;  <NL>  }  COM: <s> for drawing arbitary lines </s>

@@ -1,0 +1,1 @@
+TDAT: public color get color ( float percent ) {  <NL>  / / limit percent to [ 0 . 0 , 1 . 0 ] range .  <NL> percent = math . min ( 1 . 0f , math . max ( 0 . 0f , percent ) ) ;  <NL> int nb = ( int ) ( percent * ( ( float ) data . length - 1 ) ) ;  <NL> return data [ nb ] ;  <NL>  }  COM: <s> return the color corresponding to the given percentage value </s>

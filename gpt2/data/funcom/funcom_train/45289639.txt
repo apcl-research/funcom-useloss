@@ -1,0 +1,1 @@
+TDAT: protected void process white space ( int pos , int end pos ) {  <NL> if ( scanner debug )  <NL> system . out . println ( " process whitespace ( " + pos <NL>  + " , " + end pos + " ) = | " +  <NL> new string ( reader . get raw characters ( pos , end pos ) )  <NL>  + " | " ) ;  <NL>  }  COM: <s> called when a complete whitespace run has been scanned </s>

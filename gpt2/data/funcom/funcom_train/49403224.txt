@@ -1,0 +1,1 @@
+TDAT: public short make binary tag ( final string tag ) {  <NL> if ( tag . length ( ) ! = 2 ) {  <NL> throw new illegal argument exception ( " string tag does not have length ( ) = = 2 : " + tag ) ;  <NL>  }  <NL> return ( short ) ( tag . char at ( 1 ) < < 8 | tag . char at ( 0 ) ) ;  <NL>  }  COM: <s> convert from string representation of tag name to short representation </s>

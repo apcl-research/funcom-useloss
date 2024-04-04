@@ -1,0 +1,1 @@
+TDAT: public void test set month ( ) {  <NL> data date l data date = new data date ( f year , f month , f day , f time zone ) ;  <NL> int l month = 10 ;  <NL> l data date . set month ( l month ) ;  <NL> assert equals ( l month , l data date . get month ( ) ) ;  <NL>  }  COM: <s> test of set month method </s>

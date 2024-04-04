@@ -1,0 +1,1 @@
+TDAT: public object get object ( int column index , java . util . map map ) throws sql exception {  <NL> if ( trace . is detailed ( ) ) trace . trace ( get id ( ) , column index + " , " + trace . quote object ( map ) ) ;  <NL> check closed ( ) ;  <NL> throw factory . get unsupported exception ( ) ;  <NL>  }  COM: <s> gets a column as a object using the specified type mapping </s>

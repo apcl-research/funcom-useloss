@@ -1,0 +1,1 @@
+TDAT: public void send options ( ) throws io exception {  <NL> hash map < string , string > headers = new hash map < string , string > ( ) ;  <NL> headers . put ( " allow " , " options , propfind , head , get , report , proppatch , put , delete , post " ) ;  <NL> send http response ( http status . sc _ ok , headers ) ;  <NL>  }  COM: <s> send options response </s>

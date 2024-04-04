@@ -1,0 +1,1 @@
+TDAT: public void set key col ( string c ) {  <NL> keycolname = c ;  <NL> if ( ( cols ! = null ) & & ( key col = = null ) ) {  <NL> for ( int t = 0 ; t < cols . length ; t + + ) {  <NL> if ( cols [ t ] . to string ( ) . equals ( c ) )  <NL> set key col ( cols [ t ] ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> set the key column for this data object manually </s>

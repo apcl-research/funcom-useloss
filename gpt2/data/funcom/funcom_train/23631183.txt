@@ -1,0 +1,1 @@
+TDAT: public boolean is in place ( basic worker worker , int x , int y ) {  <NL> if ( worker . is fleeing ( ) ) {  <NL> return false ;  <NL>  }  <NL> int2d location = this . workers grid . get object location ( worker ) ;  <NL> return ( ( location . get x ( ) = = x ) & & ( location . get y ( ) = = y ) ) ;  <NL>  }  COM: <s> check if this worker is in ia place </s>

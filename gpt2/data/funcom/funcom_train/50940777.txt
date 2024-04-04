@@ -1,0 +1,1 @@
+TDAT: public int compare to ( object obj ) {  <NL> category c = ( category ) obj ;  <NL> if ( c = = null || c . get name ( ) = = null ) return 1 ;  <NL> if ( this . get name ( ) = = null ) return - 1 ;  <NL> return this . get name ( ) . compare to ignore case ( c . get name ( ) ) ;  <NL>  }  COM: <s> null before everything </s>

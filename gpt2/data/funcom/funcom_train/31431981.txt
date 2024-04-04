@@ -1,0 +1,1 @@
+TDAT: public void sort by rank ( final list < partition > lst ) {  <NL> comparator < partition > c = new comparator < partition > ( ) {  <NL> public int compare ( partition p1 , partition p2 ) {  <NL> return p2 . number of blocks ( ) - p1 . number of blocks ( ) ;  <NL>  }  <NL>  } ;  <NL> collections . sort ( lst , c ) ;  <NL>  }  COM: <s> sort by rank </s>

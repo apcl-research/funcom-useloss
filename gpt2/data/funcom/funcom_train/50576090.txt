@@ -1,0 +1,1 @@
+TDAT: private int get key ( string path ) throws exception {  <NL> disc info disc info = ( ( cd drive ) ( ( cd device ) tuneology . get app ( ) . factory . find device ( path ) ) . get drive ( ) ) . get disc info ( ) ;  <NL> return ( disc info ! = null ) ? disc info . get disc id ( ) : - 1 ;  <NL>  }  COM: <s> returns the freedb id of the cd in the specified drive </s>

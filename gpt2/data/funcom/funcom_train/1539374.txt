@@ -1,0 +1,1 @@
+TDAT: public string vars to string ( ) {  <NL> string s = " " ;  <NL> if ( vars = = null ) {  <NL> return s + " # " + nvar ;  <NL>  }  <NL> for ( int i = 0 ; i < vars . length ; i + + ) {  <NL> if ( i ! = 0 ) {  <NL> s + = " , " ;  <NL>  }  <NL> s + = vars [ i ] ;  <NL>  }  <NL> return s ;  <NL>  }  COM: <s> get a string representation of the variable names </s>

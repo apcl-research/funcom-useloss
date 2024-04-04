@@ -1,0 +1,1 @@
+TDAT: private void set heal unit animation ( image image ) {  <NL> this . healing = new animation ( new sprite sheet ( image , 72 , 72 ) , frame _ slow _ interval ) ;  <NL> this . get heal unit animation ( ) . set looping ( true ) ;  <NL> this . get heal unit animation ( ) . set auto update ( false ) ;  <NL>  }  COM: <s> set the healing animation for </s>

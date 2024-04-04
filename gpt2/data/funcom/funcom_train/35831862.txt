@@ -1,0 +1,1 @@
+TDAT: public void set position ( int x coord , int y coord , int size ) {  <NL> box . x = x coord ;  <NL> box . y = y coord ;  <NL> box . height = size ;  <NL> box . width = size ;  <NL> mid point = new point ( ( box . x + box . x + size ) / 2 , ( box . y + box . y + size ) / 2 ) ;  <NL>  }  COM: <s> sets the nodes position on the screen </s>

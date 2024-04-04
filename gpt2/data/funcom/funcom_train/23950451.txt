@@ -1,0 +1,1 @@
+TDAT: public double get intercept ( ) {  <NL> double dx = p2 . get x ( ) - p1 . get x ( ) ;  <NL> if ( config . is zero ( dx ) ) {  <NL> return double . na n ;  <NL>  } else {  <NL> return ( p2 . get x ( ) * p1 . get y ( ) - p1 . get x ( ) * p2 . get y ( ) ) / dx ;  <NL>  }  <NL>  }  COM: <s> a y intercept of the straight line equation in the slope intercept form </s>

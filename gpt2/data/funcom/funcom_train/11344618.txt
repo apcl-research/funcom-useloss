@@ -1,0 +1,1 @@
+TDAT: public void dump bundles ( bundle context bc ) {  <NL> get log ( ) . info ( " bundles : " ) ;  <NL> bundle [ ] bundles = bc . get bundles ( ) ;  <NL> for ( int i = 0 ; i < bundles . length ; i + + ) {  <NL> get log ( ) . info ( bundles [ i ] . get symbolic name ( ) + " - " + bundles [ i ] . get state ( ) ) ;  <NL>  }  <NL>  }  COM: <s> prints the bundle list </s>

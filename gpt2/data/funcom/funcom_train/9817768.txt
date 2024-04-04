@@ -1,0 +1,1 @@
+TDAT: public boolean falling clock edge at index ( int schedule _ index ) {  <NL> int prev _ index = ( schedule _ index = = 0 ) ? ( int _ schedule . length - 1 ) : ( schedule _ index - 1 ) ;  <NL> return ( int _ schedule [ prev _ index ] = = 1 & & int _ schedule [ schedule _ index ] = = 0 ) ;  <NL>  }  COM: <s> returns true if at a falling clock edge </s>

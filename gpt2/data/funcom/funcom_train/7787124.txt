@@ -1,0 +1,1 @@
+TDAT: private void populate pet types ( ) {  <NL> list < nv entry > list = get named vocabulary manager ( ) . get list ( " pettypes " ) ;  <NL> for ( nv entry entry : list ) {  <NL> pet type pet type = new pet type ( ) ;  <NL> pet type . set name ( entry . get value ( ) ) ;  <NL> clinic . store pet type ( pet type ) ;  <NL>  }  <NL>  }  COM: <s> populates types table </s>

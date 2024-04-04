@@ -1,0 +1,1 @@
+TDAT: public void pan ( int dx , int dy ) {  <NL> map rect . x = math . max ( 0 , math . min ( map rect . x + dx , map rect . width - width ) ) ;  <NL> map rect . y = math . max ( 0 , math . min ( map rect . y + dy , map rect . height - height ) ) ;  <NL>  }  COM: <s> pan the view by the given amount in each direction </s>

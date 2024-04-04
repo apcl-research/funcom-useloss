@@ -1,0 +1,1 @@
+TDAT: public boolean on update record ( server command sc , object o ) {  <NL>  ( ( wag default table fields ) o ) . set user id update ( sc . get username ( ) ) ;  <NL>  ( ( wag default table fields ) o ) . set last update ( new java . sql . timestamp ( system . current time millis ( ) ) ) ;  <NL> return true ;  <NL>  }  COM: <s> called before a record update </s>

@@ -1,0 +1,1 @@
+TDAT: public string get role ( ) {  <NL> string base uri = this . get txg source ( ) . get target namespace ( ) ;  <NL> if ( ! base uri . ends with ( " / " ) )  <NL> return base uri + " / role / " + this . get name ( ) ;  <NL> else <NL> return base uri + " role / " + this . get name ( ) ;  <NL>  <NL>  }  COM: <s> generates a role uri attribute for the schema </s>

@@ -1,0 +1,1 @@
+TDAT: protected void x fill oval ( graphics g , int x , int y , int height _ r , int width _ r ) {  <NL> g . fill oval ( scale _ x ( x - width _ r ) + x _ origin , scale _ y ( y - height _ r ) + y _ origin ,  <NL> scale _ x ( width _ r * 2 ) , scale _ y ( height _ r * 2 ) ) ;  <NL>  }  COM: <s> draw a scaled translated and filled oval </s>

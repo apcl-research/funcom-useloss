@@ -1,0 +1,1 @@
+TDAT: public cms html list get list ( ) {  <NL>  <NL> if ( ( m _ list ! = null ) & & ( m _ list . get metadata ( ) = = null ) ) {  <NL> m _ list . set metadata ( get metadata ( get class ( ) . get name ( ) , m _ list . get id ( ) ) ) ;  <NL>  }  <NL> return m _ list ;  <NL>  }  COM: <s> returns the list </s>

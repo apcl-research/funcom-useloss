@@ -1,0 +1,1 @@
+TDAT: public object get value ( string column name , int row num ) {  <NL> object obj = null ;  <NL> list row = get row ( row num ) ;  <NL> if ( row ! = null ) {  <NL> int i = m _ columns . index of ( column name ) ;  <NL> if ( i ! = - 1 )  <NL> obj = row . get ( i ) ;  <NL>  }  <NL> return obj ;  <NL>  }  COM: <s> return a field value from a given row </s>

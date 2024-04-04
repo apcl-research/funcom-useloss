@@ -1,0 +1,1 @@
+TDAT: public builder merge from ( final unknown field set other ) {  <NL> if ( other ! = get default instance ( ) ) {  <NL> for ( final map . entry < integer , field > entry : other . fields . entry set ( ) ) {  <NL> merge field ( entry . get key ( ) , entry . get value ( ) ) ;  <NL>  }  <NL>  }  <NL> return this ;  <NL>  }  COM: <s> merge the fields from </s>

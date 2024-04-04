@@ -1,0 +1,1 @@
+TDAT: public boolean level is enabled ( int level , trace id trace id ) {  <NL> if ( trace id = = null ) {  <NL> return level < this . no send level ;  <NL>  } else {  <NL> return ( ( trace id . compare to ( trace id . null _ trace _ id ) ! = 0 ) || <NL>  ( level < this . no send level ) ) ;  <NL>  }  <NL>  }  COM: <s> a check for the log level that is set </s>

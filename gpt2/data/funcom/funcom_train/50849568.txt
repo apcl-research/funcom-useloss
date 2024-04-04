@@ -1,0 +1,1 @@
+TDAT: public void draw ( gl gl , glu glu ) {  <NL> gl . gl begin ( gl . gl _ points ) ;  <NL> gl . gl color4f ( 1f , 1f , 0 . 8f , 0 . 5f ) ;  <NL> for ( int pos = 0 ; pos < star count ; pos + + ) {  <NL> gl . gl vertex3fv ( star positions [ pos ] , 0 ) ;  <NL>  }  <NL> gl . gl end ( ) ;  <NL>  }  COM: <s> draws the stars in the background </s>

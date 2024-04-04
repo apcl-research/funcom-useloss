@@ -1,0 +1,1 @@
+TDAT: public void set button ( j button button ) {  <NL> this . button = button ;  <NL> if ( button ! = null ) button . add action listener ( new action listener ( ) {  <NL> public void action performed ( action event event ) {  <NL> choose path ( ( ( j button ) event . get source ( ) ) . get parent ( ) ) ;  <NL>  }  <NL>  } ) ;  <NL>  }  COM: <s> setting button for editor </s>

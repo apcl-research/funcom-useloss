@@ -1,0 +1,1 @@
+TDAT: public void add ( multidimensional distance add ) {  <NL> if ( add . dist = = integer . max _ value || dist = = integer . max _ value ) {  <NL> dist = integer . max _ value ;  <NL>  } else {  <NL> dist + = add . dist ;  <NL>  }  <NL> plus + = add . plus ;  <NL> real dist + = add . real dist ;  <NL> pot + = add . pot ;  <NL>  }  COM: <s> adds a distance to this distance </s>

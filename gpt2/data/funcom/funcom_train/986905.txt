@@ -1,0 +1,1 @@
+TDAT: public void gl color3f ( float red , float green , float blue ) {  <NL> cc . gl _ color ( gl _ util . clamp ( red , 0 . 0 , 1 . 0 ) ,  <NL> gl _ util . clamp ( green , 0 . 0 , 1 . 0 ) ,  <NL> gl _ util . clamp ( blue , 0 . 0 , 1 . 0 ) ,  <NL> 1 . 0f ) ;  <NL>  }  COM: <s> glvoid gl color3f glfloat red glfloat green glfloat blue </s>

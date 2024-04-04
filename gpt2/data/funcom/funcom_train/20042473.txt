@@ -1,0 +1,1 @@
+TDAT: public void _ next script ( ) {  <NL> string multi script = " ab " + katakana + " cd " ;  <NL>  <NL> int pos = o obj . next script ( multi script , 0 , script type . latin ) ;  <NL>  <NL> log . println ( " position = " + pos ) ;  <NL>  <NL> t res . tested ( " next script ( ) " , pos = = 4 ) ;  <NL>  }  COM: <s> tries to find the next script starting position specified </s>

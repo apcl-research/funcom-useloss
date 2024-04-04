@@ -1,0 +1,1 @@
+TDAT: public void set resource ref ( i _ jo servlet context peer a peer , node a node ) {  <NL> if ( a node = = null ) return ;  <NL> if ( log . is log ( host . get name ( ) ) ) {  <NL> log . log ( " warning : resource references are not supported yet . " , c _ log . error ) ;  <NL>  }  <NL>  }  COM: <s> registers a resource ref </s>

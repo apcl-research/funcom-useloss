@@ -1,0 +1,1 @@
+TDAT: public void visit all files ( file dir ) {  <NL> if ( dir . is directory ( ) ) {  <NL> string [ ] children = dir . list ( ) ;  <NL> for ( int i = 0 ; i < children . length ; i + + ) {  <NL> visit all files ( new file ( dir , children [ i ] ) ) ;  <NL>  }  <NL>  } else {  <NL> process ( dir ) ;  <NL>  }  <NL>  }  COM: <s> process only files under directory </s>

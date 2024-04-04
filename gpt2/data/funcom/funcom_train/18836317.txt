@@ -1,0 +1,1 @@
+TDAT: protected void fire event ( string event type , end point source , object payload ) {  <NL> for ( enumeration e = this . listeners . elements ( ) ; e . has more elements ( ) ; ) {  <NL>  ( ( bt listener ) e . next element ( ) ) . handle action ( event type , source , payload ) ;  <NL>  }  <NL>  }  COM: <s> sends an event to listening </s>

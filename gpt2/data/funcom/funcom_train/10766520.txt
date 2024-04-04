@@ -1,0 +1,1 @@
+TDAT: public boolean is11 ( ) {  <NL> return get type ( ) . get namespace uri ( ) ! = null & &  <NL>  ( get type ( ) . get namespace uri ( ) . equals ( bpel11q names . ns _ bpel4ws _ 2003 _ 03 )  <NL> || get type ( ) . get namespace uri ( ) . equals ( bpel11q names . ns _ bpel4ws _ partnerlink _ 2003 _ 05 ) ) ;  <NL>  }  COM: <s> is this a bpel 1 </s>

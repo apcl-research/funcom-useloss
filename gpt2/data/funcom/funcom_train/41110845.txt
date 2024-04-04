@@ -1,0 +1,1 @@
+TDAT: private void temp label image ( int [ ] pixels ) {  <NL> for ( int y = 0 ; y < height ; y + + ) {  <NL> for ( int x = 0 ; x < width ; x + + ) {  <NL> pixels [ y * width + x ] = util . set rgb ( 0 , 0 , 0 ) ;  <NL>  }  <NL>  }  <NL> for ( int y = 0 ; y < 3 ; y + + ) {  <NL> temp label row ( y , y + 1 , pixels ) ;  <NL>  }  <NL>  }  COM: <s> for testing devel use only </s>

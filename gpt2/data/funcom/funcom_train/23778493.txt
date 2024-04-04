@@ -1,0 +1,1 @@
+TDAT: public void lex state notify ( int arg current state , int arg next state ) {  <NL> system . out . println ( " token manager : current = " + sas base parser token manager . lex state names [ arg current state ] + " , next = " + sas base parser token manager . lex state names [ arg next state ] ) ;  <NL>  }  COM: <s> debug method for printing lexical states </s>

@@ -1,0 +1,1 @@
+TDAT: private void build ( ) {  <NL> set title ( " ; blink " ) ;  <NL> set size ( 640 , 320 ) ;  <NL> set location relative to ( null ) ;  <NL> set default close operation ( j frame . exit _ on _ close ) ;  <NL> set j menu bar ( new i blink menu bar ( ) ) ;  <NL> set content pane ( build content pane ( ) ) ;  <NL>  }  COM: <s> builds the frame </s>

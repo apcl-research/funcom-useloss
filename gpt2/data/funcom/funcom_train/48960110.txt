@@ -1,0 +1,1 @@
+TDAT: public void set tags ( string tags ) {  <NL> this . tags = has text ( tags ) ? local util . join ( sanitize ( tags . split ( " , " ) ) , " , " ) : null ;  <NL> if ( has text ( this . tags ) ) {  <NL> this . tags = this . tags . replace all ( " , { 2 , } " , " , " ) ;  <NL>  }  <NL>  }  COM: <s> removes unnecessary spaces and null elements before setting the tag cloud </s>

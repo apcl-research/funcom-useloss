@@ -1,0 +1,1 @@
+TDAT: public delaunay panel ( ) {  <NL> initial triangle = new simplex ( new pnt [ ] {  <NL> new pnt ( - initial size , - initial size ) ,  <NL> new pnt ( initial size , - initial size ) ,  <NL> new pnt ( 0 , initial size ) } ) ;  <NL> dt = new delaunay triangulation ( initial triangle ) ;  <NL>  }  COM: <s> create and initialize the dt </s>

@@ -1,0 +1,1 @@
+TDAT: private void fill xml attributes ( attributes att ) {  <NL> f attributes . remove all attributes ( ) ;  <NL> final int len = att . get length ( ) ;  <NL> for ( int i = 0 ; i < len ; + + i ) {  <NL> fill xml attribute ( att , i ) ;  <NL> f attributes . set specified ( i , true ) ;  <NL>  }  <NL>  }  COM: <s> fills in the xmlattributes object </s>

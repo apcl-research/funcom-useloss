@@ -1,0 +1,1 @@
+TDAT: public void uncaught exception ( thread t , throwable e ) {  <NL> if ( parent ! = null ) {  <NL> parent . uncaught exception ( t , e ) ;  <NL>  } else if ( ! ( e instanceof thread death ) ) {  <NL>  / / no parent group , has to be ' system ' thread group <NL> e . print stack trace ( system . err ) ;  <NL>  }  <NL>  }  COM: <s> handles uncaught exceptions </s>

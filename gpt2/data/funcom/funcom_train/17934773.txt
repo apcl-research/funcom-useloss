@@ -1,0 +1,1 @@
+TDAT: public void add text3d ( string text , int x , int y , int z , color color , int size ) {  <NL> if ( this . text3d = = null ) this . text3d = new array list ( ) ;  <NL> text3d t3d = new text3d ( text , x - x center , y - y center , z - z center , color , size ) ;  <NL> this . text3d . add ( t3d ) ;  <NL>  }  COM: <s> adds a text to the 3 d scene </s>

@@ -1,0 +1,1 @@
+TDAT: private dimension get string dimension ( graphics g , string s ) {  <NL> font metrics fm = g . get font metrics ( ) ;  <NL> rectangle2d r2d = fm . get string bounds ( s , g ) ;  <NL> return new dimension ( ( int ) ( r2d . get width ( ) + . 5 ) ,  <NL>  ( int ) ( r2d . get height ( ) + . 5 ) ) ;  <NL>  }  COM: <s> gets the width and height in pixels of the given string </s>

@@ -1,0 +1,1 @@
+TDAT: public void add rect ( int x1 , int y1 , int x2 , int y2 ) {  <NL> int i = rect [ 0 ] ;  <NL> rect = multi rect area op . check buf size ( rect , 4 ) ;  <NL> rect [ i + + ] = x1 ;  <NL> rect [ i + + ] = y1 ;  <NL> rect [ i + + ] = x2 ;  <NL> rect [ i + + ] = y2 ;  <NL>  }  COM: <s> add rectangle to the buffer without any checking </s>

@@ -1,0 +1,1 @@
+TDAT: public void paint ( final graphics thing ) {  <NL> thing . set color ( new color ( red bar . get value ( ) , green bar . get value ( ) , blue bar . get value ( ) ) ) ;  <NL> thing . fill3d rect ( 25 , 180 , 250 , 30 , true ) ;  <NL>  }  COM: <s> over ride the paint call to colour our sample box </s>

@@ -1,0 +1,1 @@
+TDAT: private boolean intersect ( widget widget , int x min , int y min , int x max , int y max ) {  <NL> return ( x max > widget . get x ( )  <NL>  & & y max > widget . get y ( )  <NL>  & & widget . get x ( ) + widget . get width ( ) > x min <NL>  & & widget . get y ( ) + widget . get height ( ) > y min ) ;  <NL>  }  COM: <s> check regions intersection </s>

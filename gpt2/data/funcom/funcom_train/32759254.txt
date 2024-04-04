@@ -1,0 +1,1 @@
+TDAT: public void display curves ( basic graph data crv hor , basic graph data crv ver , basic graph data crv dia ) {  <NL> display curve with attrs ( data . angle . hor , crv hor ) ;  <NL> display curve with attrs ( data . angle . ver , crv ver ) ;  <NL> display curve with attrs ( data . angle . dia , crv dia ) ;  <NL>  }  COM: <s> displays the given curves on the plots </s>

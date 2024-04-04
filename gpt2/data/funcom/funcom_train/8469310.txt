@@ -1,0 +1,1 @@
+TDAT: private void check indices ( int row , int col ) {  <NL> if ( row < 0 || row > = rows )  <NL> throw new array index out of bounds exception ( " row : " + row ) ;  <NL> else if ( col < 0 || col > = cols )  <NL> throw new array index out of bounds exception ( " column : " + col ) ;  <NL>  }  COM: <s> check that the indices of a requested cell are within bounds </s>

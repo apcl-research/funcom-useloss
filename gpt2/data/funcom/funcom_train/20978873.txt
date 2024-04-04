@@ -1,0 +1,1 @@
+TDAT: private j text pane get ed chat ( ) {  <NL> if ( ed chat = = null ) {  <NL> ed chat = new j text pane ( ) ;  <NL> ed chat . set editable ( false ) ;  <NL> ed chat . set font ( new font ( " monospaced " , font . plain , 12 ) ) ;  <NL> ed chat . set opaque ( false ) ;  <NL>  }  <NL> return ed chat ;  <NL>  }  COM: <s> this method initializes ed chat </s>

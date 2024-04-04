@@ -1,0 +1,1 @@
+TDAT: private void set probability of success internal ( double p ) {  <NL> if ( p < 0 . 0 || p > 1 . 0 ) {  <NL> throw math runtime exception . create illegal argument exception (  <NL>  " { 0 } out of [ { 1 } , { 2 } ] range " , p , 0 . 0 , 1 . 0 ) ;  <NL>  }  <NL> probability of success = p ;  <NL>  }  COM: <s> change the probability of success for this distribution </s>

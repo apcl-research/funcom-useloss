@@ -1,0 +1,1 @@
+TDAT: public void validate range ( int from , int to ) throws range not valid exception {  <NL> if ( from < 0 || to < 0 || from > to ) {  <NL> throw new range not valid exception ( from , to , " a range from \ " " + from <NL>  + " \ " to \ " " + to + " \ " is not supported . " ) ;  <NL>  }  <NL>  }  COM: <s> validates a range and throws an </s>

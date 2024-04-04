@@ -1,0 +1,1 @@
+TDAT: protected void set name ( month transactions month _ p , boolean add account notifier _ p ) {  <NL> string part name = misc helper . get graphical component name ( month _ p , add account notifier _ p ? _ view name listener : null ) ;  <NL> if ( null ! = part name ) {  <NL> set part name ( part name . to string ( ) ) ;  <NL>  }  <NL>  }  COM: <s> set view name </s>

@@ -1,0 +1,1 @@
+TDAT: public void put all ( map < ? extends t , ? extends t > data ) {  <NL> set < ? extends t > key set = data . key set ( ) ;  <NL>  <NL> for ( t key : key set ) {  <NL> t value = data . get ( key ) ;  <NL>  <NL> if ( value ! = null ) {  <NL> put ( key , value ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> this method is used to insert a collection of tokens into </s>

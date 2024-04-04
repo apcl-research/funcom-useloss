@@ -1,0 +1,1 @@
+TDAT: public void set skin locations ( string [ ] directories ) {  <NL> this . directories = directories ;  <NL> vector skins = new vector ( ) ;  <NL> for ( int i = 0 , c = directories . length ; i < c ; i + + ) {  <NL> build skin list ( skins , new file ( directories [ i ] ) ) ;  <NL>  }  <NL> skin list . set list data ( skins ) ;  <NL>  }  COM: <s> set search paths </s>

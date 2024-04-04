@@ -1,0 +1,1 @@
+TDAT: public void encode ( encoder encoder ) throws coding exception {  <NL> encoder . encode string ( script _ key , script ) ;  <NL> encoder . encode object ( target _ key , ( codable ) target ) ;  <NL> encoder . encode string ( command _ key , command ) ;  <NL> encoder . encode boolean ( liveconnect _ key , using live connect ) ;  <NL>  }  COM: <s> encodes the script </s>

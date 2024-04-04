@@ -1,0 +1,1 @@
+TDAT: public void fix parameter ( string id , double value ) {  <NL> parameter parameter = ( parameter ) parameters . get ( id ) ;  <NL> if ( parameter = = null ) { throw new illegal argument exception ( " parameter with name , " + id + " , is unknown " ) ; }  <NL> parameter . is fixed = true ;  <NL> parameter . initial = value ;  <NL>  }  COM: <s> fix a parameter </s>

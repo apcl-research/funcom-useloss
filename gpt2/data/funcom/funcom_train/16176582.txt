@@ -1,0 +1,1 @@
+TDAT: public string to xml ( ) {  <NL> string buffer b = new string buffer ( " < chart model type = \ " sequence chart\ " " ) ;  <NL> b . append ( super . get xml ( ) ) ;  <NL> b . append ( " \n " ) ;  <NL> b . append ( " < / chart model > " ) ;  <NL> return b . to string ( ) ;  <NL>  }  COM: <s> returns an xml representation of this sequence chart model </s>

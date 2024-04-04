@@ -1,0 +1,1 @@
+TDAT: private void expand parms ( logmsg logmsg , event event , map < string , map < string , string > > decode ) {  <NL> string str ret = event util . expand parms ( logmsg . get content ( ) , event , decode ) ;  <NL> if ( str ret ! = null ) {  <NL> logmsg . set content ( str ret ) ;  <NL>  }  <NL>  }  COM: <s> expand parms in the event logmsg </s>

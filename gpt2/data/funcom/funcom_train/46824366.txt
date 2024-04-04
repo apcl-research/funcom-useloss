@@ -1,0 +1,1 @@
+TDAT: public camelot step ( int from _ i , int from _ j , int to _ i , int to _ j , int type , int direction , int captured _ piece ) {  <NL> this ( new camelot loc ( from _ i , from _ j ) , new camelot loc ( to _ i , to _ j ) , type , direction , captured _ piece ) ;  <NL>  }  COM: <s> constructor that creates a move given coordianates </s>

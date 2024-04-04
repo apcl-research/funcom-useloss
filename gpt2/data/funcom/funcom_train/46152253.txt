@@ -1,0 +1,1 @@
+TDAT: public void rewind ( ) {  <NL> if ( player ready ( ) ) {  <NL> logger . info ( " video player : rewind " ) ;  <NL> if ( is synced ( ) ) {  <NL>  / / sync other clients <NL> send camera request ( action . rewind , null ) ;  <NL>  } else {  <NL> set position relative ( get position ( ) , - 5 ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> rewinds the video by 5 seconds </s>

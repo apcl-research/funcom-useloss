@@ -1,0 +1,1 @@
+TDAT: public void set to play ( int p ) {  <NL> if ( p = = 1 ) {  <NL> to play label . set icon ( black icon ) ;  <NL> to play label . set text ( " black to play " ) ;  <NL>  }  <NL> else {  <NL> to play label . set icon ( white icon ) ;  <NL> to play label . set text ( " white to play " ) ;  <NL>  }  <NL>  }  COM: <s> sets the current player to black or white </s>

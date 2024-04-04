@@ -1,0 +1,1 @@
+TDAT: public relation identity ( ) {  <NL> relation r = new hash rel ( ) ;  <NL> int i = 0 ;  <NL> for ( object [ ] o = to array ( ) ; i < o . length ; + + i ) {  <NL> maplet m = new maplet ( o [ i ] , o [ i ] ) ;  <NL> r . add ( m ) ;  <NL>  }  <NL> return r ;  <NL>  }  COM: <s> constructs a relation mapping each value in this set onto itself </s>

@@ -1,0 +1,1 @@
+TDAT: public byte read byte ( ) {  <NL> if ( pos > = size ) {  <NL> try {  <NL> pos = 0 ;  <NL> len + = size ;  <NL> size = in . read ( buffer ) ;  <NL> if ( size < = 0 ) return 0 ;  <NL>  } catch ( final io exception ex ) {  <NL> ex . print stack trace ( ) ;  <NL>  }  <NL>  }  <NL> return buffer [ pos + + ] ;  <NL>  }  COM: <s> returns the next byte </s>

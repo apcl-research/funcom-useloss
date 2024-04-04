@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> string x = super . to string ( ) ;  <NL> return ( new string buffer ( x = = null ? " < ? ? ? " : x . substring ( 0 , x . length ( ) - 2 ) ) )  <NL>  . append ( " label = ' " )  <NL>  . append ( m _ label )  <NL>  . append ( " ' > " )  <NL>  . to string ( ) ;  <NL>  }  COM: <s> display the tag name and label </s>

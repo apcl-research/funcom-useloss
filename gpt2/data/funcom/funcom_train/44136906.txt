@@ -1,0 +1,1 @@
+TDAT: public void show dialog and exit ( ) {  <NL> string title = " erreur interne / internal error " ;  <NL> string msg = m _ fr msg + " / " + m _ en msg ;  <NL> j option pane . show message dialog ( this , msg , title , j option pane . error _ message ) ;  <NL> system . exit ( - 1 ) ;  <NL>  }  COM: <s> to show an error dialog box and exit application </s>

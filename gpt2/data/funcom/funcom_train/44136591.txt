@@ -1,0 +1,1 @@
+TDAT: public void notify snd media set ( osm element elt ) {  <NL> for ( int i = 0 ; i < m _ client list . size ( ) ; i + + ) {  <NL> osm element event listener lster = ( osm element event listener ) m _ client list . get ( i ) ;  <NL> lster . on snd media set ( new osm element event ( elt ) ) ;  <NL>  }  <NL>  }  COM: <s> to notify the set of a sound media </s>

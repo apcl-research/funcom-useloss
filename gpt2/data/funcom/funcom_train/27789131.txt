@@ -1,0 +1,1 @@
+TDAT: public string get documents xml ( long [ ] ids , boolean headers ) {  <NL> mdv document [ ] docs = get documents ( ids ) ;  <NL> string res = " " ;  <NL> for ( int i = 0 ; i < docs . length ; i + + ) {  <NL> res = res + docs [ i ] . to xml string ( headers ) ;  <NL>  }  <NL> return res ;  <NL>  }  COM: <s> possibly without the document </s>

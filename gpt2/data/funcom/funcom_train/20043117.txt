@@ -1,0 +1,1 @@
+TDAT: public void _ set model ( ) {  <NL> a model = o obj . get model ( ) ;  <NL> x control model the _ model = ( x control model ) t env . get obj relation ( " model " ) ;  <NL> o obj . set model ( the _ model ) ;  <NL> t res . tested ( " set model ( ) " , true ) ;  <NL>  }  COM: <s> at first current model is obtained and saved to variable a model </s>

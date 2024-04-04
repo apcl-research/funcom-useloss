@@ -1,0 +1,1 @@
+TDAT: private void register lines ( i interval relation relation , int [ ] coords ) {  <NL> for ( int i = 0 ; i < = coords . length - 4 ; i + = 2 ) {  <NL>  _ cache . add ( new line ( relation , coords [ i ] , coords [ i + 1 ] , coords [ i + 2 ] , coords [ i + 3 ] ) ) ;  <NL>  }  <NL>  }  COM: <s> register a line for later recognition </s>

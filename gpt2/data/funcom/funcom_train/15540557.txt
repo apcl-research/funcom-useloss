@@ -1,0 +1,1 @@
+TDAT: public boolean on change ( gwanted event event ) {  <NL> if ( event . get type ( ) . equals ignore case ( change listener . event _ type ) ) {  <NL> if ( get caller ( ) ! = null ) {  <NL> dom . set element attribute ( get caller ( ) , " value " , " " + slide bar <NL>  . get value ( ) ) ;  <NL>  }  <NL>  }  <NL> return true ;  <NL>  }  COM: <s> set value to the caller </s>

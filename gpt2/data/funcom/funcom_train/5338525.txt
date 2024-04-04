@@ -1,0 +1,1 @@
+TDAT: public void paint ( graphics g ) {  <NL> g . set color ( color . black ) ;  <NL> g . set font ( address font ) ;  <NL> g . draw string ( ' ( ' + integer . to hex string ( address ) + ' ) ' , x0 , y0 ) ;  <NL> mv . set value ( as . get value ( address , 0 ) ) ;  <NL> mv . draw ( g ) ;  <NL>  }  COM: <s> paint address in hex bit cells and value in hex </s>

@@ -1,0 +1,1 @@
+TDAT: public void test row count ( ) throws expression exception {  <NL> assert true ( exi . eval int ( " $ { customers row count } " , properties , format helper ) = = 3 ) ;  <NL> assert true ( exi . eval int ( " $ { customers size } " , properties , format helper ) = = 3 ) ;  <NL>  }  COM: <s> tests the row count operation </s>

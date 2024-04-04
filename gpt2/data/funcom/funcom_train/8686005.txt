@@ -1,0 +1,1 @@
+TDAT: public boolean is selected ( file basedir , string filename , file file ) {  <NL> if ( file . is directory ( ) ) {  <NL> return false ; / / quick return : directories cannot be signed <NL>  }  <NL> is signed . set project ( get project ( ) ) ;  <NL> is signed . set file ( file ) ;  <NL> return is signed . eval ( ) ;  <NL>  }  COM: <s> the heart of the matter </s>

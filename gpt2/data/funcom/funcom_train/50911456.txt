@@ -1,0 +1,1 @@
+TDAT: public real array get y array ( ) {  <NL> double [ ] f = new double [ size ( ) ] ;  <NL> int count = 0 ;  <NL> for ( int i = 0 ; i < size ( ) ; i + + ) {  <NL> real2 p = get real2 ( i ) ;  <NL> f [ count + + ] = p . get y ( ) ;  <NL>  }  <NL> return new real array ( f ) ;  <NL>  }  COM: <s> get the y coordinate array </s>

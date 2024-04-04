@@ -1,0 +1,1 @@
+TDAT: public byte buffer get byte buffer ( ) {  <NL> if ( byte buffer = = null || byte buffer . array ( ) ! = buff ) {  <NL> byte buffer = byte buffer . wrap ( buff , start , end - start ) ;  <NL>  } else {  <NL> byte buffer . position ( start ) ;  <NL> byte buffer . limit ( end ) ;  <NL>  }  <NL> return byte buffer ;  <NL>  }  COM: <s> return a byte buffer </s>

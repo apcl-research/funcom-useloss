@@ -1,0 +1,1 @@
+TDAT: public void increment word count ( string word , int inc ) {  <NL> integer count = ( integer ) map . get ( word ) ;  <NL> if ( count = = null )  <NL> count = new integer ( inc ) ;  <NL> else <NL> count = new integer ( count . int value ( ) + inc ) ;  <NL> map . put ( word , count ) ;  <NL> total + = inc ;  <NL>  }  COM: <s> increments the count associated with a word </s>

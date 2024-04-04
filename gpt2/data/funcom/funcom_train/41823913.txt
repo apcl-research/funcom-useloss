@@ -1,0 +1,1 @@
+TDAT: public void run ( ) {  <NL> byte ch = 0 ;  <NL> try {  <NL> while ( ( ch = ( byte ) in stream . read ( ) ) ! = - 1 )  <NL> p stream . print ( ( char ) ch ) ;  <NL>  } catch ( io exception e ) {  <NL> system . err . println ( " input or output error : " + e ) ;  <NL> return ;  <NL>  }  <NL>  }  COM: <s> a threads run method does the work </s>

@@ -1,0 +1,1 @@
+TDAT: private void generate cut planes ( int number of planes ) {  <NL> plane . set normal ( cam1 . get view plane normal ( ) ) ;  <NL> plane . set origin ( cam1 . get focal point ( ) ) ;  <NL> cutter . generate values ( number of planes , - 5 , 5 ) ;  <NL> clut . set alpha range ( opacity , opacity ) ;  <NL>  }  COM: <s> generates cut planes normal to cameras view plane </s>

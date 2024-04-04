@@ -1,0 +1,1 @@
+TDAT: public void clear ( ) {  <NL> int h = head ;  <NL> int t = tail ;  <NL> if ( h ! = t ) { / / clear all cells <NL> head = tail = 0 ;  <NL> int i = h ;  <NL> int mask = elements . length - 1 ;  <NL> do {  <NL> elements [ i ] = null ;  <NL> i = ( i + 1 ) & mask ;  <NL>  } while ( i ! = t ) ;  <NL>  }  <NL>  }  COM: <s> removes all of the elements from this deque </s>

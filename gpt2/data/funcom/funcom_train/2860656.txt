@@ -1,0 +1,1 @@
+TDAT: public void update ( byte [ ] b , int off , int len ) {  <NL> short total = 0 ;  <NL>  <NL> for ( int i = off ; i < len ; i + + ) {  <NL> total + = b [ i ] ;  <NL>  }  <NL>  / / two ' s complement <NL> total = ( short ) ~ total ;  <NL> total + + ;  <NL>  <NL> this . value = total ;  <NL>  }  COM: <s> updates the current checksum with the specified array of bytes </s>

@@ -1,0 +1,1 @@
+TDAT: public void execute ( ) {  <NL> if ( rc = = null ) {  <NL> throw new build exception ( one _ nested _ message ) ;  <NL>  }  <NL> if ( property = = null ) {  <NL> log ( " resource count = " + rc . size ( ) ) ;  <NL>  } else {  <NL> get project ( ) . set new property ( property , integer . to string ( rc . size ( ) ) ) ;  <NL>  }  <NL>  }  COM: <s> execute as a task </s>

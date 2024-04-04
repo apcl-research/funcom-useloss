@@ -1,0 +1,1 @@
+TDAT: public void set parameters ( double m , double s ) {  <NL> if ( s < = 0 ) s = 1 ;  <NL> mu = m ;  <NL> sigma = s ;  <NL> double upper = get mean ( ) + 3 * get sd ( ) ;  <NL> super . set parameters ( 0 , upper , 0 . 01 * upper , continuous ) ;  <NL>  }  COM: <s> this method sets the parameters computes the default interval </s>

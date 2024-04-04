@@ -1,0 +1,1 @@
+TDAT: public void add _ response ( string _ state , string pattern , string resp _ func ) {  <NL> string [ ] resp = new string [ 3 ] ;  <NL> resp [ 0 ] = _ state ;  <NL> resp [ 1 ] = resp _ func ;  <NL> resp [ 2 ] = pattern ;  <NL> responses . put ( new integer ( responses . size ( ) ) . to string ( ) , resp ) ;  <NL>  }  COM: <s> adds a response to the responses list </s>

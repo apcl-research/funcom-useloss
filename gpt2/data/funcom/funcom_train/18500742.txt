@@ -1,0 +1,1 @@
+TDAT: public double compute ( object s , object t ) {  <NL> string news = ( string ) s ;  <NL> string newt = ( string ) t ;  <NL> if ( news . equals ( newt ) ) return 1 . 0 ;  <NL> else return ( ( double ) max sub string ( news , newt ) / ( double ) math . max ( news . length ( ) , newt . length ( ) ) ) ;  <NL>  }  COM: <s> applies the similarity function </s>

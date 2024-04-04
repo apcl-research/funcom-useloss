@@ -1,0 +1,1 @@
+TDAT: public product info manufacture search ( string manufacture name , string mode , string page ) {  <NL> string search type = " manufacturer search " ;  <NL> string type = " lite " ;  <NL> string offer = " all " ;  <NL> return generic ( search type , manufacture name , mode , type , page , offer ) ;  <NL>  }  COM: <s> search by manufacture </s>

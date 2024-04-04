@@ -1,0 +1,1 @@
+TDAT: public boolean is corner ( point _ dt p ) {  <NL> return ( p . x = = a . x & p . y = = a . y ) | ( p . x = = b . x & p . y = = b . y ) | ( p . x = = c . x & p . y = = c . y ) ;  <NL>  }  COM: <s> checks if the given point is a corner of this triangle </s>

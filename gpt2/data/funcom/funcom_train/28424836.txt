@@ -1,0 +1,1 @@
+TDAT: public void put row ( int row , list data ) {  <NL> remove row ( row ) ;  <NL> iterator it = data . iterator ( ) ;  <NL> for ( int x = 0 ; it . has next ( ) ; x + + ) {  <NL> put ( x + get min x ( ) , row , it . next ( ) ) ;  <NL>  }  <NL>  }  COM: <s> inserts the given data into the row </s>

@@ -1,0 +1,1 @@
+TDAT: public void execute command ( command c ) {  <NL> double value = c . get value ( ) ;  <NL> if ( value > 1 . 0 ) {  <NL> value = 1 . 0 ;  <NL>  }  <NL> if ( value < - 1 . 0 ) {  <NL> value = - 1 . 0 ;  <NL>  }  <NL> system . out . println ( this + " " + c . get value ( ) ) ;  <NL> victor . set ( value ) ;  <NL>  }  COM: <s> executes a command </s>

@@ -1,0 +1,1 @@
+TDAT: public void my sql connect ( string conn string , string user , string password ) throws exception , sql exception {  <NL> class . for name ( " com . mysql . jdbc . driver " ) . new instance ( ) ;  <NL> conn = driver manager . get connection ( " jdbc : mysql : / / localhost : 3306 / containingdb " , " root " , " aladinn33 + " ) ;  <NL>  }  COM: <s> my sql connect </s>

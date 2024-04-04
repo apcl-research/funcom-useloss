@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> string buffer bf = new string buffer ( ) ;  <NL> bf . append ( " p : " ) ;  <NL> for ( int i = 0 ; i < points . length ; i + + )  <NL> if ( i ! = 0 )  <NL> bf . append ( " , " + points [ i ] ) ;  <NL> else <NL> bf . append ( " " + points [ i ] ) ;  <NL> return bf . to string ( ) ;  <NL>  }  COM: <s> prints the node </s>

@@ -1,0 +1,1 @@
+TDAT: private void wrap and close ( list < string > lines , int width , string builder line ) {  <NL> wrap ( lines , width , line ) ;  <NL>  <NL> if ( line . length ( ) > 0 ) {  <NL> lines . add ( console utils . ensure width ( width , line . to string ( ) ) ) ;  <NL> line . delete ( 0 , line . length ( ) ) ;  <NL>  }  <NL>  }  COM: <s> wrap a line as in </s>

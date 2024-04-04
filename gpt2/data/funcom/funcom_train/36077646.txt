@@ -1,0 +1,1 @@
+TDAT: private boolean is word part ( char c ) {  <NL> if ( ( c > = ' a ' & & c < = ' z ' ) || ( c > = ' a ' & & c < = ' z ' )  <NL> || ( c > = ' 0 ' & & c < = ' 9 ' ) || c = = ' = ' || c = = ' _ ' )  <NL> return true ;  <NL> return false ;  <NL>  }  COM: <s> test if the char is part of the word </s>

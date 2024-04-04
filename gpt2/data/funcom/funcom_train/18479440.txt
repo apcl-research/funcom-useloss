@@ -1,0 +1,1 @@
+TDAT: public patch replace ( point3 orig _ cp , point3 new _ cp ) {  <NL> point3 [ ] new _ pts = new point3 [ 16 ] ;  <NL> for ( int i = 0 ; i < pts . length ; i + + ) {  <NL> new _ pts [ i ] = pts [ i ] = = orig _ cp ? new _ cp : pts [ i ] ;  <NL>  }  <NL> return new patch ( new _ pts ) ;  <NL>  }  COM: <s> replaces any occurences of the given control point with another one </s>

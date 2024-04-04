@@ -1,0 +1,1 @@
+TDAT: public void write u int ( long v ) throws io exception {  <NL> out . write ( ( int ) ( ( v > > > 0 ) & 0xff ) ) ;  <NL> out . write ( ( int ) ( ( v > > > 8 ) & 0xff ) ) ;  <NL> out . write ( ( int ) ( ( v > > > 16 ) & 0xff ) ) ;  <NL> out . write ( ( int ) ( ( v > > > 24 ) & 0xff ) ) ;  <NL> inc count ( 4 ) ;  <NL>  }  COM: <s> writes an unsigned 32 bit integer value </s>

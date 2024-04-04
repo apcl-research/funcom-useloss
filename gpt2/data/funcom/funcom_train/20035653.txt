@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> if ( a < 1 ) {  <NL> return " rgba ( " + r + " , " + g + " , " + b + " , " + string . value of ( a ) . substring ( 0 , 3 ) + " ) " ;  <NL>  } else {  <NL> return " rgb ( " + r + " , " + g + " , " + b + " ) " ;  <NL>  }  <NL>  }  COM: <s> convert to web color string </s>

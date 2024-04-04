@@ -1,0 +1,1 @@
+TDAT: public result set db query ( string db name ) throws exception {  <NL> lst command = last command = " db query ( " + db name + " ) " ;  <NL> if ( sql . size ( ) > 1 )  <NL> throw new exception ( " multi - line query ; use db updates " ) ;  <NL> return util . db query ( db name , prep query ( 0 ) ) ;  <NL>  }  COM: <s> executes the query on the passed db name </s>

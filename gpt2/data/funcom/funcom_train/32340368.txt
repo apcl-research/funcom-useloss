@@ -1,0 +1,1 @@
+TDAT: public void fire after update ( transaction tx , key key , object old obj , object new obj ) throws db exception {  <NL> for ( int i = 0 ; i < trigger list . length ; i + + )  <NL> trigger list [ i ] . after update ( tx , key , old obj , new obj ) ;  <NL>  }  COM: <s> fire after update fires after update events to all of the registered </s>

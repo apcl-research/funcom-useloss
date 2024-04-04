@@ -1,0 +1,1 @@
+TDAT: public deep state peek ( string key at depth ) {  <NL> string [ ] ar = key at depth . split ( " @ " ) ;  <NL> string key = ar [ 0 ] ;  <NL> int depth = integer . parse int ( ar [ 1 ] ) ;  <NL> return deep state . look behind ( new view depth ( new view depth elem ( depth , key ) ) , next ) . get ( 0 ) ;  <NL>  }  COM: <s> call when debugging find next cmd </s>

@@ -1,0 +1,1 @@
+TDAT: private void create menu bar ( ) {  <NL> string [ ] menu keys = tokenize ( resources . get string ( " menubar " ) ) ;  <NL> for ( int i = 0 ; i < menu keys . length ; i + + ) {  <NL> j menu m = create menu ( menu keys [ i ] ) ;  <NL> if ( m ! = null ) {  <NL> add ( m ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> create the menubar for the app </s>

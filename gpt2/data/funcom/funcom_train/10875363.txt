@@ -1,0 +1,1 @@
+TDAT: protected int top docs size ( ) {  <NL>  / / in case pq was populated with sentinel values , there might be less <NL>  / / results than pq . size ( ) . therefore return all results until either <NL>  / / pq . size ( ) or total hits .  <NL> return total hits < pq . size ( ) ? total hits : pq . size ( ) ;  <NL>  }  COM: <s> the number of valid pq entries </s>

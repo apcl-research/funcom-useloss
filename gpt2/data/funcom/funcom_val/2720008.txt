@@ -1,0 +1,1 @@
+TDAT: public void write ( byte b [ ] , int off , int len ) throws io exception {  <NL> if ( trace ) {  <NL> if ( quote ) {  <NL> for ( int i = 0 ; i < len ; i + + )  <NL> write byte ( b [ off + i ] ) ;  <NL>  } else <NL> trace out . write ( b , off , len ) ;  <NL>  }  <NL> out . write ( b , off , len ) ;  <NL>  }  COM: <s> writes code b </s>

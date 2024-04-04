@@ -1,0 +1,1 @@
+TDAT: public list get page list ( ) {  <NL> if ( index * page size > size ( ) ) {  <NL> return sub list ( ( index - 1 ) * page size , size ( ) ) ;  <NL>  } else {  <NL> return sub list ( ( index - 1 ) * page size , ( ( index - 1 ) * page size ) + page size ) ;  <NL>  }  <NL>  }  COM: <s> gets a list that represents a page in the paged list </s>

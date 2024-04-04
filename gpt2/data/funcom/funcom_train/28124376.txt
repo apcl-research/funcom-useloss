@@ -1,0 +1,1 @@
+TDAT: private void refresh tree ( javax . swing . j tree tree ) {  <NL> javax . swing . tree . tree path selections [ ] = tree . get selection paths ( ) ;  <NL> javax . swing . tree . tree model m = tree . get model ( ) ;  <NL> tree . set model ( null ) ;  <NL> tree . set model ( m ) ;  <NL> tree . set selection paths ( selections ) ;  <NL>  }  COM: <s> refresh a tree </s>

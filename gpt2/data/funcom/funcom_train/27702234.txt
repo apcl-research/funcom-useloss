@@ -1,0 +1,1 @@
+TDAT: public void set country ( string country ) {  <NL> if ( country . length ( ) = = 2 ) {  <NL> this . country = country . to upper case ( ) ;  <NL>  } else {  <NL> logger . warn ( " malformed country code ' " + country + " ' , setting to default ( de ) " ) ;  <NL> this . language = " de " ;  <NL>  }  <NL>  }  COM: <s> setter for property country </s>

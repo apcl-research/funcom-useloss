@@ -1,0 +1,1 @@
+TDAT: private void draw arrow ( int x1 , int x2 , int y1 , int y2 , int z1 , int z2 , graphics2d g ) {  <NL> int a1 [ ] = { x1 , y1 , z1 , x1 } ;  <NL> int b1 [ ] = { x2 , y2 , z2 , x2 } ;  <NL>  <NL> g . fill polygon ( a1 , b1 , 4 ) ;  <NL>  }  COM: <s> this method in is charge of the tip of the arrow for the </s>

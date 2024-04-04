@@ -1,0 +1,1 @@
+TDAT: private l menu get locale menu ( ) {  <NL> if ( locale menu = = null ) {  <NL> locale menu = new l menu ( ) ;  <NL> locale menu . set caption tag ( " lfa frame . locale menu " ) ;  <NL> locale menu . set text ( " locale " ) ;  <NL> locale menu . add ( get locale details ( ) ) ;  <NL>  }  <NL> return locale menu ;  <NL>  }  COM: <s> this method initializes locale menu </s>

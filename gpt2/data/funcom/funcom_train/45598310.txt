@@ -1,0 +1,1 @@
+TDAT: public void move up ( ) {  <NL> try {  <NL>  / / swaps currently selected , and one above <NL> int i = jlist . get selected index ( ) ;  <NL> collections . swap ( list , i , - - i ) ;  <NL> jlist . set selected index ( i ) ;  <NL>  } catch ( java . lang . array index out of bounds exception e ) {  <NL>  }  <NL>  }  COM: <s> moves currently selected element down </s>

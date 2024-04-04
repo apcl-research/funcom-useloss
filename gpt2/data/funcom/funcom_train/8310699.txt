@@ -1,0 +1,1 @@
+TDAT: public string add element ( web element element ) {  <NL> string id = ( string ) ids . get ( element ) ;  <NL> if ( id = = null ) {  <NL> id = string . value of ( element next id + + ) ;  <NL> ids . put ( element , id ) ;  <NL> elements . put ( id , element ) ;  <NL>  }  <NL> return id ;  <NL>  }  COM: <s> registers an element in the session cache and returns its id </s>

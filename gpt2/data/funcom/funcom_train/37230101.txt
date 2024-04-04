@@ -1,0 +1,1 @@
+TDAT: public int size ( ) {  <NL> int i cur index = 0 ;  <NL> int i size = 0 ;  <NL> while ( i cur index < nl data . get length ( ) ) {  <NL> if ( nl data . item ( i cur index ) . get node type ( ) = = node . element _ node ) {  <NL> i size + + ;  <NL>  }  <NL> i cur index + + ;  <NL>  }  <NL> return i size ;  <NL>  }  COM: <s> return the number of elements in the list </s>

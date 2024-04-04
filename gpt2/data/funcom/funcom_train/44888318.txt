@@ -1,0 +1,1 @@
+TDAT: protected i atom parse atom ( ) throws parse exception {  <NL> ast atom = this . parse ( ) ;  <NL> if ( ! atom . is atom ( ) )  <NL> throw new parse exception (  <NL>  " identifier , literal , nested expression , list , dictionary or back - quoted string expected . " ) ;  <NL> return ( i atom ) atom ;  <NL>  }  COM: <s> atom identifier literal enclosure br </s>

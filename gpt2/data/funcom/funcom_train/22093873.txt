@@ -1,0 +1,1 @@
+TDAT: public http header get header ( string name ) {  <NL> for ( int i = 0 ; i < http header . size ( ) ; i + + ) {  <NL> http header h = ( http header ) http header . element at ( i ) ;  <NL> if ( name . equals ignore case ( h . get name ( ) ) ) {  <NL> return h ;  <NL>  }  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> the the content of an http header line </s>

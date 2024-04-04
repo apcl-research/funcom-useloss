@@ -1,0 +1,1 @@
+TDAT: public boolean is selected row ( page state s , object row key ) {  <NL> if ( row key = = null ) {  <NL> return false ;  <NL>  }  <NL> return get row selection model ( ) . is selected ( s )  <NL>  & & row key . to string ( ) . equals (  <NL> get row selection model ( ) . get selected key ( s ) . to string ( ) ) ;  <NL>  }  COM: <s> determines whether a row is seleted </s>

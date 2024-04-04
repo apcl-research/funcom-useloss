@@ -1,0 +1,1 @@
+TDAT: public void test harness3 ( ) {  <NL> help failure ( " column for message 0 expected : < - 1 > but was : < 14 > " ,  <NL>  " class a { qq } " , " / test . java : 1 : < identifier > expected " , - 1 , " " , 0 , " " , 0 ) ;  <NL>  }  COM: <s> test that harness reports a wrong column </s>

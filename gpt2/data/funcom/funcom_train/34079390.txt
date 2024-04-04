@@ -1,0 +1,1 @@
+TDAT: private void make adjust table ( ) {  <NL>  <NL> ar adjust table [ 0 ] = ( 1 < < eg _ bits ) ;  <NL> for ( int i = 1 ; i < 128 ; i + + ) {  <NL> ar adjust table [ i ] = ( short ) ( ( double ) ( 1 < < eg _ bits ) - 1 - ( 1 < < eg _ bits ) * math . log ( i ) / math . log ( 128 ) ) ;  <NL>  }  <NL>  }  COM: <s> table for ar to log curve </s>

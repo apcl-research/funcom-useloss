@@ -1,0 +1,1 @@
+TDAT: private void set search icon location ( ) {  <NL> int y = menu _ mediator . get menu bar height ( )  <NL>  + ( height - logo _ panel . get preferred size ( ) . height ) / 2 ;  <NL> logo _ panel . set location (  <NL> frame . get size ( ) . width - logo _ panel . get size ( ) . width - 12 ,  <NL> y ) ;  <NL>  }  COM: <s> sets the location of the search status icon </s>

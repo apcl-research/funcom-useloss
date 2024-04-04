@@ -1,0 +1,1 @@
+TDAT: public void set scoped property ( string name , object value ) {  <NL> if ( name = = null || value = = null ) {  <NL> throw new jaxrpc exception (  <NL> messages . get message ( name = = null ?  <NL>  " bad prop03 " : " bad prop04 " ) ) ;  <NL>  }  <NL> my properties . put ( name , value ) ;  <NL>  } / / set scoped property  COM: <s> set a scoped property on the call i </s>

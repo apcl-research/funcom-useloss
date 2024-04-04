@@ -1,0 +1,1 @@
+TDAT: public void print dom new ( node n , string prefix ) {  <NL>  / / if ( log . is debug enabled ( ) ) {  <NL> string builder sb = new string builder ( " \n " ) ;  <NL>  / / extensible client . print dom ( n , prefix , sb ) ;  <NL> print dom2 ( n , prefix , sb ) ;  <NL> log . debug ( sb . to string ( ) ) ;  <NL>  / / }  <NL>  }  COM: <s> prints out the dom tree </s>

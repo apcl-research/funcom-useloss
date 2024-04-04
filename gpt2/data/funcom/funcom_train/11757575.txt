@@ -1,0 +1,1 @@
+TDAT: public object clone ( ) {  <NL> flag f = new flag ( ) ;  <NL> f . name = name ;  <NL> f . value list = ( struct ) value list . copy ( ) ;  <NL> f . value = value . copy ( ) ;  <NL> f . default value = default value . copy ( ) ;  <NL> f . modifiable = modifiable ;  <NL> f . library name = library name ;  <NL> return f ;  <NL>  }  COM: <s> gets a deep copy of the flag </s>

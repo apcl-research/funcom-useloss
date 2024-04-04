@@ -1,0 +1,1 @@
+TDAT: public void randomize ( double min , double max ) {  <NL> random src = new random ( system . current time millis ( ) + runtime . get runtime ( ) . free memory ( ) ) ;  <NL> for ( int i = 0 ; i < size ( ) ; i + + ) {  <NL> elements [ i ] = src . next double ( ) * ( max - min ) + min ;  <NL>  }  <NL>  }  COM: <s> randomizes this code pattern code with values bounded by </s>

@@ -1,0 +1,1 @@
+TDAT: public boolean add item ( int x , int y , item item , int count ) {  <NL> if ( count < 0 ) {  <NL> throw new illegal argument exception ( " negative count to add : " + count ) ;  <NL>  } else {  <NL> return add item ( to index ( x , y ) , item , count ) ;  <NL>  }  <NL>  }  COM: <s> add an item to inventory at x y </s>

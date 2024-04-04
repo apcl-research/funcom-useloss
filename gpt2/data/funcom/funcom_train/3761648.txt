@@ -1,0 +1,1 @@
+TDAT: protected vector bad go ( multiplayer server , world world , player player , string direction ) {  <NL> logmsg ( world , " lp processing bad go input . . . " ) ;  <NL> player . get client ( ) . display ( world . msgs . msg [ 178 ] ) ;  <NL> return clear cmd vector ( ) ; / / no further cmd to execute <NL>  }  COM: <s> currently just displays localized which way </s>

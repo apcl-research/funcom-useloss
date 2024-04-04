@@ -1,0 +1,1 @@
+TDAT: public spoke create stopped spoke ( ) {  <NL> float r = ( global . random . next float ( ) * ( spoke . max r - spoke . min r ) + spoke . min r ) ;  <NL> float theta = ( float ) ( ( global . random . next float ( ) ) * math . pi * 2 ) ;  <NL> return create spoke ( r , theta , 0 , 0 ) ;  <NL>  }  COM: <s> create a spoke with random position but no motion </s>

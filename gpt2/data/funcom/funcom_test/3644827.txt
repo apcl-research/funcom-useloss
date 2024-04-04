@@ -1,0 +1,1 @@
+TDAT: private string reader to string ( file reader fr ) throws io exception {  <NL> string buffer sb = new string buffer ( ) ;  <NL> char [ ] b = new char [ 8192 ] ;  <NL> int n ;  <NL>  <NL> while ( ( n = fr . read ( b ) ) > 0 ) {  <NL> sb . append ( b , 0 , n ) ;  <NL>  }  <NL>  <NL> return sb . to string ( ) ;  <NL>  }  COM: <s> reads a file into a string </s>

@@ -1,0 +1,1 @@
+TDAT: private boolean player online ( string name , player _ p ) {  <NL> for ( player p : game engine . get players ( ) ) {  <NL> if ( p ! = null & & _ p . player id ! = p . player id ) {  <NL> if ( p . username . equals ignore case ( name ) ) {  <NL> return true ;  <NL>  }  <NL>  }  <NL>  }  <NL> return false ;  <NL>  }  COM: <s> make sure the player isnt already online </s>

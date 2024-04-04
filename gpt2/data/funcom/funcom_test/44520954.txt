@@ -1,0 +1,1 @@
+TDAT: public boolean set ( string key , object value ) {  <NL> boolean did set = real set ( key , value ) ;  <NL> if ( get _ set _ debug & & set _ output _ debug ) {  <NL> system . out . println ( " set : " + key + " value : " + value + " did set " + did set ) ;  <NL>  }  <NL> return did set ;  <NL>  }  COM: <s> sets a property value </s>

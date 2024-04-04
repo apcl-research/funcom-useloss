@@ -1,0 +1,1 @@
+TDAT: public void list graph ( graph g ) {  <NL> for ( iterator < triple > i = g . find ( null , null , null ) ; i . has next ( ) ; ) {  <NL> triple t = i . next ( ) ;  <NL> logger . info ( print util . print ( t ) ) ;  <NL>  }  <NL> logger . info ( " - - - - - - - - " ) ;  <NL>  }  COM: <s> helper function to list a graph out to logger </s>

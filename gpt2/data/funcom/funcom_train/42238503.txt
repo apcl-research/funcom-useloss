@@ -1,0 +1,1 @@
+TDAT: public void start ( ) {  <NL>  / / send the first rtcp packet <NL> long delay = ( long ) ( math . random ( ) * 1000 ) + 500 ;  <NL> rtcp timer . schedule ( new rtcp timer task ( this ) , delay ) ;  <NL> global reception stats . reset bytes recd ( ) ;  <NL> last rtcp send time = system . current time millis ( ) ;  <NL>  }  COM: <s> starts the sending of rtcp packets </s>

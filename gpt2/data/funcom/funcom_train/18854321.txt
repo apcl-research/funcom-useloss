@@ -1,0 +1,1 @@
+TDAT: public int hash code ( ) {  <NL> int hash code = 1 ;  <NL> hash code = 31 * hash code + user id ;  <NL> hash code = 31 * hash code + who ;  <NL> hash code = 31 * hash code + ( profiles when = = null ? 0 : profiles when . hash code ( ) ) ;  <NL> hash code = 31 * hash code + field id ;  <NL> return hash code ;  <NL>  }  COM: <s> override hash code </s>

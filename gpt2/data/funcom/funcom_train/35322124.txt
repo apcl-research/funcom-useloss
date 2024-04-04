@@ -1,0 +1,1 @@
+TDAT: private void link first ( e e ) {  <NL> final node < e > f = first ;  <NL> final node < e > new node = new node < > ( null , e , f ) ;  <NL> first = new node ;  <NL> if ( f = = null )  <NL> last = new node ;  <NL> else <NL> f . prev = new node ;  <NL> size + + ;  <NL> mod count + + ;  <NL>  }  COM: <s> links e as first element </s>

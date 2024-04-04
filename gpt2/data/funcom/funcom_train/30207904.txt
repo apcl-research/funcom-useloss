@@ -1,0 +1,1 @@
+TDAT: private gregorian calendar get today ( ) {  <NL> final gregorian calendar gc = new gregorian calendar ( get locale ( ) ) ;  <NL> gc . set ( calendar . hour _ of _ day , 0 ) ;  <NL> gc . set ( calendar . minute , 0 ) ;  <NL> gc . set ( calendar . second , 0 ) ;  <NL> gc . set ( calendar . millisecond , 0 ) ;  <NL> return gc ;  <NL>  }  COM: <s> returns the current date </s>

@@ -1,0 +1,1 @@
+TDAT: private void init arrays ( ) {  <NL> data = new int [ w * h ] ;  <NL> magnitude = new int [ w * h ] ;  <NL> x conv = new float [ w * h ] ;  <NL> y conv = new float [ w * h ] ;  <NL> x gradient = new float [ w * h ] ;  <NL> y gradient = new float [ w * h ] ;  <NL>  }  COM: <s> initialize all internal arrays </s>

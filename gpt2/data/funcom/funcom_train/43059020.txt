@@ -1,0 +1,1 @@
+TDAT: public ast node get ancestor ( int id ) {  <NL> ast node ret = null ;  <NL> iast node p node = parent ;  <NL> while ( p node ! = null ) {  <NL> if ( p node . get id ( ) = = id ) {  <NL> ret = ( ast node ) p node ;  <NL> break ;  <NL>  }  <NL> p node = p node . get parent ( ) ;  <NL>  }  <NL> return ret ;  <NL>  }  COM: <s> get specified type ancestor node </s>

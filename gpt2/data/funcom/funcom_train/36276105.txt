@@ -1,0 +1,1 @@
+TDAT: private tuple create od tuple ( )  <NL>  {  <NL> list list = new array list ( ) ;  <NL> list . add ( new integer ( 4576382 ) ) ;  <NL> list . add ( " activity \ " test\ " string " ) ;  <NL> list . add ( new short ( ( short ) 42 ) ) ;  <NL> list . add ( null . get value ( ) ) ;  <NL> return new simple tuple ( list ) ;  <NL>  }  COM: <s> creates a tuple </s>

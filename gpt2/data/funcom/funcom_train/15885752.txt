@@ -1,0 +1,1 @@
+TDAT: protected session id create session id ( int port ) throws imc exception {  <NL> try {  <NL> return new ip session id ( " 127 . 0 . 0 . 1 " , port , get connection protocol id ( ) ) ;  <NL>  } catch ( unknown host exception e1 ) {  <NL> throw new imc exception ( " creating session id " , e1 ) ;  <NL>  }  <NL>  }  COM: <s> it creates a session id on 127 </s>

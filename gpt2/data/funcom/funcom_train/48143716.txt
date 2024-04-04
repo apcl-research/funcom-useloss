@@ -1,0 +1,1 @@
+TDAT: public complex vector conjugate ( ) {  <NL> final double array im [ ] = new double [ 3 ] ;  <NL> array im [ 0 ] = - vector im [ 0 ] ;  <NL> array im [ 1 ] = - vector im [ 1 ] ;  <NL> array im [ 2 ] = - vector im [ 2 ] ;  <NL> return new complex3vector ( vector re , array im ) ;  <NL>  }  COM: <s> returns the complex conjugate of this vector </s>

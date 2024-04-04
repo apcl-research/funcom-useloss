@@ -1,0 +1,1 @@
+TDAT: public void set file ( file file , string charset ) throws io exception {  <NL> this . file = file ;  <NL> if ( charset = = null ) {  <NL> super . set reader ( new file reader ( file ) ) ;  <NL>  } else {  <NL> super . set reader ( new input stream reader ( new file input stream ( file ) , charset ) ) ;  <NL>  }  <NL>  }  COM: <s> sets the file and charset </s>

@@ -1,0 +1,1 @@
+TDAT: private boolean is out of date ( file t , collection l ) {  <NL> iterator iter = l . iterator ( ) ;  <NL> while ( iter . has next ( ) ) {  <NL> file f = ( file ) iter . next ( ) ;  <NL> if ( t . last modified ( ) < f . last modified ( ) ) {  <NL> return true ;  <NL>  }  <NL>  }  <NL> return false ;  <NL>  }  COM: <s> is t older than any of the files in list </s>

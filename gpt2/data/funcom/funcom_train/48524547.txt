@@ -1,0 +1,1 @@
+TDAT: public void route my msg ( id id ) {  <NL> system . out . println ( this + " sending to " + id + " at " + endpoint . get environment ( ) . get time source ( ) . current time millis ( ) ) ;  <NL> message msg = new my msg ( endpoint . get id ( ) , id ) ;  <NL> endpoint . route ( id , msg , null ) ;  <NL>  }  COM: <s> called to route a message to the id </s>

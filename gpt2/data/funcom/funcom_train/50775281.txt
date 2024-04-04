@@ -1,0 +1,1 @@
+TDAT: public void fire progress ( object source , string s file name , int i min , int i value , int i max ) {  <NL> fire progress ( new progress event ( source , progress event . message & progress event . progress , s file name , i min , i value , i max ) ) ;  <NL>  }  COM: <s> fire an progress event to any registered listeners with </s>

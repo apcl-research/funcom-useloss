@@ -1,0 +1,1 @@
+TDAT: synchronized public void print ( string s ) {  <NL> if ( writer = = null ) {  <NL> writer = helper . get stream writer ( this ) ;  <NL>  }  <NL> if ( s = = null ) {  <NL> s = " null " ;  <NL>  }  <NL> try {  <NL> writer . write ( s ) ;  <NL> writer . flush ( ) ;  <NL>  } catch ( io exception x ) {  <NL> trouble = true ;  <NL>  }  <NL>  }  COM: <s> prints a string </s>

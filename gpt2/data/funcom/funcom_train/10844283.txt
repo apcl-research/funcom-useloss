@@ -1,0 +1,1 @@
+TDAT: public void on error ( string msg , string source file , int line , int position ) {  <NL> if ( errors = = null ) {  <NL> errors = new array list < compiler message > ( ) ;  <NL>  }  <NL> errors . add ( new compiler message ( source file , line , position , msg ) ) ;  <NL>  }  COM: <s> notification of an error </s>

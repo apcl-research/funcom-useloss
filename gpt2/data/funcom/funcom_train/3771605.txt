@@ -1,0 +1,1 @@
+TDAT: private string get e tag ( resource info resource info , boolean strong ) {  <NL> if ( strong )  <NL> return " \ " " + get e tag value ( resource info , strong ) + " \ " " ;  <NL> else <NL> return " w / \ " " + get e tag value ( resource info , strong ) + " \ " " ;  <NL>  }  COM: <s> get the etag associated with a file </s>

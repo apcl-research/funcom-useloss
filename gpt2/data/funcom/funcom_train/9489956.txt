@@ -1,0 +1,1 @@
+TDAT: public void draw circle ( double x , double y , double r ) {  <NL>  <NL> init matrix ( ) ;  <NL> draw circle arc dashed or not ( ( float ) x , ( float ) y , ( float ) r , 0 , 2f * ( float ) math . pi , dash ! = 0 ) ;  <NL> reset matrix ( ) ;  <NL>  }  COM: <s> draw a circle with center x y and radius r </s>

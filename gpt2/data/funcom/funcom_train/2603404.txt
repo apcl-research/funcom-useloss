@@ -1,0 +1,1 @@
+TDAT: public string get number ( ) {  <NL> string str num = " " ;  <NL> if ( double . compare ( math . floor ( number ) , number ) = = 0 ) {  <NL> int int num = ( int ) number ;  <NL> str num = integer . to string ( int num ) ;  <NL>  } else {  <NL> str num = double . to string ( number ) ;  <NL>  }  <NL> return str num ;  <NL>  }  COM: <s> returns the number </s>

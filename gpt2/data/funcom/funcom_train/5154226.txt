@@ -1,0 +1,1 @@
+TDAT: public double fisher exact test down ( int k , int n , int d , int n ) {  <NL> double cumulative hg = 0 ;  <NL> int min test = math . max ( n + d - n , 0 ) ;  <NL> for ( int i = min test ; i < = k ; i + + )  <NL> cumulative hg + = hd . hypergeometric ( i , n , d , n ) ;  <NL> return cumulative hg ;  <NL>  }  COM: <s> fishers exact test for k or less lower tail </s>

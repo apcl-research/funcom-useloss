@@ -1,0 +1,1 @@
+TDAT: private void compare types ( type a , type b ) {  <NL> assert equals ( a . get signature ( ) , b . get signature ( ) ) ;  <NL> assert equals ( a . get size ( ) , b . get size ( ) ) ;  <NL> assert equals ( a . get type ( ) , b . get type ( ) ) ;  <NL> assert equals ( a . to string ( ) , b . to string ( ) ) ;  <NL>  }  COM: <s> asserts two type objects the same </s>

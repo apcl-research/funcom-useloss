@@ -1,0 +1,1 @@
+TDAT: public tabular column md get column by name ( string catalog name , string schema name , string table name , string column name ) {  <NL> table md table = get table by name ( catalog name , schema name , table name ) ;  <NL> if ( table = = null ) return null ;  <NL> return table . get column by name ( column name ) ;  <NL>  }  COM: <s> get column by name </s>

@@ -1,0 +1,1 @@
+TDAT: public string get timestamp ( ) {  <NL> calendar cal = new gregorian calendar ( ) ;  <NL> int hour = cal . get ( calendar . hour _ of _ day ) ;  <NL> int minute = cal . get ( calendar . minute ) ;  <NL> return ( hour > 9 ? " " : " 0 " ) + hour + " : " + ( minute > 9 ? " " : " 0 " ) + minute ;  <NL>  }  COM: <s> generates a string containing a simple timestamp </s>

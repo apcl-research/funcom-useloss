@@ -1,0 +1,1 @@
+TDAT: public void display message ( string s , int t ) {  <NL> list . add element ( new list item ( s , t ) ) ;  <NL> if ( ( list . size ( ) = = 1 ) & & ( msg output panel ! = null ) ) {  <NL> msg output panel . display message ( s , t , this ) ;  <NL>  }  <NL>  }  COM: <s> add a new message to display </s>

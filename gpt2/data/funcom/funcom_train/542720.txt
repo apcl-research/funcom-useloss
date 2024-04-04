@@ -1,0 +1,1 @@
+TDAT: public void set value ( string s ) {  <NL> string tmp = " " ;  <NL> if ( s ! = null ) {  <NL> tmp = s ;  <NL>  }  <NL> while ( tmp . ends with ( " \n " ) ) {  <NL> tmp = tmp . substring ( 0 , tmp . length ( ) - 1 ) ;  <NL>  }  <NL> set value ( tmp . split ( " \n " ) ) ;  <NL>  }  COM: <s> code set value code sets the value of the property transforming the </s>

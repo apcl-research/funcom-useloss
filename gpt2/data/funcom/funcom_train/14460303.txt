@@ -1,0 +1,1 @@
+TDAT: public boolean send to all ( message msg ) {  <NL> iterator itx = clients . key set ( ) . iterator ( ) ;  <NL> while ( itx . has next ( ) ) {  <NL> message listener ml = ( message listener ) clients . get ( itx . next ( ) ) ;  <NL> ml . add message to queue ( key , msg ) ;  <NL>  }  <NL> return true ;  <NL>  }  COM: <s> send a message to all listening clients </s>

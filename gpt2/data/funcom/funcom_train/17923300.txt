@@ -1,0 +1,1 @@
+TDAT: private void jb init ( j panel cp ) throws exception {  <NL> model = new community model ( ) ;  <NL> community view = new community view ( params , model , user source ,  <NL> category source , view manager . get frame ( ) ) ;  <NL> cp . add ( community view , border layout . center ) ;  <NL> show frame ( ) ;  <NL>  }  COM: <s> initialize the display </s>

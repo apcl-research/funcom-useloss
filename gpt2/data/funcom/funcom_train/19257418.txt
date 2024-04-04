@@ -1,0 +1,1 @@
+TDAT: public graphics2d create graphics ( ) {  <NL> if ( gc ! = null ) {  <NL> return ( graphics2d ) gc . create ( ) ;  <NL>  }  <NL>  / / we have an image and no gc now - create it <NL> else if ( image ! = null ) {  <NL> gc = new swt graphics2d renderer ( new gc ( image ) , true ) ;  <NL> return gc ;  <NL>  }  <NL> else <NL> return null ;  <NL>  }  COM: <s> in awt swing </s>

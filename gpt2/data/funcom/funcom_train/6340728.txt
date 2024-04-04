@@ -1,0 +1,1 @@
+TDAT: public structure makecopy ( ) {  <NL> structure result = new structure ( null ) ;  <NL> string name ;  <NL> object value ;  <NL> for ( int i = 0 ; i < names . size ( ) ; i + + ) {  <NL> name = ( string ) names . get ( i ) ;  <NL> value = read ( name ) ;  <NL> result . add ( name , value ) ;  <NL>  }  <NL> return result ;  <NL>  }  COM: <s> copy with values </s>

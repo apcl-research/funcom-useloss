@@ -1,0 +1,1 @@
+TDAT: public r visit jml for loop ( final jml for loop node , final p p ) {  <NL> final p tmp p = pre visit ( node , p ) ;  <NL> final r r = scan ( node . loop specs , tmp p ) ;  <NL> final r tmp r = super . visit for loop ( node , tmp p ) ;  <NL> return reduce ( r , tmp r ) ;  <NL>  }  COM: <s> visiting jml for node </s>

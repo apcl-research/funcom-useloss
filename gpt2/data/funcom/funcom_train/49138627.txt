@@ -1,0 +1,1 @@
+TDAT: public vector get path ( boolean ignore weights , boolean trailblazer , point2d first point , point2d other point ) {  <NL> pathfinder . find path ( ignore weights , trailblazer , false , first point . x , first point . y , other point . x , other point . y ) ;  <NL> return pathfinder . get path ( ) ;  <NL>  }  COM: <s> finds a path between two given tiles on the map </s>

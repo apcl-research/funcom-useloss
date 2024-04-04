@@ -1,0 +1,1 @@
+TDAT: public void _ back graphic url ( ) {  <NL> log . println ( " testing with custom property tester " ) ;  <NL> test property ( " back graphic url " ,  <NL> util . utils . get full test url ( " crazy - blue . jpg " ) ,  <NL> util . utils . get full test url ( " space - metal . jpg " ) ) ;  <NL>  }  COM: <s> only image file url can be used as a value </s>

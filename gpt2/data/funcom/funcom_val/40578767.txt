@@ -1,0 +1,1 @@
+TDAT: private void update column width impl ( column < t , ? > column , string width ) {  <NL> int column count = get column count ( ) ;  <NL> for ( int i = 0 ; i < column count ; i + + ) {  <NL> if ( columns . get ( i ) = = column ) {  <NL> do set column width ( i , width ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> update the width of all instances of the specified column </s>

@@ -1,0 +1,1 @@
+TDAT: public big integer next probable prime ( ) {  <NL> if ( sign < 0 ) {  <NL>  / / math . 1a = start < 0 : { 0 }  <NL> throw new arithmetic exception ( messages . get string ( " math . 1a " , this ) ) ; / / $ non - nls - 1 $  <NL>  }  <NL> return primality . next probable prime ( this ) ;  <NL>  }  COM: <s> returns the smallest integer x </s>

@@ -1,0 +1,1 @@
+TDAT: public void mouse pressed ( i document tree tree , java . awt . event . mouse event e ) {  <NL> if ( e . is popup trigger ( ) ) {  <NL> object node = tree . get selected node ( ) . get user object ( ) ;  <NL> show editing menu ( tree , node , e . get x ( ) , e . get y ( ) ) ;  <NL>  <NL>  }  <NL>  }  COM: <s> invoked when a mouse button has been pressed on a component </s>

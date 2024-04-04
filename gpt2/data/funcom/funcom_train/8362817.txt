@@ -1,0 +1,1 @@
+TDAT: protected int draw selected text ( graphics g , int x , int y , int start , int end ) throws bad location exception {  <NL> return xml view utilities . draw selected text ( this , scanner , context , g , x , y , start , end ) ;  <NL>  }  COM: <s> renders the given range in the model as selected text </s>

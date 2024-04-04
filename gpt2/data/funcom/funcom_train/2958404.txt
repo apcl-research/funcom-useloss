@@ -1,0 +1,1 @@
+TDAT: public int get prev value ( int x ) {  <NL> i state binary tree . node n = btree . prev node ( x ) ;  <NL> if ( n = = null ) {  <NL> return integer . min _ value ;  <NL>  } else if ( n . contains ( x - 1 ) ) {  <NL> return x - 1 ;  <NL>  } else {  <NL> return n . get sup ( ) ;  <NL>  }  <NL>  <NL>  }  COM: <s> gets the previous value of x in this domain </s>

@@ -1,0 +1,1 @@
+TDAT: public mouse event recordable ( ) {  <NL> this ( null , 0 , " " , " " , 0 , 0 , " " , " " , 0 , 0 , false , 0 , 0 , 0 , 0 , 0 , false ) ;  <NL>  }  COM: <s> creates a mouse event recordable with default values and no environment </s>

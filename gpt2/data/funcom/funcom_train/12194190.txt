@@ -1,0 +1,1 @@
+TDAT: public void test sort multiple charset qvalue ( ) {  <NL> do sort parser test ( new string [ ] { " a ; q = 0 . 5 " , " b ; q = 0 . 600 " , " c ; q = 0 . 2 " ,  <NL>  " d ; q = 0 . 5 " } , new string [ ] { " b " , " a " , " d " , " c " } ) ;  <NL>  }  COM: <s> test that a default accept parser works with multiple quality values with </s>

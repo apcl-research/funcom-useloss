@@ -1,0 +1,1 @@
+TDAT: protected void paint children ( gui gui ) {  <NL> if ( children ! = null ) {  <NL> for ( int i = 0 , n = children . size ( ) ; i < n ; i + + ) {  <NL> widget child = children . get ( i ) ;  <NL> if ( child . visible ) {  <NL> child . draw widget ( gui ) ;  <NL>  }  <NL>  }  <NL>  }  <NL>  }  COM: <s> paints all children in index order </s>

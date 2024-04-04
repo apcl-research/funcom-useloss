@@ -1,0 +1,1 @@
+TDAT: public void draw border ( int x1 , int y1 , int x2 , int y2 , boolean invert ) {  <NL> changed = true ;  <NL> screen . get graphics ( ) . set color ( invert ? color . black : color . blue ) ;  <NL> screen . get graphics ( ) . draw rect ( x1 - 1 , y1 - 1 , x2 - x1 + 2 , y2 - y1 + 2 ) ;  <NL>  }  COM: <s> draw border around the outside of the specified box </s>

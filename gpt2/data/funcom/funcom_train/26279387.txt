@@ -1,0 +1,1 @@
+TDAT: public void scale ( int new width , int new height , boolean use local origin ) throws j gimp exception {  <NL> m _ app . call procedure ( " gimp _ layer _ scale " , this , new j gimp int32 ( new width ) , new j gimp int32 ( new height ) , new boolean ( use local origin ) ) ;  <NL>  }  COM: <s> scales the layer to the new dimensions </s>

@@ -1,0 +1,1 @@
+TDAT: public void run ( class cls ) {  <NL> if ( cls = = null )  <NL> return ;  <NL> if ( action _ drop . equals ( _ action ) )  <NL>  _ drop . add ( cls ) ;  <NL> else if ( action _ add . equals ( _ action ) )  <NL> add ( cls ) ;  <NL> else <NL> throw new illegal argument exception ( " action = = " + _ action ) ;  <NL>  }  COM: <s> generate new metadata for the given class </s>

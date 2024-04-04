@@ -1,0 +1,1 @@
+TDAT: public void test col span ( ) {  <NL> system . out . println ( " test col span " ) ;  <NL> assert equals ( 2 , tl . col span ( 5 , 10 ) ) ;  <NL> assert equals ( 2 , tl . col span ( 5 , 12 ) ) ;  <NL> assert equals ( 3 , tl . col span ( 5 , 13 ) ) ;  <NL> assert equals ( 3 , tl . col span ( 5 , 15 ) ) ;  <NL>  }  COM: <s> test of col span method of class puce </s>

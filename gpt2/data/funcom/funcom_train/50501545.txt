@@ -1,0 +1,1 @@
+TDAT: private void down button _ action performed ( action event e ) {  <NL> int i = table . get selected row ( ) ;  <NL> if ( i < table . get row count ( ) ) {  <NL> move row ( ( string ) table . get value at ( i , 0 ) , i , false ) ;  <NL> table . change selection ( i + 1 , 1 , false , false ) ;  <NL> check buttons ( ) ;  <NL>  }  <NL>  }  COM: <s> down button action </s>

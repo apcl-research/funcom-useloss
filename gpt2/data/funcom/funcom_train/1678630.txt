@@ -1,0 +1,1 @@
+TDAT: static public void put unsigned int ( byte [ ] buf , long value ) {  <NL>  <NL> int i = 0 ;  <NL> buf [ i + + ] = ( byte ) ( value > > > 0 ) ;  <NL> buf [ i + + ] = ( byte ) ( value > > > 8 ) ;  <NL> buf [ i + + ] = ( byte ) ( value > > > 16 ) ;  <NL> buf [ i ] = ( byte ) ( value > > > 24 ) ;  <NL>  }  COM: <s> marshall an unsigned int long into a four byte buffer </s>

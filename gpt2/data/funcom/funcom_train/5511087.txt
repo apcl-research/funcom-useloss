@@ -1,0 +1,1 @@
+TDAT: public string get body ( ) {  <NL> if ( raw doc = = null ) {  <NL> return null ;  <NL>  }  <NL>  <NL> string body = " " ;  <NL> node list nl = raw doc . get elements by tag name ( " body " ) ;  <NL> if ( nl . get length ( ) > 0 ) {  <NL> body = get body text ( nl . item ( 0 ) ) ;  <NL>  }  <NL> return body ;  <NL>  }  COM: <s> gets the body text attribute of the </s>

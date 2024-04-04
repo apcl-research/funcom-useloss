@@ -1,0 +1,1 @@
+TDAT: public void begin stylesheet ( attribute list attrs ) {  <NL> builder . begin ( " stylesheet " ) ;  <NL> builder . add attributes ( attrs . add attribute ( " xmlns : xsl " , " http : / / www . w3 . org / 1999 / xsl / transform " ) . add attribute ( " version " , " 1 . 0 " ) ) ;  <NL>  }  COM: <s> begin an xsl stylesheet element </s>

@@ -1,0 +1,1 @@
+TDAT: public void reset tip label customizer ( boolean state ) {  <NL> if ( tlc ! = null ) { tlc . dispose ( ) ; }  <NL> tlc = new tip label customizer ( frame , this , ( frame . otu metadata ! = null ) ,  <NL>  ( frame . sample metadata ! = null ) ) ;  <NL> tlc . set visible ( state ) ;  <NL>  }  COM: <s> resets tip label customizer object based on new otu metadata </s>

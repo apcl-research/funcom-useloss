@@ -1,0 +1,1 @@
+TDAT: public void randomize ( random random , double range ) {  <NL> for ( int i = 0 ; i < weights . length ; i + + ) {  <NL> for ( int j = 0 ; j < weights [ i ] . length ; j + + ) {  <NL> weights [ i ] [ j ] = random . next gaussian ( ) * range ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> randomize the weights </s>

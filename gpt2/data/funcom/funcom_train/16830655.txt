@@ -1,0 +1,1 @@
+TDAT: private void swap ( entry < e > entry a , entry < e > entry b ) {  <NL> int index a = entry a . index ;  <NL> int index b = entry b . index ;  <NL> entry a . index = index b ;  <NL> entry b . index = index a ;  <NL> index to entry . set ( index a , entry b ) ;  <NL> index to entry . set ( index b , entry a ) ;  <NL>  }  COM: <s> structural swap of two entries </s>

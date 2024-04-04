@@ -1,0 +1,1 @@
+TDAT: static public boolean export ( glycan renderer gr , string filename , collection < glycan > structures , boolean show _ masses , boolean show _ redend , string format ) {  <NL> return export ( gr , filename , structures , show _ masses , show _ redend , 1 . , format ) ;  <NL>  }  COM: <s> export a representation of a set of glycan structure to a file </s>

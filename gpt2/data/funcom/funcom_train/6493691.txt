@@ -1,0 +1,1 @@
+TDAT: public void delay ( final int delay ) {  <NL> try {  <NL> thread . sleep ( delay ) ; / / wait 2 seconds <NL>  / / not using animation thread . sleep ( 50 ) ;  <NL>  } catch ( interrupted exception ei ) {  <NL> error ( " exception - delay ( ) , stack trace : " + ei . get stack trace ( ) ) ;  <NL> repaint ( ) ;  <NL>  }  <NL>  }  COM: <s> delay the thread </s>

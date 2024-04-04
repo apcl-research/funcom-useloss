@@ -1,0 +1,1 @@
+TDAT: private string retrieve object name ( list list ) {  <NL> string type = " " ;  <NL> for ( int i = 0 ; i < list . size ( ) ; i + + ) {  <NL> type + = ( ( ast identifier ) list . get ( i ) ) . get name ( ) + ( i < list . size ( ) - 1 ? " . " : " " ) ;  <NL>  }  <NL> return type ;  <NL>  }  COM: <s> returns the comlete name of an object </s>

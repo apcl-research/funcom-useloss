@@ -1,0 +1,1 @@
+TDAT: private void set window icon ( ) {  <NL> try {  <NL> buffered image image = image io . read ( get class ( ) . get resource ( " / ie / iqda / icons / iqda _ 16x16 . png " ) ) ;  <NL> set icon image ( image ) ;  <NL>  } catch ( io exception error ) {  <NL> error log . instance ( ) . add entry ( error ) ;  <NL>  }  <NL>  }  COM: <s> sets the frames icon image </s>

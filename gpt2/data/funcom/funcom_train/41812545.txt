@@ -1,0 +1,1 @@
+TDAT: public boolean goal ( string goal ) {  <NL> hashtable job = new hashtable ( ) ;  <NL> job . put ( " task " , " goal " ) ;  <NL> job . put ( " goal " , goal ) ;  <NL> job . put ( " description " , " prolog system command : " + goal ) ;  <NL> bg . schedule ( job ) ;  <NL> return true ;  <NL>  <NL>  }  COM: <s> pass a goal to the prolog engine </s>

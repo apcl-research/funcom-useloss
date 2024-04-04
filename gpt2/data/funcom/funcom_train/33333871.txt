@@ -1,0 +1,1 @@
+TDAT: public void add ( final string key , final string value ) {  <NL> if ( key = = null ) {  <NL> return ;  <NL>  }  <NL> if ( p . contains key ( key ) ) {  <NL> log . info ( " replacing " + key + " = " + p . get ( key ) + " with " + value ) ;  <NL>  }  <NL> p . put ( key , value ) ;  <NL>  }  COM: <s> adds a key value pair to this set of properties </s>

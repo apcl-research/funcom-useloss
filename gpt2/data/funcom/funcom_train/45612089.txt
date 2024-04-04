@@ -1,0 +1,1 @@
+TDAT: public void add all ( a [ ] targets ) {  <NL> int ofx ;  <NL> for ( int x = 0 ; x < targets . length ; x + + ) {  <NL> ofx = stats . size ( ) + x ;  <NL> stats . add ( ofx , targets [ x ] ) ;  <NL> propsup . fire indexed property change ( " stat " , ofx , null , targets [ x ] ) ;  <NL>  }  <NL>  }  COM: <s> adds an array of stats to be processed </s>

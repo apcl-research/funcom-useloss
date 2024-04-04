@@ -1,0 +1,1 @@
+TDAT: public void show album of type ( string type ) {  <NL> try {  <NL> update ( album manager . find albums of type ( type ) ) ;  <NL>  } catch ( photo album exception pae ) {  <NL> j option pane . show message dialog ( this , pae . get message ( ) , " warning " , j option pane . warning _ message ) ;  <NL>  }  <NL>  }  COM: <s> show albums with a specific type </s>

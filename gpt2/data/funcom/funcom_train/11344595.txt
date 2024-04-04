@@ -1,0 +1,1 @@
+TDAT: private void deploy bundles ( bundle context context ) throws bundle exception {  <NL> for ( int i = 0 ; i < m _ bundles . size ( ) ; i + + ) {  <NL> url url = ( url ) m _ bundles . get ( i ) ;  <NL> bundle bundle = context . install bundle ( url . to string ( ) ) ;  <NL> bundle . start ( ) ;  <NL>  }  <NL>  }  COM: <s> installs and starts required bundles </s>

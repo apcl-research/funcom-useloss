@@ -1,0 +1,1 @@
+TDAT: public void set name ( string name ) {  <NL> if ( ( get context ( ) ! = null ) & & ( get context ( ) . get class ( ) . is assignable from ( m bean type . class ) ) ) {  <NL>  ( ( m bean type ) get context ( ) ) . set name ( name ) ;  <NL>  } else {  <NL> this . name = name ;  <NL>  }  <NL>  }  COM: <s> sets the code name code attribute </s>

@@ -1,0 +1,1 @@
+TDAT: private j spinner get nb vars per agent ( ) {  <NL> if ( nb vars per agent = = null ) {  <NL> nb vars per agent = new j spinner ( new spinner number model ( 2 , 1 , 10 , 1 ) ) ;  <NL> nb vars per agent . set bounds ( new rectangle ( 250 , 80 , 60 , 22 ) ) ;  <NL>  }  <NL> return nb vars per agent ;  <NL>  }  COM: <s> this method initializes nb vars per agent </s>

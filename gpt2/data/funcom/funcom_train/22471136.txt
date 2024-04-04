@@ -1,0 +1,1 @@
+TDAT: public string get name ( ) {  <NL> string builder sb = new string builder ( ) ;  <NL> if ( get firstname ( ) ! = null ) {  <NL> sb . append ( get firstname ( ) . trim ( ) ) ;  <NL> sb . append ( " " ) ;  <NL>  }  <NL> sb . append ( get lastname ( ) . trim ( ) ) ;  <NL> return sb . to string ( ) ;  <NL>  }  COM: <s> returns the name of the artist as firstname lastname </s>

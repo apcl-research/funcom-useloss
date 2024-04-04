@@ -1,0 +1,1 @@
+TDAT: private void copy to ( result other ) {  <NL> for ( map . entry < type node , set < type node > > entry : this . map . entry set ( ) ) {  <NL> other . add ( entry . get key ( ) , entry . get value ( ) ) ;  <NL>  }  <NL> other . add errors ( get errors ( ) ) ;  <NL>  }  COM: <s> copies this relation including the errors into another </s>

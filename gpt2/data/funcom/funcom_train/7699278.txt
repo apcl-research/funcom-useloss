@@ -1,0 +1,1 @@
+TDAT: public long query column characters longest length ( database data dd , string table , column data column ) {  <NL> string sql = " select max ( length ( ` " + column . get column name ( ) + " ` ) ) from " + dd . get database ( ) + " . " + table + " ; " ;  <NL> return ql . query long ( dd , sql ) ;  <NL>  }  COM: <s> query column characters longest length </s>

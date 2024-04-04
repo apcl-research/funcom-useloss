@@ -1,0 +1,1 @@
+TDAT: public void set spot direction ( float [ ] spot direction ) {  <NL> if ( this . attached gl ! = null )  <NL> this . attached gl . gl lightfv ( num to id ( light number ) , gl . gl _ spot _ direction , spot direction , 0 ) ;  <NL> this . spot direction = spot direction . clone ( ) ;  <NL>  }  COM: <s> sets the spotlight direction for this light </s>

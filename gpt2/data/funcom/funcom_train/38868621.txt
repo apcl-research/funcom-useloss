@@ -1,0 +1,1 @@
+TDAT: @ test public void format test ( ) {  <NL> lat lon ll ;  <NL>  <NL> ll = new lat lon ( 45 . 5f , 110 . 0f ) ;  <NL> ll . set format ( " lat = % 5 . 2f " , " lon = % 6 . 2f " ) ;  <NL> ll . set delimiter ( " and " ) ;  <NL> assert . assert equals ( " lat = 45 . 50 and lon = 110 . 00 " , ll . to string ( ) ) ;  <NL>  }  COM: <s> test display format and other misc stuff </s>

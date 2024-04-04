@@ -1,0 +1,1 @@
+TDAT: public long get failed size ( ) {  <NL>  / / logger . debug ( " pagedb get fetched size " + dirname + " ( " + new throwable ( ) . get stack trace ( ) [ 1 ] . get class name ( ) + " ) " ) ;  <NL> if ( ! stats . initialized ) {  <NL> stats . read ( ) ;  <NL>  }  <NL> return stats . failed pages ;  <NL>  }  COM: <s> returns the number of failed pages in the last cycle </s>

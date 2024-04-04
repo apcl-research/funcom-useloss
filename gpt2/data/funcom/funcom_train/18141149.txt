@@ -1,0 +1,1 @@
+TDAT: private string get mm ( string month ) {  <NL> month = month . to lower case ( ) ;  <NL> for ( int i = 1 ; i < = months . length ; i + + ) {  <NL> if ( months [ i - 1 ] . equals ( month ) )  <NL> return i < 10 ? " 0 " + i : " " + i ;  <NL>  }  <NL>  <NL> return null ;  <NL>  }  COM: <s> turn month name into mm lower case </s>

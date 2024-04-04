@@ -1,0 +1,1 @@
+TDAT: public buffered image get snapshot ( ) {  <NL> buffered image i = new buffered image ( get width ( ) , get height ( ) , image . get type ( ) ) ;  <NL> graphics g = i . create graphics ( ) ;  <NL> g . draw image ( image , 0 , 0 , null ) ;  <NL> g . dispose ( ) ;  <NL> return i ;  <NL>  }  COM: <s> returns a static snapshot image of this object </s>

@@ -1,0 +1,1 @@
+TDAT: public int max ( ) {  <NL> int temp ;  <NL> int maximum = m [ 0 ] ;  <NL> for ( int row = 0 ; row < x size ; row + + )  <NL> for ( int col = 0 ; col < y size ; col + + )  <NL> if ( m [ at ( row , col ) ] > maximum )  <NL> maximum = m [ at ( row , col ) ] ;  <NL>  <NL> return maximum ;  <NL>  }  COM: <s> get the maximum value stored into the grid </s>

@@ -1,0 +1,1 @@
+TDAT: public void test ordering _ bad name ( ) {  <NL> try {  <NL> do test ordering ( new string [ ] { " test three " , " test two " , " xx " , " test one " } ) ;  <NL> fail ( " expected exception " ) ;  <NL>  }  <NL> catch ( final test initialization failed exception e ) {  <NL>  / / expected path <NL>  }  <NL>  }  COM: <s> test ordering with one bad method name </s>

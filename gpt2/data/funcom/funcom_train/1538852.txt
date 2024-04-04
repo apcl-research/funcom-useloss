@@ -1,0 +1,1 @@
+TDAT: public boolean is unit ( ) {  <NL> if ( is zero ( ) ) {  <NL> return false ;  <NL>  }  <NL> if ( ring . is field ( ) ) {  <NL> return true ;  <NL>  }  <NL> java . math . big integer g = ring . modul . gcd ( val ) . abs ( ) ;  <NL> return ( g . equals ( java . math . big integer . one ) ) ;  <NL>  }  COM: <s> is mod integer number a unit </s>

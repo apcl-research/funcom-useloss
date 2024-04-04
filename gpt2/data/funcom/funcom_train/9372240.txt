@@ -1,0 +1,1 @@
+TDAT: private void draw centered ( bitmap d , canvas c , int x , int y ) {  <NL> int w = d . get width ( ) ;  <NL> int h = d . get height ( ) ;  <NL>  <NL> c . draw bitmap ( d , x - ( w / 2 ) , y - ( h / 2 ) , m paint ) ;  <NL>  }  COM: <s> draw the bitmap so that its centered </s>

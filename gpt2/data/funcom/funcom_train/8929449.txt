@@ -1,0 +1,1 @@
+TDAT: public string book ( string msg , string conversation id , string protocol ) {  <NL> log . info ( " = = = ad ded book behavior to " + this . get local name ( ) ) ;  <NL> add behaviour ( new book ( this , msg , conversation id , protocol ) ) ;  <NL> return " ok " ;  <NL>  }  COM: <s> this method is called when we want this agent executes booking behavior </s>

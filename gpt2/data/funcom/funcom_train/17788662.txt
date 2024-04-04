@@ -1,0 +1,1 @@
+TDAT: public int get num precincts heigh ( ) {  <NL> cadi rectangle bounds = get bounds ( ) ;  <NL> int tmp = parent . get precinct heights ( r level ) ;  <NL> return ( int ) math . ceil ( 1 . 0 * ( bounds . y + bounds . height ) / tmp )  <NL>  - ( int ) math . floor ( 1 . 0 * bounds . y / tmp ) ;  <NL>  }  COM: <s> returns the number of precincts in the height dimension </s>

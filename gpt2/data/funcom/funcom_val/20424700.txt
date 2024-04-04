@@ -1,0 +1,1 @@
+TDAT: public int compare to ( tag tag ) {  <NL> return new compare to builder ( ) . append ( value , tag . value ) . append (  <NL> usage score , tag . usage score ) . append ( post count , tag . post count )  <NL>  . append ( user count , tag . user count ) . to comparison ( ) ;  <NL>  }  COM: <s> comparability is based on value usage score post count then user count </s>

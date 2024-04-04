@@ -1,0 +1,1 @@
+TDAT: private void erase cursor ( ) {  <NL> if ( ! system _ cursor ) {  <NL> if ( mg ! = null & & is _ showing ) {  <NL>  / / to erase in xor mode , just redraw on top of itself .  <NL> draw cross ( ) ; / / / / / / / / / / / / / / / / / / / / / / / / / / / /  <NL> is _ showing = false ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> erases the cursor but only if its already showing </s>

@@ -1,0 +1,1 @@
+TDAT: public void set land type ( int column , int row , land tile land type ) {  <NL> if ( column > = 0 & & column < this . get number columns ( )  <NL>  & & row > = 0 & & row < this . get number rows ( ) ) {  <NL> this . land types [ column ] [ row ] = land type ;  <NL>  }  <NL>  }  COM: <s> p set the land type at the specified coordinates </s>

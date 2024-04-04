@@ -1,0 +1,1 @@
+TDAT: private void close dialog ( window event evt ) {  <NL> try {  <NL> optionen . save window size ( " auswertung . j eigenschaften " , this ) ;  <NL> set visible ( false ) ;  <NL> dispose ( ) ;  <NL>  } catch ( exception e ) {  <NL> new j bug report ( e , j eigenschaften . class , 1 , null ) . show ( ) ;  <NL>  }  <NL>  }  COM: <s> closes the dialog </s>

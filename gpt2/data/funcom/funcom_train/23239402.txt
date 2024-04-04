@@ -1,0 +1,1 @@
+TDAT: public void replace ( string text , string rep , boolean whole words , boolean back , boolean case sensitive , boolean all matches ) {  <NL> h doc . replace ( text , rep , whole words , back , case sensitive , all matches , this . get caret position ( ) ) ;  <NL>  }  COM: <s> finds and replaces text in the current document </s>

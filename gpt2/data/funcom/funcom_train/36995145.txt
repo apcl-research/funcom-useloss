@@ -1,0 +1,1 @@
+TDAT: public void set ( int r , int g , int b , int a , float format ) {  <NL> set ( ( float ) r / default _ format , ( float ) g / default _ format , ( float ) b / default _ format ,  <NL> format = = no _ alpha ? default _ alpha : ( float ) a / format ) ;  <NL>  }  COM: <s> general int r g b alpha setter </s>

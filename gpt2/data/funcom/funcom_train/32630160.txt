@@ -1,0 +1,1 @@
+TDAT: private string get full message ( final string message , final exception d ) {  <NL> final string msg = message ! = null ? message : ( d ! = null ? d . get message ( ) : " unknown problem " ) ;  <NL> final string full message = this . get class ( ) . get name ( ) + " : " + msg ;  <NL> return full message ;  <NL>  }  COM: <s> returns a message for a domino exception </s>

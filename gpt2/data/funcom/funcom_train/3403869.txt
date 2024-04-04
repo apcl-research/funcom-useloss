@@ -1,0 +1,1 @@
+TDAT: public char sequence sub sequence ( int start , int end ) {  <NL> string builder buf = new string builder ( ) ;  <NL> get ( ) ; / / fill in the buffer if we haven ' t done so <NL> for ( int i = start ; i < end ; i + + )  <NL> buf . append ( char at ( i ) ) ;  <NL> return buf ;  <NL>  }  COM: <s> internally this is only used to split a text to a list </s>

@@ -1,0 +1,1 @@
+TDAT: protected void process window event ( window event e ) {  <NL> super . process window event ( e ) ;  <NL> if ( e . get id ( ) = = window event . window _ closing ) {  <NL> osm menu file exit cmd = new osm menu file exit ( this , osm application . get document ( ) ) ;  <NL> cmd . run command ( ) ;  <NL>  }  <NL>  }  COM: <s> to make exit possible </s>

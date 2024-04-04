@@ -1,0 +1,1 @@
+TDAT: public pl writer add char metric ( double val , string name ) {  <NL>  <NL> if ( val ! = 0 ) {  <NL> plopen ( name ) . add real ( val ) . plclose ( ) ;  <NL>  } else {  <NL> if ( print zero width & & " charwd " . equals ( name ) ) {  <NL> plopen ( name ) . add real ( 0 . 0d ) . plclose ( ) ;  <NL>  }  <NL>  }  <NL> return this ;  <NL>  }  COM: <s> add a char metric </s>

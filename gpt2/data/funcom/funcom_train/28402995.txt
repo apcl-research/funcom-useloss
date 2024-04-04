@@ -1,0 +1,1 @@
+TDAT: public c profile get profile ( string s title ) {  <NL> for ( int i = 0 ; i < m _ p profile values . size ( ) ; i + + ) {  <NL> if ( m _ p profile values . element at ( i ) . m _ s title . compare to ( s title ) = = 0 )  <NL> return m _ p profile values . element at ( i ) ;  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> get the desired profile by supplying the essid </s>

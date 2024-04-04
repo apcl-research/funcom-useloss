@@ -1,0 +1,1 @@
+TDAT: public void remove file ( file f ) {  <NL> precond . validate arg ( f , " file " ) ; / / $ non - nls - 1 $  <NL> synchronized ( this . _ lock ) {  <NL> this . entries . remove ( f ) ;  <NL>  }  <NL> logger . finest ( " removed " + f . get path ( ) ) ; / / $ non - nls - 1 $  <NL>  }  COM: <s> removes a file from polling if present </s>

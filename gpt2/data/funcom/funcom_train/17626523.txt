@@ -1,0 +1,1 @@
+TDAT: protected void add tag ( string name , string content type , int belongs to , string dependancies ) {  <NL> this . put ( name . to lower case ( ) , new tag info ( name , content type , belongs to , false , false , false , dependancies ) ) ;  <NL>  }  COM: <s> shortcut to creating tag info instance and storing it to the map </s>

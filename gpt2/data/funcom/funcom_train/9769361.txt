@@ -1,0 +1,1 @@
+TDAT: @ test ( expected = illegal argument exception . class ) public void test constructor sequence ( ) {  <NL> combo [ ] combos = new combo [ ] { this . bamboo _ seq , this . circle _ trp , this . character _ trp , this . dragon _ trp } ;  <NL> new scoreentry _ triplets _ only _ hand ( combos ) ;  <NL>  }  COM: <s> check if it fails if one element is a sequence </s>

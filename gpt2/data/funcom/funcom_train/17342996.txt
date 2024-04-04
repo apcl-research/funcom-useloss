@@ -1,0 +1,1 @@
+TDAT: public void add timeout ( int t ) {  <NL> int [ ] n = new int [ fs timeout . length + 1 ] ;  <NL> for ( int i = 0 ; i < fs timeout . length ; i + + ) {  <NL> n [ i ] = fs timeout [ i ] ;  <NL>  }  <NL> n [ n . length - 1 ] = t ;  <NL> fs timeout = n ;  <NL>  }  COM: <s> adds a timeout to the end of the current list of timeouts in </s>

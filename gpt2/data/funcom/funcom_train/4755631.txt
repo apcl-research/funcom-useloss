@@ -1,0 +1,1 @@
+TDAT: public t dot product ( array field vector < t > v ) {  <NL> check vector dimensions ( v . data . length ) ;  <NL> t dot = field . get zero ( ) ;  <NL> for ( int i = 0 ; i < data . length ; i + + ) {  <NL> dot = dot . add ( data [ i ] . multiply ( v . data [ i ] ) ) ;  <NL>  }  <NL> return dot ;  <NL>  }  COM: <s> compute the dot product </s>

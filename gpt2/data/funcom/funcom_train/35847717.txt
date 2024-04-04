@@ -1,0 +1,1 @@
+TDAT: public string get base name ( string n ) {  <NL> abstract file persister p = get persister from file name ( n ) ;  <NL> if ( p = = null ) {  <NL> return n ;  <NL>  }  <NL> int ext length = p . get extension ( ) . length ( ) + 1 ;  <NL> return n . substring ( 0 , n . length ( ) - ext length ) ;  <NL>  }  COM: <s> find the base name of the given filename </s>

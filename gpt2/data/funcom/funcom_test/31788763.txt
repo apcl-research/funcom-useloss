@@ -1,0 +1,1 @@
+TDAT: public void add env file ( file file ) {  <NL> file [ ] oldfiles = get env files ( ) ;  <NL> file [ ] newfiles = new file [ oldfiles . length + 1 ] ;  <NL> system . arraycopy ( oldfiles , 0 , newfiles , 0 , oldfiles . length ) ;  <NL> newfiles [ oldfiles . length ] = file ;  <NL> set env files ( newfiles ) ;  <NL>  }  COM: <s> add a file to the list of required files </s>

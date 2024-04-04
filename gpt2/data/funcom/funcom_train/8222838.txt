@@ -1,0 +1,1 @@
+TDAT: public void delete domain credential at ( int index ) {  <NL> int i = - 1 ;  <NL> iterator hosts = _ domain credentials . key set ( ) . iterator ( ) ;  <NL> while ( hosts . has next ( ) ) {  <NL> object key = hosts . next ( ) ;  <NL> i + + ;  <NL> if ( i = = index )  <NL>  _ domain credentials . remove ( key ) ;  <NL>  }  <NL>  }  COM: <s> delete domain credential at </s>

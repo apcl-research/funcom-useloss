@@ -1,0 +1,1 @@
+TDAT: public void set color ( color color ) {  <NL> if ( color ! = null ) {  <NL> m red sl . set value ( color . get red ( ) ) ;  <NL> m green sl . set value ( color . get green ( ) ) ;  <NL> m blue sl . set value ( color . get blue ( ) ) ;  <NL> m alpha sl . set value ( color . get alpha ( ) ) ;  <NL>  }  <NL>  }  COM: <s> sets the color in this dialog </s>

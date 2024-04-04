@@ -1,0 +1,1 @@
+TDAT: public double variance ( discrete function df ) {  <NL> double aux , ev = 0 . 0 , evv = 0 . 0 ;  <NL> for ( int i = 0 ; i < df . values . length ; i + + ) {  <NL> aux = values [ i ] * df . values [ i ] ;  <NL> ev + = aux ;  <NL> evv = df . values [ i ] * aux ;  <NL>  }  <NL> return ( evv - ev * ev ) ;  <NL>  }  COM: <s> calculate the variance of a discrete function </s>

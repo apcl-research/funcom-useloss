@@ -1,0 +1,1 @@
+TDAT: private void inserted ( ) {  <NL> rows inserted + + ;  <NL> if ( ( 0 ! = progress row increment ) & &  <NL>  ( 0 = = ( rows inserted % progress row increment ) ) ) {  <NL> logger . info ( rows inserted +  <NL>  " row " + ( ( 1 = = rows inserted ) ? " " : " s " ) + " inserted " ) ;  <NL>  }  <NL>  }  COM: <s> update row insert count and report if at right multiple </s>

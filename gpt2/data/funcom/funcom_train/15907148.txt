@@ -1,0 +1,1 @@
+TDAT: public void move after ( uml item x ) throws runtime exception {  <NL> uml com . send _ cmd ( identifier _ ( ) , on instance cmd . move after cmd ,  <NL>  ( x ! = null ) ? x . identifier _ ( ) : 0 ) ;  <NL> uml com . check ( ) ;  <NL> parent ( ) . reread _ children _ if _ needed _ ( ) ;  <NL>  }  COM: <s> if the parameter is null move the current item to be </s>

@@ -1,0 +1,1 @@
+TDAT: public string remove spaces digits ( string s ) {  <NL> string sp = " " ;  <NL> if ( valid ( s ) = = true ) {  <NL> for ( int i = 0 ; i < s . length ( ) ; i + + ) {  <NL> char c = s . char at ( i ) ;  <NL> if ( valid ( c ) ) {  <NL> sp + = c ;  <NL>  }  <NL>  }  <NL>  }  <NL> return sp ;  <NL>  }  COM: <s> remove spaces digits string s take a string like </s>

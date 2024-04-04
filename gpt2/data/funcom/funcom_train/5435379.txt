@@ -1,0 +1,1 @@
+TDAT: public float get float ( int offset ) {  <NL> long l = ( long ) get byte ( offset + 0 ) | ( ( long ) get byte ( offset + 1 ) < < 8 )  <NL> | ( ( long ) get byte ( offset + 2 ) < < 16 ) | ( ( long ) get byte ( offset + 3 ) < < 24 ) ;  <NL> return float . int bits to float ( ( int ) l ) ;  <NL>  }  COM: <s> method get float </s>

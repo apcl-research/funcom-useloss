@@ -1,0 +1,1 @@
+TDAT: public boolean intersects ( int x , int y , int width , int height ) {  <NL> int tw = size . get width ( ) ;  <NL> int th = size . get height ( ) ;  <NL> return intersects ( this . x , this . y , tw , th , x , y , width , height ) ;  <NL>  }  COM: <s> determines whether or not this rectangle and the specified rectangle </s>

@@ -1,0 +1,1 @@
+TDAT: public void reset ( ) {  <NL> cla tf . set value ( ( byte ) 0x00 ) ;  <NL> ins tf . set value ( ( byte ) 0x00 ) ;  <NL> p1tf . set value ( ( byte ) 0x00 ) ;  <NL> p2tf . set value ( ( byte ) 0x00 ) ;  <NL> le tf . set value ( ( byte ) 0x00 ) ;  <NL> cdata tf . reset ( ) ;  <NL> validate ( ) ;  <NL>  }  COM: <s> resets the field to a code command apdu code with </s>

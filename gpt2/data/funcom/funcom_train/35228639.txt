@@ -1,0 +1,1 @@
+TDAT: public list get expenses ( int for month ) {  <NL> map param map = new hash map ( 1 ) ;  <NL> param map . put ( " month " , for month ) ;  <NL> return hibernate util . get data ( " from org . ranjith . jspent . data . expense where month ( date ) = : month order by id asc " , param map ) ;  <NL>  }  COM: <s> get list of expenses as code expense code objects </s>

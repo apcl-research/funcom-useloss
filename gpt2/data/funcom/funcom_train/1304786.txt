@@ -1,0 +1,1 @@
+TDAT: public void set tag name ( string name ) {  <NL> if ( _ xml tree ! = null ) {  <NL> final xml lite . tag cur tag = _ xml tree . get data ( ) . as tag ( ) ;  <NL> if ( cur tag ! = null ) {  <NL>  _ xml tree . set data ( new xml lite . tag ( cur tag ) ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> change the tag name for this record leaving the name unchanged </s>

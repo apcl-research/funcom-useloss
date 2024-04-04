@@ -1,0 +1,1 @@
+TDAT: public float get unreal ( ) {  <NL> byte [ ] b = get byte array ( ) ;  <NL> int intpart = get int ( b [ 0 ] , b [ 1 ] , 0 , 0 ) ;  <NL> int fracpart = get int ( 0 , 0 , b [ 2 ] , b [ 3 ] ) ;  <NL> float u = intpart + ( ( float ) fracpart ) / ( ( float ) 65536 ) ;  <NL> return u ;  <NL>  }  COM: <s> returns an unreal with this bitpattern </s>

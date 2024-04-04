@@ -1,0 +1,1 @@
+TDAT: public void test behavior nouns ( ) throws exception {  <NL> analyzer a = new persian analyzer ( test _ version _ current ) ;  <NL> assert analyzes to ( a , " برگ ها " , new string [ ] { " برگ " } ) ;  <NL> assert analyzes to ( a , " برگ‌ها " , new string [ ] { " برگ " } ) ;  <NL>  }  COM: <s> this test shows how the combination of tokenization breaking on zero width </s>

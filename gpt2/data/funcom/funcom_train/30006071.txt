@@ -1,0 +1,1 @@
+TDAT: public j info bar get info bar ( ) {  <NL> if ( this . info bar = = null ) {  <NL> this . info bar = new j info bar ( this . info icon ) ;  <NL> this . info bar . show info ( new info event ( this . title , this . text , false , this ) ) ;  <NL>  }  <NL> return this . info bar ;  <NL>  }  COM: <s> gets the info bar </s>

@@ -1,0 +1,1 @@
+TDAT: private int get italic style ( string str ) {  <NL> for ( int i = 0 ; i < linux _ slant _ names . length ; i + + ) {  <NL> if ( str . equals ignore case ( linux _ slant _ names [ i ] ) ) {  <NL> return ( i < 2 ) ? font . italic : font . plain ;  <NL>  }  <NL>  }  <NL> return font . plain ;  <NL>  }  COM: <s> returns style according to the xlfd slant string </s>

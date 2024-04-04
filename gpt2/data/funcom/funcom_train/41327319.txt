@@ -1,0 +1,1 @@
+TDAT: public void test add ( ) {  <NL> double alpha = math . random ( ) ;  <NL> for ( matrix entry e : a ) {  <NL> a . add ( e . row ( ) , e . column ( ) , alpha ) ;  <NL> a . add ( e . row ( ) , e . column ( ) , - alpha ) ;  <NL>  }  <NL> assert equals ( ad , a ) ;  <NL>  }  COM: <s> test additions using iterators </s>

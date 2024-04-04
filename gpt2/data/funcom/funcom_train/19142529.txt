@@ -1,0 +1,1 @@
+TDAT: public void copy from ( base entity base entity ) {  <NL> set author ( base entity . get author ( ) ) ;  <NL> set description ( base entity . get description ( ) ) ;  <NL> set name ( base entity . get name ( ) ) ;  <NL> set since ( base entity . get since ( ) ) ;  <NL> set version ( base entity . get version ( ) ) ;  <NL>  }  COM: <s> copies the attribute values </s>

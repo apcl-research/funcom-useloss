@@ -1,0 +1,1 @@
+TDAT: protected void remove current bean ( ) {  <NL> bank e = ( bank ) j combo box . get selected item ( ) ;  <NL> if ( e ! = null )  <NL> euro budget . get instance ( ) . get data model ( ) . remove bank ( e ) ;  <NL>  / / cmodel . remove element at ( ind ) ;  <NL>  / / int ind = j combo box . get selected index ( ) ;  <NL>  }  COM: <s> remove a bean in the data model list </s>

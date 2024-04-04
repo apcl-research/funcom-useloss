@@ -1,0 +1,1 @@
+TDAT: public void add16th of float data ( int rhythmposition , float vol , boolean loop , float [ ] output ) {  <NL> for ( int i = 0 ; i < instrument _ count ; i + + ) {  <NL> get instrument state ( i ) . add16th of float data ( rhythmposition , vol , loop , output ) ;  <NL>  }  <NL>  }  COM: <s> calculates a 16th of audio data </s>

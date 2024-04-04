@@ -1,0 +1,1 @@
+TDAT: public rational product ( rational r ) {  <NL> int g = number theory . gcd ( r . denom , num ) * number theory . gcd ( r . num , denom ) ;  <NL> rational newr = new rational ( ) ;  <NL> newr . num = num * r . num / g ;  <NL> newr . denom = denom * r . denom / g ;  <NL> return newr ;  <NL>  }  COM: <s> returns the product of this number and code r code </s>

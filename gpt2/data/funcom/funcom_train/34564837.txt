@@ -1,0 +1,1 @@
+TDAT: private void read ( final data input in ) throws io exception {  <NL> final int s = in . read num ( ) ;  <NL> for ( int u = 0 ; u < s ; u + + ) {  <NL> final user user = new user ( string ( in . read bytes ( ) ) ,  <NL> in . read bytes ( ) , in . read num ( ) ) ;  <NL> add ( user ) ;  <NL>  }  <NL>  }  COM: <s> reads users from disk </s>

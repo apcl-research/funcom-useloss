@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> string temp = " offset = " + offset + " \n " + child [ 0 ] + " \n " ;  <NL> for ( int i = 0 ; i < node _ elements + 1 ; i + + ) {  <NL> temp + = i + " " + key [ i ] + " " +  <NL> value [ i ] + " " + child [ i + 1 ] + " \n " ;  <NL>  }  <NL>  <NL> return temp ;  <NL>  }  COM: <s> returns a string representation of this node object </s>

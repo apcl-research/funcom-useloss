@@ -1,0 +1,1 @@
+TDAT: public void add sub view to master ( string a master name , sub view mapper a sub view mapper ) {  <NL> for ( base view data accessor accessor : view field accessors )  <NL> if ( accessor . add sub view to master ( a master name , a sub view mapper ) = = true )  <NL> a sub view mapper . add master ( accessor ) ;  <NL>  }  COM: <s> adds a sub view to the master </s>

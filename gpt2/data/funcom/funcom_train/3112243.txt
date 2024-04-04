@@ -1,0 +1,1 @@
+TDAT: public void add default key bindings ( ) {  <NL> super . add default key bindings ( ) ;  <NL>  <NL> add key binding ( " c + space " , insert _ structure ) ;  <NL> add key binding ( " c + v " , paste ) ;  <NL> add key binding ( " c + c " , copy ) ;  <NL> add key binding ( " c + x " , cut ) ;  <NL>  }  COM: <s> add the default key bindings of the gunner input handler </s>

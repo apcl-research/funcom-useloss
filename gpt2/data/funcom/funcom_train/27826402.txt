@@ -1,0 +1,1 @@
+TDAT: public boolean equals ( object other ) {  <NL> if ( ! ( other instanceof map . entry ) )  <NL> return false ;  <NL> map . entry other entry = ( map . entry ) other ;  <NL> return object equals ( get key ( ) , other entry . get key ( ) ) & & object equals ( get value ( ) , other entry . get value ( ) ) ;  <NL>  }  COM: <s> checks if two entries are equal </s>

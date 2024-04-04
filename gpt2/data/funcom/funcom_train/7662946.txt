@@ -1,0 +1,1 @@
+TDAT: public sql warning get next warning ( ) {  <NL> sql exception next = super . get next exception ( ) ;  <NL> if ( next = = null ) {  <NL> return null ;  <NL>  }  <NL> if ( next instanceof sql warning ) {  <NL> return ( sql warning ) next ;  <NL>  }  <NL> throw new error ( messages . get string ( " sql . 8 " ) ) ; / / $ non - nls - 1 $  <NL>  }  COM: <s> gets the next </s>

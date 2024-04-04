@@ -1,0 +1,1 @@
+TDAT: public void dump ( ) {  <NL> log . e ( tag , " dump : size = " + m map . size ( ) ) ;  <NL> for ( string k : m map . key set ( ) ) {  <NL> log . e ( tag , " dump : " + k + " = " + m map . get ( k ) ) ;  <NL>  }  <NL>  }  COM: <s> writes the current parameters to the log </s>

@@ -1,0 +1,1 @@
+TDAT: public void draw quad ( double a _ x1 , double a _ y1 , double a _ x2 , double a _ y2 ) {  <NL> init matrix ( m _ drawing matrix . quad ( a _ x1 , a _ y1 , a _ x2 , a _ y2 ) ) ;  <NL> draw quad ( ) ;  <NL> reset matrix ( ) ;  <NL>  }  COM: <s> draws a quad according to current drawing matrix </s>

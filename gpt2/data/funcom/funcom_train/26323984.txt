@@ -1,0 +1,1 @@
+TDAT: public void paint component ( component c , graphics2d g2d ) {  <NL> gradient paint gradient paint = new gradient paint ( 0 , 0 , start color ,  <NL> c . get width ( ) , c . get height ( ) , end color , repeat ) ;  <NL> g2d . set paint ( gradient paint ) ;  <NL> g2d . fill rect ( 0 , 0 , c . get width ( ) , c . get height ( ) ) ;  <NL>  }  COM: <s> paint the component </s>

@@ -1,0 +1,1 @@
+TDAT: public void test l size operation ( ) throws interpreter exception {  <NL> string code = " l size ( list ( 1 , ' 2 ' , true , list ( ' inner ' ) ) ) ; " ;  <NL> value result = interpreter . process ( code ) ;  <NL> assert equals ( " unespected result for list size . " , 4 , result . as numeric ( ) . integer ( ) ) ;  <NL>  }  COM: <s> tests the i lsize list i operation </s>

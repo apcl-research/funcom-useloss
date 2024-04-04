@@ -1,0 +1,1 @@
+TDAT: public double get distance ( list < string > first list , list < string > second list ) {  <NL> double [ ] [ ] best distances =  <NL> initialize ( new double [ first list . size ( ) + 1 ] [ second list . size ( ) + 1 ] ) ;  <NL> return get distance ( first list , second list , 0 , 0 , best distances ) ;  <NL>  }  COM: <s> returns the edit distance between two sentences </s>

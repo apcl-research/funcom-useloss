@@ -1,0 +1,1 @@
+TDAT: public void test retain all full ( ) {  <NL> trie retain = build trie ( m _ data ) ;  <NL> trie clone = ( trie ) m _ trie . clone ( ) ;  <NL> m _ trie . retain all ( retain ) ;  <NL> assert equals ( " retaining all strings " , clone . size ( ) , m _ trie . size ( ) ) ;  <NL>  }  COM: <s> tests the retain all method retains all elements </s>

@@ -1,0 +1,1 @@
+TDAT: public void developer warning ( string warning ) {  <NL>  / / ehi logger . trace unusual state ( warning , se _ developer _ warning ) ;  <NL> ehi logger . get instance ( ) . log event ( new std log event ( log event . unusual _ state _ trace , warning , null , get origin ( 0 ) , se _ developer _ warning ) ) ;  <NL>  }  COM: <s> log developer warnings for e </s>

@@ -1,0 +1,1 @@
+TDAT: protected void render background ( unit graphics g , model model ) {  <NL> if ( c background = = null ) return ;  <NL> g . set color ( c background ) ;  <NL> rectangle2d r = new rectangle2d . double ( model . min , 0 , model . max - model . min , 1024 ) ;  <NL> g . draw ( r , 0 , 0 , true ) ;  <NL>  }  COM: <s> renders the background </s>

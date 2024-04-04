@@ -1,0 +1,1 @@
+TDAT: public void video erase ( int ofs , int count ) {  <NL>  <NL>  / / memcpy ( screens [ 0 ] + ofs , screens [ 1 ] + ofs , count ) ;  <NL> system . arraycopy ( v . get screen ( doom video renderer . screen _ bg ) , ofs , v . get screen ( doom video renderer . screen _ fg ) , ofs , count ) ;  <NL>  <NL>  }  COM: <s> copy a screen buffer </s>

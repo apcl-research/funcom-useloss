@@ -1,0 +1,1 @@
+TDAT: public double get element ( int i , int j ) {  <NL> if ( i < 0 || i > = rows || j < 0 || j > = columns ) {  <NL> throw new illegal argument exception ( " cannot get element ( "  <NL>  + i + " , " + j + " ) from a "  <NL>  + rows + ' x ' + columns <NL>  + " matrix " ) ;  <NL>  }  <NL> return data [ i * columns + j ] ;  <NL>  }  COM: <s> get a matrix element </s>

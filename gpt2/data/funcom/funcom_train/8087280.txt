@@ -1,0 +1,1 @@
+TDAT: public matrix plus equals ( matrix b ) {  <NL> check matrix dimensions ( b ) ;  <NL> for ( int i = 0 ; i < m ; i + + ) {  <NL> for ( int j = 0 ; j < n ; j + + ) {  <NL> a [ i ] [ j ] = a [ i ] [ j ] + b . a [ i ] [ j ] ;  <NL>  }  <NL>  }  <NL> return this ;  <NL>  }  COM: <s> a a b </s>

@@ -1,0 +1,1 @@
+TDAT: public void show programs ( ) throws db exception {  <NL> db iterator res ;  <NL>  <NL> if ( ! is initialized ( ) )  <NL> init ( ) ;  <NL> res = prv . get programs ( null ) . iterator ( ) ;  <NL> table utils . fill sorted table ( tab program list , res , program indexes , 0 ) ;  <NL> init program table sizes ( ) ;  <NL>  }  COM: <s> shows the list of programs </s>

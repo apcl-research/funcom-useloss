@@ -1,0 +1,1 @@
+TDAT: synchronized public void write ( int c ) throws io exception {  <NL> char cbuf [ ] = { ( char ) c } ;  <NL>  <NL> int len = conv . char to byte ( id , cbuf , 0 , 1 , buf , 0 , buf . length ) ;  <NL>  <NL> if ( len > 0 ) {  <NL> out . write ( buf , 0 , len ) ;  <NL>  }  <NL>  }  COM: <s> write a single converted character </s>

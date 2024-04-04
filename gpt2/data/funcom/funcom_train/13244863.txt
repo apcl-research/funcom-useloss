@@ -1,0 +1,1 @@
+TDAT: public tab add new tab ( ) {  <NL> string [ ] info = syn util . get tab info ( " name the new tab " , false ) ;  <NL> if ( info [ 0 ] = = null || info [ 1 ] = = null ) {  <NL> return null ;  <NL>  }  <NL> return add new tab ( info [ 0 ] , info [ 1 ] ) ;  <NL>  }  COM: <s> adds new tabs and prompts the user for all information </s>

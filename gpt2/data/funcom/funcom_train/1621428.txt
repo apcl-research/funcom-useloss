@@ -1,0 +1,1 @@
+TDAT: private boolean match ( string label ) {  <NL> if ( ( pattern string = = null ) || ( pattern string . equals ( " " ) ) || ( pattern string . equals ( " * " ) ) ) { / / $ non - nls - 1 $ / / $ non - nls - 2 $  <NL> return true ;  <NL>  }  <NL> return string matcher . match ( label ) ;  <NL>  }  COM: <s> returns true if the label matches the chosen pattern </s>

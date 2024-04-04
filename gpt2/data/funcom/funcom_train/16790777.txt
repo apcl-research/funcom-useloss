@@ -1,0 +1,1 @@
+TDAT: protected button build value ( composite parent , gc gc ) {  <NL> button button = new button ( parent , swt . check ) ;  <NL> button . set tool tip text ( this . property . get detail ( this . resources . get resources ( ) ) ) ;  <NL> button . set enabled ( false ) ;  <NL> button . set grayed ( true ) ;  <NL> return button ;  <NL>  }  COM: <s> build the value </s>

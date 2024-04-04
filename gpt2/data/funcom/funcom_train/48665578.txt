@@ -1,0 +1,1 @@
+TDAT: private void add data view from xml ( string data ) throws exception {  <NL> data view dv = ( data view ) xml utils . from xml buffer ( null , new string buffer ( data ) , " view " ) ;  <NL> data view editor . save data view ( f event handler , f context , f data view repository , dv , null ) ;  <NL>  }  COM: <s> adds a data view from xml </s>

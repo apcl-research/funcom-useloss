@@ -1,0 +1,1 @@
+TDAT: private boolean version ( ) throws io exception {  <NL> if ( ! consume ( vers ) ) return false ;  <NL> s ( ) ; check ( ' = ' ) ; s ( ) ;  <NL> final int d = qu ( ) ;  <NL> if ( ! consume ( vers10 ) & & ! consume ( vers11 ) ) error ( declversion ) ;  <NL> check ( ( char ) d ) ;  <NL> return true ;  <NL>  }  COM: <s> scans a document version </s>

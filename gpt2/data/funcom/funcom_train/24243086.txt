@@ -1,0 +1,1 @@
+TDAT: public string get error ( exception ex ) {  <NL> json object j = new json object ( ) ;  <NL> j . put ( " success " , false ) ;  <NL> j . put ( " errors " , " " ) ;  <NL> j . put ( " _ msg " , ex . get localized message ( ) ) ;  <NL> return j . to string ( ) ;  <NL>  }  COM: <s> this method allows to treat the current error exception </s>

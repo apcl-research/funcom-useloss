@@ -1,0 +1,1 @@
+TDAT: public void set name ( string name ) throws common container exception {  <NL> if ( name . matches ( " [ a - z a - z _ 0 - 9 ] * " ) ) {  <NL> this . name = name ;  <NL>  } else {  <NL> throw new common container exception ( " event handler name [ " + name + " ] contains invalid characters . " ) ;  <NL>  }  <NL>  }  COM: <s> sets the instance name property </s>

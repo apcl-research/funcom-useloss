@@ -1,0 +1,1 @@
+TDAT: public int log banner ( string tag , object . . . args ) {  <NL>  <NL> log banner ( ) ;  <NL> object [ ] a = new object [ args . length + 1 ] ;  <NL> a [ 0 ] = get program name ( ) ;  <NL> system . arraycopy ( args , 0 , a , 1 , args . length ) ;  <NL> return log ( tag , a ) ;  <NL>  }  COM: <s> write a message to the logger </s>

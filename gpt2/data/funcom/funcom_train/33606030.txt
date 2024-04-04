@@ -1,0 +1,1 @@
+TDAT: public void add edge ( int a , int b , int w ) {  <NL> if ( a > b ) { int c = a ; a = b ; b = c ; }  <NL> if ( valid edge ( a , b , w ) ) { g . add edge ( a , b , w ) ; }  <NL>  }  COM: <s> override add edge method to ensure ordering of vertices </s>

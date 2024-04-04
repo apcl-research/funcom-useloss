@@ -1,0 +1,1 @@
+TDAT: protected void remove unreadable ( list < t > entities ) {  <NL> iterator < t > it = entities . iterator ( ) ;  <NL> while ( it . has next ( ) ) {  <NL> t entity = it . next ( ) ;  <NL> if ( ! can read ( get connection ( ) . get user ( ) , entity ) )  <NL> it . remove ( ) ;  <NL>  }  <NL>  }  COM: <s> remove entities without read permission from a list </s>

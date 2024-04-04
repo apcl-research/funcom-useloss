@@ -1,0 +1,1 @@
+TDAT: public v convert row ( node < c , v > node ) {  <NL> list < column < c , v > > columns = new vector < column < c , v > > ( ) ;  <NL> for ( node < c , v > n : node ) {  <NL> columns . add ( n . get column ( ) ) ;  <NL>  }  <NL> return convert row ( columns ) ;  <NL>  } ;  COM: <s> converts a row back to the original value type </s>

@@ -1,0 +1,1 @@
+TDAT: public void draw ( canvas canvas , rect f location ) {  <NL> native draw ( canvas . m native canvas , location ,  <NL> m bitmap . ni ( ) , m chunk ,  <NL> m paint ! = null ? m paint . m native paint : 0 ,  <NL> canvas . m density , m bitmap . m density ) ;  <NL>  }  COM: <s> draw a bitmap of nine patches </s>

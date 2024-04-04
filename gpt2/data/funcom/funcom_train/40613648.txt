@@ -1,0 +1,1 @@
+TDAT: public void fire after row ( session session , row old row , row new row , boolean rollback ) {  <NL> fire row ( session , old row , new row , false , rollback ) ;  <NL> if ( ! rollback ) {  <NL> fire constraints ( session , old row , new row , false ) ;  <NL>  }  <NL>  }  COM: <s> fire all triggers that need to be called after a row is updated </s>

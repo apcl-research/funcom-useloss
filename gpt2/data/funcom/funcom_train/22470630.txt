@@ -1,0 +1,1 @@
+TDAT: public string get click ( ) {  <NL> string builder sb = new string builder ( ) ;  <NL> sb . append ( " open popup ( ' " ) ;  <NL> sb . append ( get href ( ) ) ;  <NL> sb . append ( " ' , ' popup ' , 400 , 80 ) ; return false ; " ) ;  <NL> return sb . to string ( ) ;  <NL>  }  COM: <s> returns the piece of javascript that is needed in order to open the </s>

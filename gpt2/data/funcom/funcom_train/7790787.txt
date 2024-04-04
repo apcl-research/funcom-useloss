@@ -1,0 +1,1 @@
+TDAT: public void mouse clicked ( mouse event event ) {  <NL> for ( int i = 0 ; i < boxes [ 0 ] . get component count ( ) ; i + + ) {  <NL> if ( event . get source ( ) . equals ( boxes [ 0 ] . get component ( i ) ) ) {  <NL> set group visible ( i / 2 , ! is group visible ( i / 2 ) ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> toggles the minizations of the sublists </s>

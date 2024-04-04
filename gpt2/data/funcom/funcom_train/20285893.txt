@@ -1,0 +1,1 @@
+TDAT: public void set day ( string day arg ) {  <NL> if ( ( day arg ! = null ) & & ( ! day arg . equals ( " " ) ) ) {  <NL> try {  <NL> this . day = integer . parse int ( day arg ) ;  <NL> this . update ( ) ;  <NL>  } catch ( exception exc ) {  <NL>  }  <NL>  } else {  <NL> this . day = 1 ;  <NL> this . update ( ) ;  <NL>  }  <NL>  }  COM: <s> sets the day property java </s>

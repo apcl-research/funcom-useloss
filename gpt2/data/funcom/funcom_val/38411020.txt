@@ -1,0 +1,1 @@
+TDAT: public float quantize ( float x , boolean is low end ) {  <NL> int n = get palette color count ( current palette ) ;  <NL> x = ( ( ( int ) ( x * n ) ) + ( is low end ? 0f : 1f ) ) / n ;  <NL> return ( x < = 0 ? lo : x > = 1 ? hi : lo + ( hi - lo ) * x ) ;  <NL>  }  COM: <s> gets the value at the color boundary for this color range fraction </s>

@@ -1,0 +1,1 @@
+TDAT: private void init lists ( ) {  <NL> created states = new array list < state > ( ) ;  <NL> copy values = new array list < object > ( ) ;  <NL> copy to pasted = new hash map < copy command . copy state , state > ( ) ;  <NL> model to copy = new hash map < copy command . copy state , kendo model > ( ) ;  <NL>  }  COM: <s> initilizes the placeholder lists and mappings </s>

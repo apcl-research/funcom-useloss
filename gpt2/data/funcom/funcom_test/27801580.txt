@@ -1,0 +1,1 @@
+TDAT: public void remove ( ) {  <NL>  / / remove from model <NL> model . remove ( ( graph node ) this ) ;  <NL>  / / remove from view <NL> model . get z graph view ( ) . get z layer group ( z graph view . node _ group ) . remove child ( ( ( z node ) get z view node ( ) . get leaf ( ) ) ) ;  <NL>  } ;  COM: <s> this removes the graph node from the model </s>

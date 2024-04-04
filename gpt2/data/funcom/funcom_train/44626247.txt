@@ -1,0 +1,1 @@
+TDAT: public void test jml types3 ( ) {  <NL> help tcf ( " a . java " , " import org . jmlspecs . annotation . * ; public class a { @ ghost int i ; } " ,  <NL>  " / a . java : 1 : a java declaration ( not within a jml annotation ) may not be either ghost or model " , 64 ) ;  <NL>  }  COM: <s> wrong position model or ghost modifier </s>

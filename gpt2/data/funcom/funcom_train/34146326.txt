@@ -1,0 +1,1 @@
+TDAT: public void render text ( int x , int y , graphics g , i open gl gl ) {  <NL> if ( renderer ! = null ) {  <NL> renderer . render ( x , y , get text content size ( ) . get width ( ) , get text content size ( ) . get height ( ) , get correct data ( ) , g , gl ) ;  <NL>  }  <NL>  }  COM: <s> renders text from the current ikomplex text render data object </s>

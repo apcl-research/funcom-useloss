@@ -1,0 +1,1 @@
+TDAT: private void center screen ( ) {  <NL> dimension d = toolkit . get default toolkit ( ) . get screen size ( ) ;  <NL> int x = ( int ) ( ( d . get width ( ) - get width ( ) ) / 2 ) ;  <NL> int y = ( int ) ( ( d . get height ( ) - get height ( ) ) / 2 ) ;  <NL> set location ( x , y ) ;  <NL>  }  COM: <s> method to center splash screen on center of desktop </s>

@@ -1,0 +1,1 @@
+TDAT: protected void write comment ( comment _ node , writer _ writer ) throws io exception {  <NL> if ( ( _ writer ! = null ) & & ( _ node ! = null ) & & ( _ node . get data ( ) ! = null ) ) {  <NL>  _ writer . write ( " < ! - - " + _ node . get data ( ) + " - - > " ) ;  <NL>  }  <NL>  }  COM: <s> write comment node to writer </s>

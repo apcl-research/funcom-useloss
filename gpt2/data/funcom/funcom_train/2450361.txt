@@ -1,0 +1,1 @@
+TDAT: public operand compare ( operand lhs , operand rhs ) {  <NL> throw new illegal argument exception ( " cannot compare ' " + lhs . to string ( ) + / / $ non - nls - 1 $  <NL>  " ' and ' " + rhs . to string ( ) + " ' . " ) ; / / $ non - nls - 1 $ / / $ non - nls - 2 $  <NL>  }  COM: <s> compares two operands returning the result </s>

@@ -1,0 +1,1 @@
+TDAT: public void set formats ( format formats [ ] ) {  <NL> synchronized ( formats _ d ) {  <NL> if ( formats _ d . size ( ) ! = 0 ) {  <NL> formats _ d . remove all elements ( ) ;  <NL>  }  <NL> for ( int i = 0 ; i < formats . length ; i + + )  <NL> formats _ d . add element ( formats [ i ] ) ;  <NL>  }  <NL>  }  COM: <s> sets the formats for the arguments </s>

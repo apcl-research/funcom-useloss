@@ -1,0 +1,1 @@
+TDAT: private void initialize ( ) {  <NL> this . set size ( new java . awt . dimension ( 436 , 155 ) ) ;  <NL> this . set title ( " hibernate generator " ) ;  <NL> this . set content pane ( get pal main ( ) ) ;  <NL> this . set default close operation ( javax . swing . window constants . dispose _ on _ close ) ;  <NL>  <NL>  }  COM: <s> this method initializes this </s>

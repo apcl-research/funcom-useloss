@@ -1,0 +1,1 @@
+TDAT: public string get all synonyms ( ) {  <NL> return " select synonym _ name , attribute _ name , synonym _ id , attribute . attribute _ id "  <NL>  + " from attribute , synonym "  <NL>  + " where attribute . attribute _ id = synonym . attribute _ id "  <NL>  + " order by synonym _ name , attribute _ name ; " ;  <NL>  }  COM: <s> dataset for all synonyms </s>

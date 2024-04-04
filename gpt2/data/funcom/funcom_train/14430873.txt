@@ -1,0 +1,1 @@
+TDAT: public void click tile ( int tile nr , boolean draw new tile , boolean play , boolean reset roll , boolean perform turn , boolean surpass pauze ) {  <NL> if ( $ pauze & & ! surpass pauze )  <NL> return ;  <NL>  $ tile rack . click tile ( tile nr , draw new tile , play , reset roll , perform turn ) ;  <NL>  }  COM: <s> passes a tile click to the tilerack </s>

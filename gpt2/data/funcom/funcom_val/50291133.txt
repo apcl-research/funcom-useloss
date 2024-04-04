@@ -1,0 +1,1 @@
+TDAT: public boolean remove event ( aim buddy buddy , int i ) {  <NL> array list br = ( array list ) events . get ( buddy . get name ( ) ) ;  <NL> if ( ( br ! = null ) & & ( i > = 0 ) & & ( i < br . size ( ) ) ) {  <NL> br . remove ( i ) ;  <NL> return true ;  <NL>  }  <NL> return false ;  <NL>  }  COM: <s> remove specific reminder </s>

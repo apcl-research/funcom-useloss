@@ -1,0 +1,1 @@
+TDAT: public value vector set length ( int i ) {  <NL> if ( i > m _ v . length ) {  <NL> value [ ] nv = new value [ i ] ;  <NL> system . arraycopy ( m _ v , 0 , nv , 0 , m _ v . length ) ;  <NL> m _ v = nv ;  <NL>  }  <NL> m _ ptr = i ;  <NL> return this ;  <NL>  }  COM: <s> set the length of this value vector </s>

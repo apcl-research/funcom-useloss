@@ -1,0 +1,1 @@
+TDAT: public void read ( byte [ ] buffer , int off , int len ) throws io exception {  <NL> input stream str = get stream ( act off ) ;  <NL> while ( len > 0 ) {  <NL> int count = str . read ( buffer , off , len ) ;  <NL> stream off + = count ;  <NL> off + = count ;  <NL> len - = count ;  <NL>  }  <NL>  }  COM: <s> reads exactly code len code bytes from this file resource </s>

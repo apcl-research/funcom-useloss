@@ -1,0 +1,1 @@
+TDAT: private void add mdd2mdd relation ( string from file , string to file , string from field ) {  <NL> dictionary < string , object > relation origin = new hashtable < string , object > ( ) ;  <NL> relation origin . put ( " field " , from field ) ;  <NL> rc . add relation ( from file , to file , " mdd2mdd " , relation origin ) ;  <NL>  }  COM: <s> adds a mdd mdd relation </s>

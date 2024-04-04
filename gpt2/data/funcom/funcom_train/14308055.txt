@@ -1,0 +1,1 @@
+TDAT: public void launch file ( project file file ) {  <NL> if ( this . view ! = null ) {  <NL> string path = ( file . is deleted tag ( ) ) ? file . get old path ( ) : file . get path ( ) ;  <NL> buffer buffer = j edit . open file ( this . view , null , path , false , null ) ;  <NL> show file ( file ) ;  <NL>  }  <NL>  }  COM: <s> takes a file and opens it up in j edit </s>

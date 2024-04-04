@@ -1,0 +1,1 @@
+TDAT: public void test last index of ( ) {  <NL> string buffer x = new string buffer ( " abcdeabcdef " ) ;  <NL> assert equals ( 9 , x . last index of ( " e " ) ) ;  <NL> assert equals ( 10 , x . last index of ( " f " ) ) ;  <NL> assert equals ( - 1 , x . last index of ( " f " , 1 ) ) ;  <NL>  }  COM: <s> this method tests code last index of code </s>

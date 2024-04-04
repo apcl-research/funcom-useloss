@@ -1,0 +1,1 @@
+TDAT: public void get ( int offset , int length ) {  <NL> if ( offset = = - 1 )  <NL> out string . fire out pin ( string . to string ( ) ) ;  <NL> else if ( length = = - 1 )  <NL> out string . fire out pin ( string . substring ( offset ) ) ;  <NL> else <NL> out string . fire out pin ( string . substring ( offset , length ) ) ;  <NL>  }  COM: <s> gets string in buffer </s>

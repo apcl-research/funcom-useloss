@@ -1,0 +1,1 @@
+TDAT: protected boolean swap pictures ( int a , int b ) {  <NL>  <NL> if ( a ! = b & & a > 0 & & a < pictures . size ( ) & &  <NL> b > 0 & & b < pictures . size ( ) ) {  <NL> collections . swap ( pictures , a , b ) ;  <NL> return true ;  <NL>  }  <NL>  <NL> return false ;  <NL>  }  COM: <s> swaps the picture elements at the given indexes </s>

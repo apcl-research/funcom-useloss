@@ -1,0 +1,1 @@
+TDAT: public void services discovered ( int trans id , service record [ ] serv record ) {  <NL>  / / log . debug ( log _ name , " services discovered . . . " ) ;  <NL> for ( int i = 0 ; i < serv record . length ; i + + ) {  <NL> this . records . add element ( serv record [ i ] ) ;  <NL>  }  <NL>  }  COM: <s> determines the services discovered </s>

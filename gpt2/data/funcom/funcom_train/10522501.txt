@@ -1,0 +1,1 @@
+TDAT: public void test echoboolean array ( ) throws exception {  <NL> boolean [ ] ar = new boolean [ ] { true , false } ;  <NL> boolean [ ] result = client . echoboolean ( ar ) ;  <NL> assert equals ( 2 , result . length ) ;  <NL> assert equals ( true , result [ 0 ] ) ;  <NL> assert equals ( false , result [ 1 ] ) ;  <NL>  }  COM: <s> echo boolean array </s>

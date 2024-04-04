@@ -1,0 +1,1 @@
+TDAT: public void do get ( http servlet request req , http servlet response res ) throws servlet exception , io exception {  <NL> res . set content type ( " text / plain " ) ;  <NL> print writer pw = res . get writer ( ) ;  <NL> pw . print ( org . mmbase . version . get ( ) ) ;  <NL> pw . close ( ) ;  <NL>  }  COM: <s> serves mmbase version information </s>

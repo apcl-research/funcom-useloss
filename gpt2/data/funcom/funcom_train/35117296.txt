@@ -1,0 +1,1 @@
+TDAT: public void close ( ) throws io exception {  <NL> guard . check state not null ( root , " record store not opened " ) ;  <NL> root . close ( ) ;  <NL> try {  <NL> store . close record store ( ) ;  <NL>  } catch ( record store exception e ) {  <NL> throw new io exception ( e . get message ( ) ) ;  <NL>  }  <NL> root = null ;  <NL>  }  COM: <s> close file system </s>

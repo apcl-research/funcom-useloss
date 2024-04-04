@@ -1,0 +1,1 @@
+TDAT: private double get bruker sw ( jcamp block block ) throws jcamp exception {  <NL> jcamp data record ldr sw = block . get data record ( " $ sw " ) ;  <NL> if ( ldr sw = = null )  <NL> throw new jcamp exception ( ) ;  <NL> string sw = ldr sw . get content ( ) ;  <NL> return double . value of ( sw ) . double value ( ) ;  <NL>  }  COM: <s> gets sw content bruker specific </s>

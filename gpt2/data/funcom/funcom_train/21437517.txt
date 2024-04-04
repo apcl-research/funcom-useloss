@@ -1,0 +1,1 @@
+TDAT: public void store ( configuration config ) {  <NL> int c = 0 ;  <NL> config . put ( " residue history " , " queue _ size " , recent _ residues . size ( ) ) ;  <NL> for ( string typename : recent _ residues ) {  <NL> config . put ( " residue history " , " type _ name " + c , typename ) ;  <NL> c + + ;  <NL>  }  <NL>  }  COM: <s> store the history in the configuration </s>

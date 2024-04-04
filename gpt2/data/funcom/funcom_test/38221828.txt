@@ -1,0 +1,1 @@
+TDAT: public string wrap string ( string s ) {  <NL> string result = " \ ' " ;  <NL> for ( int p = 0 ; p < s . length ( ) ; p + + ) {  <NL> result + = s . char at ( p ) ;  <NL> if ( s . char at ( p ) = = ' \ ' ' )  <NL> result + = s . char at ( p ) ;  <NL>  }  <NL> return result + " \ ' " ;  <NL>  }  COM: <s> converts a string from ordinary into pascal like escape format </s>

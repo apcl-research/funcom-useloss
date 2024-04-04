@@ -1,0 +1,1 @@
+TDAT: public boolean is normal class ( final class < ? > clazz ) {  <NL> return ! clazz . is anonymous class ( ) & & ! clazz . is member class ( ) & & ! clazz . is annotation ( )  <NL>  & & ! clazz . is enum ( ) & & ! clazz . is interface ( ) & & ! is abstract ( clazz ) & & ! clazz . is synthetic ( ) ;  <NL>  }  COM: <s> checks if the class is a normal class </s>

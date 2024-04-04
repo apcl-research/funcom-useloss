@@ -1,0 +1,1 @@
+TDAT: public void add axiom ( int i , int j , rule rule , source path src path ) {  <NL> if ( null = = this . cells [ i ] [ j ] ) {  <NL> this . cells [ i ] [ j ] = new cell ( this , this . goal symbol id ) ;  <NL>  }  <NL> combiner . add axiom ( this , this . cells [ i ] [ j ] , i , j , rule , src path ) ;  <NL>  }  COM: <s> axiom is for rules with zero arity </s>

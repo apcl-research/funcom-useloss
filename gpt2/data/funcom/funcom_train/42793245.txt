@@ -1,0 +1,1 @@
+TDAT: public int get color ( float [ ] colours ) {  <NL>  <NL> return color . rgb ( ( int ) ( validate color range ( colours [ 2 ] ) * 0xff ) ,  <NL>  ( int ) ( validate color range ( colours [ 1 ] ) * 0xff ) ,  <NL>  ( int ) ( validate color range ( colours [ 0 ] ) * 0xff ) ) ;  <NL>  }  COM: <s> get the awt color value for for a given colours data </s>

@@ -1,0 +1,1 @@
+TDAT: private method create operator ( string op , string arg , string ret ) {  <NL> method m = new method ( op ) ;  <NL> m . add arg type ( arg ) ;  <NL> m . add arg type ( arg ) ;  <NL> m . set ret type ( ret ) ;  <NL> m . set modifier ( true ) ;  <NL> m . set operator ( true ) ;  <NL> return m ;  <NL>  }  COM: <s> creates new method operator of given name e </s>

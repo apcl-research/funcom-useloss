@@ -1,0 +1,1 @@
+TDAT: public void put do ( int i do idx , byte [ ] i data ) throws open pgp card exception {  <NL> if ( i do idx < 1 || i do idx > 4 )  <NL> throw new illegal argument exception ( " invalid index ( expecting [ 1 - 4 ] ) " ) ;  <NL> put generic data ( tlv _ optdo , i do idx , i data , max _ do _ len ) ;  <NL>  }  COM: <s> stores data for optional do field 1 4 on the card </s>

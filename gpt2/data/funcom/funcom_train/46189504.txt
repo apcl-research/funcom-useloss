@@ -1,0 +1,1 @@
+TDAT: public void test track back is deleted ( ) {  <NL> blog entry . add track back ( track back ) ;  <NL> assert equals ( 1 , blog entry . get track backs ( ) . size ( ) ) ;  <NL> listener . track back added ( track back event ) ;  <NL> assert equals ( 0 , blog entry . get track backs ( ) . size ( ) ) ;  <NL>  }  COM: <s> tests a track back </s>

@@ -1,0 +1,1 @@
+TDAT: private string bytes to string ( byte [ ] ba ) {  <NL> if ( ba = = null ) return null ;  <NL> string buffer s = new string buffer ( ) ;  <NL> for ( int i = 0 ; i < ba . length ; + + i ) {  <NL> s . append ( integer . to hex string ( ba [ i ] & 0x00ff ) ) ;  <NL>  }  <NL> return s . to string ( ) ;  <NL>  }  COM: <s> helper method to convert byte array to string </s>

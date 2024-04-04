@@ -1,0 +1,1 @@
+TDAT: public string as minimal json ( ) {  <NL> return " { \ " id\ " : \ " " + this . id <NL>  + " \ " , \ " name\ " : \ " " + this . first name . replace ( " \ " " , " & # 34 " )  <NL>  + " " + this . last name . replace ( " \ " " , " & # 34 " ) + " \ " } " ;  <NL>  }  COM: <s> returns the user as a json string with minimal information </s>

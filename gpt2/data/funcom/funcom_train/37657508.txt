@@ -1,0 +1,1 @@
+TDAT: public vector get list ( ) {  <NL> logger . entering ( get class ( ) . get name ( ) , " get list " ) ;  <NL> final vector returned list = ( vector ) locations . clone ( ) ;  <NL> logger . exiting ( get class ( ) . get name ( ) , " get list " , returned list ) ;  <NL> return returned list ;  <NL>  }  COM: <s> gets the list of files </s>

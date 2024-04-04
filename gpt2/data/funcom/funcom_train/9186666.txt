@@ -1,0 +1,1 @@
+TDAT: public name append ( name n ) {  <NL> int len = get byte length ( ) ;  <NL> byte [ ] bs = new byte [ len + n . get byte length ( ) ] ;  <NL> get bytes ( bs , 0 ) ;  <NL> n . get bytes ( bs , len ) ;  <NL> return table . from utf ( bs , 0 , bs . length ) ;  <NL>  }  COM: <s> return the concatenation of this name and name n </s>

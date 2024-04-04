@@ -1,0 +1,1 @@
+TDAT: public int get row index from arg ( object arg ) {  <NL> synchronized ( get tree lock ( ) ) {  <NL> int count = get item count ( ) ;  <NL> for ( int i = 0 ; i < count ; i + + ) {  <NL> object rowarg = get row ( i ) . get arg ( ) ;  <NL> if ( rowarg = = arg ) {  <NL> return i ;  <NL>  }  <NL>  }  <NL> return - 1 ;  <NL>  }  <NL>  }  COM: <s> get row index from arg </s>

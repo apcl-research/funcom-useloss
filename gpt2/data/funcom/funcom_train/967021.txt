@@ -1,0 +1,1 @@
+TDAT: protected void paint tab background ( graphics g , int tab placement , int tab index , int x , int y , int w , int h , boolean is selected ) {  <NL> renderer . paint tab background ( g , tab index , x , y , w , h , is selected ) ;  <NL>  }  COM: <s> fills the background of the given tab to make sure overlap of </s>

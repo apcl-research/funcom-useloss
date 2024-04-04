@@ -1,0 +1,1 @@
+TDAT: public void paint component ( graphics g ) {  <NL> super . paint component ( g ) ;  <NL> graphics2d g2d = ( graphics2d ) g ;  <NL> g2d . set color ( new color ( 0 , 150 , 150 , 128 ) ) ;  <NL> g2d . fill3d rect ( 0 , 0 , ( int ) this . get width ( ) , ( int ) this . get height ( ) , true ) ;  <NL>  }  COM: <s> handles the actual graphics operations on this object </s>

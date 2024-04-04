@@ -1,0 +1,1 @@
+TDAT: public float matrix3d view part ( int slice , int row , int column , int depth , int height , int width ) {  <NL> return ( float matrix3d ) ( view ( ) . v part ( slice , row , column , depth , height , width ) ) ;  <NL>  }  COM: <s> constructs and returns a new i sub range view i that is a </s>

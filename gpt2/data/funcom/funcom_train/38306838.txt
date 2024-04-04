@@ -1,0 +1,1 @@
+TDAT: public void set bold font ( byte [ ] ttf afm ) throws io exception , document exception {  <NL>  / / creating base font <NL> this . bold font = base font . create font (  <NL> name + " - bold . ttf " , base font . identity _ h ,  <NL> embedded , cached , ttf afm , null <NL>  ) ;  <NL>  }  COM: <s> setter method for the the property bold font </s>

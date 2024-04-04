@@ -1,0 +1,1 @@
+TDAT: private void z8 ( ) {  <NL> location location = get corporate mind ( ) . get closest location with energy ( being interface , this ) ;  <NL> location = search util . step toward ( being interface , this , location ) ;  <NL> action for current turn = new event ( event kind . action _ move _ to , location ) ;  <NL>  }  COM: <s> make step to feeding location </s>

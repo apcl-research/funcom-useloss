@@ -1,0 +1,1 @@
+TDAT: private void set filename ( string url ) {  <NL> try {  <NL> string path = get file access ( ) . get path ( url , " " ) ;  <NL> helper . set uno property value ( get model ( my path selection . x save text box ) , " text " , path ) ;  <NL>  }  <NL> catch ( exception ex ) {  <NL> ex . print stack trace ( ) ;  <NL>  }  <NL>  <NL>  }  COM: <s> is called when the user </s>

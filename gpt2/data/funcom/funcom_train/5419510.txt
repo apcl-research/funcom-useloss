@@ -1,0 +1,1 @@
+TDAT: static public void delete group forwards ( net . sf . hibernate . session s , string group name ) {  <NL> try {  <NL> s . delete ( " select f from forwarding f where f . id . group name = ? " , group name , hibernate . string ) ;  <NL>  } catch ( exception e ) {  <NL> log . print ( e ) ;  <NL>  }  <NL>  }  COM: <s> delete all forwards from group </s>

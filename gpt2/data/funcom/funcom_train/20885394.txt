@@ -1,0 +1,1 @@
+TDAT: public void test primitive int xml ( ) {  <NL> primitive int dto dto = new primitive int dto ( ) ;  <NL> dto . primitive int field = 2106 ;  <NL> assert true ( j sefa test util . serialize ( xml , dto ) . index of ( " 2106 " ) > = 0 ) ;  <NL> j sefa test util . assert repeated round trip succeeds ( xml , dto ) ;  <NL>  }  COM: <s> tests primitive int xml </s>

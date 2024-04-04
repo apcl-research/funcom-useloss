@@ -1,0 +1,1 @@
+TDAT: public void refresh selected user ( ) throws jc _ exception {  <NL> jc _ user node user n = ( jc _ user node ) m users list . get selected value ( ) ;  <NL> m name id . set text ( user n . get name ( ) ) ;  <NL> m new password . set text ( " " ) ;  <NL> m set password message . set text ( " " ) ;  <NL> return ;  <NL>  }  COM: <s> refresh selected user </s>

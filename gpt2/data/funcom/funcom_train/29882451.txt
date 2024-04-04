@@ -1,0 +1,1 @@
+TDAT: public void relative x position ( float x pos ) {  <NL> m xpos + = x pos ; / / both a positive or negative add is ok <NL>  / / debug window info line <NL>  / / pri debug . infoln ( pri debug . spaces for pcl parse msgs + " pri cursor pos x relative move of " + x pos +  <NL>  / / " leaves x now at " + m xpos ) ;  <NL>  }  COM: <s> the relative x position command </s>

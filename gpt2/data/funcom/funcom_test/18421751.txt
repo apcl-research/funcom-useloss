@@ -1,0 +1,1 @@
+TDAT: private jx status bar get jx status bar ( ) {  <NL> if ( jx status bar = = null ) {  <NL> jx status bar = new jx status bar ( ) ;  <NL> jx status bar . set bounds ( 12 , 414 , 536 , 24 ) ;  <NL> jx status bar . set text ( " hallo " ) ;  <NL>  }  <NL> return jx status bar ;  <NL>  }  COM: <s> this method initializes jxstatus bar </s>

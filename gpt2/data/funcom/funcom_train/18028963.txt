@@ -1,0 +1,1 @@
+TDAT: public datum range get datum range ( string orbit ) throws parse exception {  <NL> orbit = trim orbit ( orbit ) ;  <NL> datum range s = orbits . get ( orbit ) ;  <NL> if ( s = = null ) {  <NL> throw new parse exception ( " unable to find orbit : " + orbit + " for " + sc , 0 ) ;  <NL>  }  <NL> return s ;  <NL>  }  COM: <s> return the datum range for this orbit number </s>

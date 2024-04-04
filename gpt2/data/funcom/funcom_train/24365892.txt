@@ -1,0 +1,1 @@
+TDAT: final public geo point point ( string label , path path , double x , double y ) {  <NL> algo point on path algo = new algo point on path ( cons , label , path , x , y ) ;  <NL> geo point p = algo . get p ( ) ;  <NL> process create command ( p ) ; / / vmt modification <NL> return p ;  <NL>  }  COM: <s> point on path with cartesian coordinates x y </s>

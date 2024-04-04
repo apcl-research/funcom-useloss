@@ -1,0 +1,1 @@
+TDAT: public boolean remove local action ( i selection action action ) {  <NL> for ( int i = 0 , cnt = local actions . size ( ) ; i < cnt ; i + + ) {  <NL> if ( local actions . get ( i ) . get action ( ) ! = action )  <NL> continue ;  <NL> local actions . remove ( i ) ;  <NL> return true ;  <NL>  }  <NL> return false ;  <NL>  }  COM: <s> removes the given local action </s>

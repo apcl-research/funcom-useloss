@@ -1,0 +1,1 @@
+TDAT: public void paint ( final graphics g ) {  <NL> if ( screen ! = null ) {  <NL> final dimension d = get size ( ) ;  <NL> g . set color ( color . black ) ;  <NL> g . draw rect ( 0 , 0 , d . width - 1 , d . height - 1 ) ;  <NL> g . draw image ( screen , 1 , 1 , this ) ;  <NL>  }  <NL>  }  COM: <s> override the paint call </s>

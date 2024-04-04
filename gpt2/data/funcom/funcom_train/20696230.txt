@@ -1,0 +1,1 @@
+TDAT: public void set hex no ds ( int x , int y ) {  <NL> if ( x > = 0 & & x < max _ x & & y > = 0 & & y < max _ y ) {  <NL> map [ x ] [ y ] = hex cache [ map [ x ] [ y ] . terrain ( ) ] [ get hex elevation ( x , y ) + 9 ] ;  <NL>  }  <NL>  }  COM: <s> clear dropship marker from a hex </s>

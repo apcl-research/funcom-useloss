@@ -1,0 +1,1 @@
+TDAT: private int get point ( int x , int y ) {  <NL> int point = - 1 ;  <NL> for ( int n = 0 ; n < point x . length ; n + + ) {  <NL> if ( math . abs ( x - point x [ n ] ) < mouse _ threshold <NL>  & & math . abs ( y - point y [ n ] ) < mouse _ threshold ) {  <NL> point = n ;  <NL>  }  <NL>  }  <NL> return point ;  <NL>  }  COM: <s> get control point in given location </s>

@@ -1,0 +1,1 @@
+TDAT: public void test harness4 ( ) {  <NL> help failure ( " message 0 mismatch expected : < x > but was : < / test . java : 1 : < identifier > expected > " ,  <NL>  " class a { qq } " , " x " , 0 , " " , 0 , " " , 0 ) ;  <NL>  }  COM: <s> test that harness reports a mismatched message </s>

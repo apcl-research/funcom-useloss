@@ -1,0 +1,1 @@
+TDAT: public boolean is set ( task owner ) {  <NL> project p = owner . get project ( ) ;  <NL> if ( if cond ! = null & & p . get property ( if cond ) = = null ) {  <NL> return false ;  <NL>  } else if ( unless cond ! = null & & p . get property ( unless cond ) ! = null ) {  <NL> return false ;  <NL>  }  <NL> return true ;  <NL>  }  COM: <s> logic taken from patternset </s>

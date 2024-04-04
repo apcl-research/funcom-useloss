@@ -1,0 +1,1 @@
+TDAT: public void paint border ( component c , graphics g , int x , int y , int width , int height ) {  <NL> translate once ( x , y , width , height ) ;  <NL> color old color = g . get color ( ) ;  <NL> g . set color ( color ) ;  <NL>  <NL>  ( ( graphics2d ) g ) . fill ( polygon ) ;  <NL> g . set color ( old color ) ;  <NL>  }  COM: <s> paints the matte border </s>

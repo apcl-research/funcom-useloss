@@ -1,0 +1,1 @@
+TDAT: public void set color ( color color awt ) {  <NL> set color ( color util . convert i to f ( color awt . get red ( ) ) , color util . convert i to f ( color awt . get green ( ) ) , color util <NL>  . convert i to f ( color awt . get blue ( ) ) , color util . convert i to f ( color awt . get alpha ( ) ) ) ;  <NL>  }  COM: <s> set this color from awt color object </s>

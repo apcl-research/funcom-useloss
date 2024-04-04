@@ -1,0 +1,1 @@
+TDAT: public void load ( vector status ) {  <NL>  <NL> int count = status . size ( ) ;  <NL> ta main . set rows ( count ) ;  <NL> ta main . set text ( const . empty ) ;  <NL> for ( int i = 0 ; i < count ; i + + ) {  <NL> ta main . append ( ( string ) status . element at ( i ) + ' \n ' ) ;  <NL>  }  <NL>  <NL>  }  COM: <s> loads list of messages </s>

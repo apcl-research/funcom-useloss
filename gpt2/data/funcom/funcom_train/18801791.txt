@@ -1,0 +1,1 @@
+TDAT: public void test add months to5oct2003 ( ) {  <NL> final serial date d1 = serial date . create instance ( 5 , serial date . october , 2003 ) ;  <NL> final serial date d2 = serial date . add months ( 2 , d1 ) ;  <NL> assert equals ( d2 , serial date . create instance ( 5 , serial date . december , 2003 ) ) ;  <NL>  }  COM: <s> a test case for a reported bug now fixed </s>

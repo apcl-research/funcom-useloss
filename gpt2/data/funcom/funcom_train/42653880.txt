@@ -1,0 +1,1 @@
+TDAT: public int get mid point ( interval inter ) {  <NL>  / / system . err . println ( interval ) ;  <NL> int i = inter . lb ( ) ;  <NL> int j = inter . rb ( ) ;  <NL> int mid = cldtab [ j ] ;  <NL> if ( i < mid & & mid < = j ) {  <NL> return mid ;  <NL>  }  <NL> else {  <NL> return cldtab [ i ] ;  <NL>  }  <NL>  }  COM: <s> get the mid point of an interval </s>

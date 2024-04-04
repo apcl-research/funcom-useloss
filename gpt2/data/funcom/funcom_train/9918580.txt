@@ -1,0 +1,1 @@
+TDAT: public void set int parameter ( string param , int x ) {  <NL> c gparameter p = cg gl . cg get named effect parameter ( effect , param ) ;  <NL> if ( p ! = null )  <NL> cg gl . cg set parameter1i ( p , x ) ;  <NL> else <NL> system . err . println ( " gl cg fx effect : param1f is null " ) ;  <NL>  }  COM: <s> sets the int parameter with name to the given value </s>

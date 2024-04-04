@@ -1,0 +1,1 @@
+TDAT: public void lock volume ( int volume id ) throws sql exception {  <NL> this . execute update (  <NL>  " update session "  <NL>  + " set volume _ id = " + volume id <NL>  + " , lock _ time = " + system . current time millis ( )  <NL>  + " where session _ id = " + session id ) ;  <NL> lock volume id = volume id ;  <NL>  }  COM: <s> lock a given volume </s>

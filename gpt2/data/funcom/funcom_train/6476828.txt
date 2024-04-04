@@ -1,0 +1,1 @@
+TDAT: public void write acuator beliefs ( java . io . data output stream out ) throws java . io . io exception {  <NL> int size = actuator beliefs . size ( ) ;  <NL> out . write int ( size ) ;  <NL> for ( int i = size ; i - - > 0 ; ) out . write utf ( actuator beliefs . element at ( i ) . to string ( ) ) ;  <NL>  }  COM: <s> sends actuator beliefs to stream </s>

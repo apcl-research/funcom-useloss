@@ -1,0 +1,1 @@
+TDAT: private void poke addr ( int reg , int idx ) {  <NL> int offset = bytes _ in _ stackslot - bytes _ in _ address + ( idx < < log _ bytes _ in _ stackslot ) ;  <NL> if ( vm . verify assertions ) validate stack push ( - offset ) ;  <NL> asm . emit st addr ( reg , sp top offset + offset , fp ) ;  <NL>  }  COM: <s> emit the code to poke an address </s>

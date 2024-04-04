@@ -1,0 +1,1 @@
+TDAT: public void set act ( act act ) {  <NL>  _ act = act ;  <NL>  <NL>  / / lazily set the data model <NL> if ( get data model ( ) = = null ) {  <NL> set data model ( act . get data model ( ) ) ;  <NL>  }  <NL>  <NL>  / / set model <NL>  ( ( role part selector tree model ) get editor _ tree model ( ) ) . set act ( act ) ;  <NL>  }  COM: <s> set the act </s>

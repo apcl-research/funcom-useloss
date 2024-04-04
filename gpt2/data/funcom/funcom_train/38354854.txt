@@ -1,0 +1,1 @@
+TDAT: public boolean remove last message ( ) {  <NL> if ( lastmessage ! = null ) {  <NL> int n = num messages ( ) ;  <NL> output . println ( " dele " + lastmessage ) ;  <NL> string r = next line ( ) ;  <NL> if ( n > num messages ( ) & & r . starts with ( " + ok " ) ) return true ;  <NL>  }  <NL>  <NL> return false ;  <NL>  }  COM: <s> remove the last message we fetched </s>

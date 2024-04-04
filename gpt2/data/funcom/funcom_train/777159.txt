@@ -1,0 +1,1 @@
+TDAT: private void quit ( ) {  <NL> string goodbye msg = ftp helper . get goodbye message ( ) ;  <NL> if ( goodbye msg . starts with ( " 221 " ) ) {  <NL> client . respond ( goodbye msg ) ;  <NL>  } else {  <NL> client . respond ( " 221 goodbye . . . " ) ;  <NL>  }  <NL> bnc . remove client ( client ) ;  <NL> client . shutdown ( ) ;  <NL>  }  COM: <s> shuts the client down </s>

@@ -1,0 +1,1 @@
+TDAT: public void write ( string title , string value ) throws io exception {  <NL> out ( " < tr > < td > " +  <NL>  ( title . length ( ) > 0 ? " < strong > " + title + " < / strong > " : " " ) +  <NL>  " < / td > < td > " + value + " < / td > < / tr > \n " ) ;  <NL>  }  COM: <s> writes a title and value in table </s>

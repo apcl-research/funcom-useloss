@@ -1,0 +1,1 @@
+TDAT: protected int parse subrecord data ( byte [ ] data , int index ) {  <NL> int i = index ;  <NL> owner id = unsigned byte . unsigned bytes2int ( data [ i + + ] , data [ i + + ] , data [ i + + ] , data [ i + + ] ) ;  <NL> return i ;  <NL>  } / / end - method  COM: <s> a method for parsing the sub records data </s>

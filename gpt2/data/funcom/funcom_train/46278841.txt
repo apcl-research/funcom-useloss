@@ -1,0 +1,1 @@
+TDAT: public image load image ( input stream in ) throws exception {  <NL> if ( in . available ( ) < = 0 ) {  <NL> return null ;  <NL>  }  <NL> else {  <NL> byte [ ] bytes = new byte [ in . available ( ) ] ;  <NL> in . read ( bytes ) ;  <NL> return toolkit . get default toolkit ( ) . create image ( bytes ) ;  <NL>  }  <NL>  } / / load image  COM: <s> load an image </s>

@@ -1,0 +1,1 @@
+TDAT: public void add ( k parent , k id , v value ) {  <NL> list < entry < k , v > > list = entries . get ( parent ) ;  <NL> if ( list = = null ) {  <NL> list = new array list < entry < k , v > > ( ) ;  <NL> entries . put ( parent , list ) ;  <NL>  }  <NL> list . add ( new entry < k , v > ( id , value ) ) ;  <NL>  <NL>  }  COM: <s> add a new entry to be placed in the tree </s>

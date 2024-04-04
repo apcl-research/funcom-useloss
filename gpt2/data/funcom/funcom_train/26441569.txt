@@ -1,0 +1,1 @@
+TDAT: public string get chatter role ( string n ) {  <NL> chatter ch ; string tmp = " " ;  <NL> if ( ! nick chatter . is empty ( ) ) {  <NL> object o = nick chatter . get ( n ) ;  <NL> ch = ( chatter ) o ;  <NL> tmp = ch . get role ( ) ;  <NL> return tmp ;  <NL>  }  <NL> else return ( tmp = " - 1 " ) ;  <NL>  }  COM: <s> get the role of the chatter to admin or chatter </s>

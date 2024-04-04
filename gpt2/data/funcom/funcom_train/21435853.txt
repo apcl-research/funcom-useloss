@@ -1,0 +1,1 @@
+TDAT: public void add connection ( atom to , double bo ) {  <NL> if ( ! this . has connection ( to ) ) {  <NL> this . add connection ( new atom connection ( this , to , bo ) ) ;  <NL>  }  <NL> if ( ! to . has connection ( this ) ) {  <NL> to . add connection ( this , bo ) ;  <NL>  }  <NL>  }  COM: <s> add a connection to another atom </s>

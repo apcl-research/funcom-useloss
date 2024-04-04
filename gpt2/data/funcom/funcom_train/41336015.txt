@@ -1,0 +1,1 @@
+TDAT: public void paint split pane drag divider ( synth context context , graphics g , int x , int y , int w , int h , int orientation ) {  <NL> paint background ( context , g , x , y , w , h , null ) ;  <NL>  }  COM: <s> paints the divider when the user is dragging the divider of a split </s>

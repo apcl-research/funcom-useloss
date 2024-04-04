@@ -1,0 +1,1 @@
+TDAT: public void event ( long time , string type , string source , string msg , long subscription id ) {  <NL> server event event = new server event ( time , event type . value of ( type ) , source , msg , subscription id ) ;  <NL> bb . process ( event ) ;  <NL>  }  COM: <s> for probe agents to report errors </s>

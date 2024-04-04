@@ -1,0 +1,1 @@
+TDAT: public void add part ( string name , string content type , string content ) throws io exception {  <NL> i part part = new part ( content type , content ) ;  <NL> part . set header ( " content - disposition " , " form - data ; name = \ " " + name + " \ " " ) ;  <NL>  <NL> add part ( part ) ;  <NL>  }  COM: <s> adds a part </s>

@@ -1,0 +1,1 @@
+TDAT: protected int get alpha rating ( int prune ) {  <NL> int local prune = posinv ;  <NL> int i = 0 ;  <NL> while ( ( i < nodes . length ) & & ( local prune > prune ) ) {  <NL> local prune = math . min ( local prune , nodes [ i ] . get rating ( local prune ) ) ;  <NL> i + + ;  <NL>  }  <NL> return local prune ;  <NL>  }  COM: <s> return rating for alpha node </s>

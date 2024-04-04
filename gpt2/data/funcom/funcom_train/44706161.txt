@@ -1,0 +1,1 @@
+TDAT: public void cell selected ( table action event e ) {  <NL> page state s = e . get page state ( ) ;  <NL>  <NL> if ( e . get source ( ) = = this ) {  <NL> m _ edit kit . set selected ( s , false ) ;  <NL> m _ add step . set selected ( s , false ) ;  <NL> m _ view content type . set selected ( s , false ) ;  <NL>  }  <NL>  }  COM: <s> listener for the step table </s>

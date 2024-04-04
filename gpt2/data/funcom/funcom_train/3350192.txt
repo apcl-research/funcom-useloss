@@ -1,0 +1,1 @@
+TDAT: public void fill help ( map < string , string > map ) {  <NL> super . fill help ( map ) ;  <NL> map . put ( " t " , " list all threads " ) ;  <NL> map . put ( " r " , " list all running threads " ) ;  <NL> map . put ( " w " , " list all waiting threads " ) ;  <NL>  }  COM: <s> fill the given map with usage information for this state </s>

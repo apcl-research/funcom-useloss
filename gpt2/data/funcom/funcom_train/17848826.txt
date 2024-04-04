@@ -1,0 +1,1 @@
+TDAT: private string add entities ( string string ) {  <NL> string = replace all ( string , " & " , " & amp ; " ) ;  <NL> string = replace all ( string , " < " , " & lt ; " ) ;  <NL> string = replace all ( string , " > " , " & gt ; " ) ;  <NL> string = replace all ( string , " \ " " , " & quot ; " ) ;  <NL> return string ;  <NL>  }  COM: <s> replaces the basic entities eg </s>

@@ -1,0 +1,1 @@
+TDAT: private void print ( int depth , long size , string type , byte [ ] data ) {  <NL> string buffer sb = new string buffer ( ) ;  <NL> for ( int i = 0 ; i < depth ; i + + ) sb . append ( " " ) ;  <NL> sb . append ( type + " : [ " + size + " ] " ) ;  <NL> debug ( sb . to string ( ) ) ;  <NL>  }  COM: <s> debugging method prints information on an atom </s>

@@ -1,0 +1,1 @@
+TDAT: private void grid add i18n label ( j panel gui statistics , string label , int grid x )  <NL>  { geva helper . grid add <NL>  ( gui statistics ,  <NL> new j label ( i18n . get ( " ui . run . graf . labl . " + label ) ) ,  <NL> grid x , 0 , 0 <NL>  ) ;  <NL>  }  COM: <s> helper for calling the grid add helper method used just above </s>

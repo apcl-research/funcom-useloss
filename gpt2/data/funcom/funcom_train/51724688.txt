@@ -1,0 +1,1 @@
+TDAT: private point2d project2dplus ( double x , double y ) {  <NL> final point2d p = project2d ( x , y ) ;  <NL> if ( p ! = null ) {  <NL> return new point2d . double ( depx + p . get x ( ) * ( zoomx ) , - depy - p . get y ( ) * ( zoomy ) ) ;  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> provide a graphic point in pixels matching with a real position x y </s>

@@ -1,0 +1,1 @@
+TDAT: private void map type ( call call , final class type , final string qname ) {  <NL>  <NL> q name q = new q name ( " urn : bean service " , qname ) ;  <NL>  <NL> call . register type mapping (  <NL> type ,  <NL> q ,  <NL> new bean serializer factory ( type , q ) ,  <NL> new bean deserializer factory ( type , q )  <NL>  ) ;  <NL>  <NL>  }  COM: <s> maps a single type </s>

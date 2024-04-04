@@ -1,0 +1,1 @@
+TDAT: public node view i get by node name or id ( string node id or name ) {  <NL> for ( node view i n : _ nodes ) {  <NL> if ( n . get label ( ) . equals ignore case ( node id or name ) ) return n ;  <NL> if ( n . get id ( ) . equals ignore case ( node id or name ) ) return n ;  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> return null if no node with id or name </s>

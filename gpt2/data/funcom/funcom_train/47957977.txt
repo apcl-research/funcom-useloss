@@ -1,0 +1,1 @@
+TDAT: public string lock _ filename ( _ tile tile ) {  <NL> generator < tile coordinate > tiles = meta _ grid . tiles ( tile . coord ) ;  <NL> tile coordinate first _ tile = tiles . iterator ( ) . next ( ) ; / / first _ tile , _ = tiles . next ( )  <NL> return lock _ filename ( new _ tile ( first _ tile ) ) ;  <NL>  }  COM: <s> returns a lock for one fixed tile per metatile </s>

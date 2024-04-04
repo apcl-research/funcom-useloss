@@ -1,0 +1,1 @@
+TDAT: public double inner product ( double vector v ) {  <NL> if ( size ( ) ! = v . size ( ) )  <NL> throw new illegal argument exception ( " sizes unmatch " ) ;  <NL> double p = 0 ;  <NL> for ( int i = 0 ; i < size ( ) ; i + + ) {  <NL> p + = v [ i ] * v . v [ i ] ;  <NL>  }  <NL> return p ;  <NL>  }  COM: <s> returns the inner product of two double vectors </s>

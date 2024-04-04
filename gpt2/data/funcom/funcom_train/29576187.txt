@@ -1,0 +1,1 @@
+TDAT: public void use xml schema ( boolean use ) throws sax exception {  <NL> parser . get xml reader ( ) . set feature ( " http : / / apache . org / xml / features / validation / schema " , use ) ;  <NL> parser . get xml reader ( ) . set feature ( " http : / / apache . org / xml / features / validation / dynamic " , use ) ;  <NL>  }  COM: <s> turn on xml schema validation </s>

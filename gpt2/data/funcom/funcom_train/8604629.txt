@@ -1,0 +1,1 @@
+TDAT: private int byte array to integer ( byte [ ] b , int offset ) {  <NL> return ( b [ offset + 3 ] & 0x ff ) < < 24 | ( b [ offset + 2 ] & 0x ff ) < < 16 | ( b [ offset + 1 ] & 0x ff ) < < 8 <NL> | ( b [ offset ] & 0x ff ) ;  <NL>  }  COM: <s> convert 4 bytes to integer </s>

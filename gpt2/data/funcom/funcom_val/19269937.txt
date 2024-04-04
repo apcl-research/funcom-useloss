@@ -1,0 +1,1 @@
+TDAT: public space region bean value get value ( ) {  <NL>  / / logger . info ( " get space region bean value ( ) " ) ;  <NL> space region bean value value = new space region bean value ( id , floor id , space region type id , get space region type ( ) ,  <NL> owner id , description , name , area ) ;  <NL> return value ;  <NL>  }  COM: <s> get space region bean value </s>

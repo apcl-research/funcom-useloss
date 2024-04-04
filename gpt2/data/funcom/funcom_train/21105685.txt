@@ -1,0 +1,1 @@
+TDAT: private mj combo box _ naco get cb bs _ account ( ) {  <NL> if ( cb bs _ account = = null ) {  <NL> cb bs _ account = new mj combo box _ naco ( false ) ;  <NL> cb bs _ account . set preferred size ( new java . awt . dimension ( 100 , 20 ) ) ;  <NL>  }  <NL> return cb bs _ account ;  <NL>  }  COM: <s> this method initializes cb bs account </s>

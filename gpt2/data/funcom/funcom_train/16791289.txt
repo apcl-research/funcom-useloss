@@ -1,0 +1,1 @@
+TDAT: private int calculate width ( date start , date finish ) {  <NL> long total = this . finish . get time ( ) - this . start . get time ( ) ;  <NL> return ( int ) ( ( finish . get time ( ) - start . get time ( ) ) * ( this . canvas . get size ( ) . x - this . label _ width ) / total ) ;  <NL>  }  COM: <s> calculate the width of a cell </s>

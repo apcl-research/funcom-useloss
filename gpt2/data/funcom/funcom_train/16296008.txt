@@ -1,0 +1,1 @@
+TDAT: public void init new ( ) {  <NL> super . init new ( ) ;  <NL> abc [ 0 ] = active bag content . init new ( 3 , 2 , ' a ' ) ;  <NL> abc [ 1 ] = active bag content . init new ( 3 , 2 , ' 1 ' ) ;  <NL>  / / abc [ 2 ] = active bag content . init new ( 3 , 2 , ' a ' ) ;  <NL>  }  COM: <s> initialisation method for newly created activities </s>

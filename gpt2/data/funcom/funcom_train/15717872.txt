@@ -1,0 +1,1 @@
+TDAT: public void put ( t1 key , t2 value ) {  <NL> if ( key = = null ) {  <NL>  / / do nothing <NL> return ;  <NL>  }  <NL> set < t2 > set = map . get ( key ) ;  <NL> if ( set = = null ) {  <NL> set = new hash set < t2 > ( ) ;  <NL> map . put ( key , set ) ;  <NL>  }  <NL> set . add ( value ) ;  <NL>  } / / end of method  COM: <s> adds the given mapping </s>

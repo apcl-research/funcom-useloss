@@ -1,0 +1,1 @@
+TDAT: public list get all owned roles ( authz subject subject , page control pc ) {  <NL> collection roles = get role dao ( ) . find all ( ) ;  <NL> pc = page control . init defaults ( pc , sort attribute . role _ name ) ;  <NL> return owned role pager . seek ( roles , pc . get pagenum ( ) , pc . get pagesize ( ) ) ;  <NL>  }  COM: <s> list all owned roles in the system </s>

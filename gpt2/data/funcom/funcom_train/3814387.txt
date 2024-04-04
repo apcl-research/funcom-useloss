@@ -1,0 +1,1 @@
+TDAT: private void add exit point ( context pair cp , sentence hmm state state ) {  <NL> list < search state > list = exit points . get ( cp ) ;  <NL> if ( list = = null ) {  <NL> list = new array list < search state > ( ) ;  <NL> exit points . put ( cp , list ) ;  <NL>  }  <NL> list . add ( state ) ;  <NL>  }  COM: <s> adds an exit point to this gstate </s>

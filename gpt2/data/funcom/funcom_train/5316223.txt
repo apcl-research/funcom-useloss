@@ -1,0 +1,1 @@
+TDAT: private boolean contains null value ( ) {  <NL> entry < k , v > [ ] tab = get table ( ) ;  <NL> for ( int i = tab . length ; i - - > 0 ; )  <NL> for ( entry e = tab [ i ] ; e ! = null ; e = e . next )  <NL> if ( e . value = = null )  <NL> return true ;  <NL> return false ;  <NL>  }  COM: <s> special case code for contains value with null argument </s>

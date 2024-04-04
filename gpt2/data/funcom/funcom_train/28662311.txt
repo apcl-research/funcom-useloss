@@ -1,0 +1,1 @@
+TDAT: private void hide object ( final control that , final boolean hideit ) {  <NL> grid data g data = ( grid data ) that . get layout data ( ) ;  <NL> g data . exclude = true & & hideit ;  <NL> that . set visible ( true & & ! hideit ) ;  <NL> control [ ] my array = { that } ;  <NL> layout ( my array ) ;  <NL>  }  COM: <s> excludes a control from the layout calculation </s>

@@ -1,0 +1,1 @@
+TDAT: public int doc count ( ) {  <NL>  / / todo : not certain . see http : / / www . nabble . com / index writer . doc count - tf3128882 . html # a8669483 <NL> return index . get documents by number ( ) . length / * - index . get deleted documents ( ) . size ( ) * / + unflushed documents . size ( ) ;  <NL>  }  COM: <s> returns the number of documents currently in this index </s>

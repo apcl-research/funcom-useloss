@@ -1,0 +1,1 @@
+TDAT: public void set path ( string path ) {  <NL> if ( file . separator char = = ' / ' )  <NL> this . path = path . replace ( ' \\ ' , ' / ' ) ;  <NL> else if ( file . separator char = = ' \\ ' )  <NL> this . path = path . replace ( ' / ' , ' \\ ' ) ;  <NL>  }  COM: <s> set the path name for the log output file </s>

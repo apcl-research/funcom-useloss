@@ -1,0 +1,1 @@
+TDAT: public void set name ( transaction txn , final string name ) {  <NL> if ( txn ! = null ) {  <NL> txn . add txn ( this , new txn ( ) {  <NL> public void commit ( transaction txn ) {  <NL> set name p ( txn , name ) ;  <NL>  }  <NL>  } ) ;  <NL>  } else {  <NL> set name p ( txn , name ) ;  <NL>  }  <NL>  }  COM: <s> sets the name of this library </s>

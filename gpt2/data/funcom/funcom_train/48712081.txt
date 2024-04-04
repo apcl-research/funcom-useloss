@@ -1,0 +1,1 @@
+TDAT: public void set register pair ( string a , string b , int value ) {  <NL> if ( value > 0x ffff ) {  <NL> throw new illegal argument exception ( " register pair has maximum of 16 bits storage capacity " ) ;  <NL>  }  <NL> store ( a , ( value & 0x ff00 ) / 0x100 ) ;  <NL> store ( b , value & 0x ff ) ;  <NL>  }  COM: <s> method for setting register pair to specified value </s>

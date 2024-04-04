@@ -1,0 +1,1 @@
+TDAT: public k exception add ( string attr , object value ) {  <NL> m _ context data . put ( attr , value ) ;  <NL> m _ yaml msg . append ( " \n " ) . append ( attr ) . append ( " : " ) . append ( value . to string ( ) ) ;  <NL>  <NL> return this ; / / to be returned to throw statement <NL>  }  COM: <s> this method adds attributes </s>

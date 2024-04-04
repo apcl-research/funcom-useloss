@@ -1,0 +1,1 @@
+TDAT: public void send email ( mime message mime message , net . sf . hibernate . session s ) {  <NL> try {  <NL> log . debug ( " send email " ) ;  <NL> mail post . post mail ( this . get email ( configuration . load ( s ) ) , mime message ) ;  <NL>  }  <NL> catch ( exception e ) {  <NL> e . print stack trace ( ) ;  <NL>  }  <NL>  }  COM: <s> send email to list </s>

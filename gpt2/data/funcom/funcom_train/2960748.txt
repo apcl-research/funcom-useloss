@@ -1,0 +1,1 @@
+TDAT: public void filter l ton var ( int domain var vv0 , int domain var vv1 ) throws contradiction exception {  <NL> vv1 . update inf ( vv0 . get inf ( ) - cste + 1 , this , false ) ;  <NL> vv1 . update sup ( vv0 . get sup ( ) + cste - 1 , this , false ) ;  <NL>  }  COM: <s> in case of a lt due to a modification on vv0 domain </s>

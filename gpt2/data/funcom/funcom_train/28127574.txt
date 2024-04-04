@@ -1,0 +1,1 @@
+TDAT: public void write day and month rule ( day and month rule rule , int indent ) {  <NL> print indent ( indent ) ;  <NL> stream . println ( " day and month rule ( " + rule . get day of month ( ) + " , "  <NL>  + serial date . month to string ( rule . get month ( ) ) + " ) , " ) ;  <NL>  }  COM: <s> writes the specified day and month rule to the output stream </s>

@@ -1,0 +1,1 @@
+TDAT: private string proxy qualified name ( ) {  <NL> string buffer buf = new string buffer ( ) ;  <NL> buf . append ( class package ( extended class ( this cls ) ) ) ;  <NL> buf . append ( " . " ) ;  <NL> buf . append ( proxy name ( jmi , extended class ( this cls ) ) ) ;  <NL> return buf . to string ( ) ;  <NL>  }  COM: <s> returns this class qualified name </s>

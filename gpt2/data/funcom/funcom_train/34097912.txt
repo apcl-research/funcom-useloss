@@ -1,0 +1,1 @@
+TDAT: public int which room ( int room id ) {  <NL> if ( room id = = room1id ) {  <NL> return 1 ;  <NL>  } else if ( room id = = room2id ) {  <NL> return 2 ;  <NL>  }  <NL> logger . get logger ( " fire escape log " ) . log ( level . severe , " method should always return 1 or 2 . " ) ;  <NL> return - 1 ;  <NL>  }  COM: <s> returns which room the room id belongs to </s>

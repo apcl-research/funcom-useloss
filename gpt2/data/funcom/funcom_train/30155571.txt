@@ -1,0 +1,1 @@
+TDAT: public void set player name ( string player ) {  <NL> if ( ! m player name . equals ( player ) ) {  <NL> m character . post undo edit ( msg _ player _ name _ undo , id _ player _ name , m player name , player ) ;  <NL> m player name = player ;  <NL> m character . notify single ( id _ player _ name , m player name ) ;  <NL>  }  <NL>  }  COM: <s> sets the players name </s>

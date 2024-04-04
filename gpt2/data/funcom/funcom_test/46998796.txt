@@ -1,0 +1,1 @@
+TDAT: private string make e ( string op ) {  <NL> if ( ! is constant ( op ) & & ! is variable ( op ) & & is ln ( op ) ) {  <NL> return arg1 ( op ) ;  <NL>  } else if ( is constant ( op ) & & is zero ( op ) ) {  <NL> return " 1 " ;  <NL>  }  <NL>  <NL> return list ( " exp " , op ) ;  <NL>  }  COM: <s> constructs the prefix expression exp i op i </s>

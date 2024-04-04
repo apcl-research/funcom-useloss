@@ -1,0 +1,1 @@
+TDAT: public void test set timezone ( ) {  <NL> data date l data date1 = new data date ( f year , f month , f day , f time zone ) ;  <NL> time zone l time zone = time zone . get time zone ( " jst " ) ;  <NL> l data date1 . set timezone ( l time zone ) ;  <NL> assert equals ( l time zone , l data date1 . get timezone ( ) ) ;  <NL>  }  COM: <s> test of set timezone method </s>

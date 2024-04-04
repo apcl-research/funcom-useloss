@@ -1,0 +1,1 @@
+TDAT: private j frame get j frame ( ) {  <NL> if ( j frame = = null ) {  <NL> j frame = new j frame ( ) ;  <NL> j frame . set size ( new dimension ( 343 , 187 ) ) ;  <NL> j frame . set title ( " action simulator gui " ) ;  <NL> j frame . set content pane ( get j content pane ( ) ) ;  <NL>  }  <NL> return j frame ;  <NL>  }  COM: <s> this method initializes j frame </s>

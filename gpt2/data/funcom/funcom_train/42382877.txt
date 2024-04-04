@@ -1,0 +1,1 @@
+TDAT: public int get embed hop count ( ) {  <NL> int embed hops = 0 ;  <NL> for ( int i = path from seed . length ( ) - 1 ; i > = 0 ; i - - ) {  <NL> if ( path from seed . char at ( i ) = = hop . navlink . get hop char ( ) ) {  <NL> break ;  <NL>  }  <NL> embed hops + + ;  <NL>  }  <NL> return embed hops ;  <NL>  }  COM: <s> get the embeded hop count </s>

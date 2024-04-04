@@ -1,0 +1,1 @@
+TDAT: private void set step icon ( url step icon ) {  <NL> if ( step icon ! = this . step icon ) {  <NL> url old step icon = this . step icon ;  <NL> this . step icon = step icon ;  <NL> this . property change support . fire property change ( property . step _ icon . name ( ) , old step icon , step icon ) ;  <NL>  }  <NL>  }  COM: <s> sets the step icon </s>

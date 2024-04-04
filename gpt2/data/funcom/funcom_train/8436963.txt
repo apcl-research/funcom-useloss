@@ -1,0 +1,1 @@
+TDAT: public void test get query ( ) {  <NL> system . out . println ( " get query " ) ;  <NL>  <NL> pattern instance = new pattern ( " hi * 1 but , 3 2 " ) ;  <NL>  <NL> string exp result = " hi * * but , 3 * " ;  <NL> string result = instance . get query ( ) ;  <NL> assert equals ( exp result , result ) ;  <NL>  <NL>  }  COM: <s> test of get query method of class nii </s>

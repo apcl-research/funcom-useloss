@@ -1,0 +1,1 @@
+TDAT: public void for each insn ( ssa insn . visitor visitor ) {  <NL>  / / this gets called a lot , and not using an iterator <NL>  / / saves a lot of allocations and reduces memory usage <NL> int len = insns . size ( ) ;  <NL> for ( int i = 0 ; i < len ; i + + ) {  <NL> insns . get ( i ) . accept ( visitor ) ;  <NL>  }  <NL>  }  COM: <s> visits all insns in this block </s>

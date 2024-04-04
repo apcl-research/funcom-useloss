@@ -1,0 +1,1 @@
+TDAT: private void set title ( ) {  <NL> if ( current file ! = null ) {  <NL> this . set title ( " query builder - " + user connection . get name ( ) + " [ " + current file + " ] " ) ;  <NL>  } else {  <NL> this . set title ( " query builder - " + user connection . get name ( ) ) ;  <NL>  }  <NL>  }  COM: <s> helper to set the frame title </s>

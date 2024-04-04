@@ -1,0 +1,1 @@
+TDAT: public string get string ( string key , string resource name , string language ) throws illegal argument exception {  <NL> if ( key = = null || key . trim ( ) . length ( ) = = 0 ) {  <NL> return " " ;  <NL>  } else {  <NL> return this . get resource ( resource name , language ) . get string ( key ) ;  <NL>  }  <NL>  }  COM: <s> return the requested translation </s>

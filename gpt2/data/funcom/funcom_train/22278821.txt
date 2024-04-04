@@ -1,0 +1,1 @@
+TDAT: public boolean key down ( java . awt . event evt , int key ) {  <NL>  / / if ( evt . target = = this ) {  <NL>  / / add event ( new key event ( evt . when , key , evt . modifiers , true ) ) ;  <NL>  / / return true ;  <NL>  / / } else {  <NL> return super . key down ( evt , key ) ;  <NL>  / / }  <NL>  }  COM: <s> overridden to add a key event of type b key event </s>

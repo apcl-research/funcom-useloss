@@ -1,0 +1,1 @@
+TDAT: public time of day with hour of day ( int hour ) {  <NL> int [ ] new values = get values ( ) ;  <NL> new values = get chronology ( ) . hour of day ( ) . set ( this , hour _ of _ day , new values , hour ) ;  <NL> return new time of day ( this , new values ) ;  <NL>  }  COM: <s> returns a copy of this time with the hour of day field updated </s>

@@ -1,0 +1,1 @@
+TDAT: public void set how many ( string how many ) {  <NL>  / * * set the value if it is a legal value , otherwise ignore * /  <NL> for ( int i = 0 ; i < how many traits . length ; i + + ) {  <NL> if ( how many traits [ i ] . equals ( how many ) ) {  <NL> this . how many = how many ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> set the number of traits to return </s>

@@ -1,0 +1,1 @@
+TDAT: public string get project properties str ( ) {  <NL> list < string > list = new array list < string > ( ) ;  <NL> for ( property property : get project properties ( ) ) {  <NL> list . add ( property . get key ( ) + " = " + property . get value ( ) ) ;  <NL>  }  <NL> return build members str ( list , " \n " ) ;  <NL>  }  COM: <s> get project properties with signs </s>

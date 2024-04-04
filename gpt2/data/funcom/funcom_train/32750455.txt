@@ -1,0 +1,1 @@
+TDAT: protected boolean check attribute ( string str name , int i type ) {  <NL> if ( ! m _ map attrs . contains key ( str name ) ) return false ;  <NL>  <NL> attribute attr = ( attribute ) m _ map attrs . get ( str name ) ;  <NL> if ( attr . get type ( ) ! = i type ) return false ;  <NL>  <NL> return true ;  <NL>  } ;  COM: <s> check attribute validity </s>

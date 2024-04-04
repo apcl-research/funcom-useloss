@@ -1,0 +1,1 @@
+TDAT: protected void make all invisible ( page state state ) {  <NL> m _ all list . set visible ( state , false ) ;  <NL> m _ short list . set visible ( state , false ) ;  <NL> m _ view all link . set visible ( state , false ) ;  <NL> m _ view short link . set visible ( state , false ) ;  <NL>  }  COM: <s> makes all the components invisible </s>

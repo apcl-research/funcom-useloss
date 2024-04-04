@@ -1,0 +1,1 @@
+TDAT: public string recent tokens ( ) {  <NL> string buffer trace = new string buffer ( ) ;  <NL> for ( int i = prior tokens . size ( ) - 1 ; i > = 0 ; i - - ) {  <NL> trace . append ( prior tokens . get ( i ) ) ;  <NL> trace . append ( " " ) ;  <NL>  }  <NL> return trace . to string ( ) ;  <NL>  }  COM: <s> return a trace of the recently seen tokens for use </s>

@@ -1,0 +1,1 @@
+TDAT: private vector2f isect ( vector3f vv , float d0 , float d1 , float d2 ) {  <NL> vector2f i = new vector2f ( ) ;  <NL> i . x = vv . x + ( vv . y - vv . x ) * d0 / ( d0 - d1 ) ;  <NL> i . y = vv . x + ( vv . z - vv . x ) * d0 / ( d0 - d2 ) ;  <NL> return i ;  <NL>  }  COM: <s> calculates two tuple isect for triangle vertex and intersection line </s>

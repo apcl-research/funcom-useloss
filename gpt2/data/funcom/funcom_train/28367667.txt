@@ -1,0 +1,1 @@
+TDAT: public location get random location ( ) {  <NL> final random the rand = new random ( ) ;  <NL> final integer the random x = the rand . next int ( get size x ( ) ) ;  <NL> final integer the random y = the rand . next int ( get size y ( ) ) ;  <NL> return new single location ( new point ( the random x , the random y ) ) ;  <NL>  }  COM: <s> get a random location </s>

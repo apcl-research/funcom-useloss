@@ -1,0 +1,1 @@
+TDAT: public void on die ( creature last attacker ) {  <NL> this . get owner ( ) . set casting ( null ) ;  <NL> this . get owner ( ) . get effect controller ( ) . remove all effects ( ) ;  <NL> this . get owner ( ) . get move controller ( ) . stop ( ) ;  <NL> this . get owner ( ) . set state ( creature state . dead ) ;  <NL>  }  COM: <s> perform tasks on creature death </s>

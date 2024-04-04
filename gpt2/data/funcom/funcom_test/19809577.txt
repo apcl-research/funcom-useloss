@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> return " compass class mapping : mapped class = [ " + mapped class + " ] , root = [ " + root + " ] , poly = [ " + poly + " ] , extend = [ " + extend + " ] , property mappings = [ " + property mappings + " ] " ;  <NL>  }  COM: <s> provide a useful string </s>

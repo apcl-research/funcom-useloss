@@ -1,0 +1,1 @@
+TDAT: private string get point string ( point2d point , boolean use par ) {  <NL> double x = point . get x ( ) ;  <NL> double y = point . get y ( ) ;  <NL> string builder s = new string builder ( ) ;  <NL> append point ( x , y , use par , s ) ;  <NL> return s . to string ( ) ;  <NL>  }  COM: <s> converts a point to a string </s>

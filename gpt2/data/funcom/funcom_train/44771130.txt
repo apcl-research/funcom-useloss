@@ -1,0 +1,1 @@
+TDAT: public int compare to ( object o ) {  <NL> index other = ( index ) o ;  <NL> int val = num docs < other . num docs ? - 1 : ( num docs = = other . num docs ? 0 : 1 ) ;  <NL> if ( val ! = 0 ) {  <NL> return val ;  <NL>  } else {  <NL> return name . compare to ( other . name ) ;  <NL>  }  <NL>  }  COM: <s> indexes are first ordered by </s>

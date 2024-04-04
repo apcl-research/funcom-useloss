@@ -1,0 +1,1 @@
+TDAT: public boolean get ( int column , int row ) {  <NL> if ( column < 0 || column > = columns || row < 0 || row > = rows )  <NL> throw new index out of bounds exception ( " column : " + column + " , row : " + row ) ;  <NL> return quick bit vector . get ( bits , row * columns + column ) ;  <NL>  }  COM: <s> returns from the receiver the value of the bit at the specified </s>

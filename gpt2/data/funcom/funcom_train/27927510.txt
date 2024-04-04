@@ -1,0 +1,1 @@
+TDAT: public void set ( int bit ) {  <NL> if ( bit < 0 || bit > = size )  <NL> throw new index out of bounds exception ( integer . to string ( bit ) + " real size : " + size ) ;  <NL> int index = bit / 8 ;  <NL> int mask = 128 > > ( bit % 8 ) ;  <NL> bitfield [ index ] | = mask ;  <NL>  }  COM: <s> sets the given bit to true </s>

@@ -1,0 +1,1 @@
+TDAT: protected void set up ( ) {  <NL> thread pool = new thread pool ( " testing " , 5 , 10 , 5 , 0 , 0 , 0 ) ;  <NL> pivot lock = new pivot lock ( " test pivot lock " ) ;  <NL> read write lock = new read write lock ( " test read write lock " ) ;  <NL>  }  COM: <s> create any objects needed to run your test cases </s>

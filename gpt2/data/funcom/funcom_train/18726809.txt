@@ -1,0 +1,1 @@
+TDAT: public void set closable title at ( final int index , final string value ) {  <NL> final string old = get closable title at ( index ) ;  <NL> if ( ( value = = null ) ? ( old ! = null ) : ( ! value . equals ( old ) ) ) {  <NL> set icon at ( index , get combined icon at ( index ) . clone with title ( value ) ) ;  <NL>  }  <NL>  }  COM: <s> use instead of set title at </s>

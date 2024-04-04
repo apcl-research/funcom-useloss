@@ -1,0 +1,1 @@
+TDAT: public void test rate average ( ) {  <NL> rate class monitor impl monitor = create rate class monitor ( 5000 ) ;  <NL> for ( int rate : arrays . as list ( 5000 , 4020 , 3216 , 2572 ) ) {  <NL> assert equals ( rate , monitor . get last rate avg ( ) ) ;  <NL> monitor . update rate ( time ) ;  <NL>  }  <NL>  }  COM: <s> tests that the rate average is computed correctly </s>

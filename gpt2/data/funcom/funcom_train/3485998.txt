@@ -1,0 +1,1 @@
+TDAT: public int hash code ( ) {  <NL> if ( key = = null )  <NL> return 0 ;  <NL> int code = 0 ;  <NL> for ( int i = key . length - 1 ; i > = 0 ; i - - )  <NL> code ^ = ( ( int ) key [ i ] & 0xff ) < < ( ( ( key . length - i - 1 ) * 8 ) % 32 ) ;  <NL> return code ;  <NL>  }  COM: <s> the hash code for this key </s>

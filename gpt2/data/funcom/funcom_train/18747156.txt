@@ -1,0 +1,1 @@
+TDAT: private bit set compute implies ( bit set arg1 , bit set arg2 ) {  <NL> bit set result = ( bit set ) arg2 . clone ( ) ;  <NL> for ( int i = 0 ; i < this . state count ; i + + ) {  <NL> if ( ! result . get ( i ) ) {  <NL> result . set ( i , arg1 . get ( i ) ) ;  <NL>  }  <NL>  }  <NL> return result ;  <NL>  }  COM: <s> returns the implication of two bit sets </s>

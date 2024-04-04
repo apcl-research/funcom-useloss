@@ -1,0 +1,1 @@
+TDAT: public row get row ( int row index ) {  <NL> row row = new row ( ) ;  <NL> int column count = get column count ( ) ;  <NL> for ( int column = 0 ; column < column count ; + + column ) {  <NL> row . put ( get column name ( column ) , get ( row index , column ) ) ;  <NL>  }  <NL> return row ;  <NL>  }  COM: <s> returns the given row </s>

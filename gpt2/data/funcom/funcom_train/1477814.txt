@@ -1,0 +1,1 @@
+TDAT: public void set step grid ( int pixels ) {  <NL> if ( pixels > 0 ) {  <NL> step grid = pixels ;  <NL> init grid ( ) ;  <NL> double rad angle = deg to rad ( angle from begining ) ;  <NL> rotate polyline ( center , x origin h , y origin h , xh , yh , nb points h , rad angle ) ;  <NL>  }  <NL>  }  COM: <s> changes the space between 2 lines of the grid </s>

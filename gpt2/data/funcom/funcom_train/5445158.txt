@@ -1,0 +1,1 @@
+TDAT: public long get long ( int index ) {  <NL> if ( ( index < 1 ) || ( index > = item type . length ) || ( item type [ index ] ! = constant _ long ) )  <NL> throw new class format error ( " constant pool item does not exist " ) ;  <NL> return ( ( long ) item value1 [ index ] ) . long value ( ) ;  <NL>  }  COM: <s> get the long value of a long constant </s>

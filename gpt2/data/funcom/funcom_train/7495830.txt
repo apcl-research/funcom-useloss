@@ -1,0 +1,1 @@
+TDAT: public void set end rule ( int month , int day of month , int time ) {  <NL> get stz info ( ) . set end ( month , - 1 , - 1 , time , day of month , false ) ;  <NL> set end rule ( month , day of month , wall _ time , time ) ;  <NL>  }  COM: <s> sets the dst end rule to a fixed date within a month </s>

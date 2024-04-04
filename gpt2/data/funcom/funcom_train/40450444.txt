@@ -1,0 +1,1 @@
+TDAT: public void test trailing whitespace ( ) throws exception {  <NL> list < integer > integers = gson . from json ( " [ 1 , 2 , 3 ] \n\n " ,  <NL> new type token < list < integer > > ( ) { } . get type ( ) ) ;  <NL> assert equals ( arrays . as list ( 1 , 2 , 3 ) , integers ) ;  <NL>  }  COM: <s> test that trailing whitespace is ignored </s>

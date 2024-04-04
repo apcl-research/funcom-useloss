@@ -1,0 +1,1 @@
+TDAT: public pf unit divide ( pf unit par units ) {  <NL>  <NL> if ( par units . get units ( ) ! = 0 ) {  <NL> pf unit temp unit = ( pf unit ) clone ( ) ;  <NL> temp unit . set units ( temp unit . get units ( ) / par units . get units ( ) ) ;  <NL> return ( temp unit ) ;  <NL>  }  <NL> else <NL> return ( null ) ;  <NL>  }  COM: <s> method divide p </s>

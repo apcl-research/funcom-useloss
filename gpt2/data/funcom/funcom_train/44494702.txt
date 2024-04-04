@@ -1,0 +1,1 @@
+TDAT: public void assert text contains ( final string text , final string text contained ) {  <NL> string message = " assert text contains : ' " + text contained + " ' not in given text " ;  <NL> int assert level = assert level . no _ level ;  <NL> assert text contains ( message , text , text contained , assert level ) ;  <NL>  }  COM: <s> asserts that two objects are equal </s>

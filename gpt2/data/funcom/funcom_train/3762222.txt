@@ -1,0 +1,1 @@
+TDAT: public void set value at ( object a value , int row index , int column index ) {  <NL> object [ ] level = ( object [ ] ) m _ rows . get ( row index ) ;  <NL> level [ column index ] = a value ;  <NL> m _ rows . set ( row index , level ) ;  <NL> fire table rows updated ( row index , row index ) ;  <NL>  }  COM: <s> sets the value in the cell at code column index code and </s>

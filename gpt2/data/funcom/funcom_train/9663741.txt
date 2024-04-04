@@ -1,0 +1,1 @@
+TDAT: public void set widget ( int row , int column , widget widget ) {  <NL> prepare cell ( row , column ) ;  <NL> widget cell = super . get widget ( row , column ) ;  <NL> if ( ! ( cell instanceof expandable cell ) || widget instanceof expandable cell )  <NL> super . set widget ( row , column , widget ) ;  <NL>  }  COM: <s> this method sets a widget for the cell p </s>

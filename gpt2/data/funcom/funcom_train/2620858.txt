@@ -1,0 +1,1 @@
+TDAT: protected void setup test user group ( long id , string name , long location id ) {  <NL> simple jdbc template . update (  <NL>  " insert into solardras . dras _ user _ group ( id , groupname , loc _ id , enabled ) values ( ? , ? , ? , ? ) " ,  <NL> id , name , location id , boolean . true ) ;  <NL>  <NL>  }  COM: <s> insert a test user group into the solardras </s>

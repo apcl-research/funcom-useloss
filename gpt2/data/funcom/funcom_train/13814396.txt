@@ -1,0 +1,1 @@
+TDAT: public void test parse date range ( ) {  <NL> calendar cal = calendar . get instance ( ) ;  <NL> check parsing boundaries ( " 2 . 3 . 2005 - 13 . 4 . 2005 " , create date ( 2005 , 2 , 2 , 0 , 0 , 0 ) , create date ( 2005 , 3 , 13 , 23 , 59 , 59 ) ) ;  <NL>  }  COM: <s> test tar date ranges are parsed correctly </s>

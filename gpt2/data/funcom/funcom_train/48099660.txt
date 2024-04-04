@@ -1,0 +1,1 @@
+TDAT: protected void store ( ) throws io exception {  <NL> file output stream out = null ;  <NL> try {  <NL> out = new file output stream ( app _ props _ file ) ;  <NL> app props . store ( out , " updated " + ( new date ( ) . to string ( ) ) ) ;  <NL>  } finally {  <NL> if ( out ! = null )  <NL> out . close ( ) ;  <NL>  }  <NL>  }  COM: <s> save the applciation properties </s>

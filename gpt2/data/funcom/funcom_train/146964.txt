@@ -1,0 +1,1 @@
+TDAT: public base cmd line ( string [ ] argv , boolean ignore case , string [ ] names , int [ ] lengths ) {  <NL> this ( argv , ignore case ) ;  <NL> for ( int i = 0 ; i < math . min ( names . length , lengths . length ) ; i + + )  <NL> get param ( names [ i ] , lengths [ i ] ) ;  <NL>  }  COM: <s> a combinantion of </s>

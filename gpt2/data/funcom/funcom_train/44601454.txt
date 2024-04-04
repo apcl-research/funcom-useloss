@@ -1,0 +1,1 @@
+TDAT: public void test _ final _ field _ 01 ( ) {  <NL> compile and exec given statement (  <NL>  " x . java " ,  <NL>  " public class x { \n " +  <NL>  " final int x ; \n " +  <NL>  " x ( ) { \n " +  <NL>  " x = 10 ; \n " +  <NL>  " } \n " +  <NL>  " } \n " ,  <NL>  " new x ( ) " ) ;  <NL>  }  COM: <s> the wrapper approach interferes with final fields as assignments </s>

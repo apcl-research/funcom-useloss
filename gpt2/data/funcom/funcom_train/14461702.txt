@@ -1,0 +1,1 @@
+TDAT: public string qualify sheetname ( string s ) {  <NL> try {  <NL> if ( s . char at ( 0 ) ! = ' \ ' ' & & ( s . index of ( " " ) > - 1 || s . index of ( " & " ) > - 1 ) )  <NL> return " ' " + s + " ' " ;  <NL>  } catch ( string index out of bounds exception e ) { }  <NL> return s ;  <NL>  }  COM: <s> return properly quoted sheetname </s>

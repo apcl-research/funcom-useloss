@@ -1,0 +1,1 @@
+TDAT: private void set table data ( string [ ] [ ] data ) {  <NL> for ( int i = 0 ; i < data . length ; i + + ) {  <NL> for ( int j = 0 ; j < data [ i ] . length ; j + + ) {  <NL> dtm . set value at ( data [ i ] [ j ] , i , j ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> sets the table value to the data array </s>

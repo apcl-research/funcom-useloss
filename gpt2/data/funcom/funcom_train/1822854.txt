@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> if ( coordinates . length = = 0 ) return " ( ) " ;  <NL> string result = " pnt ( " + coordinates [ 0 ] ;  <NL> for ( int i = 1 ; i < coordinates . length ; i + + )  <NL> result = result + " , " + coordinates [ i ] ;  <NL> result = result + " ) " ;  <NL> return result ;  <NL>  }  COM: <s> create a string for this pnt </s>

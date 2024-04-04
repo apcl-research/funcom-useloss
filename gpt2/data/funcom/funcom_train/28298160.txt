@@ -1,0 +1,1 @@
+TDAT: private void set insert node ( ) {  <NL> string text = trans base text . get text ( 10323 ) ;  <NL> point rem ins m . set text ( point text + text ) ;  <NL> point rem ins m . set mnemonic ( text . char at ( 0 ) ) ;  <NL> point edit m . set enabled ( false ) ;  <NL> set insert accelerator ( point rem ins m ) ;  <NL>  }  COM: <s> sets the point menu entry to insert </s>

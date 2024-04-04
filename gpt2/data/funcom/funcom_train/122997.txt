@@ -1,0 +1,1 @@
+TDAT: public int hash code ( ) {  <NL> final fast comparator comp = this . get value comparator ( ) ;  <NL> int h = 1 ;  <NL> for ( node n = _ head , end = _ tail ; ( n = n . _ next ) ! = end ; ) {  <NL> h = 31 * h + comp . hash code of ( n . _ value ) ;  <NL>  }  <NL> return h ;  <NL>  }  COM: <s> returns the hash code value for this list </s>

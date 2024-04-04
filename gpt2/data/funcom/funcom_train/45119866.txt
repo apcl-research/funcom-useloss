@@ -1,0 +1,1 @@
+TDAT: public void set properties ( hashtable < object , object > p ) {  <NL> props = new properties ( ) ;  <NL> for ( enumeration < object > e = p . keys ( ) ; e . has more elements ( ) ; ) {  <NL> object key = e . next element ( ) ;  <NL> props . put ( key , p . get ( key ) ) ;  <NL>  }  <NL>  }  COM: <s> set the properties to be used in the test </s>

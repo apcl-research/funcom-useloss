@@ -1,0 +1,1 @@
+TDAT: public string item ( ) {  <NL>  / / color string can be wherever <NL> string i = item . replace all ( " \\\\ # \\ . " , " " ) ; / / color default <NL> i = i . replace all ( " \\\\ # [ 0 - 9a - f a - f ] { 6 } " , " " ) ; / / color hex <NL> return i ;  <NL>  }  COM: <s> returns the name or a description of the item for this auction mail </s>

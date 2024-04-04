@@ -1,0 +1,1 @@
+TDAT: public void set speed ( int speed ) {  <NL> speed = math . abs ( speed ) ;  <NL> if ( speed > motor _ max _ dps ) speed = motor _ max _ dps ;  <NL> float power = ( speed - 32 . 253f ) / 8 . 1551f ;  <NL> if ( power < 0 ) power = 0 ;  <NL> set power ( math . round ( power ) ) ;  <NL>  }  COM: <s> sets desired motor speed in degrees per second </s>

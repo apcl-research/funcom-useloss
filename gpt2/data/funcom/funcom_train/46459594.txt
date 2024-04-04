@@ -1,0 +1,1 @@
+TDAT: public void mouse entered ( java . awt . event . mouse event evt ) {  <NL> clear label . set font ( new font ( clear label . get font ( ) . get family ( ) , font . bold , 10 ) ) ;  <NL> clear label . set text ( controls res . get string ( " osp control . click _ to _ clear _ message " ) ) ; / / $ non - nls - 1 $  <NL>  }  COM: <s> method mouse entered </s>

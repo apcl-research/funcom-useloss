@@ -1,0 +1,1 @@
+TDAT: public void add translation ( vector3f translation ) {  <NL> matrix . add factor ( 3 , 0 , translation . get x ( ) ) ;  <NL> matrix . add factor ( 3 , 1 , translation . get y ( ) ) ;  <NL> matrix . add factor ( 3 , 2 , translation . get z ( ) ) ;  <NL>  }  COM: <s> adds a translation to this matrix </s>

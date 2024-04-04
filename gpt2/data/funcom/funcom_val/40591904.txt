@@ -1,0 +1,1 @@
+TDAT: public void test int value negative1 ( ) {  <NL> byte a bytes [ ] = { 12 , 56 , 100 , - 2 , - 76 , - 128 , 45 , 91 , 3 } ;  <NL> int sign = - 1 ;  <NL> int res int = 2144511229 ;  <NL> int a number = new big integer ( sign , a bytes ) . int value ( ) ;  <NL> assert equals ( res int , a number ) ;  <NL>  }  COM: <s> convert a negative big integer to an integer value </s>

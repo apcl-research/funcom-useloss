@@ -1,0 +1,1 @@
+TDAT: public void set attributes ( hash map < string , string > attrs , lambda < string , string > replace lambda ) {  <NL> for ( map . entry < string , string > e : attrs . entry set ( ) ) {  <NL> set attribute ( e . get key ( ) , replace lambda . value ( e . get value ( ) ) ) ;  <NL>  }  <NL>  }  COM: <s> set all attribute values </s>

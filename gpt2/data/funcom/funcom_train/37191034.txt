@@ -1,0 +1,1 @@
+TDAT: public void save data ( ) {  <NL> server access . set object window button information ( radio button , cb all . is selected ( ) , cb tables . is selected ( ) , cb queries . is selected ( ) , cb forms . is selected ( ) , cb reports . is selected ( ) , cb classes . is selected ( ) ) ;  <NL>  }  COM: <s> saves data about the object window to the system table </s>

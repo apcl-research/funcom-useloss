@@ -1,0 +1,1 @@
+TDAT: public void retain ( ) {  <NL> smap . put ( drive signal . get bean ( ) . get system name ( ) , this ) ;  <NL> if ( drive signal . get bean ( ) . get user name ( ) ! = null )  <NL> umap . put ( drive signal . get bean ( ) . get user name ( ) , this ) ;  <NL>  }  COM: <s> ensure that this block boss logic object is available for later retrieval </s>

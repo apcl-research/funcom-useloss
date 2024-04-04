@@ -1,0 +1,1 @@
+TDAT: public void set ip dim pts ( double pts ) {  <NL> synchronized ( this ) {  <NL>  / / check this <NL> if ( is horizontal ) {  <NL> set rect ( get x ( ) , get y ( ) , pts , get height ( ) ) ;  <NL>  } else {  <NL> set rect ( get x ( ) , get y ( ) , get width ( ) , pts ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> sets the code inline progression dimension code of the area </s>

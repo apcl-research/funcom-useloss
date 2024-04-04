@@ -1,0 +1,1 @@
+TDAT: private void i love you ( digibot digibot ) {  <NL>  <NL>  / / hey , great ! i received a love message from <NL>  / / a digibot ? ? let ' s go for [ him / her / we don ' t mind ] ! !  <NL> focused partner = digibot ;  <NL>  <NL>  / / send a little answer !  <NL> focused partner . i love you too ( this ) ;  <NL>  <NL>  }  COM: <s> send a love message to a digibot </s>

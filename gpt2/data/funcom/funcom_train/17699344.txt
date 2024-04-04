@@ -1,0 +1,1 @@
+TDAT: public shape get shape ( )  <NL>  {  <NL> return new cubic curve2d . double ( p [ 0 ] . get x ( ) , p [ 0 ] . get y ( ) , p [ 1 ] . get x ( ) , p [ 1 ] . get y ( ) ,  <NL> p [ 2 ] . get x ( ) , p [ 2 ] . get y ( ) , p [ 3 ] . get x ( ) , p [ 3 ] . get y ( ) ) ;  <NL>  }  COM: <s> gets the current cubic curve </s>

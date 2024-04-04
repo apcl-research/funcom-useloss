@@ -1,0 +1,1 @@
+TDAT: protected void send programming reply ( prog listener p , int value , int status ) {  <NL> int delay = 20 ; / / value in service mode <NL> if ( ! m service mode ) delay = 100 ; / / value in ops mode <NL>  <NL> notify delay r = new notify delay ( delay , p , value , status ) ;  <NL> r . start ( ) ;  <NL>  }  COM: <s> internal routine to forward a programing reply </s>

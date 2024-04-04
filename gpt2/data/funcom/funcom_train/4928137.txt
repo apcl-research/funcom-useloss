@@ -1,0 +1,1 @@
+TDAT: private image button add bullet ( int x , int y ) {  <NL> image button bullet button = new image button ( bul , bul rol , bul sel ) ;  <NL> bullet button . set location ( x - 12 , y - 12 ) ;  <NL> bullet button . set size ( 24 , 24 ) ;  <NL> add ( bullet button ) ;  <NL> return bullet button ;  <NL>  }  COM: <s> adds a new bullet button </s>

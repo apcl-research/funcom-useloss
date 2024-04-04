@@ -1,0 +1,1 @@
+TDAT: public void on dlg notification failure ( notifier dialog dialog , int code , string reason , message msg )  <NL>  { print log ( " on dlg notification failure ( ) " , log level . medium ) ;  <NL> listener . on pa notification failure ( this , dialog . get remote name ( ) , reason ) ;  <NL>  }  COM: <s> when a 300 699 response is received for a notify transaction </s>

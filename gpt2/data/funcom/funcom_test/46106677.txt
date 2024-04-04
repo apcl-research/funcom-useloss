@@ -1,0 +1,1 @@
+TDAT: public void draw ( int m x , int m y , float m zoom , gl color m color ) {  <NL> if ( ! dead ) {  <NL> if ( ( current time = utils . get time ( ) ) - birth time > time to live )  <NL> dead = true ;  <NL>  <NL> font . print ( text , m x , m y , m zoom , m color ) ;  <NL>  }  <NL>  }  COM: <s> draws the piece of text on screen </s>

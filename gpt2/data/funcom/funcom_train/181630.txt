@@ -1,0 +1,1 @@
+TDAT: public void add one to one id ( final int association type , string property name , class other base class , string other property name , db multiplicity range range , boolean keep reference to other end , boolean cached ) {  <NL>  / / todo nyi <NL> throw new ch . softenvironment . util . developer exception ( " nyi " ) ;  <NL>  }  COM: <s> case a b 1 0 </s>

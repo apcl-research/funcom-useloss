@@ -1,0 +1,1 @@
+TDAT: public int get sink priority ( string address ) {  <NL> if ( dbg ) log ( " get sink priority ( " + address + " ) " ) ;  <NL> try {  <NL> return m service . get sink priority ( address ) ;  <NL>  } catch ( remote exception e ) {  <NL> log . w ( tag , " " , e ) ;  <NL> return bluetooth error . error _ ipc ;  <NL>  }  <NL>  }  COM: <s> get priority of a2dp sink </s>

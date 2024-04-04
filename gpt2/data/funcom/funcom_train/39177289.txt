@@ -1,0 +1,1 @@
+TDAT: public void add entry ( k key , v value ) {  <NL> if ( entries = = null ) {  <NL> entries = new array list < map entry < k , v > > ( ) ;  <NL>  }  <NL> map entry < k , v > entry = new map entry < k , v > ( ) ;  <NL> entry . set key ( key ) ;  <NL> entry . set value ( value ) ;  <NL> entries . add ( entry ) ;  <NL>  }  COM: <s> add a single entry to this wrapper </s>

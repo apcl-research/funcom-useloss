@@ -1,0 +1,1 @@
+TDAT: private void add vertex ( string x , string y , string z , string r , string g , string b ) {  <NL> shape . add vertex ( new vertex ( float . parse float ( x ) , float . parse float ( y ) , float . parse float ( z ) ,  <NL> float . parse float ( r ) , float . parse float ( g ) , float . parse float ( b ) ) ) ;  <NL>  }  COM: <s> method that add a vertex to shape </s>

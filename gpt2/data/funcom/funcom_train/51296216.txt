@@ -1,0 +1,1 @@
+TDAT: private string get insert menus sql ( storage t ) {  <NL> string sql = " " ;  <NL> for ( menu menu : t . get menus ( ) . key set ( ) ) {  <NL> sql + = " insert into pos _ menu _ linker values ( " + t . get id ( ) + " , "  <NL>  + menu . get id ( ) + " , null ) ; \n " ;  <NL>  }  <NL> return sql ;  <NL>  }  COM: <s> query to insert stock into menu </s>

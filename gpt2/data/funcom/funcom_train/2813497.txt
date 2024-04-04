@@ -1,0 +1,1 @@
+TDAT: public void test bridge ( ) throws exception {  <NL> system . out . println ( " default bridge test " ) ;  <NL> legacy object l = get legacy ( ) ;  <NL> object obj = bridge factory . get instance ( ) . convert ( l , new object . class , null ) ;  <NL> do assert ( l , ( new object ) obj ) ;  <NL>  }  COM: <s> test bridge convenience method for transforms </s>

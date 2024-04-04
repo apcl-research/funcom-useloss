@@ -1,0 +1,1 @@
+TDAT: public short read short ( ) throws io exception {  <NL> int one , two ;  <NL> one = is . read ( ) ; / / simulates unsigned byte behavior ;  <NL> two = is . read ( ) ;  <NL> pos + = 2 ;  <NL>  / / add , then cast and return .  <NL> return ( short ) ( ( two < < 8 ) + one ) ;  <NL>  }  COM: <s> reads a code short code in an lsb fashion </s>

@@ -1,0 +1,1 @@
+TDAT: public int get nr real students ( boolean precise ) {  <NL> if ( ! precise )  <NL> return get students ( ) . size ( ) - i nr dummy students ;  <NL> int nr real students = 0 ;  <NL> for ( student student : get students ( ) ) {  <NL> if ( ! student . is dummy ( ) )  <NL> nr real students + + ;  <NL>  }  <NL> return nr real students ;  <NL>  }  COM: <s> number of real </s>

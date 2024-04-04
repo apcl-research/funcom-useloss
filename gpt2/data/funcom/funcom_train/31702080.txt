@@ -1,0 +1,1 @@
+TDAT: public void draw line ( int x1 , int y1 , int x2 , int y2 ) {  <NL> final gl gl = get gl ( ) ;  <NL> gl . gl begin ( gl . gl _ line _ strip ) ;  <NL> gl . gl vertex3f ( x1 , - y1 , 0 ) ;  <NL> gl . gl vertex3f ( x2 , - y2 , 0 ) ;  <NL> gl . gl end ( ) ;  <NL>  }  COM: <s> draws a line </s>

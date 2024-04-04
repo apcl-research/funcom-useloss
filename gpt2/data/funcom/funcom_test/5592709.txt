@@ -1,0 +1,1 @@
+TDAT: public void populate fields ( string [ ] text ) {  <NL> int i = 0 ;  <NL> while ( i < this . num of rows & i < text . length ) {  <NL> this . fields [ i ] . set text ( text [ i ] ) ;  <NL> this . fields [ i ] . set tool tip text ( text [ i ] ) ;  <NL> i + + ;  <NL>  }  <NL>  }  COM: <s> populate the information fields </s>

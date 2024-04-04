@@ -1,0 +1,1 @@
+TDAT: public void test read byte array ( ) throws exception {  <NL> byte array resource resource = new byte array resource ( " hello world " . get bytes ( ) ) ;  <NL> string s = io utils . to string ( resource . get input stream ( ) ) ;  <NL> assert equals ( " string not preserved " , " hello world " , s ) ;  <NL>  }  COM: <s> tests that you can read from byte array </s>

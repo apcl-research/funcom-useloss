@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> return super . to string ( ) + " ( " +  <NL> new integer ( this . n dim ) . to string ( ) + " ) " ; / / $ non - nls - 1 $ / / $ non - nls - 2 $ / / $ non - nls - 3 $ / / $ non - nls - 4 $  <NL>  }  COM: <s> return a string describing the clipping operation </s>

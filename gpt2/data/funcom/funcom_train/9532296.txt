@@ -1,0 +1,1 @@
+TDAT: public void set text ( string text ) {  <NL>  / / if list clear text ( ? ) , though may want to change this for list sel <NL> if ( has list gui ( ) ) text = " " ;  <NL> this . set update gui only ( true ) ;  <NL> text field . set text ( text ) ;  <NL> this . set update gui only ( false ) ;  <NL>  }  COM: <s> set text from outside source sel load </s>

@@ -1,0 +1,1 @@
+TDAT: public entry find exact ( string a word ) throws item not found exception {  <NL> for ( int i = 0 ; i < f map . size ( ) ; i + + ) {  <NL> if ( ( ( ( entry ) f map . get ( i ) ) . get key ( ) ) . equals ( a word ) )  <NL> return ( entry ) f map . get ( i ) ;  <NL>  }  <NL> throw new item not found exception ( a word ) ;  <NL>  }  COM: <s> return matching entry </s>

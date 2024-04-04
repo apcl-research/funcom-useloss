@@ -1,0 +1,1 @@
+TDAT: public void test rgroup query2 _ occ r1 _ 1 ( ) throws exception {  <NL> string modified query = rgroup _ query _ 2 . replace (  <NL>  " m log 1 1 0 0 0 , 1 " ,  <NL>  " m log 1 1 0 0 1 " ) ;  <NL> perform query ( modified query , " n " , 42 ) ;  <NL>  }  COM: <s> test r group query 2 wih modified occurrence 0 1 1 </s>

@@ -1,0 +1,1 @@
+TDAT: public string get basepath ( file file ) {  <NL> string path = file . get parent ( ) + file . separator ;  <NL> string name = file . get name ( ) ;  <NL> if ( name . last index of ( ' . ' ) < 1 ) return path + name ;  <NL> return path + name . substring ( 0 , name . last index of ( ' . ' ) ) ;  <NL>  }  COM: <s> give a filepath without extension </s>

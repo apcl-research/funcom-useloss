@@ -1,0 +1,1 @@
+TDAT: public void stay ( int step , automaton a ) {  <NL> expr ex = ef . or ( ) ;  <NL> for ( event ev : a . get alphabet ( ) )  <NL> ex . add ( vl . transition eq label ( step , ev ) ) ;  <NL> ex . add ( vl . keep state ( a , step ) ) ;  <NL> yeild ( ex ) ;  <NL>  }  COM: <s> returns clause that either event belong to automaton a or a keeps state </s>

@@ -1,0 +1,1 @@
+TDAT: public void start ( ) {  <NL> if ( log service ! = null & & ! log service . is started ( ) ) {  <NL> log service . start ( ) ;  <NL> if ( ! log service . is started ( ) ) {  <NL> report error ( " unable to start jmx log handler , you will not get logg messages . " , null , error manager . open _ failure ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> life cycle method </s>

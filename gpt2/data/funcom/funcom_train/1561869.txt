@@ -1,0 +1,1 @@
+TDAT: final public geo list t test2 ( string label , geo list sample list1 , geo list sample list2 , geo text tail , geo boolean pooled ) {  <NL> algo t test2 algo = new algo t test2 ( cons , label , sample list1 , sample list2 , tail , pooled ) ;  <NL> geo list result = algo . get result ( ) ;  <NL> return result ;  <NL>  }  COM: <s> ttest2 with sample data </s>

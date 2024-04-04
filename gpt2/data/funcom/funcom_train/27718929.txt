@@ -1,0 +1,1 @@
+TDAT: protected void set bounds rel only ( int dx , int dy , int dwidth , int dheight ) {  <NL> rectangle bounds = calculate bounds ( dx , dy , dwidth , dheight ) ;  <NL> set bounds ( bounds ) ;  <NL> do layout ( ) ; / / seems to be necessary ? ! ?  <NL> repaint ( ) ;  <NL>  }  COM: <s> relatively changes the bounds of this customizer without firing an event </s>

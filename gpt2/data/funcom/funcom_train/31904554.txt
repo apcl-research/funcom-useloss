@@ -1,0 +1,1 @@
+TDAT: public void append ( value v ) {  <NL> if ( length = = items . length ) {  <NL> value [ ] t = new value [ length * 2 ] ;  <NL> for ( int i = 0 ; i < length ; i + + ) {  <NL> t [ i ] = items [ i ] ;  <NL>  }  <NL> items = t ;  <NL>  }  <NL> items [ length + + ] = v ;  <NL>  }  COM: <s> appends an item to the list </s>

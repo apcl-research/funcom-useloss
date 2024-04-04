@@ -1,0 +1,1 @@
+TDAT: public void set top border pos ( int pos ) {  <NL>  / / system . out . println ( " [ lm frame . set top border pos ] set y to " + pos + " for " + this ) ;  <NL> my gde node . set y ( pos ) ;  <NL>  <NL> if ( my background layouter ! = null ) {  <NL> my background layouter . set y ( pos ) ;  <NL>  }  <NL>  }  COM: <s> untied frame neednt layout inner frames </s>

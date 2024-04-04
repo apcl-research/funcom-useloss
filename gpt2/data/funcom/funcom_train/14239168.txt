@@ -1,0 +1,1 @@
+TDAT: @ test public void resolve ( ) {  <NL> object result = replacer . resolve ( simple replacer . class , " quote yields falsehood " ) ;  <NL> assert equals ( " ' yields falsehood ' " , result ) ;  <NL>  <NL> result = replacer . resolve ( simple replacer . class , " one " ) ;  <NL> assert equals ( 1 , result ) ;  <NL>  }  COM: <s> tests resolving against a </s>

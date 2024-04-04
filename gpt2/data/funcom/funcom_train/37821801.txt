@@ -1,0 +1,1 @@
+TDAT: public void test get p ( ) {  <NL> map < event , double > exp result = p ;  <NL> map < event , double > result = instance . get p ( ) ;  <NL> for ( event event : exp result . key set ( ) ) {  <NL> assert equals ( exp result . get ( event ) , result . get ( event ) ) ;  <NL>  }  <NL>  }  COM: <s> test of get p method of class emdata </s>

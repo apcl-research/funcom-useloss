@@ -1,0 +1,1 @@
+TDAT: public void register ( final k object , final v singleton ) {  <NL> synchronized ( this . cache ) {  <NL> this . cache . put ( object , singleton ) ;  <NL> this . misses + + ;  <NL>  }  <NL> if ( this . log . is loggable ( level . finest ) ) this . log . finest ( object + " mapped to " + singleton ) ;  <NL>  }  COM: <s> p register a mapping </s>

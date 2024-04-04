@@ -1,0 +1,1 @@
+TDAT: public void set ( string name , color value ) {  <NL> set property ( name ,  <NL>  ( int ) value . get red ( ) + " , " +  <NL>  ( int ) value . get green ( ) + " , " +  <NL>  ( int ) value . get blue ( ) + " , " +  <NL>  ( int ) value . get alpha ( ) ) ;  <NL>  }  COM: <s> sets a color property </s>

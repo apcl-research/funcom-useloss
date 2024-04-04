@@ -1,0 +1,1 @@
+TDAT: protected void nav link next ( ) {  <NL> if ( next = = - 1 ) {  <NL> print text ( " doclet . next _ letter " ) ;  <NL>  } else {  <NL> print hyper link ( " index - " + next + " . html " , " " ,  <NL> configuration . get text ( " doclet . next _ letter " ) , true ) ;  <NL>  }  <NL>  }  COM: <s> print the next unicode character index link </s>

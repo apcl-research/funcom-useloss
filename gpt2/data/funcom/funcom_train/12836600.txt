@@ -1,0 +1,1 @@
+TDAT: public void set reply with ( string a rep ) {  <NL> try {  <NL> att name = soap env . create name ( reply _ with , soap prefix , soap namespace ) ;  <NL> root element . add child element ( att name ) . add text node ( a rep ) ;  <NL>  } catch ( soap exception e ) {  <NL> e . print stack trace ( ) ;  <NL>  }  <NL>  }  COM: <s> method to set the fipa reply with parameter </s>

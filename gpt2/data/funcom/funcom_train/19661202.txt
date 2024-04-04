@@ -1,0 +1,1 @@
+TDAT: protected void zip ( string dest file , file list files , string base path , boolean store only , boolean sort by suffix ) {  <NL> long kb = zip or jar ( dest file , files , base path , store only , sort by suffix , false ) ;  <NL> println ( " zip " + dest file + " ( " + kb + " kb ) " ) ;  <NL>  }  COM: <s> create a zip file </s>

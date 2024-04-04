@@ -1,0 +1,1 @@
+TDAT: protected string builder build ( ) {  <NL> final type record type = get type ( ) ;  <NL> final int type value = record type = = null ? 0 : record type . get value ( ) ;  <NL> return new string builder ( ach _ record _ size ) . append ( string . format ( locale . us , record _ type _ format , type value ) ) ;  <NL>  }  COM: <s> the record contents to return from </s>

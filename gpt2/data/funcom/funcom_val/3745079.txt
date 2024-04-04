@@ -1,0 +1,1 @@
+TDAT: public void test warning level3 ( ) {  <NL> gcc compatible c compiler compiler = create ( ) ;  <NL> vector args = new vector ( ) ;  <NL> compiler . add warning switch ( args , 3 ) ;  <NL> assert equals ( 1 , args . size ( ) ) ;  <NL> assert equals ( " - wall " , args . element at ( 0 ) ) ;  <NL>  }  COM: <s> tests command lines switches for warning 3 </s>

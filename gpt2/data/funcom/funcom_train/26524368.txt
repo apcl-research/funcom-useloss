@@ -1,0 +1,1 @@
+TDAT: protected int apply ( list rule , list state ) {  <NL> string str = " " ;  <NL> for ( int i = 0 ; i < state . size ( ) ; i + + )  <NL> str + = state . get ( i ) ;  <NL>  / / system . out . println ( str ) ;  <NL> return integer . value of ( str , code ) . int value ( ) ;  <NL>  }  COM: <s> method in test phase </s>

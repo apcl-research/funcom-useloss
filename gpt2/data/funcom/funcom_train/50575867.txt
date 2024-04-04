@@ -1,0 +1,1 @@
+TDAT: protected music file get local file ( file dir , string path , toc entry track entry ) {  <NL> try {  <NL> return ( music file ) local file . new file ( dir , path , false , false , track entry ) ;  <NL>  } catch ( exception ex ) {  <NL> return new broken file ( track entry , dir ) ;  <NL>  }  <NL>  }  COM: <s> returns the file corresponding to the path </s>

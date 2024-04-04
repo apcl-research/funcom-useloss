@@ -1,0 +1,1 @@
+TDAT: public void move cart item ( int from index , int to index ) {  <NL> if ( to index < from index ) {  <NL> cart lines . add ( to index , cart lines . remove ( from index ) ) ;  <NL>  } else if ( to index > from index ) {  <NL> cart lines . add ( to index - 1 , cart lines . remove ( from index ) ) ;  <NL>  }  <NL>  }  COM: <s> moves a line item to a differnt index </s>

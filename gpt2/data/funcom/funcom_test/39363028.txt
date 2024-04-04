@@ -1,0 +1,1 @@
+TDAT: private void do add ( string title , string content ) {  <NL> get connection ( ) ;  <NL>  / / create table ( ) ;  <NL> insert table ( title , content ) ;  <NL> close all ( ) ;  <NL> out . println ( " add successful ! " ) ;  <NL> out . println ( " < br > < a href = \ " . / web / control / news . jsp\ " > news control < / a > " ) ;  <NL>  }  COM: <s> add a news </s>

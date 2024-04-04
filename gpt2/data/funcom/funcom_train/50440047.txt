@@ -1,0 +1,1 @@
+TDAT: public void init ( ) {  <NL>  / / create new properties map <NL> prop map = new properties ( ) ;  <NL>  <NL>  / / setup properties <NL> set property ( " xml name " , " startup handler component " ) ;  <NL> set property ( " path " , " _ stuff _ here " ) ;  <NL> set property ( " orb name " , " _ stuff _ here " ) ;  <NL>  }  COM: <s> initailizes the domain object </s>

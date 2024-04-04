@@ -1,0 +1,1 @@
+TDAT: public void write xml data not found ( ) {  <NL>  <NL> string l _ text = " < root > no records were found . < / root > " ;  <NL>  <NL> buffered writer l _ out = open file to write ( true ) ;  <NL> write infile ( l _ text , l _ out ) ;  <NL> close file to write ( l _ out ) ;  <NL>  <NL>  } / / write xml data not found  COM: <s> function used for xml files </s>

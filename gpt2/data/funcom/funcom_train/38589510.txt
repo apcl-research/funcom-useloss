@@ -1,0 +1,1 @@
+TDAT: public boolean is report row exists ( int row index ) {  <NL> if ( sheet ! = null & & sheet . has original object ( ) ) {  <NL> ec row < r , c , s , f , t > row = sheet . get row ( row index ) ;  <NL> return ( row ! = null ) & & row . has original object ( ) ;  <NL>  }  <NL>  <NL> return false ;  <NL>  }  COM: <s> does the specified row exists in report sheet </s>

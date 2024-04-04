@@ -1,0 +1,1 @@
+TDAT: public void test started ( string host ) {  <NL> hosts . add ( host ) ;  <NL> running indicator . set icon ( running icon ) ;  <NL> active threads . set text ( " 0 " ) ; / / $ non - nls - 1 $  <NL> total threads . set text ( " 0 " ) ; / / $ non - nls - 1 $  <NL> menu bar . set running ( true , host ) ;  <NL>  }  COM: <s> called when a test is started on a specific host </s>

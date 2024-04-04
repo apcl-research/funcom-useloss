@@ -1,0 +1,1 @@
+TDAT: public void test generate salt ( ) throws exception {  <NL> set < string > previous salt values = new hash set < string > ( ) ;  <NL> for ( int i = 0 ; i < 100 ; + + i ) {  <NL> assert true ( " salt value already generated " , previous salt values . add ( password . generate salt ( ) ) ) ;  <NL>  }  <NL>  }  COM: <s> test generating unique salt values </s>

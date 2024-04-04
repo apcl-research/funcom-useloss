@@ -1,0 +1,1 @@
+TDAT: private void check flush ( boolean force ) {  <NL> if ( ( force & & sb . length ( ) > 0 ) || sb . length ( ) > 2048 ) {  <NL> send buffer sync ( byte buffer . wrap ( sb . to string ( ) . get bytes ( ) ) ) ;  <NL>  / / clear our internal buffer <NL> sb . set length ( 0 ) ;  <NL>  }  <NL>  }  COM: <s> check if we are ready to send another chunk </s>

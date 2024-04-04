@@ -1,0 +1,1 @@
+TDAT: private survey new survey ( final template template ) throws exception {  <NL> string s name = " test : first all - employee satisfaction survey " ;  <NL> survey survey = new survey ( s name , template , new date range ( test dates . jan _ 01 _ 2004 , test dates . feb _ 01 _ 2004 ) ) ;  <NL> return survey ;  <NL>  }  COM: <s> utility method to create a survey </s>

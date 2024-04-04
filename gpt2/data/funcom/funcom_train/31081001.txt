@@ -1,0 +1,1 @@
+TDAT: public bc field declare field ( string name , string type ) {  <NL> bc field field = new bc field ( this ) ;  <NL>  _ state . get fields holder ( ) . add ( field ) ;  <NL> field . initialize ( name , _ project . get name cache ( ) . get internal form ( type ,  <NL> true ) ) ;  <NL> return field ;  <NL>  }  COM: <s> add a field to this class </s>

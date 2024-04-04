@@ -1,0 +1,1 @@
+TDAT: public string plot dummy stats ( boolean maximize ) {  <NL> return long . max _ value + " \t " + ( maximize ? integer . min _ value : integer . max _ value ) + " \t " + integer . max _ value + " \t " + integer . max _ value + " \t " + integer . max _ value + " \t " + - 1 ;  <NL>  }  COM: <s> used when the solver was not able to solve the problem </s>

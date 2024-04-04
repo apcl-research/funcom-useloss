@@ -1,0 +1,1 @@
+TDAT: private form layout create sample layout ( ) {  <NL> return new form layout (  <NL>  " l : 1px , c : 2dlu , r : 3mm , f : m , p , d , max ( p ; 3dlu ) , min ( p ; 7px ) " ,  <NL>  " t : 1px , c : 2dlu , b : 3mm , f : m , p , d , max ( p ; 3dlu ) , min ( p ; 7px ) " ) ;  <NL>  }  COM: <s> creates and returns a sample code form layout code instance </s>

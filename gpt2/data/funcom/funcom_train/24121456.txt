@@ -1,0 +1,1 @@
+TDAT: public void write ( output stream out ) throws io exception {  <NL>  / / the palette entry is written in zero - b - g - r format <NL> out . write ( 0 ) ;  <NL> out . write ( color . get blue ( ) ) ;  <NL> out . write ( color . get green ( ) ) ;  <NL> out . write ( color . get red ( ) ) ;  <NL>  }  COM: <s> writes the palette entry to a stream </s>

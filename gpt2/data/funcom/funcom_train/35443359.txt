@@ -1,0 +1,1 @@
+TDAT: protected void init ui ( ) {  <NL> set layout ( new border layout ( ) ) ;  <NL> this . gui = create ui ( ) ;  <NL> if ( this . gui ! = null ) {  <NL> this . add ( this . gui ) ;  <NL>  } else {  <NL> this . add ( new j label ( this . get name ( ) ) ) ; / / default : label with name <NL>  }  <NL>  }  COM: <s> initializes the user interface </s>

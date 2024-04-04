@@ -1,0 +1,1 @@
+TDAT: protected void add nodes ( site node [ ] children ) throws sax exception , site exception {  <NL> for ( int i = 0 ; i < children . length ; i + + ) {  <NL> start node ( node _ node , children [ i ] ) ;  <NL> add labels ( children [ i ] ) ;  <NL> end node ( node _ node ) ;  <NL>  }  <NL>  }  COM: <s> adds the given nodes not recursive </s>

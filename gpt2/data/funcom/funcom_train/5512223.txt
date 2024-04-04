@@ -1,0 +1,1 @@
+TDAT: private void draw top graph ( graphics2d g2d ) {  <NL> g2d . set color ( color . white ) ;  <NL> g2d . draw line ( x start posit , z end posit , x end posit , z end posit ) ;  <NL> g2d . draw line ( x start posit , z start posit , x start posit , z end posit ) ;  <NL>  <NL>  }  COM: <s> draws the top graph </s>

@@ -1,0 +1,1 @@
+TDAT: public void set glib ( string super grammar ) {  <NL> string sg = null ;  <NL> if ( os . is family ( " dos " ) ) {  <NL> sg = super grammar . replace ( ' \\ ' , ' / ' ) ;  <NL>  } else {  <NL> sg = super grammar ;  <NL>  }  <NL> set glib ( file _ utils . resolve file ( get project ( ) . get base dir ( ) , sg ) ) ;  <NL>  }  COM: <s> sets an optional super grammar file </s>

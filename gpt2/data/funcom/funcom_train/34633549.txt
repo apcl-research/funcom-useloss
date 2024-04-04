@@ -1,0 +1,1 @@
+TDAT: public void test child number _ 1 ( ) {  <NL> test node root = new test node ( " root " ) ;  <NL> test node node a = new test node ( " a " , root ) ;  <NL> test node node b = new test node ( " b " , root ) ;  <NL>  <NL> assert same ( 0 , node a . sequence number ( ) ) ;  <NL> assert same ( 1 , node b . sequence number ( ) ) ;  <NL>  }  COM: <s> test method for de </s>

@@ -1,0 +1,1 @@
+TDAT: private index find index ( table db table , index idx ) {  <NL> index [ ] idxs = db table . get indexes ( ) ;  <NL> for ( int i = 0 ; i < idxs . length ; i + + )  <NL> if ( idx . columns match ( idxs [ i ] . get columns ( ) ) )  <NL> return idxs [ i ] ;  <NL> return null ;  <NL>  }  COM: <s> find an index in the given table that matches the given one </s>

@@ -1,0 +1,1 @@
+TDAT: protected boolean accept ( file f ) {  <NL> return ( f . is directory ( ) = = false & & ( ( theme pack mode & & f . get name ( ) . ends with ( " . zip " ) ) || ( f . get name ( ) . ends with ( " gtkrc " ) || f . get name ( )  <NL>  . ends with ( " themerc " ) ) ) ) ;  <NL>  }  COM: <s> check if a given file is a skin file </s>

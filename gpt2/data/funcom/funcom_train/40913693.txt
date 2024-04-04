@@ -1,0 +1,1 @@
+TDAT: public void more properties ( properties props ) {  <NL> if ( props ! = null ) {  <NL> enumeration < ? > e = props . property names ( ) ;  <NL> while ( e . has more elements ( ) ) {  <NL> string key = ( string ) e . next element ( ) ;  <NL> set property ( key , props . get property ( key ) ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> core properties methods </s>

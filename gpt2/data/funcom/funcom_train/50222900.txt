@@ -1,0 +1,1 @@
+TDAT: public map create location map ( object model source ) {  <NL> map map = new hash map ( ) ;  <NL> list list = new array list ( ) ;  <NL> object index = new integer ( 0 ) ;  <NL> list . add ( index ) ;  <NL> map . put ( create actor ( ( graph ) model source ) , list ) ;  <NL> map . put ( interpreter , list ) ;  <NL> return map ;  <NL>  }  COM: <s> called by the compiler </s>

@@ -1,0 +1,1 @@
+TDAT: public boolean is showing ( ) {  <NL>  / / ? ? ? awt <NL>  / *  <NL>  * toolkit . lock awt ( ) ; try { return ( is visible ( ) & & is displayable ( ) & &  <NL>  * ( parent ! = null ) & & parent . is showing ( ) ) ; } finally {  <NL>  * toolkit . unlock awt ( ) ; }  <NL>  * /  <NL> return false ;  <NL>  }  COM: <s> checks whether or not this component is shown </s>

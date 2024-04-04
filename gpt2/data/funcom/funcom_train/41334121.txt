@@ -1,0 +1,1 @@
+TDAT: public void paint scroll bar thumb background ( synth context context , graphics g , int x , int y , int w , int h , int orientation ) {  <NL> paint background ( context , g , x , y , w , h , orientation ) ;  <NL>  }  COM: <s> paints the background of the thumb of a scrollbar </s>

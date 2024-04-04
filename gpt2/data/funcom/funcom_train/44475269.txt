@@ -1,0 +1,1 @@
+TDAT: protected boolean is special ( char c ) {  <NL> return ( ( c = = ' * ' ) || ( c = = ' @ ' ) || ( c = = ' # ' ) || ( c = = ' ? ' )  <NL> || ( c = = ' - ' ) || ( c = = ' $ ' ) || ( c = = ' ! ' ) || ( c = = ' _ ' ) || character <NL>  . is digit ( c ) ) ;  <NL>  }  COM: <s> returns whether the specified character is a special parameter in shell </s>

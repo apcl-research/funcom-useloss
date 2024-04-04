@@ -1,0 +1,1 @@
+TDAT: public void set red max ( float red max ) {  <NL>  / / if ( red max > this . max value ) red max = this . max value ;  <NL> float old val = this . red max ;  <NL> this . red max = red max ;  <NL> update markings ( ) ;  <NL> fire property change ( red _ max _ prop , old val , red max ) ;  <NL>  }  COM: <s> sets the value corresponding to the end of the red band </s>

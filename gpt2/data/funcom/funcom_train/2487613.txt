@@ -1,0 +1,1 @@
+TDAT: public boolean is numeric ( ) {  <NL> return ( " java . lang . integer " . equals ( get type ( ) ) ) || <NL>  ( " java . lang . byte " . equals ( get type ( ) ) ) || <NL>  ( " java . lang . long " . equals ( get type ( ) ) ) || <NL>  ( " java . lang . short " . equals ( get type ( ) ) ) ;  <NL>  }  COM: <s> return true if the field is a numeric field </s>

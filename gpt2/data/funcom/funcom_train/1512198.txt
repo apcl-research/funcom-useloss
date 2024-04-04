@@ -1,0 +1,1 @@
+TDAT: public void node ( n n ) {  <NL> assert ! frozen ;  <NL> assert parents . size ( ) = = children . size ( ) ;  <NL> if ( parents . contains key ( n ) ) return ;  <NL> parents . put ( n , new linked hash set < n > ( ) ) ;  <NL> children . put ( n , new linked hash set < n > ( ) ) ;  <NL>  }  COM: <s> adds a node to the graph </s>

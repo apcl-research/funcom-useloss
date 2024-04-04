@@ -1,0 +1,1 @@
+TDAT: private long open key handle ( long root key , string key path , boolean read only ) {  <NL> u int ptr key = new u int ptr ( ) ;  <NL> registry . open key ex ( root key , key path , 0 , read only ? 0x20019 : 0x f003f , key ) ;  <NL> return key . value ;  <NL>  }  COM: <s> open a registry key in read or write mode </s>

@@ -1,0 +1,1 @@
+TDAT: private void remove blanks ( list < ? > values ) {  <NL> if ( values = = null )  <NL> return ;  <NL>  <NL> iterator < ? > i = values . iterator ( ) ;  <NL> while ( i . has next ( ) ) {  <NL> object value = i . next ( ) ;  <NL> if ( value = = null || " " . equals ( value ) )  <NL> i . remove ( ) ;  <NL>  }  <NL>  }  COM: <s> removes any blank string values from the list </s>

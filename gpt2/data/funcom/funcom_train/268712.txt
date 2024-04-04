@@ -1,0 +1,1 @@
+TDAT: protected string read null terminated string ( ) {  <NL> string buffer res = new string buffer ( 20 ) ;  <NL> while ( ( packet [ pointer ] ! = 0 ) & & ( pointer ! = packet . length ) ) {  <NL> res . append ( ( char ) packet [ pointer + + ] ) ;  <NL>  }  <NL>  + + pointer ;  <NL> return res . to string ( ) ;  <NL>  }  COM: <s> method that reads a null terminated string </s>

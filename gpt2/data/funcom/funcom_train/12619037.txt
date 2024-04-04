@@ -1,0 +1,1 @@
+TDAT: private expr combine d ( expr e1 , expr e2 , expr . type type ) {  <NL> if ( e1 . get type ( ) = = type ) {  <NL> return add ( e1 , e2 ) ;  <NL>  } else if ( e2 . get type ( ) = = type ) {  <NL> return add ( e2 , e1 ) ;  <NL>  } else {  <NL> return combine ( e1 , e2 , type ) ;  <NL>  }  <NL>  }  COM: <s> combine destructively two expression giving type </s>

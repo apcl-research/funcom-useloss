@@ -1,0 +1,1 @@
+TDAT: public boolean continue blowing up ( ) {  <NL> boolean alive = false ;  <NL> for ( int i = 0 ; i < num points ; i + + ) {  <NL>  / * draw alive particles . * /  <NL> if ( color list [ i ] ! = 0 ) {  <NL> alive = true ;  <NL>  }  <NL>  }  <NL>  <NL> if ( time > 15 ) {  <NL> alive = false ;  <NL>  }  <NL> return alive ;  <NL>  }  COM: <s> keep this explosion going </s>

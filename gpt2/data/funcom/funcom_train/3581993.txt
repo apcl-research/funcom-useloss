@@ -1,0 +1,1 @@
+TDAT: public void fill arc ( int x , int y , int width , int height , int start angle , int arc angle ) {  <NL> emit this ( " % fill arc " ) ;  <NL> do arc ( x , y , width , height , start angle , arc angle , true ) ;  <NL>  }  COM: <s> fills an arc using the current color </s>

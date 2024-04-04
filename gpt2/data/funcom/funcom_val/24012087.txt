@@ -1,0 +1,1 @@
+TDAT: public void set metric type ( selected tag d ) {  <NL> int ordinal = d . get selected tag ( ) . get id ( ) ;  <NL> for ( default association rule . metric _ type m : default association rule . metric _ type . values ( ) ) {  <NL> if ( m . ordinal ( ) = = ordinal ) {  <NL> m _ metric = m ;  <NL> break ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> set the metric type to use </s>

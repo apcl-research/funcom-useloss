@@ -1,0 +1,1 @@
+TDAT: public void abort mission ( string why ) {  <NL> if ( mission ! = null ) {  <NL> if ( ! mission . is one time ( ) ) {  <NL> logger . fine ( " mission - abort " + mission + " ( " + why + " ) : "  <NL>  + get unit ( ) ) ;  <NL>  }  <NL> mission . dispose ( ) ;  <NL> this . mission = null ;  <NL>  }  <NL>  }  COM: <s> aborts a mission </s>

@@ -1,0 +1,1 @@
+TDAT: public void open ( ) {  <NL>  ( ( home pane ) get view ( ) ) . invoke later ( new runnable ( ) {  <NL> public void run ( ) {  <NL> final string home name = ( ( home pane ) get view ( ) ) . show open dialog ( ) ;  <NL> if ( home name ! = null ) {  <NL> open ( home name ) ;  <NL>  }  <NL>  }  <NL>  } ) ;  <NL>  }  COM: <s> opens a home </s>

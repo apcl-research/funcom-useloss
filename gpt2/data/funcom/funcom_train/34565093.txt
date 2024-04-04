@@ -1,0 +1,1 @@
+TDAT: private void add ( final byte [ ] tag , final byte [ ] cont ) throws io exception {  <NL> if ( cont = = null ) return ;  <NL> builder . start elem ( tag , atts . reset ( ) ) ;  <NL> builder . text ( new token builder ( utf8 ( cont , encoding ) ) ) ;  <NL> builder . end elem ( tag ) ;  <NL>  }  COM: <s> adds a tag and a content node </s>

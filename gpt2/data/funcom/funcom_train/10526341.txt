@@ -1,0 +1,1 @@
+TDAT: public int get page ( ) {  <NL> assert get page size ( ) > 0 ;  <NL> assert get row ( ) % get page size ( ) = = 0 : " invalid current row \ " " + get row ( ) + " \ " for page size \ " " + get page size ( ) + " \ " " ;  <NL>  <NL> return get row ( ) / get page size ( ) ;  <NL>  }  COM: <s> get the current page number given a current row and page size </s>

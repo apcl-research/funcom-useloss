@@ -1,0 +1,1 @@
+TDAT: private string get first entries group ( ) {  <NL> final menu path path = entries . get ( 0 ) . get path ( ) ;  <NL> final menu path segment [ ] path elements = path . get path ( ) ;  <NL> if ( path elements . length > 0 )  <NL> return path elements [ 0 ] . get group ( ) ;  <NL> return path . get last group ( ) ;  <NL>  }  COM: <s> returns the group of the first </s>

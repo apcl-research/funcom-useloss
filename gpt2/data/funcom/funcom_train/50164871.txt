@@ -1,0 +1,1 @@
+TDAT: public string get token ( ) {  <NL> byte token buffer [ ] = new byte [ 4 ] ;  <NL> try {  <NL> int read result = read ( token buffer , 0 , 4 ) ;  <NL> if ( read result = = - 1 ) {  <NL> return null ;  <NL>  }  <NL> return new string ( token buffer ) ;  <NL>  }  <NL> catch ( exception e ) {  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> returns a 4 char string token </s>

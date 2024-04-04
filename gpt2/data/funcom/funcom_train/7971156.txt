@@ -1,0 +1,1 @@
+TDAT: public void stop ( ) {  <NL> bugout . err ( " link " + _ address + " : stopping " ) ;  <NL>  _ running = false ;  <NL> try {  <NL>  _ socket . close ( ) ;  <NL>  }  <NL> catch ( io exception e ) {  <NL> bugout . err ( " link " + _ address + " : while stopping : "  <NL>  + e . get message ( ) ) ;  <NL>  }  <NL>  }  COM: <s> stop the thread </s>

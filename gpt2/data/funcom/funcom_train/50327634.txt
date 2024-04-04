@@ -1,0 +1,1 @@
+TDAT: public void send read slot ( int slot ) {  <NL> loco net message m = new loco net message ( 4 ) ;  <NL> m . set op code ( ln constants . opc _ rq _ sl _ data ) ;  <NL> m . set element ( 1 , slot & 0x7f ) ;  <NL> m . set element ( 2 , 0 ) ;  <NL> tc . send loco net message ( m ) ;  <NL>  }  COM: <s> send a message requesting the data from a particular slot </s>

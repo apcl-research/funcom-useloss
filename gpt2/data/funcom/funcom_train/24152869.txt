@@ -1,0 +1,1 @@
+TDAT: public void set neighbours ( date label left , date label right , date label up , date label down ) {  <NL> this . left . set date label ( left ) ;  <NL> this . right . set date label ( right ) ;  <NL> this . up . set date label ( up ) ;  <NL> this . down . set date label ( down ) ;  <NL>  }  COM: <s> sets neighbours of the cell </s>

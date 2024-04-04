@@ -1,0 +1,1 @@
+TDAT: protected boolean product exists ( string id ) throws hibernate exception {  <NL> int count = query count value ( " select count ( * ) from net . sf . jagzilla . hibernate . product p where p . id = ' " + id + " ' " ) ;  <NL> log . debug ( " count product : " + id + " = " + count ) ;  <NL> return count > = 1 ;  <NL>  }  COM: <s> tells if the given product exists </s>

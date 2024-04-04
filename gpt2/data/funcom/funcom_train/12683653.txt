@@ -1,0 +1,1 @@
+TDAT: private action get array item ( variable array , variable i , variable item ) {  <NL> string expression = get variable data ( array , " " ) +  <NL>  " / child : : node ( ) [ " + get variable data ( i , " " ) + " ] " ;  <NL> return new assignment ( expression , item ) ;  <NL>  }  COM: <s> gets an array item and puts it into given variable </s>

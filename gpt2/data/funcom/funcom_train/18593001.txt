@@ -1,0 +1,1 @@
+TDAT: public void add ( final component c ) {  <NL> owned . put ( c , boolean . true ) ;  <NL> if ( c instanceof window ) {  <NL> window [ ] subs = ( ( window ) c ) . get owned windows ( ) ;  <NL> for ( int i = 0 ; i < subs . length ; i + + ) {  <NL> add ( subs [ i ] ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> add a component on which to preserve the laf </s>

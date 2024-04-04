@@ -1,0 +1,1 @@
+TDAT: public void action on pen held ( point p ) {  <NL> tmp pt = display to base ( p . x , p . y , tmp pt ) ;  <NL> m thread del thread = new m thread ( new runnable ( ) {  <NL> public void run ( ) {  <NL> try delete referencepoint ( tmp pt ) ;  <NL>  }  <NL>  } ) ;  <NL> del thread . start ( ) ;  <NL>  }  COM: <s> pen held propose to delete closer reference point </s>

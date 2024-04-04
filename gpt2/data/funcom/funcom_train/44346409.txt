@@ -1,0 +1,1 @@
+TDAT: public boolean analogy ( binding context bind context , object bind inf , object obj , object bind inf obj ) {  <NL> match ( analogy , bind context , bind inf , obj , bind inf obj ) ;  <NL> return true ; / / if no analog transfer is done , then the target will remain unchanged <NL>  }  COM: <s> analogy determine the structural matching of the two cg and then transfer </s>

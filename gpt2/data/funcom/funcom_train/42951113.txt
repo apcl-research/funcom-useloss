@@ -1,0 +1,1 @@
+TDAT: public bit set s box func ( bit set s , boolean inv ) {  <NL> int idx = util . to integer ( s , 4 ) ;  <NL> int result ;  <NL> if ( inv ) {  <NL> result = sbox _ inv [ idx ] ;  <NL>  } else {  <NL> result = sbox [ idx ] ;  <NL>  }  <NL> return util . to bit set ( result , 4 ) ;  <NL>  }  COM: <s> perform s box substitution on bit set s </s>

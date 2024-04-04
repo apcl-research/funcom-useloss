@@ -1,0 +1,1 @@
+TDAT: public void set height factor ( double factor ) {  <NL> source = null ; / / forces reinitialization <NL> double prev = new double ( height factor ) ;  <NL> height factor = math . min ( math . abs ( factor ) , 2 ) ;  <NL> support . fire property change ( " height " , prev , new double ( height factor ) ) ; / / $ non - nls - 1 $  <NL>  }  COM: <s> sets the hieght factor </s>

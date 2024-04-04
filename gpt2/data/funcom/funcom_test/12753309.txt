@@ -1,0 +1,1 @@
+TDAT: private void fill row with values ( string [ ] values , int row ) {  <NL> for ( int col = 0 ; col < values . length ; col + + ) {  <NL> j table1 . get model ( ) . set value at ( values [ col ] , row , col + 1 ) ; / / we ignore column 0 because it contains labels <NL>  }  <NL>  <NL>  }  COM: <s> fill values in cells of specified row using the given values </s>

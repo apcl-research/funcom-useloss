@@ -1,0 +1,1 @@
+TDAT: public double elapsed ( ) {  <NL> date s , c ;  <NL> if ( ( s = start date ( ) ) = = null ) return double . na n ;  <NL> if ( ( c = current date ( ) ) = = null ) return double . na n ;  <NL> return ( c . get time ( ) - s . get time ( ) ) / ( double ) minute _ millis ;  <NL>  }  COM: <s> the number of minutes that have elapsed since the beginning of </s>

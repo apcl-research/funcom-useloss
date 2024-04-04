@@ -1,0 +1,1 @@
+TDAT: public string get imei ( ) throws at command failed exception {  <NL> string tmp = at cmd . send ( " at + gsn\r " ) ;  <NL>  <NL> int i = tmp . index of ( " at + gsn " ) ;  <NL> int j = tmp . index of ( " ok " ) ;  <NL>  <NL> return ( tmp . substring ( i + 9 , j - 4 ) ) ;  <NL>  }  COM: <s> returns the module imei </s>

@@ -1,0 +1,1 @@
+TDAT: public void set base recolor image ( string img ref , string img path ) {  <NL> string base img ref = load awt img ( img ref , img path ) ;  <NL> image slick img = slick image factory . create image from awt source ( base img ref ) ;  <NL> slick image lib . add slick img ( base img ref , slick img ) ;  <NL>  }  COM: <s> set the base image for recoloring </s>

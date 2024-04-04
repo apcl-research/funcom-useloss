@@ -1,0 +1,1 @@
+TDAT: public void draw box ( int x1 , int y1 , int x2 , int y2 , boolean invert ) {  <NL> changed = true ;  <NL> screen . get graphics ( ) . set color ( invert ? color . white : color . black ) ;  <NL> screen . get graphics ( ) . fill rect ( x1 , y1 , x2 - x1 + 1 , y2 - y1 + 1 ) ;  <NL>  }  COM: <s> draw a solid box between the given coordinates </s>

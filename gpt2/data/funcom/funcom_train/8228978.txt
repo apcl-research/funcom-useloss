@@ -1,0 +1,1 @@
+TDAT: public string status ( ) {  <NL> string s = " " ;  <NL> s + = " exp gained : " + ( skills . get current skill exp ( constants . stat _ magic ) - start exp ) ;  <NL> s + = " , lvls gained : " + ( skills . get real skill level ( constants . stat _ magic ) - start lvl ) ;  <NL> return s ;  <NL>  }  COM: <s> gives output of details for the players actions </s>

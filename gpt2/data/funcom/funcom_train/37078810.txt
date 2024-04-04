@@ -1,0 +1,1 @@
+TDAT: public hash map get synteny species names ( ) {  <NL> if ( synteny species names . is empty ( ) & & use generic synteny species ( ) ) {  <NL> for ( int i = 1 ; i < = get number of species ( ) ; i + + ) {  <NL> synteny species names . put ( " species " + i , " species " + i ) ;  <NL>  }  <NL>  }  <NL> return synteny species names ;  <NL>  }  COM: <s> maps names name </s>

@@ -1,0 +1,1 @@
+TDAT: public long get mask ( string a name ) {  <NL> string [ ] _ pair = a name . split ( " : " ) ;  <NL> if ( _ pair . length ! = 2 ) throw new unknown layout element ( " malformed expression [ " + a name + " ] " ) ;  <NL> return get context ( _ pair [ 0 ] ) |get state ( _ pair [ 1 ] ) ;  <NL>  }  COM: <s> gets bit mask of element and result pair </s>

@@ -1,0 +1,1 @@
+TDAT: public rw color blend ( rw color c ) {  <NL> int r = ( color . red ( ) + c . color . red ( ) ) / 2 ;  <NL> int g = ( color . green ( ) + c . color . green ( ) ) / 2 ;  <NL> int b = ( color . blue ( ) + c . color . blue ( ) ) / 2 ;  <NL> return new rw color ( r , g , b ) ;  <NL>  }  COM: <s> returns a new color which is constructed by averaging each of </s>

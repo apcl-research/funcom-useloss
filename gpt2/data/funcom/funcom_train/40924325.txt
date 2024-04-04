@@ -1,0 +1,1 @@
+TDAT: public boolean on create options menu ( menu menu ) {  <NL> menu . add ( 0 , zoom _ in , 0 , " + \n zoom in " ) ;  <NL> menu . add ( 0 , zoom _ out , 0 , " - \n zoom out " ) ;  <NL> menu . add ( 0 , focus , 0 , " focus " ) ;  <NL> return true ;  <NL>  }  COM: <s> creates the menu items </s>

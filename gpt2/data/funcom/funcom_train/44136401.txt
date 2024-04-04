@@ -1,0 +1,1 @@
+TDAT: private string get name without slash ( string s ) {  <NL> string r = " " ;  <NL> for ( int i = 0 ; i < s . length ( ) ; i + + ) {  <NL> if ( ( s . char at ( i ) ! = ' \\ ' ) & & ( s . char at ( i ) ! = ' / ' ) )  <NL> r + = s . char at ( i ) ;  <NL>  }  <NL> return r ;  <NL>  }  COM: <s> to get a file or path without any slash </s>

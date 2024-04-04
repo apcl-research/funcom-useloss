@@ -1,0 +1,1 @@
+TDAT: protected scm entry to get parent entry ( ) {  <NL>  <NL> scm entry to result = new scm entry to ( ) ;  <NL> result . set kind ( scm entry to . kind _ dir ) ;  <NL> result . set name ( " . . " ) ;  <NL> result . set path ( filename utils . get full path ( get path without end separator ( ) ) ) ;  <NL> return result ;  <NL>  }  COM: <s> creates a parent entry </s>

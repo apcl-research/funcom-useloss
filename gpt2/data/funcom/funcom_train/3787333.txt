@@ -1,0 +1,1 @@
+TDAT: public boolean set wedge c wroi ( int r x1 , int r y1 , int r x2 , int r y2 )  <NL>  { / * set wedge c wroi * /  <NL> return ( set wedge c wroi ( r x1 , r y1 , r x2 , r y2 , acc row data ) ) ;  <NL>  } / * set wedge c wroi * /  COM: <s> set wedge cwroi set calibration wedge computing window roi </s>

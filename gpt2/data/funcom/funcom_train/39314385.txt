@@ -1,0 +1,1 @@
+TDAT: public void test get bold ( ) {  <NL> system . out . println ( " test get bold " ) ;  <NL>  <NL> frame f = new frame ( " hello " ) ;  <NL> text my text = new text ( f , true , 10 , 10 ) ;  <NL> assert equals ( my text . get bold ( ) , " bold " ) ;  <NL> system . out . println ( my text . get bold ( ) ) ;  <NL>  }  COM: <s> test of get bold method of class text </s>

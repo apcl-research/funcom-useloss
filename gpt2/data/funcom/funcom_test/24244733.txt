@@ -1,0 +1,1 @@
+TDAT: public int get battery level ( ) throws io exception {  <NL> byte [ ] request = { direct _ command _ reply , get _ battery _ level } ;  <NL> byte [ ] reply = nxt comm . send request ( request , 5 ) ;  <NL> int battery level = ( 0x ff & reply [ 3 ] ) | ( ( 0x ff & reply [ 4 ] ) < < 8 ) ;  <NL> return battery level ;  <NL>  }  COM: <s> get the battery reading </s>

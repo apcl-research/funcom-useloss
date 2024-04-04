@@ -1,0 +1,1 @@
+TDAT: public string to string visibles ( ) {  <NL> string result = " " ;  <NL> for ( card c : cards ) {  <NL> if ( c . is visible ( ) & & c . is valid ( ) ) result + = c . to short string ( ) + " " ;  <NL>  }  <NL> return result . length ( ) < 2 ? " " : result . substring ( 0 , result . length ( ) - 1 ) ;  <NL>  }  COM: <s> returns a string describing every visible card </s>

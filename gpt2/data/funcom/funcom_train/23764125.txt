@@ -1,0 +1,1 @@
+TDAT: public void debug ( string format , object arg1 , object arg2 ) {  <NL> if ( logger . is loggable ( level . fine ) ) {  <NL> string msg str = message formatter . format ( format , arg1 , arg2 ) ;  <NL> log ( self , level . fine , msg str , null ) ;  <NL>  }  <NL>  }  COM: <s> log a message at level fine according to the specified format and </s>

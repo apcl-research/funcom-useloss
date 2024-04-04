@@ -1,0 +1,1 @@
+TDAT: public void print pcb ( ) {  <NL>  <NL>  / / system . out . println ( job queue . to string ( ) ) ;  <NL> for ( pcb _ block v : job queue ) {  <NL> system . out . println ( " job id : " + v . get job id ( ) + " \t job priority : " +  <NL> v . get job priority ( ) + " \t job size : " + v . get job size ( ) ) ;  <NL>  }  <NL>  }  COM: <s> prints the contents of the pcb </s>

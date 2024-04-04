@@ -1,0 +1,1 @@
+TDAT: private string can vertical ( int x , int start y , int end y ) {  <NL> for ( int y = math . min ( start y , end y ) + 1 ; y < math . max ( start y , end y ) ; y + + ) {  <NL> if ( cur state . piece at ( x , y ) ! = null ) {  <NL> return " vertical move : someone blocks the way " ;  <NL>  }  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> can move vertically </s>

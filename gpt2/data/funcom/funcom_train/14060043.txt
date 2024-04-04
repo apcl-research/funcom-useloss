@@ -1,0 +1,1 @@
+TDAT: public boolean get feature ( final string name ) {  <NL> if ( this . m _ parent ! = null ) {  <NL> try {  <NL> return this . m _ parent . get feature ( name ) ;  <NL>  } catch ( final throwable e ) {  <NL> this . m _ eh . handle error ( e ) ;  <NL>  }  <NL>  }  <NL> return this . m _ features . contains ( name ) ;  <NL>  }  COM: <s> look up the value of a feature flag </s>

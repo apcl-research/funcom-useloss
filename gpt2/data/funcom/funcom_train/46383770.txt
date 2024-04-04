@@ -1,0 +1,1 @@
+TDAT: public string get base url ( ) {  <NL> if ( url . get port ( ) = = - 1 ) {  <NL> return url . get protocol ( ) + " : / / " + url . get host ( ) ;  <NL>  }  <NL> return url . get protocol ( ) + " : / / " + url . get host ( ) + " : " + url . get port ( ) ;  <NL>  }  COM: <s> returns the base url which is the protocol and the host port name </s>

@@ -1,0 +1,1 @@
+TDAT: public int get plot area bg color ( ) {  <NL> for ( int i = 0 ; i < chart arr . size ( ) ; i + + ) {  <NL> biff rec b = ( biff rec ) chart arr . get ( i ) ;  <NL> if ( b instanceof frame ) {  <NL> return ( ( frame ) b ) . get bg color ( ) ;  <NL>  }  <NL>  }  <NL> return format handle . color _ white ;  <NL>  }  COM: <s> returns the plot area background color </s>

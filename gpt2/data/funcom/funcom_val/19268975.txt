@@ -1,0 +1,1 @@
+TDAT: public warranty bean value get value ( ) {  <NL>  / / logger . info ( " get warranty bean value ( ) " ) ;  <NL> warranty bean value value = new warranty bean value ( id , owner id , start date , expiry date , reference number , contact number , renewal cost , cost ) ;  <NL> return value ;  <NL>  }  COM: <s> get warranty bean value </s>

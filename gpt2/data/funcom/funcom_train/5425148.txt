@@ -1,0 +1,1 @@
+TDAT: private cd import cd ( final string content ) {  <NL> final matcher m = _ cd pattern . matcher ( content ) ;  <NL> if ( m . matches ( ) ) {  <NL> final cd cd = new cd ( ) ;  <NL> cd . set cd name ( m . group ( 2 ) ) ;  <NL> cd . set cd md5 ( m . group ( 3 ) ) ;  <NL> return cd ;  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> imports a cd </s>

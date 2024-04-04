@@ -1,0 +1,1 @@
+TDAT: protected void print tree ( final int level ) {  <NL> if ( right ! = null ) right . print tree ( level + 1 ) ;  <NL> for ( int i = 0 ; i < = level ; + + i ) system . out . print ( " \t " ) ;  <NL> system . out . println ( datum ) ;  <NL> if ( left ! = null ) left . print tree ( level + 1 ) ;  <NL>  }  COM: <s> print out the tree on the standard output </s>

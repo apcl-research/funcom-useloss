@@ -1,0 +1,1 @@
+TDAT: public void publish message for user ( mw message . message id msg id , int user id ) {  <NL> mw message msg = new mw message ( msg id ) ;  <NL> msg . set receiver id ( user id ) ;  <NL> for ( integer id : listeners . key set ( ) ) {  <NL> listeners . get ( id ) . send message ( msg ) ;  <NL>  }  <NL>  }  COM: <s> send message to a specific user </s>

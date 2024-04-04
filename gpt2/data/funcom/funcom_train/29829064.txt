@@ -1,0 +1,1 @@
+TDAT: public boolean send infos ( string username , string password , packet id packet id ) {  <NL> hashtable values = new hashtable ( ) ;  <NL> values . put ( " username " , username ) ;  <NL> values . put ( " password " , password ) ;  <NL>  <NL> return send infos ( null , packet id , values ) ;  <NL>  }  COM: <s> directly sends user information needed for registration </s>

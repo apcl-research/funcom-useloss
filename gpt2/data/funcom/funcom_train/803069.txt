@@ -1,0 +1,1 @@
+TDAT: public float predict ( i atom container mol , i atom atom ) throws exception {  <NL> return general predict ( mol , atom , true , true , - 1 , - 1 , new string buffer ( ) , false , true , null , 6 , false , null , 6 , false , true ) ;  <NL>  }  COM: <s> does a prediction </s>

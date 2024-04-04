@@ -1,0 +1,1 @@
+TDAT: public string to file string ( ) {  <NL> if ( _ type = = ' g ' || _ type = = ' r ' ) {  <NL> return _ type + " " + _ extra + " " + _ args [ 0 ] + " " + _ args [ 1 ] ;  <NL>  } else {  <NL> return _ type + " " + _ extra + " " + _ args [ 0 ] + " " + _ args [ 1 ] + " " + _ args [ 2 ] ;  <NL>  }  <NL>  }  COM: <s> gets the reset as a string in mud format </s>

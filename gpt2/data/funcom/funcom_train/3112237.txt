@@ -1,0 +1,1 @@
+TDAT: public int select to line ( int sel1 ) {  <NL> string text = get text ( ) ;  <NL> int lines = 0 ;  <NL>  <NL> for ( int i = 0 ; i < sel1 ; i + + ) {  <NL> if ( ( text . char at ( i ) = = ' \n ' ) || ( text . char at ( i ) = = ' \r ' ) ) {  <NL> lines + + ;  <NL>  }  <NL>  }  <NL>  <NL> return lines ;  <NL>  }  COM: <s> converts a place on the text to a line </s>

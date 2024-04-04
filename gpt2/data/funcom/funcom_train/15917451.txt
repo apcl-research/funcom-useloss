@@ -1,0 +1,1 @@
+TDAT: protected void add formal ( name name , type type ) {  <NL> formals . add ( new pair < name , type > ( name , type ) ) ;  <NL>  / / now create a field <NL> class synth . create field ( compiler pos , name . to string ( ) , type ) ;  <NL> field names . add ( name ) ;  <NL>  }  COM: <s> this method will be called by localvartofieldaccess replacer </s>

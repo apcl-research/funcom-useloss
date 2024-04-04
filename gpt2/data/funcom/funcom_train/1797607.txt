@@ -1,0 +1,1 @@
+TDAT: public void set path ( string path ) {  <NL>  / / check if setting to existing value <NL> if ( this . path = = null ? path ! = null : ! this . path . equals ( path ) ) {  <NL>  / / set to new value for customer parameter <NL> this . path = path ;  <NL> set string custom parameter ( " path " , path ) ;  <NL>  }  <NL>  }  COM: <s> sets the content at the given site path </s>

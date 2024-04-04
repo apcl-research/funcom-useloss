@@ -1,0 +1,1 @@
+TDAT: public void log scan result ( scan result code result code , int deviations , string rule type , string specimen , string message , long scan rule id ) {  <NL> log scan result ( result code , deviations , rule type , specimen , message , scan rule id , true ) ;  <NL>  }  COM: <s> log the scan result without the optional message </s>

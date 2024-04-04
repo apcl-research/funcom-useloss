@@ -1,0 +1,1 @@
+TDAT: public string get alarm level message ( player player ) {  <NL> if ( alarm . get ( player ) = = null ) {  <NL> alarm . put ( player , new tension ( 0 ) ) ;  <NL>  }  <NL> return " indian settlement . alarm . " + alarm . get ( player ) . get level ( ) . to string ( ) . to lower case ( ) ;  <NL>  }  COM: <s> gets the id of the alarm message associated with the alarm </s>

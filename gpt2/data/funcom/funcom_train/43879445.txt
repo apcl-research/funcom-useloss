@@ -1,0 +1,1 @@
+TDAT: private void write coordinates ( coordinate sequence seq , int dims , value setter dest ) {  <NL> for ( int i = 0 ; i < seq . size ( ) ; i + + ) {  <NL> for ( int d = 0 ; d < dims ; d + + ) {  <NL> dest . set double ( seq . get ordinate ( i , d ) ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> write a coordinatesequence part of linear ring and linestring but not </s>

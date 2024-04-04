@@ -1,0 +1,1 @@
+TDAT: public relationship copy ( )  <NL>  { return new relationship ( get id ( ) , get name ( ) , get description ( ) , get left id ( ) , get left min ( ) , get left max ( ) , get right id ( ) , get right min ( ) , get right max ( ) , get base ( ) ) ; }  COM: <s> copies the relationship </s>

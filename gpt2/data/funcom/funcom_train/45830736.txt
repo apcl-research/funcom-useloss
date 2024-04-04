@@ -1,0 +1,1 @@
+TDAT: public void scroll ( int dest x , int dest y , int x , int y , int width , int height , boolean all ) {  <NL> call client ( " scroll " , dest x , dest y , x , y , width , height , all ) ;  <NL>  }  COM: <s> scrolls a rectangular area of the receiver by first copying </s>

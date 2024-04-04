@@ -1,0 +1,1 @@
+TDAT: public void draw ( graphics2d g , int x , int y , int theta ) {  <NL> affine transform original = g . get transform ( ) ;  <NL>  <NL>  <NL> g . rotate ( math . to radians ( theta ) , x + width / 2 , y + height / 2 ) ;  <NL> g . draw image ( pic , x , y , null ) ;  <NL> g . set transform ( original ) ;  <NL>  }  COM: <s> this draw an image rotated around its centre </s>

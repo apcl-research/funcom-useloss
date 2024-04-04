@@ -1,0 +1,1 @@
+TDAT: private int new namespace id ( ) {  <NL>  / / random r = new random ( ) ;  <NL> random r = bft random . get random ( ) ;  <NL> r . set seed ( fs namesystem . now ( ) ) ;  <NL> int new id = 0 ;  <NL> while ( new id = = 0 )  <NL> new id = r . next int ( 0x7fffffff ) ; / / use 31 bits only <NL> return new id ;  <NL>  }  COM: <s> generate new namespace id </s>

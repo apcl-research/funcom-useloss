@@ -1,0 +1,1 @@
+TDAT: public void test set brush type ( ) {  <NL> system . out . println ( " test set brush type " ) ;  <NL> brush tool my brush = new brush tool ( ) ;  <NL> my brush . set brush type ( 1 ) ;  <NL> assert equals ( " should have set brush type to 1 " , my brush . get brush type ( ) , 1 ) ;  <NL>  }  COM: <s> test of set brush type method of class brush tool </s>

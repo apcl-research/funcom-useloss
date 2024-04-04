@@ -1,0 +1,1 @@
+TDAT: public void mettre pion noir ( j label l grille , j noir noir , point position ) {  <NL> j label noir = ( j label ) noir . clone ( ) ;  <NL> l grille . add ( noir ) ;  <NL>  <NL> noir . set location ( ghmp . get ( position ) . x - 13 , ghmp . get ( position ) . y - 15 ) ;  <NL> noir . set visible ( true ) ;  <NL>  }  COM: <s> method which is a black pawn in a position </s>

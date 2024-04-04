@@ -1,0 +1,1 @@
+TDAT: protected string fix lf ( string a statement ) {  <NL> int t = a statement . last index of ( ' / ' ) ;  <NL> int idx = a statement . last index of ( ' ; ' ) ;  <NL> if ( idx > 0 & & t > idx ) {  <NL> a statement = a statement . substring ( 0 , idx + 1 ) ;  <NL>  }  <NL> return a statement . replace ( " \r\n " , " \n " ) ;  <NL>  }  COM: <s> tested with oracle10 </s>

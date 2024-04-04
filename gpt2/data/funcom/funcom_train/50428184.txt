@@ -1,0 +1,1 @@
+TDAT: public void add ( bbncpf cpt ) {  <NL> for ( enumeration e = cpf . keys ( ) ; e . has more elements ( ) ; ) {  <NL> hashtable q = ( hashtable ) e . next element ( ) ;  <NL> bbnpdf pdf = ( bbnpdf ) cpf . get ( q ) ;  <NL> pdf . add ( new bbn constant ( cpt . get ( q ) ) ) ;  <NL>  }  <NL>  }  COM: <s> addition with another cpt </s>

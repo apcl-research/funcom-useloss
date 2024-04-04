@@ -1,0 +1,1 @@
+TDAT: private boolean question message ( string question , string type ) {  <NL> return dialog pane . show confirm dialog ( main window . get main frame ( ) , question , type , j option pane . yes _ no _ option ,  <NL> j option pane . question _ message ) = = j option pane . yes _ option ;  <NL>  }  COM: <s> ask a question to user and return true is user chooses yes </s>

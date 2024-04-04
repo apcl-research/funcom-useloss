@@ -1,0 +1,1 @@
+TDAT: @ override public string to string ( ) {  <NL> string s = " < " ;  <NL> for ( int i = 0 ; i < atoms . size ( ) ; i + + ) { if ( i ! = 0 ) s = s + " , " ; s = s + atoms . get ( i ) ; }  <NL> return s + " > " ;  <NL>  }  COM: <s> provides a human readable description of this alloy tuple </s>

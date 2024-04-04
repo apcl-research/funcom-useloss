@@ -1,0 +1,1 @@
+TDAT: protected void cek if var type is int ( node ex ) {  <NL> symbol table table = get symbol table ( ) ;  <NL> string id symb = sym stack . top ( ) ;  <NL> if ( table . get symbol ( id symb ) . get type ( ) ! = type _ int ) {  <NL> type error ( ex , " type mismatched in assignment statement " ) ;  <NL>  }  <NL>  }  COM: <s> method to check if a variable type is an integer </s>

@@ -1,0 +1,1 @@
+TDAT: public string to xml ( ) {  <NL> return " < role class = ' "  <NL>  + get class ( ) . get name ( )  <NL>  + " ' id = ' " + get id ( )  <NL>  + " ' name = ' " + get name ( )  <NL>  + " ' description = ' " + get description ( )  <NL>  + " ' enabled = ' " + is enabled ( )  <NL>  + " ' / > " ;  <NL>  }  COM: <s> returns the xml representation of the role br </s>

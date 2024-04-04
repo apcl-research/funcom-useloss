@@ -1,0 +1,1 @@
+TDAT: public void set texture matrix ( string name ) {  <NL> c gparameter p = cg gl . cg get named parameter ( curr program , name ) ;  <NL> if ( p ! = null ) cg gl . cg gl set state matrix parameter ( p , cg gl . cg _ gl _ texture _ matrix , cg gl . cg _ gl _ matrix _ identity ) ;  <NL>  }  COM: <s> copies the texture matrix from open gl to parameter name in the shader </s>

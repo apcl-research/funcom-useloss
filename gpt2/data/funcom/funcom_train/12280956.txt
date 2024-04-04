@@ -1,0 +1,1 @@
+TDAT: public vfs store get store ( string scheme ) {  <NL> for ( iterator i = stores . values ( ) . iterator ( ) ; i . has next ( ) ; ) {  <NL> vfs store s = ( vfs store ) i . next ( ) ;  <NL> if ( s . get provider ( ) . will handle ( scheme ) ) {  <NL> return s ;  <NL>  }  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> get a store that will handle a given a scheme </s>

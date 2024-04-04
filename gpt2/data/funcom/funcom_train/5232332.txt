@@ -1,0 +1,1 @@
+TDAT: public void update element at ( int index , visual page list item input data ) {  <NL> if ( input data ! = null & & index > = 0 & & index < data . size ( ) ) {  <NL> data . set ( index , input data ) ;  <NL> this . fire contents changed ( this , index , index ) ;  <NL>  }  <NL>  }  COM: <s> replace an element of the model and fire to listeners </s>

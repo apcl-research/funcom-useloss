@@ -1,0 +1,1 @@
+TDAT: private void create update and show panel ( ) {  <NL> this . add tab ( " show " , this . show policy panel ) ;  <NL> this . add tab ( " add " , this . add policy panel ) ;  <NL> this . add tab ( " edit " , this . edit policy panel ) ;  <NL> this . set enabled at ( 1 , false ) ;  <NL> this . set enabled at ( 2 , false ) ;  <NL>  }  COM: <s> create and show the panel </s>

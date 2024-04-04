@@ -1,0 +1,1 @@
+TDAT: public void set background image ( int x , int y ) {  <NL> if ( image path ! = null ) {  <NL> dom . set style attribute ( this . get element ( ) , " background " , " url ( ' " + image path + " ' ) no - repeat " + ( initial width + x ) + " px " + y + " px " ) ;  <NL>  }  <NL>  }  COM: <s> set the background image of the element </s>

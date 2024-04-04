@@ -1,0 +1,1 @@
+TDAT: public void test attribute ( ) {  <NL> check ( " < a b = ' valid ' > content < / a > " , attribute test dto . class , valid ) ;  <NL> check ( " < a > not valid < / a > " , attribute test dto . class , invalid ) ;  <NL> check ( " < a > not valid < / a > " , attribute test dto . class , validation _ off ) ;  <NL>  }  COM: <s> tests validation for an attribute value </s>

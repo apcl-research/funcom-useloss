@@ -1,0 +1,1 @@
+TDAT: public double square distance to ( position pos ) {  <NL> return ( ( x coord - pos . x coord ) * ( x coord - pos . x coord ) ) +  <NL>  ( ( y coord - pos . y coord ) * ( y coord - pos . y coord ) ) +  <NL>  ( ( z coord - pos . z coord ) * ( z coord - pos . z coord ) ) ;  <NL>  }  COM: <s> determines the squared distance from this position to another position </s>

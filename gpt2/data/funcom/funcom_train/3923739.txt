@@ -1,0 +1,1 @@
+TDAT: public boolean has field ( string name ) {  <NL> boolean ret = false ;  <NL> field [ ] fields = get class ( ) . get fields ( ) ;  <NL> for ( int i = 0 ; ! ret & & i < fields . length ; i + + ) {  <NL> ret = name . equals ( fields [ i ] . get name ( ) ) ;  <NL>  }  <NL> return ret ;  <NL>  }  COM: <s> returns true if this object contains public field with this name </s>

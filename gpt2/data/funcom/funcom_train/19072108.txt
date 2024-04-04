@@ -1,0 +1,1 @@
+TDAT: public boolean is there any path ( layer from layer , layer to layer ) {  <NL> boolean ret value = false ;  <NL> int i from = get layer ind ( from layer ) ;  <NL> int i to = get layer ind ( to layer ) ;  <NL> ret value = is there any path ( i from , i to , get connection matrix ( ) ) ;  <NL> return ret value ;  <NL>  }  COM: <s> searches a path between two layers </s>

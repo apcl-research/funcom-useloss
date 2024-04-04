@@ -1,0 +1,1 @@
+TDAT: public void dump ( ) {  <NL> system . out . println ( " id : " + id + " type : " + type ) ;  <NL> for ( string key : values . key set ( ) ) {  <NL> string value = values . get ( key ) ;  <NL> system . out . printf ( " % s : % s\n " , key , value ) ;  <NL>  }  <NL> system . out . println ( " " ) ;  <NL>  }  COM: <s> dumps the document </s>

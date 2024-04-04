@@ -1,0 +1,1 @@
+TDAT: public string to string ( ttf file t ) {  <NL> return " glyph " + name + " index : " + get index as string ( ) + " bbox [ "  <NL>  + ( bounding box [ 0 ] ) + " "  <NL>  + ( bounding box [ 1 ] ) + " "  <NL>  + ( bounding box [ 2 ] ) + " "  <NL>  + ( bounding box [ 3 ] ) + " ] wx : "  <NL>  + ( wx ) ;  <NL>  }  COM: <s> returns a string representation of this object </s>

@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> return " id : " + get id ( ) + " - seconds : " + get seconds ( ) + " - status : " +  <NL>  ( get status ( ) = = data object . connected ? " computer [ " + get id ( ) + " ] connected . " : " computer [ " + get id ( ) + " ] disconnected . " ) ;  <NL>  }  COM: <s> converts the code data object code into code string code </s>

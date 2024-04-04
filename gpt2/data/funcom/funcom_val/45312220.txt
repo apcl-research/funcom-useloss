@@ -1,0 +1,1 @@
+TDAT: public void add location field value ( string field name , location field value ) {  <NL> validate field type ( field name , data type . location ) ;  <NL> if ( loc data = = null ) {  <NL> loc data = new multi value map < location > ( ) ;  <NL>  }  <NL> loc data . add field value ( field name , field value ) ;  <NL>  }  COM: <s> add a location value to the given field </s>

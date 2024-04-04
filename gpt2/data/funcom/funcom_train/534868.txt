@@ -1,0 +1,1 @@
+TDAT: protected boolean intersects with screen ( int x value , int y value ) {  <NL> return ( x value < ( ( - 1 * x pos ) + screen width ) ) & &  <NL>  ( x value > ( - 1 * x pos ) ) & &  <NL>  ( y value < ( ( - 1 * y pos ) + screen height ) ) & &  <NL>  ( y value > ( - 1 * y pos ) ) ;  <NL>  <NL>  }  COM: <s> tests whether the x y value intersects with the screen </s>

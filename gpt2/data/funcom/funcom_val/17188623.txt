@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> if ( is entry ( ) ) {  <NL> assert . _ assert ( get id ( ) = = 0 ) ;  <NL> return " bb0 ( entry ) " ;  <NL>  }  <NL> if ( is exit ( ) ) {  <NL> assert . _ assert ( get id ( ) = = 1 ) ;  <NL> return " bb1 ( exit ) " ;  <NL>  }  <NL> return " bb " + get id ( ) ;  <NL>  }  COM: <s> returns the name of this basic block </s>

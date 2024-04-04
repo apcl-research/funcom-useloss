@@ -1,0 +1,1 @@
+TDAT: @ override public type visit ( variable access node ) {  <NL> local variable v = context . get local variable ( node . get variable name ( ) , ts ) ;  <NL> set variable ( node , v ) ;  <NL> set variable type ( node , v . type ( ) ) ;  <NL> return set type ( node , ts . capture ( v . type ( ) ) ) ;  <NL>  }  COM: <s> visits a variable access </s>

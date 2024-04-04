@@ -1,0 +1,1 @@
+TDAT: public void add row ( string t , string f ) {  <NL> add row ( ) ;  <NL> set value at ( t , get row count ( ) - 1 , 0 ) ;  <NL> set value at ( new file ( f ) , get row count ( ) - 1 , 1 ) ;  <NL> set value at ( " " , get row count ( ) - 1 , 2 ) ;  <NL>  }  COM: <s> adds a new row to the ego network table </s>

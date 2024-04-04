@@ -1,0 +1,1 @@
+TDAT: private void cache set pdf ( int n , int nt , long r , long rmin , int out , apfloat pdf ) {  <NL> if ( can be cached ( n , nt ) ) {  <NL> string key = cache key ( n , nt , r , rmin , out ) ;  <NL> cache pdf . put ( key , pdf ) ;  <NL>  }  <NL>  }  COM: <s> set a result in cache </s>

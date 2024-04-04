@@ -1,0 +1,1 @@
+TDAT: public void set f destination address ( long dest addr ) {  <NL> if ( dest len = = 2 ) {  <NL> rp . set mac payload big end short at ( dest addr index , ( short ) ( dest addr & 0xffff ) ) ;  <NL>  } else {  <NL> rp . set mac payload big end long at ( dest addr index , dest addr ) ;  <NL>  }  <NL>  }  COM: <s> set the final destination for this meshed packet </s>

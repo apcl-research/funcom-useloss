@@ -1,0 +1,1 @@
+TDAT: public void process ( ) {  <NL> final string [ ] files to process = this . source dir . list ( this . file filter ) ;  <NL> for ( int i = 0 ; i < files to process . length ; i + + ) {  <NL> final string base file name = io util . base file name ( files to process [ i ] ) ;  <NL> process file ( base file name ) ;  <NL>  }  <NL>  }  COM: <s> serialize the selected files </s>

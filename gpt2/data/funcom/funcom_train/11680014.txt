@@ -1,0 +1,1 @@
+TDAT: public void put ( string key , long init time , boolean is in flow , boolean is statistics enable , boolean is fault ) {  <NL> this . end point name = key ;  <NL> this . init time = init time ;  <NL> this . is in flow = is in flow ;  <NL> this . is statistics enable = is statistics enable ;  <NL> this . is fault = is fault ;  <NL>  }  COM: <s> to put statistics </s>

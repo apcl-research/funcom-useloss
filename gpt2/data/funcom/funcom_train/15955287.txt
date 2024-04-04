@@ -1,0 +1,1 @@
+TDAT: public context get context ( int type ) {  <NL> int li no = f contexts _ no ;  <NL> for ( int i = 0 ; i < li no ; i + + )  <NL>  {  <NL> context l c = f contexts [ i ] ;  <NL> if ( l c . get type ( ) = = type )  <NL>  {  <NL> return l c ;  <NL>  }  <NL>  } / * for * /  <NL>  <NL> return null ;  <NL>  }  COM: <s> retreives a context based on a context type </s>

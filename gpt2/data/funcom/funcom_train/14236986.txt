@@ -1,0 +1,1 @@
+TDAT: public void set scout list ( list < scout > scout list ) {  <NL>  _ scout list = scout list ;  <NL>  _ bs helper . notify destinations ( this , " scout list " ) ;  <NL>  <NL> set current scout ( ( ( _ scout list = = null ) || ( _ scout list . is empty ( ) ) ) ? null : _ scout list . get ( 0 ) ) ;  <NL>  }  COM: <s> sets the current scout list </s>

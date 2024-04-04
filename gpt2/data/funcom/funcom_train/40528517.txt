@@ -1,0 +1,1 @@
+TDAT: private string str buf to string ( ) {  <NL>  / / if ( str buf offset ! = - 1 ) {  <NL>  / / return portability . new string from buffer ( buf , str buf offset , str buf len ) ;  <NL>  / / } else {  <NL> return portability . new string from buffer ( str buf , 0 , str buf len ) ;  <NL>  / / }  <NL>  }  COM: <s> the smaller buffer as a string </s>

@@ -1,0 +1,1 @@
+TDAT: synchronized public void save ( contact container cc ) {  <NL> contacts table . save ( cc . get validation items ( ) , new item [ ] { cc . get message assigned id ( ) , cc . get to id ( ) , cc . get from id ( ) } , dbsql accessor . and ) ;  <NL> save ( cc . get message ( ) ) ;  <NL>  }  COM: <s> saves a contact </s>

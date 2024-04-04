@@ -1,0 +1,1 @@
+TDAT: public int get number of files ( ) {  <NL> int ret = 0 ;  <NL> for ( int j = 0 ; j < size ( ) ; j + + ) {  <NL> if ( get ( j ) instanceof account file )  <NL> ret + + ;  <NL> else <NL> ret + = ( ( account directory ) get ( j ) ) . get number of files ( ) ;  <NL>  }  <NL> return ret ;  <NL>  }  COM: <s> number of files only </s>

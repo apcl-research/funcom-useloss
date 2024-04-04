@@ -1,0 +1,1 @@
+TDAT: public void stop listening ( ) throws io exception {  <NL> should listen = false ;  <NL> if ( socket ! = null & & ! socket . is closed ( ) ) {  <NL> socket . close ( ) ;  <NL>  }  <NL> while ( is listening ( ) || ( socket ! = null & & ! socket . is closed ( ) ) ) {  <NL> timing utils . sleep ( 100 ) ;  <NL>  }  <NL>  }  COM: <s> closes the server socket </s>

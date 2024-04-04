@@ -1,0 +1,1 @@
+TDAT: public void _ select items pos ( ) {  <NL> required method ( " add items ( ) " ) ;  <NL> required method ( " set multiple mode ( ) " ) ;  <NL>  <NL> boolean result = true ;  <NL> o obj . select items pos ( new short [ ] { 0 , 2 } , true ) ;  <NL>  <NL> t res . tested ( " select items pos ( ) " , result ) ;  <NL>  }  COM: <s> just selects some items </s>

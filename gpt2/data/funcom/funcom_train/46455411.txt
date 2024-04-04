@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> string name = get class ( ) . get name ( ) ;  <NL> name = name . substring ( 1 + name . last index of ( " . " ) ) + ' [ ' ;  <NL> name + = " x = " + x ;  <NL> name + = " , y = " + y + ' ] ' ;  <NL> return name ;  <NL>  }  COM: <s> returns a string representation of the circle </s>

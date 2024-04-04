@@ -1,0 +1,1 @@
+TDAT: public void set user password hash ( byte [ ] user password hash ) {  <NL> if ( user password hash ! = null ) {  <NL> salt = random utils . get secure bytes ( constants . salt _ len ) ;  <NL> sha256 sha = new sha256 ( ) ;  <NL> this . password hash = sha . get hash with salt ( user password hash , salt ) ;  <NL>  }  <NL>  }  COM: <s> set the user name password hash </s>

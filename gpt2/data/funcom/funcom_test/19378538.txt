@@ -1,0 +1,1 @@
+TDAT: private menu item build test case ( menu menu bar , menu menu ) {  <NL> menu item mitem = new menu item ( menu bar , default _ menu _ style ) ;  <NL> mitem . set text ( messages . get string ( " uc ed . 70 " ) ) ; / / $ non - nls - 1 $  <NL> mitem . set menu ( menu ) ;  <NL> return mitem ;  <NL>  }  COM: <s> method test case generation </s>

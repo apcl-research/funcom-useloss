@@ -1,0 +1,1 @@
+TDAT: public void write ( element root , output stream out ) throws io exception {  <NL> writer wri = new output stream writer ( out , " utf8 " ) ;  <NL> wri . write ( " < ? xml version = \ " 1 . 0\ " encoding = \ " utf - 8\ " ? > \n " ) ;  <NL> write ( root , wri , 0 , " " ) ;  <NL> wri . flush ( ) ;  <NL>  }  COM: <s> writes a dom tree to a stream in utf8 encoding </s>

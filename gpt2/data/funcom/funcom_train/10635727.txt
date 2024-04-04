@@ -1,0 +1,1 @@
+TDAT: public void set up ( ) {  <NL> if ( do log ) {  <NL> system . out . println ( " " ) ;  <NL> system . out . println ( " = = = = = = = = = = = = = = = = = = = = = = = = " ) ;  <NL> system . out . println ( " = = = = = = running the test : " + get name ( ) ) ;  <NL>  }  <NL>  }  COM: <s> sets up the test case </s>

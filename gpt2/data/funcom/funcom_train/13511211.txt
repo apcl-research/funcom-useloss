@@ -1,0 +1,1 @@
+TDAT: private void init driver ( ) {  <NL>  / / array driver = new int [ ( ( row ) rows . get ( 0 ) ) . get cell number ( ) ] ;  <NL> array driver = new int [ this . get column count ( ) ] ;  <NL> for ( int i = 0 ; i < array driver . length ; i + + ) {  <NL> array driver [ i ] = i ;  <NL>  }  <NL>  }  COM: <s> init the driver </s>

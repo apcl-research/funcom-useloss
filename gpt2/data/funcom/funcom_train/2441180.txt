@@ -1,0 +1,1 @@
+TDAT: public string unescape name ( string name ) {  <NL> if ( ( begin . length ( ) > 0 & & name . starts with ( begin ) ) & & ( end . length ( ) > 0 & & name . ends with ( end ) ) ) {  <NL> return konga string utils . remove start and end ( name , begin , end ) ;  <NL>  }  <NL> return name ;  <NL>  }  COM: <s> removes the begin and end quotes from the given name </s>

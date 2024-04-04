@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> object [ ] l list = listener list ;  <NL> string s = " event listener list : " ;  <NL> s + = l list . length + " listeners : " ;  <NL> for ( int i = 0 ; i < l list . length ; i + + ) {  <NL> s + = " listener " + l list [ i + 1 ] ;  <NL>  }  <NL> return s ;  <NL>  }  COM: <s> returns a string representation of the event listener list </s>

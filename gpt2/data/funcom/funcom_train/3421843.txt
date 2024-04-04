@@ -1,0 +1,1 @@
+TDAT: public boolean has feature ( string feature , string version ) {  <NL>  <NL> return ( feature . equals ignore case ( " xs - loader " ) & & ( version = = null || version . equals ( " 1 . 0 " ) ) || <NL> super . has feature ( feature , version ) ) ;  <NL>  } / / has feature ( string , string ) : boolean  COM: <s> test if the dom implementation supports a specific feature </s>

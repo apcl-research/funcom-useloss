@@ -1,0 +1,1 @@
+TDAT: public void orders _ clear ( ) {  <NL> for ( order o : orderqueue ) { / / unsubscribe ! ! !  <NL> o . unsubscribe ( ) ;  <NL>  }  <NL>  <NL> if ( order able ( ) ) {  <NL> orderqueue . clear ( ) ;  <NL>  / / order . target = new order target ( 0 , 0 ) ;  <NL>  / / order . ordertype = order . order type . empty ;  <NL>  }  <NL>  <NL>  }  COM: <s> clear orders of the ship </s>

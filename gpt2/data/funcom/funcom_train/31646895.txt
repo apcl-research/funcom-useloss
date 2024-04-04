@@ -1,0 +1,1 @@
+TDAT: public void do action ( mobile m , object o ) {  <NL> if ( m . get level ( ) < get level ( ) ) {  <NL> m . to user ( new mud data ( " text " , " you are not high enough to perform this action " ) ) ;  <NL>  }  <NL> else {  <NL> perform text action ( m , ( string ) o ) ;  <NL>  }  <NL>  }  COM: <s> overrides the do action method in class action </s>

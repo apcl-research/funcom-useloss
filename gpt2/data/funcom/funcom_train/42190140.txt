@@ -1,0 +1,1 @@
+TDAT: public void add to log ( string str ) {  <NL> if ( str . char at ( str . length ( ) - 1 ) ! = ' \n ' ) {  <NL> str = str . concat ( " \n " ) ;  <NL>  }  <NL> this . log text area . append ( str ) ;  <NL> this . log text area . set caret position ( this . log text area . get document ( ) . get length ( ) ) ;  <NL>  }  COM: <s> adds provided string to the log panel </s>

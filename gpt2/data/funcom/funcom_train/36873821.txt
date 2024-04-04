@@ -1,0 +1,1 @@
+TDAT: private void init answer pane ( ) {  <NL> answer pane . set visible ( false ) ;  <NL> answer pane . set width ( " 100 % " ) ;  <NL> text area area = new text area ( ) ;  <NL> area . set width ( " 100 % " ) ;  <NL> button b = new button ( " post answer " ) ;  <NL> answer pane . add ( area ) ;  <NL> answer pane . add ( b ) ;  <NL>  }  COM: <s> initializes answer pane </s>

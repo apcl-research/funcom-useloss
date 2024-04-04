@@ -1,0 +1,1 @@
+TDAT: private string get next value ( ) {  <NL> string out = " " ;  <NL> int begin = in string . index of ( ' > ' ) + 1 ;  <NL> int end = in string . index of ( ' < ' , begin ) ;  <NL> if ( end > begin )  <NL> out = in string . substring ( begin , end ) ;  <NL> return out ;  <NL>  }  COM: <s> gets next value as string </s>

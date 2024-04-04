@@ -1,0 +1,1 @@
+TDAT: private void color tab ( int index , boolean on ) {  <NL> string color = " " ;  <NL> if ( on )  <NL> color = ( ( tab info ) tabs . get ( index ) ) . get color ( ) ;  <NL>  <NL> widget w = list . get widget ( index + 1 ) ; / / factor in image logo <NL> dom . set style attribute ( w . get element ( ) , " background color " , color ) ;  <NL>  }  COM: <s> colors a tab </s>

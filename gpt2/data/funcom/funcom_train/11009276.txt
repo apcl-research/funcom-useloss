@@ -1,0 +1,1 @@
+TDAT: private void validate sheet index ( int index ) {  <NL> int last sheet ix = sheets . size ( ) - 1 ;  <NL> if ( index < 0 || index > last sheet ix ) {  <NL> throw new illegal argument exception ( " sheet index ( "  <NL>  + index + " ) is out of range ( 0 . . " + last sheet ix + " ) " ) ;  <NL>  }  <NL>  }  COM: <s> validate sheet index </s>

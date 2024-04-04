@@ -1,0 +1,1 @@
+TDAT: public void test constructor ( ) {  <NL> final string [ ] parameters = array ( " 123 " ) ;  <NL> command command = new command ( " abc " , parameters ) ;  <NL> assert equals ( " name " , " abc " , command . get name ( ) ) ;  <NL> assert equals ( " parameters " , parameters , command . get parameters ( ) ) ;  <NL>  }  COM: <s> test the command string string constructor </s>

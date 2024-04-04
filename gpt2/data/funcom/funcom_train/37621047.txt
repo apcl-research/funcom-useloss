@@ -1,0 +1,1 @@
+TDAT: private void init ( ) {  <NL> for ( iterator it = params . iterator ( ) ; it . has next ( ) ; ) {  <NL> param param = ( param ) it . next ( ) ;  <NL> macro def . attribute attribute = new macro def . attribute ( ) ;  <NL> attribute . set name ( param . get name ( ) ) ;  <NL> macro . add configured attribute ( attribute ) ;  <NL>  }  <NL>  }  COM: <s> init this task </s>

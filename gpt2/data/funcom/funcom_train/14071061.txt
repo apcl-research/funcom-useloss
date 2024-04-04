@@ -1,0 +1,1 @@
+TDAT: public void add link ( link link ) {  <NL> iterator < link > it = links . iterator ( ) ;  <NL> while ( it . has next ( ) ) {  <NL> if ( it . next ( ) . get module ( ) . equals ( link . get module ( ) ) ) {  <NL> it . remove ( ) ;  <NL> break ;  <NL>  }  <NL>  }  <NL> links . add ( link ) ;  <NL>  }  COM: <s> add a link to the set </s>

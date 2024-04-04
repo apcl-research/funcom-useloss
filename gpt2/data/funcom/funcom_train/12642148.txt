@@ -1,0 +1,1 @@
+TDAT: protected void fill ( ) throws io exception {  <NL> ensure open ( ) ;  <NL> len = in . read ( buf , 0 , buf . length ) ;  <NL> if ( len = = - 1 ) {  <NL> throw new eof exception ( " unexpected end of zlib input stream " ) ;  <NL>  }  <NL> inf . set input ( buf , 0 , len ) ;  <NL>  }  COM: <s> fills input buffer with more data to decompress </s>

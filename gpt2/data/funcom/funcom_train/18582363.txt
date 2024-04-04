@@ -1,0 +1,1 @@
+TDAT: public object get object by uid ( integer uid , string class type ) {  <NL> object ret = null ;  <NL> list list = get list results by query ( " from " + class type + " where pk id = " +  <NL> uid . to string ( ) ) ;  <NL> if ( ! list . is empty ( ) ) {  <NL> ret = list . get ( 0 ) ;  <NL>  }  <NL> return ret ;  <NL>  }  COM: <s> get object by uid </s>

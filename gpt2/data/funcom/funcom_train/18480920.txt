@@ -1,0 +1,1 @@
+TDAT: public void set num iters v ( int num _ iters _ v ) {  <NL> if ( this . num _ iters _ v ! = num _ iters _ v ) {  <NL> int old = this . num _ iters _ v ;  <NL> this . num _ iters _ v = num _ iters _ v ;  <NL> notify changed ( numitersv , old , num _ iters _ v ) ;  <NL> create contents ( ) ;  <NL>  }  <NL>  }  COM: <s> sets number of iterations in v direction </s>

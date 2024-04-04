@@ -1,0 +1,1 @@
+TDAT: public void plus equals ( double scalar ) {  <NL> for ( int c = 0 ; c < this . num cols ( ) ; + + c ) {  <NL> for ( int r = 0 ; r < this . num rows ( ) ; + + r ) {  <NL> this . set ( r , c , this . get ( r , c ) + scalar ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> adds scalar to each element in this matrix </s>

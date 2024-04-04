@@ -1,0 +1,1 @@
+TDAT: public void propagate zero ( ) throws contradiction exception {  <NL> if ( ! ( v1 . can be instantiated to ( 0 ) ) ) {  <NL> v0 . instantiate ( 0 , this , false ) ;  <NL>  }  <NL> if ( ! ( v0 . can be instantiated to ( 0 ) ) ) {  <NL> v1 . instantiate ( 0 , this , false ) ;  <NL>  }  <NL>  }  COM: <s> propagate the fact that v2 z is instantiated to 0 </s>

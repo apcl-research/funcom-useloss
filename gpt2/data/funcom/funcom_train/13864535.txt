@@ -1,0 +1,1 @@
+TDAT: public void add section comment ( string section ) {  <NL> addlines ( " \n / / * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * \n / / " + section + " \n / / * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * \n\n " ) ;  <NL>  }  COM: <s> adds a section comment a comment enclosed by lines of asterisks </s>

@@ -1,0 +1,1 @@
+TDAT: private double get weighted error estimate ( ) {  <NL> double sum = 0 ;  <NL> double weight = 1 ;  <NL> double sub = 0 ;  <NL> for ( byte c : sorted score . get bytes ( ) ) {  <NL> sum + = ( c - 33 ) * weight ;  <NL> sub + = weight ;  <NL> weight * = 0 . 85 ;  <NL>  }  <NL> return get phred ( sum / sub ) ;  <NL>  }  COM: <s> return weighted estimated error </s>

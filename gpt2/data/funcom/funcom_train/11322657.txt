@@ -1,0 +1,1 @@
+TDAT: public void test to label ( ) {  <NL> assert equals ( " customer " , click utils . to label ( " customer " ) ) ;  <NL> assert equals ( " customer number " , click utils . to label ( " customer number " ) ) ;  <NL> assert equals ( " card pin " , click utils . to label ( " card pin " ) ) ;  <NL>  }  COM: <s> sanity checks for click utils </s>

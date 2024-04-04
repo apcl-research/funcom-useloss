@@ -1,0 +1,1 @@
+TDAT: public type get type ( ) {  <NL> byte [ ] bytes = get bytes ( ) ;  <NL> if ( bytes = = null || bytes . length = = 0 ) {  <NL> return null ;  <NL>  }  <NL> for ( type type : type . values ( ) ) {  <NL> if ( type . code = = ( int ) bytes [ 0 ] ) {  <NL> return type ;  <NL>  }  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> get the type code embedded in the first byte </s>

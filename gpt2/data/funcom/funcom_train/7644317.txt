@@ -1,0 +1,1 @@
+TDAT: public boolean get ( int pos ) {  <NL> if ( pos > = 0 ) {  <NL> if ( pos < bits . length * elm _ size ) {  <NL> return ( bits [ pos / elm _ size ] & ( 1l < < ( pos % elm _ size ) ) ) ! = 0 ;  <NL>  }  <NL> return false ;  <NL>  }  <NL> throw new index out of bounds exception ( " negative index specified " ) ;  <NL>  }  COM: <s> retrieve the bit at index pos </s>

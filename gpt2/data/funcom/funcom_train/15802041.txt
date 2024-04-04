@@ -1,0 +1,1 @@
+TDAT: public int read uint16 ( ) throws io exception {  <NL> byte [ ] data = new byte [ 2 ] ;  <NL> if ( read ( data ) ! = data . length ) {  <NL> throw new io exception ( " read past end of stream " ) ;  <NL>  }  <NL> return ( ( ( int ) data [ 0 ] & 0xff ) < < 0 ) | ( ( ( int ) data [ 1 ] & 0xff ) < < 8 ) ;  <NL>  }  COM: <s> reads a little endien uint16 </s>

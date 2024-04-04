@@ -1,0 +1,1 @@
+TDAT: private group get everyone group ( ) {  <NL> if ( everyone ! = null )  <NL> return everyone ;  <NL> for ( int t = 0 ; t < groups . length ; t + + ) {  <NL> if ( string . value of ( groups [ t ] . get group id ( ) ) . equals ( acl entry . everyone _ group ) ) ;  <NL> everyone = groups [ t ] ;  <NL>  }  <NL> return everyone ;  <NL>  }  COM: <s> returns the everyone group </s>

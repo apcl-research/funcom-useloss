@@ -1,0 +1,1 @@
+TDAT: private void paint border ( synth context ctx , graphics g , int x , int y , int w , int h , affine transform transform ) {  <NL> sea glass painter border painter = style . get border painter ( ctx ) ;  <NL>  <NL> if ( border painter ! = null ) {  <NL> paint ( border painter , ctx , g , x , y , w , h , transform ) ;  <NL>  }  <NL>  }  COM: <s> paint the objects border </s>

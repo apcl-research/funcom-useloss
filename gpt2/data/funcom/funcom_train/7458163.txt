@@ -1,0 +1,1 @@
+TDAT: private byte string bytes ( int . . . bytes as ints ) {  <NL> byte [ ] bytes = new byte [ bytes as ints . length ] ;  <NL> for ( int i = 0 ; i < bytes as ints . length ; i + + ) {  <NL> bytes [ i ] = ( byte ) bytes as ints [ i ] ;  <NL>  }  <NL> return byte string . copy from ( bytes ) ;  <NL>  }  COM: <s> helper to construct a byte string from a bunch of bytes </s>

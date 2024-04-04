@@ -1,0 +1,1 @@
+TDAT: public void write ( list < ? extends object > columns ) throws io exception {  <NL> for ( int i = 0 ; i < columns . size ( ) ; i + + ) {  <NL> out . write ( column ( columns . get ( i ) ) ) ;  <NL> if ( i ! = columns . size ( ) - 1 ) out . write ( separator ) ;  <NL>  }  <NL> out . write ( " \n " ) ;  <NL>  }  COM: <s> writes the columns to the file </s>

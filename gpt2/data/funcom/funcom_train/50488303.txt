@@ -1,0 +1,1 @@
+TDAT: private void internal day of month last ( srv gregorian calendar cal ) {  <NL>  / / cal . add ( cal . month , 1 ) ;  <NL>  / / cal . internal day of month first ( cal ) ;  <NL> cal . set ( calendar . date , cal . get actual maximum ( calendar . date ) ) ;  <NL>  / / cal . complete ( ) ;  <NL>  / / cal . add ( cal . date , - 1 ) ;  <NL>  }  COM: <s> internal day last </s>

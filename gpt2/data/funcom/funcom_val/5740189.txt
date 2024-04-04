@@ -1,0 +1,1 @@
+TDAT: private string make xml friendly ( string xml ) {  <NL> xml = xml . replace all ( " \ " " , " & quot ; " ) ;  <NL> xml = xml . replace all ( " < " , " & lt ; " ) ;  <NL> xml = xml . replace all ( " > " , " & gt ; " ) ;  <NL> return xml ;  <NL>  }  COM: <s> xml hates things like quotes and s embedded in tags </s>

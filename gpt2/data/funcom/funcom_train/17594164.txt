@@ -1,0 +1,1 @@
+TDAT: public basic block create basic block ( int num preds , int num succs , int num instrs , exception handler list ehs ) {  <NL> return basic block . create basic block ( + + bb _ counter , this . method , num preds , num succs , num instrs , ehs ) ;  <NL>  }  COM: <s> create a new basic block in this control flow graph </s>

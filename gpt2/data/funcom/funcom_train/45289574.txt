@@ -1,0 +1,1 @@
+TDAT: protected void put char ( char ch , boolean scan ) {  <NL> if ( sp = = sbuf . length ) {  <NL> char [ ] newsbuf = new char [ sbuf . length * 2 ] ;  <NL> system . arraycopy ( sbuf , 0 , newsbuf , 0 , sbuf . length ) ;  <NL> sbuf = newsbuf ;  <NL>  }  <NL> sbuf [ sp + + ] = ch ;  <NL> if ( scan )  <NL> scan char ( ) ;  <NL>  }  COM: <s> append a character to sbuf </s>

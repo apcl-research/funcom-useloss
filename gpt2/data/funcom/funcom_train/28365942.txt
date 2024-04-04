@@ -1,0 +1,1 @@
+TDAT: public void set value ( int i , int j , double value ) {  <NL> grid data [ i ] [ j ] = value ;  <NL> if ( z _ min > grid data [ i ] [ j ] ) z _ min = grid data [ i ] [ j ] ;  <NL> if ( z _ max < grid data [ i ] [ j ] ) z _ max = grid data [ i ] [ j ] ;  <NL>  }  COM: <s> sets value of the 2 d array with indexes i and j </s>

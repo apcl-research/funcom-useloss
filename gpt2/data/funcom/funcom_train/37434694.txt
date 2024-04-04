@@ -1,0 +1,1 @@
+TDAT: private hash map get key ( string name ) {  <NL> hash map key = ( hash map ) keys . get ( name ) ;  <NL> if ( key = = null ) {  <NL> system . out . println ( " creating new key : " + name ) ;  <NL> key = new hash map ( ) ;  <NL> keys . put ( name , key ) ;  <NL>  }  <NL> return key ;  <NL>  }  COM: <s> returns the key with given name </s>

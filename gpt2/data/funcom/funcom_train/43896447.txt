@@ -1,0 +1,1 @@
+TDAT: public void set transform ( final float [ ] matrix , int offset ) {  <NL> set transform ( matrix [ offset ] , matrix [ + + offset ] , matrix [ + + offset ] , matrix [ + + offset ] ,  <NL> matrix [ + + offset ] , matrix [ + + offset ] ) ;  <NL>  }  COM: <s> set the transform from a flat matrix </s>

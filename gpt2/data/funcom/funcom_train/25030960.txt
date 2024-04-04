@@ -1,0 +1,1 @@
+TDAT: static public int err2prec ( double xerr ) {  <NL>  / * example : an error of xerr = + - 0 . 5 a precision of 1 ( digit ) , an error of <NL>  * + - 0 . 05 a precision of 2 ( digits )  <NL>  * /  <NL> return 1 + ( int ) ( math . log10 ( math . abs ( 0 . 5 / xerr ) ) ) ;  <NL>  }  COM: <s> convert a relative error to a precision </s>

@@ -1,0 +1,1 @@
+TDAT: private void add item ( final item item , final boolean vertical ) {  <NL> if ( vertical ) {  <NL> this . current tr = dom . create tr ( ) ;  <NL> dom . append child ( this . body , this . current tr ) ;  <NL>  }  <NL> dom . append child ( this . current tr , item . get element ( ) ) ;  <NL>  }  COM: <s> adds an item to the picker </s>

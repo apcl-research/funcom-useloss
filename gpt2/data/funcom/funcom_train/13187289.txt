@@ -1,0 +1,1 @@
+TDAT: public comparable get key ( int index ) {  <NL> comparable result = null ;  <NL> if ( index > = 0 & & index < this . data . size ( ) ) {  <NL> keyed object item = ( keyed object ) this . data . get ( index ) ;  <NL> if ( item ! = null ) {  <NL> result = item . get key ( ) ;  <NL>  }  <NL>  }  <NL> return result ;  <NL>  }  COM: <s> returns a key </s>

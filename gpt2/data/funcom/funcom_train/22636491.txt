@@ -1,0 +1,1 @@
+TDAT: public void start moving ( int dx , int dy ) {  <NL> view . get mover ( ) . move game piece ( this ) ;  <NL> this . dx = dx ;  <NL> this . dy = dy ;  <NL> px = 0 ;  <NL> py = 0 ;  <NL> animation factor = 2 ; / / get tile size ( ) / 10 ;  <NL> counter = get tile size ( ) / animation factor ;  <NL>  }  COM: <s> initiates a movement in the given direction </s>

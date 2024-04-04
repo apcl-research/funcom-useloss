@@ -1,0 +1,1 @@
+TDAT: public string get carrier ( ) throws at command failed exception {  <NL> string tmp = at cmd . send ( " at + cops ? \r " ) ;  <NL>  <NL> int i = tmp . index of ( " \ " " ) ;  <NL> int j = tmp . index of ( " \ " " , i + 1 ) ;  <NL>  <NL> return ( tmp . substring ( i + 1 , j ) ) ;  <NL>  }  COM: <s> gets the carrier name </s>

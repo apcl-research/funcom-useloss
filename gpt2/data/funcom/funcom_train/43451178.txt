@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> string buffer buf = new string buffer ( ) ;  <NL> buf . append ( " action = " ) . append ( m _ action )  <NL>  . append ( " , path = " ) . append ( m _ path ) ;  <NL>  / / . append ( " , copy from = " ) . append ( m _ copy from ) ;  <NL> return buf . to string ( ) ;  <NL>  }  COM: <s> returns a string representation of the object </s>

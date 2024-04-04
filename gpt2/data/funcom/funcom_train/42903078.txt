@@ -1,0 +1,1 @@
+TDAT: public string get text ( byte [ ] content , int start , string encoding ) {  <NL> logger . info ( " i tun norm : " ) ;  <NL> int length = math . max ( content . length - start - util . get last zeros ( content , 1 ) , 0 ) ;  <NL> return char converter . create string ( content , start , length ) ;  <NL>  }  COM: <s> i tun norm </s>

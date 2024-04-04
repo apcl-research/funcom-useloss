@@ -1,0 +1,1 @@
+TDAT: protected void footer ( cell top , netlist writer output ) {  <NL> string cellname = top . get cell name ( ) ;  <NL> output . println ( " ) \n ( design root " ) ;  <NL> output . println ( " ( cell ref " + cellname ) ;  <NL> output . println ( " ( library ref " + cellname + " ) ) ) \n ) " ) ;  <NL>  }  COM: <s> generates the tail of the netlist file </s>

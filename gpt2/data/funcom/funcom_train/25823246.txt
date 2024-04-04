@@ -1,0 +1,1 @@
+TDAT: private boolean is letter ( char ch ) {  <NL> return ( ch > = ' a ' & & ch < = ' z ' ) || ( ch > = ' a ' & & ch < = ' z ' ) || ( ch = = ' _ ' ) || ( ch > = ' 0 ' & & ch < = ' 9 ' ) || ( ch = = ' : ' ) ;  <NL>  }  COM: <s> test for character to be a letter case insensitive </s>

@@ -1,0 +1,1 @@
+TDAT: public void add network ( final network n ) {  <NL> network list . add ( n ) ;  <NL> n . set parent network ( this ) ;  <NL> n . set root network ( root network ) ;  <NL> get root network ( ) . fire subnet added ( n ) ;  <NL> n . set id ( get root network ( ) . get network id generator ( ) . get id ( ) ) ;  <NL>  }  COM: <s> adds a new network </s>

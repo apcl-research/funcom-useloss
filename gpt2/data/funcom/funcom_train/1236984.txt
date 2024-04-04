@@ -1,0 +1,1 @@
+TDAT: public int get alpha ( ) {  <NL> if ( alpha ! = null ) {  <NL> return alpha . int value ( ) ;  <NL>  }  <NL>  <NL> value binding vb = get value binding ( " alpha " ) ;  <NL> integer v = vb ! = null ? ( integer ) vb . get value ( get faces context ( ) )  <NL>  : null ;  <NL> return v ! = null ? v . int value ( ) : 100 ;  <NL>  }  COM: <s> alpha attribute for pie charts </s>

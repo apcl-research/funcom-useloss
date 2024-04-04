@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> string buffer s = new string buffer ( ) ;  <NL> s . append ( " inverse symbol set query atom ( " ) ;  <NL> s . append ( this . hash code ( ) + " , " ) ;  <NL> s . append ( symbols . to string ( ) ) ;  <NL> s . append ( " ) " ) ;  <NL> return s . to string ( ) ;  <NL>  }  COM: <s> the to string method </s>

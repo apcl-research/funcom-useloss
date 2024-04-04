@@ -1,0 +1,1 @@
+TDAT: public void add processor ( processor component pc ) {  <NL> processors . add ( pc ) ;  <NL> entity e = get entity ( ) ;  <NL> if ( e ! = null ) {  <NL> pc . set entity ( e ) ;  <NL> world manager wm = e . get world manager ( ) ;  <NL> if ( wm ! = null ) {  <NL> wm . get processor manager ( ) . add component ( pc ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> add a processor </s>

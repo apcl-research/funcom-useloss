@@ -1,0 +1,1 @@
+TDAT: public void init data ( float x , float y , float xv , float yv )  <NL>  {  <NL> states . set ( 0 , 0 , x ) ;  <NL> states . set ( 1 , 0 , y ) ;  <NL> states . set ( 2 , 0 , xv ) ;  <NL> states . set ( 3 , 0 , yv ) ;  <NL>  }  COM: <s> set initial values </s>

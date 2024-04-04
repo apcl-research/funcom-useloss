@@ -1,0 +1,1 @@
+TDAT: public boolean can finish ( ) {  <NL>  / / return ( this . review id ! = null & & ( ( this . reviewers ! = null ) & & this . reviewers . size ( ) > 0 )  <NL>  / / & & this . author ! = null ) ;  <NL> return review id page . is page complete ( ) & & reviewer page . is page complete ( ) ;  <NL>  }  COM: <s> checks if the wizard can finish </s>

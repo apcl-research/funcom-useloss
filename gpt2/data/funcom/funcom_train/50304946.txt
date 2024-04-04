@@ -1,0 +1,1 @@
+TDAT: public void join conference ( int conf no ) throws io exception , rpc failure {  <NL> add member ( conf no , get my person ( ) . get no ( ) , 100 , get my person ( ) . no of confs + 1 , false , false , false ) ;  <NL> membership = get my membership list ( false ) ; / / xxx <NL>  }  COM: <s> adds a conference with priority 100 at the last position of the currently </s>

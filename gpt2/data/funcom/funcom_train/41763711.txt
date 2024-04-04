@@ -1,0 +1,1 @@
+TDAT: protected int get row by coord ( int y ) {  <NL> int ypad = get height ( ) / 30 ;  <NL> return ( int ) ( ( y - f . get font ( ) . get height ( ) - ( ypad < < 1 ) ) / ( double ) ( ( get height ( ) - f . get font ( ) . get height ( ) - ypad * 3 ) / matrix ( ) . length ) ) ;  <NL>  }  COM: <s> returns the row of the matrix by the on screen y coordinate </s>

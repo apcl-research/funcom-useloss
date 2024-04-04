@@ -1,0 +1,1 @@
+TDAT: public void set header ( string h , vector < string > l ) {  <NL> string s = h . to lower case ( ) ;  <NL> if ( headers = = null )  <NL> headers = new hashtable < string , list < string > > ( ) ;  <NL> headers . put ( s , l ) ;  <NL> if ( ! header order . contains ( s ) )  <NL> header order . add element ( s ) ;  <NL>  }  COM: <s> set a specific header from a list </s>

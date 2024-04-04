@@ -1,0 +1,1 @@
+TDAT: private boolean is vbr tag ( final byte [ ] buf , final int buf pos ) {  <NL> return new string ( buf , buf pos , vbr tag0 . length ( ) , iso _ 8859 _ 1 )  <NL>  . equals ( vbr tag0 )  <NL> || new string ( buf , buf pos , vbr tag1 . length ( ) , iso _ 8859 _ 1 )  <NL>  . equals ( vbr tag1 ) ;  <NL>  }  COM: <s> check for magic strings xing info </s>

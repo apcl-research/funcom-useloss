@@ -1,0 +1,1 @@
+TDAT: public afm char metric get afm char metric ( int c ) {  <NL>  <NL> afm char metric cm = null ;  <NL> for ( int i = 0 , n = afm char metrics . size ( ) ; i < n ; i + + ) {  <NL> cm = afm char metrics . get ( i ) ;  <NL> if ( cm . get c ( ) = = c ) {  <NL> return cm ;  <NL>  }  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> returns the char metric of a char </s>

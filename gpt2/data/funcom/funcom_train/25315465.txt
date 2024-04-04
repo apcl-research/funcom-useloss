@@ -1,0 +1,1 @@
+TDAT: protected void set title ( string title ) {  <NL> gui gui = gui . get instance ( ) ;  <NL> int x = gui . get width ( ) / 2 ;  <NL> int y = ( int ) ( ( 50 . 0 + title _ space ) * this . yscale ) ;  <NL> this . title = gui . create text ( title , new point ( x , y ) , title _ size , highlight _ colour ) ;  <NL>  }  COM: <s> sets title of the menu </s>

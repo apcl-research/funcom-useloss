@@ -1,0 +1,1 @@
+TDAT: final public fsm data fsm file ( string fname ) throws parse exception {  <NL> fsm file name = fname ;  <NL> body ( ) ;  <NL> jj _ consume _ token ( 0 ) ;  <NL> if ( symbolic states )  <NL> new transition check ( fname , fd ) ;  <NL>  { if ( true ) return fd ; }  <NL> throw new error ( " missing return statement in function " ) ;  <NL>  }  COM: <s> parse the file </s>

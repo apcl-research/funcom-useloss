@@ -1,0 +1,1 @@
+TDAT: public void next bytes ( byte [ ] bytes ) {  <NL> for ( int i = 0 , len = bytes . length ; i < len ; )  <NL> for ( int rnd = next int ( ) ,  <NL> n = math . min ( len - i , integer . size / byte . size ) ;  <NL> n - - > 0 ; rnd > > = byte . size )  <NL> bytes [ i + + ] = ( byte ) rnd ;  <NL>  }  COM: <s> generates random bytes and places them into a user supplied </s>

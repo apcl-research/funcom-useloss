@@ -1,0 +1,1 @@
+TDAT: public void set property ( string for domain , string property name , string property value ) {  <NL> throw new runtime exception ( " set property ( ) is not implemented yet . " ) ;  <NL>  / / this . writer . add ( for domain , new property ( property name , property value , string _ name ) ) ;  <NL>  }  COM: <s> this method sets the given property for a given domain </s>

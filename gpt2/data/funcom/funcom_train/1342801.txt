@@ -1,0 +1,1 @@
+TDAT: public boolean border braces ( string expr ) {  <NL> boolean ret = false ;  <NL> if ( start pos = = 0 & & end pos = = expr . length ( ) - 1 ) ret = true ;  <NL> if ( debug ) trace ( " braces # border braces ( " + expr + " ) return = " , " " + ret ) ;  <NL> return ret ;  <NL>  }  COM: <s> indicates if the braces surround the whole expression </s>

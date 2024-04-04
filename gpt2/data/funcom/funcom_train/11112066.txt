@@ -1,0 +1,1 @@
+TDAT: public void test xml output ( ) throws exception {  <NL> string [ ] params = { " - x " , resorce prefix + " alice . cli . test " } ;  <NL> tika cli . main ( params ) ;  <NL> assert . assert true ( out content . to string ( ) . contains ( " ? xml version = \ " 1 . 0\ " encoding = \ " utf - 8\ " ? " ) ) ;  <NL>  }  COM: <s> tests x option of the cli </s>

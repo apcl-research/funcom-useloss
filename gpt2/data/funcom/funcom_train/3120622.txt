@@ -1,0 +1,1 @@
+TDAT: private int get key code ( string line ) {  <NL> int offset = 7 ; / / offset to get to n in key code n <NL> string key string = line . substring ( line . last index of ( " key code " ) + offset ,  <NL> line . index of ( " ] " ) ) ;  <NL> return integer . parse int ( key string ) ;  <NL>  }  COM: <s> parses and returns the key code for the key event of the line </s>

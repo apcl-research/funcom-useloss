@@ -1,0 +1,1 @@
+TDAT: private void write int ( data output stream out , int n ) throws io exception {  <NL> int result = ( ( n & 0x ff ) < < 24 ) | ( ( n & 0x ff00 ) < < 8 ) | ( ( n & 0x ff0000 ) > > 8 ) | ( ( n & 0x ff000000 ) > > 24 ) ;  <NL> out . write int ( result ) ;  <NL>  }  COM: <s> writes an int to the stream </s>

@@ -1,0 +1,1 @@
+TDAT: public boolean trigger on ( string source zone , string destintation zone ) {  <NL> return ( ( trigger zones [ 0 ] . equals ( " any " ) || trigger zones [ 0 ] . equals ( source zone ) ) & & ( trigger zones [ 1 ] . equals ( " any " ) || trigger zones [ 0 ] . equals ( source zone ) ) ) ;  <NL>  }  COM: <s> p trigger on </s>

@@ -1,0 +1,1 @@
+TDAT: public void set mail from default ( string sender ) {  <NL>  <NL> m _ mail from default = sender ;  <NL> if ( cms log . init . is info enabled ( ) ) {  <NL> cms log . init . info ( messages . get ( ) . get bundle ( ) . key ( messages . log _ default _ sender _ 1 , m _ mail from default ) ) ;  <NL>  }  <NL>  }  COM: <s> sets the mail from default sender </s>

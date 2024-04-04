@@ -1,0 +1,1 @@
+TDAT: public void notify txt media set ( osm element elt ) {  <NL> for ( int i = 0 ; i < m _ client list . size ( ) ; i + + ) {  <NL> osm element event listener lster = ( osm element event listener ) m _ client list . get ( i ) ;  <NL> lster . on txt media set ( new osm element event ( elt ) ) ;  <NL>  }  <NL>  }  COM: <s> to notify the set of a text media </s>

@@ -1,0 +1,1 @@
+TDAT: private void undeclare namespace ( int i , int j ) throws sax exception , xml pull parser exception {  <NL> for ( j - - ; j > = i ; j - - ) {  <NL> string prefix = pp . get namespace prefix ( j ) ;  <NL> if ( prefix = = null ) prefix = " " ;  <NL> handler . end prefix mapping ( prefix ) ;  <NL>  }  <NL>  }  COM: <s> undeclares namespace bindings between indices i j </s>

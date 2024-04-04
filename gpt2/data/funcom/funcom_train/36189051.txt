@@ -1,0 +1,1 @@
+TDAT: public void on service arrival ( service reference ref ) {  <NL> pss ipojo log ( " on service arrival " , ref , null ) ;  <NL> record rec = new record ( ref ) ;  <NL> m _ records . add ( rec ) ;  <NL>  / / always register the reference , as the method is call only when needed .  <NL> rec . register ( ) ;  <NL>  }  COM: <s> a new service is injected by the tracker </s>

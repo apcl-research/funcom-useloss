@@ -1,0 +1,1 @@
+TDAT: private void append to classpath ( string path ) {  <NL> string cp = system . get property ( " java . class . path " ) ;  <NL> if ( cp ! = null ) {  <NL> cp + = file . path separator char + path ;  <NL>  } else {  <NL> cp = path ;  <NL>  }  <NL> system . set property ( " java . class . path " , cp ) ;  <NL>  }  COM: <s> appends the given path to the classpath property </s>

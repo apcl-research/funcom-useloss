@@ -1,0 +1,1 @@
+TDAT: private string get integral id ( string id ) {  <NL> int end = id . index of ( ' . ' ) ; / / where ' s the decimal point <NL> if ( end = = - 1 ) return id ; / / no dec point , no change required <NL> return id . substring ( 0 , end ) ; / / else return its substring <NL>  }  COM: <s> strips off the non integral part of a case id </s>

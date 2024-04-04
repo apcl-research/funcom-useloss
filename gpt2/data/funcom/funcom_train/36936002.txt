@@ -1,0 +1,1 @@
+TDAT: public void set to identity ( ) {  <NL> position = new cc vector3f ( 0 . 0f , 0 . 0f , 0 . 0f ) ;  <NL> forward = new cc vector3f ( 0 . 0f , 0 . 0f , 1 . 0f ) ;  <NL> side = new cc vector3f ( 1 . 0f , 0 . 0f , 0 . 0f ) ;  <NL> up = new cc vector3f ( 0 . 0f , 1 . 0f , 0 . 0f ) ;  <NL>  }  COM: <s> initializes a new local space where all values are set to zero </s>

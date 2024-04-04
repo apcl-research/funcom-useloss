@@ -1,0 +1,1 @@
+TDAT: public l sort ( comparator < e > comparator ) {  <NL> final e [ ] a = ( e [ ] ) f list . to array ( ) ;  <NL> arrays . sort ( a , f start , f end , comparator ) ;  <NL> for ( int j = f start ; j < f end ; j + + ) {  <NL>  <NL> f list . set ( j , ( e ) a [ j ] ) ;  <NL>  }  <NL> return f list ;  <NL>  }  COM: <s> sorts the elements of the specified range in place i </s>

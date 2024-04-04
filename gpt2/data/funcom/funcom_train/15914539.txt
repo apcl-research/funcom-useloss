@@ -1,0 +1,1 @@
+TDAT: private void insert row ( int row ) {  <NL> item editor . set item ( new item ( new properties ( ) , " " ,  <NL> new arc ( " " , " " , " " ) , new properties ( ) ) ) ;  <NL> item editor . set row ( row ) ;  <NL> item editor . set insert ( true ) ;  <NL> item editor . set visible ( true ) ;  <NL>  }  COM: <s> insert new row in table i </s>

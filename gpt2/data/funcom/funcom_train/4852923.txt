@@ -1,0 +1,1 @@
+TDAT: public history ( history h ) {  <NL> this . history = new object [ h . history . length ] ;  <NL> system . arraycopy ( h . history , 0 , this . history , 0 , h . history . length ) ;  <NL> this . start = h . start ;  <NL> this . end = h . end ;  <NL> this . curr = h . curr ;  <NL>  }  COM: <s> make a duplicate of another history </s>

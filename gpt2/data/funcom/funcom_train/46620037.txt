@@ -1,0 +1,1 @@
+TDAT: private void log files ( vector file names , string file type ) {  <NL> log ( file type + " files found for import : " , msg _ verbose ) ;  <NL> for ( enumeration e = file names . elements ( ) ; e . has more elements ( ) ; ) {  <NL> log ( " " + e . next element ( ) , msg _ verbose ) ;  <NL>  }  <NL>  }  COM: <s> logs a list of file names to the message log </s>

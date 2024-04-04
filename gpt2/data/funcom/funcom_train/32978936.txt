@@ -1,0 +1,1 @@
+TDAT: public dimension get preferred size ( )  <NL>  { / * get preferred size * /  <NL> dimension d = new dimension ( def _ sp _ width , def _ sp _ height ) ;  <NL>  <NL>  / / if ( main panel ! = null )  <NL>  / / d = main panel . get preferred size ( ) ;  <NL>  <NL> return ( d ) ;  <NL>  } / * get preferred size * /  COM: <s> get preferred size get the preferred size </s>

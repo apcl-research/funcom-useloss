@@ -1,0 +1,1 @@
+TDAT: private void refresh opened nodes ( ) {  <NL> final data data = gui . context . data ;  <NL> opened = new boolean [ data . meta . size ] ;  <NL> final int is = data . meta . size ;  <NL> for ( int pre = 0 ; pre < is ; pre + + ) {  <NL> opened [ pre ] = data . parent ( pre , data . kind ( pre ) ) < = 0 ;  <NL>  }  <NL>  }  COM: <s> refreshes opened nodes </s>

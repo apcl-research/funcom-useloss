@@ -1,0 +1,1 @@
+TDAT: public void print tag ( string p _ name , string p _ contents ) {  <NL> write offset ( ) ;  <NL> write ( ' < ' ) ; / / we do not use open tag ( ) to avoid cr <NL> write ( p _ name ) ;  <NL> write ( ' > ' ) ;  <NL> print encoded ( p _ contents ) ;  <NL> write ( " < / " ) ;  <NL> write ( p _ name ) ;  <NL> writeln ( ' > ' ) ;  <NL>  }  COM: <s> prints an xml tag </s>

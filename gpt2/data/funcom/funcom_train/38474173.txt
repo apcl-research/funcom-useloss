@@ -1,0 +1,1 @@
+TDAT: private int month from name ( string method name ) {  <NL> string result ;  <NL> if ( method name . substring ( 0 , 2 ) . equals ( " rem " ) ) {  <NL> result = method name . substring ( 6 , 7 ) ;  <NL>  } else {  <NL> result = method name . substring ( 0 , 2 ) ;  <NL>  }  <NL> return integer . parse int ( result ) ;  <NL>  }  COM: <s> method month from method name </s>

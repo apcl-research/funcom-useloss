@@ -1,0 +1,1 @@
+TDAT: public double get max density ( ) {  <NL> double mode ;  <NL> if ( alpha < 1 ) mode = 0 . 01 ;  <NL> else if ( beta < = 1 ) mode = 0 . 99 ;  <NL> else mode = ( alpha - 1 ) / ( alpha + beta - 2 ) ;  <NL>  / / system . err . println ( " mode : " + mode ) ;  <NL> return probability ( mode ) ;  <NL>  }  COM: <s> compute the maximum get density </s>

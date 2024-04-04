@@ -1,0 +1,1 @@
+TDAT: public int get column count ( ) {  <NL> try {  <NL> return result set metadata . get column count ( ) ;  <NL>  } catch ( exception l ex ) {  <NL> j option pane . show message dialog ( null , l ex . get message ( ) , " exception " , j option pane . error _ message ) ;  <NL> return - 1 ;  <NL>  }  <NL>  }  COM: <s> how many columns is in a query </s>

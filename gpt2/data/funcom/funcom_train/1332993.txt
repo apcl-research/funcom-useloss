@@ -1,0 +1,1 @@
+TDAT: public cursor fetch ( string column ) throws sql exception {  <NL> cursor m cursor = m db . query ( true , database _ table , new string [ ] { column } , null , null , null , null , null , null ) ;  <NL> if ( m cursor ! = null )  <NL> m cursor . move to first ( ) ;  <NL> return m cursor ;  <NL>  }  COM: <s> fetch all values in a given column from the database </s>

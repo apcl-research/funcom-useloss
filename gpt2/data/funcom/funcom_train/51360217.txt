@@ -1,0 +1,1 @@
+TDAT: public int read ( int ack bit ) {  <NL> int i2c data ;  <NL>  <NL> i2c data = cpu . shift in ( sda pin , scl pin , 8 , cpu . pre _ clock _ msb ) ;  <NL>  / / send ack ( more reads ) or nak ( last read )  <NL> cpu . shift out ( sda pin , scl pin , 1 , cpu . shift _ lsb , ack bit ) ;  <NL>  <NL> return i2c data ;  <NL>  }  COM: <s> read 8 bit value from i2 c device </s>

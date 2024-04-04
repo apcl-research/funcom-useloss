@@ -1,0 +1,1 @@
+TDAT: protected void render selection handle ( satin graphics g , int x , int y ) {  <NL>  / / / / 1 . get the size of the handle .  <NL> int size = 6 ;  <NL>  <NL>  / / / / 2 . fill it in .  <NL> g . fill rect ( x - size / 2 , y - size / 2 , size , size ) ;  <NL>  } / / of method  COM: <s> paint a selection handle centered at the specified coordinate </s>

@@ -1,0 +1,1 @@
+TDAT: public void do exit ( ) {  <NL> print ( " pse exited at " + get timestamp ( ) + " \n - - - - - - - - \n " ) ;  <NL> try {  <NL> close ( ) ;  <NL>  } catch ( io exception t ) {  <NL> system . err . println ( " error while closing log file . " ) ;  <NL> t . print stack trace ( ) ;  <NL>  }  <NL>  }  COM: <s> prints the exit message </s>

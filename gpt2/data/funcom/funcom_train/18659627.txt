@@ -1,0 +1,1 @@
+TDAT: public void set name ( int t ) {  <NL> try {  <NL> if ( t < 0 ) return ;  <NL> name . add element ( new integer ( t ) ) ;  <NL>  }  <NL> catch ( exception e ) {  <NL> system . out . println ( " node base . set name ( " + t + " ) in = " + this + " e = " + e ) ;  <NL>  }  <NL>  }  COM: <s> set the name from symbol table entry </s>

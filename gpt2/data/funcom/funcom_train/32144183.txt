@@ -1,0 +1,1 @@
+TDAT: public void execute ( ) throws installer exception {  <NL> string reg key = install _ dir _ key + get version ( ) ;  <NL> set description ( new i18n key ( add _ registry _ message , add _ registry _ default _ message ) , get language ( ) , reg key ) ;  <NL> prefs . put ( reg key , install dir ) ;  <NL>  }  COM: <s> executes this operation </s>

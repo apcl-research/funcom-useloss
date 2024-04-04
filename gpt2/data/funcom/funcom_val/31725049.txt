@@ -1,0 +1,1 @@
+TDAT: public double line angle ( line2d l ) {  <NL> double dx = l . get x2 ( ) - l . get x1 ( ) ;  <NL> double dy = l . get y2 ( ) - l . get y1 ( ) ;  <NL> double a ;  <NL> if ( dx = = 0 )  <NL> a = math . pi / 2 . 0 ;  <NL> else if ( dy = = 0 )  <NL> a = math . pi ;  <NL> else <NL> a = math . atan ( dy / dx ) ;  <NL> return a ;  <NL>  }  COM: <s> global angle of a line </s>

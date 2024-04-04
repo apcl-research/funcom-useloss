@@ -1,0 +1,1 @@
+TDAT: public node clone node ( boolean force duplicate ) {  <NL> truncated cone c =  <NL>  / * , b draw caps * / new truncated cone ( radius1 , radius2 , height , flags ,  <NL> xdivisions , ydivisions ,  <NL> get appearance ( ) ) ;  <NL> c . duplicate node ( this , force duplicate ) ;  <NL>  <NL> return c ;  <NL>  }  COM: <s> used to create a new instance of the node </s>

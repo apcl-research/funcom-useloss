@@ -1,0 +1,1 @@
+TDAT: private j label get j label name ( ) {  <NL> if ( this . j label name = = null ) {  <NL> j label name = new j label ( ) ;  <NL> j label name . set focusable ( false ) ;  <NL> j label name . set font ( new java . awt . font ( " tahoma " , 0 , 30 ) ) ;  <NL>  }  <NL> return this . j label name ;  <NL>  }  COM: <s> returns a label to display the name of a plugin </s>

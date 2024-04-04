@@ -1,0 +1,1 @@
+TDAT: public jcv mat sub ( jcv mat mat ) throws matrix out of bounds exception {  <NL> jcv mat ret = new jcv mat ( num rows , num cols , num channels ) ;  <NL>  <NL> for ( int i = 0 ; i < data . length ; + + i ) {  <NL> ret . data [ i ] = data [ i ] - mat . data [ i ] ;  <NL>  }  <NL>  <NL> return ret ;  <NL>  }  COM: <s> matrix matrix subtraction </s>

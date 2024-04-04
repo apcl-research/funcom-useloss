@@ -1,0 +1,1 @@
+TDAT: public void set key ( string keyname ) {  <NL> boolean found = false ;  <NL> for ( key k : key . values ( ) ) {  <NL> if ( k . name ( ) = = keyname ) {  <NL> key = k ;  <NL> found = true ;  <NL>  }  <NL>  }  <NL> if ( ! found ) system . out . println ( " invalid keyname . . . setting key to c " ) ;  <NL>  }  COM: <s> sets the key of the song </s>

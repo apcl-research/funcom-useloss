@@ -1,0 +1,1 @@
+TDAT: public void print val ( print writer os , string space , boolean print _ decl _ p ) {  <NL> if ( print _ decl _ p ) {  <NL> print decl ( os , space , false ) ;  <NL> os . println ( " = " + val + " ; " ) ;  <NL>  } else <NL> os . print ( val ) ;  <NL>  }  COM: <s> prints the value of the variable with its declaration </s>

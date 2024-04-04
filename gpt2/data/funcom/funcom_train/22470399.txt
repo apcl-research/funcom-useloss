@@ -1,0 +1,1 @@
+TDAT: private string escape stuff ( string input ) {  <NL> string result = input . replace all ( " & " , " & amp ; " ) ;  <NL> result = result . replace all ( " < " , " & lt ; " ) ;  <NL> result = result . replace all ( " > " , " & gt ; " ) ;  <NL> return result ;  <NL>  }  COM: <s> nasty method for escaping amp lt and gt characters </s>

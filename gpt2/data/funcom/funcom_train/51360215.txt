@@ -1,0 +1,1 @@
+TDAT: public boolean write ( int i2c data ) {  <NL> int i2c ack ;  <NL>  <NL> cpu . shift out ( sda pin , scl pin , 8 , cpu . shift _ msb , ( i2c data < < 8 ) ) ;  <NL>  / / get ack bit <NL> i2c ack = cpu . shift in ( sda pin , scl pin , 1 , cpu . pre _ clock _ msb ) ;  <NL>  <NL> return ( i2c ack = = ack ) ;  <NL>  }  COM: <s> write 8 bit value to i2 c device </s>

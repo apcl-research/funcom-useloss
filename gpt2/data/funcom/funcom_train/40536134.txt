@@ -1,0 +1,1 @@
+TDAT: public int compare ( object arg0 , object arg1 ) {  <NL> int a = arg0 . hash code ( ) ;  <NL> int b = arg1 . hash code ( ) ;  <NL> int accum ;  <NL> if ( a = = b ) {  <NL> accum = 0 ;  <NL>  } else if ( a > b ) {  <NL> accum = 1 ;  <NL>  } else {  <NL> accum = - 1 ;  <NL>  }  <NL> return accum ;  <NL>  }  COM: <s> compares returns reverse hash order </s>

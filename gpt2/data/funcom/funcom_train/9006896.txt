@@ -1,0 +1,1 @@
+TDAT: private void apply data ( ) {  <NL> for ( int i = 0 ; i < chart x points array . length ; i + + ) {  <NL> chart . insert item ( " " , chart y points array [ i ] . int value ( ) , chart x points array [ i ] . int value ( ) , 0 , 0 , 255 ) ;  <NL>  }  <NL>  <NL>  }  COM: <s> commits the data line not the template lines onto the actual chart widget </s>

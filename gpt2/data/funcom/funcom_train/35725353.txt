@@ -1,0 +1,1 @@
+TDAT: public void highlight ( tool tool ) {  <NL> int i ;  <NL>  <NL> for ( i = 0 ; i < list . size ( ) ; + + i ) {  <NL> if ( tool . equals ( ( tool ) list . get ( i ) ) ) {  <NL> actual = ( tool ) list . get ( i ) ;  <NL> act num = i ;  <NL> return ;  <NL>  } else {  <NL> actual = null ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> highlights a tool for future usage </s>

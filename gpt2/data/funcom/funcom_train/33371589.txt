@@ -1,0 +1,1 @@
+TDAT: private int get bits ( integer range range ) {  <NL> int lo = integer . to binary string ( ( int ) range . get lower boundary ( ) ) . length ( ) ;  <NL> int hi = integer . to binary string ( ( int ) range . get upper boundary ( ) ) . length ( ) ;  <NL> return math . max ( lo , hi ) ;  <NL>  }  COM: <s> returns the minimum number of bits needed to cover the given range </s>

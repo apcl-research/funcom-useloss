@@ -1,0 +1,1 @@
+TDAT: private void send chunk ( byte [ ] b , int off , int len ) throws io exception {  <NL> out . write ( integer . to hex string ( len ) . get bytes ( ) ) ;  <NL> out . write ( crlf ) ;  <NL> out . write ( b , off , len ) ;  <NL> out . write ( crlf ) ;  <NL>  }  COM: <s> send a chunk </s>

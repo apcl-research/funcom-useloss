@@ -1,0 +1,1 @@
+TDAT: public void put bot ( brain bot b ) {  <NL> int x = idx x ( b . get x ( ) ) ; / / coordinates of the cell <NL> int y = idx y ( b . get y ( ) ) ;  <NL>  <NL> if ( x < 0 || x > = width || y < 0 || y > = height ) {  <NL> unaligned . add ( b ) ;  <NL>  } else {  <NL> get ( x , y ) . add ( b ) ;  <NL>  }  <NL>  }  COM: <s> put the bot to the right cell </s>

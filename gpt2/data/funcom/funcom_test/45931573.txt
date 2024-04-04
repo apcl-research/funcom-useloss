@@ -1,0 +1,1 @@
+TDAT: public void test size ( ) {  <NL> assert equals ( " size of raw " , 10 , raw . size ( ) ) ;  <NL> assert equals ( " size of subset1 " , 5 , subset1 . size ( ) ) ;  <NL> assert equals ( " size of subset2 " , 3 , subset2 . size ( ) ) ;  <NL>  }  COM: <s> test of size method of class dataset raw </s>

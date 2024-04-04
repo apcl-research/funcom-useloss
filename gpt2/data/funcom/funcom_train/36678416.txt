@@ -1,0 +1,1 @@
+TDAT: private void init tiles ( ) {  <NL> tiles . clear ( ) ;  <NL> for ( int col = 0 ; col < cols ; col + + ) {  <NL> list < t > row list = new array list < t > ( rows ) ;  <NL> for ( int row = 0 ; row < rows ; row + + ) {  <NL> row list . add ( null ) ;  <NL>  }  <NL> tiles . add ( row list ) ;  <NL>  }  <NL>  }  COM: <s> fills the map with null tiles </s>

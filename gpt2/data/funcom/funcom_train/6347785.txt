@@ -1,0 +1,1 @@
+TDAT: public void draw oval ( int x , int y , int w , int h ) {  <NL> java . awt . graphics graphics = screen . get graphics ( ) ;  <NL> graphics . draw oval ( x , y , w , h ) ;  <NL>  } / / draw oval ( int x , int y , int w , int h )  COM: <s> draws an oval </s>

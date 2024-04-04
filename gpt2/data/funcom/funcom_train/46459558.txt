@@ -1,0 +1,1 @@
+TDAT: public void write doc type ( writer out ) {  <NL> try {  <NL> output = new buffered writer ( out ) ;  <NL> output . write ( xml . get dtd ( get doctype ( ) ) ) ;  <NL> output . flush ( ) ;  <NL> output . close ( ) ;  <NL>  } catch ( io exception ex ) {  <NL> osp log . info ( ex . get message ( ) ) ;  <NL>  }  <NL>  }  COM: <s> writes the dtd to a writer </s>

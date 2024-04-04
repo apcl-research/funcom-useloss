@@ -1,0 +1,1 @@
+TDAT: public void move ( sprite sprite , double start p , double end p , int duration ) {  <NL> move as fixed ( null , sprite , false , core math . to fixed ( start p ) , core math . to fixed ( end p ) ,  <NL> duration , null , 0 ) ;  <NL>  }  COM: <s> moves a sprite along this path </s>

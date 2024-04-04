@@ -1,0 +1,1 @@
+TDAT: protected short get button ( graphics node mouse event evt ) {  <NL> short button = 1 ;  <NL> if ( ( evt . button1 _ mask & evt . get modifiers ( ) ) ! = 0 ) {  <NL> button = 0 ;  <NL>  } else if ( ( evt . button3 _ mask & evt . get modifiers ( ) ) ! = 0 ) {  <NL> button = 2 ;  <NL>  }  <NL> return button ;  <NL>  }  COM: <s> returns the mouse event button </s>

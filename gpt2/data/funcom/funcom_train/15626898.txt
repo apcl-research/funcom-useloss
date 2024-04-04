@@ -1,0 +1,1 @@
+TDAT: private void fire pickmap modified changed ( final int index , @ not null final map file < g , a , r > map file ) {  <NL> for ( final pickmap chooser model listener < g , a , r > listener : listeners ) {  <NL> listener . pickmap modified changed ( index , map file ) ;  <NL>  }  <NL>  }  COM: <s> notifies all listeners that a pickmap has been modified </s>

@@ -1,0 +1,1 @@
+TDAT: public string to string ( tag tag ) {  <NL> string ret = " " ;  <NL> if ( tag . text ( ) ! = null & & tag . text ( ) . length ( ) > 0 ) {  <NL> ret = string . format ( " < dt > < b > % s < / b > < dd > < ul > % s < / ul > " , header , format ( tag ) ) ;  <NL>  }  <NL> return ret ;  <NL>  }  COM: <s> given the code tag code representation of this custom </s>

@@ -1,0 +1,1 @@
+TDAT: public void set nick ( string nick ) throws java . beans . property veto exception {  <NL> string old nick = this . nick ;  <NL> vetoable change support . fire vetoable change ( prop _ nick , old nick , nick ) ;  <NL> this . nick = nick ;  <NL> property change support . fire property change ( prop _ nick , old nick , nick ) ;  <NL>  }  COM: <s> set the value of nick </s>

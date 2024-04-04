@@ -1,0 +1,1 @@
+TDAT: public void set position and angle ( vec2d p , double a ) {  <NL> for ( int i = 0 ; i < base vec list . size ( ) ; i + + ) {  <NL> vec2d v = base vec list . get ( i ) . get rotated ( a ) . get added ( p ) ;  <NL> dyn vec list . get ( i ) . get position ( ) . become ( v ) ;  <NL>  }  <NL>  }  COM: <s> sets rigid body dynamic shape according to given position and angle </s>

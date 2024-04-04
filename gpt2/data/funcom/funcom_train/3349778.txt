@@ -1,0 +1,1 @@
+TDAT: private void invoke java method ( vm method method ) {  <NL> if ( log ) {  <NL> os . log ( " v stack : " + vstack + " , method : " + method ) ;  <NL>  }  <NL> helper . invoke java method ( method ) ;  <NL>  / / test the stack alignment <NL> stack frame . write stack alignment test ( get cur instr label ( ) ) ;  <NL>  }  COM: <s> generate code to invoke the given method </s>

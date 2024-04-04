@@ -1,0 +1,1 @@
+TDAT: public void set action ( integer state , string a , action action ) {  <NL> if ( action = = null ) {  <NL> set actions ( state , a , null ) ;  <NL>  }  <NL> else {  <NL> set < action > la = new hash set < action > ( ) ;  <NL> la . add ( action ) ;  <NL> set actions ( state , a , la ) ;  <NL>  }  <NL>  }  COM: <s> sets the action for the given state and terminal </s>

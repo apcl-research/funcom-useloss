@@ -1,0 +1,1 @@
+TDAT: public void put4 ( int pc , int od ) {  <NL>  / / pre : pc + 4 < = cp <NL> put1 ( pc , od > > 24 ) ;  <NL> put1 ( pc + 1 , od > > 16 ) ;  <NL> put1 ( pc + 2 , od > > 8 ) ;  <NL> put1 ( pc + 3 , od ) ;  <NL>  }  COM: <s> place four bytes into code at address pc </s>

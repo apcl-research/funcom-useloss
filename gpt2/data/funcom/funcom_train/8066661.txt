@@ -1,0 +1,1 @@
+TDAT: public boolean can connect to ( graph model gm , object another port ) {  <NL> net node my node = get parent node ( ) ;  <NL> net node other node = ( ( net port ) another port ) . get parent node ( ) ;  <NL> return my node . can connect to ( gm , other node , another port , this ) ;  <NL>  }  COM: <s> reply true if this port can legally be connected to the given port </s>

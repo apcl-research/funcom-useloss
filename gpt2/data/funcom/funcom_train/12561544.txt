@@ -1,0 +1,1 @@
+TDAT: protected void pointer pressed ( int x , int y ) {  <NL> int pressed id ;  <NL> pressed id = get id at pointer position ( x , y ) ;  <NL>  / / move focus to the clicked position <NL> if ( pressed id < symbol table chars . length & & pressed id > = 0 ) {  <NL> newpos = pressed id ;  <NL> repaint ( ) ;  <NL>  }  <NL>  }  COM: <s> move focus to the symbol </s>

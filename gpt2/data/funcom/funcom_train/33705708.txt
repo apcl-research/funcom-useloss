@@ -1,0 +1,1 @@
+TDAT: public void set name ( string name ) {  <NL> logger . entering ( " project " , " set name " , name ) ;  <NL>  <NL> if ( name = = null ) {  <NL> throw new illegal argument exception ( " name should not be null " ) ;  <NL>  }  <NL>  <NL> this . name = name ;  <NL> logger . exiting ( " project " , " set name " , this . name ) ;  <NL>  }  COM: <s> changes the name of this </s>

@@ -1,0 +1,1 @@
+TDAT: private void invert y axis ( ) {  <NL> if ( wcs ! = null & & yunits ! = null & & yunits . is inverted ( ) ) {  <NL> wcs = new viewport ( wcs . get x min ( ) , wcs . get x max ( ) ,  <NL> wcs . get y max ( ) , wcs . get y min ( ) ) ;  <NL>  }  <NL>  }  COM: <s> checks if the y axis is inverted and change viewport accordingly </s>

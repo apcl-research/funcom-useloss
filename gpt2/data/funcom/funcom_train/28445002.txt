@@ -1,0 +1,1 @@
+TDAT: public void report warning ( string s ) {  <NL> if ( get filename ( ) = = null ) {  <NL> x . java . lang . system . err ( ) . println ( " warning : " + s ) ;  <NL>  }  <NL> else {  <NL> x . java . lang . system . err ( ) . println ( get filename ( ) + " : warning : " + s ) ;  <NL>  }  <NL>  }  COM: <s> parser warning reporting function can be overridden in subclass </s>

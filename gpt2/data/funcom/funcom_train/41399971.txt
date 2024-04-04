@@ -1,0 +1,1 @@
+TDAT: public void set list ( list list ) {  <NL> int index old = delegate . size ( ) - 1 ;  <NL> int index new = list . size ( ) - 1 ;  <NL> this . delegate = list ;  <NL> fire interval removed ( this , 0 , index old ) ;  <NL> fire interval added ( this , 0 , index new ) ;  <NL>  }  COM: <s> sets the code java </s>

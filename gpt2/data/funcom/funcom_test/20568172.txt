@@ -1,0 +1,1 @@
+TDAT: private string get pid ( task attempt id tip id ) {  <NL> path pid file name = get pid file path ( tip id , task tracker . get job conf ( ) ) ;  <NL> if ( pid file name = = null ) {  <NL> return null ;  <NL>  }  <NL> return procfs based process tree . get pid from pid file ( pid file name . to string ( ) ) ;  <NL>  }  COM: <s> load pid of the task from the pid file </s>

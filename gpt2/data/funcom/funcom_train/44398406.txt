@@ -1,0 +1,1 @@
+TDAT: public void send game over ( string winner , user id user id ) {  <NL> document game over message = ( document ) game _ over _ template . clone ( ) ;  <NL> game over message . select single node ( " / / message / name " ) . set text ( winner ) ;  <NL> send with confirmation ( user id , game over message ) ;  <NL>  }  COM: <s> sends game over message </s>

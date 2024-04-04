@@ -1,0 +1,1 @@
+TDAT: public void set port ( integer port ) throws java . beans . property veto exception {  <NL> integer old port = this . port ;  <NL> vetoable change support . fire vetoable change ( prop _ port , old port , port ) ;  <NL> this . port = port ;  <NL> property change support . fire property change ( prop _ port , old port , port ) ;  <NL>  }  COM: <s> set the value of port </s>

@@ -1,0 +1,1 @@
+TDAT: final public void add pred ( pred class profile q ) {  <NL> int i ;  <NL>  <NL> if ( residues ( ) ! = q . residues ( ) ) return ;  <NL>  <NL> for ( i = 0 ; i < residues ( ) ; i + + ) {  <NL> aa ( i ) . pred h + = q . aa ( i ) . pred h ;  <NL> aa ( i ) . pred e + = q . aa ( i ) . pred e ;  <NL>  }  <NL>  }  COM: <s> add h and e predictions together for 2 proteins </s>

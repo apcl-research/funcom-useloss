@@ -1,0 +1,1 @@
+TDAT: public void back ( ) throws json exception {  <NL> if ( use previous || index < = 0 ) {  <NL> throw new json exception ( " stepping back two steps is not supported " ) ; / / $ non - nls - 1 $  <NL>  }  <NL> this . index - = 1 ;  <NL> this . character - = 1 ;  <NL> this . use previous = true ;  <NL> this . eof = false ;  <NL>  }  COM: <s> back up one character </s>

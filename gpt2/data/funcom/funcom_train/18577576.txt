@@ -1,0 +1,1 @@
+TDAT: private void invert ( int [ ] dist ) {  <NL> int carry = 0 ;  <NL> long diff ;  <NL> for ( int i = 0 ; i < nlen ; i + + ) {  <NL> diff = dist [ i ] & 0x0ffffffff l ;  <NL> diff = 0l - diff - carry ;  <NL> if ( diff < 0 ) carry = 1 ;  <NL> dist [ i ] = ( int ) diff ;  <NL>  }  <NL>  }  COM: <s> inverts the distance value stored in an integer array computes 0 value </s>

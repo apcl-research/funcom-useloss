@@ -1,0 +1,1 @@
+TDAT: private void is fact ( kb entry entry ) {  <NL>  <NL> if ( ! entry . get top level nodes ( ) . is empty ( ) ) {  <NL> for ( ast node node : entry . get top level nodes ( ) )  <NL> if ( ! checker . is ground ( node ) )  <NL> return ;  <NL> entry . put ( " is fact " , boolean . true ) ;  <NL>  }  <NL>  }  COM: <s> this method looks if a constant is a fact </s>

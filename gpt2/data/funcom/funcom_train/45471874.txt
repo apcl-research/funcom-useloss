@@ -1,0 +1,1 @@
+TDAT: public int hash code ( ) {  <NL> int hash = 17 ;  <NL> hash = 17 * get field name ( ) . hash code ( ) ;  <NL> hash = hash * 17 * get field type ( ) . hash code ( ) ;  <NL> if ( get handler ( ) ! = null ) { hash = hash * 17 * get handler ( ) . hash code ( ) ; }  <NL> return hash ;  <NL>  }  COM: <s> returns the hash code for this xmlfield descriptor </s>

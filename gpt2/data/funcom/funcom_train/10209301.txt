@@ -1,0 +1,1 @@
+TDAT: public boolean contains ( envelope other ) {  <NL> if ( is null ( ) || other . is null ( ) ) { return false ; }  <NL> return other . get min x ( ) > = minx & &  <NL> other . get max x ( ) < = maxx & &  <NL> other . get min y ( ) > = miny & &  <NL> other . get max y ( ) < = maxy ;  <NL>  }  COM: <s> returns code true code if the code envelope other code </s>

@@ -1,0 +1,1 @@
+TDAT: public void set stroke ( basic stroke stroke ) {  <NL> if ( stroke = = null ) return ;  <NL> this . stroke = new basic stroke ( stroke . get line width ( ) ,  <NL> basic stroke . cap _ butt ,  <NL> basic stroke . join _ miter ,  <NL> 8 ,  <NL> stroke . get dash array ( ) ,  <NL> stroke . get dash phase ( ) ) ;  <NL>  <NL>  }  COM: <s> overrides tpoint set stroke method </s>

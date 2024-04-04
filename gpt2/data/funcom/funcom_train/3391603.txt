@@ -1,0 +1,1 @@
+TDAT: private void write step ( int indent ) {  <NL> print ( spaces ( 4 * indent - 2 ) ) ;  <NL> print ( " < img src = \ " " + relativepath no slash + " / resources / inherit . gif\ " " +  <NL>  " alt = \ " " + configuration . get text ( " doclet . extended _ by " ) + " \ " > " ) ;  <NL>  }  COM: <s> generate the indent and get the line image for the class tree </s>

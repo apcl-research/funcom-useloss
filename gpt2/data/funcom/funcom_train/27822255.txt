@@ -1,0 +1,1 @@
+TDAT: public void add selection interval ( int index0 , int index1 ) {  <NL> if ( index0 = = - 1 || index1 = = - 1 )  <NL> return ;  <NL> update changed indices ( index0 , index1 ) ;  <NL> add selection interval internal ( index0 , index1 ) ;  <NL> fire value changed ( index0 , index1 , get value is adjusting ( ) ) ;  <NL>  }  COM: <s> adds an interval to the selection </s>

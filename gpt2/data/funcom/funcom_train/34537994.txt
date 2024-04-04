@@ -1,0 +1,1 @@
+TDAT: public void add order by field ( string _ field ) {  <NL> query field structure p = new query field structure ( _ field , " " , " " , " orderby " ) ;  <NL> if ( this . order by = = null ) this . order by = new vector < query field structure > ( ) ;  <NL> this . order by . add element ( p ) ;  <NL>  }  COM: <s> adds a field to the order by clause </s>

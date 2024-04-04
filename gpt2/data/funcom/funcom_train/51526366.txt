@@ -1,0 +1,1 @@
+TDAT: private j tabbed pane get menu tabs ( ) {  <NL> if ( menu tabs = = null ) {  <NL> menu tabs = new j tabbed pane ( ) ;  <NL> menu tabs . add tab ( " menu " , null , get menu tab ( ) , null ) ;  <NL> menu tabs . add tab ( " dishes " , null , get detail tab ( ) , null ) ;  <NL>  }  <NL> return menu tabs ;  <NL>  }  COM: <s> this method initializes menu tabs </s>

@@ -1,0 +1,1 @@
+TDAT: public boolean delete ( long data filter id ) {  <NL> if ( data filter id = = null ) {  <NL> throw new illegal argument exception ( " primary key null . " ) ;  <NL>  }  <NL>  / / set the where args to null here .  <NL> return database . delete ( database _ table , key _ datafilterid + " = " + data filter id , null ) > 0 ;  <NL>  }  COM: <s> delete a data filter record </s>

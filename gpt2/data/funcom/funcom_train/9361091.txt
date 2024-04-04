@@ -1,0 +1,1 @@
+TDAT: public void print short string ( print writer pw ) {  <NL> pw . print ( ' [ ' ) ; pw . print ( left ) ; pw . print ( ' , ' ) ;  <NL> pw . print ( top ) ; pw . print ( " ] [ " ) ; pw . print ( right ) ;  <NL> pw . print ( ' , ' ) ; pw . print ( bottom ) ; pw . print ( ' ] ' ) ;  <NL>  }  COM: <s> print short representation to given writer </s>

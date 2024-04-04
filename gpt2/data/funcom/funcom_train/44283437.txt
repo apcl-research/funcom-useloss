@@ -1,0 +1,1 @@
+TDAT: private void add patch name panel ( j panel parent panel , patch patch ) {  <NL> j panel patch name panel = new j panel ( ) ;  <NL> parent panel . add ( patch name panel ) ;  <NL> add widget ( patch name panel , new patch name widget ( " program name " , patch ) , 0 , 0 , 1 , 1 , 1 ) ;  <NL>  }  COM: <s> adds the patch name panel to the left edit panel </s>

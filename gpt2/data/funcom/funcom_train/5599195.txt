@@ -1,0 +1,1 @@
+TDAT: protected string clean special character ( string s ) {  <NL> if ( s ! = null ) {  <NL> s = s . replace ( ' é ' , ' e ' ) ;  <NL> s = s . replace ( ' è ' , ' e ' ) ;  <NL> s = s . replace ( ' à ' , ' a ' ) ;  <NL> s = s . replace ( ' é ' , ' e ' ) ;  <NL>  }  <NL> return s ;  <NL>  }  COM: <s> a utility method whitch replace the special character </s>

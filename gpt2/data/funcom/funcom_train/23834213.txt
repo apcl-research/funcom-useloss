@@ -1,0 +1,1 @@
+TDAT: public boolean is distant between ( int begin , int end ) {  <NL> string s = input . substring ( begin , end ) . replace all ( " < drug > | < pse > " , " " ) ;  <NL> return ! s . matches ( " ( \\sand\\s ) | ( \\sor\\s ) | ( , ) | ( , \\s ) | ( \\s , \\s ) " ) ;  <NL>  }  COM: <s> return true if exist other than and or ignoring drug and pse </s>

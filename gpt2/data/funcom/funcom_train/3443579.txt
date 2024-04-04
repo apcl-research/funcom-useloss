@@ -1,0 +1,1 @@
+TDAT: public void set column ( number column column ) {  <NL> if ( column = = this . column )  <NL> return ;  <NL> if ( this . column ! = null )  <NL> this . column . remove change listener ( this ) ;  <NL> this . column = column ;  <NL> if ( this . column ! = null )  <NL> this . column . add change listener ( this ) ;  <NL> update ( ) ;  <NL>  }  COM: <s> sets the column </s>

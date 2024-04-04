@@ -1,0 +1,1 @@
+TDAT: public void test xml ( ) {  <NL> check ( xml , " < root > < / root > " , 0 , test dtoa . class ) ;  <NL> check ( xml , " < test dtoa > < field a > a < / field a > < field b > b < / field b > < / test dtoa > " , 1 , test dtoa . class ) ;  <NL>  }  COM: <s> tests full cycle for xml </s>

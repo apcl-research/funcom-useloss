@@ -1,0 +1,1 @@
+TDAT: public long write pdf ( output stream os ) throws io exception {  <NL> float ft = new float ( _ f ) ;  <NL> int x = ft . int value ( ) ;  <NL> if ( ( float ) x = = _ f ) {  <NL> return write ( os , new integer ( x ) ) ;  <NL>  } else {  <NL> return write ( os , ft ) ;  <NL>  }  <NL>  }  COM: <s> writes this number object to a stream in pdf format </s>

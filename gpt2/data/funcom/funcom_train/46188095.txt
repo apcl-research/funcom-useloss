@@ -1,0 +1,1 @@
+TDAT: public static page load static page ( blog blog , string page id ) throws persistence exception {  <NL> file path = new file ( get path ( blog , page id ) ) ;  <NL> file file = new file ( path , page id + static _ page _ file _ extension ) ;  <NL> return load static page ( blog , file ) ;  <NL>  }  COM: <s> loads a specific static page </s>

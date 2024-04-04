@@ -1,0 +1,1 @@
+TDAT: public void fire network event ( int start , int end , int col , int type ) {  <NL> if ( listeners . is empty ( ) ) {  <NL> return ;  <NL>  }  <NL> for ( network listener listnr : listeners ) {  <NL> listnr . network changed ( this , start , end , col , type ) ;  <NL>  }  <NL>  }  COM: <s> notifies changes to listener </s>

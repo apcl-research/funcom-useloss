@@ -1,0 +1,1 @@
+TDAT: protected void check parameter count ( annotation a , method method , int num ) {  <NL> type [ ] ptypes = method . get generic parameter types ( ) ;  <NL> if ( ptypes . length ! = num )  <NL> throw new invalid annotation exception ( a , method , " method does not take exactly " + num + " parameter ( s ) " ) ;  <NL>  }  COM: <s> check parameter count </s>

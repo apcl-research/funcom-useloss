@@ -1,0 +1,1 @@
+TDAT: public boolean is vertex at ( float x , float y , float margin ) {  <NL> for ( float [ ] point : get points ( ) ) {  <NL> if ( math . abs ( x - point [ 0 ] ) < = margin & & math . abs ( y - point [ 1 ] ) < = margin ) {  <NL> return true ;  <NL>  }  <NL>  }  <NL> return false ;  <NL>  }  COM: <s> returns code true code if one of the vertex of this piece is </s>

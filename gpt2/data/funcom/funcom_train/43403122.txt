@@ -1,0 +1,1 @@
+TDAT: public int compare to ( form other ) {  <NL> if ( equals ( other ) ) {  <NL> return 0 ;  <NL>  }  <NL> else if ( get type ( ) = = other . get type ( ) ) {  <NL> return get name ( ) . compare to ( other . get name ( ) ) ;  <NL>  }  <NL> else {  <NL> return get type ( ) - other . get type ( ) ;  <NL>  }  <NL>  }  COM: <s> compares two forms </s>

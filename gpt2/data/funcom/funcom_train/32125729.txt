@@ -1,0 +1,1 @@
+TDAT: public boolean link occurs in path ( int i , int j , vector < integer > solution ) {  <NL> for ( int k = 0 ; k < solution . size ( ) - 1 ; k + + ) {  <NL> if ( solution . get ( k ) = = i & & solution . get ( k + 1 ) = = j ) {  <NL> return true ;  <NL>  }  <NL>  }  <NL> return false ;  <NL>  }  COM: <s> determine whether a link i j exists in a vector </s>

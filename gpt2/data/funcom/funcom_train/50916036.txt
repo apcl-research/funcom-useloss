@@ -1,0 +1,1 @@
+TDAT: public void write html ( writer w ) throws io exception {  <NL> w . write ( " \n < tr > " ) ;  <NL> cml elements < cml table cell > table cells = this . get table cell elements ( ) ;  <NL> for ( cml table cell table cell : table cells ) {  <NL> table cell . write html ( w ) ;  <NL>  }  <NL> w . write ( " < / tr > " ) ;  <NL>  }  COM: <s> write row to html table </s>

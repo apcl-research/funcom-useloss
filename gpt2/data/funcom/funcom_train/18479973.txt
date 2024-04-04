@@ -1,0 +1,1 @@
+TDAT: public poly coll flip ( ) {  <NL> collection < poly > pcoll = new array list < poly > ( ) ;  <NL> for ( int j = 0 ; j < polys . length ; j + + ) {  <NL> poly t = polys [ j ] ;  <NL> poly p = t . flip ( ) ;  <NL> pcoll . add ( p ) ;  <NL>  }  <NL> return new poly coll ( this . p . flip ( ) , pcoll ) ;  <NL>  }  COM: <s> returns the flipped version of the poly coll </s>

@@ -1,0 +1,1 @@
+TDAT: protected node find node ( e e ) {  <NL> node node = root ;  <NL> while ( node ! = null ) {  <NL> int c = compare ( e , node . value ) ;  <NL> if ( c = = 0 )  <NL> return node ;  <NL> else if ( c < 0 )  <NL> node = node . left ;  <NL> else / / c > 0 <NL> node = node . right ;  <NL>  }  <NL> return node ;  <NL>  }  COM: <s> find element node in the tree </s>

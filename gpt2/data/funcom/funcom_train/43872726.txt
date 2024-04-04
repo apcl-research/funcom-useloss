@@ -1,0 +1,1 @@
+TDAT: public modification map get modification map ( ) {  <NL> if ( i mod map = = null ) {  <NL> i mod map = new modification map ( i xt parser . get raw mod map ( ) , this . get peptide map ( ) , this . get input parameters ( ) , i xt parser . get number of spectra ( ) ) ;  <NL>  }  <NL> return i mod map ;  <NL>  }  COM: <s> this method returns the modification hash map </s>

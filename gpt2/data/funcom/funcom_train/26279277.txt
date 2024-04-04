@@ -1,0 +1,1 @@
+TDAT: public void set pixel ( int x , int y , byte [ ] pixel ) throws j gimp exception {  <NL> m _ app . call procedure ( " gimp _ drawable _ set _ pixel " , this , new j gimp int32 ( x ) , new j gimp int32 ( y ) , pixel ) ;  <NL>  }  COM: <s> sets the pixel at the given location </s>

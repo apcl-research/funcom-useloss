@@ -1,0 +1,1 @@
+TDAT: public void set data ( byte buffer data ) {  <NL> for ( int i = 0 ; i < offsets . length ; i + + ) {  <NL> if ( is long format ( ) ) {  <NL> offsets [ i ] = data . get int ( ) ;  <NL>  } else {  <NL> offsets [ i ] = 2 * ( 0x ffff & ( int ) data . get short ( ) ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> initialize this structure from a byte buffer </s>

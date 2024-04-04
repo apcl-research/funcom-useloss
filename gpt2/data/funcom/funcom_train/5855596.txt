@@ -1,0 +1,1 @@
+TDAT: private void write short ( int value , output stream out ) throws io exception {  <NL> if ( order = = byte order . big _ endian ) {  <NL> out . write ( value > > > 8 ) ;  <NL> out . write ( value ) ;  <NL>  } else {  <NL> out . write ( value ) ;  <NL> out . write ( value > > > 8 ) ;  <NL>  }  <NL>  }  COM: <s> write the given short to the given output stream </s>

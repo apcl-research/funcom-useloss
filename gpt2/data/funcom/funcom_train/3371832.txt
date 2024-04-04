@@ -1,0 +1,1 @@
+TDAT: public void set location ( int x , int y ) {  <NL> int old x = desired location x ;  <NL> int old y = desired location y ;  <NL>  <NL> desired location x = x ;  <NL> desired location y = y ;  <NL> if ( popup ! = null & & ( x ! = old x || y ! = old y ) ) {  <NL> popup = get popup ( ) ;  <NL>  }  <NL>  }  COM: <s> sets the location of the upper left corner of the </s>

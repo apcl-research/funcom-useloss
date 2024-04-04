@@ -1,0 +1,1 @@
+TDAT: public i category get root category ( ) {  <NL> category cat = new category ( this , catalog ) ;  <NL> cat . set id ( 0 ) ;  <NL> cat . set name ( " " ) ;  <NL> cat . set path ( " " ) ;  <NL> cat . set icon path ( doc . get root element ( ) . get attribute value ( " icon " ) ) ;  <NL> return cat ;  <NL>  }  COM: <s> get the root category also known as adamo </s>

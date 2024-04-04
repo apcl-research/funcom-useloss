@@ -1,0 +1,1 @@
+TDAT: public boolean connect ( ) throws xmpp exception , java . net . unknown host exception {  <NL> xmpp con = new xmpp connection ( set connection ( this . get target inet address ( ) , this . get target port ( ) ) ) ;  <NL> xmpp con . login ( this . get username ( ) , this . get password ( ) ) ;  <NL>  <NL> return true ;  <NL>  }  COM: <s> try to connect to the service </s>

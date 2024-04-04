@@ -1,0 +1,1 @@
+TDAT: public void log info ( string msg ) {  <NL> if ( msg = = null )  <NL> msg = " " ; / / $ non - nls - 1 $  <NL> get log ( ) . log ( new status ( i status . info , get bundle ( ) . get symbolic name ( ) , i status . ok , msg , null ) ) ;  <NL>  }  COM: <s> log an info message </s>

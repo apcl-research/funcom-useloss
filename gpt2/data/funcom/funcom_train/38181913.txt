@@ -1,0 +1,1 @@
+TDAT: public void set ( int _ index , long _ value ) {  <NL> if ( _ index < 0 || _ index > = size )  <NL> throw new index out of bounds exception ( " index : " + _ index + " size : " + size ) ;  <NL> long [ ] target = ( long [ ] ) root . get ( _ index > > 7 ) ;  <NL> target [ _ index & 127 ] = _ value ; / / _ index % 128 <NL>  }  COM: <s> sets a value at a specific position </s>

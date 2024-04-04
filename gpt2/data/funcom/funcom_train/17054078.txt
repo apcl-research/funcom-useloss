@@ -1,0 +1,1 @@
+TDAT: public bn field2 cbrt ( ) {  <NL> if ( this . is zero ( ) ) {  <NL> return this ;  <NL>  }  <NL> bn field2 r = this . exp ( bn . cbrt exponent2 ) ; / / r = v ^ { ( p ^ 2 + 2 ) / 9 }  <NL> return r . cube ( ) . subtract ( this ) . is zero ( ) ? r : null ;  <NL>  }  COM: <s> compute a cube root of this </s>

@@ -1,0 +1,1 @@
+TDAT: public int depth ( tree node ) {  <NL> tree p = node . parent ( this ) ;  <NL> if ( this = = node ) { return 0 ; }  <NL> if ( p = = null ) { return - 1 ; }  <NL> int depth = 1 ;  <NL> while ( this ! = p ) {  <NL> p = p . parent ( this ) ;  <NL> depth + + ;  <NL>  }  <NL> return depth ;  <NL>  }  COM: <s> finds the distance from this node to the specified node </s>

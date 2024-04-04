@@ -1,0 +1,1 @@
+TDAT: public int add prefix and uri ( string prefix , string uri ) {  <NL> if ( ! uri tables . contains key ( uri ) ) {  <NL> prefix tables . put ( prefix , uri ) ;  <NL> uri tables . put ( uri , new tables ( ) ) ;  <NL>  }  <NL> uri st . add string ( uri ) ;  <NL> return prefix st . add string ( prefix ) ;  <NL>  }  COM: <s> adds a new namespace to the namespace table </s>

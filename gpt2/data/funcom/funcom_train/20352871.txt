@@ -1,0 +1,1 @@
+TDAT: private j separator get sline ( int i ) {  <NL> j separator line = new j separator ( ) ;  <NL> line . set bounds ( ( i = = 1 ) ? ( new rectangle ( - 1 , 268 , 453 , 10 ) )  <NL>  : ( new rectangle ( - 1 , 36 , 448 , 10 ) ) ) ; / / three @ ivan <NL> return line ;  <NL>  }  COM: <s> create a separate line </s>

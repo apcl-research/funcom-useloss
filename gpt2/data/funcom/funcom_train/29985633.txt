@@ -1,0 +1,1 @@
+TDAT: public void read crlf ( ) throws io exception {  <NL> int cr = read ( ) ;  <NL> int lf = read ( ) ;  <NL> if ( cr ! = 13 & & lf ! = 10 ) / / well could check for ' \r ' and ' \n ' but the spec say it should be 13 and 10 ! .  <NL> throw new io exception ( " could not read crlf correctly : " + cr + " , " + lf ) ;  <NL>  }  COM: <s> read of an cr lf combination </s>

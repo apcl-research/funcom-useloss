@@ -1,0 +1,1 @@
+TDAT: public void test interval with gen action ( ) {  <NL> sch . schedule action at interval ( 3 . 2 , this , " action method " ) ;  <NL> sch . execute ( ) ;  <NL> sch . execute ( ) ;  <NL>  <NL> assert equals ( 3 . 2 , results . get ( 0 ) , 0 . 01 ) ;  <NL> assert equals ( 6 . 4 , results . get ( 1 ) , 0 . 01 ) ;  <NL>  }  COM: <s> tests interval with a generated action </s>

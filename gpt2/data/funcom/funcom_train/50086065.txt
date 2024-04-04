@@ -1,0 +1,1 @@
+TDAT: private void move index ( ) {  <NL> int i = rightmost index below max ( ) ;  <NL> if ( i > = 0 ) {  <NL> index [ i ] = index [ i ] + 1 ;  <NL> for ( int j = i + 1 ; j < m ; j + + )  <NL> index [ j ] = index [ j - 1 ] ;  <NL>  } else <NL> has more = false ;  <NL>  }  COM: <s> move the index forward a notch </s>

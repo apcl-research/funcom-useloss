@@ -1,0 +1,1 @@
+TDAT: public void test revert ( ) throws exception {  <NL> system . out . println ( " revert " ) ;  <NL> goban goban = new goban ( ) ;  <NL> goban . set case ( 0 , 0 , stone val . black ) ;  <NL> main mod . revert ( goban ) ;  <NL> assert equals ( goban . get case ( 0 , 0 ) , main mod . get before ( ) ) ;  <NL>  }  COM: <s> test of revert method of class modif </s>

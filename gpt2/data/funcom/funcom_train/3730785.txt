@@ -1,0 +1,1 @@
+TDAT: public graph action ( stmt registry reg , class action class act ) {  <NL> if ( reg = = null || class act = = null ) {  <NL> throw new illegal argument exception ( " null argument " ) ;  <NL>  }  <NL> stmt reg = reg ;  <NL> class act _ = class act ;  <NL> set name ( this . get class ( ) . get name ( ) ) ;  <NL>  }  COM: <s> constructor used by stmt registry </s>

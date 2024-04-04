@@ -1,0 +1,1 @@
+TDAT: final public geo locus locus ( string label , geo point q , geo point p ) {  <NL> if ( p . get path ( ) = = null || q . get path ( ) ! = null || ! p . is parent of ( q ) )  <NL> return null ;  <NL> algo locus algo = new algo locus ( cons , label , q , p ) ;  <NL> return algo . get locus ( ) ;  <NL>  }  COM: <s> locus line for q dependent on p </s>

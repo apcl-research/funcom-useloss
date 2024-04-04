@@ -1,0 +1,1 @@
+TDAT: public void deref columns ( ) {  <NL> column [ ] cols = get columns ( ) ;  <NL> for ( int i = 0 ; i < cols . length ; i + + )  <NL> cols [ i ] . deref ( ) ;  <NL> cols = get constant columns ( ) ;  <NL> for ( int i = 0 ; i < cols . length ; i + + )  <NL> cols [ i ] . deref ( ) ;  <NL>  }  COM: <s> deref all columns in this key </s>

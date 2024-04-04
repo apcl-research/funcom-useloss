@@ -1,0 +1,1 @@
+TDAT: public void send create room ( room information ri ) {  <NL> j client . get instance ( _ socket ) . create room ( ri . get name ( ) ,  <NL> ri . get time per turn ( ) , ri . get game preset ( ) . get code ( ) ,  <NL> ri . get max players ( ) , ri . get description ( ) ) ;  <NL>  }  COM: <s> sends a create room request using the provided room information as initial </s>

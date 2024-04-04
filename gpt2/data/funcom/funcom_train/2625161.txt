@@ -1,0 +1,1 @@
+TDAT: private void create lock ( ) throws io exception {  <NL> synchronized ( lockable file writer . class ) {  <NL> if ( ! lock file . create new file ( ) ) {  <NL> throw new io exception ( " can ' t write file , lock " +  <NL> lock file . get absolute path ( ) + " exists " ) ;  <NL>  }  <NL> lock file . delete on exit ( ) ;  <NL>  }  <NL>  }  COM: <s> creates the lock file </s>

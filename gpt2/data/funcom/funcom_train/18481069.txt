@@ -1,0 +1,1 @@
+TDAT: public void set default mat ( obj link link ) {  <NL> obj link old = get default mat ( ) ;  <NL> if ( link ! = null & & ! link . equals ( old ) || link = = null & & old ! = null ) {  <NL> this . default _ mat _ model = link ;  <NL> notify changed ( defaultmaterial , old , default _ mat _ model ) ;  <NL>  }  <NL>  }  COM: <s> sets a pointer to the default image object </s>

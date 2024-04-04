@@ -1,0 +1,1 @@
+TDAT: private float find max distance ( ) {  <NL> float max = float . min _ value ;  <NL> for ( int i = 0 ; i < tree data . node _ order . length - 1 ; i + + ) {  <NL> max = math . max ( max , tree data . height [ tree data . node _ order [ i ] ] ) ;  <NL>  }  <NL> return max ;  <NL>  }  COM: <s> returns min height of the tree nodes </s>

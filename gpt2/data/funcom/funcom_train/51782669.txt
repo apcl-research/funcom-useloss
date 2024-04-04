@@ -1,0 +1,1 @@
+TDAT: protected void resize se ( double diffx , double diffy ) {  <NL> tmp size . set size ( node . get size ( ) . get width ( ) + diffx ,  <NL> node . get size ( ) . get height ( ) + diffy ) ;  <NL> new corner snap ( editor . get diagram ( ) , tmp pos , tmp size ) . snap right lower ( ) ;  <NL>  }  COM: <s> resize using the se handle </s>

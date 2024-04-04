@@ -1,0 +1,1 @@
+TDAT: public void update clock driver ( int schedule _ index ) {  <NL>  / / if ( ! clock . get value array ( ) [ 0 ] . has been put ( ) ) { / / ebb hack to avoid multiple put warnings <NL> clock . put ( this , int _ schedule [ schedule _ index % int _ schedule . length ] ) ;  <NL>  / / }  <NL>  }  COM: <s> updates the output wire to its current value when this is called </s>

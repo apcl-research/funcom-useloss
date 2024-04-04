@@ -1,0 +1,1 @@
+TDAT: protected void bind name and classname ( prim prim ) throws smart frog resolution exception , remote exception {  <NL> assert prim ! = null : " no prim parameter " ;  <NL> name = prim . sf resolve ( name ref , name , true ) ;  <NL> class name = prim . sf resolve ( class name ref , class name , true ) ;  <NL>  }  COM: <s> bind the name and classname parameters </s>

@@ -1,0 +1,1 @@
+TDAT: public boolean is equal ( triple p ) {  <NL> if ( p = = null || ! is valid triple ( p ) ) {  <NL> return false ;  <NL>  }  <NL> return ( math . abs ( p . x - x ) < tolerance ) & & ( math . abs ( p . y - y ) < tolerance )  <NL>  & & ( math . abs ( p . z - z ) < tolerance ) ;  <NL>  }  COM: <s> test if two triples are in the same place within epsilon </s>

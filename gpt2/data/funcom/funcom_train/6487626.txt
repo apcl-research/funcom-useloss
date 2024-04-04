@@ -1,0 +1,1 @@
+TDAT: public void put big num ( big integer value ) {  <NL>  / / todo : abs right ?  <NL> byte [ ] buf = value . abs ( ) . to byte array ( ) ;  <NL> byte [ ] tmp buf = bit helper . put int16 ( value . bit length ( ) ) ;  <NL> append ( tmp buf , 2 ) ;  <NL> append ( buf , buf . length ) ;  <NL>  }  COM: <s> put a big integer onto the buffer </s>

@@ -1,0 +1,1 @@
+TDAT: public matrix copy ( ) {  <NL> matrix x = new matrix ( m , n ) ;  <NL> double [ ] [ ] c = x . get array ( ) ;  <NL> for ( int i = 0 ; i < m ; i + + ) {  <NL> for ( int j = 0 ; j < n ; j + + ) {  <NL> c [ i ] [ j ] = a [ i ] [ j ] ;  <NL>  }  <NL>  }  <NL> return x ;  <NL>  }  COM: <s> make a deep copy of a matrix </s>

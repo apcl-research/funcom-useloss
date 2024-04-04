@@ -1,0 +1,1 @@
+TDAT: public void test to string ( ) {  <NL> thread group tg = new thread group ( " tg " ) ;  <NL> string to string = " java . lang . thread group [ name = tg , maxpri = " ;  <NL> assert equals ( " incorrect representation " ,  <NL> 0 , tg . to string ( ) . index of ( to string ) ) ;  <NL>  }  COM: <s> verify to string output </s>

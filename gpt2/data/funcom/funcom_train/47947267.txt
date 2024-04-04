@@ -1,0 +1,1 @@
+TDAT: protected tree node print recursive ( tree node p , print stream stream ) {  <NL> if ( p = = null ) return null ;  <NL> p . get book list ( ) . print ( stream ) ;  <NL> tree node s = print recursive ( p . l , stream ) ;  <NL> s = print recursive ( p . r , stream ) ;  <NL> return s ;  <NL>  }  COM: <s> print all books in tree warehouses </s>

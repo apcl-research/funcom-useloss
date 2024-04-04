@@ -1,0 +1,1 @@
+TDAT: final private boolean is hexchar ( final char chr ) {  <NL> return ( ( chr > = ' 0 ' ) & & ( chr < = ' 9 ' ) )  <NL> || ( ( chr > = ' a ' ) & & ( chr < = ' f ' ) )  <NL> || ( ( chr > = ' a ' ) & & ( chr < = ' f ' ) ) ;  <NL>  }  COM: <s> hexchar digit a b c d e f </s>

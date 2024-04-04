@@ -1,0 +1,1 @@
+TDAT: public string to string ( )  <NL>  { string str = " " ;  <NL> for ( enumeration e = get user auth infos ( ) ; e . has more elements ( ) ; )  <NL>  { user auth info ur = ( user auth info ) e . next element ( ) ;  <NL> str + = ur . to string ( ) ;  <NL>  / / str + = " \r\n " ;  <NL>  }  <NL> return str ;  <NL>  }  COM: <s> gets the string value of this object </s>

@@ -1,0 +1,1 @@
+TDAT: public void test is valid ( ) {  <NL> system . out . println ( " is valid " ) ;  <NL> int [ ] p bad = { 0 , 4 , 3 , 0 , 1 , 2 } ;  <NL> assert equals ( false , instance2 . is valid ( p bad ) ) ;  <NL> assert equals ( true , instance2 . is valid ( p2 ) ) ;  <NL>  }  COM: <s> test of is valid method of class scio </s>

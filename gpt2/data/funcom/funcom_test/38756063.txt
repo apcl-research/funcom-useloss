@@ -1,0 +1,1 @@
+TDAT: public void first action ( ) {  <NL> if ( current ! = null & & current action ! = 0 ) {  <NL> for ( int i = current action ; i > 0 ; i - - ) {  <NL> if ( ! previous action ( ) )  <NL> break ;  <NL>  }  <NL> current action = 0 ;  <NL> get portunes controller ( ) . notify observers ( message . action _ changed ) ;  <NL>  }  <NL>  }  COM: <s> go to the first action </s>

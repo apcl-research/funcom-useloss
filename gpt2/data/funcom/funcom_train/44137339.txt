@@ -1,0 +1,1 @@
+TDAT: private void create slide title ( ) {  <NL> m _ title = new osm slide title ( this , 10 , 10 , 480 , 50 , null ) ;  <NL> m _ title . set text ( " " ) ;  <NL> m _ title . set font ( new font ( " arial " , font . bold , 36 ) ) ;  <NL> m _ title . set color ( color . black ) ;  <NL> this . add ( m _ title ) ;  <NL>  }  COM: <s> to create the title component </s>

@@ -1,0 +1,1 @@
+TDAT: public void set scale ( float scale ) {  <NL> this . scale = scale ;  <NL> omsvg rect rect = svg . get view box ( ) . get base val ( ) ;  <NL> svg . get style ( ) . set width ( rect . get width ( ) * scale , unit . px ) ;  <NL> svg . get style ( ) . set height ( rect . get height ( ) * scale , unit . px ) ;  <NL>  }  COM: <s> sets the scaling of the svg </s>

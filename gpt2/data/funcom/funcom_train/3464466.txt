@@ -1,0 +1,1 @@
+TDAT: public void remove dir ( file f ) {  <NL> file [ ] files = f . list files ( ) ;  <NL> for ( int i = 0 ; i < files . length ; i + + ) {  <NL> if ( files [ i ] . is directory ( ) ) {  <NL> remove dir ( files [ i ] ) ;  <NL>  }  <NL> files [ i ] . delete ( ) ;  <NL>  }  <NL>  }  COM: <s> removes all file in a given directory </s>

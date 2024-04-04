@@ -1,0 +1,1 @@
+TDAT: @ override public string to string ( ) {  <NL> if ( b = = big integer . zero ) return " na n " ;  <NL> else if ( a = = big integer . zero ) return " 0 " ;  <NL> else if ( b . equals ( big integer . one ) ) return a . to string ( ) ;  <NL> else return a . to string ( ) + " / " + b ;  <NL>  }  COM: <s> returns a human readable representation of this number </s>

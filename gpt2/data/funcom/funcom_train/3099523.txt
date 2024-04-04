@@ -1,0 +1,1 @@
+TDAT: public void add job set ( string command name , list job set ) {  <NL> list job sets = ( list ) job dictionary . get ( command name ) ;  <NL> if ( job sets = = null )  <NL> job sets = new array list ( ) ;  <NL> job sets . add ( job set ) ;  <NL> job dictionary . put ( command name , job sets ) ;  <NL>  }  COM: <s> adds a job set that accomplishes the given command name </s>

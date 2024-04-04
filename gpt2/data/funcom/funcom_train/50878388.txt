@@ -1,0 +1,1 @@
+TDAT: public void show error page ( request in request , response in response , string in error ) {  <NL> show header page ( in request , in response , " error in " + get name ( ) ) ;  <NL> print writer out = in response . get writer ( ) ;  <NL> out . println ( in error ) ;  <NL> show tailer page ( in request , in response ) ;  <NL>  }  COM: <s> show an error message </s>

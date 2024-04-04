@@ -1,0 +1,1 @@
+TDAT: public int hash code ( ) {  <NL>  / / todo in java 1 . 5 : switch to arrays . hash code ( ) . the <NL>  / / java 1 . 4 workaround below calculates the same hash code <NL>  / / as java 1 . 5 ' s new arrays . hash code ( )  <NL> return 0x45aaf665 + arrays . as list ( fields ) . hash code ( ) ;  <NL>  }  COM: <s> returns a hash code value for this object </s>

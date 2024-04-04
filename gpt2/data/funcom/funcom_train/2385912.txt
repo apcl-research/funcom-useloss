@@ -1,0 +1,1 @@
+TDAT: public i chat text message create public message ( int a message id , i chat sender a sender , string a text ) {  <NL> i chat text message public message = new i chat text message ( a message id , a sender , common _ line , a text , " " ) ; / / $ non - nls - 1 $  <NL> return public message ;  <NL>  }  COM: <s> creates public i chat message </s>

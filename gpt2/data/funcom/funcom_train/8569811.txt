@@ -1,0 +1,1 @@
+TDAT: protected void draw open poly ( gl gl ) {  <NL> gl . gl begin ( gl . gl _ line _ strip ) ;  <NL> gl . gl vertex2i ( 100 , 200 ) ;  <NL> gl . gl vertex2i ( 150 , 250 ) ;  <NL> gl . gl vertex2i ( 100 , 250 ) ;  <NL> gl . gl vertex2i ( 150 , 200 ) ;  <NL> gl . gl end ( ) ;  <NL>  }  COM: <s> an example of drawing an open polyline </s>

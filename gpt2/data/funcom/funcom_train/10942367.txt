@@ -1,0 +1,1 @@
+TDAT: public void add alias ( string entity alias , string name , string field , string col alias , boolean prim key , boolean group by , string function ) {  <NL> add alias ( entity alias , name , field , col alias , prim key , group by , function , null , null ) ;  <NL>  }  COM: <s> add an alias full detail </s>

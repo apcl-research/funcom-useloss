@@ -1,0 +1,1 @@
+TDAT: public void print ( int num ) {  <NL> system . out . println ( " * * * group 54 , qualifying letters " ) ;  <NL> for ( int q = 0 ; q < nparms || q < num ; q + + ) {  <NL> system . out . print ( " " + qcodes [ q ] ) ;  <NL>  }  <NL> system . out . println ( ) ;  <NL>  }  COM: <s> display group 54 </s>

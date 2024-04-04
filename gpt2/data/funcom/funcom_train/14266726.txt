@@ -1,0 +1,1 @@
+TDAT: public ping reply mutate guid ( byte [ ] guid ) {  <NL> return ping reply . create ( guid ,  <NL> get ttl ( ) , get port ( ) ,  <NL> get ip bytes ( ) , get files ( ) , get kbytes ( ) ,  <NL> is ultrapeer ( ) , get daily uptime ( ) ,  <NL> supports unicast ( ) ) ;  <NL>  }  COM: <s> returns a new tt ping reply tt instance with all the same data </s>

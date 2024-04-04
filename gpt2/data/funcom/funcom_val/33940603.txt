@@ -1,0 +1,1 @@
+TDAT: public mutable matrix3f set col ( int col , float [ ] values , int offset ) {  <NL> return set ( 0 , col , values [ offset ] )  <NL>  . set ( 1 , col , values [ offset + 1 ] )  <NL>  . set ( 2 , col , values [ offset + 2 ] ) ;  <NL>  }  COM: <s> set the given matrix column to the values in the values array starting </s>

@@ -1,0 +1,1 @@
+TDAT: public response apdu load ( boolean last block , int block number , byte [ ] load file data block ) throws card exception {  <NL> return card channel . transmit ( new command apdu ( 0x80 , 0x e8 , last block ? 0x80 : 0x00 , block number , load file data block , 0x00 ) ) ;  <NL>  }  COM: <s> loads file into the card </s>

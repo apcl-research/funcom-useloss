@@ -1,0 +1,1 @@
+TDAT: public void test version ( ) {  <NL> system . out . println ( " test version " ) ;  <NL>  <NL> sender . version ( ) ;  <NL> assert equals ( " version " , buffer to string ( ) ) ;  <NL> sender . version ( " * . chatservs . com " ) ;  <NL> assert equals ( " version * . chatservs . com " , buffer to string ( ) ) ;  <NL>  }  COM: <s> test of version method of class net </s>

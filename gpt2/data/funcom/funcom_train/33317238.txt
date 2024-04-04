@@ -1,0 +1,1 @@
+TDAT: public vect vectorial product ( vect v ) {  <NL> return new vect ( get y ( ) * v . get z ( ) - v . get y ( ) * get z ( ) ,  <NL> get z ( ) * v . get x ( ) - v . get z ( ) * get x ( ) ,  <NL> get x ( ) * v . get y ( ) - v . get x ( ) * get y ( ) ) ;  <NL>  }  COM: <s> returns a new vect which is the result of the vectorial product </s>

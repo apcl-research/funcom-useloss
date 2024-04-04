@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> string buffer buffer = new string buffer ( " entry value - > ( " ) . append ( count ) .  <NL> append ( " ) " ) ;  <NL> buffer . append ( " last node in path - > ( " ) . append ( last node in path ) . append ( " ) " ) ;  <NL> return buffer . to string ( ) ;  <NL>  }  COM: <s> returns a string representation of the entry instance </s>

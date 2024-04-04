@@ -1,0 +1,1 @@
+TDAT: private boolean are keywords in text ( vector v , string text ) {  <NL> enumeration e = v . elements ( ) ;  <NL> while ( e . has more elements ( ) )  <NL> if ( text . trim ( ) . index of ( ( ( string ) e . next element ( ) ) . trim ( ) ) ! = - 1 ) return true ;  <NL> return false ;  <NL>  }  COM: <s> helper utility method to check if any keyword in a set of keywords </s>

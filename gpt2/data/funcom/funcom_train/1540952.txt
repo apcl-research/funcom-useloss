@@ -1,0 +1,1 @@
+TDAT: public void scale ( double sx , double sy ) {  <NL> current transform . scale ( sx , sy ) ;  <NL> try {  <NL> write transform ( new affine transform ( sx , 0 , 0 , sy , 0 , 0 ) ) ;  <NL>  } catch ( io exception e ) {  <NL> handle exception ( e ) ;  <NL>  }  <NL>  }  COM: <s> scales the current transform </s>

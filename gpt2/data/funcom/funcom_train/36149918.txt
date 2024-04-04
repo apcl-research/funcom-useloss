@@ -1,0 +1,1 @@
+TDAT: public double ssab ( ) {  <NL> if ( n = = 1 )  <NL> return 0 ;  <NL> double sum = 0 ;  <NL> for ( int i = 0 ; i < a ; + + i ) {  <NL> for ( int j = 0 ; j < b ; + + j ) {  <NL> sum + = math . pow ( y [ i ] [ j ] . sum ( ) , 2 ) ;  <NL>  }  <NL>  }  <NL> return sum / n - cm - ssa ( ) - ssb ( ) ;  <NL>  }  COM: <s> returns the sum of squares for interaction ab </s>

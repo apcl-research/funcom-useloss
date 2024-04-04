@@ -1,0 +1,1 @@
+TDAT: public void import elba xml ( element element ) throws deployment exception {  <NL> mbean = get unique child content ( element , " invoker - mbean " ) ;  <NL> proxy factory = get unique child content ( element , " proxy - factory " ) ;  <NL> proxy factory config = get unique child ( element , " proxy - factory - config " ) ;  <NL>  }  COM: <s> import the elba </s>

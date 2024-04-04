@@ -1,0 +1,1 @@
+TDAT: public x axis get x axis ( ) {  <NL> if ( xaxis = = null & & get parent chart ( ) . get areas size ( ) ! = 0 ) {  <NL> if ( get parent chart ( ) . get area ( 0 ) = = this ) {  <NL> return null ;  <NL>  }  <NL> return get parent chart ( ) . get area ( 0 ) . get x axis ( ) ;  <NL>  }  <NL> return xaxis ;  <NL>  }  COM: <s> gets the x axis </s>

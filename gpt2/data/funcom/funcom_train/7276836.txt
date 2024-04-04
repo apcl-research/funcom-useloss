@@ -1,0 +1,1 @@
+TDAT: public int poll for slot ( upload slot user user , boolean queue , boolean high priority ) {  <NL> if ( log . is debug enabled ( ) )  <NL> log . debug ( user + " polling for slot , queuable " + queue ) ;  <NL> return request slot ( new http slot request ( user , queue , high priority ) ) ;  <NL>  }  COM: <s> polls for an available upload slot </s>

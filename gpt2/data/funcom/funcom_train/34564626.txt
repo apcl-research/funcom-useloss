@@ -1,0 +1,1 @@
+TDAT: private void print ( final int ch ) throws io exception {  <NL> if ( ch < 0x80 ) {  <NL> out . write ( ch ) ;  <NL>  } else if ( ch < 0x ffff ) {  <NL> print ( string . value of ( ( char ) ch ) ) ;  <NL>  } else {  <NL> print ( new token builder ( ) . add utf ( ch ) . to string ( ) ) ;  <NL>  }  <NL>  }  COM: <s> writes a character in the current encoding </s>

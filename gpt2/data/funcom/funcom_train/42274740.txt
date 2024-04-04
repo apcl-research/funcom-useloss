@@ -1,0 +1,1 @@
+TDAT: public void send buffer to node ( byte buffer buf , node handle nh ) {  <NL> m _ reporter . log (  <NL> m _ node . get id ( ) . to string full ( ) ,  <NL> nh . get id ( ) . to string full ( ) ,  <NL> eve type . upload , " " ) ;  <NL> m _ myapp . send buffer to node ( buf , nh ) ;  <NL>  }  COM: <s> send a buffer through my app uses app sockets </s>

@@ -1,0 +1,1 @@
+TDAT: public int lookup ( int id ) {  <NL> int l = ( list of local files = = null ? 0 : list of local files . length ) ;  <NL> int i ;  <NL>  <NL> for ( i = 0 ; i < l ; i + + )  <NL> if ( list of local files [ i ] . get id ( ) = = id )  <NL> return i ;  <NL> return - 1 ;  <NL>  }  COM: <s> look up a file in our local list from its id </s>

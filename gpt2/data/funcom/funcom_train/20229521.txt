@@ -1,0 +1,1 @@
+TDAT: public void build map ( int [ ] [ ] tiles matrix ) {  <NL> int i , j ;  <NL> for ( i = 0 ; i < tiles matrix . length ; i + + ) {  <NL> for ( j = 0 ; j < tiles matrix [ 0 ] . length ; j + + ) {  <NL> this . set cell ( j , i , tiles matrix [ i ] [ j ] ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> tiled map builder method </s>

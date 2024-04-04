@@ -1,0 +1,1 @@
+TDAT: public void set gl drawing ( boolean draw gl ) {  <NL> if ( this . draw gl ! = draw gl ) {  <NL> this . draw gl = draw gl ;  <NL>  ( ( component ) canvas ) . set visible ( draw gl ) ;  <NL> set opaque ( draw gl ) ;  <NL>  <NL> fire property change ( " gldrawing " , ! draw gl , draw gl ) ;  <NL>  <NL> repaint ( ) ;  <NL>  }  <NL>  }  COM: <s> sets the drawing path </s>

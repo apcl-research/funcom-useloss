@@ -1,0 +1,1 @@
+TDAT: private void display properties ( node node ) {  <NL> boolean first = true ;  <NL> for ( string prop : node . get properties ( ) ) {  <NL> if ( first ) { print ( " properties : " ) ; first = false ; }  <NL> indent ( ) ;  <NL> print ( prop + " : " + node . get property ( prop ) ) ;  <NL> unindent ( ) ;  <NL>  }  <NL>  }  COM: <s> displays the properties of a node </s>

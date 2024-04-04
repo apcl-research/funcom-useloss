@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> if ( node instanceof element ) {  <NL> string id = ( ( element ) node ) . get attribute ( " id " ) ;  <NL> if ( id . length ( ) ! = 0 ) {  <NL> return node . get node name ( ) + " \ " " + id + " \ " " ;  <NL>  }  <NL>  }  <NL> return node . get node name ( ) ;  <NL>  }  COM: <s> returns a printable representation of the object </s>

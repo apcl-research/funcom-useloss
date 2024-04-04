@@ -1,0 +1,1 @@
+TDAT: public attribute set copy attributes ( ) {  <NL> attribute set [ ] as = get attributes ( ) ;  <NL> mutable attribute set a = new simple attribute set ( ) ;  <NL> int n = 0 ;  <NL> for ( int i = as . length - 1 ; i > = 0 ; i - - ) {  <NL> a . add attributes ( as [ i ] ) ;  <NL>  }  <NL> return a ;  <NL>  }  COM: <s> copies a set of attributes </s>

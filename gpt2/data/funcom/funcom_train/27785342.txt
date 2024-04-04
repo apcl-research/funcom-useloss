@@ -1,0 +1,1 @@
+TDAT: private void initialize ( ) {  <NL> this . set layout ( new border layout ( ) ) ;  <NL> this . set size ( 300 , 200 ) ;  <NL> this . add ( get table _ panel ( ) , java . awt . border layout . center ) ;  <NL> this . add ( get button _ panel ( ) , java . awt . border layout . south ) ;  <NL>  }  COM: <s> this method initializes this </s>

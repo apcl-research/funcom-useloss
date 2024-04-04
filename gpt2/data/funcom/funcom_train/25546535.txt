@@ -1,0 +1,1 @@
+TDAT: public tile get east ( ) {  <NL> tile t = new tile ( ) ;  <NL> t . set layer ( layer ) ;  <NL> if ( x < ( 1 < < z ) ) {  <NL> t . set zxy ( z , x + 1 , y ) ;  <NL>  } else {  <NL> t . set zxy ( z , 0 , y ) ;  <NL>  }  <NL> return t ;  <NL>  }  COM: <s> returns a tile of the east </s>

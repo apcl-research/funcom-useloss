@@ -1,0 +1,1 @@
+TDAT: private mj button get bt bs _ set bkdt ( ) {  <NL> if ( bt bs _ set bkdt = = null ) {  <NL> bt bs _ set bkdt = new mj button ( ) ;  <NL> bt bs _ set bkdt . set text ( " set " ) ;  <NL> bt bs _ set bkdt . set preferred size ( new java . awt . dimension ( 75 , 20 ) ) ;  <NL>  }  <NL> return bt bs _ set bkdt ;  <NL>  }  COM: <s> this method initializes bt bs set bkdt </s>

@@ -1,0 +1,1 @@
+TDAT: private void visit get elem ( node traversal t , node n ) {  <NL> node left = n . get first child ( ) ;  <NL> node right = n . get last child ( ) ;  <NL> validator . expect index match ( t , n , get js type ( left ) , get js type ( right ) ) ;  <NL> ensure typed ( t , n ) ;  <NL>  }  COM: <s> visits a getelem node </s>

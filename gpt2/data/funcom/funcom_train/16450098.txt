@@ -1,0 +1,1 @@
+TDAT: private boolean is over clear button ( point p ) {  <NL> return ( this . icon visible & & p . x > = this . button x <NL>  & & p . x < = this . button x + clear image . get icon width ( )  <NL>  & & p . y > = this . button y & & p . y < = this . button y <NL>  + clear image . get icon height ( ) ) ;  <NL>  }  COM: <s> checks if is over clear button </s>

@@ -1,0 +1,1 @@
+TDAT: public string md5sum ( string to compute ) throws exception {  <NL> message digest md = message digest . get instance ( " md5 " ) ;  <NL> md . update ( to compute . get bytes ( ) ) ;  <NL> java . math . big integer hash = new java . math . big integer ( 1 , md . digest ( ) ) ;  <NL> return hash . to string ( 16 ) ;  <NL>  }  COM: <s> compute the md5sum for a string </s>

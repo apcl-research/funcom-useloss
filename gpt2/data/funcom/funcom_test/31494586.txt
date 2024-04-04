@@ -1,0 +1,1 @@
+TDAT: public rectangle rect of matrix entry ( int row , int col ) {  <NL> return new rectangle ( grid rect . x + ( int ) math . round ( col * side ) , grid rect . y + ( int ) math . round ( row * side ) ,  <NL>  ( int ) math . round ( side ) , ( int ) math . round ( side ) ) ;  <NL>  }  COM: <s> returns a rectangle for given row col of matrix </s>

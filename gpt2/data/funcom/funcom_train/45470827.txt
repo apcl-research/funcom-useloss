@@ -1,0 +1,1 @@
+TDAT: public void set values ( short [ ] values ) throws unsupported operation exception {  <NL> this . set hour ( values [ 0 ] ) ;  <NL> this . set minute ( values [ 1 ] ) ;  <NL> this . set second ( values [ 2 ] , values [ 3 ] ) ;  <NL> this . set zone ( values [ 4 ] , values [ 5 ] ) ;  <NL>  }  COM: <s> set all the fields by reading the values in an array </s>

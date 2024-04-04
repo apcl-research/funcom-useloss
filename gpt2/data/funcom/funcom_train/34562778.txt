@@ -1,0 +1,1 @@
+TDAT: private item run ( final query context ctx ) throws query exception {  <NL> final io io = file ( ctx ) ;  <NL> try {  <NL> return eval ( ctx , io . content ( ) ) ;  <NL>  } catch ( final io exception ex ) {  <NL> main . debug ( ex ) ;  <NL> err . or ( nodoc , ex . get message ( ) ) ;  <NL> return null ;  <NL>  }  <NL>  }  COM: <s> performs the query function </s>

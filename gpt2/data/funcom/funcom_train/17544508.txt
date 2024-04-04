@@ -1,0 +1,1 @@
+TDAT: public void test lock ( file lock lock ) throws io exception {  <NL> if ( lock = = null ) {  <NL> throw new io exception ( " lock is null . " ) ; / / no18n <NL>  } else if ( lock ! = get lock ( ) ) {  <NL> throw new io exception ( " invalid lock [ " + lock + " ] . expected [ " + get lock ( ) + " ] . " ) ; / / no18n <NL>  }  <NL>  }  COM: <s> testing the lock </s>

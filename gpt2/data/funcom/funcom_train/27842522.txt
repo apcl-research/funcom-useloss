@@ -1,0 +1,1 @@
+TDAT: public void paint icon ( component in component , graphics in graphics , int in x , int in y ) {  <NL> if ( fill color ! = null ) {  <NL> in graphics . set color ( fill color ) ;  <NL> in graphics . draw rect ( in x , in y , size - 1 , size - 1 ) ;  <NL>  }  <NL>  }  COM: <s> paint the icon </s>

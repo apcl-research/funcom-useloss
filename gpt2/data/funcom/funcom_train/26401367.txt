@@ -1,0 +1,1 @@
+TDAT: public web form find form ( web form [ ] forms , string action ) {  <NL> if ( forms = = null ) return null ;  <NL>  <NL> for ( int i = 0 ; i < forms . length ; i + + ) {  <NL> if ( forms [ i ] . get action ( ) . index of ( action ) > 0 )  <NL> return forms [ i ] ;  <NL>  }  <NL>  <NL> return null ;  <NL>  }  COM: <s> find a certain form </s>

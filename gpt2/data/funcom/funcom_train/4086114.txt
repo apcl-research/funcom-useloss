@@ -1,0 +1,1 @@
+TDAT: public boolean check integrity ( ) {  <NL> int rooms per cell [ ] [ ] = count rooms per cell ( ) ;  <NL> for ( int x = 0 ; x < get width ( ) ; + + x )  <NL> for ( int y = 0 ; y < get height ( ) ; + + y )  <NL> if ( rooms per cell [ x ] [ y ] > 1 )  <NL> return false ;  <NL> return true ;  <NL>  }  COM: <s> ensures that no room overlap within the heyawake puzzle </s>

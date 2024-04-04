@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> string buffer sb = new string buffer ( " job : " ) ;  <NL> sb . append ( name ) ;  <NL> sb . append ( " \n user : " ) ;  <NL> sb . append ( user ) ;  <NL> sb . append ( " \n description : \n " ) ;  <NL> sb . append ( description ) ;  <NL> return sb . to string ( ) ;  <NL>  }  COM: <s> overrides the default to string method </s>

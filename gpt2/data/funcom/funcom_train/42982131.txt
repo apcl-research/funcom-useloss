@@ -1,0 +1,1 @@
+TDAT: public void remove unit course ( ) {  <NL> unit sel unit = ( unit ) frame . cb unit . get selected item ( ) ;  <NL> node node = ( node ) frame . cb unit cp remove . get selected item ( ) ;  <NL> engine . remove unit course ( sel unit . get id ( ) , node . get id ( ) ) ;  <NL> fill unit data ( ) ;  <NL>  }  COM: <s> removes a node from the units course list </s>

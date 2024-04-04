@@ -1,0 +1,1 @@
+TDAT: public void set imt ( imt imt ) {  <NL> if ( vm . verify assertions ) vm . _ assert ( imt . length ( ) = = imt _ method _ slots ) ;  <NL> if ( vm . verify assertions ) vm . _ assert ( get type ( ) . is class type ( ) ) ;  <NL> set ( tib _ interface _ dispatch _ table _ index , imt ) ;  <NL>  }  COM: <s> set the imt of the tib </s>

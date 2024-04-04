@@ -1,0 +1,1 @@
+TDAT: protected void add resource type ( i _ cms resource type type ) {  <NL>  <NL> m _ resource type id map . put ( new integer ( type . get type id ( ) ) , type ) ;  <NL> m _ resource type name map . put ( type . get type name ( ) , type ) ;  <NL> m _ resource type list . add ( type ) ;  <NL>  }  COM: <s> adds a resource type to the list of configured resource types </s>

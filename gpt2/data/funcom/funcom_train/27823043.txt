@@ -1,0 +1,1 @@
+TDAT: public void delete oi model ( ) throws kaon exception {  <NL> try {  <NL> m _ kaon connection . get engineering server ( ) . delete oi model ( m _ kaon connection . get connection identifier ( ) , m _ model id ) ;  <NL>  }  <NL> catch ( remote exception e ) {  <NL> throw new kaon exception ( " error in remote call " , e ) ;  <NL>  }  <NL>  }  COM: <s> deletes the model </s>

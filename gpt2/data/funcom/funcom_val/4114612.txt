@@ -1,0 +1,1 @@
+TDAT: public string get unique file name ( string ext ) {  <NL> try {  <NL> return get process id ( ) + " _ _ " + get date time ( ) + ext ;  <NL>  } catch ( exception ex ) {  <NL> logger . get logger ( process util . class . get name ( ) ) . log ( level . severe , null , ex ) ;  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> get unique file name takes an extension e </s>

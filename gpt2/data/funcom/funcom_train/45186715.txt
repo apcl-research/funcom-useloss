@@ -1,0 +1,1 @@
+TDAT: public void move entry down ( int index ) {  <NL> if ( index = = ( entries . size ( ) - 1 ) ) return ;  <NL> object next file = entries . get ( index + 1 ) ;  <NL> object file = entries . get ( index ) ;  <NL> entries . set ( index + 1 , file ) ;  <NL> entries . set ( index , next file ) ;  <NL>  }  COM: <s> moves archive entry down to tail of archive </s>

@@ -1,0 +1,1 @@
+TDAT: public void prepare for node ( vpt node node ) {  <NL> cm item . set visible ( node ! = null & &  <NL>  ( node . is file ( ) || node . is directory ( ) || node . is project ( ) || <NL> node . get class ( ) = = vfs file . class ) ) ;  <NL>  } / / } } }  <NL>  <NL>  / / { { { - rename file ( vpt file , file ) : boolean  COM: <s> disable action only for the root node </s>

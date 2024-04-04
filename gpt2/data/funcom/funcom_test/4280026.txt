@@ -1,0 +1,1 @@
+TDAT: private boolean check combine lines ( string line ) {  <NL> int bs count = 0 ;  <NL>  <NL> for ( int idx = line . length ( ) - 1 ; ( idx > = 0 ) & & ( line . char at ( idx ) = = ' \\ ' ) ; idx - - ) {  <NL> bs count + + ;  <NL>  }  <NL>  <NL> return ( bs count % 2 ) = = 1 ;  <NL>  }  COM: <s> checks if the passed in line should be combined with the following </s>

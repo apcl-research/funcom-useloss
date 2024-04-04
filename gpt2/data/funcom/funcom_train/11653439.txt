@@ -1,0 +1,1 @@
+TDAT: public void set data ( string [ ] contents , string delimiter ) {  <NL> set headers ( j orphan utils . split ( contents [ 0 ] , delimiter ) ) ;  <NL> int x = 1 ;  <NL> while ( x < contents . length ) {  <NL> set line ( j orphan utils . split ( contents [ x + + ] , delimiter ) ) ;  <NL>  }  <NL>  }  COM: <s> use this method to set the entire data set </s>

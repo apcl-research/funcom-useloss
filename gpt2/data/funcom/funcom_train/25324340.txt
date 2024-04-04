@@ -1,0 +1,1 @@
+TDAT: public void save ( int id , int chunk , string contents ) throws io exception {  <NL>  / / todo : should wrap this in something to re - try if the connection fails <NL> set ( config . get base key ( ) + " _ " + string . value of ( id ) + " _ " + string . value of ( chunk ) , contents ) ;  <NL>  }  COM: <s> called to save the particular chunk of data to the open key val </s>

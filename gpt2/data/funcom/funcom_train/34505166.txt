@@ -1,0 +1,1 @@
+TDAT: public void put property ( configuration keys key , color c ) {  <NL> put property ( key . get key ( ) + " . r " , c . get red ( ) ) ;  <NL> put property ( key . get key ( ) + " . g " , c . get green ( ) ) ;  <NL> put property ( key . get key ( ) + " . b " , c . get blue ( ) ) ;  <NL>  }  COM: <s> puts the given color as property into the </s>

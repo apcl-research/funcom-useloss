@@ -1,0 +1,1 @@
+TDAT: public void set pixel size ( int width , int height ) {  <NL> if ( width > = 0 )  <NL> dom . set style attribute ( element , " width " , width + " px " ) ;  <NL> if ( height > = 0 )  <NL> dom . set style attribute ( element , " height " , height + " px " ) ;  <NL>  }  COM: <s> sets the objects size in pixels not including decorations such as </s>

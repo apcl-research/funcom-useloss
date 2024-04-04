@@ -1,0 +1,1 @@
+TDAT: private boolean is multipart content ( http servlet request request ) {  <NL> return request . get method ( ) . to upper case ( ) . equals ( " post " ) & & request . get content type ( ) ! = null <NL>  & & request . get content type ( ) . to upper case ( ) . index of ( " multipart / form - data " ) = = 0 ;  <NL>  }  COM: <s> detect whether the user is uploading a file </s>

@@ -1,0 +1,1 @@
+TDAT: public void cla bump activity ( constr confl ) {  <NL> confl . inc activity ( cla inc ) ;  <NL> if ( confl . get activity ( ) > clause _ rescale _ bound )  <NL> cla rescal activity ( ) ;  <NL>  / / for ( int i = 0 ; i < confl . size ( ) ; i + + ) {  <NL>  / / var bump activity ( confl . get ( i ) ) ;  <NL>  / / }  <NL>  }  COM: <s> propagate activity to a constraint </s>

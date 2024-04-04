@@ -1,0 +1,1 @@
+TDAT: public void read fully ( byte [ ] b , int off , int len ) throws io exception {  <NL> while ( len > 0 ) {  <NL> int n = super . read ( b , off , len ) ;  <NL> if ( n = = - 1 ) {  <NL> throw new eof exception ( ) ;  <NL>  }  <NL> off + = n ;  <NL> len - = n ;  <NL>  }  <NL>  }  COM: <s> reads code len code </s>

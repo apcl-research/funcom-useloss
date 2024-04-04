@@ -1,0 +1,1 @@
+TDAT: public void notify all property listeners ( ) {  <NL> for ( enumeration e0 = m _ properties . keys ( ) ; e0 . has more elements ( ) ; ) {  <NL> string property = ( string ) e0 . next element ( ) ;  <NL> object o = m _ properties . get ( property ) ;  <NL> this . fire property change ( property , null , o ) ;  <NL>  }  <NL>  }  COM: <s> to notify all property listerner </s>

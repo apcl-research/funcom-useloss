@@ -1,0 +1,1 @@
+TDAT: public void fill triangle ( int x1 , int y1 , int x2 , int y2 , int x3 , int y3 ) {  <NL> impl . fill triangle ( native graphics , x translate + x1 , y translate + y1 , x translate + x2 , y translate + y2 , x translate + x3 , y translate + y3 ) ;  <NL>  }  COM: <s> draws a filled triangle with the given coordinates </s>

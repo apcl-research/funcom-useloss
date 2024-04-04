@@ -1,0 +1,1 @@
+TDAT: public void test iterator ( ) {  <NL> linked list q = populated queue ( size ) ;  <NL> int i = 0 ;  <NL> iterator it = q . iterator ( ) ;  <NL> while ( it . has next ( ) ) {  <NL> assert true ( q . contains ( it . next ( ) ) ) ;  <NL>  + + i ;  <NL>  }  <NL> assert equals ( i , size ) ;  <NL>  }  COM: <s> iterator iterates through all elements </s>

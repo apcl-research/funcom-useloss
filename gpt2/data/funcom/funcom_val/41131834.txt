@@ -1,0 +1,1 @@
+TDAT: public te x formula add op ( te x formula op , te x formula low , te x formula up ) {  <NL> return add ( new big operator atom ( ( op = = null ? null : op . root ) ,  <NL>  ( low = = null ? null : low . root ) , ( up = = null ? null : up . root ) ) ) ;  <NL>  }  COM: <s> uses the given te xformulas as a big operator </s>

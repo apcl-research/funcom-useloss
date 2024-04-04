@@ -1,0 +1,1 @@
+TDAT: public void service ( ) throws servlet exception , io exception {  <NL> if ( is filter active ( ) ) {  <NL> get filter ( ) . do filter ( get request ( ) , get response ( ) , get filter chain ( ) ) ;  <NL>  } else {  <NL> get servlet ( ) . service ( get request ( ) , get response ( ) ) ;  <NL>  }  <NL>  }  COM: <s> invokes the current servlet or filter </s>

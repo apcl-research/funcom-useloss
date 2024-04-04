@@ -1,0 +1,1 @@
+TDAT: public void test get em data ( ) {  <NL>  / / system . out . println ( " get em data " ) ;  <NL> em state instance = e m data test instance ;  <NL> list < em data > exp result = em data list ;  <NL> list < em data > result = instance . get em data ( ) ;  <NL> assert equals ( exp result , result ) ;  <NL>  }  COM: <s> test of get emdata method of class emstate </s>

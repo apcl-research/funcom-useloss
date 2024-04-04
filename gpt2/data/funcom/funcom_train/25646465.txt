@@ -1,0 +1,1 @@
+TDAT: public double get percent failed ( ) {  <NL> if ( get maximum ( ) = = get minimum ( ) & & get maximum ( ) ! = 0 ) {  <NL> return 1 . 0 ;  <NL>  } else {  <NL> return ( double ) ( my failed value - model . get minimum ( ) ) / ( model . get maximum ( ) - model . get minimum ( ) ) ;  <NL>  }  <NL>  }  COM: <s> this method returns the percent of the bar </s>

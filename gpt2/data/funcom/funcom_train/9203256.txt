@@ -1,0 +1,1 @@
+TDAT: public void union ( aabb aabb ) {  <NL> this . min . x = math . min ( this . min . x , aabb . min . x ) ;  <NL> this . min . y = math . min ( this . min . y , aabb . min . y ) ;  <NL> this . max . x = math . max ( this . max . x , aabb . max . x ) ;  <NL> this . max . y = math . max ( this . max . y , aabb . max . y ) ;  <NL>  }  COM: <s> performs a union of this </s>

@@ -1,0 +1,1 @@
+TDAT: public void invert ( ) {  <NL> float t ;  <NL> float d = 1 . 0f / this . det ( ) ;  <NL>  <NL> xx * = d ;  <NL> yy * = d ;  <NL> zz * = d ;  <NL>  <NL> t = xy ;  <NL> xy = yx * d ;  <NL> yx = t * d ;  <NL>  <NL> t = xz ;  <NL> xz = zx * d ;  <NL> zx = t * d ;  <NL>  <NL> t = yz ;  <NL> yz = zy * d ;  <NL> zy = t * d ;  <NL>  }  COM: <s> will invert the current matrix </s>

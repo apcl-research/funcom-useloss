@@ -1,0 +1,1 @@
+TDAT: protected void create keyboards ( open wnn parent ) {  <NL>  / *  <NL>  * keyboard [ # of languages ] [ portrait / landscape ] [ # of keyboard type ]  <NL>  * [ shift off / on ] [ max # of key - modes ] [ non - input / input ]  <NL>  * /  <NL> m keyboard = new keyboard [ 3 ] [ 2 ] [ 4 ] [ 2 ] [ 7 ] [ 2 ] ;  <NL>  }  COM: <s> create keyboard views </s>

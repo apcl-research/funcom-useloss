@@ -1,0 +1,1 @@
+TDAT: public void alert ( string arg ) {  <NL> if ( root = = null ) system . out . println ( arg ) ;  <NL> else {  <NL> j popup menu menu = new j popup menu ( " alert " ) ;  <NL> menu . add ( new j label ( arg ) ) ;  <NL> menu . pack ( ) ;  <NL> menu . show ( root , 0 , 0 ) ;  <NL>  }  <NL>  }  COM: <s> the alert string builtin javascript function </s>

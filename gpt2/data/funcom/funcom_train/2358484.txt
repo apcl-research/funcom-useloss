@@ -1,0 +1,1 @@
+TDAT: private int get count ( int [ ] ngram , int start , int end , int qcount ) {  <NL> for ( int i = 1 ; i < = qcount ; i + + ) {  <NL> int hash = hash ngram ( ngram , start , end , i ) ;  <NL> if ( ! bf . query ( hash , count funcs ) ) {  <NL> return i - 1 ;  <NL>  }  <NL>  }  <NL> return qcount ;  <NL>  }  COM: <s> retrieve the count of a ngram from the bloom filter </s>

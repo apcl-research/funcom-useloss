@@ -1,0 +1,1 @@
+TDAT: public void debug off ( ) {  <NL> logger . get logger ( " org . apache . pig " ) . set level ( pig context . get default log level ( ) ) ;  <NL> pig context . get log4j properties ( ) . set property ( " log4j . logger . org . apache . pig " , pig context . get default log level ( ) . to string ( ) ) ;  <NL>  }  COM: <s> set the logging level to the default </s>

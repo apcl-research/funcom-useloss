@@ -1,0 +1,1 @@
+TDAT: private void print list ( list list ) {  <NL> string print = " l : " ;  <NL> for ( int i = 0 ; i < list . size ( ) ; i + + ) {  <NL> print = print + " " + list . get ( i ) ;  <NL>  }  <NL> system . out . println ( print + " s : " + list . size ( ) ) ;  <NL>  }  COM: <s> show a list in one line on the standar output </s>

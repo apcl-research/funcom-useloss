@@ -1,0 +1,1 @@
+TDAT: public void set bounds ( int x , int y , int width , int height ) {  <NL> if ( ! done loading ) {  <NL> explicit size = true ;  <NL> if ( width > 0 )  <NL> explicit width = width ;  <NL> if ( height > 0 )  <NL> explicit height = height ;  <NL>  }  <NL> super . set bounds ( x , y , width , height ) ;  <NL>  }  COM: <s> reshapes the image label </s>

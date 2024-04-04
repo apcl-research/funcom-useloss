@@ -1,0 +1,1 @@
+TDAT: private j text pane get j text pane ( ) {  <NL> if ( j text pane = = null ) {  <NL> j text pane = new j text pane ( ) ;  <NL> j text pane . set font ( new java . awt . font ( " times new roman " , java . awt . font . italic , 16 ) ) ;  <NL>  }  <NL> return j text pane ;  <NL>  }  COM: <s> this method initializes j text pane </s>

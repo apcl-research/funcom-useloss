@@ -1,0 +1,1 @@
+TDAT: public void test get all runtime test1s ( ) {  <NL> open jpa entity manager pm = get pm ( ) ;  <NL> open jpa query q = pm . create query ( " select o from runtime test1 o " ) ;  <NL> collection c = q . get result list ( ) ;  <NL> assert equals ( 3 , c . size ( ) ) ;  <NL> end em ( pm ) ;  <NL>  }  COM: <s> tests that we can get all three objects via an extent </s>

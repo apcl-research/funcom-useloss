@@ -1,0 +1,1 @@
+TDAT: public void clear dialogs ( ) {  <NL> window [ ] windows = get owned windows ( ) ;  <NL> for ( int i = 0 ; i < windows . length ; i + + ) {  <NL> if ( ! ( windows [ i ] instanceof find dialog ) ) {  <NL> windows [ i ] . dispose ( ) ;  <NL>  }  <NL>  }  <NL> find dialog . get instance ( ) . reset ( ) ;  <NL>  }  COM: <s> we should remove all open dialogs </s>

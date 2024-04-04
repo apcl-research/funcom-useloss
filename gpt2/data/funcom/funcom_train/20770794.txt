@@ -1,0 +1,1 @@
+TDAT: private void update local phase ( polarity event e ) {  <NL> float f = local phases [ e . x ] [ e . y ] [ e . type ] ;  <NL> float f1 = oscillator . get phase ( e . timestamp ) ;  <NL> final float m = . 95f ;  <NL> float f2 = m * f + ( 1 - m ) * f1 ;  <NL> local phases [ e . x ] [ e . y ] [ e . type ] = f2 ;  <NL>  }  COM: <s> updates average phase of this cell </s>

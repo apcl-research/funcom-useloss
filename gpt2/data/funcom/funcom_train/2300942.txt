@@ -1,0 +1,1 @@
+TDAT: public collection get edges by edge end ( elemento visual edge end ) {  <NL> array list ret = new array list ( ) ;  <NL> for ( gr linea visual edge : lineas ) {  <NL> if ( ( edge . get fin1 ( ) = = edge end ) || ( edge . get fin2 ( ) = = edge end ) )  <NL> ret . add ( edge ) ;  <NL>  }  <NL> return ret ;  <NL>  }  COM: <s> gets all edges that has the specified end </s>

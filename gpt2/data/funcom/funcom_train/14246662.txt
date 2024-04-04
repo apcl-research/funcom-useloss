@@ -1,0 +1,1 @@
+TDAT: private void print hash table ( hashtable ht ) {  <NL> system . out . println ( " hashtable : " ) ;  <NL> set s = ht . entry set ( ) ;  <NL> object [ ] a = s . to array ( ) ;  <NL> for ( int i = 0 ; i < a . length ; i + + ) {  <NL> system . out . println ( " | " + a [ i ] + " | " ) ;  <NL>  }  <NL>  <NL>  }  COM: <s> its only a little helper method to print a hashtable </s>

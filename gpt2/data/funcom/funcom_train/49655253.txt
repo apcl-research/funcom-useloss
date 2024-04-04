@@ -1,0 +1,1 @@
+TDAT: public void set project ( project project ) {  <NL> string name = project . get name ( ) ;  <NL> string owner = project . get owner ( ) ;  <NL> this . set project name ( name ) ;  <NL> this . set team project ( project manager . get instance ( ) . add project ( this , name , owner ) ) ;  <NL> this . project = project ;  <NL>  }  COM: <s> sets the project for this team </s>

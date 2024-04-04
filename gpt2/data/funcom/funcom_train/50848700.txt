@@ -1,0 +1,1 @@
+TDAT: public string get guestbook logo ( ) {  <NL> return " < a href = \ " http : / / menelik . sourceforge . net / jguestbook / \ " target = \ " _ blank\ " > < img src = \ " images / jguestbooklogo03 . gif\ " border = \ " 0\ " alt = \ " powered by j guest book\ " > < / a > " ;  <NL>  }  COM: <s> display a link to aa jguest book homepage at sourceforge aajguestbook </s>

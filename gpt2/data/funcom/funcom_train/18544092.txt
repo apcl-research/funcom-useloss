@@ -1,0 +1,1 @@
+TDAT: private string add size ( ) {  <NL> string text = " " ;  <NL> if ( p _ props . contains key ( property names . size ) ) {  <NL> string size = ( string ) p _ props . get ( property names . size ) ;  <NL> if ( ! size . equals ( " normal " ) ) {  <NL> text = size + " " ;  <NL>  }  <NL>  }  <NL> return text ;  <NL>  }  COM: <s> print the item size if the size is not normal </s>

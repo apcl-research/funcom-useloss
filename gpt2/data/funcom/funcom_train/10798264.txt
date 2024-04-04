@@ -1,0 +1,1 @@
+TDAT: private boolean is lrs ( long start , long end ) {  <NL> long range = end - start ;  <NL> return _ fc . get fetch batch size ( ) > = 0 <NL>  & & ! ( range < = _ fc . get fetch batch size ( )  <NL> || ( _ fc . get fetch batch size ( ) = = 0 & & range < = 50 ) ) ;  <NL>  }  COM: <s> return whether this should be treated as a potential large result set </s>

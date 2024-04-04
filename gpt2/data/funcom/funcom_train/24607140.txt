@@ -1,0 +1,1 @@
+TDAT: private void _ generate a faculty ( int index ) {  <NL> writer _ . start section ( cs _ c _ faculty , _ get id ( cs _ c _ faculty , index ) ) ;  <NL>  _ generate a faculty _ a ( cs _ c _ faculty , index ) ;  <NL> writer _ . end section ( cs _ c _ faculty ) ;  <NL>  }  COM: <s> generates a faculty instance </s>

@@ -1,0 +1,1 @@
+TDAT: private void append ( string builder buffer , string key , string value ) {  <NL> if ( ( value ! = null ) & & ( value . trim ( ) . length ( ) > 0 ) ) {  <NL> buffer . append ( " " ) . append ( key ) . append ( " = \ " " ) . append ( value ) . append ( " \ " " ) ;  <NL>  }  <NL>  }  COM: <s> appends a key value pair if the value is not null </s>

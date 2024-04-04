@@ -1,0 +1,1 @@
+TDAT: public void start frame ( graphics2d g ) {  <NL> if ( clear view every frame ) {  <NL> g . set color ( color . black ) ;  <NL> g . fill rect ( view window . get left offset ( ) , view window . get top offset ( ) ,  <NL> view window . get width ( ) , view window . get height ( ) ) ;  <NL>  }  <NL>  }  COM: <s> indicates the start of rendering of a frame </s>

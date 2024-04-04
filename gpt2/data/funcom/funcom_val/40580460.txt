@@ -1,0 +1,1 @@
+TDAT: private void add to map ( j class type type , problem problem , map < j class type , list < problem > > map ) {  <NL> list < problem > list = map . get ( type ) ;  <NL> if ( list = = null ) {  <NL> list = new array list < problem > ( ) ;  <NL> map . put ( type , list ) ;  <NL>  }  <NL> list . add ( problem ) ;  <NL>  }  COM: <s> adds an entry to one of the problem maps </s>

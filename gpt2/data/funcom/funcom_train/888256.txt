@@ -1,0 +1,1 @@
+TDAT: private int find insertion index ( number field n ) {  <NL> int i = 0 ;  <NL> for ( i = 0 ; i < floors . size ( ) ; i + + ) {  <NL> floor f = ( floor ) floors . get ( i ) ;  <NL> if ( f . get degree ( ) < = n . get degree ( ) )  <NL> break ;  <NL>  }  <NL> return i ;  <NL>  }  COM: <s> where to insert code n code based only on </s>

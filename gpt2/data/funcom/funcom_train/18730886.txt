@@ -1,0 +1,1 @@
+TDAT: protected void insert line ( vertex p1 , vertex p2 ) {  <NL> line line = new line ( p1 , p2 . minus ( p1 ) ) ;  <NL> project . get instance ( ) . get active space ( ) . add ( line ) ;  <NL> project . get instance ( ) . checkpoint ( ) ;  <NL> project . get instance ( ) . changed ( ) ;  <NL>  }  COM: <s> insert a line defined by p1 and p2 </s>

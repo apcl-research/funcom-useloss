@@ -1,0 +1,1 @@
+TDAT: public file get projects file ( ) {  <NL> file result = parameters . p _ projects _ file _ path . of ( get parameters ( ) ) ;  <NL> if ( result = = parameters . p _ projects _ file _ path . get default ( ) ) {  <NL> result = new file ( get config dir ( ) , projects _ data ) ;  <NL>  }  <NL> return result ;  <NL>  }  COM: <s> shared projects data file </s>

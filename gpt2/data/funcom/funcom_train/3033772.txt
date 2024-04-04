@@ -1,0 +1,1 @@
+TDAT: public void combine ( cr is same other ) {  <NL> cr table . udebug . dprintln ( " combine : " + this + " , " + other ) ;  <NL> set skip ( skip || other . skip ) ;  <NL> defined & = other . defined ;  <NL> if ( defined )  <NL> same & = other . same ;  <NL> if ( same )  <NL> reviewed & = other . reviewed ;  <NL>  }  COM: <s> merge the results of another cris same </s>

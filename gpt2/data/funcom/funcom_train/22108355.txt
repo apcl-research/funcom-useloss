@@ -1,0 +1,1 @@
+TDAT: public void set value ( string key , string val ) {  <NL> if ( key = = null || val = = null ) {  <NL>  _ log . warn ( " invalid key / value found . key = ' " + key +  <NL>  " ' value = ' " + val + " ' " ) ;  <NL> return ;  <NL>  }  <NL>  <NL> this . vals . put ( key , val ) ;  <NL>  }  COM: <s> setup a key value pair </s>

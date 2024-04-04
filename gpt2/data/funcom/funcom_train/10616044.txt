@@ -1,0 +1,1 @@
+TDAT: public void test hash code ( ) {  <NL> assert true ( new code signer ( cpath , ts ) . hash code ( ) = = ( cpath . hash code ( ) ^ ts <NL>  . hash code ( ) ) ) ;  <NL> assert true ( new code signer ( cpath , null ) . hash code ( ) = = cpath . hash code ( ) ) ;  <NL>  }  COM: <s> tests code signer </s>

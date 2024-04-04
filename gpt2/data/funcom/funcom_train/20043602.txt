@@ -1,0 +1,1 @@
+TDAT: public void _ get titled border text ( ) {  <NL> string title border text = o obj . get titled border text ( ) ;  <NL> log . println ( " get titled border text ( ) : ' " + title border text + " ' " ) ;  <NL> t res . tested ( " get titled border text ( ) " , title border text ! = null ) ;  <NL>  }  COM: <s> calls the method and checks returned value </s>

@@ -1,0 +1,1 @@
+TDAT: public void action performed ( final action event e ) {  <NL> double delta = math . random ( ) * 10 - 5 ;  <NL> if ( delta = = - 5 . 0 ) {  <NL> delta = 0 ; / / balance chances <NL>  }  <NL> this . y + = delta ;  <NL> this . series . add ( this . x + + / 4 . 0 , this . y ) ;  <NL>  }  COM: <s> receives notification of an action event </s>

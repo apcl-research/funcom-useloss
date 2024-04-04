@@ -1,0 +1,1 @@
+TDAT: public void set sent ( ) {  <NL> sent = new date ( ) ;  <NL>  <NL> iterator it = get auctions ( ) . iterator ( ) ;  <NL> while ( it . has next ( ) ) {  <NL> auction a = ( auction ) it . next ( ) ;  <NL> a . set status ( auction . sent ) ;  <NL> a . set shipping date ( new date ( ) ) ;  <NL>  }  <NL>  }  COM: <s> the products of this list has been sent </s>

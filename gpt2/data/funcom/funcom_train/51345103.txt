@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL>  <NL> return get class ( ) . get simple name ( ) +  <NL>  " { filename = " + get file ( ) +  <NL>  " , uuid = " + get uuid ( ) +  <NL>  " , create time = " + get create time ( ) +  <NL>  " , commit time = " + get commit time ( ) +  <NL>  " } " ;  <NL>  <NL>  }  COM: <s> a human readable representation of the resource metadata </s>

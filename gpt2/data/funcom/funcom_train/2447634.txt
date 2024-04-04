@@ -1,0 +1,1 @@
+TDAT: private void nodes were removed ( konga tree node node , int [ ] child indices , object [ ] removed children ) {  <NL> if ( node ! = null & & child indices ! = null ) {  <NL> fire tree nodes removed ( this , get path to root ( node ) , child indices , removed children ) ;  <NL>  }  <NL>  }  COM: <s> invoke this method after youve removed some tree nodes from node </s>

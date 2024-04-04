@@ -1,0 +1,1 @@
+TDAT: @ test public void is host ( ) throws exception {  <NL> assert true ( " checking is host ( ) with sensorbase " , sensor base client . is host ( get host name ( ) ) ) ;  <NL> assert false ( " checking is host ( ) with bogus url " , sensor base client . is host ( " http : / / foo " ) ) ;  <NL>  }  COM: <s> test that the sensor base client </s>

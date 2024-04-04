@@ -1,0 +1,1 @@
+TDAT: protected void set absolute data ( int row , int column , object data ) {  <NL> int first row = get first row ( ) ;  <NL> if ( ( row > = first row ) & & ( row < = get last row ( ) ) ) {  <NL> render cell ( row - first row , column , data ) ;  <NL>  }  <NL>  }  COM: <s> set the data in a cell </s>

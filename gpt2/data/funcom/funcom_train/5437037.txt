@@ -1,0 +1,1 @@
+TDAT: private void set offset text ( byte [ ] dump ) {  <NL> lines = dump . length / 16 + 1 ;  <NL> string buffer sb = new string buffer ( ) ;  <NL> for ( int i = 0 ; i < lines ; i + + ) {  <NL> sb . append ( utils . to hex ( i * 16 , 4 ) ) . append ( ' \n ' ) ;  <NL>  }  <NL> offsets . set text ( sb . to string ( ) ) ;  <NL>  }  COM: <s> sets the offset text </s>

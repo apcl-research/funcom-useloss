@@ -1,0 +1,1 @@
+TDAT: public iterator get namespace prefixes ( ) {  <NL> vector prefixes = new vector ( ) ;  <NL> for ( int i = 0 ; namespaces ! = null & & i < namespaces . size ( ) ; i + + ) {  <NL> prefixes . add ( ( ( mapping ) namespaces . get ( i ) ) . get prefix ( ) ) ;  <NL>  }  <NL> return prefixes . iterator ( ) ;  <NL>  }  COM: <s> get an iterator of the prefixes </s>

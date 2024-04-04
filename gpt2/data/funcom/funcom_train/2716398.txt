@@ -1,0 +1,1 @@
+TDAT: private void create search pattern ( string pattern ) {  <NL> pattern = pattern + " * " ;  <NL> pattern = pattern . replace ( " * " , " . * " ) ;  <NL> pattern = pattern . replace all ( " \\ ? " , " . ? " ) ;  <NL> this . search pattern = pattern . compile ( pattern , pattern . case _ insensitive ) ;  <NL>  }  COM: <s> creates the search pattern based on search string </s>

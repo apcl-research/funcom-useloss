@@ -1,0 +1,1 @@
+TDAT: private void set no cache headers ( http response res ) {  <NL> res . set field ( http fields . _ _ cache control , " no - cache " ) ;  <NL> res . set field ( http fields . _ _ pragma , " no - cache " ) ;  <NL> res . set field ( http fields . _ _ expires , http fields . _ _ 01jan1970 ) ;  <NL>  }  COM: <s> sets all the dont cache headers on the http response </s>

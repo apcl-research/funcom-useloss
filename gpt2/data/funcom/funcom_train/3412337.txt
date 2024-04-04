@@ -1,0 +1,1 @@
+TDAT: public display mode get display mode ( ) {  <NL> graphics configuration gc = get default configuration ( ) ;  <NL> rectangle r = gc . get bounds ( ) ;  <NL> color model cm = gc . get color model ( ) ;  <NL> return new display mode ( r . width , r . height , cm . get pixel size ( ) , 0 ) ;  <NL>  }  COM: <s> returns the current display mode of this </s>

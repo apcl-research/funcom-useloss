@@ -1,0 +1,1 @@
+TDAT: public void paint separator foreground ( synth context context , graphics g , int x , int y , int w , int h , int orientation ) {  <NL> paint foreground ( context , g , x , y , w , h , orientation ) ;  <NL>  }  COM: <s> paints the foreground of a separator </s>

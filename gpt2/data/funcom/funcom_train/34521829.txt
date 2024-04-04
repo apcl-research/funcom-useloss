@@ -1,0 +1,1 @@
+TDAT: public void put table index ( edu . arizona . cs . mbel . byte buffer buffer , int type , number rid ) {  <NL> if ( tables [ type ] . size ( ) > = 65536 ) {  <NL> buffer . put dword ( rid . long value ( ) ) ;  <NL>  } else {  <NL> buffer . put word ( rid . int value ( ) ) ;  <NL>  }  <NL>  }  COM: <s> writes a table index to a buffer in the appropriate size </s>

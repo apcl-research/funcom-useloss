@@ -1,0 +1,1 @@
+TDAT: public boolean disband ( ) {  <NL> if ( is empty ( ) ) { return false ; }  <NL> for ( int x = 0 ; x < unit list . size ( ) ; x + + ) {  <NL> unit list . get ( x ) . remove from army ( ) ;  <NL>  }  <NL> set unit list ( new array list < unit > ( 10 ) ) ;  <NL> return true ;  <NL>  }  COM: <s> removes all of the units from the army and resets the unit list </s>

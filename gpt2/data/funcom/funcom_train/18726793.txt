@@ -1,0 +1,1 @@
+TDAT: private void erase zoom window ( ) {  <NL> final int width = zoom window size . width ;  <NL> final int height = zoom window size . height ;  <NL> final int x = zoom window location . x ;  <NL> final int y = zoom window location . y ;  <NL>  <NL> jaxo utils . draw image area ( background , x , y , width , height , graphics ) ;  <NL>  }  COM: <s> erases the zoom window </s>

@@ -1,0 +1,1 @@
+TDAT: public void release ( ) {  <NL> m length = 0 ;  <NL> synchronized ( s pool ) {  <NL>  / / add the chunk back to the pool as a soft reference so it can <NL>  / / be gc ' d if needed .  <NL> s pool . offer ( new soft reference < chunk > ( this , s queue ) ) ;  <NL> s pool . notify all ( ) ;  <NL>  }  <NL>  }  COM: <s> release the chunk and make it available for reuse </s>

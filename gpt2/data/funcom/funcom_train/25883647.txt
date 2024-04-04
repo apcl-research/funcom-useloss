@@ -1,0 +1,1 @@
+TDAT: protected intent get click intent ( uri uri ) {  <NL> long task id = content uris . parse id ( uri ) ;  <NL> uri task uri = content uris . append id ( task provider . tasks . content _ uri . build upon ( ) , task id ) . build ( ) ;  <NL> return new intent ( intent . action _ view , task uri ) ;  <NL>  }  COM: <s> return the intent generated when a list item is clicked </s>

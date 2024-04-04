@@ -1,0 +1,1 @@
+TDAT: private void add knob widget ( j component panel , string w label , patch patch , int min , int max , int sysex offset , int cc num ) {  <NL> add knob widget ( panel , w label , patch , min , max , 0 , sysex offset , cc num ) ;  <NL>  }  COM: <s> adds a knob widget to the given jcomponent </s>

@@ -1,0 +1,1 @@
+TDAT: public void set xsl file name ( string xsl f name ) {  <NL> string path = cm . get property ( " base _ path " , " / tmp " ) ;  <NL> if ( xsl f name . starts with ( " / " ) & & xsl f name . length ( ) > 1 ) {  <NL> xsl f name = xsl f name . substring ( 1 ) ;  <NL>  }  <NL> xsl file name = path + xsl f name ;  <NL>  }  COM: <s> setter for property xsl file name </s>

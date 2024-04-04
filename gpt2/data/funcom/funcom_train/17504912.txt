@@ -1,0 +1,1 @@
+TDAT: public type completion error ( diagnostic position pos , completion failure ex ) {  <NL> log . error ( pos , " cant . access " , ex . sym , ex . get detail value ( ) ) ;  <NL> if ( ex instanceof class reader . bad class file ) throw new abort ( ) ;  <NL> else return syms . err type ;  <NL>  }  COM: <s> report a failure to complete a class </s>

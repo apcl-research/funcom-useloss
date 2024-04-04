@@ -1,0 +1,1 @@
+TDAT: public void set byte ( int i , int x ) {  <NL> int addr = i > > address _ bits ;  <NL> check capacity ( addr ) ;  <NL> data [ addr ] | = ( ( long ) x ) < < ( i & ( 7 < < 3 ) ) ;  <NL> if ( max length < i & & x ! = 0 ) {  <NL> max length = i + 7 ;  <NL>  }  <NL>  }  COM: <s> combine the next 8 bits at the given index with or </s>

@@ -1,0 +1,1 @@
+TDAT: private void draw cross ( graphics g , int x , int y , color color ) {  <NL> int size = 2 ;  <NL>  <NL> g . set color ( color ) ;  <NL> g . draw line ( x - size , y , x + size , y ) ;  <NL> g . draw line ( x , y + size , x , y - size ) ;  <NL>  }  COM: <s> draws a cross at the given position </s>

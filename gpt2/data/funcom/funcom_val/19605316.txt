@@ -1,0 +1,1 @@
+TDAT: public void test angle a ( ) {  <NL> system . out . println ( " angle a " ) ;  <NL>  <NL> plane a = new plane ( point . north _ pole ) ;  <NL> plane b = new plane ( point . origin ) ;  <NL>  <NL> double exp result = math . pi / 2 ;  <NL> double result = a . angle ( b ) ;  <NL> assert equals ( exp result , result ) ;  <NL>  }  COM: <s> test of angle method of class com </s>

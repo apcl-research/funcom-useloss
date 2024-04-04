@@ -1,0 +1,1 @@
+TDAT: public void mouse dragged ( mouse event e ) {  <NL> editor ( ) . show mouse location ( e . get x ( ) , e . get y ( ) ) ;  <NL> point p = constrain point ( new point ( e . get x ( ) , e . get y ( ) ) ) ;  <NL> tool ( ) . mouse drag ( this , e , p . x , p . y ) ;  <NL> check damage ( ) ;  <NL>  }  COM: <s> handles mouse drag events </s>

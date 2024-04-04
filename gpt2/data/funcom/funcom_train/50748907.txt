@@ -1,0 +1,1 @@
+TDAT: public component add ( string a tab name , component a component ) {  <NL> component the ret comp = super . add ( a tab name , a component ) ;  <NL> if ( super . get component count ( ) > = ( this . m _ current + 1 ) ) {  <NL> super . set selected index ( this . m _ current ) ;  <NL>  }  <NL> return the ret comp ;  <NL>  }  COM: <s> adds a new tab to the component </s>

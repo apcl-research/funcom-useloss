@@ -1,0 +1,1 @@
+TDAT: public void handle hit ( int rank , float score , int doc id , document doc ) {  <NL> final map < string , string > stored fields = ( lucene fields = = null ) ? null : lucene fields . get stored fields ( doc ) ;  <NL> this . search hits . add ( new search hit ( rank , score , doc id , stored fields ) ) ;  <NL>  }  COM: <s> handle the given hit </s>

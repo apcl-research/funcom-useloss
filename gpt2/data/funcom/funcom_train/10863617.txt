@@ -1,0 +1,1 @@
+TDAT: public boolean remove facet query ( string q ) {  <NL> boolean b = this . remove ( facet params . facet _ query , q ) ;  <NL> if ( this . get ( facet params . facet _ field ) = = null & & this . get ( facet params . facet _ query ) = = null ) {  <NL> this . set facet ( false ) ;  <NL>  }  <NL> return b ;  <NL>  }  COM: <s> remove a facet query </s>

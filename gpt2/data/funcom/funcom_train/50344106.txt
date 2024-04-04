@@ -1,0 +1,1 @@
+TDAT: public void set priority ( string type , string name , string priority ) {  <NL> list < car load > loads = list . get ( type ) ;  <NL> for ( int i = 0 ; i < loads . size ( ) ; i + + ) {  <NL> car load cl = loads . get ( i ) ;  <NL> if ( cl . get name ( ) . equals ( name ) )  <NL> cl . set priority ( priority ) ;  <NL>  }  <NL>  }  COM: <s> sets a loads priority </s>

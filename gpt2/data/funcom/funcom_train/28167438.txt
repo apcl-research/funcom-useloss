@@ -1,0 +1,1 @@
+TDAT: public void line to ( object x1 , object y1 ) {  <NL> if ( size ( ) = = 0 || get ( size ( ) - 1 ) . type = = seg type . close ) {  <NL> throw new illegal path state exception ( " line to is only allowed when a path segment is open " ) ;  <NL>  }  <NL> add ( new segment ( seg type . lineto , x1 , y1 ) ) ;  <NL>  }  COM: <s> adds a line to the current path segment </s>

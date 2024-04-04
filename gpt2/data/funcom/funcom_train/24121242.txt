@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> return " chord ( " + this . x1 + " , " + this . y1 + " ) - ( " + this . x2 + " , " + this . y2 + " ) radial1 ( " + this . x radial1 + " , " + this . y radial1 + " ) radial2 ( " + this . x radial2 + " , " + this . y radial2 + " ) " ;  <NL>  }  COM: <s> returns the content of the chord record in human readable format </s>

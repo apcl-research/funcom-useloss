@@ -1,0 +1,1 @@
+TDAT: public void add original keyword ( card c , string s ) {  <NL> if ( ! original keywords . contains key ( c ) ) {  <NL> array list < string > list = new array list < string > ( ) ;  <NL> list . add ( s ) ;  <NL> original keywords . put ( c , list ) ;  <NL>  } else original keywords . get ( c ) . add ( s ) ;  <NL>  }  COM: <s> p add original keyword </s>

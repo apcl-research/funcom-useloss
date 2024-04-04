@@ -1,0 +1,1 @@
+TDAT: public double get score ( short x , short y ) {  <NL> if ( x > = 0 & x < = map size x & y > = 0 & y < = map size y ) {  <NL> return pxl score [ x ] [ y ] ;  <NL>  } else {  <NL> filter . log . warning ( " pxl score map . get score ( ) : pixel not on chip ! " ) ;  <NL>  }  <NL> return 0 ;  <NL>  }  COM: <s> get score of specific pixel </s>

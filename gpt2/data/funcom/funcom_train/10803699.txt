@@ -1,0 +1,1 @@
+TDAT: protected void end class ( string elem ) throws sax exception {  <NL> if ( get class attribute name ( ) ! = null )  <NL>  _ class = null ;  <NL> else {  <NL>  _ class = current text ( ) ;  <NL> if ( ! string utils . is empty ( _ package ) & & _ class . index of ( ' . ' ) = = - 1 )  <NL>  _ class = _ package + " . " + _ class ;  <NL>  }  <NL>  }  COM: <s> end a class </s>

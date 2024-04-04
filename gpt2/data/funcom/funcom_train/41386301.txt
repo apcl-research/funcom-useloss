@@ -1,0 +1,1 @@
+TDAT: public point3f transform ( point3f p ) {  <NL> return p . set (  <NL> p . x * e [ xx ] + p . y * e [ yx ] + p . z * e [ zx ] ,  <NL> p . x * e [ xy ] + p . y * e [ yy ] + p . z * e [ zy ] ,  <NL> p . x * e [ xz ] + p . y * e [ yz ] + p . z * e [ zz ] ) ;  <NL>  }  COM: <s> multiply a point by this matrix </s>

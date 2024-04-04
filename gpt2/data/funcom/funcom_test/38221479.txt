@@ -1,0 +1,1 @@
+TDAT: public int get panel index ( string name ) {  <NL> for ( int i = 0 ; i < items . size ( ) ; i + + ) {  <NL> c outlook bar item current = ( c outlook bar item ) items . get ( i ) ;  <NL> if ( current . get button ( ) . get text ( ) . equals ( name ) )  <NL> return i ;  <NL>  }  <NL> return - 1 ;  <NL>  }  COM: <s> gets an index of panel with specified name </s>

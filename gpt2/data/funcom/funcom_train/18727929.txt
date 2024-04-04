@@ -1,0 +1,1 @@
+TDAT: public void replace ( final jaxo object old , final jaxo object o ) {  <NL> if ( ! o . equals ( old ) ) {  <NL> final int index = get object list ( ) . index of ( old ) ;  <NL>  <NL> if ( index ! = - 1 ) {  <NL> get object list ( ) . set ( index , o ) ;  <NL> set saved ( false ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> replace old by o </s>

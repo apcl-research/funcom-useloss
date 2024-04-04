@@ -1,0 +1,1 @@
+TDAT: public void add label ( double x , double y , string label ) {  <NL> setup ( ) ;  <NL> int xt = plot . left _ margin + ( int ) ( x * frame width ) ;  <NL> int yt = plot . top _ margin + ( int ) ( y * frame height ) ;  <NL> ip . draw string ( label , xt , yt ) ;  <NL>  }  COM: <s> draws text at the specified location where 0 0 </s>

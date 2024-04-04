@@ -1,0 +1,1 @@
+TDAT: public cell get cell ( cell position position ) {  <NL> if ( position . get x ( ) = = - 1 & & position . get y ( ) = = - 1 ) {  <NL> return new cell ( false , 0 , 0 ) ;  <NL>  }  <NL> return this . cells [ position . get y ( ) ] [ position . get x ( ) ] ;  <NL>  }  COM: <s> returns the cell at the given position </s>

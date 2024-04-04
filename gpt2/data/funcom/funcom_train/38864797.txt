@@ -1,0 +1,1 @@
+TDAT: public int get ( string station , int year , int month ) throws exception {  <NL> stn = station ;  <NL> from date = new date time ( year , month , 1 ) ;  <NL> int d = from date . days in month ( ) ;  <NL> to date = new date time ( year , month , d , 23 , 59 , 59 ) ;  <NL> return get ( ) ;  <NL>  }  COM: <s> get a vector of ionospheric data for a station year month </s>

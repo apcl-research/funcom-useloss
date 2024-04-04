@@ -1,0 +1,1 @@
+TDAT: public void open ( ) throws io exception {  <NL> if ( ! check close ( ) )  <NL> return ;  <NL> file f = gui utils . open ( new file name extension filter [ ] { new javax . swing . filechooser . file name extension filter ( " pjc pack jacket configuration ( . pjc ) " , new string [ ] { " pjc " } ) } ) ;  <NL> open ( f , true ) ;  <NL>  }  COM: <s> asks user to open pjc </s>

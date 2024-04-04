@@ -1,0 +1,1 @@
+TDAT: public void set user object ( object value ) {  <NL> object old value = this . user object ;  <NL> this . user object = value ;  <NL> h hier = get hierarchy ( ) ;  <NL> if ( hier ! = null ) hier . fire property change ( this , property _ item _ user _ object , old value , this . user object ) ;  <NL>  }  COM: <s> set the developer user defined object for this tree </s>

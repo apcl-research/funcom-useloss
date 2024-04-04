@@ -1,0 +1,1 @@
+TDAT: public void split line ( int line number , int offset ) {  <NL>  / / put a 0 character for line termination at the split location <NL> do insert char ( line number , offset , ( char ) 0 ) ;  <NL>  / / update line idx array <NL> insert line ( line number + 1 , line idx [ line number ] + offset + 1 ) ;  <NL>  }  COM: <s> split a line at a particular offset </s>

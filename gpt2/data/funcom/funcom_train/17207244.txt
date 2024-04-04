@@ -1,0 +1,1 @@
+TDAT: private int read ( int index ) {  <NL> int value = data [ index ] ;  <NL> if ( is watched ( index ) ) {  <NL> system . err . printf ( " % s = % 08x % n " , cell address ( index ) , data [ index ] ) ;  <NL>  / / new throwable ( ) . print stack trace ( ) ;  <NL>  }  <NL> return value ;  <NL>  }  COM: <s> perform the actual read of memory </s>

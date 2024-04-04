@@ -1,0 +1,1 @@
+TDAT: public void draw multiline ( final point [ ] points ) {  <NL> if ( points . length > 0 ) {  <NL> point prev = points [ 0 ] ;  <NL> point cur ;  <NL> for ( int i = 1 ; i < points . length ; i + + ) {  <NL> cur = points [ i ] ;  <NL> draw line ( prev , cur ) ;  <NL> prev = cur ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> draw a freeform line defined by an array of points </s>

@@ -1,0 +1,1 @@
+TDAT: protected void add object ( string name , object o ) {  <NL> if ( o ! = null ) {  <NL> vector < object > v = sub _ objects . get ( name ) ;  <NL> if ( v = = null )  <NL> sub _ objects . put ( name , v = new vector < object > ( ) ) ;  <NL> v . add ( o ) ;  <NL>  }  <NL>  }  COM: <s> add a sub object with a given name </s>

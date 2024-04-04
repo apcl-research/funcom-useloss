@@ -1,0 +1,1 @@
+TDAT: private j text field get url field ( ) {  <NL> if ( url text field = = null ) {  <NL> url text field = new j text field ( last url ) ;  <NL> url text field . set horizontal alignment ( j text field . left ) ;  <NL> url text field . set bounds ( 50 , 30 , 240 , 20 ) ;  <NL>  }  <NL> return url text field ;  <NL>  }  COM: <s> this method initializes start text field </s>

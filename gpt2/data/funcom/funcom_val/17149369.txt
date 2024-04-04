@@ -1,0 +1,1 @@
+TDAT: public void mouse dragged ( mouse event e ) {  <NL>  / / the user is dragging , so scroll .  <NL> log . print ( " ( dynamic tree . mml . mouse dragged ) " ) ;  <NL> rectangle r = new rectangle ( e . get x ( ) , e . get y ( ) , 1 , 1 ) ;  <NL> scroll rect to visible ( r ) ;  <NL>  }  COM: <s> invoked when a mouse button is pressed on a component and then </s>

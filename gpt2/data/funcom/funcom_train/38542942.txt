@@ -1,0 +1,1 @@
+TDAT: protected mouse event change mouse event source ( mouse event e , component source ) {  <NL> return new mouse event ( source , e . get id ( ) , e . get when ( ) , e . get modifiers ( ) ,  <NL> e . get x ( ) , e . get y ( ) , e . get click count ( ) , e . is popup trigger ( ) ) ;  <NL>  }  COM: <s> this method creates a new mouse event that mimics the parameter e except </s>

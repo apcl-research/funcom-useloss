@@ -1,0 +1,1 @@
+TDAT: public void set index ( final int pos , final int val ) {  <NL> if ( index [ pos ] ! = unallocated ) {  <NL> index [ pos ] = val ;  <NL>  } else {  <NL> system . out . println ( " fehler : class linked set : index [ " + pos + " ] noch nicht belegt ! " ) ;  <NL> system . exit ( 1 ) ;  <NL>  }  <NL>  }  COM: <s> sets the board value at a position </s>

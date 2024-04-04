@@ -1,0 +1,1 @@
+TDAT: public void set cmd ( character way , int cmd ) {  <NL> cell c = at ( way ) ;  <NL> if ( c = = null ) {  <NL> c = new cell ( ) ;  <NL> c . cmd = cmd ;  <NL> cells . put ( way , c ) ;  <NL>  } else {  <NL> c . cmd = cmd ;  <NL>  }  <NL> c . cnt = ( cmd > = 0 ) ? 1 : 0 ;  <NL>  }  COM: <s> set the command in the cell of the given character to the given </s>

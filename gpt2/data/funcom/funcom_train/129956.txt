@@ -1,0 +1,1 @@
+TDAT: static public shape get basic arrow tip ( ) {  <NL> polygon arrow tip = new polygon ( ) ;  <NL> arrow tip . add point ( - 4 , - 8 ) ;  <NL> arrow tip . add point ( 0 , 0 ) ;  <NL> arrow tip . add point ( 4 , - 8 ) ;  <NL> arrow tip . add point ( 0 , 0 ) ;  <NL>  <NL> return arrow tip ;  <NL>  }  COM: <s> vends a basic triangular arrow tip that is suitable for use as an </s>

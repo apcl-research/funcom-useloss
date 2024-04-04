@@ -1,0 +1,1 @@
+TDAT: public void render and send ( ) {  <NL> load balancer lb = new load balancer ( 1 , 1 ) ;  <NL> lb . set pieces ( pieces ) ;  <NL> int [ ] [ ] segments = lb . get uniform segments ( threads ) ;  <NL> rt = new ray tracer ( scene , 5 ) ;  <NL> rt . render ( pieces , segments , threads , pw ) ;  <NL>  }  COM: <s> starts the render job on this node </s>

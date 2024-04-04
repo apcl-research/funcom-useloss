@@ -1,0 +1,1 @@
+TDAT: public boolean overlaps ( ) {  <NL> if ( size ( ) > 0 & & ( ccw set . member ( cw set . get ( cw set . size ( ) - 1 ) . get node id ( ) ) || <NL> cw set . member ( ccw set . get ( ccw set . size ( ) - 1 ) . get node id ( ) ) ) )  <NL> return true ;  <NL>  <NL> else return false ;  <NL>  }  COM: <s> test if the leafset overlaps </s>

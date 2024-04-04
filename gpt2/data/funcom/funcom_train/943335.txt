@@ -1,0 +1,1 @@
+TDAT: private component build help menu ( ) {  <NL> j menu menu = new j menu ( messages . get string ( " menu . help " ) ) ; / / $ non - nls - 1 $  <NL> menu . add ( new j menu item ( messages . get string ( " menu . help . about " ) ) ) ; / / $ non - nls - 1 $  <NL> return menu ;  <NL>  }  COM: <s> initialize and return help menu </s>

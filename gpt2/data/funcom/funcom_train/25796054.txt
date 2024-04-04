@@ -1,0 +1,1 @@
+TDAT: public cursor fetch all authors ( ) {  <NL> sq lite database m db = m db helper . get readable database ( ) ;  <NL> cursor c = m db . query ( database _ table ,  <NL> new string [ ] { key _ rowid , key _ authorid , key _ authorname } ,  <NL> null , null , null , null , null ) ;  <NL> return c ;  <NL>  }  COM: <s> return a cursor over the list of all authors </s>

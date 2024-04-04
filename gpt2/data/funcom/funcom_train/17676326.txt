@@ -1,0 +1,1 @@
+TDAT: public void sort ( comparator comp ) {  <NL> if ( size < = 1 ) return ;  <NL> if ( size = = 2 ) {  <NL> if ( comp . compare ( oids [ 0 ] , oids [ 1 ] ) > 0 ) {  <NL> oid t = oids [ 0 ] ;  <NL> oids [ 0 ] = oids [ 1 ] ;  <NL> oids [ 1 ] = t ;  <NL>  }  <NL> return ;  <NL>  }  <NL> arrays . sort ( oids , 0 , size , comp ) ;  <NL>  }  COM: <s> sort the oids </s>

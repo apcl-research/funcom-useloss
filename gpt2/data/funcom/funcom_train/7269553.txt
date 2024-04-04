@@ -1,0 +1,1 @@
+TDAT: private void set text ( string tip ) {  <NL> string fore hex = gui utils . color to hex ( _ foreground ) ;  <NL> tip pane . set text ( " < html > < font face = ' arial , helvetica , sanserif ' color = ' # " + fore hex + " ' > " + tip + " < / font > " ) ;  <NL> tip pane . set caret position ( 0 ) ;  <NL>  }  COM: <s> sets the text of the tip to a new tip </s>

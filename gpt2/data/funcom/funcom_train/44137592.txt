@@ -1,0 +1,1 @@
+TDAT: public void on resize ( int w , int h ) {  <NL> if ( m _ media ! = null ) {  <NL> m _ media . get properties ( ) . set w ( w * m _ slide panel . get coeff ( ) ) ;  <NL> m _ media . get properties ( ) . set h ( h * m _ slide panel . get coeff ( ) ) ;  <NL>  }  <NL>  }  COM: <s> call when component is removed </s>

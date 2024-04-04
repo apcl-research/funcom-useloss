@@ -1,0 +1,1 @@
+TDAT: public void map role ( pdf name used , pdf name standard ) {  <NL> pdf dictionary rm = ( pdf dictionary ) get ( pdf name . rolemap ) ;  <NL> if ( rm = = null ) {  <NL> rm = new pdf dictionary ( ) ;  <NL> put ( pdf name . rolemap , rm ) ;  <NL>  }  <NL> rm . put ( used , standard ) ;  <NL>  }  COM: <s> maps the user tags to the standard tags </s>

@@ -1,0 +1,1 @@
+TDAT: public void add data ( int start , float volume , float [ ] output ) {  <NL> int end = start + output . length - 1 ;  <NL>  <NL> for ( int i = 0 ; ( ( i + start ) < = end ) & & ( ( i + start ) < data . length ) ; i + + ) {  <NL> output [ i ] + = volume * data [ i + start ] ;  <NL>  }  <NL>  }  COM: <s> adds audio data to the output array from the specified start point </s>

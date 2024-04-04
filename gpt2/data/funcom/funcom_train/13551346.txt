@@ -1,0 +1,1 @@
+TDAT: public int yz display bitmap ( int x , int y , int dx , int dy , image bits ) {  <NL> grafix . draw image ( bits , x , y , x + dx , y + dy , 0 , 0 , bits . get width ( null ) , bits . get height ( null ) , null ) ;  <NL> if ( yz is painting enabled ( ) ) canvas . repaint ( ) ;  <NL> return 0 ;  <NL>  }  COM: <s> draws part of an image </s>

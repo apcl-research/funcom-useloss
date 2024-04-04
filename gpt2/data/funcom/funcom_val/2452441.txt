@@ -1,0 +1,1 @@
+TDAT: public void set pallet ( int index , rgb color ) {  <NL> if ( color ! = null ) {  <NL> pal [ ( ( index & ( pal . length - 1 ) ) % pal . length ) ] = color ;  <NL>  } else {  <NL> pal [ ( ( index & ( pal . length - 1 ) ) % pal . length ) ] = new rgb ( 0 , 0 , 0 ) ;  <NL>  }  <NL>  }  COM: <s> sets the pallet index to a specified color </s>

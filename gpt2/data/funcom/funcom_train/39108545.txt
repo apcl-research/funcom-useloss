@@ -1,0 +1,1 @@
+TDAT: public string get value ( string name ) {  <NL> try {  <NL>  / / return ( ( attr type value ) attribute . get ( name . to upper case ( ) ) ) . get value ( ) ;  <NL> return ( ( attr type value ) attribute . get ( name ) ) . get value ( ) ;  <NL>  }  <NL> catch ( null pointer exception e ) {  <NL> return null ;  <NL>  }  <NL>  }  COM: <s> return value of an attribute </s>

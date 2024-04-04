@@ -1,0 +1,1 @@
+TDAT: protected void loop message ( ) {  <NL> message msg = null ;  <NL> msg = _ l duration = = 0 ? wait message ( ) : wait message ( _ l duration ) ;  <NL> try {  <NL> dispatch ( msg ) ;  <NL>  }  <NL> catch ( throwable e ) {  <NL>  _ log . throwing ( " request " , " loop message " , e ) ;  <NL>  }  <NL> remove message ( msg ) ;  <NL>  }  COM: <s> loops on message reception </s>

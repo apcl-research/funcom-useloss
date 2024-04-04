@@ -1,0 +1,1 @@
+TDAT: public void add bezier ( int x1 , int y1 , int x2 , int y2 , int x3 , int y3 ) {  <NL> end text ( ) ;  <NL> append ( x1 ) . append ( y1 ) . append ( x2 ) . append ( y2 ) . append ( x3 ) . append ( y3 ) . append ( ' c ' ) ;  <NL> in path = true ;  <NL>  }  COM: <s> append a cubic bezier curve to the current path </s>

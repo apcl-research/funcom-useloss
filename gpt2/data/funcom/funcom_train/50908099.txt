@@ -1,0 +1,1 @@
+TDAT: public void set white email ( string white email ) {  <NL> pgn tag tag = get tag ( white _ na _ key ) ;  <NL> if ( tag = = null ) {  <NL> tag = new pgn tag ( white _ na _ key , white email ) ;  <NL> tags . add ( tag ) ;  <NL>  } else {  <NL> tag . set value ( white email ) ;  <NL>  }  <NL>  }  COM: <s> setter for property white email </s>

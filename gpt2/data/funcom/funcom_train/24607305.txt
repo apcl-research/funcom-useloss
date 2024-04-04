@@ -1,0 +1,1 @@
+TDAT: private void _ generate a prof _ a ( int type , int index ) {  <NL>  _ generate a faculty _ a ( type , index ) ;  <NL> writer _ . add property ( cs _ p _ researchinterest ,  <NL>  _ get relative name ( cs _ c _ research ,  <NL> random _ . next int ( research _ num ) ) , false ) ;  <NL>  }  COM: <s> generates properties for a professor instance </s>

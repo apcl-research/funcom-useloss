@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> string s = " [ timestamp : " + timestamp ;  <NL> s + = " key _ fpos : " + key _ fpos ;  <NL> s + = " key _ size : " + key _ size ;  <NL> s + = " fbs _ fpos : " + fbs _ fpos ;  <NL> s + = " fbs _ skip : " + fbs _ skip + " ] " ;  <NL>  <NL> return s ;  <NL>  }  COM: <s> a replacement for </s>

@@ -1,0 +1,1 @@
+TDAT: public boolean close contains ( double x , double y ) {  <NL> rectangle2d . float rect = new rectangle2d . float ( this . get x ( ) + this . m _ n width - 20 , this . get y ( ) , 20 , 20 ) ;  <NL> return rect . contains ( new double ( x ) . int value ( ) , new double ( y ) . int value ( ) ) ;  <NL>  }  COM: <s> checks if the close box contains a given co ordinate </s>

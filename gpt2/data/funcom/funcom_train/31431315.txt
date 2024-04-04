@@ -1,0 +1,1 @@
+TDAT: public list constant operations ( ) {  <NL> list ans = new array list ( ) ;  <NL> for ( iterator it = operations ( ) . iterator ( ) ; it . has next ( ) ; ) {  <NL> final operation op = ( operation ) it . next ( ) ;  <NL> if ( op . arity ( ) = = 0 ) ans . add ( op ) ;  <NL>  }  <NL> return ans ;  <NL>  }  COM: <s> this gives a list of the operations of arity 0 which is </s>

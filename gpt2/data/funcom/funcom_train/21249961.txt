@@ -1,0 +1,1 @@
+TDAT: public boolean get i dby name ( string gr , string ins ) {  <NL> if ( ( m _ group id = get group id ( gr ) ) ! = - 1 ) {  <NL> if ( ( m _ instance id = snm pgroups . get ( m _ group id ) . get instance id ( ins ) ) ! = - 1 ) {  <NL> return true ;  <NL>  }  <NL>  }  <NL> return false ;  <NL>  }  COM: <s> this method return index by string name of variable </s>

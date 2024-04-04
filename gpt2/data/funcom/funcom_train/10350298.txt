@@ -1,0 +1,1 @@
+TDAT: public void write to ( socket socket , string msg ) throws io exception {  <NL> print writer socket out = new print writer ( socket . get output stream ( ) , true ) ;  <NL> socket out . println ( msg + " \u0000 " ) ;  <NL> socket out . flush ( ) ;  <NL> system . out . println ( " wrote : " + msg ) ; / / test <NL>  }  COM: <s> writes a string to the socket </s>

@@ -1,0 +1,1 @@
+TDAT: public void highlight next node ( ) {  <NL> if ( m _ current node ! = - 1 ) {  <NL> m _ current node = ( m _ current node + 1 ) % m _ highlighted nodes . size ( ) ;  <NL> node node = ( node ) m _ ordered highlighted nodes . get ( m _ current node ) ;  <NL> center node in view ( node ) ;  <NL>  }  <NL>  }  COM: <s> highlights the next node </s>

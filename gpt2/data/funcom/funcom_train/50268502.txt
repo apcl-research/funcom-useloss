@@ -1,0 +1,1 @@
+TDAT: public void load javadoc ( )  <NL>  { / * try { set current file ( javadoc ) ; }  <NL> catch ( exception e ) {  <NL> j option pane . show message dialog ( this , " couldn ' t load the file " + ' \n '  <NL>  + javadoc , " error " , j option pane . warning _ message ) ;  <NL>  }  <NL> if ( ! is visible ( ) )  <NL> show ( ) ; * /  <NL>  }  COM: <s> load the javadoc </s>

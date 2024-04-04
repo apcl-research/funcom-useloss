@@ -1,0 +1,1 @@
+TDAT: public void activate ( ) {  <NL>  / / to do : enter here what you want to do at startup time <NL>  / / int r = create group ( " my community " , " my group " , null , null ) ;  <NL>  / / if ( r = = 1 )  <NL>  / / request role ( " my community " , " my group " , " my role " , null ) ;  <NL>  }  COM: <s> activation method called at startup time </s>

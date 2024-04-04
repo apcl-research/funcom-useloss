@@ -1,0 +1,1 @@
+TDAT: private void pop pool update ( pop pools update packet the packet ) {  <NL> pop pools = the packet . pop pools ;  <NL> pop pool model . clear ( ) ;  <NL> enumeration e = the packet . pop pools . elements ( ) ;  <NL> while ( e . has more elements ( ) ) {  <NL> pop pool model . add element ( e . next element ( ) ) ;  <NL>  }  <NL>  }  COM: <s> updates the pop pool list </s>

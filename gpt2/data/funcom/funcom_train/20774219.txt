@@ -1,0 +1,1 @@
+TDAT: public float get inner radius pixels ( ) {  <NL> return math . min ( math . min ( math . abs ( location . x - min x ) , math . abs ( location . x - max x ) ) , math . min ( math . abs ( location . y - min y ) , math . abs ( location . y - max y ) ) ) ;  <NL>  }  COM: <s> returns the inner radius of the group </s>

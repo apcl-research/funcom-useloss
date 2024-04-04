@@ -1,0 +1,1 @@
+TDAT: public void add ( final int move ) {  <NL> if ( size > = capacity ) {  <NL> int [ ] tmp = new int [ 2 * capacity ] ;  <NL> system . arraycopy ( storage , 0 , tmp , 0 , capacity ) ;  <NL> capacity * = 2 ;  <NL> storage = tmp ;  <NL>  }  <NL>  <NL> storage [ size ] = move ;  <NL> size + + ;  <NL>  }  COM: <s> add an entry </s>

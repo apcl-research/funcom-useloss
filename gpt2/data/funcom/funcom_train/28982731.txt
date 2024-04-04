@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> return " message : " + " type = " + get type ( ) + " / dest region = " + this . get dest region ( ) + " / orig region = " + get orig region ( ) + " \n " + " temperature value = " + temperature value + " / " + " light value = " + light value ;  <NL>  }  COM: <s> converts the content of the reply in string </s>

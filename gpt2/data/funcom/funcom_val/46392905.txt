@@ -1,0 +1,1 @@
+TDAT: public data history get sub history ( long start , long end ) {  <NL> tree map < long , double > sub map = ( tree map < long , double > ) data . sub map ( start , true , end , true ) ;  <NL> data history sub data = new data history ( ) ;  <NL> sub data . add data ( sub map ) ;  <NL> return sub data ;  <NL>  }  COM: <s> get a subset of the data points </s>

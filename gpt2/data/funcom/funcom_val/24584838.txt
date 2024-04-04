@@ -1,0 +1,1 @@
+TDAT: public pnt get centroid ( ) {  <NL> rational x = new rational ( get x ( ) ) ;  <NL> rational . plus ( x , new rational ( get width ( ) , 2 ) , x ) ;  <NL>  <NL> rational y = new rational ( get y ( ) ) ;  <NL> rational . plus ( y , new rational ( get height ( ) , 2 ) , y ) ;  <NL>  <NL> return new pnt ( x , y ) ;  <NL>  }  COM: <s> gets the center of the box </s>

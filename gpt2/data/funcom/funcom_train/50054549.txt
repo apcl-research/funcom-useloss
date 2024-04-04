@@ -1,0 +1,1 @@
+TDAT: public void init ( ) {  <NL> root panel . get ( composite widget . user _ element _ id ) . add ( this ) ;  <NL> if ( this . user text box . get text ( ) . length ( ) > 0 & & this . password text box . get text ( ) . length ( ) > 0 ) {  <NL> rpc is registered ( ) ;  <NL>  }  <NL>  }  COM: <s> initializes the state of this object by performing rpc calls </s>

@@ -1,0 +1,1 @@
+TDAT: private void modify entry ( int i , long s , long e , d type d , boolean ver , int rf ) {  <NL> off [ i ] = s ;  <NL> off [ i + 1 ] = e ;  <NL>  <NL> dndlr [ i / 2 ] = d ;  <NL> vr [ i / 2 ] = ver ;  <NL> rfr [ i / 2 ] = rf ;  <NL>  }  COM: <s> modify entry at i th index wrt off and place following values </s>

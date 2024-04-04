@@ -1,0 +1,1 @@
+TDAT: private void set lap heart rate ( lap lap , int lap offset ) {  <NL> lap . set heart rate split ( ( workout to parse [ lap offset + 3 ] ) & 0xff ) ;  <NL> lap . set heart rate avg ( ( workout to parse [ lap offset + 4 ] ) & 0xff ) ;  <NL> lap . set heart rate max ( ( workout to parse [ lap offset + 5 ] ) & 0xff ) ;  <NL>  }  COM: <s> get and set heartrate of lap </s>

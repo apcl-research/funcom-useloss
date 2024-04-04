@@ -1,0 +1,1 @@
+TDAT: public void abort transfer ( ) throws io exception {  <NL>  <NL> connect . datsocket . close ( ) ;  <NL> connect . ctlsocket . writer . write ( new byte [ ] { ( byte ) 255 , ( byte ) 244 ,  <NL>  ( byte ) 255 , ( byte ) 242 } ) ;  <NL> connect . ctlsocket . writer . flush ( ) ;  <NL> connect . send cmd ( " abor " ) ;  <NL>  }  COM: <s> abort the current transfer </s>

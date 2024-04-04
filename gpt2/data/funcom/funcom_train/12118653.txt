@@ -1,0 +1,1 @@
+TDAT: public bdd load ( string filename ) throws io exception {  <NL> buffered reader r = null ;  <NL> try {  <NL> r = new buffered reader ( new file reader ( filename ) ) ;  <NL> bdd result = load ( r ) ;  <NL> return result ;  <NL>  } finally {  <NL> if ( r ! = null ) try { r . close ( ) ; } catch ( io exception _ ) { }  <NL>  }  <NL>  }  COM: <s> p loads a bdd from a file </s>

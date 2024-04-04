@@ -1,0 +1,1 @@
+TDAT: protected color load color ( preferences node ) {  <NL> int red = node . get int ( red _ preference , 255 ) ;  <NL> int green = node . get int ( green _ preference , 255 ) ;  <NL> int blue = node . get int ( blue _ preference , 255 ) ;  <NL> return new color ( red , green , blue ) ;  <NL>  }  COM: <s> enables to recover a color stored in the preferences as its rgb </s>

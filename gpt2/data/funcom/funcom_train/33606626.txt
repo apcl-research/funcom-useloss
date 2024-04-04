@@ -1,0 +1,1 @@
+TDAT: public void test sign ( ) {  <NL> system . out . println ( " sign " ) ;  <NL> assert equals ( + 1 , instance1 . sign ( ) ) ;  <NL> assert equals ( - 1 , instance2 . sign ( ) ) ;  <NL> assert equals ( + 1 , instance3 . sign ( ) ) ;  <NL> assert equals ( + 1 , instance4 . sign ( ) ) ;  <NL>  }  COM: <s> test of sign method </s>

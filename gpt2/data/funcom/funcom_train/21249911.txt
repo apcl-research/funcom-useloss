@@ -1,0 +1,1 @@
+TDAT: protected string finalize packet ( string p ) {  <NL> char [ ] c = new char [ 2 ] ;  <NL>  <NL> c [ 0 ] = ( char ) ( ( p . length ( ) - 2 ) / 256 ) ;  <NL> c [ 1 ] = ( char ) ( ( p . length ( ) - 2 ) % 256 ) ;  <NL> return ( string . copy value of ( c ) + p . substring ( 2 ) ) ;  <NL>  }  COM: <s> this method finalized set correct length snmp packet </s>

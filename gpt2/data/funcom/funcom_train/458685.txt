@@ -1,0 +1,1 @@
+TDAT: public double get y ( long y ) {  <NL> if ( ( y < y _ min ) || ( y > y _ max ) ) {  <NL> throw new illegal argument exception (  <NL>  " y out of bounds : " + y + " ( " + y _ min + " , " + y _ max + " ) " ) ;  <NL>  }  <NL> return ( y - y _ offset ) / m y scale ;  <NL>  }  COM: <s> convert a number betwee y min and y max to display coordinates </s>

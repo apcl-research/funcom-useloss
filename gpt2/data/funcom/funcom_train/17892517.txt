@@ -1,0 +1,1 @@
+TDAT: protected void configure menu ( ) {  <NL> add ( create file menu ( " file " , ' f ' ) ) ;  <NL> add ( create view menu ( " view " , ' v ' ) ) ;  <NL> add ( create icons menu ( " icons " , ' i ' ) ) ;  <NL> add ( create help menu ( " help " , ' h ' ) ) ;  <NL>  }  COM: <s> overloaded method to configure the menu </s>

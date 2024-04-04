@@ -1,0 +1,1 @@
+TDAT: public coordinates midpoint ( coordinates o ) {  <NL> double mid x = ( this . get x ( ) + o . get x ( ) ) / 2 . 0 ;  <NL> double mid y = ( this . get y ( ) + o . get y ( ) ) / 2 . 0 ;  <NL> coordinates midpoint = new coordinates ( mid x , mid y ) ;  <NL> return midpoint ;  <NL>  }  COM: <s> computes the midpoint between the two coordinates </s>

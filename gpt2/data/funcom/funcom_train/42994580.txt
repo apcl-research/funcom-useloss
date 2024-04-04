@@ -1,0 +1,1 @@
+TDAT: public void update current events ( ) {  <NL> events = calendar . get events ( period . parse ( get current year ( ) + " . " + get current month ( ) + " . 1 : 00 . 00 - " + get current year ( ) +  <NL>  " . " + get current month ( ) + " . " + cur months [ get current month ( ) - 1 ] + " : 24 . 00 " ) ) ;  <NL>  <NL>  }  COM: <s> updates the current events </s>

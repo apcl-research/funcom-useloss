@@ -1,0 +1,1 @@
+TDAT: public double norm ( final int n ) {  <NL> final double answer = math . pow ( vector [ 0 ] , n ) + math . pow ( vector [ 1 ] , n ) + math . pow ( vector [ 2 ] , n ) ;  <NL> return math . pow ( answer , 1 . 0 / n ) ;  <NL>  }  COM: <s> returns the l sup n sup norm </s>

@@ -1,0 +1,1 @@
+TDAT: public void testto lower case apply ( ) {  <NL> assert evaluates ( " hello " , " var x = string . to lower case ; x . apply ( ' hello ' ) " ) ;  <NL> assert evaluates ( " hello " , " string . to lower case ( ' hello ' ) " ) ; / / first patch proposed to # 492359 was breaking this <NL>  }  COM: <s> test for bug 492359 </s>

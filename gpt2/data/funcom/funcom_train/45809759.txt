@@ -1,0 +1,1 @@
+TDAT: public int compare ( object obj1 , object obj2 ) {  <NL>  / / ! return subcomparator . compare ( grabber . grab ( obj1 ) , grabber . grab ( obj2 ) ) ;  <NL> return subcomparator . compare ( ( ( typed if ) obj1 ) . get type ( ) , ( ( typed if ) obj2 ) . get type ( ) ) ;  <NL>  }  COM: <s> internal compares the given typed if objects using the </s>

@@ -1,0 +1,1 @@
+TDAT: private void set graphics ( final graphics value ) {  <NL> graphics = value ;  <NL>  <NL> if ( graphics ! = null ) {  <NL> final rectangle r = the canvas . get canvas bounds ( ) ;  <NL> graphics . clip rect ( r . x , r . y , r . width , r . height ) ;  <NL> graphics . translate ( r . x , r . y ) ;  <NL>  }  <NL>  }  COM: <s> sets the graphics context for the zoom </s>

@@ -1,0 +1,1 @@
+TDAT: public void set data to row ( object row ) {  <NL> property value [ ] pv = ( property value [ ] ) row ;  <NL> pv [ 0 ] . value = " " + cp _ index + " . " ;  <NL> pv [ 1 ] . value = cp _ topic ;  <NL> pv [ 2 ] . value = cp _ responsible ;  <NL> pv [ 3 ] . value = cp _ time ;  <NL>  }  COM: <s> copies the data in this cgtopic object </s>

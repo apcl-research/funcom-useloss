@@ -1,0 +1,1 @@
+TDAT: public point3 clamp ( double min , double max ) {  <NL> return new point3 (  <NL> math . max ( min , math . min ( x , max ) ) ,  <NL> math . max ( min , math . min ( y , max ) ) ,  <NL> math . max ( min , math . min ( z , max ) ) ) ;  <NL>  }  COM: <s> clamps all components to be in range min max </s>

@@ -1,0 +1,1 @@
+TDAT: public void put column ( int col , list data ) {  <NL> for ( int y = get min y ( ) ; y < = get max y ( ) ; y + + ) {  <NL> remove ( col , y ) ;  <NL>  }  <NL> iterator it = data . iterator ( ) ;  <NL> for ( int y = get min y ( ) ; it . has next ( ) ; y + + ) {  <NL> put ( col , y , it . next ( ) ) ;  <NL>  }  <NL>  }  COM: <s> inserts the given data into the column </s>

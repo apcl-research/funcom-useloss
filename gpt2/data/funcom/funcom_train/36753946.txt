@@ -1,0 +1,1 @@
+TDAT: public void set pixel rgb ( double in r , double in g , double in b , int in x , int in y ) {  <NL>  <NL> int idx = calc idx ( in x , in y ) ;  <NL> data [ idx + 0 ] = ( float ) in r ;  <NL> data [ idx + 1 ] = ( float ) in g ;  <NL> data [ idx + 2 ] = ( float ) in b ;  <NL>  }  COM: <s> set the color of a pixel using rgb data </s>

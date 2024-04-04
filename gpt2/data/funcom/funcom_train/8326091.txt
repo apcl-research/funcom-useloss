@@ -1,0 +1,1 @@
+TDAT: private named set lookup named set ( string name ) {  <NL> for ( formula formula : formulas ) {  <NL> if ( ! formula . is member ( ) & &  <NL> formula . get element ( ) ! = null & &  <NL> formula . get name ( ) . equals ( name ) ) {  <NL> return ( named set ) formula . get element ( ) ;  <NL>  }  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> looks up a named set </s>

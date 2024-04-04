@@ -1,0 +1,1 @@
+TDAT: private string class this cls ( ) {  <NL> string sfx = " " ;  <NL> if ( scope = = scope kind enum . classifier _ level ) {  <NL> sfx = " class " ;  <NL>  }  <NL> return jmi . java class package ( this cls . get container ( ) ) + " . " +  <NL> jmi . name of class ( get name ( this cls ) , sfx ) + " . class , \ " " ;  <NL>  }  COM: <s> returns this class name with the </s>

@@ -1,0 +1,1 @@
+TDAT: public array evolve ( final / * @ time * / double t0 , final array x0 , final / * @ time * / double dt , final array dw ) / * @ read only * / {  <NL> return apply ( expectation ( t0 , x0 , dt ) , std deviation ( t0 , x0 , dt ) . mul ( dw ) ) ;  <NL>  }  COM: <s> returns the asset value after a time interval </s>

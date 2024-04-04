@@ -1,0 +1,1 @@
+TDAT: public rectangle2d get bounds ( ) {  <NL> rectangle2d bounds = graph constants . create rect ( get location ( null ) , 0 ) ;  <NL> bounds . set frame ( bounds . get x ( ) - size / 2 , bounds . get y ( ) - size / 2 ,  <NL> bounds . get width ( ) + size , bounds . get height ( ) + size ) ;  <NL> return bounds ;  <NL>  }  COM: <s> returns the bounds for the port view </s>

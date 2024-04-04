@@ -1,0 +1,1 @@
+TDAT: public void pattern ( string pattern ) {  <NL> for ( int i = 0 ; i < m _ selected . length ; i + + )  <NL> m _ selected [ i ] = pattern . matches (  <NL> pattern , m _ instances . attribute ( i ) . name ( ) ) ;  <NL> fire table rows updated ( 0 , m _ selected . length ) ;  <NL>  }  COM: <s> applies the perl regular expression pattern to select the attribute </s>

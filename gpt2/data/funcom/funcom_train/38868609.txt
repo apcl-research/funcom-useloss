@@ -1,0 +1,1 @@
+TDAT: @ test public void open ( ) {  <NL> data file f = new data file ( ) ;  <NL> f . set file name ( " testfile . sao " ) ;  <NL> assert . assert true ( f . open ( ) ) ;  <NL> f . close ( ) ;  <NL> f . set file name ( " fakefile . sao " ) ;  <NL> assert . assert false ( f . open ( ) ) ;  <NL>  }  COM: <s> test opening a real file </s>

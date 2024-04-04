@@ -1,0 +1,1 @@
+TDAT: public boolean check promotion ( ) {  <NL> int offset = 0 ;  <NL> if ( player1 ) { offset = 7 ; }  <NL> for ( int i = 0 ; i < board . size ; i + + ) {  <NL> if ( board . get grid ( ) [ i ] [ offset ] . get piece ( ) instanceof pawn ) {  <NL> return true ;  <NL>  }  <NL>  }  <NL> return false ;  <NL>  }  COM: <s> checks if the players pawn should undergo a promotion </s>

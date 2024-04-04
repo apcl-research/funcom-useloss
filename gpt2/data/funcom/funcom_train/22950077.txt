@@ -1,0 +1,1 @@
+TDAT: public void set desired output ( int index , double value ) throws exception {  <NL> if ( index < 0 || index > = this . desired outputs . size ( ) ) throw new exception ( " training pattern : set desired output : index of desired output out of range " ) ;  <NL> this . desired outputs . set ( index , value ) ;  <NL>  }  COM: <s> sets desired value at specific output </s>

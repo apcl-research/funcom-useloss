@@ -1,0 +1,1 @@
+TDAT: private instance normalize instance ( instance inst ) {  <NL> double [ ] vals = inst . to double array ( ) ;  <NL> double sum = utils . sum ( vals ) ;  <NL> for ( int i = 0 ; i < vals . length ; i + + ) {  <NL> vals [ i ] / = sum ;  <NL>  }  <NL> return new instance ( inst . weight ( ) , vals ) ;  <NL>  }  COM: <s> normalize the instance </s>

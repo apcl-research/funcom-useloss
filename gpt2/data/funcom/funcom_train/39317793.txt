@@ -1,0 +1,1 @@
+TDAT: / * * public void test get current color ( ) {  <NL> system . out . println ( " test get current color " ) ;  <NL> f . blue mouse clicked ( mouse event ) ;  <NL> color c = f . get current color ( ) ;  <NL> assert equals ( " get blue " , c . get rgb ( ) , color . blue . get rgb ( ) ) ;  <NL>  <NL>  }  COM: <s> public void test green mouse clicked </s>

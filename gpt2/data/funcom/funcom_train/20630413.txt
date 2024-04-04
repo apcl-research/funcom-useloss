@@ -1,0 +1,1 @@
+TDAT: public boolean matches ( int [ ] ia ) {  <NL>  <NL> return ( ( ia [ 0 ] = = con _ id ) & &  <NL>  ( ia [ 1 ] = = gid ) & &  <NL>  ( ia [ 2 ] = = mod ) & &  <NL>  ( ia [ 3 ] = = value . gid ( ) . int value ( ) ) & &  <NL>  ( ia [ 4 ] = = rg ) ) ;  <NL>  }  COM: <s> determines if this role matches another role represented as </s>

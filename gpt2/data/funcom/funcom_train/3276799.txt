@@ -1,0 +1,1 @@
+TDAT: public int args byte boolean array object ( byte b , boolean [ ] bool , object obj ) {  <NL>  <NL> log . debug ( " public int args long object long long arg ( long a , object obj , long b , long c ) " ) ;  <NL> nap ( ) ;  <NL>  <NL> return b + obj . hash code ( ) + bool . length ;  <NL>  }  COM: <s> method args byte boolean array object </s>

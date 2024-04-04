@@ -1,0 +1,1 @@
+TDAT: public fb method fql _ query ( string query ) {  <NL> tree map < string , string > parameters = new tree map < string , string > ( ) ;  <NL> parameters . put ( " query " , query ) ;  <NL>  <NL> return get method factory ( ) . create ( " facebook . fql . query " , parameters , true ) ;  <NL>  }  COM: <s> create a method to query with the facebook query language </s>

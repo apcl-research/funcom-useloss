@@ -1,0 +1,1 @@
+TDAT: private void g200 _ set screen fields ( int row ) {  <NL> current row = row ;  <NL>  <NL> name . set text ( type tbl model . get string value at ( row , type _ name _ column ) ) ;  <NL> g300 _ set base type ( row ) ;  <NL> date format . set text ( type tbl model . get string value at ( row , format _ column ) ) ;  <NL>  }  COM: <s> set the screen fields </s>

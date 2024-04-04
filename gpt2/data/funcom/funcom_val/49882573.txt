@@ -1,0 +1,1 @@
+TDAT: public void add headers to envelope ( soap envelope envelope ) {  <NL> if ( headers ! = null ) {  <NL> soap header soap header = envelope . get header ( ) ;  <NL> for ( int i = 0 ; i < headers . size ( ) ; i + + ) {  <NL> soap header . add child ( ( om element ) headers . get ( i ) ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> add all configured headers to a soap envelope </s>

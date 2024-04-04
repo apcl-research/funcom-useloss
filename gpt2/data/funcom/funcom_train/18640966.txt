@@ -1,0 +1,1 @@
+TDAT: protected void follow path ( string path ) {  <NL> if ( get path to follow ( ) = = null ) {  <NL> get container ( ) . follow path ( get context name ( ) , path ) ;  <NL>  } else {  <NL> get container ( ) . follow path ( get context name ( ) , get path to follow ( ) ) ;  <NL> set path to follow ( null ) ;  <NL>  }  <NL>  }  COM: <s> follows the specified path or </s>

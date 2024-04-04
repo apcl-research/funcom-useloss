@@ -1,0 +1,1 @@
+TDAT: protected void insert cells ( int row , int column , int count ) {  <NL> element tr = row formatter . get row ( body elem , row ) ;  <NL> for ( int i = column ; i < column + count ; i + + ) {  <NL> element td = create cell ( ) ;  <NL> dom . insert child ( tr , td , i ) ;  <NL>  }  <NL>  }  COM: <s> inserts a number of cells before the specified cell </s>

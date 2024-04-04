@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> return " kgml relation [ id = " + this . id + " , name = " + this . name + " , type = " + this . type + " , value = " + this . value + " , entry1 = " + this . entry1 + " , entry2 = " + this . entry2 + " ] " ;  <NL>  }  COM: <s> provide state information </s>

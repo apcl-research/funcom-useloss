@@ -1,0 +1,1 @@
+TDAT: private void create slide ( ) {  <NL>  / / create a new intent and sent the id of the <NL>  / / presentation to the create activity .  <NL> intent i = new intent ( this , slide edit . class ) ;  <NL> i . put extra ( presid , m row id . to string ( ) ) ;  <NL> start activity for result ( i , activity _ create ) ;  <NL>  }  COM: <s> starts the create slide procedure </s>

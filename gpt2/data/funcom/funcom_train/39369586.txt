@@ -1,0 +1,1 @@
+TDAT: public int compress hdrs ( int [ ] [ ] hdrs , int hdr length , int n traces , byte [ ] encoded bytes ) {  <NL>  <NL> return _ hdr compressor . compress ( hdrs , hdr length , ( float [ ] [ ] ) null , n traces , encoded bytes , 0 ) ;  <NL>  }  COM: <s> compresses a 2 d array of trace headers </s>

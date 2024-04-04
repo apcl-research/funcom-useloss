@@ -1,0 +1,1 @@
+TDAT: public column binding infos add combo box column ( final string label , final string path , string el , class < ? > type , object sub type , map settings ) {  <NL> return mapping . add combo box column ( label , path , el , type , sub type , settings , show status ) ;  <NL>  }  COM: <s> adds a column binding with a </s>

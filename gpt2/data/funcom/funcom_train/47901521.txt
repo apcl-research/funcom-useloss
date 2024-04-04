@@ -1,0 +1,1 @@
+TDAT: public void add ( subtotal _ category category , int to add ) {  <NL> integer previous total = totals . get ( category ) ;  <NL> if ( previous total ! = null ) {  <NL> totals . put ( category , previous total + to add ) ;  <NL>  } else {  <NL> totals . put ( category , to add ) ;  <NL>  }  <NL> total + = to add ;  <NL>  }  COM: <s> add to the total of a given category </s>

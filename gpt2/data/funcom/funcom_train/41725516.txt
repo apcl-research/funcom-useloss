@@ -1,0 +1,1 @@
+TDAT: public void set bg image ( image img )  <NL>  {  <NL> this . bg image = img ;  <NL> if ( bg image ! = null ) {  <NL> set background painter ( new image painter ( this . bg image ) ) ;  <NL> set height ( bg image . get height ( ) ) ;  <NL> set width ( bg image . get width ( ) ) ;  <NL>  }  <NL> set need layout ( ) ;  <NL>  }  COM: <s> sets the background image </s>

@@ -1,0 +1,1 @@
+TDAT: public void test pixel coordinate processing ( ) {  <NL> final test linear image test linear image = new test linear image ( 4 , 3 , 2 , 1 , 2 , 2 ) ;  <NL>  <NL> assert equals ( 4 * 1 + 2 , test linear image . get ( 0 , 0 ) ) ;  <NL> assert equals ( 4 * ( 1 + 2 ) + 2 + 2 , test linear image . get ( 2 , 2 ) ) ;  <NL>  }  COM: <s> test cartesian to linear conversion </s>

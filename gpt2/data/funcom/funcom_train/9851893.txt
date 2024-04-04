@@ -1,0 +1,1 @@
+TDAT: public void test ( ) {  <NL> system . out . println ( " session id : " + this . get thread local request ( ) . get session ( ) . get id ( ) ) ;  <NL> system . out . println ( " message id : " + this . get thread local request ( ) . get session ( ) . get attribute ( " id " ) ) ;  <NL>  }  COM: <s> simple testing service </s>

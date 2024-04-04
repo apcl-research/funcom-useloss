@@ -1,0 +1,1 @@
+TDAT: public void test template ( ) throws io exception {  <NL> assert equals ( " out = response . writer ; out . write ( \ " test\ " ) ; " , parse ( " test " ) ) ;  <NL> assert equals ( " out = response . writer ; out . write ( \ " test\\n\ " ) ; \nout . write ( \ " test2\ " ) ; " , parse ( " test\ntest2 " ) ) ;  <NL>  }  COM: <s> test standard template text </s>

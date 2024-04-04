@@ -1,0 +1,1 @@
+TDAT: public void action performed ( action event e ) {  <NL> if ( e . get source ( ) instanceof j button ) {  <NL> int index = get panel index ( ( ( j button ) e . get source ( ) ) . get text ( ) ) ;  <NL> if ( current index > = 0 & & current index ! = index )  <NL> sweep bar ( index ) ;  <NL>  }  <NL>  }  COM: <s> performs actions from user inteface and local timers </s>

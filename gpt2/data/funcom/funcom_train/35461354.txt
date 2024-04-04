@@ -1,0 +1,1 @@
+TDAT: public void test single branch structure ( ) throws exception {  <NL> emit and check (  <NL>  " declare 1 payroll , 4 name , 5 last char ( 20 ) ; " ,  <NL>  " "  <NL>  + " 01 payroll . " + ls <NL>  + " 04 name . " + ls <NL>  + " 05 r - last pic x ( 20 ) . "  <NL>  ) ;  <NL>  }  COM: <s> single branch structure </s>

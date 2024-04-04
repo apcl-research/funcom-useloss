@@ -1,0 +1,1 @@
+TDAT: public void add element ( final element element ) {  <NL> if ( size = = data . length ) {  <NL> element [ ] newarray = new element [ size + 20 ] ;  <NL> system . arraycopy ( data , 0 , newarray , 0 , size ) ;  <NL> data = newarray ;  <NL>  }  <NL> data [ size + + ] = element ;  <NL>  } / / add element ( element )  COM: <s> adds an element to list resizing if necessary </s>

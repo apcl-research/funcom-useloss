@@ -1,0 +1,1 @@
+TDAT: public void queue job ( job job ) {  <NL> synchronized ( this ) {  <NL> if ( job . is pre prepared ( ) ) {  <NL> job j = ( job ) prepared jobs . get ( job . get pre prepared job id ( ) ) ;  <NL> job . set dynamic job ( j ) ;  <NL>  }  <NL> pending jobs . add ( job ) ;  <NL> notify all ( ) ;  <NL>  }  <NL>  }  COM: <s> queue up a job for processing </s>

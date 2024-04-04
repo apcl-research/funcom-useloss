@@ -1,0 +1,1 @@
+TDAT: public void set error message ( string error message ) {  <NL> error message text . set text ( error message = = null ? " " : error message ) ; / / $ non - nls - 1 $  <NL> get button ( i dialog constants . ok _ id ) . set enabled ( error message = = null ) ;  <NL> error message text . get parent ( ) . update ( ) ;  <NL>  }  COM: <s> sets or clears the error message </s>

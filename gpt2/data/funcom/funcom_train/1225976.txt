@@ -1,0 +1,1 @@
+TDAT: public void write vertex ( graph vertex cur vertex , int x pos , int y pos , int z pos , int radius , color col ) {  <NL> write vertex ( cur vertex , x pos , y pos , z pos , radius , radius , col ) ;  <NL>  }  COM: <s> writes a vertex </s>

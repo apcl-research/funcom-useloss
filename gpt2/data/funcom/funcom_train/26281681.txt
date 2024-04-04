@@ -1,0 +1,1 @@
+TDAT: public void select ellipse ( double x , double y , double width , double height ) throws j gimp exception {  <NL> this . select ellipse ( x , y , width , height , j gimp selection mode . replace , true , false , 0 . 0 ) ;  <NL>  }  COM: <s> sets the selection to an ellipse with antialiasing but no feathering </s>

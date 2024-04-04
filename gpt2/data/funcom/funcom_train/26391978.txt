@@ -1,0 +1,1 @@
+TDAT: public void close ( ) throws io exception {  <NL>  / / close input if non - null references .  <NL> if ( null ! = my input ) {  <NL> my input . close ( ) ;  <NL> my input = null ;  <NL>  } / * end if * /  <NL> if ( null ! = my output ) {  <NL> my output . close ( ) ;  <NL> my output = null ;  <NL>  } / * end if * /  <NL>  }  COM: <s> closes all streams </s>

@@ -1,0 +1,1 @@
+TDAT: private void notify sound player ( final object signal ) {  <NL> if ( null ! = this . c64 . get sid ( ) & & this . c64 . get sid ( ) . count observers ( ) > 0 ) {  <NL> this . c64 . get sid ( ) . set changed ( true ) ;  <NL> this . c64 . get sid ( ) . notify observers ( signal ) ;  <NL>  }  <NL>  }  COM: <s> send a signal to the sound player to stop it from working </s>

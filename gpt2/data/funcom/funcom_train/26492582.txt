@@ -1,0 +1,1 @@
+TDAT: private string escape spaces ( string s ) {  <NL> while ( s . index of ( " " ) ! = - 1 ) {  <NL> int i = s . index of ( " " ) ;  <NL> s = s . substring ( 0 , i ) + " _ " + s . substring ( i + 1 , s . length ( ) ) ;  <NL>  }  <NL> return s ;  <NL>  }  COM: <s> replace all spaces with </s>

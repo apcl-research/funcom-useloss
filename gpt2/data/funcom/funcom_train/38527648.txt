@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> return " simple xid impl [ format = " + integer . to hex string ( format ) +  <NL>  " , gtrid = { txmgr id = " + txmgr id + " , txmgr birth time = " + txmgr birth time +  <NL>  " , my birth time = " + my birth time + " , id = " + id + " } , bqual = { " + bid + " } ] " ;  <NL>  }  COM: <s> return a string representation of xid </s>

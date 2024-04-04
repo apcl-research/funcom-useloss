@@ -1,0 +1,1 @@
+TDAT: public void timeout ( scene model scene , string source , string target ) {  <NL> if ( this . logging ) {  <NL> system . err . println ( " ( " + this . tag + " ) : timeout ( " + scene + " , " + source + " , " + target + " ) " ) ;  <NL>  }  <NL>  }  COM: <s> notification of the e institution about a scene timeout </s>

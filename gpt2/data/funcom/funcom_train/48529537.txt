@@ -1,0 +1,1 @@
+TDAT: public id range cw half ( ) {  <NL> if ( empty )  <NL> return new id range ( ) ;  <NL> if ( is full ( ) )  <NL> return new id range ( id . build ( id . half ) , id . build ( id . null ) ) ;  <NL>  <NL> id new ccw = ccw . add ( size ( ) . shift ( 1 , 0 , true ) ) ;  <NL> return new id range ( new ccw , cw ) ;  <NL>  }  COM: <s> get clockwise half of the range </s>

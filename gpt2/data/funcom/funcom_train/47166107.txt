@@ -1,0 +1,1 @@
+TDAT: protected void initialize fields ( request context rc ) {  <NL> set object ( rc , " to " , null ) ;  <NL> set object ( rc , " message title " , null ) ;  <NL> set object ( rc , " generated content " , null ) ;  <NL> set object ( rc , " content " , null ) ;  <NL>  }  COM: <s> reset the field values for the current message in the session </s>

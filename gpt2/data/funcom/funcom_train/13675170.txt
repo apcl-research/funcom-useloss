@@ -1,0 +1,1 @@
+TDAT: public void set admin list ( string list ) {  <NL> string [ ] admins = string util . split ( list , " , " ) ;  <NL> m _ admins . clear ( ) ;  <NL> for ( int i = 0 ; i < admins . length ; i + + ) {  <NL> add admin ( admins [ i ] ) ;  <NL>  }  <NL>  } / / set admin list  COM: <s> convenience method for setting the admin users </s>

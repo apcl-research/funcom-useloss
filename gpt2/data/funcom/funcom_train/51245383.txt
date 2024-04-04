@@ -1,0 +1,1 @@
+TDAT: protected db tree node create node ( string name ) {  <NL> if ( " procedure " . equals ( get name ( ) ) ) {  <NL> return new db procedure ( get application context ( ) , catalog , schema , name ) ;  <NL>  }  <NL> return new db table ( get application context ( ) , catalog , schema , name ) ;  <NL>  }  COM: <s> creates the child node based on name </s>

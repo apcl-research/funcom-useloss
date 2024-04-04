@@ -1,0 +1,1 @@
+TDAT: public user view interface get user ( user info interface user info , string user id ) {  <NL> user view interface [ ] result = get users ( user info , user id ) ;  <NL> if ( result . length > 0 ) return result [ 0 ] ;  <NL> return new user view ( new hash map < string , string > ( ) ) ;  <NL>  }  COM: <s> get an user </s>

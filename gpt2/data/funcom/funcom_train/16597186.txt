@@ -1,0 +1,1 @@
+TDAT: private void clip visible rect ( graphics2d g2d ) {  <NL> rect visible = this . get visible rect ( ) ;  <NL> g2d . clip rect ( ( int ) rect visible . get min x ( ) , ( int ) rect visible . get min y ( ) ,  <NL>  ( int ) rect visible . get width ( ) , ( int ) rect visible . get height ( ) ) ;  <NL>  }  COM: <s> clip on visible rectangle </s>

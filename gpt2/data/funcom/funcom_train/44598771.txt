@@ -1,0 +1,1 @@
+TDAT: public void test interface decls ( ) {  <NL> check cu (  <NL>  " interface a { " +  <NL>  " int i = 0 ; " +  <NL>  " int [ ] i [ ] = { { 1 } , { 2 } } ; " +  <NL>  " public void m ( int k ) ; " +  <NL>  " static class a { } " +  <NL>  " static interface i { } " +  <NL>  " } " ) ;  <NL>  }  COM: <s> tests interface declarations </s>

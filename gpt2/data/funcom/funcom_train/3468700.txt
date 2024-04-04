@@ -1,0 +1,1 @@
+TDAT: public void do set user mode ( string nick , string op mode ) {  <NL>  / * *  <NL>  * falid op mode are <NL>  * a , i , w , r , o , 0 , s <NL>  * to add use + prefix , and - prefix to remove <NL>  * example + a , + o , + s , - a <NL>  * /  <NL> write message ( " mode " + nick + " " + op mode ) ;  <NL>  }  COM: <s> method that used to change a user mode </s>

@@ -1,0 +1,1 @@
+TDAT: public void set selected value ( string value ) {  <NL> for ( w groupable r : elements ) {  <NL> if ( value ! = null & & value . equals ( r . get value ( ) ) ) {  <NL> r . set checked ( true ) ;  <NL> break ;  <NL>  }  <NL> if ( r . get checked ( ) ) {  <NL> r . set checked ( false ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> checks the element that has the specified value </s>

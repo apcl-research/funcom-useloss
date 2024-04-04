@@ -1,0 +1,1 @@
+TDAT: private point get hex location ( int x , int y ) {  <NL> return new point ( x * ( int ) ( hex _ wc * scale ) , y * ( int ) ( hex _ h * scale )  <NL>  + ( ( x & 1 ) = = 1 ? ( int ) ( hex _ h / 2 * scale ) : 0 ) ) ;  <NL>  }  COM: <s> returns the absolute position of the upper left hand corner of the hex </s>

@@ -1,0 +1,1 @@
+TDAT: private string new storage id ( ) {  <NL> string new id = null ;  <NL> while ( new id = = null ) {  <NL>  / / r = bft random . get random ( ) ;  <NL> new id = " ds " + integer . to string ( r . next int ( ) ) ;  <NL> if ( datanode map . get ( new id ) ! = null )  <NL> new id = null ;  <NL>  }  <NL> return new id ;  <NL>  }  COM: <s> generate new storage id </s>

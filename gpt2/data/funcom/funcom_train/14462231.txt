@@ -1,0 +1,1 @@
+TDAT: public col add cell to col ( biff rec cell ) {  <NL>  <NL> col cx = ( col ) cols [ cell . get col number ( ) ] ;  <NL> if ( cx = = null ) {  <NL> col newcol = new col ( this ) ;  <NL> newcol . add ( cell ) ;  <NL> cols [ cell . get col number ( ) ] = newcol ;  <NL>  } else {  <NL> cx . add ( cell ) ;  <NL>  }  <NL> return cx ;  <NL>  }  COM: <s> add a cell to a column </s>

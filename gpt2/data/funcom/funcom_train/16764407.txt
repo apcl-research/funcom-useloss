@@ -1,0 +1,1 @@
+TDAT: public void write ( jme exporter e ) throws io exception {  <NL>  / / todo : verify that map . key set ( ) and map . values ( ) guarantee parallel <NL>  / / entry set ordering .  <NL> e . get capsule ( this ) . write (  <NL> key set ( ) . to array ( new string [ 0 ] ) , " keys " , null ) ;  <NL>  }  COM: <s> subclasses must super </s>

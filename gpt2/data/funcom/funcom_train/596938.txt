@@ -1,0 +1,1 @@
+TDAT: public void load args ( final int arg , final int count ) {  <NL> int index = get arg index ( arg ) ;  <NL> for ( int i = 0 ; i < count ; + + i ) {  <NL> type t = argument types [ arg + i ] ;  <NL> load insn ( t , index ) ;  <NL> index + = t . get size ( ) ;  <NL>  }  <NL>  }  COM: <s> generates the instructions to load the given method arguments on the </s>

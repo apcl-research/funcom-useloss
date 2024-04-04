@@ -1,0 +1,1 @@
+TDAT: public boolean has sub table changed ( int i sub table ) {  <NL> string str old = ( string ) ( sub table contents copy . element at ( i sub table ) ) ;  <NL> string str new = get string for sub table ( i sub table ) ;  <NL> return str old . compare to ( str new ) ! = 0 ; / / return false if strings are the same <NL>  }  COM: <s> check whether a subtable has changed </s>

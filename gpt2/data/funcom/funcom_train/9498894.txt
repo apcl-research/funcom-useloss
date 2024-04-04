@@ -1,0 +1,1 @@
+TDAT: final public geo angle angle ( string label , geo point a , geo point b , geo point c ) {  <NL> algo angle points algo = new algo angle points ( cons , label , a , b , c ) ;  <NL> geo angle angle = algo . get angle ( ) ;  <NL> return angle ;  <NL>  }  COM: <s> angle named label between three points </s>

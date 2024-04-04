@@ -1,0 +1,1 @@
+TDAT: public string get property ( string key , string default value ) {  <NL> string val = super . get property ( key ) ;  <NL> if ( val = = null ) {  <NL> logger . warn ( " property [ " + key + " ] + not found . returning [ " + default value + " ] . " ) ;  <NL>  }  <NL> return ( val = = null ) ? default value : val ;  <NL>  }  COM: <s> returns the property value </s>

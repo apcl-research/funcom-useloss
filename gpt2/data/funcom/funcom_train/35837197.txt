@@ -1,0 +1,1 @@
+TDAT: protected void paint enabled text ( ui node n , graphics g , string s , int text x , int text y ) {  <NL>  / / g . set color ( n . get foreground ( ) ) ;  <NL> basic graphics utils . draw string ( g , s , ' \0 ' , text x , text y ) ;  <NL>  }  COM: <s> paint clipped text at text x text y with the nodes foreground color </s>

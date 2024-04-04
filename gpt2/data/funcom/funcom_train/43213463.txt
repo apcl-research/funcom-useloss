@@ -1,0 +1,1 @@
+TDAT: private string convert to string line ( project file part pfp ) {  <NL> return base16 . encode ( pfp . get relative name ( ) . get bytes ( ) ) + " ~ " + base16 . encode ( pfp . get hash ( ) . to byte array ( ) ) + " ~ " + base16 . encode ( pfp . get padding ( ) ) + " ~ \n " ;  <NL>  }  COM: <s> p helper method to convert a project file part p </s>

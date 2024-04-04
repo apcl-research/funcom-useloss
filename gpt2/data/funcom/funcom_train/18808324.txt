@@ -1,0 +1,1 @@
+TDAT: public number get x ( int series , int item ) {  <NL> final list bins = get bins ( series ) ;  <NL> final histogram bin bin = ( histogram bin ) bins . get ( item ) ;  <NL> final double x = ( bin . get start boundary ( ) + bin . get end boundary ( ) ) / 2 . ;  <NL> return new double ( x ) ;  <NL>  }  COM: <s> returns the x value for a bin </s>

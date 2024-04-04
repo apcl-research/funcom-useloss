@@ -1,0 +1,1 @@
+TDAT: public boolean after ( calendar c ) {  <NL> if ( c . get ( calendar . hour ) < _ hour ) {  <NL> return true ;  <NL>  } else if ( c . get ( calendar . hour _ of _ day ) = = _ hour ) {  <NL> if ( c . get ( calendar . minute ) < _ minute ) {  <NL> return true ;  <NL>  }  <NL>  }  <NL> return false ;  <NL>  }  COM: <s> tests the passed calendar against the hour and minute </s>

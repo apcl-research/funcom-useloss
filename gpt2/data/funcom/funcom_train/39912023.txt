@@ -1,0 +1,1 @@
+TDAT: private void getnext time ( ) {  <NL> nexthour = rnd . next int ( 12 ) + 1 ;  <NL> if ( score > 5 ) {  <NL> nextminute = rnd . next int ( 60 ) ;  <NL>  } else if ( score > 3 ) {  <NL> nextminute = rnd . next int ( 12 ) * 5 ;  <NL>  } else {  <NL> nextminute = rnd . next int ( 6 ) * 10 ;  <NL>  }  <NL>  }  COM: <s> randomly generates time for next question </s>

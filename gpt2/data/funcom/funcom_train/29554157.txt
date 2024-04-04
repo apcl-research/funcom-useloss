@@ -1,0 +1,1 @@
+TDAT: protected void validate ( final object new value ) {  <NL> if ( new value ! = null & & ! ( this . get type ( ) . is assignable from ( new value . get class ( ) ) ) ) {  <NL> throw new strategy configuration exception ( incorrect type message ( get type ( ) , new value . get class ( ) ) ) ;  <NL>  }  <NL>  }  COM: <s> validates the value </s>

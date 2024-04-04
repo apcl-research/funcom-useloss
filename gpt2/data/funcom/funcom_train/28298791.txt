@@ -1,0 +1,1 @@
+TDAT: public int get nr cities ( ) {  <NL> int nr cities = 0 ;  <NL> int num n = get nr nodes ( ) ;  <NL> for ( int i = 0 ; i < num n ; i + + ) {  <NL> trans base node n = get node ( i ) ;  <NL> if ( n . get color ( ) > 0 & & n . get visible ( ) ) nr cities + + ;  <NL>  }  <NL> return nr cities ;  <NL>  }  COM: <s> returns the number of cities on the map </s>

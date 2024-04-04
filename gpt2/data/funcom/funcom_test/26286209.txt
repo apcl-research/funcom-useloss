@@ -1,0 +1,1 @@
+TDAT: public void set value ( number value ) {  <NL> try {  <NL> model . set value ( value ) ;  <NL>  } catch ( illegal argument exception e ) { }  <NL> text field . set text ( prefix + format . format ( model . get value ( ) , new string buffer ( ) , new field position ( 0 ) ) . to string ( ) + suffix ) ;  <NL>  }  COM: <s> set the value to the model </s>

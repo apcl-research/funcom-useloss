@@ -1,0 +1,1 @@
+TDAT: private boolean exists table ( table name table name ) throws sql exception {  <NL> result set table names = connection . get meta data ( ) . get tables ( table name . get catalog ( ) , table name . get schema ( ) , table name . get table name ( ) , null ) ;  <NL> return table names . next ( ) ;  <NL>  }  COM: <s> checks whether a table with the given name exists </s>

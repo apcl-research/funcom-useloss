@@ -1,0 +1,1 @@
+TDAT: private void paint error image ( graphics g , int x , int y , boolean has focus , image observer observer ) {  <NL> if ( g = = null ) {  <NL> return ;  <NL>  }  <NL> image icon icon = has focus ? error icon focused : error icon ;  <NL> g . draw image ( icon . get image ( ) , x , y , observer ) ;  <NL>  }  COM: <s> paints the error icon onto the given </s>

@@ -1,0 +1,1 @@
+TDAT: public void unregister sink ( final sink sink ) {  <NL> if ( sink ! = null ) {  <NL> synchronized ( this ) {  <NL> this . sinks . remove ( sink ) ;  <NL> if ( this . sinks . size ( ) = = 0 ) {  <NL> if ( this . timer ! = null ) {  <NL> this . timer . cancel ( ) ;  <NL> this . timer = null ;  <NL>  }  <NL>  }  <NL>  }  <NL>  }  <NL>  }  COM: <s> unregisters the supplied </s>

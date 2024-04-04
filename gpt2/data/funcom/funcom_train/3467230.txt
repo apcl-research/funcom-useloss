@@ -1,0 +1,1 @@
+TDAT: public file create file ( java . lang . string p _ root , java . lang . string p _ name , java . lang . string p _ id ) throws java . io . io exception {  <NL>  / / @ beginprotect _ 3ca9ce7d0211 <NL> return this . create file ( p _ root , p _ name , p _ id , false ) ;  <NL>  / / @ endprotect <NL>  }  COM: <s> create a new file </s>

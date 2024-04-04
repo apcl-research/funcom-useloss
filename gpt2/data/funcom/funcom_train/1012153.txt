@@ -1,0 +1,1 @@
+TDAT: private void normal3f ( gl gl , float x , float y , float z ) {  <NL> float mag ;  <NL>  <NL> mag = ( float ) math . sqrt ( x * x + y * y + z * z ) ;  <NL> if ( mag > 0 . 00001f ) {  <NL> x / = mag ;  <NL> y / = mag ;  <NL> z / = mag ;  <NL>  }  <NL> gl normal3f ( gl , x , y , z ) ;  <NL>  }  COM: <s> call gl normal3f after scaling normal to unit length </s>

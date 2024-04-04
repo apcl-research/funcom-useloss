@@ -1,0 +1,1 @@
+TDAT: / * public void draw ( graphics2d g , int x , int y , int width , int height ) {  <NL> if ( image ! = null ) {  <NL> g . draw image ( image , x - origin . x , y - origin . y , width , height , null ) ;  <NL>  }  <NL>  }  COM: <s> draw this sprite </s>

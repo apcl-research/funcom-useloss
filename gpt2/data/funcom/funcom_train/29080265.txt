@@ -1,0 +1,1 @@
+TDAT: public void set image ( buffered image image ) {  <NL> this . image file location = null ;  <NL> this . is image file set = false ;  <NL> this . image ip . set image ( image . get scaled instance ( this . image ip . get width ( ) , this . image ip . get height ( ) , image . scale _ fast ) ) ;  <NL>  }  COM: <s> set the value of image </s>

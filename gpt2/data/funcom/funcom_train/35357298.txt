@@ -1,0 +1,1 @@
+TDAT: public rect expand ( int n left , int n top , int n right , int n bottom ) {  <NL> this . n tlx - = n left ;  <NL> this . n tly - = n top ;  <NL> this . n width + = n left + n right ;  <NL> this . n height + = n top + n bottom ;  <NL> return this ;  <NL>  }  COM: <s> expands the rectangle by certain amounts vertically and horizontally </s>

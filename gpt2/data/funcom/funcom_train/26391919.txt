@@ -1,0 +1,1 @@
+TDAT: protected void instance _ title ( ) {  <NL> if ( null ! = get _ frame ( ) ) {  <NL> get _ frame ( ) . set title <NL>  ( fiji gui . base _ title + " " + engine . fiji version ( ) + fiji gui . release _ level + ( ( null = = my _ save _ file _ name ) ? " " : ( " - " + my _ save _ file _ name ) ) ) ;  <NL>  }  <NL>  }  COM: <s> set title to show filename </s>

@@ -1,0 +1,1 @@
+TDAT: public properties calc props as properties ( ) {  <NL> properties props = new properties ( ) ;  <NL> for ( int i = 0 ; properties ! = null & & i < properties . length ; i + + ) {  <NL> props . put ( properties [ i ] . get name ( ) , properties [ i ] . get value ( ) ) ;  <NL>  }  <NL> return props ;  <NL>  }  COM: <s> calculate the properties as a properties object </s>

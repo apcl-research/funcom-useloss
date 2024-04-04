@@ -1,0 +1,1 @@
+TDAT: public void step ( ) {  <NL> int x = point . get x ( ) ;  <NL> int y = point . get y ( ) ;  <NL> int z = point . get z ( ) ;  <NL> point = new point3d ( x + this . direction . get a ( ) ,  <NL> y + this . direction . get b ( ) ,  <NL> z + this . direction . get c ( ) ) ;  <NL>  }  COM: <s> steps this ball by adding the directional vector to the currrent </s>

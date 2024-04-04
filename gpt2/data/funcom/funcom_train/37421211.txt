@@ -1,0 +1,1 @@
+TDAT: public void send message ( int conversation id , string message ) {  <NL> string s =  <NL> xml wrapper . wrap message (  <NL> session id , conversation id , username , message ) ;  <NL> if ( debug )  <NL> system . out . println ( " go tc lient - send message : \n " + s ) ;  <NL> send to server ( s ) ;  <NL>  }  COM: <s> called when a message is sent from a conversation </s>

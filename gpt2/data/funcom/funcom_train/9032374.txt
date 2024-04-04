@@ -1,0 +1,1 @@
+TDAT: protected void ask new packets ( ) {  <NL> logger . debug ( " ask new packets ( size of sources = " + sources . size ( ) + " ) " ) ;  <NL> for ( int i = 0 ; i < sources . size ( ) ; i + + ) {  <NL> if ( source time counters . get ( i ) < = simulation time ) {  <NL> ask new packets ( i ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> ask to the sources to send a packet </s>

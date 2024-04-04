@@ -1,0 +1,1 @@
+TDAT: public j field fk f obj id _ catalog type ( ) throws j exception {  <NL> if ( m _ f obj id _ catalog type = = null ) {  <NL> m _ f obj id _ catalog type = new j field fk ( " catalog type " , this , new catalog type ( ) ) ;  <NL>  }  <NL> return m _ f obj id _ catalog type ;  <NL>  }  COM: <s> catalogtype always filter on the catalogtype </s>

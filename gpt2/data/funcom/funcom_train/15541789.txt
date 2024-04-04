@@ -1,0 +1,1 @@
+TDAT: public void remove item ( final menu item item ) {  <NL> final list items = get items ( ) ;  <NL> if ( items . remove ( item ) ) {  <NL> clear items ( ) ;  <NL> for ( iterator iter = items . iterator ( ) ; iter . has next ( ) ; ) {  <NL> add item ( ( menu item ) iter . next ( ) ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> removes the specified menu item from the bar </s>

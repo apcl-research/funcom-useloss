@@ -1,0 +1,1 @@
+TDAT: public void fill data currency ( string db fieldname , double value , string iso currency ) {  <NL> conv b4it = new util format out ( ) ;  <NL> string ueb = conv b4it . format currency ( value , iso currency , locale . get default ( ) ) ;  <NL> this . fill data internal ( db fieldname , ueb ) ;  <NL>  }  COM: <s> converts double to currency </s>

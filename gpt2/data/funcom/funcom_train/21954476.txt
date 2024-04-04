@@ -1,0 +1,1 @@
+TDAT: public void attach ( ) {  <NL> file [ ] f = get file to attach ( ) ;  <NL> if ( f ! = null ) {  <NL> new message ui nmui = get new message ui ( ) ;  <NL> nmui . set modified ( true ) ;  <NL> for ( int i = 0 ; i < f . length ; i + + )  <NL> attach file ( f [ i ] ) ;  <NL>  }  <NL>  }  COM: <s> this attaches a file to a given message </s>

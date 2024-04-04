@@ -1,0 +1,1 @@
+TDAT: protected void begin entry ( final class < ? > c1 , final string s , final td td ) {  <NL> td . ensure new line ( ) ;  <NL>  <NL> if ( c1 ! = null ) {  <NL> td . write ( c1 . get simple name ( ) ) ;  <NL>  }  <NL>  <NL> if ( s ! = null ) {  <NL> td . write ( s ) ;  <NL>  }  <NL> td . write ( " : " ) ; / / $ non - nls - 1 $  <NL>  }  COM: <s> begin an entry </s>

@@ -1,0 +1,1 @@
+TDAT: public void set containers ( int nr ) {  <NL> container . remove all elements ( ) ;  <NL> for ( int i = 0 ; i < nr ; i + + ) {  <NL> container . add element ( new container ( gl ) ) ;  <NL> container . last element ( ) . set color ( 0 . 6f , 0 . 3f , 0 . 3f ) ;  <NL> align containers ( ) ;  <NL>  }  <NL>  }  COM: <s> add containers to a truck </s>

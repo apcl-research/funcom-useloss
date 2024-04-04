@@ -1,0 +1,1 @@
+TDAT: public boolean is chatter in channel ( string nick _ , string ch _ ) {  <NL> boolean b = false ;  <NL> if ( nick chatter . contains key ( nick _ ) ) {  <NL> chatter tmp ch = ( chatter ) nick chatter . get ( nick _ ) ;  <NL> if ( tmp ch . chatter is in channel ( ch _ ) )  <NL> b = true ;  <NL>  }  <NL> return b ;  <NL>  }  COM: <s> is chatter in this channel </s>

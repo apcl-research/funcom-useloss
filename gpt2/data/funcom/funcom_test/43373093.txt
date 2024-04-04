@@ -1,0 +1,1 @@
+TDAT: private void count base ( ) {  <NL> for ( int i = 0 ; i < sorted seq . length ( ) ; i + + ) {  <NL> char c = sorted seq . char at ( i ) ;  <NL> int index = get base index ( c ) ;  <NL> if ( index = = - 1 ) continue ;  <NL> base count [ index ] + + ;  <NL> score count [ index ] + = sorted score . char at ( i ) ;  <NL>  }  <NL>  }  COM: <s> count base and score </s>

@@ -1,0 +1,1 @@
+TDAT: public void test get entity ref ( ) {  <NL> assert equals ( " curren " , html entity lookup . get entity ref ( ' \u00a4 ' ) ) ;  <NL> assert equals ( " amp " , html entity lookup . get entity ref ( ' \u0026 ' ) ) ;  <NL> assert equals ( " nbsp " , html entity lookup . get entity ref ( ' \u00a0 ' ) ) ;  <NL>  }  COM: <s> test method string get entity ref char </s>

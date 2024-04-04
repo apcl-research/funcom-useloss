@@ -1,0 +1,1 @@
+TDAT: public boolean is identity ( ) {  <NL> return m01 = = 0 . 0 & & m02 = = 0 . 0 & &  <NL> m10 = = 0 . 0 & & m12 = = 0 . 0 & &  <NL> m20 = = 0 . 0 & & m21 = = 0 . 0 & &  <NL> m22 ! = 0 . 0 & & m00 / m22 = = 1 . 0 & & m11 / m22 = = 1 . 0 ;  <NL>  }  COM: <s> returns the boolean true value if this perspective transform is an </s>

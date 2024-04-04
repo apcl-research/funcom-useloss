@@ -1,0 +1,1 @@
+TDAT: public void test index of ( ) {  <NL> system . out . println ( " index of " ) ;  <NL>  <NL> list < isi meta data > instance = jase searchable . search ( " document " ) ;  <NL> assert equals ( 1 , instance . index of ( instance . get ( 1 ) ) ) ;  <NL> assert equals ( - 1 , instance . index of ( " hello " ) ) ;  <NL>  }  COM: <s> test of index of method of class org </s>

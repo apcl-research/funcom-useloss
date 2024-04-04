@@ -1,0 +1,1 @@
+TDAT: private void _ set thread cell font ( int row ) {  <NL> debug thread data curr thread = _ threads . get ( row ) ;  <NL> if ( curr thread . get unique id ( ) = = _ current thread id & &  <NL> curr thread . is suspended ( ) ) {  <NL> set font ( get font ( ) . derive font ( font . bold ) ) ;  <NL>  }  <NL>  }  COM: <s> sets the font for a cell in the thread table </s>

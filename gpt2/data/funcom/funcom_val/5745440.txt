@@ -1,0 +1,1 @@
+TDAT: public void add edge ( edge e ) {  <NL>  / / adjust maximum and minimum weights for the edges <NL> if ( e . get weight ( ) > max weight ) {  <NL> max weight = e . get weight ( ) ;  <NL>  }  <NL> if ( e . get weight ( ) < min weight ) {  <NL> min weight = e . get weight ( ) ;  <NL>  }  <NL> add element ( e ) ;  <NL>  }  COM: <s> adds an edge to the edges list </s>

@@ -1,0 +1,1 @@
+TDAT: public void add right ( owner u , right r ) {  <NL> rights . put ( u . get id ( ) , r ) ;  <NL> acl event the event = new acl event ( this , acl event . new _ right , r ) ;  <NL> internal event queue . get instance ( ) . post event ( the event ) ;  <NL>  }  COM: <s> adds a new right for a user and produces a new right aclevent </s>

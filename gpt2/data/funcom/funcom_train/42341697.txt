@@ -1,0 +1,1 @@
+TDAT: static public int fac ( int j ) throws arithmetic exception {  <NL> int i = j ;  <NL> int d = 1 ;  <NL> if ( j < 0 ) {  <NL> i = math . abs ( j ) ;  <NL>  }  <NL> while ( i > 1 ) {  <NL> d * = i - - ;  <NL>  }  <NL> if ( j < 0 ) {  <NL> return - d ;  <NL>  } else {  <NL> return d ;  <NL>  }  <NL>  }  COM: <s> compute the factorial of the argument </s>

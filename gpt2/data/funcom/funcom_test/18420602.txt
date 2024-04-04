@@ -1,0 +1,1 @@
+TDAT: private bls detail panel get bls detail panel ( ) {  <NL> if ( m _ bls detail panel = = null ) {  <NL> m _ bls detail panel = new bls detail panel ( m _ food handler ) ;  <NL> m _ bls detail panel . set bounds ( 5 , 2 , 465 , 300 ) ;  <NL>  }  <NL> return m _ bls detail panel ;  <NL>  }  COM: <s> this method initializes m blsdetail panel </s>

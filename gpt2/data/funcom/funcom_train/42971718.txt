@@ -1,0 +1,1 @@
+TDAT: public void set duty ratio ( double ratio ) {  <NL>  / / system . out . println ( " set duty ratio : " + ratio ) ;  <NL> this . ratio = ratio ;  <NL>  / / set the saturation <NL> if ( this . ratio > 1 . 0 ) {  <NL> this . ratio = 1 . 0 ;  <NL>  }  <NL> if ( this . ratio < - 1 . 0 ) {  <NL> this . ratio = - 1 . 0 ;  <NL>  }  <NL>  }  COM: <s> set the current duty ratio </s>

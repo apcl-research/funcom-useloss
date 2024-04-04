@@ -1,0 +1,1 @@
+TDAT: public void put _ pixel _ by _ index ( int index , int c [ ] ) {  <NL>  / / put _ pixel _ by _ index ( index , 0xff000000 | c [ 0 ] < < 16 | c [ 1 ] < < 8 | c [ 2 ] ) ;  <NL> put _ pixel _ by _ index ( index , gl _ util . rg bto i ( c [ 0 ] , c [ 1 ] , c [ 2 ] ) ) ;  <NL>  }  COM: <s> convert the color array to call real put pixel </s>

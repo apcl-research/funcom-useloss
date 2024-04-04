@@ -1,0 +1,1 @@
+TDAT: public void add short ( int index , int value ) {  <NL> if ( value < 0 || value > 65534 )  <NL> value = 0 ;  <NL> if ( index > = 0 & & index < max _ data - 1 ) {  <NL> add byte ( index , value / 256 ) ;  <NL> add byte ( index + 1 , value % 256 ) ;  <NL>  }  <NL>  }  COM: <s> this function stores data into 2 bytes that will be later stored into </s>

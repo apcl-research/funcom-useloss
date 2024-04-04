@@ -1,0 +1,1 @@
+TDAT: public j menu item get menu file new ( ) {  <NL> if ( m _ menu file new = = null ) {  <NL> m _ menu file new = new j menu item ( " new album " , ' n ' ) ;  <NL> m _ menu file new . set action command ( action _ file _ new ) ;  <NL>  }  <NL> return m _ menu file new ;  <NL>  }  COM: <s> returns the file new album item </s>

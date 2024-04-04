@@ -1,0 +1,1 @@
+TDAT: public mt color get background color ( ) {  <NL> mt color new color = new mt color ( this . background color . get r ( ) , this . background color . get g ( ) , this . background color . get b ( ) , this . background color . get alpha ( ) * this . get opacity ( ) / 255f ) ;  <NL> return new color ;  <NL>  }  COM: <s> gets the background color </s>

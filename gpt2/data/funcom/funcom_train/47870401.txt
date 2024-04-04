@@ -1,0 +1,1 @@
+TDAT: public rectangle2d get bounds2d ( ) {  <NL> point2d p = get corner ( 0 ) ;  <NL> rectangle2d r = new rectangle2d . double ( p . get x ( ) , p . get y ( ) , 0 , 0 ) ;  <NL> r . add ( get corner ( 1 ) ) ;  <NL> r . add ( get corner ( 2 ) ) ;  <NL> return r ;  <NL>  }  COM: <s> calculate bounding box </s>

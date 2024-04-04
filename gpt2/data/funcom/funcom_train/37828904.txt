@@ -1,0 +1,1 @@
+TDAT: public w put ( k key , v sub key , w value ) {  <NL> map < v , w > map = maps . get ( key ) ;  <NL> if ( map = = null ) {  <NL> map = new hash map < v , w > ( ) ;  <NL> maps . put ( key , map ) ;  <NL>  }  <NL> return map . put ( sub key , value ) ;  <NL>  }  COM: <s> adds an entry to the map </s>

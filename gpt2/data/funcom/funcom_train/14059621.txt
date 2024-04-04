@@ -1,0 +1,1 @@
+TDAT: protected void user advance ( ) {  <NL>  <NL> if ( ( this . get selected column ( ) = = ( this . get column count ( ) - 1 ) )  <NL>  & & ( this . get selected row ( ) = = ( this . get row count ( ) - 1 ) ) ) {  <NL> this . commit ( ) ;  <NL> this . user add row ( ) ;  <NL>  }  <NL>  }  COM: <s> advance one field by the user </s>

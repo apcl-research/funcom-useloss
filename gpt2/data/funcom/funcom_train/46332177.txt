@@ -1,0 +1,1 @@
+TDAT: private double get angle ( int numstrikes ) {  <NL> if ( numstrikes < 3 ) {  <NL> return ( math . pi / 180 . 0 ) * 8 . 0 ;  <NL>  } else if ( numstrikes < 8 ) {  <NL> return ( math . pi / 180 . 0 ) * 4 . 0 ;  <NL>  } else {  <NL> return ( math . pi / 180 . 0 ) * 2 . 0 ;  <NL>  }  <NL>  }  COM: <s> get the angle to leave between adjacent radial lines for the specified </s>

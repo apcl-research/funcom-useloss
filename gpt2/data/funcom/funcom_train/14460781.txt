@@ -1,0 +1,1 @@
+TDAT: public void set ixfe ( int i ) {  <NL> this . ixfe = i ;  <NL> byte [ ] newxfe = byte tools . c long to le bytes ( i ) ;  <NL> byte [ ] b = this . get data ( ) ;  <NL>  <NL> system . arraycopy ( newxfe , 0 , b , 6 , 2 ) ;  <NL> this . set data ( b ) ;  <NL>  }  COM: <s> sets the ixfe for this record </s>

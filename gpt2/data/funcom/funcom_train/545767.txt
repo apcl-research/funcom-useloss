@@ -1,0 +1,1 @@
+TDAT: public void remove data view ( jl data view v ) {  <NL> data views . remove ( v ) ;  <NL> v . set axis ( null ) ;  <NL> if ( is horizontal ( ) ) {  <NL>  / / restore time _ anno and liner scale <NL> set annotation ( time _ anno ) ;  <NL> if ( scale ! = linear _ scale ) set scale ( linear _ scale ) ;  <NL>  }  <NL>  }  COM: <s> removes dataview from this axis </s>

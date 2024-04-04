@@ -1,0 +1,1 @@
+TDAT: public void write utf ( final string str ) {  <NL> int i , l ;  <NL> l = str . length ( ) ;  <NL> if ( l > 65536 ) {  <NL> l = 65536 ;  <NL>  }  <NL> this . write bits ( l , 16 ) ;  <NL> for ( i = 0 ; i < l ; i + + ) {  <NL> this . write char ( str . char at ( i ) ) ;  <NL>  }  <NL>  }  COM: <s> writes two bytes of length information to the output stream followed </s>

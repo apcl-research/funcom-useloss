@@ -1,0 +1,1 @@
+TDAT: public double get interval variance ( ) {  <NL> double m = get interval mean ( ) , sum = 0 , x ;  <NL> for ( int i = 0 ; i < domain . get size ( ) ; i + + ) {  <NL> x = domain . get value ( i ) ;  <NL> sum = sum + ( x - m ) * ( x - m ) * freq [ i ] ;  <NL>  }  <NL> return sum / size ;  <NL>  }  COM: <s> this method returns the interval variance </s>

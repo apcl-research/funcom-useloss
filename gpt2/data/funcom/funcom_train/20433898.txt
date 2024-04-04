@@ -1,0 +1,1 @@
+TDAT: public void print win paths ( ) {  <NL> for ( int i = 0 ; i < connect _ number ; i + + ) {  <NL> system . out . print ( " ( " + win path row [ i ] + " , " + win path col [ i ] + " ) " ) ;  <NL> if ( i = = connect _ number - 1 )  <NL> system . out . println ( ) ;  <NL> else <NL> system . out . print ( " , " ) ;  <NL>  }  <NL>  }  COM: <s> prints the winning path </s>

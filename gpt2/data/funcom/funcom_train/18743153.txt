@@ -1,0 +1,1 @@
+TDAT: private void paint background ( graphics2d g , shape shape ) {  <NL> paint old paint = g . get paint ( ) ;  <NL> paint new paint =  <NL> j attr . create paint ( shape . get bounds ( ) , get background ( ) ) ;  <NL> g . set paint ( new paint ) ;  <NL> g . fill ( shape ) ;  <NL> g . set paint ( old paint ) ;  <NL>  }  COM: <s> paints the background with a given shape </s>

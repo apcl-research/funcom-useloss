@@ -1,0 +1,1 @@
+TDAT: public string key to trans ( string key val ) {  <NL> if ( key val = = null ) {  <NL> return " " ; }  <NL> for ( int i = 0 ; i < key values . length ; i + + ) {  <NL> if ( key val . equals ( key values [ i ] ) ) {  <NL> return trans values [ i ] ; } }  <NL> return " " ;  <NL>  }  COM: <s> given a value from key values return the associated value from </s>

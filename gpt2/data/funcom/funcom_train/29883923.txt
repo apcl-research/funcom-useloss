@@ -1,0 +1,1 @@
+TDAT: public image crop image ( image img , int x , int y , int width , int height ) {  <NL> toolkit toolkit = toolkit . get default toolkit ( ) ;  <NL> image image = toolkit . create image ( new filtered image source ( img <NL>  . get source ( ) , new crop image filter ( x , y , width , height ) ) ) ;  <NL> return image ;  <NL>  }  COM: <s> crop the tile image </s>

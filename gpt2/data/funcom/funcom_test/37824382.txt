@@ -1,0 +1,1 @@
+TDAT: public void delete service ( ) {  <NL> int db state = what is the state ( ) ;  <NL> if ( db state = = database _ closed ) {  <NL> string output = run command ( " oradim - delete - sid famous " ) ; / / todo : sid should be dynamic .  <NL> system . out . println ( " delete service output : " + output ) ;  <NL>  }  <NL>  }  COM: <s> deletes the installed oracle service </s>

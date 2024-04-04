@@ -1,0 +1,1 @@
+TDAT: private void submit email ( mail message email ) {  <NL> list < string > to list = email . get to ( ) ;  <NL> if ( to list = = null || to list . is empty ( ) ) {  <NL> log . error ( " email skipped , no to address : " + email ) ;  <NL> return ;  <NL>  }  <NL> send email service . send email ( email ) ;  <NL>  }  COM: <s> submits a mail message for delivery </s>

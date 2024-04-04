@@ -1,0 +1,1 @@
+TDAT: public void set flights ( flight [ ] flights ) {  <NL> if ( flights = = null || flights . length = = 0 ) {  <NL> data = no _ flights ;  <NL>  }  <NL> data = new flight [ flights . length ] ;  <NL> system . arraycopy ( flights , 0 , data , 0 , data . length ) ;  <NL> fire table data changed ( ) ;  <NL>  }  COM: <s> set the flights in the model </s>

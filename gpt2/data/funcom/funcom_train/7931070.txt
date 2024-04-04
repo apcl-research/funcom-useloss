@@ -1,0 +1,1 @@
+TDAT: private void add sub collection field ( document doc , string url ) {  <NL> string collname = collection manager . get collection manager ( get conf ( ) ) . get sub collections ( url ) ;  <NL> doc . add ( new field ( field _ name , collname , field . store . yes , field . index . tokenized ) ) ;  <NL>  }  COM: <s> mark document to be a part of subcollection </s>

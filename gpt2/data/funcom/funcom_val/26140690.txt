@@ -1,0 +1,1 @@
+TDAT: public float bezier tangent ( float a , float b , float c , float d , float t ) {  <NL> float t1 = 1 . 0f - t ;  <NL>  <NL> return ( a * 3 * t * t +  <NL> b * 3 * t * ( 2 - 3 * t ) +  <NL> c * 3 * ( 3 * t * t - 4 * t + 1 ) +  <NL> d * - 3 * t1 * t1 ) ;  <NL>  }  COM: <s> provide the tangent at the given point on the bezier curve </s>

@@ -1,0 +1,1 @@
+TDAT: public void compile stmnt ( string src ) throws compile error {  <NL> parser p = new parser ( new lex ( src ) ) ;  <NL> symbol table stb = new symbol table ( stable ) ;  <NL> while ( p . has more ( ) ) {  <NL> stmnt s = p . parse statement ( stb ) ;  <NL> if ( s ! = null )  <NL> s . accept ( gen ) ;  <NL>  }  <NL>  }  COM: <s> compiles a statement or a block </s>

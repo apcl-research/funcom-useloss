@@ -1,0 +1,1 @@
+TDAT: public void write ( string s , int off , int len ) {  <NL> byte [ ] bs = s . get bytes ( ) ;  <NL> string ss = new string ( bs , off , len ) ;  <NL> html buffer . add str ( ss ) ;  <NL> pw . write ( s , off , len ) ;  <NL>  }  COM: <s> write a portion of a string </s>

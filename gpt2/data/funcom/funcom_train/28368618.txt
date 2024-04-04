@@ -1,0 +1,1 @@
+TDAT: public void propagate signal ( final signal s ) {  <NL> if ( carrying agent ! = null ) {  <NL>  ( ( place . with signals ) carrying agent ) . add signal ( s ) ;  <NL>  } else if ( ( grid place ! = null ) & & ( s . can propagate on ( grid place ) ) ) {  <NL> grid place . add signal ( s ) ;  <NL>  }  <NL>  }  COM: <s> propagate signal created 9 sept </s>

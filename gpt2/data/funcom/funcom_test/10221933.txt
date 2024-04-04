@@ -1,0 +1,1 @@
+TDAT: public void set decoration bounds ( int x , int y , int w , int h ) {  <NL> if ( this . bounds = = null ) {  <NL> this . bounds = new rectangle ( x , y , w , h ) ;  <NL>  } else {  <NL> this . bounds . set bounds ( x , y , w , h ) ;  <NL>  }  <NL> synch ( ) ;  <NL>  }  COM: <s> change the current decorated bounds </s>

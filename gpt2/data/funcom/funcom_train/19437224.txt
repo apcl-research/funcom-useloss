@@ -1,0 +1,1 @@
+TDAT: private void set chain lengths ( byte [ ] received body ) {  <NL> chain1length = ( decode bcd ( received body [ 18 ] ) ) * 100 ;  <NL> chain1length + = decode bcd ( received body [ 17 ] ) ;  <NL> chain2length = ( decode bcd ( received body [ 23 ] ) ) * 100 ;  <NL> chain2length + = decode bcd ( received body [ 22 ] ) ;  <NL>  }  COM: <s> set chain lengths </s>

@@ -1,0 +1,1 @@
+TDAT: public void move catalog ( catalog cat , boolean up ) {  <NL> int i = _ catalogs . index of ( cat ) ;  <NL> if ( i = = - 1 || up & & i = = 0 || ! up & & i = = _ catalogs . size ( ) - 1 ) {  <NL> return ;  <NL>  }  <NL>  <NL> remove catalog ( cat ) ;  <NL> add catalog ( i + ( up ? - 1 : 1 ) , cat ) ;  <NL>  }  COM: <s> move the the given catalog up or down in the tree </s>

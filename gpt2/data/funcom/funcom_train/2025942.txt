@@ -1,0 +1,1 @@
+TDAT: private void set attribute ( i launch configuration working copy conf , string name , string value ) {  <NL> if ( value = = null || value . length ( ) = = 0 ) {  <NL> conf . set attribute ( name , ( string ) null ) ;  <NL>  } else {  <NL> conf . set attribute ( name , value ) ;  <NL>  }  <NL>  }  COM: <s> sets attributes in the working copy </s>

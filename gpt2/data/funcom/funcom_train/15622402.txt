@@ -1,0 +1,1 @@
+TDAT: public void add column ( edu . udo . cs . miningmart . m4 . column c ) throws m4exception {  <NL> cs2col . check name exists ( ( edu . udo . cs . miningmart . m4 . core . column ) c , this ) ;  <NL> cs2col . add ( this , ( edu . udo . cs . miningmart . m4 . core . column ) c ) ;  <NL>  }  COM: <s> add a column to this columnsets columns </s>

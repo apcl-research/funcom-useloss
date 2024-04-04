@@ -1,0 +1,1 @@
+TDAT: public cursor fetch all frontend locations ( ) {  <NL>  <NL> return db . query ( frontend _ table , new string [ ] { key _ rowid , key _ name ,  <NL> key _ address , key _ port , key _ mac , key _ wifionly } , null , null , null , null , null ) ;  <NL>  }  COM: <s> return a cursor over the list of all notes in the database </s>

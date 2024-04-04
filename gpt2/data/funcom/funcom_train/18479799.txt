@@ -1,0 +1,1 @@
+TDAT: public boolean accept ( file f ) {  <NL> if ( f . is directory ( ) ) return true ;  <NL> string s = f . get path ( ) . to lower case ( ) ;  <NL> for ( int i = 0 ; i < suffixes . length ; i + + ) {  <NL> if ( s . ends with ( suffixes [ i ] ) ) return true ;  <NL>  }  <NL> return false ;  <NL>  }  COM: <s> returns true if the file ends with one of the suffixes </s>

@@ -1,0 +1,1 @@
+TDAT: private j text area get j text area sql ( ) {  <NL> if ( j text area sql = = null ) {  <NL> j text area sql = new j text area ( ) ;  <NL> j text area sql . set font ( new java . awt . font ( " monospaced " , java . awt . font . plain , 12 ) ) ;  <NL>  }  <NL> return j text area sql ;  <NL>  }  COM: <s> this method initializes j text area sql </s>

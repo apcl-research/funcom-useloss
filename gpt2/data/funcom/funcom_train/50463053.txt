@@ -1,0 +1,1 @@
+TDAT: public void remove resource ( url url , string version ) throws io exception {  <NL>  / / version ' s are not supported <NL> if ( boot . get cache manager ( ) . clear cache ( url ) = = false ) {  <NL> throw new io exception ( " resource : " + url . to string ( ) + " could not be removed . it may be in use " ) ;  <NL>  }  <NL>  }  COM: <s> remove a single resource </s>

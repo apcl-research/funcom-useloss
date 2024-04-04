@@ -1,0 +1,1 @@
+TDAT: public void set model ( final t model ) {  <NL>  / / first unbind the current model <NL> if ( this . model ! = null )  <NL> remove model ( ) ;  <NL> this . model = model ;  <NL> this . status = tracked bean utils . get bean status ( model ) ;  <NL>  / / only rebind if a model was passed <NL> if ( model ! = null )  <NL> bind ( ) ;  <NL>  }  COM: <s> sets the given model </s>

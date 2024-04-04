@@ -1,0 +1,1 @@
+TDAT: public char get hex digit ( int p ) {  <NL> byte digit = get byte ( p / 2 ) ;  <NL> if ( p % 2 = = 0 ) {  <NL> digit > > > = 4 ;  <NL>  }  <NL> digit & = 0xf ;  <NL> if ( digit < 10 ) {  <NL> return ( char ) ( ' 0 ' + digit ) ;  <NL>  } else {  <NL> return ( char ) ( ' a ' + digit - 10 ) ;  <NL>  }  <NL>  }  COM: <s> get the hexadecimal digit at the given position </s>

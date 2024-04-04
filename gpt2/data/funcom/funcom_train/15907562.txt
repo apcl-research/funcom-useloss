@@ -1,0 +1,1 @@
+TDAT: public void set _ is idl truncatable inheritance ( boolean y ) throws runtime exception {  <NL> uml com . send _ cmd ( identifier _ ( ) , on instance cmd . set is idl truncatable cmd , ( y ) ? ( byte ) 1 : ( byte ) 0 ) ;  <NL> uml com . check ( ) ;  <NL>  <NL>  _ idl _ truncatable = y ;  <NL>  }  COM: <s> to set if the inheritance is truncatable </s>

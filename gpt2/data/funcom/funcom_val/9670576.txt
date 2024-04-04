@@ -1,0 +1,1 @@
+TDAT: public array get _ approved _ comments ( object post _ id ) {  <NL> return g vars . wpdb . get _ results ( g vars . wpdb . prepare ( " select * from " + g vars . wpdb . comments + " where comment _ post _ id = % d and comment _ approved = \ ' 1\ ' order by comment _ date " , post _ id ) ) ;  <NL>  }  COM: <s> get approved comments returns the approved comments for post </s>

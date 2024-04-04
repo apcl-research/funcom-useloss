@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> string buffer sb = new string buffer ( super . to string ( ) ) ;  <NL>  <NL> sb . append ( " - { name : " ) . append ( get name ( ) ) ;  <NL> sb . append ( " uri : " ) . append ( get source uri ( ) ) ;  <NL> sb . append ( ' } ' ) ;  <NL> return sb . to string ( ) ;  <NL>  }  COM: <s> returns a string representation of this object </s>

@@ -1,0 +1,1 @@
+TDAT: public external jar get external jar by name ( string name ) {  <NL> for ( int i = 0 ; i < external jars . size ( ) ; i + + ) {  <NL> external jar cur = ( external jar ) external jars . get ( i ) ;  <NL> if ( name . equals ( cur . get name ( ) ) ) {  <NL> return cur ;  <NL>  }  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> get an external jar by its name </s>

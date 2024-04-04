@@ -1,0 +1,1 @@
+TDAT: public double get scale ( ) {  <NL> pts1 [ 0 ] = 0 ; / / x1 <NL> pts1 [ 1 ] = 0 ; / / y1 <NL> pts1 [ 2 ] = 1 ; / / x2 <NL> pts1 [ 3 ] = 0 ; / / y2 <NL> transform ( pts1 , 0 , pts2 , 0 , 2 ) ;  <NL> return point2d . distance ( pts2 [ 0 ] , pts2 [ 1 ] , pts2 [ 2 ] , pts2 [ 3 ] ) ;  <NL>  }  COM: <s> returns the scale applied to this transform </s>

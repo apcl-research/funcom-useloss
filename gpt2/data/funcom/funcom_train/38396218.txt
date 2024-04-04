@@ -1,0 +1,1 @@
+TDAT: public boolean inside ( int x , int y , int z ) {  <NL> if ( ( x > = 0 ) & & ( x < columns _ ) & &  <NL>  ( y > = 0 ) & & ( y < rows _ ) & &  <NL>  ( z > = 0 ) & & ( z < slices _ ) ) {  <NL> return true ;  <NL>  } else {  <NL> return false ;  <NL>  }  <NL>  }  COM: <s> return true if coordinates are inside block false otherwise </s>

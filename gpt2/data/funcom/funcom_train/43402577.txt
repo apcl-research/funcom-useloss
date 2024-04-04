@@ -1,0 +1,1 @@
+TDAT: public q matrix transposed ( ) {  <NL> q matrix m = new q matrix ( columns , rows ) ;  <NL> for ( int r = 0 ; r < rows ; r + + ) {  <NL> for ( int c = 0 ; c < columns ; c + + ) {  <NL> m . coefficients [ c ] [ r ] = coefficients [ r ] [ c ] ;  <NL>  }  <NL>  }  <NL> return m ;  <NL>  }  COM: <s> returns the transpose of this matrix </s>

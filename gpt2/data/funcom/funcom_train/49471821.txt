@@ -1,0 +1,1 @@
+TDAT: public void set date ( int yy , int mm , int dd ) {  <NL>  / / system . out . println ( " cal : : set date " ) ;  <NL> this . yy = yy ;  <NL> this . mm = mm ; / / starts at 0 , like date <NL> this . dd = dd ;  <NL> this . calendar . set ( yy , mm , dd ) ;  <NL> recompute ( ) ;  <NL>  }  COM: <s> set the year month and day </s>

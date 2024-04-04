@@ -1,0 +1,1 @@
+TDAT: public void sort ( ) {  <NL> if ( size ( ) > 1 ) {  <NL> array list < user > al = new array list < user > ( ) ;  <NL> for ( user user : values ( ) ) al . add ( user ) ;  <NL> java . util . collections . sort ( al , this ) ;  <NL> clear ( ) ;  <NL> for ( user user : al ) add ( user ) ;  <NL>  }  <NL>  }  COM: <s> sorts a collection of users by display name </s>

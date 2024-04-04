@@ -1,0 +1,1 @@
+TDAT: public void add new col ( ) {  <NL> if ( ct tbl . size of tr array ( ) = = 0 ) create row ( ) ;  <NL> for ( int i = 0 ; i < ct tbl . size of tr array ( ) ; i + + ) {  <NL> xwpf table row tab row = new xwpf table row ( ct tbl . get tr array ( i ) ) ;  <NL> tab row . create cell ( ) ;  <NL>  }  <NL>  }  COM: <s> add a new column for each row in this table </s>

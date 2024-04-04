@@ -1,0 +1,1 @@
+TDAT: private void initialize song set ( ) {  <NL> log . debug ( " reading songids from database . . . " ) ;  <NL> for ( long l : _ dao . get song ids ( ) ) {  <NL>  _ song i ds . add ( l ) ;  <NL>  }  <NL> log . debug ( " done reading songids , " + _ song i ds . size ( ) + " songs added . " ) ;  <NL>  }  COM: <s> initializes the internal song pool </s>

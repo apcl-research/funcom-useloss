@@ -1,0 +1,1 @@
+TDAT: public void test help argument ( ) {  <NL> try {  <NL> cob2xsd main main = new cob2xsd main ( ) ;  <NL> options options = main . create options ( ) ;  <NL> assert false ( main . collect options ( options , new string [ ] { " - h " } ) ) ;  <NL>  } catch ( exception e ) {  <NL> fail ( e . get message ( ) ) ;  <NL>  }  <NL>  }  COM: <s> test with help argument </s>

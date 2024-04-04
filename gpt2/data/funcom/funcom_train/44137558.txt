@@ -1,0 +1,1 @@
+TDAT: private void paint on the line ( graphics g ) {  <NL> g . set color ( color . white ) ;  <NL> g . draw rect ( 1 , 1 , m _ w0 - 3 , m _ h0 - 3 ) ;  <NL> g . draw rect ( 2 , 2 , m _ w0 - 5 , m _ h0 - 5 ) ;  <NL>  }  COM: <s> to draw the white rectangle of element on the line </s>

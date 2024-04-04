@@ -1,0 +1,1 @@
+TDAT: public void set text ( string text ) {  <NL> this . text = text ;  <NL> display text = text . split ( " \n " ) ;  <NL> build font ( ) ;  <NL> bounds = font . get string bounds ( text , g . get font render context ( ) ) ;  <NL> set size ( new dimension ( ( int ) bounds . get width ( ) , ( int ) bounds . get height ( ) ) ) ;  <NL>  }  COM: <s> setter for property text </s>

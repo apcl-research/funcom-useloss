@@ -1,0 +1,1 @@
+TDAT: public void multiply ( matrix3f m ) {  <NL> temp0 . x = m . m00 * x + m . m01 * y + m . m02 * z ;  <NL> temp0 . y = m . m10 * x + m . m11 * y + m . m12 * z ;  <NL> temp0 . z = m . m20 * x + m . m21 * y + m . m22 * z ;  <NL> this . set ( temp0 ) ;  <NL> axis rotation . x . transform = new transform3d ( ) ;  <NL>  }  COM: <s> code this m this code </s>

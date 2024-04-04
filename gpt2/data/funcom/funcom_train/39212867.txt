@@ -1,0 +1,1 @@
+TDAT: public void minimize ( ) {  <NL> composite com = view . get parent ( ) . get parent ( ) . get parent ( ) . get parent ( ) ;  <NL> if ( com ! = null & & com instanceof sash form ) {  <NL> sash form parent = ( sash form ) com ;  <NL> parent . set weights ( new int [ ] { 100 , 0 } ) ;  <NL> parent . layout ( ) ;  <NL>  }  <NL>  }  COM: <s> minimize the view </s>

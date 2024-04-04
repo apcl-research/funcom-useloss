@@ -1,0 +1,1 @@
+TDAT: protected void factor ( float f _ len , float f _ cap ) {  <NL> if ( logger . is loggable ( level . finest ) ) {  <NL> logger . finest ( get term ( ) + " flen = " + f _ len + " fcap = " + f _ cap ) ;  <NL>  }  <NL> this . f _ len = f _ len ;  <NL> this . f _ cap = f _ cap ;  <NL>  }  COM: <s> set the two factors that may help the meta data structure in </s>

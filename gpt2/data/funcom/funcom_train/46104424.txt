@@ -1,0 +1,1 @@
+TDAT: public e get connecting edge ( v v1 , v v2 ) {  <NL> list < cy edge > el = net . get connecting edge list ( nm . get ( v1 ) , nm . get ( v2 ) ,  <NL> cy edge . type . any ) ;  <NL> if ( el . size ( ) > 0 ) {  <NL> return em . get key ( el . get ( 0 ) ) ;  <NL>  } else {  <NL> return null ;  <NL>  }  <NL>  }  COM: <s> gets for two nodes the connecting edge </s>

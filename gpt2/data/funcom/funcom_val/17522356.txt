@@ -1,0 +1,1 @@
+TDAT: public void set color ( int red , int green , int blue ) {  <NL> red = ( red < 0 ) ? 0 : ( red & 0xff ) ;  <NL> green = ( green < 0 ) ? 0 : ( green & 0xff ) ;  <NL> blue = ( blue < 0 ) ? 0 : ( blue & 0xff ) ;  <NL>  <NL> set color ( ( red < < 16 ) | ( green < < 8 ) | blue ) ;  <NL>  }  COM: <s> sets the current color to the specified rgb values </s>

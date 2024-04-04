@@ -1,0 +1,1 @@
+TDAT: private void remove content ( node node ) {  <NL> node list list = node . get child nodes ( ) ;  <NL> if ( list . get length ( ) > 0 ) {  <NL> node n = list . item ( 0 ) ;  <NL> if ( null ! = n ) {  <NL> n . get parent node ( ) . remove child ( n ) ;  <NL>  }  <NL> remove content ( node ) ;  <NL>  }  <NL>  }  COM: <s> removes the contents of a code node code </s>

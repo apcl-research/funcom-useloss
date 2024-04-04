@@ -1,0 +1,1 @@
+TDAT: private void set ( point4f pt ) {  <NL> float factor = ( pt = = null ? 0 : pt . distance ( q zero ) ) ;  <NL> if ( factor = = 0 ) {  <NL> q0 = 1 ;  <NL> return ;  <NL>  }  <NL> q0 = pt . w / factor ;  <NL> q1 = pt . x / factor ;  <NL> q2 = pt . y / factor ;  <NL> q3 = pt . z / factor ;  <NL>  }  COM: <s> x y z w q1 q2 q3 q0 and factored </s>

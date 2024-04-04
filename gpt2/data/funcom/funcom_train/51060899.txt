@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> string s = new string ( ) ;  <NL> s + = " ( cache notify " ;  <NL> s + = " id = " + _ id ;  <NL> s + = " state = " ;  <NL> s + = ( state < state _ str . length ? state _ str [ state ] : " " + state ) ;  <NL> s + = " ) " ;  <NL> return s ;  <NL>  }  COM: <s> specified by java </s>

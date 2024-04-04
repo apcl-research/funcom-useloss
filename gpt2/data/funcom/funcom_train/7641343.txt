@@ -1,0 +1,1 @@
+TDAT: public file entry get root ( ) {  <NL> if ( m device ! = null ) {  <NL> if ( m root = = null ) {  <NL> m root = new file entry ( null / * parent * / , " " / * name * / , type _ directory ,  <NL> true / * is root * / ) ;  <NL>  }  <NL>  <NL> return m root ;  <NL>  }  <NL>  <NL> return null ;  <NL>  }  COM: <s> returns the root element </s>

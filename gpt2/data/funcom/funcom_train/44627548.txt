@@ -1,0 +1,1 @@
+TDAT: public void test binary ( ) {  <NL> jml = false ;  <NL> help expr ( " aa + bbb " ,  <NL> jc binary . class , 0 , 2 , 6 ,  <NL> jc ident . class , 0 , 0 , 2 ,  <NL> jc ident . class , 3 , 3 , 6 ) ;  <NL>  }  COM: <s> test scanning java binary expression to check node positions </s>

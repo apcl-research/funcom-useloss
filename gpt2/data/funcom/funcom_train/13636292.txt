@@ -1,0 +1,1 @@
+TDAT: public int get expected sender num ( ) {  <NL> try {  <NL> return state . get message store ( ) . get next sender msg seq num ( ) ;  <NL>  } catch ( final io exception e ) {  <NL> get log ( ) . on error event ( " get next sender msg seq num failed : " + e . get message ( ) ) ;  <NL> return - 1 ;  <NL>  }  <NL>  }  COM: <s> retrieves the expected sender sequence number </s>

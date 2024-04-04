@@ -1,0 +1,1 @@
+TDAT: private void create label home page ( ) {  <NL> label home page = new label ( shell , swt . none ) ;  <NL> label home page . set text ( " homepage : " ) ;  <NL> label home page . set font ( shared style . font _ bold ) ;  <NL> label home page . set layout data ( shared style . relative to ( label released , logo ) ) ;  <NL>  }  COM: <s> creates label that says homepage </s>

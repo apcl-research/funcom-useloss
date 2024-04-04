@@ -1,0 +1,1 @@
+TDAT: public void test remove all partial ( ) {  <NL> trie remove = build trie ( m _ data [ 0 ] ) ;  <NL> trie clone = ( trie ) m _ trie . clone ( ) ;  <NL> m _ trie . remove all ( remove ) ;  <NL> assert equals ( " removing of 1 string " , clone . size ( ) , m _ trie . size ( ) + 1 ) ;  <NL>  }  COM: <s> tests the remove all method only a few elements get removed </s>

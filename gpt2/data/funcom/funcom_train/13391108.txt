@@ -1,0 +1,1 @@
+TDAT: public void stop all tasks ( ) {  <NL>  / / cancel all the tasks <NL> for ( map . entry < string , base task > entry1 : task list . entry set ( ) ) {  <NL> entry1 . get value ( ) . cancel task ( ) ;  <NL> task queue . remove ( entry1 . get value ( ) ) ;  <NL>  }  <NL>  / / clear our task list <NL> task list . clear ( ) ;  <NL>  }  COM: <s> stop all the tasks </s>

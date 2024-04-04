@@ -1,0 +1,1 @@
+TDAT: private string mangle ( string uri ) {  <NL> if ( uri . length ( ) = = 0 || uri . char at ( uri . length ( ) - 1 ) = = ' / ' ) {  <NL> uri + = default filename ;  <NL>  }  <NL> uri = uri . replace ( ' " ' , ' \ ' ' ) ;  <NL> uri = uri . replace ( ' ? ' , ' _ ' ) ;  <NL> uri = uri . replace ( ' : ' , ' _ ' ) ;  <NL>  <NL> return uri ;  <NL>  }  COM: <s> mangle a uri </s>

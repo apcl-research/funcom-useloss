@@ -1,0 +1,1 @@
+TDAT: public string get command as string ( ) {  <NL> string result = get command ( ) ;  <NL> if ( result = = null ) {  <NL> string [ ] ca = get command array ( ) ;  <NL> if ( ca = = null ) {  <NL> result = " null " ;  <NL>  } else {  <NL> result = array . join ( ca , ' ' ) ;  <NL>  }  <NL>  }  <NL> return result ;  <NL>  }  COM: <s> returns the command that will be executed </s>

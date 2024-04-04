@@ -1,0 +1,1 @@
+TDAT: public void test application wadl ( ) {  <NL> string application wadl = r . path ( " application . wadl " ) . get ( string . class ) ;  <NL> log . debug ( this , " wadl : \n " + application wadl ) ;  <NL> assert true ( " something wrong . returned wadl length is not > 0 " ,  <NL> application wadl . length ( ) > 0 ) ;  <NL>  }  COM: <s> test checks that the application </s>

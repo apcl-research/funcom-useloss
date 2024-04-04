@@ -1,0 +1,1 @@
+TDAT: private void set up button ( j button b , string title , int vtp , int htp ) {  <NL> b . set text ( title ) ;  <NL> b . set margin ( new java . awt . insets ( 3 , 3 , 3 , 3 ) ) ;  <NL> b . set horizontal text position ( htp ) ;  <NL> b . set vertical text position ( vtp ) ;  <NL>  }  COM: <s> sets the attributes of a toolbar button </s>

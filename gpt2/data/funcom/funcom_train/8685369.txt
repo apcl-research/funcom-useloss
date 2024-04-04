@@ -1,0 +1,1 @@
+TDAT: public void set class ( class clazz ) {  <NL> this . clazz = clazz ;  <NL> if ( clazz = = null ) {  <NL> return ;  <NL>  }  <NL> this . class loader = ( class loader = = null )  <NL>  ? clazz . get class loader ( ) : class loader ;  <NL> this . class name = ( class name = = null ) ? clazz . get name ( ) : class name ;  <NL>  }  COM: <s> set the class of the definition </s>

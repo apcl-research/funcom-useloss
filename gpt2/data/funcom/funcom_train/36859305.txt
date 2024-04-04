@@ -1,0 +1,1 @@
+TDAT: public void wind mouse ( final int speed , final int cur x , final int cur y , final int target x , final int target y ) {  <NL> mouse handler . move mouse ( speed , cur x , cur y , target x , target y , 0 , 0 ) ;  <NL>  }  COM: <s> moves the mouse from a certain point to another with specified speed </s>

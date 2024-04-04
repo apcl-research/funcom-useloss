@@ -1,0 +1,1 @@
+TDAT: public void project ( ) throws contradiction exception {  <NL> exp1 . intersect ( palm real math . add ( ( palm solver ) this . get solver ( ) , this , exp2 ) ) ;  <NL> exp2 . intersect ( palm real math . sub ( ( palm solver ) this . get solver ( ) , exp1 , this ) ) ;  <NL>  }  COM: <s> projects current value on sub expressions </s>

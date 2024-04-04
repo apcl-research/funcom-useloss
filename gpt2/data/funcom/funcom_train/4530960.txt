@@ -1,0 +1,1 @@
+TDAT: public void sync ( ) throws io exception {  <NL> if ( sync ! = null & & last sync pos ! = out . get pos ( ) ) {  <NL> out . write int ( sync _ escape ) ; / / mark the start of the sync <NL> out . write ( sync ) ; / / write sync <NL> last sync pos = out . get pos ( ) ; / / update last sync pos <NL>  }  <NL>  }  COM: <s> create a sync point </s>

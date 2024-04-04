@@ -1,0 +1,1 @@
+TDAT: public void test lt real ( ) {  <NL> value v = _ rv1 . lt ( _ rv2 ) ;  <NL> assert true ( " return type check . " , v instanceof bool value ) ;  <NL> assert true ( " return value check . " , ( ( bool value ) v ) . boolean value ( ) ) ;  <NL> assert equals ( new boolean ( true ) , v . object value ( ) ) ;  <NL>  }  COM: <s> tests less than operator of two real values </s>

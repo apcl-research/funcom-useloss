@@ -1,0 +1,1 @@
+TDAT: public void do paint ( graphics g ) {  <NL> g . set color ( color . light gray ) ;  <NL> rectangle r = canvas . scale rect ( get rect ( ) ) ;  <NL> gui utils . draw rect ( g , r . x , r . y , r . width , r . height , 2 ) ;  <NL>  }  COM: <s> draw the currently dragged rectangle </s>

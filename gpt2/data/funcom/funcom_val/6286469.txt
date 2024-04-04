@@ -1,0 +1,1 @@
+TDAT: public void set cache size ( int new value ) {  <NL> if ( new value < - 2 ) {  <NL> throw new java . lang . illegal argument exception ( this . get class ( ) . get name ( ) +  <NL>  " . set cache size ( int ) . new value must be greater than or equal to - 2 " ) ;  <NL>  }  <NL>  <NL> cache size = new value ;  <NL>  }  COM: <s> sets the cache size for this dbobject </s>

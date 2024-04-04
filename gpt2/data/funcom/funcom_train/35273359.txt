@@ -1,0 +1,1 @@
+TDAT: public string person details ( ) {  <NL> return string . format ( " % s\n degree sought : % s\n gpa : % . 2f " +  <NL>  " \n # of classes : % d\n\n " ,  <NL> super . to string ( ) ,  <NL> degree sought . name ( ) ,  <NL> overall gpa ,  <NL> number of classes <NL>  ) ;  <NL>  } / / person details ( )  COM: <s> build a detailed list a student attributes </s>

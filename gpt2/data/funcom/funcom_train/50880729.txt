@@ -1,0 +1,1 @@
+TDAT: private string to2 ( int in int ) {  <NL> string temp string = " " + in int ;  <NL> if ( temp string . length ( ) = = 0 ) return " 00 " ;  <NL> if ( temp string . length ( ) = = 1 ) return " 0 " + temp string ;  <NL> if ( temp string . length ( ) = = 2 ) return temp string ;  <NL> return " 99 " ;  <NL>  }  COM: <s> convert an integer to a two digit string </s>

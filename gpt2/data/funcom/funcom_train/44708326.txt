@@ -1,0 +1,1 @@
+TDAT: public void set key ( string key ) {  <NL> if ( get key ( ) = = null ) {  <NL> set ( " package key " , key ) ;  <NL>  } else if ( ! is new ( ) ) {  <NL> throw new runtime exception <NL>  ( " set key ( ) cannot be called with a new key " +  <NL>  " once the package type is persisted . " ) ;  <NL>  }  <NL>  }  COM: <s> sets the key of the package type </s>

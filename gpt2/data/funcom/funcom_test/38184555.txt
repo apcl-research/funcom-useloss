@@ -1,0 +1,1 @@
+TDAT: public void wnd preferences ( ) {  <NL> log . entering ( " main window " , " wnd preferences " ) ;  <NL> properties dlg prop dlg = new properties dlg ( this ) ;  <NL> prop dlg . set modal ( true ) ;  <NL> prop dlg . set visible ( true ) ;  <NL> log . exiting ( " main window " , " wnd preferences " ) ;  <NL>  }  COM: <s> window preferences menu action </s>

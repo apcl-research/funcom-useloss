@@ -1,0 +1,1 @@
+TDAT: public void set console widget position ( console component widget , int left , int top ) {  <NL> if ( ( ( absolute panel ) get widget ( ) ) . get widget index ( ( widget ) widget ) > = 0 ) {  <NL>  ( ( absolute panel ) get widget ( ) ) . set widget position ( ( widget ) widget , left , top ) ;  <NL>  }  <NL>  }  COM: <s> adjust specified widgets position </s>

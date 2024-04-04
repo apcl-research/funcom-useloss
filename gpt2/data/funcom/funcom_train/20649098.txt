@@ -1,0 +1,1 @@
+TDAT: public void add point ( int x , int y ) {  <NL>  ( ( polygon ) p ) . add point ( x , y ) ;  <NL> min y = math . min ( min y , y ) ;  <NL> max y = math . max ( max y , y ) ;  <NL> min x = math . min ( min x , x ) ;  <NL> max x = math . max ( max x , x ) ;  <NL>  <NL>  }  COM: <s> add a point to this polygon </s>

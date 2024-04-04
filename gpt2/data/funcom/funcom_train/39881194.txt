@@ -1,0 +1,1 @@
+TDAT: protected boolean equals ( url url1 , url url2 ) {  <NL> if ( ! same file ( url1 , url2 ) ) {  <NL> return false ;  <NL>  }  <NL> return objects . equal ( url1 . get ref ( ) , url2 . get ref ( ) )  <NL>  & & objects . equal ( url1 . get query ( ) , url2 . get query ( ) ) ;  <NL>  }  COM: <s> compares two url objects whether they represent the same url </s>

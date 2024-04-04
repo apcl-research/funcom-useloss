@@ -1,0 +1,1 @@
+TDAT: public void set type ( byte new type ) {  <NL> if ( ( new type ! = basic _ id ) & & ( new type ! = code _ id ) & & ( new type ! = num _ array _ id ) & & ( new type ! = char _ array _ id ) )  <NL> throw new illegal argument exception ( " can ' t assign non - standart type to file ! " ) ;  <NL> header . set file type ( new type ) ;  <NL>  }  COM: <s> change file type </s>

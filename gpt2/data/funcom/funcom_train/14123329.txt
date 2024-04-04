@@ -1,0 +1,1 @@
+TDAT: private boolean contain addressee ( string field , string addressee ) {  <NL> string [ ] tokens = field . split ( " [ , ; ] " ) ;  <NL> for ( int i = 0 ; i < tokens . length ; i + + ) {  <NL> if ( tokens [ i ] . equals ( addressee ) ) {  <NL> return true ;  <NL>  }  <NL>  }  <NL> return false ;  <NL>  }  COM: <s> checks if field value contains addressee </s>

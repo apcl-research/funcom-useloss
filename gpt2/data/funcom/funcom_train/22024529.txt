@@ -1,0 +1,1 @@
+TDAT: public void transpose ( ) {  <NL> float tmp ;  <NL> for ( int i = 0 ; i < rows ; i + + ) {  <NL> for ( int j = i - 1 ; j > = 0 ; j - - ) {  <NL> tmp = get ( i , j ) ;  <NL> set ( i , j , get ( j , i ) ) ;  <NL> set ( j , i , tmp ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> transposes this matrix in place garbageless </s>

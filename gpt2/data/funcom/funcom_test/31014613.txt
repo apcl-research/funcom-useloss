@@ -1,0 +1,1 @@
+TDAT: static public string buffer to upper ( string str ) {  <NL> string buffer res = new string buffer ( str ) ;  <NL> for ( int i = 0 ; i < str . length ( ) ; i + + ) {  <NL> res . set char at ( i , character . to upper case ( str . char at ( i ) ) ) ;  <NL>  }  <NL> return res ;  <NL>  }  COM: <s> return str uppercase </s>

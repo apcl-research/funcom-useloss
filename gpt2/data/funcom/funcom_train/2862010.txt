@@ -1,0 +1,1 @@
+TDAT: private string get label name ( element el ) {  <NL> string tmp = get value ( el , " mantis : label " ) ;  <NL> if ( tmp ! = null & & ! tmp . trim ( ) . equals ( " " ) )  <NL> return ( tmp ) ;  <NL> else <NL> return ( el . get tag name ( ) . to string ( ) ) ;  <NL>  } / / get label name  COM: <s> get the display label for an element </s>

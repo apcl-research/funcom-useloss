@@ -1,0 +1,1 @@
+TDAT: public maverick string get ( constant string [ ] position ) {  <NL> int index = 0 ;  <NL> int offset = 1 ;  <NL> for ( int i = position . length - 1 ; i > = 0 ; i - - ) {  <NL> index + = position [ i ] . int value ( ) * offset ;  <NL> offset * = dimension [ i ] ;  <NL>  }  <NL> return array [ index ] ;  <NL>  }  COM: <s> get array element </s>

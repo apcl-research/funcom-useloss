@@ -1,0 +1,1 @@
+TDAT: public int add row ( ) {  <NL> int r ;  <NL> if ( m _ openrows = = null || m _ openrows . is empty ( ) ) {  <NL> r = ( m _ firstid = = 0 ? + + m _ curid : - - m _ firstid ) ;  <NL>  } else {  <NL> int key = m _ openrows . first key ( ) ;  <NL> r = m _ openrows . remove ( key ) ;  <NL>  }  <NL> return r ;  <NL>  }  COM: <s> add a new row to management </s>

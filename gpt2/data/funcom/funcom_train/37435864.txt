@@ -1,0 +1,1 @@
+TDAT: private string get id ( final xs namespace item object ) throws sax exception {  <NL> if ( object = = null ) {  <NL> return null ;  <NL>  }  <NL> string id = f id map . get ( object ) ;  <NL> if ( id = = null ) {  <NL> id = create id ( object ) ;  <NL> f id map . put ( object , id ) ;  <NL>  }  <NL> return id ;  <NL>  }  COM: <s> returns a unique id for each namespace </s>

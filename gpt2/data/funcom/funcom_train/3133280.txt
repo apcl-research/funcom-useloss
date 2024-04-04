@@ -1,0 +1,1 @@
+TDAT: private int peek ( int pos ) {  <NL> if ( buf [ pos ] = = ' % ' ) {  <NL> if ( count < = pos + 2 ) {  <NL> return - 1 ;  <NL>  }  <NL> char high = buf [ pos + 1 ] ;  <NL> char low = buf [ pos + 2 ] ;  <NL>  <NL> return convert ( high , low ) ;  <NL>  }  <NL> return - 1 ;  <NL>  }  COM: <s> this will return the escape expression specified from the uri </s>

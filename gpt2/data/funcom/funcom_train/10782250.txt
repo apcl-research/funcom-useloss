@@ -1,0 +1,1 @@
+TDAT: public void test schema parsing ( ) {  <NL> assert equals ( 2 , _ group . get schemas ( ) . length ) ;  <NL> assert equals ( " schema1 " , _ group . get schema ( " schema1 " ) . get name ( ) ) ;  <NL> assert equals ( " schema2 " , _ group . get schema ( " schema2 " ) . get name ( ) ) ;  <NL>  }  COM: <s> checks the generated schema group for accuracy </s>

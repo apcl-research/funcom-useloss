@@ -1,0 +1,1 @@
+TDAT: static public big decimal scale prec ( final big decimal x , final math context mc ) {  <NL> final int diff pr = mc . get precision ( ) - x . precision ( ) ;  <NL> if ( diff pr > 0 )  <NL> return scale prec ( x , diff pr ) ;  <NL> else <NL> return x ;  <NL>  } / * big decimal math . scale prec * /  COM: <s> boost the precision by appending decimal zeros to the value </s>

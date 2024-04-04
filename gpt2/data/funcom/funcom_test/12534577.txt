@@ -1,0 +1,1 @@
+TDAT: public void state changed ( change event e ) {  <NL> j slider source = ( j slider ) e . get source ( ) ;  <NL> if ( ! source . get value is adjusting ( ) ) {  <NL>  / / system . out . println ( ( int ) source . get value ( ) ) ;  <NL> set time ratio ( ( int ) source . get value ( ) ) ;  <NL>  }  <NL>  }  COM: <s> listen to the slider </s>

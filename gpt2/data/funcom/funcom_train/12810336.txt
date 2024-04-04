@@ -1,0 +1,1 @@
+TDAT: protected string strip ( string buffer buf ) {  <NL> int pos ;  <NL> while ( ( pos = buf . index of ( " \n " ) ) ! = - 1 )  <NL> buf . replace ( pos , pos + 1 , " " ) ;  <NL> while ( buf . char at ( 0 ) = = ' ' )  <NL> buf . delete char at ( 0 ) ;  <NL> return buf . to string ( ) ;  <NL>  }  COM: <s> replaces all the newline characters by a space </s>

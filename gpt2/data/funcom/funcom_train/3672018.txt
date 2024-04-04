@@ -1,0 +1,1 @@
+TDAT: public op input create copy ( ) {  <NL> return new op input character ( get name ( ) ,  <NL> get description ( ) ,  <NL> default value ,  <NL>  ( character ) range . get min value ( ) ,  <NL> range . is min included ( ) ,  <NL>  ( character ) range . get max value ( ) ,  <NL> range . is max included ( ) ) ;  <NL>  }  COM: <s> creates a copy of this op input </s>

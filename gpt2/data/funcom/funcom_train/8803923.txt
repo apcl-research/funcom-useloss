@@ -1,0 +1,1 @@
+TDAT: public bbuf read from ( java . io . input stream in ) throws java . io . io exception {  <NL> byte [ ] iobuf = new byte [ copy ] ;  <NL> int count ;  <NL> while ( 0 < ( count = in . read ( iobuf , 0 , copy ) ) )  <NL> this . write ( iobuf , 0 , count ) ;  <NL> return this ;  <NL>  }  COM: <s> read the stream contents into memory </s>

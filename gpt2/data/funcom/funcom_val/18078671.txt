@@ -1,0 +1,1 @@
+TDAT: public team stats get stats ( league league ) {  <NL> for ( int i = 0 ; i < team stats league . size ( ) ; i + + ) {  <NL> team stats tmp = ( team stats ) team stats league . get ( i ) ;  <NL> if ( league . equals ( tmp . get owner ( ) ) ) {  <NL> return tmp ;  <NL>  }  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> return stats for given league </s>

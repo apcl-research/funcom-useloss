@@ -1,0 +1,1 @@
+TDAT: public boolean contains ( time point p ) {  <NL> if ( p = = null ) {  <NL> throw new illegal argument exception ( ) ;  <NL>  }  <NL> return ( ( contains begin ( ) & & p . equals ( get begin ( ) ) ) || <NL>  ( contains end ( ) & & p . equals ( get end ( ) ) ) || <NL>  ( contains as intermediate point ( p ) ) ) ;  <NL>  }  COM: <s> checks whether a given agentwise </s>

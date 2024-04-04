@@ -1,0 +1,1 @@
+TDAT: public void enable vbo ( gl gl ) {  <NL> gl . gl enable client state ( gl . gl _ vertex _ array ) ; / / enable vertex arrays <NL> gl . gl enable client state ( gl . gl _ normal _ array ) ; / / enable normal arrays <NL> gl . gl enable client state ( gl . gl _ texture _ coord _ array ) ; / / enable texture arrays <NL>  <NL>  }  COM: <s> enable use of vbos </s>

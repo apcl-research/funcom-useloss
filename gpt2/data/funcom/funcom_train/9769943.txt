@@ -1,0 +1,1 @@
+TDAT: public string get column name ( int col ) {  <NL> string [ ] headers = new string [ ] { client . get l ( " sender " ) ,  <NL> client . get l ( " timestamp " ) ,  <NL> client . get l ( " message " ) ,  <NL> client . get l ( " arguments " ) } ;  <NL> return headers [ col ] ;  <NL>  }  COM: <s> the column header of the specific column </s>

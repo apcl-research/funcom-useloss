@@ -1,0 +1,1 @@
+TDAT: private void refresh ( graphics g ) {  <NL> for ( int x = 0 ; x < size x ; x + + ) {  <NL> for ( int y = 0 ; y < size y ; y + + ) {  <NL> if ( square types [ x ] [ y ] ! = tetris constants . block _ default ) {  <NL> paint square ( g , x , y , square types [ x ] [ y ] ) ;  <NL>  }  <NL>  }  <NL>  }  <NL>  <NL>  }  COM: <s> paints all the blocks again </s>

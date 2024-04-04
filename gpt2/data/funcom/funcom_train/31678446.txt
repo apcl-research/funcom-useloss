@@ -1,0 +1,1 @@
+TDAT: public f determinant ( ) {  <NL> f product = _ lu . get ( 0 , 0 ) ;  <NL> for ( int i = 1 ; i < _ n ; i + + ) {  <NL> check canceled ( ) ;  <NL> product = product . times ( _ lu . get ( i , i ) ) ;  <NL>  }  <NL> return ( ( _ permutation count & 1 ) = = 0 ) ? product : product . opposite ( ) ;  <NL>  }  COM: <s> returns the determinant of the </s>

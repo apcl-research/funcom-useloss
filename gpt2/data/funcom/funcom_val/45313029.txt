@@ -1,0 +1,1 @@
+TDAT: public boolean add edge ( e edge , n orig , n dest ) {  <NL> segment < n , e > seg = new segment < n , e > ( orig , edge , dest ) ;  <NL> nodes . add ( orig ) ;  <NL> nodes . add ( dest ) ;  <NL> return ( ! seg . equals ( edges . put ( edge , seg ) ) ) ;  <NL>  }  COM: <s> add the edge element to the graph </s>

@@ -1,0 +1,1 @@
+TDAT: public void paint1 ( graphics g ) {  <NL> int c = g . get color ( ) ;  <NL> g . set color ( 0x ffffff ) ;  <NL> g . fill rect ( g . get clip x ( ) , g . get clip y ( ) ,  <NL> g . get clip width ( ) , g . get clip height ( ) ) ;  <NL> g . set color ( c ) ;  <NL>  }  COM: <s> just a default white fill </s>

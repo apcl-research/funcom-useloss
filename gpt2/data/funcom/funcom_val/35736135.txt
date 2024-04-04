@@ -1,0 +1,1 @@
+TDAT: public void set value at ( int index , object value ) {  <NL> object o = get value at ( index ) ;  <NL> if ( o instanceof mark ) {  <NL> mark m = ( mark ) o ;  <NL> if ( value instanceof double )  <NL> m . set value ( ( double ) value ) ;  <NL>  } else {  <NL> values . set ( index , value ) ;  <NL>  }  <NL>  <NL>  }  COM: <s> sets the value at index </s>

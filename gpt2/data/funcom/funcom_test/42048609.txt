@@ -1,0 +1,1 @@
+TDAT: private void set border location ( ) {  <NL> for ( int i = 0 ; i < x _ grid ; i + + ) {  <NL> map [ i ] [ 0 ] = item codes . wall ;  <NL> map [ 0 ] [ i ] = item codes . wall ;  <NL> map [ i ] [ y _ grid - 1 ] = item codes . wall ;  <NL> map [ x _ grid - 1 ] [ i ] = item codes . wall ;  <NL>  }  <NL>  }  COM: <s> sets all of the border locations to walls </s>

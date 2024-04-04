@@ -1,0 +1,1 @@
+TDAT: protected void common pre head ( page . html < _ > html ) {  <NL> set ( accordion _ id , " nav " ) ;  <NL> set ( init id ( accordion , " nav " ) , " { auto height : false , active : 0 } " ) ;  <NL> set ( themeswitcher _ id , " themeswitcher " ) ;  <NL>  }  COM: <s> the prehead that should be common to all subclasses </s>

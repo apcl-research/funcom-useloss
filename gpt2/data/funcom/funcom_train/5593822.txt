@@ -1,0 +1,1 @@
+TDAT: public void test whowas ( ) {  <NL> system . out . println ( " test whowas " ) ;  <NL>  <NL> sender . whowas ( " testuser " ) ;  <NL> assert equals ( " whowas testuser " , buffer to string ( ) ) ;  <NL> sender . whowas ( " testuser " , 2 ) ;  <NL> assert equals ( " whowas testuser 2 " , buffer to string ( ) ) ;  <NL>  }  COM: <s> test of whowas method of class net </s>

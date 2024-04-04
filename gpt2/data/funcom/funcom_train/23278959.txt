@@ -1,0 +1,1 @@
+TDAT: public void smaller comparison ( int j , list < project > projects ) {  <NL> project tmp = projects . get ( j ) ;  <NL> project tmp2 = projects . get ( j + 1 ) ;  <NL> projects . remove ( j ) ;  <NL> projects . remove ( j ) ;  <NL> projects . add ( j , tmp2 ) ;  <NL> projects . add ( j + 1 , tmp ) ;  <NL>  }  COM: <s> method used for sort amount of projects method </s>

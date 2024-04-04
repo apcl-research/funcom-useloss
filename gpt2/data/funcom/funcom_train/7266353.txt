@@ -1,0 +1,1 @@
+TDAT: private string read dht string ( ) throws io exception {  <NL> int length = read unsigned short ( ) ;  <NL> if ( length = = 0 ) {  <NL> return null ;  <NL>  }  <NL>  <NL> byte [ ] b = new byte [ length ] ;  <NL> read fully ( b ) ;  <NL> return new string ( b , " utf - 8 " ) ; / / utf support in mojito ( reading )  <NL>  }  COM: <s> reads a string from the input stream </s>

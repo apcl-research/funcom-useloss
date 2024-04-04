@@ -1,0 +1,1 @@
+TDAT: public void mouse up ( final drawing view a view , final mouse event e , int x , int y ) {  <NL> if ( f created figure . is empty ( ) )  <NL> a view . drawing ( ) . remove ( f created figure ) ;  <NL> f created figure . connector visibility ( false ) ;  <NL> f created figure = null ;  <NL> f anchor point = null ;  <NL>  }  COM: <s> checks if the created figure is empty </s>

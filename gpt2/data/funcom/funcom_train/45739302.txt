@@ -1,0 +1,1 @@
+TDAT: public entity to entity ( ) {  <NL>  <NL> entity output = new entity ( this . id , this . category , this . expected ) ;  <NL>  <NL> for ( string snp : this . dataset . list sn ps ( ) ) {  <NL> output . put ( snp , dataset . get numeric ( id , snp ) ) ;  <NL>  }  <NL> return output ;  <NL>  }  COM: <s> converts this sample into an entity of a numeric dataset </s>

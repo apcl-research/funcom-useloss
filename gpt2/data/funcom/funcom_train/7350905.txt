@@ -1,0 +1,1 @@
+TDAT: public void write ascii ( char [ ] chars ) {  <NL> int i = 0 ;  <NL> for ( ; i < chars . length - 1 ; i + + ) {  <NL> char ch = chars [ i ] ;  <NL> if ( ch < 0x80 )  <NL> stream . write ( chars [ i ] ) ;  <NL>  }  <NL> int ch = chars [ i ] ;  <NL> stream . write ( ch | 0x80 ) ; / / set the continuation bit , write <NL>  }  COM: <s> writes an ascii char array </s>

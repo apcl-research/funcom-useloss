@@ -1,0 +1,1 @@
+TDAT: public string get node ( ) {  <NL> if ( id . is struct ( ) ) {  <NL> struct sid = ( struct ) id ;  <NL> if ( sid . get arity ( ) = = 2 & & sid . get name ( ) . equals ( " @ " ) ) {  <NL> return sid . get arg ( 1 ) . get term ( ) . to string ( ) ;  <NL>  }  <NL>  }  <NL> return " localhost " ;  <NL>  }  COM: <s> gets string representation of the tu cso n node </s>

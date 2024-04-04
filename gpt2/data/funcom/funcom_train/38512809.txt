@@ -1,0 +1,1 @@
+TDAT: public void add attachments from feature ( feature f ) {  <NL> if ( feature ! = null ) {  <NL> collection c = f . get attachments ( ) ;  <NL> for ( iterator it = c . iterator ( ) ; it . has next ( ) ; ) {  <NL> artefact a = ( artefact ) it . next ( ) ;  <NL> feature . add attachment ( a ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> add all attachments from other feature </s>

@@ -1,0 +1,1 @@
+TDAT: private stmt seq flatten switch ( switch stmt ) {  <NL> list < stmt > stmts = new array list < stmt > ( ) ;  <NL> expr primary = get primary and statements ( stmt . expr ( ) , stmts ) ;  <NL> stmts . add ( stmt . expr ( primary ) ) ;  <NL> return syn . create stmt seq ( stmt . position ( ) , stmts ) ;  <NL>  }  COM: <s> flatten a switch statement </s>

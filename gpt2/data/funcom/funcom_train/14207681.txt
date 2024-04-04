@@ -1,0 +1,1 @@
+TDAT: protected void assert page title ( string page title , web response response ) throws exception {  <NL> string title = response . get title ( ) ;  <NL> assert equals (  <NL>  " expected page title \ " " + page title + " \ " , got : \ " " + title + " \ " " ,  <NL> page title ,  <NL> title <NL>  ) ;  <NL>  }  COM: <s> assert that the response has the expected page title </s>

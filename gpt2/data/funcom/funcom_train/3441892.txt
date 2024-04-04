@@ -1,0 +1,1 @@
+TDAT: private int hash ( graphics configuration config , int w , int h , object . . . args ) {  <NL> int hash ;  <NL> hash = ( config ! = null ? config . hash code ( ) : 0 ) ;  <NL> hash = 31 * hash + w ;  <NL> hash = 31 * hash + h ;  <NL> hash = 31 * hash + arrays . deep hash code ( args ) ;  <NL> return hash ;  <NL>  }  COM: <s> create a unique hash from all the input </s>

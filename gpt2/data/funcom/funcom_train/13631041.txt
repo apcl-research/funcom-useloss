@@ -1,0 +1,1 @@
+TDAT: public void xform vec ( vec4f src , vec4f dest ) {  <NL> for ( int rc = 0 ; rc < 4 ; rc + + ) {  <NL> float tmp = 0 . 0f ;  <NL> for ( int cc = 0 ; cc < 4 ; cc + + ) {  <NL> tmp + = get ( rc , cc ) * src . get ( cc ) ;  <NL>  }  <NL> dest . set ( rc , tmp ) ;  <NL>  }  <NL>  }  COM: <s> multiply a 4 d vector by this matrix </s>

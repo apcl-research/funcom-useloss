@@ -1,0 +1,1 @@
+TDAT: public void test opb _ initial _ value ( ) {  <NL> system . out . println ( " opb _ initial _ value " ) ;  <NL> string s = " x " ;  <NL> opb field instance = new opb field ( ) ;  <NL> instance . opb _ initial _ value ( s ) ;  <NL> assert equals ( " x " , instance . get sql initial value ( ) ) ;  <NL>  }  COM: <s> test of opb initial value method of class opb field </s>

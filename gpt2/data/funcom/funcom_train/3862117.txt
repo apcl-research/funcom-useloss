@@ -1,0 +1,1 @@
+TDAT: public void report invalid url found ( string url , int http code , string http message ) {  <NL> spero log . download _ invalidurl . info ( " < invalid - url url = \ " " + url + " \ " code = \ " " + http code + " \ " message = \ " " + http message + " \ " > / > " ) ;  <NL>  }  COM: <s> logs to spero log </s>

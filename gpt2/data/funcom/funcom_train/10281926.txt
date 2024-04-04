@@ -1,0 +1,1 @@
+TDAT: public iterator get item iterator ( ) throws x feed exception {  <NL> array list l list = new array list ( ) ;  <NL> for ( int i = 0 ; i < get rss items ( ) . length ; i + + ) {  <NL> l list . add ( new x item impl ( this , i ) ) ;  <NL>  }  <NL> return l list . iterator ( ) ;  <NL>  }  COM: <s> wraps the internal rss items into a conveninient </s>

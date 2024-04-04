@@ -1,0 +1,1 @@
+TDAT: public void test _ constructor ( ) {  <NL>  <NL> marker model m = new marker model ( ) ;  <NL>  <NL> assert equals ( null , m . get text ( ) ) ;  <NL> assert equals ( 0 . 0 , m . get time ( ) , 0 . 01 ) ;  <NL> assert equals ( false , m . is text displayed ( ) ) ;  <NL>  <NL>  }  COM: <s> tests the default constructor </s>

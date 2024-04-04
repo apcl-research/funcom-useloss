@@ -1,0 +1,1 @@
+TDAT: private boolean eval ( final item a , final item b ) throws query exception {  <NL> if ( a . type ! = b . type & & ! a . u ( ) & & ! b . u ( ) & & ! ( a . s ( ) & & b . s ( ) ) & &  <NL>  ! ( a . n ( ) & & b . n ( ) ) ) err . cmp ( a , b ) ;  <NL> return cmp . cmp . e ( a , b ) ;  <NL>  }  COM: <s> compares a single item </s>

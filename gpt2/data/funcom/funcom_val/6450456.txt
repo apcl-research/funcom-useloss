@@ -1,0 +1,1 @@
+TDAT: public string encode strings ( string s [ ] ) {  <NL> string buffer r = new string buffer ( ) ;  <NL> for ( int i = 0 ; i < s . length ; i + + ) {  <NL> r . append ( encode ( s [ i ] ) ) ;  <NL> if ( i < s . length - 1 )  <NL> r . append ( delimiter ) ;  <NL>  <NL>  }  <NL> return r . to string ( ) ;  <NL>  }  COM: <s> result string may contain </s>

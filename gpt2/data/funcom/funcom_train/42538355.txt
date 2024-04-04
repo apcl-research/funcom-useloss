@@ -1,0 +1,1 @@
+TDAT: public string to string ( stringer < x > s ) {  <NL> string ret = " " ;  <NL> list < x > lst = this ;  <NL> while ( ! lst . is empty ( ) ) {  <NL> ret + = s . to string ( lst . top ( ) , lst . pop ( ) ) ;  <NL> lst = lst . pop ( ) ;  <NL>  }  <NL> return ret ;  <NL>  }  COM: <s> to string using a stringer visitor </s>

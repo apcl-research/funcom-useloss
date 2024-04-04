@@ -1,0 +1,1 @@
+TDAT: public double decode double ( chromosome c , int i ) {  <NL> int n = decode ( c . b , gray [ i ] , pos [ i ] , len [ i ] ) ;  <NL> double d = ( double ) n / ( double ) ( 1 < < len [ i ] ) ;  <NL> return min [ i ] + d * max [ i ] ;  <NL>  }  COM: <s> decode gene integer with index code i code </s>

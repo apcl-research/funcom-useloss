@@ -1,0 +1,1 @@
+TDAT: private void locate mouse over areas ( ) {  <NL> for ( int i = 0 ; i < mouse over areas . size ( ) ; i + + ) {  <NL> int x = get x ( ) + i * tile size ;  <NL> int y = get y ( ) ;  <NL>  <NL> mouse over area moa = mouse over areas . get ( i ) ;  <NL> moa . set location ( x , y ) ;  <NL>  }  <NL>  }  COM: <s> locate the moas from left to right </s>

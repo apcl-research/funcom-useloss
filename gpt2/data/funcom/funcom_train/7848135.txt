@@ -1,0 +1,1 @@
+TDAT: public void execute ( string [ ] args ) {  <NL> string [ ] jdbc = new string [ ] { " - url " , " jdbc : oracle : thin : @ nai02dro . mt . att . com : 1525 : nai02dro " ,  <NL>  " - user " , " global " , " - password " , " dusk _ 2 _ dawn " } ;  <NL> execute ( convert to properties ( jdbc ) ) ;  <NL>  }  COM: <s> convinience method to permit easy execution of an example </s>

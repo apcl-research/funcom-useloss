@@ -1,0 +1,1 @@
+TDAT: private long calculate total ( base [ ] gene ) {  <NL> long value = 0 ;  <NL> int l = gene . length ;  <NL> for ( int i = l - 1 ; i > = 0 ; i - - ) {  <NL> base base = gene [ i ] ;  <NL> value + = ( ( base . ordinal ( ) - 2 ) * 4 ) * ( l - i ) * ( l - i ) ;  <NL>  }  <NL> return value ;  <NL>  }  COM: <s> calculate a total number for the gene </s>

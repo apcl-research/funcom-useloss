@@ -1,0 +1,1 @@
+TDAT: public void set password ( string password ) {  <NL> this . password = password ;  <NL> if ( ( password ! = null ) & &  <NL>  ( password . length ( ) ! = 0 ) & &  <NL>  ( password . char at ( 0 ) = = ' [ ' ) )  <NL> password class = password . substring ( 1 , password . length ( ) - 1 ) ;  <NL>  }  COM: <s> sets the password for this server </s>

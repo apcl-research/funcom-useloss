@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> return new string (  <NL>  " " + number + " \t " + double . value of ( f . format ( x ) )  <NL>  + " \t " + double . value of ( f . format ( y ) )  <NL>  + " \t " + double . value of ( f . format ( z ) ) + " \t "  <NL>  + description + " \n " ) ;  <NL>  }  COM: <s> prints this point in a nice format </s>

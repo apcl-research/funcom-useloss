@@ -1,0 +1,1 @@
+TDAT: public string get path ( ) {  <NL> string buffer sb = new string buffer ( ) ;  <NL> tree item p = this ;  <NL> while ( p ! = null ) {  <NL> string id = p . get id ( ) ;  <NL> sb . insert ( 0 , " , " + id ) ;  <NL> p = p . get parent item ( ) ;  <NL>  }  <NL> return sb . to string ( ) . substring ( 1 ) ;  <NL>  }  COM: <s> returns the path for this node </s>

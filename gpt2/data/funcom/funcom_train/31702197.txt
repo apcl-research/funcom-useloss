@@ -1,0 +1,1 @@
+TDAT: protected line2d create line draw line ( int graph pos , double d x1 , double d y1 , double d x2 , double d y2 ) {  <NL> return new line2d ( new double [ ] { d x1 , d x2 } , new double [ ] { d y1 , d y2 } , line2d . solid , 0 . 5f , color . black , point2d . none ) ;  <NL>  }  COM: <s> creates a line for user line drawing </s>

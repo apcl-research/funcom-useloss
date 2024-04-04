@@ -1,0 +1,1 @@
+TDAT: public void add where field ( string _ field , string _ type ) {  <NL> query field structure p = new query field structure ( _ field , " " , " " , _ type ) ;  <NL> if ( this . where = = null ) this . where = new vector < query field structure > ( ) ;  <NL> where . add element ( p ) ;  <NL>  }  COM: <s> adds new field to the where section of the query </s>

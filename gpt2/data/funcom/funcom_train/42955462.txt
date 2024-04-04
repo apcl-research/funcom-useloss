@@ -1,0 +1,1 @@
+TDAT: public void put data ( object p key , object p data ) {  <NL> if ( m hash . contains key ( p key ) = = false ) {  <NL> m hash . put ( p key , new array list ( ) ) ;  <NL>  }  <NL>  ( ( array list ) m hash . get ( p key ) ) . add ( p data ) ;  <NL> return ;  <NL>  }  COM: <s> put data in the taglist </s>

@@ -1,0 +1,1 @@
+TDAT: private double get source anchor shape rotation ( ) {  <NL> if ( control points . size ( ) < = 1 )  <NL> return 0 . 0 ;  <NL> point point1 = control points . get ( 0 ) ;  <NL> point point2 = control points . get ( 1 ) ;  <NL> return math . atan2 ( point2 . y - point1 . y , point2 . x - point1 . x ) ;  <NL>  }  COM: <s> returns the rotation of the source anchor shape </s>

@@ -1,0 +1,1 @@
+TDAT: private void set target ( object t ) {  <NL> enable tabs ( t ) ;  <NL> for ( int i = 0 ; i < tabs . get tab count ( ) ; i + + ) {  <NL> component tab = tabs . get component at ( i ) ;  <NL> if ( tab . is enabled ( ) ) {  <NL> tabs . set selected component ( tab ) ;  <NL> break ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> sets the target of the multieditorpane </s>

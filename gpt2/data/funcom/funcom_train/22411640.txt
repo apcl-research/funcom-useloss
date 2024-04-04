@@ -1,0 +1,1 @@
+TDAT: public void load property names ( ) {  <NL> property names = new hash map ( ) ;  <NL> for ( iterator it = properties . key set ( ) . iterator ( ) ; it . has next ( ) ; ) {  <NL> string key = ( string ) it . next ( ) ;  <NL> property names . put ( key , get property name ( key ) ) ;  <NL>  }  <NL>  }  COM: <s> load property names </s>

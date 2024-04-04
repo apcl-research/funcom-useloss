@@ -1,0 +1,1 @@
+TDAT: private void validate no pk fields ( ) {  <NL> field meta data [ ] fields = get declared fields ( ) ;  <NL> for ( int i = 0 ; i < fields . length ; i + + )  <NL> if ( fields [ i ] . is primary key ( ) )  <NL> throw new meta data exception ( _ loc . get ( " bad - pk " , fields [ i ] ) ) ;  <NL>  }  COM: <s> validate that this class doesnt declare any primary key fields </s>

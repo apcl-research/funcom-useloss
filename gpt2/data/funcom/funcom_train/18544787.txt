@@ -1,0 +1,1 @@
+TDAT: private string get bundle message ( page context page context , string key ) {  <NL> string value = " " ;  <NL> try {  <NL> value = request utils . message ( page context , null , globals . locale _ key , key , null ) ;  <NL>  } catch ( jsp exception e ) {  <NL> value = " err ! " ;  <NL>  }  <NL> return value ;  <NL>  }  COM: <s> get the key used by image html alt </s>

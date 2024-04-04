@@ -1,0 +1,1 @@
+TDAT: private string attribute ( string key , string format ) {  <NL>  / / parse attributes <NL> matcher m = regex _ attr . matcher ( format ) ;  <NL> while ( m . find ( ) ) {  <NL> if ( m . group ( 1 ) . trim ( ) . equals ( key ) )  <NL> return m . group ( 2 ) . trim ( ) ;  <NL>  }  <NL>  / / not found <NL> return null ;  <NL>  }  COM: <s> find an attribute in format </s>

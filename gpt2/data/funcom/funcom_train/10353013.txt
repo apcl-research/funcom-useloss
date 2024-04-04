@@ -1,0 +1,1 @@
+TDAT: public void error ( sax parse exception e ) throws sax exception {  <NL> throw new sax exception ( " error at ( file " + e . get system id ( ) + " , line "  <NL>  + e . get line number ( ) + " , char " + e . get column number ( ) + " ) : "  <NL>  + e . get message ( ) ) ;  <NL>  }  COM: <s> catches error saxparse exceptions this code causes exception to continue </s>

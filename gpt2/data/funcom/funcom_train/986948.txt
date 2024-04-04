@@ -1,0 +1,1 @@
+TDAT: public void gl color3i ( int red , int green , int blue ) {  <NL> cc . gl _ color ( gl _ util . ito f ( gl _ util . clamp ( red , 0 , 255 ) ) ,  <NL> gl _ util . ito f ( gl _ util . clamp ( green , 0 , 255 ) ) ,  <NL> gl _ util . ito f ( gl _ util . clamp ( blue , 0 , 255 ) ) ,  <NL> 1 . 0f ) ;  <NL>  }  COM: <s> glvoid gl color3i glint red glint green glint blue </s>

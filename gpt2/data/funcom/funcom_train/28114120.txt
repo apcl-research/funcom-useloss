@@ -1,0 +1,1 @@
+TDAT: public void xor draw ( ) {  <NL> g . set color ( the im . get background ( ) ) ;  <NL> g . set xor mode ( color . red ) ;  <NL> g . fill arc ( x1 - 4 , y1 - 4 , 8 , 8 , 0 , 360 ) ;  <NL> g . draw arc ( x1 - 6 , y1 - 6 , 12 , 12 , 0 , 360 ) ;  <NL>  }  COM: <s> draw the pos in xor mode </s>

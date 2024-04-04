@@ -1,0 +1,1 @@
+TDAT: public int compare ( _ d comparator b1 , _ d comparator b2 ) throws d exception {  <NL> long l1 = get long value ( b1 . get bytes ( ) , 0 ) ;  <NL> long l2 = get long value ( b2 . get bytes ( ) , 0 ) ;  <NL> return comparedates ( new date ( l1 ) , new date ( l2 ) ) ;  <NL>  }  COM: <s> compares two dates for ordering </s>

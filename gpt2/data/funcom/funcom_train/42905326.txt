@@ -1,0 +1,1 @@
+TDAT: private void interpolate ( double [ ] out , double [ ] in1 , double [ ] in2 , int in2p , double coef , int length ) {  <NL>  <NL> double invcoef = 1 . 0 - coef ;  <NL> for ( int i = 0 ; i < length ; i + + ) {  <NL> out [ i ] = coef * in1 [ i ] + invcoef * in2 [ in2p + i ] ;  <NL>  }  <NL>  }  COM: <s> interpolation between vectors </s>

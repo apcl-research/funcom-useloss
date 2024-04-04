@@ -1,0 +1,1 @@
+TDAT: public void set projection area ( rectangle r ) {  <NL> x1 = r . x ;  <NL> x2 = x1 + r . width ;  <NL> y1 = r . y ;  <NL> y2 = y1 + r . height ;  <NL> center _ x = ( x1 + x2 ) / 2 ;  <NL> center _ y = ( y1 + y2 ) / 2 ;  <NL> trans _ x = center _ x + _ 2d _ trans _ x ;  <NL> trans _ y = center _ y + _ 2d _ trans _ y ;  <NL>  }  COM: <s> sets the projection area </s>

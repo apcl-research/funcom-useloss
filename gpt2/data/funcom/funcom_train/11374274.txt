@@ -1,0 +1,1 @@
+TDAT: private void create file ( string file name , long file len ) throws io exception {  <NL> file system fs = cluster . get file system ( ) ;  <NL> path file path = new path ( file name ) ;  <NL> dfs test util . create file ( fs , file path , file len , ( short ) 1 , r . next long ( ) ) ;  <NL>  }  COM: <s> create a file with a length of code file len code </s>

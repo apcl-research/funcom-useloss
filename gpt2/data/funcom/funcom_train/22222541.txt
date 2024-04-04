@@ -1,0 +1,1 @@
+TDAT: public void translate ( point2d _ delta ) {  <NL> if ( this . is null ( ) )  <NL> return ;  <NL> this . min x + = _ delta . get x ( ) ;  <NL> this . max x + = _ delta . get x ( ) ;  <NL> this . min y + = _ delta . get y ( ) ;  <NL> this . max y + = _ delta . get y ( ) ;  <NL>  }  COM: <s> translates this rectangle double by given amounts in the x and y direction </s>

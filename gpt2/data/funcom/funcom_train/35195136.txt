@@ -1,0 +1,1 @@
+TDAT: public char array with ( final char new char ) {  <NL> final char [ ] new chars = new char [ chars . length + 1 ] ;  <NL> system . arraycopy ( chars , 0 , new chars , 0 , chars . length ) ;  <NL> new chars [ chars . length ] = new char ;  <NL> return new char array ( new chars ) ;  <NL>  }  COM: <s> creates a code char array code with an appended code char code </s>

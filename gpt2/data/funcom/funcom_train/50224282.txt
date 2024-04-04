@@ -1,0 +1,1 @@
+TDAT: public void enable types ( collection types ) {  <NL> for ( iterator i = type map . key set ( ) . iterator ( ) ; i . has next ( ) ; ) {  <NL> object key = i . next ( ) ;  <NL>  ( ( j check box ) type map . get ( key ) ) . set selected ( types . contains ( key ) ) ;  <NL>  }  <NL>  }  COM: <s> ensure that the typesname in set types are selected </s>

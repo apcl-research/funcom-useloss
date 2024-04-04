@@ -1,0 +1,1 @@
+TDAT: private void apply ( double [ ] [ ] data ) {  <NL> for ( int i = 0 ; i < data . length ; i + + ) {  <NL> frame f = clip . get frame ( i + first frame ) ;  <NL> for ( int j = 0 ; j < data [ 0 ] . length ; j + + ) {  <NL> f . set real ( j + first freq index , data [ i ] [ j ] ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> applies the given data into the frames of </s>

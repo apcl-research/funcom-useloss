@@ -1,0 +1,1 @@
+TDAT: public void test get column index ( ) {  <NL> task series collection c = create collection1 ( ) ;  <NL> assert equals ( 0 , c . get column index ( " task 1 " ) ) ;  <NL> assert equals ( 1 , c . get column index ( " task 2 " ) ) ;  <NL> assert equals ( 2 , c . get column index ( " task 3 " ) ) ;  <NL>  }  COM: <s> some tests for the get column index method </s>

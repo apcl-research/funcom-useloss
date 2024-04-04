@@ -1,0 +1,1 @@
+TDAT: private int calculate offset to increment ( ) {  <NL> int [ ] offsets = get offsets ( ) ;  <NL> for ( int i = offsets . length - 1 ; i > = 0 ; i - - ) {  <NL> if ( offsets [ i ] < ( get objects ( ) . size ( ) - offsets . length + i ) )  <NL> return i ;  <NL>  }  <NL> return - 1 ;  <NL>  }  COM: <s> returns the offset that should be incremented or 1 if there are no </s>

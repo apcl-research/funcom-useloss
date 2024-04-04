@@ -1,0 +1,1 @@
+TDAT: private void resize dialog ( ) {  <NL> pack ( ) ;  <NL> final window owner = get owner ( ) ;  <NL> set bounds ( owner . get x ( ) + owner . get width ( ) / 2 - get width ( ) / 2 ,  <NL> owner . get y ( ) + owner . get height ( ) / 2 - get height ( ) / 2 , get width ( ) , get height ( ) ) ;  <NL>  }  COM: <s> resizes the dialog </s>

@@ -1,0 +1,1 @@
+TDAT: public list iterator list iterator ( int from index ) {  <NL>  / / override to go 75 % faster <NL>  / / cannot use empty iterator as iterator . add ( ) must work <NL> check interval ( from index , 0 , size ( ) ) ;  <NL> return new tree list iterator ( this , from index , get version ( ) ) ;  <NL>  }  COM: <s> gets a list iterator over the list </s>

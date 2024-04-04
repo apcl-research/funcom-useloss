@@ -1,0 +1,1 @@
+TDAT: private void remove from label edge map ( map < label , set < e > > current map , e edge ) {  <NL> if ( current map ! = null ) {  <NL> set < e > label edge set = current map . get ( edge . label ( ) ) ;  <NL> if ( label edge set ! = null ) {  <NL> label edge set . remove ( edge ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> removes an edge from a given label to edgeset map </s>

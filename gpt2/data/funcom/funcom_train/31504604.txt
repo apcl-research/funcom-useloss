@@ -1,0 +1,1 @@
+TDAT: private void display all columns ( ) {  <NL> iterator it = map table column column keeper . values ( ) . iterator ( ) ;  <NL> while ( it . has next ( ) ) {  <NL> column keeper ck = ( column keeper ) it . next ( ) ;  <NL> if ( ! ck . is shown )  <NL> ck . show ( ) ;  <NL>  }  <NL>  / / create popup menu ( ) ;  <NL>  }  COM: <s> displays all the table columns </s>

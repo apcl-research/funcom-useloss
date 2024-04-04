@@ -1,0 +1,1 @@
+TDAT: public void add2forest ( forest forest , node node , string name ) throws io exception {  <NL> document impl doc = ( document impl ) forest . get owner document ( ) ;  <NL> element phylo = walk tree ( doc , node , name ) ;  <NL> if ( phylo ! = null ) {  <NL> forest . add phylogeny ( phylo ) ;  <NL>  }  <NL>  }  COM: <s> adds a pal stye </s>

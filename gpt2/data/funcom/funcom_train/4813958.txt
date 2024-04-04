@@ -1,0 +1,1 @@
+TDAT: public int hash code ( ) {  <NL> int hash code = from x ;  <NL> hash code + = from y * board . max _ size ;  <NL> hash code + = to x * board . max _ size * board . max _ size ;  <NL> hash code + = to y * board . max _ size * board . max _ size * board . max _ size ;  <NL> return hash code ;  <NL>  }  COM: <s> ensures that unequal moves have different hash codes </s>

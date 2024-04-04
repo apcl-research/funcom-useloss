@@ -1,0 +1,1 @@
+TDAT: public void show menu ( ) {  <NL> system . out . println ( " \n1 . upload from csv " ) ;  <NL> system . out . println ( " 2 . upload from my sql " ) ;  <NL> system . out . println ( " 99 . exit " ) ;  <NL> system . out . println ( " " ) ;  <NL> system . out . println ( " - - - > operation : " ) ;  <NL>  }  COM: <s> displays a menu in the console to choose the operation </s>

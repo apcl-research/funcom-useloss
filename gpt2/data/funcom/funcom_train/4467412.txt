@@ -1,0 +1,1 @@
+TDAT: public void test equals ( ) {  <NL> rectangle r = new rectangle ( - 1 , 12 , 56 , 98 . 5 ) ;  <NL> assert false ( rect . equals ( r ) ) ;  <NL> r . set rect ( 50 , 60 , 100 , 200 ) ;  <NL> assert true ( rect . equals ( r ) ) ;  <NL>  <NL>  }  COM: <s> tests the equals method </s>

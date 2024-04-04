@@ -1,0 +1,1 @@
+TDAT: protected string parse line ( string line ) {  <NL> string new line = line . substring ( 2 , line . length ( ) ) . trim ( ) ;  <NL> if ( new line . ends with ( " . " ) )  <NL> new line = new line . substring ( 0 , new line . length ( ) - 1 ) ;  <NL> return new line ;  <NL>  }  COM: <s> normalizes a line by removing first line identifier </s>

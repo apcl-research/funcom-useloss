@@ -1,0 +1,1 @@
+TDAT: private int find mi dlet by class ( mi dlet peer m ) {  <NL>  / / find it in the list <NL> for ( int i = 0 ; i < nmidlets ; i + + ) {  <NL> if ( m . get mi dlet ( ) . get class ( ) = =  <NL> midlets [ i ] . get mi dlet ( ) . get class ( ) ) {  <NL> return i ;  <NL>  }  <NL>  }  <NL> return - 1 ;  <NL>  }  COM: <s> finds a midlet in the list by it class </s>

@@ -1,0 +1,1 @@
+TDAT: private void fill in ( ) {  <NL> if ( data . get n ( ) ! = null ) {  <NL> plist . set text ( data . get p ( ) . to string ( ) ) ;  <NL> qlist . set text ( data . get q ( ) . to string ( ) ) ;  <NL> elist . set text ( data . get e ( ) . to string ( ) ) ;  <NL>  }  <NL>  }  COM: <s> fills in the already entered data from the last wizard run </s>

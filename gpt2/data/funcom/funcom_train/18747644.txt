@@ -1,0 +1,1 @@
+TDAT: public void create edge ( node src , node tgt ) {  <NL> if ( src ! = null & & tgt ! = null ) {  <NL> this . create edge ( src , " " , tgt ) ;  <NL>  } else {  <NL> system . out . println ( " create edge ( a , b ) : cannot create edge : " + src <NL>  + " - - > " + tgt ) ;  <NL>  }  <NL>  }  COM: <s> creates a non labeled edge from source node to target node </s>

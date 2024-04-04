@@ -1,0 +1,1 @@
+TDAT: private jogl canvas init jogl ( ) {  <NL> final jogl canvas renderer canvas renderer = new jogl canvas renderer ( this ) ;  <NL> final display settings settings = new display settings ( 800 , 600 , 24 , 0 , 0 , 8 , 0 , 0 , false , false ) ;  <NL> return new jogl canvas ( canvas renderer , settings ) ;  <NL>  }  COM: <s> setup a jogl canvas and canvas renderer </s>

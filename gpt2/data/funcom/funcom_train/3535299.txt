@@ -1,0 +1,1 @@
+TDAT: public void setup ( ) {  <NL> if ( _ host ! = null & & _ port = = 0 ) {  <NL> throw new illegal argument exception ( " port argument is not specified in the proxy " ) ;  <NL>  }  <NL> web browser . get instance ( ) . use proxy ( _ host , _ port , _ nt domain , _ username , _ password ) ;  <NL>  }  COM: <s> setup the proxy </s>

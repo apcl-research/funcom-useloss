@@ -1,0 +1,1 @@
+TDAT: private void read from file ( ) {  <NL> try {  <NL> pic = image io . read ( class loader . get system resource ( arrow path + position + " / " + get state ( ) + " . png " ) ) ;  <NL> set size ( pic . get width ( ) , pic . get height ( ) ) ;  <NL>  } catch ( exception ex ) {  <NL> ex . print stack trace ( ) ;  <NL>  }  <NL>  <NL>  }  COM: <s> set the size of the files </s>

@@ -1,0 +1,1 @@
+TDAT: public void build ui ( ) {  <NL> if ( root . children . size ( ) > 0 ) {  <NL> shell shell = application . get default ( ) . get main window ( ) . get shell ( ) ;  <NL> menu bar = new menu ( shell , swt . bar ) ;  <NL> build menu bar ( shell , bar , root ) ;  <NL> shell . set menu bar ( bar ) ;  <NL>  }  <NL>  }  COM: <s> method build ui </s>

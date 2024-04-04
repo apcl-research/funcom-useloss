@@ -1,0 +1,1 @@
+TDAT: public void s lcreate ( java . net . socket sock ) {  <NL> if ( slave = = null ) {  <NL> slave = new t _ ip ( this ) ;  <NL> if ( sock ! = null ) {  <NL>  ( ( t _ ip ) slave ) . set tc psocket ( sock ) ;  <NL>  } / / if listen create client socket , p _ thread follow for blocking reading <NL>  }  <NL>  }  COM: <s> create slave for ipl4 connection </s>

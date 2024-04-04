@@ -1,0 +1,1 @@
+TDAT: private void update status mime type ( cached url cu ) {  <NL> string con type = cu . get content type ( ) ;  <NL> if ( con type ! = null ) {  <NL> string mime type = header util . get mime type from content type ( con type ) ;  <NL> crawl status . signal mime type of url ( mime type , cu . get url ( ) ) ;  <NL>  }  <NL> return ;  <NL>  }  COM: <s> update the crawl </s>

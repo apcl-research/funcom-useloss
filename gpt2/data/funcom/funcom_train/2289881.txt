@@ -1,0 +1,1 @@
+TDAT: public list get groups of user ( cms db context dbc , string username , boolean read roles ) throws cms exception {  <NL>  <NL> return get groups of user ( dbc , username , " " , true , read roles , false , dbc . get request context ( ) . get remote address ( ) ) ;  <NL>  }  COM: <s> returns the groups of an user filtered by the specified ip address </s>

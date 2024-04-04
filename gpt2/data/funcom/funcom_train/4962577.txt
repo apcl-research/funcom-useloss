@@ -1,0 +1,1 @@
+TDAT: private void check edge ( edge e , vertex v ) {  <NL> vertex [ ] ends = graph _ . end vertices ( e ) ;  <NL> if ( ! ( ( ends [ 0 ] = = v ) || ( ends [ 1 ] = = v ) ) )  <NL> throw new invalid edge exception ( " edge " + e + " not incident on vertex " + v ) ;  <NL>  }  COM: <s> ensures that a given edge is valid i </s>

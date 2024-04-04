@@ -1,0 +1,1 @@
+TDAT: public void paint icon ( component comp , graphics g , int x , int y ) {  <NL> g . draw rect ( 3 , 3 , 8 , 8 ) ;  <NL> g . draw line ( 5 , 7 , 9 , 7 ) ;  <NL> if ( plus )  <NL> g . draw line ( 7 , 5 , 7 , 9 ) ;  <NL>  }  COM: <s> draws plus or minus sign </s>

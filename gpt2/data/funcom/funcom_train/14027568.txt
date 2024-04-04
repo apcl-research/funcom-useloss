@@ -1,0 +1,1 @@
+TDAT: public void push stack item ( i value type item ) {  <NL> if ( _ stack . size ( ) > = _ max stack ) {  <NL> throw new invalid method state exception ( " stack getting too large ( size should be 0 . . " + ( _ max stack ) + " ) " ) ;  <NL>  }  <NL>  _ stack . add ( 0 , item ) ;  <NL>  }  COM: <s> push the item onto the stack </s>

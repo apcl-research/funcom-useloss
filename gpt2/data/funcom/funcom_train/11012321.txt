@@ -1,0 +1,1 @@
+TDAT: public void test read sheet with rk ( ) {  <NL> hssf workbook h = open sample ( " rk . xls " ) ;  <NL> hssf sheet s = h . get sheet at ( 0 ) ;  <NL> hssf cell c = s . get row ( 0 ) . get cell ( 0 ) ;  <NL> int a = c . get cell type ( ) ;  <NL>  <NL> assert equals ( a , c . cell _ type _ numeric ) ;  <NL>  }  COM: <s> test name test read sheet with an rk number p </s>

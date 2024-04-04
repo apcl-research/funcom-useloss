@@ -1,0 +1,1 @@
+TDAT: public string get field ( string str )  <NL>  { / * get field * /  <NL> if ( str = = null )  <NL> return ( null ) ;  <NL> int idx = str . index of ( key separator ) ;  <NL> if ( idx > = 0 )  <NL> return ( str . substring ( idx + 1 ) . trim ( ) ) ;  <NL> else <NL> return ( str ) ;  <NL>  } / * get field * /  COM: <s> get field helper routine for parsing header key </s>

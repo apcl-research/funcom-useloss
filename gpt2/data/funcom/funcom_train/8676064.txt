@@ -1,0 +1,1 @@
+TDAT: public void put ( int key , int value ) {  <NL> int i = index of ( key ) ;  <NL> if ( _ filled [ i ] ) {  <NL>  _ value [ i ] = value ;  <NL>  } else {  <NL>  _ key [ i ] = key ;  <NL>  _ value [ i ] = value ;  <NL>  _ filled [ i ] = true ;  <NL> grow ( ) ;  <NL>  }  <NL>  }  COM: <s> adds a key value pair to the map </s>

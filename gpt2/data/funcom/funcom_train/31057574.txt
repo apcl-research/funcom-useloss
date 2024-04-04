@@ -1,0 +1,1 @@
+TDAT: public int get buf size ( agent sender ) {  <NL> my cell . note agent message ( this , " get low val " , sender , this ) ; / / the message <NL> my cell . note agent message ( this , " get low val reply " , this , sender ) ; / / the reply <NL> return rb . get size ( ) ;  <NL>  }  COM: <s> return the size of the ring buffer </s>

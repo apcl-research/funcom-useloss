@@ -1,0 +1,1 @@
+TDAT: public void test get name ( ) {  <NL> system . out . println ( " - > view proxy . test get name " ) ;  <NL> string result = view . get name ( ) ;  <NL> assert true ( " view name should be ' " + view name + " ' not ' " + result + " ' " , view name . equals ( result ) ) ;  <NL>  }  COM: <s> tests the method get name </s>

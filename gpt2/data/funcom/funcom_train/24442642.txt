@@ -1,0 +1,1 @@
+TDAT: public attribute copy ( )  <NL>  { return new attribute ( get id ( ) , get name ( ) , get description ( ) , get entity id ( ) , get domain id ( ) , get min ( ) , get max ( ) , is key ( ) , get base ( ) ) ; }  COM: <s> copies the attribute </s>

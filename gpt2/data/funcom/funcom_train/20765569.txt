@@ -1,0 +1,1 @@
+TDAT: private int bit val2slider val ( int v , int vmax , j slider slider ) {  <NL> int s = 0 ;  <NL> double sm = slider . get maximum ( ) ;  <NL> double vm = vmax ;  <NL> s = ( int ) math . round ( sm * v / vm ) ; ;  <NL>  / / log . info ( " bit value = " + v + " - > slider value = " + s ) ;  <NL> return s ;  <NL>  }  COM: <s> maps from bit value to linear log slider value </s>

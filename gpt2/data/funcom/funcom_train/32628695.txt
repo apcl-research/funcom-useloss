@@ -1,0 +1,1 @@
+TDAT: public literal get value ( ) {  <NL> node iterator i = null ;  <NL> try {  <NL> i = get all ( ) ;  <NL> return ( i = = null || ! i . has next ( ) ) ? null : ( ( literal ) i . next node ( ) ) ;  <NL>  }  <NL> finally {  <NL> if ( i ! = null ) {  <NL> i . close ( ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> p answer the value of the encapsulated property </s>

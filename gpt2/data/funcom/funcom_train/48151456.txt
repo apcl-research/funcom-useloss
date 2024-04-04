@@ -1,0 +1,1 @@
+TDAT: public void reset ( ) {  <NL> super . reset ( ) ;  <NL> get record table ( ) . append ( " \t y\t m\t l " ) ;  <NL> walk graph . reset ( ) ;  <NL> for ( int i = 0 ; i < 3 ; i + + )  <NL> walk rv [ i ] . reset ( ) ;  <NL> rv graph . reset ( ) ;  <NL> rv table . reset ( ) ;  <NL>  }  COM: <s> this method resets the experiment including the random walk graph the </s>

@@ -1,0 +1,1 @@
+TDAT: public void set key value ( xml context data data , object to set , string property , object key , object value ) {  <NL> field setter setter = get field setter ( property ) ;  <NL> if ( setter ! = null ) {  <NL> setter . set key value ( data , to set , key , value ) ;  <NL>  }  <NL>  }  COM: <s> sets a key value pair on an object </s>

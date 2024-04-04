@@ -1,0 +1,1 @@
+TDAT: public int compare ( e o1 , e o2 ) {  <NL> if ( o1 = = o2 ) { return 0 ; }  <NL> if ( o1 = = null ) { return ( this . nulls are high ? 1 : - 1 ) ; }  <NL> if ( o2 = = null ) { return ( this . nulls are high ? - 1 : 1 ) ; }  <NL> return this . non null comparator . compare ( o1 , o2 ) ;  <NL>  }  COM: <s> perform a comparison between two objects </s>

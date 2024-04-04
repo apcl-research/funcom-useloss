@@ -1,0 +1,1 @@
+TDAT: public void run ( ) {  <NL> byte buf [ ] = new byte [ 512 ] ;  <NL> int r ;  <NL> try {  <NL> while ( ( r = in . read ( buf , 0 , 512 ) ) > - 1 )  <NL> print ( new string ( buf , 0 , r ) ) ;  <NL>  }  <NL> catch ( exception e ) { }  <NL>  }  COM: <s> performs the thread functionality </s>

@@ -1,0 +1,1 @@
+TDAT: public void play music ( ) {  <NL> if ( rpg . get sound settings ( ) . is playing sounds ( )  <NL>  & & rpg . get sound settings ( ) . is background music ( ) ) {  <NL> sound loader . get menu bg music ( ) . play ( 1f , rpg . get sound settings ( ) . get background music volume ( ) ) ;  <NL>  }  <NL>  }  COM: <s> plays the background music </s>

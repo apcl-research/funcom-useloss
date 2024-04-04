@@ -1,0 +1,1 @@
+TDAT: private string resolve to ( string uri , string expected unix , string expected dos ) {  <NL> string result = locator . from uri ( uri ) ;  <NL> assert resolved ( uri , expected unix , result , unix ) ;  <NL> assert resolved ( uri , expected dos , result , windows ) ;  <NL> return result ;  <NL>  }  COM: <s> expect a uri to resolve to strings on different platforms </s>

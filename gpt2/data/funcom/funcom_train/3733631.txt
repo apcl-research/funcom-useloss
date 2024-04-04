@@ -1,0 +1,1 @@
+TDAT: protected boolean is selected ( string name , file file ) {  <NL> if ( selectors ! = null ) {  <NL> for ( int i = 0 ; i < selectors . length ; i + + ) {  <NL> if ( ( selectors [ i ] . is selected ( basedir , name , file ) ) = = false ) {  <NL> return false ;  <NL>  }  <NL>  }  <NL>  }  <NL> return true ;  <NL>  }  COM: <s> tests whether a name should be selected </s>

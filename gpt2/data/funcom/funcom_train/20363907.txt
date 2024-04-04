@@ -1,0 +1,1 @@
+TDAT: protected string validate value ( int v ) {  <NL> if ( v < 4 || v > 16 ) {  <NL> return " value " + ( v ) + " invalid . valid values must be in the range 4 to 16 . " ;  <NL>  } else if ( ( 2 * ( v / 2 ) ) ! = v ) {  <NL> return " value " + ( v ) + " invalid . valid values must be even . " ;  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> check value for validity </s>

@@ -1,0 +1,1 @@
+TDAT: public void new kb ( string name ) {  <NL> if ( ! chgs outstanding ) {  <NL> the kb = new fzy knowledgebase ( name ) ;  <NL> the kb . add observer ( this ) ;  <NL> set changed ( ) ;  <NL> notify observers ( new fs event ( this , " kb : new kb " , the kb ) ) ;  <NL> chgs outstanding = true ;  <NL>  }  <NL>  }  COM: <s> create a new knowledgebase </s>

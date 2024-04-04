@@ -1,0 +1,1 @@
+TDAT: public float get float ( int column index ) throws sql exception {  <NL> object o = get ( column index ) ;  <NL> if ( o ! = null & & ! ( o instanceof number ) ) {  <NL> return float . parse float ( o . to string ( ) ) ;  <NL>  }  <NL> return o = = null ? 0 : ( ( number ) o ) . float value ( ) ;  <NL>  }  COM: <s> returns the value as a float </s>

@@ -1,0 +1,1 @@
+TDAT: protected string get sql ( value [ ] values ) {  <NL> statement builder buff = new statement builder ( ) ;  <NL> for ( value v : values ) {  <NL> buff . append except first ( " , " ) ;  <NL> if ( v ! = null ) {  <NL> buff . append ( v . get sql ( ) ) ;  <NL>  }  <NL>  }  <NL> return buff . to string ( ) ;  <NL>  }  COM: <s> get the sql snippet of the value list </s>

@@ -1,0 +1,1 @@
+TDAT: public matrix transpose ( ) {  <NL> int m = get rows ( ) , n = get cols ( ) ;  <NL> double [ ] [ ] t = new double [ n ] [ m ] , x = x _ ;  <NL> for ( int i = 0 ; i < m ; i + + ) for ( int j = 0 ; j < n ; j + + ) t [ j ] [ i ] = x [ i ] [ j ] ;  <NL> return new matrix ( t ) ;  <NL>  }  COM: <s> return a new matrix that is the transpose of this one </s>

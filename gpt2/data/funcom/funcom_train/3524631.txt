@@ -1,0 +1,1 @@
+TDAT: public void test is match true ( ) throws model exception {  <NL> address . set city ( " juneau " ) ;  <NL> address . set state ( " ak " ) ;  <NL> address . set zip ( " 99801 " ) ;  <NL>  / / position list on juneau <NL> zip list . next ( ) ;  <NL> assert true ( " expected a match " , model . is current match ( ) ) ;  <NL>  }  COM: <s> test for method is match </s>

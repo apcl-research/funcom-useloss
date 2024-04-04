@@ -1,0 +1,1 @@
+TDAT: public object get object ( int item ) {  <NL> object result = null ;  <NL> if ( item > = 0 & & item < this . data . size ( ) ) {  <NL> keyed object kobj = ( keyed object ) this . data . get ( item ) ;  <NL> if ( kobj ! = null ) {  <NL> result = kobj . get object ( ) ;  <NL>  }  <NL>  }  <NL> return result ;  <NL>  }  COM: <s> returns an object </s>

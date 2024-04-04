@@ -1,0 +1,1 @@
+TDAT: public void run ( ) {  <NL> system . err . println ( " ready to service . . . " ) ;  <NL> for ( ; ; )  <NL> try {  <NL> service thread th = new service thread ( this , socket . accept ( ) ) ;  <NL> th . start ( ) ;  <NL>  }  <NL> catch ( io exception e ) {  <NL> logging ( e . to string ( ) ) ;  <NL>  }  <NL>  }  COM: <s> begins the http service </s>

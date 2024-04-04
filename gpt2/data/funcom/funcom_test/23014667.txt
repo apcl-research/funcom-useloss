@@ -1,0 +1,1 @@
+TDAT: public float calculate distance ( vector3f v , float radius ) {  <NL> return ( v . get x ( ) - origin . get x ( ) ) * normal . get x ( ) +  <NL>  ( v . get y ( ) - origin . get y ( ) ) * normal . get y ( ) +  <NL>  ( v . get z ( ) - origin . get z ( ) ) * normal . get z ( ) ;  <NL>  }  COM: <s> calculates the smalles distance of a vertex with this plane </s>

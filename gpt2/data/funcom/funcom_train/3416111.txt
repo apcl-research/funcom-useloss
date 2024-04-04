@@ -1,0 +1,1 @@
+TDAT: private int u ( ) {  <NL> int n = 0 ;  <NL> for ( int i = 0 ; i < 4 ; i + + ) {  <NL> int ch = read ( ) ;  <NL> if ( ! ascii . is hex digit ( ch ) ) {  <NL> throw error ( " illegal unicode escape sequence " ) ;  <NL>  }  <NL> n = n * 16 + ascii . to digit ( ch ) ;  <NL>  }  <NL> return n ;  <NL>  }  COM: <s> utility method for parsing unicode escape sequences </s>

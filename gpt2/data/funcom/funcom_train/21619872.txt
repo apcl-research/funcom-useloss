@@ -1,0 +1,1 @@
+TDAT: public void test set zip ( ) {  <NL> system . out . println ( " set zip " ) ;  <NL>  <NL> assert equals ( false , store . is dirty ( ) ) ;  <NL> string zip = " 55555 " ;  <NL> store . set zip ( zip ) ;  <NL> assert equals ( zip , store . get zip ( ) ) ;  <NL> assert equals ( true , store . is dirty ( ) ) ;  <NL>  }  COM: <s> test of set zip method of class edu </s>

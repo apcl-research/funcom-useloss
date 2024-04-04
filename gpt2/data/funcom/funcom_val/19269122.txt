@@ -1,0 +1,1 @@
+TDAT: public floor bean value get value ( ) {  <NL>  / / logger . info ( " get value ( ) " ) ;  <NL> floor bean value value = new floor bean value ( this . id , this . building id , this . name ,  <NL> this . map url , this . owner id , this . description , this . get area ( ) ) ;  <NL> return value ;  <NL>  }  COM: <s> get floor bean value </s>

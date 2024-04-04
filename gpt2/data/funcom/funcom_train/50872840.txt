@@ -1,0 +1,1 @@
+TDAT: public void test get elements ( ) {  <NL> om application application = new om application ( ) ;  <NL> application . add element ( new om integer ( " 1 " ) ) ;  <NL> application . add element ( new om symbol ( " a " , " b " ) ) ;  <NL> assert true ( application . get elements ( ) . size ( ) = = 2 ) ;  <NL>  }  COM: <s> test of get elements method of class omapplication </s>

@@ -1,0 +1,1 @@
+TDAT: protected void check range ( t c ) {  <NL> if ( max ! = null & & max . compare to ( c ) < 0 ) {  <NL> throw new property value out of range ( c . to string ( ) ) ;  <NL>  }  <NL> if ( min ! = null & & min . compare to ( c ) > 0 ) {  <NL> throw new property value out of range ( c . to string ( ) ) ;  <NL>  }  <NL>  }  COM: <s> checks the min max range </s>

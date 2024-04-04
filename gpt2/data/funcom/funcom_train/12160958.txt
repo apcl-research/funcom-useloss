@@ -1,0 +1,1 @@
+TDAT: public void test star all defaults unacceptable ( ) {  <NL> check ( new string [ ] { " iso - 8859 - 1 ; q = 0 , utf - 16 ; q = 0 , utf - 8 ; q = 0 , * , us - ascii " } ,  <NL>  " utf - 16 " , " us - ascii " ) ;  <NL>  }  COM: <s> if the user specifies that the implicit device and system defaults are </s>

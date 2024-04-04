@@ -1,0 +1,1 @@
+TDAT: static public void setcargo ( zz cell cargo , zz cell c ) {  <NL> if ( cargo . s ( " d . cursor - cargo " , - 1 ) = = null )  <NL> cargo . n ( " d . cursor - cargo " , - 1 ) ;  <NL> setcursor ( cargo . h ( " d . cursor - cargo " , - 1 ) , c ) ;  <NL>  }  COM: <s> set the given cursor cargo to point to a cell </s>

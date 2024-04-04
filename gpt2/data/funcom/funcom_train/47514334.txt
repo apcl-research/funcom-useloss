@@ -1,0 +1,1 @@
+TDAT: public parallel colt float matrix mult ( matrix b ) {  <NL>  / / note could use cern . colt . matrix . linalg . algebral . mult ( a , b ) instead <NL> return new parallel colt float matrix ( matrix . z mult (  <NL>  ( ( parallel colt float matrix ) b ) . matrix , null , 1 , 0 , false , false ) ) ;  <NL>  }  COM: <s> required b is a parallel colt matrix </s>

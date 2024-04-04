@@ -1,0 +1,1 @@
+TDAT: private ft expr ft or ( final boolean prg ) throws query exception {  <NL> final ft expr e = ft and ( prg ) ;  <NL> if ( ! consume ws ( ftor ) ) return e ;  <NL>  <NL> ft expr [ ] list = { e } ;  <NL> do list = array . add ( list , ft and ( prg ) ) ; while ( consume ws ( ftor ) ) ;  <NL> return new ft or ( list ) ;  <NL>  }  COM: <s> ft145 parses ftor </s>

@@ -1,0 +1,1 @@
+TDAT: protected void draw image ( graphics2d g2d , image gump image ) {  <NL> int x = ( get width ( ) / 2 ) - ( gump image . get width ( null ) / 2 ) ;  <NL> int y = ( get height ( ) / 2 ) - ( gump image . get height ( null ) / 2 ) ;  <NL> g2d . draw image ( gump image , x , y , null ) ;  <NL>  }  COM: <s> draws the given image to the canvas </s>

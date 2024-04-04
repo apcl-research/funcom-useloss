@@ -1,0 +1,1 @@
+TDAT: protected boolean send packet zrtp ( zrtp packet base packet ) {  <NL>  / / the packet buffer reflects the real size of the data including the crc <NL>  / / field .  <NL> return ( ( packet = = null ) ? false : callback . send data zrtp ( packet <NL>  . get header base ( ) / * , ( packet . get length ( ) * 4 ) + 4 ) * / ) ) ;  <NL>  }  COM: <s> send a zrtp packet </s>

@@ -1,0 +1,1 @@
+TDAT: public void append ( barrel reader a ) {  <NL> if ( cache ! = null & & a . length ( ) < max _ size ) {  <NL> if ( cache . length ( ) + a . length ( ) > max _ size ) {  <NL> flush cache ( ) ;  <NL>  }  <NL> cache . append ( a ) ;  <NL>  } else {  <NL> super . append ( a ) ;  <NL>  }  <NL>  }  COM: <s> add the contents of the given barrel to the cache </s>

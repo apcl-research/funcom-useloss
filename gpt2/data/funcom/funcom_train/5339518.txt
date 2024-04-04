@@ -1,0 +1,1 @@
+TDAT: protected field find field ( string fieldname , java class javaclass ) {  <NL> field [ ] fields = javaclass . get fields ( ) ;  <NL> for ( int i = 0 ; i < fields . length ; i + + ) {  <NL> if ( fields [ i ] . get name ( ) . equals ( fieldname ) ) {  <NL> return fields [ i ] ;  <NL>  }  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> find a field by name </s>

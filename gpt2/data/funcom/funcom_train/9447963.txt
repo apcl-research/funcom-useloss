@@ -1,0 +1,1 @@
+TDAT: public void ensure capacity ( int minimum capacity ) {  <NL> object [ ] a = array ;  <NL> if ( a . length < minimum capacity ) {  <NL> object [ ] new array = new object [ minimum capacity ] ;  <NL> system . arraycopy ( a , 0 , new array , 0 , size ) ;  <NL> array = new array ;  <NL> mod count + + ;  <NL>  }  <NL>  }  COM: <s> ensures that after this operation the </s>

@@ -1,0 +1,1 @@
+TDAT: public boolean in boundary box ( coordinate c ) {  <NL>  <NL> return ( c . get x ( ) > = get x ( ) & & c . get x ( ) < = ( get x ( ) + get width ( ) )  <NL>  & & c . get y ( ) > = get y ( ) & & c . get y ( ) < = ( get y ( ) + get height ( ) ) ) ;  <NL>  }  COM: <s> returns true if the coordinates is in the words boundary </s>

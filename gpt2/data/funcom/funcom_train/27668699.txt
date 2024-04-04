@@ -1,0 +1,1 @@
+TDAT: public void remove all elements ( ) {  <NL> if ( items . size ( ) > 0 ) {  <NL> int first index = 0 ;  <NL> int last index = items . size ( ) - 1 ;  <NL> items . clear ( ) ;  <NL> selected item = null ;  <NL> fire interval removed ( this , first index , last index ) ;  <NL>  } else {  <NL> selected item = null ;  <NL>  }  <NL>  }  COM: <s> empties the list </s>

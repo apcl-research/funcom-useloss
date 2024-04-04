@@ -1,0 +1,1 @@
+TDAT: protected int draw ( output output , int x , int y , int bar width , int bar height ) throws output exception {  <NL> int w = bars [ 0 ] * bar width ;  <NL> output . draw bar ( ( int ) x , ( int ) y , ( int ) w , ( int ) bar height , false ) ;  <NL> return w ;  <NL>  }  COM: <s> draws the module to the specified output </s>

@@ -1,0 +1,1 @@
+TDAT: private string sign extend ( string bin str , int i ) {  <NL> string first bit = string . value of ( bin str . char at ( 0 ) ) ;  <NL> string extension = " " ;  <NL> while ( i > 0 ) { extension = extension . concat ( first bit ) ; i - - ; }  <NL> return extension . concat ( bin str ) ;  <NL>  }  COM: <s> sign extends bin str by i bits </s>

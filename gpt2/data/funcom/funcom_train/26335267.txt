@@ -1,0 +1,1 @@
+TDAT: public int get time hour ( ) {  <NL> int doy = this . get date day of year ( ) ;  <NL> long year = this . rounds / rp _ year ;  <NL> long r = this . rounds - ( year * rp _ year ) ;  <NL>  <NL> return ( int ) ( r - ( ( doy - 1 ) * rp _ day ) ) / ( int ) ( 60 * rp _ minute ) ;  <NL>  }  COM: <s> get time hour </s>

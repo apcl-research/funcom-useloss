@@ -1,0 +1,1 @@
+TDAT: private void add parameter to args ( final list < object > args , final subnode configuration arg config ) throws bean pot exception {  <NL> args . add ( get bean map ( ) . get property value ( s _ value , get parameter class ( arg config , get bean map ( ) . get class loader ( ) ) , arg config ) ) ;  <NL>  }  COM: <s> method to add a parameter i </s>

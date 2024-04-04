@@ -1,0 +1,1 @@
+TDAT: public copy action get user datum copy action ( object key ) {  <NL> pair value _ pair = this . get user datum value pair ( key ) ;  <NL> if ( value _ pair = = null ) return null ;  <NL>  / / pair p = ( pair ) get storage ( ) . get ( key ) ;  <NL> return ( copy action ) value _ pair . get second ( ) ;  <NL>  }  COM: <s> returns the copy action associated with this key </s>

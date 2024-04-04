@@ -1,0 +1,1 @@
+TDAT: public void test boolean xml ( ) {  <NL> boolean dto dto = new boolean dto ( ) ;  <NL> dto . boolean field = new boolean ( false ) ;  <NL> assert true ( j sefa test util . serialize ( xml , dto ) . index of ( " 0 " ) > = 0 ) ;  <NL> j sefa test util . assert repeated round trip succeeds ( xml , dto ) ;  <NL>  }  COM: <s> tests boolean xml </s>

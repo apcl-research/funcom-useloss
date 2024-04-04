@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> string str = get name ( ) ;  <NL> string t = get type ( ) ;  <NL> if ( ! t . equals ( " " ) )  <NL> str + = " : " + t ;  <NL> string c = get comment ( ) ;  <NL> return ( c . equals ( " " ) ) ? str : str + " ( * " + c + " * ) " ;  <NL>  }  COM: <s> returns a string representation of the contained element </s>

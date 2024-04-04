@@ -1,0 +1,1 @@
+TDAT: public long get fetched size ( ) {  <NL>  / / logger . debug ( " pagedb get fetched size " + dirname + " ( " + new throwable ( ) . get stack trace ( ) [ 1 ] . get class name ( ) + " ) " ) ;  <NL> if ( ! stats . initialized ) {  <NL> stats . read ( ) ;  <NL>  }  <NL> return stats . fetched pages ;  <NL>  }  COM: <s> returns the number of fetched pages in the last cycle </s>

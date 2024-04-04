@@ -1,0 +1,1 @@
+TDAT: public void set date range ( int yr , int mo , int day , int hr ) {  <NL> from date = new date time ( yr , mo , day , hr , 0 , 0 ) ;  <NL> to date = new date time ( yr , mo , day , hr , 59 , 59 ) ;  <NL>  }  COM: <s> set from to date range to a year month day hour </s>

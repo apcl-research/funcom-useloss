@@ -1,0 +1,1 @@
+TDAT: public void paint ( graphics g ) {  <NL> for ( int i = 0 ; i < lines . size ( ) ; i + + ) {  <NL> line l = ( line ) lines . get ( i ) ;  <NL> g . set color ( l . color ) ;  <NL> g . draw line ( l . x1 , l . y1 , l . x2 , l . y2 ) ;  <NL>  }  <NL>  }  COM: <s> draw all the saved lines of the scribble in the appropriate colors </s>

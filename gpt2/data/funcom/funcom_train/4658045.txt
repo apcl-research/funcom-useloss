@@ -1,0 +1,1 @@
+TDAT: public void set sub element ( string name , string value ) {  <NL> if ( value = = null ) {  <NL> remove sub element ( name ) ;  <NL>  } else {  <NL> if ( sub elements = = null ) {  <NL> sub elements = new hash map < string , string > ( ) ;  <NL>  }  <NL> sub elements . put ( name , value ) ;  <NL>  }  <NL>  }  COM: <s> sets the value of a sub tag </s>

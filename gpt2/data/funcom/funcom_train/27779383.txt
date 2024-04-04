@@ -1,0 +1,1 @@
+TDAT: public void add ( string source , edge way ) {  <NL> vector v = ( vector ) trans . get ( source ) ;  <NL> if ( v = = null ) {  <NL> v = new vector ( ) ;  <NL> v . add element ( way ) ;  <NL> trans . put ( source , v ) ;  <NL>  } else {  <NL> v . add element ( way ) ;  <NL>  }  <NL>  }  COM: <s> register the given edge which goes from can process the source </s>

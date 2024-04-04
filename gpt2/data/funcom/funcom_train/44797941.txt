@@ -1,0 +1,1 @@
+TDAT: public form get parent form ( final action event evt ) {  <NL> if ( evt . get source ( ) ! = null & & evt . get source ( ) instanceof form )  <NL> return ( form ) evt . get source ( ) ;  <NL> return ( form ) get ancestor of class ( form . class , ( component ) evt . get source ( ) ) ;  <NL>  }  COM: <s> get the parent form where this abstract button is part of </s>

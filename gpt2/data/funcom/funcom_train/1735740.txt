@@ -1,0 +1,1 @@
+TDAT: public void draw alive ( graphics g ) {  <NL> g . set color ( color . black ) ;  <NL> g . fill rect ( this . get position ( ) . get x ( ) * cell grid . cell _ side , this . get position ( ) . get y ( ) * cell grid . cell _ side , cell grid . cell _ side - 1 , cell grid . cell _ side - 1 ) ;  <NL>  }  COM: <s> paints black live cell </s>

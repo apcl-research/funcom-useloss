@@ -1,0 +1,1 @@
+TDAT: public boolean contains ( string ip address ) {  <NL> for ( int i = 0 ; i < ip list . size ( ) ; i + + ) {  <NL> hot ip temp hot ip = ( hot ip ) ip list . get ( i ) ;  <NL> if ( temp hot ip . compare ( ip address ) ) {  <NL> return ( true ) ;  <NL>  }  <NL>  }  <NL> return ( false ) ;  <NL>  }  COM: <s> whether or not the list contains a </s>

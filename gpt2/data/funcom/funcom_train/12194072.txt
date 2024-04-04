@@ -1,0 +1,1 @@
+TDAT: public void test put ( ) {  <NL> tree . put ( " http : / / mat / cars " , " http : / / mat / cars " ) ;  <NL> string s = ( string ) tree . get ( " http : / / mat / cars " ) ;  <NL> assert true ( " put operation did not work " , s . equals ( " http : / / mat / cars " ) ) ;  <NL>  }  COM: <s> test of put method of class com </s>

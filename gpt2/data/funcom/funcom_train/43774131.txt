@@ -1,0 +1,1 @@
+TDAT: public void flush ( ) throws io exception {  <NL> if ( log . is debug enabled ( ) ) {  <NL> log . debug ( " write out page # " + _ page num + " to page offset " + _ page offset ) ;  <NL>  }  <NL>  _ raf . seek ( _ page offset ) ;  <NL>  _ raf . write ( _ page data . array ( ) ) ;  <NL>  }  COM: <s> flushes content of the dirty page into the file </s>

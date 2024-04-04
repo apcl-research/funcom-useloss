@@ -1,0 +1,1 @@
+TDAT: public void pen drag ( pen event p ev ) {  <NL> int dx = p ev . x - po press . x ;  <NL> int dy = p ev . y - po press . y ;  <NL> if ( ( dx ! = 0 ) || ( dy ! = 0 ) ) {  <NL> not pen dragged = false ;  <NL> po press . set ( p ev . x , p ev . y ) ;  <NL> move image ( dx , dy ) ;  <NL> not pen held = true ;  <NL>  }  <NL>  }  COM: <s> pen is dragged on the image </s>

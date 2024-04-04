@@ -1,0 +1,1 @@
+TDAT: public string get roi str ( )  <NL>  { / * set roi * /  <NL> string <NL> name = ( roi name ! = null ) ? roi name : " - " ,  <NL> s r = " roi ( " + name + " , " + roi code + " ) [ " + x1 + " : " + x2 + " , " + y1 + " : " + y2 + " ] " ;  <NL> return ( s r ) ;  <NL>  } / * set roi * /  COM: <s> get roistr get the roi printable string </s>

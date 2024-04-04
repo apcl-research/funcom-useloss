@@ -1,0 +1,1 @@
+TDAT: private void draw x ( canvas canvas , paint paint , point f point ) {  <NL> canvas . draw line ( point . x - size , point . y - size , point . x + size , point . y + size , paint ) ;  <NL> canvas . draw line ( point . x + size , point . y - size , point . x - size , point . y + size , paint ) ;  <NL>  }  COM: <s> the graphical representation of an x point shape </s>

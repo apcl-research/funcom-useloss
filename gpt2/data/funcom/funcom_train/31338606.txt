@@ -1,0 +1,1 @@
+TDAT: public void create page ( ) {  <NL> try {  <NL> f cached page = ( i entity property page ) f page template . create executable extension ( " class " ) ; / / $ non - nls - 1 $  <NL>  } catch ( core exception e ) {  <NL> activator . get default ( ) . get log ( ) . log ( e . get status ( ) ) ;  <NL>  }  <NL>  }  COM: <s> creates the page and stores it into the cache </s>

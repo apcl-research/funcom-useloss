@@ -1,0 +1,1 @@
+TDAT: public void check battle end ( int i ) {  <NL> if ( get alive count ( i ) ! = 0 )  <NL> return ;  <NL> int opponent = ( ( i = = 0 ) ? 1 : 0 ) ;  <NL> if ( get alive count ( opponent ) = = 0 ) {  <NL>  / / it ' s a draw !  <NL> opponent = - 1 ;  <NL>  }  <NL> inform victory ( opponent ) ;  <NL>  }  COM: <s> check if one party has won the battle and inform victory if so </s>

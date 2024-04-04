@@ -1,0 +1,1 @@
+TDAT: public void add headers ( vector headers , boolean top )  <NL>  { for ( int i = 0 ; i < headers . size ( ) ; i + + )  <NL> if ( top ) this . headers . insert element at ( headers . element at ( i ) , i ) ;  <NL> else this . headers . add element ( headers . element at ( i ) ) ;  <NL>  }  COM: <s> adds a vector of headers at the top bottom </s>

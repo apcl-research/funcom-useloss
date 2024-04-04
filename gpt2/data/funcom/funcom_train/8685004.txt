@@ -1,0 +1,1 @@
+TDAT: public boolean depends on ( string other ) {  <NL> project p = get project ( ) ;  <NL> hashtable t = ( p = = null ) ? null : p . get targets ( ) ;  <NL> return ( p ! = null <NL>  & & p . topo sort ( get name ( ) , t , false ) . contains ( t . get ( other ) ) ) ;  <NL>  }  COM: <s> does this target depend on the named target </s>

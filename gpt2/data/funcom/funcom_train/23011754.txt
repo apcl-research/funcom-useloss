@@ -1,0 +1,1 @@
+TDAT: private void print error ( print writer out , string msg ) {  <NL> out . println ( " < html > < title > macservhtml error < / title > < body > " +  <NL>  " < h1 > error in serving page < / h1 > " ) ;  <NL> out . println ( msg ) ;  <NL> out . println ( " < / body > < / html > " ) ;  <NL>  }  COM: <s> prints specified message to the specified writer </s>

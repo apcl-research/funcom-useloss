@@ -1,0 +1,1 @@
+TDAT: public string make n string ( int x , int y ) {  <NL>  <NL> int len , i ;  <NL> string str = " " ;  <NL>  <NL> if ( x = = y ) {  <NL> len = x ;  <NL>  } else {  <NL> len = random ( x , y ) ;  <NL>  }  <NL>  <NL> for ( i = 0 ; i < len ; i + + ) {  <NL> str = str + random ( 0 , 9 ) ;  <NL>  }  <NL>  <NL> return ( str ) ;  <NL>  }  COM: <s> method make nstring </s>

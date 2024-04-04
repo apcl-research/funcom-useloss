@@ -1,0 +1,1 @@
+TDAT: private void initialize ( ) {  <NL> this . set layout ( new card layout ( ) ) ;  <NL> this . set name ( constant . messages . get string ( " ports . options . title " ) ) ;  <NL> this . set size ( 314 , 245 ) ;  <NL> this . add ( get panel port scan ( ) , get panel port scan ( ) . get name ( ) ) ;  <NL>  }  COM: <s> this method initializes this </s>

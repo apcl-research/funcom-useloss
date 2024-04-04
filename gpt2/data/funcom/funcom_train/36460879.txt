@@ -1,0 +1,1 @@
+TDAT: public void scale quantization table ( float [ ] [ ] table ) {  <NL> for ( int i = 0 ; i < block _ size ; i + + )  <NL> for ( int j = 0 ; j < block _ size ; j + + )  <NL> table [ i ] [ j ] = table [ i ] [ j ] * _ scale factor [ i ] * _ scale factor [ j ]  <NL>  / 8 ;  <NL>  }  COM: <s> this method applies the pre scaling that the idct float float </s>

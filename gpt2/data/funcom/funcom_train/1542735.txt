@@ -1,0 +1,1 @@
+TDAT: public void refer to dtd ( string name , string pid , string ref ) {  <NL> if ( dtd name ! = null ) {  <NL> throw new runtime exception ( " refer to dtd cannot be called twice " ) ;  <NL>  }  <NL> dtd name = name ;  <NL> writer . println ( " < ! doctype " + name + " public \ " " + pid + " \ " \ " " + ref + " \ " > " ) ;  <NL>  }  COM: <s> writes a reference to a dtd </s>

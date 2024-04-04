@@ -1,0 +1,1 @@
+TDAT: private entry get entry ( ct compound type < ? > ct ) {  <NL> entry e = entry map . get ( ct . get compound type class ( ) ) ;  <NL> if ( e = = null ) {  <NL> e = new entry ( ct ) ;  <NL> entry map . put ( ct . get compound type class ( ) , e ) ;  <NL>  }  <NL> return e ;  <NL>  }  COM: <s> get the entry which contains the values collected so far for this type </s>

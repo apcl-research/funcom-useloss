@@ -1,0 +1,1 @@
+TDAT: private void set stem width ( int the width ) {  <NL> this . stem width = math . max ( math . min ( the width , max _ stem _ width ) , 1 ) ;  <NL> if ( 0 = = this . stem width % 2 ) this . stem width - - ;  <NL> this . head y = 2 * this . stem width + 4 ;  <NL> this . head x = this . head y / 2 ;  <NL>  }  COM: <s> sets the stem width of the arrow </s>

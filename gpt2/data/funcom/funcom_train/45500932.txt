@@ -1,0 +1,1 @@
+TDAT: public void set ( int time , double value ) {  <NL> time value pair tip = new time value pair ( time , value ) ;  <NL> time value pair floor = mapping . floor ( tip ) ;  <NL> if ( floor ! = null & & floor . equals ( tip ) ) {  <NL> floor . set ( value ) ;  <NL>  } else {  <NL> mapping . add ( tip ) ;  <NL>  }  <NL>  }  COM: <s> maps the integer </s>

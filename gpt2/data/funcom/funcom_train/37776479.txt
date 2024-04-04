@@ -1,0 +1,1 @@
+TDAT: public void add or criteria ( string table name , string name , object value ) {  <NL> criteria entry criteria entry = new criteria entry ( name , relational _ equals , value , false , table name ) ;  <NL> criteria entry . set logic ( criteria entry . logical _ or ) ;  <NL> add criteria ( criteria entry ) ;  <NL>  }  COM: <s> add an or criteria entry </s>

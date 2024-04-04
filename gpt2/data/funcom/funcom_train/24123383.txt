@@ -1,0 +1,1 @@
+TDAT: private r do visit progn ( final i progn progn , final a arg ) {  <NL> r last = null ;  <NL> for ( int i = 0 ; i < progn . get sequence length ( ) ; i + + ) {  <NL> s expression sexp = progn . get sequence element ( i ) ;  <NL> last = sexp . accept object visitor ( this , arg ) ;  <NL>  }  <NL> return last ;  <NL>  }  COM: <s> visits the sequence element of a </s>

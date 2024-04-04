@@ -1,0 +1,1 @@
+TDAT: public void add input data ( string name1 , string description1 , string init value , int text field length1 ) {  <NL> string [ ] values = new string [ 1 ] ;  <NL> values [ 0 ] = init value ;  <NL> add new entry ( name1 , description1 , values , text field length1 , input _ type _ textfield , - 1 ) ;  <NL>  }  COM: <s> set as new entry for a textfield </s>

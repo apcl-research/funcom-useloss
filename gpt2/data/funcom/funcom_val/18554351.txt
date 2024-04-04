@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> if ( ( min = = 0 ) & & ( max = = unbound ) )  <NL> return " { 0 . . * } " ;  <NL> else if ( min = = max )  <NL> return " { " + make string ( min ) + " } " ;  <NL> else <NL> return " { " + make string ( min ) + " . . " + make string ( max ) + " } " ;  <NL>  }  COM: <s> creates a string object designating this cardinality </s>

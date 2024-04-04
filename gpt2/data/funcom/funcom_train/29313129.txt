@@ -1,0 +1,1 @@
+TDAT: public void clear ( roi roi ) {  <NL> assert ( image plus ! = null ) ;  <NL>  <NL> window manager . set temp current image ( image plus ) ;  <NL>  <NL> ij . make rectangle ( ( int ) roi . x , ( int ) roi . y , ( int ) roi . width , ( int ) roi . height ) ;  <NL> ij . run ( " clear " ) ;  <NL>  }  COM: <s> clears the region within roi </s>

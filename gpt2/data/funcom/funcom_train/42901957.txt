@@ -1,0 +1,1 @@
+TDAT: public void decode block ( int channels , byte [ ] in buffer , int [ ] out buffer , int length ) {  <NL> for ( int ch = 0 ; ch < channels ; ch + + ) {  <NL> decode ( ch , channels , in buffer , out buffer , ch , length , channels ) ;  <NL>  }  <NL>  }  COM: <s> outputs interleaved samples into one output buffer </s>

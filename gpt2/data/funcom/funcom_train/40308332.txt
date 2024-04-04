@@ -1,0 +1,1 @@
+TDAT: private boolean node equals ( hypertext node node a , hypertext node node b ) {  <NL> if ( node a . get node title ( ) . equals ( node b . get node title ( ) ) & &  <NL> node a . get node url ( ) . equals ( node b . get node url ( ) ) ) {  <NL> return true ;  <NL>  }  <NL> return false ;  <NL>  }  COM: <s> this method will check if an hypertext node </s>

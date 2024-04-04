@@ -1,0 +1,1 @@
+TDAT: protected void add facet ( string facet name , vector value , boolean fixed )  <NL> throws pmt exception {  <NL>  <NL> if ( ms interpret attr ) {  <NL> ms attr to add . add facet ( facet name , value , fixed ) ;  <NL>  }  <NL> else {  <NL> ms md to add . add facet ( facet name , value , fixed ) ;  <NL>  }  COM: <s> method add facet </s>

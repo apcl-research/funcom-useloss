@@ -1,0 +1,1 @@
+TDAT: private string id ( ) {  <NL> return " " + system . identity hash code ( this ) + " , pk = " +  <NL>  ( string ) ( ( ctx = = null ) ? " nullctx "  <NL>  : ( ( ctx . get primary key ( ) = = null ?  <NL>  " null " : ctx . get primary key ( ) . to string ( ) ) ) ) ;  <NL>  }  COM: <s> returns the primary key identifying this ejbean </s>

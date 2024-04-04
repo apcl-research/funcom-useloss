@@ -1,0 +1,1 @@
+TDAT: public i android target get selected ( ) {  <NL> if ( m table = = null || m table . is disposed ( ) ) {  <NL> return null ;  <NL>  }  <NL>  <NL> for ( table item i : m table . get items ( ) ) {  <NL> if ( i . get checked ( ) ) {  <NL> return ( i android target ) i . get data ( ) ;  <NL>  }  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> returns the selected item </s>

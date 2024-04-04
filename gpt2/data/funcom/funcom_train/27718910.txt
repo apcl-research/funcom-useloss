@@ -1,0 +1,1 @@
+TDAT: public void reshape rel ( int dx , int dy , int dwidth , int dheight ) {  <NL> reshape rel only ( dx , dy , dwidth , dheight ) ;  <NL> fire customizer reshape rel ( new customizer event ( this , dx , dy , dwidth , dheight ) ) ;  <NL>  }  COM: <s> relatively reshapes this customizer </s>

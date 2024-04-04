@@ -1,0 +1,1 @@
+TDAT: public void draw rect ( int x , int y , int width , int height ) {  <NL> if ( width < 1 || height < 1 )  <NL> return ;  <NL> move to ( x , y ) ;  <NL> line to ( x + width - 1 , y ) ;  <NL> line to ( x + width - 1 , y + height - 1 ) ;  <NL> line to ( x , y + height - 1 ) ;  <NL> line to ( x , y ) ;  <NL>  }  COM: <s> draws a rectangle </s>

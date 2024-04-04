@@ -1,0 +1,1 @@
+TDAT: public void move pen to ( int x , int y ) {  <NL> if ( last _ x ! = x || last _ y ! = y ) {  <NL> style change record sc = get style change ( ) ;  <NL> sc . add flags ( style change record . moveto ) ;  <NL> sc . set delta x ( x ) ;  <NL> sc . set delta y ( y ) ;  <NL> last _ x = x ;  <NL> last _ y = y ;  <NL>  }  <NL>  }  COM: <s> moves pen to the specified position </s>

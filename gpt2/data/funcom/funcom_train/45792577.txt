@@ -1,0 +1,1 @@
+TDAT: private list get home link list ( final int current _ page ) {  <NL> string query str = " from org . spirit . bean . impl . bot list entity links as links order by links . id desc " ;  <NL> return this . get entity links dao ( ) . page entity links users ( query str , current _ page , max _ home _ links ) ;  <NL>  }  COM: <s> get the home link list </s>

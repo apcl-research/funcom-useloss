@@ -1,0 +1,1 @@
+TDAT: public string encode ( string url ) {  <NL>  / / " url " is not one of java . net , but one provided by page mixer <NL> url encoded = new url ( url , encoding _ ) ;  <NL> encoded . set path ( encoded . get path ( ) + " ; session id = " + session id _ ) ;  <NL> return encoded . to string ( ) ;  <NL>  }  COM: <s> get encoded url string to include the session id </s>

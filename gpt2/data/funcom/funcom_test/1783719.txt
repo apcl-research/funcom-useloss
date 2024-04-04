@@ -1,0 +1,1 @@
+TDAT: public void test specified file content type ( ) throws exception {  <NL> file file = create file ( " temp . new " , new byte [ ] { 1 , 2 , 3 , 4 , 0x7f , 0x23 } ) ;  <NL> do test file content type ( file , " x - application / new " , " x - application / new : message . name = temp . new & message . lines = 1 " ) ;  <NL>  }  COM: <s> test the file content type for some </s>

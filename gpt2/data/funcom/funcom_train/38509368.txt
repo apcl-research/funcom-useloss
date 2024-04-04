@@ -1,0 +1,1 @@
+TDAT: private void write int ( int x ) throws io exception {  <NL> byte [ ] b = new byte [ 4 ] ;  <NL> for ( int i = 0 ; i < 4 ; + + i ) {  <NL> b [ i ] = ( byte ) ( x & 0xff ) ; / / big endian <NL> x = x > > 8 ;  <NL>  }  <NL> int ts = total size ;  <NL> write ( b , 0 , 4 ) ;  <NL> total size = ts ;  <NL>  }  COM: <s> write an int to page but not as part of the blob </s>

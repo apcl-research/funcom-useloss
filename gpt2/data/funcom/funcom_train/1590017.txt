@@ -1,0 +1,1 @@
+TDAT: public int hash code ( ) {  <NL> int hash = 317351877 ;  <NL> hash + = ( get lower limit ( ) ! = null ? get lower limit ( ) . hash code ( ) : 0 ) ;  <NL> hash + = ( get upper limit ( ) ! = null ? get upper limit ( ) . hash code ( ) : 0 ) ;  <NL> hash + = get base ( ) . hash code ( ) * 7 ;  <NL> return hash ;  <NL>  }  COM: <s> a suitable hashcode for the chronology </s>

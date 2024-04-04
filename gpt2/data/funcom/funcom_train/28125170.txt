@@ -1,0 +1,1 @@
+TDAT: public int compare to ( object o ) {  <NL> time span ts = ( time span ) o ;  <NL> int start = get start date ( ) . compare to ( ts . get start date ( ) ) ;  <NL> if ( start ! = 0 ) {  <NL> return start ;  <NL>  }  <NL>  <NL> return get end date ( ) . compare to ( ts . get end date ( ) ) ;  <NL>  }  COM: <s> compares this time span to another one </s>

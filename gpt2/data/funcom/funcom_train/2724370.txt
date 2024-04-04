@@ -1,0 +1,1 @@
+TDAT: / * private void populate uniprot go table ( file goa file ) throws io exception , sql exception {  <NL>  _ log . debug ( " processing goa file : " + goa file ) ;  <NL> populate uniprot go table ( new buffered reader ( new file reader ( goa file . get canonical path ( ) ) ) , godb , connection ) ;  <NL>  }  COM: <s> populate gen mapps uniprot gene ontology table </s>

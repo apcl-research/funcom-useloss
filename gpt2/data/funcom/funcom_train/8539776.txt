@@ -1,0 +1,1 @@
+TDAT: public void draw substring ( final graphics g , final string str , final int offset , final int len , final int x , final int y , final int anchor ) {  <NL> draw chars ( g , str . to char array ( ) , offset , len , x , y , anchor ) ;  <NL>  }  COM: <s> paints the substring as specified </s>

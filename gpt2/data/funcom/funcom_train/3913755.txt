@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> return " run participation [ user id = " + util . quoted str ( user id ) + " , run id = " + run id + " , active role = " +  <NL>  ( active role = = - 1 ? " < not assigned > " : integer . to string ( active role ) ) + " ] " ;  <NL>  }  COM: <s> returns a string representation of this run participation for presentation </s>

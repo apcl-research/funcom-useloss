@@ -1,0 +1,1 @@
+TDAT: public int decode int ( byte [ ] byte _ int ) {  <NL> int b1 = byte _ int [ 0 ] & 0x ff ;  <NL> int b2 = byte _ int [ 1 ] & 0x ff ;  <NL> int b3 = byte _ int [ 2 ] & 0x ff ;  <NL> int b4 = byte _ int [ 3 ] & 0x ff ;  <NL> return ( ( b1 < < 24 ) + ( b2 < < 16 ) + ( b3 < < 8 ) + ( b4 < < 0 ) ) ;  <NL>  }  COM: <s> decode a code byte code array into an code int code value </s>

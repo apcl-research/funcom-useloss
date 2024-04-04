@@ -1,0 +1,1 @@
+TDAT: private void add ( j panel panel , int internal panel top , int internal panel height ) {  <NL> panel . set visible ( false ) ;  <NL> panel . set location ( ( get width ( ) - panel . get width ( ) ) / 2 , internal panel top <NL>  + ( internal panel height - panel . get height ( ) ) / 2 ) ;  <NL> add ( panel ) ;  <NL>  }  COM: <s> adds a panel to show information </s>

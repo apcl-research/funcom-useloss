@@ -1,0 +1,1 @@
+TDAT: private int get a _ d _ key ( int a size ) throws exception {  <NL> for ( int k = 1 ; k < a size ; k + + ) {  <NL> if ( ( a _ e _ key * k ) % a size = = 1 )  <NL> return k ;  <NL>  } / / for <NL> throw new exception ( " invalid key for affine cipher : invalid a _ e _ key " ) ;  <NL>  }  COM: <s> computes the multiplicative inverse mod a size of a e key </s>

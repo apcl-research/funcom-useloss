@@ -1,0 +1,1 @@
+TDAT: public void add panel ( quick panel panel ) {  <NL> panel . set preferred size ( new dimension ( ( int ) ( get preferred size ( )  <NL>  . get width ( ) - 20 ) , ( int ) panel . get preferred size ( ) . get height ( ) ) ) ;  <NL> add impl ( panel , null , - 1 ) ;  <NL> this . update ui ( ) ;  <NL>  }  COM: <s> add a new </s>

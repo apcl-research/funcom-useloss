@@ -1,0 +1,1 @@
+TDAT: private void compare class arrays ( java class [ ] a1 , java class [ ] a2 ) throws exception {  <NL> assert equals ( a1 . length , a2 . length ) ;  <NL> for ( int i = 0 ; i < a1 . length ; i + + ) {  <NL> compare java classes ( a1 [ i ] , a2 [ i ] ) ;  <NL>  }  <NL>  }  COM: <s> asserts that the two arrays are equal </s>

@@ -1,0 +1,1 @@
+TDAT: public double calculate distance ( coordinate origin , coordinate target ) {  <NL> return ( int ) math . round ( math . sqrt ( math . pow ( get x span ( origin , target ) , 2 . 0 ) + math . pow ( get y span ( origin , target ) , 2 . 0 ) ) ) ;  <NL>  }  COM: <s> returns the shortest distance between one cell and the other assuming a </s>

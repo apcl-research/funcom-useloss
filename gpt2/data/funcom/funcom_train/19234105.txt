@@ -1,0 +1,1 @@
+TDAT: public string get component type label ( ) {  <NL> string name = get class ( ) . get name ( ) ;  <NL> if ( name . starts with ( " tufts . vue . lw " ) )  <NL> name = name . substring ( 12 ) ;  <NL> else if ( name . starts with ( " tufts . vue . " ) )  <NL> name = name . substring ( 10 ) ;  <NL> return name ;  <NL>  }  COM: <s> return a type name for this lwcomponent </s>

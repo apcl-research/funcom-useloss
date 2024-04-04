@@ -1,0 +1,1 @@
+TDAT: protected void simple init game ( ) {  <NL>  / / create the cube <NL> cube = new box ( " a cube " , / / node name <NL> new vector3f ( 0 , 0 , 0 ) , / / cube center <NL> 3 , 3 , 3 ) ; / / cube x , y , z extents <NL>  <NL>  / / attach the cube to the root of the scene graph <NL> root node . attach child ( cube ) ;  <NL>  }  COM: <s> add the cube to the scene graph </s>

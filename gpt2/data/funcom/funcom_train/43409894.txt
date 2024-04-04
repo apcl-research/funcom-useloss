@@ -1,0 +1,1 @@
+TDAT: private void close connection db ( string lg , connection con ) {  <NL> try {  <NL> con . close ( ) ;  <NL>  } catch ( exception e ) {  <NL> logger . log ( level . severe , e . get stack trace ( ) [ 0 ] . get method name ( ) + " * * " + lg + " * * " , e ) ;  <NL>  }  <NL>  }  COM: <s> closes a db connection </s>

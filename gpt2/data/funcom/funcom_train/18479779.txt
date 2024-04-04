@@ -1,0 +1,1 @@
+TDAT: public point3 get cp ( int i , int j ) {  <NL> i = i % control _ pts . size ( ) ;  <NL> if ( i < 0 ) i + = control _ pts . size ( ) ;  <NL> list < point3 > l = control _ pts . get ( i ) ;  <NL> j = j % l . size ( ) ;  <NL> if ( j < 0 ) j + = l . size ( ) ;  <NL> return l . get ( j ) ;  <NL>  }  COM: <s> returns the control point indexed by i and j </s>

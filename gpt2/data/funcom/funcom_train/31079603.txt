@@ -1,0 +1,1 @@
+TDAT: public method instruction set method ( bc method method ) {  <NL> if ( method = = null )  <NL> return set method index ( 0 ) ;  <NL> return set method ( method . get declarer ( ) . get name ( ) , method . get name ( ) ,  <NL> method . get return name ( ) , method . get param names ( ) , false ) ;  <NL>  }  COM: <s> set the method this instruction operates on </s>

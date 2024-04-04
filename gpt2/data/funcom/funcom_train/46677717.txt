@@ -1,0 +1,1 @@
+TDAT: public void fire selection changed ( int row , int col , boolean begin edit ) {  <NL> int v = 0 ;  <NL> if ( begin edit ) { v = 1 ; }  <NL> jc table data event event = new jc table data event ( this , row , col , v , 0 , selection _ changed ) ;  <NL> fire table data event ( event ) ;  <NL>  }  COM: <s> notifies listeners that the selection must be changed </s>

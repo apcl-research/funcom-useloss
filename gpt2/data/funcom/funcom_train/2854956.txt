@@ -1,0 +1,1 @@
+TDAT: public final static int [ ] unmask = {  <NL>  / / 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 <NL> 0 , 1 , 3 , 7 , 15 , 31 , 63 , 127 , 255 , 511 , 1023 , 2047 , 4095 , 8191 , 16383 , 32767 } ;  COM: <s> and with byte to expose index many bits </s>

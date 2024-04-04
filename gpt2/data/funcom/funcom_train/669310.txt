@@ -1,0 +1,1 @@
+TDAT: public int compare date ( date d1 , date d2 ) {  <NL> if ( d1 = = null & & d2 ! = null ) {  <NL> return - 1 ;  <NL>  } else if ( d1 ! = null & & d2 = = null ) {  <NL> return 1 ;  <NL>  } else if ( d1 = = null & & d2 = = null ) {  <NL> return 0 ;  <NL>  } else {  <NL> return d1 . compare to ( d2 ) ;  <NL>  }  <NL>  }  COM: <s> compares two date objects handle null case </s>

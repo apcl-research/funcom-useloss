@@ -1,0 +1,1 @@
+TDAT: public void set bounds ( rectangle r , string text ) {  <NL> edit widget . set text ( text ) ;  <NL> edit widget . set bounds ( r . x , r . y , r . width , r . height ) ;  <NL> edit widget . set visible ( true ) ;  <NL> edit widget . select all ( ) ;  <NL> edit widget . request focus ( ) ;  <NL>  }  COM: <s> positions the overlay </s>

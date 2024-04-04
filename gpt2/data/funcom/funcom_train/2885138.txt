@@ -1,0 +1,1 @@
+TDAT: protected void log one warning ( sql warning warning ) {  <NL> log l = get log ( ) ;  <NL> l . warn ( " warning : " ) ;  <NL> l . warn ( warning . get message ( ) ) ;  <NL> l . warn ( " sql state : " + warning . get sql state ( ) ) ;  <NL> l . warn ( " error code : " + warning . get error code ( ) ) ;  <NL>  }  COM: <s> override point log one warning </s>

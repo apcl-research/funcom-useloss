@@ -1,0 +1,1 @@
+TDAT: public void test parse dependency name ( ) throws exception {  <NL> verify name ( " httpunit - 1 . 5 . 4 . jar " , " httpunit " , " 1 . 5 . 4 " , " jar " ) ;  <NL> verify name ( " rhino - 1 . 5r4 - rc3 . jar " , " rhino " , " 1 . 5r4 - rc3 " , " jar " ) ;  <NL>  }  COM: <s> verifies that we can parse dependency names with dashes in their versions </s>

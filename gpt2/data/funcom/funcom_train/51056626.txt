@@ -1,0 +1,1 @@
+TDAT: private void read buffered mouse ( ) {  <NL>  / / iterate all events , use the last button down <NL> while ( mouse . next ( ) ) {  <NL> if ( mouse . get event button ( ) ! = - 1 & & mouse . get event button state ( ) ) {  <NL> last button = mouse . get event button ( ) ;  <NL>  }  <NL>  }  <NL>  <NL> update state ( ) ;  <NL>  }  COM: <s> reads a mouse in buffered mode </s>

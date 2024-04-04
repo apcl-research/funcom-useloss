@@ -1,0 +1,1 @@
+TDAT: private void proc db user name ( string line , string use line , db db ) throws exception {  <NL> int start = line . index of ( " < username > " ) + 10 ;  <NL> int end = line . index of ( " < / username > " ) ;  <NL> if ( ! conn loaded ) {  <NL> db . set user name ( use line . substring ( start , end ) ) ;  <NL>  }  <NL>  }  COM: <s> retrieves the user name of data set </s>

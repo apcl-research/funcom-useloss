@@ -1,0 +1,1 @@
+TDAT: public double get value ( ) {  <NL> double value = 0 . 0 ;  <NL> for ( int i = 0 ; i < i assignment . length ; i + + )  <NL> if ( i assignment [ i ] ! = null )  <NL> value + = get weight ( i assignment [ i ] , get distance conflicts ( i ) , get time overlapping conflicts ( i ) ) ;  <NL> return value ;  <NL>  }  COM: <s> value of the current schedule </s>

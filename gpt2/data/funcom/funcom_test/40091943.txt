@@ -1,0 +1,1 @@
+TDAT: public void push ( string tag name , string schema , properties attributes ) {  <NL> xml utils . xml open ( m _ buffer , m _ current indent , tag name + schema , attributes ) ;  <NL> m _ tag stack . push ( new tag ( m _ current indent , tag name ) ) ;  <NL> m _ current indent + = default _ indent _ increment ;  <NL>  }  COM: <s> push a new tag </s>

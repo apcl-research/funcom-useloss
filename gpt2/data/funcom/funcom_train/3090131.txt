@@ -1,0 +1,1 @@
+TDAT: private string strip name ( string str , string bounder , string bounder2 ) {  <NL> println ( " strip name l : " + bounder + " , r : " + bounder2 + " , p : " + str , config . output _ level _ max ) ;  <NL> return str . substring ( str . index of ( bounder ) + 1 , str . last index of ( bounder2 ) ) ;  <NL>  }  COM: <s> get substring from string that is embraced by </s>

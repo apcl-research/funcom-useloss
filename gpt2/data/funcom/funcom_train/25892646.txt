@@ -1,0 +1,1 @@
+TDAT: private void add timer ( long tm , continuation k ) {  <NL> linked list < continuation > l = timers . get ( tm ) ;  <NL> if ( l = = null ) {  <NL> l = new linked list < continuation > ( ) ;  <NL> timers . put ( tm , l ) ;  <NL>  }  <NL> l . add ( k ) ;  <NL> rev timers . put ( k , l ) ;  <NL>  }  COM: <s> registers a timeout for a continuation </s>

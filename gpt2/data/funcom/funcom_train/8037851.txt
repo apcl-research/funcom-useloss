@@ -1,0 +1,1 @@
+TDAT: public void on module load ( ) {  <NL> new topic list loader ( topic list ) . load ( " topics . xml " ) ;  <NL> root panel . get ( " topic - list " ) . add ( topic list ) ;  <NL> root panel . get ( " quote " ) . add ( quote html ) ;  <NL> root panel . get ( " quote - buttons " ) . add ( buttons ) ;  <NL>  }  COM: <s> this is the entry point method </s>

@@ -1,0 +1,1 @@
+TDAT: @ test public void test calc angle3 ( ) {  <NL> vector3d b = new vector3d ( 4 . 5 , 3 . 1 , 1 . 7 ) ;  <NL> double angle = b . angle ( b ) * 180 . 0 / math . pi ;  <NL> assert . assert equals ( 0 . 0 , angle , 0 . 001 ) ;  <NL>  }  COM: <s> this method tests the calculation of the angle between one axis </s>

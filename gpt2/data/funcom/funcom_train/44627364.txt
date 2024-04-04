@@ -1,0 +1,1 @@
+TDAT: public void test initializer3 ( ) {  <NL> help tcf ( " a . java " , " public class a { \n int i ; static int j ; / / @ ensures i = = 0 ; static _ initializer \n } "  <NL>  , " / a . java : 2 : non - static variable i cannot be referenced from a static context " , 35 <NL>  ) ;  <NL>  }  COM: <s> tests that variable references in a static initializer must be static </s>

@@ -1,0 +1,1 @@
+TDAT: public long to long ( inet address addr ) {  <NL> byte [ ] baddr = addr . get address ( ) ;  <NL>  <NL> return ( ( ( ( long ) baddr [ 0 ] & 0xff l ) < < 24 ) | ( ( ( long ) baddr [ 1 ] & 0xff l ) < < 16 ) | ( ( ( long ) baddr [ 2 ] & 0xff l ) < < 8 ) | ( ( long ) baddr [ 3 ] & 0xff l ) ) ;  <NL>  }  COM: <s> this method is used to convert the passed ip address to a </s>

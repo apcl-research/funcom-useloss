@@ -1,0 +1,1 @@
+TDAT: public void print version ( ) throws io exception {  <NL> println ( app _ name + " , " + version info . get version ( ) + " version . \n "  <NL>  + " copyright ( c ) 2008 by udanax , "  <NL>  + " licensed to apache software foundation . \n "  <NL>  + " type ' help ; ' for usage . \n " ) ;  <NL>  }  COM: <s> print out the program version </s>

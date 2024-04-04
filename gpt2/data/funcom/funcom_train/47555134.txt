@@ -1,0 +1,1 @@
+TDAT: public node visit children ( node visitor v ) {  <NL> receiver target = ( receiver ) visit child ( this . target , v ) ;  <NL> id name = ( id ) visit child ( this . name , v ) ;  <NL> list < expr > arguments = visit list ( this . arguments , v ) ;  <NL> return reconstruct ( target , name , arguments ) ;  <NL>  }  COM: <s> visit the children of the call </s>

@@ -1,0 +1,1 @@
+TDAT: public object get key ( transaction t ) {  <NL> date date = t . get date ( ) ;  <NL> if ( date = = null ) return i18n . get string ( " - - _ non _ defini _ - - " ) ;  <NL> period p = new period ( date , kind , period . ind _ current , true ) ;  <NL> return p . to string ( ) ;  <NL>  } ;  COM: <s> a key is a label to string </s>

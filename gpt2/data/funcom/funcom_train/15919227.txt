@@ -1,0 +1,1 @@
+TDAT: public x10call create instance call ( position pos , expr receiver , name name , context context , expr . . . args ) {  <NL> method instance mi = create method instance ( receiver , name , context , args ) ;  <NL> if ( null = = mi ) return null ;  <NL> return create instance call ( pos , receiver , mi , args ) ;  <NL>  }  COM: <s> create a call to an instance method </s>

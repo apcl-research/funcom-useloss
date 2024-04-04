@@ -1,0 +1,1 @@
+TDAT: public int count systems ( ) throws sql exception {  <NL> int ret = 0 ;  <NL> statement stmt = con . create statement ( ) ;  <NL> result set rs = stmt . execute query ( " select count ( * ) from system " ) ;  <NL> if ( rs . first ( ) ) ret = rs . get int ( 1 ) ;  <NL> stmt . close ( ) ;  <NL> return ret ;  <NL>  }  COM: <s> returns how many systems are in the database </s>

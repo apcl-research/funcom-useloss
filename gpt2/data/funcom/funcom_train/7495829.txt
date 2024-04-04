@@ -1,0 +1,1 @@
+TDAT: public void set end rule ( int month , int day of week in month , int day of week , int time ) {  <NL> get stz info ( ) . set end ( month , day of week in month , day of week , time , - 1 , false ) ;  <NL> set end rule ( month , day of week in month , day of week , time , wall _ time ) ;  <NL>  }  COM: <s> sets the daylight savings ending rule </s>

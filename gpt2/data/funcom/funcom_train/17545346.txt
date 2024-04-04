@@ -1,0 +1,1 @@
+TDAT: public void test get build xml ( ) throws exception {  <NL> file object result = sessions utils . get build xml ( build xml d obj ) ;  <NL>  <NL> assert not null ( " null build . xml file object " , result ) ;  <NL> assert equals ( " wrong file found " , " build . xml " , result . get name ext ( ) ) ;  <NL>  <NL>  }  COM: <s> test of get build xml method of class pl </s>

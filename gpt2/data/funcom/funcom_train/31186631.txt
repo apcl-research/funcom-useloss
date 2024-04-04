@@ -1,0 +1,1 @@
+TDAT: public void replace ( path edit item old item , path edit item new item ) {  <NL> int i = path list . index of ( old item ) ;  <NL> if ( i < 0 ) path list . add ( new item ) ;  <NL> else {  <NL> path list . add ( i , new item ) ;  <NL> path list . remove ( old item ) ;  <NL>  }  <NL>  }  COM: <s> replaces the specified item with the new item </s>

@@ -1,0 +1,1 @@
+TDAT: public boolean is legal ( ) {  <NL>  / / a step is legal if it ' s static movement type is not illegal ,  <NL>  / / and it is either a valid end position , or not an end position .  <NL> return ( movement type ! = i entity movement type . move _ illegal <NL>  & & ( is legal end pos ( ) || ! is end pos ) ) ;  <NL>  }  COM: <s> determine if this is a legal step </s>

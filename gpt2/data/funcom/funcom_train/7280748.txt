@@ -1,0 +1,1 @@
+TDAT: public void test value contains illegal null ( ) {  <NL> byte [ ] bytes = new byte [ 2 ] ;  <NL> bytes [ 0 ] = ( byte ) ' s ' ;  <NL> bytes [ 1 ] = ( byte ) 0x0 ;  <NL> string has a null = new string ( bytes ) ;  <NL>  <NL> ggep temp = new ggep ( true ) ;  <NL> temp . put ( " whatever " , has a null ) ;  <NL>  }  COM: <s> null bytes are always allowed now </s>

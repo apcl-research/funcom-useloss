@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> if ( ( get option ( ) . get suboption names ( ) = = null ) || <NL>  ( get option ( ) . get suboption names ( ) . size ( ) = = 0 ) ) {  <NL> return get option ( ) . get name ( ) + " = " + get option ( ) . get value ( ) ;  <NL>  } else {  <NL> return get option ( ) . get name ( ) ;  <NL>  }  <NL>  }  COM: <s> get the string </s>

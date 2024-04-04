@@ -1,0 +1,1 @@
+TDAT: public void reset ( ) {  <NL> if ( ! uses bv ) {  <NL> out . put l ( this , reset state ) ;  <NL> nout = ( reset state < < ( 64 - width ) ) > > 64 - width ;  <NL>  }  <NL> else {  <NL> out . put bv ( this , reset state bv ) ;  <NL> nout bv = new bv ( width , reset state bv , sign _ ext ) ;  <NL>  }  <NL>  }  COM: <s> resets the output to the user provided reset state </s>

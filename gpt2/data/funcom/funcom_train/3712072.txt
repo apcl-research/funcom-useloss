@@ -1,0 +1,1 @@
+TDAT: public double pow10 ( double x ) {  <NL> if ( ! is _ log10 ) {  <NL> if ( x < - 1 . 0 ) {  <NL> return - math . pow ( 10 . 0 , - x ) ;  <NL>  }  <NL> if ( x < = 1 . 0 ) {  <NL> return x * 10 . 0 ;  <NL>  }  <NL> return math . pow ( 10 . 0 , x ) ;  <NL>  } else {  <NL> return math . pow ( 10 . 0 , x ) ;  <NL>  }  <NL>  }  COM: <s> inverse logarithm function </s>

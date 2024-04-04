@@ -1,0 +1,1 @@
+TDAT: public char sequence normalize ( char sequence s ) {  <NL> if ( s instanceof compressed string ) return ( s ) ;  <NL> if ( bitsperchar = = 8 ) return ( s ) ;  <NL> if ( bitsperchar = = 7 ) return ( char . normalize ( s . to string ( ) ) ) ;  <NL> return ( char . normalize ( s . to string ( ) ) . to upper case ( ) ) ;  <NL>  }  COM: <s> normalizes see char </s>

@@ -1,0 +1,1 @@
+TDAT: public void set topology parameters ( double max x _ , double max y _ , double min x _ , double min y _ ) {  <NL> max x = max x _ ; max y = max y _ ; max z = 10 . 0 ;  <NL> min x = min x _ ; min y = min y _ ; min z = 0 . 0 ;  <NL> d x = 1 . 0 ; d y = 1 . 0 ; d z = 1 . 0 ;  <NL>  }  COM: <s> sets the dimensions of the terrain of the sensor network </s>

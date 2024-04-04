@@ -1,0 +1,1 @@
+TDAT: public void assert consistency ( ) {  <NL> super . assert consistency ( ) ;  <NL> assert equal sequence ( " sub set iterator not equal to set iterator . " ,  <NL>  ( ( sorted set ) get test object ( ) ) . iterator ( ) ,  <NL> new filter iterator < e > ( parent . iterator ( ) , sub set filter ) ) ;  <NL>  }  COM: <s> checks consistency of all reading sorted set methods </s>

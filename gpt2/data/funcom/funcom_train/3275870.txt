@@ -1,0 +1,1 @@
+TDAT: public boolean equals ( object o ) {  <NL> if ( o = = this ) return true ;  <NL> if ( ( o = = null ) || ( o . get class ( ) ! = this . get class ( ) ) )  <NL> return false ;  <NL>  <NL> chess move m = ( chess move ) o ;  <NL>  <NL> return ( orig . equals ( m . orig ) & & dest . equals ( m . dest ) ) ;  <NL>  }  COM: <s> compares the coordinate data which is still valid </s>

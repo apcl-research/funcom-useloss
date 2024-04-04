@@ -1,0 +1,1 @@
+TDAT: public void set position ( vector3f position ) {  <NL>  <NL>  / / odejava . ode log . debug ( " d geom set position ( geom id : " + geom id + " , x , z y ) " ) ;  <NL> ode . d geom set position ( geom id , position . x , position . y , position . z ) ;  <NL>  }  COM: <s> sets the position of this transformable </s>

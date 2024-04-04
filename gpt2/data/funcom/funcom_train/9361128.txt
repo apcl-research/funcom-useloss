@@ -1,0 +1,1 @@
+TDAT: public void scale ( float scale ) {  <NL> if ( scale ! = 1 . 0f ) {  <NL> left = ( int ) ( left * scale + 0 . 5f ) ;  <NL> top = ( int ) ( top * scale + 0 . 5f ) ;  <NL> right = ( int ) ( right * scale + 0 . 5f ) ;  <NL> bottom = ( int ) ( bottom * scale + 0 . 5f ) ;  <NL>  }  <NL>  }  COM: <s> scales up the rect by the given scale </s>

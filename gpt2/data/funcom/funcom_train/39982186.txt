@@ -1,0 +1,1 @@
+TDAT: public string read tl string ( ) throws io exception {  <NL> short len = read tl short ( ) ;  <NL> long p = get file pointer ( ) ;  <NL>  <NL> byte [ ] b = new byte [ len * 2 ] ; / / allow for nil bytes <NL> read ( b , 0 , b . length ) ;  <NL> return new string ( b , encoding ) ;  <NL>  }  COM: <s> reads a tl string </s>

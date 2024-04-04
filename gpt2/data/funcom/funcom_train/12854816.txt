@@ -1,0 +1,1 @@
+TDAT: private j text field get format string ( ) {  <NL> if ( format string = = null ) {  <NL> format string = new j text field ( ) ;  <NL> format string . set bounds ( new java . awt . rectangle ( 15 , 135 , 166 , 21 ) ) ;  <NL> format string . set text ( " dd . mm . yyyy " ) ;  <NL>  }  <NL> return format string ;  <NL>  }  COM: <s> this method initializes format string </s>

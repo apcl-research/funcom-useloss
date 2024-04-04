@@ -1,0 +1,1 @@
+TDAT: public path find ( string from , object [ ] from _ flags , string to , object [ ] to _ flags ) {  <NL> path c = ( path ) find min ( new ini path ( from , from _ flags ) , new want output ( to , to _ flags , 60 ) ) ;  <NL>  / / store in cache ?  <NL> return c ;  <NL>  }  COM: <s> find the cheapest </s>

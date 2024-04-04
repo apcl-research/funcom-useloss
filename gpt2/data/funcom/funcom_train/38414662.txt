@@ -1,0 +1,1 @@
+TDAT: public void ask for answer ( string message , player from player , bot player to bot ) {  <NL> debug . signal ( debug . notice , null , " bot asked for an answer for " + from player . get primary key ( ) ) ;  <NL> to bot . send chat answer ( " i can repeat that : < i > " + message + " < / i > " ) ;  <NL>  }  COM: <s> player from player sent a message to to bot </s>

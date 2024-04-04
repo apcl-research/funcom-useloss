@@ -1,0 +1,1 @@
+TDAT: protected void set p5 _ ( int value ) {  <NL> if ( ( port dir & 0x20 ) ! = 0 ) { / / output port ?  <NL> if ( ( ( port data out & value ) ^ value ) ! = 0 ) remember| = 0x20 ;  <NL>  }  <NL> if ( value ! = 0 ) port data out| = value ;  <NL> else port data out & = ~ 0x20 ;  <NL>  }  COM: <s> set the value of output port 5 by internal operation </s>

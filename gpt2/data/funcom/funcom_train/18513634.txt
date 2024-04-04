@@ -1,0 +1,1 @@
+TDAT: public void distribute thumbs ( double min , double max ) {  <NL> double step = math . abs ( max - min ) / ( get thumb num ( ) + 1 . 0 ) ;  <NL>  <NL> for ( int i = 0 ; i < get thumb num ( ) ; i + + ) {  <NL> set value at ( min + step * ( i + 1 . 0 ) , i ) ;  <NL>  }  <NL> fire state changed ( ) ;  <NL>  }  COM: <s> evenly distributes thumbs in the slider </s>

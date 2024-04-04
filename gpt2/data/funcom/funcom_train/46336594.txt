@@ -1,0 +1,1 @@
+TDAT: public void test opb _ field ( ) {  <NL> system . out . println ( " opb _ field " ) ;  <NL>  <NL> instance . opb _ field ( " k _ y " ) ;  <NL> assert equals ( " ky " , instance . get mapped to ( ) ) ;  <NL> assert equals ( " k y " , instance . get mapped to property ( ) ) ;  <NL>  }  COM: <s> test of opb field method of class plsql call parameter </s>

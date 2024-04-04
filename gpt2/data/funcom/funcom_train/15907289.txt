@@ -1,0 +1,1 @@
+TDAT: public void replace exception ( int rank , uml type spec t ) throws runtime exception {  <NL> uml com . send _ cmd ( identifier _ ( ) , on instance cmd . replace exception cmd , rank , t ) ;  <NL> uml com . check ( ) ;  <NL>  <NL> if ( defined _ ( ) )  <NL>  _ exceptions [ rank ] = t . clone _ it ( ) ;  <NL>  <NL>  }  COM: <s> replaces the exception at the given rank 0 </s>

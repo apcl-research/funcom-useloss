@@ -1,0 +1,1 @@
+TDAT: public void close ( ) {  <NL> if ( this . server ! = null ) { this . server . close ( ) ; this . server = null ; }  <NL> if ( this . dbm ! = null ) { this . dbm . close ( ) ; this . dbm = null ; }  <NL> if ( this . servercon ! = null ) { this . servercon . close ( ) ; this . servercon = null ; }  <NL>  }  COM: <s> close everything one step at a time </s>

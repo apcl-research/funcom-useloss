@@ -1,0 +1,1 @@
+TDAT: public void show ( search results res , j component comp , int x , int y ) {  <NL> result = res ;  <NL> if ( comp instanceof graph ) {  <NL> graph = ( graph ) comp ;  <NL>  } else {  <NL> graph = null ;  <NL>  }  <NL> setup ( res ) ;  <NL> menu . show ( comp , x , y ) ;  <NL>  }  COM: <s> shows the given result to the user </s>

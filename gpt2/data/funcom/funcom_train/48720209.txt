@@ -1,0 +1,1 @@
+TDAT: public string next ( int n ) throws json exception {  <NL> int i = this . position ;  <NL> int j = i + n ;  <NL> if ( j > = this . source . length ( ) ) {  <NL> throw syntax error ( " substring bounds error " ) ;  <NL>  }  <NL> this . position + = n ;  <NL> return this . source . substring ( i , j ) ;  <NL>  }  COM: <s> get the next n characters </s>

@@ -1,0 +1,1 @@
+TDAT: public void test update ( ) {  <NL> integer id = new integer ( 1 ) ;  <NL> tbbs ad tbbs ad = ad service . load ( id ) ;  <NL> tbbs ad . set title ( " 更新 " ) ;  <NL> ad service . update ( tbbs ad ) ; / / 更新 <NL> tbbs ad result = ad service . load ( id ) ;  <NL> assert equals ( " 更新 " , result . get title ( ) ) ;  <NL>  }  COM: <s> run the void update tbbs ad method test </s>

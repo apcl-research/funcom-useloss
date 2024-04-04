@@ -1,0 +1,1 @@
+TDAT: public void set tile at ( int tx , int ty , tile ti ) {  <NL> if ( bounds . contains ( tx , ty ) & & can edit ( ) ) {  <NL> if ( ti ! = null & & map [ ty - bounds . y ] [ tx - bounds . x ] ! = ti ) {  <NL> map [ ty - bounds . y ] [ tx - bounds . x ] = ti ;  <NL> ti . set useed count ( 1 ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> sets the tile at the specified position </s>

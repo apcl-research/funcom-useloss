@@ -1,0 +1,1 @@
+TDAT: protected void close list ( ) {  <NL> int level = list type stack . size ( ) ;  <NL> string type = ( string ) list type stack . pop ( ) ;  <NL> if ( type . equals ( " ul " ) )  <NL> interpreter . end ul ( level ) ;  <NL> else if ( type . equals ( " ol " ) )  <NL> interpreter . end ol ( level ) ;  <NL>  }  COM: <s> brain dead version no checks at all </s>

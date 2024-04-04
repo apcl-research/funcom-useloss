@@ -1,0 +1,1 @@
+TDAT: public void select objects ( jd object [ ] objs ) {  <NL> if ( objs . length > 0 & & mode ! = mode _ play & & sel objects . size ( ) = = 0 ) {  <NL> for ( int i = 0 ; i < objs . length ; i + + )  <NL> sel objects . add ( objs [ i ] ) ;  <NL> repaint ( build repaint rect ( sel objects ) ) ;  <NL>  }  <NL>  }  COM: <s> selects all specified objects </s>

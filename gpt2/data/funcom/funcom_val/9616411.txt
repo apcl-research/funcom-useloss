@@ -1,0 +1,1 @@
+TDAT: public void gdc set font ( double cex , double ps , double lineheight , int fontface , string fontfamily ) {  <NL> if ( c = = null )  <NL> return ;  <NL> gd font f = new gd font ( cex , ps , lineheight , fontface , fontfamily ) ;  <NL> c . add ( f ) ;  <NL> c . get g state ( ) . f = f . get font ( ) ;  <NL>  }  COM: <s> set current font </s>

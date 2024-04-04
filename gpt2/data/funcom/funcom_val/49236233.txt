@@ -1,0 +1,1 @@
+TDAT: public void divide with shift ( int p scalar , int p shift count ) {  <NL> x = ( int ) ( ( ( long ) x < < math utils . shift _ count * p shift count ) / p scalar ) ;  <NL> y = ( int ) ( ( ( long ) y < < math utils . shift _ count * p shift count ) / p scalar ) ;  <NL>  }  COM: <s> performs more shifts before division </s>

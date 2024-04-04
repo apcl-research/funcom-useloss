@@ -1,0 +1,1 @@
+TDAT: public boolean is connected ( string ip , int port ) {  <NL> for ( int i = 0 ; i < controllers . size ( ) ; i + + ) {  <NL> if ( controllers . get ( i ) . get ip ( ) . equals ( ip ) & & controllers . get ( i ) . get port ( ) = = port ) {  <NL> return true ;  <NL>  }  <NL>  }  <NL>  <NL> return false ;  <NL>  }  COM: <s> check if were connected to the given ip and port </s>

@@ -1,0 +1,1 @@
+TDAT: public boolean visit ( super method invocation node ) {  <NL> if ( node = = null )  <NL> return true ;  <NL> i log . log ( i log . log _ ast , 4 , " visiting super method invocation : " + node . to string ( ) ) ;  <NL> treat invocation ( node . resolve method binding ( ) , node . arguments ( ) ) ;  <NL> return true ;  <NL>  }  COM: <s> visiting supermethod invocations </s>

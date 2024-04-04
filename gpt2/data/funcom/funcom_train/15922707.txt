@@ -1,0 +1,1 @@
+TDAT: public type find one ( q name name ) throws semantic exception {  <NL> list < type > res = find ( name ) ;  <NL> if ( res = = null || res . size ( ) ! = 1 )  <NL> throw new internal compiler error ( " unexpected result when looking up " + name + " : " + res ) ;  <NL> return res . get ( 0 ) ;  <NL>  }  COM: <s> find a single type by name </s>

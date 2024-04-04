@@ -1,0 +1,1 @@
+TDAT: public void unbind ( int i ) {  <NL> for ( ; i < properties . length - 1 ; i + + ) {  <NL> if ( objects [ i ] = = null ) {  <NL> return ;  <NL>  }  <NL> objects [ i ] . remove property change listener ( properties [ i ] . get name ( ) , this ) ;  <NL> objects [ i ] = null ;  <NL>  }  <NL>  }  COM: <s> unbinds binder helper from intermediate beans starting from bean at </s>

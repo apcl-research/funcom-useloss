@@ -1,0 +1,1 @@
+TDAT: private string random string ( int lo , int hi ) {  <NL> int n = rand ( lo , hi ) ;  <NL> byte b [ ] = new byte [ n ] ;  <NL> for ( int i = 0 ; i < n ; i + + )  <NL> b [ i ] = ( byte ) rand ( ' a ' , ' z ' ) ;  <NL> return new string ( b , 0 ) ;  <NL>  }  COM: <s> generates a random alphabetical string of variable length </s>

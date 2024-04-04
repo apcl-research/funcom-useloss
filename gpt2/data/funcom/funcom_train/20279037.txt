@@ -1,0 +1,1 @@
+TDAT: public void test no remove prototype definitions outside global scope1 ( ) {  <NL> test same ( " function f ( arg ) { } " +  <NL>  " " +  <NL>  " ( function ( ) { " +  <NL>  " var o = { } ; " +  <NL>  " o . prototype = ' foo ' ; " +  <NL>  " f ( o ) ; " +  <NL>  " } ) ( ) " ) ;  <NL>  }  COM: <s> do not prototype property of variables that are not being </s>

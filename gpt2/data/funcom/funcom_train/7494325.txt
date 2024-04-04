@@ -1,0 +1,1 @@
+TDAT: public void delete pdf file ( int hash ) {  <NL> db . delete ( pdf _ file _ table , hash _ id + " = " + hash , null ) ;  <NL> db . delete ( page _ table , hash _ id + " = " + hash , null ) ;  <NL> db . delete ( sentence _ table , hash _ id + " = " + hash , null ) ;  <NL>  }  COM: <s> deletes that page </s>

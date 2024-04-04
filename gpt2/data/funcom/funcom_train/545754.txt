@@ -1,0 +1,1 @@
+TDAT: public void translate ( double x , double y ) {  <NL> for ( int i = 0 ; i < summit . length ; i + + ) {  <NL> summit [ i ] . x + = x ;  <NL> summit [ i ] . y + = y ;  <NL>  }  <NL> origin . x + = x ;  <NL> origin . y + = y ;  <NL> update shape ( ) ;  <NL>  }  COM: <s> translate this object </s>

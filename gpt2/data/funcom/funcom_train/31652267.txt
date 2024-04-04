@@ -1,0 +1,1 @@
+TDAT: private boolean is sub comp delim ( int character ) {  <NL>  / / sm . warning ( properties . get ( hl7data source . prop _ comp _ delim ) . to string ( ) ) ;  <NL> if ( character = = properties . get ( hl7data source . prop _ subcomp _ delim ) . to string ( ) . char at ( 0 ) ) return true ;  <NL> return false ;  <NL>  }  COM: <s> check for sub component delimiter </s>

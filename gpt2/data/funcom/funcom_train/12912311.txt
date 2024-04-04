@@ -1,0 +1,1 @@
+TDAT: protected int add radio buttons ( list < xml node > children , j panel rbp , button group bg ) {  <NL> int count = 0 ;  <NL> for ( xml node node : children ) {  <NL> if ( node instanceof element type ) {  <NL> count + = add radio button ( ( element type ) node , rbp , bg ) ;  <NL>  }  <NL>  }  <NL> return count ;  <NL>  }  COM: <s> add radio buttons to the display </s>

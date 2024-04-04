@@ -1,0 +1,1 @@
+TDAT: public void debug ( ) {  <NL> system . out . println ( " \t name = " + name + " score = " + get score ( ) + " score speaker = " + score speaker + " score cluster = " + score cluster + " produit = " + get score ( ) * get score ( ) + " number of score cluster = " + number of score cluster + " | " ) ;  <NL>  }  COM: <s> print debug information </s>

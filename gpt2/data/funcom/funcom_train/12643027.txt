@@ -1,0 +1,1 @@
+TDAT: public void write chars ( string s ) throws io exception {  <NL> int len = s . length ( ) ;  <NL> for ( int i = 0 ; i < len ; i + + ) {  <NL> int v = s . char at ( i ) ;  <NL> write ( ( v > > > 8 ) & 0x ff ) ;  <NL> write ( ( v > > > 0 ) & 0x ff ) ;  <NL>  }  <NL>  }  COM: <s> writes a string to the underlying output stream as a sequence of </s>

@@ -1,0 +1,1 @@
+TDAT: private void wait response ( ) throws interrupted exception {  <NL> log . log ( level . info , " talking " , " wait response " , " start waiting " ) ;  <NL> wait ( ) ;  <NL> log . log ( level . info , " talking " , " wait response " , " end waiting " ) ;  <NL>  }  COM: <s> to wait for a response to send </s>

@@ -1,0 +1,1 @@
+TDAT: public void set width ( int row , int column , string width ) {  <NL>  / / give the subclass a chance to prepare the cell .  <NL> check cell ( row , column ) ;  <NL> dom . set element property ( get cell element ( body elem , row , column ) , " width " ,  <NL> width ) ;  <NL>  }  COM: <s> sets the width of the specified cell </s>

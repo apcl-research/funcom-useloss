@@ -1,0 +1,1 @@
+TDAT: public void put ( http session session , object value , map < string , object > expand context ) {  <NL> attribute accessor aa = new attribute accessor ( name , expand context , this . attribute name , this . fma , this . needs expand ) ;  <NL> aa . put ( session , value ) ;  <NL>  }  COM: <s> based on name put in http session or from list in http session </s>

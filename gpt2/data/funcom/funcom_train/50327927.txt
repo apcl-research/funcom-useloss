@@ -1,0 +1,1 @@
+TDAT: public void set byte ( int val , int n ) {  <NL> if ( ( n > = 0 ) & & ( n < = 7 ) ) {  <NL> int index = n * 2 + ( is extended ( ) ? 11 : 6 ) ;  <NL> set hex digit ( ( val / 16 ) & 0x f , index + + ) ;  <NL> set hex digit ( val & 0x f , index ) ;  <NL>  }  <NL>  }  COM: <s> set a byte as two ascii hex digits </s>

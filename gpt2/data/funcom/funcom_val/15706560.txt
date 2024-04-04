@@ -1,0 +1,1 @@
+TDAT: public boolean has next ( ) {  <NL> int nextk = itnext . get ( k ) ;  <NL> if ( ! did circle arnound the end ) {  <NL> return ( ( nextk > k )  <NL> || ( ( nextk > - 1 ) & & ( nextk < end marker ) ) ) ;  <NL>  } else {  <NL> return ( ( nextk > k ) & & ( nextk < end marker ) ) ;  <NL>  }  <NL>  }  COM: <s> checks if there is more elements </s>

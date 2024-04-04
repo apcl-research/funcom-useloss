@@ -1,0 +1,1 @@
+TDAT: public void add option ( string value _ , string title _ , string onpick _ ) {  <NL> if ( current select ! = null ) {  <NL> current select . add option ( value _ , title _ , onpick _ ) ;  <NL>  } else {  <NL> system . err . println ( " < option > outside of < select > ? " ) ;  <NL>  }  <NL>  }  COM: <s> add the option onto the current select element </s>

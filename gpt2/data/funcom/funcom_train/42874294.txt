@@ -1,0 +1,1 @@
+TDAT: public int find end row index ( int row ) {  <NL> int end row ;  <NL>  <NL> if ( row = = 0 ) {  <NL> end row = get page size ( ) - 1 ;  <NL>  } else {  <NL> end row = ( read short ( ( ( get row count offset ( ) + 2 ) + ( row - 1 ) * 2 ) ) & 0x0fff ) - 1 ;  <NL>  }  <NL> return end row ;  <NL>  }  COM: <s> search the previous row start values for the first non deleted </s>

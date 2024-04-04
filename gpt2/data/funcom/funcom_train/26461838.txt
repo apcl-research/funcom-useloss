@@ -1,0 +1,1 @@
+TDAT: private string get ext ( string user agent ) {  <NL> iterator i = map . key set ( ) . iterator ( ) ;  <NL> while ( i . has next ( ) ) {  <NL> string curr = ( string ) i . next ( ) ;  <NL> if ( user agent . index of ( curr ) > - 1 ) return ( string ) map . get ( curr ) ;  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> get extention for user agent </s>

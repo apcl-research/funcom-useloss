@@ -1,0 +1,1 @@
+TDAT: protected void cancel login ( ) {  <NL> progress message label . set text ( " cancelling login , please wait . . . . " ) ; / / todo i18n <NL> get action map ( ) . get ( cancel _ login _ action _ command ) . set enabled ( false ) ;  <NL> login service . cancel authentication ( ) ;  <NL> set cursor ( old cursor ) ;  <NL>  }  COM: <s> cancels the login procedure </s>

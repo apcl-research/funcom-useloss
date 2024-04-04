@@ -1,0 +1,1 @@
+TDAT: public double score seen query ( double tf , double doc length , double term frequency , double term estimate ) {  <NL> return math . pow ( tf / doc length , 1d - risk ( tf , doc length , term frequency ) ) *  <NL> math . pow ( term estimate , risk ( tf , doc length , term frequency ) ) ;  <NL>  }  COM: <s> the method assigns score for a seen query term </s>

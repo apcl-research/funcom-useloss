@@ -1,0 +1,1 @@
+TDAT: private void today is ( ) {  <NL> date time now = new date time ( ) ;  <NL> today is label . set text ( " today is : " + now . day of week ( ) . get as text ( ) + " , " + now . get day of month ( ) + " " +  <NL> now . month of year ( ) . get as text ( ) + " " + now . get year of era ( ) ) ;  <NL>  }  COM: <s> updates the label which displays the current date </s>

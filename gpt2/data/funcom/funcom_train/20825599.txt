@@ -1,0 +1,1 @@
+TDAT: public selection interval up ( final l list < e > list , final int [ ] indexes ) {  <NL> selection interval selection = null ;  <NL> if ( indexes . length > 0 ) {  <NL> int insert = indexes [ 0 ] - 1 ;  <NL> if ( insert > = 0 ) {  <NL> selection = move ( list , indexes , insert ) ;  <NL>  }  <NL>  }  <NL> return selection ;  <NL>  }  COM: <s> moves elements up </s>

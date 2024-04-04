@@ -1,0 +1,1 @@
+TDAT: public void print lf opts ( ) {  <NL> list < bit set > opts = edge factory . lf opts ;  <NL> for ( int i = 0 ; i < opts . size ( ) ; i + + ) {  <NL> bit set opt = opts . get ( i ) ;  <NL> out . println ( " opt [ " + i + " ] : " + edge . to string ( opt ) ) ;  <NL>  }  <NL> out . flush ( ) ;  <NL>  }  COM: <s> prints the lf optional parts </s>

@@ -1,0 +1,1 @@
+TDAT: public string get cell value ( int row , int col ) {  <NL> string cell value = " " + sorter . get value at ( row , col ) ;  <NL> log . out ( " displaypane " , " sorter value at row = " + row + " col = " + col + " is : " + cell value , log . debug ) ;  <NL> return cell value ;  <NL>  }  COM: <s> this is to help with testing </s>

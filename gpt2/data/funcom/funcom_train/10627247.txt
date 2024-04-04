@@ -1,0 +1,1 @@
+TDAT: public void test array setter ( ) throws exception {  <NL> int [ ] a = { 1 , 2 , 3 } ;  <NL> statement s = new statement ( a , " set " , new object [ ] { new integer ( 1 ) ,  <NL> new integer ( 7 ) } ) ;  <NL> s . execute ( ) ;  <NL> assert equals ( 7 , a [ 1 ] ) ;  <NL>  }  COM: <s> the test checks the method execute for array setter </s>

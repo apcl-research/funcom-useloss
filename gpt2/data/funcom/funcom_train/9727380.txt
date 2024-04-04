@@ -1,0 +1,1 @@
+TDAT: public void write ( print stream out , string [ ] translator , int tabs ) throws io exception {  <NL> string buffer sb = new string buffer ( tabs ) ;  <NL> for ( int i = 0 ; i < tabs ; i + + )  <NL> sb . append ( ' \t ' ) ;  <NL> string s = sb . to string ( ) ;  <NL> out . print ( s ) ;  <NL>  }  COM: <s> write out this primitive </s>

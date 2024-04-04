@@ -1,0 +1,1 @@
+TDAT: protected void throw exception ( open jpa state manager sm , field meta data fmd ) {  <NL> throw new invalid state exception ( _ loc . get ( " inverse - consistency " ,  <NL> fmd , sm . get id ( ) , sm . get context ( ) ) ) . set failed object <NL>  ( sm . get managed instance ( ) ) . set fatal ( true ) ;  <NL>  }  COM: <s> throw an inconsistency exception </s>

@@ -1,0 +1,1 @@
+TDAT: private void fill with default values ( ) {  <NL>  _ s data elements = system . get property ( " user . home " ) + " / elements . txt " ;  <NL>  _ s data servers = system . get property ( " user . home " ) + " / servers . txt " ;  <NL>  _ s data watch = system . get property ( " user . home " ) + " / watch . txt " ;  <NL>  }  COM: <s> build the default configuration </s>

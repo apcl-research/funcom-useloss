@@ -1,0 +1,1 @@
+TDAT: public void delete ( string id , connection conn ) throws data exception , sql exception {  <NL> prepared statement ps = conn . prepare statement ( " delete from for _ rent where for _ rentid = ? " ) ;  <NL> ps . set string ( 1 , id ) ;  <NL> ps . execute update ( ) ;  <NL> super . delete ( id , conn ) ;  <NL>  }  COM: <s> delete a product out of the database </s>

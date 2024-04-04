@@ -1,0 +1,1 @@
+TDAT: private void remove impl ( range i ) {  <NL> int point = collections . binary search ( intervals , i , interval comparator . instance ) ;  <NL> if ( point < 0 )  <NL> throw new illegal state exception ( " interval ( " + i + " ) doesn ' t exist in list : " + intervals ) ;  <NL> intervals . remove ( point ) ;  <NL>  }  COM: <s> removes from the list quickly </s>

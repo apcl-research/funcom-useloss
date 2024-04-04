@@ -1,0 +1,1 @@
+TDAT: public void remove sound module window ( sound module window ref ) {  <NL> int i = module windows . index of ( ( object ) ref ) ;  <NL> if ( i ! = - 1 ) {  <NL> module windows . remove ( i ) ;  <NL> debug tools . msg ( 100 , " removed " + ref + " , idx = " + i ) ;  <NL>  }  <NL>  }  COM: <s> remove sound module window by reference </s>

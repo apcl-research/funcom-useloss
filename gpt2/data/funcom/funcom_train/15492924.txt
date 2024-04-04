@@ -1,0 +1,1 @@
+TDAT: public void run ( ) {  <NL> try {  <NL> utw . begin ( ) ;  <NL> id lock . get instance ( ) . lock ( " test " ) ;  <NL> lock count + + ;  <NL> utw . commit ( ) ;  <NL>  } catch ( exception ex ) {  <NL> system . out . println ( " failed to lock . " ) ;  <NL>  } finally {  <NL> utw . release ( ) ;  <NL>  }  <NL>  }  COM: <s> this method is used to test the id lock </s>

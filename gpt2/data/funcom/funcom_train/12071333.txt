@@ -1,0 +1,1 @@
+TDAT: public void write graphviz to ( writer w , boolean include spans , boolean bean pole style , boolean show spines ) throws io exception {  <NL> this . write graphviz to ( new buffered writer ( w ) , - 1 , - 1 , include spans , bean pole style , show spines ) ;  <NL>  }  COM: <s> writes a visual representation of this sentence in graphviz format </s>

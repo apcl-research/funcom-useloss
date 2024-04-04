@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> string buffer sb = new string buffer ( pkg string ( ) ) ;  <NL> sb . append ( ' ( ' ) ;  <NL> if ( zombie ) {  <NL> sb . append ( " zombie , " ) ;  <NL>  }  <NL> sb . append ( bpkgs . to string ( ) ) ;  <NL> sb . append ( ' ) ' ) ;  <NL> return sb . to string ( ) ;  <NL>  }  COM: <s> string describing this object </s>

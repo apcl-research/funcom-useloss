@@ -1,0 +1,1 @@
+TDAT: public void set italic font ( byte [ ] ttf afm ) throws io exception , document exception {  <NL>  / / creating base font <NL> this . italic font = base font . create font (  <NL> name + " - italic . ttf " , base font . identity _ h ,  <NL> embedded , cached , ttf afm , null <NL>  ) ;  <NL>  }  COM: <s> setter method for the the property italic font </s>

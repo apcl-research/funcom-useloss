@@ -1,0 +1,1 @@
+TDAT: protected void update list model ( ) {  <NL> if ( _ method ! = null ) {  <NL> ld _ component [ ] components = _ method . get plays completed ( ) ;  <NL> get list ( ) . set model ( new component list model ( components ) ) ;  <NL>  }  <NL>  <NL> else {  <NL> get list ( ) . set list data ( new string [ ] { " " } ) ;  <NL>  }  <NL>  }  COM: <s> update the model </s>

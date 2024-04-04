@@ -1,0 +1,1 @@
+TDAT: protected void parse priority ( final element cur , final species species ) {  <NL> element d = cur . get child ( " priority " ) ;  <NL> if ( d = = null ) {  <NL> d = cur . get child ( " weight " ) ;  <NL>  }  <NL> priority = stimulus . build from xml ( d , species ) ;  <NL> priority . set name ( " priority [ " + name + " ] " ) ;  <NL>  }  COM: <s> parses the priority </s>

@@ -1,0 +1,1 @@
+TDAT: public jc _ propertyable get pref property ( final string p path , final string p name , final boolean p user pref ) throws jc _ exception {  <NL> jc _ nodeable prefs = get pref node ( this , p path ) ;  <NL> if ( prefs ! = null ) {  <NL> return prefs . get property ( p name ) ;  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> get pref property </s>

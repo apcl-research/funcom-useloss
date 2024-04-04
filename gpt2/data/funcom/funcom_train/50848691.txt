@@ -1,0 +1,1 @@
+TDAT: public string get gender icon ( string g ) {  <NL> return g . equals ( " m " ) ? " < img src = \ " . / images / cooldude . gif\ " borderr = \ " 0\ " alt = \ " male\ " > " : " < img src = \ " . / images / girl . gif\ " borderr = \ " 0\ " alt = \ " female\ " > " ;  <NL>  }  COM: <s> display a link to a gender image male female </s>

@@ -1,0 +1,1 @@
+TDAT: public void set pixel size ( final int size ) {  <NL> if ( ( size ! = idx _ size ) & & ( size ! = rgb5 _ size ) & & ( size ! = rgb8 _ size ) ) {  <NL> throw new illegal argument exception (  <NL>  " pixel size must be either 8 , 16 or 24 . " ) ;  <NL>  }  <NL> pixel size = size ;  <NL>  }  COM: <s> sets the size of the pixel in bits 8 16 or 32 </s>

@@ -1,0 +1,1 @@
+TDAT: public void paint slider thumb border ( synth context context , graphics g , int x , int y , int w , int h , int orientation ) {  <NL> paint border ( context , g , x , y , w , h , orientation ) ;  <NL>  }  COM: <s> paints the border of the thumb of a slider </s>

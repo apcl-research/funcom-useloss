@@ -1,0 +1,1 @@
+TDAT: public void insert ( vector vto , connection c ) throws data access exception {  <NL> if ( vto ! = null ) {  <NL> iterator i = vto . iterator ( ) ;  <NL> while ( i . has next ( ) ) {  <NL> user to uto = ( user to ) i . next ( ) ;  <NL> this . insert ( uto , c ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> insert a list of new user into data base related with project id </s>

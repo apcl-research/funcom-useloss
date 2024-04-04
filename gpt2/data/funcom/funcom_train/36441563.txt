@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> string s = " [ " ;  <NL> d node v = header . get next ( ) ;  <NL> while ( v ! = trailer ) {  <NL> s + = v . get entry ( ) ;  <NL> v = v . get next ( ) ;  <NL> if ( v ! = trailer )  <NL> s + = " , " ;  <NL>  }  <NL> s + = " ] " ;  <NL> return s ;  <NL>  }  COM: <s> returns a string representation of the list </s>

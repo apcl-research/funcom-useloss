@@ -1,0 +1,1 @@
+TDAT: public void write uint24 ( long n ) {  <NL> check ( 3 ) ;  <NL> buffer [ write _ pos + + ] = ( byte ) ( ( n & 0x00ff0000 ) > > 16 ) ;  <NL> buffer [ write _ pos + + ] = ( byte ) ( ( n & 0x00ff00 ) > > 8 ) ;  <NL> buffer [ write _ pos + + ] = ( byte ) ( n & 0x00ff ) ;  <NL>  }  COM: <s> writes uint24 value </s>

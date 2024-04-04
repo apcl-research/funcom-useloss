@@ -1,0 +1,1 @@
+TDAT: public void set flow in ( string c ) {  <NL> flow in = " none " ;  <NL> if ( c ! = null ) {  <NL> if ( c . compare to ignore case ( " rts / cts in " ) = = 0 ) flow in = " rts / cts in " ;  <NL> if ( c . compare to ignore case ( " xon / xoff in " ) = = 0 ) flow in = " xon / xoff in " ;  <NL>  }  <NL>  }  COM: <s> set control flow in </s>

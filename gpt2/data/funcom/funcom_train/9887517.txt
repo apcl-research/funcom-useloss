@@ -1,0 +1,1 @@
+TDAT: public job control post job ( starting job job ) throws remote exception {  <NL> request req = new request ( job ) ;  <NL> m _ presentation . send request ( req ) ;  <NL> return new sync job control ( this , job . get id ( ) , m _ conf . get int ( " remote . polling " , 10 ) ) ;  <NL>  }  COM: <s> starts a remote execution </s>

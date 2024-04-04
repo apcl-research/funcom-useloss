@@ -1,0 +1,1 @@
+TDAT: public void test equals2 ( ) {  <NL> time series s1 = new time series ( " series " , null , null , day . class ) ;  <NL> time series s2 = new time series ( " series " , null , null , day . class ) ;  <NL> assert true ( s1 . equals ( s2 ) ) ;  <NL>  }  COM: <s> tests a specific bug report where null arguments in the constructor </s>

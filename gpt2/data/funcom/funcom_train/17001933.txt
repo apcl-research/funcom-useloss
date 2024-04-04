@@ -1,0 +1,1 @@
+TDAT: private string print integer ( int value ) {  <NL> string temp = " " ;  <NL> byte [ ] value bytes = byte utilities . get bytes ( value ) ;  <NL> for ( int i = 0 ; i < 4 ; i + + ) {  <NL> temp + = byte utilities . print byte ( value bytes [ i ] ) ;  <NL>  } temp + = " \n " ;  <NL> return temp ;  <NL>  }  COM: <s> a utility method for testing my results </s>

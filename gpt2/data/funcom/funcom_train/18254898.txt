@@ -1,0 +1,1 @@
+TDAT: protected void add to super ( int index , object o , boolean is parent ) {  <NL> try {  <NL> super space . add ( o , false ) ;  <NL> super . add ( index , o , is parent ) ;  <NL>  } catch ( null pointer exception e ) {  <NL> throw new runtime exception ( " no superlist specified for " + get context ( ) . get name ( ) ) ;  <NL>  }  <NL>  }  COM: <s> adds the to super </s>

@@ -1,0 +1,1 @@
+TDAT: public boolean put task ( string vwmname , mm object node node ) {  <NL> vwm vwm = ( vwm ) vwm _ cache . get ( vwmname ) ;  <NL> if ( vwm ! = null ) {  <NL> vwm . put task ( node ) ;  <NL> return true ;  <NL>  } else {  <NL> log . error ( " vwms : could not find vwm : " + vwmname ) ;  <NL> return false ;  <NL>  }  <NL>  }  COM: <s> passes a task to a vwm </s>

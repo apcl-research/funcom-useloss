@@ -1,0 +1,1 @@
+TDAT: public void paint icon ( component c , graphics g , int x , int y ) {  <NL> int w = c . get width ( ) ;  <NL> int h = c . get height ( ) ;  <NL> g . draw image ( my icon . get image ( ) , 0 , 0 , w , h , c ) ;  <NL>  }  COM: <s> draws this icon at the proper size </s>

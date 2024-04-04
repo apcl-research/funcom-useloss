@@ -1,0 +1,1 @@
+TDAT: public void add name ( string name , j object value ) throws name error {  <NL> if ( types . contains key ( name ) ) {  <NL> throw new name error ( this , " multiple definitions for " + name ) ;  <NL>  } else {  <NL> types . put ( name , value ) ;  <NL> my package . add name ( name , value ) ;  <NL>  }  <NL>  }  COM: <s> add a name to this source file </s>

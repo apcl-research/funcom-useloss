@@ -1,0 +1,1 @@
+TDAT: public string get file entry ( page id page no , int entry no ) throws io exception {  <NL>  <NL> int position = start _ file _ entries + entry no * size _ of _ file _ entry ;  <NL> page no . pid = convert . get int value ( position , data ) ;  <NL> return ( convert . get str value ( position + 4 , data , max _ name + 2 ) ) ;  <NL>  }  COM: <s> return file entry info </s>

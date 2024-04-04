@@ -1,0 +1,1 @@
+TDAT: public mm object node get new node ( string owner ) {  <NL> virtual node node = new virtual node ( this ) ;  <NL> node . set value ( " number " , - 1 ) ;  <NL> node . set value ( " owner " , owner ) ;  <NL> node . set value ( " otype " , o type ) ;  <NL> set defaults ( node ) ;  <NL> return node ;  <NL>  }  COM: <s> get a new node using this builder as its parent </s>

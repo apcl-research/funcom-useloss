@@ -1,0 +1,1 @@
+TDAT: private void update border type ( ) {  <NL> if ( ( m _ title ! = null ) & & ( m _ title ! = " " ) ) {  <NL> super . set border ( new titled border ( m _ border type , " " + m _ title + " " ) ) ;  <NL>  } else {  <NL> super . set border ( m _ border type ) ;  <NL>  }  <NL>  }  COM: <s> updates the border type so that either a tilted border or standard border </s>

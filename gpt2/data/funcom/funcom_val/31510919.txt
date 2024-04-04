@@ -1,0 +1,1 @@
+TDAT: protected void set term ( int i , string l ) {  <NL> a [ i ] = double . parse double ( l . substring ( 79 , 97 ) . trim ( ) ) ;  <NL> b [ i ] = double . parse double ( l . substring ( 97 , 111 ) . trim ( ) ) ;  <NL> c [ i ] = double . parse double ( l . substring ( 111 , 131 ) . trim ( ) ) ;  <NL>  }  COM: <s> used by vsop87 </s>

@@ -1,0 +1,1 @@
+TDAT: public void set array ( c variant [ ] value ) {  <NL> this . type = array ;  <NL> if ( value ! = null ) {  <NL> this . value = new c variant [ value . length ] ;  <NL> system . arraycopy ( value , 0 , this . value , 0 , value . length ) ;  <NL>  } else <NL> this . value = null ;  <NL>  }  COM: <s> sets a new cvariant array to this cvariant </s>

@@ -1,0 +1,1 @@
+TDAT: public void paint ( graphics g graphics ) {  <NL> super . paint ( g graphics ) ;  <NL> g graphics . draw image ( m _ i image ,  <NL>  ( get bounds ( ) . width - m _ i image . get width ( this ) ) / 2 ,  <NL>  ( get bounds ( ) . height - m _ i image . get height ( this ) ) / 2 ,  <NL> this ) ;  <NL>  }  COM: <s> draw the image </s>

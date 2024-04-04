@@ -1,0 +1,1 @@
+TDAT: static private string get text ( string text ) {  <NL> int start = text . index of ( " < text > " ) ;  <NL> int end = text . index of ( " < / text > " ) ;  <NL> if ( start ! = - 1 & & end ! = - 1 ) {  <NL> return text . substring ( start + 6 , end ) ;  <NL>  } else {  <NL> return text ;  <NL>  }  <NL>  }  COM: <s> gets text to be processed by the tae </s>

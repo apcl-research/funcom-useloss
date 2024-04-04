@@ -1,0 +1,1 @@
+TDAT: protected void setup test program ( long program id , string program name ) {  <NL> simple jdbc template . update (  <NL>  " insert into solardras . program ( id , creator , pro _ name , enabled ) values ( ? , ? , ? , ? ) " ,  <NL> program id , test _ user _ id , program name , boolean . true ) ;  <NL>  <NL>  }  COM: <s> insert a test event into the solardras </s>

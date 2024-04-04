@@ -1,0 +1,1 @@
+TDAT: protected void append column name list ( jdbc column [ ] cols , char buf s ) {  <NL> int colslen = cols . length ;  <NL> for ( int i = 0 ; i < colslen ; i + + ) {  <NL> if ( i > 0 ) s . append ( " , " ) ;  <NL> s . append ( cols [ i ] . name ) ;  <NL>  }  <NL>  }  COM: <s> append a comma separated list of column names to s </s>

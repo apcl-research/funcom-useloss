@@ -1,0 +1,1 @@
+TDAT: public void draw ( drawing panel panel , graphics g ) {  <NL> if ( text = = null || text . equals ( " " ) ) return ;  <NL> font old font = g . get font ( ) ;  <NL> if ( this . pixel xy ) {  <NL> draw with pix ( panel , g ) ;  <NL>  } else {  <NL> draw with world ( panel , g ) ;  <NL>  }  <NL> g . set font ( old font ) ;  <NL>  }  COM: <s> draws the text line </s>

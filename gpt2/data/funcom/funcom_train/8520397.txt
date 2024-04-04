@@ -1,0 +1,1 @@
+TDAT: public void add hole ( double x _ min , double x _ max , double y _ min , double y _ max , double z _ min , double z _ max ) {  <NL> cuboids . add ( new cuboid ( x _ min , x _ max , y _ min , y _ max , z _ min , z _ max ) ) ;  <NL>  }  COM: <s> customize this obstacle by defining a hole </s>

@@ -1,0 +1,1 @@
+TDAT: public void set text ( string text ) throws java . beans . property veto exception {  <NL> string old text = this . text ;  <NL> vetoable change support . fire vetoable change ( " text " , old text , text ) ;  <NL> this . text = text ;  <NL> property change support . fire property change ( " text " , old text , text ) ;  <NL>  }  COM: <s> setter for property text </s>

@@ -1,0 +1,1 @@
+TDAT: public void test characters directly under body element ( ) throws exception {  <NL> string test = " < html > < body > test < / body > < / html > " ;  <NL> string content = new tika ( ) . parse to string (  <NL> new byte array input stream ( test . get bytes ( " utf - 8 " ) ) ) ;  <NL> assert equals ( " test " , content ) ;  <NL>  }  COM: <s> test case for tika 210 </s>

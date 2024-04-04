@@ -1,0 +1,1 @@
+TDAT: public void not in place ( int min bit , int max bit ) {  <NL>  / / make sure that we have room for max bit <NL> grow to include ( max bit ) ;  <NL> for ( int i = min bit ; i < = max bit ; i + + ) {  <NL> int n = word number ( i ) ;  <NL> bits [ n ] ^ = bit mask ( i ) ;  <NL>  }  <NL>  }  COM: <s> complement bits in the range min bit </s>

@@ -1,0 +1,1 @@
+TDAT: public void ambient light ( float r , float g , float b ) {  <NL> if ( gl mode ) ambient light ( r , g , b , 0 , 0 , 0 ) ;  <NL> else super . ambient light ( r , g , b , 0 , 0 , 0 ) ;  <NL>  }  COM: <s> add an ambient light based on the current color mode </s>

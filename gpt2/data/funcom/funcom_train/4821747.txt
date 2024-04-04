@@ -1,0 +1,1 @@
+TDAT: public boolean is utf8url ( string text ) {  <NL> text = text . to lower case ( ) ;  <NL> int p = text . index of ( " % " ) ;  <NL> if ( p ! = - 1 & & text . length ( ) - p > 9 ) {  <NL> text = text . substring ( p , p + 9 ) ;  <NL>  }  <NL> return utf8code check ( text ) ;  <NL>  }  COM: <s> hash utf8 url code </s>

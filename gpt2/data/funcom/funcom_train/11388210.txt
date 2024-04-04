@@ -1,0 +1,1 @@
+TDAT: private int get pass factor ( int factor , int pass no , int num segments ) {  <NL> if ( pass no > 1 || num segments < = factor || factor = = 1 )  <NL> return factor ;  <NL> int mod = ( num segments - 1 ) % ( factor - 1 ) ;  <NL> if ( mod = = 0 )  <NL> return factor ;  <NL> return mod + 1 ;  <NL>  }  COM: <s> determine the number of segments to merge in a given pass </s>

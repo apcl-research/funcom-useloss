@@ -1,0 +1,1 @@
+TDAT: private double find physical distance ( final neuron neuron1 , final neuron neuron2 ) {  <NL> double ret = math . sqrt ( math . pow ( neuron2 . get x ( ) - neuron1 . get x ( ) , 2 )  <NL>  + math . pow ( neuron2 . get y ( ) - neuron1 . get y ( ) , 2 ) ) ;  <NL> return ret ;  <NL>  }  COM: <s> finds the physical euclidian distance between two neurons </s>

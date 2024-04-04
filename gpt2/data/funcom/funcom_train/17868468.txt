@@ -1,0 +1,1 @@
+TDAT: public boolean modify pr ( string s , long prop , string repl ) {  <NL>  <NL> int n = search el ( s ) ;  <NL> if ( n = = - 1 ) {  <NL>  / / system . out . println ( " the word you want to modify is not in the list " ) ;  <NL> return false ;  <NL>  }  <NL> modify pr at ( n , prop , repl ) ;  <NL> return true ;  <NL>  }  COM: <s> modifies propreties by name </s>

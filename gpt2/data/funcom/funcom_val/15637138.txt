@@ -1,0 +1,1 @@
+TDAT: public r visit jml binary ( final jml binary node , final p p ) {  <NL> final p tmp p = pre visit ( node , p ) ;  <NL> r r = scan ( node . lhs , tmp p ) ;  <NL> r = scan and reduce ( node . rhs , tmp p , r ) ;  <NL> return r ;  <NL>  }  COM: <s> visiting jml binary node </s>

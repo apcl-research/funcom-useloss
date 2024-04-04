@@ -1,0 +1,1 @@
+TDAT: public void test drag event data2 ( ) {  <NL> m _ event1 = new drag event data ( this , src1 , dst1 ) ;  <NL> validate ( m _ event1 , this , src1 , dst1 , default _ sleeptime ) ;  <NL> m _ event2 = new drag event data ( this , src2 , dst2 ) ;  <NL> validate ( m _ event2 , this , src2 , dst2 , default _ sleeptime ) ;  <NL>  }  COM: <s> test constructor 2 </s>

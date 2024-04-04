@@ -1,0 +1,1 @@
+TDAT: public void print test api component link ( class doc class doc ) {  <NL> string class name = class doc . name ( ) ;  <NL> m out . println ( " < a href = \ " components / " + class name + " . html\ " target = \ " details frame\ " > < i > " + class name + " < / i > < / a > < br > " ) ;  <NL>  }  COM: <s> prints link to test api component html file in html format </s>

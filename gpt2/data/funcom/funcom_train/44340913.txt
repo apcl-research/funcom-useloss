@@ -1,0 +1,1 @@
+TDAT: public void load ( array list lst obj files ) {  <NL> ppcg programs = new hash map ( ) ;  <NL> string file name = null ;  <NL> for ( iterator i = lst obj files . iterator ( ) ; i . has next ( ) ; ) {  <NL> file name = ( string ) i . next ( ) ;  <NL> add the curr prog ( file name , ppcg programs ) ;  <NL>  }  <NL>  }  COM: <s> load a list of object prolog cg files </s>

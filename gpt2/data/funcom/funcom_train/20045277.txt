@@ -1,0 +1,1 @@
+TDAT: public void _ is end of word ( ) {  <NL> log . println ( " goto start of word ( ) = " + o obj . goto start of word ( false ) ) ;  <NL> log . println ( " goto end of word ( ) = " + o obj . goto end of word ( false ) ) ;  <NL>  <NL> t res . tested ( " is end of word ( ) " , o obj . is end of word ( ) ) ;  <NL>  }  COM: <s> move cursor to the start then to the end </s>

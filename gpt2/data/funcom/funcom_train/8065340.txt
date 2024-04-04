@@ -1,0 +1,1 @@
+TDAT: public void add ( fig f ) {  <NL> if ( f = = null ) {  <NL> throw new illegal argument exception (  <NL>  " attempted to add a null fig to a layer diagram " ) ;  <NL>  }  <NL>  <NL> contents . remove ( f ) ; / / act like a set <NL> contents . add ( f ) ;  <NL> f . set layer ( this ) ;  <NL> f . end trans ( ) ;  <NL>  }  COM: <s> add a fig to the contents of this layer </s>

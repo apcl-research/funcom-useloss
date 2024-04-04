@@ -1,0 +1,1 @@
+TDAT: private void cancel ( )  <NL>  { / * cancel * /  <NL> rtn data list = null ;  <NL> data ready flag = false ; / * no data saved * /  <NL> cvt . mcd . fm . remap mode = 0 ; / * clear it * /  <NL> cvt . fmg = null ; / * clear modal instance * /  <NL> this . dispose ( ) ;  <NL>  } / * cancel * /  COM: <s> cancel cancel this assignement </s>

@@ -1,0 +1,1 @@
+TDAT: public void test sort entries with equal qvalues ( ) {  <NL> do sort parser test ( new string [ ] { " c ; q = 0 . 3 " , " b ; q = 0 . 3 " , " a ; q = 0 . 3 " } ,  <NL> new string [ ] { " a " , " b " , " c " , } ) ;  <NL>  }  COM: <s> test that a default accept parser works if the sorting is valid when </s>

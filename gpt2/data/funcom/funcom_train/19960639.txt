@@ -1,0 +1,1 @@
+TDAT: public void set time ( int parameter index , time x , calendar cal ) throws sql exception {  <NL> cal . set time ( new java . util . date ( x . get time ( ) ) ) ;  <NL> save object ( parameter index , cal ) ;  <NL> ps . set time ( parameter index , x , cal ) ;  <NL>  }  COM: <s> this implementation assumes that the time object has the time and </s>

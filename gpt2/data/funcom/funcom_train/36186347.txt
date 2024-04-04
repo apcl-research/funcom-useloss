@@ -1,0 +1,1 @@
+TDAT: private j text field get j text field assoc id ( ) {  <NL> if ( j text field assoc id = = null ) {  <NL> j text field assoc id = new j text field ( ) ;  <NL> j text field assoc id . set bounds ( new rectangle ( 105 , 197 , 233 , 20 ) ) ;  <NL>  }  <NL> return j text field assoc id ;  <NL>  }  COM: <s> this method initializes j text field assoc id </s>

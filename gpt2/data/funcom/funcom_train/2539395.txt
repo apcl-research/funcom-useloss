@@ -1,0 +1,1 @@
+TDAT: public void inverse rotate vect ( vector3d vec ) {  <NL> float vx = vec . x , vy = vec . y , vz = vec . z ;  <NL>  <NL> vec . x = vx * m00 + vy * m10 + vz * m20 ;  <NL> vec . y = vx * m01 + vy * m11 + vz * m21 ;  <NL> vec . z = vx * m02 + vy * m12 + vz * m22 ;  <NL>  }  COM: <s> code inverse rotate vect code rotates a given vector3 d by the rotation </s>

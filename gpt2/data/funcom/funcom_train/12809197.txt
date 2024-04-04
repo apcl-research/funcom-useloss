@@ -1,0 +1,1 @@
+TDAT: public base color darker ( ) {  <NL> return new base color ( math . max ( ( int ) ( get red ( ) * factor ) , 0 ) ,  <NL> math . max ( ( int ) ( get green ( ) * factor ) , 0 ) ,  <NL> math . max ( ( int ) ( get blue ( ) * factor ) , 0 ) ) ;  <NL>  }  COM: <s> make this color darker </s>

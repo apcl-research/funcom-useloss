@@ -1,0 +1,1 @@
+TDAT: public card remove top card ( ) throws bad card exception {  <NL> card card = null ;  <NL> if ( ! m _ cards . is empty ( ) ) {  <NL> card = ( card ) m _ cards . get ( 0 ) ;  <NL> m _ cards . remove ( 0 ) ;  <NL>  } else {  <NL> throw new bad card exception ( " no cards ! last card already delt " ) ;  <NL>  }  <NL> return card ;  <NL>  }  COM: <s> remove the top card </s>

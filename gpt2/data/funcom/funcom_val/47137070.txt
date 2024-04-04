@@ -1,0 +1,1 @@
+TDAT: private void maybe show popup ( mouse event e ) {  <NL> if ( e . is popup trigger ( ) ) {  <NL> tree panel menu popup = new tree panel menu ( owner ) ;  <NL> popup . show ( e . get component ( ) , tree . get node for event ( e . get point ( ) ) , e . get x ( ) , e . get y ( ) ) ;  <NL>  }  <NL>  }  COM: <s> displays a tree popup menu when needed </s>

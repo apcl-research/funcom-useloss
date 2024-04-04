@@ -1,0 +1,1 @@
+TDAT: public void add phrase ( string name , string message , int hotkey ) throws sql exception {  <NL> c . create statement ( ) . execute update ( " insert into phrases ( name , message , hotkey ) values ( ' " + clean up ( name ) + " ' , ' " + clean up ( message ) + " ' , ' " + hotkey + " ' ) " ) ;  <NL>  }  COM: <s> adds a phrase to the database </s>

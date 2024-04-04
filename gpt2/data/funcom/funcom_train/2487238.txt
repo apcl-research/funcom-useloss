@@ -1,0 +1,1 @@
+TDAT: protected void insert text block ( jag block parent , string text ) {  <NL> if ( text . length ( ) > 0 & & text . char at ( 0 ) ! = eof _ char ) {  <NL> jag block impl block child = new jag block impl ( ) ;  <NL> block child . initialize ( text , new string ( text ) ) ;  <NL> parent . add child ( block child ) ;  <NL>  }  <NL>  }  COM: <s> method insert text block </s>

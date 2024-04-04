@@ -1,0 +1,1 @@
+TDAT: public void new state ( r66finite dual states desiredstate ) {  <NL> try {  <NL> state . set current ( desiredstate ) ;  <NL>  } catch ( illegal finite state exception e ) {  <NL> logger . warn ( " should not changed of state : { } { } " , this , e . get message ( ) ) ;  <NL> state . set dry current ( desiredstate ) ;  <NL>  }  <NL>  }  COM: <s> propose a new state </s>

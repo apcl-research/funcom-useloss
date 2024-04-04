@@ -1,0 +1,1 @@
+TDAT: public void test empty ( string val , int res ) throws exception {  <NL>  <NL> p . push ( new t string ( val , null ) ) ;  <NL> new empty ( " empty $ " ) . execute ( p , entry , null ) ;  <NL> assert equals ( res , p . pop integer ( null ) . get int ( ) ) ;  <NL> assert null ( p . pop unchecked ( ) ) ;  <NL>  }  COM: <s> run one test for the function empty </s>

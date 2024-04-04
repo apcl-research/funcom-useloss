@@ -1,0 +1,1 @@
+TDAT: private string get active mode name ( ) {  <NL> int index = get combo ( ) . get selection index ( ) ;  <NL> boolean is built in = index ! = - 1 & & index < mode . values ( ) . length ;  <NL> return ( is built in ? mode . values ( ) [ index ] . name ( ) : get combo ( ) . get text ( ) ) ;  <NL>  }  COM: <s> get name of mode from combo without built in </s>

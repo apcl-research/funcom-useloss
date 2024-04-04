@@ -1,0 +1,1 @@
+TDAT: private c ast node visit ( field access n , walk context context ) {  <NL> c ast node target node = visit node ( n . get expression ( ) , context ) ;  <NL> return create field access ( target node , n . get name ( ) . get identifier ( ) , n . resolve field binding ( ) , n , context ) ;  <NL>  }  COM: <s> process a field access </s>

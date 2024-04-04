@@ -1,0 +1,1 @@
+TDAT: public void test ref bean ( ) throws exception {  <NL> region info r = ( region info ) factory . get bean ( " region " ) ;  <NL> city scape city finder = ( city scape ) factory . get bean ( " city finder " ) ;  <NL> assert equals ( " singleton test " , city finder , r . get city finder ( ) ) ;  <NL>  }  COM: <s> test ref id </s>

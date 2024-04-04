@@ -1,0 +1,1 @@
+TDAT: private void verify shares ( double . . . shares ) {  <NL> assert equals ( scheds . size ( ) , shares . length ) ;  <NL> for ( int i = 0 ; i < shares . length ; i + + ) {  <NL> assert equals ( shares [ i ] , scheds . get ( i ) . get fair share ( ) , 0 . 01 ) ;  <NL>  }  <NL>  }  COM: <s> check that a given list of shares have been assigned to this </s>

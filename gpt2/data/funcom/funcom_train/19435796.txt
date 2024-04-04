@@ -1,0 +1,1 @@
+TDAT: public string name ( string name ) {  <NL>  _ name = name ;  <NL> if ( con db ( ) . get connection ( _ name ) ! = null ) {  <NL> int i = 0 ;  <NL> while ( con db ( ) . get connection ( _ name + " ; " + + + i ) ! = null ) { }  <NL>  _ name = _ name + " ; " + i ;  <NL>  }  <NL> return _ name ;  <NL>  }  COM: <s> create unique name taking into account </s>

@@ -1,0 +1,1 @@
+TDAT: private string normalize ( string s ) {  <NL> return s ! = null ? s . replace all ( " [ , . ! @ # $ % ^ & { } ' ~ ` \\ * ; : \r\n ! \\ ? \\ [ \\ ] \\\\\\ / \\ ( \\ ) \ " ] " , " " ) . trim ( ) : " " ;  <NL>  }  COM: <s> remove invalid characters from the string </s>

@@ -1,0 +1,1 @@
+TDAT: public void test _ qualified _ allocation _ expression _ 01 ( ) {  <NL> compile and exec given statement (  <NL>  " x . java " ,  <NL>  " class x { \n " +  <NL>  " / / @ requires new object ( ) { } ! = null ; \n " +  <NL>  " public void m ( ) { \n " +  <NL>  " } \n " +  <NL>  " } \n " ,  <NL>  " new x ( ) . m ( ) " ) ;  <NL>  }  COM: <s> qualified allocation expression </s>

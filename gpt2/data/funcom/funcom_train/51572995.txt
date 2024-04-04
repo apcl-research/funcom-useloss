@@ -1,0 +1,1 @@
+TDAT: public void test get created by user ( ) throws exception {  <NL> local file set spec = new local file set ( base file ) ;  <NL> live fingerprint test fp = new live fingerprint ( spec ) ;  <NL> test fp . scan ( ) ;  <NL> assert equals ( system . get property ( " user . name " ) ,  <NL> test fp . get created by user ( ) ) ;  <NL>  }  COM: <s> tests get created by user </s>

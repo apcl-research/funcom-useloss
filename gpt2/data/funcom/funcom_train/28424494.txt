@@ -1,0 +1,1 @@
+TDAT: public void open ( ) {  <NL> if ( ! open ) {  <NL> system out = system . out ;  <NL> system err = system . err ;  <NL> ps _ out = create print stream ( ) ;  <NL> ps _ err = create print stream ( ) ;  <NL> system . set out ( ps _ out ) ;  <NL> system . set err ( ps _ err ) ;  <NL> open = true ;  <NL>  }  <NL>  }  COM: <s> opens this logger for logging </s>

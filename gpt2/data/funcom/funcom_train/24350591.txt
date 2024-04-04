@@ -1,0 +1,1 @@
+TDAT: public int get begin column ( ) {  <NL> base token t = get previous ( ) ;  <NL> while ( t ! = null & & ! t . is eol ( ) ) {  <NL> t = t . get previous ( ) ;  <NL>  }  <NL> return 1 + offset <NL>  - ( t = = null ? 0 : ( ( base token ) t . get next ( ) ) . get offset ( ) ) ;  <NL>  }  COM: <s> get the begin column relative 1 </s>

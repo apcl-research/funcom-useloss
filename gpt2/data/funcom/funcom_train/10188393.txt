@@ -1,0 +1,1 @@
+TDAT: public void add ( e o ) {  <NL> int size = size ( ) ;  <NL> object temp data [ ] = new object [ size + 1 ] ;  <NL> if ( size > 0 ) {  <NL> system . arraycopy ( element data , 0 , temp data , 0 , size ) ;  <NL>  }  <NL> element data = ( e [ ] ) temp data ;  <NL> element data [ size ] = o ;  <NL>  }  COM: <s> appends the specified element to the end of this list </s>

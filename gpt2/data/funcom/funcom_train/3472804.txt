@@ -1,0 +1,1 @@
+TDAT: public void delete selected rows ( j table table ) {  <NL> data set table model model = ( data set table model ) table . get model ( ) ;  <NL> int [ ] rows = table . get selected rows ( ) ;  <NL>  <NL> for ( int i = rows . length - 1 ; i > = 0 ; i - - ) {  <NL> model . remove data case ( rows [ i ] ) ;  <NL>  }  <NL>  }  COM: <s> deletes the selected rows in the jtable </s>

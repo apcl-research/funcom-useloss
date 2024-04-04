@@ -1,0 +1,1 @@
+TDAT: public void record updated ( record record ) {  <NL> data record entry data record entry = new data record entry ( record ) ;  <NL> record update ru = ( new record update ( data record entry , record . get name ( ) ) ) ;  <NL> if ( ! q . offer ( ru ) ) {  <NL> q . poll ( ) ;  <NL> q . offer ( ru ) ;  <NL>  }  <NL>  }  COM: <s> only service thread will call this </s>

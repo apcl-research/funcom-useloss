@@ -1,0 +1,1 @@
+TDAT: public void auto outline ( int start x , int start y , double lower , double upper , int mode ) {  <NL> lower threshold = ( float ) lower ;  <NL> upper threshold = ( float ) upper ;  <NL> auto outline ( start x , start y , 0 . 0 , mode|thresholded _ mode ) ;  <NL>  }  COM: <s> traces an object defined by lower and upper threshold values </s>

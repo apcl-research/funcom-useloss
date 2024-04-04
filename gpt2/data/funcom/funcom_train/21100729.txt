@@ -1,0 +1,1 @@
+TDAT: public void key typed ( key event e ) {  <NL> int key = e . get key char ( ) ;  <NL>  <NL> if ( key = = 10 ) {  <NL> do action ( ) ;  <NL>  }  <NL>  <NL> if ( ( key < 47 || key > 58 ) & & key ! = 8 ) {  <NL> e . set key char ( ( char ) key event . vk _ clear ) ;  <NL>  }  <NL>  }  COM: <s> used to limit the input to the textfield to </s>

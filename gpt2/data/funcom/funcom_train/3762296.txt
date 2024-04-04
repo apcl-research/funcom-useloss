@@ -1,0 +1,1 @@
+TDAT: private void show ok dialog ( string message ) {  <NL> string type = " error " ;  <NL> object [ ] options = { " ok " } ;  <NL> j option pane . show option dialog ( null , message , type , j option pane . default _ option ,  <NL> j option pane . warning _ message , null , options , options [ 0 ] ) ;  <NL>  }  COM: <s> shows a confirm dialog with the specified message </s>

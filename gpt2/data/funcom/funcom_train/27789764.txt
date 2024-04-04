@@ -1,0 +1,1 @@
+TDAT: public j field ( int type , boolean multi value , boolean use in index , string [ ] enum values , string field io class name , field name [ ] names ) {  <NL> this ( data access . null _ id , type , multi value , use in index , enum values , field io class name , false , names ) ;  <NL>  }  COM: <s> creates new field object to be stored into the data base </s>

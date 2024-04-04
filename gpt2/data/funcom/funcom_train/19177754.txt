@@ -1,0 +1,1 @@
+TDAT: public boolean lock container ( long id , session user wrapper u ) {  <NL>  <NL> if ( ! contains key ( id ) ) {  <NL> put ( id , u . get user ( ) ) ;  <NL> pcl _ st . add session ( u . get session _ id ( ) , id ) ;  <NL> return true ;  <NL>  } else {  <NL> return false ;  <NL>  }  <NL>  <NL>  }  COM: <s> lock container to user </s>

@@ -1,0 +1,1 @@
+TDAT: public string get query words parameter value ( ) {  <NL> string buffer buffer = new string buffer ( ) ;  <NL> for ( int i = 0 ; i < words . length ; i + + ) {  <NL> if ( i ! = 0 ) {  <NL> buffer . append ( " " ) ;  <NL>  }  <NL> buffer . append ( words [ i ] ) ;  <NL>  }  <NL> return buffer . to string ( ) ;  <NL>  }  COM: <s> get words parameters in link words </s>

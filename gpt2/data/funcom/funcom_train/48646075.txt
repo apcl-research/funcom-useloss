@@ -1,0 +1,1 @@
+TDAT: private j text field get angle text field ( ) {  <NL> if ( angle text field = = null ) {  <NL> angle text field = new j text field ( ) ;  <NL> angle text field . set preferred size ( new dimension ( 120 , 21 ) ) ;  <NL> angle text field . set text ( " 15 . 0 " ) ;  <NL>  }  <NL> return angle text field ;  <NL>  }  COM: <s> this method initializes angle text field </s>

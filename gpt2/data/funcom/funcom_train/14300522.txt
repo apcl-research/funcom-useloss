@@ -1,0 +1,1 @@
+TDAT: public string validate _ value ( string value ) {  <NL> string buffer str = new string buffer ( value ) ;  <NL> for ( int i = 0 ; i < str . length ( ) ; i + + ) {  <NL> if ( str . char at ( i ) = = ' ' )  <NL> str . set char at ( i , ' _ ' ) ;  <NL>  }  <NL> return str . to string ( ) ;  <NL>  }  COM: <s> check whether a string is a valid name </s>

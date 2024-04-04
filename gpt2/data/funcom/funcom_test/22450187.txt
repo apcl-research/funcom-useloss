@@ -1,0 +1,1 @@
+TDAT: public void add edges with weights ( int edges with weights [ ] [ ] ) {  <NL> for ( int i = 0 ; i < edges with weights . length ; i + + ) {  <NL> add edge ( edges with weights [ i ] [ 0 ] ,  <NL> edges with weights [ i ] [ 1 ] ,  <NL> edges with weights [ i ] [ 2 ] ) ;  <NL>  }  <NL>  }  COM: <s> add multiple edges and set their integer weights </s>

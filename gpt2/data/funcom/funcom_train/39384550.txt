@@ -1,0 +1,1 @@
+TDAT: public string read ( int i len ) {  <NL> int i chr = 0 ;  <NL> string s ret = " " ;  <NL>  <NL> try {  <NL> while ( i len > 0 & & ( i chr = this . in . read ( ) ) ! = - 1 ) {  <NL> s ret + = ( char ) i chr ;  <NL> i len - - ;  <NL>  }  <NL>  } catch ( io exception e ) {  <NL>  }  <NL> return s ret ;  <NL>  }  COM: <s> read a string of given length from the socket </s>

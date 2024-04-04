@@ -1,0 +1,1 @@
+TDAT: public void add line ( string option , string description ) {  <NL>  / / system . out . println ( " add line " + option ) ;  <NL> string [ ] line = { option , description } ;  <NL> lines . add ( line ) ;  <NL> max option width = math . max ( max option width , option . length ( ) + 1 ) ;  <NL>  }  COM: <s> adds a line consisted of an code option code and a description </s>

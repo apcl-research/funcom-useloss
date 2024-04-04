@@ -1,0 +1,1 @@
+TDAT: private point create point geometry ( double x , double y , double z ) {  <NL> double [ ] coords = adjust coords ( x , y , z ) ;  <NL> return m geometry factory . create point ( new coordinate ( coords [ 0 ] , coords [ 1 ] , coords [ 2 ] ) ) ;  <NL>  }  COM: <s> constructs and returns a jts point geometry from x y x coordinates </s>

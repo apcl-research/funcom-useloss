@@ -1,0 +1,1 @@
+TDAT: private void enable input panels ( ) {  <NL> for ( int x = 0 ; x < get j tabbed pane ( ) . get tab count ( ) ; x + + ) {  <NL> final j panel c = ( j panel ) get j tabbed pane ( ) . get component at ( x ) ;  <NL> enable input panels ( c ) ;  <NL>  }  <NL> previously enabled components . clear ( ) ;  <NL>  }  COM: <s> re enables the disabled input panels </s>

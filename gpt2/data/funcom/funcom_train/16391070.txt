@@ -1,0 +1,1 @@
+TDAT: public void validate ( object target , field field ) {  <NL> string field name = field . get name ( ) ;  <NL> if ( apply validation ( target . get class ( ) , field ) ) {  <NL> validate ( field name , get annotation ( target , field name ) , get value ( target , field name ) ) ;  <NL>  }  <NL>  }  COM: <s> delegates to the type specific validate method </s>

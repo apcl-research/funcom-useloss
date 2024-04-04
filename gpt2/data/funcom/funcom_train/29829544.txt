@@ -1,0 +1,1 @@
+TDAT: public void stop blocking ( jid jid ) {  <NL>  / / jid no res jid = new jid ( jid . get username ( ) , jid . get server ( ) , null ) ;  <NL> jid no res jid = jid . get simple jid ( ) ;  <NL> if ( blocked ji ds . contains ( no res jid ) )  <NL> blocked ji ds . remove ( no res jid ) ;  <NL>  }  COM: <s> stops blocking messages from given jid and its resources </s>

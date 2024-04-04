@@ -1,0 +1,1 @@
+TDAT: public color get ( int i , int j ) {  <NL>  <NL> if ( this . is origin upper left ) {  <NL> return new color ( this . image . get rgb ( i , j ) ) ;  <NL>  }  <NL> else {  <NL> return new color ( this . image . get rgb ( i , this . height - j - 1 ) ) ;  <NL>  }  <NL>  }  COM: <s> return the color of pixel i j </s>

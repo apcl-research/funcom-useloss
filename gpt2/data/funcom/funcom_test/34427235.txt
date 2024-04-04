@@ -1,0 +1,1 @@
+TDAT: private void notes file write resource ( z string z , swg resource r , string s ) {  <NL> z . app ( r . get name ( ) ) . app ( " , " ) . app ( r . rc ( ) . rc name ( ) ) . app ( " , " ) ;  <NL> if ( s ! = null ) z . app ( s ) ;  <NL> z . nl ( ) ;  <NL>  }  COM: <s> helper method which appends the specified resource as a line </s>

@@ -1,0 +1,1 @@
+TDAT: public r scan ( iterable < ? extends tree > nodes , p p ) {  <NL> r r = null ;  <NL> if ( nodes ! = null ) {  <NL> boolean first = true ;  <NL> for ( tree node : nodes ) {  <NL> r = ( first ? scan ( node , p ) : scan and reduce ( node , p , r ) ) ;  <NL> first = false ;  <NL>  }  <NL>  }  <NL> return r ;  <NL>  }  COM: <s> scan a list of nodes </s>

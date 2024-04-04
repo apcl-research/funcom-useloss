@@ -1,0 +1,1 @@
+TDAT: public class load class ( string class name ) throws class not found exception {  <NL> if ( m _ clazz ! = null & & m _ classname . equals ( class name ) ) { / / immutable fields .  <NL> return define class ( class name , m _ clazz , null ) ;  <NL>  }  <NL> return m _ context . get bundle ( ) . load class ( class name ) ;  <NL>  }  COM: <s> loads a class </s>

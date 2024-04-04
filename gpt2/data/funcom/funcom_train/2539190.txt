@@ -1,0 +1,1 @@
+TDAT: public matrix to rotation matrix ( ) {  <NL> return new matrix (  <NL> m00 , m01 , m02 , 0 ,  <NL> m10 , m11 , m12 , 0 ,  <NL> m20 , m21 , m22 , 0 ,  <NL> 0 , 0 , 0 , 1 ) ;  <NL>  <NL>  }  COM: <s> to rotation matrix </s>

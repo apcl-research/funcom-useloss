@@ -1,0 +1,1 @@
+TDAT: private q nm var name ( ) throws query exception {  <NL> check ( dollar ) ;  <NL> final q nm name = new q nm ( q name ( novarname ) ) ;  <NL> if ( name . ns ( ) ) name . uri = uri . uri ( ctx . ns . uri ( name . pref ( ) , false ) ) ;  <NL> ctx . ns . uri ( name ) ;  <NL> return name ;  <NL>  }  COM: <s> 88 parses a var name </s>

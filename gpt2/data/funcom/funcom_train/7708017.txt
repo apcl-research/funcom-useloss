@@ -1,0 +1,1 @@
+TDAT: private string success xml ( string message ) {  <NL> string error = " < ? xml version = \ " 1 . 0\ " encoding = \ " utf - 8\ " standalone = \ " yes\ " ? > \n " ;  <NL> error + = " < success > < message > " + message + " < / message > < / success > " ;  <NL> return error ;  <NL>  }  COM: <s> change success message to xml </s>

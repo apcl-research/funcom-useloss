@@ -1,0 +1,1 @@
+TDAT: public void set cursor loc ( float x , float y , float z ) {  <NL> if ( not _ destroyed = = null ) return ;  <NL> transform3d t = new transform3d ( ) ;  <NL> t . set translation ( new vector3f ( x , y , z ) ) ;  <NL> cursor _ trans . set transform ( t ) ;  <NL> if ( cursor on ) {  <NL> set cursor string vector ( ) ;  <NL>  }  <NL>  }  COM: <s> set the cursor location </s>

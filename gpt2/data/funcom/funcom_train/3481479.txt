@@ -1,0 +1,1 @@
+TDAT: protected string get insert channel def sql ( ) {  <NL> return " insert into " + t _ channel _ def +  <NL>  " ( f _ domain _ id , f _ manager _ id , f _ channel _ id , f _ channel _ name , f _ xml _ details ) " +  <NL>  " values ( ? , ? , ? , ? , ? ) " ;  <NL>  }  COM: <s> generate hsql sql statement to insert a new channel defintion record </s>

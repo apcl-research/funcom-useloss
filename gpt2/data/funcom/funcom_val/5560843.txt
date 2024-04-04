@@ -1,0 +1,1 @@
+TDAT: public image op get tile op ( int tile x , int tile y ) {  <NL> image op top = tiles [ tile y * num x tiles + tile x ] ;  <NL> if ( top = = null ) {  <NL> top = tiles [ tile y * num x tiles + tile x ] = create tile op ( tile x , tile y ) ;  <NL>  }  <NL>  <NL> return top ;  <NL>  }  COM: <s> returns the code image op code which produces tile </s>

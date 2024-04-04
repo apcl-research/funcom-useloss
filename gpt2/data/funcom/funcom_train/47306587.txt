@@ -1,0 +1,1 @@
+TDAT: public void test clear ( ) throws exception {  <NL>  <NL> pm . clear ( ) ;  <NL>  <NL> assert equals ( 0 , pm . get results ( ) . size ( ) ) ;  <NL> assert equals ( 0 , pm . get results ( t1 ) . size ( ) ) ;  <NL> assert equals ( 0 , pm . get results ( t2 ) . size ( ) ) ;  <NL>  }  COM: <s> tests that clear empties out the results of the profile manager </s>

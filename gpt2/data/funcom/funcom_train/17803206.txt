@@ -1,0 +1,1 @@
+TDAT: public class default formatter test extends test case {  <NL>  <NL> public void test format ( ) {  <NL> default formatter f = new default formatter ( ) ;  <NL> string s = f . format message ( " hello $ { 0 } of $ { 2 } strings in $ { 1 } . " , new string [ ] { " world " , " java " , " funny " } ) ;  COM: <s> h1 default formatter test h1 </s>

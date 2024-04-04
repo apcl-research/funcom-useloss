@@ -1,0 +1,1 @@
+TDAT: public void draw string ( string str , int x , int y ) {  <NL> set state to local ( ) ;  <NL> m _ printstream . println ( x transform ( x scale ( x ) ) + " " + y transform ( y scale ( y ) ) + " moveto " + " ( " + escape ( str ) + " ) show stroke " ) ;  <NL>  }  COM: <s> draw text in current pen color </s>

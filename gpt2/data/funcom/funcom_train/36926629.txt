@@ -1,0 +1,1 @@
+TDAT: public nx joint create joint ( nx joint desc joint desc ) {  <NL> long c ptr = j phys x adapter jni . nx scene _ create joint ( swig c ptr , this , nx joint desc . get c ptr ( joint desc ) , joint desc ) ;  <NL> return ( c ptr = = 0 ) ? null : new nx joint ( c ptr , false ) ;  <NL>  }  COM: <s> to down cast the result you cant use the </s>

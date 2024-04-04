@@ -1,0 +1,1 @@
+TDAT: public void show row ( result set rs ) throws sql exception <NL>  {  <NL> for ( int i = 1 ; i < = fields . size ( ) ; i + + )  <NL>  {  <NL> string field = rs . get string ( i ) ;  <NL> j text field tb = ( j text field ) fields . get ( i - 1 ) ;  <NL> tb . set text ( field ) ;  <NL>  }  <NL>  }  COM: <s> shows a database row by populating all text fields </s>

@@ -1,0 +1,1 @@
+TDAT: private void set id ( aspect id ) throws format exception {  <NL> assert id . get kind ( ) = = id : string . format (  <NL>  " aspect % s is not an identifier " , id ) ;  <NL> if ( this . id ! = null ) {  <NL> throw new format exception ( " duplicate node identifier " ) ;  <NL>  }  <NL> this . id = id ;  <NL>  }  COM: <s> sets the identifier aspect of this node </s>

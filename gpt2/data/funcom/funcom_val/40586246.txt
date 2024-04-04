@@ -1,0 +1,1 @@
+TDAT: public void test on browser event ( ) {  <NL> native event event = document . get ( ) . create click event ( 0 , 0 , 0 , 0 , 0 , false ,  <NL> false , false , false ) ;  <NL> test on browser event ( get expected inner html ( ) , event , " helloworld " ,  <NL>  " new value from inner cell " ) ;  <NL>  }  COM: <s> verify that events are sent to the inner cell </s>

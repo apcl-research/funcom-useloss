@@ -1,0 +1,1 @@
+TDAT: public double posterior _ expected _ value ( discrete function df ) {  <NL> double ev = 0 . 0 ;  <NL> double p = 0 . 0 ;  <NL> for ( int i = 0 ; i < df . values . length ; i + + ) {  <NL> p + = values [ i ] ;  <NL> ev + = values [ i ] * df . values [ i ] ;  <NL>  }  <NL> return ( ev / p ) ;  <NL>  }  COM: <s> obtain posterior expected value of a discrete function </s>

@@ -1,0 +1,1 @@
+TDAT: private c variant function deg ( stack stack ) throws c expression error {  <NL> int params = get value ( stack , 0 ) . get int ( ) ;  <NL> check param count ( params , 1 ) ;  <NL> return new c soft variant ( math . to degrees ( get value ( stack , 1 ) . get float ( ) ) ) ;  <NL>  }  COM: <s> calculates function deg radians to degrees </s>

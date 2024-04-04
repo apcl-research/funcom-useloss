@@ -1,0 +1,1 @@
+TDAT: public boolean show question dialog ( final component parent component , final string key , final object . . . args ) {  <NL> return show confirm dialog ( parent component , j option pane . yes _ no _ option , j option pane . information _ message , key , args ) = = j option pane . yes _ option ;  <NL>  }  COM: <s> show a localized question dialog </s>

@@ -1,0 +1,1 @@
+TDAT: public boolean create bond out of band ( byte [ ] hash , byte [ ] randomizer ) {  <NL> try {  <NL> return s service . create bond out of band ( m address , hash , randomizer ) ;  <NL>  } catch ( remote exception e ) { log . e ( tag , " " , e ) ; }  <NL> return false ;  <NL>  }  COM: <s> start the bonding pairing process with the remote device using the </s>

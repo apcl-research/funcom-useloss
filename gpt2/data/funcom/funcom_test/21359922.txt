@@ -1,0 +1,1 @@
+TDAT: public void put key ( string gateway name , tuple < string , string > key ) {  <NL> if ( put key impl ( gateway name , key ) ) {  <NL> logger . finer ( " new keyring key added : [ gateway name = " + gateway name + " ] " ) ;  <NL> action support . fire action performed ( action _ add _ key , null ) ;  <NL>  }  <NL>  }  COM: <s> put key for chosen gateway </s>

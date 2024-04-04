@@ -1,0 +1,1 @@
+TDAT: public void test primitive int csv ( ) {  <NL> primitive int dto dto = new primitive int dto ( ) ;  <NL> dto . primitive int field = 2106 ;  <NL> assert true ( j sefa test util . serialize ( csv , dto ) . index of ( " 2106 " ) > = 0 ) ;  <NL> j sefa test util . assert repeated round trip succeeds ( csv , dto ) ;  <NL>  }  COM: <s> tests primitive int csv </s>

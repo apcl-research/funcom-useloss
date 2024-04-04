@@ -1,0 +1,1 @@
+TDAT: private int calc hash code ( ) {  <NL> long h = 1234 ;  <NL> int addr = bits . length - 1 ;  <NL> while ( addr > = 0 & & bits [ addr ] = = 0 ) {  <NL> addr - - ;  <NL>  }  <NL> while ( addr > = 0 ) {  <NL> h ^ = bits [ addr ] * ( addr + 1 ) ;  <NL> addr - - ;  <NL>  }  <NL> return ( int ) ( ( h > > 32 ) ^ h ) ;  <NL>  }  COM: <s> calculates the hashcode </s>

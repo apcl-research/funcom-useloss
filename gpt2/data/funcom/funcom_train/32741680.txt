@@ -1,0 +1,1 @@
+TDAT: private string column name ( string entity name , string name ) {  <NL> ddp . initialize name resolver ( nr , entity name ) ;  <NL> string n = nr . resolve field name ( entity name , name ) ;  <NL> if ( n = = null ) {  <NL> throw new makumba error ( " fail with " + name ) ;  <NL>  }  <NL> return n ;  <NL>  }  COM: <s> converts to the database level column name </s>

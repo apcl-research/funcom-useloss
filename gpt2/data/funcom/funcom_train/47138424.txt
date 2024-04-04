@@ -1,0 +1,1 @@
+TDAT: public int insert ( final account account ) {  <NL> object [ ] params = new object [ ] { new long ( account . get id ( ) ) , new integer ( account . get account number ( ) ) ,  <NL> account . get description ( ) , account . get created ( ) , account . get last changed ( ) } ;  <NL> return update ( params ) ;  <NL>  }  COM: <s> insert account into database </s>

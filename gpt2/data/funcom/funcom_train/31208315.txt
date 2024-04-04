@@ -1,0 +1,1 @@
+TDAT: public void set auto commit ( boolean auto commit ) throws sql exception {  <NL> try {  <NL> if ( trace . is enabled ( ) ) trace . trace ( get id ( ) , " " + auto commit ) ;  <NL> check closed ( ) ;  <NL> this . auto commit = auto commit ;  <NL>  } catch ( throwable e ) {  <NL> throw convert throwable ( e ) ;  <NL>  }  <NL>  }  COM: <s> switches autocommit on or off </s>

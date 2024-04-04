@@ -1,0 +1,1 @@
+TDAT: public cursor fetch all locations ( ) {  <NL> return m db . query ( database _ table , new string [ ] {  <NL> key _ rowid , key _ label , key _ dtcreated , key _ appiconpath , key _ appurl , key _ username , key _ passwd , key _ execcount } , null , null , null , null , null ) ;  <NL>  }  COM: <s> return a cursor over the list of all locations in the database </s>

@@ -1,0 +1,1 @@
+TDAT: public void paint ( graphics g ) {  <NL> g . set color ( worm pit . food _ colour ) ;  <NL> g . fill rect ( x + 1 , y + 1 , worm pit . cell _ size - 2 , worm pit . cell _ size - 2 ) ;  <NL> g . set color ( worm pit . draw _ colour ) ;  <NL> g . draw rect ( x , y , worm pit . cell _ size - 1 , worm pit . cell _ size - 1 ) ;  <NL>  }  COM: <s> paint the piece of food </s>

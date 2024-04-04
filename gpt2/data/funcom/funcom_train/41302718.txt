@@ -1,0 +1,1 @@
+TDAT: public string get tile url ( int x , int y , int zoom ) {  <NL> string url = new string buffer ( ) . append ( get info ( ) . get base url ( ) ) . append ( get coordinate part ( x , y , zoom ) ) . append ( get info ( ) . get url suffix ( ) ) . to string ( ) ;  <NL> return url ;  <NL>  }  COM: <s> returns the tile url for the specified tile at the specified </s>

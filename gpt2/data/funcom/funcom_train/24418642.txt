@@ -1,0 +1,1 @@
+TDAT: public void xeq ( string cmd , int arg ) {  <NL>  / / arcl , asto , catalog , eng , fix , rcl , sci , size , sto , sto - , sto * , sto / , sto + , sum reg ,  <NL>  / / tone , view <NL> message = false ;  <NL> double res ;  <NL> res = x ;  <NL>  <NL> lastx = x ;  <NL> x = res ;  <NL>  }  COM: <s> handle all functions with integer arguments </s>

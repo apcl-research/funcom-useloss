@@ -1,0 +1,1 @@
+TDAT: private node new single ( int ch ) {  <NL> int f = flags ;  <NL> if ( ( f & ( case _ insensitive|unicode _ case ) ) = = 0 ) {  <NL> return new single ( ch ) ;  <NL>  }  <NL> if ( ( f & unicode _ case ) = = 0 ) {  <NL> return new single a ( ch ) ;  <NL>  }  <NL> return new single u ( ch ) ;  <NL>  }  COM: <s> utility method for creating a single character matcher </s>

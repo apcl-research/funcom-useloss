@@ -1,0 +1,1 @@
+TDAT: public void set col ( short i ) {  <NL> byte [ ] c = byte tools . short to le bytes ( ( short ) i ) ;  <NL>  / / byte [ ] dt = this . get data ( ) ;  <NL>  / / if ( dt ! = null ) / / todo : lazy this <NL> system . arraycopy ( c , 0 , get data ( ) , 2 , 2 ) ;  <NL> col = i ;  <NL>  }  COM: <s> set the column </s>

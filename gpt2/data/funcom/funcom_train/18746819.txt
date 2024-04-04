@@ -1,0 +1,1 @@
+TDAT: public void add post errors ( graph state state , set < post application error > errors ) {  <NL> set < post application error > old = this . post errors . get ( state ) ;  <NL> if ( old = = null ) {  <NL> this . post errors . put ( state , errors ) ;  <NL>  } else {  <NL> errors . add all ( old ) ;  <NL>  }  <NL>  }  COM: <s> adds a set of </s>

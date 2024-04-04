@@ -1,0 +1,1 @@
+TDAT: public void add fill area marker ( final fill area type fill area type , final color color , final int start line index , final int end line index ) {  <NL> get parameter ( chart markers parameter . class ) . add fill area marker ( fill area type , color , start line index , end line index ) ;  <NL>  }  COM: <s> adds the fill area marker </s>

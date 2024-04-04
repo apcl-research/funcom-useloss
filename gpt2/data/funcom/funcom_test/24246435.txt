@@ -1,0 +1,1 @@
+TDAT: public void fire ( ) {  <NL>  <NL> for ( int i = 0 ; i < list handler . size ( ) ; i + + ) {  <NL> try {  <NL> list handler . get ( i ) . get and increment pending fire count ( ) ;  <NL>  } catch ( exception e ) {  <NL> system . err . println ( " erreur : " + e . get message ( ) ) ;  <NL>  }  <NL>  }  <NL>  <NL>  <NL>  }  COM: <s> fire this instance of async event </s>

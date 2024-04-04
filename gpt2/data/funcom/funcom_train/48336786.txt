@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> return new string ( " service = " + service + " , function = " + function + " , input = " + input +  <NL>  " , host = " + host + " , port = " + port + " , id = " + id + " , request tag = " + request tag ) ;  <NL>  }  COM: <s> this method returns a printable version of this class </s>

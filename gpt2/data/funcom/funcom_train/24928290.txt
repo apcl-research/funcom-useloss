@@ -1,0 +1,1 @@
+TDAT: public double calculate ( ) {  <NL> double ema = 0 ;  <NL> for ( int i = 0 , pointer = head - 1 ; i < this . memory . length ; i + + , pointer - - ) {  <NL> if ( pointer < 0 ) pointer = this . memory . length - 1 ;  <NL> ema + = k * ( this . memory [ pointer ] - ema ) ;  <NL>  }  <NL>  <NL> return ema ;  <NL>  }  COM: <s> returns the macd signal of notified values </s>

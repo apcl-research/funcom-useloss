@@ -1,0 +1,1 @@
+TDAT: public matrix4x4 multiply self ( double factor ) {  <NL> for ( int i = 0 ; i < 4 ; i + + ) {  <NL> double [ ] m = matrix [ i ] ;  <NL> m [ 0 ] * = factor ;  <NL> m [ 1 ] * = factor ;  <NL> m [ 2 ] * = factor ;  <NL> m [ 3 ] * = factor ;  <NL>  }  <NL> return this ;  <NL>  }  COM: <s> in place matrix scalar multiplication </s>

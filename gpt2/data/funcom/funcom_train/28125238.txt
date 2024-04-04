@@ -1,0 +1,1 @@
+TDAT: private void write recursive ( project p , project group g ) {  <NL> write ( p , g ) ;  <NL> iterator i = p . get children ( ) . iterator ( ) ;  <NL> while ( i . has next ( ) ) {  <NL> project each child = ( project ) i . next ( ) ;  <NL> write recursive ( each child , g ) ;  <NL>  }  <NL>  }  COM: <s> recursively writes the given project parent first using the </s>

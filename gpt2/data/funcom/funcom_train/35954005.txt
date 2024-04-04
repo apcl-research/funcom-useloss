@@ -1,0 +1,1 @@
+TDAT: private void collate ( ) throws io exception {  <NL>  / / todo pass config down <NL> this . task status . set note ( " collating comparison set " ) ;  <NL> this . collator . collate ( this . set , new background task status ( " collate - " + set . get id ( ) ) ) ;  <NL> this . task segment . increment value ( ) ;  <NL>  }  COM: <s> collate the comparison set </s>

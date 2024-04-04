@@ -1,0 +1,1 @@
+TDAT: public void set image height ( double h ) {  <NL>  / / don ' t allow heights smaller than the video <NL> if ( video ! = null ) {  <NL> buffered image vid image = video . get image ( ) ;  <NL> if ( vid image ! = null ) h = math . max ( h , vid image . get height ( ) ) ;  <NL>  }  <NL> image height = h ;  <NL>  }  COM: <s> sets the image height in image units 1 </s>

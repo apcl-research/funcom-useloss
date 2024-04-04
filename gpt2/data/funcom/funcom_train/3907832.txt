@@ -1,0 +1,1 @@
+TDAT: public void remove index element ( ld _ component component ) {  <NL> element el index = get element ( ) . get child ( ld _ core . index , get element ( ) . get namespace ( ) ) ;  <NL> remove ref ( component , el index , ld _ core . index _ element , ld _ core . index ) ;  <NL>  }  COM: <s> remove an index element as a component </s>

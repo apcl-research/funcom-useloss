@@ -1,0 +1,1 @@
+TDAT: public forward type raising ( boolean use dollar , category arg , category result ) {  <NL> super ( " > t " , new slash ( ' / ' , new var modality ( " i " ) ) , new slash ( ' \\ ' , new var modality ( " i " ) ) ,  <NL> use dollar , arg , result ) ;  <NL>  }  COM: <s> creates a forward type raising rule with the given parameters </s>

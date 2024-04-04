@@ -1,0 +1,1 @@
+TDAT: public double get other adjustments ( ) {  <NL> return order read helper . calc item adjustments ( new big decimal ( quantity ) , new big decimal ( get base price ( ) ) , this . get adjustments ( ) , true , false , false , false , false ) . double value ( ) ;  <NL>  }  COM: <s> returns the other adjustments </s>

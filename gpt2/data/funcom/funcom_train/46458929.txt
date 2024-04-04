@@ -1,0 +1,1 @@
+TDAT: public void set location ( double x , double y ) {  <NL> if ( get x ( ) = = x & & get y ( ) = = y ) return ;  <NL> super . set location ( x , y ) ;  <NL> if ( support ! = null )  <NL> support . fire property change ( " location " , null , null ) ; / / $ non - nls - 1 $  <NL>  }  COM: <s> overrides point2 d </s>

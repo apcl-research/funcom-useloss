@@ -1,0 +1,1 @@
+TDAT: private void check param ( map < string , string > param def , cell tag cell ) {  <NL>  / / キー <NL> if ( param def . contains key ( param _ duplicate ) & & param def . contains key ( param _ sheet _ link ) ) {  <NL> throw new parse exception ( tag cell , " 二重定義： " + param _ duplicate + " , " + param _ sheet _ link ) ;  <NL>  }  <NL>  }  COM: <s> parse exception throw </s>

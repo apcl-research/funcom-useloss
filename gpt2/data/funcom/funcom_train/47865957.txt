@@ -1,0 +1,1 @@
+TDAT: private void remove all expired ( ) {  <NL> list < t > key list = new array list < t > ( ) ;  <NL> key list . add all ( insert times . key set ( ) ) ;  <NL> for ( t key : key list ) {  <NL> if ( is expired ( key ) ) {  <NL> clear ( key ) ;  <NL>  }  <NL>  }  <NL> key list . clear ( ) ;  <NL>  }  COM: <s> removes all expired entries </s>

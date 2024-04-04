@@ -1,0 +1,1 @@
+TDAT: public void set herbs ( list < herb info > new herbs ) {  <NL> herbs = new array list < herb info > ( new herbs ) ;  <NL> herb map = new hash map < item type , herb info > ( ) ;  <NL> for ( herb info info : new herbs ) {  <NL> herb map . put ( info . item , info ) ;  <NL>  }  <NL> fire table structure changed ( ) ;  <NL>  }  COM: <s> change the set of herbs </s>

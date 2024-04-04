@@ -1,0 +1,1 @@
+TDAT: private string convert caps ( string moji ) {  <NL> string tmp = " " ;  <NL> if ( moji ! = null & & moji . length ( ) > 0 ) {  <NL> tmp = moji . substring ( 0 , 1 ) . to upper case ( locale . japan )  <NL>  + moji . substring ( 1 ) . to lower case ( locale . japan ) ;  <NL>  }  <NL> return tmp ;  <NL>  }  COM: <s> convert into both small and capital letter </s>

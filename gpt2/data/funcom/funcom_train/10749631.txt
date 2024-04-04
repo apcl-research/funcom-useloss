@@ -1,0 +1,1 @@
+TDAT: public void deep _ exceptions ( ) {  <NL> trace ( " d " ) ;  <NL> for ( int i = 0 ; i < deep _ exception _ times ; i + + ) {  <NL> if ( system . current time millis ( ) > end ) break ;  <NL> try {  <NL> deep _ exception ( deep _ exception _ depth ) ;  <NL>  } catch ( exception e ) { }  <NL>  }  <NL>  }  COM: <s> throw exceptions from a deep stack </s>

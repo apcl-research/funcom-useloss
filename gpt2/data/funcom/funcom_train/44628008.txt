@@ -1,0 +1,1 @@
+TDAT: @ test public void test jml keywords not in java comment ( ) {  <NL> help scanner ( " / * requires * / / * @ requires * / " ,  <NL> new enum < ? > [ ] { requires , ejml , } ,  <NL> new int [ ] { 18 , 26 , 27 , 29 } ) ;  <NL>  }  COM: <s> tests that jml keywords are not found in a java comment </s>

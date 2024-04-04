@@ -1,0 +1,1 @@
+TDAT: private void set state ( int new state ) {  <NL> state = new state ;  <NL> sufferer . fire unit update ( physical condition . illness _ event , illness ) ;  <NL>  / / logger . info ( get sufferer ( ) . get name ( ) + " " + to string ( ) + " set state ( " + get state string ( ) + " ) " ) ;  <NL>  }  COM: <s> sets the health problem state </s>

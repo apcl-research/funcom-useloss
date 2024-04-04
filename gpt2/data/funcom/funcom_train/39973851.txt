@@ -1,0 +1,1 @@
+TDAT: public vec3d interpolate to ( vec3d v , float f , interpolate strategy s ) {  <NL> return new vec3d ( s . interpolate ( x , v . x , f ) , s . interpolate ( y , v . y , f ) , s <NL>  . interpolate ( z , v . z , f ) ) ;  <NL>  }  COM: <s> interpolates the vector towards the given target vector using the given </s>

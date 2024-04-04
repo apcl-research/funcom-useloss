@@ -1,0 +1,1 @@
+TDAT: protected point get tree mouse point ( int column , mouse event me ) {  <NL>  / / could inline as it wasn ' t the place to fix for broken r to l <NL> return new point ( me . get x ( )  <NL>  - get cell rect ( 0 , column , false ) . x , me . get y ( ) ) ;  <NL>  }  COM: <s> this is a patch provided for issue 980 swingx which should </s>

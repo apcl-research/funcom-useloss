@@ -1,0 +1,1 @@
+TDAT: private void populate table ( ) throws exception {  <NL> insert row ( 41 , description _ for _ id _ 41 ) ;  <NL> insert row ( 3 , description _ for _ id _ 3 ) ;  <NL> insert row ( 27 , description _ for _ id _ 27 ) ;  <NL> insert row ( 93 , description _ for _ id _ 93 ) ;  <NL>  }  COM: <s> insert the four test rows into the test table in arbitrary order </s>

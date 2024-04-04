@@ -1,0 +1,1 @@
+TDAT: public void pressed key ( final char key ) {  <NL> if ( ! is editing ( ) ) {  <NL> if ( key = = ' x ' || key = = ' x ' ) {  <NL> cut node ( model . get selected node ( ) ) ;  <NL>  }  <NL> if ( key = = ' v ' || key = = ' v ' ) {  <NL> paste node ( model . get selected node ( ) ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> get key typed for tof tree </s>

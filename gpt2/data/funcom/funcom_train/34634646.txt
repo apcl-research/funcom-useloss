@@ -1,0 +1,1 @@
+TDAT: public int redo ( ) {  <NL> int ret = 0 ;  <NL> for ( int i = 0 ; i < this . edits . size ( ) ; i + + ) {  <NL> i undoable edit edit = ( i undoable edit ) this . edits . get ( i ) ;  <NL> int j = edit . redo ( ) ;  <NL> if ( j > 0 )  <NL> ret + = j ;  <NL>  }  <NL> return ret ;  <NL>  }  COM: <s> calls redo on each contained edit in the order that they were added </s>

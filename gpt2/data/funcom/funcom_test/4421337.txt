@@ -1,0 +1,1 @@
+TDAT: public void add peer semantic tag ( peer associated semantic tag pst ) throws shark kb exception {  <NL> peer semantic tag tag = this . create peer semantic tag ( pst . get name ( ) , pst . get si ( ) , pst . get addresses ( ) ) ;  <NL> util . copy properties from property holder to property holder ( pst , tag ) ;  <NL>  }  COM: <s> like calling code kb </s>

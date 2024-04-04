@@ -1,0 +1,1 @@
+TDAT: private void draw caret ( graphics g , int x , int y )  <NL>  {  <NL> g . set color ( 255 , 0 , 0 ) ;  <NL> g . set clip ( x , y - 5 , 10 , 20 ) ;  <NL> g . draw line ( x , y - 5 , x , y + 7 ) ;  <NL>  }  COM: <s> draw caret standard color is red 255 0 0 </s>

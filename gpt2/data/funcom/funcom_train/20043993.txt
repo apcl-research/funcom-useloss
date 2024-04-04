@@ -1,0 +1,1 @@
+TDAT: public void _ last ( ) {  <NL> try {  <NL> o obj . last ( ) ;  <NL>  } catch ( sql exception e ) {  <NL> log . println ( " exception occured : " ) ;  <NL> e . print stack trace ( log ) ;  <NL> t res . tested ( " last ( ) " , false ) ;  <NL> return ;  <NL>  }  <NL> t res . tested ( " last ( ) " , true ) ;  <NL>  }  COM: <s> places the cursor on the last row </s>

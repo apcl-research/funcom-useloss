@@ -1,0 +1,1 @@
+TDAT: public void test array is separator ( ) {  <NL> byte [ ] array = { 1 , 2 } ;  <NL> byte [ ] separator = { 1 , 2 } ;  <NL> byte [ ] [ ] expected results = {  <NL>  { } ,  <NL>  { } ,  <NL>  } ;  <NL> do tokenization test ( array , separator , expected results ) ;  <NL>  }  COM: <s> test for the unlikely but possible case where the array and the </s>

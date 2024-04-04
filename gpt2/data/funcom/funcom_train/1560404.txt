@@ -1,0 +1,1 @@
+TDAT: final public geo point max ( string label , geo function f , number value a , number value b ) {  <NL> algo function max algo = new algo function max ( cons , label , f , a , b ) ;  <NL> geo point maxpoint = algo . get point ( ) ;  <NL> return maxpoint ;  <NL>  } / / max ( geo function , a , b )  COM: <s> max function left right </s>

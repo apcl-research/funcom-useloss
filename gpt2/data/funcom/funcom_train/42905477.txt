@@ -1,0 +1,1 @@
+TDAT: private void bwexpand ( double [ ] out , int out p , double [ ] in , double coef , int length ) {  <NL>  <NL> double chirp = coef ;  <NL>  <NL> out [ out p + 0 ] = in [ 0 ] ;  <NL> for ( int i = 1 ; i < length ; i + + ) {  <NL> out [ out p + i ] = chirp * in [ i ] ;  <NL> chirp * = coef ;  <NL>  }  <NL>  }  COM: <s> lpc bandwidth expansion </s>

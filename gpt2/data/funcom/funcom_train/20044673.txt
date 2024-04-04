@@ -1,0 +1,1 @@
+TDAT: public void _ convert number to string ( ) {  <NL> double d value = 1 . 56 ;  <NL> int key = 15 ;  <NL>  <NL> string g string = o obj . convert number to string ( key , d value ) ;  <NL>  <NL> log . println ( " getting : " + g string ) ;  <NL> t res . tested ( " convert number to string " , g string ! = null ) ;  <NL>  }  COM: <s> tries to convert a number to a string </s>

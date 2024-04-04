@@ -1,0 +1,1 @@
+TDAT: public void _ get display directory ( ) {  <NL> required method ( " set display directory ( ) " ) ;  <NL>  <NL> string g dir = o obj . get display directory ( ) ;  <NL>  <NL> log . println ( " get dir ' " + g dir + " ' " ) ;  <NL>  <NL> t res . tested ( " get display directory ( ) " , dir . equals ( g dir ) ) ;  <NL>  }  COM: <s> gets the current directory </s>

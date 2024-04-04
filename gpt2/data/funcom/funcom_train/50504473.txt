@@ -1,0 +1,1 @@
+TDAT: public void save ( element config ) {  <NL> super . save ( config ) ;  <NL> ch . orcasys . jdom helper . set value ( config , " including create methods " , " " + including create methods ) ;  <NL> ch . orcasys . jdom helper . set value ( config , " including finder methods " , " " + including finder methods ) ;  <NL>  }  COM: <s> saves this task to an jdom element </s>

@@ -1,0 +1,1 @@
+TDAT: public patch create new patch ( ) {  <NL> sysex handler init = new sysex handler (  <NL>  " f0 41 10 3d 12 02 00 00 32 05 05 05 01 01 01 6e " +  <NL>  " 00 6e 28 7d 28 28 23 0f 00 31 64 04 00 08 0d 19 " +  <NL>  " 28 48 f7 " ) ;  <NL> return new patch ( init . to byte array ( ) , this ) ;  <NL>  } ;  COM: <s> creates new patch based on a sysex message obtained </s>

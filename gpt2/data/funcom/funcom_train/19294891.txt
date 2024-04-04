@@ -1,0 +1,1 @@
+TDAT: private j radio button get ec2check box ( ) {  <NL> if ( ec2check box1 = = null ) {  <NL> ec2check box1 = new j radio button ( ) ;  <NL> ec2check box1 . set selected ( false ) ;  <NL> ec2check box1 . set text ( " beta * y ( t - 1 ) + beta _ d * d ( t - 1 ) " ) ;  <NL>  }  <NL> return ec2check box1 ;  <NL>  }  COM: <s> this method initializes j check box1 </s>

@@ -1,0 +1,1 @@
+TDAT: private void update hash ( final long discs ) {  <NL> long tmp = discs ;  <NL> while ( tmp ! = 0l ) {  <NL> int sq = bit board . find first one ( tmp ) ;  <NL> tmp & = bit board . clear _ mask [ sq ] ;  <NL> hash key ^ = hashing . hash _ keys [ 0 ] [ sq ] ;  <NL> hash key ^ = hashing . hash _ keys [ 1 ] [ sq ] ;  <NL>  }  <NL>  }  COM: <s> update the hash key </s>

@@ -1,0 +1,1 @@
+TDAT: public void set arc type ( int type ) {  <NL> if ( type ! = open & & type ! = chord & & type ! = pie ) {  <NL>  / / awt . 205 = invalid type of arc : { 0 }  <NL> throw new illegal argument exception ( messages . get string ( " awt . 205 " , type ) ) ; / / $ non - nls - 1 $  <NL>  }  <NL> this . type = type ;  <NL>  }  COM: <s> sets the arc type either </s>

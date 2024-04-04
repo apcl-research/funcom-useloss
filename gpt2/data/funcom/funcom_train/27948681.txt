@@ -1,0 +1,1 @@
+TDAT: public fact create dynamic fact ( string name , jude object arguments [ ] ) {  <NL> relation r = get relation ( name ) ;  <NL> if ( r = = null ) {  <NL> system . err . println ( " relation " + name + " doesn ' t exist . " ) ;  <NL>  } else <NL> r = r . get dynamic ( ) ;  <NL>  <NL> return create fact ( r , arguments ) ;  <NL>  }  COM: <s> p create and register a fact </s>

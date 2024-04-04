@@ -1,0 +1,1 @@
+TDAT: private void shift down ( int index ) {  <NL> if ( ( index < = 0 ) || ( index > = element count ) ) return ;  <NL> system . arraycopy ( elements , index , elements , index - 1 , element count - index ) ;  <NL>  / / clean up for gc <NL> elements [ element count - 1 ] = null ;  <NL>  } / / - - shift down  COM: <s> shifts all elements at the specified index to down by 1 </s>

@@ -1,0 +1,1 @@
+TDAT: private boolean check symmetry ( correlation matrix mat corr ) {  <NL> int i , j ; / / loop control variables <NL>  <NL> for ( i = 0 ; i < 7 ; i + + )  <NL> for ( j = i + 1 ; j < 7 ; j + + ) {  <NL> if ( mat corr . get elem ( i , j ) ! = mat corr . get elem ( j , i ) )  <NL> return false ;  <NL>  }  <NL> return true ;  <NL>  }  COM: <s> check matrix for symmetry </s>

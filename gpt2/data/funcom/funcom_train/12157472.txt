@@ -1,0 +1,1 @@
+TDAT: public string get sat zoom in ( string t , int offx , int offy ) {  <NL> g geo string g string = new g geo string ( t , offx , offy ) ;  <NL> g geo string zoom in string = this . calc . get zoom in geo string ( g string ) ;  <NL> return get main sat images list ( zoom in string ) ;  <NL>  }  COM: <s> return satellite images for zoom in operation </s>

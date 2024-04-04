@@ -1,0 +1,1 @@
+TDAT: public void start element ( string namespace uri , string local name , string qualified name , attributes attributes ) {  <NL> if ( local name . equals ( " method call " ) ) { method = true ; param = false ; }  <NL> if ( local name . equals ( " param " ) ) { param = true ; method = false ; }  <NL>  }  COM: <s> receive notification of the start of an element </s>

@@ -1,0 +1,1 @@
+TDAT: public void translate ( int x , int y ) {  <NL> transform swt transform = new transform ( this . gc . get device ( ) ) ;  <NL> this . gc . get transform ( swt transform ) ;  <NL> swt transform . translate ( x , y ) ;  <NL> this . gc . set transform ( swt transform ) ;  <NL> swt transform . dispose ( ) ;  <NL>  }  COM: <s> applies a translation </s>

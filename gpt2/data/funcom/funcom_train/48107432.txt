@@ -1,0 +1,1 @@
+TDAT: private void test ( ) {  <NL>  / / system . out . println ( " reading " + ir sensors . get reading ( left _ rear ) ) ;  <NL>  / / test sonar reading ( ) ;  <NL>  / / this . test ir ( ) ;  <NL>  / / this . set led difference ( ir sensors . get reading ( left _ front ) - ir sensors . get reading ( left _ rear ) ) ;  <NL>  }  COM: <s> empty function to run arbitrary tests </s>

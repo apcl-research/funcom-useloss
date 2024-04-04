@@ -1,0 +1,1 @@
+TDAT: public int compare to ( cml element elem ) {  <NL> string this s = cml util . get canonical string ( this ) ;  <NL> string elem s = cml util . get canonical string ( elem ) ;  <NL> int i = this s . compare to ( elem s ) ;  <NL> return ( i = = 0 ) ? 0 : ( ( i < 0 ) ? - 1 : 1 ) ;  <NL>  }  COM: <s> compares elements for identity </s>

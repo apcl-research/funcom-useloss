@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> return get class ( ) . get name ( ) + " [ x1 = " + x1 + " , y1 = " + y1 + " , x2 = " + x2 <NL>  + " , y2 = " + y2 + " ] @ " + this . get direction ( ) + " with width : "  <NL>  + width + " and end angles : ( " + angle1 + " ; " + angle2 + " ) " ;  <NL>  }  COM: <s> returns a string representation of this grid end cap wide line </s>

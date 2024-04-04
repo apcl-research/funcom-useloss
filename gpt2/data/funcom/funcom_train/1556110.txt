@@ -1,0 +1,1 @@
+TDAT: public boolean hit slider ( int x , int y ) {  <NL>  / / changed : we want click on fixed slider to move the dot to that point <NL>  / / return ! number . is slider fixed ( ) & & line . intersects ( x - 2 , y - 2 , 4 , 4 ) ;  <NL> return line . intersects ( x - 2 , y - 2 , 4 , 4 ) ;  <NL>  }  COM: <s> returns true if the slider line was hit false for fixed sliders </s>

@@ -1,0 +1,1 @@
+TDAT: public void set icon ( ) {  <NL> icon = ( image filename ! = null ) ? new image icon ( image filename ) : get default icon ( ) ;  <NL> thumbnail icon = new image icon ( image effects . create round border image ( image effects . create scaled image ( icon . get image ( ) , 40 , - 1 ) ) ) ;  <NL>  }  COM: <s> sets the default icon used by the player </s>

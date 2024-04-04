@@ -1,0 +1,1 @@
+TDAT: public void resize ( int new size ) {  <NL> worker [ ] new workers = new worker [ new size ] ;  <NL> int len = workers . length ;  <NL> if ( new size < len ) {  <NL> len = new size ;  <NL>  }  <NL> system . arraycopy ( workers , 0 , new workers , 0 , len ) ;  <NL> workers = new workers ;  <NL>  }  COM: <s> resize the queue </s>

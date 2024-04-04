@@ -1,0 +1,1 @@
+TDAT: public string convert xml ( string xml , servlet context context ) {  <NL>  / / return dom4j utils . localize xml ( xml . replace first ( " < \\ ? xml . + version = . + encoding = . + \\ ? > " , " " ) , " item record " ) ;  <NL> return dom4j utils . localize xml ( xml , " item record " ) ;  <NL>  }  COM: <s> performs xml conversion from adn to adn localized </s>

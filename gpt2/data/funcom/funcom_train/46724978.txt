@@ -1,0 +1,1 @@
+TDAT: protected void process window event ( window event e ) {  <NL> super . process window event ( e ) ;  <NL> if ( e . get id ( ) = = window event . window _ closing ) {  <NL> system . exit ( 0 ) ;  <NL>  } if ( e . get id ( ) = = window event . window _ activated ) {  <NL> e . get window ( ) . repaint ( ) ;  <NL>  }  <NL>  }  COM: <s> closes or repaints the window </s>

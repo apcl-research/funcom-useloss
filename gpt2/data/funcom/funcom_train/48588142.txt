@@ -1,0 +1,1 @@
+TDAT: public calendar event entry create quick add event ( string quick add content , person author , string domain name , string calendar id ) throws service exception , io exception , exception {  <NL> return create event ( null , quick add content , author , null , true , null , domain name , calendar id ) ;  <NL>  }  COM: <s> creates a quick add event </s>

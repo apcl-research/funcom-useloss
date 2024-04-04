@@ -1,0 +1,1 @@
+TDAT: public void set text ( string text ) {  <NL> if ( text ! = this . text <NL> || ( text ! = null & & ! text . equals ( this . text ) ) ) {  <NL> string old text = this . text ;  <NL> this . text = text ;  <NL> this . property change support . fire property change ( property . text . name ( ) , old text , text ) ;  <NL>  }  <NL>  }  COM: <s> sets the text of this label </s>

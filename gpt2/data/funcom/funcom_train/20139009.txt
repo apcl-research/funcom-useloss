@@ -1,0 +1,1 @@
+TDAT: public slider2d add slider2d ( string the name , int the x , int the y , int the w , int the h ) {  <NL> return add slider2d ( the name , 0 , the w , 0 , the h , 0 , 0 , the x , the y , the w , the h ) ;  <NL>  }  COM: <s> add a 2 d slider to control p5 </s>

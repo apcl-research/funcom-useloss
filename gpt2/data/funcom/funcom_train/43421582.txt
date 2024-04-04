@@ -1,0 +1,1 @@
+TDAT: public void add task ( task task ) {  <NL> tasks . add ( task ) ;  <NL> if ( ! ( task instanceof regular task ) ) modified = true ;  <NL> task . add property change listener ( this ) ;  <NL> property change support . fire property change ( new property change event ( this , " tasks " , null , tasks ) ) ;  <NL>  }  COM: <s> adds new task to plan of day </s>

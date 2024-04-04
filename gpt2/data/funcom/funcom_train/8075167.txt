@@ -1,0 +1,1 @@
+TDAT: protected void init probs ( ) {  <NL> m _ end at sub prob = 0 . 05 ;  <NL> m _ end at gap prob = 0 . 1 ;  <NL> m _ gap start prob = 0 . 05 ;  <NL> m _ gap extend prob = 0 . 5 ;  <NL> m _ gap end prob = 0 . 4 ;  <NL> m _ sub prob = 0 . 85 ;  <NL> m _ match prob = 0 . 9 ;  <NL>  }  COM: <s> initialize the probabilities to some startup values </s>

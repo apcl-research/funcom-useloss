@@ -1,0 +1,1 @@
+TDAT: public void set start finish ( date start , date finish ) {  <NL> date olds = this . start , oldf = this . finish ;  <NL>  <NL> this . start = start ;  <NL> this . finish = finish ;  <NL> if ( olds = = null || ! olds . equals ( this . start ) || oldf = = null || ! oldf . equals ( this . finish ) )  <NL> this . post update ( ) ;  <NL>  }  COM: <s> set the start date </s>

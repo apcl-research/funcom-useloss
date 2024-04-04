@@ -1,0 +1,1 @@
+TDAT: private resource add linked data ( resource resource ) {  <NL>  / / sindice <NL> string uri = sindice api manager . perform term search ( new string [ ] { machine name } , " and " , null ) ;  <NL> if ( uri ! = null ) {  <NL> resource . add property ( rdfs . see also , uri ) ;  <NL>  }  <NL> return resource ;  <NL>  }  COM: <s> adds linked data to the specified resource </s>

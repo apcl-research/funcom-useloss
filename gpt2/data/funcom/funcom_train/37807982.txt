@@ -1,0 +1,1 @@
+TDAT: private string internal part ( string room , string user ) {  <NL> string key = multi value hash map . key ( room ) ;  <NL> multi value hash map . remove ( _ rooms , key , user ) ;  <NL>  <NL> if ( multi value hash map . size ( _ rooms , key ) = = 0 ) {  <NL> return key ;  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> part method duplcate used internally by this class </s>

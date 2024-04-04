@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> string s = this . get class ( ) . get name ( ) ;  <NL> int k = s . last index of ( " . " ) ;  <NL> if ( k ! = - 1 )  <NL> s = s . substring ( k + 1 ) ;  <NL>  <NL> s = s + " mean = " + get mean ( ) + " variance = " + get variance ( ) ;  <NL> return ( s ) ;  <NL>  }  COM: <s> returns a string describing the distribution </s>

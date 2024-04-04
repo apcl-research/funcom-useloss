@@ -1,0 +1,1 @@
+TDAT: private void setup map ( ) {  <NL> for ( int i = 0 ; get child count ( ) > i ; i + + ) {  <NL> fmm tree node l node = ( fmm tree node ) get child at ( i ) ;  <NL> this . get node map ( ) . put ( l node . get fmm object ( ) , l node ) ;  <NL>  }  <NL>  }  COM: <s> builds the map for node object to fmm object mapping </s>

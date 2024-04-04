@@ -1,0 +1,1 @@
+TDAT: public float bezier point ( float a , float b , float c , float d , float t ) {  <NL> float t1 = 1 . 0f - t ;  <NL> return a * t1 * t1 * t1 + 3 * b * t * t1 * t1 + 3 * c * t * t * t1 + d * t * t * t ;  <NL>  }  COM: <s> evalutes quadratic bezier at point t for points a b c d </s>

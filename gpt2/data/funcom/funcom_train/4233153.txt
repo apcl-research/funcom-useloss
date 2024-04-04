@@ -1,0 +1,1 @@
+TDAT: private void hamming ( ) {  <NL> int n = window . length ;  <NL> double pi = math . pi ;  <NL> for ( int n = 0 ; n < window . length ; n + + ) {  <NL> window [ n ] = 0 . 54 - ( 0 . 46 * math . cos ( 2 * pi * n / ( n - 1 ) ) ) ;  <NL>  }  <NL>  }  COM: <s> create a hamming window </s>

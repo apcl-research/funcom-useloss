@@ -1,0 +1,1 @@
+TDAT: public void copy from ( read set a set ) {  <NL> if ( a set . size > this . size ) {  <NL> elements = new transaction [ a set . size ] ;  <NL> this . size = a set . size ;  <NL>  }  <NL> system . arraycopy ( a set . elements , 0 , this . elements , 0 , a set . next ) ;  <NL> this . next = a set . next ;  <NL>  }  COM: <s> initialize one object from another </s>

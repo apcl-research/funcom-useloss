@@ -1,0 +1,1 @@
+TDAT: public boolean set scan mode ( int mode , int duration ) {  <NL> if ( get state ( ) ! = state _ on ) return false ;  <NL> try {  <NL> return m service . set scan mode ( mode , duration ) ;  <NL>  } catch ( remote exception e ) { log . e ( tag , " " , e ) ; }  <NL> return false ;  <NL>  }  COM: <s> set the bluetooth scan mode of the local bluetooth adapter </s>

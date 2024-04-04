@@ -1,0 +1,1 @@
+TDAT: public p image get ( ) {  <NL>  / *  <NL> p image outgoing = new p image ( width , height ) ;  <NL>  ( ( buffered image ) image ) . get rgb ( 0 , 0 , width , height ,  <NL> outgoing . pixels , 0 , width ) ;  <NL> return outgoing ;  <NL>  * /  <NL> return get ( 0 , 0 , width , height ) ;  <NL>  }  COM: <s> grab a copy of the current pixel buffer </s>

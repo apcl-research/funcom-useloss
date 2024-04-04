@@ -1,0 +1,1 @@
+TDAT: public void write ( byte [ ] b , int off , int len ) {  <NL> if ( ! within limit ) return ;  <NL> within limit = ( count + len < max size to buffer ) ;  <NL> if ( within limit )  <NL> super . write ( b , off , len ) ;  <NL> else <NL> reset ( ) ; / / discard all input so far : it would become too large <NL>  }  COM: <s> write to the stream </s>

@@ -1,0 +1,1 @@
+TDAT: public void add pre order ( list < dt node > list , set < integer > seen ) {  <NL> if ( seen . contains ( this ) ) return ;  <NL> seen . add ( number ) ;  <NL> list . add ( this ) ;  <NL> for ( dt node n : children . values ( ) )  <NL> n . add topological order ( list , seen ) ;  <NL>  }  COM: <s> the code add pre order code method recursively adds this node and its </s>

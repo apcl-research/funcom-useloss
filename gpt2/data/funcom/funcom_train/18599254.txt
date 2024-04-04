@@ -1,0 +1,1 @@
+TDAT: public void end ( ) {  <NL>  _ lock . lock ( ) ;  <NL> try {  <NL>  _ writer . close ( ) ;  <NL>  }  <NL> catch ( io exception e ) {  <NL> log . error ( geonet . spatial , " error closing spatial index : " + e . get message ( ) ) ;  <NL> e . print stack trace ( ) ;  <NL>  }  <NL> finally {  <NL>  _ lock . unlock ( ) ;  <NL>  }  <NL>  }  COM: <s> closes spatial index </s>

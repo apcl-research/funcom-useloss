@@ -1,0 +1,1 @@
+TDAT: public void set url ( url url _ arg ) {  <NL> url1 = url _ arg ;  <NL>  <NL> try {  <NL> if ( url1 ! = null )  <NL> ds editor pane1 . set page ( url1 ) ;  <NL>  } catch ( exception exception1 ) {  <NL> debug ( 0 , " problem with the url : " + url1 ) ;  <NL> exception1 . print stack trace ( ) ;  <NL>  }  <NL>  } / / set url ( )  COM: <s> change the url of the document </s>

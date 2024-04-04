@@ -1,0 +1,1 @@
+TDAT: public double get item sub total for tax ( ) {  <NL> return ( get base price ( ) * quantity ) + order read helper . calc item adjustments ( new double ( quantity ) , new double ( get base price ( ) ) , this . get adjustments ( ) , true , false , false , true , false ) ;  <NL>  }  COM: <s> returns the total line price for tax calculation purposes </s>

@@ -1,0 +1,1 @@
+TDAT: private void send message ( byte [ ] data ) throws io exception {  <NL> byte [ ] buf = new byte [ length _ max _ digits + data . length ] ;  <NL> write length ( data . length , buf ) ;  <NL> system . arraycopy ( data , 0 , buf , length _ max _ digits , data . length ) ;  <NL> out . write ( buf ) ;  <NL> out . flush ( ) ;  <NL>  }  COM: <s> function for sending messages </s>

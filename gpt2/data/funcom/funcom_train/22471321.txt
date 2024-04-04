@@ -1,0 +1,1 @@
+TDAT: static public date last year ( ) {  <NL> gregorian calendar g = new gregorian calendar ( ) ;  <NL> date last year = date tools . encode date ( g . get ( calendar . day _ of _ month ) , g . get ( calendar . month ) + 1 , g . get ( calendar . year ) - 1 ) ;  <NL> return last year ;  <NL>  }  COM: <s> returns the date exactly 1 year ago not including time of the day </s>

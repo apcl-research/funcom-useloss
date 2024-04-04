@@ -1,0 +1,1 @@
+TDAT: protected void handle font ( ) {  <NL> add text ( ) ;  <NL> pos + = 6 ; / / skip over ' < font '  <NL> int end = next non literal ( ' > ' ) ;  <NL> string s = new string ( msg , pos , end - pos ) ;  <NL> add ( new message element ( message element . font , s ) ) ;  <NL> pos = end ;  <NL>  }  COM: <s> handler for each type of data </s>

@@ -1,0 +1,1 @@
+TDAT: public void set url mapping id ( object id url map id ) {  <NL> if ( ! url map id . equals ( this . url map id ) ) {  <NL> url map = null ;  <NL> object old = this . url map id ;  <NL> this . url map id = url map id ;  <NL> fire property change ( " url mapping id " , old , url map id ) ;  <NL>  }  <NL>  }  COM: <s> sets the object id of the url mapping </s>

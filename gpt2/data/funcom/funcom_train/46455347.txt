@@ -1,0 +1,1 @@
+TDAT: public void set custom marker ( shape marker ) {  <NL> custom marker = marker ;  <NL> if ( custom marker = = null ) {  <NL> marker shape = square ;  <NL> custom marker = new rectangle2d . double ( - marker size / 2 , - marker size / 2 , marker size , marker size ) ;  <NL>  } else {  <NL> marker shape = custom ;  <NL>  }  <NL>  }  COM: <s> sets a custom marker shape </s>

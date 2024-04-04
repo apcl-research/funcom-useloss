@@ -1,0 +1,1 @@
+TDAT: public r visit jml type clause decl ( final jml type clause decl node , final p p ) {  <NL> final p tmp p = pre visit ( node , p ) ;  <NL> final r r = scan ( node . modifiers , tmp p ) ;  <NL> return scan and reduce ( node . decl , tmp p , r ) ;  <NL>  }  COM: <s> visiting jml type clause declaration node </s>

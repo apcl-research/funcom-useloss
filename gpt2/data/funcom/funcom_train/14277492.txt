@@ -1,0 +1,1 @@
+TDAT: public void set option raw ( byte code , byte [ ] buf ) {  <NL> if ( buf = = null ) { / / clear parameter <NL> this . remove option ( code ) ;  <NL>  } else {  <NL> this . set option ( new dhcp option ( code , buf ) ) ; / / exception here if code = 0 or code = - 1 <NL>  }  <NL>  }  COM: <s> sets the option specified for the option </s>

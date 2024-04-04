@@ -1,0 +1,1 @@
+TDAT: public boolean delete list ( long row id ) {  <NL> boolean ret = m db . delete ( table _ list , list _ key _ rowid + " = " + row id , null ) > 0 ;  <NL> ret & = m db . delete ( table _ items , item _ key _ rowid + " = " + row id , null ) > 0 ;  <NL> return ret ;  <NL>  <NL>  }  COM: <s> delete the list with the given row id </s>

@@ -1,0 +1,1 @@
+TDAT: private string buffer remove commas at end ( string buffer sql ) {  <NL> int i = sql . length ( ) - 3 ;  <NL> while ( i > 0 & & ( sql . char at ( i ) = = ' ' || sql . char at ( i ) = = ' , ' ) )  <NL> i - - ;  <NL> sql = sql . replace ( i + 1 , sql . length ( ) - 2 , " " ) ;  <NL>  <NL> return sql ;  <NL>  }  COM: <s> remove symbols at the end of the script </s>

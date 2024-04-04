@@ -1,0 +1,1 @@
+TDAT: public void dump cache entries ( ) {  <NL> log . debug ( " dumping cache entries " ) ;  <NL> for ( memory element descriptor me = first ; me ! = null ; me = me . next ) {  <NL> log . debug ( " dump cache entries > key = " + me . ce . get key ( ) + " , val = " + me . ce . get val ( ) ) ;  <NL>  }  <NL>  }  COM: <s> dump the cache entries from first to list for debugging </s>

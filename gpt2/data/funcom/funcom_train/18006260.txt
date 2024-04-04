@@ -1,0 +1,1 @@
+TDAT: public chunk set background ( color color , float extra left , float extra bottom , float extra right , float extra top ) {  <NL> return set attribute ( background , new object [ ] { color , new float [ ] { extra left , extra bottom , extra right , extra top } } ) ;  <NL>  }  COM: <s> sets the color and the size of the background code chunk code </s>

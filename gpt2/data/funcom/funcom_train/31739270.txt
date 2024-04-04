@@ -1,0 +1,1 @@
+TDAT: public void set user game ( user impl user , game impl game ) {  <NL> synchronized ( user games ) {  <NL> if ( game ! = null ) {  <NL> user games . put ( user , game ) ;  <NL> listener list . dispatch to user ( user , new user game dispatcher ( game ) ) ;  <NL>  } else <NL> user games . remove ( user ) ;  <NL>  }  <NL>  }  COM: <s> set the current game of a user </s>

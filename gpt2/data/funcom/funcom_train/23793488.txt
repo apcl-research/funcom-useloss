@@ -1,0 +1,1 @@
+TDAT: public attempt int ( operand result , operand address , operand offset , operand old value , operand new value , field operand field , operand guard ) {  <NL> super ( result , address , offset , old value , new value , field , guard ) ;  <NL>  }  COM: <s> constructor for attempt int </s>

@@ -1,0 +1,1 @@
+TDAT: public void clear rect ( int x , int y , int width , int height ) {  <NL> paint paint = gc . get paint ( ) ;  <NL> gc . set color ( gc . get background ( ) ) ;  <NL> fill rect ( x , y , width , height ) ;  <NL> gc . set paint ( paint ) ;  <NL>  }  COM: <s> clears the specified rectangle by filling it with the background </s>

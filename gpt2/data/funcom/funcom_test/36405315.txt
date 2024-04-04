@@ -1,0 +1,1 @@
+TDAT: private void apply par properties ( style with properties style , before after ba ) {  <NL> palette . get page sc ( ) . apply page break ( style , true , ba ) ;  <NL> ba . add ( " " , " \\par " ) ;  <NL> apply line spacing ( style , ba ) ;  <NL> apply margins ( style , ba ) ;  <NL>  }  COM: <s> p apply all paragraph properties </s>

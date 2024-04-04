@@ -1,0 +1,1 @@
+TDAT: public void unset user ( ) {  <NL> this . user = new contact ( ) ;  <NL> north widget . disable actions ( ) ;  <NL> east widget . disable actions ( ) ;  <NL> home panel . get login ( ) . populate name list box ( ) ;  <NL> home panel . get login ( ) . setup name detail panel ( " " , " " , false ) ;  <NL>  }  COM: <s> removes any current user assigned to this session </s>

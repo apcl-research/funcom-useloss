@@ -1,0 +1,1 @@
+TDAT: public wire list get atomic wires ( ) {  <NL> wire list ret _ list = new wire list ( ) ;  <NL> if ( is atomic ( ) )  <NL> ret _ list . add ( this ) ;  <NL> else <NL> for ( int i = value _ array . length - 1 ; i > = 0 ; i - - )  <NL> ret _ list . add ( get atomic wire ( i ) ) ;  <NL> return ret _ list ;  <NL>  }  COM: <s> this blasts a wire into its atomic constituents </s>

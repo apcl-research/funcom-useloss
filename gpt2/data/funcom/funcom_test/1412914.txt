@@ -1,0 +1,1 @@
+TDAT: public void extend filter ( string filter _ type , hash set < string > filter _ values ) {  <NL> hash set < string > filter = filters . get ( filter _ type ) ;  <NL> for ( string s : filter _ values ) {  <NL> if ( ! filter . contains ( s ) )  <NL> filter . add ( s ) ;  <NL> else <NL> filter . remove ( s ) ;  <NL>  }  <NL>  }  COM: <s> adds a new argument to the filter </s>

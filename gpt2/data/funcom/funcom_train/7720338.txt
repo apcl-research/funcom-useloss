@@ -1,0 +1,1 @@
+TDAT: public void start diff ( string old jar , string new jar ) throws diff exception {  <NL> element tmp = doc . create element ns ( xml _ uri , " diff " ) ;  <NL> tmp . set attribute ( " old " , old jar ) ;  <NL> tmp . set attribute ( " new " , new jar ) ;  <NL> doc . append child ( tmp ) ;  <NL> current node = tmp ;  <NL>  }  COM: <s> start the diff </s>

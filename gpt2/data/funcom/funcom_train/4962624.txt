@@ -1,0 +1,1 @@
+TDAT: public boolean are adjacent ( edge e1 , edge e2 ) {  <NL> vertex [ ] ev1 = end vertices ( e1 ) ;  <NL> vertex [ ] ev2 = end vertices ( e2 ) ;  <NL> return ( ev1 [ 0 ] = = ev2 [ 0 ] || ev1 [ 0 ] = = ev2 [ 1 ] || <NL> ev1 [ 1 ] = = ev2 [ 0 ] || ev1 [ 1 ] = = ev2 [ 1 ] ) ;  <NL>  }  COM: <s> built on end vertices </s>

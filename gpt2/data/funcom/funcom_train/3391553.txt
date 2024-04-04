@@ -1,0 +1,1 @@
+TDAT: protected void nav link previous ( ) {  <NL> if ( prev = = null ) {  <NL> print text ( " doclet . prev _ class " ) ;  <NL>  } else {  <NL> print link ( new link info impl ( link info impl . context _ class , prev , " " ,  <NL> configuration . get text ( " doclet . prev _ class " ) , true ) ) ;  <NL>  }  <NL>  }  COM: <s> print previous package link </s>

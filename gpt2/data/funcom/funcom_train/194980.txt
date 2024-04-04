@@ -1,0 +1,1 @@
+TDAT: protected string get new id for id ( string old id ) {  <NL> string new id = ( string ) ( this . old idnew id map . get ( old id ) ) ;  <NL> if ( new id = = null ) {  <NL> new id = id gen . get id ( ) ;  <NL> this . old idnew id map . put ( old id , new id ) ;  <NL>  }  <NL>  <NL> return new id ;  <NL>  }  COM: <s> for subclasses to get a new id </s>

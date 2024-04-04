@@ -1,0 +1,1 @@
+TDAT: public void test hash code ( ) {  <NL> assert true ( " m1a . hash code = = m2a . hash code ( ) " ,  <NL> m1a . hash code ( ) = = m1b . hash code ( ) ) ;  <NL> assert true ( " m1a . hash code ! = m2 . hash code ( ) " ,  <NL> m1a . hash code ( ) ! = m2 . hash code ( ) ) ;  <NL>  }  COM: <s> some tests for the hash code implementation </s>

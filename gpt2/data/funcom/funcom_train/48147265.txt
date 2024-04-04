@@ -1,0 +1,1 @@
+TDAT: public void set parameters ( double x0 , double x1 , double s , double y0 , double y1 , double t ) {  <NL> set scale ( x0 , x1 , y0 , y1 ) ;  <NL> x step = s ; y step = t ;  <NL> x min = x0 ; x max = x1 ; y min = y0 ; y max = y1 ;  <NL>  }  COM: <s> this method sets the parameters the partitions of the intervals </s>

@@ -1,0 +1,1 @@
+TDAT: private void add to node edge map ( map < n , set < e > > current map , n node , e edge ) {  <NL> set < e > edge set = current map . get ( node ) ;  <NL> if ( edge set = = null ) {  <NL> current map . put ( node , edge set = create small edge set ( ) ) ;  <NL>  }  <NL> edge set . add ( edge ) ;  <NL>  }  COM: <s> adds an edge to a given node to edgeset mapping </s>

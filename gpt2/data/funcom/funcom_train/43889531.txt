@@ -1,0 +1,1 @@
+TDAT: private void insert row ( int id , string description ) throws exception {  <NL> execute ( " insert into " + test _ table _ name + " ( " + id _ column _ name + " , "  <NL>  + description _ column _ name + " ) values ( " + id + " , ' " + description + " ' ) " ) ;  <NL>  }  COM: <s> insert a row into the test table </s>

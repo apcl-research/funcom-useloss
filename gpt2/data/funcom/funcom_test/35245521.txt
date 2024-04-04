@@ -1,0 +1,1 @@
+TDAT: public int get total copy books ( ) throws sql exception {  <NL> callable statement cs = dc . get connection ( ) . prepare call ( " { call get total copy books ( ) } " ) ;  <NL> result set rs = cs . execute query ( ) ;  <NL> if ( rs . next ( ) ) {  <NL> return rs . get int ( " number copies " ) ;  <NL>  }  <NL> return 0 ;  <NL>  }  COM: <s> get total of copies book </s>

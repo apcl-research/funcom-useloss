@@ -1,0 +1,1 @@
+TDAT: public void test ignored ops ( ) {  <NL> test same ( " function foo ( ) { this . length - - } " ) ;  <NL> test same ( " function foo ( ) { this . length + + } " ) ;  <NL> test same ( " function foo ( ) { this . length + = 5 } " ) ;  <NL> test same ( " function foo ( ) { this . length - = 5 } " ) ;  <NL>  }  COM: <s> ops that should be ignored </s>

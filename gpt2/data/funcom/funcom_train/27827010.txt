@@ -1,0 +1,1 @@
+TDAT: protected void print concept ref ( concept concept ) throws kaon exception {  <NL> m _ xml writer . open tag indent ( namespaces . owlx _ ns + " class " , true ) ;  <NL> m _ xml writer . print attribute uri ( namespaces . owlx _ ns + " name " , concept . get uri ( ) ) ;  <NL> m _ xml writer . close last tag ( ) ;  <NL>  }  COM: <s> prints the reference to a concept </s>

@@ -1,0 +1,1 @@
+TDAT: public void set position ( int pos ) {  <NL> if ( tm . aci . get begin index ( ) > pos || maxpos < pos ) {  <NL>  / / awt . 33 = index is out of range <NL> throw new illegal argument exception ( messages . get string ( " awt . 33 " ) ) ; / / $ non - nls - 1 $  <NL>  }  <NL> position = pos ;  <NL>  }  COM: <s> sets the new position of this line break measurer </s>

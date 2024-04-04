@@ -1,0 +1,1 @@
+TDAT: public void clear result area ( ) {  <NL> try {  <NL> get result area ( ) . get document ( ) .  <NL> remove ( 0 ,  <NL> get result area ( ) . get document ( ) .  <NL> get length ( ) ) ;  <NL>  } catch ( bad location exception ex ) {  <NL> logger . log error (  <NL>  " failed to clear the console " , ex ) ;  <NL>  }  <NL>  }  COM: <s> clears the result area </s>

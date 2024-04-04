@@ -1,0 +1,1 @@
+TDAT: public void sub task ( string name ) {  <NL> string text ;  <NL> if ( f task name . length ( ) = = 0 )  <NL> text = name ;  <NL> else <NL> text = j face resources . format (  <NL>  " set _ sub task " , new object [ ] { f task name , name } ) ; / / $ non - nls - 1 $  <NL> set message ( text ) ;  <NL>  }  COM: <s> notifies that a subtask of the main task is beginning </s>

@@ -1,0 +1,1 @@
+TDAT: public void transform ( int a , int b , int c , int d , int e , int f ) {  <NL> stroke path ( ) ;  <NL> end text ( ) ;  <NL> append ( a ) . append ( b ) . append ( c ) ;  <NL> append ( d ) . append ( e ) . append ( f ) ;  <NL> append ( " cm " ) ;  <NL>  }  COM: <s> modify the current transformation matrix ctm by using the supplied matrix </s>

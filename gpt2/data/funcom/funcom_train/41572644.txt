@@ -1,0 +1,1 @@
+TDAT: public boolean is label used ( string label ) {  <NL> for ( int i = context . size ( ) - 1 ; i > = 0 ; i - - ) {  <NL> object s = context . get ( i ) ;  <NL> if ( s instanceof labeled stmt & &  <NL> label . equals ( ( ( labeled stmt ) s ) . get label ( ) ) )  <NL> return true ;  <NL>  }  <NL> return false ;  <NL>  }  COM: <s> returns true if a </s>

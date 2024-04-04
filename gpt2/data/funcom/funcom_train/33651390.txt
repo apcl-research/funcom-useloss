@@ -1,0 +1,1 @@
+TDAT: public cursor fetch inactive billarms ( ) {  <NL> return m db . query ( database _ table , new string [ ] { key _ rowid , key _ bill _ amount ,  <NL> key _ billarm _ date , key _ icons , key _ active } , key _ active + " = 0 " ,  <NL> null , null , null , key _ billarm _ date ) ;  <NL>  }  COM: <s> return a cursor over the list of inactive billarms in the database </s>

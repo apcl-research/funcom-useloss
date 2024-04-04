@@ -1,0 +1,1 @@
+TDAT: public void test jade service set get jndi name ( ) {  <NL> jade service jade service = new jade service ( ) ;  <NL> final string jndi _ name = " foo " ;  <NL> jade service . set jndi name ( jndi _ name ) ;  <NL> string jndi name = jade service . get jndi name ( ) ;  <NL> assert equals ( jndi _ name , jndi name ) ;  <NL>  }  COM: <s> test access to jndi name </s>

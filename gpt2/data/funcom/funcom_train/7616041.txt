@@ -1,0 +1,1 @@
+TDAT: public point2d get start point ( ) {  <NL> double a = math . to radians ( get angle start ( ) ) ;  <NL> return new point2d . double ( get x ( ) + ( 1 . 0 + math . cos ( a ) ) * get width ( ) / 2 . 0 , get y ( )  <NL>  + ( 1 . 0 - math . sin ( a ) ) * get height ( ) / 2 . 0 ) ;  <NL>  }  COM: <s> gets the start point of the arc as a point2 d </s>

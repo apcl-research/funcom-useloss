@@ -1,0 +1,1 @@
+TDAT: public long degree ( int i ) {  <NL> if ( val . size ( ) = = 0 ) {  <NL> return 0 ; / / 0 or - 1 ? ;  <NL>  }  <NL> int j = ring . nvar - 1 - i ;  <NL> long deg = 0 ;  <NL> for ( exp vector e : val . key set ( ) ) {  <NL> long d = e . get val ( j ) ;  <NL> if ( d > deg ) {  <NL> deg = d ;  <NL>  }  <NL>  }  <NL> return deg ;  <NL>  }  COM: <s> degree in variable i </s>

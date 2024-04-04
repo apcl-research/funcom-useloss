@@ -1,0 +1,1 @@
+TDAT: public void paint ( graphics g ) {  <NL> g . draw image ( image , 0 , 0 , this ) ;  <NL> if ( selected ) {  <NL> g . set color ( color . yellow ) ;  <NL> g . draw rect ( 0 , 0 , image . get width ( this ) - 1 , image . get height ( this ) - 1 ) ;  <NL>  }  <NL>  }  COM: <s> paint the image and if the button is selected being moused </s>

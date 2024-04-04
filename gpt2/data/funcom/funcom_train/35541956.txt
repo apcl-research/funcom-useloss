@@ -1,0 +1,1 @@
+TDAT: public void test multiline statement ( ) {  <NL> parse and check (  <NL>  " 01 a " + ls <NL>  + " pic " + ls <NL>  + " x " + ls <NL>  + " value " + ls <NL>  + " spaces " + ls <NL>  + " . "  <NL>  ,  <NL>  " ( data _ item ( level 01 ) ( name a ) ( picture x ) ( value spaces ) ) " ) ;  <NL>  }  COM: <s> test a statement that extends on multiple lines </s>

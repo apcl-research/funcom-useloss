@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> return " ( user " + this . id + " , " + this . feedback score <NL>  + " , " + this . get star ( )  <NL>  + " \n ( rec : " + this . received feedbacks + " ) "  <NL>  + " \n ( left : " + this . left feedbacks + " ) ) " ;  <NL>  }  COM: <s> return a string representation of the class </s>

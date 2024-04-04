@@ -1,0 +1,1 @@
+TDAT: public void set html body ( string html body ) {  <NL> string new html body = html body ;  <NL>  / / new html body = new html body . replace all ( " \n " , " " ) ;  <NL>  / / new html body = new html body . replace all ( " + " , " " ) ;  <NL> this . html body = new html body ;  <NL> configure html text ( ) ;  <NL>  }  COM: <s> sets the html body </s>

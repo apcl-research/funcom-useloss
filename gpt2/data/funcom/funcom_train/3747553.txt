@@ -1,0 +1,1 @@
+TDAT: public string format ( string html text ) {  <NL> html text = convert one url type ( html text , " http : / / " ) ;  <NL> html text = convert one url type ( html text , " https : / / " ) ;  <NL> html text = convert one url type ( html text , " ftp : / / " ) ;  <NL> return html text ;  <NL>  }  COM: <s> p convert all urls in the text provided into html anchor links </s>

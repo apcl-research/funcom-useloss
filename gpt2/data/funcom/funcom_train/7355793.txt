@@ -1,0 +1,1 @@
+TDAT: public void set show cell tip origin ( point new value ) {  <NL> point old value = cell tip origin ;  <NL> cell tip origin = ( new value = = null ) ? new point ( 0 , 0 ) : ( point ) new value . clone ( ) ;  <NL> fire property change ( " cell tip origin " , old value , new value ) ;  <NL>  }  COM: <s> sets the origin of the cell tip tooltip relative to the origin of </s>

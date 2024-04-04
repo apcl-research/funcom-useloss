@@ -1,0 +1,1 @@
+TDAT: public void register package ( package pkg ) {  <NL> array list l = ( array list ) id to packages . get ( pkg . get id ( ) ) ;  <NL> if ( l = = null ) {  <NL> l = new array list ( ) ;  <NL>  }  <NL> l . add ( pkg ) ;  <NL> id to packages . put ( pkg . get id ( ) , l ) ;  <NL>  }  COM: <s> this method has to be called when new package is created </s>

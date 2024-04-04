@@ -1,0 +1,1 @@
+TDAT: public void mark as traversed at ( destinations destination to be added ) {  <NL> int [ ] _ dest marker = destination to be added . get destinations in ints ( ) ;  <NL> for ( int i = 0 ; i < ( system level + 1 ) ; i + + ) {  <NL> destinations [ i ] = destinations [ i ] | _ dest marker [ i ] ;  <NL>  }  <NL>  <NL>  }  COM: <s> every node has a destination identifier </s>

@@ -1,0 +1,1 @@
+TDAT: public void add phone ( string data , string type , string label ) {  <NL> if ( phone list = = null )  <NL> phone list = new array list < phone data > ( ) ;  <NL> phone data st = new phone data ( ) ;  <NL> st . data = data ;  <NL> st . type = type ;  <NL> st . label = label ;  <NL> phone list . add ( st ) ;  <NL>  }  COM: <s> add a phone info to phone list </s>

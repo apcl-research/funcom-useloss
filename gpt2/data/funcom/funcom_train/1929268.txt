@@ -1,0 +1,1 @@
+TDAT: protected void do set static field ( soot class cl , string name , type type , value value ) {  <NL> soot field ref field ref = scene . v ( ) . make field ref ( cl , name , type , true ) ;  <NL> cur units . add last ( jimple . v ( ) . new assign stmt ( jimple . v ( ) . new static field ref ( field ref ) , value ) ) ;  <NL>  }  COM: <s> set the value of a static field </s>

@@ -1,0 +1,1 @@
+TDAT: public dimension get preferred size ( ) {  <NL> if ( image ! = null ) {  <NL>  / * should just fit the image * /  <NL> return ( new dimension ( image . get width ( this ) , image . get height ( this ) ) ) ;  <NL>  } else { / * empty square as a placeholder * /  <NL> return new dimension ( 10 , 10 ) ;  <NL>  }  <NL>  }  COM: <s> preferred layout size </s>

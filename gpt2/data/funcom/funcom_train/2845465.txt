@@ -1,0 +1,1 @@
+TDAT: public int index of ( string role ) {  <NL>  / / return keys . index of ( role ) ;  <NL> for ( int i = 0 ; i < arguments . size ( ) ; i + + ) {  <NL> if ( ( ( argument ) arguments . get ( i ) ) . get role ( ) . equals ( role ) )  <NL> return i ;  <NL>  }  <NL> return - 1 ;  <NL>  }  COM: <s> returns the index of the first occurance of the specified role name </s>

@@ -1,0 +1,1 @@
+TDAT: public tip find ( set < map . entry < string , integer > > cnts ) {  <NL> list < ? extends tip > all = find all ( cnts ) ;  <NL> if ( all . is empty ( ) ) {  <NL> return null ;  <NL>  }  <NL> int r = new random ( ) . next int ( all . size ( ) ) ;  <NL> return all . get ( r ) ;  <NL>  }  COM: <s> finds appropriate tip of the date for given usage of projects </s>

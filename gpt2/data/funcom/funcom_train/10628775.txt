@@ -1,0 +1,1 @@
+TDAT: public void test int value positive1 ( ) {  <NL> byte a bytes [ ] = { 12 , 56 , 100 , - 2 , - 76 , 89 , 45 , 91 , 3 } ;  <NL> int res int = 1496144643 ;  <NL> int a number = new big integer ( a bytes ) . int value ( ) ;  <NL> assert true ( a number = = res int ) ;  <NL>  }  COM: <s> convert a positive big integer to an integer value </s>

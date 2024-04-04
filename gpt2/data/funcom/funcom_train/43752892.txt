@@ -1,0 +1,1 @@
+TDAT: public label model ( collection < t > objs , label provider < t > label provider ) {  <NL> this . objs = new array list < t > ( objs ) ;  <NL> this . label provider = label provider ;  <NL> for ( t o : objs ) {  <NL> label map . put ( label provider . get label ( o ) , o ) ;  <NL>  }  <NL>  }  COM: <s> provide a collection of objects and a label provider </s>

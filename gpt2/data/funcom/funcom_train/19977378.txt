@@ -1,0 +1,1 @@
+TDAT: public void parse ( property store properties ) {  <NL> list < string [ ] > data = properties . get list ( ) ;  <NL> for ( int i = 0 ; i < data . size ( ) ; i + + ) {  <NL> string [ ] s = data . get ( i ) ;  <NL> add ( s [ 0 ] , s [ 1 ] ) ;  <NL>  }  <NL>  }  COM: <s> this method acts as bridge between </s>

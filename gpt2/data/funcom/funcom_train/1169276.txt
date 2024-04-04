@@ -1,0 +1,1 @@
+TDAT: private j label get color label ( ) {  <NL> if ( color label = = null ) {  <NL> color label = new j label ( ) ;  <NL> color label . set text ( " color " ) ;  <NL> color label . set font ( new java . awt . font ( " segoe ui " , 0 , 14 ) ) ;  <NL>  }  <NL> return color label ;  <NL>  }  COM: <s> p getter for the field code color label code </s>

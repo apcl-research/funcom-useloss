@@ -1,0 +1,1 @@
+TDAT: public string get id string ( ) {  <NL>  / / todo jaanus : oh crap ! resolve this mess !  <NL> return ( map instanceof unstreamed map ) ? ( ( unstreamed map ) map ) . build path ( x , y , zoom )  <NL>  : ( ( streamed map ) map ) . build streamed path ( new map tile [ ] { this } ) ;  <NL>  }  COM: <s> not part of public api </s>

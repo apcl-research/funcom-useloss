@@ -1,0 +1,1 @@
+TDAT: private void draw line ( point start point , point end point ) {  <NL> graphic . draw line ( ( int ) start point . get x ( ) , ( int ) start point . get y ( ) ,  <NL>  ( int ) end point . get x ( ) , ( int ) end point . get y ( ) ) ;  <NL>  } / / draw line  COM: <s> draws a line between two given points </s>

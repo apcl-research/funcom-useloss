@@ -1,0 +1,1 @@
+TDAT: public void warn ( object msg , throwable t ) {  <NL> if ( is enabled ( level _ warn ) ) {  <NL> msg = ' [ ' + levels [ level _ warn ] + ' ] ' + string . value of ( msg ) + ' \n ' ;  <NL> write ( level _ warn , string . value of ( msg ) ) ;  <NL> write ( level _ warn , io utils . get stack trace ( t ) ) ;  <NL>  }  <NL>  }  COM: <s> write warning message </s>

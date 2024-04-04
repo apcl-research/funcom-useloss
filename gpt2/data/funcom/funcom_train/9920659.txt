@@ -1,0 +1,1 @@
+TDAT: public double play fit ( double [ ] params ) {  <NL> double decision = 0 ;  <NL> for ( int j = 0 ; j < this . terms . length ; j + + ) decision + = coefs [ j ] * this . terms [ j ] . get product ( params ) ;  <NL> decision + = coefs [ coefs . length - 1 ] ;  <NL> return decision ;  <NL>  }  COM: <s> returns what the decision the fit would predict given params </s>

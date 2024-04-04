@@ -1,0 +1,1 @@
+TDAT: public void init ( simple feature feature ) {  <NL> init ( ) ;  <NL> this . feature type = ( simple feature type ) feature . get type ( ) ;  <NL> for ( iterator i = feature . attributes ( ) . iterator ( ) ; i . has next ( ) ; ) {  <NL> this . attributes . add ( i . next ( ) ) ; / / todo : copy <NL>  }  <NL>  }  COM: <s> initialize the builder with the provided feature </s>

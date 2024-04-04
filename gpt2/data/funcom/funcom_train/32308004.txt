@@ -1,0 +1,1 @@
+TDAT: public temp callee reg ( int callee _ idx ) {  <NL> assert callee _ done ;  <NL> assert callee _ idx < callee _ regs . size ( ) & & callee _ idx > = 0 : " callee idx = " + callee _ idx + " size = " + callee _ regs . size ( ) ;  <NL> return ( temp ) callee _ regs . get ( callee _ idx ) ;  <NL>  }  COM: <s> return the register for this callee saved register index </s>

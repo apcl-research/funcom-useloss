@@ -1,0 +1,1 @@
+TDAT: public void print cmd line usage ( ) {  <NL> system . out . println (  <NL>  " usage : data stream retriever - url = . . . " ) ;  <NL> system . out . println (  <NL>  " defaults : - url = < currentdir > / data / data . txt " ) ;  <NL> system . out . println (  <NL>  " \n example : - url = file : / / / temp / my . txt " ) ;  <NL>  }  COM: <s> print the commands options </s>

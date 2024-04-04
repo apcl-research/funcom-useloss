@@ -1,0 +1,1 @@
+TDAT: public string get fourcc string ( string field name ) {  <NL> int f = get fourcc ( field name ) ;  <NL> byte [ ] b = { ( byte ) ( ( f > > 0 ) & 0xff ) , ( byte ) ( ( f > > 8 ) & 0xff ) ,  <NL>  ( byte ) ( ( f > > 16 ) & 0xff ) , ( byte ) ( ( f > > 24 ) & 0xff ) } ;  <NL> return new string ( b ) ;  <NL>  }  COM: <s> gets fourcc field string representation </s>

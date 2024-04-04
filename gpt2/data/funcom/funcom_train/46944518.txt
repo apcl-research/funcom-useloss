@@ -1,0 +1,1 @@
+TDAT: public void test update ( ) {  <NL> system . out . println ( " test update " ) ;  <NL>  <NL> for ( int n = 100 ; n < = 100000 ; n = n * 10 ) {  <NL> for ( double p = 0 . 00001 ; p < = 0 . 001 ; p = p * 10 ) {  <NL> for ( int d = 1 ; d < = 10000 ; d = d * 100 )  <NL> do test ( n , p , d ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> test random updates in the dynamic heap </s>

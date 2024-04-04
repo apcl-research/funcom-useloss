@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> return new to string builder ( this ) . append ( " minutes " , minutes )  <NL>  . append ( " hours " , hours ) . append ( " days " , days )  <NL>  . append ( " months " , months )  <NL>  . append ( " days of week " , days of week ) . to string ( ) ;  <NL>  }  COM: <s> convert to a nice string </s>

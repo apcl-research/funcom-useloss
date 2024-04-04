@@ -1,0 +1,1 @@
+TDAT: public object item ( int index ) {  <NL> try {  <NL> seek ( index ) ;  <NL> queue item qi = new queue item ( ) ;  <NL> qi . read ( _ headers ( ) ) ;  <NL> return qi ;  <NL>  } catch ( io exception x ) {  <NL> logger . log ( level . warning , " cannot read item " , x ) ;  <NL> return null ;  <NL>  }  <NL>  }  COM: <s> returns the item that is stored in a given slot </s>

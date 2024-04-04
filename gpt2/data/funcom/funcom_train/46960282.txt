@@ -1,0 +1,1 @@
+TDAT: private void initialize ( ) {  <NL> this . set size ( 640 , 640 ) ;  <NL> this . set layout ( new border layout ( ) ) ;  <NL> camera component = new hawking camera component ( ) ;  <NL> this . add ( camera component , border layout . center ) ;  <NL> this . add ( get button panel ( ) , border layout . south ) ;  <NL>  }  COM: <s> this method initializes this </s>

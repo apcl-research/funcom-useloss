@@ -1,0 +1,1 @@
+TDAT: public void input task ( task task ) {  <NL> if ( task ! = null ) {  <NL> if ( task . above threshold ( ) ) { / / set a threshold ?  <NL> report ( task . get sentence ( ) , true ) ; / / report input <NL> new tasks . add ( task ) ; / / wait to be processed in the next cycle <NL>  }  <NL>  }  <NL>  }  COM: <s> input task from some source </s>

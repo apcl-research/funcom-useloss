@@ -1,0 +1,1 @@
+TDAT: public boolean is opaque ( image lwuit image , object native image ) {  <NL> int [ ] rgb = lwuit image . get rgb cached ( ) ;  <NL> for ( int iter = 0 ; iter < rgb . length ; iter + + ) {  <NL> if ( ( rgb [ iter ] & 0xff000000 ) ! = 0xff000000 ) {  <NL> return false ;  <NL>  }  <NL>  }  <NL> return true ;  <NL>  }  COM: <s> returns true if the image was opaque </s>

@@ -1,0 +1,1 @@
+TDAT: public string format role ( role name , string [ ] prefix ) {  <NL> return prefix [ 0 ]  <NL>  + " < role type = \ " "  <NL>  + name . get type name ( )  <NL>  + ( ( name . get name ( ) ! = null ) ? " \ " name = \ " " + name . get name ( )  <NL>  : " " ) + " \ " / > " ;  <NL>  }  COM: <s> formats a role </s>

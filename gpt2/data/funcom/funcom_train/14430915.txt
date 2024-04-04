@@ -1,0 +1,1 @@
+TDAT: public test def get test ( string p method name ) {  <NL> iterator i = tests . iterator ( ) ;  <NL> while ( i . has next ( ) ) {  <NL> test def test def = ( test def ) i . next ( ) ;  <NL> if ( test def . get method name ( ) . equals ( p method name ) ) {  <NL> return test def ;  <NL>  }  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> gets the test by its method name </s>

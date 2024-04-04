@@ -1,0 +1,1 @@
+TDAT: public int read ( byte [ ] b , int off , int len ) throws io exception {  <NL> int num = super . read ( b , off , len ) ;  <NL> if ( num > 0 ) {  <NL>  _ ps . write ( b , off , num ) ;  <NL>  _ ps . flush ( ) ;  <NL>  } else {  <NL>  _ ps . close ( ) ;  <NL>  }  <NL> return num ;  <NL>  }  COM: <s> reads up to code len code bytes of data from this input stream </s>

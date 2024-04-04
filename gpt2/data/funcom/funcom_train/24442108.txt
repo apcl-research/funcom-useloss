@@ -1,0 +1,1 @@
+TDAT: public boolean set annotation ( integer element id , integer group id , string attribute , string value ) throws remote exception <NL>  { return ( boolean ) call method ( " set annotation " , new object [ ] { element id , group id = = null ? 0 : group id , attribute , value } ) ; }  COM: <s> sets the annotation for the specified element and attribute </s>

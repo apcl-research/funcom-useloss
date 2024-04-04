@@ -1,0 +1,1 @@
+TDAT: public cl program load program ( input stream in ) throws io exception {  <NL> pair < map < cl device , byte [ ] > , string > binaries = cl program . read binaries ( arrays . as list ( get devices ( ) ) , null , in ) ;  <NL> return create program ( binaries . get first ( ) , binaries . get second ( ) ) ;  <NL>  }  COM: <s> restore a program previously saved with </s>

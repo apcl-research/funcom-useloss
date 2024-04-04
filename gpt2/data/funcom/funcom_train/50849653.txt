@@ -1,0 +1,1 @@
+TDAT: public boolean is colliding ( int i x , int i y , int i wid , int i hei ) {  <NL> return ! ( ( this . i x + this . i wid < = i x ) || ( this . i x > = i x + i wid ) || ( this . i y + this . i hei < = i y ) || ( this . i y > = i y + i hei ) ) ;  <NL>  }  COM: <s> indicates whether i collide with something </s>

@@ -1,0 +1,1 @@
+TDAT: public boolean attacks ( queen q ) {  <NL> if ( q . get row ( ) = = this . row || q . get column ( ) = = this . column )  <NL> return true ;  <NL> int x = math . abs ( this . row - q . get row ( ) ) ;  <NL> int y = math . abs ( this . column - q . get column ( ) ) ;  <NL> return ( x = = y ) ;  <NL>  }  COM: <s> checks whether this queen can be attacked by the given one </s>

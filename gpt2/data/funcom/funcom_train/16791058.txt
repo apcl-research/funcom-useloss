@@ -1,0 +1,1 @@
+TDAT: protected void build ui ( ) {  <NL> this . set layout ( new fill layout ( ) ) ;  <NL> this . browser = new browser ( this , swt . none ) ;  <NL> this . browser . set size ( 700 , 600 ) ;  <NL> this . browser . add location listener ( this ) ;  <NL> this . browser . set text ( this . get html ( ) ) ;  <NL> this . pack ( ) ;  <NL>  }  COM: <s> build the user interface </s>

@@ -1,0 +1,1 @@
+TDAT: public void set column values ( int column index , object values [ ] ) {  <NL> object new values [ ] = new object [ values . length ] ;  <NL> system . arraycopy ( values , 0 , new values , 0 , values . length ) ;  <NL> columns [ column index - 1 ] . values = new values ;  <NL>  }  COM: <s> sets the set of valid values for this column </s>

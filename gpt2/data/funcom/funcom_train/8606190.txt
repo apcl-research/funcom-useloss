@@ -1,0 +1,1 @@
+TDAT: public int get vendor sell modifier ( race player race ) {  <NL> return ( int ) ( ( int ) ( ( int ) ( prices config . vendor _ sell _ modifier *  <NL> this . get global prices ( player race ) / 100f ) *  <NL> this . get global prices modifier ( ) / 100f ) *  <NL> this . get taxes ( player race ) / 100f ) ;  <NL>  }  COM: <s> used in sm sell item </s>

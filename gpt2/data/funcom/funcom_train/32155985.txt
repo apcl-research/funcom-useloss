@@ -1,0 +1,1 @@
+TDAT: public j spinner get step cp cx ( ) {  <NL> if ( step cp cx = = null ) {  <NL> step cp cx = new j spinner ( new spinner number model ( 0 . 30 , 0 . 01 , 1 , 0 . 01 ) ) ;  <NL> step cp cx . set bounds ( new rectangle ( 360 , 70 , 60 , 22 ) ) ;  <NL>  }  <NL> return step cp cx ;  <NL>  }  COM: <s> this method initializes step cp cx </s>

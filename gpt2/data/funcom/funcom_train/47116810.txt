@@ -1,0 +1,1 @@
+TDAT: public iso message set fields ( map < integer , iso value < ? > > values ) {  <NL> for ( map . entry < integer , iso value < ? > > e : values . entry set ( ) ) {  <NL> set field ( e . get key ( ) , e . get value ( ) ) ;  <NL>  }  <NL> return this ;  <NL>  }  COM: <s> convenience method for setting several fields in one call </s>

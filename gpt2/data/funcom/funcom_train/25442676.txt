@@ -1,0 +1,1 @@
+TDAT: public void set database path ( int index , string path ) {  <NL>  <NL> check running ( false ) ;  <NL> print with thread ( " set database path ( " + index + " , " + path + " ) " ) ;  <NL> server properties . set property ( server constants . sc _ key _ database + " . "  <NL>  + index , path ) ;  <NL>  }  COM: <s> sets the path of the hosted database </s>

@@ -1,0 +1,1 @@
+TDAT: private area create shadow ( ) {  <NL> ellipse2d ellipse = new ellipse2d . double ( 0 . 06 , 0 . 06 , 0 . 88 , 0 . 88 ) ;  <NL> area shadow = new area ( ellipse ) ;  <NL> ellipse = new ellipse2d . double ( 0 . 08 , 0 . 08 , 0 . 84 , 0 . 84 ) ;  <NL> shadow . subtract ( new area ( ellipse ) ) ;  <NL> return shadow ;  <NL>  }  COM: <s> create the shadow area of a cell </s>

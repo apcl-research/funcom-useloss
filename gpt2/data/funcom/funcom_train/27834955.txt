@@ -1,0 +1,1 @@
+TDAT: public component add element ( int type , int x , int y ) {  <NL> element data tmp = new element data ( type ,  <NL> get unique name ( element . to string ( type ) ) ,  <NL> x , y ) ;  <NL>  <NL> if ( tmp ! = null ) {  <NL>  _ elements . add ( tmp ) ;  <NL>  }  <NL>  <NL> return tmp . get component ( ) ;  <NL>  }  COM: <s> data for a new code element data code object </s>

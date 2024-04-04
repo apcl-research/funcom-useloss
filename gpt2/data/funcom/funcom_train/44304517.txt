@@ -1,0 +1,1 @@
+TDAT: public const list get list schema column ( ) throws melba exception {  <NL> array list v = new array list ( ) ;  <NL> for ( int i = 0 ; i < lst . size ( ) ; i + + ) {  <NL> v . add ( get schema value ( i ) . get schema column ( ) ) ;  <NL>  }  <NL> return const list . create confidence ( v ) ;  <NL>  }  COM: <s> return the list of the code schema column code of each </s>

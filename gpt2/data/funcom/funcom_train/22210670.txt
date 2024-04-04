@@ -1,0 +1,1 @@
+TDAT: public void restore ( ) {  <NL>  <NL> clear ( ) ;  <NL> int ix = 0 ;  <NL> string sig = get entry signature ( ix ) ;  <NL> string entry = null ;  <NL> while ( ( entry = prefs . get ( sig , null ) ) ! = null ) {  <NL> add entry ( entry ) ;  <NL> ix + + ;  <NL> sig = get entry signature ( ix ) ;  <NL>  }  <NL>  <NL>  }  COM: <s> restores the history if possible </s>

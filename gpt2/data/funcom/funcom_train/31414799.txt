@@ -1,0 +1,1 @@
+TDAT: private boolean all there ( string tokenizer tok , string list field ) {  <NL> while ( tok . has more tokens ( ) ) {  <NL> string str = tok . next token ( ) ;  <NL> if ( list field . to lower case ( ) . index of ( str . to lower case ( ) ) = = - 1 )  <NL> return false ;  <NL>  }  <NL> return true ;  <NL>  }  COM: <s> are all the parts there </s>

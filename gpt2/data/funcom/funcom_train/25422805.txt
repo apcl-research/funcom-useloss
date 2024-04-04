@@ -1,0 +1,1 @@
+TDAT: public string get query string ( ) {  <NL> string req url = get rest request url ( ) ;  <NL> int q index = req url . index of ( " ? " ) ;  <NL> if ( q index < 0 || req url . length ( ) - 1 < = q index ) {  <NL> return null ;  <NL>  }  <NL> return this . get rest request url ( ) . substring ( q index + 1 ) . trim ( ) ;  <NL>  }  COM: <s> gets the query string </s>

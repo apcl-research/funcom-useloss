@@ -1,0 +1,1 @@
+TDAT: private boolean is defined function ( string name ) {  <NL> for ( int i = environment _ stack . size ( ) - 1 ; i > = 0 ; i - - ) {  <NL> if ( ( ( environment _ scope ) environment _ stack . element at ( i ) ) . functions . contains key ( name ) ) {  <NL> return true ;  <NL>  }  <NL>  } return false ;  <NL>  }  COM: <s> check if a function is defined </s>

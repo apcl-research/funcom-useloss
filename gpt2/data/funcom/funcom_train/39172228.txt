@@ -1,0 +1,1 @@
+TDAT: public string get normalized unit ( ) {  <NL> string buffer sb = new string buffer ( ) ;  <NL> sb . append ( numerator . as string ( ) ) ;  <NL> if ( denominator . size ( ) > 0 ) sb . append ( " / " ) . append ( denominator . as string ( ) ) ;  <NL> return sb . to string ( ) . trim ( ) ;  <NL>  }  COM: <s> returns the unit reduced down to its most basic form </s>

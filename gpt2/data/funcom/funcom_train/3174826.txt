@@ -1,0 +1,1 @@
+TDAT: private void fire action event ( ) {  <NL> action event e = new action event ( this , 0 , " " ) ;  <NL> action listener [ ] ls = ( action listener [ ] ) listeners . to array ( new action listener [ listeners . size ( ) ] ) ;  <NL> for ( int i = 0 ; i < ls . length ; i + + )  <NL> ls [ i ] . action performed ( e ) ;  <NL>  }  COM: <s> fire action event </s>

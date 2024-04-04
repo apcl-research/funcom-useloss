@@ -1,0 +1,1 @@
+TDAT: public void test find range extent1 ( ) {  <NL> category dataset dataset = create category dataset1 ( ) ;  <NL> range r = dataset utilities . find range extent ( dataset ) ;  <NL> assert equals ( 1 . 0 , r . get lower bound ( ) , delta ) ;  <NL> assert equals ( 6 . 0 , r . get upper bound ( ) , delta ) ;  <NL>  }  COM: <s> some tests for the find range extent method </s>

@@ -1,0 +1,1 @@
+TDAT: public double get effective interest rate ( ) {  <NL> if ( i ! = null & & n > 0 & & m > 0 ) {  <NL> double i = i . double value ( ) / 100 . 0 ;  <NL> return strict math . pow ( 1 . 0 + i / m , ( double ) m / ( double ) n ) - 1 . 0 ;  <NL>  }  <NL> return 0 . 0 ;  <NL>  }  COM: <s> calculates the effective interest rate </s>

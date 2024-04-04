@@ -1,0 +1,1 @@
+TDAT: public datum vector get sub vector ( int start , int end ) {  <NL> if ( start = = 0 & & end = = length ) {  <NL> return this ;  <NL>  }  <NL> else return new datum vector ( ( double [ ] ) store , offset + start , end - start , units , resolution , false ) ;  <NL>  }  COM: <s> t0 do check start and end for out of bounds condition </s>

@@ -1,0 +1,1 @@
+TDAT: public void set ebook ( string ebook ) {  <NL>  / / check if setting to existing value <NL> if ( this . ebook = = null ? ebook ! = null : ! this . ebook . equals ( ebook ) ) {  <NL>  / / set to new value for customer parameter <NL> this . ebook = ebook ;  <NL> set string custom parameter ( " ebook " , ebook ) ;  <NL>  }  <NL>  }  COM: <s> sets the ebook </s>

@@ -1,0 +1,1 @@
+TDAT: public void set long description ( string long desc ) {  <NL> if ( long desc = = null ) long desc = blank _ string ;  <NL> if ( ! long desc . equals ( this . long desc ) ) {  <NL> this . long desc = long desc ;  <NL> ev g . fire event ( new detailed change event ( this , long _ desc ) ) ;  <NL>  }  <NL>  }  COM: <s> set the long description of this object </s>

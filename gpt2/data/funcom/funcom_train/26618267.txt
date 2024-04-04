@@ -1,0 +1,1 @@
+TDAT: protected void translate ( graphics2d graphics2d , i context context , double x , double y ) {  <NL> graphics2d . translate (  <NL>  ( context . get width ( ) * x ) - context . get width ( ) / 2 ,  <NL>  ( context . get height ( ) * y ) - context . get height ( ) / 2 ) ;  <NL>  }  COM: <s> do the actual translation </s>

@@ -1,0 +1,1 @@
+TDAT: public string clean html ( string s ) {  <NL>  / / string ss = this . replace all substr ( s , " < " , " & lt ; " ) ;  <NL> return this . replace all substr ( this . replace all substr ( s , " < " , " & lt ; " ) , " > " , " & gt ; " ) ;  <NL>  }  COM: <s> replace and by their html equivalent </s>

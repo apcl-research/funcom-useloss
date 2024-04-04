@@ -1,0 +1,1 @@
+TDAT: public void change team ( int team ) {  <NL> client c = get player list selected ( lis player info ) ;  <NL> if ( ( c ! = null ) & & ( c . get local player ( ) . get team ( ) ! = team ) ) {  <NL> c . get local player ( ) . set team ( team ) ;  <NL> c . send player info ( ) ;  <NL>  }  <NL>  }  COM: <s> change local player team </s>

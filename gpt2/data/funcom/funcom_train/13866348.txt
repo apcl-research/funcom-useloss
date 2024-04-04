@@ -1,0 +1,1 @@
+TDAT: public void set html ( int row , int column , string html ) {  <NL> prepare cell ( row , column ) ;  <NL> element td = clean cell ( row , column , html = = null ) ;  <NL> if ( html ! = null ) {  <NL> dom . set inner html ( td , html ) ;  <NL>  }  <NL>  }  COM: <s> sets the html contents of the specified cell </s>

@@ -1,0 +1,1 @@
+TDAT: public void compute fixed point ( di graph < n , e > graph ) {  <NL> set < n > nodes = sets . new hash set ( ) ;  <NL> for ( di graph node < n , e > node : graph . get directed graph nodes ( ) ) {  <NL> nodes . add ( node . get value ( ) ) ;  <NL>  }  <NL> compute fixed point ( graph , nodes ) ;  <NL>  }  COM: <s> compute a fixed point for the given graph </s>

@@ -1,0 +1,1 @@
+TDAT: public void update placemark ( long id placemark , string name , string desc ) {  <NL> content values args = new content values ( ) ;  <NL> args . put ( place _ desc , desc ) ;  <NL> args . put ( place _ name , name ) ;  <NL> db . update ( table _ placemarks , args , place _ id + " = " + id placemark , null ) ;  <NL>  }  COM: <s> update the information of a placemark </s>

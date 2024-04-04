@@ -1,0 +1,1 @@
+TDAT: public void set object array ( string nm , int len , object [ ] val ) {  <NL> object objs [ ] = val ;  <NL> if ( val ! = null ) {  <NL> system . arraycopy ( val , 0 , objs = new object [ len ] , 0 , len ) ;  <NL>  }  <NL> set property ( widget property item . v _ object _ array , nm , objs , null ) ;  <NL>  }  COM: <s> set an object array in this property list </s>

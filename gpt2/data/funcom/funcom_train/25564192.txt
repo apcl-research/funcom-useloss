@@ -1,0 +1,1 @@
+TDAT: protected void paint horizontal ( graph region rgn , int y , int height , double max , double min ) {  <NL> if ( fill ) rgn . gr . fill rect ( rgn . x , y , rgn . width , height + 1 ) ;  <NL> else rgn . gr . draw rect ( rgn . x , y , rgn . width , 0 ) ;  <NL>  }  COM: <s> color is already set to rgn </s>

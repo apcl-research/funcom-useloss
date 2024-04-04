@@ -1,0 +1,1 @@
+TDAT: public void key pressed ( key event e ) {  <NL> if ( e . get key code ( ) = = key event . vk _ enter ) {  <NL>  / / ok <NL> if ( e . get source ( ) = = the ok button ) {  <NL> ok action ( ) ;  <NL>  } else <NL>  / / cancel <NL> if ( e . get source ( ) = = the cancel button ) {  <NL> cancel action ( ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> handle the key pressed event </s>

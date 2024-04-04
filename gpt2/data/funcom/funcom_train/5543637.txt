@@ -1,0 +1,1 @@
+TDAT: public void enact query ( string query ) {  <NL> try {  <NL> println ( " " ) ;  <NL> print format ( cyc . converse object ( " ( cyc - query ' " + cyc . to cyc list ( query ) + " # $ inference psc ) " ) ) ;  <NL> println ( " " ) ;  <NL>  } catch ( exception e ) {  <NL> println ( " " + e ) ;  <NL>  }  <NL>  }  COM: <s> process a query command </s>

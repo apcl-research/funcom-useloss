@@ -1,0 +1,1 @@
+TDAT: public void test plus ( ) throws expression exception {  <NL> assert equals ( exi . eval int ( " $ { 1 + 2 + null } " , properties , format helper ) , 3 ) ;  <NL> assert equals ( exi . eval double ( " $ { 1 . 0 + null + 3 . 5 } " , properties , format helper ) , 4 . 5 , 0 . 0 ) ;  <NL>  }  COM: <s> tests the operation </s>

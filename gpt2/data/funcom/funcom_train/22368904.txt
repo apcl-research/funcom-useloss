@@ -1,0 +1,1 @@
+TDAT: private string get tool tip ( long size , long size in bytes , long duration ) {  <NL> return string utils . get string ( get text ( size ) , " - " ,  <NL> string utils . from byte to mega or giga ( size in bytes ) , " - " , string utils . from seconds to hours and days ( duration ) ) ;  <NL>  }  COM: <s> returns tooltip for repository numbers </s>

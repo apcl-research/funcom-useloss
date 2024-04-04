@@ -1,0 +1,1 @@
+TDAT: public void ensure table exists ( string table name , field descriptor mandatory field , collection field descriptors , collection index descriptors ) throws sql exception {  <NL> this . ensure table exists ( table name , mandatory field , field descriptors , index descriptors , false , false , false , null , null ) ;  <NL>  }  COM: <s> makes sure that a table exists </s>

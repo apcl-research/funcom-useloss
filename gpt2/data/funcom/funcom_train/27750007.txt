@@ -1,0 +1,1 @@
+TDAT: private void center screen ( component com ) {  <NL> dimension dim = get toolkit ( ) . get screen size ( ) ;  <NL> rectangle abounds = com . get bounds ( ) ;  <NL> com . set location ( ( dim . width - abounds . width ) / 2 ,  <NL>  ( dim . height - abounds . height ) / 2 ) ;  <NL> com . request focus ( ) ;  <NL>  }  COM: <s> centers the component send to this method </s>

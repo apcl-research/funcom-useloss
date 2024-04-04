@@ -1,0 +1,1 @@
+TDAT: public void test bit length negative3 ( ) {  <NL> byte a bytes [ ] = { 1 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 } ;  <NL> int a sign = - 1 ;  <NL> big integer a number = new big integer ( a sign , a bytes ) ;  <NL> assert equals ( 80 , a number . bit length ( ) ) ;  <NL>  }  COM: <s> bit length of a negative number which is a power of 2 </s>

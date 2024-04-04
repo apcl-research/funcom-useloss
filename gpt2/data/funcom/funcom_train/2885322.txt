@@ -1,0 +1,1 @@
+TDAT: protected void build node farm ( ) throws smart frog exception , remote exception {  <NL> node farm = new hash map < string , farm node > ( cluster limit ) ;  <NL> for ( int i = 0 ; i < cluster limit ; i + + ) {  <NL> farm node node = create farm node ( i ) ;  <NL> node farm . put ( node . get id ( ) , node ) ;  <NL>  }  <NL>  }  COM: <s> build the node farm </s>

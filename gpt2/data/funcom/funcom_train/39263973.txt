@@ -1,0 +1,1 @@
+TDAT: protected void test _ p h ( ) {  <NL> p h ( 1 . 0 , 1000 . 0 ) ;  <NL> p h ( 1 . 0 , 1000000 . 0 ) ;  <NL> p h ( 1 . 0 , 10000000000 . 0 ) ;  <NL> p h ( 1 . 0 , 10000000000000 . 0 ) ;  <NL> p h ( 1 . 0 , 100000000000000000 . 0 ) ;  <NL> p h ( 4727 . 0 , 47269293981481 . 5 ) ;  <NL>  }  COM: <s> test the p h function </s>

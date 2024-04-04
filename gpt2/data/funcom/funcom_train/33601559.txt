@@ -1,0 +1,1 @@
+TDAT: private cons info find info ( list l , int r ) {  <NL> cons info ret = null ;  <NL> for ( int i = 0 ; i < l . size ( ) ; i + + ) {  <NL> ret = ( cons info ) l . get ( i ) ;  <NL> if ( ret . round = = r ) {  <NL> return ret ;  <NL>  }  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> retrieves the tuple for the specified round given a list of tuples </s>

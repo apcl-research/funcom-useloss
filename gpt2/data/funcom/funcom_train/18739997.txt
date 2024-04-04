@@ -1,0 +1,1 @@
+TDAT: public void add ( type node left , collection < ? extends type node > right ) {  <NL> set < type node > current = this . map . get ( left ) ;  <NL> if ( current = = null ) {  <NL> this . map . put ( left , current = new hash set < type node > ( ) ) ;  <NL>  }  <NL> current . add all ( right ) ;  <NL>  }  COM: <s> adds a set of pairs to the relation </s>

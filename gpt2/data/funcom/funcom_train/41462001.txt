@@ -1,0 +1,1 @@
+TDAT: public long get sync source ( ) {  <NL> return ( ( long ) ( buffer . get ( 8 ) & 0xff ) < < 24 ) | <NL>  ( ( long ) ( buffer . get ( 9 ) & 0xff ) < < 16 ) | <NL>  ( ( long ) ( buffer . get ( 10 ) & 0xff ) < < 8 ) | <NL>  ( ( long ) ( buffer . get ( 11 ) & 0xff ) ) ;  <NL>  }  COM: <s> synchronization source field </s>

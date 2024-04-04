@@ -1,0 +1,1 @@
+TDAT: public void set s32b ( int offset , int value ) {  <NL> data [ offset + 3 ] = ( byte ) value ;  <NL> data [ offset + 2 ] = ( byte ) ( value > > 8 ) ;  <NL> data [ offset + 1 ] = ( byte ) ( value > > 16 ) ;  <NL> data [ offset ] = ( byte ) ( value > > 24 ) ;  <NL>  }  COM: <s> set the signed 32 bit big endian value at the specified offset </s>

@@ -1,0 +1,1 @@
+TDAT: public void set cell value to no data ( int row , int column , int value ) {  <NL> if ( is no data ( row , column ) = = false ) {  <NL> if ( get cell value ( row , column ) = = value ) {  <NL> set no data ( row , column , true ) ;  <NL>  }  <NL>  }  <NL> min change = max change = true ;  <NL>  }  COM: <s> unset one cell if it has a certain value </s>

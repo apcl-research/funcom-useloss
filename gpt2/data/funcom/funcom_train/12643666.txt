@@ -1,0 +1,1 @@
+TDAT: public void draw arc ( int x , int y , int w , int h , int start angle , int end angle ) {  <NL> p draw arc ( psd , x + origin x , y + origin y , w , h , start angle , end angle ) ;  <NL>  }  COM: <s> draws an arc bounded by the given rectangle from start angle to </s>

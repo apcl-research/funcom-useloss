@@ -1,0 +1,1 @@
+TDAT: public long set long ( string key , long val ) {  <NL> object old val = key values . put ( key , new long ( val ) ) ;  <NL> send attribute change notifications ( key , old val , ( new long ( val ) ) ) ;  <NL>  <NL> if ( old val = = null ) {  <NL> return - 1 ;  <NL>  }  <NL> return ( ( long ) old val ) . long value ( ) ;  <NL>  }  COM: <s> tries to set an long value </s>

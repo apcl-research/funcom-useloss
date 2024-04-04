@@ -1,0 +1,1 @@
+TDAT: protected shape get shape ( rectangle bounds , token token ) {  <NL> rectangle2d r = get flow ( ) . get state bounds2d ( bounds , token , get name ( ) ) ;  <NL> return new ellipse2d . double ( r . get x ( ) , r . get y ( ) , r . get width ( ) , r . get height ( ) ) ;  <NL>  }  COM: <s> return an ellipse </s>

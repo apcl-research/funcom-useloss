@@ -1,0 +1,1 @@
+TDAT: public string method body ( string pkg ) {  <NL> if ( pkg . length ( ) > 0 ) pkg + = " . " ;  <NL> return ( " return " + ( diff . is cs ( ) ? " global : : " : " " ) + pkg + file name ( ) +  <NL>  " . " + file name ( ) + " m ( this ) ; " ) ;  <NL>  }  COM: <s> the body of the stub method </s>

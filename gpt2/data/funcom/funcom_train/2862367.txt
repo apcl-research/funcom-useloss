@@ -1,0 +1,1 @@
+TDAT: public void trim ( int n ) {  <NL> string t = get text ( ) ;  <NL> if ( t . length ( ) < = n )  <NL> display term = " " ;  <NL> else <NL> display term = t . substring ( 0 , t . length ( ) - n ) ;  <NL>  / / system . out . println ( " just trimmed ' " + term + " ' to ' " + display term + " ' " ) ;  <NL>  }  COM: <s> clean up term to be a display term </s>

@@ -1,0 +1,1 @@
+TDAT: public void renumber atom ids sequentially ( ) {  <NL> list < string > from id list = this . get atom ids ( ) ;  <NL> list < string > to id list = molecule tool . create sequential atom ids ( " a " , from id list . size ( ) ) ;  <NL> renumber atom ids ( from id list , to id list ) ;  <NL>  }  COM: <s> force renumbering to a1 a2 </s>

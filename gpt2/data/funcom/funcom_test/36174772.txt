@@ -1,0 +1,1 @@
+TDAT: public response event set ( pdu pdu , target target ) {  <NL> pdu . set type ( pdu . set ) ;  <NL> try {  <NL> return send ( pdu , target ) ;  <NL>  }  <NL> catch ( io exception ex ) {  <NL> return new response event ( this , null , pdu , null , target , ex ) ;  <NL>  }  <NL>  }  COM: <s> sends a set request to a target </s>

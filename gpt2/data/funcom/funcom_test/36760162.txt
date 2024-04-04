@@ -1,0 +1,1 @@
+TDAT: @ test public void get type ( ) {  <NL> int [ ] lengths = new int [ ] { 1 , 2 , 1000 } ;  <NL>  <NL> for ( int len : lengths ) {  <NL> tuple desc td = utility . get tuple desc ( len ) ;  <NL> for ( int i = 0 ; i < len ; + + i )  <NL> assert equals ( type . int _ type , td . get type ( i ) ) ;  <NL>  }  <NL>  }  COM: <s> unit test for tuple desc </s>

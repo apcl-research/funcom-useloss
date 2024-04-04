@@ -1,0 +1,1 @@
+TDAT: public void add parameter ( string _ value ) {  <NL> if ( this . parameters = = null ) this . parameters = new vector < string > ( ) ;  <NL> if ( _ value = = null || _ value . equals ( " " ) ) this . parameters . add element ( " " ) ;  <NL> else this . parameters . add element ( _ value ) ;  <NL>  }  COM: <s> adds new parameter to the list of query parameters </s>

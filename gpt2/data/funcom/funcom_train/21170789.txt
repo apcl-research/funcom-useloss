@@ -1,0 +1,1 @@
+TDAT: public int get free vc ( ) {  <NL> for ( int i = 0 ; i < num vc count ; i + + ) {  <NL> if ( ( buff assigned status [ i ] = = false ) & & ( flit counter [ i ] = = 0 ) ) {  <NL> buff assigned status [ i ] = true ;  <NL> return i ;  <NL>  }  <NL>  }  <NL> return - 1 ;  <NL>  }  COM: <s> returns a free virtual channel on the physical link </s>

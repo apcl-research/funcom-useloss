@@ -1,0 +1,1 @@
+TDAT: public void log ( level l , string msg ) {  <NL> if ( is loggable ( l ) ) {  <NL> string [ ] log src = get log source ( ) ;  <NL> logger . logp ( l , log src [ 0 ] , log src [ 1 ] ,  <NL> thread . current thread ( ) . get name ( ) + " : " + msg ) ; / / $ non - nls - 1 $  <NL>  }  <NL>  }  COM: <s> logs specified message prepended by the current threads name </s>

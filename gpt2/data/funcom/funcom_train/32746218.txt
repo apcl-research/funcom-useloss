@@ -1,0 +1,1 @@
+TDAT: public void add item ( string item name , panel panel ) {  <NL>  / / add panel to main panel <NL> main panel _ . add ( integer . to string ( modes _ . size ( ) ) , panel ) ;  <NL>  / / add mode to vector <NL> modes _ . add element ( panel ) ;  <NL>  / / add to menu tree <NL> menu _ . add item ( item name ) ;  <NL>  }  COM: <s> adds a new menuitem mode to this panel </s>

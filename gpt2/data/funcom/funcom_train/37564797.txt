@@ -1,0 +1,1 @@
+TDAT: public void print status ( ) {  <NL> long elapsed = ( system . current time millis ( ) - this . start time ) ;  <NL> if ( this . pages = = 0 ) {  <NL>  } else {  <NL> log . info ( " \t " + this . pages + " \t " +  <NL>  ( int ) ( ( 1000 * pages ) / elapsed ) + " pages / second\t " ) ;  <NL>  }  <NL>  }  COM: <s> utility to present performance stats </s>

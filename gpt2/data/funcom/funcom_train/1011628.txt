@@ -1,0 +1,1 @@
+TDAT: public void mapgrid2f ( int nu , float u0 , float u1 , int nv , float v0 , float v1 ) {  <NL>  <NL> if ( output _ triangles ) {  <NL>  / / system . out . println ( " todo openglsurfaceavaluator . mapgrid2f output _ triangles " ) ;  <NL>  } else {  <NL> gl . gl map grid2d ( nu , u0 , u1 , nv , v0 , v1 ) ;  <NL>  }  <NL>  <NL>  }  COM: <s> defines 2 d mesh </s>

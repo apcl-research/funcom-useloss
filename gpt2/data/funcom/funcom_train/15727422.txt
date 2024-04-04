@@ -1,0 +1,1 @@
+TDAT: private float pack to float ( color rgba color ) {  <NL> vector3f byte to float = new vector3f ( 1 . 0f , 1 . 0f / 256 . 0f , 1 . 0f / ( 256 . 0f * 256 . 0f ) ) ;  <NL> vector3f color float = new vector3f ( color . r , color . g , color . b ) ;  <NL> return color float . dot ( byte to float ) ;  <NL>  }  COM: <s> convert 3 bytes from a color to a float </s>

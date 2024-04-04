@@ -1,0 +1,1 @@
+TDAT: public class test harness {  <NL> public void check ( boolean b ) { test case . assert true ( b ) ; }  <NL> public void check ( object a , object b ) { test case . assert equals ( a , b ) ; }  <NL> public void check ( int a , int b ) { test case . assert equals ( a , b ) ; }  <NL>  }  COM: <s> implementation of mauve test harness that </s>

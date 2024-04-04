@@ -1,0 +1,1 @@
+TDAT: public boolean delete ( ) {  <NL> if ( get file ( ) . exists ( ) )  <NL> try {  <NL> get file ( ) . delete ( ) ;  <NL> delete empty dirs ( dir , get file ( ) . get parent file ( ) ) ;  <NL>  } catch ( exception ex ) {  <NL> tuneology . log exception ( ex , " delete " ) ;  <NL> return false ;  <NL>  }  <NL> return true ;  <NL>  }  COM: <s> deletes the local file </s>

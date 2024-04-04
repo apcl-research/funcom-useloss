@@ -1,0 +1,1 @@
+TDAT: public void brush modified ( brush b ) {  <NL> if ( b ! = null ) {  <NL> count label . set text ( b . get num brushed ( ) + " / " + b . get num values ( ) + " " ) ;  <NL>  }  <NL> else {  <NL> count label . set text ( " 0 / " + parallel display . get num records ( ) + " " ) ;  <NL>  }  <NL>  }  COM: <s> callback triggered if the brush has been modified </s>

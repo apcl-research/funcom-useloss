@@ -1,0 +1,1 @@
+TDAT: public boolean is present ( long p id , vector p vct ) {  <NL> long t id user ;  <NL>  <NL> for ( int i = 0 ; i < p vct . size ( ) ; i + + ) {  <NL> t id user = ( ( user ) p vct . get ( i ) ) . get id user ( ) ;  <NL> if ( t id user = = p id ) {  <NL> return true ;  <NL>  }  <NL>  }  <NL> return false ;  <NL>  }  COM: <s> checks if the user is present in the vector </s>

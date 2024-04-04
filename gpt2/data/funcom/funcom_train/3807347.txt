@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> return " p " + get years ( ) + " y " + get months ( ) + " m " + get days ( ) + " dt " +  <NL> get hours ( ) + " h " + get minutes ( ) + " m " +  <NL> number format . get instance ( ) . format ( get seconds ( ) ) + " s " ;  <NL>  }  COM: <s> p returns a string representation of this duration </s>

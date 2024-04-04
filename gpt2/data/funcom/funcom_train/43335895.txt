@@ -1,0 +1,1 @@
+TDAT: public collection list non project members ( long project id ) {  <NL> query query = hibernate . create query ( " select distinct user from user user left join user . projects up where up . id ! = : project id or up . id is null " ) ;  <NL> query . set long ( " project id " , project id ) ;  <NL> return query . list ( ) ;  <NL>  }  COM: <s> left join select u </s>

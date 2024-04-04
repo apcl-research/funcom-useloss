@@ -1,0 +1,1 @@
+TDAT: public int read d word ( ) {  <NL> current offset + = 4 ;  <NL> return ( ( buffer [ current offset - 4 ] & 0xff ) < < 24 ) + ( ( buffer [ current offset - 3 ] & 0xff ) < < 16 ) +  <NL>  ( ( buffer [ current offset - 2 ] & 0xff ) < < 8 ) + ( buffer [ current offset - 1 ] & 0xff ) ;  <NL>  }  COM: <s> p returns a dword read from the buffer p </s>

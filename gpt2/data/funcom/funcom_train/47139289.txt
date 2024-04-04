@@ -1,0 +1,1 @@
+TDAT: protected void do remove ( sale process p , catalog item ci , data basket db ) {  <NL> if ( ci ! = null ) {  <NL> try {  <NL> m _ c catalog . remove ( ci , db ) ;  <NL>  }  <NL> catch ( data . events . veto exception ve ) {  <NL> error ( p , remove _ veto _ exception ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> perform the actual removal </s>

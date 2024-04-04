@@ -1,0 +1,1 @@
+TDAT: public void close procedure ( ) {  <NL> if ( document modified ) {  <NL> if ( j option pane . show confirm dialog ( this ,  <NL>  " save the current buffer ? " ,  <NL>  " unsaved buffer " ,  <NL> j option pane . yes _ no _ option ) = =  <NL> j option pane . yes _ option ) {  <NL> save document ( ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> manages the closing of the buffer </s>

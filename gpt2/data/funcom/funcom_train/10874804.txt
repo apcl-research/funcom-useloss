@@ -1,0 +1,1 @@
+TDAT: public explanation explain ( int doc , explanation freq ) {  <NL> explanation result = new explanation ( score ( doc , ( int ) freq . get value ( ) ) ,  <NL>  " score ( doc = " + doc + " , freq = " + freq . get value ( ) + " ) , with freq of : " ) ;  <NL> result . add detail ( freq ) ;  <NL> return result ;  <NL>  }  COM: <s> explain the score for a single document </s>

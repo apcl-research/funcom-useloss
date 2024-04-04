@@ -1,0 +1,1 @@
+TDAT: public void test with docs name ( ) throws exception {  <NL> file file = new file ( get work dir ( ) , " one - line " ) ;  <NL> create regular line file with more fields ( file , doc maker . name _ field ) ;  <NL> do index and search test ( file , null , doc maker . name _ field ) ;  <NL>  }  COM: <s> doc name is not part of the default header </s>

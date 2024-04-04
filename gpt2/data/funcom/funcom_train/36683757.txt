@@ -1,0 +1,1 @@
+TDAT: protected void draw gu itext ( graphics2d g ) {  <NL> g . set color ( color . black ) ;  <NL> g . draw string ( my title , 220 , 50 ) ;  <NL> g . draw string ( " r - restart demo " , 15 , 50 ) ;  <NL> g . draw string ( " recent user activity : " + recent user activity , 15 , 75 ) ;  <NL>  }  COM: <s> demo customisable gui render </s>

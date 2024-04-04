@@ -1,0 +1,1 @@
+TDAT: protected void set id field ( character i c , string id ) {  <NL> try { c . set value ( " ref id " , id ) ; }  <NL> catch ( char field exception e ) { log ( ) . error ( " cant set id field " + e . get message ( ) ) ; }  <NL> catch ( term not found exception x ) { log ( ) . error ( x ) ; }  <NL>  }  COM: <s> this should be read only and probably hidden </s>

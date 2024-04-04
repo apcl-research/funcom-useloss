@@ -1,0 +1,1 @@
+TDAT: private void draw hoshi ( final graphics gfx , final int x , final int y ) {  <NL> int hoshi rad = grid size / 10 ;  <NL>  <NL> gfx . fill oval (  <NL> grid size / 2 + x * grid size - hoshi rad ,  <NL> grid size / 2 + y * grid size - hoshi rad ,  <NL> 2 * hoshi rad + 1 ,  <NL> 2 * hoshi rad + 1 ) ;  <NL>  <NL>  }  COM: <s> draw a hoshi </s>

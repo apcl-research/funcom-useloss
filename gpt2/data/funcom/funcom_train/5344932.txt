@@ -1,0 +1,1 @@
+TDAT: public void write ( int x ) throws io exception {  <NL> synchronized ( lock ) {  <NL> wait impl ( ) ;  <NL>  <NL> buffer . put ( ( byte ) ( x & 0x ff ) ) ;  <NL>  <NL>  / / there ' s data in the buffer now , the channel can write it .  <NL> nio dispatcher . instance ( ) . interest write ( channel , true ) ;  <NL>  }  <NL>  }  COM: <s> writes a single byte to the buffer </s>

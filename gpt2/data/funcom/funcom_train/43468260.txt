@@ -1,0 +1,1 @@
+TDAT: private void append field name ( field f , object o , string buffer buf ) {  <NL> if ( f . get declaring class ( ) ! = o . get class ( ) ) {  <NL> buf . append ( string util . strip package name ( f . get declaring class ( ) ) ) ;  <NL> buf . append ( ' . ' ) ;  <NL>  }  <NL> buf . append ( f . get name ( ) ) ;  <NL>  }  COM: <s> append field name to buffer </s>

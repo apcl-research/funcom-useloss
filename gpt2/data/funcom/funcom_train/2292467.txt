@@ -1,0 +1,1 @@
+TDAT: public void add labeled folder ( string uri ) {  <NL>  <NL> m _ label site folders . add ( uri ) ;  <NL> if ( cms log . init . is info enabled ( ) ) {  <NL> cms log . init . info ( messages . get ( ) . get bundle ( ) . key ( messages . init _ label _ links _ in _ folder _ 1 , uri ) ) ;  <NL>  }  <NL>  }  COM: <s> adds a folder to the list of labeled folders </s>

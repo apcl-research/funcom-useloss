@@ -1,0 +1,1 @@
+TDAT: public void create filtered data ( ) {  <NL> filtered _ data = new filter list ( data ) ; / /  <NL> this . fire contents changed ( this , 0 , filtered _ data . size ( ) - 1 ) ; / /  <NL> this . fire interval added ( this , 0 , 1 ) ;  <NL> this . fire interval removed ( this , 0 , 1 ) ;  <NL>  }  COM: <s> creates filtered data based on the actual data </s>

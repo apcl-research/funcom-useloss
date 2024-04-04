@@ -1,0 +1,1 @@
+TDAT: public boolean next ( ) {  <NL> boolean ok = false ;  <NL> boolean not empty = true ;  <NL> if ( this . _ row pointer = = - 1 ) {  <NL> ok = this . first ( ) ;  <NL>  } else if ( this . _ row pointer < this . get row count ( ) - 1 ) {  <NL> this . _ row pointer + + ;  <NL> ok = true ;  <NL>  }  <NL> return ok ;  <NL>  }  COM: <s> sets the pointer to the next row </s>

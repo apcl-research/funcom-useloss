@@ -1,0 +1,1 @@
+TDAT: public void remove job to monitor ( int pid ) {  <NL> int i ;  <NL> for ( i = 0 ; i < mon jobs . size ( ) ; i + + ) {  <NL> monitored job job = ( monitored job ) mon jobs . element at ( i ) ;  <NL> if ( job . get pid ( ) = = pid ) {  <NL> mon jobs . remove ( job ) ;  <NL> break ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> remove a pid form monitorized jobs vector </s>

@@ -1,0 +1,1 @@
+TDAT: public void set body ( string p _ body ) throws messaging exception {  <NL> mime body part mbp _ msgtext = new mime body part ( ) ;  <NL>  <NL>  / / mbp _ msgtext . set text ( p _ body , " text / html " ) ;  <NL> mbp _ msgtext . set content ( p _ body , " text / html " ) ;  <NL> mp . add body part ( mbp _ msgtext ) ;  <NL>  }  COM: <s> set the body of the email message </s>

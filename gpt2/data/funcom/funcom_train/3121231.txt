@@ -1,0 +1,1 @@
+TDAT: public float min distance ( polygon p ) {  <NL> float min = float . max _ value ;  <NL>  <NL> for ( int i = 0 ; i < p . npoints ; i + + ) {  <NL> min = math . min ( min , this . min distance ( p . xpoints [ i ] , p . ypoints [ i ] ) ) ;  <NL>  }  <NL>  <NL> return ( min ) ;  <NL>  } / / of min distance  COM: <s> figure out the min distance between two polygons </s>

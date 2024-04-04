@@ -1,0 +1,1 @@
+TDAT: private void create rgb ( ) {  <NL> tile rgb = new int [ tile width * tile height ] ;  <NL> tile rgb = tile . get rgb ( 0 , 0 , tile . get tile width ( ) , tile . get tile height ( ) , tile rgb , 0 , tile . get tile height ( ) ) ;  <NL>  }  COM: <s> caches the rgb values of the tile </s>

@@ -1,0 +1,1 @@
+TDAT: public void put ( string name , object content , boolean direct , string role ) {  <NL> if ( direct = = true ) { / / direct string <NL> put ( name , content , " string " , role ) ;  <NL>  } else {  <NL> put ( name , content , " template " , role ) ;  <NL>  }  <NL>  <NL>  }  COM: <s> put an attribute in template definition </s>

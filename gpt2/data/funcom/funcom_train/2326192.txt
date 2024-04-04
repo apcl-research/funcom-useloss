@@ -1,0 +1,1 @@
+TDAT: public void set ( int row , int column , float value ) {  <NL> if ( column < 0 || column > = columns || row < 0 || row > = rows )  <NL> throw new index out of bounds exception ( " row : " + row + " , column : " + column ) ;  <NL> set quick ( row , column , value ) ;  <NL>  }  COM: <s> sets the matrix cell at coordinate tt row column tt to the specified </s>

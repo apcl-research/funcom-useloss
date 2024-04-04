@@ -1,0 +1,1 @@
+TDAT: public int get image width ( image img ) {  <NL> double w = 0 . 0 ;  <NL>  <NL> for ( int i = 0 ; i < 10 ; i + + ) {  <NL> w = img . get width ( image label ) ;  <NL> tag util . please wait ( 10 ) ;  <NL>  }  <NL>  <NL> if ( w < = 0 . 0 ) {  <NL> w = 600 ;  <NL>  }  <NL>  <NL> return ( int ) w ;  <NL>  }  COM: <s> returns the width of image </s>

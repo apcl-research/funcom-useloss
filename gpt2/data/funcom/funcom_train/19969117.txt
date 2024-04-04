@@ -1,0 +1,1 @@
+TDAT: private play list grabdata _ playlist ( ) {  <NL>  <NL> string tag = " grabdata - playlist " ;  <NL> play list p = new play list ( this ) ;  <NL> if ( p . loadfromfile ( ) ) {  <NL> log . d ( tag , " loaded file " ) ;  <NL>  } else {  <NL> log . e ( tag , " could not load file " ) ;  <NL>  }  <NL>  <NL> return p ;  <NL>  }  COM: <s> playlist from file </s>

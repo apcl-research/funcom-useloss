@@ -1,0 +1,1 @@
+TDAT: public line type ( string name , float [ ] dash ) {  <NL> this . dash = dash ;  <NL> stroke = new basic stroke ( width , basic stroke . cap _ butt , basic stroke . join _ miter , 2 . 0f , dash , 0 . 0f ) ;  <NL> this . name = new string ( name ) ;  <NL>  }  COM: <s> creates line type object with dashing pattern </s>

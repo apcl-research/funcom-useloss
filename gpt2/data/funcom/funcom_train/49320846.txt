@@ -1,0 +1,1 @@
+TDAT: public void set ( point2d . double p ) {  <NL> if ( p ! = null ) {  <NL> x value . set text ( string . value of ( p . get x ( ) ) ) ;  <NL> y value . set text ( string . value of ( p . get y ( ) ) ) ;  <NL>  } else {  <NL> x value . set text ( " " ) ;  <NL> y value . set text ( " " ) ;  <NL>  }  <NL>  }  COM: <s> set the x y values to display </s>

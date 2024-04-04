@@ -1,0 +1,1 @@
+TDAT: public void set zoom ( int zoom ) {  <NL> if ( main map ! = null & & tbmbar ! = null ) {  <NL> trans base menu zoom z m = tbmbar . get zoom menu ( ) ;  <NL> if ( z m ! = null ) {  <NL> z m . on zoom view ( zoom ) ;  <NL>  / / z m . set zoom ( zoom ) ;  <NL>  } else main map . set zoom ( zoom ) ;  <NL>  }  <NL>  }  COM: <s> sets the given zoom if there is a map </s>

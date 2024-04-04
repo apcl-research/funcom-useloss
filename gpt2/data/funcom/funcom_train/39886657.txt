@@ -1,0 +1,1 @@
+TDAT: public void get chars ( int start , int end , char [ ] dst , int dst start ) {  <NL> if ( start > count || end > count || start > end ) {  <NL> throw new string index out of bounds exception ( ) ;  <NL>  }  <NL> system . arraycopy ( value , start , dst , dst start , end - start ) ;  <NL>  }  COM: <s> copies the requested sequence of characters into </s>

@@ -1,0 +1,1 @@
+TDAT: public string get all genes ( ) {  <NL> string buffer allgenes = new string buffer ( ) ;  <NL> for ( int count = 0 ; count < genes . size ( ) ; count + + )  <NL> allgenes . append ( ( ( gene ) genes . element at ( count ) ) . get name ( ) + " " ) ;  <NL> return allgenes . to string ( ) ;  <NL>  }  COM: <s> returns a string all gene names </s>

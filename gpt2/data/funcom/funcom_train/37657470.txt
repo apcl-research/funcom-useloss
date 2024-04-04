@@ -1,0 +1,1 @@
+TDAT: private void pmd locator init ( ) {  <NL> logger . entering ( get class ( ) . get name ( ) , " pmd locator init " ) ;  <NL> assert pmd locator = = null : " pmd locator already initialized . " ;  <NL> pmd locator = new pmd locator ( ) ;  <NL> logger . exiting ( get class ( ) . get name ( ) , " pmd locator init " ) ;  <NL>  }  COM: <s> initializes the pmd locator </s>

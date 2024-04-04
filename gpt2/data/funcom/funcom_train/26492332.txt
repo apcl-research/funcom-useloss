@@ -1,0 +1,1 @@
+TDAT: public void location insert db ( node site , int sid ) {  <NL> node list all locations = ( ( element ) site ) . get elements by tag name ( " location " ) ;  <NL> for ( int i = 0 ; i < all locations . get length ( ) ; i + + ) {  <NL> insert this location ( all locations . item ( i ) , sid ) ;  <NL>  }  <NL>  }  COM: <s> insert locations in the db </s>

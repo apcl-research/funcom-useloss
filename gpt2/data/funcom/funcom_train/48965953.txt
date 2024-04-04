@@ -1,0 +1,1 @@
+TDAT: public vector3d cross ( vector3d v ) {  <NL> float cross x = y * v . z - v . y * z ;  <NL> float cross y = z * v . x - v . z * x ;  <NL> float cross z = x * v . y - v . x * y ;  <NL> return ( new vector3d ( cross x , cross y , cross z ) ) ;  <NL>  }  COM: <s> calculate the cross product with another vector </s>

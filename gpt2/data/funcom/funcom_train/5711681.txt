@@ -1,0 +1,1 @@
+TDAT: public capi message create message ( int app id , int type , int number ) throws capi exception {  <NL> if ( device = = null ) {  <NL> throw new capi exception ( " no device defined , unable to create message " ) ;  <NL>  }  <NL> return device . get r capi message ( app id , type , number ) ;  <NL>  }  COM: <s> constructs a new capi message object </s>

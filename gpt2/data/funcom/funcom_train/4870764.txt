@@ -1,0 +1,1 @@
+TDAT: public boolean is at drag area ( point p ) {  <NL> if ( ( p . get x ( ) < thickness || p . get y ( ) < thickness || p . get x ( ) + thickness > height || p . get y ( ) + thickness > width ) & & ! is at corner ( p ) ) {  <NL> return true ;  <NL>  } else {  <NL> return false ;  <NL>  }  <NL>  }  COM: <s> checks if the point p is near the drawing area </s>

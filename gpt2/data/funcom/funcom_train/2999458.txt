@@ -1,0 +1,1 @@
+TDAT: protected element to xml ( string tag ) {  <NL> element e = new element ( tag ) ;  <NL> if ( id ! = null ) {  <NL> e . set attribute ( " id " , id ) ;  <NL>  }  <NL> if ( description ! = null ) {  <NL> e . add content ( new element ( " description " ) . set text ( description ) ) ;  <NL>  }  <NL> return e ;  <NL>  }  COM: <s> convert myself to an xml element </s>

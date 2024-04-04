@@ -1,0 +1,1 @@
+TDAT: public void insert ( string name , string value ) {  <NL> stream util . insert ascii string ( stream , name ) ;  <NL> stream util . insert ascii string ( stream , " : " ) ;  <NL> stream util . insert ascii string ( stream , value ) ;  <NL> stream util . insert ascii string ( stream , " \r\n " ) ;  <NL>  }  COM: <s> insert a new header in the stream </s>

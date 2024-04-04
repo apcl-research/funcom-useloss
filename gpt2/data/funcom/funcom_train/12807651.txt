@@ -1,0 +1,1 @@
+TDAT: public pdf template create template with barcode ( pdf content byte cb , base color bar color , base color text color ) {  <NL> pdf template tp = cb . create template ( 0 , 0 ) ;  <NL> rectangle rect = place barcode ( tp , bar color , text color ) ;  <NL> tp . set bounding box ( rect ) ;  <NL> return tp ;  <NL>  }  COM: <s> creates a template with the barcode </s>

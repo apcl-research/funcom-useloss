@@ -1,0 +1,1 @@
+TDAT: protected void parse img tag ( ) {  <NL> byte y lc = ( byte ) ( next element ( ) | 0x20 ) ;  <NL> if ( y lc ! = ' m ' )  <NL> recover ( ) ;  <NL> else if ( ( y lc = ( byte ) ( next element ( ) | 0x20 ) ) = = ' g ' )  <NL> parse img attr ( ) ;  <NL> else <NL> recover ( ) ;  <NL>  }  COM: <s> parses an img tag after i was recognized </s>

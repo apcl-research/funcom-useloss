@@ -1,0 +1,1 @@
+TDAT: protected void print columns ( iddl script . statement statement , i column [ ] columns ) {  <NL> for ( int i = 0 ; i < columns . length ; i + + ) {  <NL> print column name ( statement , columns [ i ] . get name ( ) ) ;  <NL> if ( i < columns . length - 1 )  <NL> statement . append ( " , " ) ;  <NL>  }  <NL>  }  COM: <s> print the column names separated by commas </s>

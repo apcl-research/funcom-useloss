@@ -1,0 +1,1 @@
+TDAT: public void go url ( object url ) {  <NL> string u = ( string ) get property ( url , " url " ) ;  <NL> if ( u = = null ) return ;  <NL> try {  <NL> browser launcher . open url ( u ) ;  <NL>  } catch ( exception e ) {  <NL> e . print stack trace ( ) ;  <NL> show status ( e . get message ( ) ) ;  <NL>  }  <NL>  }  COM: <s> open url in the system default browser </s>

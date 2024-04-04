@@ -1,0 +1,1 @@
+TDAT: private void put ( word sequence word sequence , float log prob , float log backoff ) {  <NL>  / / system . out . println ( " putting " + word sequence + " p " + log prob <NL>  / / + " b " + log backoff ) ;  <NL> map . put ( word sequence , new probability ( log prob , log backoff ) ) ;  <NL>  }  COM: <s> puts the probability into the map </s>

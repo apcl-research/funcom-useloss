@@ -1,0 +1,1 @@
+TDAT: public void test bug934193 ( ) throws parse exception , io exception {  <NL> string x = " < mededeling2 > < foo / > < / mededeling2 > " ;  <NL> document doc = parser . parse ( x ) ;  <NL> element foo = doc . xpath select element ( " / mededeling2 / foo " ) ;  <NL> assert equals ( new element ( " foo " ) , foo ) ;  <NL>  }  COM: <s> test for number in tag </s>

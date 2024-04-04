@@ -1,0 +1,1 @@
+TDAT: private int compute m ( int from , int to ) {  <NL> float retval = 0 ;  <NL> float norm = 0 ;  <NL> for ( int i = from ; i < to ; i + + ) {  <NL> retval + = histogramm [ i ] * i ;  <NL> norm + = histogramm [ i ] ;  <NL>  }  <NL> if ( norm = = 0 ) norm = 1 ;  <NL> return ( int ) ( retval / norm ) ;  <NL>  }  COM: <s> compute meadian out of defined span </s>

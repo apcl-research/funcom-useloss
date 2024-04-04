@@ -1,0 +1,1 @@
+TDAT: public int compare to ( readable user o ) {  <NL> int result ;  <NL> if ( this . surname . equals ( o . get surname ( ) ) ) {  <NL> result = this . forename . compare to ( o . get forename ( ) ) ;  <NL>  } else {  <NL> result = this . surname . compare to ( o . get surname ( ) ) ;  <NL>  }  <NL> return result ;  <NL>  }  COM: <s> compare lexicographically by surename </s>

@@ -1,0 +1,1 @@
+TDAT: protected void log plain messages ( ) {  <NL> log . trace ( " trace " ) ; / / should not actually get logged <NL> log . debug ( " debug " ) ; / / should not actually get logged <NL> log . info ( " info " ) ;  <NL> log . warn ( " warn " ) ;  <NL> log . error ( " error " ) ;  <NL> log . fatal ( " fatal " ) ;  <NL>  }  COM: <s> log the plain messages </s>

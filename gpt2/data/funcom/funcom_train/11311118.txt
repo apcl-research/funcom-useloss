@@ -1,0 +1,1 @@
+TDAT: public path impl get path without leaf node ( ) {  <NL> list < node > nodes = new array list < node > ( node list ) ;  <NL> path impl path = null ;  <NL> if ( nodes . size ( ) > 1 ) {  <NL> nodes . remove ( nodes . size ( ) - 1 ) ;  <NL> path = new path impl ( nodes ) ;  <NL>  }  <NL> return path ;  <NL>  }  COM: <s> return a new </s>

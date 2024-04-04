@@ -1,0 +1,1 @@
+TDAT: public file export image ( string name ) {  <NL> name = images _ dir + name ;  <NL> int index = name . last index of ( " . " ) ;  <NL> string type = " . unknown image " ;  <NL> if ( index > = 0 ) type = name . substring ( index ) ;  <NL> return export file ( name , type , null ) ;  <NL>  }  COM: <s> copy an image into a temporary file </s>

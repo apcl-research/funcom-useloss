@@ -1,0 +1,1 @@
+TDAT: public void test null data source metadata ( ) throws blackbook system exception {  <NL> uris = test algorithm . execute ( test user ,  <NL> new query request < void parameter > ( null , " xyz " , null ) ) . get uris ( ) ;  <NL> assert . assert not null ( uris ) ;  <NL> assert . assert true ( uris . is empty ( ) ) ;  <NL>  }  COM: <s> null data access test </s>

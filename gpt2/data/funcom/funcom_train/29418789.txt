@@ -1,0 +1,1 @@
+TDAT: public rectangle2d get bounding box ( int xfluff , int yfluff ) {  <NL> if ( updown < 0 ) calc bounds ( ) ;  <NL> return new rectangle2d . double ( x ( ) - side - xfluff , y ( ) - updown - yfluff , side + side + xfluff + xfluff , updown + updown + yfluff + yfluff ) ;  <NL>  }  COM: <s> returns the bounding rectangle </s>

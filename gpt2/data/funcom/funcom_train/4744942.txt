@@ -1,0 +1,1 @@
+TDAT: public void info ( object message , throwable t ) {  <NL> if ( is12 ) {  <NL> get logger ( ) . log ( fqcn , ( priority ) level . info , message , t ) ;  <NL>  } else {  <NL> get logger ( ) . log ( fqcn , level . info , message , t ) ;  <NL>  }  <NL>  }  COM: <s> log an error to the log4j logger with code info code priority </s>

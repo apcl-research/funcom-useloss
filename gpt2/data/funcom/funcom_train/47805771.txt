@@ -1,0 +1,1 @@
+TDAT: public double get weight ( int s , int e ) throws no such element exception {  <NL> if ( s > = edges . length||e > = edges . length ) throw new no such element exception ( " mindestens einer der knoten existiert nicht ! ! ! es gibt nur die knoten 0 bis " + ( edges . length - 1 ) ) ;  <NL> return edges [ s ] [ e ] ;  <NL>  }  COM: <s> returns weight of edge </s>

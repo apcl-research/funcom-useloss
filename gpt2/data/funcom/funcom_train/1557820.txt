@@ -1,0 +1,1 @@
+TDAT: protected void pack space between ( string builder sb , string . . . s ) {  <NL> sb . append ( s [ 0 ] ) ;  <NL> for ( int i = 1 ; i < s . length ; i + + ) {  <NL> if ( ! compact )  <NL> sb . append ( " " + s [ i ] ) ;  <NL> else <NL> sb . append ( s [ i ] ) ;  <NL>  }  <NL>  }  COM: <s> append spaces between list s to sb if not in compact mode </s>

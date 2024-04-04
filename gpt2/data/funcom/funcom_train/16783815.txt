@@ -1,0 +1,1 @@
+TDAT: public void create recipe element ( string name , recipe type type ) {  <NL> if ( xml exists ( ) ) {  <NL> xml file . set root element ( new element ( recipe ) . set attribute ( name , name ) . set attribute ( type , type . name ( ) ) ) ;  <NL> xml root = xml file . get root element ( ) ;  <NL>  }  <NL>  }  COM: <s> creates the root element for the xml file </s>

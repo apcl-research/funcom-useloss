@@ -1,0 +1,1 @@
+TDAT: private void proc db pass ( string line , string use line , db db ) throws exception {  <NL> int start = line . index of ( " < password > " ) + 10 ;  <NL> int end = line . index of ( " < / password > " ) ;  <NL> if ( ! conn loaded )  <NL> db . set password ( use line . substring ( start , end ) ) ;  <NL>  }  COM: <s> retrieves the password for the report </s>

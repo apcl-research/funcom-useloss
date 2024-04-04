@@ -1,0 +1,1 @@
+TDAT: private void write temperature ( ) {  <NL> try {  <NL> buffered writer out = new buffered writer ( new file writer ( get url data out ( ) , true ) ) ;  <NL> out . write ( get iterator ( ) + " " + get body temperature ( ) + " \n " ) ;  <NL> out . close ( ) ;  <NL>  } catch ( io exception e ) {  <NL>  }  <NL>  }  COM: <s> write body temperature in a file </s>

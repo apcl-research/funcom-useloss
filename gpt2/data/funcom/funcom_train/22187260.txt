@@ -1,0 +1,1 @@
+TDAT: public void draw picture ( picture source , int dx1 , int dy1 , int dx2 , int dy2 , int sx1 , int sy1 , int sx2 , int sy2 ) {  <NL> backbuffer . draw picture ( source , dx1 , dy1 , dx2 , dy2 , sx1 , sy1 , sx2 , sy2 ) ;  <NL>  }  COM: <s> draw a scaled image onto the backbuffer where </s>

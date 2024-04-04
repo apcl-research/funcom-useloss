@@ -1,0 +1,1 @@
+TDAT: public void set ( string name , rectangle value ) {  <NL> set property ( name ,  <NL>  ( int ) value . get x ( ) + " , " +  <NL>  ( int ) value . get y ( ) + " , " +  <NL>  ( int ) value . get width ( ) + " , " +  <NL>  ( int ) value . get height ( ) ) ;  <NL>  }  COM: <s> sets a rectangle property </s>

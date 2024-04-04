@@ -1,0 +1,1 @@
+TDAT: public void set boolean ( final string key , final boolean value ) {  <NL> final boolean old value = get boolean ( key ) ;  <NL> if ( old value ! = value ) {  <NL> resources . put ( key , boolean . to string ( value ) ) ;  <NL> property changes . fire property change ( key , old value , value ) ;  <NL>  }  <NL>  }  COM: <s> sets the boolean value for a given key </s>

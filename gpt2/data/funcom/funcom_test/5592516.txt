@@ -1,0 +1,1 @@
+TDAT: public void handle event ( event e ) {  <NL>  <NL> node node = ( node ) e . get current target ( ) ;  <NL> string event type = e . get type ( ) ;  <NL> string node name = node . get node name ( ) ;  <NL> e . stop propagation ( ) ;  <NL> if ( ! dom editor . is altered ( ) )  <NL> dom editor . set altered ( true ) ;  <NL>  }  COM: <s> handle the event </s>

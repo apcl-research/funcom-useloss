@@ -1,0 +1,1 @@
+TDAT: public instantiated service add property ( string name , string value ) {  <NL> element elem = new element ( " property " , " " ) ;  <NL> m _ conf . add ( elem ) ;  <NL> elem . add attribute ( new attribute ( " name " , name ) ) ;  <NL> elem . add attribute ( new attribute ( " value " , value ) ) ;  <NL> return this ;  <NL>  }  COM: <s> adds a string property </s>

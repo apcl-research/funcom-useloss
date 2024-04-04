@@ -1,0 +1,1 @@
+TDAT: public void smaller comparison ( int j , list < funds wrapper > funds ) {  <NL> funds wrapper tmp = funds . get ( j ) ;  <NL> funds wrapper tmp2 = funds . get ( j + 1 ) ;  <NL> funds . remove ( j ) ;  <NL> funds . remove ( j ) ;  <NL> funds . add ( j , tmp2 ) ;  <NL> funds . add ( j + 1 , tmp ) ;  <NL>  }  COM: <s> method used for sort funds method </s>

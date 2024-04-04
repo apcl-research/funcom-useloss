@@ -1,0 +1,1 @@
+TDAT: protected boolean v line clear ( image entry image , int x ) {  <NL> int w = entry image . get width ( null ) ;  <NL> int h = entry image . get height ( null ) ;  <NL> for ( int i = 0 ; i < h ; i + + ) {  <NL> if ( pixel map [ ( i * w ) + x ] ! = - 1 ) {  <NL> return false ;  <NL>  }  <NL>  }  <NL> return true ;  <NL>  }  COM: <s> this method is called to determine </s>

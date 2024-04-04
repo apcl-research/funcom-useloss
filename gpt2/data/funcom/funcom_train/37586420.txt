@@ -1,0 +1,1 @@
+TDAT: protected boolean _ gap to left ( ) {  <NL>  / / before using , make sure not at first or head .  <NL> return ( ! _ tokens . is empty ( ) & & ! _ cursor . at start ( ) & & ! _ cursor . at first item ( ) & & _ cursor . prev item ( ) . is gap ( ) ) ;  <NL>  }  COM: <s> determines if there is a gap immediately to the left of the cursor </s>

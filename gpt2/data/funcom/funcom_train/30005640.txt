@@ -1,0 +1,1 @@
+TDAT: private j label get author label ( ) {  <NL> if ( this . author label = = null ) {  <NL> this . author label = new j label ( language controller . get instance ( ) . get string ( this . get plugin ( ) ,  <NL>  " plugin _ add _ sequence _ panel _ author _ label " ) ) ;  <NL>  }  <NL> return this . author label ;  <NL>  }  COM: <s> gets the author label </s>

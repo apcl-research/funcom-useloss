@@ -1,0 +1,1 @@
+TDAT: public js type get type ( string js type name ) {  <NL>  / / todo ( user ) : push every local type name out of names to types so that <NL>  / / named type # resolve is correct .  <NL> if ( js type name . equals ( template type name ) ) {  <NL> return template type ;  <NL>  }  <NL> return names to types . get ( js type name ) ;  <NL>  }  COM: <s> looks up a type by name </s>

@@ -1,0 +1,1 @@
+TDAT: public value execute with catch ( ) throws execute exception {  <NL> if ( get caller ( ) . has request to stop ( ) )  <NL> throw new stop exception ( ) ;  <NL> try { return execute ( ) ; }  <NL> catch ( execute exception exc ) {  <NL> if ( exc . get node ( ) = = null ) exc . set node ( this ) ;  <NL> throw exc ;  <NL>  }  <NL>  }  COM: <s> execute a node </s>

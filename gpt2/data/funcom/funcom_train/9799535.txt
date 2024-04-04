@@ -1,0 +1,1 @@
+TDAT: private void reset format ( ) {  <NL> if ( this . format ! = null ) {  <NL> format items . clear ( ) ;  <NL> vector formats = this . format . get formats ( ) ;  <NL> for ( int i = formats . size ( ) - 1 ; i > = 0 ; i - - ) {  <NL> format items . push ( formats . element at ( i ) ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> reset the file format </s>

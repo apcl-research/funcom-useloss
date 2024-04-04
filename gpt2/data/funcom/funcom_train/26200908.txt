@@ -1,0 +1,1 @@
+TDAT: public void fill rect ( int x , int y , int w , int h ) {  <NL>  / / end any path & stroke . this ensures the fill is on this <NL>  / / rectangle , and not on any previous graphics <NL> close block ( ) ;  <NL> draw rect ( x , y , w , h ) ;  <NL> close block ( " b " ) ; / / rectangle , fill stroke <NL>  }  COM: <s> fills a rectangle with the current colour </s>

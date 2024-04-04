@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> return " ( " + center ( ) [ 0 ] + " , " + center ( ) [ 1 ] + " ) " + min max ( ) [ 0 ] + " , " + min max ( ) [ 2 ] + " " + min max ( ) [ 1 ] + " , " + min max ( ) [ 3 ] ;  <NL>  }  COM: <s> enkel to string som gir fin info om alternativ for testing </s>

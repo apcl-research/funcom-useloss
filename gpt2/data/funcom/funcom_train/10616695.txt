@@ -1,0 +1,1 @@
+TDAT: public void test digest exception06 ( ) {  <NL> digest exception t e = new digest exception ( null , null ) ;  <NL> assert null ( " get message ( ) must return null " , t e . get message ( ) ) ;  <NL> assert null ( " get cause ( ) must return null " , t e . get cause ( ) ) ;  <NL>  }  COM: <s> test for code digest exception string throwable code constructor </s>

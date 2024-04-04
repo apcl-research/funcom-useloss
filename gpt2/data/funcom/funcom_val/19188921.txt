@@ -1,0 +1,1 @@
+TDAT: public url get resource locally ( string name ) {  <NL> url res url = super . get resource ( name ) ;  <NL> if ( log . is trace enabled ( ) = = true )  <NL> log . trace ( " get resource locally ( " + this + " ) , name = " + name + " , res url : " + res url ) ;  <NL> return res url ;  <NL>  }  COM: <s> provides the same functionality as </s>

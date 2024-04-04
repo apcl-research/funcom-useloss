@@ -1,0 +1,1 @@
+TDAT: public void test _ interface _ 01 ( ) {  <NL> compile (  <NL>  " x . java " ,  <NL>  " class z { } \n " +  <NL>  " interface y { public void m ( z s ) ; } \n " +  <NL>  " public interface x extends y { \n " +  <NL>  " public void n ( z s ) ; \n " +  <NL>  " } \n " ,  <NL>  " " ) ;  <NL>  }  COM: <s> interface accessing a concrete class </s>

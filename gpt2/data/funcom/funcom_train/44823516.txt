@@ -1,0 +1,1 @@
+TDAT: public service ref get service ref by role ( string role name ) {  <NL> for ( int i = 0 ; service refs ! = null & & i < service refs . length ; i + + ) {  <NL> if ( role name . equals ( service refs [ i ] . get role name ( ) ) ) {  <NL> return service refs [ i ] ;  <NL>  }  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> get a service ref by its name </s>

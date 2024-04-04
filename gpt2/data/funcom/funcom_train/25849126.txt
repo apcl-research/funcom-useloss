@@ -1,0 +1,1 @@
+TDAT: public void scroll up ( ) {  <NL>  / / logger . log ( " pre - scroll up : line = " + line + ' \n ' ) ;  <NL> line - = get visible line count ( ) ;  <NL> if ( line < 0 ) {  <NL> line = 0 ;  <NL>  }  <NL>  / / logger . log ( " post - scroll up : line = " + line + ' \n ' ) ;  <NL>  }  COM: <s> scrolls the visible window up one screenful </s>

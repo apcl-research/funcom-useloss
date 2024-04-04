@@ -1,0 +1,1 @@
+TDAT: public void test get required parameter ( ) {  <NL> command command = new command ( " abc " , array ( " 123 " , " 456 " ) ) ;  <NL> assert equals ( " 123 " , " 123 " , command . get required parameter ( 0 ) ) ;  <NL> assert equals ( " 456 " , " 456 " , command . get required parameter ( 1 ) ) ;  <NL>  }  COM: <s> test the get required parameter method </s>

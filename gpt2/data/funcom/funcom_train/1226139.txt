@@ -1,0 +1,1 @@
+TDAT: private graph vertex create test vertex ( string unique name , int pos x , int pos y , int pos z ) {  <NL> graph vertex v = new graph vertex ( ) ;  <NL> v . name = unique name ;  <NL> v . pos . x = pos x ;  <NL> v . pos . y = pos y ;  <NL> v . pos . z = pos z ;  <NL>  <NL> return v ;  <NL>  }  COM: <s> create one vertex node for the test graph </s>

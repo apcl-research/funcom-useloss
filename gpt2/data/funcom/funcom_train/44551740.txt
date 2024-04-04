@@ -1,0 +1,1 @@
+TDAT: public void start ( i file renamer listener listener , file base dir , file pattern pattern , dc object [ ] objects ) {  <NL> if ( task = = null || ! task . is alive ( ) ) {  <NL> task = new task ( listener , base dir , pattern , objects ) ;  <NL> task . start ( ) ;  <NL>  }  <NL>  }  COM: <s> start the renaming process </s>

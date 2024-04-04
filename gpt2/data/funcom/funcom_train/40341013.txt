@@ -1,0 +1,1 @@
+TDAT: public g query each ( function . . . f ) {  <NL> if ( f ! = null ) {  <NL> for ( function f1 : f ) {  <NL> int i = 0 ;  <NL> for ( element e : elements ) {  <NL> f1 . f ( e . < com . google . gwt . dom . client . element > cast ( ) , i + + ) ;  <NL>  }  <NL>  }  <NL>  }  <NL> return this ;  <NL>  }  COM: <s> run one or more functions over each element of the gquery </s>

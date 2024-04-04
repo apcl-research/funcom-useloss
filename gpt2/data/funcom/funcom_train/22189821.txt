@@ -1,0 +1,1 @@
+TDAT: private boolean is signature ( string st , int pos ) {  <NL> for ( int i = pos ; i < st . length ( ) ; i + + ) {  <NL> if ( st . char at ( i ) = = ' ( ' ) {  <NL> if ( i + 1 < st . length ( ) & & find tick ( st , i + 1 , forward ) ) {  <NL> return true ;  <NL>  }  <NL>  }  <NL>  }  <NL> return false ;  <NL>  }  COM: <s> provided that st starts with one of the block </s>

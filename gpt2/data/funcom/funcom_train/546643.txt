@@ -1,0 +1,1 @@
+TDAT: private double distance ( net object n1 , net object n2 ) {  <NL> double x = ( n2 . get x origin ( ) - n1 . get x origin ( ) ) ;  <NL> double y = ( n2 . get y origin ( ) - n1 . get y origin ( ) ) ;  <NL> return math . sqrt ( x * x + y * y ) ;  <NL>  }  COM: <s> returns the distance in pixel between 2 net objects </s>

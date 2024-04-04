@@ -1,0 +1,1 @@
+TDAT: private void normalize and print ( string s ) {  <NL> int len = ( s ! = null ) ? s . length ( ) : 0 ;  <NL> for ( int i = 0 ; i < len ; i + + ) {  <NL> char c = s . char at ( i ) ;  <NL> normalize and print ( c ) ;  <NL>  }  <NL>  } / / normalize and print ( string )  COM: <s> normalizes and prints the given string </s>

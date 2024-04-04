@@ -1,0 +1,1 @@
+TDAT: public boolean add ( file f , int i ) {  <NL> if ( i > this . get size ( ) ) {  <NL> return this . add ( f ) ;  <NL>  } else if ( new mp3filter ( ) . accept ( f ) ) {  <NL> list . insert element at ( new playlist item ( f ) , i ) ;  <NL> return true ;  <NL>  } else return false ;  <NL>  }  COM: <s> this method inserts a mp3 file at the given position of this playlist </s>

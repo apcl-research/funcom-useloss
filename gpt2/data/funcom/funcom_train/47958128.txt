@@ -1,0 +1,1 @@
+TDAT: private void update cache ( string key , string e tag ) {  <NL> if ( key = = null || e tag = = null ) return ;  <NL> synchronized ( http cache ) {  <NL> http cache . put ( key , e tag ) ; / / < - - need to make this smarter so we don ' t run out of memory . . .  <NL>  }  <NL>  }  COM: <s> used to update the http cache </s>

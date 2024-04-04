@@ -1,0 +1,1 @@
+TDAT: private void send action ( ) {  <NL>  / / todo - - - - do it ! ! !  <NL> clear errors ( ) ;  <NL>  / / todo validate to , cc , bcc , subject , body if exists ; show <NL>  / / validation info if necessary <NL> read form ( ) ;  <NL> if ( validate ( ) ) {  <NL> send mail ( ) ;  <NL>  / / todo refresh sent folder <NL>  }  <NL>  }  COM: <s> sending mail action </s>

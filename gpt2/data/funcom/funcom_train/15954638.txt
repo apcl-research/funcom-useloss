@@ -1,0 +1,1 @@
+TDAT: public void test set year ( ) {  <NL> data date l data date1 = new data date ( f year , f month , f day , f time zone ) ;  <NL> int l year = 2000 ;  <NL> l data date1 . set year ( l year ) ;  <NL> assert equals ( l year , l data date1 . get year ( ) ) ;  <NL>  }  COM: <s> test of set year method </s>

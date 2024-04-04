@@ -1,0 +1,1 @@
+TDAT: public void draw picture ( picture source , int dx1 , int dy1 , int dx2 , int dy2 , int sx1 , int sy1 , int sx2 , int sy2 ) {  <NL>  ( ( awt picture ) source ) . init ( ) ;  <NL> g . draw image ( ( ( awt picture ) source ) . i , dx1 , dy1 , dx2 , dy2 , sx1 , sy1 , sx2 , sy2 , null ) ;  <NL>  }  COM: <s> draw an scaled image </s>

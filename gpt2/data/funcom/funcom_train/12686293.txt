@@ -1,0 +1,1 @@
+TDAT: public void set minimum ( double min ) {  <NL> this . min = min ;  <NL>  <NL>  / / convert min and max to string by adding " "  <NL> set columns ( math . max ( ( " " + min ) . length ( ) , ( " " + max ) . length ( ) ) * 3 / 4 ) ;  <NL>  ( ( double document ) get document ( ) ) . set minimum ( min ) ;  <NL>  }  COM: <s> set minimal value and adjust textfield length </s>

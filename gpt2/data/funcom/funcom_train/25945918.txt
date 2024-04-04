@@ -1,0 +1,1 @@
+TDAT: private void update status ( ) {  <NL> text view text = ( text view ) find view by id ( r . id . pwd _ status ) ;  <NL> if ( test pin ( 2 , 4 , 6 , 1 ) ) {  <NL> text . set text ( " congratulation ! " ) ;  <NL>  } else {  <NL> text . set text ( " invalid pin " ) ;  <NL>  }  <NL>  }  COM: <s> updates entered pin status </s>

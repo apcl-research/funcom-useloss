@@ -1,0 +1,1 @@
+TDAT: public void add children ( final collection nodes , final object constraints , final anchor anchor ) {  <NL> final iterator i = nodes . iterator ( ) ;  <NL> while ( i . has next ( ) ) {  <NL> final p node each = ( p node ) i . next ( ) ;  <NL> add child ( each , constraints , anchor ) ;  <NL>  }  <NL>  }  COM: <s> adds a collection of nodes to the end of the list </s>

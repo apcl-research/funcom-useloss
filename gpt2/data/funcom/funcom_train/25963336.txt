@@ -1,0 +1,1 @@
+TDAT: public void clear tiles ( ) {  <NL> for ( int x = 0 ; x < m x tile count ; x + + ) {  <NL> for ( int y = 0 ; y < m y tile count ; y + + ) {  <NL> set tile ( 0 , x , y ) ;  <NL> set background tile ( 0 , x , y ) ;  <NL> set overlay tile ( 0 , x , y ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> resets all tiles to 0 empty </s>

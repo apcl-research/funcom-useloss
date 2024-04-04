@@ -1,0 +1,1 @@
+TDAT: public void test mojo lookup ( ) throws exception {  <NL> file plugin xml = new file ( get basedir ( ) , " src / test / resources / pom - modifier - plugin - config . xml " ) ;  <NL> pom modifier mojo mojo = ( pom modifier mojo ) lookup mojo ( " update " , plugin xml ) ;  <NL> assert not null ( mojo ) ;  <NL>  }  COM: <s> test to make sure that the mojo can be found </s>

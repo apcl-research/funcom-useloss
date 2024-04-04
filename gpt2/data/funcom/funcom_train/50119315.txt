@@ -1,0 +1,1 @@
+TDAT: public void register _ quest ( string quest _ fname ) {  <NL> if ( quest _ fname ! = null ) {  <NL> quest q = ( quest ) driver . clone _ object ( quest _ fname ) ;  <NL> if ( q ! = null ) {  <NL> total _ qp + = q . qp ( ) ;  <NL> quests . put ( quest _ fname , q ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> this method registers a quest in the daemon </s>

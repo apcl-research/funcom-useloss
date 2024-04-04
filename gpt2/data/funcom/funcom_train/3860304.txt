@@ -1,0 +1,1 @@
+TDAT: public void add schema ( schema schema ) throws exception {  <NL> if ( schema exists ( schema ) ) {  <NL> throw new exception (  <NL>  " schema named < " + schema . get name ( ) + " > already exists . " ) ; / / $ non - nls - 1 $ / / $ non - nls - 2 $  <NL>  }  <NL> schema list . add ( schema ) ;  <NL>  }  COM: <s> adds a schema </s>

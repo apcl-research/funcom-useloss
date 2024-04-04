@@ -1,0 +1,1 @@
+TDAT: private string clean ( string name ) {  <NL> if ( name = = null ) {  <NL> return null ;  <NL>  }  <NL> final pattern pattern = pattern . compile ( " [ : \ " , = * ? ] " ) ;  <NL> final matcher matcher = pattern . matcher ( name ) ;  <NL> return matcher . find ( ) ? object name . quote ( name ) : name ;  <NL>  }  COM: <s> escape with quote if required </s>

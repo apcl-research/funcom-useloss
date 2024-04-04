@@ -1,0 +1,1 @@
+TDAT: public void handle grep button pressed ( ) {  <NL> simple text dialog dlg = new simple text dialog ( get site ( ) . get shell ( ) , messages . get string ( " views . quick r ex view . dlg . title " ) , hits . grep ( ) ) ; / / $ non - nls - 1 $  <NL> dlg . open ( ) ;  <NL>  }  COM: <s> the handle method for grepping </s>

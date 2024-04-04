@@ -1,0 +1,1 @@
+TDAT: public byte array buffer get processed ( ) {  <NL> byte array buffer result = new byte array buffer ( this . read pointer ) ;  <NL> result . data = new byte [ this . read pointer ] ;  <NL> system . arraycopy ( this . data , 0 , result . data , 0 , this . read pointer ) ;  <NL> return result ;  <NL>  }  COM: <s> get the part of the buffer </s>

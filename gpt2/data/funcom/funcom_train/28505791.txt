@@ -1,0 +1,1 @@
+TDAT: public parking lot get free lot ( ) {  <NL> parking lot lot = null ;  <NL> for ( int i = 0 ; i < lots . size ( ) ; i + + ) {  <NL> if ( lot = = null & & lots . get ( i ) . check state ( ) = = 0 ) {  <NL> lot = lots . get ( i ) ;  <NL>  }  <NL>  }  <NL> return lot ;  <NL>  }  COM: <s> returns a free lot </s>

@@ -1,0 +1,1 @@
+TDAT: public function alert culprit args ( final function f , final machine mc , final int nargs ) {  <NL> this . culprit ( " function " , f ) ;  <NL> for ( int i = nargs ; i > = 1 ; i - - ) {  <NL> this . culprit arg ( i , mc . pop object ( ) ) ;  <NL>  }  <NL> return this ;  <NL>  }  COM: <s> gathers the specified function and number of arguments as culprits of </s>

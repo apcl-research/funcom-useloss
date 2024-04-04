@@ -1,0 +1,1 @@
+TDAT: private boolean test conditions ( automaton a , word set u ) {  <NL> graph g = graph . get graph ( n , a , u , sigma , 1 ) ;  <NL> monitor . info ( " spread thread [ " + n + " ] : graph ( l ^ n ( s _ d ) , sigma ) for wordset " + u + " - - - " + g ) ;  <NL> return g . is connected aperiodic ( ) ;  <NL>  }  COM: <s> tests list of neccessary conditions from theorem 13 </s>

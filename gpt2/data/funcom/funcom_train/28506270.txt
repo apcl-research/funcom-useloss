@@ -1,0 +1,1 @@
+TDAT: private void set truck dock ( ) {  <NL> truckdock . set position ( 65 . 0f , 0 . 0f , 0 . 0f ) ;  <NL> truckdock . set color ( 0 . 4f , 0 . 4f , 0 . 4f ) ;  <NL> truckdock . set size ( 3 . 0f , 0 . 0f , 78 . 0f ) ;  <NL>  }  COM: <s> sets the parkingspot for trucks </s>

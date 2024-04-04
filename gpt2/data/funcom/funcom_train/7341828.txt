@@ -1,0 +1,1 @@
+TDAT: public void add result map ( result map result map ) {  <NL> if ( result maps . contains key ( result map . get name ( ) ) ) {  <NL> throw new sql map exception ( " this sql map already contains an result map named " + result map . get name ( ) ) ;  <NL>  }  <NL> result maps . put ( result map . get name ( ) , result map ) ;  <NL>  }  COM: <s> adds a named result map </s>

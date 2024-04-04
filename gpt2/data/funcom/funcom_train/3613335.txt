@@ -1,0 +1,1 @@
+TDAT: public void test contains ( ) {  <NL> map . put ( " a " , 13 ) ;  <NL> map . put ( " b " , 0 ) ;  <NL> assert true ( map . contains ( " a " ) ) ;  <NL> assert true ( map . contains ( " b " ) ) ;  <NL> assert true ( ! map . contains ( " c " ) ) ;  <NL>  }  COM: <s> method test contains </s>

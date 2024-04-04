@@ -1,0 +1,1 @@
+TDAT: public void exchange x ( int at x1 , int at x2 ) {  <NL> for ( int j = size y - 1 ; j > = 0 ; j - - ) {  <NL> double d = get item ( at x1 , j ) ;  <NL> set item ( at x1 , j , get item ( at x2 , j ) ) ;  <NL> set item ( at x2 , j , d ) ;  <NL>  }  <NL>  }  COM: <s> exchanges the column at x1 with column at x2 </s>

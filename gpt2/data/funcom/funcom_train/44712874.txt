@@ -1,0 +1,1 @@
+TDAT: public void add ( object def od ) {  <NL> if ( m _ objs . contains key ( od . get name ( ) ) ) {  <NL> od . error ( " duplicate object type in model " + get name ( ) +  <NL>  " : " + od . get name ( ) ) ;  <NL>  }  <NL> m _ objs . put ( od . get name ( ) , od ) ;  <NL> super . add ( od ) ;  <NL>  }  COM: <s> add an object def to this model def </s>

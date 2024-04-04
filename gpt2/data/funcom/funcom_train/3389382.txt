@@ -1,0 +1,1 @@
+TDAT: public vset check value ( environment env , context ctx , vset vset , hashtable exp ) {  <NL> vset = right . check value ( env , ctx , vset , exp ) ;  <NL> if ( ! right . type . is type ( tc _ array ) ) {  <NL> env . error ( where , " invalid . length " , right . type ) ;  <NL>  }  <NL> return vset ;  <NL>  }  COM: <s> select the type of the expression </s>

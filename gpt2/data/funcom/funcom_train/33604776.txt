@@ -1,0 +1,1 @@
+TDAT: public shape dot ( r2 ctr , double win rad ) {  <NL> if ( ctr = = null ) { return nada ; }  <NL> return new java . awt . geom . ellipse2d . double ( to window x ( ctr . x ) - win rad , to window y ( ctr . y ) - win rad , 2 * win rad , 2 * win rad ) ;  <NL>  }  COM: <s> return a dot whose size is independent of the geometry </s>

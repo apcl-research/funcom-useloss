@@ -1,0 +1,1 @@
+TDAT: private void swap colors ( final node < k , v > node , final int index ) {  <NL>  / / swap colors - - old hacker ' s trick <NL> black color [ index ] ^ = node . black color [ index ] ;  <NL> node . black color [ index ] ^ = black color [ index ] ;  <NL> black color [ index ] ^ = node . black color [ index ] ;  <NL>  }  COM: <s> exchange colors with another node </s>

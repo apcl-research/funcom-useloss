@@ -1,0 +1,1 @@
+TDAT: private void do rollback ( ) {  <NL> iterator < log record > iter = new log record iterator ( ) ;  <NL> while ( iter . has next ( ) ) {  <NL> log record rec = iter . next ( ) ;  <NL> if ( rec . tx number ( ) = = txnum ) {  <NL> if ( rec . op ( ) = = start )  <NL> return ;  <NL> rec . undo ( txnum ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> rolls back the transaction </s>

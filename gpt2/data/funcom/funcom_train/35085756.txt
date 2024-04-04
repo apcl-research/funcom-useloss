@@ -1,0 +1,1 @@
+TDAT: public int get data width ( ) {  <NL> int size = 0 ;  <NL>  <NL> for ( int t = 0 ; t < keys . size ( ) ; t + + ) {  <NL> string key = ( string ) keys . element at ( t ) ;  <NL> vector v = ( vector ) data . get ( key ) ;  <NL>  <NL> size = math . max ( size , v . size ( ) ) ;  <NL>  }  <NL> return size ;  <NL>  }  COM: <s> gets the size of the biggest vector </s>

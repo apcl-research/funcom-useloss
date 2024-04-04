@@ -1,0 +1,1 @@
+TDAT: public boolean contains ( int s _ p , int x , int d1 , int d2 ) {  <NL> int n = get index for entry exit pair ( s _ p , x ) ;  <NL> i binary natural relation r = summaries . get ( n ) ;  <NL> if ( r = = null ) {  <NL> return false ;  <NL>  } else {  <NL> return r . contains ( d1 , d2 ) ;  <NL>  }  <NL>  }  COM: <s> does a particular summary edge exist </s>

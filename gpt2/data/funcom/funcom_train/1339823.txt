@@ -1,0 +1,1 @@
+TDAT: public buffered image reset image ( ) {  <NL> buffered image image = atlas . get image ( ul , right , down , 0 , 0 , direction . get width ( ) , direction . get height ( ) , true , 1 , null , null , interpolation . nearest _ neighbor ) ;  <NL> this . atlas img = image ;  <NL> return image ;  <NL>  }  COM: <s> reset the atlas image </s>

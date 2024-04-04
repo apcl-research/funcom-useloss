@@ -1,0 +1,1 @@
+TDAT: public boolean equals ( object obj ) {  <NL> class path entry other = ( class path entry ) obj ;  <NL> if ( iseq ( other , " kind " ) & & iseq ( other , " path " ) )  <NL> return true ;  <NL> if ( cmplibsrc ( this , other ) || cmplibsrc ( other , this ) )  <NL> return true ;  <NL> return false ;  <NL>  }  COM: <s> test whether this classpath equals a given object </s>

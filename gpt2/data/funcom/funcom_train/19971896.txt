@@ -1,0 +1,1 @@
+TDAT: public void set nautical time ( boolean naut ) {  <NL> log . i ( " time model " , " set " + ( naut ? " nautical " : " landlubber " ) + " time " ) ;  <NL> nautical time = naut ;  <NL> if ( nautical time )  <NL> setup timezone ( ) ;  <NL>  <NL>  / / if not nautical time , a real timezone update is coming .  <NL>  }  COM: <s> set whether we use nautical time </s>

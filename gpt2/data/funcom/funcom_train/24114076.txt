@@ -1,0 +1,1 @@
+TDAT: protected int get year diff ( date from , date to ) {  <NL> calendar min cal = new iso calendar ( ) ;  <NL> min cal . set time ( from ) ;  <NL> calendar max cal = new iso calendar ( ) ;  <NL> max cal . set time ( to ) ;  <NL> return max cal . get ( calendar . year ) - min cal . get ( calendar . year ) ;  <NL>  }  COM: <s> retrieve the difference in years </s>

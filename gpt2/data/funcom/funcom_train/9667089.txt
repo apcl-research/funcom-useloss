@@ -1,0 +1,1 @@
+TDAT: private void add button action performed1 ( action event e ) {  <NL> closing = true ;  <NL> this . hide ( ) ;  <NL> add acts frame af = new add acts frame ( cm , j tabbed pane1 . get selected index ( ) , day dates , this ) ; / / todo : pass in cm <NL> af . show ( ) ;  <NL> refresh tables ( ) ;  <NL>  }  COM: <s> displays a window to allow the staff to add an activity </s>

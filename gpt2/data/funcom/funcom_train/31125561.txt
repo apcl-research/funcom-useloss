@@ -1,0 +1,1 @@
+TDAT: public void write ( byte [ ] data ) throws io exception {  <NL> if ( packet mode )  <NL>  {  <NL> write byte ( ( byte ) data . length ) ;  <NL> write byte ( ( byte ) ( data . length > > 8 ) ) ;  <NL>  }  <NL> for ( int i = 0 ; i < data . length ; i + + )  <NL> write byte ( data [ i ] ) ;  <NL> flush buffer ( ) ;  <NL>  }  COM: <s> write bytes to the device </s>

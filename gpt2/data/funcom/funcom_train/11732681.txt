@@ -1,0 +1,1 @@
+TDAT: private void add difference ( data a , data b ) {  <NL> if ( a . is simple ( ) & & b . is simple ( ) ) {  <NL> bits [ 0 ] | = a . long value ( ) & ~ b . long value ( ) ;  <NL>  } else {  <NL> long [ ] diff = diff ( a . long values ( ) , b . long values ( ) ) ;  <NL> or ( diff ) ;  <NL>  }  <NL>  }  COM: <s> add the diff between the specified data a and b </s>

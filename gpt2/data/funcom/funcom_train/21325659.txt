@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> string res str = " " ;  <NL> for ( int i = 0 ; i < genome . size ( ) ; i + + )  <NL> if ( i = = genome . size ( ) - 1 )  <NL> res str + = genome . element at ( i ) . to string ( ) ;  <NL> else <NL> res str + = genome . element at ( i ) . to string ( ) + " \n " ;  <NL> return res str ;  <NL>  }  COM: <s> get the genes as a string </s>

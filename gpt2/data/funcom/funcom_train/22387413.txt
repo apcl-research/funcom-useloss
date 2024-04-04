@@ -1,0 +1,1 @@
+TDAT: static private void transcluded ( zz cell from , zz cell to ) {  <NL> from . insert ( " d . nile - transcluded " , 1 , to ) ;  <NL> if ( from . s ( " d . nile - transcluded " , - 1 ) = = null )  <NL> from . connect ( " d . nile - transcluded " , - 1 , to ) ;  <NL>  }  COM: <s> internal convenience make a connection and a ring if it isnt yet </s>

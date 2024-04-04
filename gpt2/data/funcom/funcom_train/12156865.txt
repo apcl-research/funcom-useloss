@@ -1,0 +1,1 @@
+TDAT: public void test lotsa spaces ( ) {  <NL> do charset parser test ( " a ; q = 0 . 3 , b ; q = 0 . 2 , c ; q = 0 . 1 " ,  <NL> new string [ ] { " iso - 8859 - 1 " , " a " , " b " , " c " } ) ;  <NL>  }  COM: <s> test various charsets and qvalues 1 with spaces in between </s>

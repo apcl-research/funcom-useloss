@@ -1,0 +1,1 @@
+TDAT: public string notes ( ) {  <NL> map < string , object > bg = ( map < string , object > ) dict . get ( " background graphic " ) ;  <NL> string s = un rtf ( ( string ) bg . get ( " notes " ) ) ;  <NL> if ( s = = null ) return null ;  <NL> if ( s . ends with ( " \n " ) ) s = s . substring ( 0 , s . length ( ) - 1 ) ;  <NL> return s ;  <NL>  }  COM: <s> get the sheet notes </s>

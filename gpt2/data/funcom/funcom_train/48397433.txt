@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> array list temp list = new array list ( ) ;  <NL> string conn = " " ;  <NL> for ( int i = 1 ; i < col number * row number + 1 ; i + + ) {  <NL> temp list = get connected neurons ( i ) ;  <NL> conn = conn + i + " \t " + temp list + " \n " ;  <NL>  }  <NL> return conn ;  <NL>  }  COM: <s> returns a string representation of the topology </s>

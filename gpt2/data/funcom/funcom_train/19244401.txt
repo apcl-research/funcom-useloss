@@ -1,0 +1,1 @@
+TDAT: public void test hash code ( ) throws exception {  <NL> final path p1 = new path ( " a / b / c " ) ;  <NL> final path p2 = new path ( " a / b / c " ) ;  <NL> final path p3 = new path ( " a / d / c " ) ;  <NL> assert equals ( p1 . hash code ( ) , p2 . hash code ( ) ) ;  <NL> assert false ( p1 . hash code ( ) = = p3 . hash code ( ) ) ;  <NL>  }  COM: <s> test hash code </s>

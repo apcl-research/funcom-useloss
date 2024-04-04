@@ -1,0 +1,1 @@
+TDAT: public void insert probe code ( method visitor cv ) {  <NL> cv . visit insn ( opcodes . dup2 ) ;  <NL> cv . visit ldc insn ( new integer ( get id ( ) ) ) ;  <NL> cv . visit method insn ( opcodes . invokestatic , hit _ class , " hit branch " ,  <NL>  " ( ljava / lang / object ; ljava / lang / object ; i ) v " ) ;  <NL>  }  COM: <s> returns the code of the probe </s>

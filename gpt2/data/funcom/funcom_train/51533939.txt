@@ -1,0 +1,1 @@
+TDAT: public void draw image ( virtual image image , int x , int y , int anchor ) {  <NL> if ( image = = null ) {  <NL> throw new null pointer exception ( ) ;  <NL>  }  <NL>  <NL> if ( ! render ( ( gxj image ) image , x , y , anchor ) ) {  <NL> throw new illegal argument exception ( " " ) ;  <NL>  }  <NL>  }  COM: <s> draws the specified image by using the anchor point </s>

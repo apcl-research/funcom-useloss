@@ -1,0 +1,1 @@
+TDAT: public cell handle add ( timestamp dt , string address , string fmt ) {  <NL> if ( fmt = = null ) fmt = " m / d / yyyy h : mm : ss " ;  <NL> date dx = new date ( dt . get time ( ) ) ;  <NL> return this . add ( dx , address , fmt ) ;  <NL>  }  COM: <s> add a java </s>

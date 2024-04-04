@@ -1,0 +1,1 @@
+TDAT: public r visit ( alefpp n , a argu ) {  <NL> r _ ret = null ;  <NL> n . f0 . accept ( this , argu ) ;  <NL> n . f1 . accept ( this , argu ) ;  <NL> n . f2 . accept ( this , argu ) ;  <NL> n . f3 . accept ( this , argu ) ;  <NL> return _ ret ;  <NL>  }  COM: <s> f0 use statement </s>

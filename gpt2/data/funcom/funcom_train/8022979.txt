@@ -1,0 +1,1 @@
+TDAT: public void stylize bool val ( int r , int g , int b , boolean bold , boolean italic ) {  <NL> set style constants ( styles . get style for scan value ( token . bool _ val <NL>  . get scan value ( ) ) , new color ( r , g , b ) , bold , italic ) ;  <NL>  }  COM: <s> set text attributes for scheme bool values </s>

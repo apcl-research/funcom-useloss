@@ -1,0 +1,1 @@
+TDAT: protected void save singleton ( object obj ) {  <NL> i dir helper dh = lookup . get ( ) . get impl object ( i dir helper . class ) ;  <NL> file xml file = new file ( dh . get dir ( ) +  <NL> obj . get class ( ) . get simple name ( ) +  <NL> xml file ending ) ;  <NL> save to file ( obj , xml file ) ;  <NL>  }  COM: <s> this method save the specified object to a file </s>

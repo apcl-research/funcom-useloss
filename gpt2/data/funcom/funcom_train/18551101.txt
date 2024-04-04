@@ -1,0 +1,1 @@
+TDAT: private string get extension ( jar entry p file ) {  <NL> string ext = " " ;  <NL> string s = p file . get name ( ) ;  <NL> int i = s . last index of ( ' . ' ) ;  <NL>  <NL> if ( i > 0 & & i < s . length ( ) - 1 ) {  <NL> ext = s . substring ( i + 1 ) . to lower case ( ) ;  <NL>  }  <NL> return ext ;  <NL>  }  COM: <s> gets the file extension </s>

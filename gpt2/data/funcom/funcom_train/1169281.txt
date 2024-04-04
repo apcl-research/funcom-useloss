@@ -1,0 +1,1 @@
+TDAT: private j label get type label ( ) {  <NL> if ( type label = = null ) {  <NL> type label = new j label ( ) ;  <NL> type label . set text ( " type " ) ;  <NL> type label . set font ( new java . awt . font ( " segoe ui " , 0 , 14 ) ) ;  <NL>  }  <NL> return type label ;  <NL>  }  COM: <s> p getter for the field code type label code </s>

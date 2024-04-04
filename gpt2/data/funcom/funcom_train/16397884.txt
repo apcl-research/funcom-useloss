@@ -1,0 +1,1 @@
+TDAT: protected void fill box ( graphics g , int x , int y , int width , int height , color c ) {  <NL> g . set color ( c ) ;  <NL> g . fill rect ( translate ( x ) , translate ( y ) , width * size , height * size ) ;  <NL>  }  COM: <s> draws a filled rectangle covering the specified cells </s>

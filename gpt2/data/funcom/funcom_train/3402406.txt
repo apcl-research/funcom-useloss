@@ -1,0 +1,1 @@
+TDAT: public void add ( string key , string value ) {  <NL> string k = normalize ( key ) ;  <NL> list < string > l = map . get ( k ) ;  <NL> if ( l = = null ) {  <NL> l = new linked list < string > ( ) ;  <NL> map . put ( k , l ) ;  <NL>  }  <NL> l . add ( value ) ;  <NL>  }  COM: <s> adds the given value to the list of headers </s>

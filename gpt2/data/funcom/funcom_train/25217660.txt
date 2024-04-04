@@ -1,0 +1,1 @@
+TDAT: public int scan next ( ) throws io exception {  <NL>  <NL> int c ;  <NL>  <NL> do {  <NL> c = read ( ) ;  <NL> if ( c = = ' % ' ) {  <NL> do {  <NL> c = read ( ) ;  <NL>  } while ( c > = 0 & & c ! = ' \n ' & & c ! = ' \r ' ) ;  <NL>  }  <NL>  } while ( character . is whitespace ( c ) ) ;  <NL>  <NL> return c ;  <NL>  }  COM: <s> scan to the next non space character </s>

@@ -1,0 +1,1 @@
+TDAT: public void set height ( java . lang . integer height ) {  <NL> integer result = ( integer ) component utils . invoke method ( get page ( ) . get handler ( ) ,  <NL> get method ( " on set height " ) , new object [ ] { height } ) ;  <NL>  <NL> this . height = ( result ! = null ) ? result : height ;  <NL>  }  COM: <s> setter for property height </s>

@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> return " variable : code index = " + code index + " , name = " + name <NL>  + " , signature = " + signature + " , length = " + length <NL>  + " , slot = " + slot + " , tag = "  <NL>  + jdwp constants . tag . get name ( tag ) + " , type = " + type ;  <NL>  }  COM: <s> converts variable object to string </s>

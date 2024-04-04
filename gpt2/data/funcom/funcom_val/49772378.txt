@@ -1,0 +1,1 @@
+TDAT: public void send constraint ( pattern assignment pa ) {  <NL> vector v = new vector ( ) ;  <NL> v . add ( pa ) ;  <NL> constraint c = new constraint ( symbol . intern ( " world - state " ) , symbol . intern ( " effect " ) , v ) ;  <NL>  ( ( ip2model manager ) ip2 . get model manager ( ) ) . add constraint ( c ) ;  <NL>  }  COM: <s> sends a constraint to agent </s>

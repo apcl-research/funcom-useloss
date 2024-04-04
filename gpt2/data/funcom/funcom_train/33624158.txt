@@ -1,0 +1,1 @@
+TDAT: public void report ordering ( print stream out ) {  <NL> out . print ( this . domain name + " : " ) ;  <NL> for ( int i = 0 , n = this . domain variables . length ; i < n ; i + + ) {  <NL> out . print ( this . domain variables [ i ] . get level ( ) + " " ) ;  <NL>  }  <NL> out . println ( ) ;  <NL>  }  COM: <s> reports variable orderings in this domain from low to high </s>

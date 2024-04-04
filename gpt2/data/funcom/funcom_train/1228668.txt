@@ -1,0 +1,1 @@
+TDAT: private void create model ( ) {  <NL> model = new default table model ( ) ;  <NL> model . add column ( " date " ) ;  <NL> model . add column ( " cost " ) ;  <NL> model . add column ( " category " ) ;  <NL> model . add column ( " note " ) ;  <NL> model . add column ( " id " ) ;  <NL> j table1 . set model ( model ) ;  <NL>  }  COM: <s> sets up the table </s>

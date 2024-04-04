@@ -1,0 +1,1 @@
+TDAT: protected void initialize location ( node view v , dimension d ) {  <NL> double x = math . random ( ) * d . get width ( ) ;  <NL> double y = math . random ( ) * d . get height ( ) ;  <NL> v . set x position ( x , false ) ;  <NL> v . set y position ( y , false ) ;  <NL>  }  COM: <s> sets random locations for a vertex within the dimensions of the space </s>

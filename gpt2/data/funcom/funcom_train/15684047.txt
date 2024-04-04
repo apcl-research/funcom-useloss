@@ -1,0 +1,1 @@
+TDAT: public void set value ( object value ) {  <NL> this . value = value ;  <NL> if ( c label ! = null ) {  <NL> if ( value ! = null ) {  <NL>  / / todo format data <NL> c label . set text ( value . to string ( ) ) ;  <NL>  }  <NL> else {  <NL> c label . set text ( " " ) ;  <NL>  }  <NL> c label . pack ( true ) ;  <NL>  }  <NL>  }  COM: <s> the texts value of label to set </s>

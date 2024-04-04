@@ -1,0 +1,1 @@
+TDAT: private string get suffix ( java . io . file f ) {  <NL> string s = f . get path ( ) ;  <NL> string suffix = null ;  <NL> int i = s . last index of ( ' . ' ) ;  <NL> if ( i > 0 & & i < s . length ( ) - 1 ) {  <NL> suffix = s . substring ( i + 1 ) . to lower case ( ) ;  <NL>  }  <NL> return suffix ;  <NL>  }  COM: <s> get the file suffix </s>

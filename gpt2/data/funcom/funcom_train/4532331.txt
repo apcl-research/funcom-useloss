@@ -1,0 +1,1 @@
+TDAT: private void read next value ( ) throws io exception {  <NL> data input buffer next value bytes = in . get value ( ) ;  <NL> value in . reset ( next value bytes . get data ( ) , next value bytes . get position ( ) , next value bytes . get length ( ) ) ;  <NL> value = val deserializer . deserialize ( value ) ;  <NL>  }  COM: <s> read the next value </s>

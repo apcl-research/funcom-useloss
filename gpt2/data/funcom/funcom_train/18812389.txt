@@ -1,0 +1,1 @@
+TDAT: public void reset ( ) {  <NL> system . out . println ( " hardware reset " ) ;  <NL> for ( int r = 0 ; r < 0x ff ; r + + ) {  <NL> io write ( r , ( short ) 0x00 ) ;  <NL>  }  <NL> io write ( 0x40 , ( short ) 0x91 ) ;  <NL> io write ( 0x0f , ( short ) 0x01 ) ;  <NL> hdma running = false ;  <NL>  }  COM: <s> initialize io to initial power on state </s>

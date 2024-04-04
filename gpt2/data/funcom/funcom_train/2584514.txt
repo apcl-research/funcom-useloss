@@ -1,0 +1,1 @@
+TDAT: public void test constructor ( ) {  <NL> gray paint scale gps = new gray paint scale ( ) ;  <NL> assert equals ( 0 . 0 , gps . get lower bound ( ) , epsilon ) ;  <NL> assert equals ( 1 . 0 , gps . get upper bound ( ) , epsilon ) ;  <NL> assert equals ( 255 , gps . get alpha ( ) ) ;  <NL>  }  COM: <s> simple check for the default constructor </s>

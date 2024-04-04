@@ -1,0 +1,1 @@
+TDAT: public void check internal data ( ) {  <NL> for ( int i = 1 ; i < = 3 * r ; i + + ) {  <NL> for ( int j = 1 ; j < = 3 * r ; j + + ) {  <NL>  / / system . out . println ( " i = " + i + " j = " + j ) ;  <NL> check size ( i , j ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> decomposes the matrix and checks the internal data structure for correctness </s>

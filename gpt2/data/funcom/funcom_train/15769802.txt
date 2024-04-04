@@ -1,0 +1,1 @@
+TDAT: private void a set enabled ( boolean b ) {  <NL> container cnt = j panel1 ;  <NL> int count = cnt . get component count ( ) ;  <NL> for ( int i = 0 ; i < count ; i + + ) {  <NL> component c = cnt . get component ( i ) ;  <NL> if ( c ! = null ) {  <NL> c . set enabled ( b ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> sets enable state of all components attached to the panel </s>

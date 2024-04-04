@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> if ( check _ nobreak _ text ) {  <NL> return string . format ( " : no : % s : pre : % s : post : % s : : % s : % s : % d : " ,  <NL> nobreak , pre _ brkpt , post _ brkpt , replace _ pre _ brkpt , replace _ post _ brkpt , weight ) ;  <NL>  }  <NL> return " " + weight ;  <NL>  }  COM: <s> gets a string representation of the </s>

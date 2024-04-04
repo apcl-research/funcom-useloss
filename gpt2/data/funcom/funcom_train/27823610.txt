@@ -1,0 +1,1 @@
+TDAT: public void add url ( string url , string parent url , boolean decrement ) {  <NL> url struct us = ( url struct ) m _ url map . get ( parent url ) ;  <NL> int depth = us . get depth ( ) ;  <NL> if ( decrement )  <NL> depth - - ;  <NL> if ( depth > = 0 )  <NL> add url ( url , parent url , depth ) ;  <NL>  }  COM: <s> this method is used to add to the urllist if </s>

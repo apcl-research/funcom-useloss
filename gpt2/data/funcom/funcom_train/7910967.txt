@@ -1,0 +1,1 @@
+TDAT: public boolean quit dialog ( ) {  <NL> final int value = j option pane . show confirm dialog ( this ,  <NL>  " are you sure you want to quit ? " ,  <NL>  " quit phylontal " ,  <NL> j option pane . yes _ no _ option ) ;  <NL> return ( value = = j option pane . yes _ option ) ; / / just return whether yes was selected <NL>  }  COM: <s> only need one copy of this </s>

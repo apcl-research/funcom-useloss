@@ -1,0 +1,1 @@
+TDAT: public double linear correlation coeff ( ) {  <NL> double sum x = sum x ( ) ;  <NL> double sum y = sum y ( ) ;  <NL> return ( n * sum xy ( ) - sum x * sum y ) /  <NL> math . sqrt ( n * sum x sq ( ) - math . pow ( sum x , 2 ) ) /  <NL> math . sqrt ( n * sum y sq ( ) - math . pow ( sum y , 2 ) ) ;  <NL>  }  COM: <s> returns the linear correlation coefficient </s>

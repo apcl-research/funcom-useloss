@@ -1,0 +1,1 @@
+TDAT: private string validate word ( string word ) {  <NL> string chars = " " ;  <NL> for ( int i = 0 ; i < word . length ( ) ; + + i ) {  <NL> if ( ! character . is letter ( word . char at ( i ) ) ) {  <NL> chars + = " \ " " + word . char at ( i ) + " \ " " ;  <NL>  }  <NL>  }  <NL> return chars ;  <NL>  }  COM: <s> checks to see if any invalid characters are in the word </s>

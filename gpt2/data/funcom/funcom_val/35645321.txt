@@ -1,0 +1,1 @@
+TDAT: private void init cell label list ( ) {  <NL>  _ cell labels = arrays . as list ( _ cell1 , _ cell2 , _ cell3 , _ cell4 , _ cell5 , _ cell6 , _ cell7 , _ cell8 , _ cell9 , _ cell10 ,  <NL>  _ cell11 , _ cell12 , _ cell13 , _ cell14 , _ cell15 , _ cell16 ) ;  <NL>  }  COM: <s> store the jlabels in list for easy access by the board filling method </s>

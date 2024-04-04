@@ -1,0 +1,1 @@
+TDAT: public int compare ( object o1 , object o2 ) {  <NL> if ( ( ( word ) o1 ) . get score ( ) < ( ( word ) o2 ) . get score ( ) ) return - 1 ;  <NL> if ( ( ( word ) o1 ) . get score ( ) = = ( ( word ) o2 ) . get score ( ) ) return 0 ;  <NL> return 1 ;  <NL>  }  COM: <s> the comparator interface </s>

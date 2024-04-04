@@ -1,0 +1,1 @@
+TDAT: public void set genes ( gene [ ] a _ genes ) {  <NL>  / / for ( int i = 0 ; i < a _ genes . length ; i + + ) {  <NL>  / / if ( a _ genes [ i ] = = null ) {  <NL>  / / throw new runtime exception ( " gene may not be null ! " ) ;  <NL>  / / }  <NL>  / / }  <NL> m _ genes = a _ genes ;  <NL>  }  COM: <s> sets the genes for the chromosome </s>

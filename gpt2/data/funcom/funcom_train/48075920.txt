@@ -1,0 +1,1 @@
+TDAT: private int size ( ) {  <NL> int size = 0 ;  <NL> for ( map . entry < uuid , map < pastry id , chunk < ? > > > entry : store . entry set ( ) ) {  <NL> purge ( entry . get key ( ) ) ;  <NL> size + = entry . get value ( ) . size ( ) ;  <NL>  }  <NL> return size ;  <NL>  }  COM: <s> tells how many chunks are stored </s>

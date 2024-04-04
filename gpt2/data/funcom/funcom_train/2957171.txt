@@ -1,0 +1,1 @@
+TDAT: public int static insert ( final int ind , final e o ) {  <NL> ensure static capacity ( n static objects + + ) ;  <NL> system . arraycopy ( static objects , ind , static objects , ind + 1 , n static objects - ind ) ;  <NL> static objects [ ind ] = o ;  <NL> return n static objects - 1 ;  <NL>  }  COM: <s> insert an object in the array of static object </s>

@@ -1,0 +1,1 @@
+TDAT: public void test inflectional only ( ) throws io exception {  <NL> check one term ( b , " bukunya " , " buku " ) ;  <NL> check one term reuse ( b , " bukukah " , " buku " ) ;  <NL> check one term reuse ( b , " bukunyakah " , " buku " ) ;  <NL> check one term reuse ( b , " dibukukannya " , " dibukukan " ) ;  <NL>  }  COM: <s> test stemming only inflectional suffixes </s>

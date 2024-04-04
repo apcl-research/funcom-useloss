@@ -1,0 +1,1 @@
+TDAT: public void randomize color ( ) {  <NL> rr = r . next int ( rb < 1 ? 100 : rb ) ;  <NL> rg = r . next int ( rr < 1 ? 100 : rr ) ;  <NL> rb = r . next int ( rg < 1 ? 100 : rg ) ;  <NL> map rgb = null ; / / remove custom color map <NL>  } / / randomize color ( )  COM: <s> create new random factors for algorithmic color map </s>

@@ -1,0 +1,1 @@
+TDAT: protected long get mpeghms ( byte [ ] b ) {  <NL> long low4bytes = ( ( ( b [ 0 ] & 0xff ) > > 1 ) & 0x03 ) < < 30 | ( b [ 1 ] & 0xff ) < < 22 | ( ( b [ 2 ] & 0xff ) > > 1 ) < < 15 <NL> | ( b [ 3 ] & 0xff ) < < 7 | ( b [ 4 ] & 0xff ) > > 1 ;  <NL>  <NL> return low4bytes / 90000 ;  <NL>  }  COM: <s> gets the hour minute second in seconds of mpeg 1 </s>

@@ -1,0 +1,1 @@
+TDAT: private point2d project2dplus ( double x , double y , double z ) {  <NL> final point2d p = project2d ( x , y , z ) ;  <NL> if ( p ! = null ) {  <NL> return new point2d . double ( p . get x ( ) * zoomx + depx , p . get y ( ) * zoomy + depy ) ;  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> give the point transformed to be viewed in a 2 dpanel br </s>

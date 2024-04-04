@@ -1,0 +1,1 @@
+TDAT: public void add ( section sect ) {  <NL> if ( get section ( sect . get id ( ) ) ! = null ) {  <NL> throw new illegal argument exception ( " a section with id " + sect . get id ( ) + " has already been added " ) ;  <NL>  }  <NL> sections . add ( sect ) ;  <NL> fire state changed ( new rr event ( this ) ) ;  <NL>  }  COM: <s> add a section to this railroad </s>

@@ -1,0 +1,1 @@
+TDAT: public void test compare to ( ) {  <NL> assert true ( new material ( 1 , 2 ) . compare to ( new material ( 1 , 2 ) ) = = 0 ) ;  <NL> assert true ( new material ( 1 , 2 ) . compare to ( new material ( 2 , 2 ) ) < 0 ) ;  <NL> assert true ( new material ( 2 , 2 ) . compare to ( new material ( 1 , 2 ) ) > 0 ) ;  <NL>  }  COM: <s> test of compare to method of class material </s>

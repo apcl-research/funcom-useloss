@@ -1,0 +1,1 @@
+TDAT: public int int node successor ( ) {  <NL> int int node n = this ;  <NL> if ( n . right ! = null ) {  <NL> return n . right . min ( ) ;  <NL>  }  <NL> int int node y = n . parent ;  <NL> while ( ( y ! = null ) & & ( n = = y . right ) ) {  <NL> n = y ;  <NL> y = y . parent ;  <NL>  }  <NL> return y ;  <NL>  }  COM: <s> return successor node to this one </s>

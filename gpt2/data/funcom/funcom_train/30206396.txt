@@ -1,0 +1,1 @@
+TDAT: public void set config ( string config ) {  <NL> if ( config = = null || config . trim ( ) . length ( ) = = 0 ) {  <NL> this . config = " < config / > " ;  <NL>  } else {  <NL> param parser . parse xml to document ( config , " error . param . config " ) ;  <NL> this . config = config ;  <NL>  }  <NL>  }  COM: <s> set the config for the itrigger class </s>

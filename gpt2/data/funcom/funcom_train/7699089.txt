@@ -1,0 +1,1 @@
+TDAT: private void load slave ( ) {  <NL> string cmd = " mysql - h " + dd _ des . get host ( ) + " - u " + dd _ des . get username ( ) + " - p " + dd _ des . get password ( ) + " - f < " + get tmp path ( ) + " / master _ dump . sql " ;  <NL> system . out . println ( cmd ) ;  <NL> run shell ( cmd ) ;  <NL>  }  COM: <s> load slave with the dump from master </s>

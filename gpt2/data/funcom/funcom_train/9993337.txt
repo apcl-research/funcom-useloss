@@ -1,0 +1,1 @@
+TDAT: public int get row level ( string id ) {  <NL> element row = dom . get element by id ( add id prefix ( id ) ) ;  <NL> if ( row = = null )  <NL> return - 1 ;  <NL>  <NL> string level = dom . get element property ( row , " level " ) ;  <NL> if ( level = = null )  <NL> return - 1 ;  <NL>  <NL> return integer . parse int ( level ) ;  <NL>  }  COM: <s> gets the row level </s>

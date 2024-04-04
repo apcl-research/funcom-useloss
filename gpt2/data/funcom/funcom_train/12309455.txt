@@ -1,0 +1,1 @@
+TDAT: public url as url ( ) throws io exception {  <NL> string file name =  <NL> jar content reference . as file ( ) . get absolute path ( ) . replace ( file . separator char , ' / ' ) ;  <NL> return new url ( " jar : file : " + file name + " ! / " + entry . get name ( ) ) ; / / $ non - nls - 1 $ / / $ non - nls - 2 $  <NL>  }  COM: <s> returns the content reference as a url </s>

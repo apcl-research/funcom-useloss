@@ -1,0 +1,1 @@
+TDAT: public string get prefilter op ( string op ) {  <NL> if ( op . equals ( " lt " ) ) return " < " ;  <NL> if ( op . equals ( " gt " ) ) return " > " ;  <NL> if ( op . equals ( " eq " ) ) return " = " ;  <NL> if ( op . equals ( " ne " ) ) return " ! = " ;  <NL>  <NL> return " " ;  <NL>  }  COM: <s> this function converts the prefilter op to its sql equivilent </s>

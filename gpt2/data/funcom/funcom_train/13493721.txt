@@ -1,0 +1,1 @@
+TDAT: public void write ( string s ) {  <NL> if ( reactive ) {  <NL> if ( ( ! s . equals ( " yes " ) ) & & ( ! s . equals ( " no " ) ) & & ( s . index of ( " @ @ " ) = = - 1 ) & & ( console ) ) {  <NL> super . write ( s ) ;  <NL>  }  <NL>  } else super . write ( s ) ; / / show all outputs <NL>  }  COM: <s> write only results other than yes or no </s>

@@ -1,0 +1,1 @@
+TDAT: protected void erase square heuristic ( final int i , final int j , final int id , final int jd ) {  <NL> s01 = heur matrix [ i ] [ j + jd ] ;  <NL> s11 = heur matrix [ i + id ] [ j + jd ] ;  <NL> heur matrix [ i ] [ j + jd ] = 0 ;  <NL> heur matrix [ i + id ] [ j ] = 0 ;  <NL> heur matrix [ i + id ] [ j + jd ] = 0 ;  <NL>  }  COM: <s> erase square heuristic </s>

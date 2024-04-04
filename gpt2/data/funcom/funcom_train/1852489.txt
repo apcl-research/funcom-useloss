@@ -1,0 +1,1 @@
+TDAT: public void engine reset ( ) {  <NL> int i = 60 ;  <NL> do {  <NL> pad [ i ] = ( byte ) 0x00 ;  <NL> pad [ i + 1 ] = ( byte ) 0x00 ;  <NL> pad [ i + 2 ] = ( byte ) 0x00 ;  <NL> pad [ i + 3 ] = ( byte ) 0x00 ;  <NL>  } while ( ( i - = 4 ) > = 0 ) ;  <NL> padding = 0 ;  <NL> bytes = 0 ;  <NL> init ( ) ;  <NL>  }  COM: <s> reset then initialize the digest context </s>

@@ -1,0 +1,1 @@
+TDAT: private long hash ( final char sequence s , final int l , final int k ) {  <NL> final int [ ] w = weight [ k ] ;  <NL> int h = 0 , i = l ;  <NL> while ( i - - ! = 0 ) h ^ = s . char at ( i ) * w [ i % number _ of _ weights ] ;  <NL> return ( ( long ) h - integer . min _ value ) % m ;  <NL>  }  COM: <s> hashes the given sequence with the given hash function </s>

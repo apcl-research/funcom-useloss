@@ -1,0 +1,1 @@
+TDAT: public void change ( double r , double g , double b ) {  <NL> r = math . min ( math . round ( r ) , 255 ) ;  <NL> g = math . min ( math . round ( g ) , 255 ) ;  <NL> b = math . min ( math . round ( b ) , 255 ) ;  <NL> c = new color ( ( int ) r , ( int ) g , ( int ) b ) ;  <NL>  }  COM: <s> changes the color using r g b </s>

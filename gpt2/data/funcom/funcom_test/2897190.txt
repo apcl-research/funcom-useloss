@@ -1,0 +1,1 @@
+TDAT: public int get index ( string uri , string local name ) {  <NL> int max = length * 5 ;  <NL> for ( int i = 0 ; i < max ; i + = 5 ) {  <NL> if ( data [ i ] . equals ( uri ) & & data [ i + 1 ] . equals ( local name ) ) {  <NL> return i / 5 ;  <NL>  }  <NL>  }  <NL> return - 1 ;  <NL>  }  COM: <s> look up an attributes index by namespace name </s>

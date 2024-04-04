@@ -1,0 +1,1 @@
+TDAT: public void reload user ( ) {  <NL> for ( user u : users ) {  <NL> if ( u . get name ( ) . equals ( user . get name ( ) ) ) {  <NL> u . set password ( generated password ) ;  <NL> set password ( generated password ) ;  <NL> set retype password ( " " ) ;  <NL> set password set ( new boolean ( true ) ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> reload user parameters </s>

@@ -1,0 +1,1 @@
+TDAT: private float calculate node distance ( ap node1 , ap node2 ) {  <NL> return ( float ) math . sqrt ( math . pow ( ( node1 . x - node2 . x ) , 2 )  <NL>  + math . pow ( ( node1 . y - node2 . y ) , 2 ) + math . pow ( ( node1 . z - node2 . z ) , 2 ) ) ;  <NL>  }  COM: <s> return the distance in metres between two nodes </s>

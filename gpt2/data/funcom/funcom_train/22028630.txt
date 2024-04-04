@@ -1,0 +1,1 @@
+TDAT: protected void write boolean array ( boolean [ ] b ) throws io exception {  <NL> byte [ ] bx = new byte [ b . length ] ;  <NL> for ( int i = 0 ; i < b . length ; i + = 1 ) {  <NL> if ( b [ i ] ) {  <NL> bx [ i ] = 1 ;  <NL>  } else {  <NL> bx [ i ] = 0 ;  <NL>  }  <NL>  }  <NL> write ( bx , 0 , bx . length ) ;  <NL>  }  COM: <s> write an array of booleans </s>

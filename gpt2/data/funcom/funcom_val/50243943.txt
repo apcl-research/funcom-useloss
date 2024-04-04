@@ -1,0 +1,1 @@
+TDAT: public void finish ( ) {  <NL> try { if ( source conn ! = null ) { jdbc connection manager . release ( source , source conn ) ; } } catch ( sql exception e ) { }  <NL> try { if ( target conn ! = null ) { jdbc connection manager . release ( target , target conn ) ; } } catch ( sql exception e ) { }  <NL>  }  COM: <s> transfer operation is finished </s>

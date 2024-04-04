@@ -1,0 +1,1 @@
+TDAT: public double max ( ) {  <NL> if ( size ( ) < 1 ) throw new illegal argument exception ( " zero size " ) ;  <NL> double ma = v [ 0 ] ;  <NL> if ( size ( ) < 2 ) return ma ;  <NL> for ( int i = 1 ; i < size ( ) ; i + + ) {  <NL> if ( v [ i ] > ma ) ma = v [ i ] ;  <NL>  }  <NL> return ma ;  <NL>  }  COM: <s> returns the maximum value of all elements </s>

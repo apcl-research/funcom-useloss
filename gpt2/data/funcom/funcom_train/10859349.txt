@@ -1,0 +1,1 @@
+TDAT: protected void restrict props ( int props ) {  <NL> if ( ( properties & props ) ! = 0 ) {  <NL> throw new runtime exception ( " schema fieldtype " + type name <NL>  + " ( " + this . get class ( ) . get name ( ) + " ) "  <NL>  + " invalid properties : " + properties to string ( properties & props ) ) ;  <NL>  }  <NL>  }  COM: <s> todo document this method </s>

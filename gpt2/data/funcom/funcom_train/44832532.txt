@@ -1,0 +1,1 @@
+TDAT: public void set width ( java . lang . integer width ) {  <NL>  <NL> integer result = ( integer ) component utils . invoke method ( get page ( ) . get handler ( ) ,  <NL> get method ( " on set width " ) , new object [ ] { width } ) ;  <NL>  <NL> this . width = ( result ! = null ) ? result : width ;  <NL>  }  COM: <s> setter for property width </s>

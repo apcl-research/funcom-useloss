@@ -1,0 +1,1 @@
+TDAT: public void repaint node ( node node ) {  <NL> j power graph rectangle r = new j power graph rectangle ( 0 , 0 , 0 , 0 ) ;  <NL> get node screen bounds ( node , r ) ;  <NL> repaint ( new rectangle ( r . x , r . y , r . width , r . height ) ) ;  <NL>  }  COM: <s> repaints the given node </s>

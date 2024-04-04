@@ -1,0 +1,1 @@
+TDAT: public void drive ( ) {  <NL> double v x = convert control ( get percent ( x ) ) ;  <NL> double v y = convert control ( get percent ( y ) ) ;  <NL> log ( " drive : " + ( v y - v x ) + " \t " + v y + v x ) ;  <NL> base . percent drive ( v y - v x , v y + v x ) ;  <NL>  }  COM: <s> converts gravity vectors on spot axes to arcade style drive </s>

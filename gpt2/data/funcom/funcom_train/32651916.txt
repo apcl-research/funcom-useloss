@@ -1,0 +1,1 @@
+TDAT: public void write ( byte [ ] p buf ) throws io exception {  <NL> char [ ] cbuf = new char [ p buf . length ] ;  <NL> for ( int i = 0 ; i < cbuf . length ; i + + ) {  <NL> cbuf [ i ] = ( char ) ( p buf [ i ] & 0xff ) ;  <NL>  }  <NL> m print writer . write ( cbuf , 0 , p buf . length ) ;  <NL>  }  COM: <s> writes an array of bytes </s>

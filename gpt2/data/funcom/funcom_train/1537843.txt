@@ -1,0 +1,1 @@
+TDAT: public void reset ( graph < v , e > graph , e e ) {  <NL> pair < v > endpoints = graph . get endpoints ( e ) ;  <NL> get index ( graph , e , endpoints . get first ( ) ) ;  <NL> get index ( graph , e , endpoints . get first ( ) , endpoints . get second ( ) ) ;  <NL>  }  COM: <s> resets the indices for this edge and its parallel edges </s>

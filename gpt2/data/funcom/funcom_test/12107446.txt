@@ -1,0 +1,1 @@
+TDAT: private void start now ( node n ) throws voidex exception {  <NL> if ( n . is start supported ( ) ) {  <NL> executioner . execute event ( n . get start ( ) , n . get satellite ( ) ) ;  <NL>  <NL> if ( log ! = null ) {  <NL> log . log event execution ( n , " start " , n . get start ( ) ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> execute the starting event of node </s>

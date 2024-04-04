@@ -1,0 +1,1 @@
+TDAT: protected task pane wrap as task pane ( gateway message gm , string title , icon icon ) {  <NL> task pane pane = new task pane ( gm ) ;  <NL> pane . set title ( title ) ;  <NL> pane . set icon ( icon ) ;  <NL> pane . set scroll on expand ( true ) ;  <NL> pane . set collapsed ( true ) ;  <NL> return pane ;  <NL>  }  COM: <s> wrap this message as a task pane </s>

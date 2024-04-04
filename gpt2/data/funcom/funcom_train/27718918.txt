@@ -1,0 +1,1 @@
+TDAT: public void set bounds rel ( int dx , int dy , int dwidth , int dheight ) {  <NL> set bounds rel only ( dx , dy , dwidth , dheight ) ;  <NL> fire customizer reset bounds rel ( new customizer event ( this , dx , dy , dwidth , dheight ) ) ;  <NL>  }  COM: <s> relatively changes the bounds of this customizer </s>

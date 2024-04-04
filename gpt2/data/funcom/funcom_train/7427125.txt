@@ -1,0 +1,1 @@
+TDAT: public boolean contains ( final double x , final double y , final double width , final double height ) {  <NL> return contains ( x , y ) & & contains ( x + width , y ) & & contains ( x , y + height ) & & contains ( x + width , y + height ) ;  <NL>  }  COM: <s> whether the line shape contains the rectangle defined </s>

@@ -1,0 +1,1 @@
+TDAT: public void set query ( string q ) {  <NL> q = q . replace all ( " [ f f ] [ r r ] [ o o ] [ m m ] " , " from " ) ;  <NL> q = q . replace first ( " [ s s ] [ e e ] [ l l ] [ e e ] [ c c ] [ t t ] " , " select " ) ;  <NL> m _ query = q ;  <NL>  }  COM: <s> sets the query to execute against the database </s>

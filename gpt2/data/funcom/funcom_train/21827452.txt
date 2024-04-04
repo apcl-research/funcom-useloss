@@ -1,0 +1,1 @@
+TDAT: private string add auction link ( ) {  <NL> jhtml output jho = new jhtml output ( " add auction " ,  <NL> new jhtml dialog ( " add auction " , " . / add auction " , " get " ,  <NL>  " add auction " , " auction id : " ,  <NL>  " id " , 20 , " " ) . to string ( ) ) ;  <NL> return jho . get string buffer ( ) . to string ( ) ;  <NL>  }  COM: <s> method add auction link </s>

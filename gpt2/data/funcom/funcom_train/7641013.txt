@@ -1,0 +1,1 @@
+TDAT: private void parse key ( string line , int key start pos ) {  <NL> int end key pos = line . index of ( ' = ' , key start pos ) ;  <NL> if ( end key pos ! = - 1 ) {  <NL> m current key = line . substring ( key start pos , end key pos ) . trim ( ) ;  <NL> parse value ( line , end key pos + 1 ) ;  <NL>  }  <NL>  }  COM: <s> parses the key from the current line </s>

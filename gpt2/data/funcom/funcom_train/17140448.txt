@@ -1,0 +1,1 @@
+TDAT: private void set attack left animation ( image image ) {  <NL> this . attack left = new animation ( new sprite sheet ( image , this . get frame width ( ) , this . get frame height ( ) ) , frame _ slow _ interval ) ;  <NL> this . attack left . set looping ( true ) ;  <NL> this . attack left . set auto update ( false ) ;  <NL>  }  COM: <s> set the die animation </s>

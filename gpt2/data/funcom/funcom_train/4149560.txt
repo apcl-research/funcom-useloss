@@ -1,0 +1,1 @@
+TDAT: protected field get field if possible ( class data < ? > cd , string name ) {  <NL> field f = null ;  <NL> list < field > fields = cd . get fields ( ) ;  <NL> for ( field field : fields ) {  <NL> if ( field . get name ( ) . equals ( name ) ) {  <NL> f = field ;  <NL> break ;  <NL>  }  <NL>  }  <NL> return f ;  <NL>  }  COM: <s> get the field if it exists for this class </s>

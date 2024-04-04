@@ -1,0 +1,1 @@
+TDAT: public void set ttl param ( int ttl ) {  <NL> if ( ttl < = 0 )  <NL> throw new illegal argument exception ( " bad ttl value " ) ;  <NL> if ( uri parms ! = null ) {  <NL> name value nv = new name value ( " ttl " , integer . value of ( ttl ) ) ;  <NL> uri parms . set ( nv ) ;  <NL>  }  <NL>  }  COM: <s> sets the value of the code ttl code parameter </s>

@@ -1,0 +1,1 @@
+TDAT: public method info add initializer ( ) {  <NL> method desc md = method desc . for arguments ( null , null ) ;  <NL> modifiers af = modifiers . none . to static ( true ) ;  <NL> method info mi = new method info ( this , af , " < clinit > " , md ) ;  <NL> m methods . add ( mi ) ;  <NL> return mi ;  <NL>  }  COM: <s> add a static initializer to this class </s>

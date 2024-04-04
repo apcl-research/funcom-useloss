@@ -1,0 +1,1 @@
+TDAT: public void configure ( job conf conf ) {  <NL> this . max inlinks = conf . get int ( " link . max . inlinks " , 1000 ) ;  <NL> this . tokenize = conf . get boolean ( " indexer . anchor . tokenize " , true ) ;  <NL> this . stored = conf . get boolean ( " indexer . anchor . stored " , false ) ;  <NL>  }  COM: <s> configures the jobs </s>

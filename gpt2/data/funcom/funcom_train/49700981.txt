@@ -1,0 +1,1 @@
+TDAT: public formula ab transfer ( expression s , expression sprime , expression a _ in , expression a _ out ) {  <NL> return ab transfer okay ( s , sprime , a _ in , a _ out ) . or ( ab transfer lost ( s , sprime , a _ in , a _ out ) ) .  <NL> or ( ab ignore ( s , sprime , a _ out ) ) ;  <NL>  }  COM: <s> returns the application of the ab transfer predicate </s>

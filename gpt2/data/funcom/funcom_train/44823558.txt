@@ -1,0 +1,1 @@
+TDAT: public object next element ( ) {  <NL> jb name entry entry = ( jb name entry ) enum . next element ( ) ;  <NL> return new javax . naming . binding ( entry . get name ( ) ,  <NL> entry . get value ( ) . get class ( ) . get name ( ) , entry . get value ( ) , true ) ;  <NL>  }  COM: <s> retrieves the next element in the enumeration </s>

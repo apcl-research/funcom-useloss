@@ -1,0 +1,1 @@
+TDAT: public void test equals ( ) {  <NL> concurrent hash map map1 = map5 ( ) ;  <NL> concurrent hash map map2 = map5 ( ) ;  <NL> assert equals ( map1 , map2 ) ;  <NL> assert equals ( map2 , map1 ) ;  <NL> map1 . clear ( ) ;  <NL> assert false ( map1 . equals ( map2 ) ) ;  <NL> assert false ( map2 . equals ( map1 ) ) ;  <NL>  }  COM: <s> maps with same contents are equal </s>

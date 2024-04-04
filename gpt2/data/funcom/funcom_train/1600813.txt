@@ -1,0 +1,1 @@
+TDAT: protected void verify cache directories ( ) {  <NL> for ( int i = g physical point . min _ zoom ; i < = g physical point . max _ zoom ; i + + ) {  <NL> file this file = new file ( cache directory + file . separator + i ) ;  <NL> if ( ! this file . exists ( ) ) this file . mkdirs ( ) ;  <NL>  }  <NL>  }  COM: <s> checks to see if the cache directories exists </s>

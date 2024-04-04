@@ -1,0 +1,1 @@
+TDAT: private void set probability of success ( double p ) {  <NL> if ( double . is na n ( p ) || p < = 0 . 0 || p > = 1 . 0 ) {  <NL> throw new illegal argument exception ( " probability of success must "  <NL>  + " be between 0 . 0 and 1 . 0 , exclusive . " ) ;  <NL>  }  <NL> probability of success = p ;  <NL>  }  COM: <s> modify probability of success </s>

@@ -1,0 +1,1 @@
+TDAT: public void paint ( graphics g ) {  <NL> g . set color ( color . white ) ;  <NL> g . fill oval ( center . x - radix , center . y - radix , 2 * radix , 2 * radix ) ;  <NL> g . set color ( border color ) ;  <NL> g . draw oval ( center . x - radix , center . y - radix , 2 * radix , 2 * radix ) ;  <NL>  }  COM: <s> paints this vertex using given graphics </s>

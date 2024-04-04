@@ -1,0 +1,1 @@
+TDAT: protected string to string indent ( object obj ) {  <NL> string str indent = " \t " ;  <NL>  <NL> if ( obj = = null ) {  <NL> return ( " null " ) ;  <NL>  }  <NL> else {  <NL> return ( " \n " + str indent +  <NL> obj . to string ( ) . replace all ( " \n " , " \n " + str indent ) ) ;  <NL>  }  <NL>  } / / of method  COM: <s> indent the object over </s>

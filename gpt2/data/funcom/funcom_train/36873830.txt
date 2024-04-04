@@ -1,0 +1,1 @@
+TDAT: public void expand ( ) {  <NL> if ( entry . hide header on expand ( ) ) {  <NL> dom . set inner html ( this . header . get element ( ) , " " ) ;  <NL>  }  <NL> dom . set inner html ( this . text . get element ( ) , entry . get text ( ) ) ;  <NL> text pane . set visible ( true ) ;  <NL>  }  COM: <s> expands the widget area </s>

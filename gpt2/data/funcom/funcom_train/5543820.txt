@@ -1,0 +1,1 @@
+TDAT: synchronized public i term matching _ copy ( i term that ) {  <NL> term stack trail = new term stack ( ) ;  <NL> boolean ok = unify ( that , trail ) ;  <NL>  / / if ( ok ) that = that . copy ( ) ;  <NL> if ( ok ) that = copy ( ) ;  <NL> trail . unwind ( 0 ) ;  <NL> return ( ok ) ? that : null ;  <NL>  }  COM: <s> returns a copy of the result if the unification </s>

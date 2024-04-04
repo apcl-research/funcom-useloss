@@ -1,0 +1,1 @@
+TDAT: public void calc css class ( ) {  <NL> string builder sb = new string builder ( 32 ) ;  <NL> sb . append ( navpoint ) . append ( this . level ) ;  <NL> if ( this . is active )  <NL> sb . append ( ' ' ) . append ( active _ navpoint ) . append ( this . level ) ;  <NL> set class ( sb . to string ( ) ) ;  <NL>  }  COM: <s> recalc and set css class </s>

@@ -1,0 +1,1 @@
+TDAT: public boolean add plugin ( int n plugin id , long n profile id ) {  <NL>  <NL> if ( database . exec update ( " insert into active _ plugins ( profile _ id , plugin _ id ) values ( " + n profile id + " , " + n plugin id + " ) " ) < = 0 )  <NL> return false ;  <NL>  <NL> return true ;  <NL>  }  COM: <s> add a plugin in the specified </s>

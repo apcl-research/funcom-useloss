@@ -1,0 +1,1 @@
+TDAT: public void save to stream ( output stream out ) throws io exception {  <NL> out . write ( level ) ;  <NL> for ( int i = 0 ; i < max x ; i + + ) {  <NL> for ( int j = 0 ; j < max y ; j + + ) {  <NL> out . write ( bricks [ i ] [ j ] . get color ( ) . get index ( ) ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> method stores collection state to stream </s>

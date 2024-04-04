@@ -1,0 +1,1 @@
+TDAT: public void draw arrow ( c anchor , c head , primitive style < point2d [ ] > style ) {  <NL> point2d [ ] arr = new point2d [ ] { visometry . get window point of ( anchor ) , visometry . get window point of ( head ) } ;  <NL> style . draw ( gr , arr , selected ) ;  <NL>  }  COM: <s> draws an arrow between specified coordinates with custom style </s>

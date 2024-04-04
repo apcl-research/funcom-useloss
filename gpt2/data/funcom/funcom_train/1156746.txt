@@ -1,0 +1,1 @@
+TDAT: public void set index ( int i ) {  <NL> if ( buffer ! = null ) {  <NL> i = math . max ( 0 , math . min ( i , buffer . get length ( ) ) ) ;  <NL> if ( ( index ! = i || is dirty ) ) {  <NL> index = i ;  <NL> buffer to view layout forward ( ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> sets the position of the buffer </s>

@@ -1,0 +1,1 @@
+TDAT: public void draw ( graphics g , int x , int y ) {  <NL>  <NL> if ( g = = null ) return ;  <NL>  <NL> if ( component = = null ) angle = 0 ;  <NL>  <NL> if ( angle = = 0 ) super . draw ( g , x , y ) ;  <NL> else draw ( component , g , x , y ) ;  <NL>  }  COM: <s> parse the text then draw it </s>

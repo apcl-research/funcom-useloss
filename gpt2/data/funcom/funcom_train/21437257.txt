@@ -1,0 +1,1 @@
+TDAT: static public boolean is down ( rectangle f , rectangle t ) {  <NL> int d _ x = midx ( f ) - midx ( t ) ;  <NL> int d _ y = midy ( f ) - midy ( t ) ;  <NL> return ( d _ y > 0 & & math . abs ( d _ y ) > math . abs ( d _ x ) ) ;  <NL>  }  COM: <s> return code true code if the first rectangle is below the </s>

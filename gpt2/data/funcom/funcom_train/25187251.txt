@@ -1,0 +1,1 @@
+TDAT: public void test get line ( ) {  <NL> system . out . println ( " get line " ) ;  <NL> structure error info instance = new structure error info ( 1 , 2 , " 1 " , " 2 " ) ;  <NL> int exp result = 1 ;  <NL> int result = instance . get line ( ) ;  <NL> assert equals ( exp result , result ) ;  <NL>  }  COM: <s> test of get line method of class structure error info </s>

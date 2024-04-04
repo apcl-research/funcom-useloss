@@ -1,0 +1,1 @@
+TDAT: public void put all ( int index , map < ? extends k , ? extends v > map ) {  <NL> for ( map . entry < ? extends k , ? extends v > entry : map . entry set ( ) ) {  <NL> put ( index , entry . get key ( ) , entry . get value ( ) ) ;  <NL> index + + ;  <NL>  }  <NL>  }  COM: <s> puts the values contained in a supplied map into the map starting at </s>

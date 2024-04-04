@@ -1,0 +1,1 @@
+TDAT: public void log error ( string message , throwable t ) {  <NL> get log ( ) . log ( new status ( i status . error , get bundle ( ) . get symbolic name ( ) , 0 , message + t . get message ( ) , t ) ) ;  <NL> if ( log ! = null ) {  <NL> log . error ( message , t ) ;  <NL>  }  <NL>  }  COM: <s> helper method to log error </s>

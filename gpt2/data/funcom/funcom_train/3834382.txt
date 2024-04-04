@@ -1,0 +1,1 @@
+TDAT: public format get selected map format ( ) {  <NL> format [ ] mss = get offered map formats ( ) ;  <NL> format ms = mss [ 0 ] ;  <NL> for ( int i = 0 ; i < mss . length ; i + + ) {  <NL> if ( mss [ i ] . is selected ( ) ) {  <NL> ms = mss [ i ] ;  <NL> break ;  <NL>  }  <NL>  }  <NL> return ms ;  <NL>  }  COM: <s> returns the map format that is marked as selected </s>

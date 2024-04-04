@@ -1,0 +1,1 @@
+TDAT: protected int add name ( string path , node id id ) {  <NL> int status = check path ( path ) ;  <NL> if ( status = = call back . ok ) {  <NL> status = check node id ( id ) ;  <NL> if ( status = = call back . ok ) {  <NL> synchronized ( map ) {  <NL> map . put ( path , id ) ;  <NL>  }  <NL>  }  <NL>  }  <NL> return status ;  <NL>  }  COM: <s> add a name to hash mapping </s>

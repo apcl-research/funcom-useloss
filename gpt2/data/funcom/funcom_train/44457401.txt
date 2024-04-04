@@ -1,0 +1,1 @@
+TDAT: / *  <NL>  * public boolean get boolean value ( ) { string value = get value ( ) ; if <NL>  * ( value . equals ignore case ( " yes " ) ) { set element value ( new boolean ( true ) ) ; }  <NL>  * else if ( value . equals ignore case ( " no " ) ) { set element value ( new <NL>  * boolean ( false ) ) ; } return super . get boolean value ( ) ; }  COM: <s> get boolean value </s>

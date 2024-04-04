@@ -1,0 +1,1 @@
+TDAT: public location new vendor location ( ecs service service , string address , string address2 , string city , string state , string zip ) {  <NL> return new location ( ) . create ( service , this , address , address2 , city , state , zip ) ;  <NL>  }  COM: <s> creates and adds a new location to this store </s>

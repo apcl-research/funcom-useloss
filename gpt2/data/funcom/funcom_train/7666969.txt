@@ -1,0 +1,1 @@
+TDAT: private void index by id ( ) {  <NL> if ( sessions by id = = null ) {  <NL> sessions by id = new hash map < byte array , ssl session > ( ) ;  <NL> for ( ssl session session : sessions . values ( ) ) {  <NL> sessions by id . put ( new byte array ( session . get id ( ) ) , session ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> ensures that the id based index is initialized </s>

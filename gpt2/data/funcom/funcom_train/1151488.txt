@@ -1,0 +1,1 @@
+TDAT: private void truncate now ( double sum eta ) {  <NL> if ( theta = = 0 ) return ;  <NL> for ( matrix _ w : matrices ) {  <NL> if ( _ w instanceof beta matrix ) {  <NL> for ( int j = 0 ; j < _ w . get n rows ( ) ; j + + ) {  <NL> truncate row ( _ w , j , 1 , sum eta ) ;  <NL>  }  <NL>  }  <NL>  }  <NL>  <NL>  }  COM: <s> truncates all matrix elements right now once </s>

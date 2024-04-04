@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> string name = null ;  <NL> if ( user object ! = null ) {  <NL> name = get property object ( ) . get ( " name " ) . to value ( ) ;  <NL> if ( name . equals ( " " ) ) {  <NL> name = get property object ( ) . get ( " id " ) . to value ( ) ;  <NL>  }  <NL>  }  <NL> return name ;  <NL>  }  COM: <s> gets an participant name property </s>

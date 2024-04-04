@@ -1,0 +1,1 @@
+TDAT: public void show welcome ( ) {  <NL> output message ( " welcome to go moku game ! " ) ;  <NL> output message ( " = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = " ) ;  <NL>  }  COM: <s> prints welcome message </s>

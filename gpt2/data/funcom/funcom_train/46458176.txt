@@ -1,0 +1,1 @@
+TDAT: protected void zoom out ( ) {  <NL> double dx = xmax - xmin ;  <NL> double dy = ymax - ymin ;  <NL> set preferred min max ( xmin - dx / 2 , xmax + dx / 2 , ymin - dy / 2 , ymax + dy / 2 ) ;  <NL> valid image = false ;  <NL> selection box . set size ( 0 , 0 ) ;  <NL> repaint ( ) ;  <NL>  }  COM: <s> zooms out by a factor of two </s>

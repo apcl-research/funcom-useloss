@@ -1,0 +1,1 @@
+TDAT: private void play ( ) {  <NL>  / / todo : switch and choose play method <NL> if ( settings . get instance ( ) . get sound type ( ) . equals ( " wav " ) ) {  <NL> play wav ( ) ;  <NL>  } else if ( settings . get instance ( ) . get sound type ( ) . equals ( " jsf " ) ) {  <NL>  / /  <NL>  }  <NL>  <NL>  }  COM: <s> this method plays this note based on the prefered method </s>

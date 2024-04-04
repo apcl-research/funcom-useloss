@@ -1,0 +1,1 @@
+TDAT: private boolean checked add all ( externally sorted set < ? extends t , ? extends c > s ) {  <NL> boolean result = false ;  <NL> for ( t t : s ) {  <NL>  / / " | " instead of " || " to avoid short - circuit <NL> result = result | add ( t , s . _ order by map . get ( t ) ) ;  <NL>  }  <NL> return result ;  <NL>  }  COM: <s> add the elements by invoking </s>

@@ -1,0 +1,1 @@
+TDAT: private point get min node pos ( ) {  <NL> int x = integer . max _ value , y = integer . max _ value ;  <NL> for ( rectangle r : activity bounds . values ( ) ) {  <NL> if ( r . x < x ) x = r . x ;  <NL> if ( r . y < y ) y = r . y ;  <NL>  }  <NL> return new point ( x , y ) ;  <NL>  }  COM: <s> finds the minimum x and y coordinates of all nodes </s>

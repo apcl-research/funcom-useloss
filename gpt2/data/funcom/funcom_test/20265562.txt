@@ -1,0 +1,1 @@
+TDAT: public void stop ( ) {  <NL> log . d ( log _ tag , string . format ( " stopping ; ticker ! = null : % s " , ( ticker ! = null ) ) ) ; / / $ non - nls - 1 $  <NL> if ( ticker ! = null ) {  <NL> ticker . purge ( ) ;  <NL> ticker . cancel ( ) ;  <NL> running = false ;  <NL>  }  <NL>  }  COM: <s> stops notification of the current time </s>

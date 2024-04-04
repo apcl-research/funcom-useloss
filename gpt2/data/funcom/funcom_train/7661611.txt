@@ -1,0 +1,1 @@
+TDAT: public void test last index of1 ( ) {  <NL> copy on write array list full = populated array ( 3 ) ;  <NL> full . add ( one ) ;  <NL> full . add ( three ) ;  <NL> assert equals ( 3 , full . last index of ( one ) ) ;  <NL> assert equals ( - 1 , full . last index of ( six ) ) ;  <NL>  }  COM: <s> last index of returns the index for the given object </s>

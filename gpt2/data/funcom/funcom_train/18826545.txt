@@ -1,0 +1,1 @@
+TDAT: public table view column get selected column object ( ) {  <NL> int idx = super . get selected column ( ) ;  <NL> if ( idx < 0 ) {  <NL> idx = 0 ;  <NL>  }  <NL> return ( ( table view adapter ) super . get model ( ) ) . get column ( get column model ( ) . get column ( idx )  <NL>  . get model index ( ) ) ;  <NL>  }  COM: <s> gets the selected column </s>

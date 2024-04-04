@@ -1,0 +1,1 @@
+TDAT: public void add ( query matches extra ) {  <NL> if ( extra . last = = - 1 )  <NL> return ;  <NL>  <NL> ensure capacity ( last + extra . last + 2 ) ;  <NL> system . arraycopy ( extra . data , 0 , data , last + 1 , extra . last + 1 ) ;  <NL> last + = extra . last + 1 ;  <NL>  }  COM: <s> internal adds all the matches in the given table to this table </s>

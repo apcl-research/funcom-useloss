@@ -1,0 +1,1 @@
+TDAT: public long get hash ( byte [ ] arr ) {  <NL> long hash = 0 ;  <NL> for ( int i = 1 ; i < prefix _ size ; i + + ) {  <NL> hash + = ( arr [ i ] & 0x ff ) ;  <NL>  } / / it takes about 2 bytes for prefix _ size = = 28 <NL>  <NL>  / / shift to the correct place <NL> hash = hash < < 32 ;  <NL> return hash ;  <NL>  }  COM: <s> returns the hash code for the array </s>

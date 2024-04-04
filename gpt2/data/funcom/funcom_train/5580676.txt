@@ -1,0 +1,1 @@
+TDAT: public group get group ( ) {  <NL> string gid ;  <NL> gid = ( _ group ! = null ) ? _ group . get gid ( ) : " 0 " ;  <NL>  _ group = new group ( gid , _ tname . get text ( ) ,  <NL>  _ tdescr . get text ( ) , " " ) ;  <NL> if ( _ pwd ! = null ) {  <NL>  _ group . set passwd ( _ pwd ) ;  <NL>  }  <NL> return _ group ;  <NL>  }  COM: <s> get the displayed group </s>

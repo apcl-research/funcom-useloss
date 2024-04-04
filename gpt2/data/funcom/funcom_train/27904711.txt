@@ -1,0 +1,1 @@
+TDAT: private void make _ board ( ) {  <NL> for ( int n = 0 ; n < size ; n + + ) {  <NL> board c [ n ] = create var ( ) ;  <NL> not _ board c [ n ] = ref ( not ( board c [ n ] ) ) ;  <NL> board n [ n ] = create var ( ) ;  <NL> not _ board n [ n ] = ref ( not ( board n [ n ] ) ) ;  <NL>  }  <NL>  }  COM: <s> setup the variables needed for the board </s>

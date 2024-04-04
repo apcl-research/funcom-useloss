@@ -1,0 +1,1 @@
+TDAT: public boolean is data flavor supported ( data flavor flavor ) {  <NL> logger . fine ( string . format ( " requested flavor % s is supported : % b " , flavor . to string ( ) , arrays . as list ( flavors ) . contains ( flavor ) ) ) ;  <NL> return ( arrays . as list ( flavors ) . contains ( flavor ) ) ;  <NL>  }  COM: <s> returns if a requested flavor is supported </s>

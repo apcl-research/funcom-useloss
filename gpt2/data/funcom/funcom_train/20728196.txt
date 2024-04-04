@@ -1,0 +1,1 @@
+TDAT: private string sql clean string ( string in ) {  <NL>  / / replace ' " \ with \ ' \ " \\ <NL> return in . replace ( " \\ " , " \\\\ " ) . replace ( " ' " , " \\ ' " ) . replace ( " \ " " , " \\\ " " ) ;  <NL>  } / / } } }  <NL>  <NL>  / / { { { - get double from string ( stream tokenizer ) : double  COM: <s> gets the sql clean string attribute of the sie import object </s>

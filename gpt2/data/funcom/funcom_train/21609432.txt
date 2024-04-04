@@ -1,0 +1,1 @@
+TDAT: public void set string list ( string key , string valarr [ ] ) {  <NL> string s = " " ;  <NL> for ( int i = 0 ; i < valarr . length ; i + + ) {  <NL> s + = valarr [ i ] ;  <NL> if ( i ! = valarr . length - 1 ) s + = sandstorm config . list _ element _ delimiter ;  <NL>  }  <NL> vals . put ( key , s ) ;  <NL>  }  COM: <s> set the given key to the given string list value </s>

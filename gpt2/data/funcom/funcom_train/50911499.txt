@@ -1,0 +1,1 @@
+TDAT: public real2vector sort ascending ( axis2 ax ) {  <NL> int set is = get xor y ( ax ) . index sort ascending ( ) ;  <NL> real2vector temp = new real2vector ( ) ;  <NL> for ( int i = 0 ; i < size ( ) ; i + + ) {  <NL> temp . add ( this . get ( is . element at ( i ) ) ) ;  <NL>  }  <NL> return temp ;  <NL>  }  COM: <s> sort array on x or y coordinate returns new array </s>

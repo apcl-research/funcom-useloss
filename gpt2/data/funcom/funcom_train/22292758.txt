@@ -1,0 +1,1 @@
+TDAT: public void draw init ( font metrics fm , component comp ) {  <NL> if ( is top in super node ( ) ) {  <NL> get super node ( ) . draw init ( fm , comp ) ;  <NL> return ;  <NL>  }  <NL> if ( get visual ( ) = = null ) say ( " visual is null , yo . " ) ;  <NL> get visual ( ) . draw init ( fm , comp ) ;  <NL>  }  COM: <s> sets the node up for being drawn </s>

@@ -1,0 +1,1 @@
+TDAT: public void set group tag ( int group tag ) {  <NL>  / / if group tag is a negative value , give a new group tag <NL> if ( group tag < 0 ) {  <NL> if ( this . group tag < 0 ) {  <NL> this . group tag = num of group ;  <NL> num of group + + ;  <NL>  }  <NL>  } else {  <NL> this . group tag = group tag ;  <NL>  }  <NL>  }  COM: <s> sets the group tag </s>

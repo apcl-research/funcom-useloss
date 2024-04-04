@@ -1,0 +1,1 @@
+TDAT: public void set viewport view ( s component view ) {  <NL>  / / s component old val = t . b . d . ;  <NL> string old val = " old value " ;  <NL> add ( view , s scroll pane layout . viewport ) ;  <NL> property change support . fire property change ( " viewport view " , old val , view ) ;  <NL>  }  COM: <s> sets the scrollable </s>

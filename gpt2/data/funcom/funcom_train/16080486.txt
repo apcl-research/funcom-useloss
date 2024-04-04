@@ -1,0 +1,1 @@
+TDAT: public void set file sec ( file sec fs )  <NL>  {  <NL> if ( file sec = = null )  <NL>  {  <NL> this . get element ( ) . append child ( fs . get element ( ) ) ;  <NL>  }  <NL> else <NL>  {  <NL> this . get element ( ) . replace child ( fs . get element ( ) , file sec . get element ( ) ) ;  <NL>  }  <NL>  <NL> file sec = fs ;  <NL>  }  COM: <s> set the file sec </s>

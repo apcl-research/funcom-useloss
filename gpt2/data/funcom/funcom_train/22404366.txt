@@ -1,0 +1,1 @@
+TDAT: protected void disown ( widget w ) {  <NL> super . disown ( w ) ;  <NL> dom . set style attribute ( w . get element ( ) , " width " , " " ) ;  <NL> dom . set style attribute ( w . get element ( ) , " height " , " " ) ;  <NL> w . set visible ( true ) ;  <NL>  }  COM: <s> calls the superclass code disown widget code method makes the widget </s>

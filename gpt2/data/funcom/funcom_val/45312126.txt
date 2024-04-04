@@ -1,0 +1,1 @@
+TDAT: public int compare to ( time span span ) {  <NL> int comp = 0 ;  <NL> date span start = span . get start date ( ) ;  <NL> date span stop = span . get stop date ( ) ;  <NL> comp = start . compare to ( span start ) ;  <NL> if ( comp = = 0 ) {  <NL> comp = stop . compare to ( span stop ) ;  <NL>  }  <NL> return comp ;  <NL>  }  COM: <s> compares two different time spans </s>

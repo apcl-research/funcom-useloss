@@ -1,0 +1,1 @@
+TDAT: protected string read context ( )  <NL>  {  <NL> if ( is verbose mode ( ) ) log ( " read context " , " begin " ) ;  <NL>  <NL> byte array ch = read bytes ( ) ;  <NL> string c = string helper . trim right ( ch . to string ( ) ) ;  <NL>  <NL> if ( is verbose mode ( ) ) log ( " read context " , " end " ) ;  <NL> return c ;  COM: <s> reads the context </s>

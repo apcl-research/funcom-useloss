@@ -1,0 +1,1 @@
+TDAT: private void add ( int i , boolean eql , number field n ) {  <NL> floor f ;  <NL> if ( eql ) {  <NL> f = ( floor ) floors . get ( i ) ;  <NL> f . add ( n ) ;  <NL>  } else {  <NL> f = new floor ( n ) ;  <NL> f . add ( n ) ;  <NL> floors . add ( i , f ) ;  <NL>  }  <NL>  }  COM: <s> add a field to this tower at the specified index </s>

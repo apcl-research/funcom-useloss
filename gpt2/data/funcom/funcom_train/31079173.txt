@@ -1,0 +1,1 @@
+TDAT: public void set type ( string type ) {  <NL> if ( type = = null )  <NL> set type index ( 0 ) ;  <NL> else {  <NL> type = get project ( ) . get name cache ( ) . get internal form ( type , false ) ;  <NL> set type index ( get pool ( ) . find class entry ( type , true ) ) ;  <NL>  }  <NL>  }  COM: <s> set the type of this inner class </s>

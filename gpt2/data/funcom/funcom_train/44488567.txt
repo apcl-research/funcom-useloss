@@ -1,0 +1,1 @@
+TDAT: private void handle text changed ( final string from , final string to ) {  <NL> if ( from . index of ( ' < ' ) ! = - 1 || from . index of ( ' > ' ) ! = - 1 <NL> || to . index of ( ' < ' ) ! = - 1 || to . index of ( ' > ' ) ! = - 1 ) {  <NL> clear nonterms cache ( ) ;  <NL>  }  <NL>  }  COM: <s> if something has been changed in the text that may affect the set </s>

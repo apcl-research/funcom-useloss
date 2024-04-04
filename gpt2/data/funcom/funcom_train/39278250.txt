@@ -1,0 +1,1 @@
+TDAT: protected boolean is selected ( int x , int y ) {  <NL> return ( x > = image x ys . start x ( )  <NL>  & & x < = image x ys . start x ( ) + mag width ( )  <NL>  & & y > = image x ys . start y ( )  <NL>  & & y < = image x ys . start y ( ) + mag height ( ) ) ;  <NL>  }  COM: <s> determines whether the defined coordinates lie within the image </s>

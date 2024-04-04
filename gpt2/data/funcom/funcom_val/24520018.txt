@@ -1,0 +1,1 @@
+TDAT: public void add result ( string a result ) {  <NL> string item item ;  <NL>  <NL> item = new string item ( null , a result ) ;  <NL> item . set default command ( new command ( a result , command . item , 0 ) ) ;  <NL> item . set item command listener ( this ) ;  <NL> this . append ( item ) ;  <NL>  } / / add result ( )  COM: <s> appends the given result to the form </s>

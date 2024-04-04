@@ -1,0 +1,1 @@
+TDAT: synchronized public void set font size ( int font size ) {  <NL> if ( this . font size ! = font size ) {  <NL> this . font size = font size ;  <NL> text renderer = new text renderer ( new font ( " sans serif " , font . plain , get font size ( ) ) , true , true ) ;  <NL>  }  <NL>  }  COM: <s> sets a new font size for the axes labels and title </s>

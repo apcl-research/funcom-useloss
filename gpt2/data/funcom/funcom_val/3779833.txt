@@ -1,0 +1,1 @@
+TDAT: public void receive ( input stream in ) {  <NL> value = " " ;  <NL> bin byte c = new bin byte ( ) ;  <NL> for ( int i = 0 ; i < fixlen ; i + + ) {  <NL> c . receive ( in ) ;  <NL> value + = ( char ) c . get value ( ) ;  <NL>  }  <NL> log . debug ( " receive : fix string : " + value ) ;  <NL>  }  COM: <s> reads the next bytes from a given input stream </s>

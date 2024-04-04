@@ -1,0 +1,1 @@
+TDAT: static void open command line files ( final main frame mf , final string [ ] files to open , final int len , final boolean jump ) {  <NL> utilities . invoke and wait ( new runnable ( ) { public void run ( ) { _ open command line files ( mf , files to open , len , jump ) ; } } ) ;  <NL>  }  COM: <s> handle the list of files specified on the command line </s>

@@ -1,0 +1,1 @@
+TDAT: public int get elem count ( ) {  <NL> int rval = 0 ;  <NL> iterator < sparse node > si = rows . values ( ) . iterator ( ) ;  <NL> while ( si . has next ( ) ) {  <NL> for ( sparse node n = si . next ( ) ; n ! = null ; n = n . right ) {  <NL> rval + + ;  <NL>  }  <NL>  }  <NL> return rval ;  <NL>  }  COM: <s> returns number of non zero elements in matrix </s>

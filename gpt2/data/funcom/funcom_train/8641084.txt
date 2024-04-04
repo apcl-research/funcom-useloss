@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> return vals [ i11 ] + " \t " + vals [ i12 ] + " \t " + vals [ i13 ] + " \n " +  <NL> vals [ i21 ] + " \t " + vals [ i22 ] + " \t " + vals [ i13 ] + " \n " +  <NL> vals [ i31 ] + " \t " + vals [ i32 ] + " \t " + vals [ i33 ] ;  <NL>  }  COM: <s> generates a string representating of the matrix </s>

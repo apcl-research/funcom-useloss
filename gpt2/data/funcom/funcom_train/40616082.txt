@@ -1,0 +1,1 @@
+TDAT: public int read int ( ) {  <NL> byte [ ] buff = data ;  <NL> int x = ( buff [ pos ] < < 24 ) + ( ( buff [ pos + 1 ] & 0xff ) < < 16 ) + ( ( buff [ pos + 2 ] & 0xff ) < < 8 ) + ( buff [ pos + 3 ] & 0xff ) ;  <NL> pos + = 4 ;  <NL> return x ;  <NL>  }  COM: <s> read an integer at the current position </s>

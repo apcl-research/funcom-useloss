@@ -1,0 +1,1 @@
+TDAT: protected void update value ( ) {  <NL> get container ( ) . get model ( ) . set value ( get id ( ) , get property name ( ) , get value ( ) ) ;  <NL>  <NL> set border ( get container ( ) . get model ( ) . get validation messages ( get id ( ) , get property name ( ) ) ) ;  <NL>  }  COM: <s> updates the value and sets the border </s>

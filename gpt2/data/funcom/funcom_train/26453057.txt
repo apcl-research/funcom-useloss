@@ -1,0 +1,1 @@
+TDAT: public void add row ( object hot ip summary [ ] , color row color , int hashcode ) {  <NL> data . add element ( hot ip summary ) ;  <NL> colors . add element ( row color ) ;  <NL> hash codes . add element ( new integer ( hashcode ) ) ;  <NL> fire table rows inserted ( data . size ( ) - 1 , data . size ( ) - 1 ) ;  <NL>  }  COM: <s> adds a row to the table </s>

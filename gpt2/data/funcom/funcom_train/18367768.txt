@@ -1,0 +1,1 @@
+TDAT: protected void print quoted string ( char [ ] ch , int offset , int length ) {  <NL>  <NL> system . out . print ( ' " ' ) ;  <NL> for ( int i = 0 ; i < length ; i + + ) {  <NL> normalize and print ( ch [ offset + i ] ) ;  <NL>  }  <NL> system . out . print ( ' " ' ) ;  <NL>  <NL>  } / / print quoted string ( char [ ] , int , int )  COM: <s> print quoted string </s>

@@ -1,0 +1,1 @@
+TDAT: public boolean has any accounts ( ) {  <NL> return (  <NL>  ( is useful ( str act yahoo ) & & is useful ( str pwd yahoo ) ) || <NL>  ( is useful ( str act msn ) & & is useful ( str pwd msn ) ) || <NL>  ( is useful ( str act aim ) & & is useful ( str pwd aim ) )  <NL>  ) ;  <NL>  } / / of method  COM: <s> see if there is any account information stored </s>

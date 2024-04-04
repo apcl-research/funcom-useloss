@@ -1,0 +1,1 @@
+TDAT: public void test copy directory to itself ( ) throws exception {  <NL> file dir = new file ( get test directory ( ) , " itself " ) ;  <NL> dir . mkdirs ( ) ;  <NL> file utils . copy directory to directory ( dir , dir ) ;  <NL> assert equals ( 1 , list _ walker . list ( dir ) . size ( ) ) ;  <NL>  }  COM: <s> test for io 217 file utils </s>

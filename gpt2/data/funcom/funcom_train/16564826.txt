@@ -1,0 +1,1 @@
+TDAT: public void set spacing ( double dx , double dy ) {  <NL> this . dx = dx ;  <NL> this . dy = dy ;  <NL>  <NL> this . x num cells = ( int ) math . floor ( env . get length ( 0 ) / dx ) ;  <NL> this . y num cells = ( int ) math . floor ( env . get length ( 1 ) / dy ) ;  <NL>  }  COM: <s> sets the spacing between grid cells and rows </s>

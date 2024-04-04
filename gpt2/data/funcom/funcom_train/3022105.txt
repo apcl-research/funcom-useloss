@@ -1,0 +1,1 @@
+TDAT: public void save ( print writer output ) {  <NL> point pt = get location ( ) ;  <NL> output . println ( " p [ " + get id ( ) + " ] { " + pt . x + " , " + pt . y + " , " + is visible ( ) + " , " + view private + " } " ) ;  <NL>  }  COM: <s> save the files </s>

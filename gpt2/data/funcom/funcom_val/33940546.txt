@@ -1,0 +1,1 @@
+TDAT: public color3f set ( int index , float value ) {  <NL> if ( index > = 0 & & index < 3 )  <NL> return set value ( value , index ) ;  <NL> else <NL> throw new index out of bounds exception ( " illegal index , must be in [ 0 , 2 ] , not : " + index ) ;  <NL>  }  COM: <s> set the component at tt index tt to the given value </s>

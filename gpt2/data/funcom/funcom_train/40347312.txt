@@ -1,0 +1,1 @@
+TDAT: public void restore css attrs ( string . . . css props ) {  <NL> for ( element e : elements ) {  <NL> for ( string a : css props ) {  <NL> style impl . set style property ( e , a , ( string ) data ( e , old _ data _ prefix + a ,  <NL> null ) ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> save a set of css properties of every matched element </s>

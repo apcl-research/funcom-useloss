@@ -1,0 +1,1 @@
+TDAT: public void add edge ( string from , string to , eve message msg ) {  <NL> int from vertex = m _ vertex _ names . get ( from ) ;  <NL> int to vertex = m _ vertex _ names . get ( to ) ;  <NL> add edge ( from vertex , to vertex , m _ edge count + + , msg ) ;  <NL>  }  COM: <s> add an edge via names </s>

@@ -1,0 +1,1 @@
+TDAT: protected void refresh map ( fsgrep model ) {  <NL> get map ( ) . clear ( ) ;  <NL> iterator < string > iterator = iterator ( ) ;  <NL> while ( iterator . has next ( ) ) {  <NL> string spec = iterator . next ( ) ;  <NL> get map ( ) . put ( spec , new finder ( model , new scan profile ( spec ) ) ) ;  <NL>  }  <NL>  }  COM: <s> clear the map then re populate it </s>

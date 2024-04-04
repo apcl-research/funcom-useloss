@@ -1,0 +1,1 @@
+TDAT: public long insert ( string sfid , string table , string null column hack , content values values ) {  <NL> if ( exist table ( table ) & & check permissions ( sfid , table , access . write ) ) {  <NL> return db . insert ( table , null column hack , values ) ;  <NL>  }  <NL> return - 1 ;  <NL>  }  COM: <s> convenience method for insert rows in my droid database tables </s>

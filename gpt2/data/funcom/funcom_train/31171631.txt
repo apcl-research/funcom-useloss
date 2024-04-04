@@ -1,0 +1,1 @@
+TDAT: public string set var ( string var name , string var value ) {  <NL>  / / system . err . println ( " set var ( \ " " + var name + " \ " , \ " " + var value + " \ " ) ; " ) ;  <NL> variables . put ( var name , var value ) ;  <NL> return ( var name ) ;  <NL>  }  COM: <s> sets a variable which is shared among all the cards </s>

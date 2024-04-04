@@ -1,0 +1,1 @@
+TDAT: public void draw points ( java . util . list points , tile t ) {  <NL> graphics g = get graphics ( ) ;  <NL> if ( g ! = null ) {  <NL> color bg = get background ( ) ;  <NL> fill screen ( g , bg ) ;  <NL> list transaction . execute ( new draw point ( g , t ) , points ) ;  <NL>  }  <NL>  }  COM: <s> draw the given points on the grid </s>

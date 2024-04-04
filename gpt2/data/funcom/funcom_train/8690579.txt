@@ -1,0 +1,1 @@
+TDAT: public void set uri ( string uri ) throws build exception {  <NL> if ( uri . equals ( project helper . ant _ core _ uri ) ) {  <NL> uri = " " ;  <NL>  }  <NL> if ( uri . starts with ( " ant : " ) ) {  <NL> throw new build exception ( " attempt to use a reserved uri " + uri ) ;  <NL>  }  <NL> this . uri = uri ;  <NL>  }  COM: <s> the uri for this definition </s>

@@ -1,0 +1,1 @@
+TDAT: public class get clazz ( ) {  <NL> if ( this . get class ( ) ! = class body evaluator . class ) throw new illegal state exception ( " must not be called on derived instances " ) ;  <NL> if ( this . clazz = = null ) throw new illegal state exception ( " must only be called after \ " cook ( ) \ " " ) ;  <NL> return this . clazz ;  <NL>  }  COM: <s> returns the loaded </s>

@@ -1,0 +1,1 @@
+TDAT: public void test string to color03 ( ) {  <NL> assert equals ( color . red , ss . string to color ( " r ed " ) ) ;  <NL> assert equals ( color . black , ss . string to color ( " b la ck " ) ) ;  <NL> assert equals ( color . white , ss . string to color ( " white " ) ) ;  <NL>  }  COM: <s> tests convertion of mixed case standard names </s>

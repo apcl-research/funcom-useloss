@@ -1,0 +1,1 @@
+TDAT: public object find by id ( class o class , integer id ) {  <NL> try {  <NL> return super . load ( o class , id ) ;  <NL>  } catch ( exception e ) {  <NL> log . error ( " error finding object type " + o class . get name ( ) + " with id " + id , e ) ;  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> finds a specified class object from database by id </s>

@@ -1,0 +1,1 @@
+TDAT: public void add point ( float x , float y ) throws tag attribute exception {  <NL> pdf content byte cb = this . graphics tag . get content byte ( ) ;  <NL> if ( num points = = 0 ) {  <NL> cb . move to ( x , y ) ;  <NL>  } else {  <NL> cb . line to ( x , y ) ;  <NL>  }  <NL>  + + num points ;  <NL>  }  COM: <s> adds the given point to the point holders container </s>

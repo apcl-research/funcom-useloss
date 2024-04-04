@@ -1,0 +1,1 @@
+TDAT: public language level visitor new class body visitor ( symbol data anon sd , string anon name ) {  <NL> return new class body full java visitor ( anon sd , anon name , _ file , _ package , _ imported files , _ imported packages ,  <NL>  _ classes in this file , continuations , fix ups ) ;  <NL>  }  COM: <s> factory method inherited from llv class </s>

@@ -1,0 +1,1 @@
+TDAT: public node find child ( string name ) {  <NL> int n = children . size ( ) ;  <NL> for ( int i = 0 ; i < n ; i + + ) {  <NL> node kid = ( node ) children . get ( i ) ;  <NL> if ( name . equals ( kid . get name ( ) ) ) {  <NL> return ( kid ) ;  <NL>  }  <NL>  }  <NL> return ( null ) ;  <NL>  }  COM: <s> returns the node with the specified name by looking up </s>

@@ -1,0 +1,1 @@
+TDAT: private void print time stamp ( entry e ) {  <NL> system . out . println ( " evaluating time _ stamp : " + e . get time stamp ( ) + " , which has " + e . get actions ( ) . size ( ) + " actions . " ) ;  <NL> for ( action a : e . get actions ( ) ) {  <NL> system . out . println ( " " + a ) ;  <NL>  }  <NL>  }  COM: <s> prints the time stamp of a given entry </s>

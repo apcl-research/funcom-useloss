@@ -1,0 +1,1 @@
+TDAT: public void test set char array ( ) {  <NL>  <NL> char lc value [ ] = { ' g ' , ' o ' , ' o ' , ' d ' } ;  <NL> data string ld string = new data string ( f blank ) ;  <NL> ld string . set char array ( lc value , lc value . length ) ;  <NL> assert equals ( " good " , ld string . to string ( ) ) ;  <NL>  }  COM: <s> test of set char array method </s>

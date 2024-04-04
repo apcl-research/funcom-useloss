@@ -1,0 +1,1 @@
+TDAT: public int compare to ( parameter definition < ? > o ) {  <NL> if ( o ! = null ) {  <NL> if ( get view order ( ) = = o . get view order ( ) ) {  <NL> return get name ( ) . compare to ( o . get name ( ) ) ;  <NL>  }  <NL> return get view order ( ) - o . get view order ( ) ;  <NL>  }  <NL> return 0 ;  <NL>  }  COM: <s> compares this parameter definition to another </s>

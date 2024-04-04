@@ -1,0 +1,1 @@
+TDAT: private path make follow path ( int steps ) {  <NL>  <NL>  / / todo use order - 2 beziers instead <NL> path p = new path ( ) ;  <NL> p . move to ( 0 , 0 ) ;  <NL> for ( int i = 0 ; i < steps ; i + + ) {  <NL> p . line to ( i / ( float ) steps , 0 . 2f * ( float ) math . pow ( - 1 , i ) ) ;  <NL>  }  <NL> return p ;  <NL>  }  COM: <s> makes a wiggly horizontal path </s>

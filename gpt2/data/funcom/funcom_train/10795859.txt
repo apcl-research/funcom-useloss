@@ -1,0 +1,1 @@
+TDAT: private url find xml ( class < ? > cls ) {  <NL> if ( _ xml ! = null & & cls ! = null )  <NL> for ( map . entry < url , set < string > > entry : _ xml . entry set ( ) )  <NL> if ( entry . get value ( ) . contains ( cls . get name ( ) ) )  <NL> return entry . get key ( ) ;  <NL> return null ;  <NL>  }  COM: <s> locate the xml resource for the given class </s>

@@ -1,0 +1,1 @@
+TDAT: public void add image ( image icon image ) {  <NL> if ( image ! = null ) {  <NL> has text = true ;  <NL> end chunk ( ) ;  <NL> line height = math . max ( line height , max image size ( image ) . height + line descend ) ;  <NL> commands . add element ( new image command ( image , current pos , - line descend ) ) ;  <NL>  }  <NL>  }  COM: <s> adds text to buffer </s>

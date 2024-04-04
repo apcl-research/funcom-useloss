@@ -1,0 +1,1 @@
+TDAT: public void remove srn ( appdef entity id aid ) {  <NL> srn cache cache = srn cache . get instance ( ) ;  <NL> srn id id = new srn id ( aid . get type ( ) , aid . get id ( ) ) ;  <NL> if ( cache . remove ( id ) ) {  <NL> get schedule rev num dao ( ) . remove ( id ) ;  <NL>  }  <NL>  }  COM: <s> remove a srn </s>

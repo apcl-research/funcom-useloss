@@ -1,0 +1,1 @@
+TDAT: protected final string text _ 25 = nl + " \t { " + nl + " \t } " + nl + " " + nl + " \t / * * " + nl + " \t * @ see junit . framework . test case # tear down ( ) " + nl + " \t * / " + nl + " \tprotected void tear down ( ) " + nl + " \tthrows " ;  COM: <s> protected final string text 24 nl t nl t nl t </s>

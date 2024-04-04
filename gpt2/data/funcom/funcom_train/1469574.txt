@@ -1,0 +1,1 @@
+TDAT: public segment addition ( segment other ) {  <NL> return new segment ( new point ( this . get p1 ( ) . get x ( ) + other . get p1 ( ) . get x ( ) , this . get p1 ( ) . get y ( ) ) ,  <NL> new point ( this . get p2 ( ) . get x ( ) + other . get p2 ( ) . get x ( ) , this . get p1 ( ) . get y ( ) ) ) ;  <NL>  }  COM: <s> must be horizontal segments </s>

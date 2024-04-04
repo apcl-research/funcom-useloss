@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> return " token offset = " + token offset / / noi18n <NL>  + " , offset = " + offset / / noi18n <NL>  + " , state = " + get state name ( state ) / / noi18n <NL>  + " , stop offset = " + stop offset / / noi18n <NL>  + " , last buffer = " + last buffer ; / / noi18n <NL>  }  COM: <s> syntax information as string </s>

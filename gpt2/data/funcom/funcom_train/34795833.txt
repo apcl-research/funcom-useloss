@@ -1,0 +1,1 @@
+TDAT: private int sum ( queens board board , int d ) {  <NL> int sum = 0 ;  <NL>  <NL> for ( int i = 0 ; i < problem . size ( ) ; i + + ) {  <NL> for ( int j = 0 ; j < problem . size ( ) ; j + + ) {  <NL> if ( board . is queen ( i , j ) ) {  <NL> sum + = problem . costs ( d , i , j ) ;  <NL>  }  <NL>  }  <NL>  }  <NL>  <NL> return sum ;  <NL>  }  COM: <s> sums the costs of a </s>

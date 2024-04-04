@@ -1,0 +1,1 @@
+TDAT: public void test close ( ) throws io exception {  <NL> system . out . println ( " test close " ) ;  <NL>  <NL> cin . close ( ) ;  <NL> assert false ( " close on in conduit failed ! " , cin . is open ( ) ) ;  <NL> cout . close ( ) ;  <NL> assert false ( " close on out conduit failed ! " , cout . is open ( ) ) ;  <NL>  }  COM: <s> test of close method of class com </s>

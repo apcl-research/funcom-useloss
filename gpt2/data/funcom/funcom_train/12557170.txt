@@ -1,0 +1,1 @@
+TDAT: private void update revision ( ) {  <NL> long value = new long ( system . current time millis ( ) ) ;  <NL> int field = get revision field ( ) ;  <NL> if ( count values ( field ) = = 0 ) {  <NL> add value ( field , 0 , value , true ) ;  <NL>  } else {  <NL> set value ( field , 0 , 0 , value , true ) ;  <NL>  }  <NL>  }  COM: <s> update the revision time </s>

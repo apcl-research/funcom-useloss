@@ -1,0 +1,1 @@
+TDAT: public void write xml header ( string pstr _ doc type , string pstr _ dtd ) throws io exception {  <NL> write ( " < ? xml version = \ " 1 . 0\ " ? > \n\r " ) ;  <NL> write ( " < ! doctype " + pstr _ doc type + " system \ " . . \\xml\\ " + pstr _ dtd + " . dtd\ " > \n\r " ) ;  <NL>  }  COM: <s> writes the standard xml header and the given dtd to an export stream </s>

@@ -1,0 +1,1 @@
+TDAT: public void show create alter table dialog ( string database name , string schema name , string table name , boolean is create , boolean is table showing ) {  <NL> create alter . show ( database name , schema name , table name , is create , is table showing , query , this ) ;  <NL>  }  COM: <s> brings up a dialog to create or alter a table </s>

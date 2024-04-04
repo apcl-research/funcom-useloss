@@ -1,0 +1,1 @@
+TDAT: public void test get column key ( ) {  <NL> task series collection c = create collection1 ( ) ;  <NL> assert equals ( " task 1 " , c . get column key ( 0 ) ) ;  <NL> assert equals ( " task 2 " , c . get column key ( 1 ) ) ;  <NL> assert equals ( " task 3 " , c . get column key ( 2 ) ) ;  <NL>  }  COM: <s> some tests for the get column key method </s>

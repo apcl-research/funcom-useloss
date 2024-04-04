@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> string text = " { " ;  <NL> for ( int i = 0 ; i < entries . size ( ) ; i + + ) {  <NL> text + = entries . get ( i ) ;  <NL> if ( i ! = entries . size ( ) - 1 )  <NL> text + = " , " ;  <NL>  }  <NL> text + = " } " ;  <NL> return text ;  <NL>  }  COM: <s> returns a code string code representing this code list code </s>

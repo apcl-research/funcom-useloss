@@ -1,0 +1,1 @@
+TDAT: public double get rand ( clustering result exp res , list < integer > doc nrs ) {  <NL> int n = exp res . nr of elements ( ) ;  <NL> return ( get nr of pairs in same cluster ( exp res ) + get nr of pairs in different cluster ( exp res , doc nrs ) ) / ( 1 . 0 * ( ( n * ( n - 1 ) ) / 2 ) ) ;  <NL>  }  COM: <s> evaluation measure based on matching pairs </s>

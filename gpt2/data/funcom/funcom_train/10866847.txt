@@ -1,0 +1,1 @@
+TDAT: public int stem prefix ( char s [ ] , int len ) {  <NL> for ( int i = 0 ; i < prefixes . length ; i + + )  <NL> if ( starts with check length ( s , len , prefixes [ i ] ) )  <NL> return delete n ( s , 0 , len , prefixes [ i ] . length ) ;  <NL> return len ;  <NL>  }  COM: <s> stem a prefix off an arabic word </s>

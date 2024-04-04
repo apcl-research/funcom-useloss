@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL>  / / row name : a = 0 , b = 1 on x - axis , y - axis : 1 - 8 , eg : b4 )  <NL> string j = " abcdefgh " ;  <NL> return " " + j . char at ( this . from col ) + ( this . from row + 1 )  <NL>  + j . char at ( this . to col ) + ( this . to row + 1 ) ;  <NL>  }  COM: <s> output string of move in x n format </s>

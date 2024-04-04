@@ -1,0 +1,1 @@
+TDAT: public void set row break ( int row ) {  <NL> ct page break pg break = worksheet . is set row breaks ( ) ? worksheet . get row breaks ( ) : worksheet . add new row breaks ( ) ;  <NL> if ( ! is row broken ( row ) ) {  <NL> ct break brk = pg break . add new brk ( ) ;  <NL> brk . set id ( row ) ;  <NL>  }  <NL>  }  COM: <s> sets a page break at the indicated row </s>

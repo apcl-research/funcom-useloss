@@ -1,0 +1,1 @@
+TDAT: public string format stats ( ) {  <NL> string policy = format policy ( ) ;  <NL> if ( ! policy . equals ( " " ) ) {  <NL> policy = " ( " + policy + " ) " ;  <NL>  }  <NL> return string . format ( " % s , % d yields % s % n " , thread . get name ( ) , yield count , policy ) ;  <NL>  }  COM: <s> format yield statistics as a string </s>

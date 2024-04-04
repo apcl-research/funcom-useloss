@@ -1,0 +1,1 @@
+TDAT: synchronized public void do init histogram ( ) {  <NL> pix data = new float [ num y ] [ num x ] ;  <NL> for ( int i = 0 ; i < num y ; i + + ) {  <NL> for ( int j = 0 ; j < num x ; j + + ) {  <NL> pix data [ i ] [ j ] = 0 . 0f ;  <NL>  }  <NL>  }  <NL>  <NL> total sum = 0 . 0f ;  <NL>  }  COM: <s> re initializes the histogram of events </s>

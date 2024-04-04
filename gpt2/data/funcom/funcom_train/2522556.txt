@@ -1,0 +1,1 @@
+TDAT: public void set file ( file file ) {  <NL> if ( file = = null ) return ;  <NL> if ( this . is load ) {  <NL> if ( ! file . exists ( ) ) return ;  <NL>  }  <NL> this . add file to favourites ( file . get path ( ) ) ;  <NL> this . set tool tip text ( ( string ) cb . get selected objects ( ) [ 0 ] ) ;  <NL>  }  COM: <s> sets the currently selected file </s>

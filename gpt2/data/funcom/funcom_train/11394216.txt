@@ -1,0 +1,1 @@
+TDAT: @ test public void empty config should accept ( ) {  <NL> subset configuration empty = new config builder ( ) . subset ( " " ) ;  <NL> should accept ( empty , " anything " ) ;  <NL> should accept ( empty , arrays . as list ( tag ( " key " , " desc " , " value " ) ) ) ;  <NL>  }  COM: <s> filters should default to accept </s>

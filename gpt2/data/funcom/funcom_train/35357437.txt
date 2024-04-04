@@ -1,0 +1,1 @@
+TDAT: public gray8image fill ( rect r , byte b val ) {  <NL> for ( int i = r . get top ( ) ; i < r . get bottom ( ) ; i + + ) {  <NL> for ( int j = r . get left ( ) ; j < r . get right ( ) ; j + + ) {  <NL> this . b image [ i * this . get width ( ) + j ] = b val ;  <NL>  }  <NL>  }  <NL> return this ;  <NL>  }  COM: <s> fill a rectangle in a gray8 image with a specific value </s>

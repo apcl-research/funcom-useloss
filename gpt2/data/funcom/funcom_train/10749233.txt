@@ -1,0 +1,1 @@
+TDAT: public void test8 ( ) {  <NL> assert true ( " assert 0 : " , new object [ 0 ] . get class ( ) . is instance ( new string [ 0 ] ) ) ;  <NL> assert false ( " assert 1 : " , new string [ 0 ] . get class ( ) . is instance ( new object [ 0 ] ) ) ;  <NL>  }  COM: <s> checks whether array components can be converted by widening reference </s>

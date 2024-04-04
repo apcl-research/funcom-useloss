@@ -1,0 +1,1 @@
+TDAT: public void broadcast message ( maple character source , maple packet packet , boolean repeat to source , boolean ranged ) {  <NL> broadcast message ( repeat to source ? null : source , packet , ranged ? maple character . max _ view _ range _ sq : double . positive _ infinity , source . get position ( ) ) ;  <NL>  }  COM: <s> ranged and repeat according to parameters </s>

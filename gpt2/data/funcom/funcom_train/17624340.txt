@@ -1,0 +1,1 @@
+TDAT: public void save ( ) {  <NL> for ( int i = 0 ; i < max x ; i + + ) {  <NL> system . arraycopy ( bricks [ i ] , 0 , bricks backup [ i ] , 0 , max y ) ;  <NL>  }  <NL> list backup . clear ( ) ;  <NL> list backup . add all ( list ) ;  <NL>  }  COM: <s> saves bricks copy </s>

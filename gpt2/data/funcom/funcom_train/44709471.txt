@@ -1,0 +1,1 @@
+TDAT: public int get selected page num ( page state state ) {  <NL> string page num = ( string ) m _ page num model . get selected key ( state ) ;  <NL> if ( page num = = null ) {  <NL> m _ page num model . set selected key ( state , " 1 " ) ;  <NL> return 1 ;  <NL>  }  <NL> return integer . parse int ( page num ) ;  <NL>  }  COM: <s> returns the selected page number </s>

@@ -1,0 +1,1 @@
+TDAT: public void set lba ( int lba ) {  <NL> cmd . put ( 2 , ( byte ) ( ( lba > > 24 ) & 0x ff ) ) ;  <NL> cmd . put ( 3 , ( byte ) ( ( lba > > 16 ) & 0x ff ) ) ;  <NL> cmd . put ( 4 , ( byte ) ( ( lba > > 8 ) & 0x ff ) ) ;  <NL> cmd . put ( 5 , ( byte ) ( lba & 0x ff ) ) ;  <NL>  }  COM: <s> convert a lba address to the proper lba inside command struct </s>

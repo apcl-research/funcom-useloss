@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> string k = ( kind = = location ) ? " location " : " value " ;  <NL> string s = k + " \t " + trace point . to string ( ) + " \t : " ;  <NL> for ( int i = 0 ; i < methods . length ; i + + )  <NL> s + = " \t " + methods [ i ] ;  <NL> return s ;  <NL>  }  COM: <s> format the data in an easy to parse form </s>

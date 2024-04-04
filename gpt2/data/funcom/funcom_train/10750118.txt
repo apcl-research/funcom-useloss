@@ -1,0 +1,1 @@
+TDAT: public void test set daemon ( ) {  <NL> thread t = new thread ( ) ;  <NL> assert false ( " assert 0 : the newly created thread must not be daemon " ,  <NL> t . is daemon ( ) ) ;  <NL> t . set daemon ( true ) ;  <NL> assert true ( " assert 1 : the thread must be daemon " , t . is daemon ( ) ) ;  <NL>  }  COM: <s> make a thread daemon </s>

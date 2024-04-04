@@ -1,0 +1,1 @@
+TDAT: public double getr ( point2d . double mouse ) {  <NL> point2d p1 = get canvas point ( ) ;  <NL> return math . sqrt ( math . pow ( mouse . get x ( ) - p1 . get x ( ) , 2 . 0 ) + math . pow ( mouse . get y ( ) - p1 . get y ( ) , 2 . 0 ) ) ;  <NL>  }  COM: <s> calculates the length of the resultant to use for r </s>

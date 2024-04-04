@@ -1,0 +1,1 @@
+TDAT: public void set matrix ( matrix matrix ) {  <NL> int rc = matrix . get row count ( ) ;  <NL> int cc = matrix . get column count ( ) ;  <NL> for ( int r = 0 ; r < rc ; r + + ) {  <NL> for ( int c = 0 ; c < cc ; c + + ) {  <NL> set element ( r , c , matrix . get element ( r , c ) ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> sets the matrix from another matrix object </s>

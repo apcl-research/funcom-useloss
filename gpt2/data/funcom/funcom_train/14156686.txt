@@ -1,0 +1,1 @@
+TDAT: public void state changed ( change event e ) {  <NL> string txt = new string ( j text area _ log . get text ( ) ) ;  <NL> if ( ! txt . equals ( before ) ) {  <NL> j scroll pane1 . get vertical scroll bar ( ) . set value ( j text area _ log . get document ( ) . get length ( ) ) ;  <NL> before = txt ;  <NL>  }  <NL>  }  COM: <s> invoked when new text is appended </s>

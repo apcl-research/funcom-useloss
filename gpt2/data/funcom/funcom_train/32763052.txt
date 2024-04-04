@@ -1,0 +1,1 @@
+TDAT: public int compare ( object obj1 , object obj2 ) {  <NL> if ( ( ( ( vertex ) obj1 ) . get score ( ) ) > ( ( ( vertex ) obj2 ) . get score ( ) ) ) {  <NL> return 1 ;  <NL>  }  <NL> if ( ( ( ( vertex ) obj1 ) . get score ( ) ) < ( ( ( vertex ) obj2 ) . get score ( ) ) ) {  <NL> return - 1 ;  <NL>  }  <NL> return 0 ;  <NL>  }  COM: <s> compare two vertexes </s>

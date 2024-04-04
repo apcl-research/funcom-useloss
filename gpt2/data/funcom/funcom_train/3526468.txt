@@ -1,0 +1,1 @@
+TDAT: protected service access exception create exception ( exception e , uri uri ) {  <NL> get logger ( ) . log (  <NL>  " error on " + uri . to string ( ) + " : " + e . get message ( ) ,  <NL> log _ channel ,  <NL> logger . error ) ;  <NL> return new service access exception ( service , e ) ;  <NL>  }  COM: <s> overload this method to have a more detailed error handling </s>

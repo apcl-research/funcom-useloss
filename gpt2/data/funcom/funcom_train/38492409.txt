@@ -1,0 +1,1 @@
+TDAT: public void send board ( board board ) throws j catano exception {  <NL> try {  <NL> send to all ( new item message < board > ( board ) ) ;  <NL>  } catch ( j catano exception e ) {  <NL> logger . fatal ( " couldn ' t send msg to all players . . . " , e ) ;  <NL> system . exit ( - 1 ) ;  <NL>  }  <NL>  }  COM: <s> send board to all players </s>

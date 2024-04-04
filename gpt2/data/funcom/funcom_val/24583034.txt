@@ -1,0 +1,1 @@
+TDAT: public value span ( attribute value v , long s , long e ) {  <NL> if ( s > e ) {  <NL> throw new illegal argument exception ( " start cannot be after end : ( " + s + " , " + e + " ) " ) ;  <NL>  }  <NL> value = v ;  <NL> start = s ;  <NL> end = e + 1 ;  <NL>  }  COM: <s> creates a new instance of value span </s>

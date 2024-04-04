@@ -1,0 +1,1 @@
+TDAT: public boolean equals ( object obj ) {  <NL> if ( ( obj = = null ) || ( ! ( obj instanceof id ) ) )  <NL> return false ;  <NL>  <NL> id nid = ( id ) obj ;  <NL>  <NL> for ( int i = 0 ; i < nlen ; i + + ) {  <NL> if ( id [ i ] ! = nid . id [ i ] ) {  <NL> return false ;  <NL>  }  <NL>  }  <NL>  <NL> return true ;  <NL>  }  COM: <s> equality operator for ids </s>

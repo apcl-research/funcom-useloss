@@ -1,0 +1,1 @@
+TDAT: public int compare to ( final timestamp t ) {  <NL> int compare = super . compare to ( t ) ;  <NL> if ( compare = = 0 ) {  <NL> int n1 = get nanos ( ) ;  <NL> int n2 = t . get nanos ( ) ;  <NL> compare = ( n1 = = n2 ? 0 : ( n1 < n2 ? - 1 : 1 ) ) ;  <NL>  }  <NL> return compare ;  <NL>  }  COM: <s> compares this timestamp with the argument timestamp </s>

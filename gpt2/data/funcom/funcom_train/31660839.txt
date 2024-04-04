@@ -1,0 +1,1 @@
+TDAT: public void add sub view ( ds view ds view _ arg , shape shape _ arg ) {  <NL> debug ( 1 , " add sub view ds view splitter : " + ds view _ arg + " , " + shape _ arg ) ;  <NL>  <NL> view list . put ( shape _ arg , ds view _ arg ) ;  <NL>  } / / add sub view ( )  COM: <s> add a sub view for the given region </s>

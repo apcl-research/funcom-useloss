@@ -1,0 +1,1 @@
+TDAT: public void add xml tag ( string tag text ) {  <NL> if ( open ) close xml tag ( ) ;  <NL>  <NL> for ( int i = 0 ; i < cur tag . size ( ) ; i + + )  <NL> data + = " \t " ;  <NL> data + = " < " + tag text ;  <NL> cur tag . add ( 0 , tag text ) ;  <NL> open = true ;  <NL>  }  COM: <s> adds a regular tag with no parameters to the xml file </s>

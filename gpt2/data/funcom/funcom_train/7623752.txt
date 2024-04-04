@@ -1,0 +1,1 @@
+TDAT: public int get sink state ( string address ) {  <NL> if ( dbg ) log ( " get sink state ( " + address + " ) " ) ;  <NL> try {  <NL> return m service . get sink state ( address ) ;  <NL>  } catch ( remote exception e ) {  <NL> log . w ( tag , " " , e ) ;  <NL> return bluetooth error . error _ ipc ;  <NL>  }  <NL>  }  COM: <s> get the state of an a2 dp sink </s>

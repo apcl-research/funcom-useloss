@@ -1,0 +1,1 @@
+TDAT: public string can split documents ( ) {  <NL> table row row data = ( table row ) get user object ( ) ;  <NL> log . print ( " ( project batching . can split documents ) "  <NL>  + row data . get value ( 1 ) ) ;  <NL> return " 0 " . equals ( ( string ) row data . get value ( 1 ) ) ? " no " : " yes " ;  <NL>  }  COM: <s> return the value of project </s>

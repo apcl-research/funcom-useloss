@@ -1,0 +1,1 @@
+TDAT: public void stylize unknown ( int r , int g , int b , boolean bold , boolean italic ) {  <NL> set style constants ( styles . get style for scan value ( token . unknown <NL>  . get scan value ( ) ) , new color ( r , g , b ) , bold , italic ) ;  <NL>  }  COM: <s> set text attributes for other scheme tokens </s>

@@ -1,0 +1,1 @@
+TDAT: public int get itd ( ) {  <NL> int maximum = bins [ 0 ] ; / / find maximum in bins <NL> int max ind = shift size / bin size ;  <NL> for ( int i = 0 ; i < bins . length ; i + + ) {  <NL> if ( bins [ i ] > maximum ) {  <NL> maximum = bins [ i ] ;  <NL> max ind = i ;  <NL>  }  <NL>  }  <NL> return lags [ max ind ] ;  <NL>  }  COM: <s> public int get bin size </s>

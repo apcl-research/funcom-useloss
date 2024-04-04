@@ -1,0 +1,1 @@
+TDAT: public data obj get type ( ) {  <NL> try {  <NL> meta property mp = ( meta property ) get ( this , " . type " , null , from _ cache _ only ) ;  <NL> return mp . get value ( ) ;  <NL>  } catch ( access control exception x ) {  <NL>  } catch ( unknown key exception x ) { }  <NL> return null ;  <NL>  }  COM: <s> convenience function type is actually stored as a property </s>

@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> if ( is empty ( ) )  <NL> return null ;  <NL> string all = " " ;  <NL> for ( int i = 0 ; i < = ( queue . size ( ) - 1 ) ; i + + ) {  <NL> event e = queue . get ( i ) ;  <NL> all = all + e . to string ( ) + " \n " ;  <NL>  }  <NL> return all ;  <NL>  }  COM: <s> list of events inside the queue </s>

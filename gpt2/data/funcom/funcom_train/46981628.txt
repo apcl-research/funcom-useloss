@@ -1,0 +1,1 @@
+TDAT: private void show popup ( mouse event e ) {  <NL> int index = list . location to index ( e . get point ( ) ) ;  <NL> if ( index > = 0 ) {  <NL> list . set selected index ( index ) ;  <NL> popup menu . show ( e . get component ( ) , e . get x ( ) , e . get y ( ) ) ;  <NL>  }  <NL>  }  COM: <s> shows the popup at the point the user selected it and ensures </s>

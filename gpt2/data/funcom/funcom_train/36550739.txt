@@ -1,0 +1,1 @@
+TDAT: public boolean update schedule data ( long schedule id , int flag ) {  <NL> content values args = new content values ( ) ;  <NL> args . put ( key _ flag , flag ) ;  <NL> return m db . update ( database _ schedule _ table , args , key _ id + " = " + schedule id , null ) > 0 ;  <NL>  }  COM: <s> update the data in schedule table using the details provided </s>

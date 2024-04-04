@@ -1,0 +1,1 @@
+TDAT: public void draw chars ( char [ ] data , int offset , int length , int x , int y , int anchor ) {  <NL> int width = this . font . font . get advance ( data , offset , length ) ;  <NL> get graphics ( ) . draw text ( data , offset , length , x , y , translate anchor ( anchor ) , width ) ;  <NL>  }  COM: <s> draws the specified characters using the current font and color </s>

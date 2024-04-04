@@ -1,0 +1,1 @@
+TDAT: public element get child ( string name ) {  <NL> element child ;  <NL> if ( children ! = null ) for ( int i = 0 , l = children . size ( ) ; i < l ; i + + ) {  <NL> child = ( element ) children . get ( i ) ;  <NL> if ( child . name . equals ( name ) )  <NL> return child ;  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> a convenience to access a first code xml </s>

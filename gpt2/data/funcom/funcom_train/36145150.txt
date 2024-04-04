@@ -1,0 +1,1 @@
+TDAT: private connection genera conexion ( ) throws exception {  <NL> class . for name ( this . config . get property ( " driver " ) ) ;  <NL> return driver manager . get connection ( this . config . get property ( " url " ) , this . config . get property ( " user " ) , this . config . get property ( " pass " ) ) ;  <NL>  }  COM: <s> genera la conexi n a bd </s>

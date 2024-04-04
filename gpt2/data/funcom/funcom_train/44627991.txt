@@ -1,0 +1,1 @@
+TDAT: @ test public void test jml keywords in jml ( ) {  <NL> help scanner ( " / * @ requires ensures pure * / " ,  <NL> new enum < ? > [ ] { requires , ensures , pure , ejml , } ,  <NL> new int [ ] { 3 , 11 , 12 , 19 , 20 , 24 , 25 , 27 } ) ;  <NL>  }  COM: <s> tests that jml keywords are found in a jml comment </s>

@@ -1,0 +1,1 @@
+TDAT: public void test three column with map ( ) {  <NL> cache cache = ( cache ) lookup . get instance ( ) . fetch component ( dataloader _ three _ column ) ;  <NL> for ( int i = 0 ; i < 10 ; i + + ) {  <NL> cache . get ( new big decimal ( i ) ) ;  <NL>  }  <NL> assert equals ( this . hashed cached , cache ) ;  <NL>  }  COM: <s> test default implementation used for map </s>

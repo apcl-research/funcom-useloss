@@ -1,0 +1,1 @@
+TDAT: public void add object ( final string object name , final int x , final int y ) {  <NL> final int layer = layer of object ( object name ) ;  <NL> if ( - 1 ! = layer ) {  <NL> remove object ( object name , layer ) ;  <NL>  }  <NL> this . layers [ y ] . put ( object name , new point ( x , y ) ) ;  <NL>  }  COM: <s> adds an object to this scene </s>

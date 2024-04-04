@@ -1,0 +1,1 @@
+TDAT: public object get value at ( int row , int column ) {  <NL> if ( column = = 0 ) {  <NL> return meta api factory . get factory ( ) . get model helper ( ) . get name (  <NL> super . get value at ( row , column ) ) ;  <NL>  }  <NL> return super . get value at ( row , column ) ;  <NL>  }  COM: <s> returns the value of the cell in row code row code and column </s>

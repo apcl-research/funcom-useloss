@@ -1,0 +1,1 @@
+TDAT: public ds script builder text view ( string object name , ds delay rate time drt , string opacity ) {  <NL> body . append ( string . format ( " \t text view \ " % s\ " \ " % s\ " \ " % s\ " \n " ,  <NL> object name , drt , opacity ) ) ;  <NL> return this ;  <NL>  }  COM: <s> change the brightness of the named object </s>

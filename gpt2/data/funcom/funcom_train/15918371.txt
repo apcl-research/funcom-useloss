@@ -1,0 +1,1 @@
+TDAT: private stmt seq flatten at stmt ( at stmt stmt ) {  <NL> list < stmt > stmts = new array list < stmt > ( ) ;  <NL> expr place = get primary and statements ( stmt . place ( ) , stmts ) ;  <NL> stmts . add ( ( stmt ) stmt . place ( place ) ) ;  <NL> return syn . create stmt seq ( stmt . position ( ) , stmts ) ;  <NL>  }  COM: <s> flatten an at statement </s>

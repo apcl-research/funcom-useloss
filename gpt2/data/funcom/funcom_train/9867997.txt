@@ -1,0 +1,1 @@
+TDAT: private attributes _ attributes ( final reifiable reifiable , int pos ) {  <NL>  _ attrs . clear ( ) ;  <NL>  _ add reifier ( _ attrs , reifiable ) ;  <NL>  _ attrs . add attribute ( " " , " number " , " " , " cdata " , integer . to string ( pos ) ) ;  <NL> return _ attrs ;  <NL>  }  COM: <s> returns attributes which contain the reifier if any and the number </s>

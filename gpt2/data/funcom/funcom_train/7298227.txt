@@ -1,0 +1,1 @@
+TDAT: public void set bounds ( int x , int y , int width , int height ) {  <NL> super . set bounds ( x , y , width , height ) ;  <NL> event thread . fire native event ( instance num ,  <NL> native event data . event _ set _ bounds , new rectangle ( x , y , width ,  <NL> height ) ) ;  <NL>  }  COM: <s> moves and resizes this component </s>

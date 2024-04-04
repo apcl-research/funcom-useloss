@@ -1,0 +1,1 @@
+TDAT: public void set specular ( float intensity , float highlight ) {  <NL> float [ ] color = { intensity , intensity , intensity , 1 } ; / / create a shade of gray <NL> this . set specular ( color ) ;  <NL> this . set shininess ( ( int ) ( highlight * 127f ) ) ; / / convert 0 - 1 to 0 - 127 <NL>  }  COM: <s> set the reflection properties </s>

@@ -1,0 +1,1 @@
+TDAT: public void execute ( string p _ name ) {  <NL> scene element scene = adventure . get scene named ( p _ name ) ;  <NL> if ( scene ! = null ) {  <NL> script executor . execute ( scene , true ) ;  <NL>  } else {  <NL> throw new runtime exception ( " scene " + p _ name + " doesn ' t exist ! " ) ;  <NL>  }  <NL>  }  COM: <s> execute the given named script if it exists </s>

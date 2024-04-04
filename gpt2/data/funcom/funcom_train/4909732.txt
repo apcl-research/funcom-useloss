@@ -1,0 +1,1 @@
+TDAT: public void set queue lock ( boolean queue lock ) {  <NL> this . queue lock = queue lock ;  <NL> nu logger . get logger ( ) . log ( level . info , " queue locked : { 0 } " , queue lock ) ;  <NL>  / / if unlocking , update the queuing .  <NL>  / / if locking , this call will return .  <NL> update queue ( ) ;  <NL>  }  COM: <s> to lock or unlock the queue </s>

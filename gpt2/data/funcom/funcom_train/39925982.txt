@@ -1,0 +1,1 @@
+TDAT: public boolean on create options menu ( menu menu ) {  <NL> menu . add ( 0 , menu _ new _ game , 0 , " new game " ) ;  <NL> menu . add ( 0 , menu _ options , 0 , " options " ) ;  <NL> menu . add ( 0 , menu _ quit , 0 , " quit " ) ;  <NL> return true ;  <NL>  }  COM: <s> creates the menu items </s>

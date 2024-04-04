@@ -1,0 +1,1 @@
+TDAT: public object show gifts ( ) {  <NL> string result = " * * * * all availbale products * * * \n " ;  <NL> for ( int c = 0 ; c < gifts . length ; c + + ) {  <NL> gift gf = gifts [ c ] ;  <NL> if ( gf = = null ) break ;  <NL> result + = gf . get gift name ( ) + " " + gf . get gift price ( ) + " \n " ;  <NL>  }  <NL> return result ;  <NL>  }  COM: <s> show all gifts </s>

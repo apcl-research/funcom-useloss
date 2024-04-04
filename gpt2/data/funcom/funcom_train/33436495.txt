@@ -1,0 +1,1 @@
+TDAT: private void assert consistency ( ) {  <NL> for ( int i = _ first ; i < _ btree . _ page size - 1 ; i + + ) {  <NL> if ( compare ( ( byte [ ] ) _ keys [ i ] , ( byte [ ] ) _ keys [ i + 1 ] ) > = 0 ) {  <NL> dump ( 0 ) ;  <NL> throw new error ( " b page not ordered " ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> assert the ordering of the keys on the bpage </s>

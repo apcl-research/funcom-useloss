@@ -1,0 +1,1 @@
+TDAT: protected test vo create one ( ) {  <NL> test vo t = new test vo ( ) ;  <NL> int id = ( int ) ( math . random ( ) * integer . max _ value ) ;  <NL> t . set name ( " new object no . " + id ) ;  <NL> t . set id ( id ) ;  <NL>  _ add to container ( t ) ;  <NL> return t ;  <NL>  }  COM: <s> creates a vo and add it to the containers </s>

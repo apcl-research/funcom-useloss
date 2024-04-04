@@ -1,0 +1,1 @@
+TDAT: public void test _ 0001 _ static _ invariant ( ) {  <NL> compile and exec given statement (  <NL>  " x . java " ,  <NL>  " interface y { \n " +  <NL>  " / / @ public static invariant true ; \n " +  <NL>  " } \n " +  <NL>  " public class x { \n " +  <NL>  " } \n " ,  <NL>  " new x ( ) " ) ;  <NL>  }  COM: <s> static invariant in interface </s>

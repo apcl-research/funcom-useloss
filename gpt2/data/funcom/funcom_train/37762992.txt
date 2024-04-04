@@ -1,0 +1,1 @@
+TDAT: public grid model get rows wm ( ) {  <NL> grid model rows = ( grid model ) get widget cache ( ) . get model ( " rows " ) ;  <NL> if ( rows = = null ) {  <NL> rows = new grid model ( ) ;  <NL> get widget cache ( ) . add model ( " rows " , rows ) ;  <NL> populate rows ( rows ) ;  <NL>  }  <NL> return rows ;  <NL>  }  COM: <s> getter for property rows </s>

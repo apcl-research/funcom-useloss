@@ -1,0 +1,1 @@
+TDAT: public void assert log does not contain ( string msg ) {  <NL> assert true ( " log messages should not contain " + msg +  <NL>  " but did . log was : " + utilities . line _ break +  <NL>  " ' " + get log message ( ) + " ' " ,  <NL> get log message ( ) . index of ( msg ) < 0 ) ;  <NL>  }  COM: <s> asserts that log does not contain given message </s>

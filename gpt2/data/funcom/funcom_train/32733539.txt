@@ -1,0 +1,1 @@
+TDAT: public void set start date time ( int yr , int mo , int da , int hr , int mn , int sc ) {  <NL> get calendar ( ) . clear ( get calendar ( ) . millisecond ) ;  <NL> get calendar ( ) . set ( yr , mo , da , hr , mn , sc ) ;  <NL> start date time = get calendar ( ) . get time ( ) ;  <NL>  }  COM: <s> set the starting date and time for the cycle using integers for year </s>

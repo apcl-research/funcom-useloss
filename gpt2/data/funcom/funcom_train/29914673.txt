@@ -1,0 +1,1 @@
+TDAT: public i file store get store ( i path path ) {  <NL> try {  <NL> return get store ( new uri ( scheme , path . to string ( ) , null ) ) ;  <NL>  } catch ( uri syntax exception e ) {  <NL>  / / todo : return null file system ? ? ?  <NL> return null ; / / efs . get null file system ( ) . get store ( path ) ;  <NL>  }  <NL>  }  COM: <s> this is implementation of </s>

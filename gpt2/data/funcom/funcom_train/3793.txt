@@ -1,0 +1,1 @@
+TDAT: public string parse ( html doc doc , node node ) {  <NL> if ( node . get node name ( ) . equals ( " a " ) )  <NL> return parse anchor ( doc , node ) ;  <NL> else if ( node . get node name ( ) . equals ( " script " ) )  <NL> return parse script ( doc , node ) ;  <NL>  <NL> return null ;  <NL>  <NL>  }  COM: <s> parse the node </s>

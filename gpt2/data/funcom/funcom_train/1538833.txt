@@ -1,0 +1,1 @@
+TDAT: public big quaternion norm ( ) {  <NL>  / / this . conjugate ( ) . multiply ( this ) ;  <NL> big rational v = re . multiply ( re ) ;  <NL> v = v . sum ( im . multiply ( im ) ) ;  <NL> v = v . sum ( jm . multiply ( jm ) ) ;  <NL> v = v . sum ( km . multiply ( km ) ) ;  <NL> return new big quaternion ( v ) ;  <NL>  }  COM: <s> quaternion number norm </s>

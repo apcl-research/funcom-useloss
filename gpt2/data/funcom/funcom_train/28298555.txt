@@ -1,0 +1,1 @@
+TDAT: protected void calculate zoomed points ( int x1 , int y1 , int x2 , int y2 , int w , int [ ] x p , int [ ] y p ) {  <NL> double zoom = map . get zoom factor ( ) ;  <NL> trans base tools . calculate points ( x1 , y1 , x2 , y2 , w , zoom , x p , y p ) ;  <NL>  }  COM: <s> calculates the four points for the polygon </s>

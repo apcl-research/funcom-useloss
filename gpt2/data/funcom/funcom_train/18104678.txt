@@ -1,0 +1,1 @@
+TDAT: public void paint ( graphics g ) {  <NL>  <NL> int stroke = g . get stroke style ( ) ;  <NL> g . set stroke style ( g . solid ) ;  <NL> g . draw line ( x - 1 , y - height , ( x - 1 ) + ( width - 1 ) , y ) ;  <NL> g . set stroke style ( stroke ) ;  <NL>  <NL>  }  COM: <s> paint this cursor in the given graphics context </s>

@@ -1,0 +1,1 @@
+TDAT: public void set sync ( final boolean sync ) {  <NL> if ( debug ) {  <NL> system . err . println ( this . get title ( ) + java . util . resource bundle . get bundle ( " anecho / gui / gui bundle " ) . get string ( " _ frame _ has _ been _ set sync : _ " ) + sync ) ;  <NL>  }  <NL>  <NL> in sync = sync ;  <NL>  }  COM: <s> the jamocha mud frame synchroniser </s>

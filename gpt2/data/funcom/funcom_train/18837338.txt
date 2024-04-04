@@ -1,0 +1,1 @@
+TDAT: public void crop ( float x , float y , float width , float height ) throws io exception {  <NL> crop ( ( int ) ( x * bi . get width ( ) ) ,  <NL>  ( int ) ( y * bi . get height ( ) ) ,  <NL>  ( int ) ( width * bi . get width ( ) ) ,  <NL>  ( int ) ( height * bi . get height ( ) ) ) ;  <NL>  }  COM: <s> crops the image using the percentages </s>

@@ -1,0 +1,1 @@
+TDAT: public void add before ( d node v , d node z ) throws illegal argument exception {  <NL> d node u = get prev ( v ) ; / / may throw an illegal argument exception <NL> z . set prev ( u ) ;  <NL> z . set next ( v ) ;  <NL> v . set prev ( z ) ;  <NL> u . set next ( z ) ;  <NL> size + + ;  <NL>  }  COM: <s> inserts the given node z before the given node v </s>

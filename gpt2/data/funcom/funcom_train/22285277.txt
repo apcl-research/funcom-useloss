@@ -1,0 +1,1 @@
+TDAT: public void repaint parent ( long tm , int x , int y , int width , int height ) {  <NL> player panel player = this . player ;  <NL> if ( player ! = null ) {  <NL> player . repaint ( tm , x , y , width , height ) ;  <NL>  } else {  <NL> super . repaint parent ( tm , x , y , width , height ) ;  <NL>  }  <NL>  }  COM: <s> this will repaint part of the screen </s>

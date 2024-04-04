@@ -1,0 +1,1 @@
+TDAT: public float indexer score ( text url , nutch document doc , crawl datum db datum , crawl datum fetch datum , parse parse , inlinks inlinks , float init score ) throws scoring filter exception {  <NL> return ( float ) math . pow ( db datum . get score ( ) , score power ) * init score ;  <NL>  }  COM: <s> dampen the boost value by score power </s>

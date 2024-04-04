@@ -1,0 +1,1 @@
+TDAT: public string delete user ( string username , string session handle ) throws io exception {  <NL> map < string , string > params = prepare param map ( " delete user " , session handle ) ;  <NL> params . put ( " user id " , username ) ;  <NL> return execute post ( _ back end uri str , params ) ;  <NL>  }  COM: <s> delete a user </s>

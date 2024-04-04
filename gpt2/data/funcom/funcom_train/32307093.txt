@@ -1,0 +1,1 @@
+TDAT: public string get package ( ) {  <NL> if ( is primitive ( ) || is array ( ) ) return null ;  <NL> string fullname = get name ( ) ;  <NL> int lastdot = fullname . last index of ( ' . ' ) ;  <NL> if ( lastdot < 0 ) return " " ; / / no package .  <NL> else return fullname . substring ( 0 , lastdot ) ;  <NL>  }  COM: <s> returns the package name of this code hclass code </s>

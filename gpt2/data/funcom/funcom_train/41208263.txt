@@ -1,0 +1,1 @@
+TDAT: private boolean supports core attributes ( ) {  <NL> return ( ( id ! = tag _ style ) & & ( id ! = tag _ meta ) & & ( id ! = tag _ head ) & & ( id ! = tag _ html ) & & ( id ! = tag _ title ) & & ( id ! = tag _ param ) & & ( id ! = tag _ base ) ) ;  <NL>  }  COM: <s> returns whether this element supports the common core attributes </s>

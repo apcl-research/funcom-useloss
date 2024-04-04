@@ -1,0 +1,1 @@
+TDAT: private void set mz ( double mz ) {  <NL>  / / set the m / z value , cv , accession , and name <NL> this . mz = mz ;  <NL> this . cv _ ion _ mz = " pride " ;  <NL> this . accession _ ion _ mz = " pride : 0000188 " ;  <NL> this . name _ ion _ mz = " product ion m / z " ;  <NL>  }  COM: <s> sets the given m z value of the product ion plus the </s>

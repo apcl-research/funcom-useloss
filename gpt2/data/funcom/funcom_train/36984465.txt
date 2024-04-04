@@ -1,0 +1,1 @@
+TDAT: public void update pixels ( int x , int y , int c , int d ) {  <NL>  ( ( buffered image ) image ) . set rgb ( x , y ,  <NL>  ( image mode = = corner ) ? c : ( c - x ) ,  <NL>  ( image mode = = corner ) ? d : ( d - y ) ,  <NL> pixels , 0 , width ) ;  <NL>  }  COM: <s> update the pixels buffer to the pgraphics image </s>

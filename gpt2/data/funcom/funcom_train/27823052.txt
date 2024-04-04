@@ -1,0 +1,1 @@
+TDAT: public void set attribute ( string key , string value ) throws kaon exception {  <NL> try {  <NL> m _ kaon connection . get engineering server ( ) . set attribute ( m _ model id , key , value ) ;  <NL>  }  <NL> catch ( remote exception e ) {  <NL> throw new kaon exception ( " error in remote call " , e ) ;  <NL>  }  <NL>  }  COM: <s> sets the attribute of the oi model </s>

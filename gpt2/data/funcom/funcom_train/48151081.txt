@@ -1,0 +1,1 @@
+TDAT: public double get mode ( ) {  <NL> double mode ;  <NL> if ( left < 1 ) mode = a + 0 . 01 * ( b - a ) ;  <NL> else if ( right < = 1 ) mode = b - 0 . 01 * ( b - a ) ;  <NL> else mode = a + ( ( b - a ) * ( left - 1 ) ) / ( left + right - 2 ) ;  <NL> return mode ;  <NL>  }  COM: <s> compute the generalized beta median mode </s>

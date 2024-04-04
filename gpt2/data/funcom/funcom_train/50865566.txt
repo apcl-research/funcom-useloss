@@ -1,0 +1,1 @@
+TDAT: private void clear info ( ) {  <NL> destination value label . set text ( " " ) ;  <NL> state value label . set text ( " " ) ;  <NL> arrival date value label . set text ( " " ) ;  <NL> time arrival value label . set text ( " " ) ;  <NL> immigrants value label . set text ( " " ) ;  <NL> inner supply pane . remove all ( ) ;  <NL>  }  COM: <s> clear the resupply info </s>

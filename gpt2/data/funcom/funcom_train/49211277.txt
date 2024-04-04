@@ -1,0 +1,1 @@
+TDAT: public string get separator ( ) {  <NL> if ( filename ! = null ) {  <NL> return <NL> filename . ends with ( " . csv " ) ? " , " :  <NL> filename . ends with ( " . ssv " ) ? " " :  <NL> filename . ends with ( " . tab " ) ? " \t " :  <NL> filename . ends with ( " . txt " ) ? " \t " : " " ;  <NL>  }  <NL> return " " ;  <NL>  }  COM: <s> gets the separator of </s>

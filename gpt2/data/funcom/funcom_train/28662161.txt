@@ -1,0 +1,1 @@
+TDAT: public void write out special token ( ) {  <NL> try {  <NL> out . write ( bom _ value ) ;  <NL>  } catch ( exception e ) {  <NL> log util . log error ( xor plugin . plugin _ id , " exception while writing to the output stream " , e , false ) ; / / $ non - nls - 1 $  <NL>  }  <NL>  }  COM: <s> writes out the special token for little endian </s>

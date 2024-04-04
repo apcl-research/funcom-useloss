@@ -1,0 +1,1 @@
+TDAT: public organization view interface get organization ( user info interface user info , string org id ) {  <NL> organization view interface [ ] result = get organizations ( user info , org id ) ;  <NL> if ( result . length > 0 ) return result [ 0 ] ;  <NL> return new organization view ( new hash map < string , string > ( ) ) ;  <NL>  }  COM: <s> get an organization </s>

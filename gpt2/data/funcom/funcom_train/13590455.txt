@@ -1,0 +1,1 @@
+TDAT: public void save as png ( final string filename , final int width , final int height ) {  <NL> try {  <NL> chart utilities . save chart as png ( new file ( filename ) , get chart ( ) , width , height , null , true , 9 ) ;  <NL>  } catch ( io exception e ) {  <NL> e . print stack trace ( ) ;  <NL>  }  <NL>  }  COM: <s> stores the chart as png image file </s>

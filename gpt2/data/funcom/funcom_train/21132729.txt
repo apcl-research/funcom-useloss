@@ -1,0 +1,1 @@
+TDAT: public sub field get sub field ( char id ) {  <NL> if ( msf = = null ) return null ;  <NL> for ( int i = 0 ; i < msf . length ; i + + ) {  <NL>  <NL> if ( msf [ i ] . get identifier ( ) = = id ) {  <NL> return msf [ i ] ;  <NL>  }  <NL>  <NL>  } / / end of for <NL> return null ;  <NL>  }  COM: <s> to get the subfield object for the character id </s>

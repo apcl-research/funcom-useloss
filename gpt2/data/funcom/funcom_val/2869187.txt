@@ -1,0 +1,1 @@
+TDAT: protected application instance launch installer ( jnlp file file ) throws launch exception {  <NL> throw launch error ( new launch exception ( file , null , r ( " ls fatal " ) , r ( " lc not supported " ) , r ( " l no installers " ) , r ( " l no installers info " ) ) ) ;  <NL>  }  COM: <s> launches a jnlp installer </s>

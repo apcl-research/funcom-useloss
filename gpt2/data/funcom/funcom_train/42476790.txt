@@ -1,0 +1,1 @@
+TDAT: private void hide buttons ( ) {  <NL> for ( int i = 0 ; i < btn food actions . length ; i + + ) {  <NL> btn food actions [ i ] . set bounds ( 0 , 0 , 0 , 0 ) ;  <NL>  }  <NL> for ( int i = 0 ; i < btn rest actions . length ; i + + ) {  <NL> btn rest actions [ i ] . set bounds ( 0 , 0 , 0 , 0 ) ;  <NL>  }  <NL>  }  COM: <s> hides all buttons </s>

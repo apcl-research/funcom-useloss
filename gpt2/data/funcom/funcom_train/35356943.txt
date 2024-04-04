@@ -1,0 +1,1 @@
+TDAT: public boolean contains ( point p ) {  <NL> return p . get x ( ) > = this . n tlx & & p . get x ( ) < = this . n tlx + this . n width & &  <NL> p . get y ( ) < = this . n tly & & p . get y ( ) > = this . n tly + this . n height ;  <NL>  }  COM: <s> test a point for inclusion in a rectangle including </s>

@@ -1,0 +1,1 @@
+TDAT: public void set opacity ( ui object o , double opacity ) {  <NL> if ( opacity ! = null ) {  <NL> dom . set style attribute ( o . get element ( ) , " opacity " , opacity . to string ( ) ) ;  <NL>  } else {  <NL> dom . set style attribute ( o . get element ( ) , " opacity " , " inherit " ) ;  <NL>  }  <NL>  }  COM: <s> sets the opactiy </s>

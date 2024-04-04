@@ -1,0 +1,1 @@
+TDAT: public track copy ( ) {  <NL>  <NL> track track = new track ( ) ;  <NL> track . set start position ( get start position ( ) ) ;  <NL>  <NL> for ( int a = 0 ; a < events . size ( ) ; a + + )  <NL> track . add ( ( ( track event ) events . element at ( a ) ) . copy ( ) ) ;  <NL>  <NL> return track ;  <NL>  <NL>  }  COM: <s> some kind of copy constructor </s>

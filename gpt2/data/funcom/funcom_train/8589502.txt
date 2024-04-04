@@ -1,0 +1,1 @@
+TDAT: private j scroll pane get s ventas ( ) {  <NL> if ( s ventas = = null ) {  <NL> s ventas = new j scroll pane ( ) ;  <NL> s ventas . set bounds ( new rectangle ( 16 , 73 , 343 , 120 ) ) ;  <NL> s ventas . set viewport view ( get t ventas ( ) ) ;  <NL>  }  <NL> return s ventas ;  <NL>  }  COM: <s> this method initializes s ventas </s>

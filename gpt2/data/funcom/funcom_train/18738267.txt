@@ -1,0 +1,1 @@
+TDAT: public void test verify order of processing irrelevant1 ( ) {  <NL> file test base = new file ( base dir , " test a " ) ;  <NL> run source and binary testcase ( test base , new string [ ] { " z . java " , " b . java " } , new string [ ] { " aspect ab . aj " } , false ) ;  <NL>  / / run class ( " b " ) ;  <NL>  }  COM: <s> check the order doesnt make a difference </s>

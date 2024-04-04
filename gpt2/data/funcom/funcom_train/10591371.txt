@@ -1,0 +1,1 @@
+TDAT: public int get count of pages ( ) {  <NL> int count _ of _ pages = hits . length ( ) / this . count of hits per page ;  <NL> int remainder = hits . length ( ) % this . count of hits per page ;  <NL> if ( remainder ! = 0 ) {  <NL> count _ of _ pages + = 1 ;  <NL>  }  <NL> return count _ of _ pages ;  <NL>  }  COM: <s> caluclate count of pages for displaying all hits </s>

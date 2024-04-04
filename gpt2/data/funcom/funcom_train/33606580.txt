@@ -1,0 +1,1 @@
+TDAT: public void test concatenate ( ) {  <NL> system . out . println ( " concatenate " ) ;  <NL> assert equals ( " { ( 1 - 4 ) ( 2 - 3 ) ( 5 - 14 ) ( 6 - 11 ) ( 7 - 10 ) ( 8 - 9 ) ( 12 - 13 ) ( 15 - 16 ) } " , temperley lieb term . concatenate ( instance2 , instance8 ) . to string ( ) ) ;  <NL>  }  COM: <s> tests concatenate method </s>

@@ -1,0 +1,1 @@
+TDAT: public job result get job result ( long wait ) throws interrupted exception {  <NL> if ( log . is debug enabled ( ) )  <NL> log . debug ( " wait = " + wait ) ;  <NL>  <NL> job result ret = ( job result ) done jobs . pull ( wait ) ;  <NL> if ( ret ! = null )  <NL> super . get job result ( wait ) ;  <NL> return ret ;  <NL>  }  COM: <s> get a job result </s>

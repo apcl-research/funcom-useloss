@@ -1,0 +1,1 @@
+TDAT: public void set log ( string log ) {  <NL> log list . clear ( ) ;  <NL> if ( log = = null || log . trim ( ) . length ( ) = = 0 ) {  <NL> return ;  <NL>  }  <NL>  <NL> string [ ] splits = log . split ( " \n " ) ;  <NL> for ( string row : splits ) {  <NL> log list . add item ( row ) ;  <NL>  }  <NL>  }  COM: <s> sets the log info </s>

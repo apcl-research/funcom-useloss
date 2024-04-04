@@ -1,0 +1,1 @@
+TDAT: public void node is alive ( int node addr ) {  <NL> node info ni = ( node info ) m _ node info . get ( new integer ( node addr ) ) ;  <NL> if ( ni ! = null ) {  <NL> ni . value . is alive ( ) ;  <NL>  } else {  <NL> update node info ( node addr , - 1 , new int [ 0 ] ) ;  <NL>  }  <NL>  }  COM: <s> notifies the service directory that a node is alive </s>

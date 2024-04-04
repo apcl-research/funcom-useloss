@@ -1,0 +1,1 @@
+TDAT: public void do fling ( float velocity x , float velocity y ) {  <NL>  <NL> m scroller . fling ( m scroll x , m scroll y , ( int ) velocity x , ( int ) velocity y ,  <NL>  - ( m virtual width - m surface width ) , 0 , - ( m virtual height - m surface height ) , 0 ) ;  <NL>  }  COM: <s> handle the fling event scrolling the screen as necessary </s>

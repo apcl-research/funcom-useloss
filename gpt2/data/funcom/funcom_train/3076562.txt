@@ -1,0 +1,1 @@
+TDAT: public string get view value ( ) {  <NL> string buffer buf = new string buffer ( ) ;  <NL> for ( int i = 0 ; i < this . view value . size ( ) ; i + + )  <NL> buf . append ( " \t " + ( string ) this . view value . get ( i ) + " \n " ) ;  <NL> return buf . to string ( ) ;  <NL>  }  COM: <s> returns client spec view value as a string lines separated by t n </s>

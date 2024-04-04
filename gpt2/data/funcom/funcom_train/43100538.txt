@@ -1,0 +1,1 @@
+TDAT: public void add to prop tab ( class c , prop panel p ) {  <NL> for ( int i = 0 ; i < tab panel list . size ( ) ; i + + ) {  <NL> if ( tab panel list . element at ( i ) instanceof tab props ) {  <NL>  ( ( tab props ) tab panel list . element at ( i ) ) . add panel ( c , p ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> helper method to add a property panel for a given class </s>

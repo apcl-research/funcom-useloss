@@ -1,0 +1,1 @@
+TDAT: public int compare to ( object o ) {  <NL> x file f = ( x file ) o ;  <NL> int cmp result = - 1 ;  <NL> if ( f . get date ( ) ! = null & & get date ( ) ! = null ) {  <NL> cmp result = f . get date ( ) . compare to ( get date ( ) ) ;  <NL>  }  <NL> return cmp result ;  <NL>  }  COM: <s> compare two objects on the date </s>

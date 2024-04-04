@@ -1,0 +1,1 @@
+TDAT: private boolean is tag ( final string s1 , final string s2 ) {  <NL> string lc string = s1 . to lower case ( ) ;  <NL> string t1 = " < " + s2 . to lower case ( ) + " > " ;  <NL> string t2 = " < " + s2 . to lower case ( ) + " " ;  <NL>  <NL> return lc string . starts with ( t1 ) || lc string . starts with ( t2 ) ;  <NL>  }  COM: <s> checks if is tag </s>

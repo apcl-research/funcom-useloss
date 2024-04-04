@@ -1,0 +1,1 @@
+TDAT: public boolean is present ( long p id , vector p vct ) {  <NL> long t id site ;  <NL>  <NL> for ( int i = 0 ; i < p vct . size ( ) ; i + + ) {  <NL> t id site = ( ( site ) p vct . get ( i ) ) . get id site ( ) ;  <NL> if ( t id site = = p id ) {  <NL> return true ;  <NL>  }  <NL>  }  <NL> return false ;  <NL>  }  COM: <s> checks if the site is present in the vector </s>

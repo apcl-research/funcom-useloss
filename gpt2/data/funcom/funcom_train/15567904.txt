@@ -1,0 +1,1 @@
+TDAT: public boolean set long ( int _ row , int _ column , long _ value ) {  <NL> if ( long row list [ _ row ] = = null )  <NL> return false ;  <NL> if ( long v [ _ row ] . length > = _ column )  <NL> return false ;  <NL> long v [ _ row ] [ _ column ] = _ value ;  <NL> return true ;  <NL>  }  COM: <s> code set long code sets a long at a specified position </s>

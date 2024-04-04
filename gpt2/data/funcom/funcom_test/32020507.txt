@@ -1,0 +1,1 @@
+TDAT: public object set row ( result set rs ) throws sql exception {  <NL> this . set id ( rs . get int ( " id " ) ) ;  <NL> this . set student id ( rs . get int ( " student _ id ) " ) ) ;  <NL> this . set class id ( rs . get string ( " class _ id " ) ) ;  <NL> return this ;  <NL>  }  COM: <s> create an code object code from the column values in one </s>

@@ -1,0 +1,1 @@
+TDAT: protected void cycle is c access ( ) {  <NL>  / / section 3 . 7 . 2 . vc and rc <NL>  / / " 3 . if there is a bad line condiction in cycles 12 - 54 , ba is set low <NL>  / / and the c - acesses are started . . . "  <NL>  <NL> if ( bad line ) { / / bad line condiction ?  <NL> set ba ( 0 ) ; / / ba is now low <NL>  }  <NL>  }  COM: <s> cycle code for bad line </s>

@@ -1,0 +1,1 @@
+TDAT: public i ds get blocking users i ds ( ) throws weibo exception {  <NL>  / / return new i ds ( get ( get base url ( ) + " blocks / blocking / ids . xml " , true ) ) ;  <NL> return new i ds ( get ( get base url ( ) + " blocks / blocking / ids . json " , true ) , this ) ;  <NL>  }  COM: <s> returns an array of numeric user ids the authenticating user is blocking </s>

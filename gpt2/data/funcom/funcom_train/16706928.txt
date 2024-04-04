@@ -1,0 +1,1 @@
+TDAT: public void set ( config conf ) {  <NL> for ( map . entry < object , object > e : conf . entry set ( ) ) {  <NL> object val = e . get key ( ) ;  <NL> if ( val = = null || ! val . equals ( e . get value ( ) ) ) {  <NL> set ( ( string ) e . get key ( ) , ( string ) e . get value ( ) ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> add the configuration object to this one </s>

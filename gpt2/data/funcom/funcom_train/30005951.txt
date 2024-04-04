@@ -1,0 +1,1 @@
+TDAT: private j label get priority label ( ) {  <NL> if ( this . priority label = = null ) {  <NL> this . priority label = new j label ( language controller . get instance ( ) . get string ( this . plugin ,  <NL>  " plugin _ add _ test _ case _ panel _ priority _ label " ) ) ;  <NL>  }  <NL> return this . priority label ;  <NL>  }  COM: <s> gets the priority label </s>

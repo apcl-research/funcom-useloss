@@ -1,0 +1,1 @@
+TDAT: public annotation create new annotation ( ) {  <NL> button . mouse pressed ( new mouse event ( button , 0 , 0 , 0 , 0 , 0 , 1 , false ) ) ;  <NL> mouse clicked ( new mouse event ( button , 0 , 0 , 0 , 0 , 0 , 1 , false ) ) ;  <NL> return temp drawing ;  <NL>  }  COM: <s> initiates drawing a new annotation that is to be linked to an </s>

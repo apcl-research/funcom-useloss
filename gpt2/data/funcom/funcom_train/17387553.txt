@@ -1,0 +1,1 @@
+TDAT: public void display error ( throwable t ) {  <NL> stack trace element [ ] stack = t . get stack trace ( ) ;  <NL>  <NL> display ( color constants . get color ( " error " ) + t ) ;  <NL> for ( int i = 0 ; i < stack . length ; i + + )  <NL> display ( color constants . get color ( " error " ) + stack [ i ] ) ;  <NL>  }  COM: <s> displays a stack trace for an exception </s>

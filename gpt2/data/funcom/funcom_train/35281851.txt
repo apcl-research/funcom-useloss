@@ -1,0 +1,1 @@
+TDAT: public void set vertical alignment ( bitmap font . v align align ) {  <NL> if ( block . get text box ( ) = = null & & align ! = v align . top ) {  <NL> throw new runtime exception ( " bound is not set " ) ;  <NL>  }  <NL> block . set vertical alignment ( align ) ;  <NL> letters . invalidate ( ) ;  <NL> need refresh = true ;  <NL>  }  COM: <s> set vertical alignment </s>

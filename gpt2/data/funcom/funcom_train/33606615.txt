@@ -1,0 +1,1 @@
+TDAT: public void test to long string ( ) {  <NL> system . out . println ( " to long string " ) ;  <NL> assert equals ( " ( 1 - > 1 , 2 - > 2 , 3 - > 3 , 4 - > 4 , 5 - > 5 , 6 - > 6 ) " , instance1 . to long string ( ) ) ;  <NL>  }  COM: <s> test of to long string method of class scio </s>

@@ -1,0 +1,1 @@
+TDAT: public void add time field value ( string field name , time span field value ) {  <NL> validate field type ( field name , data type . time ) ;  <NL> if ( tim data = = null ) {  <NL> tim data = new multi value map < time span > ( ) ;  <NL>  }  <NL> tim data . add field value ( field name , field value ) ;  <NL>  }  COM: <s> add a time value to the given field </s>

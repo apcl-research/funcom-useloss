@@ -1,0 +1,1 @@
+TDAT: public void set originator address ( long orig addr ) {  <NL> if ( orig len = = 2 ) {  <NL> rp . set mac payload big end short at ( orig addr index , ( short ) ( orig addr & 0xffff ) ) ;  <NL>  } else {  <NL> rp . set mac payload big end long at ( orig addr index , orig addr ) ;  <NL>  }  <NL>  }  COM: <s> set the address of the originator field of the mesh header </s>

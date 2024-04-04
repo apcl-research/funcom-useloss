@@ -1,0 +1,1 @@
+TDAT: public void set clip ( shape clip ) {  <NL> shape old clip = get clip ( ) ;  <NL> this . clip = clip ;  <NL> fire property change ( " clip " , old clip , clip ) ;  <NL> if ( ! is enabled ( ) || clip ! = null & & old clip ! = null <NL>  & & clip . equals ( old clip ) ) {  <NL> return ;  <NL>  }  <NL> set dirty ( true ) ;  <NL>  }  COM: <s> sets the clipping </s>

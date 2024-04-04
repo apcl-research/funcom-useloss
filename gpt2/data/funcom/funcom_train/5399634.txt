@@ -1,0 +1,1 @@
+TDAT: public void test009bad ( ) {  <NL> field = form . get field ( " field _ 003 " ) ;  <NL>  <NL> try {  <NL> validate field ( new string [ ] { " a " , " b " , " c " , " d " , " e " , " f " } ) ;  <NL> fail ( msg _ 001 ) ;  <NL>  } catch ( validate exception ve ) {  <NL> check error code ( 2 ) ;  <NL>  }  <NL>  }  COM: <s> field 003 array of length greater than 5 </s>

@@ -1,0 +1,1 @@
+TDAT: public void draw ( )  <NL>  {  <NL> background ( 255 ) ;  <NL> no loop ( ) ;  <NL>  <NL> fill ( 120 , 60 , 60 ) ;  <NL> text font ( font , 18 ) ;  <NL> text ( " type in some text and click mouse when finished . " , 30 , 30 ) ;  <NL>  <NL> text input . draw ( 30 , 50 ) ;  <NL>  <NL>  }  COM: <s> draws the text input field </s>

@@ -1,0 +1,1 @@
+TDAT: public void log ( string writer id , status status , string message ) {  <NL> if ( status . get status ( ) < log status . get status ( ) ) {  <NL> return ;  <NL>  }  <NL> log entry entry = new log entry ( writer id , status . get value ( ) , message ) ;  <NL> log helper . get instance ( ) . save log entry ( entry ) ;  <NL>  }  COM: <s> logs an event </s>

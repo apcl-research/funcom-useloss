@@ -1,0 +1,1 @@
+TDAT: public void set id ( string id ) {  <NL> string prefix = ws security util . set namespace ( this . element ,  <NL> ws constants . wsu _ ns , ws constants . wsu _ prefix ) ;  <NL> this . element . set attribute ns ( ws constants . wsu _ ns , prefix + " : id " , id ) ;  <NL>  }  COM: <s> set wsu id attribute of this signature confirmation element </s>

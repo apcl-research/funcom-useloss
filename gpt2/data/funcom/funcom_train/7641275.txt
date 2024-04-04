@@ -1,0 +1,1 @@
+TDAT: private int get gsm combo index ( gsm mode mode ) {  <NL> for ( int i = 0 ; i < gsm _ modes . length ; i + + ) {  <NL> string [ ] modes = gsm _ modes [ i ] ;  <NL> if ( mode . get tag ( ) . equals ( modes [ 1 ] ) ) {  <NL> return i ;  <NL>  }  <NL>  }  <NL> return - 1 ;  <NL>  }  COM: <s> returns the index of the combo item matching a specific gsm mode </s>

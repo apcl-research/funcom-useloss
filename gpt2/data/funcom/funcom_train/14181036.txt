@@ -1,0 +1,1 @@
+TDAT: public void test game started ( ) {  <NL> game game = new game ( mainuser , " alhambra " , " othergame " , 6 , true ) ;  <NL>  <NL> glist . add ( game ) ;  <NL> gm . game started ( game . get session ( ) ) ;  <NL> assert equals ( " unexpected game state " ,  <NL> game . get status ( ) , game . state . started ) ;  <NL>  }  COM: <s> tests the game started method </s>

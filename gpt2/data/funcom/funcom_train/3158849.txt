@@ -1,0 +1,1 @@
+TDAT: public range get range ( int bin index1 , int bin index2 ) {  <NL> return new range ( get min ( ) + bin index1 * ( get max ( ) - get min ( ) ) / ( double ) get num bins ( ) ,  <NL> get min ( ) + ( bin index2 + 1 ) * ( get max ( ) - get min ( ) ) / ( double ) get num bins ( ) ) ;  <NL>  }  COM: <s> gets the data value range for the given bin index range </s>

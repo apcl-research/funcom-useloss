@@ -1,0 +1,1 @@
+TDAT: public void set pmd threshold limit ( string pmd threshold limit ) {  <NL> element reporters = get child ( root , " reporters " ) ;  <NL> element parent = get child ( reporters , " hudson . plugins . pmd . pmd reporter " ) ;  <NL> get child ( parent , " threshold limit " ) . set text ( pmd threshold limit ) ;  <NL>  }  COM: <s> sets the pmd threshold limit </s>

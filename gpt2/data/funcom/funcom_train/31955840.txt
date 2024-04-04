@@ -1,0 +1,1 @@
+TDAT: private object single element ( int row , int col ) {  <NL>  <NL> object res = null ;  <NL> if ( is null = = null || ! is null [ row * n fields + col ] ) {  <NL> res = array funcs . new instance ( types [ col ] , 1 ) ;  <NL> system . arraycopy ( data [ col ] , row , res , 0 , 1 ) ;  <NL>  }  <NL> return res ;  <NL>  }  COM: <s> extract a single element from a table </s>

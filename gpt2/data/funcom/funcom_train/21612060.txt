@@ -1,0 +1,1 @@
+TDAT: public void test parse triple ( ) throws mu parser exception {  <NL> parse tree pt = parser . parse ( " triple " , " ' some text ' , true , a var " ) ;  <NL> system . out . println ( " parse tree : " + pt ) ;  <NL> check parsing ( pt , " const " , " true " , " variable " ) ;  <NL>  }  COM: <s> tests the i triple i non terminal parsing </s>

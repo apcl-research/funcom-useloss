@@ -1,0 +1,1 @@
+TDAT: protected string povray color ( java . awt . color col ) {  <NL> float tff = ( float ) 255 . 0 ;  <NL> return " rgb < " + ( ( float ) col . get red ( ) / tff ) + " , "  <NL>  + ( ( float ) col . get green ( ) / tff ) + " , "  <NL>  + ( ( float ) col . get blue ( ) / tff ) + " > " ;  <NL>  }  COM: <s> takes a java colour and returns a string representing the </s>

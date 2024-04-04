@@ -1,0 +1,1 @@
+TDAT: public void document preview ( ) {  <NL> try {  <NL> if ( doc preview = = null )  <NL> doc preview = new toc preview ( x msf , settings , resources , style preview . temp dir , my frame ) ;  <NL> doc preview . refresh ( settings ) ;  <NL>  } catch ( exception ex ) {  <NL> unexpected error ( ex ) ;  <NL>  }  <NL>  }  COM: <s> the user clicks the preview button </s>

@@ -1,0 +1,1 @@
+TDAT: private string print path ( directory [ ] path ) {  <NL> string buffer result = new string buffer ( ) ;  <NL> for ( directory dir : path ) {  <NL> if ( dir . get name ( ) ! = null ) {  <NL> result . append ( dir . get name ( ) ) ;  <NL> result . append ( ' / ' ) ;  <NL>  }  <NL>  }  <NL> return result . to string ( ) ;  <NL>  }  COM: <s> prints the path to the string </s>

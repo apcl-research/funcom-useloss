@@ -1,0 +1,1 @@
+TDAT: private int get hash code for row ( int row index ) {  <NL> int ret = 0 ;  <NL> object [ ] row = new object [ get column count ( ) ] ;  <NL> for ( int i = 0 ; i < get column count ( ) ; i + + ) {  <NL> ret + = get value at ( i , row index ) . hash code ( ) ;  <NL>  }  <NL> return ret ;  <NL>  }  COM: <s> returns a hashcode for the specified row </s>

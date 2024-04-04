@@ -1,0 +1,1 @@
+TDAT: public void start ( string [ ] argv , hashtable obj ) {  <NL> if ( debug . verbose ) debug . out ( this , debug . info , " start cd player " ) ;  <NL> create list ( ) ;  <NL>  / * try {  <NL> context . set vt control ( control ) ;  <NL>  } catch ( exception e ) { e . print stack trace ( ) ; } * /  <NL>  }  COM: <s> requests the modlet to start execution </s>

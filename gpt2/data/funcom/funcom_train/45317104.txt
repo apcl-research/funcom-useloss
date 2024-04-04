@@ -1,0 +1,1 @@
+TDAT: private void notify acw ( boolean acw ) {  <NL> if ( acw ) {  <NL> do time closure ( state _ acw ) ;  <NL> last known state = state _ acw ;  <NL>  } else {  <NL> acw time + = calendar . get instance ( ) . get time ( ) . get time ( ) - last event timestamp . get time ( ) ;  <NL> notify ready or manual ( ) ;  <NL>  }  <NL>  }  COM: <s> activates acw stats </s>

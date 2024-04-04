@@ -1,0 +1,1 @@
+TDAT: protected object map row ( result set rs , int i ) throws sql exception {  <NL> return new task ( rs . get int ( " id " ) , rs . get int ( " action _ id " ) , rs . get string ( " description " ) , rs . get string ( " status " ) ) ;  <NL>  }  COM: <s> map to the task </s>

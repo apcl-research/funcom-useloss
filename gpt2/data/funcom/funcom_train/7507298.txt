@@ -1,0 +1,1 @@
+TDAT: private void update state tables ( state tables msg ) {  <NL> log to file ( " [ rcv ] " + msg ) ;  <NL> add node to state tables ( msg . get src ( ) ) ;  <NL> merge state tables ( msg . get leaf set ( ) , msg . get neighborhood set ( ) , msg . get routing table ( ) ) ;  <NL>  }  COM: <s> merges the local state tables with the ones provided as input </s>

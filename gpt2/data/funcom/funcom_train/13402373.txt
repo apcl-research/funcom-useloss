@@ -1,0 +1,1 @@
+TDAT: private emp row select ( int emp no ) throws sql exception {  <NL>  / * *  <NL>  * select & fields <NL>  * from emp e1 , emp e2 <NL>  * where e1 . mgr = e2 . emp _ no ( + )  <NL>  * and e1 . emp _ no = : emp no <NL>  * /  <NL>  @ prepare prepared statement stmt = null ;  <NL> return single row query ( stmt , emp row . class ) ;  <NL>  }  COM: <s> selecting one employee </s>

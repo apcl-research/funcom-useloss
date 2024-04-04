@@ -1,0 +1,1 @@
+TDAT: public int get idx ( int uid ) {  <NL> int idx = - 1 ;  <NL> for ( int i = 0 ; i < this . shown users . size ( ) ; i + + ) {  <NL> if ( uid = = this . shown users . get ( i ) . first ( ) . int value ( ) ) {  <NL> idx = i ;  <NL> break ;  <NL>  }  <NL>  }  <NL> return idx ;  <NL>  }  COM: <s> returns the index of a given user </s>

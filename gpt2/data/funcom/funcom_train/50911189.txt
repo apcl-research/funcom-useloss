@@ -1,0 +1,1 @@
+TDAT: public boolean includes ( real2range r ) {  <NL> if ( ! is valid ( ) || r = = null || ! r . is valid ( ) ) {  <NL> return false ;  <NL>  }  <NL> real range xr = r . get x range ( ) ;  <NL> real range yr = r . get y range ( ) ;  <NL> return ( xrange . includes ( xr ) & & yrange . includes ( yr ) ) ;  <NL>  }  COM: <s> is one real2 range completely within another </s>

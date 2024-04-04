@@ -1,0 +1,1 @@
+TDAT: public cursor get all favs ( ) {  <NL> return m favs db . query ( db _ table , new string [ ] { key _ rowid , key _ dest _ name , key _ route _ name , key _ routeid , key _ stopid , key _ count , key _ stopaddress } , null , null , null , null , null ) ;  <NL>  }  COM: <s> return a cursor over the list of all favorites in the database </s>

@@ -1,0 +1,1 @@
+TDAT: public void set selected item ( object an item ) {  <NL> selected = - 1 ;  <NL> if ( an item = = null ) {  <NL> return ;  <NL>  }  <NL> for ( int i = 0 ; i < dbs . size ( ) ; i + + ) {  <NL> if ( an item . equals ( ( ( search tool ) dbs . get ( i ) ) . get app name ( ) ) ) {  <NL> selected = i ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> set the selected item </s>

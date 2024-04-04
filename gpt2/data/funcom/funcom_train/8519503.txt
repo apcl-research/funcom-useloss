@@ -1,0 +1,1 @@
+TDAT: private string get text to speech query ( ) {  <NL> string text = this . text to speech . trim ( ) . replace ( " hackystat " , " hacky stat " ) . replace ( " " , " + " ) ;  <NL> return querymark + " sn = " + this . serial number + ampersand + " token = " + this . token + ampersand <NL>  + " tts = " + text ;  <NL>  }  COM: <s> send out text to speech command to bunny </s>

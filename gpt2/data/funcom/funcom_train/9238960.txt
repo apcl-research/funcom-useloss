@@ -1,0 +1,1 @@
+TDAT: public void part channel ( final string s channel name , final string s reason ) {  <NL> if ( get channel info ( s channel name ) = = null ) { return ; }  <NL> if ( s reason . is empty ( ) ) {  <NL> send string ( " part " + s channel name ) ;  <NL>  } else {  <NL> send string ( " part " + s channel name + " : " + s reason ) ;  <NL>  }  <NL>  }  COM: <s> leave a channel </s>

@@ -1,0 +1,1 @@
+TDAT: public void register ( class type , string jdbc type , type handler handler ) {  <NL> map map = ( map ) type handler map . get ( type ) ;  <NL> if ( map = = null ) {  <NL> map = new hash map ( ) ;  <NL> type handler map . put ( type , map ) ;  <NL>  }  <NL> map . put ( jdbc type , handler ) ;  <NL>  }  COM: <s> register add a type handler for a class and jdbc type </s>

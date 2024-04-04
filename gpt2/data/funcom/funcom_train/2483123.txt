@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> string s = " " ;  <NL> s + = ( this . addr _ h > > 3 ) + " / " + ( ( ( this . addr _ h & 0x07 ) < < 8 ) + this . addr _ l ) ;  <NL> system . out . println ( addr _ h ) ;  <NL> system . out . println ( addr _ l ) ;  <NL> return s ;  <NL>  }  COM: <s> get a string representation of the address </s>

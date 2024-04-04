@@ -1,0 +1,1 @@
+TDAT: protected void set initial values ( ) {  <NL> add config key ( new parameter integer ( " window function ( 0 ~ none ; 1 ~ hann ; 2 ~ hamming ; 3 ~ blackman ; 4 ~ blackman - harris ; 5 ~ bartlett ) " , " window function " , 0 , 1 , 0 , 5 ) ) ;  <NL>  }  COM: <s> adds configuration key window function and its possible values </s>

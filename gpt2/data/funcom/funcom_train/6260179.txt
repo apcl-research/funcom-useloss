@@ -1,0 +1,1 @@
+TDAT: private void struct declaration ( ) {  <NL> if ( super types ( this dt ) . size ( ) = = 0 ) {  <NL> sline ( pub _ fin + " class " + struct name ( this dt ) + " extends " ) ;  <NL> println ( mdf _ struct _ impl + " implements " + type ( this dt ) ) ;  <NL>  } else {  <NL> throw new runtime exception ( ) ;  <NL>  }  <NL>  }  COM: <s> generates struct class declaration </s>

@@ -1,0 +1,1 @@
+TDAT: public void set id ( int id ) {  <NL> if ( this . project ! = null ) {  <NL> if ( this . get project ( ) . is id used ( this . get id ( ) ) ) {  <NL> this . get project ( ) . remove id ( this . get id ( ) ) ;  <NL>  }  <NL> this . get project ( ) . add id ( id ) ;  <NL>  }  <NL>  <NL> this . id = id ;  <NL>  }  COM: <s> sets the id of the element </s>

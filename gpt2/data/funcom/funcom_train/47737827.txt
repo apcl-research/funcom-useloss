@@ -1,0 +1,1 @@
+TDAT: public void adjust actions ( ) {  <NL> for ( iterator it = component action . values ( ) . iterator ( ) ; it . has next ( ) ; ) {  <NL> action base ab = ( ( ja we action ) it . next ( ) ) . get action ( ) ;  <NL> if ( ab ! = null ) {  <NL> ab . enable disable action ( ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> adjusts the enabled disabled state for every </s>

@@ -1,0 +1,1 @@
+TDAT: public string get full ( ) {  <NL> if ( type = = type . invalid ) {  <NL> return string . format ( " invalid [ % s ] " , number text ) ;  <NL>  }  <NL> return string . format ( " % 02d % 02d % 02d % 02d - % 03d % d " , century , year , month , day , birth number , check number ) ;  <NL>  }  COM: <s> get the full string representation of the person number </s>

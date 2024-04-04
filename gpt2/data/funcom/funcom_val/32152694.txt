@@ -1,0 +1,1 @@
+TDAT: public void move ( float xpixels , float ypixels ) {  <NL> x - = xpixels * speed ;  <NL> y - = ypixels * speed ;  <NL> if ( x > 0 ) x = - bimg . get width ( ) + x ;  <NL> if ( x - w < = - bimg . get width ( ) ) x = - ( w - ( x + bimg . get width ( ) ) ) ;  <NL>  }  COM: <s> scrolls this layer </s>

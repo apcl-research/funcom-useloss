@@ -1,0 +1,1 @@
+TDAT: public field get field by id ( int field id ) {  <NL> int idx = collections . binary search ( fields <NL>  , new field ( field id , null , 0 )  <NL>  , field _ id _ comparator ) ;  <NL> if ( idx > = 0 ) {  <NL> return ( field ) fields . element at ( idx ) ;  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> returns the code field code with attribute code id code equal to </s>

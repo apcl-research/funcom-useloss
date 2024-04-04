@@ -1,0 +1,1 @@
+TDAT: public void run ( ) {  <NL> if ( message dialog . open confirm ( librarian . get app ( ) . get shell ( ) , " are you sure ? " , / / $ non - nls - 1 $  <NL>  " are you sure you want to remove the selected book ? " ) ) { / / $ non - nls - 1 $  <NL> librarian . get app ( ) . remove selected book ( ) ;  <NL>  }  <NL>  }  COM: <s> removes the selected book after confirming </s>

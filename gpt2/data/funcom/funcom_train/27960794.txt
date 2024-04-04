@@ -1,0 +1,1 @@
+TDAT: public int index of ( string str , int from index ) throws null pointer exception {  <NL> if ( from index < 0 ) from index = 0 ;  <NL> for ( int i = from index ; i < count ; i + + )  <NL> if ( region matches ( i , str , 0 , str . count ) )  <NL> return i ;  <NL> return - 1 ;  <NL>  }  COM: <s> finds the first instance of a string in this string starting at </s>

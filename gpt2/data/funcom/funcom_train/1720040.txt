@@ -1,0 +1,1 @@
+TDAT: public object call ( string method , object p0 , object p1 , object p2 , object p3 , object p4 , object p5 ) throws xmlrpc exception {  <NL> object [ ] params = {  <NL> p0 , p1 , p2 , p3 , p4 , p5 ,  <NL>  } ;  <NL> return call xmlrpc ( method , params ) ;  <NL>  }  COM: <s> convenience method call with six parameters </s>

@@ -1,0 +1,1 @@
+TDAT: public void set id boot node ( byte [ ] id ) {  <NL> this . id boot node = new byte [ profile . id _ length ] ;  <NL> if ( id . length ! = profile . id _ length )  <NL> return ;  <NL> for ( int i = 0 ; i < profile . id _ length ; i + + ) {  <NL> this . id boot node [ i ] = id [ i ] ;  <NL>  }  <NL>  }  COM: <s> set idboot node </s>

@@ -1,0 +1,1 @@
+TDAT: public void un mark all ( ) {  <NL>  <NL> component [ ] comps = get container ( ) . get components ( ) ;  <NL> for ( int i = 0 ; i < comps . length ; i + + ) {  <NL> field f = get field by component ( ( j component ) comps [ i ] ) ;  <NL> if ( f ! = null )  <NL> field marker . un mark ( f ) ;  <NL>  }  <NL>  }  COM: <s> unmark all previously marked fields </s>

@@ -1,0 +1,1 @@
+TDAT: public void set tag ( string tag ) {  <NL> if ( tag . length ( ) > 32 ) {  <NL> throw new illegal argument exception <NL>  ( " tag may be at most 32 characters " ) ;  <NL>  }  <NL> if ( tag . index of ( ' ' ) > = 0 ) {  <NL> throw new illegal argument exception ( " tag must not contain spaces " ) ;  <NL>  }  <NL> this . tag = tag ;  <NL>  }  COM: <s> sets the tag </s>

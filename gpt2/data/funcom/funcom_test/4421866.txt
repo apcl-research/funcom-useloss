@@ -1,0 +1,1 @@
+TDAT: public void merge ( st set remote st set ) {  <NL> if ( ! ( remote st set instanceof time st set ) ) {  <NL>  / / can ' t treat non - time st sets here <NL> l . e ( " trying to merge a non - time st set with a time st set . " , this ) ;  <NL> return ;  <NL>  }  <NL>  <NL> this . merge ( remote st set ) ;  <NL>  }  COM: <s> merge two time stsets into one </s>

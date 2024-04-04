@@ -1,0 +1,1 @@
+TDAT: public void reset table type ( table type tt ) {  <NL> if ( tt = = null ) {  <NL>  / / no - op <NL>  } else if ( tt . value . equals ( table . get table type ( ) ) ) {  <NL>  / / no - op <NL>  } else {  <NL> convert ( table . get table type enum ( ) , tt ) ;  <NL> table . set table type ( tt . value ) ;  <NL>  }  <NL>  }  COM: <s> forces table to be of a given type </s>

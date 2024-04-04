@@ -1,0 +1,1 @@
+TDAT: public void set at ( int y , int x , color c ) {  <NL> if ( ( x < width * nb pixels unit ) & & ( x > = 0 ) & &  <NL>  ( y < height * nb pixels unit ) & & ( y > = 0 ) )  <NL> mat pixels [ y ] [ x ] = c ;  <NL> else <NL> log . deb ( " ( " + x + " , " + y + " ) is not in the matrix . " ) ;  <NL>  }  COM: <s> sets the screens pixel at the position code x code code y code </s>

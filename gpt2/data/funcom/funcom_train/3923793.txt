@@ -1,0 +1,1 @@
+TDAT: public void delete observer ( observer o ) {  <NL> super . delete observer ( o ) ;  <NL> if ( o instanceof vr object ) {  <NL> observers . remove ( ( ( vr object ) o ) . get class name ( ) + ( ( vr object ) o ) . get id ( ) ) ;  <NL> active = observers . is empty ( ) ;  <NL> notify owners ( o ) ;  <NL>  }  <NL>  }  COM: <s> removes observer o to the observer list </s>

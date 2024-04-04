@@ -1,0 +1,1 @@
+TDAT: public vertex vertex of object ( object obj ) {  <NL> final vertex [ ] verts = get diagram ( ) . get vertices ( ) ;  <NL> for ( int i = 0 ; i < verts . length ; i + + ) {  <NL> if ( obj . equals ( verts [ i ] . get underlying object ( ) ) ) return verts [ i ] ;  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> find the vertex which has obj as its underlying object </s>

@@ -1,0 +1,1 @@
+TDAT: public int index of ( object key ) {  <NL> key = convert key ( key ) ;  <NL> int i = 0 ;  <NL> for ( link entry < k , v > entry = header . after ; entry ! = header ; entry = entry . after , i + + ) {  <NL> if ( is equal key ( key , entry . key ) ) {  <NL> return i ;  <NL>  }  <NL>  }  <NL> return - 1 ;  <NL>  }  COM: <s> gets the index of the specified key </s>

@@ -1,0 +1,1 @@
+TDAT: public void set pulse width ( int width ) {  <NL> if ( ( width < 100 ) || ( width > 10000 ) ) {  <NL> log . warn ( " pulse width out of 100 - 10000 range : " +  <NL> integer . to string ( width ) ) ;  <NL> if ( width < 100 ) width = 100 ;  <NL> if ( width > 10000 ) width = 10000 ;  <NL>  }  <NL> pulse width = width ;  <NL>  }  COM: <s> public method to set pulse width </s>

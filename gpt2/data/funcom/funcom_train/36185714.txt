@@ -1,0 +1,1 @@
+TDAT: private j check box get j check box read access ( ) {  <NL> if ( j check box read access = = null ) {  <NL> j check box read access = new j check box ( ) ;  <NL> j check box read access . set bounds ( new rectangle ( 31 , 205 , 21 , 21 ) ) ;  <NL>  }  <NL> return j check box read access ;  <NL>  }  COM: <s> this method initializes j check box read access </s>

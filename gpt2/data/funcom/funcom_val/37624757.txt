@@ -1,0 +1,1 @@
+TDAT: public void set minimum ( int minimum ) {  <NL> int old min = get model ( ) . get minimum ( ) ;  <NL> get model ( ) . set minimum ( minimum ) ;  <NL> reload if change ( minimum , old min ) ;  <NL> property change support . fire property change ( " minimum " , old min , get model ( ) . get minimum ( ) ) ;  <NL>  }  COM: <s> sets the models minimum property </s>

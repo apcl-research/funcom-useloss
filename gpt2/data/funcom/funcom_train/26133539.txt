@@ -1,0 +1,1 @@
+TDAT: public object clone ( ) {  <NL> dl list l = ( dl list ) super . clone ( ) ;  <NL> l . end node = new node ( null ) ;  <NL> l . make empty ( ) ;  <NL> for ( ads . iterator i = iterator ( ) ; ! i . at end ( ) ; i . advance ( ) ) {  <NL> l . add ( i . get ( ) ) ;  <NL>  }  <NL> return l ;  <NL>  }  COM: <s> deliver up a complete shallow copy of the code dllist code </s>

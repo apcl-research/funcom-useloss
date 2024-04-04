@@ -1,0 +1,1 @@
+TDAT: public void set shooting place ( string v ) {  <NL> check string property ( " shooting place " , v , shooting _ place _ length ) ;  <NL> odmgxa wrapper txw = new odmgxa wrapper ( ) ;  <NL> txw . lock ( this , transaction . write ) ;  <NL> this . shooting place = v ;  <NL> modified ( ) ;  <NL> txw . commit ( ) ;  <NL>  }  COM: <s> set the value of shooting place </s>

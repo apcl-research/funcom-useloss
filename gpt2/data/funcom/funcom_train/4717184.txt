@@ -1,0 +1,1 @@
+TDAT: public string get pattern ( ) {  <NL> string buffer = " " ;  <NL>  <NL> if ( sub id = = null ) {  <NL> buffer + = string . format ( " / syn / id % s " , id ) ;  <NL>  <NL>  } else {  <NL> buffer + = string . format ( " / syn / id % s . % s " , id , sub id ) ;  <NL>  }  <NL>  <NL> return buffer ;  <NL>  }  COM: <s> returns the osc address pattern of this synth </s>

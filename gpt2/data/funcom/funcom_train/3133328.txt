@@ -1,0 +1,1 @@
+TDAT: private string country ( char [ ] text , int start , int len ) {  <NL> int size = len ;  <NL>  <NL> while ( start < len ) {  <NL> if ( text [ start + + ] = = ' - ' ) {  <NL> return new string ( text , start , - - size ) ;  <NL>  }  <NL> size - - ;  <NL>  }  <NL> return " " ;  <NL>  }  COM: <s> this will extract the primary country tag from the header </s>

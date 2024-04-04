@@ -1,0 +1,1 @@
+TDAT: public int get piece ( int x , int y ) throws index out of bounds exception {  <NL>  / / check position is in bounds and then return it value <NL> if ( x > = 0 & & x < 8 & & y > = 0 & & y < 8 )  <NL> return chess pieces [ y * 8 + x ] ;  <NL> else throw new index out of bounds exception ( " x = " + x + " y = " + y ) ;  <NL>  }  COM: <s> return the current chess piece </s>

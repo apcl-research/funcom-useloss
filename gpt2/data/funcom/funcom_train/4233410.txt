@@ -1,0 +1,1 @@
+TDAT: private point navigation to panel point ( point p ) {  <NL> int x = origin . x + ( p . x * get scaled image width ( ) / get navigation image width ( ) ) ;  <NL> int y = origin . y + ( p . y * get scaled image height ( ) / get navigation image height ( ) ) ;  <NL> return new point ( x , y ) ;  <NL>  }  COM: <s> converts the navigation image point into a panel point </s>

@@ -1,0 +1,1 @@
+TDAT: public void run ( ) {  <NL> result sb . append ( " test analyzer : first 10 characters of the cryptogram = " +  <NL> text . substring ( 0 , 10 ) + " \n " ) ;  <NL> if ( m frame ! = null )  <NL> m frame . append ( result sb . to string ( ) ) ;  <NL> else <NL> system . out . println ( result sb . to string ( ) ) ;  <NL>  }  COM: <s> run is part of analyzer interface </s>

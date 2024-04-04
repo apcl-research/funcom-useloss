@@ -1,0 +1,1 @@
+TDAT: private void initialise image registry ( ) {  <NL> for ( int i = 0 ; i < ide wiki constants . icons . length ; i + + ) {  <NL> get image registry ( ) . put ( ide wiki constants . icons [ i ] ,  <NL> abstract ui plugin . image descriptor from plugin ( plugin _ id , ide wiki constants . icons [ i ] ) ) ;  <NL>  }  <NL>  }  COM: <s> initialise the image registry </s>

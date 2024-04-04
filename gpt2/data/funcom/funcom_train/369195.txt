@@ -1,0 +1,1 @@
+TDAT: public int char count ( string string , char c ) {  <NL>  / / cuento cuantos valores hay .  <NL> int count = 0 ;  <NL> int last pos = 0 ;  <NL> while ( ( last pos = string . index of ( c , last pos ) ) ! = - 1 ) {  <NL> count + + ;  <NL> last pos + + ;  <NL>  }  <NL> return + + count ;  <NL>  }  COM: <s> counts the appearences of char c in s string </s>

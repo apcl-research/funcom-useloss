@@ -1,0 +1,1 @@
+TDAT: public double get angle ( ) {  <NL>  / / if ( ( q0 < - 0 . 1 ) || ( q0 > 0 . 1 ) ) {  <NL>  / / return 2 * math . asin ( math . sqrt ( q1 * q1 + q2 * q2 + q3 * q3 ) ) ;  <NL>  / / } else if ( q0 < 0 ) {  <NL>  / / return 2 * math . acos ( - q0 ) ;  <NL>  / / } else {  <NL> return 2 * math . acos ( q0 ) ;  <NL>  / / }  <NL>  }  COM: <s> get the angle of the rotation </s>

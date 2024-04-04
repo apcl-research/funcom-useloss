@@ -1,0 +1,1 @@
+TDAT: public void set local ( int index , i value type local ) {  <NL> if ( ( index < 0 ) || ( index > = _ max locals ) ) {  <NL> throw new invalid method state exception ( " variable index out of range ( was " + index + " , should be 0 . . " + ( _ max locals - 1 ) + " ) " ) ;  <NL>  }  <NL>  _ locals [ index ] = local ;  <NL>  }  COM: <s> set the content of a local variable </s>

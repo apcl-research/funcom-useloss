@@ -1,0 +1,1 @@
+TDAT: private action forward handle error ( action mapping mapping , string msg , exception e ) throws exception {  <NL> this . log . error ( msg + " " + mapping . get name ( ) , e ) ;  <NL> action forward forward = mapping . find forward ( error ) ;  <NL> if ( forward ! = null ) {  <NL> return forward ;  <NL>  }  <NL> throw e ;  <NL>  }  COM: <s> return a forward error </s>

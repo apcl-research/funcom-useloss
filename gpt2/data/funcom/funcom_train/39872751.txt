@@ -1,0 +1,1 @@
+TDAT: public void cancel ( ) {  <NL> if ( m started & & ! m ended ) {  <NL> if ( m listener ! = null ) m listener . on animation end ( this ) ;  <NL> m ended = true ;  <NL>  }  <NL>  / / make sure we move the animation to the end <NL> m start time = long . min _ value ;  <NL> m more = m one more time = false ;  <NL>  }  COM: <s> cancel the animation </s>

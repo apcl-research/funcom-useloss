@@ -1,0 +1,1 @@
+TDAT: public image get mime icon ( string full mime ) {  <NL> string mime = full mime . substring ( full mime . index of ( ' / ' ) + 1 ) ;  <NL> return swt resource manager . get image ( gui utils . class ,  <NL>  " / net / sf / yadoda / gui / img / mime / " + mime + " . png " ) ;  <NL>  }  COM: <s> try to find appropriate icon </s>

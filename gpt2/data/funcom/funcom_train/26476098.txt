@@ -1,0 +1,1 @@
+TDAT: public void set depth new adf ( int depth ) throws parameters not properly set exception {  <NL> if ( definitive ) {  <NL> gp params [ ] adfp = adf params . data ;  <NL> for ( int i = 0 ; i < n padf ; i + + ) if ( exist adf [ i ] )  <NL> adfp [ i ] . depth new program = depth ;  <NL>  }  <NL> depth new adf = depth ;  <NL>  }  COM: <s> set the maximum depth for new adfs </s>

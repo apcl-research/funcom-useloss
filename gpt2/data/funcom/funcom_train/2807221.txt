@@ -1,0 +1,1 @@
+TDAT: private void destroy thread pool ( ) {  <NL> debug . log info ( " destroying thread pool . . . " , module ) ;  <NL> iterator it = pool . iterator ( ) ;  <NL> while ( it . has next ( ) ) {  <NL> job invoker ji = ( job invoker ) it . next ( ) ;  <NL> ji . stop ( ) ;  <NL>  }  <NL> pool . clear ( ) ;  <NL>  }  COM: <s> stops all threads in the thread pool and clears </s>

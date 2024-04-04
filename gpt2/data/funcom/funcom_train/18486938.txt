@@ -1,0 +1,1 @@
+TDAT: public void write string ( string session id , string content , boolean close ) {  <NL> try {  <NL> session listener . write ( session id , content . get bytes ( ) , close ) ;  <NL>  } catch ( exception ex ) {  <NL> out error . fire out pin ( " " + java utils . stack to string ( ex ) ) ;  <NL>  }  <NL>  }  COM: <s> take content as string and write it to clients browser </s>

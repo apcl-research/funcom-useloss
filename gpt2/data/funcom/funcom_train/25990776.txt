@@ -1,0 +1,1 @@
+TDAT: public void test conversions ( ) throws exception {  <NL> result = eval ( " p $ h . to _ s " ) ;  <NL> assert equals ( " \ " foobar\ " " , result ) ;  <NL> result = eval ( " p $ h . to _ a " ) ;  <NL> assert equals ( " [ \ " foo\ " , \ " bar\ " ] " , result ) ;  <NL>  }  COM: <s> array to s array to a </s>

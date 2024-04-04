@@ -1,0 +1,1 @@
+TDAT: public string formatted ( ) {  <NL> switch ( temp to ) {  <NL> case 0 :  <NL> return string . format ( " % s\u00b0c " , last value ) ;  <NL> case 1 :  <NL> return string . format ( " % s\u00b0f " , last value ) ;  <NL> case 2 :  <NL> return string . format ( " % s k " , last value ) ;  <NL> default :  <NL> return " " ;  <NL>  }  <NL>  }  COM: <s> formats the value </s>

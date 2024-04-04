@@ -1,0 +1,1 @@
+TDAT: @ test public void test parse ex ( ) {  <NL> string grpdata = " ? l s / a / / / / / / / / / / / / / / / / / / / / / / / / " ;  <NL> sao . set grp data ( grpdata ) ;  <NL> assert . assert equals ( 1 , sao . parse grp ( ) ) ;  <NL>  }  COM: <s> test parse grp for sao group 55 bad data error </s>

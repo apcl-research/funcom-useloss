@@ -1,0 +1,1 @@
+TDAT: public void print ( string indent , print stream output ) {  <NL> output . println ( indent + " staff " ) ;  <NL> output . println ( indent + " " + _ staff header ) ;  <NL>  <NL> for ( int i = 0 ; i < get measure start count ( ) ; + + i )  <NL> get measure start ( i ) . print ( indent + " " , output ) ;  <NL>  }  COM: <s> this prints the staff including all time slices </s>

@@ -1,0 +1,1 @@
+TDAT: public void focus bundle entry composite ( locale locale ) {  <NL> for ( bundle entry composite bec : entry composites ) {  <NL> if ( ( bec . get locale ( ) = = null ) & & ( locale = = null ) || ( locale ! = null & & locale . equals ( bec . get locale ( ) ) ) ) {  <NL> bec . focus text box ( ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> this method focusses the </s>

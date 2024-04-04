@@ -1,0 +1,1 @@
+TDAT: public void do command ( client cl , element cmd ) {  <NL> if ( cmd . has attribute ( keywords . code ) )  <NL> cl . write response ( cmd . get att ( keywords . code ) , cmd . first child ( ) ) ;  <NL> else <NL> cl . write response ( constants . ok , cmd . first child ( ) ) ;  <NL>  }  COM: <s> write a message when asked to do so from the connection </s>

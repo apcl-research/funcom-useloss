@@ -1,0 +1,1 @@
+TDAT: protected void set column attributes ( column column , list < markup attribute > column attributes ) {  <NL> if ( column attribute maps = = null ) {  <NL> column attribute maps = new hash map < string , list < markup attribute > > ( ) ;  <NL>  }  <NL> column attribute maps . put ( column . get name ( ) , column attributes ) ;  <NL>  }  COM: <s> sets the column styles </s>

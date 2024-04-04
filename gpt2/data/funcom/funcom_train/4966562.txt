@@ -1,0 +1,1 @@
+TDAT: public vector get column ( int index ) {  <NL> vector v = new vector ( ) ;  <NL> for ( int i = 0 ; i < this . data vector . size ( ) ; i + + ) {  <NL> v . add ( ( string ) ( ( vector ) this . data vector . get ( i ) ) . get ( index ) ) ;  <NL>  }  <NL> return v ;  <NL>  }  COM: <s> gets a column from the resut set </s>

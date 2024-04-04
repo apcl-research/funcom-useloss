@@ -1,0 +1,1 @@
+TDAT: public void stop all toggles ( )  <NL>  {  <NL> if ( _ buffs ! = null )  <NL>  {  <NL> synchronized ( _ buffs )  <NL>  {  <NL> if ( ! _ buffs . is empty ( ) )  <NL>  {  <NL> for ( l2effect e : _ buffs )  <NL> if ( e ! = null & & e . get skill ( ) . is toggle ( ) )  <NL> e . exit ( ) ;  <NL>  }  <NL>  }  <NL>  }  <NL>  }  COM: <s> exit all toggle type effects </s>

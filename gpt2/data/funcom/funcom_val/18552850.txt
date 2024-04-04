@@ -1,0 +1,1 @@
+TDAT: public void runtime info ( string info ) {  <NL>  / / log ( " info : " , source , method name , info ) ;  <NL>  / / ehi logger . log state ( info ) ;  <NL> ehi logger . get instance ( ) . log event ( new std log event ( log event . state , info , null , get origin ( 0 ) ) ) ;  <NL>  }  COM: <s> log informations during runtime by means this may represent a valuable </s>

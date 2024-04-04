@@ -1,0 +1,1 @@
+TDAT: public avnmp state get state queue ( long t ) throws not found in queue exception {  <NL> for ( int i = 0 ; i < size ( ) ; i + + ) {  <NL> avnmp state ap = ( avnmp state ) get ( i ) ;  <NL> if ( ( ap . sqt = = t ) )  <NL> return ap ;  <NL>  }  <NL> throw new not found in queue exception ( ) ;  <NL>  }  COM: <s> return a state based on time </s>

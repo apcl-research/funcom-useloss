@@ -1,0 +1,1 @@
+TDAT: public void write end ( content handler content handler ) throws sax exception {  <NL> content handler . end element ( fix null ( ns uri ) , local name , get q name ( ) ) ;  <NL> for ( int i = ns . length - 2 ; i > = 0 ; i - = 2 ) {  <NL> content handler . end prefix mapping ( fix null ( ns [ i ] ) ) ;  <NL>  }  <NL>  }  COM: <s> writes the end element event </s>

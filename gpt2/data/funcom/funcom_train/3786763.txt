@@ -1,0 +1,1 @@
+TDAT: public boolean add expr ( cs dexpr db e )  <NL>  { / * add expr * /  <NL> if ( lookup idx by rspot ( db e ) ! = - 1 )  <NL> return ( true ) ;  <NL>  <NL> regrow expr list ( n e plist + 1 ) ;  <NL> ep list [ n e plist + + ] = db e ;  <NL> return ( true ) ;  <NL>  } / * add expr * /  COM: <s> add expr add expr to expr list </s>

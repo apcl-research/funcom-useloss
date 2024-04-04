@@ -1,0 +1,1 @@
+TDAT: public void set data elements ( int x , int y , int w , int h , object in data ) {  <NL> sample model . set data elements ( x - sample model translate x ,  <NL> y - sample model translate y ,  <NL> w , h , in data , data buffer ) ;  <NL>  }  COM: <s> sets the data for a rectangle of pixels from a </s>

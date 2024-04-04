@@ -1,0 +1,1 @@
+TDAT: public int get num visible buttons ( ) {  <NL> check widget ( ) ;  <NL> int num = 0 ;  <NL> for ( int i = 0 ; i < m buttons . size ( ) ; i + + ) {  <NL> custom button b = ( custom button ) m buttons . get ( i ) ;  <NL> if ( b . is presented ( ) )  <NL> num + + ;  <NL>  }  <NL> return num ;  <NL>  }  COM: <s> returns the number of currently visible buttons </s>

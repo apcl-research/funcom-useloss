@@ -1,0 +1,1 @@
+TDAT: public string get java files info ( string root path ) {  <NL>  <NL> file root dir = new file ( root path ) ;  <NL> nb lines = 0 ;  <NL> nb files = 0 ;  <NL>  <NL> get some java files info ( root dir ) ;  <NL> return " project contains " + nb files + " java files , representing " + nb lines + " lines of code . " ;  <NL>  }  COM: <s> this method is for development only </s>

@@ -1,0 +1,1 @@
+TDAT: protected void write cdata ( cdata section _ node , writer _ writer ) throws io exception {  <NL> if ( ( _ writer ! = null ) & & ( _ node ! = null ) & & ( _ node . get data ( ) ! = null ) ) {  <NL>  _ writer . write ( " < ! [ cdata [ " + _ node . get data ( ) + " ] ] > " ) ;  <NL>  }  <NL>  }  COM: <s> write cdata section to writer </s>

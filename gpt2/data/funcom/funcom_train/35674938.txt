@@ -1,0 +1,1 @@
+TDAT: public void test invalid file ( ) {  <NL>  <NL> try {  <NL>  _ coxb gen model . get jaxb package name from xsd ( new file ( " toto " ) ) ;  <NL> fail ( " invalid file test failed " ) ;  <NL>  } catch ( exception e ) {  <NL> assert equals ( " io exception " , e . get message ( ) . substring ( 0 , 11 ) ) ;  <NL>  }  <NL>  <NL>  }  COM: <s> test a non existing file </s>

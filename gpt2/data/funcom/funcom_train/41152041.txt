@@ -1,0 +1,1 @@
+TDAT: public string get string ( ) {  <NL> return " \n "  <NL>  + get tree name ( ) + " \n "  <NL>  + get tree name ( ) . replace all ( " . " , " = " ) + " \n "  <NL>  + to string ( get root node ( ) ) + " \n\n "  <NL>  + " size of the tree : " + size ( ) ;  <NL>  }  COM: <s> the decision tree in string representation </s>

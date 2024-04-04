@@ -1,0 +1,1 @@
+TDAT: public string get value ( ) {  <NL> if ( list . get selected index ( ) = = - 1 ) { / / paranoia ?  <NL> return ui manager . get look and feel ( ) . get class ( ) . get name ( ) ;  <NL>  } else {  <NL> return ( ( look and feel info ) list . get selected value ( ) ) . get class name ( ) ;  <NL>  }  <NL>  }  COM: <s> chosen look and feel class name </s>

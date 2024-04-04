@@ -1,0 +1,1 @@
+TDAT: public void add outgoing ( int index ) {  <NL> if ( index = = - 1 )  <NL> return ;  <NL> int [ ] l new = new int [ f outgoing . length + 1 ] ;  <NL> system . arraycopy ( f outgoing , 0 , l new , 0 , f outgoing . length ) ;  <NL> l new [ f outgoing . length ] = index ;  <NL> this . f outgoing = l new ;  <NL>  }  COM: <s> add outgoing transition </s>

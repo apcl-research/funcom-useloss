@@ -1,0 +1,1 @@
+TDAT: public void set desired output ( int i , double value ) {  <NL> if ( ( i > = 0 ) & & ( i < this . input layer . number of nodes ) ) {  <NL> this . output layer . desired values [ i ] = value ;  <NL> return ;  <NL>  }  <NL> system . err . println ( " error in setting desired output " ) ;  <NL> return ;  <NL>  }  COM: <s> set up the desired output value </s>

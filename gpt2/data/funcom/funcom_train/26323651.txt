@@ -1,0 +1,1 @@
+TDAT: public string int2ip ( long int ip ) {  <NL> string ip = ( int ip % ( long ) 256 ) + " " ;  <NL> int ip = int ip / ( long ) 256 ;  <NL> for ( int i = 1 ; i < 4 ; i + + ) {  <NL> ip = ( int ip % ( long ) 256 ) + " . " + ip ;  <NL> int ip = int ip / ( long ) 256 ;  <NL>  }  <NL> return ip ;  <NL>  }  COM: <s> parses an ip string out of its long number representation </s>

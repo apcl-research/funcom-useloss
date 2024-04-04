@@ -1,0 +1,1 @@
+TDAT: public int unsigned at ( int start , int size ) {  <NL> int i ;  <NL> int stop , total = 0 ;  <NL> stop = size + start ;  <NL> for ( i = start ; i < stop ; + + i ) {  <NL> total = ( total * 2 ) ;  <NL> if ( bits [ i ] ) {  <NL> total + = 1 ;  <NL>  }  <NL>  }  <NL> return total ;  <NL>  }  COM: <s> decode bits will decode a binary number contained in a character </s>

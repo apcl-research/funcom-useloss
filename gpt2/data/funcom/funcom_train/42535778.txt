@@ -1,0 +1,1 @@
+TDAT: public boolean equals ( object o ) {  <NL> if ( ! ( o instanceof view ) ) return false ;  <NL> if ( o = = this ) return true ;  <NL> view oo = ( view ) o ;  <NL> return ( ( ( object ) incl ) . equals ( oo . incl ) ) & & ( ( ( object ) views ) . equals ( oo . views ) ) ;  <NL>  }  COM: <s> is the given object equal to this view </s>

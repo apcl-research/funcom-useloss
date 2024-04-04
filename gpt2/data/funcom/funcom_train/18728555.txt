@@ -1,0 +1,1 @@
+TDAT: public void test get bounds ( ) {  <NL> rectangle result = test group . get bounds ( ) ;  <NL> rectangle expected = new rectangle ( 28 , 26 , 721 , 561 ) ;  <NL>  / / assert equals ( " bounding box not correct ! " , expected , result ) ; / / fixme : was : x = 27 , y = 26 , width = 722 , height = 561 <NL>  }  COM: <s> test of get bounds method of class net </s>

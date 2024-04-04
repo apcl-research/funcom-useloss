@@ -1,0 +1,1 @@
+TDAT: public boolean show source ( string url , int line number , object time stamp ) {  <NL> if ( url ! = null & & url . ends with ( " . clj " ) )  <NL> logger . log ( level . info , " trying to show source for : " + url ) ;  <NL> return proxy ( ) . show source ( url , line number , time stamp ) ;  <NL>  }  COM: <s> shows source with given url on given line number </s>

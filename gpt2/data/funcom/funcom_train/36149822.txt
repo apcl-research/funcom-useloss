@@ -1,0 +1,1 @@
+TDAT: public int dof ( ) {  <NL> if ( var equal ) {  <NL> return n1 + n2 - 2 ;  <NL>  }  <NL> double a = s1 * s1 / n1 ;  <NL> double b = s2 * s2 / n2 ;  <NL> return ( int ) math . floor ( math . pow ( a + b , 2 ) / ( a * a / ( n1 - 1 ) + b * b / ( n2 - 1 ) ) ) ;  <NL>  }  COM: <s> returns the degree of freedom </s>

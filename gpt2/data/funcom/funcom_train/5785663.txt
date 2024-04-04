@@ -1,0 +1,1 @@
+TDAT: / / public void internal entity decl ( int entity name index , int entity value index ) {  <NL>  / / system . err . println ( " < ! entity " + f string pool . to string ( entity name index ) + " \ " " +  <NL>  / / f string pool . to string ( entity value index ) + " \ " " ) ;  <NL>  / / }  COM: <s> lt entity name entity value gt internal </s>

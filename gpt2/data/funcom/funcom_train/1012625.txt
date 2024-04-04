@@ -1,0 +1,1 @@
+TDAT: public void mark dirty ( int x , int y , int width , int height ) {  <NL> rectangle cur region = new rectangle ( x , y , width , height ) ;  <NL> if ( dirty region = = null ) {  <NL> dirty region = cur region ;  <NL>  } else {  <NL> dirty region . add ( cur region ) ;  <NL>  }  <NL>  }  COM: <s> marks the given region of the texture renderer as dirty </s>

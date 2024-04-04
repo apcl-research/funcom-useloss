@@ -1,0 +1,1 @@
+TDAT: public void test set font ( ) {  <NL> system . out . println ( " test set font " ) ;  <NL> font f = new font ( " helvetica " , 0 , 12 ) ;  <NL> m . set font ( f ) ;  <NL> assert true ( " updated font " , f = = m . current _ font ) ;  <NL> system . out . println ( " done test set font " ) ;  <NL>  }  COM: <s> test of set font method of class main canvas </s>

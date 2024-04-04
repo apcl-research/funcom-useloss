@@ -1,0 +1,1 @@
+TDAT: private employee create employee ( long id , string name , double wage , company company ) {  <NL> employee person = new employee ( ) ;  <NL> person . set ( id , id ) ;  <NL> person . set ( name , name ) ;  <NL> person . set ( wage , wage ) ;  <NL> person . set ( company , company ) ;  <NL> return person ;  <NL>  }  COM: <s> create the list of persons </s>

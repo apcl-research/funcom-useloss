@@ -1,0 +1,1 @@
+TDAT: public void set id ( string id ) {  <NL>  <NL> if ( ( this . _ state = = mode _ sign ) & & ( id ! = null ) ) {  <NL> this . _ construction element . set attribute ns ( null , constants . _ att _ id , id ) ;  <NL> id resolver . register element by id ( this . _ construction element , id ) ;  <NL>  }  <NL>  }  COM: <s> sets the code id code attribute </s>

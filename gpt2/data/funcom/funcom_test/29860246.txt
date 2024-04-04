@@ -1,0 +1,1 @@
+TDAT: public void set access ( int value ) {  <NL> assert this ! = form . get active block ( ) || active field = = null :  <NL>  " current block : " + form . get active block ( ) + " ; current field : " + active field ;  <NL> for ( int i = 0 ; i < fields . length ; i + + ) {  <NL> fields [ i ] . set access ( value ) ;  <NL>  }  <NL>  }  COM: <s> sets visibility of block </s>

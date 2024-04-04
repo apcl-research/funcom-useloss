@@ -1,0 +1,1 @@
+TDAT: public void set loading ( boolean on ) {  <NL> if ( on ! = is loading ( ) ) {  <NL> if ( on ) {  <NL> outer . add ( new loading widget ( ) ) ;  <NL>  } else {  <NL> for ( int i = outer . get widget count ( ) - 1 ; i > 0 ; i - - ) {  <NL> outer . remove ( i ) ;  <NL>  }  <NL>  }  <NL> outer . layout ( ) ;  <NL>  }  <NL>  }  COM: <s> show hide our loading spinner </s>

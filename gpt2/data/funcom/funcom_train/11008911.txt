@@ -1,0 +1,1 @@
+TDAT: public void set bold ( boolean bold ) {  <NL> if ( bold ) {  <NL> ct boolean property ct bold = _ ct font . size of b array ( ) = = 0 ? _ ct font . add new b ( ) : _ ct font . get b array ( 0 ) ;  <NL> ct bold . set val ( bold ) ;  <NL>  } else {  <NL>  _ ct font . set b array ( null ) ;  <NL>  }  <NL>  }  COM: <s> set a boolean value for the boldness to use </s>

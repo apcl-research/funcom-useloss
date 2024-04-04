@@ -1,0 +1,1 @@
+TDAT: public void print all ( graphics g ) {  <NL> if ( is showing ( ) ) {  <NL> validate ( ) ;  <NL> graphics cg = g . create ( 0 , 0 , width , height ) ;  <NL> cg . set font ( get font ( ) ) ;  <NL> try {  <NL> print ( g ) ;  <NL>  } finally {  <NL> cg . dispose ( ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> prints this component and all of its subcomponents </s>

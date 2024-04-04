@@ -1,0 +1,1 @@
+TDAT: public void test to string ( ) {  <NL> certificate cert = new my certificate ( " test " , new byte [ 10 ] ) ;  <NL> key store . trusted certificate entry ks tce =  <NL> new key store . trusted certificate entry ( cert ) ;  <NL> assert not null ( " to string ( ) returns null string " , ks tce . to string ( ) ) ;  <NL>  }  COM: <s> test for codfe to string code method </s>

@@ -1,0 +1,1 @@
+TDAT: public void set value ( int n ) {  <NL> n = math . min ( n , integer . max _ value - extent ) ;  <NL>  <NL> int new value = math . max ( n , min ) ;  <NL> if ( new value + extent > max ) {  <NL> new value = max - extent ;  <NL>  }  <NL> set range properties ( new value , extent , min , max , is adjusting ) ;  <NL>  }  COM: <s> sets the current value of the model </s>

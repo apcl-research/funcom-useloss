@@ -1,0 +1,1 @@
+TDAT: private void ingest ( document ffprobe doc , string data stream , url url ) throws server operation failed , no object found {  <NL> string pid = d client . get file object pid ( url ) ;  <NL> d client . update data stream ( pid , data stream , ffprobe doc , " injected " +  <NL>  " ff probe data " ) ;  <NL>  }  COM: <s> ingests the ffprobe result </s>

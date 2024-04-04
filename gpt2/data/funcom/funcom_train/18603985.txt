@@ -1,0 +1,1 @@
+TDAT: public void error ( string format , object [ ] arg array ) {  <NL> if ( logger . is enabled for ( level . error ) ) {  <NL> string msg str = message formatter . array format ( format , arg array ) ;  <NL> logger . log ( fqcn , level . error , msg str , null ) ;  <NL>  }  <NL>  }  COM: <s> log a message at level error according to the specified format and </s>

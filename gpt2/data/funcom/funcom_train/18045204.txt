@@ -1,0 +1,1 @@
+TDAT: public boolean check compounds ( ) {  <NL> return (  <NL>  ( 0 . 0f < = red ) & & ( red < = 1 . 0f )  <NL>  & & ( 0 . 0f < = green ) & & ( green < = 1 . 0f )  <NL>  & & ( 0 . 0f < = blue ) & & ( blue < = 1 . 0f )  <NL>  & & ( 0 . 0f < = alpha ) & & ( alpha < = 1 . 0f )  <NL>  ) ;  <NL>  }  COM: <s> check if all compounds are ok </s>

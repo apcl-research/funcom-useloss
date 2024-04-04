@@ -1,0 +1,1 @@
+TDAT: public int next id ( string name ) {  <NL> int id = set . get int ( name ) ;  <NL> if ( id = = - 1 ) {  <NL> synchronized ( this ) {  <NL> int len = set . length ( ) ;  <NL> set = set . union ( name , next id ) ;  <NL> if ( set . length ( ) > len )  <NL> id = next id + + ;  <NL>  }  <NL>  }  <NL> return id ;  <NL>  }  COM: <s> get a next id for the specified name </s>

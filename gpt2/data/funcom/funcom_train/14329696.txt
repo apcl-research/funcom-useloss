@@ -1,0 +1,1 @@
+TDAT: public void test set fetch size ( ) throws exception {  <NL> callable statement cstmt = con . prepare call ( " { call sp _ who } " ) ;  <NL> result set rs = cstmt . execute query ( ) ;  <NL> rs . set fetch size ( 5 ) ;  <NL> assert equals ( 5 , rs . get fetch size ( ) ) ;  <NL> rs . close ( ) ;  <NL> cstmt . close ( ) ;  <NL>  }  COM: <s> test for sun bug result set1 </s>

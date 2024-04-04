@@ -1,0 +1,1 @@
+TDAT: public int get port ( )  <NL>  { string port = ( new parser ( value ) ) . skip string ( ) . get string ( ) ;  <NL> int i = port . index of ( ' / ' ) ;  <NL> if ( i < 0 ) return integer . parse int ( port ) ; else return integer . parse int ( port . substring ( 0 , i ) ) ;  <NL>  }  COM: <s> gets the media port </s>

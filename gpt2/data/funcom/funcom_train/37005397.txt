@@ -1,0 +1,1 @@
+TDAT: private void re scale ( ) {  <NL> float max = 0f ;  <NL> for ( int i = 0 ; i < get width ( ) - border insets . left - border insets . right ; i + + ) {  <NL> if ( data [ i ] > max ) {  <NL> max = data [ i ] ;  <NL>  }  <NL>  }  <NL> scale factor = ( int ) ( 1 / max ) ;  <NL>  }  COM: <s> calculates the scale factor for the current data </s>

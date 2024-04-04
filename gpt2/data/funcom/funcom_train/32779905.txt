@@ -1,0 +1,1 @@
+TDAT: public void save ( j panel panel , string file name ) {  <NL> rectangle rect = new rectangle ( 0 , 0 , size . width , size . height ) ;  <NL> buffered image img = this . paint not visible component ( panel , new container ( ) , rect ) ;  <NL> this . save picture ( img , " png " , path , file name ) ;  <NL>  }  COM: <s> save panel as png file in path file name </s>

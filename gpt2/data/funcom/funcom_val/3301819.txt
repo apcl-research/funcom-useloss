@@ -1,0 +1,1 @@
+TDAT: public product info director search ( string director name , string mode , string page ) {  <NL> string search type = " director search " ;  <NL> string type = " lite " ;  <NL> string offer = " all " ;  <NL> return generic ( search type , director name , mode , type , page , offer ) ;  <NL>  }  COM: <s> search for the director of movies </s>

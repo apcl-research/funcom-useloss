@@ -1,0 +1,1 @@
+TDAT: public void draw in rect ( graphics g , rect bounds rect ) {  <NL> rect clip rect ;  <NL> if ( g = = null || bounds rect = = null ) {  <NL> return ;  <NL>  }  <NL> clip rect = g . clip rect ( ) ;  <NL> if ( image ! = null ) {  <NL> image . draw at ( g , bounds rect . x , bounds rect . y ) ;  <NL>  }  <NL>  }  COM: <s> draws the image attachments image </s>

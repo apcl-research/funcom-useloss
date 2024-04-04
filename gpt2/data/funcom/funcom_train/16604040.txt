@@ -1,0 +1,1 @@
+TDAT: private int read int ( byte [ ] buffer , int offset ) {  <NL> return <NL>  ( ( buffer [ offset ] ) < < 24 ) | <NL>  ( ( buffer [ offset + 1 ] & 255 ) < < 16 ) | <NL>  ( ( buffer [ offset + 2 ] & 255 ) < < 8 ) | <NL>  ( ( buffer [ offset + 3 ] & 255 ) ) ;  <NL>  }  COM: <s> read an int from a buffer </s>

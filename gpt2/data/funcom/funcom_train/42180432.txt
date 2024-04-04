@@ -1,0 +1,1 @@
+TDAT: public boolean is top right vertex at ( float x , float y , float margin ) {  <NL> float [ ] [ ] points = get points ( ) ;  <NL> return math . abs ( x - points [ 1 ] [ 0 ] ) < = margin & & math . abs ( y - points [ 1 ] [ 1 ] ) < = margin ;  <NL>  }  COM: <s> returns code true code if the top right vertex of this piece is </s>

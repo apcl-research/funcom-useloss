@@ -1,0 +1,1 @@
+TDAT: public hash map hash string ( string super string , int l ) {  <NL> hash map hm = new hash map ( ) ;  <NL> for ( int i = 0 ; i < super string . length ( ) ; i + + ) {  <NL> hm . put ( super string . substring ( i , i + l ) , i ) ;  <NL>  }  <NL> return hm ;  <NL>  }  COM: <s> this implementation uses a hash to only search super string once so </s>

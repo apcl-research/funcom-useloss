@@ -1,0 +1,1 @@
+TDAT: @ test public void test long episode type2 ( ) throws exception {  <NL> string args [ ] = { } ;  <NL> string output = this . interpreter . interpret ( " long " , " 2 " , args ) ;  <NL> string expected = " it took too much time before tests ran . " ;  <NL> assert equals ( " test long episode type 2 " , expected , output ) ;  <NL>  }  COM: <s> test long episode type 2 </s>

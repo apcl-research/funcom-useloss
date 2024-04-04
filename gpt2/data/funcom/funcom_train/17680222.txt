@@ -1,0 +1,1 @@
+TDAT: public void append insert pk column list ( char buf s ) {  <NL> int nc = pk simple cols . length ;  <NL> s . append ( pk simple cols [ 0 ] . name ) ;  <NL> for ( int i = 1 ; i < nc ; i + + ) {  <NL> s . append ( " , " ) ;  <NL> s . append ( pk simple cols [ i ] . name ) ;  <NL>  }  <NL>  }  COM: <s> append part of an insert column name list for our primary key columns </s>

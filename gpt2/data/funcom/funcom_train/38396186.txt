@@ -1,0 +1,1 @@
+TDAT: static public double filter lanczos ( double x ) {  <NL> if ( x < 0 ) x = - x ;  <NL> if ( x < 3 . ) {  <NL> x * = math . pi ;  <NL> if ( x ! = 0 ) {  <NL> return math . sin ( x ) * math . sin ( x / 3 . ) / ( x * ( x / 3 . ) ) ;  <NL>  } else {  <NL> return 1 . ;  <NL>  }  <NL>  }  <NL> return 0 . ;  <NL>  }  COM: <s> lanczos filter used in interpolation </s>

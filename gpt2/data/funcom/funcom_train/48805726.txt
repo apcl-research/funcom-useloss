@@ -1,0 +1,1 @@
+TDAT: public void clear ( )  <NL>  {  <NL> for ( int i = _ fields . size ( ) ; i - - > 0 ; )  <NL>  {  <NL> field field = ( field ) _ fields . get ( i ) ;  <NL> if ( field ! = null )  <NL> field . clear ( ) ;  <NL>  }  <NL>  _ fields . clear ( ) ;  <NL> arrays . fill ( _ index , - 1 ) ;  <NL>  }  COM: <s> clear the header </s>

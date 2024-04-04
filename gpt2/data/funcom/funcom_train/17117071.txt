@@ -1,0 +1,1 @@
+TDAT: public bundle to bundle ( bundle b ) {  <NL> b . put long ( extras _ person _ id , id ) ;  <NL> b . put string ( extras _ person _ name , name ) ;  <NL> b . put string ( extras _ person _ phonenumber , phone number ) ;  <NL> b . put parcelable ( extras _ person _ photo , photo ) ;  <NL>  <NL> return b ;  <NL>  }  COM: <s> add contact bundle to an existing bundle </s>

@@ -1,0 +1,1 @@
+TDAT: public void panic ( pos pos , string msg ) {  <NL> bug report bug = new bug report ( msg ) ;  <NL> err . println ( " panic : " + pos . get line ( ) + " , " + pos . get column ( )  <NL>  + " : " + bug . get report ( ) ) ;  <NL> throw new runtime exception ( ) ;  <NL>  }  COM: <s> outputs a positioned panic message as a bug report </s>

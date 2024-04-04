@@ -1,0 +1,1 @@
+TDAT: public void adjust mass ( float mass ) {  <NL> if ( geoms . size ( ) = = 0 ) {  <NL> logger . get logger ( world . logger _ name ) . log ( level . warning ,  <NL>  " geoms should be added before the mass is adjusted " ) ;  <NL>  }  <NL>  <NL> ode . d mass adjust ( mass id , mass ) ;  <NL> apply mass ( ) ;  <NL>  }  COM: <s> adjusts and applied the total mass </s>

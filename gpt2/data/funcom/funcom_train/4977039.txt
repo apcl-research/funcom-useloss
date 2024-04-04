@@ -1,0 +1,1 @@
+TDAT: private imm node get descendant ( final list < string > path tokens ) {  <NL> imm node node = this ;  <NL> for ( final iterator < string > it = path tokens . iterator ( ) ; node ! = null & & it . has next ( ) ; ) {  <NL> node = node . _ child nodes . get ( it . next ( ) ) ;  <NL>  }  <NL> return node ;  <NL>  }  COM: <s> tries to find a descendant of this node </s>

@@ -1,0 +1,1 @@
+TDAT: public integer service cpu speed ( ) {  <NL> if ( os . is linux ( ) ) {  <NL> try {  <NL> return os . linux . get cpu speed ( ) ;  <NL>  }  <NL> catch ( exception exc ) {  <NL> logger . get logger ( ) . warn ( exc , " unable to get processor speed . " ) ;  <NL>  }  <NL>  }  <NL> return new integer ( - 1 ) ;  <NL>  }  COM: <s> returns the processor speed </s>

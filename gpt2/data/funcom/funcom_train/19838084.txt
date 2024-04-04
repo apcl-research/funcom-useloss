@@ -1,0 +1,1 @@
+TDAT: public int concat int ( int number , int . . . numbers ) {  <NL> final string builder sb = new string builder ( ) . append ( number ) ;  <NL> for ( int i = 0 , max = numbers . length ; i < max ; i + + )  <NL> sb . append ( numbers [ i ] ) ;  <NL> return integer . parse int ( sb . to string ( ) ) ;  <NL>  }  COM: <s> concatenate positive numbers </s>

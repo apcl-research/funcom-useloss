@@ -1,0 +1,1 @@
+TDAT: public string from clause ( ) {  <NL> string result = get table ( ) . quoted name ( ) ;  <NL> table [ ] other = other match tables ( ) ;  <NL> for ( int i = 0 ; i < other . length ; i + + ) {  <NL> result + = " , " + other [ i ] . quoted name ( ) ;  <NL>  }  <NL> return result ;  <NL>  }  COM: <s> return an sql from clause for use when selecting rows using criteria </s>

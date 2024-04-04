@@ -1,0 +1,1 @@
+TDAT: public int mouse right click ( int x , int y , int count , string wait ) throws io exception {  <NL> return mouse event ( " click " , 0 , mouse event . button3 , null , new point ( x , y ) , count , wait ) ;  <NL>  }  COM: <s> p perform right mouse click s on the currently connected desktop </s>

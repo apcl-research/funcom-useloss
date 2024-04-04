@@ -1,0 +1,1 @@
+TDAT: static public string encode url to parameter ( string url ) {  <NL> int code ask = ( int ) ' ? ' ;  <NL> string ask = " x " + code ask ;  <NL> int code and = ( int ) ' & ' ;  <NL> string and = " x " + code and ;  <NL> return url . replace all ( " [ ? ] " , ask ) . replace all ( " [ & ] " , and ) ;  <NL>  }  COM: <s> encodes an url to be passed as parameter at other url </s>

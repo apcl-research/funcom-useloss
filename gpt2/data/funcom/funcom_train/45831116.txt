@@ -1,0 +1,1 @@
+TDAT: public void copy area ( int src x , int src y , int width , int height , int dest x , int dest y ) {  <NL> call client ( " copy area " , src x , src y , width , height , dest x , dest y ) ;  <NL>  }  COM: <s> copies a rectangular area of the receiver at the source </s>

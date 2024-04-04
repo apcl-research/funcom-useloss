@@ -1,0 +1,1 @@
+TDAT: public v put ( e key , v value ) {  <NL> v old value = get ( key ) ;  <NL> integer index = elem to index . get ( key ) ;  <NL> if ( index = = null ) {  <NL> throw new illegal argument exception ( " element is not in the universe ! " ) ;  <NL>  }  <NL> array [ index ] = value ;  <NL> return old value ;  <NL>  }  COM: <s> associates the key with the value </s>

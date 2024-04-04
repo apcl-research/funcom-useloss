@@ -1,0 +1,1 @@
+TDAT: public list get mime types ( ) {  <NL> list types = new array list ( ) ;  <NL> for ( int i = 0 ; i < mime types . size ( ) ; i + + ) {  <NL> mime type configuration mtc =  <NL>  ( mime type configuration ) mime types . get ( i ) ;  <NL> types . add ( mtc . get value ( ) ) ;  <NL>  }  <NL> return types ;  <NL>  }  COM: <s> get the list of xdime mime types </s>

@@ -1,0 +1,1 @@
+TDAT: public void test set rule sets3 ( ) {  <NL> list l = new array list ( ) ;  <NL> l . add ( " a ruleset " ) ;  <NL> rule sets rs = new rule sets ( ) ;  <NL> rs . set rule sets ( l ) ;  <NL>  <NL> assert same ( " the rule set list has not been set " , l , rs . get rule sets ( ) ) ;  <NL>  }  COM: <s> setting any non empty list is ok </s>

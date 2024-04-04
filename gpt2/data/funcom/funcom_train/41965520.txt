@@ -1,0 +1,1 @@
+TDAT: public selection intersection ( selection s ) {  <NL> if ( s ! = null ) {  <NL> int start = math . max ( index0 , s . index0 ) ;  <NL> int end = math . min ( index1 , s . index1 ) ;  <NL> s = ( start < = end ? new selection ( start , end ) : null ) ;  <NL>  }  <NL> return s ;  <NL>  }  COM: <s> computes the intersection of this selection to s </s>

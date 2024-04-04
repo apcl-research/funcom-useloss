@@ -1,0 +1,1 @@
+TDAT: public int get row position ( int row id ) {  <NL> if ( this . column pos = = 0 ) return 0 ;  <NL> data row row = this . get row ( row id ) ;  <NL> object posizione = row . get data ( ) [ this . column pos ] . get value ( ) ;  <NL> return integer . parse int ( posizione . to string ( ) ) ;  <NL>  }  COM: <s> get the position of the row 0 if no one is setted </s>

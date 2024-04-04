@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> return leading zero ( get day ( ) ) + " - " + month _ name [ get month ( ) - 1 ] +  <NL>  " - " + get year ( ) + " " +  <NL> leading zero ( get hour ( ) ) + " : " + leading zero ( get minute ( ) )  <NL>  + " : " + leading zero ( get second ( ) ) ;  <NL>  }  COM: <s> a string representation of the day </s>

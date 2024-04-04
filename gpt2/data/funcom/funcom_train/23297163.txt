@@ -1,0 +1,1 @@
+TDAT: public void set distance ( int i , int j , double dist ) {  <NL> this . distances . set entry ( i , j , dist ) ;  <NL> this . distances . set entry ( j , i , dist ) ;  <NL>  / *  <NL> double [ ] [ ] distance = this . distances . get array ( ) ;  <NL> distance [ i ] [ j ] = distance [ j ] [ i ] = dist ;  <NL>  * * /  <NL>  }  COM: <s> sets both upper and lower triangles </s>

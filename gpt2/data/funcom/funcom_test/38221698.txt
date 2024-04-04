@@ -1,0 +1,1 @@
+TDAT: public int locate unclosed comment ( string text , int pos ) {  <NL> int pos1 = locate unclosed comment ( text , pos , " ( * " , " * ) " ) ;  <NL> int pos2 = locate unclosed comment ( text , pos , " { " , " } " ) ;  <NL> return ( pos1 > pos2 ) ? pos1 : pos2 ;  <NL>  }  COM: <s> locates a last unclosed multiline comment before specified position </s>

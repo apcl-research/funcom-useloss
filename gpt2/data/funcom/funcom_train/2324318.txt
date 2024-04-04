@@ -1,0 +1,1 @@
+TDAT: protected void set seed ( int seed ) {  <NL> if ( seed < 0 )  <NL> seed = - seed ;  <NL> int limit = ( int ) ( ( math . pow ( 2 , 32 ) - 1 ) / 4 ) ; / / - - > 536870911 <NL> if ( seed > = limit )  <NL> seed = seed > > 3 ;  <NL>  <NL> this . current = 4 * seed + 1 ;  <NL>  }  COM: <s> sets the receivers seed </s>

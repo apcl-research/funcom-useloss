@@ -1,0 +1,1 @@
+TDAT: public void execute ( ) throws build exception {  <NL> try {  <NL> update file ( source , domain ) ;  <NL>  } / / entry <NL> catch ( io exception e ) {  <NL>  / / todo auto - generated catch block <NL> e . print stack trace ( ) ;  <NL> throw new build exception ( e . to string ( ) ) ;  <NL>  } / / endcatch <NL>  } / / end of execute ( )  COM: <s> method name execute </s>

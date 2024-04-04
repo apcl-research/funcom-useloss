@@ -1,0 +1,1 @@
+TDAT: public void begin update indices ( ) {  <NL> gl . gl bind buffer arb ( gl . gl _ element _ array _ buffer , indices vbo [ 0 ] ) ;  <NL> byte buffer temp = gl . gl map buffer arb ( gl . gl _ element _ array _ buffer , gl . gl _ write _ only ) ;  <NL> indices = temp . as int buffer ( ) ;  <NL>  }  COM: <s> prepares the indices for updating </s>

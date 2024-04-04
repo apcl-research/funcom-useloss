@@ -1,0 +1,1 @@
+TDAT: public boolean is strong setted ( int acceptor ) {  <NL>  / / * * * * * * * eduardo begin * * * * * * * * * * * * * * / /  <NL> return strong [ this . manager . get current view pos ( acceptor ) ] ! = null ;  <NL>  / / * * * * * * * eduardo end * * * * * * * * * * * * * * / /  <NL>  }  COM: <s> informs if there is a strongly accepted value from a replica </s>

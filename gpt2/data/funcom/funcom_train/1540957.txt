@@ -1,0 +1,1 @@
+TDAT: public void shear ( double shx , double shy ) {  <NL> current transform . shear ( shx , shy ) ;  <NL> try {  <NL> write transform ( new affine transform ( 1 , shy , shx , 1 , 0 , 0 ) ) ;  <NL>  } catch ( io exception e ) {  <NL> handle exception ( e ) ;  <NL>  }  <NL>  }  COM: <s> shears the current transform </s>

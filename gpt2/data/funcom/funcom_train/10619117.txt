@@ -1,0 +1,1 @@
+TDAT: public void get ( short [ ] dst , int offset , int length ) {  <NL> if ( byte base ! = null ) {  <NL> byte base . get int16 ( dst , offset , length ) ;  <NL>  } else {  <NL> throw new unsupported operation exception ( " not inmplemented " ) ; / / $ non - nls - 1 $  <NL>  }  <NL>  }  COM: <s> this method transfers short values into the given destination array </s>

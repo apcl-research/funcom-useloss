@@ -1,0 +1,1 @@
+TDAT: public boolean add tax set ( string name , taxa set tax set , taxa taxa ) {  <NL> set set = new hash set ( ) ;  <NL> for ( int t = 1 ; t < = taxa . get ntax ( ) ; t + + )  <NL> if ( tax set . get ( t ) )  <NL> set . add ( taxa . get label ( t ) ) ;  <NL> return add tax set ( name , set ) ;  <NL>  }  COM: <s> adds a new tax set </s>

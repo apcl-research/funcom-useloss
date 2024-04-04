@@ -1,0 +1,1 @@
+TDAT: public boolean mouse drag1 ( event evt , int x , int y ) {  <NL> x + = x _ scroll ;  <NL> y + = y _ scroll ;  <NL>  <NL>  <NL> if ( movenode ! = null ) {  <NL> move _ node ( x , y ) ;  <NL>  } else if ( new _ arc = = true ) {  <NL> new _ arc _ head = new point ( x , y ) ;  <NL>  }  <NL> repaint ( ) ;  <NL> return true ;  <NL>  }  COM: <s> process mouse drag events </s>

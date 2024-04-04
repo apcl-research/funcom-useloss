@@ -1,0 +1,1 @@
+TDAT: public void load friends ( boolean include friend of , array list < lj friend change > change , lj progress callback ph ) throws io exception , lj exception {  <NL> lj raw result data = get protocol ( ) . get friends ( include friend of , ph ) ;  <NL>  _ friends . load ( data , change , ph ) ;  <NL>  }  COM: <s> loads friend list from server </s>

@@ -1,0 +1,1 @@
+TDAT: public object remove ( int index ) {  <NL> object o = elements . remove ( index ) ;  <NL> b view v = ( b view ) rows . remove ( index ) ;  <NL> if ( v ! = null ) {  <NL>  / / we have to remove ( ) old views <NL> v . remove ( ) ;  <NL>  }  <NL> touch ( index , - 1 ) ;  <NL> return o ;  <NL>  }  COM: <s> remove an element </s>

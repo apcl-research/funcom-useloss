@@ -1,0 +1,1 @@
+TDAT: public void change permissions ( legion legion , int l p2 , int c p1 , int c p2 ) {  <NL> if ( legion . set legion permissions ( l p2 , c p1 , c p2 ) ) {  <NL> packet send utility . broadcast packet to legion ( legion , new sm _ legion _ edit ( 0x02 , legion ) ) ;  <NL>  }  <NL>  }  COM: <s> this method will handle the changement of permissions </s>

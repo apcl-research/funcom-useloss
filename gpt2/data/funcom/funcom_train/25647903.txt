@@ -1,0 +1,1 @@
+TDAT: private void write rtf ( kendo project project , kendo model model , file target file ) {  <NL> j frame parent = main application . get main window ( ) ;  <NL> composer composer = new composer ( parent , project , model , target file ) ;  <NL> thread composer thread = new thread ( composer ) ;  <NL> composer thread . start ( ) ;  <NL>  }  COM: <s> export to rtf format </s>

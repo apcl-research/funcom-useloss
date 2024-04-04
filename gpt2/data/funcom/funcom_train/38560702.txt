@@ -1,0 +1,1 @@
+TDAT: public int gcd ( ) {  <NL> int gcd = a [ 0 ] [ 0 ] ;  <NL>  <NL> for ( int i = 1 ; i < m ; i + + ) {  <NL> if ( ( a [ i ] [ 0 ] ! = 0 ) || ( gcd ! = 0 ) ) {  <NL> gcd = gcd2 ( gcd , a [ i ] [ 0 ] ) ;  <NL>  }  <NL>  }  <NL> return gcd ; / / this should never be zero <NL>  }  COM: <s> find the greatest common divisor of a column matrix vector of integers </s>

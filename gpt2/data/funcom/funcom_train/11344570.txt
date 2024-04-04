@@ -1,0 +1,1 @@
+TDAT: private xpp3dom create test suite element ( test test , long run time ) {  <NL> xpp3dom test case = new xpp3dom ( " testsuite " ) ;  <NL> test case . set attribute ( " name " , get report name ( test ) ) ;  <NL> test case . set attribute ( " time " , long . to string ( run time ) ) ;  <NL> return test case ;  <NL>  }  COM: <s> creates a xml test suite element </s>

@@ -1,0 +1,1 @@
+TDAT: final public void dilate ( number value rval , geo point s ) {  <NL> double r = rval . get double ( ) ;  <NL> double temp = ( r - 1 ) ;  <NL> z = temp * ( x * s . inhom x + y * s . inhom y ) + r * z ;  <NL>  <NL> x * = r ;  <NL> y * = r ;  <NL> z * = r ;  <NL>  }  COM: <s> dilate from s by r </s>

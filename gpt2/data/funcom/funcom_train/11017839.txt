@@ -1,0 +1,1 @@
+TDAT: public hssf cell style get row style ( ) {  <NL> if ( ! is formatted ( ) ) { return null ; }  <NL> short style index = row . get xf index ( ) ;  <NL> extended format record xf = book . get workbook ( ) . get ex format at ( style index ) ;  <NL> return new hssf cell style ( style index , xf , book ) ;  <NL>  }  COM: <s> returns the whole row cell styles </s>

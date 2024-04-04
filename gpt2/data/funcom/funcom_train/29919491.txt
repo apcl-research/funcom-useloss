@@ -1,0 +1,1 @@
+TDAT: private void add filter ( string last item ) {  <NL> int count = combo . get item count ( ) ;  <NL> for ( int i = 0 ; i < count ; i + + ) {  <NL> string value = ( string ) combo . get item at ( i ) ;  <NL> if ( value . equals ( last item ) )  <NL> return ;  <NL>  }  <NL> combo . add item ( last item ) ;  <NL>  }  COM: <s> add filter value to combo </s>

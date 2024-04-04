@@ -1,0 +1,1 @@
+TDAT: public void fatal error ( sax parse exception ex ) throws sax exception {  <NL>  / / do something with the fatal error <NL> file f input = new file ( ex . get system id ( ) ) ;  <NL> err . println ( " e : " + f input . get name ( ) + " : line " +  <NL> ex . get line number ( ) + " : " + ex ) ;  <NL>  } / / fatal error  COM: <s> fatal error method comment </s>

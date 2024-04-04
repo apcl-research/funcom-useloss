@@ -1,0 +1,1 @@
+TDAT: public collection get property keys ( ) {  <NL> set keys = new tree set ( ) ;  <NL> for ( int i = 0 ; i < _ nodes . size ( ) ; i + + ) {  <NL> node n = ( ( node wrapper ) _ nodes . get ( i ) ) . node ( ) ;  <NL> keys . add all ( n . get property keys ( ) ) ;  <NL>  }  <NL> return keys ;  <NL>  }  COM: <s> this method returns the property names of its child nodes </s>

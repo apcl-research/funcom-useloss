@@ -1,0 +1,1 @@
+TDAT: public void train classifier ( file dir , string . . . args ) throws exception {  <NL> for ( file file : dir . list files ( ) ) {  <NL> if ( file . get name ( ) . matches ( " training - data - \\d + . svmlight " ) ) {  <NL> tksv mlight classifier builder . train ( file . get path ( ) , args ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> train the ovasvmtk classifier </s>

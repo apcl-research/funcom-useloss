@@ -1,0 +1,1 @@
+TDAT: private void load constructors ( ) {  <NL> constructor [ ] ctors = clazz . get constructors ( ) ;  <NL> for ( int i = 0 ; i < ctors . length ; + + i ) {  <NL> ctor list . add ( ctors [ i ] ) ;  <NL> param map . put ( ctors [ i ] , ctors [ i ] . get parameter types ( ) ) ;  <NL>  }  <NL>  }  COM: <s> loads up the data structures for my target classs constructors </s>

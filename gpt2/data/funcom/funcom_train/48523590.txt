@@ -1,0 +1,1 @@
+TDAT: protected void incoming socket helper ( p2p socket < identifier > socket , source route < identifier > sr ) throws io exception {  <NL> callback . incoming socket ( new socket wrapper socket < source route < identifier > , identifier > ( sr , socket , logger , error handler , socket . get options ( ) ) ) ;  <NL>  }  COM: <s> to override this behavior if needed </s>

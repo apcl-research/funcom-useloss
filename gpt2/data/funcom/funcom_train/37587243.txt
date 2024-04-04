@@ -1,0 +1,1 @@
+TDAT: public void junit test ended ( string name , boolean was successful , boolean caused error ) {  <NL>  _ lock . start read ( ) ;  <NL> try {  <NL> for ( global model listener l : _ listeners ) { l . junit test ended ( name , was successful , caused error ) ; }  <NL>  }  <NL> finally { _ lock . end read ( ) ; }  <NL>  }  COM: <s> called when a particular test has ended </s>

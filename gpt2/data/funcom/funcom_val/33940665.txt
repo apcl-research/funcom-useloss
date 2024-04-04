@@ -1,0 +1,1 @@
+TDAT: public mutable matrix4f set col ( int col , read only vector4f values ) {  <NL> return set ( 0 , col , values . get x ( ) )  <NL>  . set ( 1 , col , values . get y ( ) )  <NL>  . set ( 2 , col , values . get z ( ) )  <NL>  . set ( 3 , col , values . get w ( ) ) ;  <NL>  }  COM: <s> set the given matrix column to the four values stored in the vector </s>

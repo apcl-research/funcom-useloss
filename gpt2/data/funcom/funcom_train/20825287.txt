@@ -1,0 +1,1 @@
+TDAT: private void show file open error ( final show file exception e ) {  <NL> j option pane . show message dialog ( parent ,  <NL> e . get message ( ) ,  <NL> nls . get ( " show file dialog . error " ) , / / $ non - nls - 1 $  <NL> j option pane . error _ message ,  <NL> null / * icon icon * / ) ;  <NL>  }  COM: <s> popup dialog with file open error message </s>

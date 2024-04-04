@@ -1,0 +1,1 @@
+TDAT: public int hash code ( ) {  <NL> int code = 37 * 17 + _ candidate class name . hash code ( ) ;  <NL> if ( _ query ! = null )  <NL> code = 37 * code + _ query . hash code ( ) ;  <NL> if ( _ params ! = null )  <NL> code = 37 * code + _ params . hash code ( ) ;  <NL> return code ;  <NL>  }  COM: <s> define a hashing algorithm corresponding to the </s>

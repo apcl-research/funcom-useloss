@@ -1,0 +1,1 @@
+TDAT: private void basic to string ( object p object , string buffer p xml buffer , string p indent ) {  <NL> if ( ! m fast mode ) {  <NL> p xml buffer . append ( p indent ) ;  <NL>  }  <NL> p xml buffer . append ( p object . to string ( ) ) ;  <NL> p xml buffer . append ( chr _ new _ line ) ;  <NL>  }  COM: <s> converts a basic object to its string representation </s>

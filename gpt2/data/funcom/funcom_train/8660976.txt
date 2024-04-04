@@ -1,0 +1,1 @@
+TDAT: public reference get reference ( ) throws naming exception {  <NL> reference ref = new reference ( get class ( ) . get name ( ) ,  <NL> per user pool data source factory . class . get name ( ) , null ) ;  <NL> ref . add ( new string ref addr ( " instance key " , instance key ) ) ;  <NL> return ref ;  <NL>  }  COM: <s> returns a code per user pool data source code </s>

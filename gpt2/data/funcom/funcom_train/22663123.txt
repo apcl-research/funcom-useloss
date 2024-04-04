@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> string str =  <NL>  " [ \ " " + get text ( ) +  <NL>  " \ " , type : < " + get type ( ) +  <NL>  " > , line : " + get line ( ) +  <NL>  " , column : " + get column ( ) + " ] " ;  <NL> return ( str ) ;  <NL>  }  COM: <s> returns a string representation for this object </s>

@@ -1,0 +1,1 @@
+TDAT: public void drop model ( model dropped model , int x , int y ) {  <NL>  <NL> if ( dropped model . get class ( ) = = this . get class ( ) ) {  <NL> drop model clone ( dropped model , x , y ) ;  <NL>  } else {  <NL> drop model modify ( dropped model , x , y ) ;  <NL>  }  <NL>  <NL>  }  COM: <s> adds all constituents of merging model to this code model code </s>

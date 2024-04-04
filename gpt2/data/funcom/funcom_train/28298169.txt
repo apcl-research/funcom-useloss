@@ -1,0 +1,1 @@
+TDAT: public boolean save map ( ) {  <NL> if ( get file name ( ) = = " " ) {  <NL> return save as map ( ) ;  <NL>  }  <NL> err = write file ( get file name ( ) ) ;  <NL> if ( err = = 0 ) set changed ( false ) ;  <NL> else trans base text . print error ( err , main pane ) ;  <NL> return ( err = = 0 ) ;  <NL>  }  COM: <s> saves a map </s>

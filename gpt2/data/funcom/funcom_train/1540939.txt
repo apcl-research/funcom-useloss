@@ -1,0 +1,1 @@
+TDAT: public void translate ( double x , double y ) {  <NL> current transform . translate ( x , y ) ;  <NL> try {  <NL> write transform ( new affine transform ( 1 , 0 , 0 , 1 , x , y ) ) ;  <NL>  } catch ( io exception e ) {  <NL> handle exception ( e ) ;  <NL>  }  <NL>  }  COM: <s> translates the current transform </s>

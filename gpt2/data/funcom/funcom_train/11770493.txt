@@ -1,0 +1,1 @@
+TDAT: private j button get j button import ( ) {  <NL> if ( j button import = = null ) {  <NL> j button import = new j button ( ) ;  <NL> j button import . set font ( gui font . font _ plain ) ;  <NL> j button import . set text ( rb . get string ( " j button import " ) ) ;  <NL>  }  <NL> return j button import ;  <NL>  }  COM: <s> this method initializes j button import </s>

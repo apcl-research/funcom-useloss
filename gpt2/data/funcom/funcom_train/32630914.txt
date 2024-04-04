@@ -1,0 +1,1 @@
+TDAT: private boolean is date column ( final d view column column ) {  <NL> string formula = column . get formula ( ) ;  <NL> return ( formula . index of ( " delivered date " ) > = 0 || formula . index of ( " @ created " ) > = 0 ) & & column . get time date fmt ( ) = = d view column . fmt _ date ;  <NL>  }  COM: <s> checks if a view column shows the delivery date of an email </s>

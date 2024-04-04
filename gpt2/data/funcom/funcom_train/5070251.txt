@@ -1,0 +1,1 @@
+TDAT: private string get region type ( i document d , int offset ) throws bad location exception {  <NL> int p = ( ( offset = = d . get length ( ) ) ? offset - 1 : offset ) ;  <NL> i typed region region = text utilities . get partition ( d , f partitioning , p , true ) ;  <NL> return region . get type ( ) ;  <NL>  }  COM: <s> get partition type covering offset </s>

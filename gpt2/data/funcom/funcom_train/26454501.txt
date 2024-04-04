@@ -1,0 +1,1 @@
+TDAT: private string trim extention ( string str ) {  <NL> int last dot = str . last index of ( " . " ) ;  <NL> int last slash = str . last index of ( " / " ) ;  <NL>  <NL> if ( ( last dot > - 1 ) & & ( last dot > last slash ) ) {  <NL> return str . substring ( 0 , last dot ) ;  <NL>  } else {  <NL> return str ;  <NL>  }  <NL>  }  COM: <s> trim the file extention from url </s>

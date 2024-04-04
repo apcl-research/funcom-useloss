@@ -1,0 +1,1 @@
+TDAT: public complex div ( complex w ) {  <NL> double den = w . real ( ) * w . real ( ) + w . imag ( ) * w . imag ( ) ;  <NL> return new complex ( ( r * w . real ( ) + i * w . imag ( ) ) / den , ( i * w . real ( ) - r * w . imag ( ) ) / den ) ;  <NL>  }  COM: <s> division of complex numbers doesnt change this complex number </s>

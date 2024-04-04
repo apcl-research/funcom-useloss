@@ -1,0 +1,1 @@
+TDAT: public double get density ( double x ) {  <NL> if ( ( x < = left ) || ( x > = right ) ) return 0 ;  <NL> else if ( x > left & & x < med ) return c * math . pow ( ( x - left ) / ( med - left ) , power - 1 ) ;  <NL> else return c * math . pow ( ( right - x ) / ( right - med ) , power - 1 ) ;  <NL>  }  COM: <s> define the tsp density function </s>

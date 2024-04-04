@@ -1,0 +1,1 @@
+TDAT: public void abort with error ( int code ) {  <NL> try {  <NL> get response ( ) . send error ( code ) ;  <NL>  } catch ( io exception e ) {  <NL> throw new servlet exception ( " can ' t send error " + code + " . " , e ) ;  <NL>  }  <NL> throw new abort exception ( " send error [ code = " + code + " ] . " ) ;  <NL>  }  COM: <s> aborts execution and sends error to browser </s>

@@ -1,0 +1,1 @@
+TDAT: public void window destroyed ( final screen instance info info ) {  <NL> final j menu item mi = ( j menu item ) m _ id to menu map . get ( info . get id ( ) ) ;  <NL> m _ id to menu map . remove ( info . get id ( ) ) ;  <NL> m _ menu bar . remove ( " window " , mi ) ;  <NL>  }  COM: <s> process window destruction as far as menubar is concerned remove </s>

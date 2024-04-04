@@ -1,0 +1,1 @@
+TDAT: public string get movie title ( ) {  <NL> if ( title . ends with ( " , a " ) )  <NL> return " a " + title . substring ( 0 , title . length ( ) - 3 ) ;  <NL> if ( title . ends with ( " , the " ) )  <NL> return " the " + title . substring ( 0 , title . length ( ) - 5 ) ;  <NL> return title ;  <NL>  }  COM: <s> returns the title in the correct form </s>

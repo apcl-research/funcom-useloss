@@ -1,0 +1,1 @@
+TDAT: public boolean add format ( format f ) {  <NL> if ( positions . contains key ( f . get id ( ) ) ) {  <NL> set element at ( f , lookup id ( f . get id ( ) ) ) ;  <NL> return false ;  <NL>  }  <NL> add element ( f ) ;  <NL> positions . put ( f . get id ( ) , new integer ( get number of formats ( ) - 1 ) ) ;  <NL> return true ;  <NL>  }  COM: <s> adds the specified format </s>

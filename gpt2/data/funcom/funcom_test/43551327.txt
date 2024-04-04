@@ -1,0 +1,1 @@
+TDAT: public revenue source bo create ( ) throws exception {  <NL> string id = guid . generate ( ) ;  <NL> backup bo bo = new backup bo ( id ) ;  <NL> cache c = cache . get instance ( ) ;  <NL> bo . set type ( " backup " ) ;  <NL> c . put ( bo . get rev src id ( ) , bo ) ;  <NL>  <NL> return bo ;  <NL>  }  COM: <s> creates a new backup bo object with a newly generated guid </s>

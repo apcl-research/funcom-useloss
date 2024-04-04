@@ -1,0 +1,1 @@
+TDAT: public roster group create group ( string name ) {  <NL> if ( groups . contains key ( name ) ) {  <NL> throw new illegal argument exception ( " group with name " + name + " alread exists . " ) ;  <NL>  }  <NL> roster group group = new roster group ( name , connection ) ;  <NL> groups . put ( name , group ) ;  <NL> return group ;  <NL>  }  COM: <s> creates a new group </s>

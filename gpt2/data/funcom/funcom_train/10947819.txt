@@ -1,0 +1,1 @@
+TDAT: public void test filter and limit a ( ) {  <NL> list results = new test file finder ( not _ svn , 0 ) . find ( java dir ) ;  <NL> assert equals ( " [ a ] result size " , 1 , results . size ( ) ) ;  <NL> assert true ( " [ a ] start dir " , results . contains ( java dir ) ) ;  <NL>  }  COM: <s> test filtering and limit to depth 0 </s>

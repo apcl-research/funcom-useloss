@@ -1,0 +1,1 @@
+TDAT: public void set ( string key , object value ) throws caju script exception {  <NL> if ( key . starts with ( caju _ vars _ static _ string ) ) {  <NL> context . set static string ( key , value . to string ( ) ) ;  <NL>  } else {  <NL> set var ( key . trim ( ) , to value ( value ) ) ;  <NL>  }  <NL>  }  COM: <s> defining new variable and setting value from a java object </s>

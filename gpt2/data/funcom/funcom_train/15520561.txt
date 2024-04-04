@@ -1,0 +1,1 @@
+TDAT: public void put date ( string key , string param , string format ) throws parse exception {  <NL> if ( param = = null ) put ( key , param ) ; else {  <NL> simple date format sdft = new simple date format ( format ) ;  <NL> date value = sdft . parse ( param ) ;  <NL> put ( key , value ) ;  <NL>  }  <NL>  }  COM: <s> allows you to put a date parameter as a string </s>

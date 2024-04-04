@@ -1,0 +1,1 @@
+TDAT: public void append ( byte [ ] bytes ) {  <NL> byte [ ] new value = new byte [ value . length + bytes . length ] ;  <NL> system . arraycopy ( value , 0 , new value , 0 , value . length ) ;  <NL> system . arraycopy ( bytes , 0 , new value , value . length , bytes . length ) ;  <NL> value = new value ;  <NL>  }  COM: <s> appends an array of bytes to this octet string </s>

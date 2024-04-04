@@ -1,0 +1,1 @@
+TDAT: public void characters ( char [ ] ch , int start , int length ) throws sax exception {  <NL> current str = new string ( ch , start , length ) ;  <NL> categories . data xml ( ) . debug ( " char : " + current str ) ;  <NL> temp buffer . append ( current str ) ;  <NL> value buffer . append ( current str ) ;  <NL>  }  COM: <s> used by the sax parser to read the xml file </s>

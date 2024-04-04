@@ -1,0 +1,1 @@
+TDAT: protected void log ( string s ) {  <NL> filter config . get servlet context ( ) . log ( " [ " + this . get class ( ) . get name ( ) + " ] " + string . value of ( s ) ) ;  <NL>  / / system . out . println ( " [ " + this . get class ( ) . get name ( ) + " ] " + string . value of ( s ) ) ;  <NL>  }  COM: <s> log message to servlet context log </s>

@@ -1,0 +1,1 @@
+TDAT: public void read ( data input in ) throws io exception {  <NL> if ( buff = = null ) {  <NL> buff = new byte [ size ( ) ] ;  <NL> offset = 0 ;  <NL> in . read fully ( buff , 0 , size ( ) ) ;  <NL>  } else {  <NL> in . read fully ( buff , offset , size ( ) ) ;  <NL>  }  <NL>  }  COM: <s> reinitializes this structure from a stream </s>

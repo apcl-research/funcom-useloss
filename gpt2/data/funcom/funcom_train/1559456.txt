@@ -1,0 +1,1 @@
+TDAT: protected int draw selected text ( graphics g , int x , int y , int p0 , int p1 ) throws bad location exception {  <NL> unselected = false ;  <NL> int z = draw unselected text ( g , x , y , p0 , p1 ) ;  <NL> unselected = true ;  <NL> return z ;  <NL>  }  COM: <s> draw the selected text </s>

@@ -1,0 +1,1 @@
+TDAT: public date midnight to date midnight ( date time zone zone ) {  <NL> zone = date time utils . get zone ( zone ) ;  <NL> chronology chrono = get chronology ( ) . with zone ( zone ) ;  <NL> return new date midnight ( get year ( ) , get month of year ( ) , get day of month ( ) , chrono ) ;  <NL>  }  COM: <s> converts this local date to a date midnight </s>

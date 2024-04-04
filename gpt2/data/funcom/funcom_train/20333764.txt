@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> return " audio and video ( "  <NL>  + " devicestatus = " + get device status ( )  <NL>  + " , haslocation = " + get has location ( )  <NL>  + " , instancename = " + get instance name ( )  <NL>  + " , timestamp = " + get timestamp ( )  <NL>  + " ) " ;  <NL>  }  COM: <s> get a string representation of this code audio and video code </s>

@@ -1,0 +1,1 @@
+TDAT: private string strip inverted commas ( string value ) {  <NL> int begin pos = value . index of ( ' " ' ) ;  <NL> if ( begin pos = = - 1 ) {  <NL> return value ;  <NL>  }  <NL> int end pos = value . index of ( ' " ' , begin pos ) ;  <NL> return value . substring ( begin pos , end pos ) ;  <NL>  }  COM: <s> this method strips the inverted commas off a string </s>

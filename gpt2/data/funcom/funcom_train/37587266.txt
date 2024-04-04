@@ -1,0 +1,1 @@
+TDAT: public void javadoc ended ( boolean success , file dest dir , boolean all docs ) {  <NL>  _ lock . start read ( ) ;  <NL> try { for ( global model listener l : _ listeners ) { l . javadoc ended ( success , dest dir , all docs ) ; } }  <NL> finally { _ lock . end read ( ) ; }  <NL>  }  COM: <s> called after javadoc is finished </s>

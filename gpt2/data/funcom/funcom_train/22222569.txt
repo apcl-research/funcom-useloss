@@ -1,0 +1,1 @@
+TDAT: public void paint component finish ( graphics2d _ g2 , boolean _ last time ) {  <NL>  / / this is image paint - first coordinate is always 0 , 0 <NL>  _ g2 . draw image ( this . bi image , 0 , 0 , this ) ;  <NL> if ( _ last time = = true ) {  <NL>  / / dispose draw timer <NL> this . draw timer = null ;  <NL>  }  <NL>  }  COM: <s> paint current buffered image to screen </s>

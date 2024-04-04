@@ -1,0 +1,1 @@
+TDAT: public void test get max int ( ) {  <NL> system . out . println ( " test get max int " ) ;  <NL>  <NL> tiny puzzle puzzle = ( tiny puzzle ) tiny puzzle . create ( ) ;  <NL> assert not null ( " no puzzle " , puzzle ) ;  <NL> assert equals ( " wrong number of digits " , 4 , puzzle . get max int ( ) ) ;  <NL>  }  COM: <s> test of get max int method of class net </s>

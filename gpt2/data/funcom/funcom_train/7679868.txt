@@ -1,0 +1,1 @@
+TDAT: public void cell to rect ( int cell x , int cell y , int cell h span , int cell v span , rect f rect ) {  <NL>  ( ( cell layout ) get child at ( m current screen ) ) . cell to rect ( cell x , cell y ,  <NL> cell h span , cell v span , rect ) ;  <NL>  }  COM: <s> computes a bounding rectangle for a range of cells </s>

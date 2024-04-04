@@ -1,0 +1,1 @@
+TDAT: public int get icon width ( ) {  <NL> if ( ( f position = = left ) || ( f position = = right ) ) {  <NL> return f icon1 . get icon width ( ) + f icon2 . get icon width ( ) ;  <NL>  }  <NL>  <NL> return math . max ( f icon1 . get icon width ( ) , f icon2 . get icon width ( ) ) ;  <NL>  }  COM: <s> returns the icons width </s>

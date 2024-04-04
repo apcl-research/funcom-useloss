@@ -1,0 +1,1 @@
+TDAT: private string generate student id ( int c , string year ) {  <NL> string count str = c + " " ;  <NL> if ( count str . length ( ) = = 1 ) {  <NL> count str = " 00 " + count str ;  <NL>  }  <NL> if ( count str . length ( ) = = 2 ) {  <NL> count str = " 0 " + count str ;  <NL>  }  <NL>  <NL> return " 1904 " + year + count str ;  <NL>  }  COM: <s> generate student id </s>

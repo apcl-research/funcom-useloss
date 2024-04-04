@@ -1,0 +1,1 @@
+TDAT: public object clone ( ) {  <NL> inet range new _ range = new inet range ( ) ;  <NL> new _ range . all = ( vector ) all . clone ( ) ;  <NL> new _ range . end _ names = ( vector ) end _ names . clone ( ) ;  <NL> new _ range . host _ names = ( hashtable ) host _ names . clone ( ) ;  <NL> return new _ range ;  <NL>  }  COM: <s> creates a clone of this object </s>

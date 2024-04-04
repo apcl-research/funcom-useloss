@@ -1,0 +1,1 @@
+TDAT: public void test get loops at ( ) {  <NL> system . out . println ( " get loops at " ) ;  <NL>  <NL> assert equals ( " v1 " , 0 , instance . get loops at ( 1 ) ) ;  <NL> assert equals ( " v6 " , 2 , instance . get loops at ( 6 ) ) ;  <NL> assert equals ( " v - 1 " , 1 , instance . get loops at ( - 1 ) ) ;  <NL>  }  COM: <s> test of get loops at method of class scio </s>

@@ -1,0 +1,1 @@
+TDAT: private void clear for overlay ( ) {  <NL> for ( int row = end row ; row > = start row ; row - - ) {  <NL> for ( int col = end col ; col > = start col ; col - - ) {  <NL> if ( is cell present ( row , col ) ) {  <NL> get widget ( row , col ) ;  <NL> remove cell ( row , col ) ;  <NL>  }  <NL>  }  <NL>  }  <NL>  }  COM: <s> clear the table to make way for the overlay </s>

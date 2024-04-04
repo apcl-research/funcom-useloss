@@ -1,0 +1,1 @@
+TDAT: private void set editor uri ( string uri ) {  <NL>  <NL> if ( cms string util . is empty or whitespace only ( uri ) ) {  <NL> set valid configuration ( false ) ;  <NL> log . error ( messages . get ( ) . get bundle ( ) . key ( messages . log _ editor _ config _ no _ uri _ 0 ) ) ;  <NL>  }  <NL> m _ editor uri = uri ;  <NL>  }  COM: <s> sets the editor workplace uri </s>

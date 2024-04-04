@@ -1,0 +1,1 @@
+TDAT: private void add seconds ( packet input stream input , packet analysis descriptor root ) {  <NL> int start = input . get offset ( ) ;  <NL> try {  <NL> int secs = input . read short ( ) ;  <NL> add node ( " seconds elapsed : " + secs , start , start + 1 , root ) ;  <NL>  } catch ( io exception e ) {  <NL>  }  <NL>  }  COM: <s> the number of seconds elapsed since bootup </s>

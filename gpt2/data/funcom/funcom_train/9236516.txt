@@ -1,0 +1,1 @@
+TDAT: private color get hex colour ( final mouse event e ) {  <NL> final int i = e . get x ( ) - border _ size ;  <NL> final int j = hex _ height - ( e . get y ( ) - hex offset ) ;  <NL>  <NL> return new color ( color . hs bto rgb ( ( float ) i / hex _ width , saturation , ( float ) j / hex _ height ) ) ;  <NL>  }  COM: <s> retrieves the hex colour beneath the mouse </s>

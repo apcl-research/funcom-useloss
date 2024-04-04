@@ -1,0 +1,1 @@
+TDAT: public void add pickup id ( string id ) {  <NL> if ( _ pickup list . contains ( id ) )  <NL> return ;  <NL>  _ pickup list . add ( id ) ;  <NL> log . debug ( " track " + get name ( ) + " add pick up id " + id ) ;  <NL> set dirty and fire property change ( pickup _ changed _ property , null , id ) ;  <NL>  }  COM: <s> add train or route id to this track </s>

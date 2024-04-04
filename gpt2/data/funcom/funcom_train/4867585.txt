@@ -1,0 +1,1 @@
+TDAT: public void println ( string str , object . . . args ) {  <NL> string formated str = string . format ( str , args ) + " \n " ;  <NL> this . text area . append ( formated str ) ;  <NL> this . text area . set caret position ( this . text area . get document ( ) . get length ( ) ) ;  <NL>  }  COM: <s> prints a line to the console with line feed </s>

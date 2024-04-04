@@ -1,0 +1,1 @@
+TDAT: public void draw rectangle ( int x , int y , int width , int height ) {  <NL> move pen to ( x , y ) ;  <NL> draw line to ( x + width , y ) ;  <NL> draw line to ( x + width , y + height ) ;  <NL> draw line to ( x , y + height ) ;  <NL> draw line to ( x , y ) ;  <NL>  }  COM: <s> draws a rectangle specified by its top left corner and width and height </s>

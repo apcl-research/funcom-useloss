@@ -1,0 +1,1 @@
+TDAT: public void write acl ( acl acl , output stream out ) throws jaxb exception {  <NL> cmis access control list type acl jaxb = convert ( acl ) ;  <NL> if ( acl jaxb = = null ) {  <NL> return ;  <NL>  }  <NL>  <NL> jax b helper . marshal ( jax b helper . cmis _ object _ factory . create acl ( acl jaxb ) , out , false ) ;  <NL>  }  COM: <s> writes an object </s>

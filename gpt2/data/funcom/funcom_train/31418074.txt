@@ -1,0 +1,1 @@
+TDAT: public void list parameters ( print stream out ) {  <NL> grib file grib file = null ;  <NL> for ( int i = 0 ; i < this . dates . length ; i + + ) {  <NL> date date = this . dates [ i ] ;  <NL> grib file = ( grib file ) this . files . get ( date ) ;  <NL> grib file . list parameters ( out ) ;  <NL>  }  <NL>  }  COM: <s> method added by richard gonzalez 23 sep 02 </s>

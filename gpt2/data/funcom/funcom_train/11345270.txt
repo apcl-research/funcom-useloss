@@ -1,0 +1,1 @@
+TDAT: public void add attribute ( attribute att ) {  <NL> string name = att . get name ( ) . to lower case ( ) ;  <NL> if ( att . get name space ( ) ! = null ) {  <NL> name = att . get name space ( ) . to lower case ( ) + " : " + name ;  <NL>  }  <NL> m _ attributes . put ( name , att ) ;  <NL>  }  COM: <s> adds a attribute </s>

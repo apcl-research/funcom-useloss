@@ -1,0 +1,1 @@
+TDAT: private sector index get index ( spatial spatial , int level ) {  <NL> final vector3f pos = spatial . get world translation ( ) ;  <NL> final float x = pos . x ;  <NL> final float y = pos . y ;  <NL> final float z = pos . z ;  <NL> return get index from pos ( x , y , z , level ) ;  <NL>  }  COM: <s> compute an index from the position of a spatial and a level </s>

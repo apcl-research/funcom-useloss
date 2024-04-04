@@ -1,0 +1,1 @@
+TDAT: public tex row add row ( ) {  <NL> tex row row = new tex row ( ) ;  <NL> rows . add ( rows . size ( ) , row ) ;  <NL> iterator iterator = change listeners . iterator ( ) ;  <NL> while ( iterator . has next ( ) )  <NL>  ( ( i tex row list viewer ) iterator . next ( ) ) . add row ( row ) ;  <NL>  <NL> return row ;  <NL>  }  COM: <s> adds row to the end of the row list </s>

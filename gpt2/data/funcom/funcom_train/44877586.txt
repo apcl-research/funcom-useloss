@@ -1,0 +1,1 @@
+TDAT: public void remove _ this _ arc ( arc arc ) {  <NL> arc j , prev ;  <NL> for ( j = head ; ( j ! = null ) & & ( j ! = arc ) ; prev = j , j = j . link ) ;  <NL>  <NL> if ( j ! = null ) {  <NL> if ( j = = current )  <NL> current = j . link ;  <NL> if ( prev ! = null )  <NL> prev . link = j . link ;  <NL>  }  <NL>  }  COM: <s> removes given arc from bin </s>

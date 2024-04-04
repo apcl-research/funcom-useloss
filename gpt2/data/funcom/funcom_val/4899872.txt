@@ -1,0 +1,1 @@
+TDAT: public void set user name ( string user name ) {  <NL>  / / int index = user name = = null ? - 1 : user name . index of ( ' @ ' ) ;  <NL>  / / super . set user name ( index = = - 1 ? user name : user name . substring ( 0 , index ) ) ;  <NL> super . set user name ( user name ) ;  <NL>  }  COM: <s> previously removed the </s>

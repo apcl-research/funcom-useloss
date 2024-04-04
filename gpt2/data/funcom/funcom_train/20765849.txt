@@ -1,0 +1,1 @@
+TDAT: public int get address from cell ( int x , int y , int type ) {  <NL> if ( flipx ) x = sizexm1 - x ;  <NL> if ( flipy ) y = sizeym1 - y ;  <NL> if ( fliptype ) type = sizetypem1 - type ;  <NL>  <NL> return ( int ) (  <NL>  ( x < < xshift )  <NL> | ( y < < yshift )  <NL> | ( type < < typeshift )  <NL>  ) ;  <NL>  }  COM: <s> computes the raw address from an x y and type </s>

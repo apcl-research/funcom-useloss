@@ -1,0 +1,1 @@
+TDAT: protected void assign user to program ( long program id , long user id , long effective id ) {  <NL> simple jdbc template . update (  <NL>  " insert into solardras . program _ user ( pro _ id , usr _ id , eff _ id ) values ( ? , ? , ? ) " ,  <NL> program id , user id , effective id ) ;  <NL>  }  COM: <s> assign a user to a program </s>

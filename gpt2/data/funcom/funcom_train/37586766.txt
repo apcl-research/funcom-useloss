@@ -1,0 +1,1 @@
+TDAT: public void test block indent2 ( ) throws bad location exception {  <NL>  _ doc . insert string ( 0 , " x ; \n y ; \n " , null ) ;  <NL> safe indent lines ( 0 , _ doc . get length ( ) ) ;  <NL>  _ assert contents ( " x ; \ny ; \n " , _ doc ) ;  <NL>  }  COM: <s> regression test for bug in drjava 20010802 1020 </s>

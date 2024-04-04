@@ -1,0 +1,1 @@
+TDAT: public void remove ( bit set other ) {  <NL> int idx = math . min ( my num words , other . get num words ( ) ) ;  <NL> long [ ] this arr = my bits ;  <NL> long [ ] other arr = other . get bits ( ) ;  <NL> while ( - - idx > = 0 ) {  <NL> this arr [ idx ] & = ~ other arr [ idx ] ;  <NL>  }  <NL>  }  COM: <s> remove all elements set in other </s>

@@ -1,0 +1,1 @@
+TDAT: public void test anchor ( ) {  <NL> m html writer . write anchor ( 1 ) ;  <NL> assert equals ( globals . new _ para + " < a href = \ " javascript : add bookmark ( 1 ) \ " > < img src = \ " bookmark . gif\ " / > < / a > < a name = ' 1 ' > < / a > " ,  <NL> m string writer . get buffer ( ) . to string ( ) ) ;  <NL>  }  COM: <s> tests the write anchor method </s>

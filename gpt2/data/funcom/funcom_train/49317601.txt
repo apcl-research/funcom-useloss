@@ -1,0 +1,1 @@
+TDAT: protected void remove panel items ( ) {  <NL> for ( int i = 0 ; i < _ labels . length ; i + + ) {  <NL> if ( _ labels [ i ] ! = null ) {  <NL> remove ( _ labels [ i ] ) ;  <NL>  }  <NL> if ( _ components [ i ] ! = null ) {  <NL> remove ( _ components [ i ] ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> remove the panel items </s>

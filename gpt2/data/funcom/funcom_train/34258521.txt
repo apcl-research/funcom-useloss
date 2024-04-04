@@ -1,0 +1,1 @@
+TDAT: public boolean has gray tasks ( ) {  <NL> for ( int i = 0 ; this . get work task link list ( ) . size ( ) > i ; i + + ) {  <NL> work task link l pd = ( work task link ) get work task link list ( ) . get ( i ) ;  <NL> if ( l pd . is gray ( ) ) {  <NL> return true ;  <NL>  }  <NL>  }  <NL> return false ;  <NL>  }  COM: <s> this is different than is gray </s>

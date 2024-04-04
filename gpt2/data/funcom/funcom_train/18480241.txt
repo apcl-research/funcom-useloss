@@ -1,0 +1,1 @@
+TDAT: public void set object ( color4 c ) {  <NL> if ( c ! = null ) {  <NL> set color ( new color ( ( float ) c . get r ( ) , ( float ) c . get g ( ) , ( float ) c . get b ( ) ) , c . get a ( ) ) ;  <NL>  }  <NL> else {  <NL> set color ( new color ( 255 , 255 , 255 ) , 1 ) ;  <NL>  }  <NL>  }  COM: <s> sets the current color </s>

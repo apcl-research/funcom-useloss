@@ -1,0 +1,1 @@
+TDAT: public void add ss ( ss s ) throws moise exception {  <NL> ss . add role def ( s . get roles def ( ) ) ;  <NL> ss . add link type ( s . get link types ( ) ) ;  <NL> if ( ss . get root gr spec ( ) = = null ) {  <NL> ss . set root gr spec ( s . get root gr spec ( ) ) ;  <NL>  }  <NL>  }  COM: <s> adds the elements roles definitions link types </s>

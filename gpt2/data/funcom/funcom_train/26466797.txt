@@ -1,0 +1,1 @@
+TDAT: public meta package get parent ( ) {  <NL> string parent name ;  <NL> int pos = get name ( ) . last index of ( ' . ' ) ;  <NL> if ( pos > 0 ) {  <NL> parent name = get name ( ) . substring ( 0 , pos ) ;  <NL> return model . the model ( ) . get package ( parent name ) ;  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> returns the parent meta package of this meta package </s>

@@ -1,0 +1,1 @@
+TDAT: private j text field get in date short ( ) {  <NL> if ( in date short = = null ) {  <NL> in date short = new j text field ( ) ;  <NL> in date short . set bounds ( new java . awt . rectangle ( 92 , 17 , 181 , 25 ) ) ;  <NL> in date short . set editable ( true ) ;  <NL>  }  <NL> return in date short ;  <NL>  }  COM: <s> this method initializes in date short </s>

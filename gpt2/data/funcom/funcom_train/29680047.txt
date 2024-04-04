@@ -1,0 +1,1 @@
+TDAT: public image descriptor get image descriptor ( string id ) {  <NL> url url = null ;  <NL> try {  <NL> url = new url ( get bundle ( ) . get entry ( " / " ) , id ) ; / / $ non - nls - 1 $  <NL>  } catch ( malformed url exception e ) {  <NL>  }  <NL> return image descriptor . create from url ( url ) ;  <NL>  }  COM: <s> creates and returns a image descriptor given a id </s>

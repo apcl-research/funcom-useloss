@@ -1,0 +1,1 @@
+TDAT: public string pretty print params ( ) {  <NL> string buffer sb = new string buffer ( ) ;  <NL> iterator < vsm parm > i = iterator ( ) ;  <NL> while ( i . has next ( ) ) {  <NL> sb . append ( i . next ( ) . pretty print ( ) ) ;  <NL> sb . append ( " \n " ) ;  <NL>  }  <NL> return sb . to string ( ) ;  <NL>  }  COM: <s> prettyprint to a string each param in the array </s>

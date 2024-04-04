@@ -1,0 +1,1 @@
+TDAT: public void add rotation ( transform3d xform ) {  <NL> rotate x ( xform . get cos angle x ( ) , xform . get sin angle x ( ) ) ;  <NL> rotate z ( xform . get cos angle z ( ) , xform . get sin angle z ( ) ) ;  <NL> rotate y ( xform . get cos angle y ( ) , xform . get sin angle y ( ) ) ;  <NL>  }  COM: <s> rotates this vector with the angle of the specified transform </s>

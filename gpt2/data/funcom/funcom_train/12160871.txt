@@ -1,0 +1,1 @@
+TDAT: public void test control types ( ) {  <NL> for ( int i = 0 ; i < type _ array . length ; i + + ) {  <NL> assert not null ( " expected an control type of : " +  <NL> type _ array [ i ] + " . " ,  <NL> control type . get control type ( type _ array [ i ] ) ) ;  <NL>  }  <NL>  }  COM: <s> test that there is a control type for each known type </s>

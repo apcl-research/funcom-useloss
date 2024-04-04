@@ -1,0 +1,1 @@
+TDAT: protected void key pressed ( int key code ) {  <NL> system . out . println ( " key pressed key code = " + key code + " char = " + ( char ) key code ) ;  <NL> if ( has focus ! = null ) {  <NL> handle command event ( has focus . widget . key pressed ( key code ) ) ;  <NL>  }  <NL> do repaint ( ) ;  <NL>  }  COM: <s> called when a key is pressed </s>

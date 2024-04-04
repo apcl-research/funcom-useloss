@@ -1,0 +1,1 @@
+TDAT: public non player char get npc at ( int x , int y ) {  <NL> non player char n ;  <NL> for ( int i = 0 ; i < m _ npcs . size ( ) ; i + + ) {  <NL> n = m _ npcs . get ( i ) ;  <NL> if ( n . get x ( ) / 32 = = x & & ( n . get y ( ) + 8 ) / 32 = = y )  <NL> return n ;  <NL>  }  <NL> n = null ;  <NL> return n ;  <NL>  }  COM: <s> returns the npc at x y </s>

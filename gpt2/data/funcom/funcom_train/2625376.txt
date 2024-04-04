@@ -1,0 +1,1 @@
+TDAT: private boolean matches ( byte order mark bom ) {  <NL> if ( bom . length ( ) ! = fb length ) {  <NL> return false ;  <NL>  }  <NL> for ( int i = 0 ; i < bom . length ( ) ; i + + ) {  <NL> if ( bom . get ( i ) ! = first bytes [ i ] ) {  <NL> return false ;  <NL>  }  <NL>  }  <NL> return true ;  <NL>  }  COM: <s> check if the bytes match a bom </s>

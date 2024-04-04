@@ -1,0 +1,1 @@
+TDAT: public void set num instances ( random r ) {  <NL> if ( m _ max inst num > m _ min inst num )  <NL> m _ num instances = ( int ) ( r . next double ( )  <NL>  * ( m _ max inst num - m _ min inst num ) + m _ min inst num ) ;  <NL> else <NL> m _ num instances = m _ min inst num ;  <NL>  }  COM: <s> sets the real number of instances for this cluster </s>

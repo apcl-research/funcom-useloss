@@ -1,0 +1,1 @@
+TDAT: public void set value ( string value ) {  <NL> if ( value = = null ) {  <NL> super . set value ( null ) ;  <NL>  } else <NL> if ( value . index of ( ' . ' ) = = 0 ) {  <NL> super . set value ( new long ( value ) ) ;  <NL>  } else {  <NL> super . set value ( new double ( value ) ) ;  <NL>  }  <NL>  }  COM: <s> sets the value of the attribute </s>

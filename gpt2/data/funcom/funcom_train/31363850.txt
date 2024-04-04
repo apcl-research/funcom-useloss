@@ -1,0 +1,1 @@
+TDAT: static public void print properties ( class bean class ) {  <NL> system . out . println ( " properties of " + bean class + " : " ) ;  <NL> for ( iterator i = properties . for class ( bean class ) . name iterator ( ) ;  <NL> i . has next ( ) ; )  <NL> system . out . println ( " - " + ( string ) i . next ( ) ) ;  <NL>  }  COM: <s> prints properties of a given class </s>

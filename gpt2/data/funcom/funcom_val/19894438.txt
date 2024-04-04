@@ -1,0 +1,1 @@
+TDAT: public void do syst ( ftp request request , ftp writer out ) throws io exception {  <NL>  / / reset state variables <NL> reset state ( ) ;  <NL>  <NL> string args [ ] = { m config . get system name ( ) } ;  <NL> out . write ( m ftp status . get response ( 215 , request , m user , args ) ) ;  <NL>  }  COM: <s> code syst lt crlf gt code br </s>

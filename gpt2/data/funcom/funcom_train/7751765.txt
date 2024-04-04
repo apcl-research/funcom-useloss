@@ -1,0 +1,1 @@
+TDAT: public void delete columns ( string row key , string col family , byte [ ] . . . col names ) {  <NL> list < byte [ ] > col name list = new array list < byte [ ] > ( arrays . as list ( col names ) ) ;  <NL> delete columns ( row key , col family , col name list ) ;  <NL>  }  COM: <s> delete a list of columns or super columns </s>

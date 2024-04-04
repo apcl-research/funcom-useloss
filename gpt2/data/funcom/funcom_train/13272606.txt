@@ -1,0 +1,1 @@
+TDAT: private void show error ( throwable ex ) {  <NL> show text ( " < html > " + get localized string ( " start error " )  <NL>  + " < br > exception " + ex . get class ( ) . get name ( )  <NL>  + ( ex . get message ( ) ! = null ? " " + ex . get message ( ) : " " ) ) ;  <NL> ex . print stack trace ( ) ;  <NL>  }  COM: <s> reports the given exception at screen </s>

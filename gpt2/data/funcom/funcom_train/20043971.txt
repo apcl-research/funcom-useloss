@@ -1,0 +1,1 @@
+TDAT: public void _ get dest area ( ) {  <NL> log . println ( " testing get dest area ( ) " ) ;  <NL> boolean b result = false ;  <NL> o or add = o obj . get dest area ( ) ;  <NL> if ( ! ( o or add = = null ) ) { b result = true ; }  <NL> t res . tested ( " get dest area ( ) " , b result ) ;  <NL>  }  COM: <s> just calls the method and checks the value returned </s>

@@ -1,0 +1,1 @@
+TDAT: public void add new step ( int step index ) {  <NL> vector step = new vector ( ) ;  <NL> step . add ( 0 , " new desc " ) ;  <NL> step . add ( 1 , " new step " ) ;  <NL> step . add ( 2 , new vector ( ) ) ;  <NL> m _ steps . add ( step index , step ) ;  <NL>  }  COM: <s> adds an empty step into the new vector </s>

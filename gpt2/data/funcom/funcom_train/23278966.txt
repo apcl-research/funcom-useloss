@@ -1,0 +1,1 @@
+TDAT: public void smaller comparison board ( int j , list < launch board > boards ) {  <NL> launch board tmp1 = boards . get ( j ) ;  <NL> launch board tmp2 = boards . get ( j + 1 ) ;  <NL> boards . remove ( j ) ;  <NL> boards . remove ( j ) ;  <NL> boards . add ( j , tmp2 ) ;  <NL> boards . add ( j + 1 , tmp1 ) ;  <NL>  }  COM: <s> method used for sort boards method </s>

@@ -1,0 +1,1 @@
+TDAT: public void explode ( final vector bullets , final int our bullet index , final vector explosions ) {  <NL> bullets . remove element at ( our bullet index ) ;  <NL> explosions . add ( new explosion ( ( int ) position . x , ( int ) position . y , explosion _ range , explosion _ damage , shooter player ) ) ;  <NL>  }  COM: <s> this method explodes the explosive grenade </s>

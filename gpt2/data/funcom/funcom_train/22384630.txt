@@ -1,0 +1,1 @@
+TDAT: public boolean is interp useful ( ) {  <NL> flob r = interp to ;  <NL> if ( r = = null ) return false ;  <NL> return ( r . x - x ) * ( r . x - x ) +  <NL>  ( r . y - y ) * ( r . y - y ) +  <NL>  ( r . w - w ) * ( r . w - w ) +  <NL>  ( r . h - h ) * ( r . h - h ) > 100 ;  <NL>  }  COM: <s> whether it would make visually sense to interpolate </s>

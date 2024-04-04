@@ -1,0 +1,1 @@
+TDAT: public void test get parent ( ) {  <NL> super . assert true ( _ root . get parent ( ) = = null ) ;  <NL> super . assert true ( _ child . get parent ( ) . get stm context ( ) = = _ root ) ;  <NL> super . assert true ( _ anonymous . get parent ( ) . get stm context ( ) = = _ child ) ;  <NL>  }  COM: <s> test of get parent method of class org </s>

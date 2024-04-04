@@ -1,0 +1,1 @@
+TDAT: public void set body ( string body ) throws java . beans . property veto exception {  <NL> string old body = this . body ;  <NL> vetoable change support . fire vetoable change ( " body " , old body , body ) ;  <NL> this . body = body ;  <NL> property change support . fire property change ( " body " , old body , body ) ;  <NL>  }  COM: <s> setter for property body </s>

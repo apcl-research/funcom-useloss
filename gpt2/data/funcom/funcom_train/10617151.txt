@@ -1,0 +1,1 @@
+TDAT: public void test certificate exception06 ( ) {  <NL> certificate exception t e = new certificate exception ( null , null ) ;  <NL> assert null ( " get message ( ) must return null " , t e . get message ( ) ) ;  <NL> assert null ( " get cause ( ) must return null " , t e . get cause ( ) ) ;  <NL>  }  COM: <s> test for code certificate exception string throwable code </s>

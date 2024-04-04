@@ -1,0 +1,1 @@
+TDAT: private void wait format ( ) {  <NL> for ( int i = 0 ; i < 50 ; i + + ) {  <NL> result r = do command ( " " ) ;  <NL> if ( r . status . starts with ( " u f " ) ) {  <NL> return ;  <NL>  }  <NL> try { thread . sleep ( 100 ) ; } catch ( interrupted exception ex ) { }  <NL>  }  <NL>  }  COM: <s> waits for a formatted screen </s>

@@ -1,0 +1,1 @@
+TDAT: public void start download ( cache event event ) {  <NL> name lbl . set text ( get download item text ( event . get resource group name ( ) + " - " + event . get resource name ( ) ) ) ;  <NL> estimated time lbl . set text ( get time remaining text ( get time remaining ( event . get estimate time ( ) ) ) ) ;  <NL>  }  COM: <s> start the download progress </s>

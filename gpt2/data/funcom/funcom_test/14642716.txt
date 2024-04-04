@@ -1,0 +1,1 @@
+TDAT: public void test cache size zero ( ) {  <NL> cache cache = new cache ( 0 ) ;  <NL> for ( int i = 0 ; i < 3 ; i + + ) {  <NL> cache . add element ( this . keys [ i ] , this . values [ i ] ) ;  <NL> assert equals ( 0 , cache . size ( ) ) ;  <NL> assert false ( cache . contains ( this . keys [ i ] ) ) ;  <NL>  }  <NL>  }  COM: <s> test for caching 0 elements </s>

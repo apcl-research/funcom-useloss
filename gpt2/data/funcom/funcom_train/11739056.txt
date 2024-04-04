@@ -1,0 +1,1 @@
+TDAT: protected void select row ( object row , int index , tree path path ) {  <NL> if ( index > 0 & & columns . get ( index - 1 ) . get selected value ( ) ! = row ) {  <NL> columns . get ( index - 1 ) . set selected value ( row , true ) ;  <NL>  }  <NL> else { / / update <NL> update from model ( row , index - 1 ) ;  <NL>  }  <NL>  }  COM: <s> selects one path component </s>

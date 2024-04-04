@@ -1,0 +1,1 @@
+TDAT: public boolean is custom module ( ) {  <NL> return ( ( get index ( ) < 50 || <NL>  ( get index ( ) > = 20000 & & get index ( ) < 30000 ) ) || <NL> get index ( ) > = 10000000 ) & &  <NL> get type ( ) ! = dc module . _ type _ template _ module & &  <NL> get type ( ) ! = dc module . _ type _ mapping _ module ;  <NL>  }  COM: <s> tells if the module is created by a user </s>

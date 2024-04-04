@@ -1,0 +1,1 @@
+TDAT: public void test expand parameters ( ) {  <NL> string result = utils . expands string ( " this % s a very % s test % s " , new string [ ] { " is " , " complex " , " string " } ) ;  <NL> assert equals ( " unespected expansion . " , " this is a very complex test string " , result ) ;  <NL>  }  COM: <s> tests many parameters as markers </s>

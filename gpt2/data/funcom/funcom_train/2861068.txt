@@ -1,0 +1,1 @@
+TDAT: public void init normalizer ( ini file ini , string section , map index info ) {  <NL> map = index info ;  <NL> collapse chars = ini . get value ( section , " collapse " ,  <NL>  " . , ; : < > { } = ! ( ) + % $ \ " @ [ ] ` | ~ / ' ^ " ) ;  <NL>  }  COM: <s> the normalizer initialization method </s>

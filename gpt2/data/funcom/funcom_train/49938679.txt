@@ -1,0 +1,1 @@
+TDAT: private void set type ( int nr ) {  <NL> for ( int y = 0 ; y < field . length ; y + + ) {  <NL> for ( int x = 0 ; x < field [ y ] . length ; x + + ) {  <NL> field [ y ] [ x ] = stones [ nr ] [ y ] [ x ] ;  <NL>  }  <NL>  }  <NL> color = nr + 2 ;  <NL>  }  COM: <s> initialize this stones board field an color </s>

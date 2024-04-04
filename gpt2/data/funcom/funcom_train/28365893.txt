@@ -1,0 +1,1 @@
+TDAT: public void set point ( int i , double x , double y ) {  <NL> if ( i < n points ) {  <NL> points x [ i ] = x ;  <NL> points y [ i ] = y ;  <NL> if ( x _ min > x ) x _ min = x ;  <NL> if ( y _ min > y ) y _ min = y ;  <NL> if ( x _ max < x ) x _ max = x ;  <NL> if ( y _ max < y ) y _ max = y ;  <NL>  }  <NL>  }  COM: <s> sets a particular point with the index i </s>

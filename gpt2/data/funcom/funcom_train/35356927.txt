@@ -1,0 +1,1 @@
+TDAT: private byte get chain code ( vec2 v ) {  <NL> assert math . abs ( v . get x ( ) ) < = 1 & &  <NL> math . abs ( v . get y ( ) ) < = 1 ;  <NL> int n index = ( v . get x ( ) + 1 ) * 3 + ( v . get y ( ) + 1 ) ;  <NL> return sb lookup [ n index ] ;  <NL>  }  COM: <s> gets the chain code </s>

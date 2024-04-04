@@ -1,0 +1,1 @@
+TDAT: public void init ( file location ) {  <NL> map < string , class < ? > > aliases = new concurrent hash map < string , class < ? > > ( ) ;  <NL> aliases . put ( " sva " , sva model . class ) ;  <NL> aliases . put ( " sva parameter " , sva parameter . class ) ;  <NL> this . init ( location , aliases ) ;  <NL>  }  COM: <s> xstream file persistence strategy initialization </s>

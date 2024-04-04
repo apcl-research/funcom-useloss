@@ -1,0 +1,1 @@
+TDAT: public int read ( char [ ] cbuf , int off , int len ) {  <NL> random . set seed ( seed ) ;  <NL> for ( int i = off ; i < len ; i + + ) {  <NL> cbuf [ i ] = ( char ) random . next int ( 65536 ) ;  <NL>  }  <NL> seed = random . next long ( ) ;  <NL> return len - off ;  <NL>  }  COM: <s> reads the next characters of data from this reader </s>

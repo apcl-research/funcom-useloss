@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> string builder buf = new string builder ( ) ;  <NL> buf . append ( ll . x ) . append ( " , " ) . append ( ll . y ) . append ( " , " ) . append ( ur . x ) . append ( " , " ) . append ( ur . y ) ;  <NL>  <NL> return buf . to string ( ) ;  <NL>  }  COM: <s> returns the comma separated string with the 4 coordinates of this extent </s>

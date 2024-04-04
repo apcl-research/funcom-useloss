@@ -1,0 +1,1 @@
+TDAT: protected void permute ( sequence s ) {  <NL> for ( int i = s . size ( ) - 1 ; i > 1 ; i - - ) {  <NL> int j = random integer ( 1 , i ) ;  <NL> if ( j < i )  <NL> s . swap elements ( s . at rank ( i ) , s . at rank ( j ) ) ;  <NL>  }  <NL>  }  COM: <s> randomly permute a sequence </s>

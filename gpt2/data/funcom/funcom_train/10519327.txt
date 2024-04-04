@@ -1,0 +1,1 @@
+TDAT: protected void add elements ( hashtable map , file basedir , string [ ] elems ) {  <NL> for ( int i = 0 ; i < elems . length ; i + + ) {  <NL> cc file f = new cc file ( basedir , elems [ i ] ) ;  <NL> if ( accept ( f ) ) {  <NL> map . put ( f . get path ( ) , f ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> helper method to restrict a set of relative elements and add them </s>

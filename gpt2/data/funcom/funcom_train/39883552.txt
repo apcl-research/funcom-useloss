@@ -1,0 +1,1 @@
+TDAT: public int size ( ) {  <NL> long count = 0 ;  <NL> for ( node < e > p = first ( ) ; p ! = null ; p = succ ( p ) )  <NL> if ( p . item ! = null )  <NL>  + + count ;  <NL> return ( count > = integer . max _ value ) ? integer . max _ value : ( int ) count ;  <NL>  }  COM: <s> returns the number of elements in this deque </s>

@@ -1,0 +1,1 @@
+TDAT: private void initialize modifiers ( ) {  <NL> modifiers = new int [ ] { 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 ,  <NL> 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 } ;  <NL>  }  COM: <s> sets all field modifiers to 0 </s>

@@ -1,0 +1,1 @@
+TDAT: private void add to map ( final node node ) {  <NL> if ( ! this . node map . contains key ( node . get name ( ) ) ) {  <NL> this . node map . put ( node . get name ( ) , new array list < node > ( ) ) ;  <NL>  }  <NL> this . node map . get ( node . get name ( ) ) . add ( node ) ;  <NL>  }  COM: <s> add nodes to the internal map </s>

@@ -1,0 +1,1 @@
+TDAT: public py object _ _ findattr _ ex _ _ ( string name ) {  <NL>  <NL> if ( " _ _ methods _ _ " . equals ( name ) ) {  <NL> return _ _ methods _ _ ;  <NL>  } else if ( " _ _ members _ _ " . equals ( name ) ) {  <NL> return _ _ members _ _ ;  <NL>  }  <NL>  <NL> return super . _ _ findattr _ ex _ _ ( name ) ;  <NL>  }  COM: <s> finds the attribute </s>

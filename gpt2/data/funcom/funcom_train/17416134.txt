@@ -1,0 +1,1 @@
+TDAT: private void show item image ( ) {  <NL> this . image = this . item . get thumb image ( ) ;  <NL> if ( this . image ! = null ) {  <NL> this . label file name . set text ( get short file name ( item . get file ( ) ) ) ;  <NL> this . image panel1 . set image ( image ) ;  <NL> this . repaint ( ) ;  <NL>  }  <NL>  }  COM: <s> in image mode loads the image and shows it </s>

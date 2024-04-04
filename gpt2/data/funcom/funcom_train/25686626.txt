@@ -1,0 +1,1 @@
+TDAT: public void send parameter ( string cluster name , string node name , string param name , int param value ) throws ap mon exception , unknown host exception , socket exception , io exception {  <NL> send parameter ( cluster name , node name , param name , new integer ( param value ) ) ;  <NL>  }  COM: <s> sends an integer parameter and its value to the mon alisa module </s>

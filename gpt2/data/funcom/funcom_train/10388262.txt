@@ -1,0 +1,1 @@
+TDAT: public void to bytes ( ) {  <NL> if ( ! byte c . is null ( ) ) {  <NL> type = t _ bytes ;  <NL> return ;  <NL>  }  <NL> to string ( ) ;  <NL> type = t _ bytes ;  <NL> byte bb [ ] = str value . get bytes ( ) ;  <NL> byte c . set bytes ( bb , 0 , bb . length ) ;  <NL>  }  COM: <s> do a char byte conversion </s>

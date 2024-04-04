@@ -1,0 +1,1 @@
+TDAT: public void action performed ( action event e ) {  <NL> if ( " exit " . equals ( e . get action command ( ) ) ) {  <NL>  / / to do : tidy up before exiting application .  <NL> system . exit ( 0 ) ;  <NL>  } else if ( " about " . equals ( e . get action command ( ) ) ) {  <NL> help about frame . display ( this ) ;  <NL>  }  <NL>  }  COM: <s> process menu commands </s>

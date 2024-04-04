@@ -1,0 +1,1 @@
+TDAT: public void add reg exp ( reg exp literal re ) {  <NL> if ( re = = null ) code bug ( ) ;  <NL> if ( regexps = = null )  <NL> regexps = new array list < reg exp literal > ( ) ;  <NL> regexps . add ( re ) ;  <NL> re . put int prop ( regexp _ prop , regexps . size ( ) - 1 ) ;  <NL>  }  COM: <s> called by irfactory to add a reg exp to the regexp table </s>

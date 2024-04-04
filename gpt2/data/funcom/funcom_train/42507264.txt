@@ -1,0 +1,1 @@
+TDAT: public void print array ( int [ ] [ ] array ) {  <NL> for ( int i = 0 ; i < array . length ; i + + ) {  <NL> for ( int j = 0 ; j < array [ i ] . length ; j + + ) {  <NL> system . out . print ( array [ i ] [ j ] + " | " ) ;  <NL>  }  <NL> system . out . println ( " " ) ;  <NL>  }  <NL> system . out . println ( " " ) ;  <NL>  }  COM: <s> print out array </s>

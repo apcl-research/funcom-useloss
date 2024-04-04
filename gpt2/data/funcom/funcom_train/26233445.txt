@@ -1,0 +1,1 @@
+TDAT: protected object _ raw of string ( string raw ) {  <NL> if ( raw . length ( ) = = 8 )  <NL> return date . value of ( raw . substring ( 4 , 8 ) + " - " +  <NL> raw . substring ( 2 , 4 ) + " - " +  <NL> raw . substring ( 0 , 2 ) ) ;  <NL> return date . value of ( raw ) ;  <NL>  }  COM: <s> hack reformat ddmmyyyy dates to yyyy mm dd </s>

@@ -1,0 +1,1 @@
+TDAT: public void set normalised labels ( string min norm , string max norm ) {  <NL> log tools . trace ( logger , 25 , " mapper panel . set normalised labels ( " + min norm + " , " + max norm + " ) " ) ;  <NL>  _ min norm = min norm ;  <NL>  _ max norm = max norm ;  <NL>  }  COM: <s> set normalised value labels </s>

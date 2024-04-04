@@ -1,0 +1,1 @@
+TDAT: public vehicle wheel add wheel ( vector3f connection point , vector3f direction , vector3f axle , float suspension rest length , float wheel radius , boolean is front wheel ) {  <NL> return add wheel ( null , connection point , direction , axle , suspension rest length , wheel radius , is front wheel ) ;  <NL>  }  COM: <s> add a wheel to this vehicle </s>

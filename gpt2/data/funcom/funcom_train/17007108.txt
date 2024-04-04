@@ -1,0 +1,1 @@
+TDAT: public void set offset ( long off delta ) {  <NL> long temp = ( new date ( ) ) . get time ( ) + offset ;  <NL> if ( ntp time service . is check last utc ( ) ) {  <NL> if ( last utc time > ( temp + off delta ) ) {  <NL> return ;  <NL>  }  <NL>  }  <NL> delta = off delta ;  <NL> offset = offset + off delta ;  <NL>  }  COM: <s> adjusts the offset value by delta </s>

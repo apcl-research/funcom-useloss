@@ -1,0 +1,1 @@
+TDAT: public boolean next ( writable key , writable value ) throws io exception {  <NL> long pos = in . get pos ( ) ;  <NL> if ( pos > = end )  <NL> return false ;  <NL>  <NL>  ( ( long writable ) key ) . set ( pos ) ; / / key is position <NL>  ( ( utf8 ) value ) . set ( read line ( in ) ) ; / / value is line <NL> return true ;  <NL>  }  COM: <s> read a line </s>

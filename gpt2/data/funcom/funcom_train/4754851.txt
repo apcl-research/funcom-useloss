@@ -1,0 +1,1 @@
+TDAT: public void increment ( double [ ] v ) {  <NL> if ( v . length ! = means . length ) {  <NL> throw new dimension mismatch exception ( v . length , means . length ) ;  <NL>  }  <NL> for ( int i = 0 ; i < v . length ; + + i ) {  <NL> means [ i ] . increment ( v [ i ] ) ;  <NL>  }  <NL>  }  COM: <s> add a new vector to the sample </s>

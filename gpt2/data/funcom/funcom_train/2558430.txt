@@ -1,0 +1,1 @@
+TDAT: public void register ( model model ) {  <NL> int index = model . get index ( ) ;  <NL> int size = size ( ) ;  <NL>  <NL> for ( int i = 0 ; i < index ; i + + ) {  <NL> if ( i > = size ) {  <NL> add ( null ) ;  <NL>  }  <NL> if ( i = = index - 1 ) {  <NL> set ( index - 1 , model ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> this is used to register the model within the list </s>

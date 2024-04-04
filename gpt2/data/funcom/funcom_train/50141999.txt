@@ -1,0 +1,1 @@
+TDAT: public void start pool ( ) {  <NL> log . info ( " threadpool starting . . . " ) ;  <NL>  / / create the initial amount of threads , start them <NL> for ( int i = this . init pool size ; ( i > 0 ) ; i - - ) {  <NL> create thread ( ) . start ( ) ;  <NL>  }  <NL> running = true ;  <NL> log . debug ( " threadpool started . " ) ;  <NL>  }  COM: <s> starts the pool </s>

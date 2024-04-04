@@ -1,0 +1,1 @@
+TDAT: public void test can playback with null arg values ( ) throws throwable {  <NL> signature = new signature ( class type , method name , arg types ) ;  <NL> arg values = new object [ ] { null , null } ;  <NL> call = new call ( signature , arg values ) ;  <NL> assert not null ( call . get arg values ( ) ) ;  <NL>  }  COM: <s> test call creation with arg values </s>

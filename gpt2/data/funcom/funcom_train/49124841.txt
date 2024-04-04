@@ -1,0 +1,1 @@
+TDAT: public void remove client ( int no ) {  <NL> for ( int i = 0 ; i < player . size ( ) ; i + + ) {  <NL> if ( ( ( player preferences ) player . get ( i ) ) . get player _ id ( ) = = no ) {  <NL> player . remove ( i ) ;  <NL> break ;  <NL>  }  <NL>  }  <NL> client color [ no ] = null ;  <NL>  }  COM: <s> removes the client associated with the client no </s>

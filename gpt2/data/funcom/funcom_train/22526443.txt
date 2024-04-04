@@ -1,0 +1,1 @@
+TDAT: private void fill context menu ( i menu manager manager ) {  <NL> i menu manager new menu = new menu manager ( messages . plays composite _ 4 , " new " ) ; / / $ non - nls - 1 $  <NL> manager . add ( new menu ) ;  <NL>  <NL> new menu . add ( f action new play ) ;  <NL> new menu . add ( f action new act ) ;  <NL>  }  COM: <s> fill the right click menu for the table </s>

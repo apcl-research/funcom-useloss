@@ -1,0 +1,1 @@
+TDAT: private j panel get j panel5 ( ) {  <NL> if ( j panel5 = = null ) {  <NL> j panel5 = new j panel ( ) ;  <NL> j panel5 . set visible ( false ) ;  <NL> j panel5 . set layout ( new border layout ( ) ) ;  <NL> j panel5 . add ( get j tool bar3 ( ) , border layout . west ) ;  <NL>  }  <NL> return j panel5 ;  <NL>  }  COM: <s> this method initializes j panel5 </s>

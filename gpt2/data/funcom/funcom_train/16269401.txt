@@ -1,0 +1,1 @@
+TDAT: public void send me ( byte [ ] buff ) {  <NL>  _ buff = byte buffer . allocate ( buff . length + 4 ) ;  <NL>  _ buff . put char ( ( char ) _ s call ) ;  <NL>  _ buff . put char ( ( char ) ( 0xffff & get timestamp val ( ) ) ) ;  <NL>  _ buff . put ( buff ) ;  <NL> send me ( ) ;  <NL>  }  COM: <s> sends a specified buffer </s>

@@ -1,0 +1,1 @@
+TDAT: public void end input ( ) {  <NL> if ( logging . report _ level < = logging . information ) {  <NL> logging . report ( logging . information , log channels . lc _ highui ,  <NL>  " * * * * * * * * [ end input ] " ) ;  <NL>  }  <NL> validate state ( true ) ;  <NL> this . mediator = null ;  <NL> clear ( ) ;  <NL>  }  COM: <s> mark the end of this input modes processing </s>

@@ -1,0 +1,1 @@
+TDAT: private void empty fields ( ) {  <NL> tf _ author . set text ( " " ) ;  <NL> tf _ input _ file . set text ( " " ) ;  <NL> tf _ keywords . set text ( " " ) ;  <NL> tf _ output _ file . set text ( " " ) ;  <NL> tf _ subject . set text ( " " ) ;  <NL> tf _ title . set text ( " " ) ;  <NL>  }  COM: <s> empties all the field in the frame </s>

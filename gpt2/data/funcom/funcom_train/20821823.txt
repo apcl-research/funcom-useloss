@@ -1,0 +1,1 @@
+TDAT: private void add ( final j panel panel , final grid bag constraints c , final j text field field , final string name ) {  <NL>  <NL> c . gridy + + ;  <NL>  <NL> c . gridx = 0 ;  <NL> panel . add ( new j label ( name + " : " ) , c ) ;  <NL>  <NL> c . gridx = 1 ;  <NL> panel . add ( field , c ) ;  <NL>  }  COM: <s> add a timing attribute text field </s>

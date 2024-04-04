@@ -1,0 +1,1 @@
+TDAT: public object get value at ( int row index , int column index ) {  <NL> if ( column index = = name _ clm ) {  <NL> return ( ( person ) m _ names arr [ row index ] ) . get name ( ) ;  <NL>  } else {  <NL> return ( ( person ) m _ names arr [ row index ] ) . get number ( ) ;  <NL>  }  <NL>  }  COM: <s> get value at </s>

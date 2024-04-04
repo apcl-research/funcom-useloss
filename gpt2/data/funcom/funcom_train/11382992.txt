@@ -1,0 +1,1 @@
+TDAT: protected void sub view ( class < ? extends sub view > cls ) {  <NL> indent ( of ( endtag ) ) ; / / not an inline view <NL> sb . set length ( 0 ) ;  <NL> out . print ( sb . append ( ' [ ' ) . append ( cls . get name ( ) ) . append ( ' ] ' ) . to string ( ) ) ;  <NL> out . println ( ) ;  <NL>  }  COM: <s> sub classes should override this to do something interesting </s>

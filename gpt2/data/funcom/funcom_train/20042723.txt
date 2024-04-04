@@ -1,0 +1,1 @@
+TDAT: public void _ get max text len ( ) {  <NL> o obj . set max text len ( ( short ) 15 ) ;  <NL> log . println ( " get max text len ( ) returns : " + o obj . get max text len ( ) ) ;  <NL> t res . tested ( " get max text len ( ) " , o obj . get max text len ( ) = = 15 ) ;  <NL>  }  COM: <s> at first we set max text len then test calls the method </s>

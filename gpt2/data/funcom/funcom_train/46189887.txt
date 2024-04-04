@@ -1,0 +1,1 @@
+TDAT: public void test get parent ( ) {  <NL> category java = new category ( " / java " , " java " ) ;  <NL> category junit = new category ( " / java / junit " , " j unit " ) ;  <NL> java . add sub category ( junit ) ;  <NL> assert equals ( java , junit . get parent ( ) ) ;  <NL>  }  COM: <s> tests for the get parent method </s>

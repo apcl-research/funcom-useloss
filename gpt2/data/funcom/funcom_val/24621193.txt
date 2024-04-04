@@ -1,0 +1,1 @@
+TDAT: public string get request url resource part ( ) {  <NL> string path info = get request url info part ( ) ;  <NL> if ( path info . contains ( " . " ) ) {  <NL> path info = path info . substring ( 0 , path info . index of ( " . " ) ) ;  <NL>  }  <NL> return uri utils . standard uri ( path info ) ;  <NL>  }  COM: <s> gets the request url resource path by removing the </s>

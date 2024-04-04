@@ -1,0 +1,1 @@
+TDAT: public string get object description ( application application , e obj ) throws class not found exception {  <NL> object class mc = require model ( application ) . get class by name ( get object class ( obj ) , true ) ;  <NL> return " [ " + mc . get simple name ( ) + " ] " + get id ( mc , obj ) ;  <NL>  }  COM: <s> returns a textual description of the object </s>

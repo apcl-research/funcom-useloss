@@ -1,0 +1,1 @@
+TDAT: public data processor get data processor ( ) throws io exception {  <NL> data processor dp = node . get graph desc ( ) . get plotted datas ( node . get probe ( ) , null , start . get time ( ) / 1000 , end . get time ( ) / 1000 ) ;  <NL> dp . process data ( ) ;  <NL> return dp ;  <NL>  }  COM: <s> return the rrd4 js data processor object for this graph </s>

@@ -1,0 +1,1 @@
+TDAT: public void default two quote curly setup ( ) {  <NL> word range ( 0 , 255 ) ;  <NL> whitespace range ( 0 , 32 ) ;  <NL> add quotes ( " \ " " , " \ " " ) ;  <NL> add quotes ( " ' " , " ' " ) ;  <NL> add quotes ( " { " , " } " ) ;  <NL>  }  COM: <s> setup a tokenizer that recognizes and quotes and braces </s>

@@ -1,0 +1,1 @@
+TDAT: public void add mana to floating ( string mana str , card card ) {  <NL> array list < mana > mana list = convert string to mana ( mana str , card ) ;  <NL> for ( mana m : mana list ) {  <NL> add mana to pool ( floating mana , m ) ;  <NL>  }  <NL> all zone . get game action ( ) . check state effects ( ) ;  <NL>  }  COM: <s> p add mana to floating </s>

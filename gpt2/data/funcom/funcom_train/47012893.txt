@@ -1,0 +1,1 @@
+TDAT: private j combo box get j combo box ( ) {  <NL> if ( j combo box = = null ) {  <NL> j combo box = new j combo box ( ) ;  <NL> j combo box . set maximum row count ( 4 ) ;  <NL> j combo box . set preferred size ( new java . awt . dimension ( 31 , 25 ) ) ;  <NL>  }  <NL> return j combo box ;  <NL>  }  COM: <s> this method initializes j combo box </s>

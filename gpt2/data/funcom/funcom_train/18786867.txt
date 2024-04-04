@@ -1,0 +1,1 @@
+TDAT: public void add property ( object bean , object value ) {  <NL> assert ( ( bean ! = null ) & & is multiple & & ( value ! = null ) ) ;  <NL> class [ ] types = { value . get class ( ) } ;  <NL> object [ ] params = { value } ;  <NL> reflect utilities . execute ( bean , add method name , types , params ) ;  <NL>  }  COM: <s> adds the item to the indexed property </s>

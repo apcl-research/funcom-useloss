@@ -1,0 +1,1 @@
+TDAT: private void remove user ( user info a user info ) {  <NL> my domain user mapping . remove user ( a user info ) ;  <NL> if ( my user manager . remove user ( a user info . get user id ( ) ) ! = null ) {  <NL> log . debug ( " user \ " " + a user info + " \ " removed . " ) ;  <NL>  }  <NL>  }  COM: <s> removes a user from all domains </s>

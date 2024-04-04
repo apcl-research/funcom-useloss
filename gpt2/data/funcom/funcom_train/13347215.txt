@@ -1,0 +1,1 @@
+TDAT: private void set location ( int x , int y ) {  <NL> location = swing utilities . convert point ( get component ( ) , x , y , drag source ) ;  <NL> if ( origin = = null )  <NL> origin = location ;  <NL> set decoration bounds ( x , y , icon . get icon width ( ) , icon . get icon height ( ) ) ;  <NL>  }  COM: <s> sets the location of the decoration within the layered pane </s>

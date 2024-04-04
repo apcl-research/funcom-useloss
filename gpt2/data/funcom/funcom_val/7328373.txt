@@ -1,0 +1,1 @@
+TDAT: public void test load xml ( ) throws io exception {  <NL> configuration config = test load ( xml1 , true ) ;  <NL> assert equals ( " foo " , config . get ( " prop . 7 " ) ) ;  <NL> assert equals ( " bar " , config . get ( " prop . 8 " ) ) ;  <NL> assert equals ( " baz " , config . get ( " prop . 9 " ) ) ;  <NL>  }  COM: <s> load an xml file </s>

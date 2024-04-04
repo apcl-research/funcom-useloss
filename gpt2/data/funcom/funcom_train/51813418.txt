@@ -1,0 +1,1 @@
+TDAT: public boolean put job ( job job , long wait ) throws interrupted exception {  <NL> if ( log . is debug enabled ( ) )  <NL> log . debug ( " job = " + job + " , wait = " + wait ) ;  <NL>  <NL> boolean ret = new jobs . push ( job , wait ) ;  <NL> if ( ret )  <NL> super . put job ( job , wait ) ;  <NL> return ret ;  <NL>  }  COM: <s> submit a new job for computation </s>

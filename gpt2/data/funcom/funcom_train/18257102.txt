@@ -1,0 +1,1 @@
+TDAT: public void set location ( object o , rectangle2d bounds , double x , double y ) {  <NL> rectangular shape shape = get cached shape ( o ) ;  <NL> if ( shape ! = null ) {  <NL> shape . set frame from center ( x , y , x + shape . get width ( ) / 2 , y + shape . get height ( ) / 2 ) ;  <NL>  }  <NL>  }  COM: <s> code set location code updates the cached location for an </s>

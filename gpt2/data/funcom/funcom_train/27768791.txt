@@ -1,0 +1,1 @@
+TDAT: public void list ( print writer out ) {  <NL> for ( iterator it = root . children ( ) ; it ! = null & & it . has next ( ) ; ) {  <NL> tree . node node = ( tree . node ) it . next ( ) ;  <NL> print raw ( node , out , node . get key ( ) ) ;  <NL>  }  <NL>  }  COM: <s> list the contents of this tree to the specified print writer </s>

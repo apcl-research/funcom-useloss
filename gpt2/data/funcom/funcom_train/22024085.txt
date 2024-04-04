@@ -1,0 +1,1 @@
+TDAT: public void set rotation ( float a , float b , float c , float w ) {  <NL> this . quat . m [ 1 ] = a ;  <NL> this . quat . m [ 2 ] = b ;  <NL> this . quat . m [ 3 ] = c ;  <NL> this . quat . m [ 0 ] = w ;  <NL>  <NL> this . rot . set ( quat ) ;  <NL>  }  COM: <s> sets the rotation of this body as a quaternion </s>

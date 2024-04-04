@@ -1,0 +1,1 @@
+TDAT: public void test null dt ( ) {  <NL>  / / null means now <NL> a date time = get a date ( " 2000 - 01 - 01t00 : 00 : 00 " ) ;  <NL> assert true ( c year . compare ( null , a date time ) > 0 ) ;  <NL> assert true ( c year . compare ( a date time , null ) < 0 ) ;  <NL>  }  COM: <s> test comparator operation with null object s </s>

@@ -1,0 +1,1 @@
+TDAT: public float matrix1d repeat ( float matrix1d a , int repeat ) {  <NL> int size = ( int ) a . size ( ) ;  <NL> float matrix1d matrix = make ( repeat * size ) ;  <NL> for ( int i = repeat ; - - i > = 0 ; ) {  <NL> matrix . view part ( size * i , size ) . assign ( a ) ;  <NL>  }  <NL> return matrix ;  <NL>  }  COM: <s> c a a </s>

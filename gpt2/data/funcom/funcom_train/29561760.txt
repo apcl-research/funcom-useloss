@@ -1,0 +1,1 @@
+TDAT: public void set non index string ( int attr id , string value ) {  <NL> if ( non index attrs = = null ) {  <NL> non index attrs = new t int object hash map < string > ( 4 , 1 . 0f ) ; / / high load factor to get compact map <NL>  }  <NL> non index attrs . put ( attr id , value ) ;  <NL>  }  COM: <s> add a non index string to this object e </s>

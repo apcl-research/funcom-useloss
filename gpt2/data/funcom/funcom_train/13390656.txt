@@ -1,0 +1,1 @@
+TDAT: protected double get top line value ( ) {  <NL> double top line value = mean + 3 * std dev ;  <NL> top line value = math . max ( top line value , max ) ;  <NL> if ( ! double . is na n ( high threshold ) ) {  <NL> top line value = math . max ( top line value , high threshold ) ;  <NL>  }  <NL> return top line value ;  <NL>  }  COM: <s> get the value for the top y axis </s>

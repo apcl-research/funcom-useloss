@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> return <NL> this . m00 + " , " + this . m01 + " , " + this . m02 + " \n " +  <NL> this . m10 + " , " + this . m11 + " , " + this . m12 + " \n " +  <NL> this . m20 + " , " + this . m21 + " , " + this . m22 + " \n " ;  <NL>  }  COM: <s> returns a string that contains the values of this matrix3d </s>

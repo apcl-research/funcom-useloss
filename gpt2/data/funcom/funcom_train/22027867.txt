@@ -1,0 +1,1 @@
+TDAT: public void write task log ( cms db context dbc , int task id , string comment , int type ) throws cms exception {  <NL>  <NL> m _ workflow driver . write task log ( dbc , task id , dbc . current user ( ) . get id ( ) , new java . sql . timestamp (  <NL> system . current time millis ( ) ) , comment , type ) ;  <NL>  }  COM: <s> writes a new task log entry for a task </s>

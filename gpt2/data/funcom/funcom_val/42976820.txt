@@ -1,0 +1,1 @@
+TDAT: private void send command ( string message ) {  <NL> for ( iterator < user > i = this . users . iterator ( ) ; i . has next ( ) ; ) {  <NL> user u = i . next ( ) ;  <NL>  / / u . get io ( ) . write ( this . get name ( ) + " | " + message , message factory . gamecmd ) ;  <NL> this . send command ( message , u ) ;  <NL>  }  <NL>  }  COM: <s> it sends the message </s>

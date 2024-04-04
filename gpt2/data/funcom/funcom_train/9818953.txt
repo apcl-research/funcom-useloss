@@ -1,0 +1,1 @@
+TDAT: private void add _ register ( wire d , wire clk _ en , wire q , string instance name ) {  <NL> if ( clk _ en ! = null )  <NL> regce _ o ( d , clk _ en , q , instance name ) ;  <NL> else <NL> reg _ o ( d , q , instance name ) ;  <NL>  }  COM: <s> convenience method that adds a register appropriately depending </s>

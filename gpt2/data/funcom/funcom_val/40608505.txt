@@ -1,0 +1,1 @@
+TDAT: public void test main programs for sanity ( ) {  <NL> myers bit parallel edit distance . main ( new string [ ] { " yes " , " no " , " 5 " } ) ;  <NL> myers bit parallel edit distance . multi . main ( new string [ ] { " yes " , " no " , " 5 " } ) ;  <NL>  }  COM: <s> test main programs to make sure they do not die unnaturally </s>

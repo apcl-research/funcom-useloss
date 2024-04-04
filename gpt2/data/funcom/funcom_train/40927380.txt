@@ -1,0 +1,1 @@
+TDAT: private void font compat ( ) {  <NL> final string font name = this . get fonts serif ( ) . split (  <NL> j math component . font _ separator ) [ 0 ] ;  <NL> final float font size = this . get font size ( ) ;  <NL> super . set font ( new font ( font name , 0 , ( int ) font size ) ) ;  <NL>  }  COM: <s> provide compatibility for standard get set font operations </s>

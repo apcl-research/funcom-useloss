@@ -1,0 +1,1 @@
+TDAT: public void print target package link ( package doc pd , string target ,  <NL> string label ) {  <NL> print ( get hyper link ( path string ( pd , " package - summary . html " ) , " " , label ,  <NL> false , " " , " " , target ) ) ;  <NL>  }  COM: <s> print package link with target frame </s>

@@ -1,0 +1,1 @@
+TDAT: protected void write c64filename ( final byte [ ] buffer , final int offset , final int length , final string filename ) {  <NL> for ( int i = 0 ; i < length ; + + i ) {  <NL> buffer [ i + offset ] = ( byte ) ( i > = filename . length ( ) ? 0xa0 : filename . char at ( i ) ) ;  <NL>  }  <NL>  }  COM: <s> write a c64 filename to a given position in a buffer </s>

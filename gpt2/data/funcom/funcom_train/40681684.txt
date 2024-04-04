@@ -1,0 +1,1 @@
+TDAT: public void put ( string key , string item ) {  <NL> assert key . matches ( " [ a - z a - z0 - 9 ] * " ) : " illegal character in the key " ;  <NL> log . log ( level . debug , " set [ " + key + " : " + item + " ] " , null ) ;  <NL> data . put ( key , item ) ;  <NL>  }  COM: <s> inserts a new value into the dataset </s>

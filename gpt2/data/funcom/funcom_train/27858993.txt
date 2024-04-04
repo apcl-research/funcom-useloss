@@ -1,0 +1,1 @@
+TDAT: public void align to western label ( long x , long y ) {  <NL> if ( g title box = = null ) { return ; } / / xxx : temporary fix , i don ' t know why it is null in case of single node matrices <NL> g title box . move to ( x - g title box . get width ( ) / 2 , y - g title box . get height ( ) ) ;  <NL>  }  COM: <s> must be called before showing the box </s>

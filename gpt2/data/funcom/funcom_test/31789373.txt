@@ -1,0 +1,1 @@
+TDAT: public void set supported actions ( boolean [ ] val ) {  <NL> if ( ( val = = null ) || ( val . length ! = action _ help + 1 ) ) {  <NL> return ; } / / bad arg <NL> system . arraycopy ( val , 0 , get supported actions ( ) , 0 , action _ help + 1 ) ;  <NL>  }  COM: <s> mutator for supported actions </s>

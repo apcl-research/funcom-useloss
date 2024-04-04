@@ -1,0 +1,1 @@
+TDAT: public boolean is identity ( ) {  <NL> if ( this . get value ( ) . equals ( " 1 . 0 0 . 0 0 . 0 0 . 0 0 . 0 1 . 0 0 . 0 0 . 0 0 . 0 0 . 0 1 . 0 0 . 0 0 . 0 0 . 0 0 . 0 1 . 0 " ) ) {  <NL> return true ;  <NL>  } else {  <NL> return false ;  <NL>  }  <NL>  }  COM: <s> is identity matrix </s>

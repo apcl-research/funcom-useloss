@@ -1,0 +1,1 @@
+TDAT: private void add tab list ( ) {  <NL> control [ ] controls = { f class text , f folder text , f folder button , f sub folder check ,  <NL> f rec zip check , f options group , f search for group , f search in group } ;  <NL> this . set tab list ( controls ) ;  <NL>  }  COM: <s> forces tab order </s>

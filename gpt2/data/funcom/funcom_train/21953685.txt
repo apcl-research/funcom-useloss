@@ -1,0 +1,1 @@
+TDAT: public file get absolute file ( ) {  <NL>  <NL> get logger ( ) . fine ( " calling get absolute file ( ) on " + get absolute path ( ) ) ;  <NL> if ( this . is absolute ( ) )  <NL> return this ;  <NL> else <NL> return new folder file wrapper ( get folder ( ) , get root ( ) , get absolute path ( ) ) ;  <NL>  }  COM: <s> returns this object </s>

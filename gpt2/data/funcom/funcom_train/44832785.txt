@@ -1,0 +1,1 @@
+TDAT: public void set max length ( integer max length ) {  <NL>  <NL> integer result = ( integer ) component utils . invoke method ( get page ( ) . get handler ( ) ,  <NL> get method ( " on set max length " ) , new object [ ] { max length } ) ;  <NL>  <NL> this . max length = ( result ! = null ) ? result : max length ;  <NL>  }  COM: <s> setter for property max length </s>

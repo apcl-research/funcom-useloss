@@ -1,0 +1,1 @@
+TDAT: public void set style ( java . lang . string style ) {  <NL>  <NL> string result = ( string ) component utils . invoke method ( get page ( ) . get handler ( ) ,  <NL> get method ( " on set style " ) , new object [ ] { style } ) ;  <NL>  <NL> this . style = ( result ! = null ) ? result : style ;  <NL>  }  COM: <s> setter for property style </s>

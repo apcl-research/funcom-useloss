@@ -1,0 +1,1 @@
+TDAT: private void reset check box ( ) {  <NL> cb mon . set selected ( false ) ;  <NL> cb tue . set selected ( false ) ;  <NL> cb wed . set selected ( false ) ;  <NL> cb thu . set selected ( false ) ;  <NL> cb fri . set selected ( false ) ;  <NL> cb sat . set selected ( false ) ;  <NL> cb sun . set selected ( false ) ;  <NL>  }  COM: <s> uncheck all daily checkbox </s>

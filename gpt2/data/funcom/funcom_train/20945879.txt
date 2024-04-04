@@ -1,0 +1,1 @@
+TDAT: public void set name ( string name ) {  <NL> if ( this . name = = null )  <NL> this . name = name ;  <NL> else if ( name = = null )  <NL> throw new illegal argument exception ( " name = null " ) ;  <NL> else if ( ! name . equals ( this . name ) )  <NL> throw new illegal argument exception ( " name = " + name ) ;  <NL>  }  COM: <s> sets the name of this configuration </s>

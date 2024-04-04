@@ -1,0 +1,1 @@
+TDAT: public void set configuration ( device device , net device config config ) {  <NL> final preferences dev prefs = dev configs prefs . node ( device . get id ( ) ) ;  <NL> dev prefs . put ( config _ class _ name _ key , config . get class ( ) . get name ( ) ) ;  <NL> config . store ( dev prefs ) ;  <NL>  }  COM: <s> set the configuration data for the given device </s>

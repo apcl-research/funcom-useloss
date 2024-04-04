@@ -1,0 +1,1 @@
+TDAT: public void assign role to user ( object token id , object role id ) {  <NL> list result = ( list ) role ids by id . get ( token id ) ;  <NL> if ( result = = null ) {  <NL> result = new array list ( ) ;  <NL> role ids by id . put ( token id , result ) ;  <NL>  }  <NL> result . add ( role id ) ;  <NL>  }  COM: <s> assigns role to user </s>

@@ -1,0 +1,1 @@
+TDAT: protected cache create system cache ( string cache name , i cache [ ] aux caches , i composite cache attributes cattr , attributes attr ) {  <NL> if ( cmd ) {  <NL> p ( " called create cache in cachemanager " ) ;  <NL>  }  <NL> return new cache ( cache name , aux caches , cattr , attr ) ;  <NL>  }  COM: <s> method for internal system cache creation </s>

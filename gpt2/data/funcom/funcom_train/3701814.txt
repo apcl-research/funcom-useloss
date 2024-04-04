@@ -1,0 +1,1 @@
+TDAT: public int hash code ( ) {  <NL> int code = 0 , i = 1 ;  <NL> iterator iter = m _ items . iterator ( ) ;  <NL> while ( iter . has next ( ) ) {  <NL> result r = ( result ) iter . next ( ) ;  <NL> code + = ( i + + ) * r . hash code ( ) ;  <NL>  }  <NL> return code ;  <NL>  } / /  COM: <s> returns a hash code for this object </s>

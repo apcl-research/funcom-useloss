@@ -1,0 +1,1 @@
+TDAT: public void set value ( string name , int value ) {  <NL> if ( conf . contains key ( name ) ) {  <NL> if ( ! conf . get property ( name ) . equals ( " " + value ) ) {  <NL> changed = true ;  <NL>  }  <NL>  } else {  <NL> changed = true ;  <NL>  }  <NL> conf . set property ( name , " " + value ) ;  <NL>  }  COM: <s> set a configuration setting integer value </s>

@@ -1,0 +1,1 @@
+TDAT: public void update ( int value32 ) {  <NL>  <NL> update ( ( byte ) ( ( value32 > > > 24 ) & 0xff ) ) ;  <NL> update ( ( byte ) ( ( value32 > > > 16 ) & 0xff ) ) ;  <NL> update ( ( byte ) ( ( value32 > > > 8 ) & 0xff ) ) ;  <NL> update ( ( byte ) ( ( value32 > > > 0 ) & 0xff ) ) ;  <NL>  }  COM: <s> add four bytes for hashing </s>

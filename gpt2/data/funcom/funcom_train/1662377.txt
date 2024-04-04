@@ -1,0 +1,1 @@
+TDAT: public void test put ( ) {  <NL> system . out . println ( " put " ) ;  <NL>  <NL> string uri = " chk @ " ;  <NL> string id = " mytestput " ;  <NL> byte [ ] data = " i ' m but a wee snippet . " . get bytes ( ) ;  <NL>  <NL> instance . put ( uri , id , data ) ;  <NL>  <NL> my wait ( ) ;  <NL>  }  COM: <s> test of put method of class org </s>

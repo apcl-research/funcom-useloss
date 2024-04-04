@@ -1,0 +1,1 @@
+TDAT: private int get int of ( byte [ ] byte array ) {  <NL> int result = 0 ;  <NL> final int byte count = byte array . length ;  <NL> for ( int byte pos = 0 ; byte pos < byte count ; byte pos + + ) {  <NL> result < < = 8 ;  <NL> result | = ( int ) byte array [ byte pos ] & 0xff ;  <NL>  }  <NL> return result ;  <NL>  }  COM: <s> translates a byte array into an int </s>

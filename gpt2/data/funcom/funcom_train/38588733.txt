@@ -1,0 +1,1 @@
+TDAT: private void compare and add ( string buffer out text , string name , object obj master , object obj slave ) {  <NL> if ( ! obj master . equals ( obj slave ) ) {  <NL> out text . append ( name ) . append ( " : " ) . append ( obj master ) . append ( " : " ) . append ( obj slave ) . append ( " \n " ) ;  <NL>  }  <NL>  }  COM: <s> compare specific values </s>

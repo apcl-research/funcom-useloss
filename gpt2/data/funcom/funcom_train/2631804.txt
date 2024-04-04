@@ -1,0 +1,1 @@
+TDAT: public void set status coord range ( point a , point b ) {  <NL> status coord info = paint example . get resource string ( " status . coord range . format " , new object [ ]  <NL>  { new integer ( a . x ) , new integer ( a . y ) , new integer ( b . x ) , new integer ( b . y ) } ) ;  <NL> update status ( ) ;  <NL>  }  COM: <s> sets the coordinate range in the status bar </s>

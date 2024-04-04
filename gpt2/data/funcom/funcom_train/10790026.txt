@@ -1,0 +1,1 @@
+TDAT: public void ref columns ( ) {  <NL> column [ ] cols = get columns ( ) ;  <NL> for ( int i = 0 ; i < cols . length ; i + + )  <NL> cols [ i ] . ref ( ) ;  <NL> cols = get constant columns ( ) ;  <NL> for ( int i = 0 ; i < cols . length ; i + + )  <NL> cols [ i ] . ref ( ) ;  <NL>  }  COM: <s> ref all columns in this key </s>

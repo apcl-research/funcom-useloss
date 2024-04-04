@@ -1,0 +1,1 @@
+TDAT: public file get last opened file ( ) {  <NL> string file name = controller manager impl . get instance ( ) . get user prefs ( ) .  <NL> get ( open location key , " " ) ; / / $ non - nls - 1 $  <NL> if ( file name . length ( ) = = 0 ) {  <NL> return null ;  <NL>  }  <NL> return new file ( file name ) ;  <NL>  }  COM: <s> get the last opened file or null if there is none </s>

@@ -1,0 +1,1 @@
+TDAT: final public void and not and ( bit vector set1 , bit vector set2 ) {  <NL> int n = math . min ( this . length ( ) ,  <NL> math . min ( set1 . length ( ) , set2 . length ( ) ) ) ;  <NL> for ( int i = 0 ; i < n ; i + + ) {  <NL> and w ( i , ~ ( set1 . get w ( i ) & set2 . get w ( i ) ) ) ;  <NL>  }  <NL>  }  COM: <s> do this this s1 s2 </s>

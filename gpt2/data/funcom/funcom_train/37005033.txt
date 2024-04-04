@@ -1,0 +1,1 @@
+TDAT: public void rename ( ast node node , string new name ) {  <NL> simple name new simple name = ast . new simple name ( new name ) ;  <NL>  / / note : doesn ' t work at the moment ( 2nd parameter doesn ' t fit )  <NL> ast rewrite . set ( node , simple type . name _ property , new simple name , null ) ;  <NL>  }  COM: <s> this method renames anything which extends </s>

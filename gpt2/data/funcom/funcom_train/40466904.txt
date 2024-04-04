@@ -1,0 +1,1 @@
+TDAT: public void add find bugs data ( string file name ) {  <NL> if ( this . find bugs data . contains key ( file name ) ) {  <NL> this . find bugs data . put ( file name , this . find bugs data . get ( file name ) + 1 ) ;  <NL>  }  <NL> else {  <NL> this . find bugs data . put ( file name , 1 ) ;  <NL>  }  <NL>  }  COM: <s> adds the find bugs data to the map </s>

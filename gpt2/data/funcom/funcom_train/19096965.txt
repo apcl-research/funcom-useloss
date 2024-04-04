@@ -1,0 +1,1 @@
+TDAT: public long get time ( ) {  <NL> if ( m _ start = = null ) return 0 ;  <NL>  <NL> calendar stop ;  <NL> if ( m _ stop ! = null ) {  <NL> stop = m _ stop ;  <NL>  } else {  <NL> stop = new gregorian calendar ( ) ;  <NL>  }  <NL>  <NL> return stop . get time in millis ( ) - m _ start . get time in millis ( ) ;  <NL>  }  COM: <s> get the time value in milliseconds </s>

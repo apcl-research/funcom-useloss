@@ -1,0 +1,1 @@
+TDAT: public object get data ( object p key , int p index ) {  <NL> object obj = null ;  <NL> array list arr = ( array list ) m hash . get ( p key ) ;  <NL> if ( ( arr ! = null ) & & ( p index > = 0 ) ) {  <NL> if ( arr . size ( ) > p index ) {  <NL> obj = arr . get ( p index ) ;  <NL>  }  <NL>  }  <NL> return obj ;  <NL>  }  COM: <s> retrieve data from the taglist </s>

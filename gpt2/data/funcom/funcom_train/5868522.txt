@@ -1,0 +1,1 @@
+TDAT: protected string get gantt task tooltip ( date start , date end , number percent ) {  <NL> return new message format ( " { 2 , number , 0 . 0 % } , { 0 } ~ { 1 } " )  <NL>  . format ( new object [ ] { get date format ( ) . format ( start ) , get date format ( ) . format ( end ) , percent } ) ;  <NL>  }  COM: <s> returns data tooltiptext of the gantt task </s>

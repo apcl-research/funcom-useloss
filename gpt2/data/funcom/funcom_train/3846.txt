@@ -1,0 +1,1 @@
+TDAT: private void add id ( xml doc doc , string target , string url ) {  <NL> org . w3c . dom . element element ;  <NL> element = doc . add element ( null , " map id " ) ;  <NL> doc . set attribute ( element , " target " , target ) ;  <NL> doc . set attribute ( element , " url " , url ) ;  <NL>  }  COM: <s> add a mpa id to the document </s>

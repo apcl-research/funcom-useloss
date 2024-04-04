@@ -1,0 +1,1 @@
+TDAT: public void unread ( int one byte ) throws io exception {  <NL> if ( buf = = null ) {  <NL> throw new io exception ( ) ;  <NL>  }  <NL> if ( pos = = 0 ) {  <NL> throw new io exception ( msg . get string ( " k007e " ) ) ; / / $ non - nls - 1 $  <NL>  }  <NL> buf [ - - pos ] = ( byte ) one byte ;  <NL>  }  COM: <s> pushes the specified byte </s>

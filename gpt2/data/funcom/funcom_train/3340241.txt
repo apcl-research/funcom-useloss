@@ -1,0 +1,1 @@
+TDAT: public void process key event ( key event ke _ ) {  <NL> int key = ke _ . get key code ( ) ;  <NL> if ( key > = ' a ' & & key < = ' z ' ) {  <NL> ke _ . set key code ( key - ( ' a ' - ' a ' ) ) ;  <NL>  }  <NL>  <NL> super . process key event ( ke _ ) ;  <NL>  }  COM: <s> convert keystrokes to uppercase before calling the jtext fields </s>

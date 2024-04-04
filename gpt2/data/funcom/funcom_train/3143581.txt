@@ -1,0 +1,1 @@
+TDAT: public int index of name ( string name ) {  <NL> string s = name . to lower case ( ) + ' : ' ;  <NL> int i = 0 ;  <NL> while ( i < size ( ) ) {  <NL> if ( get ( i ) . to lower case ( ) . starts with ( s ) ) {  <NL> return i ;  <NL>  }  <NL> i + + ;  <NL>  }  <NL> return - 1 ;  <NL>  }  COM: <s> finds a key in a jad file </s>

@@ -1,0 +1,1 @@
+TDAT: private void update mesh ( bone bone , boolean clear ) {  <NL> bone . update mesh ( clear ) ;  <NL> clear = false ;  <NL> enumeration en = bone . get all children ( ) ;  <NL> while ( en . has more elements ( ) ) {  <NL> bone b = ( bone ) en . next element ( ) ;  <NL> update mesh ( b , false ) ;  <NL>  }  <NL>  }  COM: <s> the method to update the mesh </s>

@@ -1,0 +1,1 @@
+TDAT: public int get voxel value int ( int x , int y , int z ) {  <NL> int a = ( x + this . x * y + this . x * this . y * z ) ;  <NL> int b = image2 [ a / integer . size ] ;  <NL> int i = a % integer . size ;  <NL> return ( b > > ( integer . size - 1 - i ) & 0x0001 ) ;  <NL>  }  COM: <s> returns the voxel value from code image2 code </s>

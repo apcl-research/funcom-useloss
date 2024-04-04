@@ -1,0 +1,1 @@
+TDAT: public integer read tag ( byte [ ] data , integer offset ) {  <NL> try {  <NL> ndmn field f = new ndmn field ( data , this . get byte order ( ) ) ;  <NL> long l = u . read2bytes ( f , offset ) ;  <NL> return l . int value ( ) ;  <NL>  } catch ( ndmn exception e ) {  <NL> system . err . println ( e ) ;  <NL> return 0 ;  <NL>  }  <NL>  }  COM: <s> read a tag out of data </s>

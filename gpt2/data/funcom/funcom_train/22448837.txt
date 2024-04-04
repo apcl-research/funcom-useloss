@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> string buffer sbuf = new string buffer ( ) ;  <NL> sbuf . append ( " \n roles\n " ) ;  <NL> sbuf . append ( roles . to string ( ) ) ;  <NL> sbuf . append ( " \n axioms\n " ) ;  <NL> sbuf . append ( axioms . to string ( ) ) ;  <NL> return ( sbuf . to string ( ) ) ;  <NL>  }  COM: <s> get a string representation of the tbox </s>

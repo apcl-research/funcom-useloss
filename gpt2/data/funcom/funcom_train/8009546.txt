@@ -1,0 +1,1 @@
+TDAT: public int get active tab ( ) {  <NL> int n = _ tab items . size ( ) ;  <NL> for ( int i = 0 ; i < n ; i + + ) {  <NL> tab info info = ( tab info ) _ tab items . element at ( i ) ;  <NL> if ( info . _ active )  <NL>  {  <NL> return i + 1 ;  <NL>  }  <NL>  }  <NL> return 1 ;  <NL>  }  COM: <s> get active tab number </s>

@@ -1,0 +1,1 @@
+TDAT: private void update ui ( document event e ) {  <NL> try {  <NL> envelope . set text ( e . get document ( ) . get text ( 0 , e . get document ( ) . get length ( ) ) ) ;  <NL>  } catch ( bad location exception ex ) {  <NL> logger . log ( level . severe , " error getting sms text " , ex ) ;  <NL>  }  <NL>  }  COM: <s> update form components </s>

@@ -1,0 +1,1 @@
+TDAT: public void add required phrase ( string [ ] terms ) {  <NL> if ( terms . length = = 0 ) { / / ignore empty phrase <NL>  } else if ( terms . length = = 1 ) {  <NL> add required term ( terms [ 0 ] ) ; / / optimize to term query <NL>  } else {  <NL> clauses . add ( new clause ( new phrase ( terms ) , true , false ) ) ;  <NL>  }  <NL>  }  COM: <s> add a required phrase </s>

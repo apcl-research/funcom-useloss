@@ -1,0 +1,1 @@
+TDAT: public void add field ( field field ) {  <NL> if ( f fields = = null )  <NL> f fields = new field [ 4 ] ;  <NL> else if ( f field count = = f fields . length )  <NL> f fields = resize ( f fields , f field count * 2 ) ;  <NL> f fields [ f field count + + ] = field ;  <NL>  } / / add field ( field )  COM: <s> adds a field </s>

@@ -1,0 +1,1 @@
+TDAT: public integer search ap ( string tag ) {  <NL> ap router ;  <NL> for ( int i = 0 ; i < access points . size ( ) ; i + + ) {  <NL> router = ( ap ) access points . get ( i ) ;  <NL> if ( router . what ap ( ) . to string ( ) . trim ( ) . equals ( tag ) )  <NL> return i ;  <NL>  }  <NL> return - 1 ;  <NL>  }  COM: <s> return the position of an ap stored in the list </s>

@@ -1,0 +1,1 @@
+TDAT: public int get active threads ( ) {  <NL> worm [ ] w = worms ;  <NL>  <NL> if ( w = = null )  <NL> return 0 ;  <NL>  <NL> int n = 0 ;  <NL> for ( int i = 0 ; i < w . length ; + + i )  <NL> if ( w [ i ] ! = null & & w [ i ] . link ! = null )  <NL>  + + n ;  <NL> return n ;  <NL>  }  COM: <s> get number of threads currently working </s>

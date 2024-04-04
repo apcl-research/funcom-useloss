@@ -1,0 +1,1 @@
+TDAT: public void set attribute names ( string [ ] in attribute names ) {  <NL> my combo attributes . remove all items ( ) ;  <NL> if ( in attribute names = = null ) return ;  <NL> for ( int i = 0 ; i < in attribute names . length ; i + + ) {  <NL> my combo attributes . add item ( in attribute names [ i ] ) ;  <NL>  }  <NL>  }  COM: <s> set the attribute names </s>

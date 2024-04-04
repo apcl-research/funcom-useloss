@@ -1,0 +1,1 @@
+TDAT: public void add targeter ( instruction targeter tar ) {  <NL> if ( tar = = null )  <NL> return ;  <NL> for ( int i = 0 ; i < targeters . size ( ) ; i + + ) {  <NL> if ( targeters . get ( i ) = = tar )  <NL> return ;  <NL>  }  <NL> targeters . add ( tar ) ;  <NL> tar . update target ( null , this ) ;  <NL>  }  COM: <s> adds a targeter to this handle </s>

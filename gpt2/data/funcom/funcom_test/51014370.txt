@@ -1,0 +1,1 @@
+TDAT: private string get text ( string input ) {  <NL> if ( input . starts with ( " \ " " ) ) {  <NL> input = input . substring ( 1 , input . length ( ) ) ;  <NL> int index = input . index of ( " \ " " ) ;  <NL> input = input . substring ( 0 , index ) ;  <NL>  }  <NL> return input ;  <NL>  }  COM: <s> removes trailing character and possible last double quote </s>

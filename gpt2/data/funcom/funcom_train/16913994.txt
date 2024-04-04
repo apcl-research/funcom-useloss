@@ -1,0 +1,1 @@
+TDAT: public void update ( ) {  <NL> if ( is dead ) {  <NL> if ( math . random ( ) < this . get resurrection prob ( ) ) {  <NL> is dead = false ; / / resurrect <NL> bites = 0 ;  <NL>  }  <NL>  } else {  <NL> if ( this . get bites ( ) > this . get bites to die ( ) ) {  <NL> is dead = true ; / / terminate <NL>  }  <NL>  }  <NL>  }  COM: <s> life and death </s>

@@ -1,0 +1,1 @@
+TDAT: public void test request ( ) {  <NL> log entry . set request ( " get / blog / " ) ;  <NL> assert equals ( " get / blog / " , log entry . get request ( ) ) ;  <NL> assert equals ( " get " , log entry . get request method ( ) ) ;  <NL> assert equals ( " / blog / " , log entry . get request uri ( ) ) ;  <NL>  }  COM: <s> tests the request property </s>

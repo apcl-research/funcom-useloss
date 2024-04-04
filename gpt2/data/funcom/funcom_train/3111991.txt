@@ -1,0 +1,1 @@
+TDAT: public void center component ( window c ) {  <NL> dimension dim = toolkit . get default toolkit ( ) . get screen size ( ) ;  <NL> c . set location ( ( dim . width / 2 ) - ( c . get width ( ) / 2 ) ,  <NL>  ( dim . height / 2 ) - ( c . get height ( ) / 2 ) ) ;  <NL>  }  COM: <s> used to center a component on screen </s>

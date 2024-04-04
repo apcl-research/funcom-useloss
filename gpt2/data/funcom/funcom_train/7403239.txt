@@ -1,0 +1,1 @@
+TDAT: public void test find range bounds2 ( ) {  <NL> xy dataset dataset = create xy dataset1 ( ) ;  <NL> range r = dataset utilities . find range bounds ( dataset ) ;  <NL> assert equals ( 100 . 0 , r . get lower bound ( ) , epsilon ) ;  <NL> assert equals ( 105 . 0 , r . get upper bound ( ) , epsilon ) ;  <NL>  }  COM: <s> some tests for the find range bounds method </s>

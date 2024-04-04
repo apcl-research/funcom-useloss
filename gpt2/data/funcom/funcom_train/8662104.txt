@@ -1,0 +1,1 @@
+TDAT: public void append ( string inner , string outer , string name , int flags ) {  <NL> int i = const pool . add class info ( inner ) ;  <NL> int o = const pool . add class info ( outer ) ;  <NL> int n = const pool . add utf8info ( name ) ;  <NL> append ( i , o , n , flags ) ;  <NL>  }  COM: <s> appends a new entry </s>

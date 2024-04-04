@@ -1,0 +1,1 @@
+TDAT: private void set _ edge _ pruned ( hash map < edge , integer > pruned , edge edge ) {  <NL> for ( edge edge1 : pruned . key set ( ) ) {  <NL> if ( ( edge . u = = edge1 . u & & edge . v = = edge1 . v ) || ( edge . u = = edge1 . v & & edge . v = = edge1 . u ) )  <NL> pruned . put ( edge1 , 1 ) ;  <NL>  }  <NL>  }  COM: <s> old version but still has some usages </s>

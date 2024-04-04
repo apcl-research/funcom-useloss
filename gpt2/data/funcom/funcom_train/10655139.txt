@@ -1,0 +1,1 @@
+TDAT: public void test insert update ( ) throws bad location exception {  <NL> text area . set text ( " line1\n\n\n\n " ) ;  <NL> assert equals ( 5 , view . get view count ( ) ) ;  <NL> assert same ( doc , text area . get document ( ) ) ;  <NL> doc . insert string ( 7 , " \n " , null ) ;  <NL>  }  COM: <s> this tests that no npe is thrown when a line is removed </s>

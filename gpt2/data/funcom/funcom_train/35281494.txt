@@ -1,0 +1,1 @@
+TDAT: public view port get pre view ( string view name ) {  <NL> for ( int i = 0 ; i < pre view ports . size ( ) ; i + + ) {  <NL> if ( pre view ports . get ( i ) . get name ( ) . equals ( view name ) ) {  <NL> return pre view ports . get ( i ) ;  <NL>  }  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> returns the pre view port with the given name </s>

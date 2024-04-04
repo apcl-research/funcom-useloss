@@ -1,0 +1,1 @@
+TDAT: public double get total ( int customer id ) {  <NL> double total = 0 ;  <NL>  <NL> for ( int i = 0 ; i < this . get size ( ) ; i + + ) {  <NL> if ( list . get ( i ) . get customer id ( ) = = customer id ) {  <NL> total + = list . get ( i ) . get amount ( ) ;  <NL>  }  <NL>  }  <NL>  <NL> return total ;  <NL>  }  COM: <s> retrieves the total </s>

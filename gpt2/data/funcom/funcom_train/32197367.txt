@@ -1,0 +1,1 @@
+TDAT: public void clear all borders ( ) {  <NL> for ( int rank = 0 ; rank < 8 ; rank + + ) {  <NL> for ( int file = 0 ; file < 8 ; file + + ) {  <NL> square sq = position . get instance ( file , 7 - rank ) ;  <NL> sq . set move highlighting color ( false ) ;  <NL>  }  <NL>  }  <NL> repaint ( ) ;  <NL>  }  COM: <s> clears all highlighting </s>

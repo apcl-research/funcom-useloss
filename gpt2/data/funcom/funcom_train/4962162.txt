@@ -1,0 +1,1 @@
+TDAT: public object iterator keys ( ) {  <NL> if ( keys array _ = = null ) {  <NL> keys array _ = new object [ size _ ] ;  <NL> for ( int i = 1 ; i < = size _ ; i + + )  <NL> keys array _ [ i - 1 ] = array _ [ i ] . key ( ) ;  <NL>  }  <NL> return new array object iterator ( keys array _ ) ;  <NL>  }  COM: <s> cached for constant factor efficiency </s>

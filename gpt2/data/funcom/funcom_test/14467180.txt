@@ -1,0 +1,1 @@
+TDAT: protected void notify observers ( int event , constituent c , object data ) {  <NL> for ( int i = 0 ; i < this . model observers . size ( ) ; i + + ) {  <NL>  ( ( model observer ) this . model observers . get ( i ) ) . model update ( event , this , c ,  <NL> data ) ;  <NL>  }  <NL>  }  COM: <s> notifies the observers of this model of model changes </s>

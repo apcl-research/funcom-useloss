@@ -1,0 +1,1 @@
+TDAT: public void set city list ( string [ ] city list ) {  <NL> prefs . put ( city list key , utilities . join list ( city list , " | " ) ) ;  <NL> this . city list = city list ;  <NL> this . refresh cities ( ) ;  <NL> log . get log ( ) . add ( log type . info , " city list set by user " ) ;  <NL>  }  COM: <s> sets the list of cities to be used for generating random weather </s>

@@ -1,0 +1,1 @@
+TDAT: public void add to array ( int value ) {  <NL> if ( size = = data . length ) {  <NL> int [ ] new array = new int [ 2 * size + 1 ] ;  <NL> system . arraycopy ( data , 0 , new array , 0 , size ) ;  <NL> data = new array ;  <NL>  }  <NL> data [ size ] = value ;  <NL>  + + size ;  <NL> should sort = true ;  <NL>  }  COM: <s> adds a value to the array </s>

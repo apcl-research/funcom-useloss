@@ -1,0 +1,1 @@
+TDAT: public object clone ( ) {  <NL> ct xf xf = ( ct xf ) _ cell xf . copy ( ) ;  <NL>  <NL> int xf size = _ styles source . _ get style xfs size ( ) ;  <NL> int index xf = _ styles source . put cell xf ( xf ) ;  <NL> return new xssf cell style ( index xf - 1 , xf size - 1 , _ styles source , _ theme ) ;  <NL>  }  COM: <s> make a copy of this style </s>

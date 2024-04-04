@@ -1,0 +1,1 @@
+TDAT: public void set min size ( int width , int height ) {  <NL> if ( width < 0 || height < 0 ) {  <NL> throw new illegal argument exception ( " negative size " ) ;  <NL>  }  <NL> min width = ( short ) math . min ( width , short . max _ value ) ;  <NL> min height = ( short ) math . min ( height , short . max _ value ) ;  <NL>  }  COM: <s> sets the minimum size of the widget </s>

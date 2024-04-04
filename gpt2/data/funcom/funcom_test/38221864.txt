@@ -1,0 +1,1 @@
+TDAT: private c variant function iif ( stack stack ) throws c expression error {  <NL> int params = get value ( stack , 0 ) . get int ( ) ;  <NL> check param count ( params , 3 ) ;  <NL> if ( get value ( stack , 3 ) . get boolean ( ) )  <NL> return get value ( stack , 2 ) ;  <NL> return get value ( stack , 1 ) ;  <NL>  }  COM: <s> calculates function iif </s>

@@ -1,0 +1,1 @@
+TDAT: public int size ( ) {  <NL> long count = 0 ;  <NL> for ( node n = find first ( ) ; n ! = null ; n = n . next ) {  <NL> if ( n . get valid value ( ) ! = null )  <NL>  + + count ;  <NL>  }  <NL> return ( count > = integer . max _ value ) ? integer . max _ value : ( int ) count ;  <NL>  }  COM: <s> returns the number of key value mappings in this map </s>

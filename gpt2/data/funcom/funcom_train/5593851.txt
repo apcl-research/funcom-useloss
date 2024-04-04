@@ -1,0 +1,1 @@
+TDAT: public void test time ( ) {  <NL> system . out . println ( " test time " ) ;  <NL>  <NL> sender . time ( ) ;  <NL> assert equals ( " time " , buffer to string ( ) ) ;  <NL> sender . time ( " * . chatservs . com " ) ;  <NL> assert equals ( " time * . chatservs . com " , buffer to string ( ) ) ;  <NL>  }  COM: <s> test of time method of class net </s>

@@ -1,0 +1,1 @@
+TDAT: public void set new main ins ( instructor ins ) {  <NL> if ( ins1 = = null )  <NL> this . size + + ;  <NL> if ( ins = = null )  <NL> this . size - - ;  <NL>  / / this . ins1 = ins ;  <NL> this . ins1 = ins ;  <NL> if ( ins1 ! = null )  <NL> ins1 . set price ( p ) ;  <NL> panel . set new main ins ( ) ;  <NL>  }  COM: <s> can only change this instructor </s>

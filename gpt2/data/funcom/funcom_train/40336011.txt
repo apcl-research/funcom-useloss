@@ -1,0 +1,1 @@
+TDAT: public object f ( com . google . gwt . dom . client . element e , int i ) {  <NL> set element ( e ) ;  <NL> set index ( i ) ;  <NL>  / / this has to be the order of calls <NL> return f ( e . < com . google . gwt . user . client . element > cast ( ) , i ) ;  <NL>  }  COM: <s> override this for gquery methods which loop over matched elements and </s>

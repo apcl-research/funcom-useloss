@@ -1,0 +1,1 @@
+TDAT: public void encompass ( static bound box to encompass ) {  <NL> for ( int i = 0 ; i < 3 ; + + i ) {  <NL> lower [ i ] = math . min ( lower [ i ] , to encompass . lower [ i ] ) ;  <NL> upper [ i ] = math . max ( upper [ i ] , to encompass . upper [ i ] ) ;  <NL>  }  <NL>  }  COM: <s> ensure that the range of code this code code static bound box code </s>

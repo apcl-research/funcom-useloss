@@ -1,0 +1,1 @@
+TDAT: public void test one revision ( ) {  <NL> final revision [ ] revs = { rev1 } ;  <NL> run builder ( revs ) ;  <NL> assert equals ( 1 , commits . size ( ) ) ;  <NL> assert equals ( 1 , get commit ( 0 ) . get revisions ( ) . size ( ) ) ;  <NL> assert true ( get commit ( 0 ) . get revisions ( ) . contains ( rev1 ) ) ;  <NL>  }  COM: <s> method test one revision </s>

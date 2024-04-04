@@ -1,0 +1,1 @@
+TDAT: private void add polar point ( polygon p , double deg , double mag ) {  <NL> double r = ( deg / 180 . 0 ) * math . pi ;  <NL> double x = ( math . sin ( r ) * mag ) + 50 ;  <NL> double y = ( math . cos ( r ) * - mag ) + 50 ;  <NL> p . add point ( ( int ) x , ( int ) y ) ;  <NL>  }  COM: <s> add a point to a polygon using polar co ordinates </s>

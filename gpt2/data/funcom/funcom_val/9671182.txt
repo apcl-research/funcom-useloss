@@ -1,0 +1,1 @@
+TDAT: public string wp _ kses _ html _ error ( string string ) {  <NL> return q reg ex perl . preg _ replace ( " / ^ ( \ " [ ^ \ " ] * ( \ " | $ ) |\ ' [ ^ \ ' ] * ( \ ' | $ ) |\\s ) * \\s * / " , " " , string ) ;  <NL>  }  COM: <s> wp kses html error handles parsing errors in wp kses hair </s>

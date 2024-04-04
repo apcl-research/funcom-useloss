@@ -1,0 +1,1 @@
+TDAT: protected void mmb pfx ( byte buffer buf , string path , structure strct , object [ ] [ ] data , int mmb ) {  <NL> if ( null = = strct . structure ( mmb ) )  <NL> buf . append ( path . get bytes ( ) ) . append ( strct . _ members [ mmb ] . get bytes ( ) ) . append ( ( byte ) 61 ) ;  <NL>  }  COM: <s> serializes a prefix to a given member </s>

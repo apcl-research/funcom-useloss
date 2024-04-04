@@ -1,0 +1,1 @@
+TDAT: private string get path ( ) {  <NL> string str = url ;  <NL> int i = str . index of ( " / / " ) ;  <NL> if ( i > 0 ) {  <NL> str = str . substring ( i + 2 ) ;  <NL>  }  <NL> i = str . index of ( " / " ) ;  <NL> if ( i < 0 ) {  <NL> return " " ;  <NL>  }  <NL> return str . substring ( i ) ;  <NL>  }  COM: <s> find the some file </s>

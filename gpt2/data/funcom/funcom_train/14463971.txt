@@ -1,0 +1,1 @@
+TDAT: public void set font size ( int sz ) {  <NL> set format handle ( ) ;  <NL> sz * = 20 ; / / excel size is 1 / 20 pt .  <NL>  / / 20071010 ksc : go thru format handle to properly set font + xf . . .  <NL>  / / mycell . get font ( ) . set font height ( sz ) ;  <NL> formatter . set font height ( sz ) ;  <NL>  }  COM: <s> change the size in points of the font used </s>

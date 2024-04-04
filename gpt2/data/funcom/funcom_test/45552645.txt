@@ -1,0 +1,1 @@
+TDAT: public void test concatenate list ( ) {  <NL> collection < string > c = arrays . as list ( " one " , " two " , " three " ) ;  <NL> string val = string utils . concatenate ( c , ' ; ' ) ;  <NL> assert equals ( " wrong concatenation " , " one ; two ; three " , val ) ;  <NL>  }  COM: <s> make sure concatenating works </s>

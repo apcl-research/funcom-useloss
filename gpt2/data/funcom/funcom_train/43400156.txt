@@ -1,0 +1,1 @@
+TDAT: public complex asin ( ) {  <NL> complex a = this . product ( this ) ;  <NL> a . negate ( ) ;  <NL> a . add ( 1 ) ;  <NL> a = a . sqrt ( ) ;  <NL> a . add ( this . product ( new complex ( 0 , 1 ) ) ) ;  <NL> a = a . log ( ) ;  <NL> a . multiply ( new complex ( 0 , 1 ) ) ;  <NL> a . negate ( ) ;  <NL> return a ;  <NL>  }  COM: <s> returns the arcsine of this number </s>

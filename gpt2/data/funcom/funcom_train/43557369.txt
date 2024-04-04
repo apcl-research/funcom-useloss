@@ -1,0 +1,1 @@
+TDAT: private string format short ( short short val ) {  <NL> string hex str = integer . to hex string ( short val ) ;  <NL> string buffer buf = new string buffer ( " 0000 " ) ;  <NL> int start = 4 - hex str . length ( ) ; / / > = 0 <NL> buf . replace ( start , 4 , hex str ) ;  <NL> return buf . to string ( ) ;  <NL>  }  COM: <s> short val 0 length 4 string </s>

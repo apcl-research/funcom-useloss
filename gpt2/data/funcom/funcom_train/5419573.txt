@@ -1,0 +1,1 @@
+TDAT: static protected search results search messages ( session s , string search text , int start at , int n results , int group id ) throws hibernate exception {  <NL> doc search doc search = new doc search ( s , search text ) ;  <NL> return doc search . search ( start at , n results , group id ) ;  <NL>  }  COM: <s> search text at messages </s>

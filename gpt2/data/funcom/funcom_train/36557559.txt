@@ -1,0 +1,1 @@
+TDAT: public void clear colors to white ( ) {  <NL> set hair color ( 1 . 0f , 1 . 0f , 1 . 0f ) ;  <NL> set shirt color ( 1 . 0f , 1 . 0f , 1 . 0f ) ;  <NL> set pants color ( 1 . 0f , 1 . 0f , 1 . 0f ) ;  <NL> set shoes color ( 1 . 0f , 1 . 0f , 1 . 0f ) ;  <NL>  }  COM: <s> will set all colors to white for debugging </s>

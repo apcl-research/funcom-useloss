@@ -1,0 +1,1 @@
+TDAT: public void add launch board ( launch board lb ) {  <NL> if ( ! validate class ( lb ) )  <NL> throw new aris exception ( " invalid launch board " ) ;  <NL> if ( ! exists ( lb . get id ( ) , 2 ) )  <NL> get hibernate template ( ) . save ( lb ) ;  <NL> else throw new aris exception ( " lauch board member already exists " ) ;  <NL>  }  COM: <s> adds the given launch board </s>

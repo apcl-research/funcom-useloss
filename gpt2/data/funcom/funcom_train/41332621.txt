@@ -1,0 +1,1 @@
+TDAT: public shape create rectangle ( final int x , final int y , final int w , final int h ) {  <NL> return create round rectangle internal ( x , y , w , h , 0 , corner style . square , corner style . square , corner style . square , corner style . square ) ;  <NL>  }  COM: <s> return a path for a rectangle with square corners </s>

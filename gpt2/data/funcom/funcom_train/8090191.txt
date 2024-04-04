@@ -1,0 +1,1 @@
+TDAT: public double vector empirical bayes estimate ( double vector x ) {  <NL> double vector pred = new double vector ( x . size ( ) ) ;  <NL> for ( int i = 0 ; i < x . size ( ) ; i + + )  <NL> pred . set ( i , empirical bayes estimate ( x . get ( i ) ) ) ;  <NL> trim ( pred ) ;  <NL> return pred ;  <NL>  }  COM: <s> returns the empirical bayes estimate of a vector </s>

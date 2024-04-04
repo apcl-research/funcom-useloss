@@ -1,0 +1,1 @@
+TDAT: public void open layer ( x component layer , int x , int y , boolean focus ) {  <NL> dimension preferred _ size = layer . get preferred size ( ) ;  <NL> open layer ( layer , x , y , preferred _ size . width , preferred _ size . height , focus ) ;  <NL>  }  COM: <s> will open a new layer at the given coordinates </s>

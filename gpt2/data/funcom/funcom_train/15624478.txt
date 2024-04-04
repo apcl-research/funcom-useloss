@@ -1,0 +1,1 @@
+TDAT: public void new node ( @ not null final string path ) {  <NL> if ( log . is debug enabled ( ) ) {  <NL> log . debug ( " new node ( " + path + " ) " ) ;  <NL>  }  <NL>  <NL> if ( ! values . contains key ( path ) ) {  <NL> values . put ( path , new tree map < string , string > ( ) ) ;  <NL>  }  <NL>  }  COM: <s> make sure a node exists </s>

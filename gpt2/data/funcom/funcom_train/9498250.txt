@@ -1,0 +1,1 @@
+TDAT: final public double evaluate ( double x ) {  <NL> if ( interval ) {  <NL>  / / check if x is in interval [ a , b ]  <NL> if ( ! ( a < = x & & x < = b ) ) return double . na n ;  <NL>  }  <NL>  <NL> f var . set ( x ) ;  <NL> return ( ( number value ) expression . evaluate ( ) ) . get double ( ) ;  <NL>  }  COM: <s> returns this functions value at position x </s>

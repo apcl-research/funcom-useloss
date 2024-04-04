@@ -1,0 +1,1 @@
+TDAT: public void put ( j k1 , k k2 , set < v > val ) {  <NL> map < k , set < v > > i = contains ( k1 ) ? get ( k1 ) : new hash map < k , set < v > > ( ) ;  <NL> if ( i . contains key ( k2 ) ) i . get ( k2 ) . add all ( val ) ;  <NL> else i . put ( k2 , val ) ;  <NL> outer . put ( k1 , i ) ;  <NL>  }  COM: <s> put all values from a set to the internal set </s>

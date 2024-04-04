@@ -1,0 +1,1 @@
+TDAT: public void emit clicked ( ) {  <NL> j button event event = new j button event ( 100 , 100 ) ;  <NL> for ( iterator it = this . listeners . iterator ( ) ; it . has next ( ) ; ) {  <NL> j button listener listener = ( j button listener ) it . next ( ) ;  <NL> listener . clicked event ( event ) ;  <NL>  }  <NL>  }  COM: <s> method for simulating user input </s>

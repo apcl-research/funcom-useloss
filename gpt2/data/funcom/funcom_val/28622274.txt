@@ -1,0 +1,1 @@
+TDAT: public int split segment ( int x , int y ) {  <NL>  / * int i = find segment ( x , y ) ;  <NL> if ( i ! = - 1 )  <NL> insert point at ( new point ( x , y ) , i + 1 ) ;  <NL> return i + 1 ;  <NL>  * /  <NL> system . out . println ( " split segment called " ) ;  <NL> return - 1 ;  <NL>  }  COM: <s> splits the segment at the given point if a segment was hit </s>

@@ -1,0 +1,1 @@
+TDAT: public void test other realms no auth ( ) throws exception {  <NL> start server ( 47501 ) ;  <NL> fetch page ( " / basic . jsp " , 200 ) ;  <NL> fetch page ( " / basic . jsp ? case = 1 " , 401 ) ;  <NL> fetch page ( " / basic . jsp ? case = 2 " , 401 ) ;  <NL>  }  COM: <s> tests that authentication happens for a defined realm and not for </s>

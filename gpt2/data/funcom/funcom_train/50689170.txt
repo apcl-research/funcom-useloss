@@ -1,0 +1,1 @@
+TDAT: private void do nipals ( ) {  <NL> pls compute . do nipals ( do mean center , do standard dev scale , ncomp , maxncomp , ncomp _ status , x , y , b , pp , qq ,  <NL> rr , tt , uu , ww , m _ width , m _ belowpoint ) ;  <NL>  }  COM: <s> do standard nipals pls </s>

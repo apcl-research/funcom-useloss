@@ -1,0 +1,1 @@
+TDAT: public boolean equals ( object o ) {  <NL> if ( o ! = null )  <NL> if ( o instanceof vect )  <NL> if ( ( get x ( ) = = ( ( vect ) o ) . get x ( ) ) & &  <NL>  ( get y ( ) = = ( ( vect ) o ) . get y ( ) ) & &  <NL>  ( get z ( ) = = ( ( vect ) o ) . get z ( ) ) )  <NL> return true ;  <NL> return false ;  <NL>  }  COM: <s> comparates this and the vector v done </s>

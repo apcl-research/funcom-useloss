@@ -1,0 +1,1 @@
+TDAT: public void update colors ( ) {  <NL> string label = " name " ;  <NL> graph view = new graph view ( frame , graph , label , " graph " ) ;  <NL> tree view = new graph view ( frame , graph , label , " tree " ) ;  <NL> load display ( frame . get graph type ( ) ) ;  <NL>  }  COM: <s> redraws the graph </s>

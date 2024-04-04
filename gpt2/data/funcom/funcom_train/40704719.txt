@@ -1,0 +1,1 @@
+TDAT: public void status set ( long uid , string status , async callback < java script object > callback ) {  <NL> json j = new json ( ) . put ( " uid " , uid ) . put ( " status " , status ) ;  <NL> call method ( " users . set status " , j . get java script object ( ) , callback ) ;  <NL>  }  COM: <s> updates a users facebook status through your application </s>

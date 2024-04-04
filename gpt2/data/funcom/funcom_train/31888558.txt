@@ -1,0 +1,1 @@
+TDAT: public void write ( byte [ ] data , int off , int len ) {  <NL> int max = short . max _ value - this . volume ;  <NL> len = math . min ( len , max ) ;  <NL> system . arraycopy ( data , off , this . body , this . volume , len ) ;  <NL> this . volume + = len ;  <NL>  }  COM: <s> to write data to the buffer body </s>

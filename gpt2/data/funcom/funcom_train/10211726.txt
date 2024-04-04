@@ -1,0 +1,1 @@
+TDAT: public object clone ( ) {  <NL> float64primitive vector v = ( float64primitive vector ) super . clone ( ) ;  <NL> if ( vals ! = null ) {  <NL> v . vals = new double [ vals . length ] ;  <NL> system . arraycopy ( vals , 0 , v . vals , 0 , vals . length ) ;  <NL>  }  <NL> return v ;  <NL>  }  COM: <s> returns a clone of this code float64 primitive vector code </s>

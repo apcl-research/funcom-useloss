@@ -1,0 +1,1 @@
+TDAT: private void swap ( int i , int j ) {  <NL> int hlp = this . pq [ i ] ;  <NL> this . pq [ i ] = this . pq [ j ] ;  <NL> this . pq [ j ] = hlp ;  <NL>  <NL> this . qp [ this . pq [ i ] ] = i ;  <NL> this . qp [ this . pq [ j ] ] = j ;  <NL>  }  COM: <s> swap change two items </s>

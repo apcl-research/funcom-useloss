@@ -1,0 +1,1 @@
+TDAT: public void test set name ( ) throws bad location exception {  <NL> model . get core helper ( ) . set name ( elem , " test " ) ;  <NL> model . get pump ( ) . flush model events ( ) ;  <NL> assert equals ( " test " , model . get text ( 0 , model . get length ( ) ) ) ;  <NL>  }  COM: <s> test set name </s>

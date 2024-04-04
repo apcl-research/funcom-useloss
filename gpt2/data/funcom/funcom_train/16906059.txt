@@ -1,0 +1,1 @@
+TDAT: private void skip ( ) {  <NL> if ( reverse ) players . add first ( players . remove last ( ) ) ;  <NL> else players . add last ( players . remove first ( ) ) ;  <NL> get network ( ) . get channel ( channel name ) . send privmsg ( players . get first ( ) . user . get nickname ( ) + " was skipped " ) ;  <NL> next player ( ) ;  <NL>  }  COM: <s> skip the current player </s>

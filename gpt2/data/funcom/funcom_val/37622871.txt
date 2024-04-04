@@ -1,0 +1,1 @@
+TDAT: protected s component prepare editor ( s table cell editor editor , int row , int col ) {  <NL> return editor . get table cell editor component ( this ,  <NL> model . get value at ( row , col ) ,  <NL> is row selected ( row ) , / / true ?  <NL> row , col ) ;  <NL>  }  COM: <s> prepares the specified editor using the value at the specified cell </s>

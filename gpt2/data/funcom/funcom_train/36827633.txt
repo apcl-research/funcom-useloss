@@ -1,0 +1,1 @@
+TDAT: public double get airport tax ( ) {  <NL>  / / get departure location <NL> string dep loc = f . get dep loc ( ) ;  <NL> my dao coms = uc startup . get instance ( ) . get dao ( ) ;  <NL> double airport tax = get cost ( ) * coms . s ql get airport tax ( f . get dep loc ( ) ) / percent ;  <NL> return airport tax ;  <NL>  }  COM: <s> returns the airport tax </s>

@@ -1,0 +1,1 @@
+TDAT: protected string escaped ( string text ) {  <NL> string result = strings . change ( text , " \ " " , " \\\ " " ) ;  <NL> result = strings . change ( result , " \n " , " " ) ;  <NL> result = strings . change ( result , " \r " , " " ) ;  <NL> return result ;  <NL>  }  COM: <s> returns the given string argument with embedded double quote characters </s>

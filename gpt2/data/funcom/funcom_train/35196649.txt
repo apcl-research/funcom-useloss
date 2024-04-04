@@ -1,0 +1,1 @@
+TDAT: public void set fleet end ( int index , fleet new fleet end ) {  <NL> fleet old fleet end = this . fleet end [ index ] ;  <NL> this . fleet end [ index ] = new fleet end ;  <NL> property change support . fire indexed property change ( prop _ fleetend , index , old fleet end , new fleet end ) ;  <NL>  }  COM: <s> set the value of fleet end at specified index </s>

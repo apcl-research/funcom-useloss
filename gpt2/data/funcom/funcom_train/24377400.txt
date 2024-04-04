@@ -1,0 +1,1 @@
+TDAT: private double probability ( int n , int m , int k , int x ) {  <NL> return fast math . exp ( arithmetic utils . binomial coefficient log ( m , x ) +  <NL> arithmetic utils . binomial coefficient log ( n - m , k - x ) -  <NL> arithmetic utils . binomial coefficient log ( n , k ) ) ;  <NL>  }  COM: <s> for this distribution </s>

@@ -1,0 +1,1 @@
+TDAT: private void show about dialog ( ) {  <NL> icon icon = icon loader . get icon ( icon loader . music _ file _ 24 ) ;  <NL> j option pane . show message dialog ( application , get about message ( ) ,  <NL>  " about " + mp3application . get application name ( ) , j option pane . ok _ option ,  <NL> icon ) ;  <NL>  }  COM: <s> shows help about dialog </s>

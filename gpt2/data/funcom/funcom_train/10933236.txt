@@ -1,0 +1,1 @@
+TDAT: private boolean is valid name ( string name ) {  <NL> if ( ( name = = null ) || ( name . length ( ) = = 0 ) || ( name . index of ( file . separator char ) ! = - 1 )  <NL> || ( name . index of ( file . path separator char ) ! = - 1 ) ) {  <NL> return false ;  <NL>  }  <NL>  <NL> return true ;  <NL>  }  COM: <s> checks if the given name is valid for a file system </s>

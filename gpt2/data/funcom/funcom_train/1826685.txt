@@ -1,0 +1,1 @@
+TDAT: public void add spacer ( ) {  <NL> j panel filler = new j panel ( ) ;  <NL> filler . set preferred size ( new dimension ( 5 , 5 ) ) ;  <NL> filler . set minimum size ( new dimension ( 5 , 5 ) ) ;  <NL> filler . set maximum size ( new dimension ( 5 , 5 ) ) ;  <NL> add ( filler ) ;  <NL>  }  COM: <s> unlike add separator works for vertical toolbars </s>

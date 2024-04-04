@@ -1,0 +1,1 @@
+TDAT: private void do new post ( ) {  <NL> f post type = post _ new ;  <NL> set post controls enabled ( true ) ;  <NL> set tree controls enabled ( false ) ;  <NL> f text title . set text ( " " ) ; / / $ non - nls - 1 $  <NL> f text content . set text ( " " ) ; / / $ non - nls - 1 $  <NL>  }  COM: <s> new top level post </s>

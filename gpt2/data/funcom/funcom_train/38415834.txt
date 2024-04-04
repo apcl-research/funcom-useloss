@@ -1,0 +1,1 @@
+TDAT: public door get door ( int room link id ) {  <NL> if ( room links = = null ) return null ;  <NL>  <NL> for ( int i = 0 ; i < room links . length ; i + + )  <NL> if ( room links [ i ] . get room link id ( ) = = room link id )  <NL> return room links [ i ] . get door ( ) ;  <NL>  <NL> return null ; / / not found <NL>  }  COM: <s> returns a door from its room link id </s>

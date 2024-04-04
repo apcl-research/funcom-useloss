@@ -1,0 +1,1 @@
+TDAT: public void add uninitialized entity ( key key , object object , lock mode lock mode ) {  <NL> add entity ( key , object ) ;  <NL> add entry ( object , loading , null , key . get identifier ( ) , null , lock mode , true , null / * get persister ( object ) * / , false ) ; / / temporary <NL>  }  COM: <s> create a temporary entry for a newly instantiated entity </s>

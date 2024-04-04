@@ -1,0 +1,1 @@
+TDAT: public void on paint ( graphics g ) {  <NL> g . set fore color ( color . black ) ;  <NL> g . draw text ( " worf drive square " , 0 , 0 ) ;  <NL> g . draw text ( " copyright ( c ) 2002 , scott davis " , 0 , 10 ) ;  <NL> g . draw text ( " http : / / worf . sourceforge . net " , 0 , 20 ) ;  <NL>  }  COM: <s> draw about strings </s>

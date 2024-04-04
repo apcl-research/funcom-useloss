@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> string element = " \n data element : : input : " + input . to string ( ) + " , " ;  <NL> element + = " desired : " + desired . to string ( ) + " , " ;  <NL> element + = " output : " + output . to string ( ) + " " ;  <NL>  <NL> return element ;  <NL>  }  COM: <s> returns a string representation of the training element </s>

@@ -1,0 +1,1 @@
+TDAT: public void print ptbr ( ) {  <NL> system . out . println ( " \n\t page table base register " ) ;  <NL> for ( pcb _ block p : job queue ) {  <NL> system . out . println ( " \t job : " + p . get job id ( ) + " \t ptbr : " + p . get ptbr ( ) ) ;  <NL>  }  <NL> system . out . println ( " " ) ;  <NL>  }  COM: <s> prints the page table base registers for all the jobs </s>

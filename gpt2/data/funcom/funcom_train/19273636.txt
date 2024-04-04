@@ -1,0 +1,1 @@
+TDAT: private void resize ( ) {  <NL>  <NL> point p = get size ( ) ;  <NL> p = compute size ( p . x , p . y ) ;  <NL> int text field width = p . x - fixed _ width ;  <NL> this . text field . set bounds ( 0 , 0 , text field width , p . y ) ;  <NL> this . spinner . set bounds ( text field width , 0 , fixed _ width , p . y ) ;  <NL>  }  COM: <s> this method resizes this widget </s>

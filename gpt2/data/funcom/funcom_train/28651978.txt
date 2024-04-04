@@ -1,0 +1,1 @@
+TDAT: private double distance ( point a , point b ) {  <NL> return math . sqrt ( ( a . get x ( ) - b . get x ( ) ) * ( a . get x ( ) - b . get x ( ) ) +  <NL>  ( a . get y ( ) - b . get y ( ) ) * ( a . get y ( ) - b . get y ( ) ) ) ;  <NL>  }  COM: <s> returns euclidian distance between point a and point b </s>

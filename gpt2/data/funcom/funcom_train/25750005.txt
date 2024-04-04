@@ -1,0 +1,1 @@
+TDAT: private void open browser ( string url ) {  <NL> try {  <NL> class util . open browser ( url ) ;  <NL>  } catch ( exception ex ) {  <NL> log . log ( level . warning , " failed to open browser . " , ex ) ;  <NL> super . show error message ( " failed to open browser " , " could not open help \n " + url ) ;  <NL>  }  <NL>  }  COM: <s> open a browser with the supplied url </s>

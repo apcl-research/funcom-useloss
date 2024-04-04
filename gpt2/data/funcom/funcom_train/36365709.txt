@@ -1,0 +1,1 @@
+TDAT: public float get intensity at ( int x , int y ) {  <NL> if ( x < pi . get width ( ) & & y < pi . get height ( ) ) {  <NL> return ( pi . get data ( ) . get sample float ( x , y , 0 ) ) ;  <NL>  }  <NL> else {  <NL> return ( - 1f ) ;  <NL>  }  <NL>  }  COM: <s> get the greyvalue at a certain position </s>

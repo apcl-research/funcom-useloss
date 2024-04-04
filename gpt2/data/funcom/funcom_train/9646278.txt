@@ -1,0 +1,1 @@
+TDAT: public void subtract to ( rectangle2d r ) {  <NL> r . set rect (  <NL> r . get x ( ) + get left ( ) ,  <NL> r . get y ( ) + get top ( ) ,  <NL> r . get width ( ) - get left ( ) - get right ( ) ,  <NL> r . get height ( ) - get top ( ) - get bottom ( )  <NL>  ) ;  <NL>  }  COM: <s> subtracts the current insets to the specified rectangle2 d making the </s>

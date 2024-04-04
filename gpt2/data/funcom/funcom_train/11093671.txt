@@ -1,0 +1,1 @@
+TDAT: public void on step exception ( string step name , exception e ) {  <NL> log . warn ( " step failed : " + step name + " . reason : " + e , e ) ;  <NL> suspend ( ) ;  <NL> fail ( " failed to execute step : " + step name + " . reason : " + e , e ) ;  <NL>  }  COM: <s> called when a step fails to execute </s>

@@ -1,0 +1,1 @@
+TDAT: public void set top item ( gantt event ge , int y offset , int side ) {  <NL>  / / todo : take fixed header into account <NL> v scroll to y ( ge . get y ( ) + y offset , false ) ;  <NL> internal set date ( ge . get actual start date ( ) , side , true , false ) ;  <NL> redraw ( ) ;  <NL>  }  COM: <s> sets the top visible item in the chart and scrolls to show it </s>

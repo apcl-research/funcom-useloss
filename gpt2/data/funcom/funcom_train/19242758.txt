@@ -1,0 +1,1 @@
+TDAT: public void add ws ( final string ws ) {  <NL> final string [ ] lines = string utility . split ( ws , " \n " ) ;  <NL> for ( int i = 0 ; i < lines . length ; i + + ) {  <NL> if ( i > 0 ) {  <NL> println ( ) ;  <NL>  }  <NL> add ws without cr ( lines [ i ] ) ;  <NL>  }  <NL>  }  COM: <s> add whitespace to output </s>

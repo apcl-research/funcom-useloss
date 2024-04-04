@@ -1,0 +1,1 @@
+TDAT: private void recode na ns ( int double pair [ ] ranks , double value ) {  <NL> for ( int i = 0 ; i < ranks . length ; i + + ) {  <NL> if ( double . is na n ( ranks [ i ] . get value ( ) ) ) {  <NL> ranks [ i ] = new int double pair (  <NL> value , ranks [ i ] . get position ( ) ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> recodes na n values to the given value </s>

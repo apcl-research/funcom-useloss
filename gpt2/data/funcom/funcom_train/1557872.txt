@@ -1,0 +1,1 @@
+TDAT: protected void end point ( color c ) {  <NL> if ( ! c . equals ( color . black ) & & dot colors ) {  <NL> code . append ( " , " ) ;  <NL> if ( ! compact ) code . append ( " " ) ;  <NL> color code ( c , code ) ;  <NL>  }  <NL> code . append ( " ) ; " ) ;  <NL>  }  COM: <s> for use with draw special point function appends dot styles </s>

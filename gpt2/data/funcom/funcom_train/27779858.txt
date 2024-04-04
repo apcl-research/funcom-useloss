@@ -1,0 +1,1 @@
+TDAT: protected void set pilots ( int index , object val ) {  <NL> if ( index > = pilots . length ) {  <NL> object o [ ] = new object [ index + 10 ] ;  <NL> for ( int i = 0 ; i < pilots . length ; i + + ) {  <NL> o [ i ] = pilots [ i ] ;  <NL>  }  <NL> pilots = o ;  <NL>  }  <NL> pilots [ index ] = val ;  <NL>  }  COM: <s> sets the pilots attribute of the merge enums object </s>

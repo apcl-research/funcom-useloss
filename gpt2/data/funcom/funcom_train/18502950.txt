@@ -1,0 +1,1 @@
+TDAT: private void replace ( ) {  <NL> int start = text . get selection range ( ) . x ;  <NL> text . replace text range ( start , text . get selection count ( ) ,  <NL> replace text . get text ( ) ) ;  <NL> text . set selection ( start , start + replace text . get text ( ) . length ( ) ) ;  <NL>  }  COM: <s> function for replacing </s>

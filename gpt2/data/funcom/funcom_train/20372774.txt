@@ -1,0 +1,1 @@
+TDAT: public void test get secao id by name ( ) {  <NL> system . out . println ( " get secao id by name " ) ;  <NL>  <NL> int ret = instance . get secao id by name ( 38 , " destaque " ) ;  <NL> system . out . print ( " secao id = " + ret ) ;  <NL> assert equals ( 764 , ret ) ;  <NL>  }  COM: <s> test of get secao id by name method of class br </s>

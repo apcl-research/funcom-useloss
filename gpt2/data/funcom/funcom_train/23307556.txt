@@ -1,0 +1,1 @@
+TDAT: public void set scale ( double x , double y , double z ) {  <NL> tb . set step scale ( new vector3f ( ( float ) x , ( float ) y , ( float ) z ) ) ;  <NL>  <NL> tb . update from height map ( ) ;  <NL> tb . set model bound ( new bounding box ( ) ) ;  <NL> tb . update model bound ( ) ;  <NL>  }  COM: <s> multiply the terrain by a particular factor </s>

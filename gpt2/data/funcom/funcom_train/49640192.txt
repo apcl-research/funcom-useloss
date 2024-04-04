@@ -1,0 +1,1 @@
+TDAT: public void put ( string group , string name , string value ) {  <NL> if ( ! groups . contains key ( group ) ) {  <NL> groups . put ( group , new linked list < pair < string , string > > ( ) ) ;  <NL>  }  <NL> groups . get ( group ) . add ( new pair < string , string > ( name , value ) ) ;  <NL>  }  COM: <s> put a group into this status object </s>

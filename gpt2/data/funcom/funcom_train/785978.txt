@@ -1,0 +1,1 @@
+TDAT: public void clear ( ) {  <NL> iterator sets = m _ map . entry set ( ) . iterator ( ) ;  <NL> while ( sets . has next ( ) ) {  <NL> map . entry entry = ( map . entry ) sets . next ( ) ;  <NL>  ( ( tuple set ) entry . get value ( ) ) . clear ( ) ;  <NL>  }  <NL> m _ count = 0 ;  <NL>  }  COM: <s> clear this tuple set calling clear on all contained tuple set </s>

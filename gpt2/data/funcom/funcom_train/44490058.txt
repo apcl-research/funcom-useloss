@@ -1,0 +1,1 @@
+TDAT: final public boolean is bros ( sbj a , sbj b ) {  <NL> return ( ! a . get fth ( _ fml ) . equals ( a . get mth ( _ fml ) )  <NL>  & & a . get fth ( _ fml ) . equals ( b . get fth ( _ fml ) )  <NL>  & & a . get mth ( _ fml ) . equals ( b . get mth ( _ fml ) ) ) ;  <NL>  }  COM: <s> returns true if the subjects have the same father and mother </s>

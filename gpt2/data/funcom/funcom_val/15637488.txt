@@ -1,0 +1,1 @@
+TDAT: public r visit jml quantified expr ( final jml quantified expr node , final p p ) {  <NL> final p tmp p = pre visit ( node , p ) ;  <NL> r r = scan ( node . decls , tmp p ) ;  <NL> r = scan and reduce ( node . range , tmp p , r ) ;  <NL> return scan and reduce ( node . value , tmp p , r ) ;  <NL>  }  COM: <s> visiting jml quantified expression node </s>

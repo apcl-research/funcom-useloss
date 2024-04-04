@@ -1,0 +1,1 @@
+TDAT: public void test long from bytes ( ) {  <NL> byte [ ] val = new byte [ ] { 0x78 , 0x56 , 0x34 , 0x12 , ( byte ) 0x ab , 0x00 , 0x00 , 0x00 } ;  <NL> zip eight byte integer zl = new zip eight byte integer ( val ) ;  <NL> assert equals ( " long value from bytes " , 0x ab12345678l , zl . get long value ( ) ) ;  <NL>  }  COM: <s> test conversion from bytes </s>

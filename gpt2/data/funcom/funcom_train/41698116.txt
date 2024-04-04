@@ -1,0 +1,1 @@
+TDAT: public void enlarge one cell ( ) {  <NL>  <NL> m _ d y min = m _ d y min - m _ d cell size ;  <NL> m _ d x min = m _ d x min - m _ d cell size ;  <NL> m _ d x max = m _ d x max + m _ d cell size ;  <NL> m _ d y max = m _ d y max + m _ d cell size ;  <NL> this . recalculate nx and ny ( ) ;  <NL>  <NL>  }  COM: <s> enlarges this grid extent one cell in each direction </s>

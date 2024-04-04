@@ -1,0 +1,1 @@
+TDAT: public double get distance ( point p ) {  <NL> double d x = get delta ( this . get x ( ) , p . get x ( ) ) ;  <NL> double d y = get delta ( this . get y ( ) , p . get y ( ) ) ;  <NL> return math . sqrt ( math . pow ( d x , 2 ) + math . pow ( d y , 2 ) ) ;  <NL>  }  COM: <s> calculates the distance between two points </s>

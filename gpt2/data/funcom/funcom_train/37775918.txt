@@ -1,0 +1,1 @@
+TDAT: public void add option ( string label , object value ) {  <NL> option option = new option ( label , value , m _ field meta data ) ;  <NL> if ( m _ options = = null )  <NL> m _ options = new linked list ( ) ;  <NL> else if ( m _ options . contains ( option ) )  <NL> return ;  <NL> m _ options . add ( option ) ;  <NL>  }  COM: <s> adds an option to the model </s>

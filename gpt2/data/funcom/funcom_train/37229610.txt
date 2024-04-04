@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> iterator it = v data . iterator ( ) ;  <NL> string buffer sb = new string buffer ( ) ;  <NL> int i = 0 ;  <NL> while ( it . has next ( ) ) {  <NL> sb . append ( ( string ) it . next ( ) ) ;  <NL> sb . append ( c delimiter ) ;  <NL>  }  <NL> return sb . to string ( ) ;  <NL>  }  COM: <s> this is mostly a debugging method </s>

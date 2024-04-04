@@ -1,0 +1,1 @@
+TDAT: private void add oid to change trace refs ( set an oid set , change trace a change trace ) {  <NL> for ( iterator oid itr = an oid set . iterator ( ) ; oid itr . has next ( ) ; ) {  <NL> this . oid to change trace . put ( oid itr . next ( ) , a change trace ) ;  <NL>  }  <NL>  }  COM: <s> add a set of oid references to a change trace </s>

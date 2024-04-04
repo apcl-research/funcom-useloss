@@ -1,0 +1,1 @@
+TDAT: public view add frame view ( list < camera > c , string name , string view type , int w , int h , boolean visible ) {  <NL> return add frame view ( new vector < camera > ( c ) , name , view type , w , h , false , visible , true , null ) ;  <NL>  }  COM: <s> create a new external view </s>

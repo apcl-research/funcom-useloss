@@ -1,0 +1,1 @@
+TDAT: public string get description ( ) {  <NL> if ( this . hp < = this . max hp / 10 )  <NL> return " ( near death ) " ;  <NL> if ( this . hp < = this . max hp / 5 )  <NL> return " ( badly wounded ) " ;  <NL> if ( this . hp < = this . max hp / 2 )  <NL> return " ( injured ) " ;  <NL>  <NL> return " " ;  <NL>  }  COM: <s> get a description when looked at </s>

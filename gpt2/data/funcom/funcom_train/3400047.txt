@@ -1,0 +1,1 @@
+TDAT: public int read ( char buf [ ] , int off , int len ) throws io exception {  <NL> int val ;  <NL>  <NL> if ( closed )  <NL> return - 1 ; / / throw new io exception ( " closed " ) ;  <NL> val = in . read ( buf , off , len ) ;  <NL> if ( val = = - 1 )  <NL> close ( ) ;  <NL> return val ;  <NL>  }  COM: <s> reads the number of characters read into the buffer or 1 on eof </s>

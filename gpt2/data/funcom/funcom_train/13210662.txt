@@ -1,0 +1,1 @@
+TDAT: protected void exchange cards ( game player [ ] rank player , o state state ) {  <NL> int last index = rank player . length - 1 ;  <NL> exchange cards ( rank player [ 0 ] , rank player [ last index ] , 2 , state ) ;  <NL> exchange cards ( rank player [ 1 ] , rank player [ last index - 1 ] , 1 , state ) ;  <NL>  }  COM: <s> exchange the cards before a round starts </s>

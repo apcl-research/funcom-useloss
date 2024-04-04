@@ -1,0 +1,1 @@
+TDAT: public shape create arrow down ( final double x , final double y , final double w , final double h ) {  <NL> path . reset ( ) ;  <NL> path . move to ( x , y ) ;  <NL> path . line to ( x + w / 2 , y + h ) ;  <NL> path . line to ( x + w , y ) ;  <NL> path . close path ( ) ;  <NL>  <NL> return path ;  <NL>  }  COM: <s> return a path for an arrow pointing down </s>

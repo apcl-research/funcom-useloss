@@ -1,0 +1,1 @@
+TDAT: public address allocate scalar ( rvm class klass , boolean needs identity hash , int identity hash value ) {  <NL> num objects + + ;  <NL> boot image writer . log allocation ( klass , klass . get instance size ( ) ) ;  <NL> return object model . allocate scalar ( this , klass , needs identity hash , identity hash value ) ;  <NL>  }  COM: <s> allocate a scalar object </s>

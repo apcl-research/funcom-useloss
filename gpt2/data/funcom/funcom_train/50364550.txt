@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> string buffer str = new string buffer ( ) ;  <NL> for ( int i = 0 ; i < bits . length ; i + + ) {  <NL> if ( bits [ i ] ) {  <NL> str . append ( " 1 " ) ;  <NL>  } else {  <NL> str . append ( " 0 " ) ;  <NL>  }  <NL>  }  <NL> return str . to string ( ) ;  <NL>  }  COM: <s> returns the bits object as a sequence of 0 and 1 string </s>

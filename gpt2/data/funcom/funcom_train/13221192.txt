@@ -1,0 +1,1 @@
+TDAT: public void got piece ( int index , int begin , byte piece [ ] ) {  <NL>  <NL> hash map map = new hash map ( ) ;  <NL> map . put ( " piece " , piece ) ;  <NL> map . put ( " index " , new integer ( index ) ) ;  <NL> map . put ( " begin " , new integer ( begin ) ) ;  <NL> queue . add ( map ) ;  <NL>  }  COM: <s> schedules this buffer to send a piece message </s>

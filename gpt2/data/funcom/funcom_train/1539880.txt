@@ -1,0 +1,1 @@
+TDAT: public int pair count ( ) {  <NL> int c = 0 ;  <NL> for ( map . entry < exp vector , linked list < c pair < c > > > m : pairlist . entry set ( ) ) {  <NL> linked list < c pair < c > > l = m . get value ( ) ;  <NL> c + = l . size ( ) ;  <NL>  }  <NL> return c ;  <NL>  }  COM: <s> count remaining pairs </s>

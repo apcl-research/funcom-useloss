@@ -1,0 +1,1 @@
+TDAT: protected string sanitize virtual path ( string p ) {  <NL> p = p . replace ( ' \\ ' , ' / ' ) ;  <NL> fl dir fl = own fl . get filelist ( ) ;  <NL> if ( ! p . starts with ( " / " + fl . get name ( ) ) )  <NL> p = " / " + fl . get name ( ) + ( p . starts with ( " / " ) ? " " : " / " ) + p ;  <NL> return p ;  <NL>  }  COM: <s> has mercy over petty users who dont care </s>

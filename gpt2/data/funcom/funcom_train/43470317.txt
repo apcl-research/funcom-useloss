@@ -1,0 +1,1 @@
+TDAT: protected void populate text inputs index declaratons ( ) throws exception {  <NL> this . out . append ( " words [ " ) . append ( this . text input index ) . append ( " ] = [ ] ; \n " ) ;  <NL> this . out . append ( " suggs [ " ) . append ( this . text input index ) . append ( " ] = [ ] ; \n " ) ;  <NL>  }  COM: <s> make declarations for the text input index </s>

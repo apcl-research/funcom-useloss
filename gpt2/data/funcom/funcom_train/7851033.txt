@@ -1,0 +1,1 @@
+TDAT: public void print ( int indent ) {  <NL> string m = mem ? " true " : " false " ;  <NL> for ( int i = 0 ; i < indent ; i + + ) system . out . print ( " " ) ;  <NL> system . out . println ( " decomp : " + pattern + " " + m ) ;  <NL> reasemb . print ( indent + 2 ) ;  <NL>  }  COM: <s> print out the decomp rule </s>

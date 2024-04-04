@@ -1,0 +1,1 @@
+TDAT: public void draw line w ( double x1 , double y1 , double x2 , double y2 ) {  <NL> g2d _ . draw line ( coords _ . x to screen ( x1 ) , coords _ . y to screen ( y1 ) ,  <NL> coords _ . x to screen ( x2 ) , coords _ . y to screen ( y2 ) ) ;  <NL>  }  COM: <s> draws a line on the canvas given world rather than screen coordinates </s>

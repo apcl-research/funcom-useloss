@@ -1,0 +1,1 @@
+TDAT: private void bar ( print stream stream , int value , string img ) {  <NL>  <NL> if ( value > 0 ) {  <NL> stream . print ( " < img src = \ " . . / image / s - " + img + " . png\ " width = \ " " ) ;  <NL> stream . print ( value ) ;  <NL> stream . print ( " \ " height = \ " 24\ " \n / > " ) ;  <NL>  }  <NL>  }  COM: <s> produce html code for a bar </s>

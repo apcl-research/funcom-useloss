@@ -1,0 +1,1 @@
+TDAT: private void apply row processors ( sheet sheet , row row ) {  <NL> for ( int i = 0 , c = row processors . size ( ) ; i < c ; i + + ) {  <NL> row processor row processor = ( row processor ) row processors . get ( i ) ;  <NL> row processor . process row ( row , sheet . get named cells ( ) ) ;  <NL>  }  <NL>  }  COM: <s> applies all registered row processors to a row </s>

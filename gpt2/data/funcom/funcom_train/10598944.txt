@@ -1,0 +1,1 @@
+TDAT: public object get attribute ( map object model , configuration conf , string module , string name , object deflt ) throws input module exception {  <NL>  <NL> object result = this . get ( op _ get , module , name , object model , conf ) ;  <NL> if ( result = = null ) result = deflt ;  <NL> return result ;  <NL>  }  COM: <s> get a single attribute value from a module </s>

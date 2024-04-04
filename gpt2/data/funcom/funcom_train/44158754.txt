@@ -1,0 +1,1 @@
+TDAT: public boolean authenticate ( ) {  <NL> m _ log . info ( " authenticating # 0 " , m _ identity . get username ( ) ) ;  <NL>  / / write your authentication logic here ,  <NL>  / / return true if the authentication was <NL>  / / successful , false otherwise <NL> m _ identity . add role ( " admin " ) ;  <NL> return true ;  <NL>  }  COM: <s> try to authenticate the user </s>

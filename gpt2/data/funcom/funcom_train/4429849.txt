@@ -1,0 +1,1 @@
+TDAT: public string get tags ( ) {  <NL> if ( this . tags = = null ) {  <NL> return " " ;  <NL>  }  <NL> if ( this . tags . trim ( ) . equals ( " " ) ) {  <NL> return " " ;  <NL>  }  <NL> tag filter filter = new tag filter ( ) ;  <NL> filter . load ( tags ) ;  <NL> this . tags = filter . to string ( ) ;  <NL> return tags ;  <NL>  }  COM: <s> trim double spaces or more </s>

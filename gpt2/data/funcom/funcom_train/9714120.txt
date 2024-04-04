@@ -1,0 +1,1 @@
+TDAT: public void start ( ) throws axis fault {  <NL> try {  <NL> embedded = new simple http server ( http factory , port ) ;  <NL> embedded . init ( ) ;  <NL> embedded . start ( ) ;  <NL>  } catch ( io exception e ) {  <NL> log . error ( e . get message ( ) , e ) ;  <NL> throw axis fault . make fault ( e ) ;  <NL>  }  <NL>  }  COM: <s> start this server as a non daemon </s>

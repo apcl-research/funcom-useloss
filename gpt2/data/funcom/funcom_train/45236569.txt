@@ -1,0 +1,1 @@
+TDAT: private void license year ( ) throws io exception {  <NL> final list < string > lines = get lines ( new file ( " license . txt " ) ) ;  <NL> assert true ( " incorrect year in license . txt " , lines . get ( 1 ) . contains ( " copyright ( c ) "  <NL>  + calendar . get instance ( ) . get ( calendar . year ) ) ) ;  <NL>  }  COM: <s> checks the year in license </s>

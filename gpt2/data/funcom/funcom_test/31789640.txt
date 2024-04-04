@@ -1,0 +1,1 @@
+TDAT: public void add tag ( tag tag ) {  <NL> string key = tag . name ( ) . intern ( ) ;  <NL> array list al = ( array list ) get tag map ( ) . get ( key ) ;  <NL> if ( al = = null ) {  <NL> al = new array list ( ) ;  <NL> get tag map ( ) . put ( key , al ) ; }  <NL> al . add ( tag ) ;  <NL>  }  COM: <s> add a tag to our collection </s>

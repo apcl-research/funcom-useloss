@@ -1,0 +1,1 @@
+TDAT: public double dist ( ) {  <NL> return math . sqrt ( ( camera [ 0 ] - center [ 0 ] ) * ( camera [ 0 ] - center [ 0 ] ) +  <NL>  ( camera [ 1 ] - center [ 1 ] ) * ( camera [ 1 ] - center [ 1 ] ) +  <NL>  ( camera [ 2 ] - center [ 2 ] ) * ( camera [ 2 ] - center [ 2 ] ) ) ;  <NL>  }  COM: <s> the distance from camera to center </s>

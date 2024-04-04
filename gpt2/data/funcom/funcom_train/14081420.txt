@@ -1,0 +1,1 @@
+TDAT: protected string add trace ( string msg ) {  <NL> if ( ! trace )  <NL> return " " ;  <NL> msg = msg . replace all ( " \\ $ ( \\d ) + " , " \ " + $ 0 + \ " " ) ;  <NL> string s = " system . out . println ( get class ( ) + \ " : " + msg + " \ " ) ; " ;  <NL> return s ;  <NL>  }  COM: <s> used to show debug messages inside the generated classes </s>

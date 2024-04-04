@@ -1,0 +1,1 @@
+TDAT: public void place ( component comp ) {  <NL> int x , y , width , height ;  <NL>  <NL> width = compute width ( comp ) ;  <NL> height = compute height ( comp ) ;  <NL> x = compute x ( comp , width ) ;  <NL> y = compute y ( comp , height ) ;  <NL>  <NL> comp . set bounds ( x , y , width , height ) ;  <NL>  }  COM: <s> positions a component according to the expressions </s>

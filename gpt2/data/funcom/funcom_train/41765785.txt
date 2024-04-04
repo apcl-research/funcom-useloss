@@ -1,0 +1,1 @@
+TDAT: public void draw arc ( int x , int y , int width , int height , int start angle , int arc angle ) {  <NL> g . draw arc ( x translate + x , y translate + y , width , height , start angle , arc angle ) ;  <NL>  }  COM: <s> draws a circular or eliptical arc based on the given angles and bounding </s>

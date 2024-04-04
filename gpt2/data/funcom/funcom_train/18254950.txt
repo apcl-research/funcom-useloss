@@ -1,0 +1,1 @@
+TDAT: public boolean remove ( object o ) {  <NL> for ( iterator it = this . iterator ( ) ; it . has next ( ) ; ) {  <NL> node agent = ( node ) it . next ( ) ;  <NL> array list list = ( array list ) adjacency map . get ( agent ) ;  <NL> list . remove ( o ) ;  <NL>  }  <NL> return super . remove ( o ) ;  <NL>  }  COM: <s> removes the supplied object agent from this list </s>

@@ -1,0 +1,1 @@
+TDAT: public void add map view ( @ not null final map view < g , a , r > map view ) {  <NL> assert ! map views list . contains ( map view ) ;  <NL> map views list . add ( 0 , map view ) ;  <NL>  <NL> for ( final map view manager listener < g , a , r > listener : listeners ) {  <NL> listener . map view created ( map view ) ;  <NL>  }  <NL>  }  COM: <s> adds a map view </s>

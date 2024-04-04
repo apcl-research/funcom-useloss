@@ -1,0 +1,1 @@
+TDAT: public void paint ( graphics g ) {  <NL> if ( selected _ )  <NL> g . set color ( selected col _ ) ;  <NL> else <NL> g . set color ( get background ( ) ) ;  <NL> dimension d = size ( ) ;  <NL> g . fill round rect ( 0 , 0 , d . width , d . height , 5 , 5 ) ;  <NL>  }  COM: <s> draws clears the rectangle depending on the </s>

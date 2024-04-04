@@ -1,0 +1,1 @@
+TDAT: private void write point geometry ( string layer , string owner handle , point p ) throws io exception {  <NL> write geometry start ( " point " , layer , owner handle ) ;  <NL> write sub class ( " ac db point " ) ;  <NL> write point ( p . get x ( ) , p . get y ( ) , 0 . 0 ) ;  <NL>  }  COM: <s> writes a point geometry </s>

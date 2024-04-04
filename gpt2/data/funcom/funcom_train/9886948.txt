@@ -1,0 +1,1 @@
+TDAT: private void append matrices ( algorithm data data , element mlist ) {  <NL> node list matrices = mlist . get elements by tag name ( " matrix " ) ;  <NL>  <NL> for ( int i = 0 ; i < matrices . get length ( ) ; i + + ) {  <NL> add matrix ( data , ( element ) matrices . item ( i ) ) ;  <NL>  }  <NL>  }  COM: <s> appends a matrix to the algorithm data object </s>

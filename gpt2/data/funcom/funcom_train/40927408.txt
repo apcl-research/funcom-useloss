@@ -1,0 +1,1 @@
+TDAT: protected void install defaults ( final j math component c ) {  <NL>  / / look and feel . install colors and font ( c , " label . background " ,  <NL>  / / " label . foreground " , " label . font " ) ;  <NL> look and feel . install property ( c , " opaque " , boolean . false ) ;  <NL>  }  COM: <s> configures the default properties from l f </s>

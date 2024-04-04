@@ -1,0 +1,1 @@
+TDAT: public void draw rect ( int x , int y , int width , int height ) {  <NL> int [ ] xpoints = {  <NL> x , x , x + width , x + width <NL>  } ;  <NL> int [ ] ypoints = {  <NL> y , y + height , y + height , y <NL>  } ;  <NL>  <NL> draw polygon ( xpoints , ypoints , 4 ) ;  <NL>  }  COM: <s> draws the rectangle with the specified width and length and top left </s>

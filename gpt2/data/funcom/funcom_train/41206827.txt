@@ -1,0 +1,1 @@
+TDAT: public void fill linear gradient ( int start color , int end color , int x , int y , int width , int height , boolean horizontal ) {  <NL> impl . fill linear gradient ( native graphics , start color , end color , x + x translate , y + y translate , width , height , horizontal ) ;  <NL>  }  COM: <s> draws a linear gradient in the given coordinates with the given colors </s>

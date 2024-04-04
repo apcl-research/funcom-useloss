@@ -1,0 +1,1 @@
+TDAT: protected boolean domain matches ( string src , string pat ) {  <NL> if ( src . equals ( " * " ) ) / / no point doing more that we have to . . .  <NL>  {  <NL> return true ;  <NL>  }  <NL> return domain matches ( src . to char array ( ) , 0 , pat . to char array ( ) , 0 ) ;  <NL>  }  COM: <s> compare the src and pat strings where and chars are significant </s>

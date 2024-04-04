@@ -1,0 +1,1 @@
+TDAT: public double get double ( int index ) {  <NL> if ( ( index < 1 ) || ( index > = item type . length ) || ( item type [ index ] ! = constant _ double ) )  <NL> throw new class format error ( " constant pool item does not exist " ) ;  <NL> return ( ( double ) item value1 [ index ] ) . double value ( ) ;  <NL>  }  COM: <s> get the double value of a double constant </s>

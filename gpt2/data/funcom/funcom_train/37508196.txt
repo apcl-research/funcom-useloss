@@ -1,0 +1,1 @@
+TDAT: public void delete selected album entry ( ) {  <NL> int [ ] selected = m _ ctrl album panel <NL>  . get gui ( )  <NL>  . get table ( )  <NL>  . get selected rows ( ) ;  <NL>  <NL> for ( int i = 0 ; i < selected . length ; i + + ) {  <NL> m _ ctrl album panel . delete entry at ( selected [ i ] ) ;  <NL>  }  <NL>  }  COM: <s> deletes all selected entries from the album </s>

@@ -1,0 +1,1 @@
+TDAT: final protected void diameter line ( geo vector v , geo line diameter ) {  <NL> diameter . x = matrix [ 0 ] * v . x + matrix [ 3 ] * v . y ;  <NL> diameter . y = matrix [ 3 ] * v . x + matrix [ 1 ] * v . y ;  <NL> diameter . z = matrix [ 4 ] * v . x + matrix [ 5 ] * v . y ;  <NL>  }  COM: <s> sets the geo line diameter to x </s>

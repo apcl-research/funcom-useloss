@@ -1,0 +1,1 @@
+TDAT: public void set color ( int r , int g , int b ) {  <NL> m _ red = r ;  <NL> m _ green = g ;  <NL> m _ blue = b ;  <NL> if ( false & & m _ red = = 100 & & m _ green = = 100 & & m _ blue = = 100 ) {  <NL> m _ red = 90 ;  <NL> m _ green = 90 ;  <NL> m _ blue = 90 ;  <NL>  }  <NL>  }  COM: <s> sets the color attribute of the color fill filter object </s>

@@ -1,0 +1,1 @@
+TDAT: public void jar jaqu ( ) {  <NL> compile ( true , false , true ) ;  <NL> manifest ( " h2 ja qu " , " " ) ;  <NL> file list files = files ( " temp / org / h2 / jaqu " ) ;  <NL> files . add all ( files ( " temp / meta - inf / manifest . mf " ) ) ;  <NL> jar ( " bin / h2jaqu " + get jar suffix ( ) , files , " temp " ) ;  <NL>  }  COM: <s> create the file h2jaqu </s>

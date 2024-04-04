@@ -1,0 +1,1 @@
+TDAT: private void replace text ( abstract document doc , string text ) {  <NL> try {  <NL> doc . replace ( 0 , doc . get length ( ) , text , null ) ;  <NL>  } catch ( bad location exception e ) {  <NL> categories . ui ( ) . error ( " error while replacing text . " , e ) ;  <NL>  }  <NL>  }  COM: <s> utility method to add text to a document model </s>

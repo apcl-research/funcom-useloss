@@ -1,0 +1,1 @@
+TDAT: public string pop ( ) {  <NL> int size = list . size ( ) ;  <NL> if ( size < = 0 ) {  <NL> throw new illegal state exception ( exception _ localizer . format (  <NL>  " path - has - no - parent " , as string ( ) ) ) ;  <NL>  }  <NL> return ( string ) list . remove ( list . size ( ) - 1 ) ;  <NL>  }  COM: <s> pop the last path fragment from the stack </s>

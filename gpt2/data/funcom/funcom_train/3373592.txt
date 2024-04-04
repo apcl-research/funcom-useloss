@@ -1,0 +1,1 @@
+TDAT: protected int draw echo character ( graphics g , int x , int y , char c ) {  <NL> one [ 0 ] = c ;  <NL> swing utilities2 . draw chars ( utilities . get j component ( this ) ,  <NL> g , one , 0 , 1 , x , y ) ;  <NL> return x + g . get font metrics ( ) . char width ( c ) ;  <NL>  }  COM: <s> renders the echo character or whatever graphic should be used </s>

@@ -1,0 +1,1 @@
+TDAT: private array list execute search ( http session session , int [ ] searches , string and int chiral message , run data run data , string buffer message ) throws nmrshiftdb exception , exception {  <NL> return execute search ( session , searches , chiral message , run data , false , true , message ) ;  <NL>  }  COM: <s> executes searches from the search history </s>

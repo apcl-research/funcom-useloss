@@ -1,0 +1,1 @@
+TDAT: public string get parameter ( string name ) {  <NL> string param = null ;  <NL> for ( int i = 0 ; i < m _ arguments . length ; i + + )  <NL> if ( m _ arguments [ i ] . equals ( " - " + name ) ) { / / $ non - nls - 1 $  <NL> param = m _ arguments [ i + 1 ] ;  <NL> break ;  <NL>  }  <NL> return param ;  <NL>  }  COM: <s> returns the named parameter from the command line </s>

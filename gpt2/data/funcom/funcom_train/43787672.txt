@@ -1,0 +1,1 @@
+TDAT: public void test to array ( ) {  <NL> string [ ] orig = new string [ ] { " aaa " , " bbb " , " ccc " } ;  <NL> list < string > orig list = arrays . as list ( orig ) ;  <NL> string [ ] dest = array utils . to array ( orig list , string [ ] . class ) ;  <NL> assert . assert equals ( orig , dest ) ;  <NL>  }  COM: <s> test method for </s>

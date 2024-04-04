@@ -1,0 +1,1 @@
+TDAT: public void set test path string ( string new path ) {  <NL> test path string = new path ;  <NL> this . fire model change ( model change event . value _ changed , test _ path _ string _ selector ) ;  <NL> prefs . get instance ( ) . set ( " generator " , " test path " , test path string ) ;  <NL>  }  COM: <s> sets the test path string </s>

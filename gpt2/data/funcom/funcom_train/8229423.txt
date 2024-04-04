@@ -1,0 +1,1 @@
+TDAT: public void paint icons ( graphics g , int x , int y ) {  <NL> g . draw image ( thieving icon , x + 20 , y + 20 , null ) ;  <NL> g . draw image ( blk j icon , x + 100 , y + 20 , null ) ;  <NL> g . draw image ( coins icon , x + 200 , y + 20 , null ) ;  <NL>  }  COM: <s> paints the icons in the rect area </s>

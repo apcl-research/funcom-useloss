@@ -1,0 +1,1 @@
+TDAT: public void clear ( print stream out ) {  <NL>  <NL> if ( empty ) {  <NL> return ;  <NL>  }  <NL> if ( shift ) {  <NL> ps . put text ( out , text , x , y ) ;  <NL>  } else {  <NL> ps . put text ( out , text , x ) ;  <NL>  }  <NL>  <NL> text . delete ( 0 , text . length ( ) ) ;  <NL> empty = true ;  <NL>  }  COM: <s> ship the collected characters out </s>

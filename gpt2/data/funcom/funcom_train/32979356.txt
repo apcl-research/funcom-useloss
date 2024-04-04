@@ -1,0 +1,1 @@
+TDAT: public dimension get minimum size ( )  <NL>  { / * get minimum size * /  <NL> int <NL> width = ( int ) ( min _ canvas _ width * ( 0 . 95 + ( mae . hps . n hp _ e / 50 ) ) ) ;  <NL> return ( new dimension ( width , min _ canvas _ height ) ) ;  <NL>  } / * get minimum size * /  COM: <s> get minimum size get the minimum preferred size </s>

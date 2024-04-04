@@ -1,0 +1,1 @@
+TDAT: public content get nav link next ( string next ) {  <NL> content li ;  <NL> if ( next ! = null ) {  <NL> li = html tree . li ( get hyper link ( next , " " , next label , " " , " " ) ) ;  <NL>  }  <NL> else <NL> li = html tree . li ( next label ) ;  <NL> return li ;  <NL>  }  COM: <s> get link for next file </s>

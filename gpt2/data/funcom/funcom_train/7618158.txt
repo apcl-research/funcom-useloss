@@ -1,0 +1,1 @@
+TDAT: public void add round rect ( rect f rect , float rx , float ry , direction dir ) {  <NL> if ( rect = = null ) {  <NL> throw new null pointer exception ( " need rect parameter " ) ;  <NL>  }  <NL> native _ add round rect ( m native path , rect , rx , ry , dir . native int ) ;  <NL>  }  COM: <s> add a closed round rectangle contour to the path </s>

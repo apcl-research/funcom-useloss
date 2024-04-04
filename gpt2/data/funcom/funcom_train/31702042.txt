@@ -1,0 +1,1 @@
+TDAT: public void set background ( color color ) {  <NL> this . last background color = color ;  <NL> final gl gl = get gl ( ) ;  <NL> if ( null ! = gl ) {  <NL> color . get rgb components ( bg ) ;  <NL> gl . gl clear color ( bg [ 0 ] , bg [ 1 ] , bg [ 2 ] , - bg [ 3 ] ) ;  <NL>  }  <NL>  }  COM: <s> sets the background color </s>

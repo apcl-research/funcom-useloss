@@ -1,0 +1,1 @@
+TDAT: public gaig snew array2 ( int rows , int cols , string name , string color , double x1 , double y1 , double x2 , double y2 , double font size ) {  <NL> super ( rows , cols , name , color , x1 , y1 , x2 , y2 ) ;  <NL> this . font size = font size ;  <NL>  }  COM: <s> create a 2 d array with set instance variables </s>

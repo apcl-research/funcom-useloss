@@ -1,0 +1,1 @@
+TDAT: public string get node group name ( j node node ) {  <NL> j node group group = get node group ( node ) ;  <NL> for ( map . entry < string , j node group > item : group names . entry set ( ) ) {  <NL> if ( group = = item . get value ( ) ) {  <NL> return item . get key ( ) ;  <NL>  }  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> resolves groups name by its containee </s>

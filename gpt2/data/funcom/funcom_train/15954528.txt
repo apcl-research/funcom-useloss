@@ -1,0 +1,1 @@
+TDAT: public void test equals ( ) {  <NL> string ls value = " good " ;  <NL> char lc value [ ] = { ' g ' , ' o ' , ' o ' , ' d ' } ;  <NL> data string ld string1 = new data string ( ls value ) ;  <NL> data string ld string2 = new data string ( lc value ) ;  <NL>  <NL> assert equals ( " " , ld string1 , ld string2 ) ;  <NL>  }  COM: <s> test of equals method of class org </s>

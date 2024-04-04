@@ -1,0 +1,1 @@
+TDAT: public void write4le ( long n ) {  <NL> write ( ( byte ) ( n & 0xff ) ) ;  <NL> write ( ( byte ) ( ( n & 0xff00 ) > > 8 ) ) ;  <NL> write ( ( byte ) ( ( n & 0xff0000 ) > > 16 ) ) ;  <NL> write ( ( byte ) ( ( n & 0xff000000 ) > > 24 ) ) ;  <NL>  }  COM: <s> write the low four bytes of a value to the stream in little </s>

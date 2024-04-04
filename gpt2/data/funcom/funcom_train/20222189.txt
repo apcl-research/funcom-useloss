@@ -1,0 +1,1 @@
+TDAT: public long get mask ( ) {  <NL> long mask = 0l ;  <NL> if ( this . hi res ) { mask | = 0x800000 ; }  <NL> mask | = ( this . fld type < < 16 ) & 0x7f0000 ;  <NL> mask | = ( this . fld ndx < < 8 ) & 0x00ff00 ;  <NL> mask | = ( this . fld len < < 0 ) & 0x0000ff ;  <NL> return mask ;  <NL>  }  COM: <s> returns the field definition mask </s>

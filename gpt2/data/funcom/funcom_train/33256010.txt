@@ -1,0 +1,1 @@
+TDAT: public void normal paint icon ( component c , graphics g , int x , int y ) {  <NL> g . set color ( colour ) ;  <NL> draw inside ( c , g , x , y ) ;  <NL> g . set color ( filler board . contrasting colour ( colour ) ) ;  <NL> g . set font ( num font ) ;  <NL> g . draw string ( label , xoff , yoff ) ;  <NL>  }  COM: <s> draw the normal icon for this button </s>

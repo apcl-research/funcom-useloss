@@ -1,0 +1,1 @@
+TDAT: public void save ( ) {  <NL> cookies . set cookie ( cookie _ name , container . to string ( ) , new date ( system <NL>  . current time millis ( )  <NL>  + 1000l * 60 * 60 * 24 * 365 ) , null , null , false ) ;  <NL>  <NL> system . out . println ( cookies . get cookie ( cookie _ name ) ) ;  <NL>  }  COM: <s> save the configuration into the applications cookie </s>

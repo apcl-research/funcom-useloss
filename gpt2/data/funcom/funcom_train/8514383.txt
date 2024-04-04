@@ -1,0 +1,1 @@
+TDAT: public void set range ( double [ ] range , int scale ) {  <NL> set x axis min ( range [ 0 ] , scale ) ;  <NL> set x axis max ( range [ 1 ] , scale ) ;  <NL> set y axis min ( range [ 2 ] , scale ) ;  <NL> set y axis max ( range [ 3 ] , scale ) ;  <NL>  }  COM: <s> sets the axes range values </s>

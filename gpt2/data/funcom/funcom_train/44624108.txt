@@ -1,0 +1,1 @@
+TDAT: protected void jml error ( int pos , string key , object . . . args ) {  <NL> log . error ( new diagnostic position se ( pos , pos ) , key , args ) ;  <NL> token ( com . sun . tools . javac . parser . token . error ) ;  <NL> jml token = null ;  <NL> err pos ( pos ) ;  <NL>  }  COM: <s> records a lexical error no valid token at a single character position </s>

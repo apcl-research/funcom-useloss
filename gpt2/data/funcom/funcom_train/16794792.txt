@@ -1,0 +1,1 @@
+TDAT: public vector parse string ( string tag , char [ ] chardelimset ) {  <NL> vector tagargs = new vector ( 1 , 1 ) ;  <NL> string tokenizer st = new string tokenizer ( tag , new string ( chardelimset ) ) ;  <NL> while ( st . has more tokens ( ) ) tagargs . add ( st . next token ( ) ) ;  <NL> return tagargs ;  <NL>  }  COM: <s> a faster parser using class java </s>

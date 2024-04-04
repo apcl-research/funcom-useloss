@@ -1,0 +1,1 @@
+TDAT: private boolean is gif ( byte [ ] data ) {  <NL>  / / indentifier " gif8 " on position 0 <NL> byte [ ] pattern = new byte [ ] { ( byte ) 0x47 , ( byte ) 0x49 , ( byte ) 0x46 , ( byte ) 0x38 } ;  <NL>  <NL> return image util . compare hex values ( pattern , data , 0 , true ) ;  <NL>  }  COM: <s> determines wheter the image is a gif </s>

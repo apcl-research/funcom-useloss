@@ -1,0 +1,1 @@
+TDAT: private void set text box text ( list text parts ) {  <NL> for ( int i = 0 ; i < text parts . size ( ) ; i + + ) {  <NL> string part = ( string ) text parts . get ( i ) ;  <NL> x component line = new x component ( line _ editor ) ;  <NL> line . set string value ( part ) ;  <NL> add text box child ( line ) ;  <NL>  }  <NL>  }  COM: <s> sets the value of a text box </s>

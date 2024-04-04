@@ -1,0 +1,1 @@
+TDAT: public void set angle ( double ag ) {  <NL> angle = ( ag > utils . two _ pi ) ? ( ag % utils . two _ pi ) : ag ;  <NL> angle deg = ( int ) math . round ( angle * rad2deg _ factor ) ;  <NL> compute slice edges ( ) ;  <NL> compute polygon edges ( ) ;  <NL> virtual space manager . instance . repaint ( ) ;  <NL>  }  COM: <s> set the arc angle </s>

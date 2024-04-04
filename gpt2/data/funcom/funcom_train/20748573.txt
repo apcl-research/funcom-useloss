@@ -1,0 +1,1 @@
+TDAT: public boolean can complete step ( step to step , string user ) {  <NL>  <NL> if ( step = = null ) {  <NL> return false ;  <NL>  }  <NL>  <NL> return is step owner ( step , user ) || is group member ( step , user ) || is project manager ( step . get project name ( ) , user ) || is admin ( user ) ;  <NL>  }  COM: <s> is current user allowed to complete specified step </s>

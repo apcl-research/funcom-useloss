@@ -1,0 +1,1 @@
+TDAT: public void append select ( string id , string onclick , list values , list texts , string sel value , boolean state ) {  <NL> html . append ( html content tools . select ( id , onclick , null , values , texts , sel value , state , " " ) ) ;  <NL>  }  COM: <s> create a dropdown box with height 1 </s>

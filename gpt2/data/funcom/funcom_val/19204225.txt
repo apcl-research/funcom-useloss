@@ -1,0 +1,1 @@
+TDAT: public void test srp login with external a ( ) throws exception {  <NL> log . debug ( " + + + test srp login with external a " ) ;  <NL> byte [ ] abytes = " abcdefgh " . get bytes ( ) ;  <NL> login ( " srp - test - ex " , username , password , abytes ) ;  <NL> logout ( ) ;  <NL>  }  COM: <s> test a login against the srp service using the srplogin module and </s>

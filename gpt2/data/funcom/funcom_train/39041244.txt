@@ -1,0 +1,1 @@
+TDAT: protected void handle polyline ( double [ ] x points , double [ ] y points , int n points ) {  <NL> for ( int i = 1 ; i < n points ; i + + )  <NL> handle line ( x points [ i - 1 ] , y points [ i - 1 ] , x points [ i ] , y points [ i ] ) ;  <NL>  }  COM: <s> by default this implementation calls handle line for each line </s>

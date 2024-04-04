@@ -1,0 +1,1 @@
+TDAT: private j menu create edit menu ( ) {  <NL> j menu edit = new j menu ( ) ;  <NL> edit . set text ( " edit " ) ;  <NL> edit . set mnemonic ( key event . vk _ e ) ;  <NL> edit . add ( m _ duplicate action ) ;  <NL> edit . add separator ( ) ;  <NL> edit . add ( m _ delete action ) ;  <NL> return edit ;  <NL>  }  COM: <s> create and return the edit menu for the menu bar </s>

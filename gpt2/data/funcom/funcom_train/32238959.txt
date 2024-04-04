@@ -1,0 +1,1 @@
+TDAT: protected mj button get b add ( ) {  <NL> if ( b add = = null ) {  <NL> b add = new mj button ( ) ;  <NL> b add . set preferred size ( new java . awt . dimension ( 85 , 26 ) ) ;  <NL> b add . set text ( " add " ) ;  <NL> b add . set mnemonic ( key event . vk _ a ) ;  <NL>  }  <NL> return b add ;  <NL>  }  COM: <s> this method initializes b add </s>

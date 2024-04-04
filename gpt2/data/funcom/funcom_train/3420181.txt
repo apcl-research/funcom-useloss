@@ -1,0 +1,1 @@
+TDAT: public void warning ( sax parse exception err ) throws sax parse exception {  <NL> system . out . println ( message format . format ( res bundle . handle get object ( " xmlrch . warning " ) . to string ( ) , new object [ ] { err . get message ( ) , err . get line number ( ) , err . get system id ( ) } ) ) ;  <NL>  }  COM: <s> prints a warning message to code system </s>

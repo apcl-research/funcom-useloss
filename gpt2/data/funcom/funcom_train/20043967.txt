@@ -1,0 +1,1 @@
+TDAT: public void _ get range addresses ( ) {  <NL> log . println ( " testing get range addresses . . . " ) ;  <NL> cell range address [ ] o ranges = o obj . get range addresses ( ) ;  <NL> int howmuch = o ranges . length ;  <NL> t res . tested ( " get range addresses ( ) " , ( howmuch > 2 ) ) ;  <NL>  }  COM: <s> test calls the method and checks length of returned array </s>

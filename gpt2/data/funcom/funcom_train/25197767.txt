@@ -1,0 +1,1 @@
+TDAT: private void test ( string in , int len ) throws exception {  <NL>  <NL> p . push ( new t string ( in , null ) ) ;  <NL> new num names ( " num . names $ " ) . execute ( p , null , null ) ;  <NL> assert equals ( len , p . pop integer ( null ) . get int ( ) ) ;  <NL> assert null ( p . pop unchecked ( ) ) ;  <NL>  }  COM: <s> run a single test </s>

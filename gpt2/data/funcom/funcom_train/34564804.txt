@@ -1,0 +1,1 @@
+TDAT: public void chop ( ) {  <NL> while ( size > 0 & & ws ( chars [ size - 1 ] ) ) size - - ;  <NL> int s = - 1 ;  <NL> while ( + + s < size & & ws ( chars [ s ] ) ) ;  <NL> if ( s ! = 0 & & s ! = size ) array . move ( chars , s , - s , size - s ) ;  <NL> size - = s ;  <NL>  }  COM: <s> chops leading and trailing whitespaces </s>

@@ -1,0 +1,1 @@
+TDAT: protected double find max value ( ) {  <NL> double max = 0 . 0f ;  <NL> for ( int s = 0 ; s < get series count ( ) ; s + + ) {  <NL> for ( int i = 0 ; i < this . history count ; i + + ) {  <NL> double tmp = get y value ( s , i ) ;  <NL> if ( tmp > max ) {  <NL> max = tmp ;  <NL>  }  <NL>  }  <NL>  }  <NL> return max ;  <NL>  }  COM: <s> returns the maximum value </s>

@@ -1,0 +1,1 @@
+TDAT: public void set _ rel _ diff ( double rel _ diff ) {  <NL> min _ ratio = 1 - rel _ diff ;  <NL> max _ ratio = 1 + rel _ diff ;  <NL> off = ( rel _ diff = = 0 . 0 ) ;  <NL>  / / system . out . println ( " min _ ratio = " + min _ ratio + " , max _ ratio = "  <NL>  / / + max _ ratio ) ;  <NL>  <NL>  }  COM: <s> set the relative diff after creation </s>

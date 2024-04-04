@@ -1,0 +1,1 @@
+TDAT: private void clear item pos ( int x , int y , int width , int height ) {  <NL> for ( int i = x ; i < x + width ; i + + ) { / / puuuh , x + and y + had missed . . .  <NL> for ( int j = y ; j < y + height ; j + + ) {  <NL> item pos [ i ] [ j ] = - 1 ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> sets all elements of item pos within the specified rectangle to 1 empty </s>

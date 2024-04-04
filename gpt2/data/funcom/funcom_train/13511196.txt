@@ -1,0 +1,1 @@
+TDAT: public void remove row ( row row ) {  <NL> if ( row ! = null ) {  <NL> int index = this . get rows ( ) . index of ( row ) ;  <NL> this . get rows ( ) . remove ( row ) ;  <NL>  ( ( table view model ) this . get model ( ) ) . fire table rows deleted ( index , index ) ;  <NL>  }  <NL>  }  COM: <s> remove one row </s>

@@ -1,0 +1,1 @@
+TDAT: public boolean is valid size ( value with unit < ? extends distance unit > width , value with unit < ? extends distance unit > height ) {  <NL> return ( width ! = null ) & & ( height ! = null ) & &  <NL>  ( width . get value ( ) > = 0 ) & & ( height . get value ( ) > = 0 ) ;  <NL>  }  COM: <s> checks whether the given width and height are valid for a layout </s>

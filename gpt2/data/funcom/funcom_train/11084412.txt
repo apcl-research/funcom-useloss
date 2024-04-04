@@ -1,0 +1,1 @@
+TDAT: protected void check end of request ( request req ) {  <NL> if ( req . is finished ( ) ) {  <NL> requests . remove ( req . get correlation id ( ) ) ;  <NL> if ( req . get bean ( ) ! = bean ) {  <NL> reflection utils . call lifecycle method ( req . get bean ( ) , pre destroy . class ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> checks if the request has ended </s>

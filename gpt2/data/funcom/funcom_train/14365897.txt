@@ -1,0 +1,1 @@
+TDAT: protected void build title ( ) {  <NL> if ( null = = _ title ) {  <NL>  _ title = i common constants . empty _ string ;  <NL>  }  <NL>  _ chart . get title ( ) . get label ( ) . get caption ( ) . set value ( _ title ) ;  <NL>  _ chart . get title ( ) . get label ( ) . get caption ( ) . get font ( ) . set size ( 14 ) ;  <NL>  }  COM: <s> build the chart title </s>

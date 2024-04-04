@@ -1,0 +1,1 @@
+TDAT: private void render dc ( graphics g ) {  <NL> if ( dc = = null ) return ;  <NL> flob [ ] which = new flob [ 1 ] ;  <NL> object co = get object at ( dcx , dcy , which ) ;  <NL> if ( co = = null ) return ;  <NL> if ( ! dc . accept ( co ) ) return ;  <NL> which [ 0 ] . render xor ( g , dcx , dcy ) ;  <NL>  }  COM: <s> render the current drag cursor </s>

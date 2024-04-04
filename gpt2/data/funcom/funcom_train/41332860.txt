@@ -1,0 +1,1 @@
+TDAT: private void paint directly ( graphics2d g , j component c , int w , int h , object [ ] extended cache keys ) {  <NL> g = ( graphics2d ) g . create ( ) ;  <NL> configure graphics ( g ) ;  <NL> do paint ( g , c , w , h , extended cache keys ) ;  <NL> g . dispose ( ) ;  <NL>  }  COM: <s> convenience method which creates a temporary graphics object by creating </s>

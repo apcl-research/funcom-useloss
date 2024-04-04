@@ -1,0 +1,1 @@
+TDAT: private void write header ( writer writer ) throws io exception {  <NL> if ( this . header ! = null ) {  <NL> if ( ! this . header . starts with ( " # " ) ) {  <NL> writer . write ( " # " ) ;  <NL>  }  <NL> writer . write ( this . header . replace ( " \n " , " \n # " ) ) ;  <NL> writer . write ( " \n " ) ;  <NL>  }  <NL>  }  COM: <s> writes header to code writer code </s>

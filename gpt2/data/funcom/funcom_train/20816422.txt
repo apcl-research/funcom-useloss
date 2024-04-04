@@ -1,0 +1,1 @@
+TDAT: public void set end point ( pf point par point ) {  <NL>  <NL> end point = par point ;  <NL>  <NL>  / / - - - since all object works on the basis of x , y , w h <NL>  / / - - - so we have to convert the end point <NL> set width ( par point . get x ( ) ) ;  <NL> set height ( par point . get y ( ) ) ;  <NL>  }  COM: <s> method set end point p </s>

@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> simple date format df = new simple date format ( " mm - dd - yy hh : mmaa " ) ;  <NL> return " " + df . format ( time stamp . get time ( ) ) +  <NL>  " " + ( is dir ( ) ? " < dir > " : " " ) + " " + ( is file ( ) ? " " + size : " " ) + " " + name ;  <NL>  }  COM: <s> convert object to string representation </s>

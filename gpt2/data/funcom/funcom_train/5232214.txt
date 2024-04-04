@@ -1,0 +1,1 @@
+TDAT: private void add button to button panel ( j button button ) {  <NL> button . set minimum size ( new dimension ( 90 , 25 ) ) ;  <NL> button . set maximum size ( new dimension ( 160 , 25 ) ) ;  <NL> button panel . add ( button ) ;  <NL> button panel . add ( box . create rigid area ( new dimension ( 0 , 5 ) ) ) ;  <NL>  }  COM: <s> adds a button to the button panel </s>

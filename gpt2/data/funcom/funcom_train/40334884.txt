@@ -1,0 +1,1 @@
+TDAT: public double var ( ) {  <NL> double tmp ;  <NL> tmp = math . pow ( params [ lambda ] , - 2 . 0d / params [ a ] ) * ( special math . gamma ( 1 <NL>  + ( 2 . 0d / params [ a ] ) )  <NL>  - math . pow ( special math . gamma ( 1d + ( 1d / params [ a ] ) ) , 2 . 0d ) ) ;  <NL>  <NL> return tmp ;  <NL>  }  COM: <s> returns the variance of the distribution </s>

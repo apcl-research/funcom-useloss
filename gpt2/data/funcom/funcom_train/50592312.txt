@@ -1,0 +1,1 @@
+TDAT: public void remove jar file ( string jar file name ) {  <NL> for ( int i = 0 ; i < jar files . size ( ) ; i + + ) {  <NL> jar file jar file = ( jar file ) jar files . get ( i ) ;  <NL> if ( jar file . get name ( ) . equals ( jar file name ) )  <NL> jar files . remove ( jar file ) ;  <NL>  }  <NL>  }  COM: <s> remove jar file from the list </s>

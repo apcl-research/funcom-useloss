@@ -1,0 +1,1 @@
+TDAT: public void modify user attributes ( final string new sn , final string new given name , final string new mail , final string new telephone number , final string new role ) {  <NL> controller . modify user attributes ( dn , new sn , new given name , new mail , new telephone number , new role ) ;  <NL>  }  COM: <s> modifies the attributes of this user </s>

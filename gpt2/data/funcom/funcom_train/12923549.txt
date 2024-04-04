@@ -1,0 +1,1 @@
+TDAT: public void clear ( ) {  <NL> path in progress = false ;  <NL> set initial ( 0 , 0 ) ;  <NL> set current ( 0 , 0 ) ;  <NL> set control ( 0 , 0 ) ;  <NL> set bounds ( 0 , 0 , 0 , 0 ) ;  <NL> line styles . clear ( ) ;  <NL> fill styles . clear ( ) ;  <NL> objects . clear ( ) ;  <NL> line width = 0 ;  <NL>  }  COM: <s> creates a new path discarding any path elements drawn </s>

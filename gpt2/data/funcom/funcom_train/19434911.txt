@@ -1,0 +1,1 @@
+TDAT: public d buf load ( file file ) throws io exception {  <NL> long size = file . length ( ) ;  <NL>  <NL> if ( size < max heap ) {  <NL> return load heap ( file , order ) ;  <NL>  } else if ( size < max mem map ) {  <NL> return load mem map ( file , order ) ;  <NL>  } else {  <NL> return load channel ( file , order ) ;  <NL>  }  <NL>  }  COM: <s> load a file </s>

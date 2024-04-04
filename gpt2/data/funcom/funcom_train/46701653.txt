@@ -1,0 +1,1 @@
+TDAT: public boolean equals ( object o1 , object o2 ) {  <NL> if ( o1 = = o2 ) { return true ; }  <NL> if ( o1 = = null || o2 = = null ) { return false ; }  <NL> if ( o1 . get class ( ) . is array ( ) ) {  <NL> return equals array ( o1 , o2 ) ;  <NL>  }  <NL> return o1 . equals ( o2 ) ;  <NL>  }  COM: <s> test if object o1 equals ujo o2 </s>

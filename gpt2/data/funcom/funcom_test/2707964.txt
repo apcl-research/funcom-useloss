@@ -1,0 +1,1 @@
+TDAT: public boolean get boolean ( ) {  <NL> if ( type = = variant types . boolean ) {  <NL> return ( ( boolean ) value ) . boolean value ( ) ;  <NL>  } else {  <NL> return " [ true ] [ yes ] [ 1 ] [ y ] [ on ] " . index of ( " [ " + value . to string ( ) . to lower case ( ) + " ] " ) ! = - 1 ;  <NL>  }  <NL>  }  COM: <s> get boolean returns the value as a boolean </s>

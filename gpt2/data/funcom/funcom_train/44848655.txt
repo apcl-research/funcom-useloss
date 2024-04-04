@@ -1,0 +1,1 @@
+TDAT: public void set lookup ( i lookup window in lookup ) {  <NL> if ( lookup map . get ( in lookup . get type ( ) ) = = null ) {  <NL> lookup map . put ( in lookup . get type ( ) , in lookup ) ;  <NL>  }  <NL> log . debug ( " setting content lookup of type { } . " , in lookup . get type ( ) ) ; / / $ non - nls - 1 $  <NL>  }  COM: <s> the services binding method </s>

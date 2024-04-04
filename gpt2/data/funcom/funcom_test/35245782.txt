@@ -1,0 +1,1 @@
+TDAT: public int get late fee ( ) {  <NL> if ( is checked out ( ) ) {  <NL> int latedays = subtract days ( new java . util . date ( ) , new java . util . date ( order . get due date ( ) . get time ( ) ) ) ;  <NL> if ( latedays > 0 ) {  <NL> return order . get fee rate ( ) * latedays ;  <NL>  }  <NL>  }  <NL> return 0 ;  <NL>  }  COM: <s> get total fee must pay </s>

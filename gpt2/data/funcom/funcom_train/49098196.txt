@@ -1,0 +1,1 @@
+TDAT: public void update computer id ( string table , string col , string value , int computer id ) {  <NL> content values vals = new content values ( ) ;  <NL> vals . put ( " computer _ id " , computer id ) ;  <NL> m db . update ( table , vals , col + " = ? " ,  <NL> new string [ ] { value } ) ;  <NL>  }  COM: <s> called by the bluetooth sync service </s>

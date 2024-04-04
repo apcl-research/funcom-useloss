@@ -1,0 +1,1 @@
+TDAT: private void expunge stale entries ( ) {  <NL> entry [ ] tab = table ;  <NL> int len = tab . length ;  <NL> for ( int j = 0 ; j < len ; j + + ) {  <NL> entry e = tab [ j ] ;  <NL> if ( e ! = null & & e . get ( ) = = null )  <NL> expunge stale entry ( j ) ;  <NL>  }  <NL>  }  COM: <s> expunge all stale entries in the table </s>

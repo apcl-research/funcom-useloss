@@ -1,0 +1,1 @@
+TDAT: public string get schema types ( char separator ) {  <NL> string out = " " ;  <NL> for ( string att : get schema types ( ) ) {  <NL> out + = att + separator ;  <NL>  }  <NL> if ( out . equals ( " " ) ) {  <NL> return out ;  <NL>  } else {  <NL> return out . substring ( 0 , out . length ( ) - 1 ) ;  <NL>  }  <NL>  }  COM: <s> the types of the schema </s>

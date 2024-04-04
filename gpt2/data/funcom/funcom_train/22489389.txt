@@ -1,0 +1,1 @@
+TDAT: public void test put get ( ) {  <NL> e ordered map list = new e ordered map ( ) ;  <NL>  <NL> for ( int i = 0 ; i < 100 ; i + + ) {  <NL> list . put ( new integer ( i ) , " value " + i ) ;  <NL>  }  <NL> for ( int i = 0 ; i < 100 ; i + + ) {  <NL> assert equals ( " value " + i , list . get ( new integer ( i ) ) ) ;  <NL>  }  <NL>  }  COM: <s> tests put and get </s>

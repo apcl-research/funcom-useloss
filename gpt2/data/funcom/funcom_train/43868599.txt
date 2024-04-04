@@ -1,0 +1,1 @@
+TDAT: protected void remove all content ( ) throws exception {  <NL> string query = " for $ u in cts : uris ( ' ' , ( ' document ' ) ) return xdmp : document - delete ( $ u ) " ;  <NL> execute query ( query , null , ( xdm variable [ ] ) null ) ;  <NL> inserted documents . clear ( ) ;  <NL>  }  COM: <s> remove all documents </s>

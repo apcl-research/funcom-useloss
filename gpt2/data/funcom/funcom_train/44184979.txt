@@ -1,0 +1,1 @@
+TDAT: public void copy ( crawl job cj , string copy to , boolean as profile ) throws io exception {  <NL> file dest = new file ( copy to ) ;  <NL> if ( ! dest . is absolute ( ) ) {  <NL> dest = new file ( jobs dir , copy to ) ;  <NL>  }  <NL> copy ( cj , dest , as profile ) ;  <NL>  }  COM: <s> copy a job to a new location possibly making a job </s>

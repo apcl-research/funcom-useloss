@@ -1,0 +1,1 @@
+TDAT: public void set double ( double d ) throws runtime exception {  <NL> cml scalar scalar = ( cml scalar ) this . get child cml element ( cml scalar . tag , 0 ) ;  <NL> if ( scalar = = null ) {  <NL> scalar = new cml scalar ( d ) ;  <NL>  } else {  <NL> scalar . set value ( d ) ;  <NL>  }  <NL> this . append child ( scalar ) ;  <NL>  }  COM: <s> sets double value </s>

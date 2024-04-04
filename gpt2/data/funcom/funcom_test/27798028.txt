@@ -1,0 +1,1 @@
+TDAT: public boolean set graph view handler ( graph view graph _ view , graph view handler gv _ handler ) {  <NL> if ( this . graph view to handler . contains key ( graph _ view ) ) {  <NL> this . graph view to handler . put ( graph _ view , gv _ handler ) ;  <NL> return true ;  <NL>  }  <NL> return false ;  <NL>  } / / set graph view handler  COM: <s> if the given code giny </s>

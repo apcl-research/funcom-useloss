@@ -1,0 +1,1 @@
+TDAT: public boolean in ( sim tupleset that ) {  <NL> if ( empty ( ) || this = = that ) return true ;  <NL> if ( longsize ( ) > that . longsize ( ) || arity ( ) ! = that . arity ( ) ) return false ;  <NL> for ( sim tuple t : this ) if ( ! that . has ( t ) ) return false ;  <NL> return true ;  <NL>  }  COM: <s> returns true if this is a subset of that </s>

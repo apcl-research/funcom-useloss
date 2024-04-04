@@ -1,0 +1,1 @@
+TDAT: public void print ( string indent , print stream output ) {  <NL> output . println ( indent + " system " ) ;  <NL> output . println ( indent + " " + _ system header ) ;  <NL>  <NL> for ( int i = 0 ; i < get staff count ( ) ; + + i )  <NL> get staff ( i ) . print ( indent + " " , output ) ;  <NL>  }  COM: <s> this prints the staff system including all staves </s>

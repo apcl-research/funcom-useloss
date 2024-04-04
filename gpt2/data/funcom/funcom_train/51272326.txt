@@ -1,0 +1,1 @@
+TDAT: public void close ( ) {  <NL>  / / try {  <NL>  / / b tree persister . close files ( ) ;  <NL>  / / } catch ( io exception e ) {  <NL>  / / / / log . error ( " could not close b - tree : " + e . get message ( ) , e ) ;  <NL>  / / system . out . println ( " could not close b - tree : " + e . get message ( ) + e ) ;  <NL>  / / }  <NL>  }  COM: <s> close this b tree </s>

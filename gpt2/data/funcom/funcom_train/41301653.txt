@@ -1,0 +1,1 @@
+TDAT: public boolean is inside ( int x , int y ) {  <NL> if ( selectable ) {  <NL> if ( ( x > this . x & & x < ( this . x + this . w ) ) & &  <NL>  ( y > this . y & & y < ( this . y + this . h ) ) ) {  <NL> return true ;  <NL>  }  <NL>  }  <NL> return false ;  <NL>  }  COM: <s> test for pointer click if is inside object </s>

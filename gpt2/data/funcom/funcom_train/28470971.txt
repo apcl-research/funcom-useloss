@@ -1,0 +1,1 @@
+TDAT: static public void delete record ( int handle , record record ) throws sync exception {  <NL> byte [ ] bytes = new byte [ 0 ] ;  <NL> raw record info data = new raw record info ( handle , record . get id ( ) , 0 , bytes ) ;  <NL>  <NL> verify result ( sync delete record ( data ) , " error deleting record " ) ;  <NL>  }  COM: <s> deletes a specific record on the device </s>

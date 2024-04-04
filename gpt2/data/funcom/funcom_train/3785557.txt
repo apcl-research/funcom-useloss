@@ -1,0 +1,1 @@
+TDAT: public string get file name ( string file )  <NL>  { / * get file name * /  <NL> string s r = file ;  <NL> int i = file . last index of ( ' / ' ) ;  <NL> if ( i ! = - 1 )  <NL> s r = file . substring ( i + 1 ) ; / * move last last ' / ' * /  <NL>  <NL> return ( s r ) ;  <NL>  } / * get file name * /  COM: <s> get file name get the file name after last if any </s>

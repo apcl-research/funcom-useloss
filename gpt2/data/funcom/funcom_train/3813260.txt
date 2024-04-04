@@ -1,0 +1,1 @@
+TDAT: private void add match ( list < string > ref list , list < string > hyp list ) {  <NL> num matching words + + ;  <NL> string ref = ref list . remove ( 0 ) ;  <NL> string hyp = hyp list . remove ( 0 ) ;  <NL> ref output . append ( ' ' ) . append ( ref ) ;  <NL> hyp output . append ( ' ' ) . append ( hyp ) ;  <NL>  }  COM: <s> add a match </s>

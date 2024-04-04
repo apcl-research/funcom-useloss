@@ -1,0 +1,1 @@
+TDAT: public void inc font size ( double s ) {  <NL> show panel font = new font ( gui constants . show _ panel _ font . get name ( ) ,  <NL> gui constants . show _ panel _ font . get style ( ) ,  <NL>  ( int ) ( gui constants . show _ panel _ font . get size ( ) * s ) ) ;  <NL>  }  COM: <s> increments the font size in comparison to the constans font </s>

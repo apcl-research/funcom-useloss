@@ -1,0 +1,1 @@
+TDAT: public void log ( throwable t ) {  <NL> string msg = t . get message ( ) ;  <NL> if ( msg = = null ) {  <NL> msg = t . to string ( ) ;  <NL>  }  <NL> i status status = new status ( i status . error , get bundle ( ) . get symbolic name ( ) , 0 , msg , t ) ;  <NL> get log ( ) . log ( status ) ;  <NL>  }  COM: <s> logs the given throwable </s>

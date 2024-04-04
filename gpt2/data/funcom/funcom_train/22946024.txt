@@ -1,0 +1,1 @@
+TDAT: protected void draw x description ( graphics g , double width , int start x , int image _ y _ origin ) {  <NL> g . set color ( color . black ) ;  <NL> g . draw string ( " t [ s ] " , ( int ) ( start x + width / 2 - 10 ) , image _ y _ origin ) ;  <NL>  }  COM: <s> draws x axis description label t s </s>

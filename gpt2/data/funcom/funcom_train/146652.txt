@@ -1,0 +1,1 @@
+TDAT: public boolean contains point ( point p ) {  <NL> return ( ( p . x > drawx - get width ( ) / 2 ) & & ( p . x < drawx + get width ( ) / 2 )  <NL>  & & ( p . y > drawy - get height ( ) / 2 ) & & ( p . y < drawy + get height ( ) / 2 ) ) ;  <NL>  }  COM: <s> returns true if this node contains the point tt p tt </s>

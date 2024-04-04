@@ -1,0 +1,1 @@
+TDAT: public doc ccr create ccr document ( long user id , long account id ) throws ccr exception {  <NL> doc base doc = get doc type factory ( ) . create new document ( " text / xml " , cc rns ) ;  <NL> create document ( doc , user id , account id ) ;  <NL> return ( doc ccr ) doc ;  <NL>  }  COM: <s> the document is immediately persisted with no xml in it </s>

@@ -1,0 +1,1 @@
+TDAT: public int find position ( char s ) {  <NL> int pos = 0 ;  <NL> string sym ;  <NL> for ( int i = 0 ; i < get size of alphabet ( ) ; i + + ) {  <NL> sym = ( string ) alphabet . get ( i ) ;  <NL> if ( sym . compare to ( string . value of ( s ) ) = = 0 ) {  <NL> pos = i ;  <NL>  <NL>  }  <NL>  }  <NL> return pos ;  <NL>  }  COM: <s> find position of the given symbol </s>

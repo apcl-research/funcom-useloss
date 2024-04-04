@@ -1,0 +1,1 @@
+TDAT: protected void set bit ( long bit index ) {  <NL> long int index = ( bit index > > > address _ bits _ per _ unit ) ;  <NL> bits [ ( int ) ( int index / one _ mb _ ints ) ] [ ( int ) ( int index % one _ mb _ ints ) ]  <NL> | = 1 < < ( bit index & bit _ index _ mask ) ;  <NL>  }  COM: <s> changes the bit with index tt bit index tt in local bitvector </s>

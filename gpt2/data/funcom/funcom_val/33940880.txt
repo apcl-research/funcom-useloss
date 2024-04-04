@@ -1,0 +1,1 @@
+TDAT: public void get col ( int col , float [ ] store , int offset ) {  <NL> store [ offset ] = get ( 0 , col ) ;  <NL> store [ offset + 1 ] = get ( 1 , col ) ;  <NL> store [ offset + 2 ] = get ( 2 , col ) ;  <NL> store [ offset + 3 ] = get ( 3 , col ) ;  <NL>  }  COM: <s> store the four column values for the given column index into the float </s>

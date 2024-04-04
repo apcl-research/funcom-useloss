@@ -1,0 +1,1 @@
+TDAT: private jx titled panel get jx titled panel ( ) {  <NL> if ( jx titled panel = = null ) {  <NL> jx titled panel = new jx titled panel ( ) ;  <NL> jx titled panel . set bounds ( 13 , 14 , 294 , 104 ) ;  <NL> jx titled panel . set title ( " endlich gefunden . " ) ;  <NL>  }  <NL> return jx titled panel ;  <NL>  }  COM: <s> this method initializes jxtitled panel </s>

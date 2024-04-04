@@ -1,0 +1,1 @@
+TDAT: private void make error ( ) {  <NL>  / / this . href = " error ( " + this . text . trim ( ) + " ) " ;  <NL> this . href = null ;  <NL> if ( this . label = = null ) {  <NL> this . label = " " ;  <NL>  }  <NL> this . label = " error ( " + this . label + " / " + text . trim ( ) + " ) " ;  <NL>  }  COM: <s> turn this link reference into one with an error message </s>

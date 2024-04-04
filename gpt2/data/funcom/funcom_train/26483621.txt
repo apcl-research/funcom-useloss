@@ -1,0 +1,1 @@
+TDAT: protected void do start page ( ) {  <NL>  / / apparently beginpage isn ' t allowed just anywhere <NL> if ( page number > 1 )  <NL> out . println ( " < beginpage pagenum = \ " " + page number + " \ " > " ) ;  <NL> out . println ( " < ! - - = = = = = = = = page " + page number + " = = = = = = = = - - > " ) ;  <NL>  }  COM: <s> this override starts a new page </s>

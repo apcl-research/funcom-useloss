@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> return ( digits ( most sig > > 32 , 8 ) + " - " +  <NL> digits ( most sig > > 16 , 4 ) + " - " +  <NL> digits ( most sig , 4 ) + " - " +  <NL> digits ( least sig > > 48 , 4 ) + " - " +  <NL> digits ( least sig , 12 ) ) ;  <NL>  }  COM: <s> returns a 36 character string of six fields separated by hyphens </s>

@@ -1,0 +1,1 @@
+TDAT: public void set vision mode chart ( ) throws stellarium exception {  <NL> if ( ! get vision mode chart ( ) ) {  <NL> core . set color scheme ( conf , " chart _ color " ) ;  <NL>  / / ui . set color scheme ( get config file ( ) , " chart _ color " ) ;  <NL>  }  <NL> draw mode = drawmode . chart ;  <NL>  }  COM: <s> set flag for activating chart vision mode </s>

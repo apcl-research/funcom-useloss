@@ -1,0 +1,1 @@
+TDAT: public role get current user role ( ) {  <NL> user current user = get current user ( ) ;  <NL> if ( null = = current user ) {  <NL> return null ;  <NL>  }  <NL> iterator < role > it = current user . get roles ( ) . iterator ( ) ;  <NL> if ( it . has next ( ) ) {  <NL> return it . next ( ) ;  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> add by busfly 2009 4 10 0 05 31 </s>

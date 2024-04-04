@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> string str = integer . to string ( _ major ) ;  <NL>  <NL> if ( _ minor = = - 1 )  <NL> str + = " . * " ;  <NL> else <NL> str + = " . " + _ minor ;  <NL>  <NL> if ( _ revision = = - 1 )  <NL> str + = " . * " ;  <NL> else <NL> str + = " . " + _ revision ;  <NL>  <NL> return str ;  <NL>  }  COM: <s> format a module version number </s>

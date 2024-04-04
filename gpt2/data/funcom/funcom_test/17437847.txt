@@ -1,0 +1,1 @@
+TDAT: public void add device ( string id , string token ) throws duplicate device exception , null id exception , null device token exception , exception {  <NL> logger . debug ( " adding token [ " + token + " ] to device [ " + id + " ] " ) ;  <NL> device factory . get instance ( ) . add device ( id , token ) ;  <NL>  }  COM: <s> add a device </s>

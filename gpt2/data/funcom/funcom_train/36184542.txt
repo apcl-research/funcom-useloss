@@ -1,0 +1,1 @@
+TDAT: private j text field get j text field context id ( ) {  <NL> if ( j text field context id = = null ) {  <NL> j text field context id = new j text field ( ) ;  <NL> j text field context id . set bounds ( new rectangle ( 93 , 17 , 273 , 20 ) ) ;  <NL>  }  <NL> return j text field context id ;  <NL>  }  COM: <s> this method initializes j text field context id </s>

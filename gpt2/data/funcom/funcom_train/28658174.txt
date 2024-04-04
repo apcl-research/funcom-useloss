@@ -1,0 +1,1 @@
+TDAT: public void clear ( ) {  <NL> char [ ] chs = new char [ iv length ] ;  <NL> for ( int i = 0 ; i < chs . length ; i + + )  <NL> chs [ i ] = ' \u0000 ' ;  <NL> iv crt . draw string ( new string ( chs ) , iv col , iv row , xi5250crt . use _ present _ attribute ) ;  <NL>  }  COM: <s> clear field to nulls </s>

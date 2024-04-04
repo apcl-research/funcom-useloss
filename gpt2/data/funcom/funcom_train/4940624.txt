@@ -1,0 +1,1 @@
+TDAT: public long putlong ( long value , int n ) throws fl io exception {  <NL> if ( n > 32 ) {  <NL> int i = ( int ) ( value > > > 32 ) ;  <NL> putbits ( i , n - 32 ) ;  <NL> i = ( int ) ( value & 0x00000000ffffffff ) ;  <NL> putbits ( i , 32 ) ;  <NL> return value ;  <NL>  }  <NL> else return putbits ( ( int ) value , n ) ;  <NL>  }  COM: <s> put n bits output only </s>

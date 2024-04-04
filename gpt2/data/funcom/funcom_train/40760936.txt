@@ -1,0 +1,1 @@
+TDAT: public void set store ( list store < bean model > store p ) {  <NL> for ( int i loop = 0 ; i loop < get item count ( ) ; i loop + + ) {  <NL> component comp = get item ( i loop ) ;  <NL> if ( comp instanceof file ui ) {  <NL>  ( ( file ui ) comp ) . set store ( store p ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> set the store that must be used by file panels </s>

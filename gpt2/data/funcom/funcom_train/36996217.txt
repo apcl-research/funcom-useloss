@@ -1,0 +1,1 @@
+TDAT: public alpha color get reduced color ( ) {  <NL> double k = 0 . 5 ;  <NL>  / / return new color ( ( int ) ( r * k ) , ( int ) ( g * k ) , ( int ) ( b * k ) , a ) ;  <NL> return new alpha color ( r , g , b , ( int ) ( a * k ) ) ;  <NL>  }  COM: <s> creates new alpha color from this one with reduced alpha component by half </s>

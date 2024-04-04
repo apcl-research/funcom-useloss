@@ -1,0 +1,1 @@
+TDAT: public void set ai prof3 ( ) {  <NL> menu char select . set ai slot3 ( arr1 , 1 ) ;  <NL> menu char select . set ai slot3 ( arr2 , 2 ) ;  <NL> menu char select . set ai slot3 ( arr3 , 3 ) ;  <NL> menu char select . set ai slot3 ( arr4 , 4 ) ;  <NL> menu char select . set ai slot3 ( arr5 , 5 ) ;  <NL>  }  COM: <s> set characters ai player 2 </s>

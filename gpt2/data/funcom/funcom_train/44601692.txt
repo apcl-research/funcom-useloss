@@ -1,0 +1,1 @@
+TDAT: public void test _ assume _ 01 ( ) {  <NL> compile and exec given statement (  <NL>  " x . java " ,  <NL>  " public class x { \n " +  <NL>  " public void m ( ) { \n " +  <NL>  " / / @ assume true ; " +  <NL>  " } \n " +  <NL>  " } \n " ,  <NL>  " new x ( ) . m ( ) " ) ;  <NL>  }  COM: <s> is the assume statement translated the assume statement is </s>

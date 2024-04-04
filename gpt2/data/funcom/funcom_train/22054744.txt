@@ -1,0 +1,1 @@
+TDAT: protected void resize cache ( ) {  <NL> long l old cache size = i cache size ;  <NL> i cache size + = cache _ increment ;  <NL> byte [ ] new cache = new byte [ i cache size ] ;  <NL> for ( int i = 0 ; i < l old cache size ; i + + ) {  <NL> new cache [ i ] = cache bytes [ i ] ;  <NL>  }  <NL> cache bytes = new cache ;  <NL>  }  COM: <s> resize the cache </s>

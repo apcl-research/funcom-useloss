@@ -1,0 +1,1 @@
+TDAT: public void update ( byte input [ ] , int offset , int len ) {  <NL> if ( null ! = input ) {  <NL> if ( 0 < offset ) {  <NL> len + = offset ;  <NL> for ( int i = offset ; i < len ; i + + )  <NL> update ( input [ i ] ) ;  <NL>  }  <NL> else <NL> for ( int i = 0 ; i < len ; i + + )  <NL> update ( input [ i ] ) ;  <NL>  }  <NL>  }  COM: <s> add a range bytes to the hash </s>

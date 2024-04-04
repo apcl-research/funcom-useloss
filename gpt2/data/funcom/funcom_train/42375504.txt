@@ -1,0 +1,1 @@
+TDAT: private void error occured ( string error ) {  <NL> error occured event event = new error occured event ( this , error ) ;  <NL> for ( int i = 0 ; i < this . error _ occured _ listener . size ( ) ; i + + ) {  <NL> this . error _ occured _ listener . get ( i ) . error occured ( event ) ;  <NL>  }  <NL>  }  COM: <s> to specifie that a new error occured </s>

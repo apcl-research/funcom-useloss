@@ -1,0 +1,1 @@
+TDAT: public list term concat ( list term lt ) {  <NL> if ( is empty ( ) ) {  <NL> set values from ( lt ) ;  <NL>  } else if ( ( ( list term ) next ) . is empty ( ) ) {  <NL> next = lt ;  <NL>  } else {  <NL>  ( ( list term ) next ) . concat ( lt ) ;  <NL>  }  <NL> return lt . get last ( ) ;  <NL>  }  COM: <s> adds a list in the end of this list </s>

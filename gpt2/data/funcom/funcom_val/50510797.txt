@@ -1,0 +1,1 @@
+TDAT: public void set name ( string string ) {  <NL> name = string ;  <NL> try {  <NL> if ( this . description = = null || description . length ( ) = = 0 )  <NL> bean utils . set property by name ( this , " description " , name ) ;  <NL>  } catch ( bean exception e ) {  <NL> logger . warn ( " e64 " , e ) ;  <NL>  }  <NL>  <NL>  }  COM: <s> set of the model name </s>

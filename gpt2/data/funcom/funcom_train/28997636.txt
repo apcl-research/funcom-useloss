@@ -1,0 +1,1 @@
+TDAT: protected void trace ( string method name , string message ) {  <NL> portal system . get trace ( ) . log (  <NL> trace capable . debug ,  <NL> get class ( ) . get name ( ) + " > > # " + method name ) ;  <NL> portal system . get trace ( ) . log ( trace capable . debug , " < = > " + message ) ;  <NL>  }  COM: <s> this method was created in visual age </s>

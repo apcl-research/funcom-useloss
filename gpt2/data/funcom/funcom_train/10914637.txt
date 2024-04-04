@@ -1,0 +1,1 @@
+TDAT: public void create shading ( int x , int y , int w , int h , color col ) {  <NL> current page object . create shading ( x , y , w , h , col . get red ( ) , col . get green ( ) , col . get blue ( ) ) ;  <NL>  }  COM: <s> this method will create shading on the page using the specified </s>

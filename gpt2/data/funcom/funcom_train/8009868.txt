@@ -1,0 +1,1 @@
+TDAT: public html text edit new float edit ( string table , string column , boolean primary key , int size , string format ) {  <NL> return new edit column ( table , column , primary key , size , 25 , data store . datatype _ float , format ) ;  <NL>  }  COM: <s> this method creates a new float edit column </s>

@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> string s = get class ( ) . get name ( ) ;  <NL> string message = get localized message ( ) ;  <NL> return ( message ! = null ) ? ( s + " [ " + m error strings [ m id - 1 ] + " ] : "  <NL>  + message ) : s + " [ " + m error strings [ m id - 1 ] + " ] " ;  <NL>  }  COM: <s> prints out the id and the optional detailed message </s>

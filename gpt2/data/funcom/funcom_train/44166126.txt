@@ -1,0 +1,1 @@
+TDAT: public int compare to ( unit was uw ) {  <NL> int cmp = ( ( unit location ) uw . loc ) . get unit capacity ( )  <NL>  - ( ( unit location ) this . loc ) . get unit capacity ( ) ;  <NL> if ( cmp ! = 0 ) return cmp ;  <NL> return this . equipment . key set ( ) . size ( ) - uw . equipment . key set ( ) . size ( ) ;  <NL>  }  COM: <s> compares this unit was with another </s>

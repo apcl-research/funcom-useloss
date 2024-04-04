@@ -1,0 +1,1 @@
+TDAT: public string get item desc ( boolean identified ) {  <NL> if ( this . identified & & identified ) {  <NL> string bonus = " " + ( this . magic bonus > = 0 ? " + " : " " ) + this . magic bonus ;  <NL> return super . get item desc ( identified ) + bonus ;  <NL>  }  <NL> return super . get item desc ( identified ) ;  <NL>  }  COM: <s> description with magical bonus </s>

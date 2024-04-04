@@ -1,0 +1,1 @@
+TDAT: private int match validate at ( final list < entry > rates , final date date ) {  <NL> final valid _ at va = new valid _ at ( date ) ;  <NL> for ( int i = 0 ; i < rates . size ( ) ; i + + ) {  <NL> if ( va . operator ( rates . get ( i ) ) )  <NL> return i ;  <NL>  }  <NL> return - 1 ;  <NL>  }  COM: <s> returns the index of the first valid element </s>

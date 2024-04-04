@@ -1,0 +1,1 @@
+TDAT: public string get time formatted ( ) {  <NL> string buffer buf = new string buffer ( 8 ) ;  <NL> buf . append ( format int ( get hour ( ) ) ) . append ( " : " ) . append ( format int ( get minute ( ) ) ) . append ( " : " ) . append ( format int ( get seconds ( ) ) ) ;  <NL> return buf . to string ( ) ;  <NL>  }  COM: <s> get the time in format hh mm ss </s>

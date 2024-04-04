@@ -1,0 +1,1 @@
+TDAT: public string structure ( ) {  <NL> return this . get submission set ids ( ) . size ( ) + " ss + " + this . extrinsic objects . size ( ) + " eo + " + this . folders . size ( ) + " fol + " + this . associations . size ( ) + " a + " + this . object refs . size ( ) + " or " ;  <NL>  }  COM: <s> return a string that can be used for debugging purposes </s>

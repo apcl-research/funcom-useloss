@@ -1,0 +1,1 @@
+TDAT: private long to long ( ) {  <NL> assert ( int len < = 2 ) : " this mutable big integer exceeds the range of long " ;  <NL> if ( int len = = 0 )  <NL> return 0 ;  <NL> long d = value [ offset ] & long _ mask ;  <NL> return ( int len = = 2 ) ? d < < 32 | ( value [ offset + 1 ] & long _ mask ) : d ;  <NL>  }  COM: <s> convert this mutable big integer to a long value </s>

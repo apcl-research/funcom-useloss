@@ -1,0 +1,1 @@
+TDAT: private double area ( double [ ] x , double [ ] y ) {  <NL> double perimeter = 0 . 0 ;  <NL> for ( int i = 1 ; i < x . length - 1 ; i + + ) {  <NL> perimeter + = x [ i ] * ( y [ i + 1 ] - y [ i - 1 ] ) ;  <NL>  }  <NL> return perimeter / 2 . 0 ;  <NL>  }  COM: <s> computes the area of a given contour </s>

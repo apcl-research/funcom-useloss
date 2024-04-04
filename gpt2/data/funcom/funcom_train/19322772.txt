@@ -1,0 +1,1 @@
+TDAT: public boolean is iiop ( ) {  <NL> if ( _ is iiop = = null ) { / / haven been analyze yet , analyze it <NL>  _ is iiop = _ service url . get protocol ( ) . equals ( iiop _ protocol ) ?  <NL>  ( boolean . true ) : ( boolean . false ) ;  <NL>  }  <NL> return _ is iiop . boolean value ( ) ;  <NL>  }  COM: <s> determine if protocol is iiop </s>

@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> return " ( " + get type ( ) . to string ( ) +  <NL>  " , " + attr . mode + " = " + mode +  <NL>  " , " + attr . var + " = " + var +  <NL>  " , " + attr . absolute + " = " + absolute +  <NL>  " , " + attr . skew + " = " + skew + " ) " ;  <NL>  }  COM: <s> produces a human readable description of the prior </s>

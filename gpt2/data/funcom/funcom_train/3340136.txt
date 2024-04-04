@@ -1,0 +1,1 @@
+TDAT: public void blank box ( point origin _ , dimension size _ , int colorpair _ ) {  <NL> blank box native ( origin _ . x , origin _ . y ,  <NL> origin _ . x + size _ . width - 1 ,  <NL> origin _ . y + size _ . height - 1 ,  <NL> colorpair _ ) ;  <NL>  }  COM: <s> blank out a box using the specified color pair </s>

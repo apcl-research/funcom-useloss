@@ -1,0 +1,1 @@
+TDAT: public void save ( byte [ ] data , int offset ) {  <NL> save game handler . int into byte array ( correct streak , data , offset + 0 ) ;  <NL> save game handler . int into byte array ( total , data , offset + 4 ) ;  <NL> word index . into byte array ( offset + 8 , data ) ;  <NL>  }  COM: <s> inserts this word into the byte array at the specified offset </s>

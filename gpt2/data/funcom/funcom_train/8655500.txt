@@ -1,0 +1,1 @@
+TDAT: public string get type ( string uri , string local name ) {  <NL> if ( ! f namespaces ) {  <NL> return null ;  <NL>  }  <NL> int index = get index ( uri , local name ) ;  <NL> return index ! = - 1 ? get reportable type ( f attributes [ index ] . type ) : null ;  <NL>  } / / get type ( string , string ) : string  COM: <s> look up an attributes type by namespace name </s>

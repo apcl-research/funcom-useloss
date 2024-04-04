@@ -1,0 +1,1 @@
+TDAT: private int char w ( final graphics g , final int ch ) {  <NL> return ch = = ' \t ' ? fwidth [ ' ' ] * base x text tokens . tab : ch < ' ' ? 0 :  <NL> ch < 256 || g = = null ? fwidth [ ch & 0x ff ] :  <NL> g . get font metrics ( ) . char width ( ch ) ;  <NL>  }  COM: <s> returns the width of the specified character </s>

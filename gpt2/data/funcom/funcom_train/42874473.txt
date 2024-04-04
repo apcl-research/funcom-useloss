@@ -1,0 +1,1 @@
+TDAT: private void mmc3 _ set _ cpu _ banks ( ) {  <NL>  / / map program rom <NL> if ( prg _ swap ( ) ) {  <NL> set cpu banks ( get num8k rom banks ( ) - 2 , prg1 , prg0 , get num8k rom banks ( ) - 1 ) ;  <NL>  } else {  <NL> set cpu banks ( prg0 , prg1 , get num8k rom banks ( ) - 2 , get num8k rom banks ( ) - 1 ) ;  <NL>  }  <NL>  }  COM: <s> set the mmc3 cpu banks </s>

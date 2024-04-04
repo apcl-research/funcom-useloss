@@ -1,0 +1,1 @@
+TDAT: public void set sweep ( int time , int num , boolean decrease ) {  <NL> time sweep = ( time + 1 ) / 2 ;  <NL> num sweep = num ;  <NL> decrease sweep = decrease ;  <NL> counter sweep = 0 ;  <NL>  / / system . out . println ( " sweep : " + time + " , " + num + " , " + decrease ) ;  <NL>  }  COM: <s> set the frequency sweep parameters </s>

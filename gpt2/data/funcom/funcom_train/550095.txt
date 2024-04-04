@@ -1,0 +1,1 @@
+TDAT: protected boolean confirm ( ) {  <NL> return j option pane . show confirm dialog ( null , " the file "  <NL>  + file . to string ( ) + " exists , "  <NL>  + " do you want to overwrite it ? " , " alert " ,  <NL> j option pane . yes _ no _ option ) = = j option pane . yes _ option ;  <NL>  }  COM: <s> code confirm code a dialog which is used to make the user </s>

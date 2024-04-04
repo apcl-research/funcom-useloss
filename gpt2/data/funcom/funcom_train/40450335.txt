@@ -1,0 +1,1 @@
+TDAT: public void test mixing types in object array serialization ( ) {  <NL> object [ ] array = new object [ ] { 1 , 2 , new object [ ] { " one " , " two " , 3 } } ;  <NL> assert equals ( " [ 1 , 2 , [ \ " one\ " , \ " two\ " , 3 ] ] " , gson . to json ( array ) ) ;  <NL>  }  COM: <s> regression test for issue 205 </s>

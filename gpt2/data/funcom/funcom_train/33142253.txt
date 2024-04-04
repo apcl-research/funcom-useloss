@@ -1,0 +1,1 @@
+TDAT: public j progress bar get progress bar ( ) {  <NL> if ( progress bar = = null ) {  <NL> progress bar = new j progress bar ( ) ;  <NL> progress bar . set bounds ( new java . awt . rectangle ( 15 , 45 , 451 , 18 ) ) ;  <NL> progress bar . set indeterminate ( true ) ;  <NL>  }  <NL> return progress bar ;  <NL>  }  COM: <s> this method initializes progress bar </s>

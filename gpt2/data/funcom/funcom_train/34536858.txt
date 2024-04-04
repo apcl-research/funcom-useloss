@@ -1,0 +1,1 @@
+TDAT: public void add select field ( string _ field , string _ alias ) {  <NL> query field structure p = new query field structure ( _ field , " as " , _ alias , " select " ) ;  <NL> if ( this . select = = null ) this . select = new vector < query field structure > ( ) ;  <NL> select . add element ( p ) ;  <NL>  }  COM: <s> adds new field to the select section of the query </s>

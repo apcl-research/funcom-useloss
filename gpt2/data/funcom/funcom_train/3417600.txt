@@ -1,0 +1,1 @@
+TDAT: public abstract string builder insert ( int dst offset , char sequence s ) {  <NL> if ( s = = null )  <NL> s = " null " ;  <NL> if ( s instanceof string )  <NL> return this . insert ( dst offset , ( string ) s ) ;  <NL> return this . insert ( dst offset , s , 0 , s . length ( ) ) ;  <NL>  }  COM: <s> inserts the specified code char sequence code into this sequence </s>

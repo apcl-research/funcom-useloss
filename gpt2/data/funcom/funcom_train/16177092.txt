@@ -1,0 +1,1 @@
+TDAT: public node get random node out ( ) {  <NL> if ( out edges . size ( ) > 0 ) {  <NL> int index = random . uniform . next int from to ( 0 , out edges . size ( ) - 1 ) ;  <NL> edge e = ( edge ) out edges . get ( index ) ;  <NL> return e . get to ( ) ;  <NL>  }  <NL>  <NL> return null ;  <NL>  }  COM: <s> gets a node at random from the list of out edges </s>

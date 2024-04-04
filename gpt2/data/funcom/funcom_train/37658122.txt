@@ -1,0 +1,1 @@
+TDAT: public void test assert equalsbyte arraybyte array1 ( ) throws exception {  <NL> byte [ ] b1 = { ' a ' , ' b ' , ' c ' , ' d ' } ;  <NL> byte [ ] b2 = { ' a ' , ' b ' , ' c ' , ' d ' } ;  <NL>  <NL> tc . assert equals ( b1 , b2 ) ;  <NL>  }  COM: <s> test assert equals on two byte arrays that are the same </s>

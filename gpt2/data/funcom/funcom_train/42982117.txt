@@ -1,0 +1,1 @@
+TDAT: public void add unit course ( ) {  <NL> unit sel unit = ( unit ) frame . cb unit . get selected item ( ) ;  <NL> node node = ( node ) frame . cb unit cp add . get selected item ( ) ;  <NL> engine . add unit course ( sel unit . get id ( ) , node . get id ( ) ) ;  <NL> fill unit data ( ) ;  <NL>  }  COM: <s> adds a node to the units course list </s>

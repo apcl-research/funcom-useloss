@@ -1,0 +1,1 @@
+TDAT: private message parse leave ( int len ) {  <NL> int part len = utils . parse int ( q . peek n ( 4 ) , 0 ) ;  <NL>  <NL> string room = utils . parse string ( q . pop n ( part len + 4 ) , 0 ) ;  <NL>  <NL> return new message ( 15 , " s " , room ) ;  <NL>  }  COM: <s> parses message for leaving a chatroom </s>

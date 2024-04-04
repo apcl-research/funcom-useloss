@@ -1,0 +1,1 @@
+TDAT: public void resize ( int new size ) {  <NL> if ( buffer size > = new size ) return ;  <NL> byte [ ] new buffer = new byte [ new size ] ;  <NL> system . arraycopy ( buffer , 0 , new buffer , 0 , buffer . length ) ;  <NL> buffer = new buffer ;  <NL> buffer size = new size ;  <NL>  / / signal . notify all ( ) ;  <NL>  }  COM: <s> resize the ring buffer </s>

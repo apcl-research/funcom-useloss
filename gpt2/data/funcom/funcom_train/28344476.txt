@@ -1,0 +1,1 @@
+TDAT: public void print ( print writer os ) {  <NL> os . println ( " element - " + this . get id ( ) ) ;  <NL> os . println ( " element type : " + this . get type ( ) ) ;  <NL> os . println ( " element uid : " + this . get uid ( ) ) ;  <NL> os . println ( " element length : " + this . get length ( ) ) ;  <NL>  } ;  COM: <s> dump current state and content to output stream </s>

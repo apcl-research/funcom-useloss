@@ -1,0 +1,1 @@
+TDAT: public void set images ( list < buffered image > img row ) {  <NL> if ( img row ! = null & & img row . size ( ) > 0 ) {  <NL> this . img row = img row ;  <NL> fit to screen ( img row ) ;  <NL>  } else {  <NL> throw new illegal argument exception ( " img row is null or contans no images " ) ;  <NL>  }  <NL>  }  COM: <s> set the images to be painted </s>

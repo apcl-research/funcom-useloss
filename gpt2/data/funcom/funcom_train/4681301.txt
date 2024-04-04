@@ -1,0 +1,1 @@
+TDAT: private void close prep statement ( ) {  <NL> try {  <NL> if ( prep state ! = null ) {  <NL> prep state . close ( ) ;  <NL>  }  <NL>  } catch ( sql exception ex ) {  <NL> if ( settings . get instance ( ) . debugging ) logger . get logger ( derby . class . get name ( ) ) . log ( level . severe , null , ex ) ;  <NL>  }  <NL>  }  COM: <s> close prepared statement </s>

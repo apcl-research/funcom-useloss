@@ -1,0 +1,1 @@
+TDAT: public void save ( output stream out ) throws io exception {  <NL>  / / cycle through all the tiles writing them down to the <NL>  / / stream <NL> for ( int x = 0 ; x < 20 ; x + + ) {  <NL> for ( int y = 0 ; y < 20 ; y + + ) {  <NL> out . write ( map [ x ] [ y ] ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> save the map to the specified stream </s>

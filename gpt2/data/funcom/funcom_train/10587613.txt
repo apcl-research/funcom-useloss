@@ -1,0 +1,1 @@
+TDAT: protected void end element ( string node name ) throws sax exception {  <NL> if ( prefix . length ( ) > 0 ) {  <NL> this . content handler . end element ( uri , node name , prefix + " : " + node name ) ;  <NL>  } else {  <NL> this . content handler . end element ( uri , node name , node name ) ;  <NL>  }  <NL>  }  COM: <s> sax end element helper </s>

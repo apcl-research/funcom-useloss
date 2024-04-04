@@ -1,0 +1,1 @@
+TDAT: public boolean drop goal ( trigger te , unifier un ) {  <NL> intended means im = get im ( te , un ) ;  <NL> if ( im ! = null ) {  <NL>  / / remove the i ms until im - 1 <NL> while ( peek ( ) ! = im ) {  <NL> pop ( ) ;  <NL>  }  <NL> pop ( ) ; / / remove im <NL> return true ;  <NL>  }  <NL> return false ;  <NL>  }  COM: <s> remove all ims until the im with trigger te </s>

@@ -1,0 +1,1 @@
+TDAT: private void wait for activating ( string os id ) throws io exception , interrupted exception {  <NL> string status = null ;  <NL> for ( int i = 0 ; i < nb max iteration & & ! " active " . equals ( status ) ; i + + ) {  <NL> thread . sleep ( time to wait ) ;  <NL> status = check status ( os id ) ;  <NL>  }  <NL>  }  COM: <s> wait until the opensearch is activated </s>

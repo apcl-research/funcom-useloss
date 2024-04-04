@@ -1,0 +1,1 @@
+TDAT: public void add line ( string val ) {  <NL> if ( val . index of ( " \n " ) > 0 ) {  <NL> string tokenizer t = new string tokenizer ( val , " \n " ) ;  <NL> while ( t . has more tokens ( ) ) {  <NL> text . add ( t . next token ( ) ) ;  <NL>  }  <NL>  } else {  <NL> text . add ( val ) ;  <NL>  }  <NL>  }  COM: <s> adds a line of text to be displayed </s>

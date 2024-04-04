@@ -1,0 +1,1 @@
+TDAT: public boolean check attack ok ( boolean with busy , double factor ) {  <NL> s player p = get attacker ( ) . get player ( ) ;  <NL> return eligible & & get target ( ) . get influence ( ) . get influence (  <NL> p . get my house ( ) . get house fighting for ( p ) . get id ( ) ) > 0 ;  <NL>  }  COM: <s> ok if held on a planet you control </s>

@@ -1,0 +1,1 @@
+TDAT: private void collision detection ( array list < unit > units , float delta ) {  <NL>  <NL> for ( unit unit : units ) {  <NL> unit . collideable . set position ( unit . pos . get x ( ) , unit . pos . get y ( ) , 0f ) ;  <NL>  }  <NL>  <NL> coll engine . check collisions ( coll group , false , this ) ;  <NL>  <NL>  }  COM: <s> detect all collisions and correct them </s>

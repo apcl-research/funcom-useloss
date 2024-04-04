@@ -1,0 +1,1 @@
+TDAT: public string get job offer count ( ) {  <NL> int count = job service . get job offer count ( ) ;  <NL>  / / log . info ( " debug : job offer count : " + count ) ;  <NL> return new string buffer ( ) . append ( " ( " ) . append ( count ) .  <NL> append ( " ) " ) . to string ( ) ;  <NL>  }  COM: <s> gets the number of job offers </s>

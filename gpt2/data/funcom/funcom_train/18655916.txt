@@ -1,0 +1,1 @@
+TDAT: private int find url ( url with access key [ ] array , url target ) {  <NL> for ( int url index = 0 ; url index < array . length ; url index + + ) {  <NL> if ( array [ url index ] . get url ( ) . equals ( target ) )  <NL> return url index ;  <NL>  }  <NL> return - 1 ; / / nothing found <NL>  }  COM: <s> find a url in a array </s>

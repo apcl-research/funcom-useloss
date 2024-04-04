@@ -1,0 +1,1 @@
+TDAT: public void set alpha ( float m alpha ) {  <NL> if ( color = = null )  <NL> color = new gl color ( 1 . 0f , 1 . 0f , 1 . 0f , m alpha ) ;  <NL> else <NL> color =  <NL> new gl color ( color . get red ( ) , color . get green ( ) , color <NL>  . get blue ( ) , m alpha ) ;  <NL>  }  COM: <s> re defines this windows alpha value </s>

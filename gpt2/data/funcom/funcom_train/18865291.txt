@@ -1,0 +1,1 @@
+TDAT: public void set date ( date date ) {  <NL> super . set date ( date ) ;  <NL> synchronized ( mutex ) {  <NL> if ( splits ! = null ) {  <NL> for ( int i = 0 ; i < splits . length ; i + + ) {  <NL> splits [ i ] . set date ( get date ( ) ) ;  <NL>  }  <NL> arrays . sort ( splits ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> overrides the super </s>

@@ -1,0 +1,1 @@
+TDAT: protected planar image scale image ( planar image im , float x scale , float y scale ) {  <NL> parameter block pb = new parameter block ( ) ;  <NL> pb . add source ( im ) ;  <NL> pb . add ( x scale ) ;  <NL> pb . add ( y scale ) ;  <NL>  <NL> return jai . create ( " scale " , pb , null ) ;  <NL>  }  COM: <s> apply a scale operation to the image and return the </s>

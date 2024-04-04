@@ -1,0 +1,1 @@
+TDAT: public void set chrom width ( float width ) {  <NL> chrom width = width ;  <NL> axis line = new p line ( ) ;  <NL> axis line . set stroke paint ( color . black ) ;  <NL> axis line . add point ( 0 , 0 , 0 ) ;  <NL> axis line . add point ( 1 , chrom width , 0 ) ;  <NL> this . add child ( axis line ) ;  <NL>  }  COM: <s> sets the width of this node </s>

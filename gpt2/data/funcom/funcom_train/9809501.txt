@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> return get class ( ) . get name ( ) + " [ source = " + event src +  <NL>  " , previous = " + state name ( previous state ) +  <NL>  " , current = " + state name ( current state ) +  <NL>  " , target = " + state name ( target state ) + " ] " ;  <NL>  }  COM: <s> returns the string representation of this events values </s>

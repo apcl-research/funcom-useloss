@@ -1,0 +1,1 @@
+TDAT: private j panel new patch name panel ( patch patch ) {  <NL> j panel a panel = new j panel ( ) ;  <NL> add widget ( a panel , new patch name widget ( " preset name " , patch ) , 0 , 0 , 1 , 1 , 1 ) ;  <NL> return a panel ;  <NL>  }  COM: <s> adds the patch name panel to the editor given the patch </s>

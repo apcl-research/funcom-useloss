@@ -1,0 +1,1 @@
+TDAT: / * public login bean get login ( http session session ) {  <NL> web session ws = get web session ( session ) ;  <NL> login bean login = null ;  <NL> if ( ws ! = null ) {  <NL> login = ws . get login ( ) ;  <NL>  / / util . debug ( " login = " + login . to xml ( ) ) ;  <NL>  }  <NL>  <NL> return login ;  <NL>  } * /  COM: <s> get login object from session </s>

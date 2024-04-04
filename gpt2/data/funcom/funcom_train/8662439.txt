@@ -1,0 +1,1 @@
+TDAT: public void set interfaces ( string [ ] name list ) {  <NL> cached interfaces = null ;  <NL> if ( name list ! = null ) {  <NL> int n = name list . length ;  <NL> interfaces = new int [ n ] ;  <NL> for ( int i = 0 ; i < n ; + + i )  <NL> interfaces [ i ] = const pool . add class info ( name list [ i ] ) ;  <NL>  }  <NL>  }  COM: <s> sets the interfaces </s>

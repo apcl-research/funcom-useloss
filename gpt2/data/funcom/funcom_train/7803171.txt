@@ -1,0 +1,1 @@
+TDAT: private void mytest ( int sw , string key , string name , string text ) {  <NL> logger . log ( 1 , " [ " + sw + " ] " + key + " ( " + name + " ) " + text ) ;  <NL>  <NL>  / / e . g . 2007 - 01 - 22 t 15 : 33 : 15 ut [ 32 ] proposal ( jl06b03 ) failed : out of time <NL>  }  COM: <s> test log for sweep count </s>

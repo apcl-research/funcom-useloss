@@ -1,0 +1,1 @@
+TDAT: public void set parameters ( ) {  <NL> double prod = 1 ;  <NL> if ( sample size > pop size ) p = 1 . 00 ;  <NL> else {  <NL> for ( int i = 1 ; i < = sample size ; i + + )  <NL> prod = prod * ( pop size - i + 1 ) / pop size ;  <NL> p = 1 - prod ;  <NL>  }  <NL> match dist . set probability ( p ) ;  <NL> reset ( ) ;  <NL>  }  COM: <s> compute the probability of a match </s>

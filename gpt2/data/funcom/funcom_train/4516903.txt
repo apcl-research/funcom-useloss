@@ -1,0 +1,1 @@
+TDAT: public void paint component ( graphics g ) {  <NL> g . set color ( get background ( ) ) ;  <NL> g . fill rect ( 0 , 0 , get width ( ) , get height ( ) ) ;  <NL> g . set color ( current color ) ;  <NL> g . fill oval ( 0 , 0 , get width ( ) , get height ( ) ) ;  <NL>  }  COM: <s> erase to the background color and fill an oval with the current </s>

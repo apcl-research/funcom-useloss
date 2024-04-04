@@ -1,0 +1,1 @@
+TDAT: public void test get basic block ids length ( ) {  <NL> system . out . println ( " test get basic block ids length " ) ;  <NL> long [ ] bbids1 = { 10 , 20 , 30 } ;  <NL> bbai1 . set basic block ids ( bbids1 ) ;  <NL> assert . assert equals ( 3 , bbai1 . get basic block ids length ( ) ) ;  <NL>  }  COM: <s> test of get basic block ids length method of class be </s>

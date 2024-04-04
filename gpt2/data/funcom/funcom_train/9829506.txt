@@ -1,0 +1,1 @@
+TDAT: public string get force schedule ( int radix ) {  <NL> return " if ( " + pulse start + " < = cycle < = " + pulse end + " ) "  <NL>  + ( non pulse value ? " 0 " : " 1 " ) + " else " + ( non pulse value ? " 1 " : " 0 " ) ;  <NL>  } / / end method get force schedule  COM: <s> used by stimulator to get a nicely printed view of the function </s>

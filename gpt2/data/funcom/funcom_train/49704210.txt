@@ -1,0 +1,1 @@
+TDAT: public long get cycles ( ) {  <NL>  / / logger . debug ( " pagedb get cycles " + dirname + " ( " + new throwable ( ) . get stack trace ( ) [ 1 ] . get class name ( ) + " ) " ) ;  <NL> if ( ! stats . initialized ) {  <NL> stats . read ( ) ;  <NL>  }  <NL> return stats . cycle count ;  <NL>  }  COM: <s> returns the number of cycles the pagedb has gone through </s>

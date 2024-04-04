@@ -1,0 +1,1 @@
+TDAT: public void remove volume clean ( integer volume id ) throws db exception {  <NL> nv pair [ ] parms ;  <NL>  <NL> parms = new nv pair [ 1 ] ;  <NL> parms [ 0 ] = new nv pair ( " volume id " , volume id . to string ( ) ) ;  <NL> simple request ( remove _ volume _ clean _ page , " cannot remove volume " , parms ) ;  <NL>  }  COM: <s> removes a volume in a clean way </s>

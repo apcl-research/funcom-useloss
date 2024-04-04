@@ -1,0 +1,1 @@
+TDAT: public string get open paren ( boolean method or if ) {  <NL> if ( ( _ space before paren & & method or if ) & & _ space in paren )  <NL> return " ( " ;  <NL> if ( _ space before paren & & method or if )  <NL> return " ( " ;  <NL> if ( _ space in paren )  <NL> return " ( " ;  <NL> return " ( " ;  <NL>  }  COM: <s> open parentheses string </s>

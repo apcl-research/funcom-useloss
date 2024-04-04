@@ -1,0 +1,1 @@
+TDAT: private void paint text layout test ( graphics g ) {  <NL>  <NL> g . draw image ( this . all images [ ( this . paint test font index * this . testable _ fonts ) + test state ] ,  <NL> this . dim . width / 2 , 0 , this ) ;  <NL>  <NL> paint query ( this . text layout test _ query , g ) ;  <NL>  }  COM: <s> paints the screen that the user is presented with </s>

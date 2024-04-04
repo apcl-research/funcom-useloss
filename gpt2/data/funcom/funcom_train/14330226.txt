@@ -1,0 +1,1 @@
+TDAT: public object invoke ( object obj , string name , object [ ] params ) throws throwable {  <NL> variant [ ] v = new variant [ params . length ] ;  <NL> for ( int i = 0 ; i < v . length ; i + + )  <NL> v [ i ] = new variant ( params [ i ] ) ;  <NL> return invoke ( obj , name , v ) ;  <NL>  }  COM: <s> invoke invokes the named method against the specified </s>

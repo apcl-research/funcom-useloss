@@ -1,0 +1,1 @@
+TDAT: private node get node ( join join , int idx ) {  <NL> if ( _ graph . size ( ) < = idx )  <NL> return null ;  <NL> node node = ( node ) _ graph . get ( idx ) ;  <NL> for ( ; node ! = null ; node = node . next )  <NL> if ( node . join . equals ( join ) )  <NL> return node ;  <NL> return null ;  <NL>  }  COM: <s> return the node for the specified join and index </s>

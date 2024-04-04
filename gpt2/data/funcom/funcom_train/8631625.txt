@@ -1,0 +1,1 @@
+TDAT: public void write int ( int x ) {  <NL> byte [ ] buff = data ;  <NL> buff [ pos + + ] = ( byte ) ( x > > 24 ) ;  <NL> buff [ pos + + ] = ( byte ) ( x > > 16 ) ;  <NL> buff [ pos + + ] = ( byte ) ( x > > 8 ) ;  <NL> buff [ pos + + ] = ( byte ) x ;  <NL>  }  COM: <s> write an integer at the current position </s>

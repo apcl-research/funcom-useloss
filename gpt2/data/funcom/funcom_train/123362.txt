@@ -1,0 +1,1 @@
+TDAT: public void write ( char sequence csq ) throws io exception {  <NL> final int length = csq . length ( ) ;  <NL> for ( int i = 0 ; i < length ; ) {  <NL> char c = csq . char at ( i + + ) ;  <NL> if ( c < 0x80 ) {  <NL>  _ byte buffer . put ( ( byte ) c ) ;  <NL>  } else {  <NL> write ( c ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> writes the specified character sequence </s>

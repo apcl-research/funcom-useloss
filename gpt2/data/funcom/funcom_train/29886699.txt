@@ -1,0 +1,1 @@
+TDAT: public void action zoom to width ( int p width to fit ) {  <NL> pri debug . infoln ( " open pcl viewer > action zoom to width ( int ) . the passed int is " + p width to fit ) ;  <NL> render image force zoom width ( p width to fit ) ;  <NL> show zoom factor on toolbar button ( get current zoom factor ( ) ) ;  <NL>  }  COM: <s> zoom to passed in width </s>

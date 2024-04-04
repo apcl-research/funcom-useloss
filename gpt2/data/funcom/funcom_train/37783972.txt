@@ -1,0 +1,1 @@
+TDAT: public void set user roles ( string user roles , int index ) {  <NL>  / / - - check bounds for index <NL> if ( ( index < 0 ) || ( index > this . m _ user roles . size ( ) ) )  <NL> throw new index out of bounds exception ( ) ;  <NL> this . m _ user roles . set ( index , user roles ) ;  <NL>  }  COM: <s> replace a specific entry </s>

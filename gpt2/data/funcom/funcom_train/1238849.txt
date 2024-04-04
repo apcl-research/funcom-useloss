@@ -1,0 +1,1 @@
+TDAT: public q name get service name ( ) {  <NL> if ( service name ! = null ) return service name ;  <NL> if ( wsdl service = = null ) return ( null ) ;  <NL> q name qn = wsdl service . get q name ( ) ;  <NL> return ( new q name ( qn . get namespace uri ( ) , qn . get local part ( ) ) ) ;  <NL>  }  COM: <s> returns the qualified name of the service if one is set </s>

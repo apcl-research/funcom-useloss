@@ -1,0 +1,1 @@
+TDAT: public void test string quoting ( ) throws exception {  <NL> jexl context jc = new map context ( ) ;  <NL> assert expression ( jc , " ' \ " hello\ " ' " , " \ " hello\ " " ) ;  <NL> assert expression ( jc , " \ " i ' m testing\ " " , " i ' m testing " ) ;  <NL>  }  COM: <s> test quoting in strings </s>

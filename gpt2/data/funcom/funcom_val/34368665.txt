@@ -1,0 +1,1 @@
+TDAT: public void remove all images ( ) {  <NL> string [ ] image names = ( string [ ] ) images . key set ( ) . to array ( new string [ images . size ( ) ] ) ;  <NL> for ( int index = 0 ; index < image names . length ; + + index ) {  <NL> set image ( image names [ index ] , null ) ;  <NL>  }  <NL>  }  COM: <s> removes all images </s>

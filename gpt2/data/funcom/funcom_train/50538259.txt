@@ -1,0 +1,1 @@
+TDAT: public void on test success ( i test result tr ) {  <NL> class < ? > real _ class = tr . get test class ( ) . get real class ( ) ;  <NL> add test ( real _ class , tr ) ;  <NL> print ( old _ stdout , " ok : " , real _ class . get name ( ) , tr . get name ( ) ) ;  <NL>  }  COM: <s> invoked each time a test succeeds </s>

@@ -1,0 +1,1 @@
+TDAT: public void reshape ( int x , int y , int width , int height ) {  <NL> super . reshape ( x , y , width , height ) ;  <NL> width _ = width ;  <NL> height _ = height ;  <NL> if ( graphics _ ! = null ) {  <NL> graphics _ . dispose ( ) ;  <NL> graphics _ = null ;  <NL>  }  <NL>  <NL> repaint ( ) ;  <NL>  }  COM: <s> resize the progress bar </s>

@@ -1,0 +1,1 @@
+TDAT: public void update ( byte [ ] bytes , int offset , int length ) {  <NL> for ( int i = 0 ; i < algorithms . size ( ) ; i + + ) {  <NL>  ( ( abstract checksum ) algorithms . element at ( i ) ) . update ( bytes , offset , length ) ;  <NL>  }  <NL> this . length + = length ;  <NL>  }  COM: <s> updates all checksums with the specified array of bytes </s>

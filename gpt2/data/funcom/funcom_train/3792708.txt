@@ -1,0 +1,1 @@
+TDAT: public string get wan ip ( ) {  <NL> try {  <NL> return ( ( wan ip provider ) ( _ my providers . get ( _ my providers . last key ( ) ) ) ) . get wan ip ( ) ;  <NL>  }  <NL> catch ( exception e ) {  <NL> system . out . println ( e . get message ( ) ) ;  <NL> e . print stack trace ( ) ;  <NL> return null ;  <NL>  }  <NL>  }  COM: <s> this method is best delivery sevice </s>

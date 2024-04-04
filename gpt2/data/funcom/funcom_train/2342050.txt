@@ -1,0 +1,1 @@
+TDAT: private component empty root node ( ) {  <NL> return new component ( 0 , " root " , - 1 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , new double [ ] { 0 . 0 } ) ;  <NL>  }  COM: <s> creates a blank node corresponding to a root node where all elements </s>

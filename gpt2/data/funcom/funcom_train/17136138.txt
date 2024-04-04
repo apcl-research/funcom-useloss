@@ -1,0 +1,1 @@
+TDAT: public void drop inventory item ( item item , double x , double y ) {  <NL> for ( int i = this . get inventory ( ) . size ( ) - 1 ; i > = 0 ; i - - ) {  <NL> if ( this . get inventory ( ) . get ( i ) = = item ) {  <NL> this . drop inventory item ( i , x , y ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> removes the an item from the inventory </s>

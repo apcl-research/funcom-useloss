@@ -1,0 +1,1 @@
+TDAT: public string send content ( string uri , string content , string username , string password ) throws malformed url exception {  <NL> url url = new url ( uri ) ;  <NL> return send content ( url . get host ( ) , url . get port ( ) , url . get path ( ) , content , username , password ) ;  <NL>  }  COM: <s> this wraps the other form of send content so that complete uris </s>

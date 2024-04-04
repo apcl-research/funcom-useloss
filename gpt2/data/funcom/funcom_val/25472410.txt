@@ -1,0 +1,1 @@
+TDAT: public v put ( k key , v val ) {  <NL>  / / synchronized ( this ) {  <NL>  / / weak reference < v > ref = new weak reference < v > ( val ) ;  <NL> soft reference < v > ref = new soft reference < v > ( val ) ;  <NL>  <NL> cache . put ( key , ref ) ;  <NL> return get ( key ) ;  <NL>  / / }  <NL>  }  COM: <s> places the specified value into the cache </s>

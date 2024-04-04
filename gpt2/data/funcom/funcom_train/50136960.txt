@@ -1,0 +1,1 @@
+TDAT: public void exit ( ) {  <NL> int n = ask for save ( " save changes to neural net ? " ) ;  <NL> if ( ( n = = j option pane . no _ option ) || ! ( ( joone standard drawing view ) view ( ) ) . is modified ( ) ) {  <NL> destroy ( ) ;  <NL> set visible ( false ) ;  <NL> dispose ( ) ;  <NL> system . exit ( 0 ) ;  <NL>  }  <NL>  }  COM: <s> exits the application </s>

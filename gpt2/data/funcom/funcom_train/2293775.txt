@@ -1,0 +1,1 @@
+TDAT: public string dialog buttons ( ) {  <NL>  <NL> return dialog buttons ok cancel ( " onclick = \ " list m action ( ' "  <NL>  + cms deleted resources list . list _ id <NL>  + " ' , ' "  <NL>  + cms deleted resources list . list _ maction _ restore <NL>  + " ' , ' ' , no sel help ) ; \ " " , null ) ;  <NL>  }  COM: <s> builds the necessary button row </s>

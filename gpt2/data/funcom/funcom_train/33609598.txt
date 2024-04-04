@@ -1,0 +1,1 @@
+TDAT: public shape get bounded shape ( double x , double y , double wid , double ht , int padding ) {  <NL> return get standard transform ( x + padding , y + padding , wid - 2 * padding , ht - 2 * padding ) . create transformed shape ( get shape ( ) ) ;  <NL>  }  COM: <s> returns shape within specified coordinates and width height parameters </s>

@@ -1,0 +1,1 @@
+TDAT: public gadget graphics create ( int x , int y , int width , int height ) {  <NL> return new gadget graphics ( awt graphics . create ( ) ,  <NL> this . x offset + x ,  <NL> this . y offset + y ,  <NL> width , height ,  <NL> gadget , painting all / * , damage list * / ) ;  <NL>  }  COM: <s> creates a new graphics object with the specified parameters based on the original </s>

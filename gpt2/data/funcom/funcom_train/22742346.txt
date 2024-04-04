@@ -1,0 +1,1 @@
+TDAT: public int get child index ( ) {  <NL> if ( parent = = null ) {  <NL> return - 1 ;  <NL>  }  <NL> for ( int i = 0 ; i < parent . get all children ( ) . length ; i + + ) {  <NL> if ( parent . get all children ( ) [ i ] = = this ) {  <NL> return i ;  <NL>  }  <NL>  }  <NL> return - 1 ;  <NL>  }  COM: <s> get the child index position for </s>

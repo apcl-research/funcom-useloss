@@ -1,0 +1,1 @@
+TDAT: public void on test skipped ( i test result tr ) {  <NL> class < ? > real _ class = tr . get test class ( ) . get real class ( ) ;  <NL> add test ( tr . get test class ( ) . get real class ( ) , tr ) ;  <NL> print ( old _ stdout , " skip : " , real _ class . get name ( ) , tr . get name ( ) ) ;  <NL>  }  COM: <s> invoked each time a test is skipped </s>

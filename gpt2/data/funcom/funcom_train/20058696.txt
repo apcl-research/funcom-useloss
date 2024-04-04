@@ -1,0 +1,1 @@
+TDAT: public cl event enqueue nd range ( cl queue queue / * , int [ ] global offsets * / , int [ ] global work sizes , int [ ] local work sizes , cl event . . . events to wait for ) {  <NL> return enqueue nd range ( queue , null , global work sizes , local work sizes , events to wait for ) ;  <NL>  }  COM: <s> enqueues a command to execute a kernel on a device see </s>

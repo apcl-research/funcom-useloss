@@ -1,0 +1,1 @@
+TDAT: public action result behave ( text object [ ] to ) {  <NL>  <NL> if ( to . length = = 1 ) return behave ( to [ 0 ] ) ;  <NL> if ( to . length = = 2 ) return behave ( to [ 0 ] , to [ 1 ] ) ;  <NL>  <NL> throw new unsupported action exception ( " this action doesn ' t support arrays of objects " ) ;  <NL>  }  COM: <s> default behave method for object arrays </s>

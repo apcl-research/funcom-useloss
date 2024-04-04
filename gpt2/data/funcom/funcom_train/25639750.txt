@@ -1,0 +1,1 @@
+TDAT: public void summary table header ( string [ ] header , string scope ) {  <NL> tr ( ) ;  <NL> for ( int i = 0 ; i < header . length ; i + + ) {  <NL> th scope no wrap ( " table header " , scope ) ;  <NL> print ( header [ i ] ) ;  <NL> th end ( ) ;  <NL>  }  <NL> tr end ( ) ;  <NL>  }  COM: <s> print summary table header </s>

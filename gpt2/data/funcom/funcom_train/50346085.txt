@@ -1,0 +1,1 @@
+TDAT: protected void title field changed ( ) {  <NL> if ( title field . get text ( ) . equals ( " " ) ) return ;  <NL> if ( title type . get selected value ( ) . equals ( rb . get string ( " select title type address " ) ) )  <NL> title type . set selected value ( rb . get string ( " select title type text " ) , true ) ;  <NL>  }  COM: <s> title field has been changed </s>

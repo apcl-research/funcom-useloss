@@ -1,0 +1,1 @@
+TDAT: public void set domains ( domain d1 , domain d2 ) {  <NL> x domain = d1 ; y domain = d2 ;  <NL> x min = x domain . get lower bound ( ) ; x max = x domain . get upper bound ( ) ;  <NL> y min = y domain . get lower bound ( ) ; y max = y domain . get upper bound ( ) ;  <NL> set scale ( x min , x max , y min , y max ) ;  <NL>  }  COM: <s> this method sets the domains </s>

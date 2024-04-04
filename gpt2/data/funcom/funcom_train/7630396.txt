@@ -1,0 +1,1 @@
+TDAT: public void set stream solo ( int stream type , boolean state ) {  <NL> i audio service service = get service ( ) ;  <NL> try {  <NL> service . set stream solo ( stream type , state , m i call back ) ;  <NL>  } catch ( remote exception e ) {  <NL> log . e ( tag , " dead object in set stream solo " , e ) ;  <NL>  }  <NL>  }  COM: <s> solo or unsolo a particular stream </s>

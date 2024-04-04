@@ -1,0 +1,1 @@
+TDAT: private void create item ( final object element , final int index ) {  <NL> if ( virtual manager = = null ) {  <NL> update item ( new table item ( get table ( ) , swt . none , index ) , element ) ;  <NL>  } else {  <NL> virtual manager . not visible added ( element , index ) ;  <NL>  }  <NL>  }  COM: <s> create a new table item at index if required </s>

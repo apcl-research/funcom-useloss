@@ -1,0 +1,1 @@
+TDAT: public void get column ( int i col , double [ ] column ) {  <NL>  / / double [ ] column = new double [ m _ n rows + 1 ] ;  <NL> for ( int i row = 1 ; i row < = m _ n rows ; i row + + ) {  <NL> column [ i row ] = at ( i row , i col ) ;  <NL>  }  <NL>  / / return column ;  <NL>  } / / get column  COM: <s> get column of matrix in 1 based vector </s>

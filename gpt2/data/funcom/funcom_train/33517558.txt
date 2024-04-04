@@ -1,0 +1,1 @@
+TDAT: public void add family ( final h column descriptor family ) {  <NL> if ( family . get name ( ) = = null || family . get name ( ) . length < = 0 ) {  <NL> throw new null pointer exception ( " family name cannot be null or empty " ) ;  <NL>  }  <NL> this . families . put ( family . get name ( ) , family ) ;  <NL>  }  COM: <s> adds a column family </s>

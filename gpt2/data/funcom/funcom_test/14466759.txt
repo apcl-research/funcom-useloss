@@ -1,0 +1,1 @@
+TDAT: protected void fire model removed ( model m , int index ) {  <NL> for ( int i = 0 ; i < project observers . size ( ) ; i + + )  <NL>  ( ( project observer ) project observers . get ( i ) ) . project update (  <NL> project . model _ removed , this , m , index ) ;  <NL>  }  COM: <s> used to notify the code project observers code of a model removed event </s>

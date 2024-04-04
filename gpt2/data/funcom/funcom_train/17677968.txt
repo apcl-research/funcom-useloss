@@ -1,0 +1,1 @@
+TDAT: public string get name ( ) {  <NL> string cname = get class ( ) . get name ( ) ;  <NL> int i = cname . last index of ( " . fop " ) ;  <NL> if ( i < 0 ) {  <NL> i = cname . last index of ( ' . ' ) + 1 ;  <NL>  } else {  <NL> i + = 4 ;  <NL>  }  <NL> return cname . substring ( i ) ;  <NL>  }  COM: <s> get the name of this op </s>

@@ -1,0 +1,1 @@
+TDAT: public url get url ( ) {  <NL> if ( _ url = = null & & _ error = = null ) {  <NL> final detailed url d url = get detailed url ( ) ;  <NL> if ( d url ! = null ) {  <NL>  _ url = d url . as url ( ) ;  <NL> if ( _ url = = null ) {  <NL>  _ error = d url . get url error ( ) ;  <NL>  }  <NL>  }  <NL>  }  <NL> return _ url ;  <NL>  }  COM: <s> get the url </s>

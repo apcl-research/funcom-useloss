@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> string tmp = null ;  <NL> tmp = date + " \t " + status + " \t " + customer id + " \t " + store id + " \t " + employee id + " \t " + payment . get amount ( ) + " \t " + payment . get payment type ( ) ;  <NL> return tmp ;  <NL>  } / / to string  COM: <s> to string is used for writing to log files </s>

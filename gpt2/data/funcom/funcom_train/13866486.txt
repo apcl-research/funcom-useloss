@@ -1,0 +1,1 @@
+TDAT: protected void remove cell ( int row , int column ) {  <NL> check cell bounds ( row , column ) ;  <NL> element td = clean cell ( row , column , false ) ;  <NL> element tr = row formatter . get row ( body elem , row ) ;  <NL> dom . remove child ( tr , td ) ;  <NL>  }  COM: <s> removes the specified cell from the table </s>

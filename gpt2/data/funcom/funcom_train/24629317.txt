@@ -1,0 +1,1 @@
+TDAT: public void write xref ( dict trailer , int size , long prev , long [ ] offset , int start , int length ) throws io exception {  <NL> write xref ( trailer , size , prev , offset , new int [ ] { start } , new int [ ] { length } ) ;  <NL>  }  COM: <s> writes cross reference table and trailer </s>

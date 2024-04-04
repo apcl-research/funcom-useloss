@@ -1,0 +1,1 @@
+TDAT: private void process file ( final string filename ) {  <NL> final file infile = new file ( this . source dir , filename + " . afm " ) ;  <NL> final file outfile = new file ( this . target dir , filename + " . " + f oray constants . binary _ serialization _ extension ) ;  <NL> build pattern file ( infile , outfile ) ;  <NL>  }  COM: <s> serializes one file </s>

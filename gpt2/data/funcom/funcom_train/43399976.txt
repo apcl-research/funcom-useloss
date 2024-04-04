@@ -1,0 +1,1 @@
+TDAT: public void scale ( object x ) {  <NL> for ( string key : dict . key set ( ) ) {  <NL> object new factor = product ( x , dict . get ( key ) ) ;  <NL> if ( is object zero ( new factor ) ) {  <NL> dict . remove ( key ) ;  <NL>  }  <NL> else {  <NL> dict . put ( key , new factor ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> scale this by code x code </s>

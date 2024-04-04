@@ -1,0 +1,1 @@
+TDAT: public string get file at ( int index ) {  <NL> string s ret = null ;  <NL> if ( index < m _ play list . size ( ) ) {  <NL> string filename = ( string ) m _ play list . get ( index ) ;  <NL> file f = new file ( filename ) ;  <NL> if ( f . exists ( ) & & f . can read ( ) )  <NL> s ret = filename ;  <NL>  }  <NL> return s ret ;  <NL>  }  COM: <s> to get the file to play </s>

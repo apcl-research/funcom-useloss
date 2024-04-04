@@ -1,0 +1,1 @@
+TDAT: public void remove latest data page ( int docid , int tree id , int pg no , integer txn id ) throws chai db exception {  <NL> page number p = new page number ( pg no ) ;  <NL> p . set tree id ( tree id ) ;  <NL> remove latest data page ( docid , tree id , p , txn id ) ;  <NL>  }  COM: <s> this is called by btree new page log record </s>

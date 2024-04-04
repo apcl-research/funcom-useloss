@@ -1,0 +1,1 @@
+TDAT: public boolean get boolean property ( configuration key key , boolean def ) {  <NL> string res = user preferences . get ( key . get key ( ) , null ) ;  <NL> return res = = null ? share preferences . get boolean ( key . get key ( ) , def ) : user preferences . get boolean ( key . get key ( ) , def ) ;  <NL>  }  COM: <s> returns the boolean value of the given key </s>

@@ -1,0 +1,1 @@
+TDAT: public int get connect timeout ( final page . request page request ) throws ww weee portal . exception {  <NL> return get config prop ( connect _ timeout _ prop , page request , rs properties . result _ integer _ converter , default _ connect _ timeout _ ms , false , false ) . int value ( ) ;  <NL>  }  COM: <s> get the value in milliseconds used to </s>

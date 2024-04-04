@@ -1,0 +1,1 @@
+TDAT: public buffered image get subimage ( int x , int y , int w , int h ) {  <NL> return new buffered image ( color model ,  <NL> raster . create writable child ( x , y , w , h ,  <NL> 0 , 0 , null ) ,  <NL> color model . is alpha premultiplied ( ) ,  <NL> properties ) ;  <NL>  }  COM: <s> returns a subimage defined by a specified rectangular region </s>

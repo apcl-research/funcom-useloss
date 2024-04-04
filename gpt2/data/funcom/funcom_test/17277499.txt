@@ -1,0 +1,1 @@
+TDAT: public void display popup menu ( mouse event e ) {  <NL> if ( e . is popup trigger ( ) & & this . mode = = user mode . selecting ) {  <NL> if ( selection . size ( ) > 0 ) {  <NL> popup menu . show ( this , e . get x ( ) , e . get y ( ) ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> displays a context menu when a right click is done </s>

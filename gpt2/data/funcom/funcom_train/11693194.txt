@@ -1,0 +1,1 @@
+TDAT: protected void init counts ( data data , double [ ] values ) {  <NL> counts = new int [ values . length ] [ data . get dataset ( ) . nblabels ( ) ] ;  <NL> count all = new int [ data . get dataset ( ) . nblabels ( ) ] ;  <NL> count less = new int [ data . get dataset ( ) . nblabels ( ) ] ;  <NL>  }  COM: <s> instantiates the counting arrays </s>

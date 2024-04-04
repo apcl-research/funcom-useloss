@@ -1,0 +1,1 @@
+TDAT: public void set square viewport ( int screen w , int screen h , int hoffset , int voffset ) {  <NL> int m = min ( screen w , screen h ) ;  <NL> projection . set viewport ( ( screen w - m ) / 2 + hoffset , ( screen h - m ) / 2 + voffset , m , m ) ;  <NL>  }  COM: <s> set a centered squared viewport with passed vertical and horizontal offset </s>

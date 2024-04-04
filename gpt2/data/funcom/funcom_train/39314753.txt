@@ -1,0 +1,1 @@
+TDAT: public void test flatten layer ( ) {  <NL>  <NL> tester . add action performed ( new action event ( tester , 1 , " poop " ) ) ;  <NL> tester . add action performed ( new action event ( tester , 1 , " poop " ) ) ;  <NL> tester . flatten layer ( ) ;  <NL> assert equals ( tester . holder . size ( ) , 1 ) ;  <NL>  }  COM: <s> test of flatten layer of class all layers </s>

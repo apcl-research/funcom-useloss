@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> string result = " jhdl output id : " + my identifier ;  <NL> for ( int x = 0 ; x < number _ of _ printwriter _ identifiers ; x + + )  <NL> result + = " \n\t " + get jhdl print writer name ( x ) + " : " + get jhdl print writer ( x ) ;  <NL> return result ;  <NL>  }  COM: <s> provides information about the jhdloutput object </s>

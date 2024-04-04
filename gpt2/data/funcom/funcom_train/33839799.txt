@@ -1,0 +1,1 @@
+TDAT: public void info ( ) {  <NL>  <NL> system . out . println ( " unhandled / undefined / unknown type " ) ;  <NL> system . out . println ( " xtension = " + my header . get string value ( " xtension " ) . trim ( ) ) ;  <NL> system . out . println ( " apparent size : " + my data . get true size ( ) ) ;  <NL>  }  COM: <s> print out some information about this hdu </s>

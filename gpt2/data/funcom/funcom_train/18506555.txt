@@ -1,0 +1,1 @@
+TDAT: public input stream get input stream ( ) throws io exception {  <NL> if ( url = = null ) throw new io exception ( " jv - 1000 - 001 : url value is null " ) ;  <NL> logger . finest ( " jv - 1000 - 002 : obtaining input stream : " + to string ( ) ) ;  <NL> return get url ( ) . open stream ( ) ;  <NL>  }  COM: <s> client is responsible for closing inputstream on failure </s>

@@ -1,0 +1,1 @@
+TDAT: public void test at ( ) {  <NL> sch . schedule action at ( 3 . 45 , action ) ;  <NL> sch . execute ( ) ;  <NL> assert equals ( 3 . 45 , action . at , 0 . 0 ) ;  <NL> assert equals ( 3 . 45 , results . get ( 0 ) , 0 . 0 ) ;  <NL>  }  COM: <s> tests simple action at with a double </s>

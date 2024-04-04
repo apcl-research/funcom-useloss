@@ -1,0 +1,1 @@
+TDAT: public void set pane ( pane p ) {  <NL> if ( p = = null ) { / / adds new <NL> p = ( pane ) pane . get prototype ( ) ;  <NL> int insert idx = win2 . get record index ( ) + 1 ;  <NL> this . sheet recs . add ( insert idx , p ) ;  <NL>  }  <NL> pane = p ;  <NL> pane . set window2 ( win2 ) ;  <NL>  }  COM: <s> set save the pane rec for this sheet </s>

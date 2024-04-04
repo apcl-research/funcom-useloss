@@ -1,0 +1,1 @@
+TDAT: private string get url ( string url ) {  <NL> url reader u = null ;  <NL> try {  <NL> u = new url reader ( url ) ;  <NL>  } catch ( exception e ) { return " " ; }  <NL> string result = u . get page content ( ) ;  <NL> result = result . substring ( 0 , result . index of ( " \n " ) ) ;  <NL> return result ;  <NL>  }  COM: <s> used to retrieve internally a http response </s>

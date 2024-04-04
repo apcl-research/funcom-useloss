@@ -1,0 +1,1 @@
+TDAT: public void unhandled error ( string msg , throwable t ) {  <NL> mc application app = mc application . current ( ) ;  <NL> if ( app ! = null & & app . get msg ( ) ! = null ) {  <NL> app . get msg ( ) . error ( msg , t ) ;  <NL>  } else {  <NL> system . err . println ( msg + " : " + t ) ;  <NL>  }  <NL>  <NL>  }  COM: <s> log an unhandled exception </s>

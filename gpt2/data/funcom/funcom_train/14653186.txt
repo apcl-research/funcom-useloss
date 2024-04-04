@@ -1,0 +1,1 @@
+TDAT: public list panel ( final actor actor , final string name , final list components , final int interf , final chunk parent _ chunk , final memory map memorymap ) {  <NL> this . parent _ chunk = parent _ chunk ;  <NL> this . memorymap = memorymap ;  <NL>  <NL> init panel ( actor , name , components , interf ) ;  <NL>  }  COM: <s> create list panel init panel </s>

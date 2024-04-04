@@ -1,0 +1,1 @@
+TDAT: public void start scroll ( int start x , int start y , int dx , int dy , int duration ) {  <NL> m mode = scroll _ mode ;  <NL> m scroller x . start scroll ( start x , dx , duration ) ;  <NL> m scroller y . start scroll ( start y , dy , duration ) ;  <NL>  }  COM: <s> start scrolling by providing a starting point and the distance to travel </s>

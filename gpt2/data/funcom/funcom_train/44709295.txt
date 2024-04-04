@@ -1,0 +1,1 @@
+TDAT: public void set pool size ( class c , int num ) {  <NL>  _ pool p = ( _ pool ) m _ pools . get ( c . get name ( ) ) ;  <NL> if ( p = = null ) {  <NL> p = new _ pool ( ) ;  <NL> m _ pools . put ( c . get name ( ) , p ) ;  <NL>  }  <NL> p . set pool size ( c , num ) ;  <NL>  }  COM: <s> sets the pool size for components of class code c code </s>

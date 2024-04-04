@@ -1,0 +1,1 @@
+TDAT: public void scroll to end ( ) {  <NL> int offset = get document ( ) . get end position ( ) . get offset ( ) - 1 ;  <NL> try {  <NL> super . scroll rect to visible ( model to view ( offset ) ) ;  <NL>  } catch ( bad location exception ble ) {  <NL> logger . log ( level . warning , " bad location " , ble ) ;  <NL>  }  <NL>  }  COM: <s> force the scroll to the end </s>

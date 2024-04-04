@@ -1,0 +1,1 @@
+TDAT: public boolean is equal ( avnmp driver rb ap ) {  <NL> if ( ( ap . src . compare to ( src ) = = 0 ) & & ( ap . dst . compare to ( dst ) = = 0 ) & &  <NL>  ( ap . rec _ tm = = rec _ tm ) & &  <NL>  ( ap . snd _ tm = = snd _ tm )  <NL>  / / ( ap . payload = = payload )  <NL>  )  <NL> return true ;  <NL> return false ;  <NL>  }  COM: <s> check if packets are equal </s>

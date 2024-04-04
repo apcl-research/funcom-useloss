@@ -1,0 +1,1 @@
+TDAT: public void set tile ( int x , int y , string tile ) {  <NL> if ( ( x > get array width ( ) ) || ( y > get array height ( ) ) || ( x < 0 ) || ( y < 0 ) ) {  <NL> throw new illegal argument exception ( ) ;  <NL>  }  <NL> image [ x ] [ y ] = tile ;  <NL>  }  COM: <s> updates an 8 8 tile in the xpm image </s>

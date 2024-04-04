@@ -1,0 +1,1 @@
+TDAT: public void render ( oval oval ) {  <NL> indent and add ( oval _ format . form ( new double [ ] { oval . get center ( ) . get x ( ) ,  <NL>  - oval . get center ( ) . get y ( ) , oval . get width ( ) / 2 , oval . get height ( ) / 2 } ) ) ;  <NL> add shape attributes ( oval ) ;  <NL>  }  COM: <s> renders an oval </s>

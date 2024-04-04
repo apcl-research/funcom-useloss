@@ -1,0 +1,1 @@
+TDAT: public void set box grid pos ( int box grid pos ) {  <NL> this . box grid pos = box grid pos ;  <NL> if ( cross word & & abc [ 1 ] ! = null ) {  <NL> resize cross word panel ( ( int ) abc [ 1 ] . w , ( int ) abc [ 1 ] . h ) ;  <NL>  }  <NL> box base . reset all fonts ( ) ;  <NL> revalidate ( ) ;  <NL>  }  COM: <s> setter for property box grid pos </s>

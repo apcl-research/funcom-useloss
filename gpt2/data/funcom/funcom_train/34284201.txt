@@ -1,0 +1,1 @@
+TDAT: private boolean getnewuid ( ) {  <NL> m new user = new user credentials ( ) ;  <NL> pd = rpc . getuid ( settings . ttl , settings . user name , settings . user password , settings . pre _ zone ,  <NL> settings . latitude , settings . longitude , settings . altitude , m run get uid , m new user ) ;  <NL> return true ;  <NL>  }  COM: <s> create a new user profile </s>

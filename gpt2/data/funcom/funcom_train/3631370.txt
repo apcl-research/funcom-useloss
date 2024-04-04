@@ -1,0 +1,1 @@
+TDAT: public void set active tax rate ( int rate ) {  <NL>  <NL> if ( rate = = primary _ tax ) {  <NL> use alt tax = false ;  <NL> trans tax . set rate ( tax record . tax rate ( ) ) ;  <NL>  } else {  <NL> use alt tax = true ;  <NL> trans tax . set rate ( tax record . alt tax rate ( ) ) ;  <NL>  }  <NL> apply tax ( ) ;  <NL>  }  COM: <s> switch to specific tax rate </s>

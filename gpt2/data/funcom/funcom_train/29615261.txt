@@ -1,0 +1,1 @@
+TDAT: public int badkpv ( byte [ ] caller , byte [ ] name , byte [ ] comp , int [ ] size , int [ ] divby , byte [ ] type ) throws exception {  <NL> return ( perror ( jspice _ badkpv ( caller , name , comp , size , divby , type ) ) ) ;  <NL>  }  COM: <s> determine if a kernel pool variable is present and if so </s>

@@ -1,0 +1,1 @@
+TDAT: public void add to param node ( param node n ) {  <NL> if ( n . usage list = = null ) {  <NL> n . usage list = this ;  <NL>  } else {  <NL> param node usage p = ( param node usage ) n . usage list ;  <NL> for ( ; p . next ! = null ; p = p . next ) ;  <NL> p . next = this ;  <NL>  }  <NL>  }  COM: <s> add us to the end of the usage list for n </s>

@@ -1,0 +1,1 @@
+TDAT: public boolean is service ( ) {  <NL>  / / / / not the best object - oriented design , since <NL>  / / / / superclasses shouldn ' t know about subclasses . . .  <NL> if ( service . access _ type . equals ( get type ( ) ) = = true ) {  <NL> return ( true ) ;  <NL>  }  <NL> return ( false ) ;  <NL>  } / / of method  COM: <s> see if this access describes a service </s>

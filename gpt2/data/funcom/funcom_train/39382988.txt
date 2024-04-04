@@ -1,0 +1,1 @@
+TDAT: protected void set language ( locale locale ) {  <NL> super . set title ( configuration . get string ( get class ( ) , 0 , locale ) ) ;  <NL> lbl adhoc message . set text ( configuration . get string ( get class ( ) , 1 , locale ) ) ;  <NL> this . invalidate ( ) ;  <NL> frame . validate ( ) ;  <NL>  }  COM: <s> sets the language as configured </s>

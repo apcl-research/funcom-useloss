@@ -1,0 +1,1 @@
+TDAT: public void draw ( graphics2d g2d ) {  <NL> g2d . fill oval ( ( int ) ( this . get position ( ) . get x ( ) - ( size . get width ( ) / 2 ) ) ,  <NL>  ( int ) ( this . get position ( ) . get y ( ) - ( size . get height ( ) / 2 ) ) ,  <NL>  ( int ) size . get width ( ) , ( int ) size . get height ( ) ) ;  <NL>  }  COM: <s> draws the ball object </s>

@@ -1,0 +1,1 @@
+TDAT: private void paint piece highlighted ( piece [ ] piece list , cuatro state state , graphics g ) {  <NL> int highlight = state . get highlight ( ) ;  <NL> if ( highlight ! = cuatro basic . null ) {  <NL> draw part ( highlight _ x , highlight _ y , piece list [ highlight ] , g ) ;  <NL>  }  <NL>  }  COM: <s> paint the piece that is highlighted </s>

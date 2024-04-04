@@ -1,0 +1,1 @@
+TDAT: private void paint digit ( graphics g , int x , int y , int digit ) {  <NL> g . fill rect ( x , y , cell _ size , cell _ size ) ;  <NL>  <NL>  / / draw visible number <NL> g . draw region ( digits , digit * glyph _ size , 0 , glyph _ size , glyph _ size ,  <NL> sprite . trans _ none , x , y , 0 ) ;  <NL>  }  COM: <s> paints a digit glyph </s>

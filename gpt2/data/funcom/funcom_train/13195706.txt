@@ -1,0 +1,1 @@
+TDAT: public int hash code ( ) {  <NL> object obj ;  <NL> int h = 0 ;  <NL> iterator iter = iterator ( ) ;  <NL> while ( iter . has next ( ) ) {  <NL> obj = iter . next ( ) ;  <NL> if ( obj ! = null )  <NL> h + = obj . hash code ( ) ;  <NL>  }  <NL> if ( ! is finite ( ) )  <NL> h = - h ;  <NL> return h ;  <NL>  } / / hash code  COM: <s> returns the hash code for this set </s>

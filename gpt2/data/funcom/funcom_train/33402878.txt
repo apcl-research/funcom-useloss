@@ -1,0 +1,1 @@
+TDAT: public int register term ( string term ) {  <NL> if ( this . term dictionary . contains key ( term ) ) {  <NL> return ( this . term dictionary . get ( term ) ) ;  <NL>  } else {  <NL> this . term dictionary . put ( term , this . next term id + + ) ;  <NL> return ( this . next term id - 1 ) ;  <NL>  }  <NL>  }  COM: <s> returns the numerical term id of the provided term </s>

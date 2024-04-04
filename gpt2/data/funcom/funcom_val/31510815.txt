@@ -1,0 +1,1 @@
+TDAT: public void set value ( int row , string column , object value ) {  <NL> int cid = get column id ( column , value . get class ( ) ) ;  <NL> if ( cid = = - 1 ) {  <NL> cid = add column ( column , value . get class ( ) ) ;  <NL>  }  <NL> set value at ( value , row , cid ) ;  <NL>  }  COM: <s> set the value for a cell </s>

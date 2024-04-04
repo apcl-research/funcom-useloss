@@ -1,0 +1,1 @@
+TDAT: public string get version string ( ) {  <NL> string raw version string = get raw version string ( ) ;  <NL> return raw version string = = null ? null <NL>  : raw version string . replace all ( " \\d * ( \\d + ) " , " $ 1 , " ) . replace first ( " , $ " , " " ) ;  <NL>  }  COM: <s> returns a generic string of comma delimited version numbers e </s>

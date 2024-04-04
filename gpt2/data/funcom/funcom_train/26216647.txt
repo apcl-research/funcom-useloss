@@ -1,0 +1,1 @@
+TDAT: public boolean is same state ( bsp path box rhs ) {  <NL>  / / same state in a maze search is simply when ( x , y ) are the same <NL> if ( ( x = = rhs . x ) & & ( y = = rhs . y ) & & ( z = = rhs . z ) ) {  <NL> return true ;  <NL>  }  <NL> return false ;  <NL>  } / / end is same state  COM: <s> returns true if the given path box equals this path box </s>

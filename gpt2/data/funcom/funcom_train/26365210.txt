@@ -1,0 +1,1 @@
+TDAT: public int group chat msg ( string chat room , string chat server , string subject , string msg ) {  <NL> subject = " " ; / / can ' t send a subject based on iq : conference <NL> return send msg ( chat room + " @ " + chat server , " groupchat " , subject , msg , " " ) ;  <NL>  }  COM: <s> a message to broadcast the the participants in the group chat </s>

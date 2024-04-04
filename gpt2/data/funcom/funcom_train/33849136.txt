@@ -1,0 +1,1 @@
+TDAT: private string get short class name ( string class name ) {  <NL> int last dot = class name . last index of ( ' . ' ) ;  <NL> if ( last dot > = 0 ) {  <NL> class name = class name . substring ( last dot + 1 ) ;  <NL>  }  <NL> return class name . to lower case ( locale . us ) . replace ( ' + ' , ' $ ' ) ;  <NL>  }  COM: <s> get a short class name no package part </s>

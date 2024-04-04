@@ -1,0 +1,1 @@
+TDAT: public int outside ( double x , double x1 , double x2 ) {  <NL> int i = 0 ;  <NL> if ( between ( x , x1 , x2 ) ) i = 0 ;  <NL> else if ( between ( x1 , x , x2 ) ) i = - 1 ;  <NL> else if ( between ( x2 , x , x1 ) ) i = 1 ;  <NL> return i ;  <NL>  }  COM: <s> see if value is outside two other values </s>

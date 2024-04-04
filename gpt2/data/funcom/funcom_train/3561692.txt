@@ -1,0 +1,1 @@
+TDAT: public void set data vector ( object [ ] [ ] data , object [ ] column names , object [ ] indexes ) {  <NL> toolkit . get default toolkit ( ) . get system event queue ( ) . post event (  <NL> new table fill event ( toolkit . get default toolkit ( ) , this , data ,  <NL> column names , indexes ) ) ;  <NL>  }  COM: <s> sets the data vector </s>

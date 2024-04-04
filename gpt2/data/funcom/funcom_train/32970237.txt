@@ -1,0 +1,1 @@
+TDAT: public post find post ( int post id ) throws board object not found exception {  <NL>  <NL> post res = find post ne ( post id ) ;  <NL> if ( res = = null ) {  <NL> throw new board object not found exception ( " postagem de id { 0 , number , # } não encontrada . " , new integer ( post id ) ) ;  <NL>  }  <NL> return res ;  <NL>  }  COM: <s> retorna uma postagem </s>

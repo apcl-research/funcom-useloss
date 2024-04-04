@@ -1,0 +1,1 @@
+TDAT: private void add execution pane ( ) {  <NL> j panel p = box panel ( ) ;  <NL> p . add ( create component pane ( " execution mode " , create execution button bar (  <NL> m _ execution button , m _ execution group , map key . execution _ mode ) , false ) ) ;  <NL> add border ( p ) ;  <NL> add ( p ) ;  <NL>  }  COM: <s> add a pane containing execution mode selectors </s>

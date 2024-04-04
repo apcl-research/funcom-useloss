@@ -1,0 +1,1 @@
+TDAT: protected double calc distance ( double _ min , double _ max ) {  <NL> if ( _ min = = 0 ) return _ max / 2 ;  <NL> else if ( _ max = = 0 ) return _ min / 2 ;  <NL> else if ( math . abs ( _ min ) > = math . abs ( _ max ) ) return ( _ min - _ max ) / 2 ;  <NL> else return ( - _ min + _ max ) / 2 ;  <NL>  }  COM: <s> calculate distance between min and max value </s>

@@ -1,0 +1,1 @@
+TDAT: public void paint ( graphics g ) {  <NL> g . set color ( color . gray ) ;  <NL> g . draw line ( _ x , _ y , _ x , _ y2 ) ;  <NL> g . draw line ( _ x , _ y2 , _ x2 , _ y2 ) ;  <NL> g . draw line ( _ x2 , _ y2 , _ x2 , _ y ) ;  <NL> g . draw line ( _ x2 , _ y , _ x , _ y ) ;  <NL>  <NL>  / / g . draw rect ( x , y , width , height ) ;  <NL>  }  COM: <s> draw the object </s>

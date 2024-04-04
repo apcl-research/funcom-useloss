@@ -1,0 +1,1 @@
+TDAT: public int hash code ( ) {  <NL> int hash = 7 ;  <NL> hash = 31 * hash + ( int ) ( get name ( ) = = null ? get title ( ) . length ( ) : get name ( ) . length ( ) ) ;  <NL> hash = 31 * hash + ( null = = get name ( ) ? get title ( ) . hash code ( ) : get name ( ) . hash code ( ) ) ;  <NL> return ( hash ) ;  <NL>  }  COM: <s> overrides hashcode method </s>

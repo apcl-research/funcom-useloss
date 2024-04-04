@@ -1,0 +1,1 @@
+TDAT: public void set hidden ( boolean hidden ) {  <NL> if ( is hidden ( ) ! = hidden ) {  <NL> toggle hidden ( ) ;  <NL>  }  <NL> this . event support . fire ( new event ( this , " hidden set on ' " + this . get identifier ( ) + " ' . " , event type . changed _ component _ unpoolable ) ) ;  <NL>  }  COM: <s> set the hidden lag </s>

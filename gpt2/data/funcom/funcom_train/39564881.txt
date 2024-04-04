@@ -1,0 +1,1 @@
+TDAT: public void repaint edge ( edge edge ) {  <NL> j power graph rectangle r = new j power graph rectangle ( 0 , 0 , 0 , 0 ) ;  <NL> get edge screen bounds ( edge , r ) ;  <NL>  <NL> rectangle redraw = new rectangle ( r . x , r . y , r . width , r . height ) ;  <NL> redraw . grow ( 5 , 5 ) ;  <NL> repaint ( redraw ) ;  <NL>  }  COM: <s> repaints the given edge </s>

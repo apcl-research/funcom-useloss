@@ -1,0 +1,1 @@
+TDAT: private void stop ( ) throws io exception {  <NL> if ( m _ read data loop ! = null & & m _ b run ) {  <NL> try {  <NL> m _ b run = false ;  <NL> m _ read data loop . interrupt ( ) ;  <NL> m _ read data loop . join ( ) ;  <NL>  } catch ( throwable t ) {  <NL>  }  <NL>  }  <NL> m _ read data loop = null ;  <NL>  }  COM: <s> stops the thread that dispatches cells </s>

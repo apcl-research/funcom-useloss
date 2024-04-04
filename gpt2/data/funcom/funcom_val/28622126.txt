@@ -1,0 +1,1 @@
+TDAT: public void mouse up ( mouse event e , int x , int y ) {  <NL>  / / view ( ) . unfreeze view ( ) ;  <NL>  / / if ( f child ! = null ) / / jdk1 . 1 doesn ' t guarantee mouse down , mouse drag , mouse up <NL>  / / f child . mouse up ( e , x , y ) ;  <NL>  / / f child = null ;  <NL>  }  COM: <s> handles mouse up events </s>

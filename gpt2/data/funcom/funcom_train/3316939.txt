@@ -1,0 +1,1 @@
+TDAT: private void load bread crumbs ( page info page info , list bread crumbs ) {  <NL> page info parent = page info . get parent ( ) ;  <NL> if ( parent = = null || parent . get name ( ) . equals ( " " ) )  <NL> return ;  <NL>  <NL> bread crumbs . add ( 0 , parent . get name ( ) ) ;  <NL> load bread crumbs ( parent , bread crumbs ) ;  <NL>  }  COM: <s> load bread crumbs </s>

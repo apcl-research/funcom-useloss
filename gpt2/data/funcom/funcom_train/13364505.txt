@@ -1,0 +1,1 @@
+TDAT: private boolean is good digit ( final char ch , final boolean hex ) {  <NL> return ( ( ch > = ' 0 ' & & ch < = ' 9 ' ) || ( hex & & ( ( ch > = ' a ' & & ch < = ' f ' ) || ( ch > = ' a ' & & ch < = ' f ' ) ) ) ) ;  <NL>  }  COM: <s> checks if is good digit character </s>

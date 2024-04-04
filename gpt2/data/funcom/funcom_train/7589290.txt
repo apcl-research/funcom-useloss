@@ -1,0 +1,1 @@
+TDAT: public double distance ( double [ ] a , double [ ] b ) {  <NL> double distance = 0 . 0 ;  <NL>  <NL> for ( int i = 0 ; i < a . length ; i + + ) {  <NL> distance + = math . pow ( a [ i ] - b [ i ] , 2 . 0 ) ;  <NL>  }  <NL> return math . sqrt ( distance ) ;  <NL>  } / / distance  COM: <s> this method returns the distance taken the euclidean distance between </s>

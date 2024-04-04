@@ -1,0 +1,1 @@
+TDAT: public element to xml ( ) {  <NL> element e = new element ( " currency " ) .  <NL> add content ( new element ( " symbol " ) . set text ( get symbol ( ) ) ) .  <NL> add content ( new element ( " name " ) . set text ( get name ( ) ) ) ;  <NL> e . set attribute ( " id " , get id ( ) ) ;  <NL> return e ;  <NL>  }  COM: <s> creates a jdom element as defined in </s>

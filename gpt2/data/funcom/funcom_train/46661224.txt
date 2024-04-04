@@ -1,0 +1,1 @@
+TDAT: protected void enter c64basic cmd ( final string text ) {  <NL> for ( int i = 0 ; i < math . min ( text . length ( ) , 16 ) ; i + + ) {  <NL> ram [ 0x277 + i ] = ( byte ) text . char at ( i ) ;  <NL>  }  <NL> ram [ 0xc6 ] = ( byte ) math . min ( text . length ( ) , 16 ) ;  <NL>  }  COM: <s> enter a basic command </s>

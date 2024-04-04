@@ -1,0 +1,1 @@
+TDAT: public void start document ( ) throws sax exception {  <NL>  _ auto checked = false ;  <NL>  <NL> try {  <NL> if ( _ log ! = null ) _ log . debug2 ( " starte import . . . " ) ;  <NL>  } catch ( exception e ) {  <NL> throw new sax exception ( " sos import . start document : " + e . get message ( ) , e ) ;  <NL>  }  <NL>  }  COM: <s> start document handler </s>

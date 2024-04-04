@@ -1,0 +1,1 @@
+TDAT: public void stop ( ) {  <NL> stop time = system . current time millis ( ) ;  <NL> collect = false ;  <NL> stop = true ;  <NL> for ( int i = 0 ; i < threads . length ; i + + ) {  <NL> try {  <NL> threads [ i ] . join ( ) ;  <NL>  } catch ( interrupted exception ie ) {  <NL> ie . print stack trace ( ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> stop the load generator </s>

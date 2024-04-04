@@ -1,0 +1,1 @@
+TDAT: protected void set node properties ( element nd , data node node ) {  <NL> nd . set attribute ( " id " , node . get id ( ) ) ;  <NL> nd . set attribute ( " name " , node . get name ( ) ) ;  <NL> set sub node ( nd , " description " , node . get description ( ) ) ;  <NL>  }  COM: <s> adds the id and name attributes and description element to the given element </s>

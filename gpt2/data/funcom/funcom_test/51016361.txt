@@ -1,0 +1,1 @@
+TDAT: private void lazy init graph index map ( set < network > graphs ) {  <NL>  <NL> if ( graph indices = = null ) {  <NL> graph indices = new hash map < network , integer > ( graphs . size ( ) ) ;  <NL> int i = 0 ;  <NL> for ( network g : graphs ) {  <NL> graph indices . put ( g , i + + ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> initializes the graph index map if necessary </s>

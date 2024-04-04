@@ -1,0 +1,1 @@
+TDAT: public void set ratings root ( file mserv root ) {  <NL> try {  <NL> this . mserv db = new mserv db ( mserv root ) ;  <NL>  } catch ( io exception e ) {  <NL> log . fatal ( " can ' t locate mserv db root . " , e ) ;  <NL> fair dj . get fair dj ( ) . shutdown ( null , fair dj . shutdown . now ) ;  <NL>  }  <NL>  }  COM: <s> sets the root for the rating files </s>

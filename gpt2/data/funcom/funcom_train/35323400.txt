@@ -1,0 +1,1 @@
+TDAT: public int size ( ) {  <NL> int count = 0 ;  <NL> for ( node < e > p = first ( ) ; p ! = null ; p = succ ( p ) )  <NL> if ( p . item ! = null )  <NL>  / / collection . size ( ) spec says to max out <NL> if ( + + count = = integer . max _ value )  <NL> break ;  <NL> return count ;  <NL>  }  COM: <s> returns the number of elements in this deque </s>

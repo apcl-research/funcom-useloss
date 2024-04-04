@@ -1,0 +1,1 @@
+TDAT: public string get url ( wms selection wms ) {  <NL> double width = wms . get bounds ( ) . get degrees x ( ) ;  <NL> double height = wms . get bounds ( ) . get degrees y ( ) ;  <NL> string url = wms . assemble request ( wms . get bounds ( ) , 600 ,  <NL>  ( int ) ( 600 * height / width ) ) ;  <NL> return url ;  <NL>  }  COM: <s> get the url for the given wms layer </s>

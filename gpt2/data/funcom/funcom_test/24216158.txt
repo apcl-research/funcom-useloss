@@ -1,0 +1,1 @@
+TDAT: public list search ( string query , map parameters , int max results ) throws swizzle exception , confluence exception {  <NL> object [ ] vector = ( object [ ] ) call ( " search " , query , parameters , new integer ( max results ) ) ;  <NL> return to list ( vector , search result . class ) ;  <NL>  }  COM: <s> returns a list of </s>

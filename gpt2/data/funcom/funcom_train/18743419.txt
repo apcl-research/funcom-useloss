@@ -1,0 +1,1 @@
+TDAT: public void add switch relation ( switch relation sr , location l ) {  <NL> set < location > set = this . relations . get ( sr ) ;  <NL> if ( set = = null ) {  <NL> set = new hash set < location > ( ) ;  <NL> this . relations . put ( sr , set ) ;  <NL>  }  <NL> set . add ( l ) ;  <NL>  }  COM: <s> adds a new outgoing switch relation from this location </s>

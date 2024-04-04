@@ -1,0 +1,1 @@
+TDAT: protected void engine reset ( ) {  <NL>  <NL> message length = 0 ;  <NL>  <NL> buffer [ bytes _ offset ] = 0 ;  <NL> buffer [ hash _ offset ] = h0 ;  <NL> buffer [ hash _ offset + 1 ] = h1 ;  <NL> buffer [ hash _ offset + 2 ] = h2 ;  <NL> buffer [ hash _ offset + 3 ] = h3 ;  <NL> buffer [ hash _ offset + 4 ] = h4 ;  <NL>  }  COM: <s> resets the engine </s>

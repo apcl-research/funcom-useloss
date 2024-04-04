@@ -1,0 +1,1 @@
+TDAT: public el align to ( element align , string pos , int [ ] offsets ) {  <NL> if ( offsets = = null ) {  <NL> offsets = new int [ ] { 0 , 0 } ;  <NL>  }  <NL> point p = get align to xy ( align , pos , offsets ) ;  <NL> set xy ( p ) ;  <NL> return this ;  <NL>  }  COM: <s> aligns the element with another element relative to the specified anchor </s>

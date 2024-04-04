@@ -1,0 +1,1 @@
+TDAT: private void update parent box ( ) {  <NL> parent box . set text ( " none " ) ;  <NL> if ( parent id edited ! = 0 ) {  <NL> file parent this = cdcatalog . stat . data . get by id ( parent id edited ) ;  <NL> if ( parent this ! = null ) {  <NL> parent box . set text ( parent this . get name ( ) ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> updates the parent box </s>

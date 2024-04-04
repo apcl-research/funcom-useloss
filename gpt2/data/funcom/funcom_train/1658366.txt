@@ -1,0 +1,1 @@
+TDAT: public full text search result search ( string query , string language , int max results , int time limit ) {  <NL> if ( multithreaded ) {  <NL> metadata . full text index . shared lock ( ) ;  <NL>  }  <NL> return metadata . full text index . search ( query , language , max results , time limit ) ;  <NL>  }  COM: <s> parse and execute full text search query </s>

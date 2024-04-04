@@ -1,0 +1,1 @@
+TDAT: public void add system property ( string name , string value ) {  <NL>  / / value = value . replace ( " " , " \\ " ) ;  <NL> string arg = " - d " + name + " = " + value ;  <NL> log . trace ( " added jvm arg : " + arg ) ;  <NL> jvm args . add ( arg ) ;  <NL>  }  COM: <s> set a system property for the command line that will be created </s>

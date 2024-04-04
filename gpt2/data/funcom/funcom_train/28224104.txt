@@ -1,0 +1,1 @@
+TDAT: public void clear ready orders ( ) {  <NL> for ( int i = 0 ; i < orders . size ( ) ; i + + ) {  <NL> if ( orders . get ( i ) . get state ( ) . starts with ( " delivered " ) )  <NL> orders . get ( i ) . set visible ( false ) ;  <NL>  }  <NL> table model . refresh table ( ) ;  <NL>  }  COM: <s> clears all delivered item from table </s>

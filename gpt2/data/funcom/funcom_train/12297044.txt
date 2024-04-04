@@ -1,0 +1,1 @@
+TDAT: private void default values ( ) {  <NL> config = new hash map < string , string > ( ) ;  <NL> config . put ( " server " , " epptest . norid . no " ) ;  <NL> config . put ( " port " , " 7000 " ) ;  <NL> config . put ( " username " , " reg9050 " ) ;  <NL> config . put ( " ssl " , " false " ) ;  <NL>  }  COM: <s> fills the hash map config with default values </s>

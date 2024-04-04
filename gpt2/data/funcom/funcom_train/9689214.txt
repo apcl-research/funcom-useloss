@@ -1,0 +1,1 @@
+TDAT: public ast impl get body ast ( ) {  <NL> ast impl node = ( ast impl ) get offset node ( ) . get first child ( ) ;  <NL> while ( ( node ! = null ) & & ( node . get type ( ) ! = java token types . slist ) ) {  <NL> node = ( ast impl ) node . get next sibling ( ) ;  <NL>  }  <NL>  <NL> return node ;  <NL>  }  COM: <s> gets ast node corresponding to the body of this method </s>

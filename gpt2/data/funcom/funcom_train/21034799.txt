@@ -1,0 +1,1 @@
+TDAT: public int delete ( d config attribute attribute ) {  <NL> int i ret = 0 ;  <NL> jt = new jdbc template ( get data source ( ) ) ;  <NL> i ret = jt . update ( delete _ attribute , new object [ ] { attribute . get id ( ) } ) ;  <NL> new d config system dao ( ) . set new data change time stamp ( ) ;  <NL> return i ret ;  <NL>  }  COM: <s> deletes a specified attribute </s>

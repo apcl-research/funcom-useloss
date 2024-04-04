@@ -1,0 +1,1 @@
+TDAT: private string get column name ( result set meta data md , int i ) throws sql exception {  <NL> string col name = md . get column name ( i ) ;  <NL> string col label = md . get column label ( i ) ;  <NL> if ( col label ! = null & & ! col label . equals ( " " ) ) {  <NL> return col label ;  <NL>  }  <NL> return col name ;  <NL>  }  COM: <s> get the column name </s>

@@ -1,0 +1,1 @@
+TDAT: private void run statements ( boolean expect errors , list < string > statements , connection c ) {  <NL>  <NL> for ( int i = 0 ; i < statements . size ( ) ; i + + ) {  <NL> string x ofy = ( i + 1 ) + " of " + statements . size ( ) ;  <NL> run statement ( expect errors , x ofy , statements . get ( i ) , c ) ;  <NL>  }  <NL>  }  COM: <s> execute the list of statements </s>

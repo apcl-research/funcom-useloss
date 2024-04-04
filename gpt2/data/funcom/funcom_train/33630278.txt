@@ -1,0 +1,1 @@
+TDAT: public int total count ( int from , int to ) {  <NL> int count = 0 ;  <NL> set < t > keys = map . key set ( ) ;  <NL> for ( t key : keys ) {  <NL> if ( get count ( key ) > = from & & get count ( key ) < to )  <NL> count + = map . get ( key ) ;  <NL>  }  <NL> return count ;  <NL>  }  COM: <s> total count items those value is between from and to </s>

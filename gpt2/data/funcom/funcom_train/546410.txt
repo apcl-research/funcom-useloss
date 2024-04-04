@@ -1,0 +1,1 @@
+TDAT: public void set extended param ( int ext idx , string value ) {  <NL> int n = get extended param number ( ) ;  <NL> if ( ext idx < 0 || ext idx > = n ) {  <NL> system . out . println ( " jd object . set extended param ( ) : index of of bounds . " ) ;  <NL> return ;  <NL>  }  <NL> ext param value [ ext idx ] = value ;  <NL>  }  COM: <s> sets the extended param value </s>

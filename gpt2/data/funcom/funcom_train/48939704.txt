@@ -1,0 +1,1 @@
+TDAT: public void set light ( int row , int col ) {  <NL> object f = get field ( row , col ) ;  <NL> if ( f ! = null & & f ! = light )  <NL> throw new illegal argument exception ( " the field " + row + " , " + col <NL>  + " is already occupied by " + f ) ;  <NL> set field ( row , col , light ) ;  <NL>  }  COM: <s> set a field on the board to light </s>

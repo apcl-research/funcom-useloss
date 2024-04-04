@@ -1,0 +1,1 @@
+TDAT: private string show width ( int i width _ pos , int element ) {  <NL> if ( ( element = = 0 ) & & ( get col size ( i width _ pos ) > 0 ) ) {  <NL> return " width = \ " " + get col size ( i width _ pos ) + ( m _ f w percent ? " % " : " " ) +  <NL>  " \ " " ;  <NL>  } else {  <NL> return " " ;  <NL>  }  <NL>  }  COM: <s> used to make code below a little easier to read </s>

@@ -1,0 +1,1 @@
+TDAT: public jml binary make jml binary ( int pos , jml token op , jc expression lhs , jc expression rhs ) {  <NL> jml binary e = factory . at ( pos ) . jml binary ( op , lhs , rhs ) ;  <NL> e . type = syms . boolean type ;  <NL> copy end position ( e , rhs ) ;  <NL> return e ;  <NL>  }  COM: <s> makes a jml binary operator node with boolean result </s>

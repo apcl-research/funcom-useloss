@@ -1,0 +1,1 @@
+TDAT: private string set nvram variables ( string script , string eth , string vlan ) {  <NL> return " echo \ " "  <NL>  + " / usr / sbin / nvram set lan _ ifname = " + eth + " \n "  <NL>  + " / usr / sbin / nvram set vlan _ iface = " + vlan + " \n "  <NL>  + " \ " > > " + script ;  <NL>  }  COM: <s> change the nvram openwrt variables for consistence purpose </s>

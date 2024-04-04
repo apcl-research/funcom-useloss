@@ -1,0 +1,1 @@
+TDAT: protected void assert embedded bean ( simple test service service ) {  <NL> assert equals ( " wrong name " , " foo " , service . get name ( ) ) ;  <NL> assert equals ( " wrong int " , 5 , service . get integer ( ) ) ;  <NL> assert not null ( " other not wired in " , service . get other service ( ) ) ;  <NL>  }  COM: <s> common asserts for the embedded bean tests </s>

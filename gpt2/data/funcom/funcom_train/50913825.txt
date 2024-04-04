@@ -1,0 +1,1 @@
+TDAT: public void set string ( string s ) throws runtime exception {  <NL> cml scalar scalar = ( cml scalar ) this . get child cml element ( cml scalar . tag , 0 ) ;  <NL> if ( scalar = = null ) {  <NL> scalar = new cml scalar ( s ) ;  <NL> this . append child ( scalar ) ;  <NL>  } else {  <NL> scalar . set xml content ( s ) ;  <NL>  }  <NL>  }  COM: <s> sets string value </s>

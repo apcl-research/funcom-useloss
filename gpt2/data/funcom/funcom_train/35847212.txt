@@ -1,0 +1,1 @@
+TDAT: public int get index of named tab ( string tab name ) {  <NL> for ( int i = 0 ; i < tab panel list . size ( ) ; i + + ) {  <NL> string title = top level tabbed pane . get title at ( i ) ;  <NL> if ( title ! = null & & title . equals ( tab name ) ) {  <NL> return i ;  <NL>  }  <NL>  }  <NL> return - 1 ;  <NL>  }  COM: <s> get the index of the tab with the given name </s>

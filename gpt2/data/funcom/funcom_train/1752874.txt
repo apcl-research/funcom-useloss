@@ -1,0 +1,1 @@
+TDAT: private void write object ( object o ) throws io exception {  <NL> if ( o instanceof text ) {  <NL> text to = ( text ) o ;  <NL> out . write ( to . get bytes ( ) , 0 , to . get length ( ) ) ;  <NL>  } else {  <NL> out . write ( o . to string ( ) . get bytes ( utf8 ) ) ;  <NL>  }  <NL>  }  COM: <s> write the object to the byte stream handling text as a special </s>

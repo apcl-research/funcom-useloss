@@ -1,0 +1,1 @@
+TDAT: public void set foreign attributes ( map < q name , string > atts ) {  <NL> if ( atts = = null || atts . size ( ) = = 0 ) {  <NL> return ;  <NL>  }  <NL> for ( map . entry < q name , string > e : atts . entry set ( ) ) {  <NL> set foreign attribute ( e . get key ( ) , e . get value ( ) ) ;  <NL>  }  <NL>  }  COM: <s> add foreign attributes from a map </s>

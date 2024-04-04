@@ -1,0 +1,1 @@
+TDAT: public security key search ( security lock lock ) {  <NL> object object = db search ( net . sf . uninet . common . content . security . security key . class , " bunch id = = ' " + lock . get bunch id ( ) + " ' " ) ;  <NL> if ( object ! = null ) { return ( security key ) object ; }  <NL> return null ;  <NL>  }  COM: <s> search key with same bunch id as provided lock </s>

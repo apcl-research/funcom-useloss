@@ -1,0 +1,1 @@
+TDAT: public int read int ( byte array [ ] , int index ) {  <NL> return <NL>  ( ( array [ index ] + 256 ) % 256 ) * 256 * 256 * 256 +  <NL>  ( ( array [ index + 1 ] + 256 ) % 256 ) * 256 * 256 +  <NL>  ( ( array [ index + 2 ] + 256 ) % 256 ) * 256 +  <NL>  ( array [ index + 3 ] + 256 ) % 256 ;  <NL>  }  COM: <s> this function reads four bytes from an array and returns an int </s>

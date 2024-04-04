@@ -1,0 +1,1 @@
+TDAT: private void pre relax ( int k ) {  <NL> for ( int i = 0 ; i < nu1 ; + + i )  <NL> if ( transpose )  <NL> pre m [ k ] . trans apply ( f [ k ] , u [ k ] ) ;  <NL> else <NL> pre m [ k ] . apply ( f [ k ] , u [ k ] ) ;  <NL>  }  COM: <s> applies the relaxation scheme at the given level </s>

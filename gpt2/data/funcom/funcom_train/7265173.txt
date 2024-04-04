@@ -1,0 +1,1 @@
+TDAT: public void put all ( int hash map < ? extends v > m ) {  <NL> entry < ? extends v > tab [ ] = m . table ;  <NL> for ( int i = tab . length ; i - - > 0 ; ) {  <NL> for ( entry < ? extends v > e = tab [ i ] ; e ! = null ; e = e . next ) {  <NL> put ( e . key , e . value ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> adds all elements from m to this </s>

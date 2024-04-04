@@ -1,0 +1,1 @@
+TDAT: private void plot ( int x , int y , byte color , int count ) {  <NL> if ( 0 < = y & & y < height & & 0 < = x & & x < width ) {  <NL> if ( line pattern [ count % line pattern . length ] = = 1 ) {  <NL> screen [ ( height - 1 - y ) * width + x ] = color ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> set the pixel a given position </s>

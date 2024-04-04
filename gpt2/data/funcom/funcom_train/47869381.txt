@@ -1,0 +1,1 @@
+TDAT: public file get bin path ( ) {  <NL> object ret val = this . props . get ( prop _ bin _ path ) . to string ( ) ;  <NL> if ( ret val instanceof file )  <NL> return ( ( file ) ret val ) ;  <NL> else <NL> return ( new file ( this . props . get ( prop _ bin _ path ) . to string ( ) ) ) ;  <NL>  }  COM: <s> returns the binary path of grobid </s>

@@ -1,0 +1,1 @@
+TDAT: private void remove from node out edge map ( map < n , set < e > > current map , e edge ) {  <NL> if ( current map ! = null ) {  <NL> set < e > edge set = current map . get ( edge . source ( ) ) ;  <NL> if ( edge set ! = null ) {  <NL> edge set . remove ( edge ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> removes an outgoing edge from a given node to edgeset mapping </s>

@@ -1,0 +1,1 @@
+TDAT: private j text field get jt fvm name ( ) {  <NL> if ( j t fvm name = = null ) {  <NL> j t fvm name = new j text field ( ) ;  <NL> j t fvm name . set preferred size ( new dimension ( 221 , 19 ) ) ;  <NL> j t fvm name . set bounds ( new rectangle ( 71 , 25 , 221 , 15 ) ) ;  <NL>  }  <NL> return j t fvm name ;  <NL>  }  COM: <s> this method initializes j tfvm name </s>

@@ -1,0 +1,1 @@
+TDAT: private void save ( char ch ) {  <NL> if ( _ saved len > = _ saved . length ) {  <NL> char new saved [ ] = new char [ _ saved . length + 512 ] ;  <NL> system . arraycopy ( _ saved , 0 , new saved , 0 , _ saved . length ) ;  <NL>  _ saved = new saved ;  <NL>  }  <NL>  _ saved [ _ saved len + + ] = ch ;  <NL>  }  COM: <s> saves specified character to the temporary buffer </s>

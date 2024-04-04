@@ -1,0 +1,1 @@
+TDAT: public long set ( long instant , int year ) {  <NL> field utils . verify value bounds ( this , year , 1 , get maximum value ( ) ) ;  <NL> if ( i chronology . get year ( instant ) < = 0 ) {  <NL> year = 1 - year ;  <NL>  }  <NL> return super . set ( instant , year ) ;  <NL>  }  COM: <s> set the year component of the specified time instant </s>

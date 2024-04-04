@@ -1,0 +1,1 @@
+TDAT: public void set tilename ( int i , string format , long value ) {  <NL> if ( vm . build with gc spy ) {  <NL> address tile name = g cspy . util . get bytes ( format ) ;  <NL> set tilename ( i , tile name , value ) ;  <NL> g cspy . util . free ( tile name ) ;  <NL>  }  <NL>  }  COM: <s> tell the native driver the tile names </s>

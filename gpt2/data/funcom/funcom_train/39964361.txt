@@ -1,0 +1,1 @@
+TDAT: private void fund selected ( fund fund ) {  <NL> system . out . println ( " fund selected : " + fund ) ;  <NL> int width = fund panel . get width ( ) ;  <NL> int height = fund panel . get height ( ) ;  <NL> fund panel . set image ( chart service . create chart ( fund , null , width , height ) ) ;  <NL>  }  COM: <s> handles a selection of a fund </s>

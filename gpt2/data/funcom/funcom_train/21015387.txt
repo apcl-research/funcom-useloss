@@ -1,0 +1,1 @@
+TDAT: public quit action ( ) {  <NL> super ( " quit " ) ;  <NL> put value ( short _ description , " quit espro " ) ;  <NL> put value ( mnemonic _ key , new integer ( key event . vk _ q ) ) ;  <NL> put value ( accelerator _ key ,  <NL> key stroke . get key stroke ( key event . vk _ q , action event . ctrl _ mask ) ) ;  <NL>  }  COM: <s> quits the application </s>

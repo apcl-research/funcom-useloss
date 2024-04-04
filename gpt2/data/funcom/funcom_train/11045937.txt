@@ -1,0 +1,1 @@
+TDAT: public void parse ( document doc , uri resolver resolver ) throws exception {  <NL> if ( ! file exists || this . is override ( ) ) {  <NL> xslt template processor . parse ( this . stream ,  <NL> doc ,  <NL> this . xslt stream ,  <NL> resolver ) ;  <NL> this . stream . flush ( ) ;  <NL> this . stream . close ( ) ;  <NL>  }  <NL>  }  COM: <s> writes the output file </s>

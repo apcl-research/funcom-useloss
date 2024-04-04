@@ -1,0 +1,1 @@
+TDAT: private void do single click ( mouse event evt , int line , int offset , int dot ) {  <NL> if ( ( evt . get modifiers ( ) & input event . shift _ mask ) ! = 0 ) {  <NL> select ( get mark position ( ) , dot ) ;  <NL>  } else {  <NL> set caret position ( dot ) ;  <NL>  }  <NL>  }  COM: <s> performs the single click action </s>

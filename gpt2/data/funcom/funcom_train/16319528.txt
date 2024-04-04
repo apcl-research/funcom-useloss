@@ -1,0 +1,1 @@
+TDAT: public xsd file get xsd file ( xml file current file , string file name , message displayer msg dis ) {  <NL>  / / first parses the file name <NL> xsd file file = new xsd file ( current file , file name , msg dis ) ;  <NL>  / / then call a private routine that does the job <NL> return get and parse document ( file , msg dis ) ;  <NL>  }  COM: <s> gets a dtd from a file </s>

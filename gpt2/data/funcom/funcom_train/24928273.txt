@@ -1,0 +1,1 @@
+TDAT: public void notify ( final parse result result ) {  <NL> final calendar when = result . get local timestamp ( 0 ) ;  <NL> if ( result . values ( 0 ) ! = null <NL>  & & result . values ( 0 ) . get ( field ) ! = null ) {  <NL> internal . learn value ( when , result . values ( symbol ) . get ( field ) ) ;  <NL>  }  <NL>  }  COM: <s> receives notification signals </s>

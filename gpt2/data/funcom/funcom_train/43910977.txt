@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> return new string buffer ( " format config [ type = " ) . append ( get type ( ) ) . append ( " , enabled = " )  <NL>  . append ( is enabled ( ) ) . append ( " , abstract = " )  <NL>  . append ( get abstract ( ) ) . append ( " ] " ) . to string ( ) ;  <NL>  }  COM: <s> implement to string </s>

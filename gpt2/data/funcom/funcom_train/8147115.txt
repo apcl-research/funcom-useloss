@@ -1,0 +1,1 @@
+TDAT: / / private double get simple alpha for packet ( sim packet packet ) {  <NL>  / / packet queue holder tmp = get packet queue holder for packet ( packet ) ;  <NL>  / / if ( tmp ! = null ) {  <NL>  / / return ( double ) tmp . timeout / ( double ) get delay ( ) ;  <NL>  / / }  <NL>  / / return - 1 ;  <NL>  / / }  COM: <s> determine the alpha position of a packet </s>

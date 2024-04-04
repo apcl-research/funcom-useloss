@@ -1,0 +1,1 @@
+TDAT: public void add transition ( transition < n , a > t ) {  <NL> if ( mode ! = mode . definition ) {  <NL> throw new illegal state exception ( " cannot add a new transition , current status is " + mode ) ;  <NL>  }  <NL>  <NL> automaton . add arc ( t , t . from state , t . to state ) ;  <NL>  }  COM: <s> adds a transition to the model </s>

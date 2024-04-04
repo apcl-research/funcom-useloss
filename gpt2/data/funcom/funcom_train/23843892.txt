@@ -1,0 +1,1 @@
+TDAT: public void add ( string name , object value ) {  <NL> xml attribute a = new xml attribute ( name , value . to string ( ) ) ;  <NL> attributes . add ( ( object ) a ) ;  <NL> if ( debug ) system . out . println ( " my xml . attribute . add ( " + name + " , " + value + " ) " ) ;  <NL>  }  COM: <s> add a named attribute to this element </s>

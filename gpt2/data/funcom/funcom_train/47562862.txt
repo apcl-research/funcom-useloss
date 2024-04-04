@@ -1,0 +1,1 @@
+TDAT: public void draw ( array list < line > lines ) {  <NL> for ( line line : lines ) {  <NL> graphics . draw line ( ( int ) ( line . get start p ( ) . x ) , ( int ) ( line . get start p ( ) . y ) , ( int ) ( line . get end p ( ) . x ) , ( int ) ( line . get end p ( ) . y ) ) ;  <NL>  }  <NL>  }  COM: <s> legacy code for previous method of drawing the map </s>

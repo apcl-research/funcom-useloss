@@ -1,0 +1,1 @@
+TDAT: public void test fallback ( ) {  <NL> assert equals ( " fr " , matcher . find best match ( " fr - be " ) ) ;  <NL> assert equals ( " en " , matcher . find best match ( " fr - be , en ; q = 0 . 5 " ) ) ;  <NL> assert equals ( " default " , matcher . find best match ( " de " ) ) ;  <NL>  }  COM: <s> tests fallback approximate match behavior </s>

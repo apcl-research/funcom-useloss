@@ -1,0 +1,1 @@
+TDAT: private j menu get j menu3 ( ) {  <NL> if ( j menu3 = = null ) {  <NL> j menu3 = new j menu ( ) ;  <NL> j menu3 . set text ( " register " ) ;  <NL> j menu3 . add ( new pay out form ( this ) . get menu item ( ) ) ;  <NL> j menu3 . add ( new balance form ( this ) . get menu item ( ) ) ;  <NL>  }  <NL> return j menu3 ;  <NL>  }  COM: <s> this method initializes j menu3 </s>

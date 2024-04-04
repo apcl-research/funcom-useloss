@@ -1,0 +1,1 @@
+TDAT: public void _ set storage ( ) {  <NL> if ( ! o obj . has storage ( ) )  <NL> o obj . set storage ( x store ) ;  <NL> else <NL> log . println ( " for initializing this object , the set storage ( ) method was already called at the object . " ) ;  <NL> t res . tested ( " set storage ( ) " , true ) ;  <NL>  }  COM: <s> set the object relation code xuiconfiguration storage </s>

@@ -1,0 +1,1 @@
+TDAT: public boolean is display type ( element el , string type ) {  <NL> string tmp = get value ( el , " mantis : display " ) ;  <NL> if ( tmp ! = null ) {  <NL> if ( tmp . equals ignore case ( type ) )  <NL> return true ;  <NL> else <NL> return false ;  <NL>  } / / if <NL> return ( false ) ;  <NL>  } / / is display type  COM: <s> returns the results of a display check </s>

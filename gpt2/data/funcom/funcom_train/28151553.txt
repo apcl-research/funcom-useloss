@@ -1,0 +1,1 @@
+TDAT: private runner do builtin ( ) {  <NL> if ( wrap ) return wrap me ( ) ;  <NL> file file = our dialog . ask file ( true , alloy home ( ) + fs + " models " , " . als " , " . als files " ) ;  <NL> if ( file ! = null ) {  <NL> do open file ( file . get path ( ) ) ;  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> this method performs file open builtin models </s>

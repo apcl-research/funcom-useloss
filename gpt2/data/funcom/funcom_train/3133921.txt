@@ -1,0 +1,1 @@
+TDAT: private boolean hex ( char ch ) {  <NL> if ( ch > = ' 0 ' & & ch < = ' 9 ' ) {  <NL> return true ;  <NL>  } else if ( ch > = ' a ' & & ch < = ' f ' ) {  <NL> return true ;  <NL>  } else if ( ch > = ' a ' & & ch < = ' f ' ) {  <NL> return true ;  <NL>  }  <NL> return false ;  <NL>  }  COM: <s> this is used to determine wheather a char is a hexidecimal </s>

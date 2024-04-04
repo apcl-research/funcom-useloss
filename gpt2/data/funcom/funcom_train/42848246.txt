@@ -1,0 +1,1 @@
+TDAT: public boolean is zero matrix ( ) {  <NL> int m = get row dimension ( ) , n = get column dimension ( ) ;  <NL> boolean is zero = true ;  <NL>  <NL> for ( int i = 0 ; i < m ; i + + ) {  <NL> for ( int j = 0 ; j < n ; j + + ) {  <NL> if ( get ( i , j ) ! = 0 )  <NL> return false ;  <NL>  }  <NL>  }  <NL> return is zero ;  <NL>  }  COM: <s> check if a matrix is all zeros </s>

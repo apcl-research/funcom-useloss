@@ -1,0 +1,1 @@
+TDAT: public void assign labels ( ) {  <NL> hash set < string > already used = new hash set < string > ( ) ;  <NL> for ( tree t : this )  <NL> if ( t . get label ( ) ! = null )  <NL> already used . add ( t . get label ( ) ) ;  <NL> assign labels ( new int [ ] { 0 } , already used ) ;  <NL>  }  COM: <s> assigns automatically generated unique labels to the unlabeled </s>

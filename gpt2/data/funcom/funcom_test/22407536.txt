@@ -1,0 +1,1 @@
+TDAT: private void jb init ( ) throws exception {  <NL> set layout ( new grid bag layout ( ) ) ;  <NL> add ( optionspanel ,  <NL> new grid bag constraints ( 0 , 0 , 1 , 1 , 1 . 0 , 1 . 0 ,  <NL> grid bag constraints . center ,  <NL> grid bag constraints . both ,  <NL> new insets ( 0 , 0 , 0 , 0 ) , 0 , 0 ) ) ;  <NL>  }  COM: <s> set up the property page </s>

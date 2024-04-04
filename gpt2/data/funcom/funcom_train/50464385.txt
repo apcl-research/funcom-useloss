@@ -1,0 +1,1 @@
+TDAT: public boolean dir exists ( string p path ) {  <NL>  / / setup file name <NL> string _ path = p path . replace ( path _ seperator , file . separator char ) ;  <NL> file _ file = new file ( doc dir , _ path ) ;  <NL> return ( _ file . exists ( ) & & _ file . is directory ( ) ) ;  <NL>  }  COM: <s> return true if the directory exists </s>

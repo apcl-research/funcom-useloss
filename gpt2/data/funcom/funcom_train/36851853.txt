@@ -1,0 +1,1 @@
+TDAT: public void write unsigned packed ( double value , int integer digits , int fractional digits ) throws io exception {  <NL>  <NL> value * = math . pow ( 10 , fractional digits ) ;  <NL> write unsigned packed ( util . format ( value , 0 , ' . ' , true ) , integer digits + fractional digits ) ;  <NL>  }  COM: <s> writes a tt double tt in unsigned packed format </s>

@@ -1,0 +1,1 @@
+TDAT: public int get header ( ) {  <NL> int val = 0 ;  <NL> for ( int i = 2 ; i < = 10 ; i + + ) {  <NL>  _ rt roffset = i ;  <NL> if ( _ data chars [ i ] = = ' n ' ) break ;  <NL> if ( _ data chars [ i ] = = ' r ' ) break ;  <NL> val = val * 16 + get hex digit ( i ) ;  <NL>  }  <NL> return val ;  <NL>  }  COM: <s> get the can header by using chars from 2 to up to 9 </s>

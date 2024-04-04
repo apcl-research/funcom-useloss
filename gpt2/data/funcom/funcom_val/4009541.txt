@@ -1,0 +1,1 @@
+TDAT: public void escaped ( @ not null string key , @ nullable string value ) throws json exception {  <NL> key ( key ) ;  <NL> if ( value = = null ) {  <NL> null out ( ) ;  <NL>  } else {  <NL> out . print ( ' \ " ' ) ;  <NL> new json tokener ( value ) . stream ( out ) ;  <NL> out . print ( ' \ " ' ) ;  <NL>  }  <NL>  }  COM: <s> prints escaped and quoted like key value </s>

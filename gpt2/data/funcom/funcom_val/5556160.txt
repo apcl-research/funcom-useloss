@@ -1,0 +1,1 @@
+TDAT: public command apply ( command c ) {  <NL> command comm = accept ( c ) ? c : new null command ( ) ;  <NL> command sub [ ] = c . get sub commands ( ) ;  <NL> comm . strip sub commands ( ) ;  <NL> for ( int i = 0 ; i < sub . length ; + + i ) {  <NL> comm . append ( apply ( sub [ i ] ) ) ;  <NL>  }  <NL> return comm ;  <NL>  }  COM: <s> apply the filter </s>

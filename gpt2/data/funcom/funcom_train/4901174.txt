@@ -1,0 +1,1 @@
+TDAT: private void set image ( int [ ] outpix ) {  <NL> if ( source image = = null ) {  <NL> source image = new memory image source ( img width , img height , dcm , outpix , 0 , img width ) ;  <NL>  }  <NL> output image = create image ( source image ) ;  <NL> curr panel . set image ( output image ) ;  <NL>  }  COM: <s> draw image to awt frame </s>

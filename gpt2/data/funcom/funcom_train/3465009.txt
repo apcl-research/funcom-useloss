@@ -1,0 +1,1 @@
+TDAT: public void set spaces ( int [ ] ticks ) {  <NL> if ( a . length ! = ticks . length ) {  <NL> a = new space [ ticks . length ] ;  <NL> for ( int i = 0 ; i < ticks . length ; + + i ) { a [ i ] = new space ( ) ; a [ i ] . ticks = ticks [ i ] ; }  <NL>  }  <NL>  }  COM: <s> resets this code size sequence code object </s>

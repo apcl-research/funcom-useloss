@@ -1,0 +1,1 @@
+TDAT: private void add parameter value ( final string _ name , final string _ value ) {  <NL> list values = ( list ) parameters map . get ( _ name ) ;  <NL> if ( values = = null ) {  <NL> values = new array list ( ) ;  <NL> parameters map . put ( _ name , values ) ;  <NL>  }  <NL> values . add ( _ value ) ;  <NL>  }  COM: <s> adds a new value for the given parameter </s>

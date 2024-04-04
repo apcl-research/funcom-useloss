@@ -1,0 +1,1 @@
+TDAT: protected void paint day foreground ( graphics g , string numeric day , int x , int y , calendar cal ) {  <NL> font metrics fm = g . get font metrics ( ) ;  <NL> g . draw string ( numeric day , x - fm . string width ( numeric day ) , y + fm . get ascent ( ) ) ;  <NL>  }  COM: <s> paints string of the day </s>

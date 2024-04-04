@@ -1,0 +1,1 @@
+TDAT: public value vector clone into ( value vector vv ) {  <NL> if ( m _ ptr > vv . m _ v . length ) {  <NL> vv . m _ v = new value [ m _ ptr ] ;  <NL>  }  <NL> vv . m _ ptr = m _ ptr ;  <NL> system . arraycopy ( m _ v , 0 , vv . m _ v , 0 , m _ ptr ) ;  <NL> return vv ;  <NL>  }  COM: <s> make the parameter into a copy of this value vector </s>

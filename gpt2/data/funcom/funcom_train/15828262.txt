@@ -1,0 +1,1 @@
+TDAT: public static final string shift _ operators _ src = " package com . example . mypackage ; \n\n "  <NL>  + " public class my class { \n\n " + " public void run ( ) { \n\n " + " int i ; \n "  <NL>  + " i = 255 < < 2 ; \n " + " i = 255 > > 2 ; \n " + " i = 255 > > > 2 ; \n "  <NL>  + " } \n " + " } \n " ;  COM: <s> the source for a shift operators test </s>

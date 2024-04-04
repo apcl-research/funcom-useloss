@@ -1,0 +1,1 @@
+TDAT: private string get file name ( string path ) {  <NL> int pos a = path . last index of ( " / " ) ;  <NL> int pos b = path . last index of ( " \\ " ) ;  <NL> int pos = ( ( pos a = = - 1 ) ? pos b : pos a ) ;  <NL>  <NL> return ( ( pos = = - 1 ) ? path : path . substring ( pos + 1 ) ) ;  <NL>  }  COM: <s> returns the filename part of a path </s>

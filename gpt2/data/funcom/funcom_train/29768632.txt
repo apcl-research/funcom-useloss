@@ -1,0 +1,1 @@
+TDAT: public void create views ( connection connection , boolean ignore errors ) {  <NL> execute ddl ( connection , ignore errors , i mapping . op create view , null , false ) ;  <NL> execute ddl ( connection , ignore errors , i mapping . op create subclasses view , null , false ) ;  <NL>  }  COM: <s> creates the views according to our </s>

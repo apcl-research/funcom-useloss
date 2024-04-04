@@ -1,0 +1,1 @@
+TDAT: public void test represents17 ( ) {  <NL> expected exit = 0 ;  <NL> help tcf ( " a . java " , " public class a { \n static int j ; / / @ model static int i ; static represents i < - j ; \n } "  <NL>  , " / a . java : 2 : warning : the left arrow is deprecated in represents clauses , use = instead " , 61 <NL>  ) ;  <NL>  }  COM: <s> check that warning that is deprecated </s>

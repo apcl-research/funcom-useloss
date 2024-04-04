@@ -1,0 +1,1 @@
+TDAT: public void test clear short ( ) {  <NL> assert equals ( bf _ multi . clear short ( ( short ) - 1 ) , ( short ) 0x c07f ) ;  <NL> assert equals ( bf _ single . clear short ( ( short ) - 1 ) , ( short ) 0x bfff ) ;  <NL> assert equals ( bf _ zero . clear short ( ( short ) - 1 ) , ( short ) 0x ffff ) ;  <NL>  }  COM: <s> test the clear short method </s>

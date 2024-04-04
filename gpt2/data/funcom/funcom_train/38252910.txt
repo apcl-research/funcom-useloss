@@ -1,0 +1,1 @@
+TDAT: public transform to swt transform ( affine transform t ) {  <NL> double [ ] m = new double [ 6 ] ;  <NL> t . get matrix ( m ) ;  <NL> return new transform ( _ dev , ( float ) m [ 0 ] , ( float ) m [ 1 ] , ( float ) m [ 2 ] ,  <NL>  ( float ) m [ 3 ] , ( float ) m [ 4 ] , ( float ) m [ 5 ] ) ;  <NL>  }  COM: <s> converts a java2 d affine transform into an swt transform </s>

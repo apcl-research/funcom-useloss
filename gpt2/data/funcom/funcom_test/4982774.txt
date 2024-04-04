@@ -1,0 +1,1 @@
+TDAT: protected void clear list ids ( list list ) {  <NL> if ( list ! = null ) {  <NL> iterator it = list . iterator ( ) ;  <NL> while ( it . has next ( ) ) {  <NL> object o = it . next ( ) ;  <NL> if ( o instanceof jbs clearable id ) {  <NL>  ( ( jbs clearable id ) o ) . clear ids ( ) ;  <NL>  }  <NL>  }  <NL>  }  <NL>  }  COM: <s> clears the ids of all members of a list </s>

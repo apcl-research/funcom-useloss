@@ -1,0 +1,1 @@
+TDAT: protected void skip comments ( final line number reader in ) throws io exception {  <NL> int c ;  <NL>  <NL> do {  <NL> in . mark ( 4 ) ;  <NL> c = in . read ( ) ;  <NL> if ( c = = ' c ' ) {  <NL> in . read line ( ) ;  <NL>  } else {  <NL> in . reset ( ) ;  <NL>  }  <NL>  } while ( c = = ' c ' ) ;  <NL>  }  COM: <s> skip comments at the beginning of the input stream </s>

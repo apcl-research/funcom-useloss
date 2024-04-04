@@ -1,0 +1,1 @@
+TDAT: public void test new baz ( ) {  <NL> m manager . current transaction ( ) . begin ( ) ;  <NL> baz si = ( baz ) xorm . new instance ( m manager , baz . class ) ;  <NL> si . set name ( " this should disappear " ) ;  <NL> m manager . make persistent ( si ) ;  <NL> m manager . current transaction ( ) . commit ( ) ;  <NL>  }  COM: <s> creates a new baz but doesnt delete it </s>

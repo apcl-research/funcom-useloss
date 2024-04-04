@@ -1,0 +1,1 @@
+TDAT: public void destroy ( ) {  <NL> for ( entry < string , ftplet > entry : ftplets . entry set ( ) ) {  <NL> try {  <NL> entry . get value ( ) . destroy ( ) ;  <NL>  } catch ( exception ex ) {  <NL> log . error ( entry . get key ( ) + " : : ftplet handler . destroy ( ) " , ex ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> destroy all ftplets </s>

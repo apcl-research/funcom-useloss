@@ -1,0 +1,1 @@
+TDAT: public boolean intersects line ( line l ) {  <NL> return lines intersect ( l . get xa ( ) , l . get ya ( ) , l . get xb ( ) , l . get yb ( ) , get xa ( ) , get ya ( ) , get xb ( ) , get yb ( ) ) ;  <NL>  }  COM: <s> tests if the specified line segment intersects this line segment </s>

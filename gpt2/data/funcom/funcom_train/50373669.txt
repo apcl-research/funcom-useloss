@@ -1,0 +1,1 @@
+TDAT: private mouse event get mouse event ( mouse event e , int id , int x , int y ) {  <NL> return new mouse event ( e . get component ( ) , id , e . get when ( ) ,  <NL> e . get modifiers ( ) , x , y , e . get click count ( ) , false ) ;  <NL>  }  COM: <s> helper method used for generating mouse events to send to scene nodes </s>

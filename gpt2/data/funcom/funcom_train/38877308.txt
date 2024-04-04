@@ -1,0 +1,1 @@
+TDAT: public char check win ( char [ ] row ) {  <NL> for ( int i = 3 ; i < row . length ; i + + ) {  <NL> if ( row [ i ] ! = ' 0 ' & & row [ i ] = = row [ i - 1 ] & & row [ i - 1 ] = = row [ i - 2 ] & & row [ i - 2 ] = = row [ i - 3 ] ) {  <NL> return row [ i ] ;  <NL>  }  <NL>  }  <NL> return ' 0 ' ;  <NL>  }  COM: <s> looks for 4 of the same character in row that isnt 0 </s>

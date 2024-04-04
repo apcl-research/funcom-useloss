@@ -1,0 +1,1 @@
+TDAT: public boolean equals ( object o ) {  <NL> if ( ! ( o instanceof beh def ) ) return false ;  <NL> if ( o = = this ) return true ;  <NL> beh def oo = ( beh def ) o ;  <NL> return ( ( ( object ) name ) . equals ( oo . name ) ) & & ( ( ( object ) body ) . equals ( oo . body ) ) ;  <NL>  }  COM: <s> is the given object equal to this beh def </s>

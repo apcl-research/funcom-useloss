@@ -1,0 +1,1 @@
+TDAT: public void test minus double set string ( ) throws number format exception {  <NL>  <NL> string ls value = " - 1234 . 45 " ;  <NL> data double ld double = new data double ( fl value ) ;  <NL> ld double . set string ( ls value ) ;  <NL> assert equals ( - 1234 . 45 , - 1234 . 45 , ld double . get value ( ) ) ;  <NL>  }  COM: <s> test of minus double using set string </s>

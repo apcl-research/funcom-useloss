@@ -1,0 +1,1 @@
+TDAT: public void add long ( listener if listener , string name , char c ) {  <NL>  / / no argument <NL> largs . add ( new long opt ( name , long opt . no _ argument , null , c ) ) ;  <NL>  / / register listener <NL> listeners . put ( new integer ( c ) , listener ) ;  <NL>  }  COM: <s> add a long argumentless option with the specified listener </s>

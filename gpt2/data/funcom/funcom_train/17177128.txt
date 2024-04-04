@@ -1,0 +1,1 @@
+TDAT: protected void do search ( char sequence str ) {  <NL> if ( str . length ( ) = = 0 ) {  <NL> return ;  <NL>  }  <NL> cancel delayed search ( ) ;  <NL> if ( ! async tasks . is running ( m async task ) ) {  <NL> m async task = new find task ( ) ;  <NL> m async task . execute ( str . to string ( ) ) ;  <NL>  }  <NL>  }  COM: <s> called when you should perform the search </s>

@@ -1,0 +1,1 @@
+TDAT: public void add property ( property prop ) {  <NL> string name = prop . get name ( ) ;  <NL> array list < property > props = m props map . get ( name ) ;  <NL> if ( props = = null ) {  <NL> props = new array list < property > ( ) ;  <NL> m props map . put ( name , props ) ;  <NL>  }  <NL> props . add ( prop ) ;  <NL>  }  COM: <s> adds a property to this component </s>

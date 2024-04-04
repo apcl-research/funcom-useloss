@@ -1,0 +1,1 @@
+TDAT: public string get value ( ) {  <NL> string s value = " " ;  <NL> if ( _ s area code ! = null )  <NL> s value + = _ s area code ;  <NL> if ( _ s phone start ! = null )  <NL> s value + = _ s phone start ;  <NL> if ( _ s phone end ! = null )  <NL> s value + = _ s phone end ;  <NL> return s value ;  <NL>  }  COM: <s> gets the current value of the control </s>

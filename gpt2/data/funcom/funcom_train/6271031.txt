@@ -1,0 +1,1 @@
+TDAT: public void delete occurrence ( string oid , string tid ) {  <NL> xtm occurrence oc = new xtm occurrence ( oid , id , tid , true , commander ) ;  <NL> system . out . println ( " deleting occurrence " + oid + " " + id + " " + tid + " " + oc ) ;  <NL> oc . delete self ( ) ;  <NL>  }  COM: <s> does this delete any body files </s>

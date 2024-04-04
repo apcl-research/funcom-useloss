@@ -1,0 +1,1 @@
+TDAT: private j button get j button example ( ) {  <NL> if ( j button example = = null ) {  <NL> j button example = new j button ( ) ;  <NL> j button example . set bounds ( new java . awt . rectangle ( 5 , 50 , 120 , 22 ) ) ;  <NL> j button example . set text ( " button " ) ;  <NL>  }  <NL> return j button example ;  <NL>  }  COM: <s> this method initializes j button example </s>

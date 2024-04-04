@@ -1,0 +1,1 @@
+TDAT: public void add initial goals in ts ( ) {  <NL> for ( literal g : initial goals ) {  <NL> g . make vars annon ( ) ;  <NL> if ( ! g . has source ( ) )  <NL> g . add annot ( belief base . t self ) ;  <NL> get ts ( ) . get c ( ) . add achv goal ( g , intention . empty int ) ;  <NL>  }  <NL>  }  COM: <s> includes all initial goals in the agent reasoner </s>

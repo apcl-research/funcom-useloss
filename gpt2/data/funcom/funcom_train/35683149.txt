@@ -1,0 +1,1 @@
+TDAT: private void error dialog ( final string context , final core exception e ) {  <NL> error dialog . open error ( get site ( ) . get shell ( ) ,  <NL> nls . bind ( messages . editor _ generic _ error _ msg ,  <NL> context , e . get message ( ) ) ,  <NL> null , e . get status ( ) ) ;  <NL>  }  COM: <s> report a core exception </s>

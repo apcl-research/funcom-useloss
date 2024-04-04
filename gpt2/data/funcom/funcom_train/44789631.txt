@@ -1,0 +1,1 @@
+TDAT: private void render ( final i feature feature , final buffered image the image ) {  <NL> render util . paint ( this . symbolizer , feature , this . get layer view panel ( ) . get viewport ( ) ,  <NL>  ( graphics2d ) the image . get graphics ( ) , 1 . 0f ) ; / / fixme opacity fix <NL>  }  COM: <s> render a feature into an image using the given symbolizer </s>

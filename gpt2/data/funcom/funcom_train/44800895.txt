@@ -1,0 +1,1 @@
+TDAT: public string get extension ( java . io . file f ) {  <NL> string ext = null ;  <NL> string s = f . get name ( ) ;  <NL> int i = s . last index of ( ' . ' ) ;  <NL>  <NL> if ( i > 0 & & i < s . length ( ) - 1 ) {  <NL> ext = s . substring ( i + 1 ) . to lower case ( ) ;  <NL>  }  <NL> return ext ;  <NL>  }  COM: <s> returns the file extension of the passed file </s>

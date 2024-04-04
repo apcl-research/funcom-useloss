@@ -1,0 +1,1 @@
+TDAT: private void html help ( string target ) throws io exception {  <NL>  <NL> write ( " < a href = \ " " ) ;  <NL> write ( help link ) ;  <NL> write ( target ) ;  <NL> write ( " \ " target = \ " new\ " / > < sup > < b > < font color = red > ? < / font > < / b > < / sup > < / a > " ) ;  <NL>  }  COM: <s> provide a context sensitive link to the user manual </s>

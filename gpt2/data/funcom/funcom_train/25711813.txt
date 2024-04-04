@@ -1,0 +1,1 @@
+TDAT: public boolean equals ( object o ) {  <NL> if ( this = = o ) return true ;  <NL> if ( ! ( o instanceof guid ) ) return false ;  <NL>  <NL> final guid guid = ( guid ) o ;  <NL>  <NL> if ( v [ 0 ] ! = guid . v [ 0 ] ) return false ;  <NL> if ( v [ 1 ] ! = guid . v [ 1 ] ) return false ;  <NL>  <NL> return true ;  <NL>  }  COM: <s> returns true if two </s>

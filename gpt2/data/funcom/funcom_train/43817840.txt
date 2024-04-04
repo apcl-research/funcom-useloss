@@ -1,0 +1,1 @@
+TDAT: private void send packet ( byte [ ] data , short address ) {  <NL> if ( address = = m . get server address ( ) ) {  <NL>  / / put in file called to send . server in client folder <NL> gui . clt2tcp ( ) ;  <NL> write file ( data , " client buffer / to send . clt . srv . tcp " ) ;  <NL>  }  <NL>  <NL>  }  COM: <s> send packet to address </s>

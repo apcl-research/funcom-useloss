@@ -1,0 +1,1 @@
+TDAT: public point get curve point ( color curve c , double val ) {  <NL> double y = c . get value ( val ) ;  <NL> point p = new point ( ( int ) ( val * cp . get width ( ) ) , ( int ) ( ( 1 . 0 - y ) * cp . get height ( ) ) ) ;  <NL> return p ;  <NL>  }  COM: <s> get coordinates in this panels coordinate system that matches a point in curve </s>

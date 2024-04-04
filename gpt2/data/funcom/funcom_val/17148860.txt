@@ -1,0 +1,1 @@
+TDAT: public void set table model ( table model model ) {  <NL> string [ ] column names = new string [ model . get column count ( ) ] ;  <NL> for ( int i = column names . length - 1 ; i > = 0 ; i - - ) {  <NL> column names [ i ] = model . get column name ( i ) ;  <NL>  }  <NL> this . column names = column names ;  <NL>  }  COM: <s> set the table model to provide column names </s>

@@ -1,0 +1,1 @@
+TDAT: public string join ( string delimiter ) {  <NL> if ( line ! = null & & line . length > 0 ) {  <NL> string tmp = line [ 0 ] ;  <NL> for ( int i = 1 ; i < line . length ; i + + ) {  <NL> tmp + = delimiter + line [ i ] ;  <NL>  }  <NL> return tmp ;  <NL>  } else {  <NL> return " " ;  <NL>  }  <NL>  }  COM: <s> joins all lines delimited with delimiter to a string </s>

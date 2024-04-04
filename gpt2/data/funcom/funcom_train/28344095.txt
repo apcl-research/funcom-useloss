@@ -1,0 +1,1 @@
+TDAT: public void set position ( double dbl pos , double dbl len ) {  <NL> this . get mag body ( ) . set position ( dbl pos ) ;  <NL> this . get face entr ( ) . set position ( dbl pos - dbl len / 2 . 0 ) ;  <NL> this . get face exit ( ) . set position ( dbl pos + dbl len / 2 . 0 ) ;  <NL>  }  COM: <s> p set the position of the magnet along the design path within the </s>

@@ -1,0 +1,1 @@
+TDAT: public login error find login error by user id ( string user id ) {  <NL> list l = this . get hibernate template ( ) . find ( load _ by _ userid , user id ) ;  <NL> if ( l = = null || l . is empty ( ) ) {  <NL> return null ;  <NL>  }  <NL> else {  <NL> return ( login error ) l . get ( 0 ) ;  <NL>  }  <NL>  }  COM: <s> user id login error </s>

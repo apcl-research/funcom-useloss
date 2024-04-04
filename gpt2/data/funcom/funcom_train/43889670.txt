@@ -1,0 +1,1 @@
+TDAT: private void ensure file exists ( final file file ) throws file not found exception {  <NL> if ( ! file . is file ( ) || ! file . can read ( ) ) {  <NL> throw new file not found exception ( get error resources ( )  <NL>  . get string ( error keys . file _ does _ not _ exist _ $ 1 , file ) ) ;  <NL>  }  <NL>  }  COM: <s> ensures that the specified file can be read </s>

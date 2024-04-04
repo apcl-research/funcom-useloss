@@ -1,0 +1,1 @@
+TDAT: public void stop ( ) {  <NL> this . is active = false ;  <NL> this . time left = math . max ( 0 , ( int ) ( this . next trigger - cpu . get cycles ( ) ) ) ;  <NL>  <NL> if ( timer _ debug & & c64 . get logger ( ) ! = null ) {  <NL> c64 . get logger ( ) . info ( this . name + " : stopping timer " ) ;  <NL>  }  <NL>  }  COM: <s> stop the timer </s>

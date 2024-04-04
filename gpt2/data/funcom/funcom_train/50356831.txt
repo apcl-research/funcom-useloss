@@ -1,0 +1,1 @@
+TDAT: public void set references ( list list ) {  <NL> iterator i = list . iterator ( ) ;  <NL> simple list al = new simple list ( ) ;  <NL> while ( i . has next ( ) ) {  <NL> al . add ( new simple scalar ( i . next ( ) . to string ( ) ) ) ;  <NL>  }  <NL> values . put ( " references " , al ) ;  <NL>  }  COM: <s> sets the references attribute of the question object </s>

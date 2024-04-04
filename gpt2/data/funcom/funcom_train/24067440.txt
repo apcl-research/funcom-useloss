@@ -1,0 +1,1 @@
+TDAT: public string encode utf8 ( string input ) {  <NL>  <NL> try {  <NL> if ( input ! = null ) { input = java . net . url encoder . encode ( input , " utf - 8 " ) ; }  <NL>  <NL>  } catch ( exception e ) {  <NL> log . error ( " encode in url code : " + input + " \040 " + e . to string ( ) ) ;  <NL>  }  <NL>  <NL> return input ;  <NL>  }  COM: <s> encoding in utf 8 </s>

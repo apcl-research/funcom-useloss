@@ -1,0 +1,1 @@
+TDAT: protected void start ( request req to start ) {  <NL> request req = req to start ;  <NL> while ( req ! = null ) {  <NL>  _ log . fine ( " starting request ( " + req . _ i request + " , " + req . _ i subreq + " , " + req . get name ( ) + " ) " ) ;  <NL>  _ thp filter . add ( req ) ;  <NL> req = req . get next ( ) ;  <NL>  }  <NL>  }  COM: <s> starts a request thread </s>

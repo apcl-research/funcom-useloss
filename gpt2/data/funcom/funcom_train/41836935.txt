@@ -1,0 +1,1 @@
+TDAT: public void show station location in maps ( view v ) {  <NL> uri uri = uri . parse ( string . format ( " geo : % s , % s " , this . subway station . get lat ( ) , this . subway station . get lng ( ) ) ) ;  <NL> start activity ( new intent ( android . content . intent . action _ view , uri ) ) ;  <NL>  }  COM: <s> show the station location in a maps enabled app </s>

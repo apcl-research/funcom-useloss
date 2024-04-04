@@ -1,0 +1,1 @@
+TDAT: public void insert ( force item item ) {  <NL>  / / insert item into the quadtrees <NL> try {  <NL> insert ( item , root , x min , y min , x max , y max ) ;  <NL>  } catch ( stack overflow error e ) {  <NL>  / / todo : safe to remove ?  <NL> e . print stack trace ( ) ;  <NL>  }  <NL>  }  COM: <s> inserts an item into the quadtree </s>

@@ -1,0 +1,1 @@
+TDAT: public string as browser link ( ) {  <NL> string v = this . value ( ) ;  <NL> if ( v = = null ) return null ;  <NL>  <NL> v = v . trim ( ) ;  <NL> v = u string . string by encoding url component ( v , null / * utf - 8 * / ) ;  <NL> return v . length ( ) > 0 ? ( " mailto : " + v ) : null ;  <NL>  }  COM: <s> returns a link suitable for use in an html anker </s>

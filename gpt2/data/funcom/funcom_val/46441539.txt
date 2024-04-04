@@ -1,0 +1,1 @@
+TDAT: public void print ( ) {  <NL> for ( int i = 0 ; i < experiments . x size ; i + + ) {  <NL> for ( int j = 0 ; j < prob conds [ i ] . length ; j + + ) {  <NL> system . out . println ( " p ( " + j + " | " + i + " ) = " + pcond ( j , i ) ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> print out p y x for all pairs to the standard output </s>

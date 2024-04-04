@@ -1,0 +1,1 @@
+TDAT: protected void paint border ( graphics g , int x , int y , int width , int height , int colour ) {  <NL>  <NL> g . set color ( colour ) ;  <NL> g . draw rect ( x , y , width - 1 , height - 1 ) ;  <NL>  <NL> paint shadow ( g , x , y , width , height ) ;  <NL>  }  COM: <s> repaint the border if any for this instance </s>

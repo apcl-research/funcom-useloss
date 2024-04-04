@@ -1,0 +1,1 @@
+TDAT: public void on end match ( string user1 , string user2 , int length , int points1 , int points2 ) {  <NL> for ( iterator i = listeners . iterator ( ) ; i . has next ( ) ; )  <NL>  ( ( listener ) i . next ( ) ) . on end match ( user1 , user2 , length , points1 , points2 ) ;  <NL>  }  COM: <s> called when a game is finished </s>

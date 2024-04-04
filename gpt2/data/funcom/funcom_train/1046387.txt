@@ -1,0 +1,1 @@
+TDAT: public void add food ( string food , string cals , string fat , string fiber ) {  <NL> db . exec sql ( " insert into " + food _ table _ name + " values ( ' " + food + " ' , ' " + cals + " ' , ' " + fat + " ' , ' " + fiber + " ' ) " ) ;  <NL>  / / refresh text complete ( ) ;  <NL>  }  COM: <s> adds a particular food into the db </s>

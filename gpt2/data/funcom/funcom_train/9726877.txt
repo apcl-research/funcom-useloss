@@ -1,0 +1,1 @@
+TDAT: public void read comment ( ) {  <NL> int c = next char ( ) ;  <NL> while ( ( c > = 0 ) & & ! ( ( c = = ' * ' ) & & ( peek char ( ) = = ' / ' ) ) )  <NL> c = next char ( ) ;  <NL> if ( c > = 0 )  <NL> c = next char ( ) ; / / read off the ' / ' we peeked .  <NL>  }  COM: <s> move the pointer past a c style comment </s>

@@ -1,0 +1,1 @@
+TDAT: public void init ( final string in file , final string out file ) {  <NL> this . in file name = in file ;  <NL> this . out file name = out file ;  <NL> if ( ( out file . compare to ( " install " ) = = 0 ) ) {  <NL> this . out file name = " nsis - install . nsi " ;  <NL>  }  <NL>  <NL> this . init ( ) ;  <NL>  }  COM: <s> init the configuration </s>

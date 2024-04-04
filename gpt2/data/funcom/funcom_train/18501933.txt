@@ -1,0 +1,1 @@
+TDAT: private void init priority queue ( ) {  <NL> cr net attribute a ;  <NL> for ( iterator it = arr _ attributes . iterator ( ) ; it . has next ( ) ; ) {  <NL> a = ( cr net attribute ) it . next ( ) ;  <NL> if ( a . get importance ( ) > 0 . 0 )  <NL> exec . queue . add ( a ) ;  <NL>  }  <NL>  }  COM: <s> init priority queue </s>

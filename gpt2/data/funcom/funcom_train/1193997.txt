@@ -1,0 +1,1 @@
+TDAT: public void setup camera ( ) {  <NL> camera cam = display system . get display system ( ) . get renderer ( ) . get camera ( ) ;  <NL>  <NL> cam . set location ( new vector3f ( 0f , 6 . 5f , - 40f ) ) ;  <NL> cam . look at ( new vector3f ( 0f , 0f , - 20f ) , new vector3f ( 0 , 1 , 0 ) ) ;  <NL>  }  COM: <s> setups the camera for the bowling game state </s>

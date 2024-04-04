@@ -1,0 +1,1 @@
+TDAT: private int read ( ) throws io exception {  <NL> int b = - 1 ;  <NL> if ( this . pushed byte > = 0 ) {  <NL> b = ( byte ) this . pushed byte ;  <NL> this . pushed byte = - 1 ;  <NL>  }  <NL> else {  <NL> b = this . fis . read ( ) ;  <NL>  }  <NL> return ( b = = - 1 ) ? - 1 : ( b & 0x ff ) ;  <NL>  }  COM: <s> reads in a single character of the file </s>

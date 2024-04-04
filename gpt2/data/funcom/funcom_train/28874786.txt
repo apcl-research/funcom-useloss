@@ -1,0 +1,1 @@
+TDAT: public int get int speed ( ) {  <NL> int res = 1 ;  <NL>  <NL> if ( speed . equals ( " 0 . 5x " ) ) res = 0 ;  <NL> if ( speed . equals ( " 2x " ) ) res = 2 ;  <NL> if ( speed . equals ( " 3x " ) ) res = 3 ;  <NL> if ( speed . equals ( " 4x " ) ) res = 4 ;  <NL>  <NL> return res ;  <NL>  }  COM: <s> get the speed of the tune </s>

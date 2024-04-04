@@ -1,0 +1,1 @@
+TDAT: protected void repaint ( long delay ) {  <NL> if ( this . f container ! = null & & this . f bounds ! = null ) {  <NL> this . f container . repaint ( delay ,  <NL> this . f bounds . x , this . f bounds . y , this . f bounds . width , this . f bounds . height ) ;  <NL>  }  <NL>  }  COM: <s> request that this view be repainted </s>

@@ -1,0 +1,1 @@
+TDAT: public void set noise percent ( double value ) {  <NL> if ( ( value > = 0 . 0 ) & & ( value < = 100 . 0 ) )  <NL> m _ noise percent = value ;  <NL> else <NL> throw new illegal argument exception (  <NL>  " noise percent must be in [ 0 , 100 ] ( provided : " + value + " ) ! " ) ;  <NL>  }  COM: <s> sets the noise percentage </s>

@@ -1,0 +1,1 @@
+TDAT: public void set value at ( int i , int j , double element ) throws index out of bounds exception {  <NL> if ( ( i < 0 ) || ( i > = m ) || ( j < 0 ) || ( j > = n ) ) throw new index out of bounds exception ( ) ;  <NL> array [ i ] [ j ] = element ;  <NL>  } / / method set value at ( int , int , double )  COM: <s> sets the value of the element at the given index </s>

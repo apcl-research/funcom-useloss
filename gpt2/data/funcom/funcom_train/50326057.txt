@@ -1,0 +1,1 @@
+TDAT: protected int match tentative ( string systemname ) {  <NL> for ( int i = 0 ; i < n mgrs ( ) ; i + + )  <NL> if ( systemname . starts with ( ( get mgr ( i ) ) . get system prefix ( ) + ( get mgr ( i ) ) . type letter ( ) ) ) {  <NL> return i ;  <NL>  }  <NL> return - 1 ;  <NL>  }  COM: <s> find the index of a matching manager </s>

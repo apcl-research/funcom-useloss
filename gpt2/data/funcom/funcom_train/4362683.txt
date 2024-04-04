@@ -1,0 +1,1 @@
+TDAT: public void set bytes ( byte [ ] b , int off , int len ) {  <NL> byte c . set bytes ( b , off , len ) ;  <NL> type = t _ bytes ;  <NL> has str value = false ;  <NL> has hash code = false ;  <NL> has int value = false ;  <NL> has long value = false ;  <NL> has date value = false ;  <NL>  }  COM: <s> sets the content to the specified subarray of bytes </s>

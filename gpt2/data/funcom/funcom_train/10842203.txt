@@ -1,0 +1,1 @@
+TDAT: private void check scheme ( final string scheme ) {  <NL> if ( scheme = = null || scheme . length ( ) = = 0 ) {  <NL> throw new illegal argument exception ( " scheme required " ) ;  <NL>  }  <NL> if ( scheme . index of ( ' : ' ) ! = - 1 ) {  <NL> throw new illegal argument exception ( " scheme must not contain a colon " ) ;  <NL>  }  <NL>  }  COM: <s> check the scheme </s>

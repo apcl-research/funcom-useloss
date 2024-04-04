@@ -1,0 +1,1 @@
+TDAT: public void add search terms to index ( indexed document index document , map < string , string [ ] > map ) {  <NL> for ( string key : map . key set ( ) ) {  <NL> string [ ] vals = map . get ( key ) ;  <NL> for ( string val : vals ) {  <NL> index document . add ( key , val ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> utility method particularly useful for putting output of </s>

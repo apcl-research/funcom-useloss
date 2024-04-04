@@ -1,0 +1,1 @@
+TDAT: public void create row ( b view parent , int index ) {  <NL> b text text = new b text ( parent , 10 , 4 , parent . width - 34 , parent . height - 4 ) ;  <NL> text . set shadow ( true ) ;  <NL> text . set flags ( rsrc _ halign _ left ) ;  <NL> text . set value ( menu . get ( index ) . to string ( ) ) ;  <NL>  }  COM: <s> builds the menu row by row </s>

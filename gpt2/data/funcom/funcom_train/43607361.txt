@@ -1,0 +1,1 @@
+TDAT: public node visit children ( node visitor v ) {  <NL> type node base type = ( type node ) visit child ( this . base type , v ) ;  <NL> list dims = visit list ( this . dims , v ) ;  <NL> array init init = ( array init ) visit child ( this . init , v ) ;  <NL> return reconstruct ( base type , dims , init ) ;  <NL>  }  COM: <s> visit the children of the expression </s>

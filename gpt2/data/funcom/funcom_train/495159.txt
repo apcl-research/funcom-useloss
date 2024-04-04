@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> if ( context ! = null ) {  <NL> return string . format ( " % s : % s : % s " , label , extension , context ) ;  <NL>  } else if ( extension ! = null ) {  <NL> return string . format ( " % s : % s " , label , extension ) ;  <NL>  }  <NL> return label ;  <NL>  }  COM: <s> returns the string representation of the label which is </s>

@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> return this . get guid ( ) + " # " + this . get type ( ) + " # " + this . get pub date ( ) . to string ( ) + " # " + this . get search context ( ) + " # " + this . get title ( ) + " # " + this . get link ( ) + " # " + arrays . to string ( this . tags ) ;  <NL>  }  COM: <s> form the string representation of the object </s>

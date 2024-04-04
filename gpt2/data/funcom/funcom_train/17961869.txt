@@ -1,0 +1,1 @@
+TDAT: public void status ( final string label , final date start , final date end ) {  <NL> final long elapsed = end . get time ( ) - start . get time ( ) ;  <NL> system . out . println ( label + start . get time ( ) + " - - > " + end . get time ( ) + " = " + elapsed ) ;  <NL>  }  COM: <s> outputs the current status to the console </s>

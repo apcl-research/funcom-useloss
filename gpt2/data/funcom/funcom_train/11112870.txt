@@ -1,0 +1,1 @@
+TDAT: protected void add metadata ( string value ) {  <NL> if ( value ! = null & & value . length ( ) > 0 ) {  <NL> string previous = metadata . get ( name ) ;  <NL> if ( previous ! = null & & previous . length ( ) > 0 ) {  <NL> value = previous + " , " + value ;  <NL>  }  <NL> metadata . set ( name , value ) ;  <NL>  }  <NL>  }  COM: <s> adds the given metadata value </s>

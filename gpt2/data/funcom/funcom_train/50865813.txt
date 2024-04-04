@@ -1,0 +1,1 @@
+TDAT: private int point get center point ( ) {  <NL> int x center = ( int ) math . round ( ( foci1 . geti x ( ) + foci2 . geti x ( ) ) / 2d ) ;  <NL> int y center = ( int ) math . round ( ( foci1 . geti y ( ) + foci2 . geti y ( ) ) / 2d ) ;  <NL> return new int point ( x center , y center ) ;  <NL>  }  COM: <s> gets the center point of the ellipse </s>

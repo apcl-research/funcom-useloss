@@ -1,0 +1,1 @@
+TDAT: private string get lib extension ( ) {  <NL> string op sys = system . get property ( " os . name " ) ;  <NL> if ( op sys . starts with ( " windows " ) )  <NL> return ( " dll " ) ;  <NL> if ( op sys . starts with ( " mac " ) )  <NL> return ( " jnilib " ) ;  <NL> return ( " so " ) ;  <NL>  }  COM: <s> get the library extension to search for </s>

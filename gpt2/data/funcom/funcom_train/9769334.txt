@@ -1,0 +1,1 @@
+TDAT: public string get network string ( ) {  <NL> string ret = this . id + " ( " ;  <NL> for ( int i = 0 ; i < this . cards . length ; i + + ) {  <NL> if ( 0 ! = i ) {  <NL> ret + = " , " ;  <NL>  }  <NL> ret + = this . cards [ i ] . get network string ( ) ;  <NL>  }  <NL> ret + = " ) " ;  <NL> return ret ;  <NL>  }  COM: <s> returns a string representation of the combo </s>

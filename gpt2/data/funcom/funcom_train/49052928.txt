@@ -1,0 +1,1 @@
+TDAT: public query set set ( string key , string value ) throws sql exception {  <NL> has ran ( ) ;  <NL> if ( set set = = null ) {  <NL> set set = " \n set " ;  <NL>  } else {  <NL> set set + = " , " ;  <NL>  }  <NL> set set + = key + " = ? " ;  <NL> set data . add ( value ) ;  <NL> return this ;  <NL>  }  COM: <s> builds the set part of an update or insert </s>

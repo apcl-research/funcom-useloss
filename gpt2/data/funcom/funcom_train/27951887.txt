@@ -1,0 +1,1 @@
+TDAT: public void add configured attribute ( attribute attr ) {  <NL> attributes . add ( attr ) ;  <NL> if ( attr . get elem ns ( ) = = null ) {  <NL> attr . set elem ns ( namespace ) ;  <NL>  }  <NL> if ( attr . get attr ns ( ) = = null ) {  <NL> attr . set attr ns ( attr . get elem ns ( ) ) ;  <NL>  }  <NL>  }  COM: <s> adds another attribute to this content type </s>

@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> string buffer o = new string buffer ( " [ data row ] " ) ;  <NL> for ( iterator i = items . iterator ( ) ; i . has next ( ) ; ) {  <NL> o . append ( " | ' " ) . append ( ( string ) i . next ( ) ) . append ( " ' " ) ;  <NL>  }  <NL> return o . to string ( ) ;  <NL>  }  COM: <s> b for debugging purpose b </s>

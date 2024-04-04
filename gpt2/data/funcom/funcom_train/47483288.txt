@@ -1,0 +1,1 @@
+TDAT: public tag remove ( integer id ) {  <NL> if ( ! tag table . contains key ( id ) ) return null ;  <NL> for ( event e : event manager . get instance ( ) . get all ( ) ) {  <NL> e . remove ( id ) ;  <NL>  }  <NL> tag tag = ( tag ) tag table . remove ( id ) ;  <NL> save ( ) ;  <NL> return tag ;  <NL>  }  COM: <s> remove a tag </s>

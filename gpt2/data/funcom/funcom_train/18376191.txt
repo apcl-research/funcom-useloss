@@ -1,0 +1,1 @@
+TDAT: public void import class ( string class name ) {  <NL> int pos = class name . last index of ( ' . ' ) ;  <NL> string simple name = class name . substring ( pos + 1 ) ;  <NL> try {  <NL> class result = get class ( class name ) ;  <NL> import class ( simple name , result ) ;  <NL>  } catch ( exception e ) { } ;  <NL>  }  COM: <s> method import class </s>

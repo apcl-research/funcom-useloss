@@ -1,0 +1,1 @@
+TDAT: public void opc _ ifeq ( label l ) {  <NL> short instr bci = get length ( ) ;  <NL> emit byte ( opc _ ifeq ) ;  <NL> l . add ( this , instr bci , get length ( ) , get stack ( ) - 1 ) ;  <NL> emit short ( ( short ) - 1 ) ; / / must be patched later <NL>  }  COM: <s> control flow with forward reference bci </s>

@@ -1,0 +1,1 @@
+TDAT: public void remove layer at ( int idx ) {  <NL> for ( int i = idx ; i < layers . length - 1 ; i + + ) {  <NL> layers [ i ] = layers [ i + 1 ] ;  <NL>  }  <NL> layers [ layers . length - 1 ] = null ;  <NL> layers = arrays . copy of ( layers , layers . length - 1 ) ;  <NL>  }  COM: <s> removes layer at specified index position from net </s>

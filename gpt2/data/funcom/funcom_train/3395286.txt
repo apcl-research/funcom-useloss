@@ -1,0 +1,1 @@
+TDAT: public string name ( ) {  <NL> class symbol c = sym . encl class ( ) ;  <NL> string n = c . name . to string ( ) ;  <NL> for ( c = c . owner . encl class ( ) ; c ! = null ; c = c . owner . encl class ( ) ) {  <NL> n = c . name . to string ( ) + " . " + n ;  <NL>  }  <NL> return n ;  <NL>  }  COM: <s> get the name </s>

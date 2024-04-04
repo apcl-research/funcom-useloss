@@ -1,0 +1,1 @@
+TDAT: public scanner use radix ( int radix ) {  <NL> if ( radix < character . min _ radix || radix > character . max _ radix ) {  <NL> throw new illegal argument exception ( messages <NL>  . get string ( " luni . df " , radix ) ) ; / / $ non - nls - 1 $  <NL>  }  <NL> this . integer radix = radix ;  <NL> return this ;  <NL>  }  COM: <s> sets the radix of this </s>

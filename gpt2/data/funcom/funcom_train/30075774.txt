@@ -1,0 +1,1 @@
+TDAT: public model and view contacts handler ( http servlet request request , http servlet response response ) throws servlet exception {  <NL> map model = new hash map ( ) ;  <NL> model . put ( " contacts " , gpir . get contacts ( ) ) ;  <NL> return new model and view ( " contacts view " , " model " , model ) ;  <NL>  }  COM: <s> custom handler for contacts display </s>

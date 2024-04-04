@@ -1,0 +1,1 @@
+TDAT: private void widget clicked slot ( int x , int y ) {  <NL> if ( header = = null ) return ;  <NL> if ( get collapsed ( ) )  <NL> set collapsed ( ! get collapsed ( ) ) ;  <NL> else if ( y < = get border ( ) . get border insets ( this ) . top )  <NL> set collapsed ( ! get collapsed ( ) ) ;  <NL>  }  COM: <s> called from the mouse listener </s>

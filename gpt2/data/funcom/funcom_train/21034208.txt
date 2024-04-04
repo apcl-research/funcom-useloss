@@ -1,0 +1,1 @@
+TDAT: public int get row count ( ) {  <NL> int count = 0 ;  <NL> for ( int i = 0 ; i < data row list . size ( ) ; i + + ) {  <NL> data row data row = ( data row ) data row list . get ( i ) ;  <NL> if ( ! data row . is delete ( ) )  <NL> count + + ;  <NL>  }  <NL> return count ;  <NL>  }  COM: <s> returns active row counts </s>

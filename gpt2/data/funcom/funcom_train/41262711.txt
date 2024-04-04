@@ -1,0 +1,1 @@
+TDAT: private string prepare like condition ( string str ) {  <NL> string result = " % " ;  <NL>  <NL> if ( str ! = null & & ! " " . equals ( str ) ) {  <NL> result + = str . trim ( ) . replace ( ' * ' , ' % ' ) . replace ( " ' " , " ' ' " ) + " % " ;  <NL>  }  <NL>  <NL> return result ;  <NL>  }  COM: <s> prepares string for using in like sql condition </s>

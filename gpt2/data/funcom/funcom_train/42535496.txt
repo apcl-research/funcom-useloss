@@ -1,0 +1,1 @@
+TDAT: public boolean applicable ( list < type use > form , list < type use > act ) {  <NL> return applicable star ( form , act . map ( new list . map < type use , option < type use > > ( ) {  <NL> public option < type use > map ( type use u ) { return option . some ( u ) ; }  <NL>  } ) ) ;  <NL>  }  COM: <s> are the given actual argument types applicable to the formal types </s>

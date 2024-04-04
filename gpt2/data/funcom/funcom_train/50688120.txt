@@ -1,0 +1,1 @@
+TDAT: public boolean b perform task ( servlet task t ) throws web exception {  <NL> if ( t . is action ( " contact " ) ) {  <NL> new contact dlg ( get web session ( ) ) ;  <NL> return true ;  <NL>  }  <NL> if ( t . is action ( " about " ) ) {  <NL> new about wnd ( get web session ( ) ) ;  <NL> return true ;  <NL>  }  <NL> return false ;  <NL>  }  COM: <s> paints this window </s>

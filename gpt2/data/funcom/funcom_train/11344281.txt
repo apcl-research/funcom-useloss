@@ -1,0 +1,1 @@
+TDAT: public list get providers ( ) {  <NL> list list = new array list ( ) ;  <NL> for ( int i = 0 ; i < m _ records . size ( ) ; i + + ) {  <NL> list . add ( ( ( ( record ) m _ records . get ( i ) ) . m _ ref ) . get property ( " instance . name " ) ) ;  <NL>  }  <NL> return list ;  <NL>  }  COM: <s> build the list of imported service provider </s>

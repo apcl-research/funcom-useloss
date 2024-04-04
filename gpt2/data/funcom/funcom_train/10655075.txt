@@ -1,0 +1,1 @@
+TDAT: public void test insert update npe ( ) throws bad location exception {  <NL> doc . insert string ( 0 , " 1 : 0123\n2 : \n3 : abcdefg " , null ) ;  <NL> view . update metrics ( ) ;  <NL> doc . insert string ( 0 , " ^ " , null ) ;  <NL> view . insert update ( event , shape , null ) ;  <NL>  }  COM: <s> tests for code plain view </s>

@@ -1,0 +1,1 @@
+TDAT: public char buffer append ( char sequence csq , int start , int end ) {  <NL> if ( csq = = null ) {  <NL> csq = " null " ; / / $ non - nls - 1 $  <NL>  }  <NL> char sequence cs = csq . sub sequence ( start , end ) ;  <NL> if ( cs . length ( ) > 0 ) {  <NL> return put ( cs . to string ( ) ) ;  <NL>  }  <NL> return this ;  <NL>  }  COM: <s> writes chars of the given </s>

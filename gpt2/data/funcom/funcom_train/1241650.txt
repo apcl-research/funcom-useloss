@@ -1,0 +1,1 @@
+TDAT: private string cleanup cookie ( string cookie ) {  <NL> cookie = cookie . trim ( ) ;  <NL>  / / chop after first ; a la apache soap ( see http utils . java there )  <NL> int index = cookie . index of ( ' ; ' ) ;  <NL> if ( index ! = - 1 ) {  <NL> cookie = cookie . substring ( 0 , index ) ;  <NL>  }  <NL> return cookie ;  <NL>  }  COM: <s> cleanup the cookie value </s>

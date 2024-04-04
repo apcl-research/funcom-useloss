@@ -1,0 +1,1 @@
+TDAT: private boolean condition m0 ( string value , int index ) {  <NL> if ( char at ( value , index + 1 ) = = ' m ' ) {  <NL> return true ;  <NL>  }  <NL> return contains ( value , index - 1 , 3 , " umb " )  <NL>  & & ( ( index + 1 ) = = value . length ( ) - 1 || contains ( value ,  <NL> index + 2 , 2 , " er " ) ) ;  <NL>  }  COM: <s> complex condition 0 for m </s>

@@ -1,0 +1,1 @@
+TDAT: static public void size window on screen ( window w , double ratio ) {  <NL> toolkit tk = w . get toolkit ( ) ;  <NL> dimension scrn = tk . get screen size ( ) ;  <NL> w . set size ( new dimension ( ( int ) ( scrn . width * ratio ) , ( int ) ( scrn . height * ratio ) ) ) ;  <NL>  }  COM: <s> resizes the given window to the given ratio of the screen size </s>

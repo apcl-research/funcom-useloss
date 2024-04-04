@@ -1,0 +1,1 @@
+TDAT: public void normalize ( ) {  <NL> int i ;  <NL> double total = 0 . 0 ;  <NL>  <NL> for ( i = 0 ; i < values . length ; i + + )  <NL> total + = values [ i ] ;  <NL> if ( total > 0 . 0 ) {  <NL> for ( i = 0 ; i < values . length ; i + + )  <NL> values [ i ] = values [ i ] / total ;  <NL>  }  <NL>  }  COM: <s> normalize a function in place </s>

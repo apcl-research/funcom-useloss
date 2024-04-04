@@ -1,0 +1,1 @@
+TDAT: private void fill review file table ( ) {  <NL> for ( int i = 0 ; i < this . review i files . length ; i + + ) {  <NL> table item item = new table item ( this . review file table , swt . none ) ;  <NL> item . set text ( review i files [ i ] . get project relative path ( ) . to string ( ) ) ;  <NL>  }  <NL>  }  COM: <s> fills review file table with review id files </s>

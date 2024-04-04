@@ -1,0 +1,1 @@
+TDAT: public int get days late ( ) {  <NL> try {  <NL> if ( days late = = 0 ) {  <NL> days late = ( ( fee bo ) fee dao . get instance ( ) . read ( this . get id ( ) ) ) . get rental ( ) . calc days overdue ( ) ;  <NL>  }  <NL>  } catch ( data exception e ) {  <NL> e . print stack trace ( ) ;  <NL>  }  <NL> return days late ;  <NL>  }  COM: <s> gets the number of days late </s>

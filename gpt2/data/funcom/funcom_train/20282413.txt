@@ -1,0 +1,1 @@
+TDAT: public void test simple function ( ) {  <NL> context cx = context . enter ( ) ;  <NL> try {  <NL> object result = cx . evaluate string ( global , " f ( 7 ) + 1 " ,  <NL>  " test source " , 1 , null ) ;  <NL> assert equals ( 15 . 0 , result ) ;  <NL>  } finally {  <NL> context . exit ( ) ;  <NL>  }  <NL>  }  COM: <s> simple test call f defined above </s>

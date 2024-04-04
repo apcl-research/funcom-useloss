@@ -1,0 +1,1 @@
+TDAT: public list get values ( object col id ) {  <NL> int row count = this . get row count ( ) ;  <NL> list return value = new array list ( row count ) ;  <NL> for ( int i = 0 ; i < row count ; i + + ) {  <NL> return value . add ( get value ( i , col id ) ) ;  <NL>  }  <NL> return return value ;  <NL>  }  COM: <s> gets the values of the given col id from all rows </s>

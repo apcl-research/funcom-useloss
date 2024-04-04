@@ -1,0 +1,1 @@
+TDAT: public void reset ( ) {  <NL> this . m _ iterate = ( hsb color ) this . m _ start color . clone ( ) ;  <NL>  / / also reset the stepping model ! ! ! !  <NL> this . m _ step model = ( color iterator . i stepping model ) this . m _ reset model . clone ( ) ;  <NL> this . m _ hasnext = true ;  <NL> this . m _ first time = true ;  <NL>  }  COM: <s> resets the color iterator </s>

@@ -1,0 +1,1 @@
+TDAT: public super column get super column from row ( final string row key , final string column family , final string super col name , final consistency level c level ) throws exception {  <NL> return get super column from row ( row key , column family , to bytes ( super col name ) , c level ) ;  <NL>  }  COM: <s> retrieve a super column from a row </s>

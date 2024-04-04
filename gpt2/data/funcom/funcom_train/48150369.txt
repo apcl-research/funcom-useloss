@@ -1,0 +1,1 @@
+TDAT: public double get cdf ( double x ) {  <NL> double u = degrees / ( degrees + x * x ) ;  <NL> if ( x > 0 ) return 1 - 0 . 5 * beta cdf ( u , 0 . 5 * degrees , 0 . 5 ) ;  <NL> else return 0 . 5 * beta cdf ( u , 0 . 5 * degrees , 0 . 5 ) ;  <NL>  }  COM: <s> this method computes the cumulative distribution function in terms of the </s>

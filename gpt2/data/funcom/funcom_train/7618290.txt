@@ -1,0 +1,1 @@
+TDAT: private void set bounds fields ( int x , int y , int w , int h , int b mask ) {  <NL> if ( ( b mask & native window . bounds _ nosize ) = = 0 ) {  <NL> this . w = w ;  <NL> this . h = h ;  <NL>  }  <NL> if ( ( b mask & native window . bounds _ nomove ) = = 0 ) {  <NL> this . x = x ;  <NL> this . y = y ;  <NL>  }  <NL>  }  COM: <s> sets the bounds fields </s>

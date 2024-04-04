@@ -1,0 +1,1 @@
+TDAT: public string cat ( ) {  <NL> string buffer s = new string buffer ( ) ;  <NL> for ( int i = 0 ; i < i base ; i + + )  <NL> if ( i cnt [ i ] > 0 ) {  <NL> s . append ( ( char ) ( ' a ' + i ) ) ;  <NL> s . append ( i cnt [ i ] ) ;  <NL>  }  <NL> return s . to string ( ) ;  <NL>  }  COM: <s> category of a sequence i </s>

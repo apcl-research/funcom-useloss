@@ -1,0 +1,1 @@
+TDAT: public void test fill rectangle ( ) {  <NL> mock g2d . expects ( once ( ) ) . method ( " set color " ) . with ( eq ( color . white ) ) ;  <NL> mock g2d . expects ( once ( ) ) . method ( " fill " ) ;  <NL> drawing context . fill rectangle ( 0 , 1 , 100 , 101 , color . white ) ;  <NL>  }  COM: <s> tests the fill rectangle method </s>

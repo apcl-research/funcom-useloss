@@ -1,0 +1,1 @@
+TDAT: public font metrics get font metrics ( font f ) {  <NL> return new font metrics ( f ) {  <NL> public int char width ( int ch ) { return 6 ; }  <NL> public int char width ( char ch ) { return 6 ; }  <NL> public int chars width ( char [ ] ch , int st , int len ) { return 6 + ( len - 1 ) * 7 ; }  <NL>  } ;  <NL>  }  COM: <s> gets the font metrics for the specified font </s>

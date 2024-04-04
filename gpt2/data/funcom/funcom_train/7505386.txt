@@ -1,0 +1,1 @@
+TDAT: public void test get dao from map ( ) {  <NL> map dao map = ( map ) get application context ( ) . get bean ( " dao map " ) ;  <NL> assert not null ( dao map ) ;  <NL> object dao = dao map . get ( " entity tc dao " ) ;  <NL> assert not null ( dao ) ;  <NL> assert true ( dao utils . is dao ( dao ) ) ;  <NL>  }  COM: <s> test the retrieval of a dao from the dao map </s>

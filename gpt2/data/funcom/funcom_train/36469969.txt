@@ -1,0 +1,1 @@
+TDAT: public void pen held ( point p ) {  <NL>  / / course log app form . dbg l . add to log ( " \n pen held ( " + p . x + " , " + p . y + " ) " ) ;  <NL> not pen held = false ;  <NL>  / / super . pen held ( p ) ;  <NL> po base . set ( p . x , p . y ) ;  <NL> action on pen held ( po base ) ;  <NL>  }  COM: <s> when pen is pressed on the image the image moves with it </s>

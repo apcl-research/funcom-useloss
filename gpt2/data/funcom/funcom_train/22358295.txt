@@ -1,0 +1,1 @@
+TDAT: public string to debug string ( ) {  <NL> return " ship [ " + " shore id = " + shore id + " , " + " size = " + size + " , " + " damage ration = "  <NL>  + damage ratio + " , " + " deprecated load = " + deprecated load + " , " + " deprecated capacity = "  <NL>  + deprecated capacity + " ] " ;  <NL>  }  COM: <s> this is a helper function for showing inner object state </s>

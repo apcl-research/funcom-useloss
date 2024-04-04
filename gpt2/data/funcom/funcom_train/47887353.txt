@@ -1,0 +1,1 @@
+TDAT: public void refresh light level ( integer value , string fvalue ) {  <NL> this . prog light level . set value ( value ) ;  <NL> this . lbl light level . set text ( string . format ( " % . 2f " , / / $ non - nls - 1 $  <NL> float . parse float ( fvalue ) ) + " % " ) ; / / $ non - nls - 1 $  <NL>  }  COM: <s> refresh refresh the light level </s>

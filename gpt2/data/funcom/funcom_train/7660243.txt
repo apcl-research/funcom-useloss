@@ -1,0 +1,1 @@
+TDAT: public void test fair empty full ( ) {  <NL> synchronous queue q = new synchronous queue ( true ) ;  <NL> assert true ( q . is empty ( ) ) ;  <NL> assert equals ( 0 , q . size ( ) ) ;  <NL> assert equals ( 0 , q . remaining capacity ( ) ) ;  <NL> assert false ( q . offer ( zero ) ) ;  <NL>  }  COM: <s> a fair synchronous queue is both empty and full </s>

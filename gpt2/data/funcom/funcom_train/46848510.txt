@@ -1,0 +1,1 @@
+TDAT: public void set node text ( string text ) {  <NL> variant var text = new variant ( text ) ;  <NL> if ( this . get node type ( ) = = node . text _ node ) {  <NL> ole utils . set property ( this . get dom node ( ) , " node value " , var text ) ;  <NL>  }  <NL> var text . dispose ( ) ;  <NL>  }  COM: <s> if this node is of type node </s>

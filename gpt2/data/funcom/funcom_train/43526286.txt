@@ -1,0 +1,1 @@
+TDAT: public double word prob ( string word ) {  <NL> value < state > alpha = initial ( 1 . 0 ) ;  <NL> for ( int t = 0 ; t < word . length ( ) ; + + t ) {  <NL> alpha = forward ( alpha , word . char at ( t ) ) ;  <NL>  }  <NL> return alpha . get value ( i ) * i . pr restart ( eow ) ;  <NL>  }  COM: <s> the probability that the hmm generates a word </s>

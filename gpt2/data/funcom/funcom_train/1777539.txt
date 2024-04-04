@@ -1,0 +1,1 @@
+TDAT: protected void load sinks ( ) {  <NL> list . add sink ( info . init ( ) ) ;  <NL> list . add sink ( widgets . init ( images ) ) ;  <NL> list . add sink ( panels . init ( images ) ) ;  <NL> list . add sink ( lists . init ( images ) ) ;  <NL> list . add sink ( text . init ( ) ) ;  <NL> list . add sink ( popups . init ( ) ) ;  <NL>  }  COM: <s> adds all sinks to the list </s>

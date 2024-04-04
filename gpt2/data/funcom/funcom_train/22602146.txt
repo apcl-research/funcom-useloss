@@ -1,0 +1,1 @@
+TDAT: protected void set caret position ( int pos , int length ) {  <NL> if ( ( pos > - 1 ) & & ( ( pos + length ) < editor pane . get text ( ) . length ( ) ) ) {  <NL> editor pane . set caret position ( pos ) ;  <NL> editor pane . select ( pos , pos + length ) ;  <NL>  }  <NL>  }  COM: <s> moves the caret in the editor area to pos selecting length </s>

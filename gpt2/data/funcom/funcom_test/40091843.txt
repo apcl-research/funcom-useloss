@@ -1,0 +1,1 @@
+TDAT: private void start result summary table ( string style ) {  <NL> table start ( style ) ;  <NL> m _ out . println ( " < tr > < th > class < / th > "  <NL>  + " < th > method < / th > < th > # of < br / > scenarios < / th > < th > time < br / > ( msecs ) < / th > < / tr > " ) ;  <NL> m _ row = 0 ;  <NL>  }  COM: <s> starts and defines columns result summary table </s>

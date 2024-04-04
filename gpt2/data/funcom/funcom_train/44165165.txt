@@ -1,0 +1,1 @@
+TDAT: public image get river mouth image ( direction direction , int magnitude , int x , int y ) {  <NL> string key = " model . tile . delta _ " + direction + ( magnitude = = 1 ? " _ small " : " _ large " ) ;  <NL> return resource manager . get image ( key , scaling factor ) ;  <NL>  }  COM: <s> returns the river mouth terrain image for the direction and magnitude </s>

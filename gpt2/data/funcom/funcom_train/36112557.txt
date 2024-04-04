@@ -1,0 +1,1 @@
+TDAT: protected void rotate previous steps ( ) {  <NL> final double [ ] rolled = previous f [ previous t . length - 1 ] ;  <NL> for ( int k = previous f . length - 1 ; k > 0 ; - - k ) {  <NL> previous t [ k ] = previous t [ k - 1 ] ;  <NL> previous f [ k ] = previous f [ k - 1 ] ;  <NL>  }  <NL> previous f [ 0 ] = rolled ;  <NL>  }  COM: <s> rotate the previous steps arrays </s>

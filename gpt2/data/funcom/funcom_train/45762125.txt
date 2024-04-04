@@ -1,0 +1,1 @@
+TDAT: public void initialize ( object [ ] parm1 ) throws com . sun . star . uno . exception {  <NL> if ( ! ( parm1 [ 0 ] instanceof object [ ] ) ) return ;  <NL> for ( int i = 0 ; i < parm1 . length ; i + + ) {  <NL> process action for xml checker ( ( object [ ] ) parm1 [ i ] ) ;  <NL>  }  <NL>  }  COM: <s> initialize this class with rules </s>

@@ -1,0 +1,1 @@
+TDAT: public void add ( real2 p ) {  <NL> if ( p = = null )  <NL> return ;  <NL> if ( xrange = = null )  <NL> xrange = new real range ( ) ;  <NL> if ( yrange = = null )  <NL> yrange = new real range ( ) ;  <NL> xrange . add ( p . get x ( ) ) ;  <NL> yrange . add ( p . get y ( ) ) ;  <NL>  }  COM: <s> add a real2 to a range </s>

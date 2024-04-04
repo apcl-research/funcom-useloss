@@ -1,0 +1,1 @@
+TDAT: public object load ( object file name ) {  <NL> string name = file name . to string ( ) ;  <NL> input port iport = scheme . open ( name ) ;  <NL> if ( iport = = null ) return e . warn ( " ( load ) can ' t open \ " " + file name + " \ " " ) ;  <NL> else return load ( iport ) ;  <NL>  }  COM: <s> eval all the expressions in a file </s>

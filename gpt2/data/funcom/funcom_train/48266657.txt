@@ -1,0 +1,1 @@
+TDAT: public void unignore ( string the nickname ) {  <NL> send command ( " silence " + ( ( the nickname . char at ( 0 ) = = ' - ' ) ? " " : " - " ) + the nickname ) ;  <NL>  _ my ignore list . remove ( ( the nickname . char at ( 0 ) = = ' - ' ) ? the nickname . substring ( 1 ) : the nickname ) ;  <NL>  }  COM: <s> remove a previously added user from the ignorelist </s>

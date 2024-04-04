@@ -1,0 +1,1 @@
+TDAT: public string format ( string key , object . . . arguments ) {  <NL>  / / return string . format ( resource . get locale ( ) , get string ( key ) , arguments ) ;  <NL> return new formatter ( resource . get locale ( ) ) . format ( get string ( key ) , arguments ) . to string ( ) ;  <NL>  }  COM: <s> returns a formatted string using java </s>

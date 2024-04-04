@@ -1,0 +1,1 @@
+TDAT: public component get tree cell renderer component ( j tree p0 , object p1 , boolean p2 , boolean p3 , boolean p4 , int p5 , boolean p6 ) {  <NL> return delegate . get tree cell renderer component ( p0 , p1 , p2 , p3 , p4 , p5 , p6 ) ;  <NL>  }  COM: <s> gets the tree cell renderer component attribute of the </s>

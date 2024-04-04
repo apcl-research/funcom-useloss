@@ -1,0 +1,1 @@
+TDAT: / * public int get age ( date date ) {  <NL> int age in years = 0 ;  <NL>  <NL> date dob = get date of birth ( ) ;  <NL> if ( date ! = null & & dob ! = null & & dob . before ( date ) ) {  <NL> age in years = date time utils . get years ( dob , date ) ;  <NL>  }  <NL>  <NL> return age in years ;  <NL>  } * /  COM: <s> returns the persons age on the date specified </s>

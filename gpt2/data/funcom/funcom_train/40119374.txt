@@ -1,0 +1,1 @@
+TDAT: public int compare to ( object a ) {  <NL> if ( this . get value ( ) = = ( ( leg ratio ) a ) . get value ( ) ) {  <NL> return 0 ;  <NL>  } else if ( this . get value ( ) < ( ( leg ratio ) a ) . get value ( ) ) {  <NL> return - 1 ;  <NL>  } else {  <NL> return 1 ;  <NL>  }  <NL>  }  COM: <s> compares the code get value code results of the object </s>

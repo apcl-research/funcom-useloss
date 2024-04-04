@@ -1,0 +1,1 @@
+TDAT: public int get wilderness level ( ) {  <NL> return rs interface . get interface ( 381 ) . get child ( 1 ) . is valid ( ) ? integer . parse int ( rs interface . get interface ( 381 ) . get child ( 1 ) . get text ( ) . replace ( " level : " , " " ) . trim ( ) ) : 0 ;  <NL>  }  COM: <s> gets the current wilderness level </s>

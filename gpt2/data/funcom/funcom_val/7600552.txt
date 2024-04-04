@@ -1,0 +1,1 @@
+TDAT: private void close ( ) {  <NL> try {  <NL> if ( socket . is connected ( ) ) {  <NL> out . close ( ) ;  <NL> in . close ( ) ;  <NL> socket . close ( ) ;  <NL>  }  <NL> out = null ;  <NL> in = null ;  <NL> socket = null ;  <NL>  } catch ( io exception e ) {  <NL> system . err . println ( " error closing connection " ) ;  <NL>  }  <NL>  }  COM: <s> close stream and socket </s>

@@ -1,0 +1,1 @@
+TDAT: public void set ( int index , int value ) {  <NL> if ( index > = size ) {  <NL> if ( next ! = null ) {  <NL> next . set ( index - size , value ) ;  <NL>  } else {  <NL> throw new index out of bounds exception ( " at index " + index ) ;  <NL>  }  <NL>  } else {  <NL> data [ start + index ] = ( byte ) value ;  <NL>  }  <NL>  }  COM: <s> sets a byte in the buffer </s>

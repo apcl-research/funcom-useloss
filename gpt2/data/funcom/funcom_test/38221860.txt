@@ -1,0 +1,1 @@
+TDAT: public void draw map ( graphics g ) {  <NL> int x = x inset ;  <NL> int y = y inset ;  <NL>  <NL> for ( int r = 0 ; r < y cell num ; r + + ) {  <NL> for ( int c = 0 ; c < x cell num ; c + + ) {  <NL> draw box ( g , cells [ r ] [ c ] , x , y ) ;  <NL> x + = cell side ;  <NL>  }  <NL> y + = cell side ;  <NL> x = x inset ;  <NL>  }  <NL>  }  COM: <s> draws the game map </s>

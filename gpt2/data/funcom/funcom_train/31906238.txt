@@ -1,0 +1,1 @@
+TDAT: public void set kernel ( kernel k ) {  <NL> touch ( ) ;  <NL> this . kernel = k ;  <NL> kernel has neg values = false ;  <NL> float [ ] kv = k . get kernel data ( null ) ;  <NL> for ( int i = 0 ; i < kv . length ; i + + )  <NL> if ( kv [ i ] < 0 ) {  <NL> kernel has neg values = true ;  <NL> break ;  <NL>  }  <NL>  }  COM: <s> sets the convolution kernel to use </s>

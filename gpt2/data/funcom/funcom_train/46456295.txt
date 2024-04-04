@@ -1,0 +1,1 @@
+TDAT: public void set all ( byte val [ ] [ ] ) {  <NL> if ( lattice . get nx ( ) ! = val . length||lattice . get ny ( ) ! = val [ 0 ] . length ) {  <NL> lattice . resize lattice ( val . length , val [ 0 ] . length ) ;  <NL>  }  <NL> lattice . set block ( 0 , 0 , val ) ;  <NL> drawing panel . invalidate image ( ) ;  <NL>  }  COM: <s> sets a block of data to new values </s>

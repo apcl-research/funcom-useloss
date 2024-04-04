@@ -1,0 +1,1 @@
+TDAT: @ override public operator id get id ( identifier ident , operator type type ) throws java . lang . exception {  <NL>  <NL> int ns = get namespace id ( ident . get name space ( ) ) ;  <NL> int id = get symbol id ( ns , ident . get name ( ) , type ) ;  <NL>  <NL> return operator id . create ( id ) ;  <NL>  }  COM: <s> get operator id from identifier type </s>

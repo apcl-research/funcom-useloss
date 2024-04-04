@@ -1,0 +1,1 @@
+TDAT: private void put field helper ( instruction s , basic block b ) {  <NL> put field pf = ( put field ) s ;  <NL> field operand loc op = pf . get field ( ) ;  <NL> field field = loc op . get field ( ) ;  <NL> register use ( s , field ) ;  <NL> register def ( s , b , field ) ;  <NL>  }  COM: <s> record the effects of a putfield instruction on the heap array </s>

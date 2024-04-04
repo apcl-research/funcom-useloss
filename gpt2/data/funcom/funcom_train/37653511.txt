@@ -1,0 +1,1 @@
+TDAT: private void write ( string filename , string builder buf ) throws io exception {  <NL> buffered writer bw = new buffered writer ( new file writer ( new file ( base dir + file _ separator + filename ) ) ) ;  <NL> bw . write ( buf . to string ( ) , 0 , buf . length ( ) ) ;  <NL> io util . close quietly ( bw ) ;  <NL>  }  COM: <s> writes the buffer to file </s>

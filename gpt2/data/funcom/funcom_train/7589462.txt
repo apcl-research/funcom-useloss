@@ -1,0 +1,1 @@
+TDAT: public double eval h ( double f , double g ) {  <NL> double h = 0 . 0 ;  <NL> h = 1 . 0 - java . lang . math . sqrt ( f / g )  <NL>  - ( f / g ) * java . lang . math . sin ( 10 . 0 * java . lang . math . pi * f ) ;  <NL> return h ;  <NL>  } / / eval h  COM: <s> returns the value of the zdt3 function h </s>

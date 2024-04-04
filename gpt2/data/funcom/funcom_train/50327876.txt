@@ -1,0 +1,1 @@
+TDAT: public int sensor addr ( ) {  <NL> int sw1 = get element ( 1 ) ;  <NL> int sw2 = get element ( 2 ) ;  <NL> int as = sw2 & 0x20 ; / / should be a loco net constant ?  <NL> int high = sw2 & 0x0f ;  <NL> int low = sw1 & 0x7f ;  <NL> return high * 256 + low * 2 + ( as ! = 0 ? 1 : 0 ) ;  <NL>  }  COM: <s> sensor format 0 n address </s>

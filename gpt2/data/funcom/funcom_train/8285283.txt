@@ -1,0 +1,1 @@
+TDAT: public void move teach to deleted ( item class id , item user id ) {  <NL> del teaches table . save ( new item [ ] { class id , user id } , new item [ ] { class id , user id } , dbsql accessor . and ) ;  <NL> teaches table . delete ( new item [ ] { class id , user id } , dbsql accessor . and ) ;  <NL>  }  COM: <s> moves a teaches relationship to the deleted table </s>

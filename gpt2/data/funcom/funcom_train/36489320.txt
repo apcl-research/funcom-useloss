@@ -1,0 +1,1 @@
+TDAT: public void timer interrupt ( ) {  <NL> set < k thread > threads = waiters . key set ( ) ;  <NL> for ( k thread k : threads ) {  <NL> if ( waiters . get ( k ) < = machine . timer ( ) . get time ( ) ) {  <NL> waiters . remove ( k ) ;  <NL> k . ready ( ) ;  <NL>  }  <NL>  }  <NL> k thread . current thread ( ) . yield ( ) ;  <NL>  }  COM: <s> the timer interrupt handler </s>

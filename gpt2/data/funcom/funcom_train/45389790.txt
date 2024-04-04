@@ -1,0 +1,1 @@
+TDAT: public void close ( input stream is ) {  <NL> try {  <NL> if ( is ! = null ) {  <NL> is . close ( ) ;  <NL> is = null ;  <NL>  }  <NL>  } catch ( exception ex ) {  <NL>  / / # if debug = = 1 <NL> logger . print ( " connect " , logger . error , " connect : : close : " + ex . to string ( ) , ex ) ;  <NL>  / / # endif <NL>  }  <NL>  }  COM: <s> method close description </s>

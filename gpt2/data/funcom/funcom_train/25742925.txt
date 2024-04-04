@@ -1,0 +1,1 @@
+TDAT: public query prep script ( file script , sql name . . . fixed ) throws sql exception , io exception {  <NL> string sql = read script ( script ) ;  <NL> for ( sql name sn : fixed )  <NL> sql = sql . replace ( " @ " + sn . name , sn . value ) ;  <NL>  <NL> return prep statement ( sql . to string ( ) ) ;  <NL>  }  COM: <s> reads a sql script from file </s>

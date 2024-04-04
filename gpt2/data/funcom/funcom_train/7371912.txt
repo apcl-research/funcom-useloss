@@ -1,0 +1,1 @@
+TDAT: protected void join ( string sep , string [ ] strings ) {  <NL> if ( strings = = null ) {  <NL> return ;  <NL>  }  <NL>  <NL> for ( int i = 0 ; i < strings . length ; + + i ) {  <NL> if ( i ! = 0 ) {  <NL> ps . print ( sep ) ;  <NL>  }  <NL> ps . print ( strings [ i ] ) ;  <NL>  }  <NL>  }  COM: <s> helper function to print a string array </s>

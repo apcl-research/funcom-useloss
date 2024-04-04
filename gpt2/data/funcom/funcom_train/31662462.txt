@@ -1,0 +1,1 @@
+TDAT: public void set pattern table ( pattern [ ] new pattern table ) {  <NL> if ( new pattern table ! = pattern table ) {  <NL> pattern table = new pattern table ;  <NL> if ( pattern table ! = null )  <NL> for ( int i = 0 ; i < pattern table . length ; i + + )  <NL> pattern table [ i ] . set spectrum ( this ) ;  <NL>  }  <NL>  }  COM: <s> sets a new pattern table </s>

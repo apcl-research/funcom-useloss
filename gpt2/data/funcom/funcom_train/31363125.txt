@@ -1,0 +1,1 @@
+TDAT: public void test s distance ( ) {  <NL> zz . x = 2 ;  <NL> zz . y = 5 ;  <NL> assert equals ( " * s distance nulle * " , 0 , zs . get distance ( zs ) ) ;  <NL> assert equals ( " * s distance * " , 50 , zs . get distance ( zz ) ) ;  <NL>  }  COM: <s> test the screen distance </s>

@@ -1,0 +1,1 @@
+TDAT: static public boolean is left ( rectangle f , rectangle t ) {  <NL> int d _ x = midx ( f ) - midx ( t ) ;  <NL> int d _ y = midy ( f ) - midy ( t ) ;  <NL> return ( d _ x < 0 & & math . abs ( d _ x ) > math . abs ( d _ y ) ) ;  <NL>  }  COM: <s> return code true code if the first rectangle is on the left </s>

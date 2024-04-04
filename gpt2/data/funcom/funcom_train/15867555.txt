@@ -1,0 +1,1 @@
+TDAT: public string to string format2 ( ) {  <NL> string s min = " 0 " ;  <NL> if ( min ! = default value . get min ( ) ) {  <NL> s min = min + " " ;  <NL>  }  <NL> string s max = " * " ;  <NL> if ( max ! = default value . get max ( ) ) {  <NL> s max = max + " " ;  <NL>  }  <NL> return s min + " . . " + s max ;  <NL>  }  COM: <s> returns cardinality in format min </s>

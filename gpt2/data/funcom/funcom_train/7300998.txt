@@ -1,0 +1,1 @@
+TDAT: public void test is metaphone equal white ( ) {  <NL> this . assert is metaphone equal (  <NL>  " white " ,  <NL> new string [ ] { " wade " , " wait " , " waite " , " wat " , " whit " , " wiatt " , " wit " , " wittie " , " witty " , " wood " , " woodie " , " woody " } ) ;  <NL>  }  COM: <s> initial wh case </s>

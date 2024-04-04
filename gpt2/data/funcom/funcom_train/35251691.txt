@@ -1,0 +1,1 @@
+TDAT: public void add file ( file file , byte [ ] bytes ) throws io exception {  <NL> jar entry jar entry = new jar entry ( file . get path ( ) ) ;  <NL> jar entry . set time ( file . last modified ( ) ) ;  <NL> jar output stream . put next entry ( jar entry ) ;  <NL> jar output stream . write ( bytes ) ;  <NL>  }  COM: <s> adds a file to jar </s>

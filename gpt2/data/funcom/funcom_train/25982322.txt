@@ -1,0 +1,1 @@
+TDAT: public void put all ( map < ? extends string , ? extends object > to merge ) {  <NL> for ( map . entry < ? extends string , ? extends object > entry : to merge . entry set ( ) ) {  <NL> string key = entry . get key ( ) ;  <NL> check key ( key ) ;  <NL> put ( key , entry . get value ( ) ) ;  <NL>  }  <NL>  }  COM: <s> code put all code is implemented using code map </s>

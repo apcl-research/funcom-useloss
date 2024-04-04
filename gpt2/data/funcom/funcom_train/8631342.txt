@@ -1,0 +1,1 @@
+TDAT: public long get long ( int column index ) throws sql exception {  <NL> object o = get ( column index ) ;  <NL> if ( o ! = null & & ! ( o instanceof number ) ) {  <NL> o = long . decode ( o . to string ( ) ) ;  <NL>  }  <NL> return o = = null ? 0 : ( ( number ) o ) . long value ( ) ;  <NL>  }  COM: <s> returns the value as a long </s>

@@ -1,0 +1,1 @@
+TDAT: public void test clear ( ) {  <NL> table . put ( ip1 , mac1 , 0 ) ;  <NL> table . put ( ip2 , mac1 , 1 ) ;  <NL> table . put ( ip3 , mac1 , 2 ) ;  <NL> table . clear ( ) ;  <NL> assert equals ( new integer ( table . size ( ) ) , new integer ( 0 ) ) ;  <NL>  }  COM: <s> tests if the clear method of the addresstable empties the table size 0 </s>

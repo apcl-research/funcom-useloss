@@ -1,0 +1,1 @@
+TDAT: private void append content ( portlet link link , string buffer sb ) {  <NL> sb . append ( " < li > " + build content line ( link . get title ( ) , link . get url ( ) , link . get description ( ) , link . get target ( ) , link . get language ( ) ) + " < / li > " ) ;  <NL>  }  COM: <s> add one link to the portlet </s>

@@ -1,0 +1,1 @@
+TDAT: public void test get bounds ( ) {  <NL> final default jaxo vertex v = new default jaxo vertex ( ) ;  <NL> v . set point ( jaxo object . handle . p1 , new point ( 0 , 1 ) ) ;  <NL> assert equals ( new rectangle ( 0 , 1 , 0 , 0 ) , v . get bounds ( ) ) ;  <NL>  }  COM: <s> test of get bounds method of class default jaxo vertex </s>

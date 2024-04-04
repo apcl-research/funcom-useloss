@@ -1,0 +1,1 @@
+TDAT: private void file locator init ( ) {  <NL> logger . entering ( get class ( ) . get name ( ) , " file locator init " ) ;  <NL> assert file locator = = null : " file locator already initialized . " ;  <NL> file locator = new file locator ( ) ;  <NL> logger . exiting ( get class ( ) . get name ( ) , " file locator init " ) ;  <NL>  }  COM: <s> initializes the file locator </s>

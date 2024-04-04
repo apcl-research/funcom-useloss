@@ -1,0 +1,1 @@
+TDAT: public void add header ( string name , string value ) {  <NL> list < string > values = get header list ( name ) ;  <NL> if ( values = = null ) {  <NL> values = new array list < string > ( ) ;  <NL>  }  <NL> values . add ( value ) ;  <NL> header map . put ( name . to lower case ( ) , values ) ;  <NL>  }  COM: <s> adds the header </s>

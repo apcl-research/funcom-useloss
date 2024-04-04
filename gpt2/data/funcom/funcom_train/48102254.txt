@@ -1,0 +1,1 @@
+TDAT: private string read line ( ) throws io exception {  <NL>  <NL> final string buffer sb = new string buffer ( ) ;  <NL> for ( int c = is . read ( ) ; c > = 0 & & c ! = ' \n ' ; c = is . read ( ) ) {  <NL> sb . append ( ( char ) c ) ;  <NL>  }  <NL> return sb . to string ( ) ;  <NL>  }  COM: <s> read single line from input stream </s>

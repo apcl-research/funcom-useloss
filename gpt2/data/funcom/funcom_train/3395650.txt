@@ -1,0 +1,1 @@
+TDAT: public method doc impl find method ( string method name , string [ ] param types ) {  <NL>  / / use hash table ' searched ' to avoid searching same class twice .  <NL>  / / # # # it is not clear how this could happen .  <NL> return search method ( method name , param types , new hash set < class doc impl > ( ) ) ;  <NL>  }  COM: <s> find a method in this class scope </s>

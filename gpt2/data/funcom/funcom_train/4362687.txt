@@ -1,0 +1,1 @@
+TDAT: public void set chars ( char [ ] c , int off , int len ) {  <NL> char c . set chars ( c , off , len ) ;  <NL> type = t _ chars ;  <NL> has str value = false ;  <NL> has hash code = false ;  <NL> has int value = false ;  <NL> has long value = false ;  <NL> has date value = false ;  <NL>  }  COM: <s> sets the content to be a char </s>

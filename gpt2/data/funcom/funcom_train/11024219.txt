@@ -1,0 +1,1 @@
+TDAT: public void test execute with mapped property ( ) {  <NL> test bean test bean = new test bean ( ) ;  <NL> new bean property value change closure ( " mapped property ( fred ) " , " barney " ) . execute ( test bean ) ;  <NL> assert equals ( " barney " , test bean . get mapped property ( " fred " ) ) ;  <NL>  }  COM: <s> test execute with mapped property </s>

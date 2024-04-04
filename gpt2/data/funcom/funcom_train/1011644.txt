@@ -1,0 +1,1 @@
+TDAT: public void mapgrid1f ( int nu , float u1 , float u2 ) {  <NL> if ( output _ triangles ) {  <NL>  / / system . out . println ( " todo curveevaluator . mapgrid1f " ) ;  <NL>  } else <NL> gl . gl map grid1f ( nu , u1 , u2 ) ;  <NL>  / / / / system . out . println ( " upravit nu " ) ;  <NL>  / / gl . gl map grid1f ( 50 , u1 , u2 ) ;  <NL>  }  COM: <s> calls gl map grid1f </s>

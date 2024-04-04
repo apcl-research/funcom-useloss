@@ -1,0 +1,1 @@
+TDAT: public long skip ( long n ) {  <NL> if ( this . input = = null ) throw new illegal state exception ( " closed " ) ;  <NL> try {  <NL> return input . skip ( n ) ;  <NL>  } catch ( io exception e ) {  <NL> throw new dav exception ( 403 , " can ' t skip over " , e , this . resource ) ;  <NL>  }  <NL>  }  COM: <s> p skip a specified amount of data reading from this </s>

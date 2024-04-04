@@ -1,0 +1,1 @@
+TDAT: public edge create edge ( string name , node v , node w ) {  <NL> edge new edge =  <NL> new edge ( name , this , v , v . last out edge ( ) , w , w . last in edge ( ) , after , after ) ;  <NL> edges . add ( new edge ) ;  <NL> return new edge ;  <NL>  }  COM: <s> creates a new edge in this graph </s>

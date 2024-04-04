@@ -1,0 +1,1 @@
+TDAT: public void save ( string filename , bdd var ) throws io exception {  <NL> buffered writer is = null ;  <NL> try {  <NL> is = new buffered writer ( new file writer ( filename ) ) ;  <NL> save ( is , var ) ;  <NL>  } finally {  <NL> if ( is ! = null ) try { is . close ( ) ; } catch ( io exception _ ) { }  <NL>  }  <NL>  }  COM: <s> p saves a bdd to a file </s>

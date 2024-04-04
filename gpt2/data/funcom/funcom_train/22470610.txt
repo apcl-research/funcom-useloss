@@ -1,0 +1,1 @@
+TDAT: public void save ( i request cycle cycle ) {  <NL> get mc service ( ) . set playlist properties ( get playlist ( ) , get playlist name ( ) , get playlist releasedate ( ) ) ;  <NL> get mc service ( ) . merge playlist ( get playlist ( ) , get user ( ) , get merge playlist bean list ( ) ) ;  <NL>  }  COM: <s> save the changed playlist properties release date playlist name </s>

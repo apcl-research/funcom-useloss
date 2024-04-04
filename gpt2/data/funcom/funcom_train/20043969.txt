@@ -1,0 +1,1 @@
+TDAT: public void _ get range addresses as string ( ) {  <NL> log . println ( " testing get range addresses as string . . . " ) ;  <NL> string o ranges = o obj . get range addresses as string ( ) ;  <NL> t res . tested ( " get range addresses as string ( ) " , o ranges . index of ( " c1 : d4 " ) > 0 ) ;  <NL>  }  COM: <s> test calls the method and checks returned string </s>

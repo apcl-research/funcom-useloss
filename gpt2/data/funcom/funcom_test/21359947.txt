@@ -1,0 +1,1 @@
+TDAT: public void set sms sending ( sms sms ) {  <NL> validate . not null ( sms ) ;  <NL>  <NL> logger . log ( level . fine , " marking sms as currently being sent : { 0 } " , sms ) ;  <NL> sms . set status ( sms . status . sending ) ;  <NL> valued support . fire event occured ( events . sending _ sms , sms ) ;  <NL>  }  COM: <s> mark sms as currently being sent </s>

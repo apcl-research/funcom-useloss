@@ -1,0 +1,1 @@
+TDAT: public void test escape two param ( ) {  <NL> log capture capture = new log capture ( level . info ) ;  <NL> log sf . info ( logger , " \\ { } \\ { { } } , { } } { } \\ { " , " hello " , " world " ) ;  <NL> assert equals ( " { } { hello } , world } { } { " , capture . get message ( ) ) ;  <NL>  }  COM: <s> test escape sequence when more than one parameter is present </s>

@@ -1,0 +1,1 @@
+TDAT: private int set _ dft _ length ( int num _ taps ) {  <NL> int result , n = num _ taps ;  <NL> for ( result = 8 ; n > 2 ; result < < = 1 , n > > = 1 ) {  <NL>  ;  <NL>  }  <NL> result = range _ limit ( result , 4096 , 131072 ) ;  <NL> assert ( num _ taps * 2 < result ) ;  <NL> return result ;  <NL>  }  COM: <s> set to 4 x nearest power of 2 </s>

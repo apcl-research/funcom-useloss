@@ -1,0 +1,1 @@
+TDAT: public void set doctype ( string in doctype ) {  <NL> if ( ( in doctype = = null ) || ( in doctype . trim ( ) . equals ( " " ) ) ) {  <NL> set property ( new string property ( doctype _ key , default _ doctype ) ) ;  <NL>  } else {  <NL> set property ( new string property ( doctype _ key , in doctype ) ) ;  <NL>  }  <NL>  }  COM: <s> sets the doctype setting </s>

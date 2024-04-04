@@ -1,0 +1,1 @@
+TDAT: public size get size ( boolean content ) {  <NL> int w = get width ( ) ;  <NL> int h = get height ( ) ;  <NL> if ( content ) {  <NL> size frame width = get frame size ( ) ;  <NL> w - = frame width . width ;  <NL> h - = frame width . height ;  <NL>  }  <NL> return new size ( math . max ( 0 , w ) , math . max ( 0 , h ) ) ;  <NL>  }  COM: <s> returns the elements size </s>

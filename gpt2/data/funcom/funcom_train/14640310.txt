@@ -1,0 +1,1 @@
+TDAT: public void set from seq ( string from seq ) {  <NL> if ( from seq = = null )  <NL>  {  <NL> throw new runtime exception ( " from seq must not be null . " ) ;  <NL>  }  <NL> string old from seq = this . from seq ;  <NL> this . from seq = from seq ;  <NL> this . fire property change ( " from seq " , old from seq , this . from seq ) ;  <NL>  }  COM: <s> sets the from seq </s>

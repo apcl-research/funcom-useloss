@@ -1,0 +1,1 @@
+TDAT: public void put specs ( method symbol m , method specs spec ) {  <NL> if ( utils . jmldebug ) log . notice writer . println ( " saving method specs for " + m . encl class ( ) + " " + m ) ;  <NL> specsmap . get ( m . encl class ( ) ) . methods . put ( m , spec ) ;  <NL>  }  COM: <s> adds the specs for a given method to the database overwriting anything </s>

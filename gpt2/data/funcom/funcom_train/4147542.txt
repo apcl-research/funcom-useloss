@@ -1,0 +1,1 @@
+TDAT: private void walk ( tree node < t > element , list < tree node < t > > list ) {  <NL> list . add ( element ) ;  <NL>  / / system . out . println ( " [ walk ] level : " + element . level ) ;  <NL> for ( tree node < t > data : element . get children ( ) ) {  <NL> walk ( data , list ) ;  <NL>  }  <NL>  }  COM: <s> walks the tree in pre order style </s>

@@ -1,0 +1,1 @@
+TDAT: public complex expt ( complex c ) {  <NL> double a1 = abs ( ) ;  <NL> double b1 = arg ( ) ;  <NL> complex c1 = c . product ( math . log ( a1 ) ) . exp ( ) ;  <NL> complex c2 = new complex ( 0 , b1 ) . product ( c ) . exp ( ) ;  <NL> c1 . multiply ( c2 ) ;  <NL> return c1 ;  <NL>  }  COM: <s> returns this number raised to the power code c code </s>

@@ -1,0 +1,1 @@
+TDAT: public double swe _ degnorm ( double x ) {  <NL> double y ;  <NL> y = x % 360 . 0 ;  <NL> if ( math . abs ( y ) < 1e - 13 ) {  <NL> y = 0 ; / * alois fix 11 - dec - 1999 * /  <NL>  }  <NL> if ( y < 0 . 0 ) {  <NL> y + = 360 . 0 ;  <NL>  }  <NL> return ( y ) ;  <NL>  }  COM: <s> normalizes a double to the range of 0 </s>

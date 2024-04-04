@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> return " mininum : ( " + min . x + " , " + min . y + " , " + min . z + " ) "  <NL>  + " maximum : ( " + max . x + " , " + max . y + " , " + max . z + " ) " ;  <NL>  }  COM: <s> generates the string to represent a bounds object in a nice format for </s>

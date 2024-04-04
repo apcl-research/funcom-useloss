@@ -1,0 +1,1 @@
+TDAT: public prolog list ( string list )  <NL>  {  <NL>  _ value = trim braces ( list . trim ( ) ) ;  <NL> string tokenizer tokens = new string tokenizer ( _ value , " , " , false ) ;  <NL>  <NL> while ( tokens . has more elements ( ) )  <NL>  {  <NL> add ( tokens . next element ( ) ) ;  <NL>  } / / while / /  <NL>  } / / constructor / /  COM: <s> creates a new prolog list </s>

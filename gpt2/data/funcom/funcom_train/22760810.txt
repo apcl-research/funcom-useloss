@@ -1,0 +1,1 @@
+TDAT: public void draw separation line ( gc gc , header item item , int i , int j , final int depth indent ) {  <NL> int depth = item . depth * depth indent ;  <NL> header . draw horizontal line ( gc , item . x + 2 + depth , item . y , item . x <NL>  + item . w - 3 , item . y ) ;  <NL>  }  COM: <s> draws a horizontal line before each code header item code </s>

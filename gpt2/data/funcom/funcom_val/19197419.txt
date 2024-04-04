@@ -1,0 +1,1 @@
+TDAT: protected boolean is mutator ( method m ) {  <NL> if ( ! m . get name ( ) . starts with ( " set " ) )  <NL> return false ;  <NL> if ( m . get return type ( ) ! = void . type )  <NL> return false ;  <NL> if ( m . get parameter types ( ) . length ! = 1 )  <NL> return false ;  <NL> return has non app exceptions ( m ) ;  <NL>  }  COM: <s> check if a method is a mutator </s>

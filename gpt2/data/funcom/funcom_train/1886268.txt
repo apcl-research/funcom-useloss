@@ -1,0 +1,1 @@
+TDAT: public void process chat message ( message msg ) {  <NL> string buddy = jabber client . filter address resource ( msg . get from ( ) ) ;  <NL> open user chat ( buddy ) . add text ( msg . get body ( ) ) ;  <NL> log . add debug log ( " received chat msg from : " + buddy + " , text : " + msg . get body ( ) ) ;  <NL>  }  COM: <s> processes a received chat message </s>

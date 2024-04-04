@@ -1,0 +1,1 @@
+TDAT: public void test set property ( ) {  <NL> assert null ( bexee properties . get property ( prop _ key _ 3 ) ) ;  <NL> bexee properties . set property ( prop _ key _ 3 , prop _ val _ 3 ) ;  <NL> assert equals ( prop _ val _ 3 , bexee properties . get property ( prop _ key _ 3 ) ) ;  <NL>  }  COM: <s> test if we are able to set new properties </s>

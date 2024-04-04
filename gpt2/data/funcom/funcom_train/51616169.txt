@@ -1,0 +1,1 @@
+TDAT: public void add key ( string name , string match , string use ) {  <NL> builder . begin ( " key " ) ;  <NL> builder . add attributes ( attribute list . empty . add attribute ( " name " , name )  <NL>  . add attribute ( " match " , match )  <NL>  . add attribute ( " use " , use )  <NL>  ) ;  <NL> builder . end ( ) ;  <NL>  }  COM: <s> create an key element </s>

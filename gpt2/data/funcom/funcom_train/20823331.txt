@@ -1,0 +1,1 @@
+TDAT: public void renumber ( final int first cue number , final int increment , boolean selected ) {  <NL> int cue number = first cue number ;  <NL> for ( cue cue : cues ) {  <NL> if ( ! selected || cue . is selected ( ) ) {  <NL> cue . set number ( " " + cue number ) ;  <NL> cue number + = increment ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> renumbers all cues </s>

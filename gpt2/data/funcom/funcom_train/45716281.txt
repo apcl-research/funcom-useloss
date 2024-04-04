@@ -1,0 +1,1 @@
+TDAT: public boolean get changed ( ) {  <NL> if ( super . get changed ( ) ) {  <NL> return true ;  <NL>  } else {  <NL> for ( int i = 0 ; i < cells . size ( ) ; i + + ) {  <NL> if ( ( ( cell oj ) cells . get ( i ) ) . get changed ( ) ) {  <NL> return true ;  <NL>  }  <NL>  }  <NL>  }  <NL> return false ;  <NL>  }  COM: <s> scans all cells to check if one has changed </s>

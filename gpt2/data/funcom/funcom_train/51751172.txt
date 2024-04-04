@@ -1,0 +1,1 @@
+TDAT: public void log ( string class name , string method name , string message , int log level ) {  <NL> if ( log level < = _ log level ) {  <NL> system . out . println ( " log : ( " + level2string ( log level ) + " ) " + class name + " : : " + method name + " = > " + message ) ;  <NL>  }  <NL>  }  COM: <s> this method prints a log message on std out </s>

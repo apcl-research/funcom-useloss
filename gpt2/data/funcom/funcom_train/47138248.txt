@@ -1,0 +1,1 @@
+TDAT: private boolean validate emailaddress ( final string emailaddress ) {  <NL> return emailaddress . matches ( " [ a - z a - z ] [ a - z a - z0 - 9 _ . ] + @ [ a - z a - z ] [ a - z a - z0 - 9 _ . ] + \\ . [ a - z a - z0 - 9 ] + " ) ;  <NL>  }  COM: <s> validate email address </s>

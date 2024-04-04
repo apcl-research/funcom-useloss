@@ -1,0 +1,1 @@
+TDAT: public void set pattern stroke ( pdf pattern painter p , color color ) {  <NL> if ( extended color . get type ( color ) = = extended color . type _ separation )  <NL> set pattern stroke ( p , color , ( ( spot color ) color ) . get tint ( ) ) ;  <NL> else <NL> set pattern stroke ( p , color , 0 ) ;  <NL>  }  COM: <s> sets the stroke color to an uncolored pattern </s>

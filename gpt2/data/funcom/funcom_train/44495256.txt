@@ -1,0 +1,1 @@
+TDAT: public void write cursor ( int row , int column ) {  <NL> try {  <NL> session . write cursor ( row , column ) ;  <NL>  } catch ( jagacy exception je ) {  <NL> throw new runtime exception ( " couldn ' t place cursor on row ' " + row + " ' and column , ' " + column + " ' ! " , je ) ;  <NL>  }  <NL>  }  COM: <s> writes the cursor at the given coordinates </s>

@@ -1,0 +1,1 @@
+TDAT: private void add ( final int event type , @ not null final string event name ) {  <NL> assert ! all event types . contains key ( event type ) ;  <NL> all event types . put ( event type , event name ) ;  <NL> index to event type . put ( event names . size ( ) , event type ) ;  <NL> event names . add ( event name ) ;  <NL>  }  COM: <s> adds on event description </s>

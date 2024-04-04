@@ -1,0 +1,1 @@
+TDAT: private double dot product ( double [ ] windows , double [ ] weights ) {  <NL> assert ( ( windows . length = = 3 ) & & ( weights . length = = 3 ) ) ;  <NL> return ( windows [ 2 ] * weights [ 2 ] ) + ( windows [ 1 ] * weights [ 1 ] )  <NL>  + ( windows [ 0 ] * weights [ 0 ] ) ;  <NL>  }  COM: <s> computes the dot product of our sliding windows and weights vectors </s>

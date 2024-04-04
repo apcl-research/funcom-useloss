@@ -1,0 +1,1 @@
+TDAT: private int get ordinal for tab component ( component c ) {  <NL> for ( map . entry < gui mediator . tabs , tab > entry : tabs . entry set ( ) ) {  <NL> if ( entry . get value ( ) . get component ( ) . equals ( c ) )  <NL> return entry . get key ( ) . ordinal ( ) ;  <NL>  }  <NL> return - 1 ;  <NL>  }  COM: <s> returns the ordinal of the enum that points to the tab </s>

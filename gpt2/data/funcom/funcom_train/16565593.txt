@@ -1,0 +1,1 @@
+TDAT: public point3d mult ( point3d p ) {  <NL> point3d ret = new point3d ( xx * p . x + xy * p . y + xz * p . z + xw ,  <NL> yx * p . x + yy * p . y + yz * p . z + yw ,  <NL> zx * p . x + zy * p . y + zz * p . z + zw ) ;  <NL> ret . scale ( 1f / ( wx * p . x + wy * p . y + wz * p . z + ww ) ) ;  <NL> return ret ;  <NL>  }  COM: <s> matrix multiplication of point </s>

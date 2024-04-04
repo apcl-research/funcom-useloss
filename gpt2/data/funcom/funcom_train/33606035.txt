@@ -1,0 +1,1 @@
+TDAT: public temperley lieb term set to permutation ( permutation p ) {  <NL> init puts ( p . get n ( ) ) ;  <NL> g . clear ( ) ;  <NL> for ( int i = 1 ; i < = p . get n ( ) ; i + + ) { add edge ( i , 2 * p . get n ( ) + 1 - p . get ( i ) ) ; }  <NL> return this ;  <NL>  }  COM: <s> returns a tl element corresponding to a given permutation </s>

@@ -1,0 +1,1 @@
+TDAT: public string connect ( string user id , string password ) throws io exception {  <NL> map < string , string > params = prepare param map ( " connect " , null ) ;  <NL> params . put ( " userid " , user id ) ;  <NL> params . put ( " password " , password ) ;  <NL> return execute get ( _ log uri , params ) ;  <NL>  }  COM: <s> connects an external entity to the engine </s>

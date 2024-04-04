@@ -1,0 +1,1 @@
+TDAT: public interval mul ( interval i ) {  <NL> double p1 = i . lower * this . lower ;  <NL> double p2 = i . lower * this . upper ;  <NL> double p3 = i . upper * this . lower ;  <NL> double p4 = i . upper * this . upper ;  <NL> return new interval ( min ( p1 , p2 , p3 , p4 ) , max ( p1 , p2 , p3 , p4 ) ) ;  <NL>  }  COM: <s> multiple this interval by another one </s>

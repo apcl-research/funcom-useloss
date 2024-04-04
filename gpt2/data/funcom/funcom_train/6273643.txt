@@ -1,0 +1,1 @@
+TDAT: public void re _ ninit ( ) {  <NL> close fps ( ) ;  <NL> string env = system . get property ( " wndbversion " ) ;  <NL> if ( env = = null ) {  <NL> env = " 1 . 7 " ;  <NL>  }  <NL> wn global . wn release = env ; / / set release .  <NL>  <NL> do init ( ) ;  <NL> wn rtl . open db = true ;  <NL> morpher . re _ morph init ( ) ;  <NL>  }  COM: <s> re initialization function </s>

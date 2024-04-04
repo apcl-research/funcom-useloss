@@ -1,0 +1,1 @@
+TDAT: public v get ( k key ) {  <NL> value reference < k , v > v = cache . get ( key ) ;  <NL> v value = v ! = null ? v . get ( ) : null ; / / v . get ( ) may be null <NL> if ( value = = null ) {  <NL> cache misses + + ;  <NL>  } else {  <NL> cache hits + + ;  <NL>  }  <NL> expunge stale entries ( ) ;  <NL> return value ;  <NL>  }  COM: <s> get cached value </s>

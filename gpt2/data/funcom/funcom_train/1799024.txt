@@ -1,0 +1,1 @@
+TDAT: public void generate atom ( xml writer w ) throws io exception {  <NL> list < xml writer . attribute > attrs = collections <NL>  . singleton list ( new xml writer . attribute ( " type " , get name ( ) ) ) ;  <NL> w . simple element ( namespaces . batch ns , " operation " , attrs , null ) ;  <NL>  }  COM: <s> generates a batch operation element </s>

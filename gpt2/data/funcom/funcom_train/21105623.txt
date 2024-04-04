@@ -1,0 +1,1 @@
+TDAT: private mj button get b assign ( ) {  <NL> if ( b assign = = null ) {  <NL> b assign = new mj button ( ) ;  <NL> b assign . set preferred size ( new dimension ( 78 , 26 ) ) ;  <NL> b assign . set text ( " assign " ) ;  <NL> b assign . add action listener ( new b assign click ( ) ) ;  <NL>  }  <NL> return b assign ;  <NL>  }  COM: <s> this method initializes b assign </s>

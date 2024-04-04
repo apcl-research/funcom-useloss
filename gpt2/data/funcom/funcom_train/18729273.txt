@@ -1,0 +1,1 @@
+TDAT: public void set color ( float r , float g , float b ) {  <NL> if ( this . diffuse color = = null ) {  <NL> this . diffuse color = new float [ 3 ] ;  <NL>  }  <NL> this . diffuse color [ 0 ] = r ;  <NL> this . diffuse color [ 1 ] = g ;  <NL> this . diffuse color [ 2 ] = b ;  <NL>  }  COM: <s> set the color array to the given floats </s>

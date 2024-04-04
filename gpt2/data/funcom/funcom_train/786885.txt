@@ -1,0 +1,1 @@
+TDAT: public boolean remove ( comparator c ) {  <NL> for ( int i = 0 ; i < m _ size ; + + i ) {  <NL> if ( m _ cmp [ i ] . equals ( c ) ) {  <NL> system . arraycopy ( m _ cmp , i + 1 , m _ cmp , i , m _ size - i ) ;  <NL>  - - m _ size ;  <NL> return true ;  <NL>  }  <NL>  }  <NL> return false ;  <NL>  }  COM: <s> removes a comparator from this composite </s>

@@ -1,0 +1,1 @@
+TDAT: public void commit to tile ( int x , int y , int tile nr , int rotation , boolean controlled , boolean surpass pauze ) {  <NL>  $ game . play tile ( tile nr , x , y , rotation , controlled , true , true , true , true , surpass pauze ) ;  <NL>  }  COM: <s> make a move with the given arguments </s>

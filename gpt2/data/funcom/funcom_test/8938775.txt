@@ -1,0 +1,1 @@
+TDAT: public int read ( byte buffer dst ) throws io exception {  <NL> if ( ! is open ) {  <NL> throw new io exception ( " not open " ) ;  <NL>  }  <NL> int n = libc . read ( fd , dst , dst . remaining ( ) ) ;  <NL> if ( n > 0 ) {  <NL> dst . position ( dst . position ( ) + n ) ;  <NL>  }  <NL> return n ;  <NL>  }  COM: <s> reads data from the native unix file descriptor </s>

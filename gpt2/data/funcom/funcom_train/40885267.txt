@@ -1,0 +1,1 @@
+TDAT: public void draw pixmap ( pixmap pixmap , int x , int y , int srcx , int srcy , int src width , int src height ) {  <NL> this . pixmap . draw pixmap ( pixmap . pixmap , srcx , srcy , x , y , src width , src height ) ;  <NL>  }  COM: <s> draws an area form another pixmap to this pixmap </s>

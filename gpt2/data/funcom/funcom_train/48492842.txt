@@ -1,0 +1,1 @@
+TDAT: public string headers to string ( ) {  <NL> string builder sb = new string builder ( ) ;  <NL> for ( string name : _ headers . key set ( ) ) {  <NL> sb . append ( name ) . append ( " : " ) . append ( _ headers . get ( name ) ) . append ( " \n " ) ;  <NL>  }  <NL> return sb . to string ( ) ;  <NL>  }  COM: <s> utility function to display the headers </s>

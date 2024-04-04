@@ -1,0 +1,1 @@
+TDAT: public i _ directed line translate source point to ( final int new x , final int new y ) {  <NL> final double width = target x - source x ;  <NL> final double height = target y - source y ;  <NL> return do create directed line ( new x , new y , new x + width , new y + height ) ;  <NL>  }  COM: <s> translates the line by its source point to the specified point </s>

@@ -1,0 +1,1 @@
+TDAT: public boolean paint ( graphics g , rectangle draw rect ) {  <NL>  / / don ' t draw anything unless we ' re enabled and the selection is visible <NL> if ( ! enabled ( ) )  <NL> return false ;  <NL>  <NL> f text component . draw text ( g , draw rect , true , f start , f limit , f highlight color ) ;  <NL> return true ;  <NL>  }  COM: <s> draws the selection </s>

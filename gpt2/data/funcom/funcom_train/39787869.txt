@@ -1,0 +1,1 @@
+TDAT: public void test leading slashes ( ) {  <NL> assert equals ( " test / image1 . png " , new resource image reference ( " test / image1 . png " ) . get resource ( ) ) ;  <NL> assert equals ( " test / image1 . png " , new resource image reference ( " / test / image1 . png " ) . get resource ( ) ) ;  <NL>  }  COM: <s> ensure leading slashes are dropped from resource names </s>

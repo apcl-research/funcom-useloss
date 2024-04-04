@@ -1,0 +1,1 @@
+TDAT: public void assign weights ( int [ ] vector , int min weight , int max weight ) {  <NL> int index = 0 ;  <NL> for ( int l = 1 ; l < layers ; l + + ) {  <NL> index = assign layer weights ( l , vector , index , min weight , max weight ) ;  <NL>  }  <NL>  }  COM: <s> assigns the weights from the vector into the layers </s>

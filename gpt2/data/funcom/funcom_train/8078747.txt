@@ -1,0 +1,1 @@
+TDAT: public void set capacity ( int n ) {  <NL> if ( n = = capacity ( ) ) return ;  <NL> double [ ] old v = v ;  <NL> int m = math . min ( n , size ( ) ) ;  <NL> v = new double [ n ] ;  <NL> set size ( m ) ;  <NL> set ( 0 , m - 1 , old v , 0 ) ;  <NL>  }  COM: <s> sets the capacity of the vector </s>

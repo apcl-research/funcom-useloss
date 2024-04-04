@@ -1,0 +1,1 @@
+TDAT: public cfg builder ( class loader class loader , string file path ) {  <NL> this . class loader = class loader ;  <NL> this . file path = file path ;  <NL> this . directory path = ( file path . last index of ( ' / ' ) < 0 ) ? " / "  <NL>  : file path . substring ( 0 , file path . last index of ( ' / ' ) + 1 ) ;  <NL>  }  COM: <s> creates a new cfg builder object </s>

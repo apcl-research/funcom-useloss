@@ -1,0 +1,1 @@
+TDAT: public void add ( int index , object obj ) {  <NL> mod count + + ;  <NL> check interval ( index , 0 , size ( ) ) ;  <NL> if ( root = = null ) {  <NL> root = new avl node ( index , obj , null , null ) ;  <NL>  } else {  <NL> root = root . insert ( index , obj ) ;  <NL>  }  <NL> size + + ;  <NL>  }  COM: <s> adds a new element to the list </s>

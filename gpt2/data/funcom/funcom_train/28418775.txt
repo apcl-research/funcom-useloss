@@ -1,0 +1,1 @@
+TDAT: private string strip ( string s , char c ) {  <NL>  <NL> string buffer sb = new string buffer ( ) ;  <NL> for ( int i = 0 ; i < s . length ( ) ; i + + ) {  <NL> if ( s . char at ( i ) ! = c ) {  <NL> sb . append ( s . char at ( i ) ) ;  <NL>  }  <NL>  }  <NL>  <NL> return sb . to string ( ) ;  <NL>  }  COM: <s> strips the string s from the char c </s>

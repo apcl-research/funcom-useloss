@@ -1,0 +1,1 @@
+TDAT: public void test to string ( ) throws cache exception {  <NL> cache cache = get test2cache ( ) ;  <NL> cache . clear ( ) ;  <NL> log . info ( cache ) ;  <NL> assert true ( cache . to string ( ) . index of ( " test2 " ) > - 1 ) ;  <NL> assert true ( 380 < cache . to string ( ) . length ( ) ) ;  <NL>  }  COM: <s> tests that the to string method works </s>

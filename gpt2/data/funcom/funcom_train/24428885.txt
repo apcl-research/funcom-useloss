@@ -1,0 +1,1 @@
+TDAT: private void show current mode ( ) {  <NL> display mode dm = m gr dev . get display mode ( ) ;  <NL> system . out . println ( " current display mode : ( " + dm . get width ( ) + " , "  <NL>  + dm . get height ( ) + " , " + dm . get bit depth ( ) + " , "  <NL>  + dm . get refresh rate ( ) + " ) " ) ;  <NL>  }  COM: <s> show the current display mode </s>

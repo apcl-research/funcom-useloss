@@ -1,0 +1,1 @@
+TDAT: public string to xml ( ) {  <NL> string buffer sb = new string buffer ( " " ) ;  <NL> if ( prefix ! = null )  <NL> sb . append ( prefix ) . append ( " : " ) ;  <NL> sb . append ( name ) . append ( " = \ " " ) . append ( value ) . append ( " \ " " ) ;  <NL> return sb . to string ( ) ;  <NL>  }  COM: <s> convert the node to xml form </s>

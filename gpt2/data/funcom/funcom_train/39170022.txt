@@ -1,0 +1,1 @@
+TDAT: public string tokenize ( string in ) {  <NL> string to return = " " ;  <NL> string [ ] toks = tokenizer . tokenize ( in ) ;  <NL> for ( int x = 0 ; x < toks . length ; x + + ) {  <NL> to return + = toks [ x ] + ' ' ;  <NL>  }  <NL> return to return . substring ( 0 , to return . length ( ) - 1 ) ;  <NL>  }  COM: <s> returns a tokenized version of the passed string </s>

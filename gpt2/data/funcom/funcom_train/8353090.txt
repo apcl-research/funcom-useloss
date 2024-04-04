@@ -1,0 +1,1 @@
+TDAT: public v put if absent ( k key , lazy initializer < v > value ) {  <NL> lazy initializer < v > v = cache . get ( key ) ;  <NL> if ( v = = null ) {  <NL> v = cache . put if absent ( key , value ) ;  <NL> if ( v = = null ) {  <NL> return value . get ( ) ;  <NL>  }  <NL>  }  <NL>  <NL> return v . get ( ) ;  <NL>  }  COM: <s> if the specified key is not already associated </s>

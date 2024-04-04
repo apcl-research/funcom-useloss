@@ -1,0 +1,1 @@
+TDAT: public boolean on click ( final mouse input event input event ) {  <NL> effect manager . start effect ( effect event id . on click , this , time , null ) ;  <NL> last mouse x = input event . get mouse x ( ) ;  <NL> last mouse y = input event . get mouse y ( ) ;  <NL>  <NL> return interaction . on click ( input event ) ;  <NL>  }  COM: <s> on click method </s>

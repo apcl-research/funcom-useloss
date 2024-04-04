@@ -1,0 +1,1 @@
+TDAT: public edge remove edge ( edge e ) {  <NL> if ( ! check sanity || contains edge ( e ) ) {  <NL> e . get tail ( ) . remove out edge ( e ) ;  <NL> e . get head ( ) . remove in edge ( e ) ;  <NL> e . get owner ( ) . edges . remove ( e ) ;  <NL> e . owner = null ;  <NL>  }  <NL> return e ;  <NL>  }  COM: <s> removes the given edge from this graph if contained therein or </s>

@@ -1,0 +1,1 @@
+TDAT: public boolean set mail ( string mail ) {  <NL> if ( mail = = null || ! mail . matches ( " [ w - ] + [ w - ] * ) + @ ( [ w ] + . ) + [ w - ] + " ) ) {  <NL> return false ;  <NL>  }  <NL> this . mail = mail ;  <NL> set e mail display name ( null ) ; / / set default <NL> return true ;  <NL>  }  COM: <s> sets the mail address e </s>

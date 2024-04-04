@@ -1,0 +1,1 @@
+TDAT: private void create nodes ( ) {  <NL>  / / create the various tables <NL> table table ;  <NL> int [ ] table nums = table list . get tables numbers ( ) ;  <NL> for ( int i = 0 ; i < table nums . length ; i + + ) {  <NL> table = table list . get table ( table nums [ i ] ) ;  <NL> add ( new table tree node ( table ) ) ;  <NL>  }  <NL>  }  COM: <s> create nodes for a table </s>

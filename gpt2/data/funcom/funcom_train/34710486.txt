@@ -1,0 +1,1 @@
+TDAT: protected shape make star ( ) {  <NL> polygon p = new polygon ( ) ;  <NL> int outer = 50 ;  <NL> int inner = 20 ;  <NL> for ( int deg = 0 ; deg < 360 ; ) {  <NL> add polar point ( p , deg , outer ) ;  <NL> deg + = 36 ;  <NL> add polar point ( p , deg , inner ) ;  <NL> deg + = 36 ;  <NL>  }  <NL> return p ;  <NL>  }  COM: <s> build the star shape </s>

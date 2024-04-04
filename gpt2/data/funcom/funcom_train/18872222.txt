@@ -1,0 +1,1 @@
+TDAT: public void paint ( graphics g ) {  <NL> g . draw image ( image , 0 , 0 , _ width , _ height , this ) ;  <NL> i calque m ;  <NL> for ( enumeration en = calques vector . elements ( ) ; en . has more elements ( ) ; ) {  <NL> m = ( i calque ) en . next element ( ) ;  <NL> m . paint ( g , _ dim ) ;  <NL>  }  <NL>  <NL>  }  COM: <s> this method draw the map and all calques </s>

@@ -1,0 +1,1 @@
+TDAT: public list facets ( ) {  <NL> list the facets = new linked list ( ) ;  <NL> for ( iterator it = this . iterator ( ) ; it . has next ( ) ; ) {  <NL> object v = it . next ( ) ;  <NL> set facet = new hash set ( this ) ;  <NL> facet . remove ( v ) ;  <NL> the facets . add ( facet ) ;  <NL>  }  <NL> return the facets ;  <NL>  }  COM: <s> report the facets of this simplex </s>

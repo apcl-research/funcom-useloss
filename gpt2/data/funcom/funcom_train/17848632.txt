@@ -1,0 +1,1 @@
+TDAT: public void set maximum line count ( int max line count ) {  <NL> if ( m max line count ! = max line count ) {  <NL> m max line count = max line count ;  <NL> if ( ( m text line arr ! = null ) & & ( m text line arr . length > = m max line count ) ) {  <NL> set text ( m text ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> sets the maximum linecount </s>

@@ -1,0 +1,1 @@
+TDAT: public rule instantiate ( binding environment env ) {  <NL> hash map < node _ rule variable , node > vmap = new hash map < node _ rule variable , node > ( ) ;  <NL> return new rule ( name , clone clause array ( head , vmap , env ) , clone clause array ( body , vmap , env ) ) ;  <NL>  }  COM: <s> instantiate a rule given a variable binding environment </s>

@@ -1,0 +1,1 @@
+TDAT: public void set value ( string value ) {  <NL> if ( value = = null ) {  <NL> this . values [ 0 ] = " " ;  <NL>  } else {  <NL> this . values [ 0 ] = value ;  <NL>  }  <NL> this . event support . fire ( new event ( this , " value set on ' " + this . get identifier ( ) + " ' . " , event type . changed _ component ) ) ;  <NL>  }  COM: <s> set the first value </s>

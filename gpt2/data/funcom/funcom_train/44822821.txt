@@ -1,0 +1,1 @@
+TDAT: public object new instance ( ) throws clone exception {  <NL> try {  <NL> return get no arg constructor ( ) . new instance ( empty _ object _ array ) ;  <NL>  } catch ( exception ex ) {  <NL> throw new clone exception ( " class [ " + clazz . get name ( ) + " ] . failed to create new instance . " , ex ) ;  <NL>  }  <NL>  }  COM: <s> create a new instance of this class </s>

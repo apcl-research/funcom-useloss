@@ -1,0 +1,1 @@
+TDAT: protected void calc node infos ( graphics g , tree < ? extends symbol > tree ) {  <NL> this . node infos = new array list < node info > ( ) ;  <NL> if ( tree ! = null ) calc node infos ( g , tree , null , 0 , this . node infos , new point ( 0 , 0 ) , 0 ) ;  <NL>  }  COM: <s> calculates position text and annotations for all nodes in the given tree </s>

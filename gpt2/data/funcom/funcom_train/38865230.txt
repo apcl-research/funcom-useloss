@@ -1,0 +1,1 @@
+TDAT: public void print ( int num ) {  <NL> system . out . println ( " * * * group 55 , descriptive letters " ) ;  <NL> for ( int d = 0 ; d < nparms || d < num ; d + + ) {  <NL> system . out . print ( " " + dcodes [ d ] ) ;  <NL>  }  <NL> system . out . println ( ) ;  <NL>  }  COM: <s> display group 55 </s>

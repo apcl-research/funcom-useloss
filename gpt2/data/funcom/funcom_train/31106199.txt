@@ -1,0 +1,1 @@
+TDAT: public void test get role ( ) {  <NL> assert equals ( task role , relation . get role ( " task . notes " ) ) ;  <NL> assert equals ( note role , relation . get role ( " note " ) ) ;  <NL> assert equals ( null , relation . get role ( " " ) ) ;  <NL> assert equals ( null , relation . get role ( " task " ) ) ;  <NL>  }  COM: <s> lookup roles by name </s>

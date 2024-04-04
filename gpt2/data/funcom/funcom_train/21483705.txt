@@ -1,0 +1,1 @@
+TDAT: protected void assert page not blank ( web response response ) {  <NL> string body = null ;  <NL> try {  <NL> body = response . get text ( ) ;  <NL>  } catch ( io exception e ) {  <NL> log . fatal ( e , e ) ;  <NL> fail ( ) ;  <NL>  }  <NL> assert not null ( body ) ;  <NL> assert true ( ! body . equals ( " " ) ) ;  <NL>  }  COM: <s> checks for the page is not blank </s>

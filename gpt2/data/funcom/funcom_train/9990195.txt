@@ -1,0 +1,1 @@
+TDAT: public object apply ( context context , object arg ) {  <NL> if ( arg = = null ) {  <NL> throw new null argument ( " null argument to warn ( ) . " ) ;  <NL>  }  <NL> string message = arg . to string ( ) ;  <NL> logger log = logger . get logger ( " org . taak . script " ) ;  <NL> log . warn ( message ) ;  <NL> return null ;  <NL>  }  COM: <s> log a warn message </s>

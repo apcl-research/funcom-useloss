@@ -1,0 +1,1 @@
+TDAT: public boolean delete task ( int row id ) {  <NL>  <NL> log . v ( tag , " deleting : with id : " + row id ) ;  <NL> return m db . delete ( database _ classes _ table , key _ rowid + " = " + row id , null ) > 0 ;  <NL>  / / return delete alltasks ( ) ;  <NL>  / / return true ;  <NL>  }  COM: <s> delete the task with the given row id </s>

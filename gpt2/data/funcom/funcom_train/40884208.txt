@@ -1,0 +1,1 @@
+TDAT: public bounding box ext ( float x , float y , float z ) {  <NL> crn _ dirty = true ;  <NL> return this . set ( min . set ( min ( min . x , x ) , min ( min . y , y ) , min ( min . z , z ) ) , max . set ( max ( max . x , x ) , max ( max . y , y ) , max ( max . z , z ) ) ) ;  <NL>  }  COM: <s> extends the bounding box by the given vector </s>

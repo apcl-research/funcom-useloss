@@ -1,0 +1,1 @@
+TDAT: public void update ef transparent ( int fileid , byte [ ] data , message on complete ) {  <NL> phone . m cm . icc io ( command _ update _ binary , fileid , get ef path ( fileid ) ,  <NL> 0 , 0 , data . length ,  <NL> icc utils . bytes to hex string ( data ) , null , on complete ) ;  <NL>  }  COM: <s> update a transparent ef </s>

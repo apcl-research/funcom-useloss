@@ -1,0 +1,1 @@
+TDAT: public siesta qm job ( string _ id job , java . io . file _ exe , int _ n res , boolean _ u c , boolean _ u bc , boolean _ u cr , boolean _ u qz pc )  <NL>  {  <NL> super ( _ id job , _ exe , _ n res , _ u c , _ u bc , _ u cr , _ u qz pc ) ;  <NL>  }  COM: <s> p general constructor for th mndo quantum mechanics job </s>

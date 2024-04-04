@@ -1,0 +1,1 @@
+TDAT: private void add panel columns ( j component left comp , j component middle comp , j component right comp , j panel left panel , j panel middle panel , j panel right panel ) {  <NL> left panel . add ( left comp ) ;  <NL> middle panel . add ( middle comp ) ;  <NL> right panel . add ( right comp ) ;  <NL>  }  COM: <s> adds components to 3 columns in 3 panels </s>

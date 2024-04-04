@@ -1,0 +1,1 @@
+TDAT: public void set debug level ( int level ) {  <NL> final string s m = " set debug level ( ) " ;  <NL> if ( level > = debuglevel _ off & & level < = debuglevel _ finest ) {  <NL> debug level = level ;  <NL> add entry ( s c , s m , " > > > log debug level : " + string . value of ( level ) , " i " ) ;  <NL>  }  <NL>  }  COM: <s> h4 sets the debug level for logging </s>

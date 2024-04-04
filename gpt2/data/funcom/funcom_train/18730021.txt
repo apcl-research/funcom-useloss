@@ -1,0 +1,1 @@
+TDAT: public void zoomout ( ) {  <NL> if ( type = = perspective ) {  <NL> camera [ 0 ] + = ( camera [ 0 ] - center [ 0 ] ) * 0 . 1 ;  <NL> camera [ 1 ] + = ( camera [ 1 ] - center [ 1 ] ) * 0 . 1 ;  <NL> camera [ 2 ] + = ( camera [ 2 ] - center [ 2 ] ) * 0 . 1 ;  <NL>  } else {  <NL> factor * = 2 ;  <NL> invert factor ( ) ;  <NL>  }  <NL>  }  COM: <s> function to zoom out </s>

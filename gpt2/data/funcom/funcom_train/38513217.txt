@@ -1,0 +1,1 @@
+TDAT: public int compare to ( object o ) {  <NL> if ( o instanceof message entry ) {  <NL> message entry me = ( message entry ) o ;  <NL> if ( me . get kind ( ) = = get kind ( ) ) {  <NL> return 0 ;  <NL>  }  <NL> return ( me . get kind ( ) > get kind ( ) ) ? - 1 : 1 ;  <NL>  }  <NL> return 0 ;  <NL>  }  COM: <s> compares this object with the specified object for order </s>

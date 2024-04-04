@@ -1,0 +1,1 @@
+TDAT: public void read ( random access file f ) throws io exception {  <NL> if ( data . length = = 0 ) return ;  <NL> f . seek ( entry . sh _ offset ) ;  <NL> for ( int read = 0 ; read < data . length ; ) {  <NL> read + = f . read ( data , read , data . length - read ) ;  <NL>  }  <NL>  }  COM: <s> the code read code method reads this string table from the specified </s>

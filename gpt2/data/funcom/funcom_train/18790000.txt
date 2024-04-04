@@ -1,0 +1,1 @@
+TDAT: public void set work url ( url work url ) {  <NL> if ( ( ( this . work url ! = null ) & & ! this . work url . equals ( work url ) ) || <NL>  ( ( this . work url = = null ) & & ( work url ! = null ) ) ) {  <NL> this . work url = work url ;  <NL> set modified ( true ) ;  <NL>  }  <NL>  }  COM: <s> sets the new value of the simple property work url </s>

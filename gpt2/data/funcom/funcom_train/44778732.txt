@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL>  <NL> string buffer buffer = new string buffer ( ) ;  <NL>  <NL> for ( int i = 0 , n = size ( ) ; i < n ; i + + ) {  <NL> buffer . append ( my list . get ( i ) ) ;  <NL> buffer . append ( " \n " ) ;  <NL>  }  <NL>  <NL> return buffer . to string ( ) ;  <NL>  <NL>  }  COM: <s> returns string representation of this group </s>

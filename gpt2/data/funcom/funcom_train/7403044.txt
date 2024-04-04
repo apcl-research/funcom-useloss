@@ -1,0 +1,1 @@
+TDAT: public void test index of ( ) {  <NL> xy series s1 = new xy series ( " series 1 " ) ;  <NL> s1 . add ( 1 . 0 , 1 . 0 ) ;  <NL> s1 . add ( 2 . 0 , 2 . 0 ) ;  <NL> s1 . add ( 3 . 0 , 3 . 0 ) ;  <NL> assert equals ( 0 , s1 . index of ( new double ( 1 . 0 ) ) ) ;  <NL>  }  COM: <s> simple test for the index of method </s>

@@ -1,0 +1,1 @@
+TDAT: public void clear current image ( ) {  <NL> draw image . get graphics ( ) . set color ( java . awt . color . white ) ;  <NL> draw image . get graphics ( ) . fill rect ( 0 , 0 , draw image . get width ( ) , draw image . get height ( ) ) ;  <NL> down sample ( ) ;  <NL> repaint ( ) ;  <NL>  }  COM: <s> clears the current image to white </s>

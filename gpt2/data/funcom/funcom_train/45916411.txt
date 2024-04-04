@@ -1,0 +1,1 @@
+TDAT: public void map ( ) {  <NL> for ( int i = 0 ; i < rgb . length ; i + + ) {  <NL> rgb [ i ] = 0x ff000000 | ( data [ i * 3 ] & 0x ff ) < < 18 <NL> | ( data [ i * 3 + 1 ] & 0x ff ) < < 10 <NL> | ( data [ i * 3 + 2 ] & 0x ff ) < < 2 ;  <NL>  }  <NL>  }  COM: <s> convert the byte data to rgb ints </s>

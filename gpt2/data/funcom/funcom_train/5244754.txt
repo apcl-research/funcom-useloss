@@ -1,0 +1,1 @@
+TDAT: public boolean add ( rule l ) {  <NL> rule entry entry = rule map . get ( l . get predicate indicator ( ) ) ;  <NL> if ( entry = = null ) {  <NL> entry = new rule entry ( ) ;  <NL> rule map . put ( l . get predicate indicator ( ) , entry ) ;  <NL>  }  <NL> entry . add ( l ) ;  <NL>  <NL> size + + ;  <NL> return true ;  <NL>  }  COM: <s> add a literal to the belief base </s>

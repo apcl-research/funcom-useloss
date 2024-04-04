@@ -1,0 +1,1 @@
+TDAT: public string get on load event ( ) throws sax exception {  <NL> node list nl = ( ( document ) get original dom ( ) ) . get elements by tag name ( " body " ) ;  <NL> if ( nl . get length ( ) = = 0 ) return " " ;  <NL> return ( ( element ) nl . item ( 0 ) ) . get attribute ( " onload " ) ;  <NL>  }  COM: <s> returns the on load event script </s>

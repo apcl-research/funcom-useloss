@@ -1,0 +1,1 @@
+TDAT: public string get start time header ( ) {  <NL> int min = i start slot * constants . slot _ length _ min + constants . first _ slot _ time _ min ;  <NL> int h = min / 60 ;  <NL> int m = min % 60 ;  <NL> return ( h > 12 ? h - 12 : h ) + " : " + ( m < 10 ? " 0 " : " " ) + m + ( h > = 12 ? " p " : " a " ) ;  <NL>  }  COM: <s> start time for printing purposes </s>

@@ -1,0 +1,1 @@
+TDAT: public boolean is loaded ( string id ) {  <NL> try {  <NL> if ( super . find session ( id ) ! = null )  <NL> return true ;  <NL>  } catch ( io exception e ) {  <NL> log ( " checking is loaded for id , " + id + " , " + e . get message ( ) , e ) ;  <NL>  }  <NL> return false ;  <NL>  }  COM: <s> return true if the session id is loaded in memory </s>

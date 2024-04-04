@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> if ( p = = null||p . length < 2 ) { return " ( ) " ; }  <NL> string s = " ( " + p [ 1 ] ;  <NL> for ( int i = 2 ; i < p . length ; i + + ) { s + = " " + p [ i ] ; }  <NL> return s + " ) " ;  <NL>  }  COM: <s> outputs string representation </s>

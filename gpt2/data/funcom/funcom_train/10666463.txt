@@ -1,0 +1,1 @@
+TDAT: public void release ( ) {  <NL> array list list = m bean server factory . find m bean server ( null ) ;  <NL> int size = list . size ( ) ;  <NL> for ( int i = 0 ; i < size ; i + + ) {  <NL> m bean server factory . release m bean server ( ( m bean server ) list . get ( i ) ) ;  <NL>  }  <NL>  }  COM: <s> release all mbean servers </s>

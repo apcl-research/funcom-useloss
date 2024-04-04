@@ -1,0 +1,1 @@
+TDAT: public void fire post store ( object o ) {  <NL> if ( post store list = = null ) {  <NL> return ;  <NL>  }  <NL> lifecycle event ev = new lifecycle event ( o , lifecycle event . poststore ) ;  <NL> for ( post store node i = post store list ; i ! = null ; i = i . next ) {  <NL> i . listener . post store ( ev ) ;  <NL>  }  <NL>  }  COM: <s> fire a post store event </s>

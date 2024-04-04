@@ -1,0 +1,1 @@
+TDAT: protected void _ draw enemy ( graphics g ) {  <NL>  <NL> if ( null ! = _ img )  <NL> g . draw image ( _ img , ( int ) _ pos x - ( int ) ( abstract enemy . enemy _ size / 2 ) , ( int ) _ pos y - ( int ) ( abstract enemy . enemy _ size / 2 ) , abstract enemy . enemy _ size , abstract enemy . enemy _ size , this ) ;  <NL>  <NL>  }  COM: <s> draw the enemy on the buffer g </s>

@@ -1,0 +1,1 @@
+TDAT: public void add player trick ( final player player , final card set set ) {  <NL> synchronized ( this ) {  <NL> this . player tricks . get ( player ) . add ( new card set ( set ) ) ;  <NL> this . trick table . set made ( player , this . player tricks . size ( ) ) ;  <NL> this . fire change ( ) ;  <NL>  }  <NL>  }  COM: <s> adds the cards to the players trick list </s>

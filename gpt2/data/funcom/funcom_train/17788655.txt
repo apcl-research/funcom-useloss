@@ -1,0 +1,1 @@
+TDAT: public int get num precincts wide ( ) {  <NL> cadi rectangle bounds = get bounds ( ) ;  <NL> int tmp = parent . get precinct widths ( r level ) ;  <NL> return ( int ) math . ceil ( 1 . 0 * ( bounds . x + bounds . width ) / tmp )  <NL>  - ( int ) math . floor ( 1 . 0 * bounds . x / tmp ) ;  <NL>  }  COM: <s> returns the number of precincts in the wide dimension </s>

@@ -1,0 +1,1 @@
+TDAT: public boolean same grid space ( double x1 , double y1 , double x2 , double y2 ) {  <NL>  / / see if points ( x1 , y1 ) and ( x2 , y2 ) are in the same grid space <NL> return ( grid column of ( x1 ) = = grid column of ( x2 ) & &  <NL> grid row of ( y1 ) = = grid row of ( y2 ) ) ;  <NL>  }  COM: <s> checks whether two x y coordinates are in the same grid space </s>

@@ -1,0 +1,1 @@
+TDAT: public void set p mutate ( double p ) {  <NL>  / /  <NL>  / / if the probability is bogus , set it to 1 . 0 .  <NL>  / / later this might be an exception .  <NL>  / /  <NL> if ( ! ( p > = 0 . 0 & & p < = 1 . 0 ) ) {  <NL> p mutate = 1 . 0 ;  <NL>  } else {  <NL> p mutate = p ;  <NL>  }  <NL>  }  COM: <s> setter for the mutation probability </s>

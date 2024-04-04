@@ -1,0 +1,1 @@
+TDAT: private string parameters to log ( list < i model > parameters ) {  <NL> string buffer sb = new string buffer ( 500 ) ;  <NL> for ( i model im : parameters ) {  <NL> sb . append ( idnt + idnt2 + im . get class ( ) + " : " + im . get object ( ) + cr ) ;  <NL>  }  <NL> return sb . to string ( ) ;  <NL>  }  COM: <s> helps to format parameters list </s>

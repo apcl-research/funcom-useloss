@@ -1,0 +1,1 @@
+TDAT: public void set title ( string title , string font _ name ) {  <NL> title line . set text ( title ) ;  <NL> if ( ( font _ name = = null ) ||font _ name . equals ( " " ) ) {  <NL> return ;  <NL>  }  <NL> title line . set font ( font . decode ( font _ name ) ) ;  <NL> set title font ( font _ name ) ;  <NL>  }  COM: <s> set the title of the graph </s>

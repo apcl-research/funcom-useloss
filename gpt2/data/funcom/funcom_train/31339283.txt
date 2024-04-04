@@ -1,0 +1,1 @@
+TDAT: public void shutdown ( ) {  <NL> f server job . cancel ( ) ;  <NL> try {  <NL> if ( f socket ! = null )  <NL> f socket . close ( ) ;  <NL>  } catch ( io exception e ) {  <NL> if ( activator . get default ( ) ! = null )  <NL> activator . get default ( ) . log error ( e . get message ( ) , e ) ;  <NL>  }  <NL>  }  COM: <s> stop the application server </s>

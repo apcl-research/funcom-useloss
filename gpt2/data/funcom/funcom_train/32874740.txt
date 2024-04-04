@@ -1,0 +1,1 @@
+TDAT: private void show item info ( socket handler sh , vector items ) {  <NL> item i = ( item ) items . element at ( 0 ) ;  <NL> sh . print ( " this is a " + i . get name ( ) + " here " ) ;  <NL> if ( items . size ( ) > 1 ) {  <NL> sh . print ( " ( " + items . size ( ) + " ) " ) ;  <NL>  }  <NL> sh . println ( ) ;  <NL>  }  COM: <s> show info about the vector of items </s>

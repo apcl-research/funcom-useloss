@@ -1,0 +1,1 @@
+TDAT: public void set locale ( locale l ) throws sax exception {  <NL>  <NL> if ( l ! = null & & ! messages . is locale supported ( l . to string ( ) ) ) {  <NL> throw new sax exception ( messages . get message ( locale ,  <NL>  " p - 078 " , new object [ ] { l } ) ) ;  <NL>  }  <NL> locale = l ;  <NL>  }  COM: <s> used by applications to request locale for diagnostics </s>

@@ -1,0 +1,1 @@
+TDAT: private void populate data ( ) {  <NL>  <NL> for ( int i = 0 ; i < this . data [ 0 ] . length ; i + + ) {  <NL> final float x = ( float ) i + 10 ;  <NL> this . data [ 0 ] [ i ] = x ;  <NL> this . data [ 1 ] [ i ] = 10 + ( float ) math . random ( ) ;  <NL>  }  <NL>  <NL>  }  COM: <s> populates the data array with random values </s>

@@ -1,0 +1,1 @@
+TDAT: private void build time map ( ) {  <NL> this . on time . clear ( ) ;  <NL> for ( time series timeseries : this . set ) {  <NL> for ( double time : timeseries . get times ref ( ) ) {  <NL> time series set . add to multi map ( this . on time , new double ( time ) , timeseries ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> build the time map </s>

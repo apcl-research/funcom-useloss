@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> return " connection [ " + ( ( m _ conn = = null ) ? " null " : ( integer . to string ( m _ conn . hash code ( ) ) ) ) +  <NL>  " , pool " + m _ pool + " , needs auto commit off " +  <NL> m _ needs auto commit off + " ] " ;  <NL>  }  COM: <s> a debugging tostring includes some information about the underlying </s>

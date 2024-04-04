@@ -1,0 +1,1 @@
+TDAT: private void pop ( final string desc ) {  <NL> char c = desc . char at ( 0 ) ;  <NL> if ( c = = ' ( ' ) {  <NL> pop ( ( method writer . get arguments and return sizes ( desc ) > > 2 ) - 1 ) ;  <NL>  } else if ( c = = ' j ' || c = = ' d ' ) {  <NL> pop ( 2 ) ;  <NL>  } else {  <NL> pop ( 1 ) ;  <NL>  }  <NL>  }  COM: <s> pops a type from the output frame stack </s>

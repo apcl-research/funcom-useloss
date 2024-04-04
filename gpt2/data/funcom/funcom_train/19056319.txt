@@ -1,0 +1,1 @@
+TDAT: public void set contour ( x contour [ ] contour ) {  <NL> this . contour _ . clear ( ) ;  <NL> for ( int i = 0 ; i < contour . length ; i + + ) {  <NL> add contour ( contour [ i ] ) ;  <NL>  }  <NL> for ( int i = 0 ; i < contour . length ; i + + ) {  <NL> contour [ i ] . r set parent r node ( this ) ;  <NL>  }  <NL>  }  COM: <s> sets the xcontour property b contour b </s>

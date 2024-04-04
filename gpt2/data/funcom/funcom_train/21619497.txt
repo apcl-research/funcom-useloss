@@ -1,0 +1,1 @@
+TDAT: public boolean is complete ( ) {  <NL> if ( get amount ( ) = = 0 . 0 ) return false ;  <NL> if ( get change ( ) > 0 & & ! is change permitted ( ) ) return false ;  <NL> if ( get amount ( ) - get change ( ) - get transaction ( ) . get total ( ) ! = 0 ) return false ;  <NL> return true ;  <NL>  }  COM: <s> returns whether the necessary fields in this object are complete </s>

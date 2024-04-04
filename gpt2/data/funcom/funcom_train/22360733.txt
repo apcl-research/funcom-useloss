@@ -1,0 +1,1 @@
+TDAT: protected void eat white space ( ) throws io exception {  <NL> int c = 0 ;  <NL>  <NL> while ( ( c = in . read ( ) ) ! = - 1 ) {  <NL> if ( ( c ! = ' ' ) & & ( c ! = ' \t ' ) ) {  <NL> in . unread ( c ) ;  <NL> break ;  <NL>  }  <NL>  }  <NL> eos = c = = - 1 ;  <NL>  }  COM: <s> consumes the stream up the next non whitespace character </s>

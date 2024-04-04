@@ -1,0 +1,1 @@
+TDAT: public void test kick ( ) {  <NL> system . out . println ( " test kick " ) ;  <NL>  <NL> sender . kick ( " # channel " , " you suck " , new string [ ] { " kickee1 " , " kickee2 " } ) ;  <NL> assert equals ( " kick # channel kickee1 , kickee2 : you suck " , buffer to string ( ) ) ;  <NL>  }  COM: <s> test of kick method of class net </s>

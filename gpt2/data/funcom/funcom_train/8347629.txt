@@ -1,0 +1,1 @@
+TDAT: public el set borders ( boolean show ) {  <NL> if ( show ) {  <NL> add style name ( " x - border " ) ;  <NL> set style attribute ( " border width " , " 1px " ) ;  <NL>  } else {  <NL> remove style name ( " x - border " ) ;  <NL> set style attribute ( " border width " , " 0px " ) ;  <NL>  }  <NL> return this ;  <NL>  }  COM: <s> adds or removes a border </s>

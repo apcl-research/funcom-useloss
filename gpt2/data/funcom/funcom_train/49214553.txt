@@ -1,0 +1,1 @@
+TDAT: public void test generate lu ( ) {  <NL> string sql = " select 1 , 2 from dual " ;  <NL> hash map < string , string > lookups = db helper . generate lu ( sql ) ;  <NL> assert equals ( lookups . get ( " 1 " ) , " 2 " ) ;  <NL> assert true ( lookups . size ( ) = = 1 ) ;  <NL>  }  COM: <s> test of generate lu method of dbhelper </s>

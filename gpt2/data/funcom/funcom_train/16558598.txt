@@ -1,0 +1,1 @@
+TDAT: public void test description ( ) {  <NL> for ( int i = 0 ; i < symbols . length ; i + + ) {  <NL> assert true ( get name for symbol ( symbols [ i ] ) + " does not declare a description in its xml entity " ,  <NL> symbols [ i ] . get xml entity ( ) . contains ( " desc " ) ) ;  <NL>  }  <NL>  }  COM: <s> ensures that any symbol has a description in its persistence </s>

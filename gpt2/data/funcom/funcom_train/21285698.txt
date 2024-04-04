@@ -1,0 +1,1 @@
+TDAT: public void test parse object ( ) {  <NL> assert equals ( " foo " , properties parser . read object ( " \ " foo\ " " ) ) ;  <NL> string escaped path = " \ " / path / to / file . txt\ " " ;  <NL> assert equals ( " / path / to / file . txt " , properties parser <NL>  . read object ( escaped path ) ) ;  <NL>  }  COM: <s> tests properties parser </s>

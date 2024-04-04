@@ -1,0 +1,1 @@
+TDAT: public void set tool bar color ( color new color ) {  <NL>  / *  <NL> j tool bar tb = get tool bar ( ) ;  <NL> if ( tb ! = null ) {  <NL> tb . set background ( new color ) ;  <NL>  } else {  <NL> system . err . println ( " toolbar = null . " ) ;  <NL>  }  <NL>  * /  <NL> this . set background ( new color ) ;  <NL>  }  COM: <s> sets the toolbar color </s>

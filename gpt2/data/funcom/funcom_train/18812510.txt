@@ -1,0 +1,1 @@
+TDAT: public void debugger address write ( int addr , int data ) {  <NL> if ( cart type = = 0 ) {  <NL> rom [ addr ] = ( byte ) data ;  <NL>  } else {  <NL> if ( addr < 0x4000 ) {  <NL> rom [ addr ] = ( byte ) data ;  <NL>  } else {  <NL> rom [ page start + addr - 0x4000 ] = ( byte ) data ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> writes a byte to an address in cpu address space </s>

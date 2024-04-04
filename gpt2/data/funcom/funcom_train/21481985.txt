@@ -1,0 +1,1 @@
+TDAT: private void edit area key pressed ( key event evt ) {  <NL> string teclas omitidas = " " + key event . vk _ down + key event . vk _ up <NL>  + key event . vk _ left + key event . vk _ right ;  <NL> if ( ! teclas omitidas . contains ( " " + evt . get key code ( ) ) ) {  <NL> is saved = false ;  <NL>  }  <NL>  <NL>  }  COM: <s> edits the area key pressed </s>

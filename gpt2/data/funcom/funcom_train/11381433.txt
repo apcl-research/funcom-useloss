@@ -1,0 +1,1 @@
+TDAT: public void release ( ) throws io exception {  <NL> for ( cache file c : cache files ) {  <NL> if ( c . get localized ( ) ) {  <NL> distributed cache manager . release cache ( c . uri , task conf , c . timestamp ,  <NL> c . owner , cache file . file type . archive = = c . type ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> releases the cached files archives so that space </s>

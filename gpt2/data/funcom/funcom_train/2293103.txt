@@ -1,0 +1,1 @@
+TDAT: protected string decode param value ( string param name , string param value ) {  <NL>  <NL> if ( ( param name ! = null ) & & ( param value ! = null ) ) {  <NL> return cms encoder . decode ( param value , get cms ( ) . get request context ( ) . get encoding ( ) ) ;  <NL>  } else {  <NL> return null ;  <NL>  }  <NL>  }  COM: <s> decodes an individual parameter value </s>

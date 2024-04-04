@@ -1,0 +1,1 @@
+TDAT: public int get jid index ( jid jid , int n mask ) {  <NL> int i = - 1 ;  <NL> enumeration e = v ji ds . elements ( ) ;  <NL> while ( e . has more elements ( ) ) {  <NL> i + + ;  <NL> object obj = e . next element ( ) ;  <NL> if ( ( ( jid ) obj ) . is equal ( jid , n mask ) = = true )  <NL> return ( i ) ;  <NL>  }  <NL> return - 1 ;  <NL>  }  COM: <s> find index of user </s>

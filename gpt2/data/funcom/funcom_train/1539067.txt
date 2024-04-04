@@ -1,0 +1,1 @@
+TDAT: public exp vector byte negate ( ) {  <NL> byte [ ] u = val ;  <NL> byte [ ] w = new byte [ u . length ] ;  <NL> for ( int i = 0 ; i < u . length ; i + + ) {  <NL> w [ i ] = ( byte ) ( - u [ i ] ) ;  <NL>  }  <NL> return new exp vector byte ( w ) ;  <NL>  / / return evneg ( this ) ;  <NL>  }  COM: <s> exp vector negate </s>

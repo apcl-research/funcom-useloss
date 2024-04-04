@@ -1,0 +1,1 @@
+TDAT: public void paint vert border ( component c , graphics g , int x , int y , int width , int height ) {  <NL> g . set color ( this . b color ) ;  <NL> g . draw line ( x , y , x , y + height ) ;  <NL> g . draw line ( x + width , y , x + width , y + height ) ;  <NL>  }  COM: <s> paint a border just on the left and right sides </s>

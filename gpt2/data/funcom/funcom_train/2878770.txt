@@ -1,0 +1,1 @@
+TDAT: public void set offset ( int x offset , int y offset ) {  <NL> this . x offset = x offset ;  <NL> this . y offset = y offset ;  <NL> x axis pixel length = ( int ) ( get size ( ) . get width ( ) - x offset ) ;  <NL> y axis pixel length = ( int ) ( get size ( ) . get height ( ) - ( 2 * y offset ) ) ;  <NL> dirty = true ;  <NL>  }  COM: <s> set border offsets </s>

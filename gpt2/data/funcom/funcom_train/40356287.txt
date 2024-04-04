@@ -1,0 +1,1 @@
+TDAT: private void update dice label ( ) {  <NL> if ( last roll ! = - 1 ) {  <NL> status label . set text ( " the last roll was : " + last roll ) ;  <NL> dice label . set icon ( new image icon ( this . get class ( ) . get resource <NL>  ( " / images / dice " + last roll + " . png " ) ) ) ;  <NL>  }  <NL>  }  COM: <s> displays a picture of the last rolled die </s>

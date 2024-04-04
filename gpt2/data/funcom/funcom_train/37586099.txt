@@ -1,0 +1,1 @@
+TDAT: public float get span ( glyph view v , int start , int end , tab expander e , float x ) {  <NL> sync ( v ) ;  <NL> segment text = v . get text ( start , end ) ;  <NL> int width = utilities . get tabbed text width ( text , _ metrics , ( int ) x , e , start ) ;  <NL> return width ;  <NL>  }  COM: <s> determines the span the glyphs given a start location for tab expansion </s>

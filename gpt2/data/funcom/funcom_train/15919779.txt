@@ -1,0 +1,1 @@
+TDAT: public void add binding ( x constrained term s , x constrained term t ) {  <NL> add binding ( s . term ( ) , t . term ( ) ) ;  <NL> add in ( s . term ( ) , s . constraint ( ) ) ;  <NL> add in ( t . term ( ) , t . constraint ( ) ) ;  <NL>  }  COM: <s> add the binding s </s>

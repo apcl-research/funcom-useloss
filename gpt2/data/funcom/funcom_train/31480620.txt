@@ -1,0 +1,1 @@
+TDAT: public void append ( byte ba [ ] ) {  <NL> if ( ( this . string . length - this . length ) < ba . length )  <NL> this . grow ( ba . length - ( this . string . length - this . length ) + 1 ) ;  <NL> for ( int _ l = 0 ; _ l < ba . length ; _ l + + )  <NL> this . string [ this . length + + ] = ba [ _ l ] ;  <NL>  }  COM: <s> append a byte array to this object </s>

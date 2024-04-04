@@ -1,0 +1,1 @@
+TDAT: public void test concat ( ) throws expression exception {  <NL> assert equals ( " this is a test 123 " , exi . eval string ( " $ { string + ' 123 ' } " , properties , format helper ) ) ;  <NL> assert equals ( " ujac - 11 " , exi . eval string ( " $ { $ { name } + ' - ' + $ { ten + 1 } } " , properties , format helper ) ) ;  <NL>  }  COM: <s> tests the concat operation </s>

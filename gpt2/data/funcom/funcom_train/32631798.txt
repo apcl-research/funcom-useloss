@@ -1,0 +1,1 @@
+TDAT: public void test get user name ( ) {  <NL> system . out . println ( " - > test get user name " ) ;  <NL> string user name = get session ( ) . get user name ( ) ;  <NL> assert true ( " at least a string longer than 0 should be returned . " , user name ! = null & & user name . length ( ) > 0 ) ;  <NL>  }  COM: <s> tests a session to return the users name </s>

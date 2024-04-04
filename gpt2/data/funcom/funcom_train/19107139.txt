@@ -1,0 +1,1 @@
+TDAT: protected string get attribute ( node p node , string p name ) {  <NL> return p node = = null <NL> || p node . get attributes ( ) = = null <NL> || p node . get attributes ( ) . get named item ( p name ) = = null ? null : p node . get attributes ( ) . get named item ( p name ) . get node value ( ) ;  <NL>  }  COM: <s> gets the node attribute </s>

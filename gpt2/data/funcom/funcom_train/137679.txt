@@ -1,0 +1,1 @@
+TDAT: public void match edges ( neo map map , list < glyph i > query _ glyphs , list < glyph i > target _ glyphs , list < glyph i > match _ glyphs ) {  <NL> for ( glyph i query : query _ glyphs ) {  <NL> match edges ( map , query , target _ glyphs , match _ glyphs ) ;  <NL>  }  <NL>  }  COM: <s> recursive glyph edge matching </s>

@@ -1,0 +1,1 @@
+TDAT: public void teleport ( final thing thing ) {  <NL> teleported . add ( thing ) ; / / can ' t teleport for 4 teleport cycles <NL> tasks ( ) . add ( new time task ( this , 1 , 10 , 1 ) {  <NL> public void perform ( ) {  <NL> teleported . remove ( thing ) ;  <NL>  }  <NL>  } ) ;  <NL>  <NL> thing . position ( position ( ) ) ;  <NL>  }  COM: <s> teleports thing here </s>

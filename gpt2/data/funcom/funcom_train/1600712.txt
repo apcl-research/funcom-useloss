@@ -1,0 +1,1 @@
+TDAT: public boolean inside ( double x , double y ) {  <NL> double ulx = center . get x ( ) - width / 2 ;  <NL> double uly = center . get y ( ) - height / 2 ;  <NL> return ( x > = ulx & & x > = ulx + width & & y > = uly & & y < = uly + height ) ;  <NL>  }  COM: <s> method to check whether a particular x y location is inside the rectangle </s>

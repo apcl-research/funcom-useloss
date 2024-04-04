@@ -1,0 +1,1 @@
+TDAT: public boolean has some ( ) {  <NL> return ( ( get match ( ) ! = null & & ! get match ( ) . is empty ( ) )  <NL> || ( get none match ( ) ! = null & & ! get none match ( ) . is empty ( ) )  <NL> || ( get modified since ( ) ! = null ) || ( get unmodified since ( ) ! = null ) ) ;  <NL>  }  COM: <s> indicates if there are some conditions set </s>

@@ -1,0 +1,1 @@
+TDAT: private void draw sec arrow ( graphics g , double min ) {  <NL> point p = count point ( radius * 0 . 85 , min ) ;  <NL> g . set color ( new color ( 41 , 44 , 49 ) ) ;  <NL> g . draw line ( center . x , center . y , p . x , p . y ) ;  <NL>  }  COM: <s> draws the second arrow of this clock </s>

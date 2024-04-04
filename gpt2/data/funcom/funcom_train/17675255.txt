@@ -1,0 +1,1 @@
+TDAT: public void add ( int index , int value ) {  <NL> ensure capacity ( size + 1 ) ;  <NL> if ( index = = size ) {  <NL> buf [ size + + ] = value ;  <NL>  } else {  <NL> system . arraycopy ( buf , index , buf , index + 1 , size - index ) ;  <NL> buf [ index ] = value ;  <NL>  }  <NL>  }  COM: <s> add a value at a specified index in the array </s>

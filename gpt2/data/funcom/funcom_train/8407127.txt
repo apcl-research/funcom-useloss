@@ -1,0 +1,1 @@
+TDAT: public object set ( int index , object element ) {  <NL> int size = get list ( ) . size ( ) ;  <NL> if ( index > = size ) {  <NL> get list ( ) . add all ( collections . n copies ( ( index - size ) + 1 , null ) ) ;  <NL>  }  <NL> return get list ( ) . set ( index , element ) ;  <NL>  }  COM: <s> decorate the set method to perform the growth behaviour </s>

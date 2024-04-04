@@ -1,0 +1,1 @@
+TDAT: public object visit ( wild type pattern node , object data ) {  <NL> if ( node . get upper bound ( ) ! = null ) oh yes it has = true ;  <NL> if ( node . get lower bound ( ) ! = null ) oh yes it has = true ;  <NL> if ( node . get type parameters ( ) . size ( ) ! = 0 ) oh yes it has = true ;  <NL> return data ;  <NL>  }  COM: <s> any type bounds are bad </s>

@@ -1,0 +1,1 @@
+TDAT: public void add ( rectangle r ) {  <NL> for ( int i = 0 ; i < dimensions ; i + + ) {  <NL> if ( r . min [ i ] < min [ i ] ) {  <NL> min [ i ] = r . min [ i ] ;  <NL>  }  <NL> if ( r . max [ i ] > max [ i ] ) {  <NL> max [ i ] = r . max [ i ] ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> computes the union of this rectangle and the passed rectangle storing </s>

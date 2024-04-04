@@ -1,0 +1,1 @@
+TDAT: public void send email ( string email , string a subject , string a body ) {  <NL> try {  <NL> internet address to = new internet address ( email ) ;  <NL> send email ( to , a subject , a body ) ;  <NL>  }  <NL> catch ( messaging exception ex ) {  <NL> log . error ( " cannot send email . " , ex ) ;  <NL>  }  <NL>  }  COM: <s> send an email through our server </s>

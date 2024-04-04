@@ -1,0 +1,1 @@
+TDAT: public void change font ( font old _ font , font new _ font ) {  <NL> for ( int i = 0 ; i < lines . size ( ) ; i + + ) {  <NL> text line line = ( text line ) lines . element at ( i ) ;  <NL> iv vector records = line . records ;  <NL> font def . change records font ( records , old _ font , new _ font ) ;  <NL>  }  <NL>  }  COM: <s> updates records font </s>

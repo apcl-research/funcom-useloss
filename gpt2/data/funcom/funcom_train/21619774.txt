@@ -1,0 +1,1 @@
+TDAT: public void test set l name ( ) {  <NL> system . out . println ( " set l name " ) ;  <NL>  <NL> assert equals ( false , emp . is dirty ( ) ) ;  <NL> string name = " bob " ;  <NL> emp . set l name ( name ) ;  <NL> assert equals ( name , emp . get l name ( ) ) ;  <NL> assert equals ( true , emp . is dirty ( ) ) ;  <NL>  }  COM: <s> test of set lname method of class edu </s>

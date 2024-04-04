@@ -1,0 +1,1 @@
+TDAT: public void add vertex ( double [ ] coords ) {  <NL>  / / ! ! ! ! commented out for compatibility with jdk1 . 4 <NL>  / / assert ( mode ! = mode _ invalid ) ;  <NL> reserve ( top + 2 ) ;  <NL> data buffer . put ( ( float ) coords [ 0 ] ) ;  <NL> data buffer . put ( ( float ) coords [ 1 ] ) ;  <NL> path = null ;  <NL> top + = 2 ;  <NL>  }  COM: <s> add a vertex </s>

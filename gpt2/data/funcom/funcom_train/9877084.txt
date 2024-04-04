@@ -1,0 +1,1 @@
+TDAT: private void select node ( int x , int y ) {  <NL> deselect ( this . selected ) ;  <NL> hcl cluster cluster = new hcl cluster ( find node ( x , y ) , integer . max _ value , integer . min _ value ) ;  <NL> select node ( cluster , cluster . root ) ;  <NL> fire event ( cluster ) ;  <NL> repaint ( ) ;  <NL>  }  COM: <s> selects node by specified x and y coordinaties </s>

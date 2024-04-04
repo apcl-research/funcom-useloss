@@ -1,0 +1,1 @@
+TDAT: public string attributes string ( ) {  <NL> if ( attributes ! = null ) {  <NL>  / / return ( attributes . key set ( ) . to string ( ) + " : " + attributes . values ( ) .  <NL>  / / to string ( ) ) ;  <NL> return ( " attributes : " + dump hash map ( attributes ) ) ;  <NL>  } else {  <NL> return " " ;  <NL>  }  <NL>  }  COM: <s> returns the attributes string </s>

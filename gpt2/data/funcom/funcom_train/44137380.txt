@@ -1,0 +1,1 @@
+TDAT: public void paint ( graphics g ) {  <NL> g . set color ( color . green ) ;  <NL> g . draw rect ( 0 , 0 , get width ( ) - 1 , get height ( ) - 1 ) ;  <NL> g . draw rect ( 1 , 1 , get width ( ) - 3 , get height ( ) - 3 ) ;  <NL> super . paint ( g ) ;  <NL>  }  COM: <s> to paint the component </s>

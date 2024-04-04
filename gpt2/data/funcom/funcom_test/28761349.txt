@@ -1,0 +1,1 @@
+TDAT: private void update tree toc2 ( ) {  <NL> mw pane title tree node root node2 = new mw pane title tree node ( null ) ;  <NL> mw pane title tree node root node = ( mw pane title tree node ) model toc . get root ( ) ;  <NL> update tree toc2node ( root node2 , root node ) ;  <NL> model toc2 . set root ( root node2 ) ;  <NL>  }  COM: <s> update table of contents second tree </s>

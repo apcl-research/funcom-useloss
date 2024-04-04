@@ -1,0 +1,1 @@
+TDAT: private void set thread properties ( log event evt ) {  <NL> evt . set property ( " thread . name " , thread . current thread ( ) . get name ( ) ) ;  <NL> evt . set property ( " thread . group . name " ,  <NL> thread . current thread ( ) . get thread group ( ) . get name ( ) ) ;  <NL>  }  COM: <s> adds information about the current thread of executions name </s>

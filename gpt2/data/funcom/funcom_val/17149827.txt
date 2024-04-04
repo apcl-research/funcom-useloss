@@ -1,0 +1,1 @@
+TDAT: public boolean is qa ( ) {  <NL> return get type ( ) . equals ( qa ) || get type ( ) . equals ( qa _ queued ) || get type ( ) . equals ( qa _ label )  <NL> || get type ( ) . equals ( qa _ assigned ) || get type ( ) . equals ( qa _ complete ) || get type ( ) . equals ( qa _ error ) ;  <NL>  }  COM: <s> is the currently selected node associated with a qa batch </s>

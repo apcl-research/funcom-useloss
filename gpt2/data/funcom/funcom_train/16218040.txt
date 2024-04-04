@@ -1,0 +1,1 @@
+TDAT: public void set key sequence ( int [ ] key ) {  <NL> this . key = key ;  <NL> string buffer buff = new string buffer ( ) ;  <NL> for ( int i = 0 ; i < key . length ; i + + ) {  <NL> buff . append ( key event . get key text ( key [ i ] ) ) ;  <NL>  }  <NL>  <NL> this . key string = buff . to string ( ) ;  <NL>  }  COM: <s> sets new key sequence key code </s>

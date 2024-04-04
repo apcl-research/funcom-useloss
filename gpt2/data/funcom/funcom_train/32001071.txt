@@ -1,0 +1,1 @@
+TDAT: public array list get years ( ) {  <NL> final int current _ year = get year ( ) ;  <NL> year list = new array list ( ) ;  <NL> for ( int counter = 0 , j = 0 ; counter < 20 ; counter + + , j + + ) {  <NL> year list . add ( counter , new integer ( current _ year - j ) ) ;  <NL>  }  <NL> return year list ;  <NL>  }  COM: <s> stores the curret years and 20 years past </s>

@@ -1,0 +1,1 @@
+TDAT: public void async send mail ( final mail m ) {  <NL> new thread ( " sendmail - " + m . hash code ( ) ) {  <NL> public void run ( ) {  <NL> try {  <NL> send mail ( m ) ;  <NL>  } catch ( messaging exception e ) {  <NL> logger . debug ( " error while sending mail " + m , e ) ;  <NL>  }  <NL>  } ;  <NL>  } . start ( ) ;  <NL>  }  COM: <s> sends an email asynchronously </s>

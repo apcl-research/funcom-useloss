@@ -1,0 +1,1 @@
+TDAT: public void remove program ( long program id ) throws db exception {  <NL> nv pair [ ] parms ;  <NL>  <NL> parms = new nv pair [ 1 ] ;  <NL> parms [ 0 ] = new nv pair ( " program id " , program id . to string ( ) ) ;  <NL> simple request ( remove _ program _ page , " cannot remove program " , parms ) ;  <NL>  }  COM: <s> deletes a program </s>

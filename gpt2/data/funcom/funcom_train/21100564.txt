@@ -1,0 +1,1 @@
+TDAT: public int column at point ( point p ) {  <NL>  <NL> int x = super . column at point ( p ) ;  <NL>  / / - 1 is returned by column at point if the point is not in the table <NL> if ( x < 0 ) {  <NL> return x ;  <NL>  }  <NL> int y = super . row at point ( p ) ;  <NL> return map . visible cell ( y , x ) ;  <NL>  }  COM: <s> method used by the spanninc colums </s>

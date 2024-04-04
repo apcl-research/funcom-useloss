@@ -1,0 +1,1 @@
+TDAT: private void set slider values ( ) {  <NL> int [ ] eq settings = player handler . get equalizer ( ) . get equalizer settings to show in gui ( ) ;  <NL> if ( eq settings ! = null ) {  <NL> for ( int i = 0 ; i < 10 ; i + + ) {  <NL> bands [ i ] . set value ( eq settings [ i ] ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> updates sliders with current equalizer settings </s>

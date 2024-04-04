@@ -1,0 +1,1 @@
+TDAT: protected void select by field value ( final string widget id , final string field , final string value ) {  <NL>  / / ensure data grid row visible ( widget id , field , value , true ) ;  <NL> assert . assert equals ( action _ success , flex selenium . select matching on field ( widget id , field , value ) ) ;  <NL>  }  COM: <s> select an element from a list </s>

@@ -1,0 +1,1 @@
+TDAT: private j label get j label6x ( ) {  <NL> if ( j label instant = = null ) {  <NL> j label instant = new j label ( ) ;  <NL> j label instant . set text ( " instant : " ) ;  <NL> j label instant . set layout ( null ) ;  <NL> j label instant . set bounds ( 10 , 105 , 127 , 14 ) ;  <NL>  }  <NL> return j label instant ;  <NL>  }  COM: <s> p get jlabel6x </s>

@@ -1,0 +1,1 @@
+TDAT: public boolean has empty rows ( int [ ] columns to check ) {  <NL> boolean empty = true ;  <NL> for ( int i = 0 ; i < columns to check . length ; i + + ) {  <NL> if ( get value at ( get row count ( ) - 1 , columns to check [ i ] ) ! = null ) {  <NL> empty = false ;  <NL>  }  <NL>  }  <NL> return empty ;  <NL>  }  COM: <s> checks if the model has empty rows </s>

@@ -1,0 +1,1 @@
+TDAT: public boolean remove texture ( final string p _ path ) {  <NL> if ( m _ texture map . contains key ( p _ path ) ) {  <NL> texture l _ texture = m _ texture map . get ( p _ path ) ;  <NL> l _ texture . dispose ( ) ;  <NL> m _ texture map . remove ( p _ path ) ;  <NL> return true ;  <NL>  }  <NL> return false ;  <NL>  }  COM: <s> remove the given texture from memory </s>

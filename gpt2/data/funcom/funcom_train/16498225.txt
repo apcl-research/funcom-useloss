@@ -1,0 +1,1 @@
+TDAT: public void add key listener ( key listener handler ) {  <NL> if ( handler . get class ( ) . get name ( ) . equals ( " javax . swing . plaf . basic . basic list ui $ key handler " ) ) {  <NL> super . add key listener ( new key event delegator ( handler ) ) ;  <NL>  }  <NL> else <NL> super . add key listener ( handler ) ;  <NL>  }  COM: <s> wraps the handler in a </s>

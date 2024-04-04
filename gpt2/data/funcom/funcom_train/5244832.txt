@@ -1,0 +1,1 @@
+TDAT: / / public unifier relevant ( event e , array list < deed > ds ) {  <NL>  / / unifier u = new unifier ( ) ;  <NL>  / / / / if ( u . unifies ( event , e ) )  <NL>  / / return u ;  <NL>  / / nb . need to add prefix matching / /  <NL>  / / else <NL>  / / return null ;  <NL>  / / }  COM: <s> is this plan relevant to the current intention i </s>

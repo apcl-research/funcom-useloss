@@ -1,0 +1,1 @@
+TDAT: public void test clear ( ) {  <NL> default keyed values v1 = new default keyed values ( ) ;  <NL> v1 . add value ( " a " , 1 . 0 ) ;  <NL> v1 . add value ( " b " , 2 . 0 ) ;  <NL> assert equals ( 2 , v1 . get item count ( ) ) ;  <NL> v1 . clear ( ) ;  <NL> assert equals ( 0 , v1 . get item count ( ) ) ;  <NL>  }  COM: <s> a simple test for the clear method </s>

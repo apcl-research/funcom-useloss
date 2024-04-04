@@ -1,0 +1,1 @@
+TDAT: public void insert element at ( object item , int index ) {  <NL> if ( can add ( item ) ) {  <NL> list . add ( index , item ) ;  <NL> fire event ( new list data event ( this , list data event . interval _ added , index , index ) ) ;  <NL> set selected item ( item ) ;  <NL>  }  <NL>  }  COM: <s> description of the method </s>

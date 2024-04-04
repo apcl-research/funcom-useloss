@@ -1,0 +1,1 @@
+TDAT: public j text field get text file ( ) {  <NL> if ( m _ text file = = null ) {  <NL> m _ text file = new j text field ( ) ;  <NL> m _ text file . set preferred size ( new dimension ( 200 ,  <NL> m _ text file . get preferred size ( ) . height ) ) ;  <NL>  }  <NL> return m _ text file ;  <NL>  }  COM: <s> returns the textfile for the filename </s>

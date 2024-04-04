@@ -1,0 +1,1 @@
+TDAT: public void set int ( block blk , int offset , int val ) {  <NL> concur mgr . x lock ( blk ) ;  <NL> buffer buff = my buffers . get buffer ( blk ) ;  <NL> int lsn = recovery mgr . set int ( buff , offset , val ) ;  <NL> buff . set int ( offset , val , txnum , lsn ) ;  <NL>  }  COM: <s> stores an integer at the specified offset </s>

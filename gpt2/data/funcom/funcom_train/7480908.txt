@@ -1,0 +1,1 @@
+TDAT: public void send order ( order order ) {  <NL> if ( out ! = null ) {  <NL> system . out . println ( logger . get time ( ) + " sent order " + order . get order ( ) + " to " + order . get machine id ( ) ) ;  <NL> out . println ( " order # " + order . get order ( ) ) ;  <NL>  }  <NL>  }  COM: <s> sends and order given by the network administrators to the client </s>

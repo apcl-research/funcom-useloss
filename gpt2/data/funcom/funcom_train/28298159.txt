@@ -1,0 +1,1 @@
+TDAT: public boolean open actual file ( ) {  <NL> if ( get actual file ( ) ! = null ) {  <NL> err = read file ( get file name ( ) ) ;  <NL> if ( err = = 0 ) {  <NL> set changed ( false ) ;  <NL>  } else trans base text . print error ( err , main pane ) ;  <NL> return ( err = = 0 ) ;  <NL>  }  <NL> return false ;  <NL>  }  COM: <s> opens the actual set file </s>

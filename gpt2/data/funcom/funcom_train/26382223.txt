@@ -1,0 +1,1 @@
+TDAT: public boolean rename ( string file from , string file to ) throws filer communication exception , filer timeout exception {  <NL> if ( get file properties ( file from ) = = null ) return false ;  <NL> request ( cmd _ ren _ file , file from . to char array ( ) , file to . to char array ( ) ) ;  <NL> return true ;  <NL>  }  COM: <s> rename file in palmtop </s>

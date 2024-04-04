@@ -1,0 +1,1 @@
+TDAT: public void nest ( definition d ) {  <NL> if ( null ! = interpretation ) / * if we ' re in a definition . * / {  <NL> return stack . push ( interpretation ) ; / * push it so we can nest into this one . * /  <NL>  } / * end if * /  <NL> interpretation = new interpretation ( d ) ; / * now this becomes current . * /  <NL>  }  COM: <s> push into a definition </s>

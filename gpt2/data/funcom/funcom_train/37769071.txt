@@ -1,0 +1,1 @@
+TDAT: public grid model get headers wm ( ) {  <NL> grid model rows = ( grid model ) get widget cache ( ) . get model ( " headers " ) ;  <NL> if ( rows = = null ) {  <NL> rows = new grid model ( ) ;  <NL> populate headers ( rows ) ;  <NL> get widget cache ( ) . add model ( " headers " , rows ) ;  <NL>  }  <NL> return rows ;  <NL>  }  COM: <s> getter for property headers </s>

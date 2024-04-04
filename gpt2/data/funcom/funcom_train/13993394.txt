@@ -1,0 +1,1 @@
+TDAT: private void set border ( j table table , boolean has focus ) {  <NL> border border = border factory . create empty border ( 1 , 1 , 1 , 1 ) ;  <NL>  <NL> if ( has focus ) {  <NL> border = border factory . create line border ( table <NL>  . get selection background ( ) , 1 ) ;  <NL>  }  <NL>  <NL> set border ( border ) ;  <NL>  }  COM: <s> sets the boder of the cells </s>

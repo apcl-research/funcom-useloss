@@ -1,0 +1,1 @@
+TDAT: public void do pwd ( ftp request request , ftp writer out ) throws io exception {  <NL>  / / reset state variables <NL> reset state ( ) ;  <NL> string args [ ] = { m user . get virtual directory ( ) . get current directory ( ) } ;  <NL> out . write ( m ftp status . get response ( 257 , request , m user , args ) ) ;  <NL>  }  COM: <s> code pwd lt crlf gt code br </s>

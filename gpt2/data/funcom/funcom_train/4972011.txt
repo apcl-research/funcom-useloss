@@ -1,0 +1,1 @@
+TDAT: public complex array add ( complex scalar rhs ) {  <NL> complex array result = new complex array ( this . get length ( ) ) ;  <NL> for ( int i = 0 ; i < this . re . length ; i + + ) {  <NL> result . set element ( this . get element ( i ) . add ( rhs ) , i ) ;  <NL>  }  <NL> return result ;  <NL>  }  COM: <s> add a complex scalar to this complex array </s>

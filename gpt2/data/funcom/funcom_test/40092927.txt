@@ -1,0 +1,1 @@
+TDAT: private boolean message reg exp matches ( string message reg exp , throwable ite ) {  <NL> if ( " . * " . equals ( message reg exp ) ) {  <NL> return true ;  <NL>  } else {  <NL> if ( ite . get message ( ) = = null ) return false ;  <NL> else return pattern . matches ( message reg exp , ite . get message ( ) ) ;  <NL>  }  <NL>  }  COM: <s> message reg ex </s>

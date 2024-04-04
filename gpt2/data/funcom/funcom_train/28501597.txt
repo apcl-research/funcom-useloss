@@ -1,0 +1,1 @@
+TDAT: static public string get param from tl ( jd _ taglist p params tl , string p tag , int p index ) throws exception {  <NL> string v = ( string ) p params tl . get data ( " $ " + p index + " . " + p tag ) ;  <NL> if ( v = = null ) v = ( string ) p params tl . get data ( " jecars : $ " + p index + " . " + p tag ) ;  <NL> return v ;  <NL>  }  COM: <s> get param from tl </s>

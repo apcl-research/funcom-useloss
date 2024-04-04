@@ -1,0 +1,1 @@
+TDAT: protected string get entry type ( int flags , boolean all ) {  <NL>  <NL> for ( int i = 0 ; i < get types ( all ) . length ; i + + ) {  <NL> if ( ( flags & get types int ( ) [ i ] ) > 0 ) {  <NL> return get types ( all ) [ i ] ;  <NL>  }  <NL>  }  <NL> return unknown _ type ;  <NL>  }  COM: <s> determines the type of the current access control entry </s>

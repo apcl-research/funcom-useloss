@@ -1,0 +1,1 @@
+TDAT: / / static private double law of cos dist ( double adist , double bdist , double cang ) {  <NL>  / / double asq , bsq ;  <NL>  / /  <NL>  / / asq = adist * adist ;  <NL>  / / bsq = bdist * bdist ;  <NL>  / / return math . sqrt ( asq + bsq - 2 * adist * bdist * math . cos ( cang ) ) ;  <NL>  / / }  COM: <s> given the length of two doors of a triangle and the angle </s>

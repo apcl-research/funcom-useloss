@@ -1,0 +1,1 @@
+TDAT: public void initialize ( object [ ] p0 ) throws com . sun . star . uno . exception {  <NL> for ( int i = 0 ; i + 2 < p0 . length ; i + = 3 ) {  <NL> add ( ( string ) p0 [ i ] , ( string ) p0 [ i + 1 ] , ( string ) p0 [ i + 2 ] ) ;  <NL>  }  <NL>  }  COM: <s> initialize this class </s>

@@ -1,0 +1,1 @@
+TDAT: public plugin get plugin by title ( string title ) {  <NL> if ( title = = null ) return null ;  <NL> for ( iterator i = my plugins . iterator ( ) ; i . has next ( ) ; ) {  <NL> plugin p = ( plugin ) i . next ( ) ;  <NL> if ( title . equals ( p . get title ( ) ) ) return p ;  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> returns a plugin by its title </s>

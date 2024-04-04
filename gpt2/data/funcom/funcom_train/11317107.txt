@@ -1,0 +1,1 @@
+TDAT: public void accept for each item ( string node name , item visitor iv ) {  <NL> map < string , payload item > messages = node messages . get ( node name ) ;  <NL> for ( string item id : messages . key set ( ) ) {  <NL> iv . visit ( item id , messages . get ( item id ) ) ;  <NL>  }  <NL>  }  COM: <s> go through each message and call visit of the visitor </s>

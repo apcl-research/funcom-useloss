@@ -1,0 +1,1 @@
+TDAT: public attribute field get attribute ( string a _ name )  <NL>  { for ( int i = 0 ; i < av . size ( ) ; i + + )  <NL>  { attribute field a = ( attribute field ) av . element at ( i ) ;  <NL> if ( a . get attribute name ( ) . equals ( a _ name ) ) return a ;  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> gets a particular attribute </s>

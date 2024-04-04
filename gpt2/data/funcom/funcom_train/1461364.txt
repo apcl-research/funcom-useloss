@@ -1,0 +1,1 @@
+TDAT: public string get host name ( ) {  <NL> string host name = " " ;  <NL> try {  <NL> host name = inet address . get local host ( ) . get host name ( ) ;  <NL>  } catch ( unknown host exception e ) {  <NL> log . info ( " no ip address for the local hostname could be found " , e ) ;  <NL>  }  <NL> return host name ;  <NL>  }  COM: <s> returns the local host name </s>

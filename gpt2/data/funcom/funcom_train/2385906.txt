@@ -1,0 +1,1 @@
+TDAT: public i chat message create private message ( int a message id , i chat sender a sender , string a receiver , string a text ) {  <NL> i chat text message private message = new i chat text message ( a message id , a sender , private _ tag , a text , a receiver ) ;  <NL> return private message ;  <NL>  }  COM: <s> creates private i chat message </s>

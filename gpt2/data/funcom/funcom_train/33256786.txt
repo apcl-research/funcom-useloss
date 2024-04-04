@@ -1,0 +1,1 @@
+TDAT: private void paint weekday labels ( ) {  <NL>  / / write the weekday labels <NL> for ( int i day = 0 ; i day < 7 ; i day + + ) {  <NL> int index = i day + first day of week offset - 1 ;  <NL> if ( index > 6 ) {  <NL> index = index - 7 ;  <NL>  }  <NL> add ( weekday label [ index ] ) ;  <NL>  }  <NL>  }  COM: <s> add the weekday labels </s>

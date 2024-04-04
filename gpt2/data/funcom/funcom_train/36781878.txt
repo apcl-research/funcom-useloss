@@ -1,0 +1,1 @@
+TDAT: public void set translated note ( string o ) {  <NL> object [ ] array = new object [ 1 ] ;  <NL> hash map < string , object > my hash map = new hash map < string , object > ( ) ;  <NL> my hash map . put ( " value " , o ) ;  <NL> array [ 0 ] = my hash map ;  <NL> put ( translation , array ) ;  <NL>  }  COM: <s> set the node translation </s>

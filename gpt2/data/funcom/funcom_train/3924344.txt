@@ -1,0 +1,1 @@
+TDAT: public ng object next ( ) {  <NL>  / / uri triple ret = new uri triple ( ) ;  <NL>  / / ret . predicate = this . predicate ;  <NL>  / / ret . keyword = this . keyword ;  <NL> uri triple ret = ( uri triple ) this . clone ( ) ;  <NL> ret . uri = new uri ( this . uri . uri + " \0 " ) ;  <NL> return ret ;  <NL>  }  COM: <s> returns next element </s>

@@ -1,0 +1,1 @@
+TDAT: private j text field get in comment ( ) {  <NL> if ( in comment = = null ) {  <NL> in comment = new j text field ( ) ;  <NL> in comment . set bounds ( new java . awt . rectangle ( 181 , 118 , 220 , 25 ) ) ;  <NL> in comment . set editable ( false ) ;  <NL>  }  <NL> return in comment ;  <NL>  }  COM: <s> this method initializes in comment </s>

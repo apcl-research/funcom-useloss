@@ -1,0 +1,1 @@
+TDAT: public void test create ( ) {  <NL> trade agent a agent = new trade agent ( ) ;  <NL> boolean is pass = true ;  <NL> if ( is pass ) {  <NL> debug log . pass ( " created a default trade agent " ) ;  <NL>  } else {  <NL> debug log . fail ( " failed to create a default trade agent " , " test create ( ) " ) ;  <NL>  }  <NL>  }  COM: <s> tests the constructors of an agent </s>

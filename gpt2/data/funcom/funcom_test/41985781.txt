@@ -1,0 +1,1 @@
+TDAT: public string read sensors ( array list < string > sensors on ) {  <NL> string result = " " ;  <NL> integer sensor _ res ;  <NL> for ( string name : sensors on ) {  <NL> sensor _ res = read sensor ( name ) ;  <NL> result + = " < " + name + " = " + sensor _ res . to string ( ) + " > " ;  <NL>  }  <NL> return result ;  <NL>  } ;  COM: <s> read more than one sensor </s>

@@ -1,0 +1,1 @@
+TDAT: public void set universal service id ( string s code , string s text , string s code type ) {  <NL> obr segment obr = get obr ( ) ;  <NL> ce element ce e = new ce element ( s code , s text , s code type , obr ) ;  <NL> obr . set universal service identifier ( ce e ) ;  <NL>  }  COM: <s> set the coded universal service identifier </s>

@@ -1,0 +1,1 @@
+TDAT: public integer create empty genre ( integer father genre id ) throws db exception {  <NL> linked list parm list ;  <NL>  <NL> parm list = new linked list ( ) ;  <NL> add if not null ( parm list , " father genre id " , father genre id ) ;  <NL> return ( integer ) simple response ( create _ new _ genre _ page , parm list ) ;  <NL>  }  COM: <s> creates a new empty genre </s>

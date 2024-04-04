@@ -1,0 +1,1 @@
+TDAT: public void add variables to context ( map < string , object > map ) {  <NL> if ( map ! = null ) {  <NL> for ( map . entry < string , object > entry : map . entry set ( ) ) {  <NL> this . context . set local var ( entry . get key ( ) , common util . create variable ( entry . get value ( ) ) ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> add all map values to the context </s>

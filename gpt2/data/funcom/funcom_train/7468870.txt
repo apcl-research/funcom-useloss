@@ -1,0 +1,1 @@
+TDAT: private void delete ( file path ) throws io exception {  <NL> file [ ] files = path . list files ( ) ;  <NL> for ( int i = 0 ; i < files . length ; + + i ) {  <NL> if ( files [ i ] . is directory ( ) )  <NL> delete ( files [ i ] ) ;  <NL> files [ i ] . delete ( ) ;  <NL>  }  <NL>  }  COM: <s> deletes files in path </s>

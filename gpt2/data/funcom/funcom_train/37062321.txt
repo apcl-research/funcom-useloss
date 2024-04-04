@@ -1,0 +1,1 @@
+TDAT: private void scale colon image ( ) {  <NL>  <NL> int w = this . get width ( ) ;  <NL> int h = this . get height ( ) ;  <NL>  <NL> if ( ( colon image ! = null ) & & ( w > 0 ) & & ( h > 0 ) )  <NL> colon image = colon image . get scaled instance ( w , h , image . scale _ default ) ;  <NL>  }  COM: <s> scales the colon image to the size of the panel </s>

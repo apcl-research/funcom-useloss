@@ -1,0 +1,1 @@
+TDAT: public void tab ( j component target , string location ) {  <NL> if ( location . equals ( " rt " ) ) {  <NL> tab pane rt . add tab ( target . get name ( ) , target ) ;  <NL>  }  <NL> else if ( location . equals ( " rb " ) ) {  <NL> tab pane rb . add tab ( target . get name ( ) , target ) ;  <NL>  }  <NL>  }  COM: <s> tab teh pane into the frame </s>

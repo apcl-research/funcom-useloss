@@ -1,0 +1,1 @@
+TDAT: public void load object ( data input stream dis ) throws io exception {  <NL> int num readings = dis . read int ( ) ;  <NL> this . clear ( ) ;  <NL> for ( int i = 0 ; i < get num readings ( ) ; i + + ) {  <NL> add ( new range reading ( dis . read float ( ) , dis . read float ( ) ) ) ;  <NL>  }  <NL>  }  COM: <s> load the readings from a data input stream </s>

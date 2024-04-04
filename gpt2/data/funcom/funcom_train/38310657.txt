@@ -1,0 +1,1 @@
+TDAT: public void test contains ( ) throws exception {  <NL> assert true ( collection utils . contains ( list , new person ( 1 , " urpils " , " hansi " ) ) ) ;  <NL> assert false ( collection utils . contains ( list , new person ( 1 , " urpils " , " sigrid " ) ) ) ;  <NL>  }  COM: <s> tests ascending list sorting </s>

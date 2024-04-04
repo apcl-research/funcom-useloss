@@ -1,0 +1,1 @@
+TDAT: public void test real rss items ( ) throws io exception , digester exception {  <NL> string [ ] items = digester . find matches ( " item " , input _ rss ) ;  <NL> print list ( " items " , items ) ;  <NL> assert equals ( " unespected number of items . " , 11 , items . length ) ;  <NL>  }  COM: <s> tests the digester with a real rss feed reading all the items </s>

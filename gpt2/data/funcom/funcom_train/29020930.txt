@@ -1,0 +1,1 @@
+TDAT: public void set size ( int width , int height ) {  <NL> check widget ( ) ;  <NL> int flags = os . swp _ nomove | os . swp _ nozorder | os . swp _ drawframe | os . swp _ noactivate ;  <NL> set bounds ( 0 , 0 , math . max ( 0 , width ) , math . max ( 0 , height ) , flags ) ;  <NL>  }  COM: <s> sets the receivers size to the point specified by the arguments </s>

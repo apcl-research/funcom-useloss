@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> return " x link : type = \ " "  <NL>  + this . type <NL>  + " \ " , href = \ " "  <NL>  + this . href <NL>  + " \ " , show = \ " "  <NL>  + this . show <NL>  + " \ " , name = \ " "  <NL>  + this . name <NL>  + " \ " " ;  <NL>  }  COM: <s> returns a printout of the xlink values </s>

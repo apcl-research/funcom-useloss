@@ -1,0 +1,1 @@
+TDAT: public void enter if absent ( symbol sym ) {  <NL> assert . check ( shared = = 0 ) ;  <NL> entry e = lookup ( sym . name ) ;  <NL> while ( e . scope = = this & & e . sym . kind ! = sym . kind ) e = e . next ( ) ;  <NL> if ( e . scope ! = this ) enter ( sym ) ;  <NL>  }  COM: <s> enter symbol sym in this scope if not already there </s>

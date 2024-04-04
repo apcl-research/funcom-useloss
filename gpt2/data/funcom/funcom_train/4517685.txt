@@ -1,0 +1,1 @@
+TDAT: public int get index for date ( jaret date jaret date ) {  <NL> for ( int i = 0 ; i < _ rows . size ( ) ; i + + ) {  <NL> day day = ( day ) _ rows . get ( i ) ;  <NL> if ( day . get day date ( ) . compare date to ( jaret date ) = = 0 ) {  <NL> return i ;  <NL>  }  <NL>  }  <NL> return - 1 ;  <NL>  }  COM: <s> get the index for the given date or 1 </s>

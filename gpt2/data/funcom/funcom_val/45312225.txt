@@ -1,0 +1,1 @@
+TDAT: public void add measure field value ( string field name , measure field value ) {  <NL> validate field type ( field name , data type . measure ) ;  <NL> if ( msr data = = null ) {  <NL> msr data = new multi value map < measure > ( ) ;  <NL>  }  <NL> msr data . add field value ( field name , field value ) ;  <NL>  }  COM: <s> add a measure value to the given field </s>

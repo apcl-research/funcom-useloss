@@ -1,0 +1,1 @@
+TDAT: public void test with prefixes csv ( ) {  <NL> check ( csv , " " , 0 , test dtob . class , test dtoc . class ) ;  <NL> check ( csv , " type _ b ; 0123456789 ; 0123456789 " , 1 , test dtob . class , test dtoc . class ) ;  <NL>  }  COM: <s> tests full cycle for csv for the case when prefixes are used </s>

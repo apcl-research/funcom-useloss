@@ -1,0 +1,1 @@
+TDAT: public element to xml ( document doc ) {  <NL> element element = doc . create element ( xml _ tag ) ;  <NL> element . set attribute ( subsystem _ tag , this . get sub system ( ) . to string ( ) ) ;  <NL> element . set attribute ( machine _ tag , this . get machine ( ) . to string ( ) ) ;  <NL> return element ;  <NL>  }  COM: <s> converts the node into an xml element </s>

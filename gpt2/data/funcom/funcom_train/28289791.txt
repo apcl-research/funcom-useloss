@@ -1,0 +1,1 @@
+TDAT: public void print ( ) {  <NL> system . out . println ( " input stream of process : " ) ;  <NL> system . out . println ( input ) ;  <NL> system . out . println ( " error stream of process : " ) ;  <NL> system . out . println ( error ) ;  <NL> system . out . println ( " exit value of process : " + exit value ) ;  <NL>  }  COM: <s> simple print method used for debugging </s>

@@ -1,0 +1,1 @@
+TDAT: private int prev high pivot ( int index ) {  <NL> int i = index ;  <NL> for ( ; i < pivot list . size ( ) ; i + + ) {  <NL> if ( pivot list . get ( i ) . get type ( ) > 0 )  <NL> return i ;  <NL>  }  <NL> throw new array index out of bounds exception ( " size : " + pivot list . size ( ) + " i : " + i ) ;  <NL>  }  COM: <s> returns the previous high pivot </s>

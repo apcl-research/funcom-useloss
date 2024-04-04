@@ -1,0 +1,1 @@
+TDAT: public void set media ( string media ) throws flickr exception {  <NL> if ( media . equals ( " all " ) || <NL> media . equals ( " photos " ) || <NL> media . equals ( " videos " )  <NL>  ) {  <NL> this . media = media ;  <NL>  } else {  <NL> throw new flickr exception ( " 0 " , " media type is not valid . " ) ;  <NL>  }  <NL>  }  COM: <s> filter results by media type </s>

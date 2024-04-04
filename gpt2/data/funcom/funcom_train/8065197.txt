@@ -1,0 +1,1 @@
+TDAT: public void undo it ( ) {  <NL> editor ed = ( editor ) globals . cur editor ( ) ;  <NL> if ( ed = = null )  <NL> return ;  <NL>  <NL> if ( _ magnitude > 0 . 0 ) {  <NL> ed . set scale ( ed . get scale ( ) / _ magnitude ) ;  <NL>  } else {  <NL> system . out . println ( " cannot undo cmd zoom reset , yet . " ) ;  <NL>  }  <NL>  }  COM: <s> undo the zoom </s>

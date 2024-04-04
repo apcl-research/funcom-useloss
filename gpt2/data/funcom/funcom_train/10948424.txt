@@ -1,0 +1,1 @@
+TDAT: private void compare ( string msg , byte [ ] expected , byte [ ] actual ) {  <NL> assert equals ( msg + " length " , expected . length , actual . length ) ;  <NL> for ( int i = 0 ; i < expected . length ; i + + ) {  <NL> assert equals ( msg + " byte [ " + i + " ] " , expected [ i ] , actual [ i ] ) ;  <NL>  }  <NL>  }  COM: <s> compare byte arrays </s>

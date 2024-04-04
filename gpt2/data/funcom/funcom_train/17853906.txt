@@ -1,0 +1,1 @@
+TDAT: private void add entry ( jar file jarfile , jar entry entry ) {  <NL> string name = entry . get name ( ) ;  <NL> default mutable tree node path = get path ( name . substring ( 0 , name . last index of ( ' / ' ) ) ) ;  <NL> path . add ( new properties node ( jarfile , entry ) ) ;  <NL>  }  COM: <s> add a property file </s>

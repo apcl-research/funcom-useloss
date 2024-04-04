@@ -1,0 +1,1 @@
+TDAT: private void print list ( ) {  <NL> object [ ] total = to array ( ) ;  <NL> for ( int i = 0 ; i < total . length ; i + + ) {  <NL> system . out . println ( " object " + i + " : " + ( ( auth time ) total [ i ] ) . kerberos time + " / "  <NL>  + ( ( auth time ) total [ i ] ) . cusec ) ;  <NL>  }  <NL>  }  COM: <s> printes out the debug message </s>

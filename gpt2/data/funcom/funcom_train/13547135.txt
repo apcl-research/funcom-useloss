@@ -1,0 +1,1 @@
+TDAT: public set get exit nodes ( ) {  <NL> set result = new hash set ( ) ;  <NL> for ( iterator iter = exit . get in edges ( ) . iterator ( ) ; iter . has next ( ) ; ) {  <NL> edge edge = ( edge ) iter . next ( ) ;  <NL> result . add ( edge . get source ( ) ) ;  <NL>  }  <NL> return result ;  <NL>  }  COM: <s> returns the set of nodes for the basic blocks that the </s>

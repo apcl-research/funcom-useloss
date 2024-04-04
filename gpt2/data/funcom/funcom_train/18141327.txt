@@ -1,0 +1,1 @@
+TDAT: public j label create item ( string txt , image icon img , boolean emphasized ) {  <NL> j label item = new j label ( txt , img , j label . center ) ;  <NL> if ( emphasized ) {  <NL> item . set font ( item . get font ( ) . derive font ( font . bold ) ) ;  <NL>  }  <NL> create item ( item ) ;  <NL> return item ;  <NL>  }  COM: <s> creates a simple text items </s>

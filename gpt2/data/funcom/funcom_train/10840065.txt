@@ -1,0 +1,1 @@
+TDAT: private void release providers ( ) {  <NL> if ( this . provider cache ! = null ) {  <NL> for ( int i = 0 ; i < this . provider cache . length ; i + + ) {  <NL> if ( this . cache [ i ] ! = null ) {  <NL> this . provider cache [ i ] . release ( this . cache [ i ] ) ;  <NL>  }  <NL>  }  <NL>  }  <NL>  }  COM: <s> free used class loader providers </s>

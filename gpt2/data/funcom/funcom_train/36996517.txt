@@ -1,0 +1,1 @@
+TDAT: public byte read byte ( ) throws io exception , eof exception {  <NL> if ( start idx [ idx ] < 0 || fpos < start idx [ idx ] || fpos > end idx [ idx ] ) {  <NL> read to buffer ( ) ;  <NL>  }  <NL> fpos + + ;  <NL> return data [ ( int ) ( fpos - 1 - start idx [ idx ] ) ] [ idx ] ;  <NL>  }  COM: <s> reads one signed byte </s>

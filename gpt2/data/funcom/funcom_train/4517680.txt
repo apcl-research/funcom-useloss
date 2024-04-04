@@ -1,0 +1,1 @@
+TDAT: public void create month ( int month , int year ) {  <NL> int begin index = get index for date ( new jaret date ( 1 , month , year , 0 , 0 , 0 ) ) ;  <NL> if ( begin index = = - 1 ) {  <NL> create month internal ( month , year ) ;  <NL>  }  <NL>  }  COM: <s> update or create the model for the given month </s>

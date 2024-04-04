@@ -1,0 +1,1 @@
+TDAT: / / static public html tag create color tag ( color color ) {  <NL>  / / string color string =  <NL>  / / to hex ( color . get red ( ) ) + to hex ( color . get green ( ) ) + to hex ( color . get blue ( ) ) ;  <NL>  / / return new html tag ( " font " , " color " , color string ) ;  <NL>  / / }  COM: <s> creates a font colour tag for a given colour </s>

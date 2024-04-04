@@ -1,0 +1,1 @@
+TDAT: public void display ( object obj ) {  <NL> if ( obj instanceof customer ) {  <NL> customer c = ( customer ) obj ;  <NL> name tf . set text ( c . get name ( ) ) ;  <NL> id tf . set text ( c . get id ( ) ) ;  <NL> addr tf . set text ( c . get addr ( ) ) ;  <NL>  } / / if <NL>  } / / display ( )  COM: <s> verifies the object passed is a customer object then displays </s>

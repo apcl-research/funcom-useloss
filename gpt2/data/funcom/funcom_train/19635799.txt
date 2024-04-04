@@ -1,0 +1,1 @@
+TDAT: private void swim ( int k ) {  <NL> while ( k > 1 & & less ( k , ( k + this . d - 2 ) / this . d ) ) {  <NL> swap ( k , ( k + this . d - 2 ) / this . d ) ;  <NL> k = ( k + this . d - 2 ) / this . d ;  <NL>  }  <NL>  }  COM: <s> swim bottom up heapify </s>

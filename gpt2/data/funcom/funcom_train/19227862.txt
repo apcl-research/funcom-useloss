@@ -1,0 +1,1 @@
+TDAT: public void set selected tool ( vue tool p tool ) {  <NL> if ( p tool ! = null ) {  <NL> palette button button = ( palette button ) m tool buttons . get ( p tool . get id ( ) ) ;  <NL> if ( button ! = null ) {  <NL> m button group . set selected ( button . get model ( ) , true ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> set selected tool </s>

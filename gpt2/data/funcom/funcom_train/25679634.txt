@@ -1,0 +1,1 @@
+TDAT: private void copy input stream ( input stream in , output stream out ) throws io exception {  <NL> byte [ ] buffer = new byte [ buf _ size ] ;  <NL> int len ;  <NL>  <NL> while ( ( len = in . read ( buffer ) ) > = 0 ) {  <NL> out . write ( buffer , 0 , len ) ;  <NL>  }  <NL> in . close ( ) ;  <NL> out . close ( ) ;  <NL>  }  COM: <s> copy input stream to output stream </s>

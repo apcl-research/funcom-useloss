@@ -1,0 +1,1 @@
+TDAT: private int _ current ( ) {  <NL> if ( buf ! = null ) {  <NL> return utf16 . char at ( buf , 0 , buf . length , buf pos ) ;  <NL>  } else {  <NL> int i = pos . get index ( ) ;  <NL> return ( i < text . length ( ) ) ? utf16 . char at ( text , i ) : done ;  <NL>  }  <NL>  }  COM: <s> returns the current 32 bit code point without parsing escapes parsing </s>

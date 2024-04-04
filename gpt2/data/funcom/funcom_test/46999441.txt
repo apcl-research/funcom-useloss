@@ -1,0 +1,1 @@
+TDAT: private string derive acotan ( string exp , string vari ) {  <NL> return ( make division ( make product ( " - 1 " , derive ( arg1 ( exp ) , vari ) ) ,  <NL> make sum ( " 1 " , make power ( arg1 ( exp ) , " 2 " ) ) ) ) ;  <NL>  }  COM: <s> derives the prefix expression acotan i arg1 arg2 i </s>

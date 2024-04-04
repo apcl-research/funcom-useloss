@@ -1,0 +1,1 @@
+TDAT: private string fix string ( string str ) {  <NL>  / / return " < html > < div align = \ " center\ " > " + str + " < / div > < / html > " ;  <NL> if ( str . length ( ) > 53 ) {  <NL> return str . substring ( 0 , 50 ) + " . . . " ;  <NL>  } else {  <NL> return str ;  <NL>  }  <NL>  }  COM: <s> cap the string at a max length </s>

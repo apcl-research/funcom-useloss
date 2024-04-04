@@ -1,0 +1,1 @@
+TDAT: public void reset ( ) {  <NL> for ( int z = 0 ; z < depth ; z + + ) {  <NL> for ( int y = 0 ; y < height [ z ] ; y + + ) {  <NL> for ( int x = 0 ; x < width [ z ] ; x + + ) {  <NL> activation [ z ] [ y ] [ x ] = 0 ;  <NL>  }  <NL>  }  <NL>  }  <NL>  }  COM: <s> reset object to initial state clear all activation </s>

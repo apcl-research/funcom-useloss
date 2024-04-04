@@ -1,0 +1,1 @@
+TDAT: public void set col name ( int colnum , string name ) {  <NL> if ( no lpx ( ) ) {  <NL> return ;  <NL>  }  <NL> if ( colnum > = nb cols ) {  <NL> throw new java . lang . index out of bounds exception ( ) ;  <NL>  }  <NL> native _ set _ col _ name ( id , colnum + 1 , name ) ;  <NL>  }  COM: <s> sets the name specified by the second argument for the basic variable </s>

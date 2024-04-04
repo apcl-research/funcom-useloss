@@ -1,0 +1,1 @@
+TDAT: public void remove values from top ( int num ) {  <NL> num = math . min ( num , _ values . size ( ) ) ;  <NL> for ( int ii = 0 ; ii < num ; ii + + ) {  <NL> entry < v , c > value = _ values . remove ( 0 ) ;  <NL>  _ vport . remove ( value . component ) ;  <NL>  }  <NL>  _ vport . invalidate ( ) ;  <NL>  }  COM: <s> removes values from the top of the list </s>

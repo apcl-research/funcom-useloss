@@ -1,0 +1,1 @@
+TDAT: public object clone ( ) {  <NL> table array ta = new table array ( ) ;  <NL> iterator it = key set ( ) . iterator ( ) ;  <NL> while ( it . has next ( ) ) {  <NL> point p = ( point ) it . next ( ) ;  <NL> ta . put ( p , get ( p . x , p . y ) ) ;  <NL>  }  <NL> return ta ;  <NL>  }  COM: <s> clone this table array </s>

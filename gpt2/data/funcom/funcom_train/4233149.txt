@@ -1,0 +1,1 @@
+TDAT: private void bartlett ( ) {  <NL> int n = window . length ;  <NL> window [ 0 ] = 0 ;  <NL> for ( int n = 1 ; n < n - 1 ; n + + ) {  <NL> if ( n < n / 2 ) {  <NL> window [ n ] = 2 * n / ( n - 1 ) ;  <NL>  } else {  <NL> window [ n ] = 2 - ( 2 * n / ( n - 1 ) ) ;  <NL>  }  <NL>  }  <NL> window [ n - 1 ] = 0 ;  <NL>  }  COM: <s> create a bartlett window </s>

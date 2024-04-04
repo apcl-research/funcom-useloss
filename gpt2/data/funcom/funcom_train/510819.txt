@@ -1,0 +1,1 @@
+TDAT: public complex divide ( complex z ) {  <NL> double r = z . x * z . x + z . y * z . y ;  <NL> return new complex ( ( this . x * z . x + this . y * z . y ) / r ,  <NL>  ( this . y * z . x - this . x * z . y ) / r ) ;  <NL>  }  COM: <s> divide the complex number by z </s>

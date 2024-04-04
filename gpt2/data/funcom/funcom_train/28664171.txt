@@ -1,0 +1,1 @@
+TDAT: protected int calc biggest bar index ( ) {  <NL> int biggest = - 9999999 ;  <NL> for ( int i = 0 ; i < bars . size ( ) ; i + + )  <NL> if ( ( ( bar ) bars . get ( i ) ) . index > biggest )  <NL> biggest = ( ( bar ) bars . get ( i ) ) . index ;  <NL> return biggest ;  <NL>  }  COM: <s> calculates the biggest index a bar in the bars array has </s>

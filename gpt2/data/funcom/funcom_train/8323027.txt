@@ -1,0 +1,1 @@
+TDAT: public void print ( print writer pw , string prefix ) {  <NL> sql query sql query = get sql query ( ) ;  <NL> pw . print ( prefix ) ;  <NL> pw . print ( get name ( ) ) ;  <NL> pw . print ( " ( " ) ;  <NL> pw . print ( get bit position ( ) ) ;  <NL> pw . print ( " ) : " ) ;  <NL> pw . print ( generate expr string ( sql query ) ) ;  <NL>  }  COM: <s> prints this column </s>

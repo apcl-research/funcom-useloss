@@ -1,0 +1,1 @@
+TDAT: public void mouse moved ( mouse event e )  <NL>  { / * mouse moved * /  <NL>  / / if ( ! mae . mouse over )  <NL>  / / return ;  <NL>  / / / * update mouse over * /  <NL>  / / cg c . set current gene ( e . get x ( ) , e . get y ( ) , e . get modifiers ( ) , false ) ;  <NL>  } / * mouse moved * /  COM: <s> mouse moved process mouse event </s>

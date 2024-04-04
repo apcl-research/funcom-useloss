@@ -1,0 +1,1 @@
+TDAT: public double get single voxel ( int [ ] idx ) throws data file exception {  <NL> int m0 = idx [ 0 ] - image _ origin [ 0 ] ;  <NL> int m1 = idx [ 1 ] - image _ origin [ 1 ] ;  <NL> int m2 = idx [ 2 ] - image _ origin [ 2 ] ;  <NL> return get data point ( m0 , m1 , m2 ) ;  <NL>  }  COM: <s> the data points are measured from an origin at </s>

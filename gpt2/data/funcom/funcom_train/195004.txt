@@ -1,0 +1,1 @@
+TDAT: public void characters ( char [ ] ch , int start , int length ) throws sax exception {  <NL> if ( this . in id feature ) {  <NL> this . feat string = this . feat string + new string ( ch , start , length ) ;  <NL>  }  <NL> else {  <NL> super . characters ( ch , start , length ) ;  <NL>  }  <NL>  }  COM: <s> if we are in a feature with ids then keep characters </s>

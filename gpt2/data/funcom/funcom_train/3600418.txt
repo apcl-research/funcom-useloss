@@ -1,0 +1,1 @@
+TDAT: public int read ( byte [ ] b , int off , int len ) throws io exception {  <NL> int ret = super . read ( b , off , len ) ;  <NL> byte [ ] ptr = key . decrypt ( b , off , ret ) ;  <NL> system . arraycopy ( ptr , off , b , off , ptr . length + off ) ;  <NL> return ret ;  <NL>  }  COM: <s> read the byte </s>

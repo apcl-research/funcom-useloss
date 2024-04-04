@@ -1,0 +1,1 @@
+TDAT: public void last access ( ) {  <NL> this . last access = new timestamp ( new java . util . date ( ) . get time ( ) ) ;  <NL>  / / logger . debug ( this . login + " hashcode : " + ( ( object ) this ) . hash code ( ) ) ;  <NL>  / / logger . debug ( " set last access ( ) " + this . login + " " + last access ) ;  <NL>  }  COM: <s> last access sets the time when the user </s>

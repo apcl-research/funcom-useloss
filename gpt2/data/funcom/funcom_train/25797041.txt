@@ -1,0 +1,1 @@
+TDAT: public boolean add to playlist ( i notifiable manager manager , album album , int sort by , string sort order ) {  <NL> return m connection . get boolean ( manager , " add to play list from db " , library _ type + " ; " + get songs condition ( album ) + songs order by ( sort by , sort order ) ) ;  <NL>  }  COM: <s> adds an album to the current playlist </s>

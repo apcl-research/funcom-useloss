@@ -1,0 +1,1 @@
+TDAT: public void add friendship ( user u , string fname ) {  <NL> vector < user > f = ( vector < user > ) fship list . get ( fname ) ;  <NL> if ( f = = null ) {  <NL> f = new vector < user > ( ) ;  <NL> fship list . put ( fname , f ) ;  <NL>  }  <NL> f . add element ( u ) ;  <NL>  }  COM: <s> adds a friendship relation </s>

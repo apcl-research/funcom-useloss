@@ -1,0 +1,1 @@
+TDAT: public cacheable identity copy ( ) {  <NL> if ( this = = null ) {  <NL> return null ;  <NL>  }  <NL> cacheable identity id = new cacheable identity ( ) ;  <NL> for ( int i = 0 ; i < pair size ( ) ; + + i ) {  <NL> id . add pair ( get type ( i ) , get name ( i ) ) ;  <NL>  }  <NL> return id ;  <NL>  }  COM: <s> makes a new copy of an existing cacheable identity </s>

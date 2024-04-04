@@ -1,0 +1,1 @@
+TDAT: public role player remove role ( string role id , string gr id ) throws moise consistency exception {  <NL> group instance gi = oe . find group ( gr id ) ;  <NL> if ( gi = = null )  <NL> throw new moise consistency exception ( " the group " + gr id + " does not exists . " ) ;  <NL> return remove role ( role id , gi ) ;  <NL>  }  COM: <s> removes a role from an agent </s>

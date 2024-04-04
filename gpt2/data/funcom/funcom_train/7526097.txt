@@ -1,0 +1,1 @@
+TDAT: private void _ retransmit ( long seqno , message msg , address addr ) {  <NL> if ( ! _ contains ( seqno , addr ) )  <NL> fail ( " acknowledging a non - existent msg , great ! " ) ;  <NL> else <NL> system . out . println ( " retransmitting " + seqno + " , msg = " + msg ) ;  <NL>  }  COM: <s> check if retransmission is expected </s>

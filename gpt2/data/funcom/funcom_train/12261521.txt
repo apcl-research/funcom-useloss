@@ -1,0 +1,1 @@
+TDAT: public void set file name ( string file name ) {  <NL> if ( file name ! = null & & file name . length ( ) > 0 ) {  <NL> int index = file name . last index of ( " . " ) ;  <NL> this . file name = index > - 1 ? file name . substring ( 0 , index ) : file name ;  <NL>  }  <NL>  }  COM: <s> sets output filename </s>

@@ -1,0 +1,1 @@
+TDAT: public int disconnect sink ( string address ) {  <NL> if ( dbg ) log ( " disconnect sink ( " + address + " ) " ) ;  <NL> try {  <NL> return m service . disconnect sink ( address ) ;  <NL>  } catch ( remote exception e ) {  <NL> log . w ( tag , " " , e ) ;  <NL> return bluetooth error . error _ ipc ;  <NL>  }  <NL>  }  COM: <s> initiate disconnect from an a2 dp sink </s>

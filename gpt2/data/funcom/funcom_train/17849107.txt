@@ -1,0 +1,1 @@
+TDAT: public void write data ( object output stream out ) throws io exception {  <NL> out . write int ( 5 ) ; / / version <NL> out . write utf ( get data service proxy ( ) . get id ( ) ) ;  <NL> out . write utf ( get group ( ) . get id ( ) ) ;  <NL> out . write utf ( get country ( ) ) ;  <NL> out . write utf ( m id ) ;  <NL>  }  COM: <s> serialized this object </s>

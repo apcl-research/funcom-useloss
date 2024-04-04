@@ -1,0 +1,1 @@
+TDAT: public string readline no nl ( ) {  <NL> int i = index of ( ' \n ' , pos ) ;  <NL> int newpos = ( i < 0 ) ? count : i ;  <NL> string r = new string ( buf , pos , newpos - pos ) ;  <NL> pos = newpos ;  <NL> if ( pos < count ) / / skip the newline <NL> pos + + ;  <NL> return r ;  <NL>  }  COM: <s> read and return a line without the trailing newling </s>

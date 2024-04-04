@@ -1,0 +1,1 @@
+TDAT: public pixel pixel at ( image x image , int x , int y ) {  <NL> if ( ( x > 0 ) & & ( x < image . get image width ( ) ) & &  <NL>  ( y > 0 ) & & ( y < image . get image height ( ) ) ) {  <NL> return image . get pixel ( x , y ) ;  <NL>  } else {  <NL> return zero pixel ;  <NL>  }  <NL>  }  COM: <s> returns and validates the pixel at the specified coordinate </s>

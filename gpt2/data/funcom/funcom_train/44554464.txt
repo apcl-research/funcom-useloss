@@ -1,0 +1,1 @@
+TDAT: public string get description ( ) {  <NL> string files = " " ;  <NL> for ( int i = 0 ; i < extensions . length ; i + + )  <NL> files + = ( i > 0 ? " , " : " " ) + extensions [ i ] ;  <NL>  <NL> return dc resources . get text ( " lbl file filer " , files ) ;  <NL>  }  COM: <s> get the description of this filter for displaying purposes </s>

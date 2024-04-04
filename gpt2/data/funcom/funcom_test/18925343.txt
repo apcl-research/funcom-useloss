@@ -1,0 +1,1 @@
+TDAT: public void set log conf ( string log conf ) {  <NL> this . log conf = log conf ;  <NL> try {  <NL> log handler . apply config ( log conf ) ;  <NL>  } catch ( exception e ) {  <NL> string msg = e . get message ( ) ;  <NL> if ( msg = = null )  <NL> msg = e . to string ( ) ;  <NL> throw new format exception ( msg ) ;  <NL>  }  <NL>  }  COM: <s> sets the log conf </s>

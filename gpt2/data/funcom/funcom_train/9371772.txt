@@ -1,0 +1,1 @@
+TDAT: private void poss expand ( int bits ) {  <NL> if ( ( m pos + bits ) < m end ) return ;  <NL> byte [ ] new buf = new byte [ ( m pos + bits ) > > > 2 ] ;  <NL> system . arraycopy ( m buf , 0 , new buf , 0 , m end > > > 3 ) ;  <NL> m buf = new buf ;  <NL>  }  COM: <s> allocate a new internal buffer if needed </s>

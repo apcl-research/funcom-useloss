@@ -1,0 +1,1 @@
+TDAT: public int read v int ( ) throws io exception {  <NL> byte b = read byte ( ) ;  <NL> int i = b & 0x7f ;  <NL> for ( int shift = 7 ; ( b & 0x80 ) ! = 0 ; shift + = 7 ) {  <NL> b = read byte ( ) ;  <NL> i | = ( b & 0x7f ) < < shift ;  <NL>  }  <NL> return i ;  <NL>  }  COM: <s> reads an int stored in variable length format </s>

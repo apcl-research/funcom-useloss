@@ -1,0 +1,1 @@
+TDAT: public t merge node add t merge role ( final node core , final tree < t merge node > t tree ) {  <NL> if ( core = = null )  <NL> throw new argument null exception ( " core " ) ;  <NL> if ( t tree = = null )  <NL> throw new argument null exception ( " t tree " ) ;  <NL>  <NL> return new t merge node impl ( core , t tree ) ;  <NL>  }  COM: <s> adds the t merge role </s>

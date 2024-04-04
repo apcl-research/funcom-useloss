@@ -1,0 +1,1 @@
+TDAT: public void mouse pressed ( mouse event e ) {  <NL> system . err . println ( " basildi . . . " + e . get x ( ) + " and " + e . get y ( ) ) ;  <NL> ste . print coordinates ( e . get x ( ) , e . get y ( ) ) ;  <NL> this . state = this . state . mouse pressed ( e ) ;  <NL>  }  COM: <s> automatically called when the mouse is pressed </s>

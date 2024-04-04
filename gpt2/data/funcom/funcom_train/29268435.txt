@@ -1,0 +1,1 @@
+TDAT: protected string get multiplicity ( string p token ) {  <NL> if ( p token . ends with ( " * " ) ) {  <NL> return " * " ;  <NL>  } else if ( p token . ends with ( " ? " ) ) {  <NL> return " ? " ;  <NL>  } else if ( p token . ends with ( " + " ) ) {  <NL> return " + " ;  <NL>  } else {  <NL> return " " ;  <NL>  }  <NL>  }  COM: <s> returns a tokens multiplicity </s>

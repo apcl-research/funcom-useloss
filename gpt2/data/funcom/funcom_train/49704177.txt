@@ -1,0 +1,1 @@
+TDAT: public long get size ( ) {  <NL>  / / logger . debug ( " pagedb get size " + dirname + " ( " + new throwable ( ) . get stack trace ( ) [ 1 ] . get class name ( ) + " ) " ) ;  <NL> if ( ! stats . initialized ) {  <NL> stats . read ( ) ;  <NL>  }  <NL> return stats . page count ;  <NL>  }  COM: <s> returns the number of pages in the pagedb </s>

@@ -1,0 +1,1 @@
+TDAT: public mutable matrix3f set ( read only matrix3f o ) {  <NL> return set ( o . get ( 0 , 0 ) , o . get ( 0 , 1 ) , o . get ( 0 , 2 ) ,  <NL> o . get ( 1 , 0 ) , o . get ( 1 , 1 ) , o . get ( 1 , 2 ) ,  <NL> o . get ( 2 , 0 ) , o . get ( 2 , 1 ) , o . get ( 2 , 2 ) ) ;  <NL>  }  COM: <s> set this matrix to be equal to the given matrix o </s>

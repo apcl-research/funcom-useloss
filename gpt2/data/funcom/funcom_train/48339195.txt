@@ -1,0 +1,1 @@
+TDAT: private guid make env ( string name , guid parent ) throws throwable {  <NL> guid new guid ;  <NL> new guid = new guid ( ) ;  <NL> tuple store . create ( new environment . descriptor ( new guid , name ,  <NL> parent , new guid ( ) ) ) ;  <NL> envs to delete . add ( new guid ) ;  <NL> return new guid ;  <NL>  }  COM: <s> make a new environment </s>

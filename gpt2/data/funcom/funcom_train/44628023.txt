@@ -1,0 +1,1 @@
+TDAT: @ test public void test operators1 ( ) {  <NL> help scanner ( " / * @ = = < = < * / " ,  <NL> new enum < ? > [ ] { eqeq , lteq , lt , ejml } ,  <NL> new int [ ] { 4 , 6 , 8 , 10 , 12 , 13 , 15 , 17 } ) ;  <NL>  }  COM: <s> tests the java operators related to jml operators </s>

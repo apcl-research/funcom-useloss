@@ -1,0 +1,1 @@
+TDAT: public void set context ( j gloss frame model _ context ) {  <NL> context = _ context ;  <NL> boolean enabled = ( context ! = null & & ! context . is empty ( ) ) ;  <NL> set enabled ( enabled ) ;  <NL> for ( int i = 0 ; i < get item count ( ) ; i + + )  <NL> get item ( i ) . set enabled ( enabled ) ;  <NL>  }  COM: <s> set the export context </s>

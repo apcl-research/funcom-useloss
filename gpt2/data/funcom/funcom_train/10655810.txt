@@ -1,0 +1,1 @@
+TDAT: private attribute set get filled attribute set ( ) {  <NL> attribute set as = context . get empty set ( ) ;  <NL> context . add attribute ( as , " key " , " value " ) ;  <NL> context . add attribute ( as , " key1 " , " value1 " ) ;  <NL> context . add attribute ( as , " key2 " , " value2 " ) ;  <NL> return as ;  <NL>  }  COM: <s> returns non empty attribute set </s>

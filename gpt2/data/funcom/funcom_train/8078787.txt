@@ -1,0 +1,1 @@
+TDAT: public double max abs ( ) {  <NL> double ma = math . abs ( a [ 0 ] [ 0 ] ) ;  <NL> for ( int j = 0 ; j < n ; j + + ) {  <NL> for ( int i = 0 ; i < m ; i + + ) {  <NL> ma = math . max ( ma , math . abs ( a [ i ] [ j ] ) ) ;  <NL>  }  <NL>  }  <NL> return ma ;  <NL>  }  COM: <s> returns the maximum absolute value of all elements </s>

@@ -1,0 +1,1 @@
+TDAT: public string get job outputs base dir name ( string portal id , string user id , string workflow id , string job id , string runtime id ) throws exception {  <NL> return portal id + sep + user id + sep + workflow id + sep + job id + sep + " outputs " + sep + runtime id + sep ;  <NL>  }  COM: <s> returns the job output directories </s>

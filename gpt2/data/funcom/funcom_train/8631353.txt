@@ -1,0 +1,1 @@
+TDAT: public boolean get boolean ( int column index ) throws sql exception {  <NL> object o = get ( column index ) ;  <NL> if ( o ! = null & & ! ( o instanceof boolean ) ) {  <NL> o = boolean . value of ( o . to string ( ) ) ;  <NL>  }  <NL> return o = = null ? false : ( ( boolean ) o ) . boolean value ( ) ;  <NL>  }  COM: <s> returns the value as a boolean </s>

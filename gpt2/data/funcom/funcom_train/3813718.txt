@@ -1,0 +1,1 @@
+TDAT: protected boolean equivalent node labels ( node n1 , node n2 ) {  <NL> return ( n1 . get word ( ) . equals ( n2 . get word ( ) ) & &  <NL>  ( n1 . get begin time ( ) = = n2 . get begin time ( ) & &  <NL> n1 . get end time ( ) = = n2 . get end time ( ) ) ) ;  <NL>  }  COM: <s> is the contents of these node equivalent </s>

@@ -1,0 +1,1 @@
+TDAT: public cursor get travels ( int travel _ id ) {  <NL> log . i ( tag , " get travel info " ) ;  <NL> string where = " _ id = " + travel _ id ;  <NL> return m db . query ( table _ name , new string [ ] { title , description , creator _ id } , where , null , null , null , null ) ;  <NL>  }  COM: <s> sql select from travel where id travel id </s>

@@ -1,0 +1,1 @@
+TDAT: public void calculate local inertia ( float mass , javax . vecmath . vector3f vector ) {  <NL> if ( c shape = = null ) {  <NL> return ;  <NL>  }  <NL> if ( this instanceof mesh collision shape ) {  <NL> vector . set ( 0 , 0 , 0 ) ;  <NL>  } else {  <NL> c shape . calculate local inertia ( mass , vector ) ;  <NL>  }  <NL>  }  COM: <s> used internally not safe </s>

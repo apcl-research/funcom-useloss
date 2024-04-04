@@ -1,0 +1,1 @@
+TDAT: public void test row index ( ) {  <NL> system . out . println ( " test row index " ) ;  <NL> assert equals ( 2 , tl . row index ( 10 ) ) ;  <NL> assert equals ( 2 , tl . row index ( 12 ) ) ;  <NL> assert equals ( 3 , tl . row index ( 13 ) ) ;  <NL> assert equals ( 3 , tl . row index ( 15 ) ) ;  <NL>  }  COM: <s> test of row index method of class puce </s>

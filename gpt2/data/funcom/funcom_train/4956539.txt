@@ -1,0 +1,1 @@
+TDAT: private void add header ( string name , string value ) {  <NL> list < string > value list = headers . get ( name ) ;  <NL> if ( value list = = null ) {  <NL> value list = new array list < string > ( 1 ) ;  <NL> headers . put ( name , value list ) ;  <NL>  }  <NL> value list . add ( value ) ;  <NL>  }  COM: <s> adds a header to the map </s>

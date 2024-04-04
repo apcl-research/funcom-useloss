@@ -1,0 +1,1 @@
+TDAT: public void work ( web view wv , string message , string target str ) {  <NL> if ( target str . equals ( " ej " ) || target str . equals ( " je " ) ) {  <NL> wv . load url ( " http : / / pipes . yahoo . com / poolmmjp / " + target str + " _ translation _ api ? _ render = rss & text = " + message ) ;  <NL>  }  <NL>  }  COM: <s> web view wv new web view this </s>

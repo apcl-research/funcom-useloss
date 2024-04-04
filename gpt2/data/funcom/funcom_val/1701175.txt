@@ -1,0 +1,1 @@
+TDAT: public boolean is record contained ( string pk column name , string value ) {  <NL> for ( int i = 0 ; i < this . get row count ( ) ; i + + ) {  <NL> string pk = ( string ) this . get value at ( i , pk column name ) ;  <NL> if ( value . equals ( pk ) )  <NL> return true ;  <NL>  }  <NL> return false ;  <NL>  }  COM: <s> see if a record already contained in the table </s>

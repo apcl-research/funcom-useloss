@@ -1,0 +1,1 @@
+TDAT: public void register class ( string name , url class url ) throws java . lang . exception {  <NL>  / / check defined interfaces ;  <NL>  / / check super calls <NL> this . set up class reader ( ) ;  <NL>  / / sp . parse xml file ( " base class . xml " ) ;  <NL> sp . parse xml file ( class url . to string ( ) ) ;  <NL>  }  COM: <s> register a class by a url </s>

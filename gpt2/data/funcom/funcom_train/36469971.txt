@@ -1,0 +1,1 @@
+TDAT: public void draw handle ( graphics g , int x , int y ) {  <NL> g . set draw op ( g . draw _ xor ) ;  <NL> pen p p = g . get pen ( ) ;  <NL> g . set pen ( penhandle ) ;  <NL> g . fill rect ( x - 2 , y - 2 , 5 , 5 ) ;  <NL> g . set draw op ( g . draw _ over ) ;  <NL> g . set pen ( p p ) ;  <NL>  }  COM: <s> draw the handle for a waypoint </s>

@@ -1,0 +1,1 @@
+TDAT: public void test _ stress ( ) {  <NL>  <NL> op gen = new op ( / /  <NL>  . 20f , / / append <NL>  . 01f , / / delete <NL>  . 05f , / / delete h <NL>  . 20f , / / write <NL>  . 10f , / / read <NL>  . 05f / / read h <NL>  ) ;  <NL>  <NL> new stress test ( repo , 100 / * limit * / , gen ) ;  <NL>  <NL>  }  COM: <s> a small stress test for a single file version </s>

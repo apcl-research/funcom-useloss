@@ -1,0 +1,1 @@
+TDAT: public void add xml tag ( hash map < string , string > data ) {  <NL> if ( data = = null ) return ;  <NL> if ( ! data . is empty ( ) ) {  <NL> for ( string key : data . key set ( ) ) {  <NL> add xml tag ( key ) ;  <NL> add content ( data . get ( key ) ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> adds a regular tag with key tag and value content it closes </s>

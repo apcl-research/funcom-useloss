@@ -1,0 +1,1 @@
+TDAT: public void set log format ( log format attribute format ) {  <NL> if ( " default " . equals ( format . get value ( ) ) ) {  <NL> set class name ( default _ reporter _ classname ) ;  <NL>  } else if ( " canoo " . equals ( format . get value ( ) ) ) {  <NL> set class name ( canoo _ reporter _ classname ) ;  <NL>  }  <NL>  }  COM: <s> sets the format of the reporter </s>

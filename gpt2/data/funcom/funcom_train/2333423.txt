@@ -1,0 +1,1 @@
+TDAT: protected boolean xhas sum of powers ( int from k , int to k ) {  <NL> if ( from k > to k )  <NL> throw new illegal argument exception ( " from k must be less or equal to to k " ) ;  <NL> return get min order for sum of powers ( ) < = from k & & to k < = get max order for sum of powers ( ) ;  <NL>  }  COM: <s> tells whether tt sum of powers from k </s>

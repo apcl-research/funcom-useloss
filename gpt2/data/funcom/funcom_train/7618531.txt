@@ -1,0 +1,1 @@
+TDAT: private void set search mode flags ( ) {  <NL> m badge label = ( 0 ! = ( m search mode & 4 ) ) ;  <NL> m badge icon = ( 0 ! = ( m search mode & 8 ) ) & & ( m icon id ! = 0 ) ;  <NL> m query rewrite from data = ( 0 ! = ( m search mode & 0x10 ) ) ;  <NL> m query rewrite from text = ( 0 ! = ( m search mode & 0x20 ) ) ;  <NL>  }  COM: <s> convert searchmode to flags </s>

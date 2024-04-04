@@ -1,0 +1,1 @@
+TDAT: private void generate load all object empty method ( print writer out ) {  <NL> out . append ( indent + " public static object set load all objects ( ) { " + new _ line ) ;  <NL> out . append ( indent + indent + " return null ; " + new _ line ) ;  <NL> out . append ( indent + " } " + new _ line + new _ line ) ;  <NL>  }  COM: <s> generate method load all object </s>

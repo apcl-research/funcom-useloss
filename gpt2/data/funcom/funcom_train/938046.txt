@@ -1,0 +1,1 @@
+TDAT: private void set showing year ( final int year ) {  <NL> showingyear = year ;  <NL> for ( int i = 0 ; i < months . length ; i + + ) {  <NL> cal . set time ( months [ i ] . get month ( ) ) ;  <NL> cal . set ( calendar . year , year ) ;  <NL> months [ i ] . set month ( cal . get time ( ) ) ;  <NL>  }  <NL> refresh selection ( ) ;  <NL>  }  COM: <s> sets the year shown </s>

@@ -1,0 +1,1 @@
+TDAT: public void add user to group ( ) {  <NL> if ( ( get message ( ) = = null ) || ( get message ( ) . length ( ) = = 0 ) ) {  <NL> group group = get group ( get event info ( ) . get group on approval ( ) ) ;  <NL> user user = portal med . get current user ( ) ;  <NL> user . add group ( group ) ;  <NL> user . save ( ) ;  <NL>  }  <NL>  }  COM: <s> adds the current user </s>

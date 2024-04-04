@@ -1,0 +1,1 @@
+TDAT: private int get int for type ( js type type ) {  <NL> if ( int for type . contains key ( type ) ) {  <NL> return int for type . get ( type ) . int value ( ) ;  <NL>  }  <NL> int new int = int for type . size ( ) + 1 ;  <NL> int for type . put ( type , new int ) ;  <NL> return new int ;  <NL>  }  COM: <s> returns an integer that uniquely identifies a jstype </s>

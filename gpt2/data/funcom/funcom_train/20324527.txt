@@ -1,0 +1,1 @@
+TDAT: public boolean is on screen ( word node n ) {  <NL> if ( n . position ( ) . x ( ) > top left x & & n . position ( ) . x ( ) < bottom right x <NL>  & & n . position ( ) . y ( ) > top left y <NL>  & & n . position ( ) . y ( ) < bottom right y ) {  <NL> return true ;  <NL>  }  <NL> return false ;  <NL>  }  COM: <s> checks if a given word node is on screen </s>

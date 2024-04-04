@@ -1,0 +1,1 @@
+TDAT: public void fill label values ( ) {  <NL> epochs . set text ( integer . to string ( som . get epochs ( ) ) ) ;  <NL> learning rate . set text ( double . to string ( som . get alpha ( ) ) ) ;  <NL> neighborhood size . set text ( double . to string ( som . get neighborhood size ( ) ) ) ;  <NL> update completed = true ;  <NL>  }  COM: <s> populate labels with current data </s>

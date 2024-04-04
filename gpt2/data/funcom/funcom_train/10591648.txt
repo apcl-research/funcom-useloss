@@ -1,0 +1,1 @@
+TDAT: public int hash code ( ) {  <NL>  / * this roughly does what string . hash code ( ) does ( if i got it right ) * /  <NL> int k = this . hash ;  <NL> if ( k = = 0 ) {  <NL> for ( int x = 0 ; x < array . length ; x + + ) k = 31 * k + array [ x ] ;  <NL> this . hash = k ;  <NL>  }  <NL> return ( k ) ;  <NL>  }  COM: <s> p return the hash code of this instance </s>

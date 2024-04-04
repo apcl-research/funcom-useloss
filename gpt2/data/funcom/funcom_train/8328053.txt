@@ -1,0 +1,1 @@
+TDAT: public void test format string locale ( ) {  <NL> check locale ( " es _ es " , " 1234 . 56 " , " 1 . 234 , 6 " , true ) ;  <NL> check locale ( " es _ mx " , " 1234 . 56 " , " 1 , 234 . 6 " , true ) ;  <NL> check locale ( " en _ us " , " 1234 . 56 " , " 1 , 234 . 6 " , true ) ;  <NL>  }  COM: <s> tests that measures are formatted using the connections locale </s>

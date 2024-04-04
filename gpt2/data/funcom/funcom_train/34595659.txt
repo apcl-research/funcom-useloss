@@ -1,0 +1,1 @@
+TDAT: public move list entry get transformed move ( pokemon p , move list entry entry ) {  <NL> pokemon move move = entry . get move ( ) ;  <NL> if ( move . get type ( ) . equals ( m _ type ) ) {  <NL> move . set power ( ( int ) ( ( double ) move . get power ( ) * m _ factor ) ) ;  <NL>  }  <NL> return entry ;  <NL>  }  COM: <s> boost the power of one type of move by 10 </s>

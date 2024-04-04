@@ -1,0 +1,1 @@
+TDAT: public void reset ( ) {  <NL> for ( int l = 0 ; l < w . length ; l + + ) {  <NL> for ( int i = 0 ; i < w [ l ] . length ; i + + ) {  <NL> for ( int j = 0 ; j < w [ l ] [ i ] . length ; j + + ) {  <NL> e [ l ] [ i ] [ j ] = 0 ;  <NL>  }  <NL> g [ l ] [ i ] = 0 ;  <NL>  }  <NL>  }  <NL> tact counter = 0 ;  <NL>  }  COM: <s> resets the gradients and eligibility traces </s>

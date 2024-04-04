@@ -1,0 +1,1 @@
+TDAT: public void end ( ) throws io exception {  <NL> string tag = ( string ) m _ tag stack . remove ( m _ tag stack . size ( ) - 1 ) ;  <NL> spacing ( ) ;  <NL> m _ out . write ( ' < ' ) ;  <NL> m _ out . write ( ' / ' ) ;  <NL> m _ out . write ( tag ) ;  <NL> m _ out . write ( ' > ' ) ;  <NL> writeln ( ) ;  <NL>  }  COM: <s> close the most recently opened tag </s>

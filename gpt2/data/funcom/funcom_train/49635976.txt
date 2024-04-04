@@ -1,0 +1,1 @@
+TDAT: private sort make default sorters ( boolean reverse ) {  <NL> normal sort = new sort ( new sort field ( field , sort field . type . string , false ) ) ;  <NL> reverse sort = new sort ( new sort field ( field , sort field . type . string , true ) ) ;  <NL> return reverse ? reverse sort : normal sort ;  <NL>  }  COM: <s> create default sorter </s>

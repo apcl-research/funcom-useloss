@@ -1,0 +1,1 @@
+TDAT: public void write bt state ( graphics g , string state ) {  <NL>  <NL> g . set color ( 0 , 0 , 0 ) ;  <NL> g . draw string ( state , this . get width ( ) - 20 , this . get height ( ) - 20 , graphics . top | graphics . right ) ;  <NL>  <NL>  }  COM: <s> from the code key sender code interface </s>

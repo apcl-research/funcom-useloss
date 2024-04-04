@@ -1,0 +1,1 @@
+TDAT: public void add ( molecule m , int num ) {  <NL> if ( m ! = null ) {  <NL> for ( map . entry < atom , integer > a : m . atoms . entry set ( ) )  <NL> this . add ( a . get key ( ) , num * a . get value ( ) ) ;  <NL> this . add positive charges ( num * m . charges ) ;  <NL>  }  <NL>  }  COM: <s> add code num code times the content of molecule </s>

@@ -1,0 +1,1 @@
+TDAT: public void log line ( logger logger , level level , string msg , boolean with stack trace ) {  <NL> string final msg = log message prefix + msg ;  <NL> if ( with stack trace ) {  <NL> logger . log ( level , final msg , new throwable ( ) ) ;  <NL>  } else {  <NL> logger . log ( level , final msg ) ;  <NL>  }  <NL>  }  COM: <s> directly log msg </s>

@@ -1,0 +1,1 @@
+TDAT: protected chat get chat for user ( string user id ) {  <NL> chat chat = chats . get ( user id ) ;  <NL> if ( chat = = null ) {  <NL> chat = get connection ( ) . get chat manager ( ) . create chat ( user id , null ) ;  <NL> chats . put ( user id , chat ) ;  <NL>  }  <NL> return chat ;  <NL>  }  COM: <s> returns a chat for a given user identifier </s>

@@ -1,0 +1,1 @@
+TDAT: private boolean may show context menu ( mouse event evt ) {  <NL> if ( evt . is popup trigger ( ) ) {  <NL> if ( _ context menu ! = null )  <NL>  _ context menu . show ( evt . get component ( ) ,  <NL> evt . get x ( ) , evt . get y ( ) ) ;  <NL> return true ;  <NL>  }  <NL> return false ;  <NL>  }  COM: <s> method may show context menu </s>

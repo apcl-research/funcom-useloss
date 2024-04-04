@@ -1,0 +1,1 @@
+TDAT: public void register hash algorithm ( int id , string jcename , string textname ) {  <NL> hash strings . put ( new integer ( id ) , jcename ) ;  <NL> if ( textname ! = null ) {  <NL> hash text names . put ( new integer ( id ) , textname ) ;  <NL> hash text names reverse . put ( textname , new integer ( id ) ) ;  <NL>  }  <NL>  }  COM: <s> register a new hash algorithm </s>

@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> string builder r = new string builder ( ) ;  <NL> r . append ( label ) ;  <NL> for ( int i = 0 ; i < size ; i + + ) {  <NL> r . append ( ' ' ) . append ( dim [ i ] ) . append ( ' : ' ) . append ( val [ i ] ) ;  <NL>  }  <NL> return ( r . to string ( ) ) ;  <NL>  }  COM: <s> returns a string representation in an svm light like format </s>

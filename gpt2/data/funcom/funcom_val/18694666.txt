@@ -1,0 +1,1 @@
+TDAT: public string get rdr set ( y specification id spec id , string handle ) throws io exception {  <NL> map < string , string > params = prepare param map ( " get rdr set " , handle ) ;  <NL> params . put all ( spec id . to map ( ) ) ;  <NL> return execute get ( _ ws uri , params ) ;  <NL>  }  COM: <s> gets a copy of a particular rule set </s>

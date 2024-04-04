@@ -1,0 +1,1 @@
+TDAT: public void add key store file ( string key file , string type , char [ ] password ) {  <NL> if ( key file ! = null ) {  <NL> file f = new file ( key file ) ;  <NL> if ( f ! = null & & f . exists ( ) ) {  <NL> add key store file ( f , type , password ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> adds a keystore file to the keystore management pool </s>

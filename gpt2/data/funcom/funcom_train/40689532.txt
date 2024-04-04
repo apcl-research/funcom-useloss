@@ -1,0 +1,1 @@
+TDAT: public void test to string ( ) {  <NL> string s = create sample ( ) . to string ( ) ;  <NL> assert true ( s . equals ( " { foo = [ 3 , - 1 , 2 , 4 , 1 ] , bar = [ 1 , 2 , 3 , 1 ] } " )  <NL> || s . equals ( " { bar = [ 1 , 2 , 3 , 1 ] , foo = [ 3 , - 1 , 2 , 4 , 1 ] } " ) ) ;  <NL>  }  COM: <s> test calling to string on the multimap which does not have a </s>

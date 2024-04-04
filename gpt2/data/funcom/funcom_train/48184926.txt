@@ -1,0 +1,1 @@
+TDAT: public void print lf alts ( ) {  <NL> for ( list < alt > alt set : edge factory . lf alts ) {  <NL> for ( alt alt : alt set ) {  <NL> out . print ( " alt [ " + alt . alt set + " . " + alt . num in set + " ] : " ) ;  <NL> out . println ( edge . to string ( alt . bitset ) ) ;  <NL>  }  <NL>  }  <NL> out . flush ( ) ;  <NL>  }  COM: <s> prints the lf alternatives </s>

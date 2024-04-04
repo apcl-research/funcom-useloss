@@ -1,0 +1,1 @@
+TDAT: public void state changed ( change event e ) {  <NL> object obj = e . get source ( ) ;  <NL> if ( obj . equals ( vp ) ) {  <NL> rectangle r = view port r . get bounds ( ) ;  <NL> view port changed core ( vp ) ;  <NL> r . add ( view port r . get bounds ( ) ) ;  <NL> r . grow ( 2 , 2 ) ;  <NL> repaint ( r ) ;  <NL>  }  <NL>  }  COM: <s> from the change listener interface </s>

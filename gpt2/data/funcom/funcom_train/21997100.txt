@@ -1,0 +1,1 @@
+TDAT: synchronized public void stop ( ) {  <NL> if ( worker _ thread ! = null ) {  <NL> log . warn ( " stop - interrupting worker thread " ) ;  <NL> keep _ running = false ;  <NL> worker _ thread = null ;  <NL>  }  <NL> else if ( log . is debug enabled ( ) )  <NL> log . debug ( thread _ name + " is not running , no need to stop " ) ;  <NL>  }  COM: <s> cease doing stuff </s>

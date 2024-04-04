@@ -1,0 +1,1 @@
+TDAT: public void copy record ( int from , int to , boolean trail ) {  <NL> if ( trail ) {  <NL> trail record ( to ) ;  <NL>  }  <NL> record info [ to ] = record info [ from ] ;  <NL> for ( int i = 0 ; i < fields . length ; i + + ) {  <NL> fields [ i ] . copy record ( from , to ) ;  <NL>  }  <NL>  }  COM: <s> copy record in block </s>

@@ -1,0 +1,1 @@
+TDAT: public void draw agent at if update ( located agent agent , int x , int y ) {  <NL> if ( agent . is update needed ( iterations per redraw ) ) {  <NL> for ( int i = 0 ; i < draw features . length ; i + + ) {  <NL>  ( ( draw feature ) draw features [ i ] ) . draw ( buffered graphics , agent , x , y ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> draw agent at if update </s>

@@ -1,0 +1,1 @@
+TDAT: public void set value at ( object value , int row , int col ) {  <NL> if ( col = = 0 )  <NL> data . set ( row , new string ( value . to string ( ) ) ) ;  <NL> else if ( col = = 1 )  <NL> types . set ( row , new string ( value . to string ( ) ) ) ;  <NL> fire table cell updated ( row , col ) ;  <NL>  }  COM: <s> we need to implement this method because our tables </s>

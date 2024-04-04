@@ -1,0 +1,1 @@
+TDAT: public void add ( string name , int [ ] value ) {  <NL> props . put ( name + " . length " , value . length ) ;  <NL> for ( int i = 1 ; i < value . length ; i + + ) {  <NL> int n = i - 1 ;  <NL> props . put ( name + " . " + n , value [ n ] ) ;  <NL>  }  <NL>  }  COM: <s> adds the int array property </s>

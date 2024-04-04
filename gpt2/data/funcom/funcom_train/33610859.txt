@@ -1,0 +1,1 @@
+TDAT: public void pan left ( ) {  <NL> line visometry lv = ( line visometry ) visometry ;  <NL> double new min = lv . get min point visible ( ) ;  <NL> double new max = lv . get max point visible ( ) ;  <NL> double shift = ( new max - new min ) / 10 . 0 ;  <NL> lv . set desired range ( new min - shift , new max - shift ) ;  <NL>  }  COM: <s> pans plot to the left </s>

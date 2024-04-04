@@ -1,0 +1,1 @@
+TDAT: public void paint ( graphics g ) {  <NL> super . paint ( g ) ;  <NL> dimension dimension = get size ( ) ;  <NL> g . draw image ( m _ pr image , 0 , 0 , null ) ;  <NL> log . log ( level . finest , " splash window8 " ) ;  <NL> g . draw rect ( 0 , 0 , dimension . width - 1 , dimension . height - 1 ) ;  <NL>  }  COM: <s> gets called to paint the frame </s>

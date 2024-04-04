@@ -1,0 +1,1 @@
+TDAT: private void emit reg off reg operands ( byte index , short scale , int disp , byte reg2 ) {  <NL> set machine codes ( mi + + , reg indirect reg mod rm ( ( byte ) 0x4 , reg2 ) ) ;  <NL> set machine codes ( mi + + , sib ( scale , ( byte ) 0x5 , index ) ) ;  <NL> emit imm32 ( disp ) ;  <NL>  }  COM: <s> generate the appropriate bytes into the generated code to denote </s>

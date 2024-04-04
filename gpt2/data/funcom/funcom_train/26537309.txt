@@ -1,0 +1,1 @@
+TDAT: private void save user values ( ) {  <NL> preferences prefs = preferences . user root ( ) . node ( user _ values _ prefs _ node ) ;  <NL> for ( int i = 0 ; i < user _ value _ items . length ; i + + ) {  <NL> maybe save user value ( prefs , user _ value _ items [ i ] ) ;  <NL>  }  <NL>  }  COM: <s> write user selected values into the java preferences so future </s>

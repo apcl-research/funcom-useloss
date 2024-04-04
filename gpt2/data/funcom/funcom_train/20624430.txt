@@ -1,0 +1,1 @@
+TDAT: private void dfs ( ) {  <NL> for ( int i = 0 ; i < adj _ graph . length ; i + + ) {  <NL> int [ ] tmp = adj _ graph [ i ] ;  <NL> if ( ! visited ( tmp [ 0 ] ) ) {  <NL> visit dfs ( tmp [ 0 ] ) ;  <NL>  } / / end of if ( )  <NL>  } / / end of for ( )  <NL>  }  COM: <s> dfs is the driver for the first pass depth first search that </s>

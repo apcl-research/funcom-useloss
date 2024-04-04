@@ -1,0 +1,1 @@
+TDAT: public void paint icon ( component comp , graphics g , int x , int y ) {  <NL> g . set color ( color . red ) ;  <NL> for ( int i = 0 ; i < thickness ; i + + ) {  <NL> g . draw line ( x + i , y , x + width + i , y + height ) ;  <NL> g . draw line ( x + i , y + height , x + width + i , y ) ;  <NL>  }  <NL>  }  COM: <s> draws the x </s>

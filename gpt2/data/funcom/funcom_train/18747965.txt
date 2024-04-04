@@ -1,0 +1,1 @@
+TDAT: private void propagate ( node key , node image ) {  <NL> extend ( get pos label edge map ( key ) , get pos edge set ( graph , image ) , true ) ;  <NL> extend ( get inv label edge map ( key ) , get inv edge set ( graph , image ) , false ) ;  <NL>  }  COM: <s> propagates a previously made extension to the matchings by also matching the outgoing </s>

@@ -1,0 +1,1 @@
+TDAT: public void add ( object [ ] [ ] newdata , int length ) {  <NL> if ( length < 1 ) return ;  <NL>  / / add to query matches <NL> ensure capacity ( last + length + 2 ) ;  <NL> system . arraycopy ( newdata , 0 , data , last + 1 , length ) ;  <NL> last + = length ;  <NL>  }  COM: <s> experimental adds input array to this table </s>

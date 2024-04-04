@@ -1,0 +1,1 @@
+TDAT: private int find existed cell ( point p , vector < drawing bean > v ) {  <NL> for ( int i = 0 ; i < v . size ( ) ; i + + ) {  <NL> if ( p . x = = v . get ( i ) . get point ( ) . x & & p . y = = v . get ( i ) . get point ( ) . y ) {  <NL> return i ;  <NL>  }  <NL>  }  <NL> return - 1 ;  <NL>  }  COM: <s> finds the index of a specified cell in a given vector </s>

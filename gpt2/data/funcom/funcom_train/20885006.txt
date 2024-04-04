@@ -1,0 +1,1 @@
+TDAT: public void test length ( ) {  <NL> validator test util . check ( xml , new length dto ( " ab " ) , invalid ) ;  <NL> validator test util . check ( xml , new length dto ( " abcd " ) , invalid ) ;  <NL> validator test util . check ( xml , new length dto ( " abc " ) , valid ) ;  <NL>  }  COM: <s> tests the constraint length </s>

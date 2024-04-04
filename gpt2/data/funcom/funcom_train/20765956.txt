@@ -1,0 +1,1 @@
+TDAT: public void draw ( gl auto drawable drawable ) {  <NL> gl gl = drawable . get gl ( ) ; / / when we get this we are already set up with scale 1 = 1 pixel , at ll corner <NL>  <NL> gl . gl color3f ( 1 , 1 , 1 ) ;  <NL> gl . gl rectf ( x , y , x + 1 , y + 1 ) ;  <NL>  }  COM: <s> draws this event by some standardized method that will depend on </s>

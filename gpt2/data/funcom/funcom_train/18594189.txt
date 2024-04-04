@@ -1,0 +1,1 @@
+TDAT: private color mix colors ( color c1 , color c2 ) {  <NL> return new color ( ( c1 . get red ( ) + c2 . get red ( ) ) / 2 ,  <NL>  ( c1 . get green ( ) + c2 . get green ( ) ) / 2 ,  <NL>  ( c1 . get blue ( ) + c2 . get blue ( ) ) / 2 ) ;  <NL>  }  COM: <s> provide a color that is a mix of the two given colors </s>

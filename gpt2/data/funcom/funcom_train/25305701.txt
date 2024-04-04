@@ -1,0 +1,1 @@
+TDAT: public boolean delete task ( string sva task id ) {  <NL> boolean ok = false ;  <NL> sva task model model = this . store sva task . get ( sva task id ) ;  <NL> if ( model ! = null ) {  <NL> this . store sva task . delete ( model ) ;  <NL> this . tasks map . remove ( sva task id ) ;  <NL> ok = true ;  <NL>  }  <NL> return ok ;  <NL>  }  COM: <s> delete a task </s>

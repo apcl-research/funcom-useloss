@@ -1,0 +1,1 @@
+TDAT: public reference get reference ( int x ) {  <NL> vector refs = new vector ( references . values ( ) ) ;  <NL> if ( x < this . count ( ) ) {  <NL> return ( reference ) refs . element at ( x ) ;  <NL>  } else {  <NL> logger . error ( " requested reference " + x + " does not exist ! " ) ;  <NL> return null ;  <NL>  }  <NL>  }  COM: <s> get the xth reference </s>

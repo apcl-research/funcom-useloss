@@ -1,0 +1,1 @@
+TDAT: private void deal community cards ( string phase name , int no of cards ) {  <NL> for ( int i = 0 ; i < no of cards ; i + + ) {  <NL> board . add ( deck . deal ( ) ) ;  <NL>  }  <NL> notify players updated ( ) ;  <NL> notify message ( " % s deals the % s . " , dealer , phase name ) ;  <NL>  }  COM: <s> deals a number of community cards </s>

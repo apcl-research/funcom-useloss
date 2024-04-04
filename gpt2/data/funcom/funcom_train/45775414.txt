@@ -1,0 +1,1 @@
+TDAT: public void set enabled ( boolean enabled ) {  <NL> boolean b = enabled ? boolean . true : boolean . false ;  <NL> uno dialog2 . set enabled ( label , b ) ;  <NL> uno dialog2 . set enabled ( textbox , b ) ;  <NL> uno dialog2 . set enabled ( combobox , b ) ;  <NL> uno dialog2 . set enabled ( timebox , b ) ;  <NL>  }  COM: <s> enables disables the row </s>

@@ -1,0 +1,1 @@
+TDAT: public void size ( int width , int height ) {  <NL> if ( running ) return ;  <NL> effect we = new effect ( elem , " width " , my dom . get width ( elem ) , width ) ;  <NL> effect he = new effect ( elem , " height " , my dom . get height ( elem ) , height ) ;  <NL> start ( new effect [ ] { we , he } ) ;  <NL>  }  COM: <s> changes the size of the element </s>

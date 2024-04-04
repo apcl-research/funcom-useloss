@@ -1,0 +1,1 @@
+TDAT: protected void draw oval ( float rw , float rh , stroke stroke , color color ) {  <NL> shape s = new java . awt . geom . ellipse2d . float ( cx - rw , cy - rh , rw * 2 , rh * 2 ) ;  <NL> draw ( s , stroke , color ) ;  <NL>  }  COM: <s> draw a circle or an ellipse </s>

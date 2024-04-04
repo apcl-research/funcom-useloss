@@ -1,0 +1,1 @@
+TDAT: public void show genres ( ) throws db exception {  <NL> db iterator res ;  <NL>  <NL> if ( ! is initialized ( ) )  <NL> init ( ) ;  <NL> res = prv . get genres ( null , null ) . iterator ( ) ;  <NL> table utils . fill sorted table ( tab genre list , res , genre indexes , 0 ) ;  <NL> init genre table sizes ( ) ;  <NL>  }  COM: <s> displays the genre list </s>

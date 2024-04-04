@@ -1,0 +1,1 @@
+TDAT: public unicode set compact ( ) {  <NL> check frozen ( ) ;  <NL> if ( len ! = list . length ) {  <NL> int [ ] temp = new int [ len ] ;  <NL> system . arraycopy ( list , 0 , temp , 0 , len ) ;  <NL> list = temp ;  <NL>  }  <NL> range list = null ;  <NL> buffer = null ;  <NL> return this ;  <NL>  }  COM: <s> reallocate this objects internal structures to take up the least </s>

@@ -1,0 +1,1 @@
+TDAT: public color get color ( int percent ) {  <NL> color out = null ;  <NL> percent = percent % 101 ;  <NL> if ( get int ( 1 , 100 ) < = percent ) {  <NL> out = new color ( null , get int ( 0 , 255 ) , get int ( 0 , 255 ) , get int ( 0 , 255 ) ) ;  <NL>  }  <NL> return out ;  <NL>  }  COM: <s> gets the color </s>

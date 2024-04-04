@@ -1,0 +1,1 @@
+TDAT: public array create array of ( string type name , object [ ] elements ) throws sql exception <NL>  {  <NL> return ( array ) call method rtn obj ( " create array of " ,  <NL> new class [ ] { string . class , object [ ] . class } ,  <NL> new object [ ] { type name , elements } ) ;  <NL>  }  COM: <s> factory method for creating array objects </s>

@@ -1,0 +1,1 @@
+TDAT: protected void set up ( ) throws exception {  <NL> super . set up ( ) ;  <NL> heap = new max heap ( ) ;  <NL> collection = heap ;  <NL> i test = new test int [ 15 ] ;  <NL> for ( int i = 0 ; i < i test . length ; i + + ) {  <NL> i test [ i ] = new test int ( i ) ;  <NL>  }  <NL>  }  COM: <s> sets up the max heap as a new empty heap </s>

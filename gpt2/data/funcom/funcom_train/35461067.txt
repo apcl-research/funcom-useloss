@@ -1,0 +1,1 @@
+TDAT: public void test structure with two items ( ) {  <NL> assert equals ( " [ name : a , alignment : halfword , offset : 1 , length : 3 , padding : 0 ] " ,  <NL> map minor structure ( " dcl 1 a , 2 b char ( 1 ) , 2 c bin fixed ( 15 ) ; " ) ) ;  <NL>  }  COM: <s> map a structure with a two item </s>

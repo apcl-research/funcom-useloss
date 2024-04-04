@@ -1,0 +1,1 @@
+TDAT: public int compare ( final time stamp t1 , final time stamp t2 ) {  <NL> if ( t1 . get time in millis ( ) < t2 . get time in millis ( ) ) {  <NL> return - 1 ;  <NL>  }  <NL> if ( t1 . get time in millis ( ) > t2 . get time in millis ( ) ) {  <NL> return 1 ;  <NL>  }  <NL> return 0 ;  <NL>  }  COM: <s> implementation of the comparator interface </s>

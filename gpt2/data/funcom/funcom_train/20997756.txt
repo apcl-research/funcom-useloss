@@ -1,0 +1,1 @@
+TDAT: public simple vector center ( ) {  <NL> logger . print ( d _ id ( ) + " . center ( ) " , true ) ;  <NL> simple vector temp = new simple vector ( x1 + ( x2 - x1 ) / 2 , y1 + ( y2 - y1 ) / 2 ) ;  <NL> logger . print ( d _ id ( ) + " . center ( ) " , false ) ;  <NL> return temp ;  <NL>  }  COM: <s> gets a simple vector pointing to the center of this rectangle </s>

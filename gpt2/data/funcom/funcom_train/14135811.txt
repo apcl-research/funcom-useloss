@@ -1,0 +1,1 @@
+TDAT: private string get random word ( int length ) {  <NL> string buffer str = new string buffer ( ) ;  <NL> for ( int i = 0 ; i < length ; i + + ) {  <NL> if ( ( i % 2 ) = = 0 ) str . append ( get random consonant ( ) ) ;  <NL> if ( ( i % 2 ) ! = 0 ) str . append ( get random vocal ( ) ) ;  <NL>  }  <NL> return str . to string ( ) ;  <NL>  }  COM: <s> returns a random word </s>

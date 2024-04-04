@@ -1,0 +1,1 @@
+TDAT: public void add listener ( i wlan listener l ) {  <NL> if ( debug ) {  <NL> system . out . println ( " " + l . get class ( ) . get name ( ) + " added to " + get class ( ) . get name ( ) ) ;  <NL>  }  <NL> listeners . add element ( l ) ;  <NL> l . on change ( old event ) ;  <NL>  }  COM: <s> adds a listener to be informed on new events observer pattern </s>

@@ -1,0 +1,1 @@
+TDAT: public string to simplified equation ( ) {  <NL> string s ;  <NL> int j ;  <NL> s = " simplified neuron ( " ;  <NL> for ( j = 0 ; j < inputs ; j + + )  <NL> s + = f [ j ] . to equation ( ) + ( ( j < inputs - 1 ) ? " , " : " " ) ;  <NL> return s + " ) " ;  <NL>  }  COM: <s> returns transfer function of the unit in the text form </s>

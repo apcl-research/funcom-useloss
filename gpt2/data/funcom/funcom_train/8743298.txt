@@ -1,0 +1,1 @@
+TDAT: public string sample species as csv ( string filter , string [ ] layers , simple region region , array list < occurrence record numbers > records , int max _ rows ) {  <NL> return sample species as csv ( filter , layers , region , records , max _ rows , null ) ;  <NL>  }  COM: <s> gets samples occurrences records optional intersecting layer values </s>

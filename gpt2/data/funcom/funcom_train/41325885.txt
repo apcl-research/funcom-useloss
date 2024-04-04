@@ -1,0 +1,1 @@
+TDAT: protected void check ( int index ) {  <NL> if ( index < 0 )  <NL> throw new index out of bounds exception ( " index is negative ( " + index <NL>  + " ) " ) ;  <NL> if ( index > = size )  <NL> throw new index out of bounds exception ( " index > = size ( " + index <NL>  + " > = " + size + " ) " ) ;  <NL>  }  COM: <s> checks the index </s>

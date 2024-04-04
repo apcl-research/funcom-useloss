@@ -1,0 +1,1 @@
+TDAT: private void set local tag ( string mytag ) {  <NL> if ( sip stack . is logging enabled ( ) ) {  <NL> sip stack . get stack logger ( ) . log debug ( " set local tag " + mytag + " " + this . dialog id ) ;  <NL> sip stack . get stack logger ( ) . log stack trace ( ) ;  <NL>  }  <NL>  <NL> this . my tag = mytag ;  <NL>  <NL>  }  COM: <s> set local tag for the transaction </s>

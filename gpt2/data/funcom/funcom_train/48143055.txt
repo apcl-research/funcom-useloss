@@ -1,0 +1,1 @@
+TDAT: public double matrix scalar multiply ( final double x ) {  <NL> final double array [ ] = new double [ num rows ] ;  <NL> array [ 0 ] = x * diag [ 0 ] ;  <NL> for ( int i = 1 ; i < num rows ; i + + )  <NL> array [ i ] = x * diag [ i ] ;  <NL> return new double diagonal matrix ( array ) ;  <NL>  }  COM: <s> returns the multiplication of this matrix by a scalar </s>

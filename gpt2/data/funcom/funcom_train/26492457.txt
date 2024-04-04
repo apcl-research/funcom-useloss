@@ -1,0 +1,1 @@
+TDAT: public void set second link ( string name2 , string url2 , string description2 , int language2 , string url2web ) {  <NL> this . second link = new object submitted site ( this . id , name2 , this . cid , url2 , description2 , this . userid , this . date , language2 , url2web ) ;  <NL>  }  COM: <s> set the second link submitted by the potential editor </s>

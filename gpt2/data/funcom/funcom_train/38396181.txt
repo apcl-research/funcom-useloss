@@ -1,0 +1,1 @@
+TDAT: static public double filter bell ( double x ) {  <NL> if ( x < 0 ) x = - x ;  <NL> if ( x < . 5 ) {  <NL> return . 75 - ( x * x ) ;  <NL>  }  <NL> if ( x < 1 . 5 ) {  <NL> x = x - 1 . 5 ;  <NL> return . 5 * ( x * x ) ;  <NL>  }  <NL> return 0 . ;  <NL>  }  COM: <s> bell filter used in interpolation </s>

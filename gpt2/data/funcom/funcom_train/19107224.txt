@@ -1,0 +1,1 @@
+TDAT: public song get song ( string p id ) {  <NL> song song = ( song ) m id2songs . get ( p id ) ;  <NL> if ( song = = null ) {  <NL> model songs model = song manager app . get model ( ) ;  <NL> song = new song ( model , model . get song ( p id ) ) ;  <NL> m id2songs . put ( p id , song ) ;  <NL>  }  <NL> return song ;  <NL>  }  COM: <s> gets a song </s>

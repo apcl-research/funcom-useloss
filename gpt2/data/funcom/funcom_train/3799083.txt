@@ -1,0 +1,1 @@
+TDAT: public void translate ( float x , float y , float z ) {  <NL> matrix4f matrix = new matrix4f ( 1 , 0 , 0 , x ,  <NL> 0 , 1 , 0 , y ,  <NL> 0 , 0 , 1 , z ,  <NL> 0 , 0 , 0 , 1 ) ;  <NL> m4current transform . mul ( matrix ) ;  <NL>  }  COM: <s> applies a translation to the current transformation </s>

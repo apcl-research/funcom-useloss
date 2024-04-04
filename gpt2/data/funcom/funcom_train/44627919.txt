@@ -1,0 +1,1 @@
+TDAT: @ test public void test harness6 ( ) {  <NL> help failure ( " endpos for token 0 expected : < 2 > but was : < 1 > " ,  <NL>  " a " , new enum < ? > [ ] { identifier , eof } , new int [ ] { 0 , 2 , 3 , 4 } , 0 ) ;  <NL>  }  COM: <s> this tests that the test harness fails if wrong end position is given </s>

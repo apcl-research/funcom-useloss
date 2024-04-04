@@ -1,0 +1,1 @@
+TDAT: public void test datagen ( )  <NL>  {  <NL> string args [ ] = { " derd . xml " } ;  <NL> system . out . println ( " running tests . " ) ;  <NL> assert equals ( datagen . run ( args ) , 0 ) ;  <NL> args [ 0 ] = " " ;  <NL> assert equals ( datagen . run ( args ) , 1 ) ;  <NL>  }  COM: <s> test the return result from datagen using </s>

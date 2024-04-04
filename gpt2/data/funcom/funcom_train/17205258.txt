@@ -1,0 +1,1 @@
+TDAT: public void set all final static jtoc entries ( ) {  <NL> if ( vm . verify assertions ) vm . _ assert ( is initialized ( ) ) ;  <NL> for ( rvm field f : get static fields ( ) ) {  <NL> if ( f . is final ( ) ) {  <NL> set final static jtoc entry ( f , f . get offset ( ) ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> copy the values of all static final fields into </s>

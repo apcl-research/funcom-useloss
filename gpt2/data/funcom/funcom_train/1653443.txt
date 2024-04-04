@@ -1,0 +1,1 @@
+TDAT: public void test simple field set put and get _ no multi level ( ) {  <NL> string [ ] [ ] method pairs array = {  <NL>  { " a " , " a " } , { " b " , " b " } , { " c " , " c " } , { " d " , " d " } , { " e " , " e " } , { " f " , " f " } } ;  <NL> assert true ( check put and get pairs ( method pairs array ) ) ;  <NL>  }  COM: <s> tests put and get methods </s>

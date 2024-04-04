@@ -1,0 +1,1 @@
+TDAT: public object value _ at ( int position _ ref ) {  <NL> if ( ( position _ ref < i array _ data . size ( ) ) & & ( position _ ref < i values _ in ) & &  <NL>  ( position _ ref > = 0 ) ) {  <NL> return i array _ data . element at ( position _ ref ) ;  <NL>  } else {  <NL> return null ;  <NL>  }  <NL>  }  COM: <s> returns the value of the array at position ref </s>

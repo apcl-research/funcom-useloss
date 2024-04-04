@@ -1,0 +1,1 @@
+TDAT: public void update totals ( ) {  <NL> string temp = songs . size ( ) > 0 ? " songs : " + songs . size ( ) + " total size : " + songs . get total size ( ) : " empty playlist " ;  <NL> info label . set text ( temp ) ;  <NL> send button . set enabled ( songs . size ( ) > 0 ) ;  <NL>  }  COM: <s> updates the total number of songs and the size of the playlist and </s>

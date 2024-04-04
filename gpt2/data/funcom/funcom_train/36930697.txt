@@ -1,0 +1,1 @@
+TDAT: public cc vector3i cross ( final cc vector3i i _ vector ) {  <NL> return new cc vector3i (  <NL> y ( ) * i _ vector . z ( ) - z ( ) * i _ vector . y ( ) ,  <NL> z ( ) * i _ vector . x - x * i _ vector . z ( ) ,  <NL> x * i _ vector . y ( ) - y ( ) * i _ vector . x <NL>  ) ;  <NL>  }  COM: <s> returns the cross product of two vectors </s>

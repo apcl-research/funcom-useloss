@@ -1,0 +1,1 @@
+TDAT: protected void draw double connection ( int x1 , int y1 , int x2 , int y2 , graphics g ) {  <NL> if ( map ! = null ) {  <NL> draw double connection ( x1 , y1 , x2 , y2 , 1 , trans base settings . size double , g ) ;  <NL>  }  <NL>  }  COM: <s> draw the double connection between two points </s>

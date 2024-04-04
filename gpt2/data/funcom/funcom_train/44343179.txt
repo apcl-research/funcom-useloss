@@ -1,0 +1,1 @@
+TDAT: public boolean partial contract ( cg g1 , concept e1 , cg g2 , concept e2 ) {  <NL> if ( match ( partial _ subsume , g1 , e1 , null , g2 , e2 , null ) ! = null ) {  <NL> contract ( null , g2 , null ) ;  <NL> return true ;  <NL>  }  <NL> else <NL> return false ;  <NL>  }  COM: <s> unlike complete contract which checks first that g1 subsumes g2 </s>

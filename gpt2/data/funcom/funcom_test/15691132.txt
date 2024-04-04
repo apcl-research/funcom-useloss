@@ -1,0 +1,1 @@
+TDAT: private string read utf ( data input din ) throws io exception {  <NL> int length = din . read unsigned short ( ) ;  <NL> char [ ] chars = new char [ length ] ;  <NL> length = data io . read utf ( din , chars , 0 , length ) ;  <NL> return new string ( chars , 0 , length ) ;  <NL>  }  COM: <s> reads string length as number of characters </s>

@@ -1,0 +1,1 @@
+TDAT: public boolean run ( byte [ ] s , int offset , int length ) {  <NL> int p = initial ;  <NL> int l = offset + length ;  <NL> for ( int i = offset ; i < l ; i + + ) {  <NL> p = step ( p , s [ i ] & 0x ff ) ;  <NL> if ( p = = - 1 ) return false ;  <NL>  }  <NL> return accept [ p ] ;  <NL>  }  COM: <s> returns true if the given byte array is accepted by this automaton </s>

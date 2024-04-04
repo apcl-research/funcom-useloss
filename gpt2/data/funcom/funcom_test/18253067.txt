@@ -1,0 +1,1 @@
+TDAT: public long delete entities ( table table ) throws sql exception {  <NL> return session . execute update (  <NL>  " delete from " + sql dialect . dml table reference ( entity , session ) + " " +  <NL>  " where r _ entitygraph = " + graph id + " and " +  <NL>  " type = ' " + table . get name ( ) + " ' " ) ;  <NL>  }  COM: <s> deletes all entities from a given table </s>

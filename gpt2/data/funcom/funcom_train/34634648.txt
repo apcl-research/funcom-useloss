@@ -1,0 +1,1 @@
+TDAT: public int undo ( ) {  <NL> int ret = 0 ;  <NL> for ( int i = this . edits . size ( ) - 1 ; i > = 0 ; i - - ) {  <NL> i undoable edit edit = ( i undoable edit ) this . edits . get ( i ) ;  <NL> int j = edit . undo ( ) ;  <NL> if ( j > 0 )  <NL> ret + = j ;  <NL>  }  <NL> return ret ;  <NL>  }  COM: <s> calls undo on each contained edit in reverse order from which they </s>

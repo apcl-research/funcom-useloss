@@ -1,0 +1,1 @@
+TDAT: protected boolean check for lumps ( string [ ] name , wad loader w ) {  <NL> for ( int i = 0 ; i < name . length ; i + + )  <NL> if ( w . check num for name ( name [ i ] . to upper case ( ) ) < 0 ) {  <NL>  / / even one is missing ? not ok .  <NL> return false ;  <NL>  }  <NL> return true ;  <NL>  }  COM: <s> check if all of the lumps exist </s>

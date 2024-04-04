@@ -1,0 +1,1 @@
+TDAT: private string read href name ( input stream reader is ) throws exception {  <NL>  / / the stream is at first char after > . we just read the string until we find " < / a > "  <NL> string ret = read string ( is , ( char ) 0 , " < / a > " , false ) ;  <NL> return ret ;  <NL>  }  COM: <s> simplified parser to find blabla of a a href xyz blablabla a statement </s>

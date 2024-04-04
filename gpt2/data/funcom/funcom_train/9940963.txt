@@ -1,0 +1,1 @@
+TDAT: public string get update atribute string ( ) {  <NL> return ( day of week ! = null ? day of week : " x " ) + " _ " +  <NL>  ( day of month ! = - 1 ? day of month : " x " ) + " _ " +  <NL>  ( month ! = null ? month : " x " ) + " _ " +  <NL>  ( hour ! = - 1 & & minute ! = - 1 ? hour + " : " + minute : " x " ) ;  <NL>  }  COM: <s> gets the update atribute string </s>

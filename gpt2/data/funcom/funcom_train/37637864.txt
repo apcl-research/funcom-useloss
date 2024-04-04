@@ -1,0 +1,1 @@
+TDAT: public void fire grid rows inserted ( int first row , int last row ) {  <NL> grid model event e =  <NL> new grid model event (  <NL> this ,  <NL> grid model event . rows _ inserted ,  <NL> first row ,  <NL> 0 ,  <NL> last row ,  <NL> get column count ( ) - 1 ) ;  <NL> fire grid changed ( e ) ;  <NL>  }  COM: <s> notifies all code grid model listeners code that </s>

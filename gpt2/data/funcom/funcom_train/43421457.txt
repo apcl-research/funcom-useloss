@@ -1,0 +1,1 @@
+TDAT: private void compute steps ( ) {  <NL> compute max min y ( ) ;  <NL> x step = ( get bounds ( ) . width - inset _ left - inset _ right ) / ( double ) days . size ( ) ;  <NL> y step = ( get bounds ( ) . height - inset _ top - inset _ bottom ) / ( double ) ( max value y - min value y ) ;  <NL>  }  COM: <s> computes both x and y steps based on days and type of chart </s>

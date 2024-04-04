@@ -1,0 +1,1 @@
+TDAT: public string get view text ( ) {  <NL> string list = " " ;  <NL> for ( int i = 0 ; i < m regions . size ( ) ; i + + ) {  <NL> content region region = ( content region ) ( m regions . get ( i ) ) ;  <NL> list = list + m content . get content string ( region ) ;  <NL>  }  <NL> return list ;  <NL>  }  COM: <s> gets the text of this view </s>

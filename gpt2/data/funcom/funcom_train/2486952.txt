@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> return " < font class = ' file " + ( first file ? " 1 " : " 2 " ) + " - code ' > " +  <NL>  ( first file ? " & lt ; " : " & gt ; " ) + html encoder . encode ( get line ( ) ) + " < / font > < br > " ;  <NL>  }  COM: <s> by default this renders a html result </s>

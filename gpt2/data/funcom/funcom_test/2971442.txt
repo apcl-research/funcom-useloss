@@ -1,0 +1,1 @@
+TDAT: public fm sample get fm sample position no ( int pos no ) {  <NL> fm sample fms ;  <NL> for ( int i = 0 ; i < sample arr . size ( ) ; i + + ) {  <NL> fms = ( fm sample ) sample arr . get ( i ) ;  <NL> if ( fms . get position ( ) = = pos no )  <NL> return fms ;  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> get the fmsample object that is stored at position pos no </s>

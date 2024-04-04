@@ -1,0 +1,1 @@
+TDAT: public void test property set ( ) {  <NL> expect ( " a > a ; \\p { lu } > x ; \\p { any } > y ; " , " abc def " , " ayyxxx " ) ;  <NL> expect ( " ( . + ) > ' [ ' $ 1 ' ] ' ; " , " a stitch \n in time \r saves 9 " ,  <NL>  " [ a stitch ] \n [ in time ] \r [ saves 9 ] " ) ;  <NL>  }  COM: <s> test new property set syntax </s>

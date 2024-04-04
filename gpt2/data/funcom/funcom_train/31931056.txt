@@ -1,0 +1,1 @@
+TDAT: private void append list ( string label , list < string > list , string indent ) {  <NL> for ( int i = 0 ; i < list . size ( ) ; i + + ) {  <NL> m _ trace <NL>  . append ( lines ( ( i = = 0 ? label : empty _ label ) , list . get ( i ) , indent ) ) ;  <NL>  }  <NL>  }  COM: <s> append information about the given code list code each element of which </s>

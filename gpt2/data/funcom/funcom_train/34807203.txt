@@ -1,0 +1,1 @@
+TDAT: private string get property value ( element property ) {  <NL> node list nodes = property . get elements by tag name ( " value " ) ;  <NL> if ( nodes = = null || nodes . get length ( ) = = 0 ) {  <NL> return " " ;  <NL>  }  <NL> element value = ( element ) nodes . item ( 0 ) ;  <NL> return value . get text content ( ) ;  <NL>  }  COM: <s> get property value </s>

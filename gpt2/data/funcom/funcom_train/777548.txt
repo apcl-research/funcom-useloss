@@ -1,0 +1,1 @@
+TDAT: public void test stack trace and err msg ( ) {  <NL> throwable t = new throwable ( ) ;  <NL> string st = throwable util . stack trace ( t ) ;  <NL> final string foo = " foo " ;  <NL> string em = throwable util . err msg ( foo , t ) ;  <NL> assert equals ( foo + ' \n ' + st , em ) ;  <NL>  }  COM: <s> test getting stack trace as text and creating error message </s>

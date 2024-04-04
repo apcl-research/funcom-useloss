@@ -1,0 +1,1 @@
+TDAT: public void test get creation ( ) throws sax exception , io exception {  <NL> creation handler impl h1 = new creation handler impl ( ) ;  <NL> assert null ( " initial " , h1 . get creation ( ) ) ;  <NL> parse ( " < creation / > " , h1 ) ;  <NL> assert not null ( " parsed " , h1 . get creation ( ) ) ;  <NL>  }  COM: <s> test of get creation method of class saga </s>

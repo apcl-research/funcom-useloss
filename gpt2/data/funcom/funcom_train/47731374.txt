@@ -1,0 +1,1 @@
+TDAT: public void parse ( file f ) throws io exception , index exception {  <NL> log . debug ( " parse new file : " + f . get absolute path ( ) ) ;  <NL> source file = f . get absolute path ( ) ;  <NL> buffered reader bf = new buffered reader ( new file reader ( f ) ) ;  <NL> this . parse ( bf ) ;  <NL> bf . close ( ) ;  <NL>  }  COM: <s> parse an input file </s>

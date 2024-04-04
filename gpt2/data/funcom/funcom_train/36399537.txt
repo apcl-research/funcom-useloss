@@ -1,0 +1,1 @@
+TDAT: private void create file structure ( byte [ ] fs ) throws card service exception {  <NL> command apdu c = new command apdu ( 0 , ins _ putdata , 0x69 , 0x00 , fs ) ;  <NL> response apdu r = service . transmit ( c ) ;  <NL> check sw ( r , " create file structure failed : " ) ;  <NL>  }  COM: <s> creates the file structure in the applet </s>

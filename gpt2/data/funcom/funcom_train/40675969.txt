@@ -1,0 +1,1 @@
+TDAT: public void set persistence unit ( string unit ) {  <NL> if ( unit ! = null & & unit . length ( ) > 0 ) {  <NL> create arg ( ) . set value ( " - persistence unit " ) ;  <NL> create arg ( ) . set value ( unit ) ;  <NL> log ( " enhancer persistence unit : " + unit , project . msg _ verbose ) ;  <NL>  }  <NL>  }  COM: <s> set the persistence unit name to enhance </s>

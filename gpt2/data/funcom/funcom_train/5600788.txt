@@ -1,0 +1,1 @@
+TDAT: public void set service ( final string service , final string version ) throws web service exception {  <NL> service serv = ( service ! = null ) ? service . value of ( service . trim ( ) . to upper case ( ) ) : null ;  <NL> this . version = ( version ! = null ) ? new service version ( serv , version ) : null ;  <NL>  }  COM: <s> sets the version of the web service </s>

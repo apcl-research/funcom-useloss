@@ -1,0 +1,1 @@
+TDAT: public void test get angle ( ) {  <NL> system . out . println ( " get angle " ) ;  <NL>  <NL> node start = new node ( 0 , 0 ) ;  <NL> node stop = new node ( 0 , 50 ) ;  <NL>  <NL>  / / float result = new math . get angle ( start , stop ) ;  <NL>  <NL>  / / system . out . println ( " get angle " + result ) ;  <NL>  <NL>  }  COM: <s> test of get angle method of class lib </s>

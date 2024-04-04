@@ -1,0 +1,1 @@
+TDAT: public void display ( string title , string msg ) {  <NL> if ( ! context . reuse activity )  <NL> j option pane . show message dialog ( m owner ,  <NL> resource manager . get instance ( ) . get string ( msg ) ,  <NL> resource manager . get instance ( ) . get string ( title ) ,  <NL> j option pane . error _ message ) ;  <NL>  }  COM: <s> display a message </s>

@@ -1,0 +1,1 @@
+TDAT: public void remove tab ( b component tab ) {  <NL> int idx = index of tab ( tab ) ;  <NL> if ( idx ! = - 1 ) {  <NL> remove tab ( idx ) ;  <NL>  } else {  <NL> log . log . warning ( " requested to remove non - added tab " +  <NL>  " [ pane = " + this + " , tab = " + tab + " ] . " ) ;  <NL>  }  <NL>  }  COM: <s> removes the specified tab </s>

@@ -1,0 +1,1 @@
+TDAT: public static ai adapter ai _ move = new ai adapter ( ) {  <NL> public string get id ( ) { return " ai _ move " ; }  <NL> public void ai ( edict _ t self , float dist ) {  <NL> m . m _ walkmove ( self , self . s . angles [ defines . yaw ] , dist ) ;  <NL>  }  <NL>  } ;  COM: <s> move the specified distance at current facing </s>

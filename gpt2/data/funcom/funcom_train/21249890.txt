@@ -1,0 +1,1 @@
+TDAT: protected string create snmp password ( string pass ) {  <NL> char [ ] c = new char [ 2 ] ;  <NL>  <NL> c [ 0 ] = ( char ) ( pass . length ( ) / 256 ) ;  <NL> c [ 1 ] = ( char ) ( pass . length ( ) % 256 ) ;  <NL> return ( string . copy value of ( c ) + pass ) ;  <NL>  }  COM: <s> this method create snmp password header </s>

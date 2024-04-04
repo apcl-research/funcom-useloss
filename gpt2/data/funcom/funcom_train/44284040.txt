@@ -1,0 +1,1 @@
+TDAT: protected void label listener ( change event e ) {  <NL> click label l = ( click label ) e . get source ( ) ;  <NL> int o value = get value ( ) + l . get up down ( ) ;  <NL> m knob . set value ( ( ( float ) o value - get value min ( ) ) / ( get value max ( ) - get value min ( ) ) ) ;  <NL>  }  COM: <s> invoked when label is clicked </s>

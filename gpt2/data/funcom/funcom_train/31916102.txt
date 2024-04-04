@@ -1,0 +1,1 @@
+TDAT: public string get ending ( file file ) {  <NL> string s = file . get name ( ) ;  <NL> int i = s . last index of ( ' . ' ) ;  <NL> if ( ( i > 0 ) & & ( i < ( s . length ( ) - 1 ) ) ) {  <NL> return s . substring ( i + 1 ) . to lower case ( ) ;  <NL>  } else {  <NL> return " " ;  <NL>  }  <NL>  <NL>  }  COM: <s> return the ending of a file </s>

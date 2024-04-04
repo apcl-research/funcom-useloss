@@ -1,0 +1,1 @@
+TDAT: public void add jsr info ( basic block entry , basic block exit , boolean [ ] locals ) {  <NL> if ( jsr _ info = = null ) jsr _ info = new hash map ( ) ;  <NL> jsr info nfo = new jsr info ( entry , exit , locals ) ;  <NL> jsr _ info . put ( entry , nfo ) ;  <NL> jsr _ info . put ( exit , nfo ) ;  <NL>  }  COM: <s> add info about a jsr subroutine </s>

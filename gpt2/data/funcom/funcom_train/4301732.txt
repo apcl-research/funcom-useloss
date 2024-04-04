@@ -1,0 +1,1 @@
+TDAT: public void do help ( render request request , render response response ) throws portlet exception {  <NL> resource bundle bundle = resource bundle . get bundle ( " com . sun . portal . rssportlet . rss portlet " , request . get locale ( ) ) ;  <NL> include ( request , response , bundle . get string ( " help _ jsp " ) ) ;  <NL>  }  COM: <s> include localized help jsp </s>

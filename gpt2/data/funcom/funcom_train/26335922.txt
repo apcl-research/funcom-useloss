@@ -1,0 +1,1 @@
+TDAT: public void set game map ( game map map ) {  <NL> this . game map = map ;  <NL>  <NL>  / / set los radius by map zoom factor <NL> if ( map ! = null & & this . los ! = null ) {  <NL> int range = this . get los range ( ) ;  <NL> if ( range < 1 )  <NL> range = 1 ;  <NL> this . los . set radius ( range ) ;  <NL>  }  <NL>  }  COM: <s> set game map the character is on </s>

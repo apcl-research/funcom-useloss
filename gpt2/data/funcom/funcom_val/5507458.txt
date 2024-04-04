@@ -1,0 +1,1 @@
+TDAT: public void action performed ( action event e ) {  <NL> j option pane . show message dialog ( log view4j . get root frame ( ) , get body message ( ) , " log view4j " , j option pane . information _ message ,  <NL> image manager . get instance ( ) . get image ( " images / logview4j _ about . gif " ) ) ;  <NL>  }  COM: <s> handles showing the about box </s>

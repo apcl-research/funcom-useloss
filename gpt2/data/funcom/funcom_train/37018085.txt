@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL>  <NL> string result = " value of the map : " ;  <NL> result + = " \n url : " + the url . to string ( ) ;  <NL> result + = " \n title : " + the title ;  <NL> result + = " \n is saved : " + the is save ;  <NL> result + = " \n is new : " + the is new ;  <NL>  <NL> return result ;  <NL>  }  COM: <s> get the string value of the map </s>

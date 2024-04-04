@@ -1,0 +1,1 @@
+TDAT: protected double diff fst derv ln gamma ( double x ) {  <NL> double rt = 0 , series = 1 . 0 ; / / just make it > 0 <NL> for ( int i = 0 ; series > = m _ zero * 1e - 3 ; i + + ) {  <NL> series = 0 . 5 / ( ( x + ( double ) i ) * ( x + ( double ) i + 0 . 5 ) ) ;  <NL> rt + = series ;  <NL>  }  <NL> return rt ;  <NL>  }  COM: <s> compute d ln gamma x 0 </s>

@@ -1,0 +1,1 @@
+TDAT: public int pick ( random random ) {  <NL>  / / if spec covers ages 5 - 9 , then we need to select from [ 5 , 10 ) .  <NL>  / / fortunately , next double ( ) selects from [ 0 , 1 ) .  <NL> return min _ age + ( int ) ( math . floor ( random . next double ( ) * ( max _ age + 1 - min _ age ) ) ) ;  <NL>  }  COM: <s> select an age value at random from within our range </s>

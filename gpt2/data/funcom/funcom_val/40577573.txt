@@ -1,0 +1,1 @@
+TDAT: public void add ( k key , v value ) {  <NL> deque < v > deque = map . get ( key ) ;  <NL> if ( deque = = null ) {  <NL> deque = new array deque < v > ( deque capacity ) ;  <NL> deque . add first ( value ) ;  <NL> map . put ( key , deque ) ;  <NL>  } else {  <NL> deque . add first ( value ) ;  <NL>  }  <NL>  }  COM: <s> add a value for a key to the map </s>

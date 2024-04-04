@@ -1,0 +1,1 @@
+TDAT: protected city find next ( city [ ] cities , city x ) {  <NL> for ( int i = 0 ; i < cities . length - 1 ; i + + ) {  <NL> if ( cities [ i ] . equals ( x ) )  <NL> return cities [ i + 1 ] ;  <NL>  }  <NL>  / / from the last city we go to the first one <NL> return cities [ 0 ] ;  <NL>  }  COM: <s> helper for greedy crossover get child algorithm </s>

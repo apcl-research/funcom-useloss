@@ -1,0 +1,1 @@
+TDAT: protected void add join ( string left col , string right col ) {  <NL> string join ;  <NL>  <NL> join = get left table ( ) + " . " + left col <NL>  + " = "  <NL>  + get right table ( ) + " . " + right col ;  <NL>  <NL>  ( ( default list model ) j list joins . get model ( ) ) . add element ( join ) ;  <NL>  }  COM: <s> adds the given join to the list </s>

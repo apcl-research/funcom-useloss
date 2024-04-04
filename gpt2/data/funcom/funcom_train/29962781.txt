@@ -1,0 +1,1 @@
+TDAT: public int get selection count ( )  <NL>  { int count = 0 ;  <NL> if ( this . content ! = null )  <NL>  { for ( iterator < sib boolean > it = this . content . values ( ) . iterator ( ) ; it . has next ( ) ; )  <NL>  { if ( it . next ( ) . is selected ( ) )  <NL> count + + ;  <NL>  }  <NL>  }  <NL> return count ;  <NL>  }  COM: <s> return the number of selected element </s>

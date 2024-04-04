@@ -1,0 +1,1 @@
+TDAT: public void init ( servlet config config ) throws servlet exception {  <NL> xmlrpc = new xml rpc server ( ) ;  <NL> xmlrpc . add handler ( constants . xml _ rpc _ handler _ name , new ping handler ( ) ) ;  <NL> xmlrpc . add handler ( constants . xml _ rpc _ story _ handler _ name , new story handler ( ) ) ;  <NL>  }  COM: <s> initializes the servlet </s>

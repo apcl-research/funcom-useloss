@@ -1,0 +1,1 @@
+TDAT: public void set classes ( string formats [ ] , string [ ] class names ) {  <NL> classes . clear ( ) ;  <NL> if ( class names ! = null ) {  <NL> for ( int i = 0 ; i < class names . length ; i + + ) {  <NL> add class by name ( formats [ i ] , class names [ i ] ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> sets the classes that are responsible for handling creating the </s>

@@ -1,0 +1,1 @@
+TDAT: public void set horizontal alignment ( int row , int column , horizontal alignment constant align ) {  <NL> prepare cell ( row , column ) ;  <NL> element elem = get raw element ( row , column ) ;  <NL> dom . set element property ( elem , " align " , align . get text align string ( ) ) ;  <NL>  }  COM: <s> sets the horizontal alignment of the specified cell </s>

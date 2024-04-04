@@ -1,0 +1,1 @@
+TDAT: public void set decide ( int acceptor , byte [ ] value ) {  <NL>  / / * * * * * * * eduardo begin * * * * * * * * * * * * * * / /  <NL> decide [ this . manager . get current view pos ( acceptor ) ] = value ;  <NL>  / / * * * * * * * eduardo end * * * * * * * * * * * * * * / /  <NL>  }  COM: <s> sets the decided value by the specified replica </s>

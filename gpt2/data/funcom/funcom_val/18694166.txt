@@ -1,0 +1,1 @@
+TDAT: public void complete data ( y persistence manager pmgr , document output ) {  <NL> y log data item list log data = assemble log data item list ( output . get root element ( ) , false ) ;  <NL>  _ event log . log data event ( pmgr , this , " data value change " , log data ) ;  <NL>  }  COM: <s> write output data values to event log </s>

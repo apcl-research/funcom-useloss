@@ -1,0 +1,1 @@
+TDAT: public void set cml value ( boolean [ ] bb ) {  <NL> check value ( bb ) ;  <NL> this . bb = new boolean [ bb . length ] ;  <NL> for ( int i = 0 ; i < bb . length ; i + + ) {  <NL> this . bb [ i ] = bb [ i ] ;  <NL>  }  <NL> this . set value ( util . concatenate ( bb , cml constants . s _ space ) ) ;  <NL>  }  COM: <s> sets and checks value </s>

@@ -1,0 +1,1 @@
+TDAT: private string get primarty key list ( ) {  <NL> string pk str = " " ;  <NL> for ( iterator i = columns . iterator ( ) ; i . has next ( ) ; ) {  <NL> pk str + = " \ " " + ( string ) i . next ( ) + " \ " " ;  <NL> if ( i . has next ( ) ) {  <NL> pk str + = " , " ;  <NL>  }  <NL>  }  <NL> return pk str ;  <NL>  }  COM: <s> returns comma separated string of primary keys </s>

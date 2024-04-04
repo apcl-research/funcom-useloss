@@ -1,0 +1,1 @@
+TDAT: protected header dto get header dto ( ) {  <NL> if ( m _ header dto = = null ) {  <NL> m _ header dto = new header dto ( ) ;  <NL> m _ header dto . set user id ( get user session ( ) . get user id ( ) ) ;  <NL> m _ header dto . set variation ( variation context . get variation ( ) ) ;  <NL>  }  <NL> return m _ header dto ;  <NL>  }  COM: <s> returns the header dto </s>

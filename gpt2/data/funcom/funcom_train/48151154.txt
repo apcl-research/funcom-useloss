@@ -1,0 +1,1 @@
+TDAT: public double get density ( double x ) {  <NL> int k = ( int ) math . rint ( x ) , m ;  <NL> if ( ( k + steps ) % 2 = = 0 ) m = ( k + steps ) / 2 ;  <NL> else m = ( k + steps + 1 ) / 2 ;  <NL> return comb ( steps , m ) / math . pow ( 2 , steps ) ;  <NL>  }  COM: <s> this method defines the density function </s>

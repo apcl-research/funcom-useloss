@@ -1,0 +1,1 @@
+TDAT: static public void populate ( action form action form , role role ) throws localization exception {  <NL> dyna validator form role delete form = ( dyna validator form ) action form ;  <NL> role delete form . set ( " id " , role . get id ( ) ) ;  <NL> role delete form . set ( " name " , role . get name ( ) ) ;  <NL>  }  COM: <s> populate form according to a role bean </s>

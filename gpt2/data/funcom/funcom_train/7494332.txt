@@ -1,0 +1,1 @@
+TDAT: public void update page ( int hash , int page , char status ) {  <NL> content values vals = new content values ( ) ;  <NL> vals . put ( hash _ id , hash ) ;  <NL> vals . put ( page _ number , page ) ;  <NL> vals . put ( conversion _ status , " " + status ) ;  <NL> db . replace ( page _ table , null , vals ) ;  <NL>  }  COM: <s> used to update the status of the page </s>

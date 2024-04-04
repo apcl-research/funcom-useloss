@@ -1,0 +1,1 @@
+TDAT: public void receive event ( data event de ) {  <NL> if ( ( ( integer ) de . get event key ( ) ) . int value ( ) = = 1 ) {  <NL> client messages . append ( " client " + de . get client id ( ) + " sends data : " + de . get data ( ) . to string ( ) + " \n " ) ;  <NL>  }  <NL>  }  COM: <s> this interface method is called by objects of the communication component </s>

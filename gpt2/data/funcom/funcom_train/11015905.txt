@@ -1,0 +1,1 @@
+TDAT: public void new url link ( ) {  <NL>  _ range = new cell range address ( 0 , 0 , 0 , 0 ) ;  <NL>  _ guid = std _ moniker ;  <NL>  _ link opts = hlink _ url | hlink _ abs | hlink _ label ;  <NL> set label ( " " ) ;  <NL>  _ moniker = url _ moniker ;  <NL> set address ( " " ) ;  <NL>  _ uninterpreted tail = url _ tail ;  <NL>  }  COM: <s> initialize a new url link </s>

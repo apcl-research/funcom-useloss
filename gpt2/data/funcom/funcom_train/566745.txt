@@ -1,0 +1,1 @@
+TDAT: public int command _ inout _ asynch ( final string c , final boolean fgt , final boolean fwd ) throws dev failed {  <NL> final int rid = command _ inout _ asynch _ i ( c , fgt , fwd , next _ req _ id ( ) ) ;  <NL> if ( fgt = = false ) {  <NL> arp . put ( new integer ( rid ) , new boolean ( fwd ) ) ;  <NL>  }  <NL> return rid ;  <NL>  }  COM: <s> command inout asynch </s>

@@ -1,0 +1,1 @@
+TDAT: public point get grid location ( point p ) {  <NL>  <NL> int x = p . x ;  <NL> int y = p . y ;  <NL>  <NL> x = ( ( int ) ( x / this . m _ gridwidth ) ) * this . m _ gridwidth ;  <NL> y = ( ( int ) ( y / this . m _ gridwidth ) ) * this . m _ gridwidth ;  <NL>  <NL> return new point ( x , y ) ;  <NL>  }  COM: <s> return the grind point that lies neares to a given point </s>

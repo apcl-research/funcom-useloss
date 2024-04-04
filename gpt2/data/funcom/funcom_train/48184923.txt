@@ -1,0 +1,1 @@
+TDAT: public void print lf chunks ( ) {  <NL> list < bit set > chunks = edge factory . lf chunks ;  <NL> for ( int i = 0 ; i < chunks . size ( ) ; i + + ) {  <NL> bit set chunk = chunks . get ( i ) ;  <NL> out . println ( " chunk [ " + i + " ] : " + edge . to string ( chunk ) ) ;  <NL>  }  <NL> out . flush ( ) ;  <NL>  }  COM: <s> prints the lf chunks </s>

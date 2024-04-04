@@ -1,0 +1,1 @@
+TDAT: public void update ( int panel width , int pointer , int offset , int grid render ) {  <NL> set preferred size ( new dimension ( panel width , height ) ) ;  <NL> this . panel width = panel width ;  <NL> this . offset = offset ;  <NL> this . grid render = grid render ;  <NL> this . pointer = pointer ;  <NL> repaint ( ) ;  <NL>  }  COM: <s> updates the time line state </s>

@@ -1,0 +1,1 @@
+TDAT: private string headers to string ( ) {  <NL> enumeration en = headers . keys ( ) ;  <NL> string header str = " " ;  <NL> while ( en . has more elements ( ) ) {  <NL> string key = ( string ) en . next element ( ) ;  <NL> header str + = key + " : " + get header ( key ) + " \n " ;  <NL>  }  <NL> return header str ;  <NL>  }  COM: <s> nasty and inefficient </s>

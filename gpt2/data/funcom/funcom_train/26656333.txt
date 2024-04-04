@@ -1,0 +1,1 @@
+TDAT: public map get series map ( ) {  <NL> if ( map studies . size ( ) > 1 ) {  <NL> throw new illegal state exception ( " this instance container contains instances of more than one study ! " ) ;  <NL>  }  <NL> return map studies . is empty ( ) ? new hash map ( ) : ( map ) map studies . values ( ) . iterator ( ) . next ( ) ;  <NL>  }  COM: <s> return the map of series </s>

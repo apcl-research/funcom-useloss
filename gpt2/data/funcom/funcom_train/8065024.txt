@@ -1,0 +1,1 @@
+TDAT: public void paint ( graphics g ) {  <NL> draw rect ( g , is filled ( ) , get fill color ( ) , get line width ( ) , get line color ( ) , get x ( ) , get y ( ) , get width ( ) ,  <NL> get height ( ) , get dashed ( ) , _ dashes , _ dash period ) ;  <NL>  }  COM: <s> paint this fig rect </s>

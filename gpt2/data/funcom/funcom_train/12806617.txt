@@ -1,0 +1,1 @@
+TDAT: public void set fields ( fdf reader fdf ) throws io exception , document exception {  <NL> hash map < string , pdf dictionary > fd = fdf . get fields ( ) ;  <NL> for ( string f : fd . key set ( ) ) {  <NL> string v = fdf . get field value ( f ) ;  <NL> if ( v ! = null )  <NL> set field ( f , v ) ;  <NL>  }  <NL>  }  COM: <s> sets the fields by fdf merging </s>

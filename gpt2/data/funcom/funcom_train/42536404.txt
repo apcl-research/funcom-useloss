@@ -1,0 +1,1 @@
+TDAT: public boolean equals ( object o ) {  <NL> if ( ! ( o instanceof type use ) ) return false ;  <NL> if ( o = = this ) return true ;  <NL> type use oo = ( type use ) o ;  <NL> return ( ( ( object ) name ) . equals ( oo . name ) ) & & ( ( ( object ) tparams ) . equals ( oo . tparams ) ) ;  <NL>  }  COM: <s> is the given object equal to this type use </s>

@@ -1,0 +1,1 @@
+TDAT: private mutable base criteria create bc ( ) {  <NL> return model factory . create base criteria (  <NL> describable factory . create mutable ( " " , " " , " " ) ,  <NL> 0 . 0 ,  <NL> 1 . 0 ,  <NL>  " " ,  <NL>  " " ,  <NL> score graph factory . get score graph ( score graph factory . more _ is _ better )  <NL>  ) ;  <NL>  }  COM: <s> create a new base criteria </s>

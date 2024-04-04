@@ -1,0 +1,1 @@
+TDAT: public void test set shape ( ) {  <NL> bar renderer r = new bar renderer ( ) ;  <NL> shape s = new rectangle2d . double ( 1 . 0 , 2 . 0 , 3 . 0 , 4 . 0 ) ;  <NL> r . set shape ( s ) ;  <NL> assert equals ( s , r . get item shape ( 0 , 0 ) ) ;  <NL>  }  COM: <s> test that setting the shape for all series does in fact work </s>

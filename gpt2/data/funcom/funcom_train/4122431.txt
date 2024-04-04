@@ -1,0 +1,1 @@
+TDAT: public void register sell goods ( goods goods ) {  <NL> string gold key = " trade gold # " + goods . get type ( ) . get index ( ) + " # " + goods . get amount ( )  <NL>  + " # " + goods . get location ( ) . get id ( ) ;  <NL> session register . put ( gold key , null ) ;  <NL>  }  COM: <s> called after another code player code sends a code trade code message </s>

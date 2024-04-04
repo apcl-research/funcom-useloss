@@ -1,0 +1,1 @@
+TDAT: public vector2f transform ( vector2f pt ) {  <NL> float [ ] in = new float [ ] { pt . x , pt . y } ;  <NL> float [ ] out = new float [ 2 ] ;  <NL>  <NL> transform ( in , 0 , out , 0 , 1 ) ;  <NL>  <NL> return new vector2f ( out [ 0 ] , out [ 1 ] ) ;  <NL>  }  COM: <s> transform the vector2f based on the matrix defined in this transform </s>

@@ -1,0 +1,1 @@
+TDAT: public void fire web browser listeners ( ) {  <NL> system . out . println ( " fire : " + history index + " " + history . size ( ) ) ;  <NL> iterator it = listeners . iterator ( ) ;  <NL> while ( it . has next ( ) ) {  <NL>  ( ( web browser listener ) it . next ( ) ) . browser update ( this ) ;  <NL>  }  <NL>  }  COM: <s> fire all web browser </s>

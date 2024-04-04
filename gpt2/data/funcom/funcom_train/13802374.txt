@@ -1,0 +1,1 @@
+TDAT: private void append location string ( string buffer str , sax parse exception ex ) {  <NL> str . append ( " line " ) ;  <NL> str . append ( ex . get line number ( ) ) ;  <NL> str . append ( " ; coloumn " ) ;  <NL> str . append ( ex . get column number ( ) ) ;  <NL> str . append ( " ; " ) ;  <NL>  }  COM: <s> returns a string of the location </s>

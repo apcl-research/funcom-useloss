@@ -1,0 +1,1 @@
+TDAT: public void iconify ( final frame frame ) {  <NL> point loc = get iconify location ( frame ) ;  <NL> if ( loc ! = null ) {  <NL> mouse move ( frame , loc . x , loc . y ) ;  <NL>  }  <NL> invoke later ( frame , new runnable ( ) {  <NL> public void run ( ) {  <NL> frame . set state ( frame . iconified ) ;  <NL>  }  <NL>  } ) ;  <NL>  }  COM: <s> iconify the given frame </s>

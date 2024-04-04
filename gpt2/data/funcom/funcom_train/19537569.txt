@@ -1,0 +1,1 @@
+TDAT: public object set token value ( token token , object value ) throws parser exception {  <NL> object ret = set value ( token , value ) ;  <NL> map tool . server command ( ) . put token ( map tool . get frame ( ) . get current zone renderer ( ) . get zone ( ) . get id ( ) , token ) ;  <NL> return ret ;  <NL>  }  COM: <s> external call to set the token value </s>

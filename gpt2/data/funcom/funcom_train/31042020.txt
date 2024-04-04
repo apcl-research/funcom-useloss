@@ -1,0 +1,1 @@
+TDAT: public void set items ( string [ ] items ) {  <NL> if ( items = = null )  <NL> swt . error ( swt . error _ null _ argument ) ;  <NL> int style = get style ( ) ;  <NL> if ( ( style & swt . read _ only ) ! = 0 )  <NL> label . set text ( " " ) ;  <NL> list . set items ( items ) ;  <NL>  }  COM: <s> sets all items </s>

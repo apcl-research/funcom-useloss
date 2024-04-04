@@ -1,0 +1,1 @@
+TDAT: private void set zero axes ( ) {  <NL> a axis = new vector3d ( 0 . 0 , 0 . 0 , 0 . 0 ) ;  <NL> b axis = new vector3d ( 0 . 0 , 0 . 0 , 0 . 0 ) ;  <NL> c axis = new vector3d ( 0 . 0 , 0 . 0 , 0 . 0 ) ;  <NL>  }  COM: <s> initializes the unit cell axes to zero length </s>

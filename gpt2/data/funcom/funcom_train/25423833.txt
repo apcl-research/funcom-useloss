@@ -1,0 +1,1 @@
+TDAT: public void add ( term neighbor ) {  <NL> string key = neighbor . get subject ( ) ;  <NL> if ( contains key ( key ) ) {  <NL> term n = get ( key ) ;  <NL> if ( neighbor . get count ( ) > n . get count ( ) ) {  <NL> put ( key , neighbor ) ;  <NL>  }  <NL>  } else {  <NL> put ( key , neighbor ) ;  <NL>  }  <NL>  }  COM: <s> adds a neighbor indexed by subject </s>

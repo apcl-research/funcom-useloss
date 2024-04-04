@@ -1,0 +1,1 @@
+TDAT: public string get contact id list ( ) {  <NL> string list = string util . join ( list contact i ds ( ) , " , " ) ;  <NL>  / / log . debug ( " list of ids = " + list ) ;  <NL> return list ;  <NL>  / / return string util . join list ( list contact i ds ( ) ) ;  <NL>  } / / get contact id list  COM: <s> used by castor to get list for persistence </s>

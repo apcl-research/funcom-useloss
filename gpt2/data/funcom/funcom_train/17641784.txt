@@ -1,0 +1,1 @@
+TDAT: private void swap2 ( list < ? > list , int i , int j ) {  <NL>  / / compile error , we need a private helper method <NL>  / / list . set ( i , list . set ( j , list . get ( i ) ) ) ;  <NL> swap helper ( list , i , j ) ;  <NL>  }  COM: <s> there is no type parameter to worry about </s>

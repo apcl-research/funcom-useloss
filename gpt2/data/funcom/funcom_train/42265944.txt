@@ -1,0 +1,1 @@
+TDAT: private void define panels ( ui defaults d ) {  <NL> string p = " panel " ;  <NL> d . put ( p + " . content margins " , new insets ui resource ( 0 , 0 , 0 , 0 ) ) ;  <NL> d . put ( p + " . background " , new color ui resource ( ( color ) d . get ( " control " ) ) ) ;  <NL> d . put ( p + " . opaque " , boolean . true ) ;  <NL>  }  COM: <s> initialize the panel settings </s>

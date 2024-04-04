@@ -1,0 +1,1 @@
+TDAT: private boolean parse echo msg ( string echo _ msg ) {  <NL> if ( echo _ msg . index of ( " msa " + hl7field separator + " aa " + hl7field separator ) ! = - 1 ) return true ;  <NL> if ( echo _ msg . index of ( " msa " + hl7field separator + " ae " + hl7field separator ) ! = - 1 ) return false ;  <NL> return false ;  <NL>  }  COM: <s> parse echo message </s>

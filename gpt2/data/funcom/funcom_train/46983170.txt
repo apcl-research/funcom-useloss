@@ -1,0 +1,1 @@
+TDAT: public void make text attribute ( writer buffer ) throws io exception {  <NL> buffer . write ( " " ) ;  <NL> buffer . write ( " src " ) ;  <NL> buffer . write ( " = \ " " ) ;  <NL> buffer . write ( u relaxer . escape char data ( u relaxer . get string ( get content ( ) ) ) ) ;  <NL> buffer . write ( " \ " " ) ;  <NL>  }  COM: <s> makes an xml text representation </s>

@@ -1,0 +1,1 @@
+TDAT: public void g2 ( double cs [ ] , int i0 , int i1 , int j ) {  <NL> double w = cs [ 0 ] * a [ i0 ] [ j ] + cs [ 1 ] * a [ i1 ] [ j ] ;  <NL> a [ i1 ] [ j ] = - cs [ 1 ] * a [ i0 ] [ j ] + cs [ 0 ] * a [ i1 ] [ j ] ;  <NL> a [ i0 ] [ j ] = w ;  <NL>  }  COM: <s> performs the givens rotation </s>

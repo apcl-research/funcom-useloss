@@ -1,0 +1,1 @@
+TDAT: private int get bold style ( string str ) {  <NL> for ( int i = 0 ; i < linux _ weight _ names . length ; i + + ) {  <NL> if ( str . equals ignore case ( linux _ weight _ names [ i ] ) ) {  <NL> return ( i < 3 ) ? font . bold : font . plain ;  <NL>  }  <NL>  }  <NL> return font . plain ;  <NL>  }  COM: <s> returns style according to the xlfd weight string </s>

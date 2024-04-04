@@ -1,0 +1,1 @@
+TDAT: public void add service ( rendezvous rendezvous , string type , string name ) {  <NL> if ( name . ends with ( " . " + type ) ) {  <NL> name = name . substring ( 0 , name . length ( ) - ( type . length ( ) + 1 ) ) ;  <NL>  }  <NL>  / / system . out . println ( " add : " + name ) ;  <NL> services . add element ( name ) ;  <NL>  }  COM: <s> add a service </s>

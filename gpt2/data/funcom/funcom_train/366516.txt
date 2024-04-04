@@ -1,0 +1,1 @@
+TDAT: public boolean remove neighbor ( node n ) {  <NL> for ( int i = 0 ; i < m _ edges . size ( ) ; i + + ) {  <NL> if ( n = = ( ( edge ) m _ edges . get ( i ) ) . get adjacent node ( this ) )  <NL> return m _ edges . remove ( i ) ! = null ;  <NL>  }  <NL> return false ;  <NL>  } / /  COM: <s> remove the given node as a neighbor of this node </s>

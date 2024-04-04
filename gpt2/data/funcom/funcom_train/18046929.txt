@@ -1,0 +1,1 @@
+TDAT: public string label ( )  <NL>  { resource bundle rb = rb reference . get ( ) ;  <NL> if ( rb = = null )  <NL>  { rb = resource bundle . get bundle ( " org . blackdog . rc . i18n . repeat mode " ) ;  <NL> this . rb reference = new soft reference < resource bundle > ( rb ) ;  <NL>  }  <NL>  <NL> return rb . get string ( this . code ) ;  <NL>  }  COM: <s> return the label </s>

@@ -1,0 +1,1 @@
+TDAT: public void show error ( frame owner , icon icon , string title , string message , throwable exception ) {  <NL>  <NL> final j dialog _ dialog = build dialog ( owner , ( icon ! = null ) ? icon : default error icon , title , message , ok ) ;  <NL> toolkit . get default toolkit ( ) . beep ( ) ;  <NL>  _ dialog . show ( ) ;  <NL>  }  COM: <s> show an error to the user </s>

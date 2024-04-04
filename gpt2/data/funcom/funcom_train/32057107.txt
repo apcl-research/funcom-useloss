@@ -1,0 +1,1 @@
+TDAT: public void test get string ( ) {  <NL>  <NL> system . out . println ( " test get string " ) ;  <NL> translator t = new translator ( ) ;  <NL> object [ ] o = new object [ 5 ] ;  <NL> assert true ( t . get string ( " arrow " ) ! = " 0 " ) ;  <NL> assert true ( t . get string ( " arrow " , o ) ! = " 0 " ) ;  <NL>  }  COM: <s> test of get string method of class translator </s>

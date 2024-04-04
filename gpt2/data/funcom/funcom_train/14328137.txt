@@ -1,0 +1,1 @@
+TDAT: public void previous ( ) {  <NL>  _ bexi _ object index - - ;  <NL> if ( _ bexi _ object index < 0 ) {  <NL>  _ bexi _ object index = _ bexi _ object index max - 1 ;  <NL>  }  <NL> if ( _ bexi _ object index max ! = 0 ) {  <NL>  _ current _ object = _ objects . get ( _ bexi _ object index ) ;  <NL>  }  <NL>  }  COM: <s> set previous openbexi object from object list </s>

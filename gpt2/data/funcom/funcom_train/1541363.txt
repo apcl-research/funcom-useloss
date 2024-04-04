@@ -1,0 +1,1 @@
+TDAT: public void set rendering hint ( rendering hints . key key , object hint ) {  <NL>  / / extra protection , failed on under mac os x 10 . 2 . 6 , jdk 1 . 4 . 1 _ 01 - 39 / 14 <NL> if ( ( key = = null ) || ( hint = = null ) )  <NL> return ;  <NL> hints . put ( key , hint ) ;  <NL>  }  COM: <s> sets a given rendering hint </s>

@@ -1,0 +1,1 @@
+TDAT: public void test misc bug8 ( ) {  <NL> help tcf ( " a . java " , " public class a { / / @ requires true = = > false < = = true ; \n void p ( ) { } } "  <NL>  , " / a . java : 1 : = = > and < = = operators may not be mixed without parentheses " , 46 <NL>  ) ;  <NL>  }  COM: <s> checking for mixed implications </s>

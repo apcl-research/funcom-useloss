@@ -1,0 +1,1 @@
+TDAT: public void add println ( string message ) {  <NL> add getstatic ( " java . lang . system " , " err " , " ljava / io / print stream ; " ) ;  <NL> add ldc ( message ) ;  <NL> add invokevirtual ( " java . io . print stream " ,  <NL>  " println " , " ( ljava / lang / string ; ) v " ) ;  <NL>  }  COM: <s> appends instructions for executing </s>

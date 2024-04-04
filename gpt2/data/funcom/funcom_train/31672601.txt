@@ -1,0 +1,1 @@
+TDAT: public static ent use adapter trigger _ relay _ use = new ent use adapter ( ) {  <NL> public string get id ( ) { return " trigger _ relay _ use " ; }  <NL> public void use ( edict _ t self , edict _ t other , edict _ t activator ) {  <NL> game util . g _ use targets ( self , activator ) ;  <NL>  }  <NL>  } ;  COM: <s> quaked trigger relay </s>

@@ -1,0 +1,1 @@
+TDAT: public int get page count ( ) {  <NL> if ( _ data set size ! = null )  <NL> return ( int ) math . ceil ( _ data set size . double value ( ) / ( double ) get page size ( ) ) ;  <NL> else throw new illegal state exception ( bundle . get error string ( " pager model _ cant calculate last page " ) ) ;  <NL>  }  COM: <s> get the total number of pages </s>

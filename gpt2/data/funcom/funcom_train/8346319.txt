@@ -1,0 +1,1 @@
+TDAT: public point get align to xy ( element align , string pos , int [ ] offsets ) {  <NL> if ( offsets = = null ) {  <NL> offsets = new int [ ] { 0 , 0 } ;  <NL>  }  <NL> return get align to xy ( align , pos , offsets [ 0 ] , offsets [ 1 ] ) ;  <NL>  }  COM: <s> gets the x y coordinates to align this element with another element </s>

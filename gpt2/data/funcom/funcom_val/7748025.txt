@@ -1,0 +1,1 @@
+TDAT: public void delete ( ) {  <NL> file db file = new file ( path . to os string ( ) + " . db " ) ; / / $ non - nls - 1 $  <NL> db file . delete ( ) ;  <NL>  <NL> file lg file = new file ( path . to os string ( ) + " . lg " ) ; / / $ non - nls - 1 $  <NL> lg file . delete ( ) ;  <NL>  }  COM: <s> call this method to remove the cache store from the system </s>

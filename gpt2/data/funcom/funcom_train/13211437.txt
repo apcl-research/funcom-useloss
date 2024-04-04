@@ -1,0 +1,1 @@
+TDAT: private void show another page ( int step ) {  <NL> int new index = index show + step ;  <NL> if ( new index > = 0 & & new index < num hints ) {  <NL> try {  <NL> html page . set page ( hint urls [ new index ] ) ;  <NL> index show = new index ;  <NL>  } catch ( io exception e ) { }  <NL> check state ( ) ;  <NL>  }  <NL>  }  COM: <s> shows a next or previous page </s>

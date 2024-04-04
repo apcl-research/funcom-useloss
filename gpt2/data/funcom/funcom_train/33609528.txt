@@ -1,0 +1,1 @@
+TDAT: public int get max element width ( ) {  <NL> if ( fm = = null ) { return 0 ; }  <NL> int max width = 0 ;  <NL> for ( visual control vc : elements ) {  <NL>  ( ( f label ) vc ) . compute text size ( fm ) ;  <NL> max width = math . max ( max width , vc . get width ( ) ) ;  <NL>  }  <NL> return max width ;  <NL>  }  COM: <s> returns width of largest element </s>

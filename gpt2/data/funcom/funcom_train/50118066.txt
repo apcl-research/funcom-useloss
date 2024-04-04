@@ -1,0 +1,1 @@
+TDAT: public string query _ alias _ str ( ) {  <NL> string buffer _ alias = new string buffer ( ) ;  <NL> for ( int i = 0 ; i < aliases . size ( ) ; i + + ) _ alias . append ( ( string ) aliases . get ( i ) ) . append ( " , " ) ;  <NL> return _ alias . to string ( ) ;  <NL>  }  COM: <s> this method returns all the aliases </s>

@@ -1,0 +1,1 @@
+TDAT: protected void write to parcel ( parcel p ) {  <NL> p . write int ( type ) ;  <NL> p . write string ( label ) ;  <NL> p . write string ( data ) ;  <NL> p . write parcelable ( uri , 0 ) ;  <NL> p . write long ( id ) ;  <NL> p . write int ( max lines ) ;  <NL> p . write string ( mimetype ) ;  <NL>  }  COM: <s> helper for making subclasses parcelable </s>

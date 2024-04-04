@@ -1,0 +1,1 @@
+TDAT: public int read ( ) throws io exception {  <NL> int b0 = f input stream . read ( ) ;  <NL> if ( b0 > = 0x80 ) {  <NL> throw new io exception ( f formatter . format message ( f locale , " invalid ascii " , new object [ ] { integer . to string ( b0 ) } ) ) ;  <NL>  }  <NL> return b0 ;  <NL>  } / / read ( ) : int  COM: <s> read a single character </s>

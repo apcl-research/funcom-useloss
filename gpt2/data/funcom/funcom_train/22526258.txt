@@ -1,0 +1,1 @@
+TDAT: protected void set model ( edit part child , object model ) {  <NL> if ( child ! = null ) {  <NL> child . set model ( model ) ;  <NL>  }  <NL> else {  <NL> system . out . println ( " requested a part for " + model + " but was null . " ) ; / / $ non - nls - 1 $ / / $ non - nls - 2 $  <NL>  }  <NL>  }  COM: <s> add the model to the edit part </s>

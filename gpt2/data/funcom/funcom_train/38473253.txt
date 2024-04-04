@@ -1,0 +1,1 @@
+TDAT: private void save dirty editors ( ) {  <NL> iterator i = aware fields . iterator ( ) ;  <NL> while ( i . has next ( ) ) {  <NL> i aware widget field = ( i aware widget ) i . next ( ) ;  <NL> if ( field . is dirty ( ) ) {  <NL> save ( field , field . get value ( ) ) ;  <NL> field . set dirty ( false ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> method save dirty editors </s>

@@ -1,0 +1,1 @@
+TDAT: private void remove ( final int index ) {  <NL> int new size = storage . size ( ) - 1 ;  <NL> storage . set ( index , storage . get ( new size ) ) ;  <NL> storage . remove ( new size ) ;  <NL> if ( new size > 1 ) {  <NL> percolate down ( storage , new size , index , order ) ;  <NL>  }  <NL>  }  COM: <s> remove the item at the index given </s>

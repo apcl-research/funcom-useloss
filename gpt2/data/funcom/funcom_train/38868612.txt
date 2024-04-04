@@ -1,0 +1,1 @@
+TDAT: @ test public void getbuf ( ) {  <NL> data file f = new data file ( ) ;  <NL> f . set file name ( " testfile . sao " ) ;  <NL> f . open ( ) ;  <NL> string buf = f . getbuf ( ) ;  <NL> assert . assert true ( buf . starts with ( " 5 1 19 49 0 0 0 " ) ) ;  <NL> f . close ( ) ;  <NL>  }  COM: <s> test reading a real file </s>

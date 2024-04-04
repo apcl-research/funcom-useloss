@@ -1,0 +1,1 @@
+TDAT: public d6 ( int len0 , int len1 , int len2 , int len3 , int len4 , int len5 ) {  <NL> super ( new int [ ] { len0 , len1 , len2 , len3 , len4 , len5 } ) ;  <NL> ix = ( index6d ) index calc ;  <NL>  }  COM: <s> constructor for array of shape len0 len1 len2 len3 len4 len5 </s>

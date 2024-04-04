@@ -1,0 +1,1 @@
+TDAT: public int find next index sorted ( int value ) {  <NL> int l = 0 , r = size ;  <NL> while ( l < r ) {  <NL> int i = ( l + r ) > > > 1 ;  <NL> int d = data [ i ] ;  <NL> if ( d > = value ) {  <NL> r = i ;  <NL>  } else {  <NL> l = i + 1 ;  <NL>  }  <NL>  }  <NL> return l ;  <NL>  }  COM: <s> return the next index with a value larger than this one </s>

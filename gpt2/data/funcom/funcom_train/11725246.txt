@@ -1,0 +1,1 @@
+TDAT: public void test index ( ) throws repository exception {  <NL> check index ( sns1 , path . index _ default ) ;  <NL> check index ( sns2 , path . index _ default + 1 ) ;  <NL> check index ( sns3 , path . index _ default + 2 ) ;  <NL> check index ( sns4 , path . index _ default + 3 ) ;  <NL>  }  COM: <s> test if index of the created nodes are as expected </s>

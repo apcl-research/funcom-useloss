@@ -1,0 +1,1 @@
+TDAT: public void add original type ( card c , string s ) {  <NL> if ( ! original types . contains key ( c ) ) {  <NL> array list < string > list = new array list < string > ( ) ;  <NL> list . add ( s ) ;  <NL> original types . put ( c , list ) ;  <NL>  } else original types . get ( c ) . add ( s ) ;  <NL>  }  COM: <s> p add original type </s>

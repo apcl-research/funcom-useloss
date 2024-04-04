@@ -1,0 +1,1 @@
+TDAT: private void process note on event ( int key , int velocity , int channel ) {  <NL> key k = keys [ channel ] [ key ] = new key ( ) ;  <NL> k . key = key ;  <NL> k . channel = channel ;  <NL> k . velocity = velocity ;  <NL> k . tick = current tick ;  <NL> k . program = current program ;  <NL> notes . add ( k ) ;  <NL>  }  COM: <s> processes a note on event </s>

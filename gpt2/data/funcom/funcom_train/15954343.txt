@@ -1,0 +1,1 @@
+TDAT: public void test minus float set string ( ) throws bml exception {  <NL>  <NL> string ls value = " - 1234 . 45 " ;  <NL> data float ld float = new data float ( fl value ) ;  <NL> ld float . set string ( ls value ) ;  <NL> assert equals ( - 1234 . 45 , - 1234 . 45 , ld float . get value ( ) ) ;  <NL>  }  COM: <s> test of minus float using set string </s>

@@ -1,0 +1,1 @@
+TDAT: public void read fully ( byte [ ] b , int off , int len ) throws io exception {  <NL>  <NL> if ( off < 0 || len < 0 || off + len > b . length ) {  <NL> throw new io exception ( " attempt to read outside byte array " ) ;  <NL>  }  <NL>  <NL> if ( read ( b , off , len ) < len ) {  <NL> throw new eof exception ( ) ;  <NL>  }  <NL>  }  COM: <s> read a byte array fully </s>

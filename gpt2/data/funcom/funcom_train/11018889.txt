@@ -1,0 +1,1 @@
+TDAT: protected byte buffer get block at ( final int offset ) throws io exception {  <NL>  / / the header block doesn ' t count , so add one <NL> long start at = ( offset + 1 ) * big block size . get big block size ( ) ;  <NL> return _ data . read ( big block size . get big block size ( ) , start at ) ;  <NL>  }  COM: <s> load the block at the given offset </s>

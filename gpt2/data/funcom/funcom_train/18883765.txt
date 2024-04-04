@@ -1,0 +1,1 @@
+TDAT: public two d loc best source loc ( ) {  <NL> int best = 0 ;  <NL> for ( int i = 1 ; i < costs [ 0 ] . length ; i + + ) {  <NL> if ( costs [ costs . length - 1 ] [ i ] < costs [ costs . length - 1 ] [ best ] ) {  <NL> best = i ;  <NL>  }  <NL>  }  <NL> return new two d loc ( costs . length - 1 , best ) ;  <NL>  }  COM: <s> this returns the loc of the best source column </s>

@@ -1,0 +1,1 @@
+TDAT: public void abort ( ) {  <NL>  _ log . entering ( " request " , " abort " ) ;  <NL>  _ filter = null ;  <NL> stop ( ) ;  <NL> request req next = get next ( ) ;  <NL> if ( req next ! = null )  <NL> req next . abort ( ) ;  <NL>  _ log . exiting ( " request " , " abort " ) ;  <NL>  }  COM: <s> called on abort reception on the control pipe </s>

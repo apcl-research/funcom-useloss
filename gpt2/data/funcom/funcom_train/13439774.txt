@@ -1,0 +1,1 @@
+TDAT: private boolean has list symbols ( string [ ] lines ) {  <NL> for ( int i = 0 ; lines ! = null & & i < lines . length ; i + + ) {  <NL> if ( lines [ i ] ! = null & & lines [ i ] . starts with ( p tools . list _ symbol ) ) {  <NL> return true ;  <NL>  }  <NL>  }  <NL> return false ;  <NL>  }  COM: <s> returns if at least one line starts with the list symbol </s>

@@ -1,0 +1,1 @@
+TDAT: public entry get selected entry ( ) {  <NL> int row = inventory table . get selected row ( ) ;  <NL> int col = inventory table . get selected column ( ) ;  <NL> if ( row > = 0 & & col > = 0 ) {  <NL> return ( map . entry ) get model ( ) . get value at ( row , col ) ;  <NL>  } else {  <NL> return null ;  <NL>  }  <NL>  }  COM: <s> getter for property selected entry </s>

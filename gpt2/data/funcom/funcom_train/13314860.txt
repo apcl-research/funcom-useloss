@@ -1,0 +1,1 @@
+TDAT: public void visit ( unpack n , a argu ) {  <NL> n . node token . accept ( this , argu ) ;  <NL> n . relation exp . accept ( this , argu ) ;  <NL> n . node token1 . accept ( this , argu ) ;  <NL> n . ordered attribute ref commalist . accept ( this , argu ) ;  <NL>  }  COM: <s> node token unpack </s>

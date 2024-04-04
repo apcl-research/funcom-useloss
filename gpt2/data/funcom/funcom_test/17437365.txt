@@ -1,0 +1,1 @@
+TDAT: protected boolean compare bits ( byte [ ] a , byte [ ] b ) {  <NL>  <NL> if ( a . length ! = b . length ) {  <NL> return false ;  <NL>  } else {  <NL> for ( int i = 0 ; i < a . length ; i + + ) {  <NL> if ( a [ i ] ! = b [ i ] ) {  <NL> return false ;  <NL>  }  <NL>  }  <NL>  }  <NL> return true ;  <NL>  }  COM: <s> compare two bitarrays </s>

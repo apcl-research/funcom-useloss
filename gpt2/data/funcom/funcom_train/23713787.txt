@@ -1,0 +1,1 @@
+TDAT: public void restart ( ) {  <NL> af property msg msg = new af property msg ( role _ restart _ msg , true ) ;  <NL> msg . set receiver role ( new actor address ( scheduler data . get actor domain name ( ) , " actor domain " ) ) ;  <NL> scheduler data . get default scheduler ( ) . output ( msg , null ) ;  <NL>  }  COM: <s> soft restarting of the application </s>

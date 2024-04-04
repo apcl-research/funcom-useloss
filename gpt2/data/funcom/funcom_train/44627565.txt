@@ -1,0 +1,1 @@
+TDAT: public void test jml binary4 ( ) {  <NL> help expr ( " a < = = b " ,  <NL> jml binary . class , 0 , 2 , 8 ,  <NL> jc ident . class , 0 , 0 , 1 ,  <NL> jc ident . class , 7 , 7 , 8 ) ;  <NL>  }  COM: <s> test scanning jml reverse implies expression </s>

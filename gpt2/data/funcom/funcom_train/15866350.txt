@@ -1,0 +1,1 @@
+TDAT: public void set name ( string name ) {  <NL> this . set component changed ( true ) ;  <NL> this . name = name ;  <NL> this . event support . fire ( new event ( this , " name set on ' " + this . get identifier ( ) + " ' . " , event type . changed _ component _ unpoolable _ name ) ) ;  <NL>  }  COM: <s> set the name of the component </s>

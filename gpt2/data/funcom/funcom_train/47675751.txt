@@ -1,0 +1,1 @@
+TDAT: public string get code ( ) {  <NL> if ( this . code = = null & & editor registry . last focused component ( ) ! = null & & editor registry . last focused component ( ) . get name ( ) ! = null ) {  <NL> return editor registry . last focused component ( ) . get text ( ) ;  <NL>  } else {  <NL> return this . code ;  <NL>  }  <NL>  }  COM: <s> returns the java code </s>

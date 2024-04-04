@@ -1,0 +1,1 @@
+TDAT: public long get long ( int index ) {  <NL> object o = get ( index ) ;  <NL> if ( o ! = null ) {  <NL> return o instanceof number ? ( ( number ) o ) . long value ( ) : ( long ) get double ( index ) ;  <NL>  }  <NL> throw new json exception ( " json array [ " + index + " ] is not a number . " ) ;  <NL>  }  COM: <s> get the long value associated with an index </s>

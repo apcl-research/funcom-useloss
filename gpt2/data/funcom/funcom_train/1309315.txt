@@ -1,0 +1,1 @@
+TDAT: protected void key pressed ( int key code ) {  <NL> string tt = " 01234567890 " ;  <NL>  / / int ch = key code - 48 ;  <NL>  / / text . append ( tt . char at ( ch ) ) ;  <NL> text . append ( string . value of ( ( byte ) key code ) ) ;  <NL> work space . print g ( text . char at ( text . length ( ) - 1 ) + " " ) ;  <NL>  }  COM: <s> called when a key is pressed </s>

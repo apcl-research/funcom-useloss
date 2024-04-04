@@ -1,0 +1,1 @@
+TDAT: public void send change cipher spec ( ) throws io exception {  <NL> m _ encrypt = false ;  <NL> send ( 20 , new byte [ ] { 1 } , 0 , 1 ) ;  <NL> m _ encrypt = true ;  <NL>  / / log holder . log ( log level . debug , log type . misc ,  <NL>  / / " [ server _ change _ cipher _ spec ] " ) ;  <NL>  }  COM: <s> send a change cipher spec message now all client data will be </s>

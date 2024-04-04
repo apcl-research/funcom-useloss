@@ -1,0 +1,1 @@
+TDAT: public void disconnect ( ) throws io exception {  <NL> synchronized ( this ) {  <NL> if ( running ) {  <NL> running = false ;  <NL> socket . shutdown input ( ) ;  <NL> send flap ( new flap ( 4 ) ) ;  <NL> socket . shutdown output ( ) ;  <NL> logger . log ( level . info , " disconnected from { 0 } " , addr ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> simply stop the client </s>

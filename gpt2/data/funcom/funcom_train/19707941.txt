@@ -1,0 +1,1 @@
+TDAT: public object get cdc code name and sap code ( object obj param ) throws exception {  <NL> logger . log ( info , this , " \n param in get cdc code name and sap code : " + obj param ) ;  <NL> return super . get object ( " msapp generic master sql . get cdc code name and sap code " , obj param ) ;  <NL>  }  COM: <s> get the cdc code description </s>

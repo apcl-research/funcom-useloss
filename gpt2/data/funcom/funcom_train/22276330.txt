@@ -1,0 +1,1 @@
+TDAT: private void update relation maps ( one to one < t , s > relation ) {  <NL> from map . put ( relation . get from ( ) , new pair < s > ( relation . get to ( ) , relation ) ) ;  <NL> to map . put ( relation . get to ( ) , new pair < t > ( relation . get from ( ) , relation ) ) ;  <NL>  }  COM: <s> updates from and to maps with relevant portions of this relation </s>

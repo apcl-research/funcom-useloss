@@ -1,0 +1,1 @@
+TDAT: private string end of string ( string buffer sb , char c1 , char c2 ) throws json exception {  <NL> if ( c2 = = ' \ ' ' ) {  <NL> return character . to string ( c1 ) ;  <NL>  } else {  <NL> return next string ( ' \ ' ' , sb . append ( c1 ) . append ( c2 ) . to string ( ) ) ;  <NL>  }  <NL>  }  COM: <s> detects an end of a char or gets the next string </s>

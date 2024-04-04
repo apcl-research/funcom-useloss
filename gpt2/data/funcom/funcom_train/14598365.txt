@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> return get class ( ) . get name ( ) + " [ "  <NL>  + " user = " + user + " , password = " + password <NL>  + " , domain = " + domain + " , port = " + port <NL>  + " , path = " + path + " ] " ;  <NL>  }  COM: <s> writes out the class name and the values of its fields </s>

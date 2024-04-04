@@ -1,0 +1,1 @@
+TDAT: public object get value at ( int row , int column ) {  <NL> if ( this . model = = null ) {  <NL> return null ;  <NL>  }  <NL> if ( column < 1 ) {  <NL> return this . model . get x ( 0 , row ) ;  <NL>  }  <NL> else {  <NL> return this . model . get y ( row , column - 1 ) ;  <NL>  }  <NL>  }  COM: <s> returns a value of the specified cell </s>

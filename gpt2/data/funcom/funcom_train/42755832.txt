@@ -1,0 +1,1 @@
+TDAT: private void display in browser ( final string text ) {  <NL> string new text = " < html > \n < head > \n < style type = \ " text / css\ " > \n "  <NL>  + stylesheet + " < / style > \n < / head > \n < body > \n " + text <NL>  + " < / body > \n < / html > \n " ;  <NL> browser . set text ( new text ) ;  <NL>  }  COM: <s> displays text in the browser </s>

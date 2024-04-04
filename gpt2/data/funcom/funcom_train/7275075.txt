@@ -1,0 +1,1 @@
+TDAT: private void add basic gge ps ( ) {  <NL> list < name value < ? > > l = new linked list < name value < ? > > ( ) ;  <NL> l . add ( new name value < string > ( ggep . ggep _ header _ client _ locale ,  <NL> application settings . language . get value ( ) ) ) ;  <NL> add gge ps ( l ) ;  <NL>  }  COM: <s> adds all basic ggep information to the outgoing ping </s>

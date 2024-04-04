@@ -1,0 +1,1 @@
+TDAT: public query compile query ( collection col , string style , string query , namespace map ns map , key [ ] keys ) throws db exception , query exception {  <NL> query resolver res = get resolver ( style ) ;  <NL> return res . compile query ( col , query , ns map , keys ) ;  <NL>  }  COM: <s> compile query compiles a query against the specified collection </s>

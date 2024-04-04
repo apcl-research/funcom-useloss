@@ -1,0 +1,1 @@
+TDAT: public int select count between ( java . util . date date1 , java . util . date date2 ) throws sql exception {  <NL> return select count ( " dateadded " , " between ' " + date converter . get sql date string ( date1 ) + " ' and ' " + date converter . get sql date string ( date2 ) + " ' " ) ;  <NL>  }  COM: <s> count rows in a time frame </s>

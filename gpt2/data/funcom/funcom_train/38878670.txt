@@ -1,0 +1,1 @@
+TDAT: public void on destroy ( ) {  <NL> super . on destroy ( ) ;  <NL>  / / notify of service stop <NL> toast . make text ( this , r . string . service stopped message , toast . length _ short ) . show ( ) ;  <NL> release sensor ( ) ;  <NL> release lock ( ) ;  <NL> bender service . started = false ;  <NL> bl . destroy ( ) ;  <NL>  }  COM: <s> service closing procedures </s>

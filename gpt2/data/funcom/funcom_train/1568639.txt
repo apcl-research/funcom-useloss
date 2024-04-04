@@ -1,0 +1,1 @@
+TDAT: public void init ( gl auto drawable g l drawable ) {  <NL> gl gl = g l drawable . get gl ( ) ;  <NL> gl . gl clear color ( 0 . 0f , 0 . 0f , 0 . 0f , 0 . 0f ) ;  <NL> gl . gl shade model ( gl . gl _ smooth ) ; / / try setting this to gl _ flat and see what happens .  <NL>  }  COM: <s> called by the drawable immediately after the open gl context is </s>

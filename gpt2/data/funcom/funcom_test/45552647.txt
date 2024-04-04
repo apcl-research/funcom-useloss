@@ -1,0 +1,1 @@
+TDAT: public void test returns no diffs for same values ( ) {  <NL> string [ ] text = { " one " , " two " , " three " } ;  <NL> difference [ ] diffs = diff . diff ( text , text ) ;  <NL> assert equals ( " should not have diffs " , 0 , diffs . length ) ;  <NL>  }  COM: <s> make sure comparing the same items returns no diffs </s>

@@ -1,0 +1,1 @@
+TDAT: protected property create cloned property ( bean bean ) {  <NL> return joda factory . get instance ( ) . create property (  <NL> bean , get property name ( ) , link map property . class ,  <NL> new class [ ] { get property type ( ) , get content type ( ) , get map key type ( ) } ) ;  <NL>  }  COM: <s> create a clone of this property ignoring the data contents </s>

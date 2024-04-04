@@ -1,0 +1,1 @@
+TDAT: public void set extent ( int n ) {  <NL>  <NL> int new extent = math . max ( 0 , n ) ;  <NL> int value = get value ( ) ;  <NL> if ( value + new extent > max ) {  <NL>  <NL> new extent = max - value ;  <NL>  <NL>  }  <NL> set range properties ( value , new extent , min , max , is adjusting ) ;  <NL>  }  COM: <s> sets the extent to i n i </s>

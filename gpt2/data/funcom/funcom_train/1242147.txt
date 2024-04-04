@@ -1,0 +1,1 @@
+TDAT: private void write model space block ( ) throws io exception {  <NL> write start block ( " 20 " , " 1f " , false , " 0 " , " * model _ space " ) ;  <NL> write end block ( " 21 " , " 1f " , false , " 0 " , " * model _ space " ) ;  <NL>  }  COM: <s> writes the static model space block </s>

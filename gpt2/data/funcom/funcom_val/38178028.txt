@@ -1,0 +1,1 @@
+TDAT: public void del ( ) {  <NL> if ( ( data . length ( ) > 0 ) & & ( cursor pos > 0 ) ) {  <NL> data = data . substring ( 0 , cursor pos - 1 ) + data . substring ( cursor pos ) ;  <NL> if ( cursor pos = = view offset ) {  <NL> view offset - - ;  <NL>  }  <NL> cursor pos - - ;  <NL>  }  <NL>  }  COM: <s> delete the character next to the current cursor </s>

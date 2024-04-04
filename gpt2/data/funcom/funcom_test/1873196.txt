@@ -1,0 +1,1 @@
+TDAT: public double get valid count ( ) {  <NL> int k = 0 ;  <NL> for ( int i = 0 ; i < this . n rows ; i + + ) {  <NL> for ( int j = 0 ; j < this . n cols ; j + + ) {  <NL> if ( this . matrix [ i ] [ j ] ! = this . no data val ) {  <NL> k + + ;  <NL>  }  <NL>  }  <NL>  }  <NL> return k ;  <NL>  }  COM: <s> method gets the count of the valid cells </s>

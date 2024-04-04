@@ -1,0 +1,1 @@
+TDAT: public void set session ( study session s ) {  <NL>  _ session = s ;  <NL>  _ bs helper . notify destinations ( this , " session " ) ;  <NL>  <NL>  / / a whole new session changes everything . . .  <NL> set study list ( ( _ session ! = null ) ? _ session . get studies ( ) : new array list < study > ( ) ) ;  <NL>  }  COM: <s> sets the current study session </s>

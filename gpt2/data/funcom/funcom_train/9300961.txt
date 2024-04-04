@@ -1,0 +1,1 @@
+TDAT: private route config parser get and parse route ( string agency _ tag , string route _ tag ) {  <NL> uri request _ uri =  <NL> next muni uri builder . build route details uri ( agency _ tag , route _ tag ) ;  <NL> return get and parse ( request _ uri . to string ( ) , route config parser . class ) ;  <NL>  }  COM: <s> requests route data from next bus </s>

@@ -1,0 +1,1 @@
+TDAT: public void send coords ( player p , int x , int y ) {  <NL> if ( p = = null || p . stream = = null || p . disconnected [ 0 ] ) {  <NL> return ;  <NL>  }  <NL> p . get byte vector ( ) . create frame ( 177 ) ;  <NL> p . get byte vector ( ) . write byte ( y ) ;  <NL> p . get byte vector ( ) . write byte s ( x ) ;  <NL>  }  COM: <s> send coordinates used with other frames </s>

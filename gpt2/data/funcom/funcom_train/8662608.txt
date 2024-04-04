@@ -1,0 +1,1 @@
+TDAT: public void add dload ( int n ) {  <NL> if ( n < 4 )  <NL> add opcode ( 38 + n ) ; / / dload _ < n >  <NL> else if ( n < 0x100 ) {  <NL> add opcode ( dload ) ; / / dload <NL> add ( n ) ;  <NL>  }  <NL> else {  <NL> add opcode ( wide ) ;  <NL> add opcode ( dload ) ;  <NL> add index ( n ) ;  <NL>  }  <NL>  }  COM: <s> appends dload or wide dload lt n gt </s>

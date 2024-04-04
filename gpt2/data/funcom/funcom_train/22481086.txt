@@ -1,0 +1,1 @@
+TDAT: public void on module load ( ) {  <NL> editor editor = new editor ( ) ;  <NL> editor . set text pixel size ( 400 , 300 ) ;  <NL> root panel . get ( ) . add ( editor ) ;  <NL> editor . set html ( " this is a sample text that you can edit . if you want edit this text then you need to click on the edit link . " ) ;  <NL>  }  COM: <s> this is the entry point method </s>

@@ -1,0 +1,1 @@
+TDAT: private j text field get txt name ( ) {  <NL> if ( txt name = = null ) {  <NL> txt name = new j text field ( ) ;  <NL> txt name . set bounds ( new rectangle ( 152 , 17 , 274 , 20 ) ) ;  <NL> txt name . set text ( placemark . get name ( ) ) ;  <NL>  }  <NL> return txt name ;  <NL>  }  COM: <s> this method initializes txt name </s>

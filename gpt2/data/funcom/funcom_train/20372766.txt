@@ -1,0 +1,1 @@
+TDAT: / * public void test save template ( ) {  <NL> system . out . println ( " save template " ) ;  <NL>  <NL> integer result = instance . save template ( " marcelo " , " teste " , new integer ( 40 ) , new integer ( 1 ) ) ;  <NL> assert equals ( new integer ( 0 ) , result ) ;  <NL>  } * /  COM: <s> test of save template method of class br </s>

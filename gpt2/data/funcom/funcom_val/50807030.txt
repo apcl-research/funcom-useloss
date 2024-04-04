@@ -1,0 +1,1 @@
+TDAT: public void set url ( uri uri , url url ) {  <NL> preferences prefs = preferences . user node for package ( get class ( ) ) . node ( nodename ) ;  <NL> if ( url ! = null )  <NL> prefs . put ( uri . to string ( ) , url . to string ( ) ) ;  <NL> else <NL> prefs . remove ( uri . to string ( ) ) ;  <NL>  }  COM: <s> set the resource url for the given resource uri </s>

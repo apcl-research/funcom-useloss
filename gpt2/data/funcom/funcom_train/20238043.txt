@@ -1,0 +1,1 @@
+TDAT: public ratio get ratio by type ( string a type ) {  <NL> ratio l ratio = null ;  <NL> for ( int i = 0 ; i < this . get number of ratios ( ) ; i + + ) {  <NL> if ( a type . equals ignore case ( this . get ratio ( i ) . get type ( ) ) ) {  <NL> l ratio = this . get ratio ( i ) ;  <NL>  }  <NL>  }  <NL> return l ratio ;  <NL>  }  COM: <s> get a ratio by ratio type l h </s>

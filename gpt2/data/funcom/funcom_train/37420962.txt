@@ -1,0 +1,1 @@
+TDAT: public void mobile leaving ( int room id , mobile < ? extends character , ? extends controller > m ) {  <NL> if ( ! mobiles . remove from bucket ( new integer ( room id ) , m ) ) {  <NL> logger . error ( " tried to remove a mobile from empty room or is not in that room " ) ;  <NL>  }  <NL>  }  COM: <s> handles a mobile leaving a room </s>

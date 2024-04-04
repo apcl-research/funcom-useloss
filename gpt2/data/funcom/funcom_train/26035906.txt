@@ -1,0 +1,1 @@
+TDAT: private boolean is genuine anon ( resource r ) {  <NL> if ( ! r . is anon ( ) )  <NL> return false ;  <NL> integer v = object table . get ( r ) ;  <NL> return v = = null <NL> || ( ( ! pretty writer . s resource property elt ) & & v . int value ( ) < = 1 & & ( ! have reified <NL>  . contains ( r ) ) ) ;  <NL>  }  COM: <s> local and or anonymous resources </s>

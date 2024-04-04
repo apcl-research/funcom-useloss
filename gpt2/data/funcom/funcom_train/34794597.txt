@@ -1,0 +1,1 @@
+TDAT: public void obtain lock ( ) throws exception {  <NL> string [ ] cmd = { " p4 " , " lock " , get depot path ( ) } ;  <NL> string l ;  <NL> p4process p ;  <NL>  <NL> p = new p4process ( get env ( ) ) ;  <NL> p . exec ( cmd ) ;  <NL> while ( null ! = ( l = p . read line ( ) ) ) {  <NL>  }  <NL> p . close ( ) ;  <NL>  }  COM: <s> obtains the lock for this file </s>

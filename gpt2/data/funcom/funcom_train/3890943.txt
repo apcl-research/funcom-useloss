@@ -1,0 +1,1 @@
+TDAT: / * protected void add new component ( data component parent , data component child ) {  <NL> parent . add child ( child ) ;  <NL> child . set defaults ( ) ;  <NL> get data model ( ) . fire data component added ( child ) ;  <NL> get data model ( ) . set dirty ( true ) ;  <NL> expand to level ( parent , 1 ) ;  <NL>  } * /  COM: <s> add new child component and notify </s>

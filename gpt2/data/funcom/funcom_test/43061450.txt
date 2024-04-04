@@ -1,0 +1,1 @@
+TDAT: public void size change ( int x , int y , int w , int h ) {  <NL>  / / resets the bounds of the jlabel <NL> img . set bounds ( x , y , w , h ) ;  <NL>  / / sets up the image with the new scale <NL> set up ( ( image icon ) img . get icon ( ) ) ;  <NL>  }  COM: <s> this is a faulty method because the pixels blink as it changes changes </s>

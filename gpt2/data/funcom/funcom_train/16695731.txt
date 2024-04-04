@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> string buffer sb = new string buffer ( " ( " ) ;  <NL> for ( int i = 0 ; i < this . parameter f ds . length ; + + i ) sb . append ( this . parameter f ds [ i ] ) ;  <NL> return sb . append ( ' ) ' ) . append ( this . return fd ) . to string ( ) ;  <NL>  }  COM: <s> returns the method descriptor jvms 4 </s>

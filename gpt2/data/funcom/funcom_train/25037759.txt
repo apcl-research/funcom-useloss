@@ -1,0 +1,1 @@
+TDAT: private void append ( final string buffer sb , final string description , final int indent ) {  <NL> list < string > list = to lines ( description , indent , indent size , line length ) ;  <NL> for ( string str1 : list ) {  <NL> sb . append ( str1 ) . append ( ' \n ' ) ;  <NL>  }  <NL>  }  COM: <s> append a description to the buffer by respecting the indent size </s>

@@ -1,0 +1,1 @@
+TDAT: public record data get record data ( ) throws io exception {  <NL> if ( has documents ( ) & & ! has doc data ( ) ) {  <NL> create doc data ( ) ;  <NL>  }  <NL> if ( has deletes ( ) & & ! has other data ( ) ) {  <NL> create delete data ( ) ;  <NL>  }  <NL> return new record data ( doc type , doc bytes , other type , other bytes ) ;  <NL>  }  COM: <s> get the record data </s>

@@ -1,0 +1,1 @@
+TDAT: public void test empty ( ) throws exception {  <NL> recoverable transaction stack rts = new recoverable transaction stack ( ) ;  <NL> rts . push ( stackable ) ;  <NL> assert false ( " stack is not empty . " , rts . empty ( ) ) ;  <NL> rts . pop ( ) ;  <NL> assert true ( " stack should be empty . " , rts . empty ( ) ) ;  <NL>  }  COM: <s> test the method empty </s>

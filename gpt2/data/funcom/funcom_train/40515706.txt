@@ -1,0 +1,1 @@
+TDAT: private void save properties ( ) {  <NL> if ( log . is info enabled ( ) ) {  <NL> log . info ( " saving properties file . " ) ;  <NL>  }  <NL> try {  <NL> grupb . upf . util . config . save properties ( ) ;  <NL>  } catch ( io exception ex ) {  <NL> log . fatal ( " error storing the configuration " , ex ) ;  <NL>  }  <NL>  }  COM: <s> method to save the properties </s>

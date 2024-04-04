@@ -1,0 +1,1 @@
+TDAT: public void update new links ( ) {  <NL> for ( int i = 0 ; i < links . size ( ) ; i + + )  <NL> try {  <NL> c table link link = ( ( c table link ) links . get ( i ) ) ;  <NL> if ( ! link . is updated ( ) )  <NL> link . update shape ( ) ;  <NL>  }  <NL> catch ( exception e ) { }  <NL>  }  COM: <s> updates new related links </s>

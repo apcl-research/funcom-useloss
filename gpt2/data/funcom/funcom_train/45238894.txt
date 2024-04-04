@@ -1,0 +1,1 @@
+TDAT: public void lost focus ( ) {  <NL> int clm id = this . j table . get selected column ( ) ;  <NL> int row id = this . j table . get selected row ( ) ;  <NL> if ( ( row id ! = - 1 ) & & ( clm id ! = - 1 ) ) {  <NL> this . j table . get cell editor ( row id , clm id ) . stop cell editing ( ) ;  <NL>  }  <NL>  }  COM: <s> when focus is lost all editor must stop editing </s>

@@ -1,0 +1,1 @@
+TDAT: public double get min z value ( ) {  <NL> double z min = 1 . e20 ;  <NL> for ( int k = 0 ; k < this . z values . length ; k + + ) {  <NL> if ( this . z values [ k ] ! = null ) {  <NL> z min = math . min ( z min , this . z values [ k ] . double value ( ) ) ;  <NL>  }  <NL>  }  <NL> return z min ;  <NL>  }  COM: <s> returns the minimum z value </s>

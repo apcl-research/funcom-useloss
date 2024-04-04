@@ -1,0 +1,1 @@
+TDAT: public void check args ( int length , rule context context ) {  <NL> int expected = get arg length ( ) ;  <NL> if ( expected > 0 & & expected ! = length ) {  <NL> throw new builtin exception ( this , context , " builtin " + get name ( ) + " requires " + expected + " arguments but saw " + length ) ;  <NL>  }  <NL>  }  COM: <s> check the argument length </s>

@@ -1,0 +1,1 @@
+TDAT: public void adjust max index ( int i , int j ) {  <NL> if ( i > size ( ) - 1 ) {  <NL> increase ( i ) ;  <NL>  }  <NL> if ( j > = max v length ) {  <NL> max v length = j + 1 ;  <NL> for ( int row = 0 ; row < size ( ) ; row + + ) {  <NL> get ( row ) . set length ( max v length ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> adjusts the size of the matrix </s>

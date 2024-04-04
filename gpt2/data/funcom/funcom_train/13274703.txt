@@ -1,0 +1,1 @@
+TDAT: public void set time ( long time ) {  <NL> if ( this . time ! = time ) {  <NL> long old time = this . time ;  <NL> this . time = time ;  <NL> this . property change support . fire property change ( property . time . name ( ) , old time , time ) ;  <NL> this . home . get camera ( ) . set time ( time ) ;  <NL>  }  <NL>  }  COM: <s> sets the edited time in utc time zone </s>

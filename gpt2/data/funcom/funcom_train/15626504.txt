@@ -1,0 +1,1 @@
+TDAT: public void save always ( ) {  <NL> final int prev num = map menu loader . load num entries ( ) ;  <NL> final int num = save entries ( root , 0 , " " ) ;  <NL> map menu loader . save num entries ( num ) ;  <NL> for ( int i = num ; i < prev num ; i + + ) {  <NL> map menu loader . remove entry ( i ) ;  <NL>  }  <NL>  }  COM: <s> saves the contents to preferences </s>

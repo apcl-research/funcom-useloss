@@ -1,0 +1,1 @@
+TDAT: public vector3 get scale ( ) {  <NL> double sx = math . sqrt ( m00 * m00 + m10 * m10 + m20 * m20 ) ;  <NL> double sy = math . sqrt ( m01 * m01 + m11 * m11 + m21 * m21 ) ;  <NL> double sz = math . sqrt ( m02 * m02 + m12 * m12 + m22 * m22 ) ;  <NL> return new vector3 ( sx , sy , sz ) ;  <NL>  }  COM: <s> retrieves the scale factor of this matrix </s>

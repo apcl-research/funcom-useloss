@@ -1,0 +1,1 @@
+TDAT: protected boolean exists ( string [ ] keys ) {  <NL> boolean exists = true ;  <NL> default mutable tree node node = top ;  <NL> for ( int level = 1 ; level < keys . length ; level + + ) {  <NL> node = find node ( keys [ level ] , node , false ) ;  <NL> exists & = node ! = null ;  <NL>  }  <NL>  <NL> return exists ;  <NL>  }  COM: <s> checks if the keys chain exists </s>

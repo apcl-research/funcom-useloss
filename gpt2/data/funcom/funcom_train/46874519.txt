@@ -1,0 +1,1 @@
+TDAT: public void translate ( double x , double y , double z ) {  <NL> matrix4 matrix = new matrix4 ( ) ;  <NL> matrix . set ( 0 , 3 , x ) ;  <NL> matrix . set ( 1 , 3 , y ) ;  <NL> matrix . set ( 2 , 3 , z ) ;  <NL>  <NL> current . multiply and set ( matrix ) ;  <NL>  }  COM: <s> multiplies current transformation matrix by matrix corresponding to </s>

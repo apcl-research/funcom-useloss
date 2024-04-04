@@ -1,0 +1,1 @@
+TDAT: public void dump ( ) {  <NL> int j = 0 ;  <NL> for ( int i = 0 ; i < this . size ( ) ; i + + ) {  <NL> if ( j = = 4 )  <NL> system . out . print ( " " ) ;  <NL> if ( j = = 8 )  <NL> system . out . println ( " " ) ;  <NL> system . out . format ( " % 02x " , this . get ( i ) ) ;  <NL> j + + ;  <NL>  }  <NL>  <NL>  }  COM: <s> dumps out the bytes of the field stdout </s>

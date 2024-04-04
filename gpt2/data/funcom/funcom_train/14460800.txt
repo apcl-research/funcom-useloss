@@ -1,0 +1,1 @@
+TDAT: private void update ref count ( short rc ) {  <NL> byte [ ] newdata = this . get data ( ) ;  <NL> byte [ ] b = byte tools . short to le bytes ( rc ) ;  <NL> if ( b [ 0 ] = = - 1 )  <NL> b [ 0 ] = 0 ;  <NL> system . arraycopy ( b , 0 , newdata , 6 , 2 ) ;  <NL> set data ( newdata ) ;  <NL> init ( ) ;  <NL>  }  COM: <s> update the number of refs in this shrfmla </s>

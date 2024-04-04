@@ -1,0 +1,1 @@
+TDAT: public map load all data ( ) {  <NL> map return map = new hash map ( ) ;  <NL> for ( int i = 0 ; i < cache service test . cache _ size ; i + + ) {  <NL> integer x = new integer ( i ) ;  <NL> return map . put ( x , cache service test . get cache value ( x ) ) ;  <NL>  }  <NL> return return map ;  <NL>  }  COM: <s> load the cache with test data elements </s>

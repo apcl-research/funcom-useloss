@@ -1,0 +1,1 @@
+TDAT: public string get title ( ) {  <NL> string title = " " ;  <NL> file f = null ;  <NL> f = get file ( ) ;  <NL> if ( f = = null ) {  <NL> title = " untitled " ;  <NL>  } else {  <NL> title = f . get name ( ) ;  <NL>  }  <NL> if ( is modified ( ) ) {  <NL> title + = " * " ;  <NL>  }  <NL> return title ;  <NL>  }  COM: <s> gets the title of the document </s>

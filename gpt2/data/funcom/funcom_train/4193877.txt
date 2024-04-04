@@ -1,0 +1,1 @@
+TDAT: public boolean starts with ignore case ( string s )  <NL>  { for ( int k = 0 ; k < s . length ( ) & & ( index + k ) < str . length ( ) ; k + + )  <NL>  { if ( compare ignore case ( s . char at ( k ) , str . char at ( index + k ) ) ! = 0 ) return false ;  <NL>  }  <NL> return true ;  <NL>  }  COM: <s> whether next chars equal to a specific string i s i ignoring case </s>

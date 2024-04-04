@@ -1,0 +1,1 @@
+TDAT: public void open ( string server , integer port , string user , string password , list < string > client list , x bee xbee ) throws xmpp exception , x bee exception {  <NL> this . open internal ( server , port , user , password , client list , xbee , null , 0 ) ;  <NL>  }  COM: <s> creates a gateway with an existing xbee object </s>

@@ -1,0 +1,1 @@
+TDAT: public void set to identity ( ) {  <NL> for ( int r = 0 ; r < n rows ; r + + )  <NL> for ( int c = 0 ; c < n cols ; c + + )  <NL> el [ r ] [ c ] = 0 ;  <NL> for ( int i = math . min ( n rows , n cols ) - 1 ; i > = 0 ; i - - )  <NL> el [ i ] [ i ] = 1 ;  <NL>  }  COM: <s> fills the matrix with zeros everywhere except on the main diagonal </s>

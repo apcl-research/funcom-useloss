@@ -1,0 +1,1 @@
+TDAT: public void set time zone ( time zone time zone ) {  <NL> if ( time zone = = null ) throw new illegal argument exception ( " setting \ " time _ zone\ " can ' t be null " ) ;  <NL> this . time zone = time zone ;  <NL> properties . set property ( time _ zone _ key , time zone . get id ( ) ) ;  <NL>  }  COM: <s> sets the time zone to use when formatting time values </s>

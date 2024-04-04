@@ -1,0 +1,1 @@
+TDAT: public boolean address try compare and swap ( object reference src , address slot , address old , address value , word meta data a , word meta data b , int mode ) {  <NL> return vm . barriers . address try compare and swap ( src , old , value , meta data a , meta data b , mode ) ;  <NL>  }  COM: <s> attempt to atomically exchange the value in the given slot </s>

@@ -1,0 +1,1 @@
+TDAT: public boolean is modified ( ) {  <NL> return get scope ( ) ! = plugin . get search scope ( ) || ! get regexp ( ) . equals ( plugin . get regexp ( ) ) || <NL>  ( get scope ( ) = = usage plugin settings . scope _ custom & & get custom scope data ( ) ! = plugin . get custom scope data ( ) ) ;  <NL>  }  COM: <s> returns true if any data was modified </s>

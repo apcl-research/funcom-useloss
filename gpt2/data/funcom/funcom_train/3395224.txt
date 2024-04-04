@@ -1,0 +1,1 @@
+TDAT: public boolean covariant return type ( type t , type s , warner warner ) {  <NL> return <NL> is same type ( t , s ) || <NL> source . allow covariant returns ( ) & &  <NL>  ! t . is primitive ( ) & &  <NL>  ! s . is primitive ( ) & &  <NL> is assignable ( t , s , warner ) ;  <NL>  }  COM: <s> is t an appropriate return type in an overrider for a </s>

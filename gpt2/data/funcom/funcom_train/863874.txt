@@ -1,0 +1,1 @@
+TDAT: public void write ( out stream out ) throws io exception {  <NL> out . write ui8 ( operation . opcode ) ;  <NL>  <NL> arg type [ ] arg types = operation . arg types ;  <NL> for ( int i = 0 ; i < arg types . length ; i + + ) {  <NL> arg types [ i ] . write ( out , arguments [ i ] ) ;  <NL>  }  <NL>  }  COM: <s> write the instruction as bytecode data </s>

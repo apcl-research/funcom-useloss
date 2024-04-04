@@ -1,0 +1,1 @@
+TDAT: public void set picked atoms ( boolean [ ] picked atoms ) {  <NL> chem frame cf = display . get frame ( ) ;  <NL> settings . clear picked atoms ( ) ;  <NL> for ( int i = 0 ; i < picked atoms . length ; + + i ) {  <NL> if ( picked atoms [ i ] ) {  <NL> settings . add picked atom ( cf . get atom at ( i ) ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> sets the picked atoms </s>

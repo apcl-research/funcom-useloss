@@ -1,0 +1,1 @@
+TDAT: protected double tanh ( double x ) {  <NL> if ( x > 500 ) {  <NL> return 1f ;  <NL>  } else if ( x < - 500 ) {  <NL> return - 1f ;  <NL>  }  <NL>  <NL>  / / calculus pg . 362 <NL> return ( ( math . exp ( x ) - math . exp ( - x ) ) / ( math . exp ( x ) + math . exp ( - x ) ) ) ;  <NL>  }  COM: <s> hyperbolic tangent is a sigmoidal function </s>

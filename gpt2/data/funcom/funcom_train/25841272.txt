@@ -1,0 +1,1 @@
+TDAT: public cursor fetch all stations ( ) {  <NL> cursor cur = m db . query ( database _ table , new string [ ] {  <NL> key _ rowid , key _ lat , key _ long , key _ libre , key _ ocupado } , null , null , null , null , null ) ;  <NL> return cur ;  <NL>  }  COM: <s> return a cursor over the list of all notes in the database </s>

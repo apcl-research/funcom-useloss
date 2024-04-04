@@ -1,0 +1,1 @@
+TDAT: public int hash code ( ) {  <NL> int hash code = get q name ( ) . hash code ( ) ;  <NL> hash code = 37 * hash code + ( m _ s data type ! = null ? m _ s data type . hash code ( ) : 0 ) ;  <NL> hash code = 37 * hash code + ( m _ s language ! = null ? m _ s language . hash code ( ) : 0 ) ;  <NL> return hash code ;  <NL>  }  COM: <s> calculates hash code for this literal </s>

@@ -1,0 +1,1 @@
+TDAT: public string get xml value ( string value ) {  <NL> return value . replace all ( " & " , " & amp ; " ) . replace all ( " < " , " & lt ; " )  <NL>  . replace all ( " > " , " & gt ; " ) . replace all ( " \ ' " , " & apos ; " ) . replace all (  <NL>  " \ " " , " & quot ; " ) ;  <NL>  }  COM: <s> return a new string where specials characters are public </s>

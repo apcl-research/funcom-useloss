@@ -1,0 +1,1 @@
+TDAT: public void set zoom ( double p zoom ) {  <NL> if ( p zoom ! = m curr zoom level ) {  <NL> final double old zoom = new double ( m curr zoom level ) ;  <NL> m curr zoom level = p zoom ;  <NL> render ( ) ;  <NL> fire property change ( zoom _ property , old zoom , new double ( p zoom ) ) ;  <NL>  }  <NL>  }  COM: <s> sets the current zoom level or scaling factor </s>

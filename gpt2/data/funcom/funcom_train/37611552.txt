@@ -1,0 +1,1 @@
+TDAT: public void write ( char [ ] bytes , int offset , int length ) throws io exception {  <NL> if ( m _ delegate = = null ) {  <NL> m _ delegate = new file writer ( m _ file . get path ( ) , m _ append ) ;  <NL>  }  <NL>  <NL> m _ delegate . write ( bytes , offset , length ) ;  <NL>  }  COM: <s> write many bytes to the file </s>

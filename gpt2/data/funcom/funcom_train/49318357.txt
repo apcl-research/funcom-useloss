@@ -1,0 +1,1 @@
+TDAT: public void draw image graphics ( basic image display image display , graphics2d g ) {  <NL> g . set color ( color . white ) ; / / for better visibility : use black & white rects <NL> g . draw ( _ rect [ 0 ] ) ;  <NL> g . set color ( color . black ) ;  <NL> g . draw ( _ rect [ 1 ] ) ;  <NL>  }  COM: <s> called each time the image is repainted to draw a rectangle on </s>

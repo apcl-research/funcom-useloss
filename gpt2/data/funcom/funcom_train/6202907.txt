@@ -1,0 +1,1 @@
+TDAT: private string htmlize ( string str ) {  <NL> string htmld = str ;  <NL> htmld = htmld . replace all ( " \\ < " , " & lt ; " ) ;  <NL> htmld = htmld . replace all ( " \\ > " , " & gt ; " ) ;  <NL> htmld = htmld . replace all ( " \n " , " < br > " ) ;  <NL> return htmld ;  <NL>  }  COM: <s> replaces all lt and gt with amp lt and amp gt </s>

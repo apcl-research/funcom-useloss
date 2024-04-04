@@ -1,0 +1,1 @@
+TDAT: public void set columns ( p abstract cascading column cols [ ] ) {  <NL> remove all ( ) ;  <NL> this . cols = cols ;  <NL> set layout ( new grid layout ( 1 , cols . length ) ) ;  <NL> for ( int i = 0 ; i < cols . length ; i + + ) {  <NL> add ( cols [ i ] ) ;  <NL> cols [ i ] . refresh list ( ) ;  <NL>  }  <NL>  }  COM: <s> establish which columns are which </s>

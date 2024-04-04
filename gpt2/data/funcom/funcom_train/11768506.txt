@@ -1,0 +1,1 @@
+TDAT: public void move to mid ( ) {  <NL> if ( size ( ) = = 0 )  <NL> return ;  <NL>  <NL> e element = _ elements . remove ( _ current pos ) ;  <NL> int mid pos = size ( ) / 2 + _ current pos ;  <NL> if ( mid pos > size ( ) )  <NL> mid pos - = size ( ) ;  <NL>  _ elements . add ( mid pos , element ) ;  <NL>  }  COM: <s> moves the top of this list to the middle </s>

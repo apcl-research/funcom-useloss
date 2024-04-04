@@ -1,0 +1,1 @@
+TDAT: public void initialize ranges empty ( int num att ,  <NL> double [ ] [ ] ranges ) {  <NL>  <NL> for ( int j = 0 ; j < num att ; j + + ) {  <NL> ranges [ j ] [ r _ min ] = double . max _ value ;  <NL> ranges [ j ] [ r _ max ] = double . min _ value ;  <NL> ranges [ j ] [ r _ width ] = double . min _ value ;  <NL>  }  <NL>  }  COM: <s> used to initialize the ranges </s>

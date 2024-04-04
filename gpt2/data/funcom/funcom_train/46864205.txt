@@ -1,0 +1,1 @@
+TDAT: public void add ( final namespace p namespace , final string p type , final string p target pid ) {  <NL> element t new relation = new element ( p type , p namespace ) ;  <NL> t new relation . set attribute ( " resource " , " info : fedora / " + p target pid , rdf ) ;  <NL>  _ relationship . add ( t new relation ) ;  <NL>  }  COM: <s> add a relationship e </s>

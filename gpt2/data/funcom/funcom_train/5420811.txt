@@ -1,0 +1,1 @@
+TDAT: public void dump ( final writer writer ) throws io exception {  <NL> writer . append ( " = = = dump of " + this . inspected . get class ( ) + " = = = \n " ) ;  <NL> dump ( writer , this . inspected , this . inspected . get class ( ) . get name ( ) ) ;  <NL> this . visited . clear ( ) ;  <NL>  }  COM: <s> dump the inspected class </s>

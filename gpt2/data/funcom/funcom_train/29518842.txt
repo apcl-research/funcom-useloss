@@ -1,0 +1,1 @@
+TDAT: private void create black board ( ) {  <NL>  / / adding the drawing area .  <NL> black board = new map ( m _ model , m _ model . what bound x ( ) , m _ model . what bound y ( ) ) ;  <NL> black board . set preferred size ( new dimension ( frame . get width ( ) , frame . get height ( ) ) ) ;  <NL> frame . add ( black board , 0 ) ;  <NL>  }  COM: <s> paint the scenario </s>

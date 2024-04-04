@@ -1,0 +1,1 @@
+TDAT: public void draw border ( float line width , color color , float llx , float lly , float urx , float ury ) {  <NL> set line width ( line width ) ;  <NL> set color stroke ( color ) ;  <NL> rectangle ( llx , lly , urx - llx , ury - lly ) ;  <NL> stroke ( ) ;  <NL> reset rgb color stroke ( ) ;  <NL>  }  COM: <s> draws a border </s>

@@ -1,0 +1,1 @@
+TDAT: protected void skip through semi ( ) {  <NL> while ( s . token ( ) ! = token . semi & & s . token ( ) ! = token . eof <NL>  & & s . jml token ( ) ! = jml token . endjmlcomment )  <NL> s . next token ( ) ;  <NL> if ( s . token ( ) = = token . semi ) s . next token ( ) ;  <NL>  }  COM: <s> skips up to and including a semicolon though not including any eof or </s>

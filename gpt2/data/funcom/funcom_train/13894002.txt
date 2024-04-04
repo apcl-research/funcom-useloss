@@ -1,0 +1,1 @@
+TDAT: public int get index of child ( object p , object n ) {  <NL> symbol node [ ] list = list ( ( symbol node ) p ) ;  <NL> for ( int i = 0 ; i < list . length ; i + + ) {  <NL> if ( list [ i ] = = ( symbol node ) n ) {  <NL> return i ;  <NL>  }  <NL>  }  <NL> return - 1 ;  <NL>  }  COM: <s> retrieve the index of a child of a symbol </s>

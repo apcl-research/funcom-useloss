@@ -1,0 +1,1 @@
+TDAT: public void set bytes ( byte [ ] new buffer ) {  <NL> if ( new buffer = = null ) {  <NL> buffer = new byte [ 0 ] ;  <NL>  } else {  <NL> byte [ ] buf = new byte [ new buffer . length ] ;  <NL> system . arraycopy ( new buffer , 0 , buf , 0 , new buffer . length ) ;  <NL> buffer = buf ;  <NL>  }  <NL>  }  COM: <s> set the array of bytes representing the documents content </s>

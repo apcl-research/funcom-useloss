@@ -1,0 +1,1 @@
+TDAT: public void find intersection unsorted ( double b , double e , vector < segment > d , collection < segment > s ) {  <NL> for ( segment segment : s ) {  <NL> int i = loc ( b , e , d , segment ) ;  <NL> find intersection segment staircase ( b , e , d , i , segment ) ;  <NL>  }  <NL>  }  COM: <s> o s log d int d s </s>

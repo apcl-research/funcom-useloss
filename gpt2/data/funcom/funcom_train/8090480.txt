@@ -1,0 +1,1 @@
+TDAT: protected void set field ( object o , string name , int index , object value ) {  <NL> field f ;  <NL>  <NL> try {  <NL> f = o . get class ( ) . get field ( name ) ;  <NL> array . set ( f . get ( o ) , index , value ) ;  <NL>  }  <NL> catch ( exception e ) {  <NL> e . print stack trace ( ) ;  <NL>  }  <NL>  }  COM: <s> sets the specified field in an array </s>

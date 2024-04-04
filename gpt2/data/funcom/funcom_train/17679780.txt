@@ -1,0 +1,1 @@
+TDAT: public void add index name ( string table name , string index name ) {  <NL>  / / we do not throw a exception if there are duplicates , because some db ' s <NL>  / / do it on db level and some on table level .  <NL>  / / if openaccess generates a index name then we always do it on db level .  <NL> index names . add ( index name ) ;  <NL>  }  COM: <s> add an index name </s>

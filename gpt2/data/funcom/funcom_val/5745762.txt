@@ -1,0 +1,1 @@
+TDAT: private vector get values ( string s ) {  <NL> vector v = new vector ( ) ;  <NL> s = s . trim ( ) ;  <NL> string tokenizer st = new string tokenizer ( s , " { } , " ) ;  <NL> while ( st . has more tokens ( ) ) {  <NL> v . add element ( st . next token ( ) ) ;  <NL>  }  <NL> return v ;  <NL>  }  COM: <s> this method converts an array of ints of the form i1 i2 i3 </s>

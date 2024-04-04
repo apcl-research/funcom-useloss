@@ -1,0 +1,1 @@
+TDAT: public void set elements ( vector elements )  <NL>  { string buffer sb = new string buffer ( ) ;  <NL> for ( int i = 0 ; i < elements . size ( ) ; i + + )  <NL>  { if ( i > 0 ) sb . append ( " , " ) ;  <NL> sb . append ( ( string ) elements . element at ( i ) ) ;  <NL>  }  <NL> value = sb . to string ( ) ;  <NL>  }  COM: <s> sets the list of tokens </s>

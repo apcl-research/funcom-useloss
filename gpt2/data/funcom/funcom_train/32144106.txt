@@ -1,0 +1,1 @@
+TDAT: public ujo property get order by ( ) {  <NL> string property name = p _ sorted _ by . of ( this ) ;  <NL> for ( ujo property p : ujo manager . get instance ( ) . read properties ( item . class ) ) {  <NL> if ( p . get name ( ) . equals ( property name ) ) {  <NL> return p ;  <NL>  }  <NL>  }  <NL> return item . p _ mark ;  <NL>  }  COM: <s> get item sort property </s>

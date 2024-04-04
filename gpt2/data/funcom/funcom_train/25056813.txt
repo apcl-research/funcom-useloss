@@ -1,0 +1,1 @@
+TDAT: private void spin off fasta import ( ) {  <NL> if ( dma args . do fasta import ( ) ) {  <NL> fasta importer threads = new dma threads ( " fasta import " , fasta files , fasta importer . class . get name ( ) , this , max _ panda _ import _ threads , true , true ) ;  <NL> fasta importer threads . execute ( ) ;  <NL>  }  <NL>  }  COM: <s> spin off fasta file e </s>

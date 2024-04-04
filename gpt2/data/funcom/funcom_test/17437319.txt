@@ -1,0 +1,1 @@
+TDAT: public void m c3header ( int typ , int typ2 , int s ) {  <NL>  _ bao . write ( 0xc3 ) ;  <NL>  _ bao . write ( ( byte ) s ) ;  <NL>  _ bao . write ( ( byte ) typ ) ;  <NL>  _ bao . write ( ( byte ) typ2 ) ;  <NL>  / / system . out . println ( " mc1headrec done2 " ) ;  <NL>  }  COM: <s> make c3 template header with 2 types </s>

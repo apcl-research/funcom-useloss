@@ -1,0 +1,1 @@
+TDAT: public point get upper left pixel ( ) {  <NL> point center pixel = center . get pixel point ( zoom ) ;  <NL> int x = center pixel . x - ( get size ( ) . width / 2 ) ;  <NL> int y = center pixel . y - ( get size ( ) . height / 2 ) ;  <NL> return new point ( x , y ) ;  <NL>  }  COM: <s> gets the upper left pixel of map </s>

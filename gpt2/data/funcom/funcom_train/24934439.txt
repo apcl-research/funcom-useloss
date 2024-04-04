@@ -1,0 +1,1 @@
+TDAT: public i _ directed line draw ( final graphics graphic ) {  <NL> graphic . draw line ( ( int ) math . round ( source x ) ,  <NL>  ( int ) math . round ( source y ) ,  <NL>  ( int ) math . round ( target x ) ,  <NL>  ( int ) math . round ( target y ) ) ;  <NL> return this ;  <NL>  }  COM: <s> draws the solid line into the given graphic </s>

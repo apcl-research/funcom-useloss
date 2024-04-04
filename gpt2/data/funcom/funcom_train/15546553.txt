@@ -1,0 +1,1 @@
+TDAT: protected void fire exception occured impl ( db model event e ) {  <NL> db model listener [ ] ls = ( db model listener [ ] ) get listeners ( ) . get listeners (  <NL> db model listener . class ) ;  <NL> for ( int i = 0 ; i < ls . length ; i + + ) {  <NL> ls [ i ] . exception occured ( e ) ;  <NL>  }  <NL>  }  COM: <s> calls code exception occured code on listeners </s>

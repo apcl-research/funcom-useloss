@@ -1,0 +1,1 @@
+TDAT: public void add cards ( array list < card > c ) {  <NL> int i = 0 ;  <NL> for ( card card : c ) {  <NL> this . cards . add ( card ) ;  <NL> card . set bounds ( 2 * card _ yspacing , 0 , card _ width , card _ height ) ;  <NL> this . add ( card , 0 ) ;  <NL> i + + ;  <NL>  }  <NL> trim to size ( ) ;  <NL>  }  COM: <s> adds a given collection of cards to the stack </s>

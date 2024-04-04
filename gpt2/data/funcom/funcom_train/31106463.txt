@@ -1,0 +1,1 @@
+TDAT: protected writer get writer ( string file name ) throws io exception {  <NL> file file = new file ( get output dir ( ) , file name ) ;  <NL> file . get parent file ( ) . mkdirs ( ) ;  <NL> return new java . io . print writer ( file , system . get property ( " output . encoding " , " utf - 8 " ) ) ;  <NL>  }  COM: <s> get a writer to the specified file </s>

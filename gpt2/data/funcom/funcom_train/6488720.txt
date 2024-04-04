@@ -1,0 +1,1 @@
+TDAT: public void set selected cell ( int row , int col ) {  <NL> log tools . trace ( logger , 25 , " cell mapper controller . set cell ( row = " + row + " , col = " + col + " ) - _ row = " + _ row + " , _ column = " + _ column ) ;  <NL>  <NL> punch mapper ( row , col ) ;  <NL>  _ row = row ;  <NL>  _ column = col ;  <NL>  }  COM: <s> set the cell </s>

@@ -1,0 +1,1 @@
+TDAT: public object put ( object key , object value ) {  <NL> object old value = ( value = = null ) ? super . remove ( key ) : super . put ( key , value ) ;  <NL> if ( key instanceof string ) {  <NL> fire property change ( ( string ) key , old value , value ) ;  <NL>  }  <NL> return old value ;  <NL>  }  COM: <s> set the value of code key code to code value code </s>

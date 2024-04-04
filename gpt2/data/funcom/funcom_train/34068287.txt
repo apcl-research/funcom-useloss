@@ -1,0 +1,1 @@
+TDAT: private void update replay data ( float dt , contestant c , replay replay ) {  <NL> replay . put ( dt , c . get position ( ) . get x ( ) , c . get position ( ) . get y ( ) , c . get position ( ) . get z ( ) ,  <NL> c . get direction ( ) , c . get orientation ( ) ) ;  <NL>  }  COM: <s> updates the replay data with the position of the specified contestant </s>

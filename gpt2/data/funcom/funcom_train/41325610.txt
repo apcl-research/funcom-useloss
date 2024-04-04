@@ -1,0 +1,1 @@
+TDAT: private void scatter ( sparse vector v , double [ ] z ) {  <NL> int [ ] index = v . get index ( ) ;  <NL> int used = v . get used ( ) ;  <NL> double [ ] data = v . get data ( ) ;  <NL> arrays . fill ( z , 0 ) ;  <NL> for ( int i = 0 ; i < used ; + + i )  <NL> z [ index [ i ] ] = data [ i ] ;  <NL>  }  COM: <s> copies the sparse vector into a dense array </s>

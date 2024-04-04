@@ -1,0 +1,1 @@
+TDAT: public void save user names ( ) {  <NL> init prefs ( ) ;  <NL> if ( prefs ! = null ) {  <NL> prefs . put int ( num _ key , user names . length ) ;  <NL> for ( int i = 0 ; i < user names . length ; i + + ) {  <NL> prefs . put ( user _ key + " . " + i , user names [ i ] ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> saves the user names to preferences </s>

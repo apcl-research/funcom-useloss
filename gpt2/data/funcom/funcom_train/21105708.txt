@@ -1,0 +1,1 @@
+TDAT: private j menu get mb help ( ) {  <NL> if ( mb help = = null ) {  <NL> mb help = new j menu ( ) ;  <NL> mb help . set text ( " help " ) ;  <NL> mb help . set mnemonic ( ' h ' ) ;  <NL> mb help . add ( get mi help ( ) ) ;  <NL> mb help . add ( get mi about ( ) ) ;  <NL>  }  <NL> return mb help ;  <NL>  }  COM: <s> this method initializes mb about </s>

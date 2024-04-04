@@ -1,0 +1,1 @@
+TDAT: public void add place ( place place ) {  <NL> places . put ( place . id ( ) , place ) ;  <NL> place . set container ( this ) ;  <NL> inputs . put ( place , new array list < transition > ( ) ) ;  <NL> pre transitions . put ( place , new array list < transition > ( ) ) ;  <NL> marking . put ( place , 0 ) ;  <NL>  }  COM: <s> add a new place to the petri net </s>

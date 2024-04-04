@@ -1,0 +1,1 @@
+TDAT: public int get cluster count ( ) {  <NL> int result = 0 ;  <NL> for ( int i = groups . size ( ) - 1 ; i > - 1 ; i - - ) {  <NL> group l group = ( group ) groups . get ( i ) ;  <NL> if ( l group . get kind ( ) = = group kind . cluster ) {  <NL> result + + ;  <NL>  }  <NL>  }  <NL> return result ;  <NL>  }  COM: <s> get number of clusters </s>

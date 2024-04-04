@@ -1,0 +1,1 @@
+TDAT: public void text goto line1 ( ) throws bad location exception {  <NL> final string s = " a\n " ;  <NL>  _ doc . insert string ( 0 , s , null ) ;  <NL>  _ doc . goto line ( 2 ) ;  <NL> assert equals ( " # 0 . 0 " , 2 , _ doc . get current location ( ) ) ;  <NL>  }  COM: <s> test going to the second line in a two line document </s>

@@ -1,0 +1,1 @@
+TDAT: protected model and view populate data ( map < string , object > model , string filter , int skip _ num , int rows _ num ) {  <NL> model . put ( " items " , dao . get items ( filter , skip _ num , rows _ num ) ) ;  <NL> return new model and view ( get view name ( ) , model ) ;  <NL>  }  COM: <s> populates model with objects retrieved from the repository </s>

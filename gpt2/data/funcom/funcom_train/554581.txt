@@ -1,0 +1,1 @@
+TDAT: private void init layout ( ) {  <NL> my panel . set layout ( new spring layout ( ) ) ;  <NL>  <NL> spring utilities . make compact grid ( my panel , num criterions , 9 , / / rows , cols <NL> 6 , 6 , / / init x , init y <NL> 6 , 6 , / / x pad , y pad <NL> true ) ;  <NL>  }  COM: <s> inits the dialogs layout </s>

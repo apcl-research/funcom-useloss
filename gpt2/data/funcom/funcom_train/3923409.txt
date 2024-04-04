@@ -1,0 +1,1 @@
+TDAT: protected boolean test transform ( transform t ) {  <NL> boolean ret = ! t . equals ( client . pos ) ;  <NL> for ( int i = 0 ; i < transform filter . size ( ) & & ret ; i + + ) {  <NL> ret = ( ( transform filter ) transform filter . element at ( i ) ) . test transform ( t , client ) ;  <NL>  }  <NL> return ret ;  <NL>  }  COM: <s> test transform against set of filters </s>

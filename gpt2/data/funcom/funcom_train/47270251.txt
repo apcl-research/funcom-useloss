@@ -1,0 +1,1 @@
+TDAT: public string get column name ( int i ) {  <NL> if ( i < 0 || i > m _ column names . length )  <NL> throw new illegal argument exception ( " illegal column index " + i + " ( must be in range 0 . . " + ( m _ column names . length - 1 ) + " ) " ) ;  <NL>  <NL> return m _ column names [ i ] ;  <NL>  }  COM: <s> returns the name of the i th column of the table </s>

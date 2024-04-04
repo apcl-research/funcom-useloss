@@ -1,0 +1,1 @@
+TDAT: public string to string ( byte array bytes to show ) {  <NL> string output = new string ( ) ;  <NL> for ( int i = 0 ; i < bytes to show . length ; i + + ) {  <NL> output + = " [ " + i + " ] = "  <NL>  + convert . int to hex string ( bytes to show . to bytes ( ) [ i ] ) + " \n " ;  <NL>  }  <NL> return output ;  <NL>  }  COM: <s> readable output for a byte array </s>

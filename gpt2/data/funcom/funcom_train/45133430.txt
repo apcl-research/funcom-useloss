@@ -1,0 +1,1 @@
+TDAT: public int row count ( ) throws chained exception {  <NL> string method _ id = " 005 " ;  <NL> try {  <NL> return rows . size ( ) ;  <NL>  } catch ( exception e ) {  <NL> throw new chained exception ( this . get class ( ) . get name ( ) , " internal error " , method _ id , e ) ;  <NL>  }  <NL>  }  COM: <s> returns the ammount of rows in the object </s>

@@ -1,0 +1,1 @@
+TDAT: private void set _ location _ arrows ( dimension size ) {  <NL> if ( arrow _ up ! = null & & arrow _ down ! = null ) {  <NL> arrow _ up . set bounds ( 0 , ( size . height - 135 ) / 2 , 20 , 30 ) ;  <NL> arrow _ down . set bounds ( 0 , ( size . height - 75 ) / 2 , 20 , 30 ) ;  <NL>  }  <NL>  }  COM: <s> update location of arrows </s>

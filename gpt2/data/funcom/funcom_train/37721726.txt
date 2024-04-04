@@ -1,0 +1,1 @@
+TDAT: private void copy table ( ) {  <NL> table copy gui tcg = new table copy gui ( ) ;  <NL> dimension dim = tcg . get preferred size ( ) ;  <NL> util . new frame ( tcg , " import " , true , true , true , true , dim . width ,  <NL> dim . height + 20 , tcg . cancel , admin ) ;  <NL>  }  COM: <s> copy a table </s>

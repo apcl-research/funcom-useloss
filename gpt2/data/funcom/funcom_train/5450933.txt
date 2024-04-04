@@ -1,0 +1,1 @@
+TDAT: public void mouse moved ( mouse event e ) {  <NL> if ( ! is showing ( ) )  <NL> return ;  <NL> if ( ht ! = null ) {  <NL> point comp loc = get location on screen ( ) ;  <NL> e . translate point ( comp loc . x , comp loc . y ) ;  <NL> ht . reset hint ( e . get point ( ) ) ;  <NL>  }  <NL>  }  COM: <s> mouse motion listener implementation </s>

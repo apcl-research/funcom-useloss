@@ -1,0 +1,1 @@
+TDAT: private void shuffle ( int [ ] array , random random ) {  <NL> int l = array . length ;  <NL> for ( int i = 0 ; i < l ; i + + ) {  <NL> int index = random . next int ( l - i ) + i ;  <NL> int temp = array [ index ] ;  <NL> array [ index ] = array [ i ] ;  <NL> array [ i ] = temp ;  <NL>  }  <NL>  }  COM: <s> shuffles an array </s>

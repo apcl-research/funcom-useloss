@@ -1,0 +1,1 @@
+TDAT: private sax parse exception adjust ( sax parse exception e ) {  <NL> int col no = e . get column number ( ) - root _ element . length ( ) - 2 ;  <NL> return new extended sax parse exception ( e . get localized message ( ) , null , null ,  <NL> e . get line number ( ) , col no ) ;  <NL>  }  COM: <s> adjusts a saxparse exception so that its column number does not </s>

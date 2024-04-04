@@ -1,0 +1,1 @@
+TDAT: public local time to local time ( ) {  <NL> if ( get class ( ) = = gregorian calendar . class ) {  <NL> return local time . of ( get ( hour _ of _ day ) , get ( minute ) , get ( second ) , get ( millisecond ) ) ;  <NL>  }  <NL> return to zoned date time ( ) . to local time ( ) ;  <NL>  }  COM: <s> converts this object to a code local time code </s>

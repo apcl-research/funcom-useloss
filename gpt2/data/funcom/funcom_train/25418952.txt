@@ -1,0 +1,1 @@
+TDAT: public node find root ( document dom ) {  <NL> node list nl = dom . get child nodes ( ) ;  <NL> for ( int i = 0 ; i < nl . get length ( ) ; i + + ) {  <NL> node nd = nl . item ( i ) ;  <NL> if ( nd . get node type ( ) = = node . element _ node ) {  <NL> return nd ;  <NL>  }  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> finds the root node within a document </s>

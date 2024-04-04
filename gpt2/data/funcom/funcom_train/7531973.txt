@@ -1,0 +1,1 @@
+TDAT: private void ensure length ( int level ) {  <NL> if ( m props . length < = level ) {  <NL> double [ ] tmp = new double [ level + 1 ] ;  <NL> system . arraycopy ( m props , 0 , tmp , 0 , m props . length ) ;  <NL> m props = tmp ;  <NL> arrays . fill ( m props , level , m props . length , 0 ) ;  <NL>  }  <NL>  }  COM: <s> ensures that the arrays are long enough </s>

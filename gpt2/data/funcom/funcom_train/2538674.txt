@@ -1,0 +1,1 @@
+TDAT: public float get distance to point ( vector3d p ) {  <NL> float sn = - normal . dot ( p . get subtracted ( this . origin ) ) ;  <NL> float sd = normal . length squared ( ) ;  <NL> vector3d isec = p . get added ( normal . get scaled ( sn / sd ) ) ;  <NL> return vector3d . distance ( isec , p ) ;  <NL>  }  COM: <s> calculates distance from the plane to point p </s>

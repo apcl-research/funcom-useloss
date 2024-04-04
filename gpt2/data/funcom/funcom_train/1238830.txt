@@ -1,0 +1,1 @@
+TDAT: public string quit ( ) throws exception {  <NL> log . debug ( messages . get message ( " do quit00 " ) ) ;  <NL> string str = " < m : quit xmlns : m = \ " " + wsdd constants . uri _ wsdd + " \ " / > " ;  <NL> byte array input stream input = new byte array input stream ( str . get bytes ( ) ) ;  <NL> return process ( input ) ;  <NL>  }  COM: <s> make a quit command </s>

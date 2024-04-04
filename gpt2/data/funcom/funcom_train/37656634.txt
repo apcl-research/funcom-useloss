@@ -1,0 +1,1 @@
+TDAT: protected property descriptor create bad property ( boolean multi value ) {  <NL> return multi value ?  <NL> new boolean multi property ( " " , " test boolean property " , new boolean [ ] { false , true , true } , 1 . 0f ) :  <NL> new boolean property ( " test boolean " , " " , false , 1 . 0f ) ;  <NL>  }  COM: <s> method create bad property </s>

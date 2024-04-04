@@ -1,0 +1,1 @@
+TDAT: public void test duplicates ( ) {  <NL> enum set < numbers > set = enum set . of ( numbers . two , numbers . one , numbers . two , numbers . one ) ;  <NL> assert equals ( 2 , set . size ( ) ) ;  <NL> assert true ( set . contains ( numbers . one ) ) ;  <NL> assert true ( set . contains ( numbers . two ) ) ;  <NL>  }  COM: <s> test failure mode from issue 3605 </s>

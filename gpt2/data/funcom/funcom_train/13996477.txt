@@ -1,0 +1,1 @@
+TDAT: public void set ( map properties ) {  <NL> for ( iterator i = properties . entry set ( ) . iterator ( ) ; i . has next ( ) ; ) {  <NL> map . entry element = ( map . entry ) i . next ( ) ;  <NL>  <NL> set ( ( string ) element . get key ( ) , element . get value ( ) ) ;  <NL>  }  <NL>  }  COM: <s> sets a map of properties </s>

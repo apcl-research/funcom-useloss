@@ -1,0 +1,1 @@
+TDAT: public boolean is left equal to right ( ) {  <NL> int size = math . min ( get left size ( ) , get right size ( ) ) ;  <NL> for ( int i = 0 ; i < size ; i + + )  <NL> if ( ! get left ( i ) . get component value ( ) . equals ( get right ( i ) . get component value ( ) ) )  <NL> return false ;  <NL> return true ;  <NL>  }  COM: <s> return true if left equals right </s>

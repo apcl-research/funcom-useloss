@@ -1,0 +1,1 @@
+TDAT: protected content get nav link class ( ) {  <NL> content link content = new raw html ( get link ( new link info impl (  <NL> link info impl . context _ class _ use _ header , classdoc , " " ,  <NL> configuration . get text ( " doclet . class " ) , false ) ) ) ;  <NL> content li = html tree . li ( link content ) ;  <NL> return li ;  <NL>  }  COM: <s> get class page link </s>

@@ -1,0 +1,1 @@
+TDAT: public short get x from address ( int addr ) {  <NL> if ( ! flipx ) return ( ( short ) ( ( addr & xmask ) > > > xshift ) ) ;  <NL> else return ( short ) ( sizexm1 - ( ( int ) ( ( addr & xmask ) > > > xshift ) ) ) ; / / e . g . chip . sizex = 32 , sizex = 31 , addr = 0 , get x = 31 , addr = 31 , get x = 0 <NL>  }  COM: <s> gets x from raw address </s>

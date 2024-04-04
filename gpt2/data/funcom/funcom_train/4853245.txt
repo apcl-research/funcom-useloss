@@ -1,0 +1,1 @@
+TDAT: public void set link icon ( image icon ) {  <NL> link icon = icon ;  <NL> set icon ( link event . event name [ link event . queued ] , icon ) ;  <NL> set icon ( link event . event name [ link event . already _ visited ] , icon ) ;  <NL> set icon ( link event . event name [ link event . skipped ] , icon ) ;  <NL>  }  COM: <s> set the default icon used for links </s>

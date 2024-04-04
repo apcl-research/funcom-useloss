@@ -1,0 +1,1 @@
+TDAT: private boolean accept helper ( swg known resource r , swg values g ) {  <NL> if ( ! accept no stats & & ! g . has all values ( r ) )  <NL> return false ;  <NL>  <NL> return ( is weighted ( g ) )  <NL>  ? accept weighted ( r , ( swg weights ) g )  <NL>  : accept filter ( r , ( swg resource filter ) g ) ;  <NL>  }  COM: <s> helper method for </s>

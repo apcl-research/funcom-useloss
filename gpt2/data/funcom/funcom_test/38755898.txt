@@ -1,0 +1,1 @@
+TDAT: public void partial attack ( edge manager edge manager , vertex manager vertex manager , list < edge > selected ) {  <NL> find partial attack . run ( edge manager , vertex manager , generate full graph . get base conditions ( ) , selected , max attacks , no loop , memo ) ;  <NL>  }  COM: <s> start the find a partial attack algorithm </s>

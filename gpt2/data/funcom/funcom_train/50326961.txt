@@ -1,0 +1,1 @@
+TDAT: protected int int speed ( float f speed ) {  <NL> if ( f speed = = 0 . f )  <NL> return 0 ;  <NL> else if ( f speed < 0 . f )  <NL> return 1 ; / / estop <NL>  / / add the 0 . 5 to handle float to int round for positive numbers <NL> return ( int ) ( f speed * 126 . f + 0 . 5 ) + 1 ;  <NL>  }  COM: <s> convert a float speed value to a loco net speed integer </s>

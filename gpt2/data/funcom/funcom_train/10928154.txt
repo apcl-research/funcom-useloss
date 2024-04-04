@@ -1,0 +1,1 @@
+TDAT: protected void delete tree ( string folder id ) {  <NL> get binding ( ) . get object service ( ) . delete tree ( get test repository id ( ) , folder id , boolean . true , unfile object . delete ,  <NL> boolean . true , null ) ;  <NL> assert false ( exists object ( folder id ) ) ;  <NL>  }  COM: <s> deletes a tree </s>

@@ -1,0 +1,1 @@
+TDAT: private void draw footer ( gc gc , string footer , int footer start y , int footer height ) {  <NL> point extent = gc . text extent ( footer ) ;  <NL> int y = footer start y + ( footer height - extent . y ) / 2 ;  <NL> gc . draw string ( footer , _ delegate . get hierarchy rect ( ) . x , y ) ;  <NL>  }  COM: <s> draw the footer </s>

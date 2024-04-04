@@ -1,0 +1,1 @@
+TDAT: public void get values ( object object , object values [ ] ) {  <NL> sort key sk = ( sort key ) object ;  <NL>  <NL> values [ 0 ] = sk . get attribute id ( ) . get bytes ( ) ;  <NL> values [ 1 ] = sk . get matching rule id ( ) ;  <NL> values [ 2 ] = boolean . value of ( ! sk . is ascending ( ) ) ;  <NL>  }  COM: <s> this method encode a code sort key code object </s>

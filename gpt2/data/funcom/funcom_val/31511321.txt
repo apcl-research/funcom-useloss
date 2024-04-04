@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> fix ( ) ;  <NL> return ( new string buffer ( " [ " ) ) . append ( x1 ) . append ( ' ' ) . append ( y1 ) . append ( ' ' ) . append ( x2 ) . append ( ' ' ) . append ( y2 ) . append ( ' ] ' ) . to string ( ) ;  <NL>  }  COM: <s> convert the rect into pdf format </s>

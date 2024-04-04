@@ -1,0 +1,1 @@
+TDAT: protected void print defect header ( test failure boo boo , int count ) {  <NL>  / / i feel like making this a println , then adding a line giving the throwable a chance to print something <NL>  / / before we get to the stack trace .  <NL> get writer ( ) . print ( count + " ) " + boo boo . failed test ( ) ) ;  <NL>  }  COM: <s> prints defect header </s>

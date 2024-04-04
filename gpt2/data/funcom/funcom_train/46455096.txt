@@ -1,0 +1,1 @@
+TDAT: public void set cartesian ( string x label , string y label , string plot title ) {  <NL> axes = new cartesian type1 ( this ) ;  <NL> axes . set x label ( x label , null ) ;  <NL> axes . set y label ( y label , null ) ;  <NL> axes . set title ( plot title , null ) ;  <NL> set clip at gutter ( true ) ;  <NL>  }  COM: <s> converts this panel to cartesian coordinates </s>

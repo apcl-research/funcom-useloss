@@ -1,0 +1,1 @@
+TDAT: public string lookup word ( string word ) {  <NL>  / / checks the first character .  <NL> if ( word . char at ( 0 ) < 65 || word . char at ( 0 ) > 122 <NL> || ( word . char at ( 0 ) > 90 & & word . char at ( 0 ) < 97 ) )  <NL> return null ;  <NL> return read phoneme from file ( word ) ;  <NL>  }  COM: <s> finds word in the dictionary </s>

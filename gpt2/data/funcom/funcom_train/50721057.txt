@@ -1,0 +1,1 @@
+TDAT: public void set red min ( float red min ) {  <NL>  / / if ( red min > this . max value ) red min = this . max value ;  <NL> float old val = this . red min ;  <NL> this . red min = red min ;  <NL> update markings ( ) ;  <NL> fire property change ( red _ min _ prop , old val , red min ) ;  <NL>  }  COM: <s> sets the value corresponding to the beginning of the red band </s>

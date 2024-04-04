@@ -1,0 +1,1 @@
+TDAT: private void store ( string smid , workspace ws ) {  <NL>  / / ttl strategy to be implemented here <NL> logger . debug ( " storing proxy in cache , smid : " + smid ) ;  <NL> proxy object proxy object = new proxy object ( ws , new date ( ) . get time ( ) ) ;  <NL> get cache ( ) . put ( smid , proxy object ) ;  <NL>  }  COM: <s> stores the proxy to the cache </s>

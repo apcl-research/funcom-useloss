@@ -1,0 +1,1 @@
+TDAT: public void img ( string imggif , string imgname , int width , int height ) {  <NL> println ( " < img src = \ " images / " + imggif + " . gif\ " "  <NL>  + " width = \ " " + width + " \ " height = \ " " + height <NL>  + " \ " alt = \ " " + imgname + " \ " > " ) ;  <NL>  }  COM: <s> print html lt img src imggif width width height height alt imgname gt </s>

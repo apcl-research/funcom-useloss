@@ -1,0 +1,1 @@
+TDAT: public boolean has intersection ( location location ) {  <NL> int s1 = get slot ( ) ;  <NL> int l1 = variable ( ) . get length ( ) ;  <NL> int s2 = location . get slot ( ) ;  <NL> int l2 = location . variable ( ) . get length ( ) ;  <NL> return ! ( s1 + l1 < = s2 || s2 + l2 < = s1 ) ;  <NL>  }  COM: <s> returns true if the location intersects with another location </s>

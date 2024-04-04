@@ -1,0 +1,1 @@
+TDAT: private j check box get j check box1 ( ) {  <NL> if ( j check box1 = = null ) {  <NL> j check box1 = new j check box ( ) ;  <NL> j check box1 . set font ( gui font . font _ plain _ small ) ;  <NL> j check box1 . set selected ( j diagram . get model ( ) . is visible y1 ( ) ) ;  <NL>  }  <NL> return j check box1 ;  <NL>  }  COM: <s> this method initializes j check box </s>

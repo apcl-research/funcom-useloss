@@ -1,0 +1,1 @@
+TDAT: public void test append boolean ( ) {  <NL> to string builder b = new to string builder ( this ) ;  <NL> b . append ( " yes " , true ) ;  <NL> b . append ( " no " , false ) ;  <NL> assert equals ( " to string builder test [ yes = true , no = false ] " , b . to string ( ) ) ;  <NL>  }  COM: <s> tests appending of a boolean </s>

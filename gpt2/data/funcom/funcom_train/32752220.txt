@@ -1,0 +1,1 @@
+TDAT: public void set value ( double val ) {  <NL> gd _ val . set point ( 1 , gd _ val . get x ( 0 ) , phase _ wrap ( val ) ) ;  <NL> gd _ dif . set point ( 1 , gd _ dif . get x ( 0 ) , phase _ wrap ( gd _ val . get y ( 1 ) - gd _ ref . get y ( 1 ) ) ) ;  <NL> update ( ) ;  <NL>  }  COM: <s> sets the value </s>

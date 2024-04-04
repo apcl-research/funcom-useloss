@@ -1,0 +1,1 @@
+TDAT: protected runnable get task ( ) throws interrupted exception {  <NL> long wait time = get max idle time ( ) ;  <NL> if ( wait time > = 0 ) {  <NL> return ( runnable ) ( hand off . get ( wait time ) ) ;  <NL>  } else {  <NL> return ( runnable ) ( hand off . get ( ) ) ;  <NL>  } / / if <NL>  } / / get task ( )  COM: <s> get a task from the handoff queue </s>

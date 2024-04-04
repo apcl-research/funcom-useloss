@@ -1,0 +1,1 @@
+TDAT: public void visit ( summary n , a argu ) {  <NL> n . summary spec . accept ( this , argu ) ;  <NL> n . node token . accept ( this , argu ) ;  <NL> n . node optional . accept ( this , argu ) ;  <NL> n . node optional1 . accept ( this , argu ) ;  <NL> n . node token1 . accept ( this , argu ) ;  <NL>  }  COM: <s> summary spec summary spec </s>

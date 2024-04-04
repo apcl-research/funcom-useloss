@@ -1,0 +1,1 @@
+TDAT: public string get address ( ) {  <NL> byte data [ ] = addr . get address ( ) ;  <NL> return ( data [ 0 ] & 0x ff ) + " . " + ( data [ 1 ] & 0x ff ) + " . "  <NL>  + ( data [ 2 ] & 0x ff ) + " . " + ( data [ 3 ] & 0x ff ) ;  <NL>  }  COM: <s> get the host address of the service ie x </s>

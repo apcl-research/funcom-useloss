@@ -1,0 +1,1 @@
+TDAT: public void create image ( ) {  <NL> int ret = create image file chooser . show open dialog ( null ) ;  <NL> if ( ret = = j file chooser . approve _ option ) {  <NL> file file = create image file chooser . get selected file ( ) ;  <NL> create image ( file , scale model . get value ( ) / 100 . 0f ) ;  <NL>  }  <NL>  }  COM: <s> creates an image of the visualization </s>

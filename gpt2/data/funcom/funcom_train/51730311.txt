@@ -1,0 +1,1 @@
+TDAT: public void exit mouse ( int x , int y ) {  <NL> component target = ac . get mouse listener ( ) ;  <NL> mouse event me = new mouse event ( target , mouse event . mouse _ exited , system . current time millis ( ) , 0 , x , y , 0 , false , mouse event . nobutton ) ;  <NL> target . dispatch event ( me ) ;  <NL>  }  COM: <s> causes a mouse exit event at x and y </s>

@@ -1,0 +1,1 @@
+TDAT: public void arguments ( writer out ) throws io exception {  <NL> class [ ] params = current _ callable . get parameter types ( ) ;  <NL> for ( int i = 0 ; i < params . length ; i + + ) {  <NL> if ( i > 0 ) { out . write ( " , " ) ; }  <NL> out . write ( ' p ' ) ;  <NL> out . write ( integer . to string ( i ) ) ;  <NL>  }  <NL>  }  COM: <s> callback from method </s>

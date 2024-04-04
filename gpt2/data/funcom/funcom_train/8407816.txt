@@ -1,0 +1,1 @@
+TDAT: protected void add mapping ( int hash index , int hash code , object key , object value ) {  <NL> mod count + + ;  <NL> hash entry entry = create entry ( data [ hash index ] , hash code , key , value ) ;  <NL> add entry ( entry , hash index ) ;  <NL> size + + ;  <NL> check capacity ( ) ;  <NL>  }  COM: <s> adds a new key value mapping into this map </s>

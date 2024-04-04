@@ -1,0 +1,1 @@
+TDAT: @ test public void seconds in day ( ) {  <NL> date time date time = new date time ( 2005 , 3 , 1 , 0 , 0 , 5 ) ;  <NL> int seconds elapsed = date time . seconds in day ( ) ;  <NL> int expected seconds elapsed = 5 ;  <NL> assert . assert equals ( expected seconds elapsed , seconds elapsed ) ;  <NL>  }  COM: <s> tests seconds in day method of date time class </s>

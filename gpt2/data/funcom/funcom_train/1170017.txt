@@ -1,0 +1,1 @@
+TDAT: public long add color changes ( string s , card c , boolean add to colors , boolean b increase ) {  <NL> if ( b increase )  <NL> card _ color . increase timestamp ( ) ;  <NL> global color changes . add ( new card _ color ( new mana cost ( s ) , c , add to colors , false ) ) ;  <NL> return card _ color . get timestamp ( ) ;  <NL>  }  COM: <s> p add color changes </s>

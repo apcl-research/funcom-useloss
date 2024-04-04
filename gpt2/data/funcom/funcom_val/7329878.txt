@@ -1,0 +1,1 @@
+TDAT: public conn abort abort in ( long in ms , lockss url connection conn ) {  <NL> conn abort sa = new conn abort ( in ms , conn ) ;  <NL> if ( boolean . get boolean ( " org . lockss . test . thread dump " ) ) {  <NL> sa . set thread dump ( ) ;  <NL>  }  <NL> sa . start ( ) ;  <NL> return sa ;  <NL>  }  COM: <s> abort the connection after a timeout </s>

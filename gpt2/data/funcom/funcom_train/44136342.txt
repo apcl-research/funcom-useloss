@@ -1,0 +1,1 @@
+TDAT: public void clic ( ) {  <NL> if ( m _ first ) / * first time , must start thread . * / {  <NL> m _ first = false ;  <NL> if ( ! m _ running ) {  <NL> m _ running = true ;  <NL> start ( ) ;  <NL>  }  <NL> else / / more than one clic , stop thread .  <NL> m _ running = false ;  <NL>  }  <NL> else <NL> m _ running = false ;  <NL>  }  COM: <s> to be call on each clic </s>

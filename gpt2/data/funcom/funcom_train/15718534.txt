@@ -1,0 +1,1 @@
+TDAT: public void set boolean ( string bool , boolean value ) {  <NL> if ( bool . equals ( " isselected " ) )  <NL> isselected = value ;  <NL> if ( bool . equals ( " hibernate " ) )  <NL> hibernate = value ;  <NL> if ( bool . equals ( " shutdown " ) )  <NL> shutdown = value ;  <NL> if ( bool . equals ( " con " ) )  <NL> con = value ;  <NL>  }  COM: <s> sets some booleans </s>

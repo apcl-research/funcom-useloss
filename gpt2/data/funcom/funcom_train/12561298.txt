@@ -1,0 +1,1 @@
+TDAT: public boolean handle point ( int x , int y ) {  <NL> boolean ret = true ;  <NL> if ( commands ! = null & & commands . length > 0 & & owner ! = null ) {  <NL> ret = ! ( ( midp window ) owner ) . belong to cmd layers ( x , y ) ;  <NL>  }  <NL> return ret | contains point ( x , y ) ;  <NL>  }  COM: <s> returns true for popup layer because almost all pointer events </s>

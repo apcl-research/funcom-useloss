@@ -1,0 +1,1 @@
+TDAT: public j gimp image create image ( int width , int height , int type ) throws j gimp exception {  <NL> return ( j gimp image ) this . call procedure ( " gimp _ image _ new " , new j gimp int32 ( width ) , new j gimp int32 ( height ) , new j gimp int32 ( type ) ) [ 0 ] ;  <NL>  }  COM: <s> instructs the gimp to create a new image </s>

@@ -1,0 +1,1 @@
+TDAT: protected void append identity hash code ( string buffer buffer , object object ) {  <NL> if ( this . is use identity hash code ( ) & & object ! = null ) {  <NL> register ( object ) ;  <NL> buffer . append ( ' @ ' ) ;  <NL> buffer . append ( integer . to hex string ( system . identity hash code ( object ) ) ) ;  <NL>  }  <NL>  }  COM: <s> p append the </s>

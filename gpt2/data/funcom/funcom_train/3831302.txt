@@ -1,0 +1,1 @@
+TDAT: private string complete srs ( string ts ) {  <NL> ts = ts . replace ( ' ' , ' : ' ) ;  <NL>  <NL> string tokenizer a = new string tokenizer ( ts , " : " ) ;  <NL> return " http : / / www . opengis . net / gml / srs / " + a . next token ( ) . to lower case ( ) + " . xml # " +  <NL> a . next token ( ) ;  <NL>  }  COM: <s> completes srs to gml compatible srs </s>

@@ -1,0 +1,1 @@
+TDAT: private void fire state changed ( ) {  <NL> if ( ! listeners . is empty ( ) ) {  <NL> change event evt = new change event ( this ) ;  <NL> for ( int i = 0 ; i < listeners . size ( ) ; i + + ) {  <NL>  ( ( change listener ) listeners . get ( i ) ) . state changed ( evt ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> notifies all the listeners that the trees state has changed </s>

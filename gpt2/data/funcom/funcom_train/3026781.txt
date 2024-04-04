@@ -1,0 +1,1 @@
+TDAT: public void swap ( int first , int second ) {  <NL> object temp = data [ first ] ;  <NL> data [ first ] = data [ second ] ;  <NL> data [ second ] = temp ;  <NL> fire contents changed ( this ,  <NL> math . min ( first , second ) ,  <NL> math . max ( first , second ) ) ;  <NL>  }  COM: <s> swaps two items in the list box </s>

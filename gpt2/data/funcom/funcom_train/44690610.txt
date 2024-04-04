@@ -1,0 +1,1 @@
+TDAT: public j menu item add main menu item ( string [ ] menu path , abstract ui plug in plugin ) {  <NL> j menu item menu item = new j menu item ( plugin . get name ( ) ) ;  <NL> return add main menu item ( menu path , plugin , menu item , null , - 1 ) ;  <NL>  }  COM: <s> add a plugin as a jmenu item with enable check conditions </s>

@@ -1,0 +1,1 @@
+TDAT: public void add component ( j label label , component c ) {  <NL> rows + + ;  <NL> label . set label for ( c ) ;  <NL> if ( is using label font ( ) & & get label font ( ) ! = null ) {  <NL> label . set font ( get label font ( ) ) ;  <NL>  }  <NL> panel . add ( label ) ;  <NL> panel . add ( c ) ;  <NL>  }  COM: <s> adds a label and a component to the panel </s>

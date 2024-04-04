@@ -1,0 +1,1 @@
+TDAT: public void set cell style ( int index , string style ) {  <NL> if ( cell styles = = null ) cell styles = new string [ values . length ] ;  <NL> cell styles [ index ] = style ;  <NL> if ( is rendered ( ) ) {  <NL> table . get view ( ) . set cell style ( this , index , style ) ;  <NL>  }  <NL>  }  COM: <s> sets the style for a cell </s>

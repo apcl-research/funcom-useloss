@@ -1,0 +1,1 @@
+TDAT: public void element ( string name , string text ) throws sax exception {  <NL> target . start element ( " " , name , name , new attributes impl ( ) ) ;  <NL> target . characters ( text . to char array ( ) , 0 , text . length ( ) ) ;  <NL> target . end element ( " " , name , name ) ;  <NL>  }  COM: <s> create three events a start element a characters an end </s>

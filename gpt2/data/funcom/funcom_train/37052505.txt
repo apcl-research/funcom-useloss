@@ -1,0 +1,1 @@
+TDAT: public void remove location ( int x , int y , int z ) {  <NL> object3d location c = matrix [ xnorm ( x ) ] [ ynorm ( y ) ] [ znorm ( z ) ] ;  <NL> matrix [ xnorm ( x ) ] [ ynorm ( y ) ] [ znorm ( z ) ] = null ;  <NL>  <NL> if ( c ! = null )  <NL> c . clear ( ) ;  <NL>  }  COM: <s> clears the contents the specified cell </s>

@@ -1,0 +1,1 @@
+TDAT: public void set my address ( sample . address value ) throws cache exception {  <NL> dataholder dh = new dataholder ( value ) ;  <NL> m internal . set property ( ii _ my address , jj _ my address , kk _ my address , database . ret _ object , " my address " , dh ) ;  <NL> return ;  <NL>  }  COM: <s> sets new value for code my address code </s>

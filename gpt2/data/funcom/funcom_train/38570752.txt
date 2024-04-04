@@ -1,0 +1,1 @@
+TDAT: public void set password with hash ( string v ) {  <NL> byte [ ] hash = md . digest ( v . get bytes ( ) ) ;  <NL> try {  <NL> this . password = java . net . url encoder . encode <NL>  ( new string ( hash , " utf - 8 " ) , " utf - 8 " ) ;  <NL>  } catch ( exception e ) {  <NL> e . print stack trace ( ) ;  <NL>  }  <NL>  <NL>  }  COM: <s> set the value of password </s>

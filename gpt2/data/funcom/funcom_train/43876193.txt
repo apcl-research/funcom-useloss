@@ -1,0 +1,1 @@
+TDAT: public void set value ( final string label , final string value ) {  <NL> if ( ! elements . contains key ( label ) ) {  <NL> zk driver . get logger ( ) . error ( " label ' " + label + " ' was not found in the form . your value won ' t be used . " ) ;  <NL>  }  <NL> values . put ( label , value ) ;  <NL>  }  COM: <s> to the component with this label is set this value </s>

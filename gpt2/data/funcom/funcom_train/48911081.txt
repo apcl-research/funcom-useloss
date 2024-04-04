@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> string buffer sb = new string buffer ( 100 ) ;  <NL> for ( int i = 0 ; i < m _ ptr ; i + + ) {  <NL> if ( i > 0 )  <NL> sb . append ( " " ) ;  <NL> sb . append ( m _ v [ i ] ) ;  <NL>  }  <NL> return sb . to string ( ) ;  <NL>  }  COM: <s> return a string version of this value vector without parentheses </s>

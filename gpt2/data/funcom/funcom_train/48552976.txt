@@ -1,0 +1,1 @@
+TDAT: public void write section ( double [ ] [ ] [ ] section , int x , int y , int w , int h ) {  <NL>  / / fixed : lhchavez sep / 09 : changed the update code to a new thread <NL> buffer update event bue = new buffer update event ( section , x , y , w , h ) ;  <NL> buffer updater . enqueue ( bue ) ;  <NL>  }  COM: <s> overwrites a section of the framebuffer </s>

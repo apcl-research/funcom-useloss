@@ -1,0 +1,1 @@
+TDAT: public point2d get laser point ( int w ) throws remote exception {  <NL> if ( points . length < w || w < 0 ) {  <NL> system . out . println ( prg + " : index " + w + " out of bounds " ) ;  <NL> throw new remote exception ( " index " + w + " out of bounds " ) ;  <NL>  }  <NL> return ( point2d ) points [ w ] . clone ( ) ;  <NL>  }  COM: <s> returns a single cartesian </s>

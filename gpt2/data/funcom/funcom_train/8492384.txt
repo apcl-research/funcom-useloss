@@ -1,0 +1,1 @@
+TDAT: public vector3f get center ( ) {  <NL> float cx = ( p1 . pos . x + p2 . pos . x + p3 . pos . x ) / 3 ;  <NL> float cy = ( p1 . pos . y + p2 . pos . y + p3 . pos . y ) / 3 ;  <NL> float cz = ( p1 . pos . z + p2 . pos . z + p3 . pos . z ) / 3 ;  <NL> return new vector3f ( cx , cy , cz ) ;  <NL>  }  COM: <s> returns the center of triangle </s>

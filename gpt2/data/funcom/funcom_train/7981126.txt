@@ -1,0 +1,1 @@
+TDAT: public void test append long ( ) {  <NL> buf . append ( ( long ) 1 ) ;  <NL> assert equals ( " buffer is ' 1 ' " , " 1 " , buf . to string ( ) ) ;  <NL> buf . append ( ( long ) 234 ) ;  <NL> assert equals ( " buffer is ' 1234 ' " , " 1234 " , buf . to string ( ) ) ;  <NL>  }  COM: <s> check that append long works </s>

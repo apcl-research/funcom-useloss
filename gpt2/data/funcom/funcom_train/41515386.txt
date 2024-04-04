@@ -1,0 +1,1 @@
+TDAT: public void pause app ( ) {  <NL> if ( controller . get status code ( ) = = controller . status _ recording ) {  <NL> controller . pause ( ) ;  <NL> logger . debug ( " trail explorer midlet . pause app ( ) called @ " + date time util . convert to time stamp ( system . current time millis ( ) , true ) ) ;  <NL>  }  <NL>  }  COM: <s> midlet state change paused state </s>

@@ -1,0 +1,1 @@
+TDAT: private void turn off wifi ( ) {  <NL> wifi manager wifi manager = ( wifi manager ) get system service ( context . wifi _ service ) ;  <NL> wifi manager . set wifi enabled ( false ) ;  <NL> result processor . process ( this , intent , result processor . result _ success ,  <NL> get string ( r . string . wifi _ turned _ off ) ) ;  <NL>  }  COM: <s> turn off the wifi </s>

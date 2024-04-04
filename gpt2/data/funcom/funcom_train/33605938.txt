@@ -1,0 +1,1 @@
+TDAT: public void add column ( vector < v > col ) throws array index out of bounds exception {  <NL> if ( col . size ( ) ! = get num rows ( ) ) { throw new array index out of bounds exception ( ) ; }  <NL> for ( int i = 0 ; i < get num rows ( ) ; i + + ) { data . get ( i ) . add ( col . get ( i ) ) ; }  <NL>  }  COM: <s> adds a column to the matrix </s>

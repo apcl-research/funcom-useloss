@@ -1,0 +1,1 @@
+TDAT: public void set model ( ctrl aut aut ) {  <NL> if ( get model ( ) = = null || get model ( ) . get graph ( ) ! = aut ) {  <NL> graph j model < ctrl state , ctrl transition > new model = new model ( ) ;  <NL> new model . load graph ( aut ) ;  <NL> set model ( new model ) ;  <NL>  }  <NL>  }  COM: <s> creates a new model based on a given control automaton </s>

@@ -1,0 +1,1 @@
+TDAT: private void state changed ( string state ) {  <NL> state changed event event = new state changed event ( this , state ) ;  <NL> for ( int i = 0 ; i < this . state _ changed _ listener . size ( ) ; i + + ) {  <NL> this . state _ changed _ listener . get ( i ) . state changed ( event ) ;  <NL>  }  <NL>  }  COM: <s> to specifie that the current state changed </s>

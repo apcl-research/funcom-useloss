@@ -1,0 +1,1 @@
+TDAT: public boolean is orthogonal ( ) {  <NL> for ( int i = 0 ; i < rows - 1 ; i + + ) {  <NL> for ( int j = i + 1 ; j < rows ; j + + ) {  <NL> double dp = row dotproduct ( i , j ) ;  <NL> if ( ! real . is zero ( dp , real . get epsilon ( ) ) ) {  <NL> return false ;  <NL>  }  <NL>  }  <NL>  }  <NL> return true ;  <NL>  }  COM: <s> is matrix orthogonal </s>

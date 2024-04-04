@@ -1,0 +1,1 @@
+TDAT: public void fire property change ( string property name , byte old value , byte new value ) {  <NL> if ( ( change support ! = null ) & & ( old value ! = new value ) ) {  <NL> change support . fire property change ( property name , new byte ( old value ) , new byte ( new value ) ) ;  <NL>  }  <NL>  }  COM: <s> reports a bound property change </s>

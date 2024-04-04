@@ -1,0 +1,1 @@
+TDAT: public void set display position by lat lon ( point map point , double lat , double lon , int zoom ) {  <NL> int x = osm mercator . lon to x ( lon , zoom ) ;  <NL> int y = osm mercator . lat to y ( lat , zoom ) ;  <NL> set display position ( map point , x , y , zoom ) ;  <NL>  }  COM: <s> changes the map pane so that the specified coordinate at the given zoom </s>

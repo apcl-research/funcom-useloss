@@ -1,0 +1,1 @@
+TDAT: public void write bytes ( string s ) throws io exception {  <NL>  <NL> int len = s . length ( ) ;  <NL> new write position ( len ) ;  <NL> int pos = position ;  <NL> for ( int i = 0 ; i < len ; i + + ) {  <NL> buffer [ pos + + ] = ( byte ) s . char at ( i ) ;  <NL>  }  <NL> position = pos ;  <NL>  }  COM: <s> writes a tt string tt as bytes into the buffer </s>

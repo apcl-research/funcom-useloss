@@ -1,0 +1,1 @@
+TDAT: private color get column color ( int col , int val ) {  <NL> switch ( col ) {  <NL> case 1 : return new color ( val , 0 , 0 ) ;  <NL> case 2 : return new color ( 0 , val , 0 ) ;  <NL> case 3 : return new color ( 0 , 0 , val ) ;  <NL>  }  <NL> return color . gray ;  <NL>  }  COM: <s> returns the color associated with a given column where the value is used </s>

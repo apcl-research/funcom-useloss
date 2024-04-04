@@ -1,0 +1,1 @@
+TDAT: public boolean is owner ( ) {  <NL> if ( object = = null ) {  <NL> return false ;  <NL>  } else if ( ( ( task ) object ) . get people links ( ) . get owner ( ) = = null ) {  <NL> return false ;  <NL>  }  <NL> return ( ( task ) object ) . get people links ( ) . get owner ( ) . is role ( ) ;  <NL>  }  COM: <s> returns if the owner role is set </s>

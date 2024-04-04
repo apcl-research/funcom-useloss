@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> string s = " { existence error : " ;  <NL> if ( arg no > 0 ) s + = " " + goal . to string ( ) + " - arg " + arg no + " : " ;  <NL> s + = obj type + " " + culprit . to string ( ) + " does not exist " ;  <NL> s + = " } " ;  <NL> return s ;  <NL>  }  COM: <s> returns a string representation of this code existence exception code </s>

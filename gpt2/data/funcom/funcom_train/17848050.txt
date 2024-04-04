@@ -1,0 +1,1 @@
+TDAT: public void handle simple tag ( html . tag tag , mutable attribute set attribute set , int pos ) {  <NL> if ( tag . to string ( ) . equals ( comp _ tag . to string ( ) ) ) {  <NL> m comp action . start ( tag , attribute set ) ;  <NL>  } else {  <NL> super . handle simple tag ( tag , attribute set , pos ) ;  <NL>  }  <NL>  }  COM: <s> callback from the parser </s>

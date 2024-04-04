@@ -1,0 +1,1 @@
+TDAT: public transmission begin subscribe ( q name topic , string callback , boolean use notify , string expiry time ) {  <NL> alpine epr epr = new alpine epr ( callback ) ;  <NL> soap element subscription = wsrf utils . create subscription request ( epr , topic , use notify , expiry time ) ;  <NL> return queue ( subscription ) ;  <NL>  }  COM: <s> subscribe to an endpoint </s>

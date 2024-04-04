@@ -1,0 +1,1 @@
+TDAT: public void drop views ( connection connection , boolean ignore errors ) {  <NL> execute ddl ( connection , ignore errors , i mapping . op drop subclasses view , null , true ) ;  <NL> execute ddl ( connection , ignore errors , i mapping . op drop view , null , true ) ;  <NL>  }  COM: <s> drops the view of our </s>

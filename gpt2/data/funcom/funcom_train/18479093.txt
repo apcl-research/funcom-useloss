@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> class cl = get base class ( ) ;  <NL> string nm = cl = = null ? get class ( ) . get name ( ) : cl . get name ( ) ;  <NL> int pos = nm . last index of ( ' . ' ) ;  <NL> return pos < 0 ? nm : nm . substring ( pos + 1 ) ;  <NL>  }  COM: <s> returns the string representation of this channel type </s>

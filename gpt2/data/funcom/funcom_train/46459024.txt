@@ -1,0 +1,1 @@
+TDAT: private void set bounds ( ) {  <NL> toolbar . revalidate ( ) ;  <NL> height = play button . get preferred size ( ) . height + 8 ;  <NL> int y = vid panel . get height ( ) - height ;  <NL> int w = vid panel . get width ( ) ;  <NL> set bounds ( 0 , y , w , height ) ;  <NL> toolbar . revalidate ( ) ;  <NL>  }  COM: <s> sets the bounds of this player </s>

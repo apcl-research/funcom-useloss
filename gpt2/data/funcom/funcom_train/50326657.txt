@@ -1,0 +1,1 @@
+TDAT: public void set content ( byte [ ] array , int start , int length ) {  <NL> log . debug ( " set content length = 0x " + integer . to hex string ( length ) ) ;  <NL> set byte array ( array ) ;  <NL> set data start ( get record start ( ) + start ) ;  <NL> set data length ( length ) ;  <NL> set record length ( array . length ) ;  <NL>  }  COM: <s> provide new content </s>

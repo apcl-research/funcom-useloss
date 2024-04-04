@@ -1,0 +1,1 @@
+TDAT: public void test pad character dto ( ) {  <NL> test dto dto = create pad character dto ( " value " , " value2 " ) ;  <NL> assert true ( j sefa test util . serialize ( flr , dto ) . to string ( ) . equals ( " value # # # # # # # # # # $ $ value2 " + line _ break ) ) ;  <NL>  }  COM: <s> test to test the flr serialization deserialization with focus on the pad character </s>

@@ -1,0 +1,1 @@
+TDAT: public void test mattern int int ( ) {  <NL> mattern m ;  <NL>  <NL> m = new mattern ( 8 , 3 ) ;  <NL>  <NL> assert true ( m . get idpost ( ) = = 3 ) ;  <NL> assert true ( m . get hour ( ) . size ( ) = = 8 ) ;  <NL>  <NL> for ( object val : m . get hour ( ) ) {  <NL> assert true ( ( integer ) val = = 0 ) ;  <NL>  }  <NL>  }  COM: <s> test method for </s>

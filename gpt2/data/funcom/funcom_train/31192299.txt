@@ -1,0 +1,1 @@
+TDAT: public int read ( ) {  <NL> if ( pos < doc . get length ( ) ) {  <NL> try {  <NL> char c = doc . get text ( ( int ) pos , 1 ) . char at ( 0 ) ;  <NL> pos + + ;  <NL> return c ;  <NL>  } catch ( bad location exception ble ) {  <NL> return - 1 ;  <NL>  }  <NL>  } else {  <NL> return - 1 ;  <NL>  }  <NL>  }  COM: <s> read a single character of the document </s>

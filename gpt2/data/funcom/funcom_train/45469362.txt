@@ -1,0 +1,1 @@
+TDAT: public boolean is default identity ( final identity identity ) {  <NL> if ( identity = = null ) { return true ; }  <NL> for ( int i = 0 ; i < identity . size ( ) ; i + + ) {  <NL> if ( ! _ ids [ i ] . is default ( identity . get ( i ) ) ) { return false ; }  <NL>  }  <NL> return true ;  <NL>  }  COM: <s> test if the specified identity is the default value of the type </s>

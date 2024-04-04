@@ -1,0 +1,1 @@
+TDAT: public int compare ( i station p1 , i station p2 ) throws class cast exception {  <NL>  <NL> return station . get topology ( ) . get mtu ( from peer . get node index ( ) , p1 . get node index ( ) ) -  <NL> station . get topology ( ) . get mtu ( from peer . get node index ( ) , p2 . get node index ( ) ) ;  <NL>  }  COM: <s> overloading of compare method </s>

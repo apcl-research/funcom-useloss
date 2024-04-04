@@ -1,0 +1,1 @@
+TDAT: private void update window ( ) {  <NL> file l input file = new file ( options . get option ( options enum . input name ) . get string ( ) ) ;  <NL> this . set title ( " cc visu | www . sosy - lab . org | " . concat ( l input file . get name ( ) ) ) ;  <NL> if ( canvas ! = null ) {  <NL> canvas . update and paint ( ) ;  <NL>  }  <NL>  }  COM: <s> set the window title </s>

@@ -1,0 +1,1 @@
+TDAT: protected q name purify q name ( q name qname ) {  <NL> qname . prefix = purify name ( qname . prefix , true ) ;  <NL> qname . localpart = purify name ( qname . localpart , true ) ;  <NL> qname . rawname = purify name ( qname . rawname , false ) ;  <NL> return qname ;  <NL>  } / / purify q name ( q name ) : q name  COM: <s> purify qualified name </s>

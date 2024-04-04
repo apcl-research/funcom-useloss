@@ -1,0 +1,1 @@
+TDAT: public void draw icon ( graphics g , int x , int y , int width , int height ) {  <NL> image i = clan image provider . get ( " item / " + get type ( ) + " / icon " ) ;  <NL> g . draw image ( i , x , y , x + width , y + height , 0 , 0 , i . get width ( null ) , i . get height ( null ) , null ) ;  <NL>  }  COM: <s> draw the small icon e </s>

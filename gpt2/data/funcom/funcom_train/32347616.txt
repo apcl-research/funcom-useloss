@@ -1,0 +1,1 @@
+TDAT: public void state changed ( change event e ) {  <NL> double val = slider . get value ( ) ;  <NL> double tp = ( val - slider min ) / ( slider max - slider min ) ;  <NL> burn panel ( ) . set t peak ( tp ) ;  <NL> thrust panel ( ) . set t peak ( tp ) ;  <NL> value label ( ) . set text ( format . format to n places ( tp , 2 ) ) ;  <NL>  }  COM: <s> the slider moved </s>

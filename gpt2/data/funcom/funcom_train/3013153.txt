@@ -1,0 +1,1 @@
+TDAT: private void init ndc ( ) {  <NL> invoke method ( " org . apache . log4j . ndc " , " pop " , null , null , null ) ;  <NL> invoke method ( " org . apache . log4j . ndc " , " push " , null ,  <NL> new class [ ] { string . class } , new string [ ] { " [ " + get name ( ) + " ] " } ) ;  <NL>  }  COM: <s> initializes log4 js ndc </s>

@@ -1,0 +1,1 @@
+TDAT: public void hangup ( ) {  <NL> log . debug ( " pressed hangup " ) ;  <NL> if ( _ call ! = null ) {  <NL> runnable ans = new runnable ( ) {  <NL> public void run ( ) {  <NL>  _ call . hangup ( ) ;  <NL>  }  <NL>  } ;  <NL> javax . swing . swing utilities . invoke later ( ans ) ;  <NL> show ( " hangup . . . " ) ;  <NL>  }  <NL>  }  COM: <s> hangs up the current call </s>

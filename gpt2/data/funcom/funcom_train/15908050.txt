@@ -1,0 +1,1 @@
+TDAT: public void set range ( int dimension , int min , int max ) {  <NL> range d ;  <NL> for ( int dim = 1 ; dimension > 0 ; dim < < = 1 ) {  <NL> if ( ( dimension & dim ) ! = 0 ) {  <NL> d = new range ( min , max ) ;  <NL> ranges . put ( new integer ( dimension ) , d ) ;  <NL> dimension & = ~ dim ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> sets the range of a dimension </s>

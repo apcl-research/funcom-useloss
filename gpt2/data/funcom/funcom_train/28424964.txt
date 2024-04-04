@@ -1,0 +1,1 @@
+TDAT: public void put all ( map t ) {  <NL> iterator it = t . key set ( ) . iterator ( ) ;  <NL> while ( it . has next ( ) ) {  <NL> point key = ( point ) it . next ( ) ;  <NL> object value = t . get ( key ) ;  <NL> put ( key . x , key . y , value ) ;  <NL>  }  <NL>  }  COM: <s> required by map interface dumps the given map into this table </s>

@@ -1,0 +1,1 @@
+TDAT: public void empty element ( final uri ns uri , final string local name , final string q name , final attributes atts ) throws sax exception {  <NL> start element ( ns uri , local name , q name , atts ) ;  <NL> end element ( ns uri , local name , q name ) ;  <NL> return ;  <NL>  }  COM: <s> notification of an empty element </s>

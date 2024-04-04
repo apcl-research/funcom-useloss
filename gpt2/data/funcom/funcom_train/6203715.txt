@@ -1,0 +1,1 @@
+TDAT: private boolean matches mask ( string filename , string mask ) {  <NL> mask = mask . replace all ( " \\ . " , " \\\\ . " ) ;  <NL> mask = mask . replace all ( " \\ * " , " . * " ) ;  <NL> mask = mask . replace all ( " \\ ? " , " . " ) ;  <NL> return filename . matches ( " ( ? iu ) " + mask ) ;  <NL>  }  COM: <s> whether the mask matches the filename </s>

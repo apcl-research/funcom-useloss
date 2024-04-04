@@ -1,0 +1,1 @@
+TDAT: public string get mode path ( ) {  <NL> string retval = " " ;  <NL> for ( int i = 0 ; i < mode stack . length ; i + + ) {  <NL> retval + = mode stack value to label ( mode stack [ i ] ) ;  <NL> if ( i + 1 < mode stack . length ) {  <NL> retval + = " . " ; } }  <NL> return retval ;  <NL>  }  COM: <s> returns the mode stack array as a dot separated string </s>

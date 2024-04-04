@@ -1,0 +1,1 @@
+TDAT: public model and view sites handler ( http servlet request request , http servlet response response ) throws servlet exception {  <NL> map model = new hash map ( ) ;  <NL> model . put ( " sites " , gpir . get sites ( ) ) ;  <NL> return new model and view ( " sites view " , " model " , model ) ;  <NL>  }  COM: <s> custom handler for sites display </s>

@@ -1,0 +1,1 @@
+TDAT: public string get string ( byte [ ] name , int start , int length , string encoding ) {  <NL> entry e = get entry ( name , start , length , encoding ) ;  <NL> string s = get ( e ) ;  <NL> if ( s = = null )  <NL> put ( e , s = create string ( name , start , length , encoding ) ) ;  <NL> return s ;  <NL>  }  COM: <s> get a string from the string cache </s>

@@ -1,0 +1,1 @@
+TDAT: protected void read all rows ( ) {  <NL> for ( int i = 0 ; i < entry count ; i + + ) {  <NL> search row row = rows [ i ] ;  <NL> if ( row = = null ) {  <NL> row = index . read row ( data , offsets [ i ] , only position , false ) ;  <NL> rows [ i ] = row ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> ensure all rows are read in memory </s>

@@ -1,0 +1,1 @@
+TDAT: public void reset comments ( ) {  <NL> plugin logger . log ( this . get class ( ) . to string ( ) , " reset comments " , " reloading comments from model " ) ;  <NL> this . comments = ra . get all comments ( ) ;  <NL> this . viewer . set input ( this . comments ) ;  <NL> this . refresh table ( ) ;  <NL>  }  COM: <s> resets the comments reloading from model </s>

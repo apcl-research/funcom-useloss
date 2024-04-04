@@ -1,0 +1,1 @@
+TDAT: private int get level per y ( final int y ) {  <NL> final double f = ( y - top margin ) / ( ( float ) level distance + node height ) ;  <NL> final double b = node height / ( float ) ( level distance + node height ) ;  <NL> return f < = ( ( int ) f + b ) ? ( int ) f : - 1 ;  <NL>  }  COM: <s> determines the level of a y axis value </s>

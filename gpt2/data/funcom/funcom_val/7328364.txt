@@ -1,0 +1,1 @@
+TDAT: public void test load text ( ) throws io exception {  <NL> configuration config = test load ( text1 , false ) ;  <NL> assert equals ( " foo " , config . get ( " prop . 1 " ) ) ;  <NL> assert equals ( " bar " , config . get ( " prop . 2 " ) ) ;  <NL> assert equals ( " baz " , config . get ( " prop . 3 " ) ) ;  <NL>  }  COM: <s> load a props file </s>

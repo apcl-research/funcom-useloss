@@ -1,0 +1,1 @@
+TDAT: public void test ymd constructor ( ) {  <NL> date of birth dob = new date of birth ( 1964 , 11 , 8 ) ;  <NL> calendar c = calendar . get instance ( ) ;  <NL> c . set ( 1980 , 10 , 9 ) ;  <NL> assert equals ( 16 , dob . age at date ( c . get time ( ) ) ) ;  <NL>  }  COM: <s> test constructor that takes year month day values </s>

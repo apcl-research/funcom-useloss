@@ -1,0 +1,1 @@
+TDAT: public string get string ( string key ) throws missing resource exception {  <NL> string s = provider . get string ( key ) ;  <NL> if ( s = = null )  <NL> throw new missing resource exception ( " missing resource for " + key , this . get class ( ) . get name ( ) , key ) ;  <NL> return s . trim ( ) ;  <NL>  }  COM: <s> looks up a string value </s>

@@ -1,0 +1,1 @@
+TDAT: private void install statusbar ( ) {  <NL> j panel statusbar = new j panel ( new border layout ( ) ) ;  <NL> statusbar . add ( coord label , border layout . west ) ;  <NL> statusbar . add ( mem label , border layout . east ) ;  <NL> shell . get content pane ( ) . add ( statusbar , border layout . south ) ;  <NL>  }  COM: <s> adds a status bar </s>

@@ -1,0 +1,1 @@
+TDAT: public void set item selected ( int idx , boolean val ) {  <NL> element option = dom . get child ( get element ( ) , idx ) ;  <NL> if ( option = = null )  <NL> throw new index out of bounds exception ( ) ;  <NL> dom . set attribute ( option , " selected " , val ? " true " : null ) ;  <NL>  }  COM: <s> this method sets a selected item by index </s>

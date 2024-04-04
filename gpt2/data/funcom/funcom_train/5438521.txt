@@ -1,0 +1,1 @@
+TDAT: public server create server ( ) {  <NL> server srv = new server ( ) ;  <NL> add goal west ( srv , - server . width / 2 , 0 ) ;  <NL> add goal east ( srv , server . width / 2 , 0 ) ;  <NL> add flags ( srv ) ;  <NL> srv . add sim object ( new ball ( 0 , 0 ) ) ;  <NL> return srv ;  <NL>  }  COM: <s> creates a server with no players </s>

@@ -1,0 +1,1 @@
+TDAT: public void test table create1 ( ) {  <NL> table t = new table ( " . " ) ;  <NL> assert equals ( t . comment name ( ) , " _ new " ) ;  <NL> assert equals ( t . get abb ( ) , " _ new " ) ;  <NL> assert equals ( t . get basedir ( ) , " . " ) ;  <NL> assert equals ( t . get name ( ) , " _ new " ) ;  <NL>  }  COM: <s> create unnamed table object </s>

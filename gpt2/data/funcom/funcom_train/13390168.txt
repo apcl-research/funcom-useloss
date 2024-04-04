@@ -1,0 +1,1 @@
+TDAT: private void init map ( map map ) {  <NL>  <NL> for ( iterator it = context . get init parameter names ( ) ; it . has next ( ) ; ) {  <NL> string key = ( string ) it . next ( ) ;  <NL> object obj = context . get init parameter ( key ) ;  <NL>  <NL> if ( obj ! = null ) {  <NL> map . put ( key , obj ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> initialize the map </s>

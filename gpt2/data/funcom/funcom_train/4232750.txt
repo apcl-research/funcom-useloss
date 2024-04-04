@@ -1,0 +1,1 @@
+TDAT: public int compare to ( time range t ) {  <NL> if ( start = = t . start ) {  <NL> if ( end = = t . end ) {  <NL> return 0 ;  <NL>  } else if ( end < t . end ) {  <NL> return - 1 ;  <NL>  } else {  <NL> return 1 ;  <NL>  }  <NL>  } else if ( start < t . start ) {  <NL> return - 1 ;  <NL>  } else {  <NL> return 1 ;  <NL>  }  <NL>  }  COM: <s> compare time ranges </s>

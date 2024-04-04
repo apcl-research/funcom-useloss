@@ -1,0 +1,1 @@
+TDAT: public void parse ( string s ) throws parse exception , eof exception {  <NL> if ( s ! = null & & s . length ( ) > 0 & & strategy factory ! = null ) {  <NL> reader r = new string reader ( s ) ;  <NL> parser strategy ps = strategy factory . create parser strategy ( r ) ;  <NL> ps . parse ( ) ;  <NL>  }  <NL>  }  COM: <s> parse a string </s>

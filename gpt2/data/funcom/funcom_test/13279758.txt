@@ -1,0 +1,1 @@
+TDAT: public void add costs _ internal ( conventional constraint constraint , int cost id , object cost mapping options ) {  <NL> if ( registry . safe _ mode ) {  <NL> add costs ( constraint , cost id , cost mapping options ) ;  <NL>  } else {  <NL> add costs _ unsafe ( constraint , cost id , cost mapping options ) ;  <NL>  }  <NL>  }  COM: <s> cost addition for internal use </s>

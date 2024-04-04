@@ -1,0 +1,1 @@
+TDAT: public double get z ( long z ) {  <NL> if ( ( z < z _ min ) || ( z > z _ max ) ) {  <NL> throw new illegal argument exception (  <NL>  " z out of bounds : " + z + " ( " + z _ min + " , " + z _ max + " ) " ) ;  <NL>  }  <NL> return ( z - z _ offset ) / m z scale ;  <NL>  }  COM: <s> convert a number betwee z min and z max to display coordinates </s>

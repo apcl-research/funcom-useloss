@@ -1,0 +1,1 @@
+TDAT: public void set long ( int index , long lg ) throws db exception {  <NL> try {  <NL> ps . set long ( index , lg ) ;  <NL>  } catch ( sql exception e ) {  <NL> try {  <NL> set int ( index , ( int ) lg ) ;  <NL>  } catch ( db exception d ) {  <NL> throw new db exception ( " prepared : set long failed " , e ) ; }  <NL>  }  <NL>  }  COM: <s> set long at column index </s>

@@ -1,0 +1,1 @@
+TDAT: public void add reader ( int reader id ) throws sql exception {  <NL> if ( ! is reader ( reader id ) ) {  <NL> dbm . exec ( " insert into acl readers ( acl id , reader id ) " +  <NL>  " values ( ' " + get id ( ) + " ' , ' " + reader id + " ' ) " ) ;  <NL>  }  <NL>  }  COM: <s> adds the specified group or user to the read list </s>

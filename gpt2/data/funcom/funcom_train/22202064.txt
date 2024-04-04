@@ -1,0 +1,1 @@
+TDAT: protected void start tag ( string namespace , string tag , org . xml . sax . attributes attributes ) throws sax exception {  <NL> string nspref ;  <NL> nspref = namespace . equals ( def ns ) ? " " : namespace + " : " ;  <NL> handler . start element ( ( string ) name spaces . get ( namespace ) , tag , nspref + tag , attributes ) ;  <NL>  }  COM: <s> prints a start tag </s>

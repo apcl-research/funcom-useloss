@@ -1,0 +1,1 @@
+TDAT: public year month day set copy ( int value ) {  <NL> int [ ] new values = i year month day . get values ( ) ;  <NL> new values = get field ( ) . set ( i year month day , i field index , new values , value ) ;  <NL> return new year month day ( i year month day , new values ) ;  <NL>  }  COM: <s> sets this field in a copy of the year month day </s>

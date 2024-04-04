@@ -1,0 +1,1 @@
+TDAT: public void paint ( graphics g ) {  <NL> super . paint ( g ) ;  <NL> g . draw image ( m _ image , 0 , 0 , 400 , 300 , this ) ;  <NL> g . set font ( new font ( " serif " , font . bold , 16 ) ) ;  <NL> g . set color ( color . blue ) ;  <NL> g . draw string ( " version " + osm application . osm _ version , 132 , 285 ) ;  <NL>  }  COM: <s> to paint the image </s>

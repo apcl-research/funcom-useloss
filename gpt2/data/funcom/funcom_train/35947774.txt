@@ -1,0 +1,1 @@
+TDAT: public text trim end ( ) {  <NL> int first = 0 ; / / first character index .  <NL> int last = length ( ) - 1 ; / / last character index .  <NL> while ( ( last > = first ) & & ( char at ( last ) < = ' ' ) ) {  <NL> last - - ;  <NL>  }  <NL> return subtext ( first , last + 1 ) ;  <NL>  }  COM: <s> returns a copy of this text with trailing </s>

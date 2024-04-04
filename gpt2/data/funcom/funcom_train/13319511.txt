@@ -1,0 +1,1 @@
+TDAT: public void set column name ( string [ ] names ) {  <NL> if ( names = = null ) {  <NL> throw new null pointer exception ( " column names are null " ) ;  <NL>  }  <NL> column names = new string [ names . length ] ;  <NL> system . arraycopy ( names , 0 , column names , 0 , names . length ) ;  <NL>  }  COM: <s> copies the content of the specified array to the table header </s>

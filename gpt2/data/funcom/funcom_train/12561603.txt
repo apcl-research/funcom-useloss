@@ -1,0 +1,1 @@
+TDAT: public void paint ( graphics g ) {  <NL>  / / stroke should already be solid <NL> g . set color ( text field skin . color _ fg ) ;  <NL> g . fill rect ( x , y - y offset - height + 2 ,  <NL> text field skin . width _ caret , height - 3 ) ;  <NL> g . set color ( 0 ) ; / / back to default black <NL>  }  COM: <s> paint this cursor in the given graphics context </s>

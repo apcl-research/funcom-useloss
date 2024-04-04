@@ -1,0 +1,1 @@
+TDAT: public void add shared component ( string name , url [ ] codebase ) {  <NL> if ( name = = null )  <NL> throw new null pointer exception ( " name cannot be null " ) ;  <NL> if ( codebase = = null )  <NL> throw new null pointer exception ( " codebase cannot be null " ) ;  <NL> shared components . put ( name , codebase ) ;  <NL>  }  COM: <s> add a shared component </s>

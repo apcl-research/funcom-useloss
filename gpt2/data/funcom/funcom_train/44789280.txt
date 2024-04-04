@@ -1,0 +1,1 @@
+TDAT: final public token get next token ( ) {  <NL> if ( this . token . next ! = null ) {  <NL> this . token = this . token . next ;  <NL>  } else {  <NL> this . token = this . token . next = this . token _ source . get next token ( ) ;  <NL>  }  <NL> this . jj _ ntk = - 1 ;  <NL> this . jj _ gen + + ;  <NL> return this . token ;  <NL>  }  COM: <s> get the next token </s>

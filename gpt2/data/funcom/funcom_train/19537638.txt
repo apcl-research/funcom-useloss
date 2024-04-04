@@ -1,0 +1,1 @@
+TDAT: public object get initiative token ( ) {  <NL> initiative list list = map tool . get frame ( ) . get current zone renderer ( ) . get zone ( ) . get initiative list ( ) ;  <NL> int index = list . get current ( ) ;  <NL> return index ! = - 1 ? list . get token ( index ) . get id ( ) . to string ( ) : " " ;  <NL>  }  COM: <s> get the token that has the current initiative </s>

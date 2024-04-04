@@ -1,0 +1,1 @@
+TDAT: public void add fig ( fig fig ) {  <NL> fig group = fig . get group ( ) ;  <NL> if ( group ! = this ) {  <NL> if ( group ! = null ) {  <NL>  ( ( fig group ) group ) . remove fig ( fig ) ;  <NL>  }  <NL> this . figs . add ( fig ) ;  <NL> fig . set group ( this ) ;  <NL> calc bounds ( ) ;  <NL>  }  <NL>  }  COM: <s> add a fig to the group </s>

@@ -1,0 +1,1 @@
+TDAT: protected boolean is any z true ( ) {  <NL> if ( gzexpr ! = null ) return gzexpr . is any true ( ) ;  <NL> if ( zexpr ! = null ) return zexpr . is true ( ) ;  <NL> if ( current const val ! = null ) return current const val . boolean value ( ) ;  <NL> return current gen const val . is any true ( ) ;  <NL>  }  COM: <s> returns true if any z node is true </s>

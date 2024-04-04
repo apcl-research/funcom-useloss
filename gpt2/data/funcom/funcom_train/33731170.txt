@@ -1,0 +1,1 @@
+TDAT: private point touch pad corner to center ( point touch pad corner ) {  <NL> double x = touch pad corner . get x ( ) - ( tp _ vmax - tp _ vmin ) / 2 ;  <NL> double y = touch pad corner . get y ( ) - ( tp _ hmax - tp _ hmin ) / 2 ;  <NL> return new point ( ( int ) x , ( int ) y ) ;  <NL>  }  COM: <s> translate the touch pad points with origin at the top left corner to </s>

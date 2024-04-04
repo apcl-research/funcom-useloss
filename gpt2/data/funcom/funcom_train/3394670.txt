@@ -1,0 +1,1 @@
+TDAT: private void import named ( diagnostic position pos , symbol tsym , env < attr context > env ) {  <NL> if ( tsym . kind = = typ & &  <NL> chk . check unique import ( pos , tsym , env . toplevel . named import scope ) )  <NL> env . toplevel . named import scope . enter ( tsym , tsym . owner . members ( ) ) ;  <NL>  }  COM: <s> import given class </s>

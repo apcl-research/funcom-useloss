@@ -1,0 +1,1 @@
+TDAT: public void append ( string sig , object . . . data ) throws d bus exception {  <NL> byte [ ] sigb = sig . get bytes ( ) ;  <NL> int j = 0 ;  <NL> for ( int i = 0 ; i < sigb . length ; i + + ) {  <NL> i = appendone ( sigb , i , data [ j + + ] ) ;  <NL>  }  <NL>  }  COM: <s> append a series of values to the message </s>

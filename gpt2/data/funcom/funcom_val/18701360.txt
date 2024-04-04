@@ -1,0 +1,1 @@
+TDAT: public void add postset ( y flow flow ) {  <NL> if ( flow ! = null ) {  <NL> y external net element next = flow . get next element ( ) ;  <NL>  _ postset flows . put ( next . get id ( ) , flow ) ;  <NL> next . _ preset flows . put ( this . get id ( ) , flow ) ;  <NL>  }  <NL>  }  COM: <s> adds a flow to the set of outgoing flows for this element </s>

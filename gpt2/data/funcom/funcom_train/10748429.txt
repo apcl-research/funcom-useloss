@@ -1,0 +1,1 @@
+TDAT: public void test anonymous local ( ) {  <NL> class [ ] cs = this . get class ( ) . get declared classes ( ) ;  <NL> for ( class c : cs ) {  <NL> assert false ( " anonymous " + c , c . is anonymous class ( ) ) ;  <NL> assert false ( " local " + c . to string ( ) , c . is local class ( ) ) ;  <NL>  }  <NL>  }  COM: <s> should not include non member inner classes </s>

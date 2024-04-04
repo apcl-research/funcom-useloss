@@ -1,0 +1,1 @@
+TDAT: public boolean is g brec ( int modv , list < gen polynomial < gen polynomial < c > > > f ) {  <NL> if ( f = = null || f . is empty ( ) ) {  <NL> return true ;  <NL>  }  <NL> if ( true ) {  <NL> rbb = new groebner base pseudo rec seq < c > ( f . get ( 0 ) . ring . co fac ) ;  <NL>  }  <NL> return rbb . is gb ( modv , f ) ;  <NL>  }  COM: <s> groebner base test </s>

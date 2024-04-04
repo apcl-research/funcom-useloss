@@ -1,0 +1,1 @@
+TDAT: public void set phone numbers ( java . util . map value ) throws cache exception {  <NL> dataholder dh = new dataholder ( value ) ;  <NL> m internal . set property ( ii _ phone numbers , jj _ phone numbers , kk _ phone numbers , database . ret _ object , " phone numbers " , dh ) ;  <NL> return ;  <NL>  }  COM: <s> sets new value for code phone numbers code </s>

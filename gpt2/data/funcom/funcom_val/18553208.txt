@@ -1,0 +1,1 @@
+TDAT: public string get value string ( ) {  <NL> if ( get rbt true ( ) . is selected ( ) ) {  <NL> return get rbt true ( ) . get text ( ) ;  <NL>  } else if ( get rbt false ( ) . is selected ( ) ) {  <NL> return get rbt false ( ) . get text ( ) ;  <NL>  } else {  <NL> return get rbt all ( ) . get text ( ) ;  <NL>  }  <NL>  }  COM: <s> return speaking value of </s>

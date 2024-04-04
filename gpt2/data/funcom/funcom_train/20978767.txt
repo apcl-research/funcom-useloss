@@ -1,0 +1,1 @@
+TDAT: private j text field get ed game name ( ) {  <NL> if ( ed game name = = null ) {  <NL> ed game name = new j text field ( ) ;  <NL> ed game name . set name ( " textfield _ gamename " ) ;  <NL> ed game name . set bounds ( new rectangle ( 254 , 87 , 256 , 20 ) ) ;  <NL>  }  <NL> return ed game name ;  <NL>  }  COM: <s> this method initializes ed game name </s>

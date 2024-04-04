@@ -1,0 +1,1 @@
+TDAT: private void log elapsed time ( string uri , date start time , exception e ) {  <NL> long millis = ( new date ( ) ) . get time ( ) - start time . get time ( ) ;  <NL> string msg = millis + " millis : " + uri + ( ( e = = null ) ? " " : " " + e ) ;  <NL> this . logger . info ( msg ) ;  <NL>  }  COM: <s> logs info to the logger about the elapsed time for this request </s>

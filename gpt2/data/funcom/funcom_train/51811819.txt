@@ -1,0 +1,1 @@
+TDAT: public void test add listener ( ) {  <NL> producer . fire test listener message ( get name ( ) ) ;  <NL> assert equals ( " message not delivered " , 1 , listener . messages . size ( ) ) ;  <NL> assert equals ( " wrong message delivered " , get name ( ) , listener . messages . get ( 0 ) [ 2 ] ) ;  <NL>  }  COM: <s> adding a basic listener </s>

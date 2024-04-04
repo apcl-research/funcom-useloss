@@ -1,0 +1,1 @@
+TDAT: public void serialize ( record output rout , string tag ) throws io exception {  <NL>  / / write out any header , version info , here <NL> rout . start record ( this , tag ) ;  <NL> rout . write string ( name , tag ) ;  <NL> s tid . write rest ( rout , tag ) ;  <NL> rout . end record ( this , tag ) ;  <NL>  }  COM: <s> serialize the type information for a record </s>

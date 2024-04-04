@@ -1,0 +1,1 @@
+TDAT: public void move current to orig ( ) {  <NL> for ( int i = 0 ; i < num cols ; i + + ) {  <NL> if ( get col updated ( i ) = = true ) {  <NL> orig vals [ i ] = current vals [ i ] ;  <NL> current vals [ i ] = null ;  <NL> cols changed . clear ( i ) ;  <NL>  }  <NL>  }  <NL> updated = false ;  <NL>  }  COM: <s> sets the column values in this code row code objects internal </s>

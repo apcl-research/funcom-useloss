@@ -1,0 +1,1 @@
+TDAT: public void intersect ( date interval d ) {  <NL> if ( ! d . is valid ( ) || ! is valid ( ) )  <NL> return ;  <NL> date from = new wdc day ( wdc day . max ( date from , d . date from ) ) ;  <NL> date to = new wdc day ( wdc day . min ( date to , d . date to ) ) ;  <NL>  } ;  COM: <s> intersects the interval with another one </s>

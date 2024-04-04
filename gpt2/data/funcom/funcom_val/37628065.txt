@@ -1,0 +1,1 @@
+TDAT: public void set word wrap ( boolean word wrap ) {  <NL> if ( this . word wrap ! = word wrap ) {  <NL> boolean old val = this . word wrap ;  <NL> this . word wrap = word wrap ;  <NL> reload ( ) ;  <NL> property change support . fire property change ( " word wrap " , old val , this . word wrap ) ;  <NL>  }  <NL>  }  COM: <s> defines if the label is allowed to wrap </s>

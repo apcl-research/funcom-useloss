@@ -1,0 +1,1 @@
+TDAT: public void draw ( graphics2d g ) {  <NL> g . set paint ( new texture paint ( ( buffered image ) m image , new rectangle ( 0 , t ,  <NL> get width ( ) , get height ( ) ) ) ) ;  <NL> g . fill rect ( 0 , 0 , get parent width ( ) , get parent height ( ) ) ;  <NL>  }  COM: <s> draws the next frame </s>

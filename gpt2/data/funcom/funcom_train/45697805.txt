@@ -1,0 +1,1 @@
+TDAT: private void increment size and depth ( final int child inc size , final int depth ) {  <NL> invalidate ( ) ;  <NL> size + = child inc size ;  <NL> if ( max depth < depth ) {  <NL> max depth = depth ;  <NL>  }  <NL> if ( parent ! = null ) {  <NL> parent . increment size and depth ( child inc size , depth + 1 ) ;  <NL>  }  <NL>  }  COM: <s> increment the size and depth </s>

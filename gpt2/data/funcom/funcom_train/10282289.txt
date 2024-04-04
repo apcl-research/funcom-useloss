@@ -1,0 +1,1 @@
+TDAT: public void set sound ( boolean p sound ) {  <NL> if ( debug . with _ dev _ debug ) {  <NL> m log . info ( " set sound ( ) , this : " + this + " , old value : " + m sound <NL>  + " , new value : " + p sound ) ; }  <NL> m sound = p sound ;  <NL>  }  COM: <s> sets the value of sound </s>

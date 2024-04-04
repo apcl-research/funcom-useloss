@@ -1,0 +1,1 @@
+TDAT: public string get free id ( ) {  <NL> if ( get number of timeline items ( ) > 0 ) {  <NL> int i = 0 ;  <NL> while ( positions . contains key ( ( string ) ( " t " + new integer ( i ) . to string ( ) ) ) ) { i + + ; }  <NL> return ( string ) ( " t " + new integer ( i ) ) ;  <NL>  }  <NL> return " t0 " ;  <NL>  }  COM: <s> returns a free id </s>

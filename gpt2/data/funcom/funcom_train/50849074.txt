@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> return " [ " + name + " , " +  <NL>  ( attributes ( ) . is empty ( ) ? " no attr " : " attr : " + attributes ( ) . to string ( ) ) +  <NL>  " , " + ( " " . equals ( value ( ) ) ? childs as list ( ) . size ( ) + " child ( s ) ] " : " val : " + value ( ) + " ] " ) ;  <NL>  }  COM: <s> returns a string representation of this xml </s>

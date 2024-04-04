@@ -1,0 +1,1 @@
+TDAT: private void create history ( sms sms ) {  <NL> history . record record = new history . record ( sms . get number ( ) , sms . get text ( ) ,  <NL> sms . get gateway ( ) , sms . get name ( ) , sms . get sender number ( ) ,  <NL> sms . get sender name ( ) , null ) ;  <NL> history . add record ( record ) ;  <NL>  }  COM: <s> saves history of sent sms </s>

@@ -1,0 +1,1 @@
+TDAT: private boolean is inside ( int x , int y ) {  <NL> for ( int i = 0 ; i < shape x . length ; i + + ) {  <NL> if ( x = = x pos + get relative x ( i , orientation )  <NL>  & & y = = y pos + get relative y ( i , orientation ) ) {  <NL>  <NL> return true ;  <NL>  }  <NL>  }  <NL> return false ;  <NL>  }  COM: <s> checks if a specified pair of square coordinates are inside </s>

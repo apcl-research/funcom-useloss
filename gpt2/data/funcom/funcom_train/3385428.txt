@@ -1,0 +1,1 @@
+TDAT: private int locate and get index ( point2d loc , boolean preceding , point2d result ) {  <NL> double a = loc . get x ( ) ;  <NL> double o = loc . get y ( ) ;  <NL> int seg = get segment index for advance ( a , preceding ) ;  <NL> map ( seg , a , o , result ) ;  <NL>  <NL> return seg ;  <NL>  }  COM: <s> map the point and return the segment index </s>

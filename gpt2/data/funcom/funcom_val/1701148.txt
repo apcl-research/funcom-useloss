@@ -1,0 +1,1 @@
+TDAT: public int get index ( object o ) {  <NL> list model model = this . get model ( ) ;  <NL> for ( int i = 0 ; i < model . get size ( ) ; i + + ) {  <NL> object obj = model . get element at ( i ) ;  <NL> if ( obj . equals ( o ) ) {  <NL> return i ;  <NL>  }  <NL>  }  <NL> return - 1 ;  <NL>  }  COM: <s> assume no duplicate item in the list </s>

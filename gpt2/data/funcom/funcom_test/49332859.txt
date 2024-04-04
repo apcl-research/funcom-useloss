@@ -1,0 +1,1 @@
+TDAT: public void mac read ( byte [ ] buf ) throws usb exception , invalid firmware exception , capability exception , index out of bounds exception {  <NL> if ( buf . length < 6 )  <NL> throw new index out of bounds exception ( " mac read : buffer smaller than 6 bytes " ) ;  <NL> mac eeprom read ( 250 , buf , 6 ) ;  <NL>  }  COM: <s> reads mac address from mac eeprom </s>

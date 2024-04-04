@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> string result = m _ base experiment . to string ( ) ;  <NL>  <NL> result + = " \n remote hosts : \n " ;  <NL> for ( int i = 0 ; i < m _ remote hosts . size ( ) ; i + + ) {  <NL> result + = ( ( string ) m _ remote hosts . element at ( i ) ) + ' \n ' ;  <NL>  }  <NL> return result ;  <NL>  }  COM: <s> overides to string in experiment </s>

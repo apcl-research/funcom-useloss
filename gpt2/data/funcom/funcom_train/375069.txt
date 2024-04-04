@@ -1,0 +1,1 @@
+TDAT: private boolean compare j buffer ( j buffer b1 , j buffer b2 ) {  <NL> if ( b1 . size ( ) ! = b2 . size ( ) ) {  <NL> return false ;  <NL>  }  <NL>  <NL> for ( int i = 0 ; i < b1 . size ( ) ; i + + ) {  <NL> if ( b1 . get byte ( i ) ! = b2 . get byte ( i ) ) {  <NL> return false ;  <NL>  }  <NL>  }  <NL>  <NL> return true ;  <NL>  }  COM: <s> compare j buffer </s>

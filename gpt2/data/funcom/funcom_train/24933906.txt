@@ -1,0 +1,1 @@
+TDAT: private void select object ( string obj name ) {  <NL> m system state state = f system . state ( ) ;  <NL> if ( obj name . char at ( 0 ) = = ' @ ' ) {  <NL> obj name = obj name . substring ( 1 ) ;  <NL> f object = state . object by name ( obj name ) ;  <NL>  / / f table model . update ( ) ;  <NL>  }  <NL>  }  COM: <s> an object has been selected from the list </s>

@@ -1,0 +1,1 @@
+TDAT: public tree node remove child ( object child element ) {  <NL> for ( iterator < tree node > it = children . iterator ( ) ; it . has next ( ) ; ) {  <NL> tree node node = ( tree node ) it . next ( ) ;  <NL> if ( node . element = = child element ) {  <NL> it . remove ( ) ;  <NL> return node ;  <NL>  }  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> remove a child node </s>

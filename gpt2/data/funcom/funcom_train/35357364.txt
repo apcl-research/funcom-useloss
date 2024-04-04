@@ -1,0 +1,1 @@
+TDAT: public int get left ( ) {  <NL> return math . min ( this . p [ 0 ] . get x ( ) ,  <NL> math . min ( this . p [ 1 ] . get x ( ) ,  <NL> math . min ( this . p [ 2 ] . get x ( ) ,  <NL> this . p [ 3 ] . get x ( ) ) ) ) ;  <NL>  }  COM: <s> get leftmost extent of quadrilateral </s>

@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL>  <NL> if ( respawn on drop ( ) ) {  <NL> return arg name + " [ , " + arg name + " . . . ] " ;  <NL>  } else if ( optional arg ) {  <NL> return " < html > < i > [ , " + arg name + " ] < / i > < / html > " ;  <NL>  } else {  <NL> return arg name ;  <NL>  }  <NL>  }  COM: <s> returns a string representation </s>

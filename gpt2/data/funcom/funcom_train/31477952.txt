@@ -1,0 +1,1 @@
+TDAT: private void send background music ( ) throws io exception {  <NL> string [ ] music id = { " music1 . wav " , " d1 . mid " , " d2 . mid " , " d3 . mid " , " d4 . mid " , " d5 . mid " } ;  <NL> out . write utf ( music id [ ( new java . util . random ( ) ) . next int ( music id . length ) ] ) ;  <NL> send ok ( ) ;  <NL>  }  COM: <s> sends proper background music </s>

@@ -1,0 +1,1 @@
+TDAT: public boolean is special char ( char test char ) {  <NL> if ( special chars ! = null ) {  <NL> for ( int i = 0 ; i < special chars . size ( ) ; i + + ) {  <NL> if ( test char = = ( ( character ) special chars . element at ( i ) ) . char value ( ) ) {  <NL> return true ;  <NL>  }  <NL>  }  <NL>  }  <NL> return false ;  <NL>  }  COM: <s> check if its a special char </s>

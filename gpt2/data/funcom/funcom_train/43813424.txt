@@ -1,0 +1,1 @@
+TDAT: public double max ( double a , double b ) {  <NL> if ( a ! = a )  <NL> return a ; / / a is na n <NL> if ( ( a = = 0 . 0d ) & & ( b = = 0 . 0d )  <NL>  & & ( double . double to long bits ( a ) = = negative zero double bits ) ) {  <NL> return b ;  <NL>  }  <NL> return ( a > = b ) ? a : b ;  <NL>  }  COM: <s> returns the greater of two code double code values </s>

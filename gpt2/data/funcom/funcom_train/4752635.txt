@@ -1,0 +1,1 @@
+TDAT: protected ast create ast ( int row size , int column size ) {  <NL> ast matrix = ( ast ) f . ast ( f . list , row size , true ) ;  <NL> for ( int i = 1 ; i < row size + 1 ; i + + ) {  <NL> matrix . set ( i , f . ast ( f . list , column size , false ) ) ;  <NL>  }  <NL> return matrix ;  <NL>  }  COM: <s> create a new ast matrix instance i </s>

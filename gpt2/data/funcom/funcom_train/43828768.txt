@@ -1,0 +1,1 @@
+TDAT: public string get unique stream string ( ) {  <NL> return ( get site ( ) + get variable ( ) + get source ( ) + get unit ( ) +  <NL> get offset value ( ) + get offset type ( ) + get agg span ( ) . to string ( ) +  <NL> get agg method ( ) + get duplicate id ( ) ) . to lower case ( ) ;  <NL>  }  COM: <s> returns a concatenated string that will uniquely identify </s>

@@ -1,0 +1,1 @@
+TDAT: public string get query ( string query name , object params obj , map parameter map , map < string , object > loop param map , int indent ) {  <NL> set alias set = new hash set ( ) ;  <NL> return get query ( query name , params obj , parameter map , loop param map , alias set , indent ) ;  <NL>  }  COM: <s> command pattern will be used soon </s>

@@ -1,0 +1,1 @@
+TDAT: public variable get var ( final string n ) {  <NL> if ( vars . contains key ( n ) ) { return vars . get ( n ) ; }  <NL> variable v = world . get var ( n ) ;  <NL> if ( v = = null ) {  <NL> v = new gaml var ( n ) ;  <NL> v . set val ( get body ( ) . get val ( n ) ) ;  <NL>  }  <NL> return v ;  <NL>  }  COM: <s> gets the var </s>

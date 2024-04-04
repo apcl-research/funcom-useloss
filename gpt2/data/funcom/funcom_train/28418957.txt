@@ -1,0 +1,1 @@
+TDAT: private boolean parse value ( string rule ) {  <NL> if ( rule . contains ( " value [ " ) ) {  <NL> int i = rule . index of ( " value [ " ) + 6 ;  <NL> string s = rule . substring ( i ) ; s = s . substring ( 0 , s . index of ( " ] " ) ) ;  <NL> value = s ;  <NL> return true ;  <NL>  }  <NL> return false ;  <NL>  }  COM: <s> fetch the value to set from the rule </s>

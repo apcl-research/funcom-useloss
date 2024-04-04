@@ -1,0 +1,1 @@
+TDAT: public void add to opened images ( image window imgw ) {  <NL>  / / file info f info = imgw . get image plus ( ) . get file info ( ) ; / / 13 . 10 . 2010 <NL> string f name = imgw . get title ( ) ;  <NL>  / / f info . file name ;  <NL> opened images . put ( f name , imgw ) ;  <NL>  }  COM: <s> add an image name to the list of linked images </s>

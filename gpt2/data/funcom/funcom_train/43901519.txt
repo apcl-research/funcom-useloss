@@ -1,0 +1,1 @@
+TDAT: public math transform inverse ( ) {  <NL> if ( inverse = = null ) {  <NL> inverse = new molodenski transform ( abridged , a + da , b + db , target3d , a , b , source3d ,  <NL>  - dx , - dy , - dz ) ;  <NL> inverse . inverse = this ;  <NL>  }  <NL>  <NL> return inverse ;  <NL>  }  COM: <s> creates the inverse transform of this object </s>

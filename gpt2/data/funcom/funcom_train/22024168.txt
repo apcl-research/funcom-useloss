@@ -1,0 +1,1 @@
+TDAT: public void set linear vel ( float fx , float fy , float fz ) {  <NL> lvel . set ( fx , fy , fz ) ;  <NL> lmom . set ( fx * mass . get mass ( ) , fy * mass . get mass ( ) , fz * mass . get mass ( ) ) ;  <NL>  }  COM: <s> sets the linear velocity by altering the angular momentum </s>

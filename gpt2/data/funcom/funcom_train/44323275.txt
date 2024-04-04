@@ -1,0 +1,1 @@
+TDAT: public void add param ( string key , string value ) {  <NL> if ( key ! = null ) {  <NL> list list = ( list ) f params . get ( key ) ;  <NL> if ( list = = null ) {  <NL> list = new array list ( ) ;  <NL> f params . put ( key , list ) ;  <NL>  }  <NL> list . add ( value ) ;  <NL>  }  <NL>  }  COM: <s> adds new property value </s>

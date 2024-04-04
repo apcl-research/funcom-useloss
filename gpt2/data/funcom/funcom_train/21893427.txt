@@ -1,0 +1,1 @@
+TDAT: public void own ( ) {  <NL> chunk . chunk data [ pointer . x chunk ] . own ( ) ;  <NL> for ( mem relation variable var : new array list < mem relation variable > ( owners ) ) {  <NL> var . own ( ) ;  <NL>  }  <NL> owners . clear ( ) ;  <NL> if ( owns ! = null ) {  <NL> owns . remove owner ( this ) ;  <NL> owns = null ;  <NL>  }  <NL>  }  COM: <s> own chunk exclusively </s>

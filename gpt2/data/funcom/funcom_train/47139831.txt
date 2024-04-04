@@ -1,0 +1,1 @@
+TDAT: private void create reverse indexes ( ) {  <NL> reverse indexes = new int [ indexes . length ] ;  <NL> for ( int i = 0 ; i < indexes . length ; i + + ) {  <NL> for ( int j = 0 ; j < indexes . length ; j + + ) {  <NL> if ( indexes [ j ] = = i ) reverse indexes [ i ] = j ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> creates a reverse index table </s>

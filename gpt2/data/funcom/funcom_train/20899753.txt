@@ -1,0 +1,1 @@
+TDAT: public byte get voxel value ( int x , int y , int z ) {  <NL> int a = ( x + this . x * y + this . x * this . y * z ) ;  <NL> byte b = image [ a / byte . size ] ;  <NL> int i = a % byte . size ;  <NL> return ( byte ) ( b > > ( byte . size - 1 - i ) & 0x01 ) ;  <NL>  }  COM: <s> returns the voxel value at position x y z </s>

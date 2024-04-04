@@ -1,0 +1,1 @@
+TDAT: public void write to block ( block b , int offset ) {  <NL> b . put long ( offset + idx _ head , head ) ;  <NL> b . put long ( offset + idx _ tail , tail ) ;  <NL> b . put long ( offset + idx _ next _ item , next item ) ;  <NL> b . put long ( offset + idx _ nr _ valid _ items , nr valid items ) ;  <NL>  }  COM: <s> writes the details of the current phase into a block </s>

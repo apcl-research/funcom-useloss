@@ -1,0 +1,1 @@
+TDAT: private bundle get current bundle ( ) {  <NL> if ( it . equals ( get language ( ) ) ) {  <NL> if ( bundle it = = null ) bundle it = new bundle it ( ) ;  <NL> return bundle it ;  <NL>  } else { / / else is en <NL> if ( bundle en = = null ) bundle en = new bundle en ( ) ;  <NL> return bundle en ;  <NL>  }  <NL>  }  COM: <s> get the current bundle </s>

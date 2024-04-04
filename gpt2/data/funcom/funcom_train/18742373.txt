@@ -1,0 +1,1 @@
+TDAT: public void show popup menu ( tree node node , mouse event evt ) {  <NL> resource tree . this . request focus ( ) ;  <NL> j popup menu menu = create popup menu ( node ) ;  <NL> if ( menu ! = null ) {  <NL> menu . show ( evt . get component ( ) , evt . get x ( ) , evt . get y ( ) ) ;  <NL>  }  <NL>  }  COM: <s> show the popup menu </s>

@@ -1,0 +1,1 @@
+TDAT: / / private int get port ( ) {  <NL>  / / long port _ long = get long variable ( " port " ) ;  <NL>  / / if ( port _ long < 0 || port _ long > 65535 )  <NL>  / / throw new runtime exception ( " port not in range : " + port _ long ) ;  <NL>  / / int port = ( int ) port _ long ;  <NL>  / / return port ;  <NL>  / / }  COM: <s> get the port variable from the instance </s>

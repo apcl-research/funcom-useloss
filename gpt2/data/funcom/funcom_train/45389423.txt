@@ -1,0 +1,1 @@
+TDAT: private string get string from record ( byte [ ] data ) {  <NL> byte [ ] string = new byte [ 128 ] ;  <NL> int i ;  <NL> for ( i = 0 ; i < 128 ; i + + ) {  <NL> string [ i ] = data [ i ] ;  <NL> if ( data [ i ] = = 0 )  <NL> break ;  <NL>  }  <NL> string s = new string ( string , 0 , i ) ;  <NL> return s ;  <NL>  }  COM: <s> method get string from record description </s>

@@ -1,0 +1,1 @@
+TDAT: protected void load images ( integer [ ] vertices , map < integer , icon > image map ) {  <NL>  <NL> image icon icon = new image icon ( " . / server images / buddy . png " ) ;  <NL>  <NL> for ( int i = 0 ; icon ! = null & & i < vertices . length ; i + + ) {  <NL> image map . put ( vertices [ i ] , icon ) ;  <NL>  }  <NL>  }  COM: <s> loads the images for the nodes </s>

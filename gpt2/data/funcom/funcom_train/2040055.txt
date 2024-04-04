@@ -1,0 +1,1 @@
+TDAT: public string get state value ( string key ) {  <NL> int state size = states . size ( ) ;  <NL> for ( int i = 0 ; i < state size ; i + + ) {  <NL> if ( states . get ( i ) . get name ( ) . equals ( key ) ) { ;  <NL> return states . get ( i ) . get value ( ) ;  <NL>  }  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> gets the state value by key </s>

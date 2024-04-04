@@ -1,0 +1,1 @@
+TDAT: public cursor fetch all context ( ) {  <NL>  <NL> return lc db . query ( database _ table , new string [ ] { key _ id , key _ name _ tpoint , key _ hunger ,  <NL> key _ mood , key _ provision , key _ sleep } , null , null , null , null , null ) ;  <NL>  }  COM: <s> return a cursor over the list of all notes in the database </s>

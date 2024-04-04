@@ -1,0 +1,1 @@
+TDAT: public boolean is wielded ( thing item ) {  <NL> boolean result = false ;  <NL> for ( int i = 0 ; i < invcount ; i + + ) {  <NL> thing t = inv [ i ] ;  <NL> if ( t . get flag ( " is item " ) & & ( t . y > 0 ) & & t = = item ) {  <NL> return true ;  <NL>  }  <NL>  }  <NL> return result ;  <NL>  }  COM: <s> checks if a thing is wielded </s>

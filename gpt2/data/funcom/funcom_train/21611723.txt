@@ -1,0 +1,1 @@
+TDAT: public void test for ( ) throws interpreter exception {  <NL> check result ( " [ 1 , 2 , 3 ] " , interpreter . process ( " l = list ( 1 , 2 , 3 ) , for ( l , v , print ( v ) ) ; " ) ) ;  <NL>  }  COM: <s> tests for control </s>

@@ -1,0 +1,1 @@
+TDAT: protected void set ( final n value , final n min , final n max ) {  <NL>  _ min = non null ( min , " min value " ) ;  <NL>  _ max = non null ( max , " max value " ) ;  <NL>  _ value = non null ( value , " gene value " ) ;  <NL>  _ valid = _ value . compare to ( _ min ) > = 0 & & _ value . compare to ( _ max ) < = 0 ;  <NL>  }  COM: <s> set the code numer gene code </s>

@@ -1,0 +1,1 @@
+TDAT: public void set action classes ( string action class ) {  <NL> string tokenizer st = new string tokenizer ( action class , " , " ) ;  <NL> while ( st . has more elements ( ) ) {  <NL> string clazz = ( ( string ) st . next element ( ) ) . trim ( ) ;  <NL> this . get action classes ( ) . add ( clazz ) ;  <NL>  }  <NL>  }  COM: <s> this method will set the action classes </s>

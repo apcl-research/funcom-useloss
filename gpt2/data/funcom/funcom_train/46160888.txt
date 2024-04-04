@@ -1,0 +1,1 @@
+TDAT: public boolean set front color ( float red , float green , float blue , float alpha , boolean create if missing ) {  <NL> return set color attribute ( standard style attribute . foreground _ color . get name ( ) , red , green , blue , alpha , create if missing ) ;  <NL>  }  COM: <s> set the front color of this style to the specified value </s>

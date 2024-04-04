@@ -1,0 +1,1 @@
+TDAT: private void prepare table ( widget table , string css name ) {  <NL> element table elem = table . get element ( ) ;  <NL> dom . set style attribute ( table elem , " margin " , " 0px " ) ;  <NL> dom . set style attribute ( table elem , " border " , " 0px " ) ;  <NL> table . add style name ( css name ) ;  <NL>  }  COM: <s> prepare a table to be added to the </s>

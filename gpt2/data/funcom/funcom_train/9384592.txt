@@ -1,0 +1,1 @@
+TDAT: public float get x dpi ( ) {  <NL> if ( m current device ! = null ) {  <NL> float dpi = m current device . get x dpi ( ) ;  <NL> if ( float . is na n ( dpi ) = = false ) {  <NL> return dpi ;  <NL>  }  <NL>  }  <NL>  <NL>  / / get the pixel density as the density .  <NL> return get density ( ) . get dpi value ( ) ;  <NL>  }  COM: <s> returns the current device xdpi </s>

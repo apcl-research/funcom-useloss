@@ -1,0 +1,1 @@
+TDAT: public void decay ( double value ) {  <NL> if ( value * 10 > n ) return ;  <NL>  <NL> value = ( n - value ) / n ;  <NL> n = 0 ;  <NL> for ( int i = 0 ; i < this . bins . length ; i + + ) {  <NL> this . bins [ i ] - = value * this . bins [ i ] ;  <NL> n + = this . bins [ i ] ;  <NL>  }  <NL>  }  COM: <s> this methods is used to decay the histograms values uniformly </s>

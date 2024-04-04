@@ -1,0 +1,1 @@
+TDAT: public om element get first element ( ) {  <NL> om node node = get first om child ( ) ;  <NL> while ( node ! = null ) {  <NL> if ( node . get type ( ) = = node . element _ node ) {  <NL> return ( om element ) node ;  <NL>  } else {  <NL> node = node . get next om sibling ( ) ;  <NL>  }  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> returns the first element node </s>

@@ -1,0 +1,1 @@
+TDAT: private void draw vertical string ( graphics2d g2d , font render context fdr , string text , float x , float y ) {  <NL> g2d . rotate ( - math . pi / 2 . 0 ) ;  <NL> new text layout ( text , font , fdr ) . draw ( g2d , - y , x ) ;  <NL> g2d . rotate ( math . pi / 2 . 0 ) ;  <NL>  }  COM: <s> draws a text which is rotated by 90 degrees </s>

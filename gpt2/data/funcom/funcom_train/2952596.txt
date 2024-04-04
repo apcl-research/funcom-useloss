@@ -1,0 +1,1 @@
+TDAT: private string get token ( string s ) {  <NL> int i = 0 ;  <NL> while ( i < s . length ( ) & & ! character . is whitespace ( s . char at ( i ) ) ) {  <NL> i + + ;  <NL>  }  <NL> while ( i < s . length ( ) & & character . is whitespace ( s . char at ( i ) ) ) {  <NL> i + + ;  <NL>  }  <NL> return s . substring ( 0 , i ) ;  <NL>  }  COM: <s> get a token from a string </s>

@@ -1,0 +1,1 @@
+TDAT: public float get track length ( ) {  <NL> if ( track points . size ( ) < = 1 ) {  <NL> return 0 ;  <NL>  } else if ( track points . size ( ) = = 2 ) {  <NL> return 2f * ( float ) track points . get first ( ) . distance ( track points . get last ( ) ) ;  <NL>  } else {  <NL> return smooth track . get length ( ) ;  <NL>  }  <NL>  }  COM: <s> return length of the track </s>

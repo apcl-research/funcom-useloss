@@ -1,0 +1,1 @@
+TDAT: public void set bounds ( int left , int top , int width , int height ) {  <NL> bounds . x = left ;  <NL> bounds . y = top ;  <NL> bounds . width = width ;  <NL> bounds . height = height ;  <NL> distance to camera = ( bounds . width / 2 ) / ( float ) math . tan ( angle / 2 ) ;  <NL>  }  COM: <s> sets the bounds for this view window on the screen </s>

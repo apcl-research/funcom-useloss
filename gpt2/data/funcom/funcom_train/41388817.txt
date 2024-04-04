@@ -1,0 +1,1 @@
+TDAT: protected void init image ( ) {  <NL> entry image = create image ( get width ( ) , get height ( ) ) ;  <NL> entry graphics = entry image . get graphics ( ) ;  <NL> entry graphics . set color ( color . white ) ;  <NL> entry graphics . fill rect ( 0 , 0 , get width ( ) , get height ( ) ) ;  <NL>  }  COM: <s> setup the internal image that the user </s>

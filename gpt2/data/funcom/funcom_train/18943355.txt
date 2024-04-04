@@ -1,0 +1,1 @@
+TDAT: protected void process ( vertex vertex ) {  <NL> vertex . visit ( ) ;  <NL> process before ( vertex ) ;  <NL> for ( int i = 0 , n = vertex . get number of outgoing arcs ( ) ; i < n ; i + + ) {  <NL> process arc ( vertex , vertex . get head vertex ( i ) ) ;  <NL>  }  <NL> process after ( vertex ) ;  <NL>  }  COM: <s> processes the specified vertex </s>

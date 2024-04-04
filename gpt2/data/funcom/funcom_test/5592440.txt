@@ -1,0 +1,1 @@
+TDAT: public string get description ( ) {  <NL>  <NL> string s = " ( " ;  <NL> for ( int i = 0 ; i < check ext . length ; i + + ) {  <NL> if ( check ext [ i ] ! = null ) {  <NL> if ( i ! = 0 )  <NL> s + = " , " ;  <NL> s + = ( " * . " + check ext [ i ] ) ;  <NL>  } else break ;  <NL>  }  <NL> return s + " ) " ;  <NL>  }  COM: <s> get the description of the file type </s>

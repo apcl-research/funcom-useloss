@@ -1,0 +1,1 @@
+TDAT: private void print ( ) {  <NL> exception e = j zebra tools . do print ( this , pr , cl ) ;  <NL> if ( show messages ) {  <NL> if ( e = = null ) {  <NL> j zebra tools . show message ( this , success message ) ;  <NL>  }  <NL> else {  <NL> j zebra tools . show message ( this , error message , e ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> perform print raw </s>

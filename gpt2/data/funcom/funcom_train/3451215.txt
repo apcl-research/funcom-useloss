@@ -1,0 +1,1 @@
+TDAT: public boolean match sysex ( byte sysex [ ] ) {  <NL> if ( sysex . length = = init _ sysex . length & &  <NL> sysex [ 0 ] = = sysex _ hdr [ 0 ] & &  <NL> sysex [ 1 ] = = sysex _ hdr [ 1 ] & &  <NL> sysex [ 3 ] = = sysex _ hdr [ 3 ] ) {  <NL> return true ;  <NL>  } else {  <NL> return false ;  <NL>  }  <NL>  }  COM: <s> see if input sysex is a nord lead 2 program dump </s>

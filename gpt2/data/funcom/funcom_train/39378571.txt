@@ -1,0 +1,1 @@
+TDAT: public void on deploy ( servlet context servlet context ) {  <NL> string [ ] files = new string [ ] {  <NL>  " / net / sf / click / extras / control / menu . css " ,  <NL>  " / net / sf / click / extras / control / extras - control . js "  <NL>  } ;  <NL>  <NL> click utils . deploy files ( servlet context , files , " click " ) ;  <NL>  }  COM: <s> deploy the tt menu </s>

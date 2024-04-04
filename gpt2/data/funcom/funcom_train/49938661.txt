@@ -1,0 +1,1 @@
+TDAT: public void remove line ( int y ) {  <NL> for ( int c y = y ; c y > 0 ; c y - - ) {  <NL> copy line ( c y - 1 , c y ) ;  <NL>  }  <NL> for ( int x = 1 ; x < width - 1 ; x + + ) {  <NL> field [ 0 ] [ x ] = 0 ;  <NL>  }  <NL>  }  COM: <s> moves all lines down </s>

@@ -1,0 +1,1 @@
+TDAT: private void key up action ( extended flex table sender , int row , int cell ) {  <NL> if ( sender . get id ( ) = = mail list table . id _ number & & table . can key move up ( ) ) {  <NL> a extended flex table listener . on cell clicked ( sender , row - 1 , cell ) ;  <NL> scroll to row ( row - 1 ) ;  <NL>  }  <NL>  }  COM: <s> action invoked by pressing arrow key when </s>

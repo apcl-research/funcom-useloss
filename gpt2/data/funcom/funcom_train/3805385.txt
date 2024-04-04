@@ -1,0 +1,1 @@
+TDAT: public string to html ( ) {  <NL> string html = " < form method\ " get\ " action = \ " " + get form action ( ) + " \ " > \n " +  <NL> super . get description ( ) + " < br > \n " + " < input type = \ " text\ " name = \ " " +  <NL> get input name ( ) + " \ " > \n < / form > " ;  <NL> return html ;  <NL>  }  COM: <s> a basic rendering in html </s>

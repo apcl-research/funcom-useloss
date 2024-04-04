@@ -1,0 +1,1 @@
+TDAT: public void move files ( file [ ] files , file dest folder , i progress monitor monitor ) throws io exception {  <NL> f changed files . clear ( ) ;  <NL> save changed files ( files , dest folder ) ;  <NL> file utils . move files ( files , dest folder , monitor ) ;  <NL> check files changed ( ) ;  <NL>  }  COM: <s> move files to the the destination folder </s>

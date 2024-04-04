@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> return " { " + name + " " + debug . num ( x ( ) ) + " , " +  <NL> debug . num ( y ( ) ) + " , " + debug . num ( z ( ) ) + " , h = " + data [ 3 ] + " } " ;  <NL>  }  COM: <s> produces a nice string with the name and the three spatial </s>

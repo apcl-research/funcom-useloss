@@ -1,0 +1,1 @@
+TDAT: private boolean is test method ( method m ) {  <NL> string name = m . get name ( ) ;  <NL> class [ ] parameters = m . get parameter types ( ) ;  <NL> class return type = m . get return type ( ) ;  <NL> return parameters . length = = 0 & & name . starts with ( " test " ) & &  <NL> return type . equals ( void . type ) ;  <NL>  }  COM: <s> check if method is test method </s>

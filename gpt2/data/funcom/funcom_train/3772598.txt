@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> string buffer buf = new string buffer ( ) ;  <NL> buf . append ( number [ major ] ) ;  <NL> for ( int i = 1 ; i < number . length ; i + + ) {  <NL> buf . append ( " . " ) . append ( number [ i ] ) ;  <NL>  }  <NL> return buf . to string ( ) ;  <NL>  }  COM: <s> get a string representation of the revision number </s>

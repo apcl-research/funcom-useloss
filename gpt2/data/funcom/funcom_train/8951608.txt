@@ -1,0 +1,1 @@
+TDAT: private int count results ( double [ ] [ ] p result ) {  <NL> int count = 0 ;  <NL> for ( int i = 0 ; i < p result . length ; i + + ) {  <NL> for ( int j = 0 ; j < p result [ 0 ] . length ; j + + ) {  <NL> count + = p result [ i ] [ j ] ;  <NL>  }  <NL>  }  <NL> return count ;  <NL>  }  COM: <s> count all elements inside one array </s>

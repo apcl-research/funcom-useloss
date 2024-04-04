@@ -1,0 +1,1 @@
+TDAT: public layer get layer ( string layer name ) {  <NL> layer [ ] layers = layer handler . get layers ( ) ;  <NL> for ( int i = 0 ; i < layers . length ; i + + ) {  <NL> if ( layers [ i ] . get name ( ) . equals ignore case ( layer name ) ) {  <NL> return layers [ i ] ;  <NL>  }  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> return the specified layer </s>

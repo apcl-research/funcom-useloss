@@ -1,0 +1,1 @@
+TDAT: public list get selected roots ( ) {  <NL> list l = new array list ( 3 ) ;  <NL> for ( iterator i = file system roots . iterator ( ) ; i . has next ( ) ; ) {  <NL> fs root f = ( fs root ) i . next ( ) ;  <NL> if ( f . is enabled ( ) ) {  <NL> l . add ( f . file ) ;  <NL>  }  <NL>  }  <NL> return l ;  <NL>  }  COM: <s> gets the selected roots </s>

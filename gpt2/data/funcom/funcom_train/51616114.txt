@@ -1,0 +1,1 @@
+TDAT: public object add namespace ( string prefix , string uri ) {  <NL> node pi = doc . create processing instruction ( " xml : namespace " , " ns = ' " + uri + " ' prefix = ' " + prefix + " ' " ) ;  <NL> doc . insert before ( pi , doc . get first child ( ) ) ;  <NL> return new namespace ( prefix , uri ) ;  <NL>  }  COM: <s> add a namespace to the document </s>

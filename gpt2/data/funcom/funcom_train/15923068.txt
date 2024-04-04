@@ -1,0 +1,1 @@
+TDAT: public node visit children ( node visitor v ) {  <NL> flags node flags = ( flags node ) visit child ( this . flags , v ) ;  <NL> type node type = ( type node ) visit child ( this . type , v ) ;  <NL> id name = ( id ) visit child ( this . name , v ) ;  <NL> return reconstruct ( flags , type , name ) ;  <NL>  }  COM: <s> visit the children of the formal </s>

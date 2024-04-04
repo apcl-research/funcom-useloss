@@ -1,0 +1,1 @@
+TDAT: public void analyze ( string path , defect d ) {  <NL> int [ ] row = get row ( d . defect _ type ) ;  <NL>  <NL> for ( int i = categories . size ( ) ; i - - > 0 ; ) {  <NL> category c = ( category ) categories . get ( i ) ;  <NL> if ( c . matches ( d ) ) increment ( row , i , d . fix _ count ) ;  <NL>  }  <NL>  }  COM: <s> implement defect analyzer </s>

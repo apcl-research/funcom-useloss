@@ -1,0 +1,1 @@
+TDAT: public content rewriter feature create rewrite all feature ( int ttl ) {  <NL> return new content rewriter feature ( null ,  <NL>  " . * " , " " , ( ttl = = - 1 ) ? " http " : integer . to string ( ttl ) ,  <NL> collections . < string > empty set ( ) , false ) ;  <NL>  }  COM: <s> create a rewriter feature that allows all uris to be rewritten </s>

@@ -1,0 +1,1 @@
+TDAT: public string get col spec ( int col _ index ) {  <NL> for ( int i = 0 ; i < outlines _ . size ( ) ; i + + ) {  <NL> if ( element at ( i ) . match ( col _ index ) ) {  <NL> return element at ( i ) . get col spec ( col _ index ) ;  <NL>  }  <NL>  }  <NL> return " " ;  <NL>  } ;  COM: <s> get the style portion of the column </s>

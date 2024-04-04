@@ -1,0 +1,1 @@
+TDAT: protected int get decimal value ( int [ ] bits , int start , int stop , boolean print bits ) {  <NL> string dec = " " ;  <NL> for ( int i = start ; i > = stop ; i - - ) {  <NL> dec + = bits [ i ] ;  <NL>  }  <NL>  <NL> return integer . parse int ( dec , 2 ) ;  <NL>  }  COM: <s> returns the decimal value of a specified number of bytes from a specific </s>

@@ -1,0 +1,1 @@
+TDAT: public void set col first ( int c ) {  <NL> byte [ ] b = byte tools . short to le bytes ( ( short ) c ) ;  <NL> byte [ ] dt = this . get data ( ) ;  <NL>  / / 20060608 ksc : this appears wrong system . arraycopy ( b , 0 , dt , 4 , 2 ) ;  <NL> system . arraycopy ( b , 0 , dt , 0 , 2 ) ;  <NL> this . col first = c ;  <NL>  }  COM: <s> set last first cols rows </s>

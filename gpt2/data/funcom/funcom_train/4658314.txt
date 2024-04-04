@@ -1,0 +1,1 @@
+TDAT: public svn commit info do copy ( svnurl src url , svn revision src revision , svnurl dst url , boolean is move , string commit message ) throws svn exception {  <NL> return do copy ( src url , src revision , dst url , is move , false , commit message ) ;  <NL>  }  COM: <s> copies moves a source url to a destination one immediately committing changes </s>

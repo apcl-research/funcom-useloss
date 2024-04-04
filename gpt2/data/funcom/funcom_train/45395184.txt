@@ -1,0 +1,1 @@
+TDAT: public ui table model default ( map < ? , ? > map , string key header , string value header ) {  <NL> this . set column headers ( key header , value header ) ;  <NL> for ( map . entry entry : map . entry set ( ) ) {  <NL> this . add row ( entry . get key ( ) , entry . get value ( ) ) ;  <NL>  }  <NL>  }  COM: <s> create a table model from the contents of a map </s>

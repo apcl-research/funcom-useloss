@@ -1,0 +1,1 @@
+TDAT: protected void test document ( branch branch , document doc ) {  <NL> for ( int i = 0 , size = branch . node count ( ) ; i < size ; i + + ) {  <NL> node node = branch . node ( i ) ;  <NL> assert true ( " node has correct document " , node . get document ( ) = = doc ) ;  <NL>  }  <NL>  }  COM: <s> tests all the children of the branch have the correct document </s>

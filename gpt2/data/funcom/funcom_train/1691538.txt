@@ -1,0 +1,1 @@
+TDAT: protected void update close ( boolean show close ) {  <NL> if ( show close & & _ close . get parent ( ) = = null ) {  <NL>  _ top . add ( _ close , group layout . fixed ) ;  <NL>  } else if ( ! show close & & _ close . get parent ( ) ! = null ) {  <NL>  _ top . remove ( _ close ) ;  <NL>  }  <NL>  }  COM: <s> updates the visibility of the close tab button </s>

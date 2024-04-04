@@ -1,0 +1,1 @@
+TDAT: private void post k means message ( string message ) {  <NL> if ( m listeners . size ( ) > 0 ) {  <NL> synchronized ( m listeners ) {  <NL> int sz = m listeners . size ( ) ;  <NL> for ( int i = 0 ; i < sz ; i + + ) {  <NL> m listeners . get ( i ) . kmeans message ( message ) ;  <NL>  }  <NL>  }  <NL>  }  <NL>  }  COM: <s> posts a message to registered kmeans listeners </s>

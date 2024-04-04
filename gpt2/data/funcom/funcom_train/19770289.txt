@@ -1,0 +1,1 @@
+TDAT: private entry dereference entry ( map . entry < object , object > entry ) {  <NL> k key = dereference key ( entry . get key ( ) ) ;  <NL> v value = dereference value ( entry . get value ( ) ) ;  <NL> return ( key = = null || value = = null )  <NL>  ? null <NL>  : new entry ( key , value ) ;  <NL>  }  COM: <s> dereferences an entry </s>

@@ -1,0 +1,1 @@
+TDAT: public void error ( sax parse exception e ) {  <NL> string eol = system . get property ( " line . separator " ) ;  <NL> errors . add element ( e . get message ( )  <NL>  + eol + " at line : "  <NL>  + e . get line number ( ) + eol <NL>  + " char : " + e . get column number ( )  <NL>  + eol ) ;  <NL>  }  COM: <s> error method defined by the xml error handler class </s>

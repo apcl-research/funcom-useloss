@@ -1,0 +1,1 @@
+TDAT: public void append ( data set ds ) {  <NL> x = util . combine ( x , ds . get x ( ) ) ;  <NL> y = util . combine ( y , ds . get y ( ) ) ;  <NL> attb = util . combine ( x , ds . get attb ( ) ) ;  <NL> adj = util . combine ( x , ds . get adj ( ) ) ;  <NL>  }  COM: <s> appends another data set to this one </s>

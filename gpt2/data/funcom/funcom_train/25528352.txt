@@ -1,0 +1,1 @@
+TDAT: public double get path weight ( list l path ) {  <NL> double d res = 0 . 0 ;  <NL> iterator i iter = l path . iterator ( ) ;  <NL> while ( i iter . has next ( ) ) {  <NL> weighted edge e = ( weighted edge ) i iter . next ( ) ;  <NL> d res + = e . get weight ( ) ;  <NL>  }  <NL>  <NL> return d res ;  <NL>  }  COM: <s> calculates the total path weight over a graph path </s>

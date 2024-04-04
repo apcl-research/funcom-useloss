@@ -1,0 +1,1 @@
+TDAT: public void test replace to identical ( ) {  <NL> values . put ( " animal " , " $ $ { $ { thing } } " ) ;  <NL> values . put ( " thing " , " animal " ) ;  <NL> do test replace ( " the $ { animal } jumps . " , " the $ { animal } jumps . " , true ) ;  <NL>  }  COM: <s> tests replace creates output same as input </s>

@@ -1,0 +1,1 @@
+TDAT: public void main menu ( ) {  <NL> dispose mail form ( ) ;  <NL>  / / # ifdef mujmail _ neoi <NL> splash screen . clean splash screen ( ) ;  <NL>  / / # endif <NL> get menu ( ) . set selected tab ( get menu ( ) . get selected tab ( ) ) ;  <NL> get menu ( ) . refresh ( get menu ( ) . get selected tab ( ) , true ) ;  <NL>  }  COM: <s> shows main menu on display </s>

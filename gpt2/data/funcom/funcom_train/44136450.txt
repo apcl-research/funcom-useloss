@@ -1,0 +1,1 @@
+TDAT: public int get absolute y ( ) {  <NL> osm element root = ( osm element ) get root ( ) ;  <NL> enumeration e = path from ancestor enumeration ( root ) ;  <NL> int y = 0 ;  <NL> for ( ; e . has more elements ( ) ; ) {  <NL> osm element elt = ( osm element ) e . next element ( ) ;  <NL> y + = elt . get y ( ) ;  <NL>  }  <NL> return y ;  <NL>  }  COM: <s> get absolute y </s>

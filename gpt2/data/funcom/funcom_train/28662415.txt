@@ -1,0 +1,1 @@
+TDAT: private string remove char ( final string s , final char c ) {  <NL> string r = " " ; / / $ non - nls - 1 $  <NL> for ( int i = 0 ; i < s . length ( ) ; i + + ) {  <NL> if ( s . char at ( i ) ! = c ) {  <NL> r + = s . char at ( i ) ;  <NL>  }  <NL>  }  <NL> return r ;  <NL>  }  COM: <s> removes a specific cahracter from a string </s>

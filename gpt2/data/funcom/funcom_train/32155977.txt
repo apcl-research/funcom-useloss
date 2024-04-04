@@ -1,0 +1,1 @@
+TDAT: public j spinner get min cp cx ( ) {  <NL> if ( min cp cx = = null ) {  <NL> min cp cx = new j spinner ( new spinner number model ( 0 . 40 , 0 . 01 , 1 , 0 . 01 ) ) ;  <NL> min cp cx . set bounds ( new rectangle ( 180 , 70 , 60 , 22 ) ) ;  <NL>  }  <NL> return min cp cx ;  <NL>  }  COM: <s> this method initializes min cp cx </s>

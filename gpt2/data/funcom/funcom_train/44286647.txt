@@ -1,0 +1,1 @@
+TDAT: public boolean import _ classes ( factory writer xml xml , transaction xml transaction , list list reference ) {  <NL> if ( ! loop _ on _ items ( xml , transaction , list reference ) ) return false ;  <NL> if ( ! import _ core _ classes ( xml , transaction , list reference ) ) return false ;  <NL> return true ;  <NL>  }  COM: <s> class definition import classes </s>

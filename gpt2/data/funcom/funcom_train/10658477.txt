@@ -1,0 +1,1 @@
+TDAT: protected unicast ref get client ref ( endpoint ep , obj id obj id ) {  <NL> if ( ep . get client socket factory ( ) = = null ) {  <NL> return new unicast ref ( ep , obj id , true ) ;  <NL>  } else {  <NL> return new unicast ref2 ( ep , obj id , true ) ;  <NL>  }  <NL>  }  COM: <s> creates client side reference holding the given endpoint and object id </s>

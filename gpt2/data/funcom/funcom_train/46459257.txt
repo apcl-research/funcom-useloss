@@ -1,0 +1,1 @@
+TDAT: private void set html data ( string [ ] [ ] data ) {  <NL> if ( data = = null ) return ;  <NL> html data . clear ( ) ;  <NL> for ( int i = 0 ; i < data . length ; i + + ) {  <NL> html html = new html ( data [ i ] [ 0 ] , data [ i ] [ 1 ] ) ;  <NL> html data . add ( html ) ;  <NL>  }  <NL>  }  COM: <s> sets the html data </s>

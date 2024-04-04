@@ -1,0 +1,1 @@
+TDAT: public object case nfa ( nfa n ) {  <NL> system . err . println ( " < - - nfa [ " + n . to string ( ) + " ] \t " +  <NL>  " pointer p : " + n . p + " containing " ) ;  <NL> print nfa ( n . p ) ;  <NL> system . err . println ( " - - > " ) ;  <NL> return null ;  <NL>  }  COM: <s> the visited object is an nfa </s>

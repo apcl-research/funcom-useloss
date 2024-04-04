@@ -1,0 +1,1 @@
+TDAT: public void execute ( ) throws server exception {  <NL> string fspath = normalized path . get path ( ) ; / / majid <NL> work space ws = this . get work space ( ) ;  <NL> fs file fsfile = ( fs file ) ws . eval ( fspath ) ;  <NL> v file vfile = ( v file ) fsfile . get v object ( ) ;  <NL> vfile . receive file ( packet ) ;  <NL>  }  COM: <s> executed in the server </s>

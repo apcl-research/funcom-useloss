@@ -1,0 +1,1 @@
+TDAT: private shape create thumb shape ( int width , int height ) {  <NL>  / / use circular shape .  <NL>  / / ellipse2d shape = new ellipse2d . double ( 0 , 0 , width , height ) ;  <NL> rectangle2d shape = new rectangle2d . double ( 0 , 0 , width , height ) ;  <NL> return shape ;  <NL>  }  COM: <s> returns a shape representing a thumb </s>

@@ -1,0 +1,1 @@
+TDAT: public string get ( int s , int e ) {  <NL> if ( s > length ) {  <NL> return " " ;  <NL>  }  <NL> if ( e > length ) {  <NL> return parser . get text ( start + s , start + length ) . trim ( ) ;  <NL>  }  <NL> return parser . get text ( start + s , start + e ) . trim ( ) ;  <NL>  }  COM: <s> gets part of the line that the id represents </s>

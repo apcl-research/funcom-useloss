@@ -1,0 +1,1 @@
+TDAT: public void test create key with name ( ) {  <NL> key key = key factory . create key ( kind , name ) ;  <NL> assert equals ( name , key . get name ( ) ) ;  <NL> assert equals ( kind , key . get kind ( ) ) ;  <NL> assert equals ( 0l , key . get id ( ) ) ;  <NL>  }  COM: <s> test create key with name </s>

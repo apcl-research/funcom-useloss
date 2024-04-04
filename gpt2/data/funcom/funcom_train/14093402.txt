@@ -1,0 +1,1 @@
+TDAT: public void test clear properties ( ) {  <NL> m _ xml test suite . add property ( " test " , " abc " ) ;  <NL> m _ xml test suite . clear properties ( ) ;  <NL> object o = m _ xml test suite . get property ( " test " ) ;  <NL> assert null ( " property should not be found " , o ) ;  <NL>  }  COM: <s> test clear properties </s>

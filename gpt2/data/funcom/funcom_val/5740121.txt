@@ -1,0 +1,1 @@
+TDAT: public void flush ( ) {  <NL>  / / to screen <NL> for ( int i = screen index ; i < 16 ; i + + ) {  <NL> system . out . print ( " " ) ;  <NL> if ( i = = 8 ) {  <NL>  / / column <NL> system . out . print ( " " ) ;  <NL>  }  <NL>  }  <NL> dump characters ( ) ;  <NL> system . out . println ( ) ;  <NL>  }  COM: <s> flush out the remaining data </s>

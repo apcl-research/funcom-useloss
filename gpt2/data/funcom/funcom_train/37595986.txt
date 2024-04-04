@@ -1,0 +1,1 @@
+TDAT: @ override public type context visit ( synchronized statement node ) {  <NL> type lock t = check type ( node . get lock ( ) ) ;  <NL> if ( ! ts . is reference ( lock t ) ) { throw new execution error ( " lock . type " , node ) ; }  <NL> node . get body ( ) . accept visitor ( this ) ;  <NL> return context ;  <NL>  }  COM: <s> visits a synchronized statement </s>

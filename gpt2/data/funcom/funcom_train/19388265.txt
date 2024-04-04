@@ -1,0 +1,1 @@
+TDAT: public void replace and find ( string search , string replace , boolean ignore case ) {  <NL> find ( true , m _ view . get text area ( ) . get caret position ( ) , search , replace , ignore case ) ;  <NL>  } / / } } }  <NL>  <NL>  / / { { { find next ( )  COM: <s> initiates a replace and find action on the text area where the current </s>

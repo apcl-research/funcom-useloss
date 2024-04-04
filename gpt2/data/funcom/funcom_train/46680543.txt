@@ -1,0 +1,1 @@
+TDAT: public void add speaker ( speaker s ) throws jexmaralda exception {  <NL> if ( positions . contains key ( s . get id ( ) ) ) { throw new jexmaralda exception ( 11 , s . get id ( ) ) ; }  <NL> add element ( s ) ;  <NL> positions . put ( s . get id ( ) , new integer ( get number of speakers ( ) - 1 ) ) ;  <NL>  }  COM: <s> adds the specified speaker to the speakertable </s>

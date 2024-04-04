@@ -1,0 +1,1 @@
+TDAT: public void test array cache ( ) {  <NL> array cache c = new array cache ( ) ;  <NL> c . put ( new string ( " test " ) , new string ( " wibble " ) ) ;  <NL> assert equals ( " key / value not added " , c . key index ( " test " ) , 0 ) ;  <NL> assert equals ( " index should not exist " , c . key index ( " fred " ) , - 1 ) ;  <NL>  }  COM: <s> test for void array cache </s>

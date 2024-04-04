@@ -1,0 +1,1 @@
+TDAT: public void merge moves ( int category , string [ ] moves ) {  <NL> hash set set = new hash set ( arrays . as list ( m _ moves [ category ] ) ) ;  <NL> set . add all ( arrays . as list ( moves ) ) ;  <NL> m _ moves [ category ] = ( string [ ] ) set . to array ( new string [ set . size ( ) ] ) ;  <NL>  }  COM: <s> merge in another move sets data </s>

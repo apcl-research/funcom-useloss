@@ -1,0 +1,1 @@
+TDAT: protected void add player ( mission player mp ) {  <NL> players . add ( mp ) ;  <NL>  <NL>  / / add ag in the agents committed to the goal of the mission <NL> for ( goal gs : mp . get mission ( ) . get goals ( ) ) {  <NL> goal instance ig = get goal ( gs ) ;  <NL> ig . committed ( mp . get player ( ) ) ;  <NL>  }  <NL>  }  COM: <s> adds a mission player for this sch </s>

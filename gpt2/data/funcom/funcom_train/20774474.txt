@@ -1,0 +1,1 @@
+TDAT: public void set transition probability ( double [ ] [ ] prob ) {  <NL> for ( int i = 0 ; i < states . size ( ) ; i + + )  <NL> for ( int j = 0 ; j < states . size ( ) ; j + + )  <NL> set transition probability ( states . get ( i ) , states . get ( j ) , prob [ i ] [ j ] ) ;  <NL>  }  COM: <s> set transition probabilities between states n to n mapping </s>

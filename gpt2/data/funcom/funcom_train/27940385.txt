@@ -1,0 +1,1 @@
+TDAT: public list pawn list ( ) {  <NL> list pawns = new array list ( ) ;  <NL> pawns . add ( this . pawn1 ) ;  <NL> pawns . add ( this . pawn2 ) ;  <NL> pawns . add ( this . pawn3 ) ;  <NL> pawns . add ( this . pawn4 ) ;  <NL> pawns . add ( this . pawn5 ) ;  <NL> pawns . add ( this . pawn6 ) ;  <NL> return pawns ;  <NL>  }  COM: <s> returns the list of pawns </s>

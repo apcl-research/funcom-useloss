@@ -1,0 +1,1 @@
+TDAT: public knob add knob ( final string the name , final float the min , final float the max , final int the x , final int the y , final int the diameter ) {  <NL> return add knob ( the name , the min , the max , the min , the x , the y , the diameter ) ;  <NL>  }  COM: <s> add a knob to your control p5 setup </s>

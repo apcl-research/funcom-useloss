@@ -1,0 +1,1 @@
+TDAT: public void add constant boolean field ( int af , string ft , string nm , boolean v ) {  <NL> field info fi = create field ( ft , nm ) ;  <NL> fi . set access flags ( af ) ;  <NL> fi . set constant value attribute ( new integer ( v . boolean value ( ) ? 1 : 0 ) ) ;  <NL>  }  COM: <s> adds a constant boolean field to the class </s>

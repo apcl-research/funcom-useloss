@@ -1,0 +1,1 @@
+TDAT: public json writer array ( ) throws json exception {  <NL> if ( this . mode = = ' i ' || this . mode = = ' o ' || this . mode = = ' a ' ) {  <NL> this . push ( null ) ;  <NL> this . append ( " [ " ) ;  <NL> this . comma = false ;  <NL> return this ;  <NL>  }  <NL> throw new json exception ( " misplaced array . " , 0 ) ;  <NL>  }  COM: <s> begin appending a new array </s>

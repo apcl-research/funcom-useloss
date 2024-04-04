@@ -1,0 +1,1 @@
+TDAT: public iterator get all modules ( ) {  <NL> array list array = new array list ( ) ;  <NL> for ( int i = 0 ; i < modules . size ( ) ; i + + ) {  <NL> c module holder holder = ( c module holder ) modules . get ( i ) ;  <NL> array . add ( holder . module ) ;  <NL>  }  <NL> return array . iterator ( ) ;  <NL>  }  COM: <s> gets all modules registered in the main form </s>

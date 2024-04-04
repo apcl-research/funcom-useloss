@@ -1,0 +1,1 @@
+TDAT: public string get full name ( ) {  <NL> string buffer sb = new string buffer ( ) ;  <NL> iterator iter = get full name iterator ( ) ;  <NL> while ( iter . has next ( ) ) {  <NL> sb . append ( iter . next ( ) ) ;  <NL> if ( iter . has next ( ) ) {  <NL> sb . append ( " " ) ;  <NL>  }  <NL>  }  <NL> return sb . to string ( ) ;  <NL>  }  COM: <s> get the entitys full name </s>

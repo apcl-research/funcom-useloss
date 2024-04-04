@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> if ( get id ( ) ! = object _ not _ yet _ persistent )  <NL> return " category " + name + " : " + description + " ( id = " + get id ( ) + " ) " ;  <NL> else <NL> return " category " + name + " : " + description + " ( not saved ) " ;  <NL>  }  COM: <s> method for getting information string about the object </s>

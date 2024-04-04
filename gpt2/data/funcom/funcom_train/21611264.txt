@@ -1,0 +1,1 @@
+TDAT: public map value as map ( ) {  <NL> map value result = new map value ( ) ;  <NL> set < arc < value > > arcs = graph . get arcs ( ) ;  <NL> for ( arc < value > arc : arcs ) {  <NL> result . put ( new json value ( arc as json ( arc ) ) , null value . get instance ( ) ) ;  <NL>  }  <NL> return result ;  <NL>  }  COM: <s> returns a map of type pre arc null pre </s>

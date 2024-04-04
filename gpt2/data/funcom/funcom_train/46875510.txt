@@ -1,0 +1,1 @@
+TDAT: public void debug ( object a message , throwable a throwable ) {  <NL> if ( is debug enabled ( ) )  <NL> logger . call appenders ( new logging event ( this . get class ( ) . get name ( ) , logger , level . debug , a message , a throwable ) ) ;  <NL>  / / logger . debug ( a message , a throwable ) ;  <NL>  }  COM: <s> throws a debug message </s>

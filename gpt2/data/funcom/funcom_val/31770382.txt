@@ -1,0 +1,1 @@
+TDAT: protected string normalize ( string s ) {  <NL> string buffer sb = new string buffer ( ) ;  <NL> int len = ( s ! = null ) ? s . length ( ) : 0 ;  <NL> for ( int i = 0 ; i < len ; i + + ) {  <NL> char c = s . char at ( i ) ;  <NL> sb . append ( normalize ( c ) ) ;  <NL>  }  <NL> return sb . to string ( ) ;  <NL>  }  COM: <s> normalizes and return the given string </s>

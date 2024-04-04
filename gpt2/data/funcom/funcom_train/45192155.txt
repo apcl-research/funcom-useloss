@@ -1,0 +1,1 @@
+TDAT: public void resize ( int width , int height ) {  <NL> string builder out = inner frame . open script buffer ( ) ;  <NL> if ( out ! = null ) {  <NL> out . append ( " wa . resize window ( " ) ;  <NL> out . append ( width ) ;  <NL> out . append ( ' , ' ) ;  <NL> out . append ( height ) ;  <NL> out . append ( " ) ; \n " ) ;  <NL>  }  <NL>  }  COM: <s> resize the window </s>

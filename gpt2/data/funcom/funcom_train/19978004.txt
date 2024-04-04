@@ -1,0 +1,1 @@
+TDAT: public int add ( enum enum ) {  <NL> enum list . add ( enum ) ;  <NL> array = null ;  <NL> by string = null ;  <NL> if ( enum list . size ( ) = = 1 ) {  <NL> return 0 ;  <NL>  }  <NL> else {  <NL> return ( ( enum ) enum list . get ( enum list . size ( ) - 2 ) ) . int value ( ) + 1 ;  <NL>  }  <NL>  }  COM: <s> called automatically by the enum constructor </s>

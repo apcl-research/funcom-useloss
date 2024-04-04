@@ -1,0 +1,1 @@
+TDAT: private void login ( ) {  <NL> if ( add carriage return ) {  <NL> telnet . send string ( " \n " , true ) ;  <NL>  }  <NL> telnet . wait for string ( " ogin : " ) ;  <NL> telnet . send string ( userid , true ) ;  <NL> telnet . wait for string ( " assword : " ) ;  <NL> telnet . send string ( password , false ) ;  <NL>  }  COM: <s> process a typical login </s>

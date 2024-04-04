@@ -1,0 +1,1 @@
+TDAT: public void test _ ctor ( ) {  <NL>  <NL> new bloom filter ( 1000 / * n * / , . 01 / * p * / , 10000 / * max n * / ) ;  <NL>  <NL> new bloom filter ( 5000 / * n * / , . 02 / * p * / , 10000 / * max n * / ) ;  <NL>  <NL> new bloom filter ( 5000 / * n * / , . 02 / * p * / , 5000 / * max n = = n * / ) ;  <NL>  <NL>  }  COM: <s> simple constructor tests </s>

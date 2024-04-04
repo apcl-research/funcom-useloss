@@ -1,0 +1,1 @@
+TDAT: public boolean is open ( ) {  <NL> if ( ch = = null ) {  <NL> return false ;  <NL>  }  <NL> return ch . is open ( ) & & ch . channel ! = null & &  <NL> ch . channel . is open ( ) & & ! get in ( ) . is append closed ( ) & &  <NL>  ! get out ( ) . is append closed ( ) ;  <NL>  }  COM: <s> both in and out open </s>

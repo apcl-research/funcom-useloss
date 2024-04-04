@@ -1,0 +1,1 @@
+TDAT: public boolean is orthogonal ( point a , point b ) {  <NL> if ( a . x = = b . x ) {  <NL> if ( a . y = = b . y - 1 || a . y = = b . y + 1 ) return true ;  <NL>  }  <NL> else if ( a . y = = b . y ) {  <NL> if ( a . x = = b . x - 1 || a . x = = b . x + 1 ) return true ;  <NL>  }  <NL> return false ;  <NL>  }  COM: <s> best used if points are distance 1 away </s>

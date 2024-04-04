@@ -1,0 +1,1 @@
+TDAT: public int hash code ( ) {  <NL> int hash = 17 ;  <NL>  <NL> hash + = 37 * source . hash code ( ) ;  <NL> if ( get params count ( ) ! = 0 ) {  <NL> for ( int i = 0 ; i < get params count ( ) ; i + + ) {  <NL> hash + = 37 * get param ( i ) . hash code ( ) ;  <NL>  }  <NL>  }  <NL>  <NL> return hash ;  <NL>  }  COM: <s> returns the code plugable event code s hash code </s>

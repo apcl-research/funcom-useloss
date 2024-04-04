@@ -1,0 +1,1 @@
+TDAT: public void test no dirs ( ) throws exception {  <NL> cat . info ( " testing renaming package when all packages are in the same "  <NL>  + " directory " ) ;  <NL> test rename package ( " no _ dirs " , " a " , " b " , null , true ) ;  <NL> cat . info ( " success " ) ;  <NL>  }  COM: <s> tests renaming package when all packages are in the same directory </s>

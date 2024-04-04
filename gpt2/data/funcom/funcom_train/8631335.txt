@@ -1,0 +1,1 @@
+TDAT: public int get int ( int column index ) throws sql exception {  <NL> object o = get ( column index ) ;  <NL> if ( o ! = null & & ! ( o instanceof number ) ) {  <NL> o = integer . decode ( o . to string ( ) ) ;  <NL>  }  <NL> return o = = null ? 0 : ( ( number ) o ) . int value ( ) ;  <NL>  }  COM: <s> returns the value as an int </s>

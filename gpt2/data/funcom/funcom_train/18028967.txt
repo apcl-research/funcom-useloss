@@ -1,0 +1,1 @@
+TDAT: public datum divide ( datum a ) {  <NL> datum result = divide ( a . get value ( ) , a . get units ( ) ) ;  <NL> result . resolution = math . abs ( result . double value ( ) ) * relative error mult ( double value ( ) , resolution , a . double value ( ) , a . resolution ) ;  <NL> return result ;  <NL>  }  COM: <s> divide this by the datum tt a tt </s>

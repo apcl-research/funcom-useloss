@@ -1,0 +1,1 @@
+TDAT: public boolean adjust ( n x ) {  <NL> if ( x = = null )  <NL> return false ;  <NL> if ( x . double value ( ) < min . double value ( ) ) {  <NL> min = x ;  <NL> return true ;  <NL>  }  <NL> if ( x . double value ( ) > max . double value ( ) ) {  <NL> max = x ;  <NL> return true ;  <NL>  }  <NL> return false ;  <NL>  }  COM: <s> adjusts this range by the given number </s>

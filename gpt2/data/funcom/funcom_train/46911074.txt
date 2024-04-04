@@ -1,0 +1,1 @@
+TDAT: public void session created ( http session event se ) {  <NL> http session session = se . get session ( ) ;  <NL> sessions . put ( session . get id ( ) , session ) ;  <NL> active sessions + + ;  <NL>  <NL> debug . info ( " tt session started . . . " + session . get id ( ) + " " + new date ( ) ) ;  <NL>  }  COM: <s> listener event when session is created </s>

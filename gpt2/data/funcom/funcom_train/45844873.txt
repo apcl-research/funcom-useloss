@@ -1,0 +1,1 @@
+TDAT: private void j slider _ animations state changed ( javax . swing . event . change event e ) {  <NL> if ( j slider _ animations . is enabled ( ) ) {  <NL> float f anim speed = ( j slider _ animations . get value ( ) * 0 . 10f ) ;  <NL> manipulator . set body animation speed ( character , f anim speed ) ;  <NL>  }  <NL>  }  COM: <s> change the speed of the animation </s>

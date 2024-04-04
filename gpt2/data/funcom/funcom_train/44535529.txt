@@ -1,0 +1,1 @@
+TDAT: public string get lanip ( ) {  <NL> string lanip = " " ;  <NL> int i = ( ( string ) p . get ( " serverip " ) ) . last index of ( " . " ) ;  <NL> lanip = ( ( string ) p . get ( " serverip " ) ) . substring ( 0 , i + 1 ) ;  <NL> return lanip + " 0 " ;  <NL>  }  COM: <s> get lan ip where current server by server ip running in </s>

@@ -1,0 +1,1 @@
+TDAT: public void set context ( record record , boolean first , boolean last ) {  <NL> engine . put ( " record " , record ) ;  <NL> engine . put ( " first " , first ) ;  <NL> engine . put ( " last " , last ) ;  <NL> engine . put ( " commit " , false ) ;  <NL>  }  COM: <s> call this method to update the variables </s>

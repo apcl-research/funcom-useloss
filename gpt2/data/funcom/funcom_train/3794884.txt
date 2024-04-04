@@ -1,0 +1,1 @@
+TDAT: public void fire wan ip search event ( wan ip search event e ) {  <NL> string ip = e . _ ip ;  <NL> if ( ip = = null || ip . equals ( " " ) ) {  <NL>  _ _ log . debug ( " wan ip is null of \ " \ " " ) ;  <NL> return ;  <NL>  } else {  <NL>  _ ap . process wan ip ( ip ) ;  <NL>  }  <NL>  }  COM: <s> fire wan ip search event </s>

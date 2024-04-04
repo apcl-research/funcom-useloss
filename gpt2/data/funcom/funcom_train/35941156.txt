@@ -1,0 +1,1 @@
+TDAT: public row read row ( data page s ) throws sql exception {  <NL> int len = s . read int ( ) ;  <NL> value [ ] data = new value [ len ] ;  <NL> for ( int i = 0 ; i < len ; i + + ) {  <NL> data [ i ] = s . read value ( ) ;  <NL>  }  <NL> row row = new row ( data , memory per row ) ;  <NL> return row ;  <NL>  }  COM: <s> read a row from the data page </s>

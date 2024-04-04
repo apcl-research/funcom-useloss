@@ -1,0 +1,1 @@
+TDAT: protected void assign user to group ( long group id , long user id , long effective id ) {  <NL> simple jdbc template . update (  <NL>  " insert into solardras . dras _ user _ group _ member ( ugr _ id , usr _ id , eff _ id ) values ( ? , ? , ? ) " ,  <NL> group id , user id , effective id ) ;  <NL>  }  COM: <s> assign a user to a user group </s>

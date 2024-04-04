@@ -1,0 +1,1 @@
+TDAT: public string get keywords ( ) {  <NL> if ( ! keywords . equals ( " " ) ) { / / $ non - nls - 1 $  <NL> return keywords ;  <NL>  } else if ( is root ( ) ) {  <NL> return " " ; / / $ non - nls - 1 $  <NL>  }  <NL> launch node parent = ( launch node ) get parent ( ) ;  <NL> return parent . get keywords ( ) ;  <NL>  }  COM: <s> gets the keywords of this node or ancestor </s>

@@ -1,0 +1,1 @@
+TDAT: public void _ set show state ( ) {  <NL> required method ( " get show state ( ) " ) ;  <NL> boolean success = o obj . set show state ( ! prev _ state ) ;  <NL> boolean res _ state = o obj . get show state ( ) ;  <NL> t res . tested ( " set show state ( ) " , ! success || res _ state ! = prev _ state ) ;  <NL>  }  COM: <s> set show state sets the state </s>

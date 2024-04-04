@@ -1,0 +1,1 @@
+TDAT: public void remove token ( token < ? > t ) {  <NL> if ( null ! = this . tokens & & this . tokens . contains ( t ) ) {  <NL> this . tokens . remove ( t ) ;  <NL> event manager . get instance ( ) . dispatch event (  <NL> new place event ( this , place event type . token _ deleted ) ) ;  <NL>  }  <NL>  / / else ignore silently <NL>  }  COM: <s> removes the specified </s>

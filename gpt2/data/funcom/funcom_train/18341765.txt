@@ -1,0 +1,1 @@
+TDAT: public void insert cell ( int row , int col , object content ) {  <NL> for ( int y = 1 ; y < = row ; y + + ) {  <NL> this . content [ y - 1 ] [ col ] = this . content [ y ] [ col ] ;  <NL>  }  <NL> set cell ( row , col , content ) ;  <NL>  }  COM: <s> inserts a cell by inserting a row at the given position </s>

@@ -1,0 +1,1 @@
+TDAT: public transform matrix transpose ( ) {  <NL> double nm [ ] [ ] = new double [ 3 ] [ 3 ] ;  <NL> int i , j ;  <NL> for ( i = 0 ; i < 3 ; + + i ) {  <NL> for ( j = 0 ; j < 3 ; + + j ) {  <NL> nm [ i ] [ j ] = m [ j ] [ i ] ;  <NL>  }  <NL>  }  <NL> return new transform matrix ( nm ) ;  <NL>  }  COM: <s> performs matrix transposition </s>

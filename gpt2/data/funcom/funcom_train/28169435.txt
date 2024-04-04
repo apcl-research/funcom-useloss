@@ -1,0 +1,1 @@
+TDAT: public void set start point ( point2d . double p ) {  <NL>  / / add two nodes if we haven ' t at least two nodes <NL> for ( int i = get node count ( ) ; i < 2 ; i + + ) {  <NL> add node ( 0 , new bezier path . node ( p . x , p . y ) ) ;  <NL>  }  <NL> set point ( 0 , p ) ;  <NL>  }  COM: <s> convenience method for setting the point coordinate of the start point </s>

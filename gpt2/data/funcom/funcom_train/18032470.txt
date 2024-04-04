@@ -1,0 +1,1 @@
+TDAT: public void test direct jama ( ) {  <NL> physical store < double > tmp store = null ;  <NL> for ( int l1 = 0 ; l1 < performance data . loop ; l1 + + ) {  <NL> for ( int l2 = 0 ; l2 < performance data . loop ; l2 + + ) {  <NL> tmp store = jama . copy ( ) ;  <NL>  }  <NL>  }  <NL> tmp store = null ;  <NL>  }  COM: <s> direct as in not using a factory </s>

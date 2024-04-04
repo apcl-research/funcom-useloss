@@ -1,0 +1,1 @@
+TDAT: public void _ get value ( ) {  <NL> boolean result = true ;  <NL>  <NL> try {  <NL> old val = o obj . get value ( cntl id , ( short ) 0 ) ;  <NL>  } catch ( exception e ) {  <NL> e . print stack trace ( log ) ;  <NL> result = false ;  <NL>  }  <NL>  <NL> t res . tested ( " get value ( ) " , result ) ;  <NL>  }  COM: <s> gets the value of the control and stores it </s>

@@ -1,0 +1,1 @@
+TDAT: public void set mini map visible ( boolean mini map visible ) {  <NL> boolean old = this . is mini map visible ( ) ;  <NL> this . mini map visible = mini map visible ;  <NL> mini map . set visible ( mini map visible ) ;  <NL> fire property change ( " mini map visible " , old , this . is mini map visible ( ) ) ;  <NL>  }  COM: <s> sets if the mini map should be visible </s>

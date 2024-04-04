@@ -1,0 +1,1 @@
+TDAT: public object read data ( java . io . data input i , string key ) throws io exception {  <NL> string s = i . read utf ( ) ;  <NL> if ( key ! = null ) {  <NL> if ( s . equals ( key ) = = false ) {  <NL> return null ;  <NL>  }  <NL>  }  <NL> i list meta r = new i list meta ( i ) ;  <NL> r . set key ( s ) ;  <NL> return r ;  <NL>  }  COM: <s> this structure stores </s>

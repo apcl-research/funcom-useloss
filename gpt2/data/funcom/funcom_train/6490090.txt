@@ -1,0 +1,1 @@
+TDAT: public void set runs valid ( boolean state ) {  <NL> log tools . trace ( logger , 25 , " cycle . set runs valid ( " + state + " ) " ) ;  <NL>  _ runs valid = state ;  <NL> notify listeners ( new cycle event ( this , state ? cycle event . runs _ valid : cycle event . runs _ invalid ) ) ;  <NL>  }  COM: <s> set the invalidated status of the run list </s>

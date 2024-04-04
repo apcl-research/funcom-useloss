@@ -1,0 +1,1 @@
+TDAT: public void replace parameter value ( parameter par , int i ) {  <NL> if ( pars . get size ( ) > 0 & & i > = 0 & & i < pars . get size ( ) ) {  <NL> try {  <NL> get parameter ( i ) . set value ( par . get value ( ) ) ;  <NL>  } catch ( out of range function exception e ) {  <NL>  }  <NL>  }  <NL>  }  COM: <s> replaces the i th parameter value </s>

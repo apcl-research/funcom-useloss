@@ -1,0 +1,1 @@
+TDAT: public void execute ( ) {  <NL> trace . log ( 2 , " executing drag set command " ) ;  <NL> cut command = new cut command ( part , drag clip , start slot , end slot ) ;  <NL> paste command = new paste command ( drag clip , part , paste slot , false ) ;  <NL> cut command . execute ( ) ;  <NL> paste command . execute ( ) ;  <NL>  }  COM: <s> executes the drag </s>

@@ -1,0 +1,1 @@
+TDAT: public int get data length ( ) {  <NL> int length = 0 ;  <NL> length + = _ dummy sync data . get data size ( ) ;  <NL> for ( packet packet : _ packets ) {  <NL> length + = ( 4 + packet . get num words ( ) * 4 ) ; / / 4 bytes for the header , plus the data size <NL>  }  <NL> return length ;  <NL>  }  COM: <s> get the data length of the bitstream </s>

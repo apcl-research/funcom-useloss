@@ -1,0 +1,1 @@
+TDAT: static public buffered image create image ( int width , int height , boolean opaque ) {  <NL> if ( opaque )  <NL> return new buffered image ( width , height , buffered image . type _ int _ rgb ) ;  <NL> return new buffered image ( width , height , buffered image . type _ int _ argb ) ;  <NL>  }  COM: <s> create an image </s>

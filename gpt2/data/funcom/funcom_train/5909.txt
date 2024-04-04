@@ -1,0 +1,1 @@
+TDAT: public void map attributes ( string [ ] column names , string [ ] attributes ) {  <NL> indexes map . clear ( ) ;  <NL> for ( int i = 0 ; i < attributes . length ; i + + ) {  <NL> string name = this . attributes [ i ] ;  <NL> indexes map . put ( name , find index ( attributes [ i ] , column names ) ) ;  <NL>  }  <NL>  }  COM: <s> mapping setup method </s>

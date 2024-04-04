@@ -1,0 +1,1 @@
+TDAT: private void parse and execute ( final string [ ] arguments , string file name ) {  <NL> state state = new state ( ) ;  <NL> state . set command ( arguments [ 0 ] ) ;  <NL> new thread ( new runner ( state , arguments ) ) . start ( ) ;  <NL> new thread ( new monitor ( state , file name ) ) . start ( ) ;  <NL>  }  COM: <s> delegate to the </s>

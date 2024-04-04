@@ -1,0 +1,1 @@
+TDAT: private void remove parentheses ( final list < string > list ) {  <NL> for ( int i = 0 ; i < list . size ( ) ; i + + ) {  <NL> final string string = list . get ( i ) ;  <NL> if ( string . ends with ( " ( ) " ) ) {  <NL> list . set ( i , string . substring ( 0 , string . length ( ) - 2 ) ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> to be removed once </s>

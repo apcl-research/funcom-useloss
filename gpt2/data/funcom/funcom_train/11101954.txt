@@ -1,0 +1,1 @@
+TDAT: public void test key set ( ) throws exception {  <NL> set key set = weak hashtable . key set ( ) ;  <NL> assert equals ( 3 , key set . size ( ) ) ;  <NL> assert true ( key set . contains ( key one ) ) ;  <NL> assert true ( key set . contains ( key two ) ) ;  <NL> assert true ( key set . contains ( key three ) ) ;  <NL>  }  COM: <s> tests public set key set </s>

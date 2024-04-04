@@ -1,0 +1,1 @@
+TDAT: public void remove all ( object component ) {  <NL> if ( get ( component , " : comp " ) ! = null ) {  <NL> set ( component , " : comp " , null ) ;  <NL> if ( use vectors ) {  <NL> set ( component , " : children " , null ) ;  <NL>  }  <NL> update ( component , " validate " ) ;  <NL>  }  <NL>  }  COM: <s> removes all the components from this containers specified list </s>

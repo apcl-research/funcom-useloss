@@ -1,0 +1,1 @@
+TDAT: public void set normal ( final double a x , final double a y , final double a z ) {  <NL> if ( normal = = null ) {  <NL> normal = new j vector3d ( a x , a y , a z ) ;  <NL>  } else {  <NL>  <NL> normal . set ( a x , a y , a z ) ;  <NL>  }  <NL>  }  COM: <s> set normal vector of vertex by passing its x y and z components </s>

@@ -1,0 +1,1 @@
+TDAT: public void add ( long l ) {  <NL> m _ cksum + = ( ( int ) ( l > > 48 ) & 0xffff ) ;  <NL> m _ cksum + = ( ( int ) ( l > > 32 ) & 0xffff ) ;  <NL> m _ cksum + = ( ( int ) ( l > > 16 ) & 0xffff ) ;  <NL> m _ cksum + = ( ( int ) l & 0xffff ) ;  <NL> m _ finalized = false ;  <NL>  }  COM: <s> adds the specified 64 bit value to the checksum </s>

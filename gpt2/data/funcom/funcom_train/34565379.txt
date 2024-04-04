@@ -1,0 +1,1 @@
+TDAT: private int ins pos ( final int [ ] cne , final byte ins ) {  <NL> int i = cne [ 0 ] + 1 ;  <NL> final int s = cne . length - 1 ;  <NL> while ( i < s & & diff ( ( byte ) cne [ i + 1 ] , ins ) < 0 ) i + = 2 ;  <NL> return i < s & & cne [ i + 1 ] = = ins ? i : - 1 ;  <NL>  }  COM: <s> uses linear search for finding inserting position </s>

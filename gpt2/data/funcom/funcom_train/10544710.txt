@@ -1,0 +1,1 @@
+TDAT: private string get stmt id ( statement s ) throws sql exception {  <NL> result set rs ;  <NL> string stmt _ id ;  <NL> rs = s . execute query (  <NL>  " select stmt _ id from xpltest . sysxplain _ statements " ) ;  <NL> rs . next ( ) ;  <NL> stmt _ id = rs . get string ( 1 ) ;  <NL> rs . close ( ) ;  <NL> return stmt _ id ;  <NL>  }  COM: <s> added by derby 4587 </s>

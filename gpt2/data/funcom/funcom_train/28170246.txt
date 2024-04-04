@@ -1,0 +1,1 @@
+TDAT: public void parse numbers ( ) {  <NL> for ( int i = ' 0 ' ; i < = ' 9 ' ; i + + )  <NL> ctype [ i ] | = ct _ digit ;  <NL> ctype [ ' . ' ] | = ct _ digit ;  <NL> ctype [ ' - ' ] | = ct _ digit ;  <NL>  / / ctype [ ' + ' ] | = ct _ digit ; / / rlw <NL>  }  COM: <s> specifies that numbers should be parsed by this tokenizer </s>

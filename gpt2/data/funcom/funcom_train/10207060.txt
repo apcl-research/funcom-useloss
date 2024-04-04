@@ -1,0 +1,1 @@
+TDAT: public boolean load record store ( final byte [ ] b ) {  <NL> if ( b . length ! = 70 ) { return false ; }  <NL> reversi . gs level = b [ 0 ] ;  <NL> game ended = ( b [ 1 ] = = 1 ) ? true : false ;  <NL> load game parameters ( b , 2 ) ;  <NL> reversi screen . table = new reversi table ( b , 5 ) ;  <NL> return true ;  <NL>  }  COM: <s> loads data from byte </s>

@@ -1,0 +1,1 @@
+TDAT: public long get start of day ( ) {  <NL> cal . set ( calendar . hour _ of _ day , 0 ) ;  <NL> cal . set ( calendar . minute , 0 ) ;  <NL> cal . set ( calendar . second , 0 ) ;  <NL> cal . set ( calendar . millisecond , 0 ) ;  <NL> return cal . get time ( ) . get time ( ) ;  <NL>  }  COM: <s> get start of the day 00 </s>

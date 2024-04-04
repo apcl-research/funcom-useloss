@@ -1,0 +1,1 @@
+TDAT: public int add or lookup system account ( string ip address , string user name , string user id , string full user name ) throws exception {  <NL> return add or lookup system account ( ip address , user name , user id , full user name , null , null , null ) ;  <NL>  }  COM: <s> wrapper of add or lookup system account with all null flags </s>

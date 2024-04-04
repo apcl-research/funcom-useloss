@@ -1,0 +1,1 @@
+TDAT: public void add signature ( bit set bit ) {  <NL> for ( int i = 0 ; i < grid . get bit string length ( ) ; i + + ) {  <NL> this . signatures . set ( grid . get bit string length ( ) * number of points + i , bit <NL>  . get ( i ) ) ;  <NL>  }  <NL>  <NL> number of points + + ;  <NL>  } / / add signature  COM: <s> appends a point signature point to the gesture signature </s>

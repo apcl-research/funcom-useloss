@@ -1,0 +1,1 @@
+TDAT: public void set unit name ( int unit id , string name ) {  <NL> int index = unit list . index of ( new unit ( unit id ) ) ;  <NL> if ( index ! = - 1 ) {  <NL> unit unit = unit list . get ( index ) ;  <NL> unit . set name ( name ) ;  <NL> unit dao . update unit ( unit ) ;  <NL>  }  <NL>  }  COM: <s> sets the name of a unit </s>

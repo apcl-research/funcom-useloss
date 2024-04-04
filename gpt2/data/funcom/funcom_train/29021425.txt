@@ -1,0 +1,1 @@
+TDAT: public void show info ( print stream out ) {  <NL> out . println ( " geotiff file = " + filename ) ;  <NL> for ( int i = 0 ; i < tags . size ( ) ; i + + ) {  <NL> ifd entry ifd = ( ifd entry ) tags . get ( i ) ;  <NL> out . println ( i + " ifd entry = = " + ifd ) ;  <NL>  }  <NL>  }  COM: <s> write the geotiff tag information to out </s>

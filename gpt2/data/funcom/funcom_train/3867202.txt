@@ -1,0 +1,1 @@
+TDAT: public int rank ( ) {  <NL> double eps = math . pow ( 2 . 0 , - 52 . 0 ) ;  <NL> double tol = math . max ( m , n ) * s [ 0 ] * eps ;  <NL> int r = 0 ;  <NL> for ( int i = 0 ; i < s . length ; i + + ) {  <NL> if ( s [ i ] > tol ) {  <NL> r + + ;  <NL>  }  <NL>  }  <NL> return r ;  <NL>  }  COM: <s> effective numerical matrix rank </s>

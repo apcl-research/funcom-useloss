@@ -1,0 +1,1 @@
+TDAT: public void set chart type ( string chart type ) {  <NL> for ( int i = 0 ; i < chart type . values ( ) . length ; i + + ) {  <NL> if ( chart type . equals ignore case ( chart type . values ( ) [ i ] . name ( ) ) ) {  <NL> this . chart type = chart type . values ( ) [ i ] ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> usage set the chart type </s>

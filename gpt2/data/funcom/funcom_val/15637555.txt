@@ -1,0 +1,1 @@
+TDAT: public r visit jml set comprehension ( final jml set comprehension node , final p p ) {  <NL> final p tmp p = pre visit ( node , p ) ;  <NL> r r = scan ( node . newtype , tmp p ) ;  <NL> r = scan and reduce ( node . variable , tmp p , r ) ;  <NL> return scan and reduce ( node . predicate , tmp p , r ) ;  <NL>  }  COM: <s> visiting jml set comprehension node </s>

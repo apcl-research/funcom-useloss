@@ -1,0 +1,1 @@
+TDAT: protected void create vertical spacer ( composite comp , int col span ) {  <NL> label label = new label ( comp , swt . none ) ;  <NL> grid data gd = new grid data ( ) ;  <NL> gd . horizontal span = col span ;  <NL> label . set layout data ( gd ) ;  <NL> label . set font ( comp . get font ( ) ) ;  <NL>  }  COM: <s> create some empty space </s>

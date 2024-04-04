@@ -1,0 +1,1 @@
+TDAT: public void visit short type ( short type self , integer min , integer max ) {  <NL> print ( " short " ) ;  <NL> if ( min ! = null ) {  <NL> print ( " min " + min . int value ( ) ) ;  <NL>  }  <NL> if ( max ! = null ) {  <NL> print ( " max " + max . int value ( ) ) ;  <NL>  }  <NL>  }  COM: <s> prints a short type </s>

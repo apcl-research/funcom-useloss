@@ -1,0 +1,1 @@
+TDAT: protected void add name ( string nom , p shape shape ) {  <NL> if ( parent ! = null ) {  <NL> parent . add name ( nom , shape ) ;  <NL>  } else {  <NL> if ( name table = = null ) {  <NL> name table = new hash map < string , p shape > ( ) ;  <NL>  }  <NL> name table . put ( nom , shape ) ;  <NL>  }  <NL>  }  COM: <s> add a shape to the name lookup table </s>

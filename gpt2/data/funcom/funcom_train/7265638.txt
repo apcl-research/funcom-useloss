@@ -1,0 +1,1 @@
+TDAT: private v remove entry ( trie entry < k , v > h ) {  <NL> if ( h ! = root ) {  <NL> if ( h . is internal node ( ) ) {  <NL> remove internal entry ( h ) ;  <NL>  } else {  <NL> remove external entry ( h ) ;  <NL>  }  <NL>  }  <NL>  <NL> decrement size ( ) ;  <NL> return h . set key value ( null , null ) ;  <NL>  }  COM: <s> removes a single entry from the trie </s>

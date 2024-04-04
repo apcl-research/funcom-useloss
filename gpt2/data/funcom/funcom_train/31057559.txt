@@ -1,0 +1,1 @@
+TDAT: public serializable image get image ( agent sender , int i ) {  <NL> my cell . note agent message ( this , " get image " , sender , this ) ; / / the message <NL> my cell . note agent message ( this , " get image reply " , this , sender ) ; / / the reply <NL> return rb . get element ( i ) ;  <NL>  }  COM: <s> returns the image of index i </s>

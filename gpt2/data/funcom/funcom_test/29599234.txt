@@ -1,0 +1,1 @@
+TDAT: private boolean is empty ( xml stream reader reader ) {  <NL> system . err . println ( " carefull , using the is empty ( ) method , " +  <NL>  " which is not really implemented yet " ) ;  <NL> return ( reader . is start element ( ) & & reader . is end element ( ) & & ! reader . has text ( ) ) ;  <NL>  }  COM: <s> compute if the current node is emmpty </s>

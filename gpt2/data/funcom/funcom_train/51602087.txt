@@ -1,0 +1,1 @@
+TDAT: public void fill host list ( default list model dlm ) {  <NL> log . log ( this , log . level . debug , " filling host list " ) ;  <NL> hosts list . set model ( dlm ) ;  <NL> if ( dlm ! = null & & dlm . get size ( ) > 0 ) detect os button . set enabled ( true ) ;  <NL>  }  COM: <s> fill the host list </s>

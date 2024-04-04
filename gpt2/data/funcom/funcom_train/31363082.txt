@@ -1,0 +1,1 @@
+TDAT: public void mouse pressed ( mouse event e ) {  <NL> if ( e . is shift down ( ) ) {  <NL> model . fast mode ( true ) ;  <NL>  }  <NL> start point . projection sto e ( e . get x ( ) , e . get y ( ) ,  <NL> model . get s origin ( ) ,  <NL> model . get s max ( ) ) ;  <NL>  }  COM: <s> called when a user pressed the mouse button </s>

@@ -1,0 +1,1 @@
+TDAT: private void test url ( ) {  <NL> system . out . println ( " = = = = test url = = = = " ) ;  <NL>  <NL> system . out . println ( " opening a browser window to http : / / www . lwjgl . org " ) ;  <NL> sys . open url ( " http : / / www . lwjgl . org " ) ;  <NL>  <NL> system . out . println ( " - - - - test url - - - - \n " ) ;  <NL>  }  COM: <s> tests the open url </s>

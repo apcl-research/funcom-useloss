@@ -1,0 +1,1 @@
+TDAT: private void number trace ( point point , int number ) {  <NL> graphic . set color ( color . red ) ;  <NL> graphic . draw string ( string . value of ( number ) , ( int ) point . get x ( ) - 5 ,  <NL>  ( int ) point . get y ( ) - 5 ) ;  <NL> graphic . set color ( color . black ) ;  <NL>  } / / number trace  COM: <s> numbers the traces </s>

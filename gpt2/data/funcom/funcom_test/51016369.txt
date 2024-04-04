@@ -1,0 +1,1 @@
+TDAT: public void update ( set < set of two < integer > > edges ) {  <NL> for ( set of two < integer > e : edges ) {  <NL> integer count = edge counts . get ( e ) ;  <NL> if ( count = = null ) {  <NL> count = 0 ;  <NL>  }  <NL> edge counts . put ( e , count + 1 ) ;  <NL>  }  <NL> num samples + + ;  <NL>  }  COM: <s> updates the counts </s>

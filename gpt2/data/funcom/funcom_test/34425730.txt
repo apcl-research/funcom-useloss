@@ -1,0 +1,1 @@
+TDAT: public void notes ( string note ) {  <NL> string n = ( note = = null || ( n = note . trim ( ) ) . is empty ( ) )  <NL>  ? null <NL>  : n ;  <NL> this . notes = n ! = null & & n . length ( ) > max _ notes _ length <NL>  ? n . substring ( 0 , max _ notes _ length )  <NL>  : n ;  <NL>  }  COM: <s> sets the optional notes for this instance if the argument is </s>

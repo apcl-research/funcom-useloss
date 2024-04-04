@@ -1,0 +1,1 @@
+TDAT: public int get column index ( string col name ) {  <NL> for ( int i = 0 ; i < columns . length ; i + + ) {  <NL>  / / todo : is the following line correct with [ 0 ] ?  <NL> if ( columns [ i ] [ 0 ] . equals ignore case ( col name ) )  <NL> return i + padleft ;  <NL>  }  <NL> return - 1 ;  <NL>  }  COM: <s> finds the column index for the given column name </s>

@@ -1,0 +1,1 @@
+TDAT: public void draw links ( comment c , point p ) {  <NL> link view = new comment link view ( c , p , dav , basic map . get view model ( ) ,  <NL> this ) ;  <NL> link view . set size ( layered pane . get preferred size ( ) ) ;  <NL> layered pane . add ( link view , new integer ( 2 ) ) ;  <NL>  }  COM: <s> draws the links between a comment and its annotations </s>

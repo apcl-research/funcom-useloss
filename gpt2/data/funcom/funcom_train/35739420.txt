@@ -1,0 +1,1 @@
+TDAT: protected void show installed jars ( ) {  <NL> int max num width = ( inst jar list . size ( ) + " " ) . length ( ) ;  <NL> for ( int i = 0 ; i < inst jar list . size ( ) ; i + + )  <NL> println ( format number ( i , max num width ) + " " + inst jar list . get ( i ) . to string ( ) ) ;  <NL>  }  COM: <s> lists all intalled jars </s>

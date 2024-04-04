@@ -1,0 +1,1 @@
+TDAT: {  <NL> if ( enable )  <NL> toker . whitespace chars ( 0x00 , 0x20 ) ;  <NL> else <NL>  {  <NL> toker . ordinary chars ( 0x00 , 0x20 ) ;  <NL> toker . whitespace chars ( ' \r ' , ' \r ' ) ;  <NL> toker . whitespace chars ( ' \n ' , ' \n ' ) ;  <NL>  } / / else <NL>  } / / skip white space  COM: <s> sets toker to deal with whitespace chars 0x00 through 0x20 </s>

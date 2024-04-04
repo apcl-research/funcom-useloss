@@ -1,0 +1,1 @@
+TDAT: public int get int ( final string prop , final int def , final int radix ) {  <NL> final string tmp = get app property ( prop ) ;  <NL> int val = def ;  <NL> if ( tmp ! = null ) {  <NL> try {  <NL> val = integer . parse int ( tmp , radix ) ;  <NL>  }  <NL> catch ( final exception e ) {  <NL>  }  <NL>  }  <NL> return val ;  <NL>  }  COM: <s> gets the int </s>

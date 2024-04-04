@@ -1,0 +1,1 @@
+TDAT: public void sound play ( string sound file , double x , double y , double z , double cutoff _ distance ) {  <NL> sound manager . play ( sound file , ( float ) x , ( float ) y , ( float ) z , sound system config . attenuation _ linear , ( float ) cutoff _ distance ) ;  <NL>  }  COM: <s> play a sound file at a particular location </s>

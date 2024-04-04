@@ -1,0 +1,1 @@
+TDAT: public long distance ( int [ ] l1 , int [ ] l2 ) {  <NL> return ( ( long ) ( l2 [ 0 ] - l1 [ 0 ] ) * ( long ) ( l2 [ 0 ] - l1 [ 0 ] ) ) +  <NL>  ( ( long ) ( l2 [ 1 ] - l1 [ 1 ] ) * ( long ) ( l2 [ 1 ] - l1 [ 1 ] ) ) +  <NL>  ( ( long ) ( l2 [ 2 ] - l1 [ 2 ] ) * ( long ) ( l2 [ 2 ] - l1 [ 2 ] ) ) ;  <NL>  }  COM: <s> the distance between any two points </s>

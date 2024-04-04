@@ -1,0 +1,1 @@
+TDAT: public void finalize ( ) {  <NL>  / / portability issue : cast to non sun orb to ensure destroy is called <NL> if ( the _ orb ! = null ) {  <NL> if ( obs comp ! = null ) obs comp . _ release ( ) ;  <NL> system . gc ( ) ;  <NL>  / / the _ orb . destroy ( ) ;  <NL>  / / the _ orb = null ;  <NL>  }  <NL>  }  COM: <s> finalize call for clean up </s>

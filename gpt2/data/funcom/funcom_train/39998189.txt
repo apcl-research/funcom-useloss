@@ -1,0 +1,1 @@
+TDAT: private j menu get run menu ( ) {  <NL> if ( run menu = = null ) {  <NL> run menu = new j menu ( ) ;  <NL> run menu . set text ( " run " ) ;  <NL> run menu . add ( get make menu item ( ) ) ;  <NL>  / / run menu . add ( get run menu item ( ) ) ;  <NL>  }  <NL> return run menu ;  <NL>  }  COM: <s> this method initializes run menu </s>

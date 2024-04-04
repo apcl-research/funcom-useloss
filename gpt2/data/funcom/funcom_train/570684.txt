@@ -1,0 +1,1 @@
+TDAT: private void initialize ( ) {  <NL> this . set size ( 768 , 512 ) ;  <NL> this . set location ( 100 , 100 ) ;  <NL> this . set content pane ( get j content pane ( ) ) ;  <NL> this . set title ( " my sqa | my sql log queries analyzer - version 1 . 0 . 1 " ) ;  <NL> this . set default close operation ( exit _ on _ close ) ;  <NL>  }  COM: <s> this method initializes this </s>

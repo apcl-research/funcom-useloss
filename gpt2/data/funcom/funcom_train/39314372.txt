@@ -1,0 +1,1 @@
+TDAT: public void test constructor ( ) {  <NL> text tex = new text ( new frame ( " hello " ) , true , 10 , 20 ) ;  <NL> assert equals ( tex . x , 10 ) ;  <NL> assert equals ( tex . y , 20 ) ;  <NL> assert equals ( tex . get title ( ) , " text " ) ;  <NL>  }  COM: <s> test of constructor method of class text </s>

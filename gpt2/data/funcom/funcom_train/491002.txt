@@ -1,0 +1,1 @@
+TDAT: public void del ip ok ( ) {  <NL> try {  <NL> user . delete ip ( dbc , chg ip ) ;  <NL>  } catch ( exception e ) {  <NL> string em = " error deleting ip : " + e . get message ( ) ;  <NL> syslog . warn ( em ) ;  <NL> faces utils . add error message ( em ) ;  <NL>  }  <NL> ips = null ;  <NL> chg ip = null ;  <NL>  }  COM: <s> deletes selected ip from list for this user </s>

@@ -1,0 +1,1 @@
+TDAT: public void add action listener ( action listener bean bean ) {  <NL> if ( bean . get jsfid ( ) ! = null ) {  <NL> action listeners . add ( bean ) ;  <NL>  } else {  <NL> log . error ( messages . get message ( " missing . jsfid . error " ,  <NL> new object [ ] { " action listener bean . jsfid " , get jsfid ( ) } ) ) ;  <NL>  }  <NL>  }  COM: <s> p adds an </s>

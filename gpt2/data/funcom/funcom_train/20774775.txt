@@ -1,0 +1,1 @@
+TDAT: public void set use prev path ( boolean use prev path ) {  <NL> boolean old = this . use prev path ;  <NL> this . use prev path = use prev path ;  <NL> get prefs ( ) . put boolean ( " gesture bf2d . use prev path " , use prev path ) ;  <NL> support . fire property change ( " use prev path " , old , this . use prev path ) ;  <NL>  }  COM: <s> sets use prev path </s>

@@ -1,0 +1,1 @@
+TDAT: public string get _ cat _ name ( int cat _ id ) {  <NL> std class category = null ;  <NL>  <NL>  / / cat _ id = intval ( cat _ id ) ;  <NL> category = ( std class ) get _ category ( cat _ id , g consts . get object ( ) , " raw " ) ;  <NL>  <NL> return strval ( std class . get ( category , " name " ) ) ;  <NL>  }  COM: <s> get the name of a category from its id </s>

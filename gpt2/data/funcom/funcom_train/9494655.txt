@@ -1,0 +1,1 @@
+TDAT: private void check index ( final int index ) throws matrix index exception {  <NL> if ( index < 0 || index > = get dimension ( ) ) {  <NL> throw new matrix index exception (  <NL>  " index { 0 } out of allowed range [ { 1 } , { 2 } ] " ,  <NL> index , 0 , get dimension ( ) - 1 ) ;  <NL>  }  <NL>  }  COM: <s> check if an index is valid </s>

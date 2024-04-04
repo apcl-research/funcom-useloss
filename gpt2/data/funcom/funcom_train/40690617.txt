@@ -1,0 +1,1 @@
+TDAT: public void test replace value ( ) {  <NL> jsr166hash map map = map5 ( ) ;  <NL> assert equals ( " a " , map . get ( one ) ) ;  <NL> assert false ( map . replace ( one , " z " , " z " ) ) ;  <NL> assert equals ( " a " , map . get ( one ) ) ;  <NL>  }  COM: <s> replace value fails when the given key not mapped to expected value </s>

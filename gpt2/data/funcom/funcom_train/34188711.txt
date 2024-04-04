@@ -1,0 +1,1 @@
+TDAT: private void move buffer ( int left steps ) {  <NL> buf _ offset = core . core . window _ length - left steps ;  <NL> for ( int i = 0 ; i < s _ buffer . length ; i + + )  <NL> if ( i + left steps < s _ buffer . length ) {  <NL> copy packet ( s _ buffer [ i + left steps ] , s _ buffer [ i ] ) ;  <NL>  }  <NL>  }  COM: <s> move packets in a packet buffer </s>

@@ -1,0 +1,1 @@
+TDAT: public void draw dashed line ( int x , int y1 , int y2 , graphics2d g ) {  <NL> stroke old stroke = g . get stroke ( ) ;  <NL> g . set stroke ( dashedstroke ) ;  <NL> g . draw line ( x , y1 , x , y2 ) ;  <NL> g . set stroke ( old stroke ) ;  <NL>  }  COM: <s> draws the lifeline as a dashed line </s>

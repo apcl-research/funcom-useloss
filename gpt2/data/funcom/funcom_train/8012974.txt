@@ -1,0 +1,1 @@
+TDAT: public void show popup menu ( j popup menu menu , j component comp , int x , int y ) {  <NL>  / / hide window ( ) ;  <NL>  _ cur menu = menu ;  <NL> menu . set selected ( null ) ;  <NL> menu . show ( comp , x , y ) ;  <NL> menu . set visible ( true ) ;  <NL>  }  COM: <s> displays a popup menu but hides any popup currently showing </s>

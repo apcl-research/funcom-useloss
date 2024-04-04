@@ -1,0 +1,1 @@
+TDAT: protected string strip outer element ( string xml ) {  <NL> if ( xml ! = null ) {  <NL> int start = xml . index of ( ' > ' ) + 1 ;  <NL> int end = xml . last index of ( ' < ' ) ;  <NL> if ( end > start ) {  <NL> return xml . substring ( start , end ) ;  <NL>  }  <NL>  }  <NL> return xml ;  <NL>  }  COM: <s> removes the outermost set of xml tags from a string if any </s>

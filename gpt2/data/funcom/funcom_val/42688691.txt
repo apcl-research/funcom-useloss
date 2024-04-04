@@ -1,0 +1,1 @@
+TDAT: public void execute ( ) {  <NL> trace . log ( 2 , " executing toggle enharmonic command " ) ;  <NL> undoable = false ;  <NL> for ( int i = start slot ; i < = end slot ; i + + )  <NL> if ( part . get unit ( i ) ! = null & &  <NL> part . get unit ( i ) . toggle enharmonic ( ) )  <NL> undoable = true ;  <NL>  }  COM: <s> tries to toggle the enharmonic of the note </s>

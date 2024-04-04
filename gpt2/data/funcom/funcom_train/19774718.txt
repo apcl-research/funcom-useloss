@@ -1,0 +1,1 @@
+TDAT: public void move to ( float x , float y , float z ) {  <NL> this . x = x ;  <NL> this . y = y ;  <NL> this . z = z ;  <NL> for ( int i = 0 ; i < pieces . size ( ) ; i + + ) {  <NL> piece piece = ( piece ) pieces . element at ( i ) ;  <NL> piece . move to ( x , y , z ) ;  <NL>  }  <NL>  }  COM: <s> moving a brush </s>

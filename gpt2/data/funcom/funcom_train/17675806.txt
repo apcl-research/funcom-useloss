@@ -1,0 +1,1 @@
+TDAT: public list find non pc class names ( ) {  <NL> array list a = new array list ( ) ;  <NL> int n = classes . length ;  <NL> for ( int i = 0 ; i < n ; i + + ) {  <NL> if ( ! classes [ i ] . is persistence capable ( ) ) a . add ( classes [ i ] . qname ) ;  <NL>  }  <NL> return a ;  <NL>  }  COM: <s> return a list of all classes that are not persistence capable i </s>

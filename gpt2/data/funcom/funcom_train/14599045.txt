@@ -1,0 +1,1 @@
+TDAT: public int count marks ( ) {  <NL> int c = ( pen array = = null ? 0 : pen array . length ) ;  <NL> int count = 0 ;  <NL> while ( c - - > 0 ) {  <NL> if ( pen array [ c ] ! = null & & ! pen array [ c ] . is destroyed ( ) ) {  <NL>  + + count ;  <NL>  }  <NL>  }  <NL> return count ;  <NL>  }  COM: <s> count how many marks have been made by users </s>

@@ -1,0 +1,1 @@
+TDAT: private int find local ( string name ) {  <NL> data bind ;  <NL>  <NL> for ( int i = 0 ; i < data . array size ( ) ; i + + ) {  <NL> bind = data . get data ( i ) ;  <NL> if ( name . equals ( bind . get string ( " name " , null ) ) ) {  <NL> return i ;  <NL>  }  <NL>  }  <NL> return - 1 ;  <NL>  }  COM: <s> searches for a local binding with the specified name </s>

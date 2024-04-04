@@ -1,0 +1,1 @@
+TDAT: public void add ( int x , int y , int w , int h ) {  <NL> if ( w < = 0 || h < = 0 ) return ; / / no - op <NL> box b = new box ( ) ;  <NL> b . x = x ; b . y = y ; b . w = w ; b . h = h ;  <NL> list . add ( b ) ;  <NL>  }  COM: <s> add the given rectangle to the list of rectangles in this space </s>

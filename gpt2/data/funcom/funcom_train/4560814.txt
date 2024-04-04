@@ -1,0 +1,1 @@
+TDAT: public int get index for ( int product id ) {  <NL> for ( int i = 0 , index = 0 , n = count * parts ; i < n ; i + = 2 , index + + ) {  <NL> if ( data [ i + product _ id ] = = product id ) {  <NL> return index ;  <NL>  }  <NL>  }  <NL> return - 1 ;  <NL>  }  COM: <s> returns the index of the specified product component id </s>

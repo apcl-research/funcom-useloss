@@ -1,0 +1,1 @@
+TDAT: public data ser get sub layer ( double x from , double x to , string name ) {  <NL> double [ ] [ ] xy = lib . get signal interval ( get top layer ( ) . get ( ) [ 0 ] ,  <NL> get top layer ( ) . get ( ) [ 1 ] , x from , x to ) ;  <NL> return new data ser (  <NL> xy [ 0 ] , xy [ 1 ] , name , true ) ;  <NL>  }  COM: <s> creates a sublayer from a top layer selection </s>

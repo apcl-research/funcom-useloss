@@ -1,0 +1,1 @@
+TDAT: public void put list value ( string key , string [ ] values ) {  <NL> xml entry entry = new xml entry ( key , values [ 0 ] ) ;  <NL> data . put ( key , entry ) ;  <NL> for ( int i = 1 ; i < values . length ; i + + ) {  <NL> entry . add value ( values [ i ] ) ;  <NL>  }  <NL>  }  COM: <s> adds a list of properties without a java object </s>

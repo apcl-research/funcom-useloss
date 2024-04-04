@@ -1,0 +1,1 @@
+TDAT: public query ext create auto select by id native query ( class entity class , string partition name ) {  <NL> return create temp named native query ( " auto _ sql _ select _ " + entity class . get name ( ) , sql generator . build select sql by id ( entity class ) , entity class , partition name ) ;  <NL>  }  COM: <s> select all query by id </s>

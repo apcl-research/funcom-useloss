@@ -1,0 +1,1 @@
+TDAT: protected void draw some lines ( gl gl ) {  <NL> gl . gl begin ( gl . gl _ lines ) ;  <NL> gl . gl vertex2i ( 50 , 200 ) ;  <NL> gl . gl vertex2i ( 75 , 250 ) ;  <NL>  / / same thing , but over ten pixels to the right <NL> gl . gl vertex2i ( 60 , 200 ) ;  <NL> gl . gl vertex2i ( 85 , 250 ) ;  <NL> gl . gl end ( ) ;  <NL>  }  COM: <s> an example of drawing lines </s>

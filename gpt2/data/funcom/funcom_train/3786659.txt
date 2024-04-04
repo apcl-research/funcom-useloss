@@ -1,0 +1,1 @@
+TDAT: public string cvt l mset spots to str ( string msg , int k , int nsample )  <NL>  { / * cvt l mset spots to str * /  <NL> return ( cvt l mset spots to str ( msg , k , nsample , null , false , false ) ) ;  <NL>  } / * cvt l mset spots to str * /  COM: <s> cvt lmset spots to str convert only kthrows lm set spots for </s>

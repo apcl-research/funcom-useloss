@@ -1,0 +1,1 @@
+TDAT: public void test parent child ( ) {  <NL> test ( " a . length = b . length = c . length ; " , format set prop fn ( " length " )  <NL>  + format prop name decl ( " length " )  <NL>  + " setprop _ length ( a , setprop _ length ( b , c [ $ $ prop _ length ] ) ) " ) ;  <NL>  }  COM: <s> test for modifying both parent and child as all replacements </s>

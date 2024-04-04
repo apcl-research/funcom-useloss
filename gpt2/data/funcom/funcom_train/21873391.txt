@@ -1,0 +1,1 @@
+TDAT: public color get color ( int r , int g , int b ) {  <NL> float [ ] hsbvals = color . rg bto hsb ( 0 , 0 , 0 , null ) ;  <NL> return color . get hsb color ( hsbvals [ 0 ] , hsbvals [ 1 ] , hsbvals [ 2 ] ) ;  <NL>  }  COM: <s> creates a color from the red green and blue component </s>

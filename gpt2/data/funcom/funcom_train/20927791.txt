@@ -1,0 +1,1 @@
+TDAT: public void paint on this ( graphics g , int x , int y , int width , int height ) {  <NL> for ( int col = 0 ; col < width ; col + + ) {  <NL> g . set color ( get color ( ( double ) col / ( width - 1 ) ) ) ;  <NL> g . draw line ( col , y , col , y + height ) ;  <NL>  }  <NL>  }  COM: <s> draws this color map horizontally leftmost 0 rightmost 1 in a </s>

@@ -1,0 +1,1 @@
+TDAT: public boolean is restricted char ( final int ch ) {  <NL> return ( ch > = 0x01 & & ch < = 0x08 )  <NL> || ch = = 0x0b || ch = = 0x0c <NL> || ( ch > = 0x e & & ch < = 0x1f )  <NL> || ( ch > = 0x7f & & ch < = 0x84 )  <NL> || ( ch > = 0x86 & & ch < = 0x9f ) ;  <NL>  }  COM: <s> tests if the specified character matches the code restricted char code </s>

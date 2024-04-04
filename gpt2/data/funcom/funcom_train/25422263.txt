@@ -1,0 +1,1 @@
+TDAT: private void write tag ( print writer out , string tag , string content ) {  <NL> if ( ( content ! = null ) & & ( content . length ( ) > 0 ) ) {  <NL> out . println ( " < " + tag + " > " + val . escape xml ( content ) + " < / " + tag + " > " ) ;  <NL>  }  <NL>  }  COM: <s> writes an xml tag with text node content to the response </s>

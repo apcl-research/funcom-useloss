@@ -1,0 +1,1 @@
+TDAT: public void add var to unifiers ( variable var ) {  <NL> if ( ! uf . contains key ( var . get name ( ) + var . get type ( ) ) & & ! var . get name ( ) . equals ( " id " ) ) {  <NL> uf . put ( var . get name ( ) + var . get type ( ) , var ) ;  <NL>  }  <NL>  }  COM: <s> adds a variable to the list of unifiers of the template </s>

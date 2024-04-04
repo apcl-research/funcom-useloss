@@ -1,0 +1,1 @@
+TDAT: public void add map direction ( double latitude , double longitude , string status , boolean poly line ) {  <NL> add ( " p . add direction ( { location : ' " + latitude + " , " + longitude + " ' , status : ' " + status + " ' , poly : " + poly line + " } ) ; " ) ;  <NL>  }  COM: <s> adds a point to the directions on the map </s>

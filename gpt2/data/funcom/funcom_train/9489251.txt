@@ -1,0 +1,1 @@
+TDAT: public void draw label ( renderer renderer ) {  <NL>  <NL> for ( int i = 0 ; i < drawable3d . draw _ type _ max ; i + + )  <NL> for ( iterator < drawable3d > d = lists [ i ] . iterator ( ) ; d . has next ( ) ; )  <NL> d . next ( ) . draw label ( renderer , true , false ) ;  <NL>  <NL>  }  COM: <s> draw the labels of objects </s>

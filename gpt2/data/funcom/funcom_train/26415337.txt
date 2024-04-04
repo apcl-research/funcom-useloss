@@ -1,0 +1,1 @@
+TDAT: public four byte constant read four byte constant ( byte [ ] buf4 ) throws io exception {  <NL> if ( 4 ! = read ( buf4 , 0 , 4 ) )  <NL> throw new io exception ( " did not read four bytes . " ) ;  <NL> return new four byte constant ( buf4 [ 0 ] , buf4 [ 1 ] , buf4 [ 2 ] , buf4 [ 3 ] ) ;  <NL>  }  COM: <s> utility to read four bytes using preallocated buffer </s>

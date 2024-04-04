@@ -1,0 +1,1 @@
+TDAT: private j label get date time label ( ) {  <NL> if ( this . date time label = = null ) {  <NL> this . date time label = new j label ( language controller . get instance ( ) . get string ( this . plugin ,  <NL>  " test _ execution _ end _ panel _ date _ time _ label " ) ) ;  <NL>  }  <NL> return this . date time label ;  <NL>  }  COM: <s> gets the date time label </s>

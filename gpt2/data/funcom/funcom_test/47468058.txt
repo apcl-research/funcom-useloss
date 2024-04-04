@@ -1,0 +1,1 @@
+TDAT: protected combo choice option add combo choice option ( string name , string label , string [ ] [ ] choices , string value , int page index ) {  <NL> combo choice option option = new combo choice option ( this , name , label , choices ) ;  <NL> register option ( option , value , page index ) ;  <NL> return option ;  <NL>  }  COM: <s> force a combo choice representation </s>

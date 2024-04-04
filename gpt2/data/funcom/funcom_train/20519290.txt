@@ -1,0 +1,1 @@
+TDAT: public cursor fetch all contacts ( ) {  <NL> cursor result = m db . query ( database _ table , new string [ ] { key _ rowid ,  <NL> key _ name , key _ home , key _ mobile , key _ prefix , key _ email ,  <NL> key _ preset1 , key _ preset2 } , null , null , null , null , null ) ;  <NL> return result ;  <NL>  }  COM: <s> fetch all contacts from database </s>

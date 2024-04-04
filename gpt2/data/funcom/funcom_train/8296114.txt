@@ -1,0 +1,1 @@
+TDAT: protected void compile ( file script file , file scripts dir , file classes dir , writer err , iterable < ? extends file > classpath ) throws illegal state exception , io exception {  <NL>  / / compile script <NL> tools . compile ( new file [ ] { script file } , scripts dir , classes dir , err , classpath ) ;  <NL>  }  COM: <s> compile given script file </s>

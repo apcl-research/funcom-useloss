@@ -1,0 +1,1 @@
+TDAT: public void set next pos ( ) {  <NL> if ( ( xpos > base x & & movaction = = 2 ) || ( xpos < contx & & movaction = = 1 ) )  <NL> xpos + = speed ;  <NL> else <NL> move stop ( ) ;  <NL> if ( container ! = null )  <NL> container . update position ( speed , 0 . 0f , 0 . 0f ) ;  <NL>  }  COM: <s> set the next position for the crane </s>

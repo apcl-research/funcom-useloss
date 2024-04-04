@@ -1,0 +1,1 @@
+TDAT: public void test to array ( ) {  <NL> concurrent linked queue q = populated queue ( size ) ;  <NL> object [ ] o = q . to array ( ) ;  <NL> arrays . sort ( o ) ;  <NL> for ( int i = 0 ; i < o . length ; i + + )  <NL> assert equals ( o [ i ] , q . poll ( ) ) ;  <NL>  }  COM: <s> to array contains all elements </s>

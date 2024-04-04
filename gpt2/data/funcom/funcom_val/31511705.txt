@@ -1,0 +1,1 @@
+TDAT: public boolean hit ( rectangle rect , shape s , boolean on stroke ) {  <NL>  / * * @ todo : implement this java . awt . graphics2d abstract method * /  <NL>  / / system . out . println ( " hit ( " + rect + " , " + s + " , " + on stroke + " ) " ) ;  <NL> return false ;  <NL>  }  COM: <s> checks whether or not the specified code shape code intersects </s>

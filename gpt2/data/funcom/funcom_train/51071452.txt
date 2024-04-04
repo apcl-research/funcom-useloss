@@ -1,0 +1,1 @@
+TDAT: protected void application _ enqueue ( sink if sink , queue element if item ) {  <NL> final string tag = this . tag + " . application _ enqueue " ;  <NL> if ( debug ) logger . debug ( tag + " : enqueuing " + item + " to " + sink ) ;  <NL> classifier . dispatch _ later ( new enqueue event ( sink , item ) , 0 ) ;  <NL>  }  COM: <s> code application enqueue code calls </s>

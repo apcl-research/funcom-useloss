@@ -1,0 +1,1 @@
+TDAT: public void set exclude chars ( string chars ) {  <NL> exclude chars . clear ( ) ;  <NL> if ( chars = = null ) {  <NL> return ;  <NL>  }  <NL> for ( int i = 0 ; i < chars . length ( ) ; i + + ) {  <NL> char c = chars . char at ( i ) ;  <NL> exclude chars . put ( new character ( c ) , null ) ;  <NL>  }  <NL>  }  COM: <s> sets the excluded characters </s>

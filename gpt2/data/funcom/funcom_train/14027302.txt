@@ -1,0 +1,1 @@
+TDAT: public r apply ( p . . . param ) {  <NL> linked list < p > ps = new linked list < p > ( arrays . as list ( param ) ) ;  <NL> for ( int i = 0 ; i < _ indices . length ; + + i ) {  <NL> ps . add ( _ indices [ i ] , _ constants [ i ] ) ;  <NL>  }  <NL> return _ decoree . apply ( ps . to array ( param ) ) ;  <NL>  }  COM: <s> apply the n k ary decorator i </s>

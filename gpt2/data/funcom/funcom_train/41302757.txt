@@ -1,0 +1,1 @@
+TDAT: public boolean contains ( double x , double y ) {  <NL> double mx = get x ( ) ;  <NL> double my = get y ( ) ;  <NL> double w = get width ( ) ;  <NL> double h = get height ( ) ;  <NL> return w > 0 & & h > 0 & & x > = mx & & x < mx + w & & y > = my & & y < my + h ;  <NL>  }  COM: <s> test if the given point is contained in the rectangle </s>

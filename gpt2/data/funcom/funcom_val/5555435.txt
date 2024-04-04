@@ -1,0 +1,1 @@
+TDAT: public string get bundle name ( ) {  <NL> return resources . module _ bundle + " _ " + locale . get language ( ) / / $ non - nls - 1 $  <NL>  + ( locale . get country ( ) . length ( ) > 0 ? ( " _ " + locale . get country ( ) ) : " " ) ; / / $ non - nls - 1 $ / / $ non - nls - 2 $  <NL>  }  COM: <s> build the bundle name </s>

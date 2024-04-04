@@ -1,0 +1,1 @@
+TDAT: public j menu get menu ( string menu name ) {  <NL> for ( int i = 0 ; i < get j menu bar ( ) . get menu count ( ) ; i + + ) {  <NL> j menu j menu = get j menu bar ( ) . get menu ( i ) ;  <NL> if ( menu name . equals ( j menu . get name ( ) ) )  <NL> return j menu ;  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> returns the menu corresponding to a given result or null </s>

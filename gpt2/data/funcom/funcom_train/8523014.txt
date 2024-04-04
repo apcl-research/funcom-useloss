@@ -1,0 +1,1 @@
+TDAT: public void track url ( string url ) {  <NL> string ip = get info ( type _ ip ) ;  <NL> string sid = get info ( type _ sid ) ;  <NL> console logger . get instance ( ) . log ( log dbo . type _ info , " track url " , " item id : " + time data loader . get instance ( ) . get day str ( ) + url + " ip : " + ip + " session : " + sid ) ;  <NL>  }  COM: <s> here the url is id </s>

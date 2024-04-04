@@ -1,0 +1,1 @@
+TDAT: public int read ( ) throws io exception {  <NL> int r = read ( single byte , 0 , 1 ) ;  <NL> while ( r = = 0 ) {  <NL> r = read ( single byte , 0 , 1 ) ;  <NL>  }  <NL> if ( r > 0 ) {  <NL> return single byte [ 0 ] < 0 ? 256 + single byte [ 0 ] : single byte [ 0 ] ;  <NL>  }  <NL> return - 1 ;  <NL>  }  COM: <s> reads one code byte code from this input stream </s>

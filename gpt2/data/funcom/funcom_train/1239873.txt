@@ -1,0 +1,1 @@
+TDAT: public void write external ( object output out ) throws io exception {  <NL> out . write int ( size ( ) ) ;  <NL> for ( entry pos = sentinel . next ; pos ! = sentinel ; pos = pos . next ) {  <NL> out . write object ( pos . get key ( ) ) ;  <NL> out . write object ( pos . get value ( ) ) ;  <NL>  }  <NL>  }  COM: <s> serializes this map to the given stream </s>

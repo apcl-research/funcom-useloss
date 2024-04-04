@@ -1,0 +1,1 @@
+TDAT: public void load tab ( file file ) throws wp exception {  <NL> tab file = new wp file ( file ) ;  <NL> wp file engine file engine = new wp file engine ( gui ) ;  <NL> tab file . set type ( file engine . get extension type ( file ) ) ;  <NL> set kit for type ( tab file . get type ( ) ) ;  <NL> load ( file ) ;  <NL> add listeners ( ) ;  <NL>  }  COM: <s> load a tab </s>

@@ -1,0 +1,1 @@
+TDAT: public boolean is path to node visible ( object node ) {  <NL> object [ ] path = get path to root ( node ) ;  <NL> for ( int i = 0 ; i < path . length ; i + + ) {  <NL> if ( ! ( ( food node ) path [ i ] ) . is visible ( ) ) {  <NL> return false ;  <NL>  }  <NL>  }  <NL> return true ;  <NL>  }  COM: <s> checks if the specified node is visible and all nodes above it are </s>

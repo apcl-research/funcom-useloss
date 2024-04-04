@@ -1,0 +1,1 @@
+TDAT: public short get average ( ) {  <NL> if ( time = = 0 & & last = = null ) {  <NL>  / * no data * /  <NL> return null ;  <NL>  } else if ( time = = 0 ) {  <NL>  / * only one point * /  <NL> return last . get cadence ( ) ;  <NL>  } else {  <NL>  / * many points * /  <NL> return ( short ) math . round ( sum / time ) ;  <NL>  }  <NL>  }  COM: <s> returns average cadence </s>

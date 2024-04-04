@@ -1,0 +1,1 @@
+TDAT: private double probability ( int n , int m , int k , int x ) {  <NL> return math . exp ( math utils . binomial coefficient log ( m , x ) +  <NL> math utils . binomial coefficient log ( n - m , k - x ) -  <NL> math utils . binomial coefficient log ( n , k ) ) ;  <NL>  }  COM: <s> for the distribution x defined by the given hypergeometric distribution </s>

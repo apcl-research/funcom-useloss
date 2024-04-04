@@ -1,0 +1,1 @@
+TDAT: final public void fill not ( int n ) {  <NL> int max chunk = subscript ( n ) ;  <NL> if ( max chunk > = length ( ) ) {  <NL> clear all ( ) ;  <NL>  } else {  <NL> for ( int i = 0 ; i < max chunk ; i + + ) {  <NL> set w ( i , 0l ) ;  <NL>  }  <NL> and w ( max chunk , ( ~ 0l ) < < ( n & mask ) ) ;  <NL>  }  <NL>  }  COM: <s> clears the first n bits of this bit vector </s>

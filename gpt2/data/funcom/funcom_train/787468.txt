@@ -1,0 +1,1 @@
+TDAT: protected void set polar location ( node item n , node item p , double r , double t ) {  <NL> set x ( n , p , m _ origin . get x ( ) + r * math . cos ( t ) ) ;  <NL> set y ( n , p , m _ origin . get y ( ) + r * math . sin ( t ) ) ;  <NL>  }  COM: <s> set the position of the given node given in polar co ordinates </s>

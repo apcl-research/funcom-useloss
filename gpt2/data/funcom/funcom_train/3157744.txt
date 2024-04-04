@@ -1,0 +1,1 @@
+TDAT: public area get as area ( ) {  <NL> if ( get shape ( ) instanceof area ) {  <NL> return ( area ) get shape ( ) ;  <NL>  }  <NL> if ( is one dimensional ( ) ) {  <NL> return new area ( new basic stroke ( 1 . 0f ) . create stroked shape ( get shape ( ) ) ) ;  <NL>  }  <NL> return new area ( get shape ( ) ) ;  <NL>  }  COM: <s> gets the figure as an area </s>

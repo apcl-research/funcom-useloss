@@ -1,0 +1,1 @@
+TDAT: public void save settings ( ) {  <NL> m table prog . save settings ( new file ( " table prog . xml " ) . get absolute path ( ) ) ;  <NL> m table song . save settings ( new file ( " table song . xml " ) . get absolute path ( ) ) ;  <NL> m table compil . save settings ( new file ( " table compil . xml " ) . get absolute path ( ) ) ;  <NL>  }  COM: <s> saves the settings </s>

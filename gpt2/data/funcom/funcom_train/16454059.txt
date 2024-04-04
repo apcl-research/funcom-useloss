@@ -1,0 +1,1 @@
+TDAT: public void set frame size ( j frame frame ) {  <NL> if ( user prefs . contains key ( pref _ app _ width ) & &  <NL> user prefs . contains key ( pref _ app _ height ) ) {  <NL> frame . set size ( get int value ( pref _ app _ width ) ,  <NL> get int value ( pref _ app _ height ) ) ;  <NL>  }  <NL>  }  COM: <s> sets the size of the frame based on the values set </s>

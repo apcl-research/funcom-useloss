@@ -1,0 +1,1 @@
+TDAT: public boolean update tree ( long row id , string name ) {  <NL> content values values = new content values ( ) ;  <NL> values . put ( key _ tree _ name , name ) ;  <NL>  <NL> return m db . update ( database _ table _ trees , values , key _ rowid + " = " + row id , null ) > 0 ;  <NL>  }  COM: <s> update the tree using the details provided </s>

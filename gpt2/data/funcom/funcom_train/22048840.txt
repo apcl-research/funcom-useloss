@@ -1,0 +1,1 @@
+TDAT: public string get news ( int char id , int type ) {  <NL> if ( display for character ( char id ) ) {  <NL> string t news = get current text ( type ) ;  <NL> if ( t news . length ( ) > 0 ) {  <NL> return m _ date . get rtf date ( ) . get text ( type ) + " : " + t news ;  <NL>  }  <NL>  }  <NL> return " " ;  <NL>  }  COM: <s> gets the news article if char can see it </s>

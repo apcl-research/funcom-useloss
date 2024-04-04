@@ -1,0 +1,1 @@
+TDAT: public int execute ( string s app name , string s file name , file work dir , map < string , string > env , boolean b wait for ) {  <NL> return execute ( s app name , " " , s file name , work dir , env , b wait for ) ;  <NL>  }  COM: <s> execute an external application </s>

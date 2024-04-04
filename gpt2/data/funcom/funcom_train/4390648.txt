@@ -1,0 +1,1 @@
+TDAT: public string get item name ( int item id ) {  <NL> if ( item id = = - 1 || item id > = max listed items ) {  <NL> return new string ( " unarmed " ) ;  <NL>  }  <NL> if ( item lists [ item id ] ! = null ) {  <NL> return ( item lists [ item id ] . item name ) ;  <NL>  }  <NL> return new string ( " null " ) ;  <NL>  }  COM: <s> returns the name of item id </s>

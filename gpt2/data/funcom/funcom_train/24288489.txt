@@ -1,0 +1,1 @@
+TDAT: private void push ( json object jo ) throws json exception {  <NL> if ( this . top > = maxdepth ) {  <NL> throw new json exception ( " nesting too deep . " ) ; / / $ non - nls - 1 $  <NL>  }  <NL> this . stack [ this . top ] = jo ;  <NL> this . mode = jo = = null ? ' a ' : ' k ' ;  <NL> this . top + = 1 ;  <NL>  }  COM: <s> push an array or object scope </s>

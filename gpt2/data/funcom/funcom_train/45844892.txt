@@ -1,0 +1,1 @@
+TDAT: public void add hair ( int row , int col ) {  <NL> avatar check ( ) ;  <NL> vector data = ( vector ) mesh names . get ( row ) ;  <NL> manipulator . swap hair mesh ( character , true , new file ( data . get ( 1 ) . to string ( ) ) , data . get ( 0 ) . to string ( ) ) ;  <NL>  }  COM: <s> grabs the selected hair </s>

@@ -1,0 +1,1 @@
+TDAT: public boolean find _ alias ( string alias ) {  <NL> for ( int i = 0 ; i < aliases . size ( ) ; i + + ) {  <NL> string buffer sb = new string buffer ( ( string ) aliases . get ( i ) ) ;  <NL> if ( sb . to string ( ) . index of ( alias ) > - 1 ) return true ;  <NL>  }  <NL> return false ;  <NL>  }  COM: <s> this method searches the list of aliases of the object </s>

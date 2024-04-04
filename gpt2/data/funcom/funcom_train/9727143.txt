@@ -1,0 +1,1 @@
+TDAT: public void extend ( float x , float y , float z ) {  <NL> minx = math . min ( minx , x ) ;  <NL> miny = math . min ( miny , y ) ;  <NL> minz = math . min ( minz , z ) ;  <NL> maxx = math . max ( maxx , x ) ;  <NL> maxy = math . max ( maxy , y ) ;  <NL> maxz = math . max ( maxz , z ) ;  <NL>  }  COM: <s> extend the bound to include the given point </s>

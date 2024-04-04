@@ -1,0 +1,1 @@
+TDAT: protected string get resulting path ( string element ) {  <NL> final string builder path = new string builder ( current path ) ;  <NL>  / / the first step down shouldn ' t have a ' . ' before the name <NL> if ( path . length ( ) > 0 )  <NL> path . append ( ' . ' ) ;  <NL> return path . append ( element ) . to string ( ) ;  <NL>  }  COM: <s> appends the given element to </s>

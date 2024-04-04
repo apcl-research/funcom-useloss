@@ -1,0 +1,1 @@
+TDAT: private void reset ( exe exe ) {  <NL> tabbed pane . set selected index ( 0 ) ;  <NL> tabbed pane . set enabled at ( 1 , false ) ;  <NL> set title ( exe . get name ( ) ) ;  <NL> object view panel . set context ( new context item (  <NL>  " exe " + exe . get name ( ) + " running . . . " ) ) ;  <NL>  }  COM: <s> resets the output value to exe exe </s>

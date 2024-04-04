@@ -1,0 +1,1 @@
+TDAT: public void clear all online menus ( ) {  <NL> for ( int i = 2 ; i < menu bar . get menu count ( ) - 1 ; i + + ) {  <NL> menu bar . get menu ( i ) . remove all ( ) ;  <NL> menu bar . get menu ( i ) . set enabled ( false ) ;  <NL>  }  <NL> menu global . set enabled ( false ) ;  <NL>  }  COM: <s> clears and disables all online menus </s>

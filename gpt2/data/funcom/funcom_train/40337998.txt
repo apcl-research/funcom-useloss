@@ -1,0 +1,1 @@
+TDAT: public void move selected objects to ( int x , int y ) {  <NL> double [ ] world pos origin = get ogl pos ( 0 , 0 ) ;  <NL> double [ ] world pos = get ogl pos ( x , y ) ;  <NL> move selection delta (  <NL>  - world pos [ 0 ] + world pos origin [ 0 ] ,  <NL>  - world pos [ 1 ] + world pos origin [ 1 ] ) ;  <NL>  }  COM: <s> move every selected objects relatively </s>

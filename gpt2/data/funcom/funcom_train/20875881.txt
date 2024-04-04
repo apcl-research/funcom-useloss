@@ -1,0 +1,1 @@
+TDAT: public string get day header ( ) {  <NL> string buffer sb = new string buffer ( ) ;  <NL> for ( int i = 0 ; i < constants . day _ codes . length ; i + + )  <NL> if ( ( i day code & constants . day _ codes [ i ] ) ! = 0 )  <NL> sb . append ( constants . day _ names _ short [ i ] ) ;  <NL> return sb . to string ( ) ;  <NL>  }  COM: <s> days for printing purposes </s>

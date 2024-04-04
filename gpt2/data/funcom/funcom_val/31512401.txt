@@ -1,0 +1,1 @@
+TDAT: private string trunc xml ( string s ) {  <NL> while ( s . length ( ) > 44 & & s . index of ( ' _ ' ) > - 1 ) {  <NL> int i = s . index of ( ' _ ' ) ;  <NL> if ( i > - 1 ) {  <NL> s = s . substring ( i + 1 ) ;  <NL>  }  <NL>  }  <NL> return s ;  <NL>  }  COM: <s> this algorithm must match that in buildfilelist </s>

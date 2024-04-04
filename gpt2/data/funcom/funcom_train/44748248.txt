@@ -1,0 +1,1 @@
+TDAT: public int number of results ( ) {  <NL> int count = 0 ;  <NL> set peak set = peak map . key set ( ) ;  <NL> for ( iterator it = peak set . iterator ( ) ; it . has next ( ) ; ) {  <NL> vector o = ( vector ) peak map . get ( it . next ( ) ) ;  <NL> count + = o . size ( ) ;  <NL>  }  <NL> return count ;  <NL>  }  COM: <s> number of matches found </s>

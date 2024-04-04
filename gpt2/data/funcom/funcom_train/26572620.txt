@@ -1,0 +1,1 @@
+TDAT: public void resize frame ( j component f , int new x , int new y , int new width , int new height ) {  <NL>  / / system . out . println ( " trc : " + get class ( ) . get name ( ) + " . resize frame ( ) " ) ;  <NL> super . resize frame ( f , new x , new y , new width , new height ) ;  <NL>  }  COM: <s> the user has resized the component </s>

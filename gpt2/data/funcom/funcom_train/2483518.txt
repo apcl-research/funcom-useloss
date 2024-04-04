@@ -1,0 +1,1 @@
+TDAT: public string get mac address string ( ) {  <NL> return ( macaddress [ 0 ] & 0x00ff ) + " . " + ( macaddress [ 1 ] & 0x00ff ) + " . "  <NL>  + ( macaddress [ 2 ] & 0x00ff ) + " . " + ( macaddress [ 3 ] & 0x00ff ) + " . "  <NL>  + ( macaddress [ 4 ] & 0x00ff ) + " . " + ( macaddress [ 5 ] & 0x00ff ) ;  <NL>  }  COM: <s> get a human readable mac address representation </s>

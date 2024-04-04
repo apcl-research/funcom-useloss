@@ -1,0 +1,1 @@
+TDAT: public void test invalid key exception06 ( ) {  <NL> invalid key exception t e = new invalid key exception ( null , null ) ;  <NL> assert null ( " get message ( ) must return null " , t e . get message ( ) ) ;  <NL> assert null ( " get cause ( ) must return null " , t e . get cause ( ) ) ;  <NL>  }  COM: <s> test for code invalid key exception string throwable code </s>

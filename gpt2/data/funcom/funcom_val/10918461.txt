@@ -1,0 +1,1 @@
+TDAT: public void draw image ( image awt image , affine transform at ) {  <NL> graphics . set composite ( get graphics state ( ) . get stroke java composite ( ) ) ;  <NL> graphics . set clip ( get graphics state ( ) . get current clipping path ( ) ) ;  <NL> graphics . draw image ( awt image , at , null ) ;  <NL>  }  COM: <s> draw the awt image </s>

@@ -1,0 +1,1 @@
+TDAT: public void set transaction results ( string message _ , long time _ ) {  <NL> user message . set text ( message _ ) ;  <NL> last tran time . set text ( time _ . to string ( ) + " ms " ) ;  <NL> message log . add ( new java . util . date ( ) + " result - " + message _ + " ( " + time _ . to string ( ) + " ms ) " ) ;  <NL>  }  COM: <s> set the status bar messages </s>

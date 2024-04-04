@@ -1,0 +1,1 @@
+TDAT: public boolean valid ( ) {  <NL> return fix & &  <NL>  ! float . is na n ( speed ) & &  <NL> speed > = min _ speed & &  <NL> speed < = max _ speed & &  <NL> course > = 0 & &  <NL> course < = 360 & &  <NL> altitude ! = integer . max _ value & &  <NL> altitude > = min _ altitude & &  <NL> altitude < = max _ altitude ;  <NL>  }  COM: <s> check if the waypoint is valid </s>

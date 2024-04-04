@@ -1,0 +1,1 @@
+TDAT: public text field create text field ( int depth , int x , int y , int width , int height ) {  <NL> return create text field ( " tf " + movie clip . next text field id + + , depth , x , y , width , height ) ;  <NL>  }  COM: <s> create new text field inside this movie clip </s>

@@ -1,0 +1,1 @@
+TDAT: public void set model dimensions to include ( visualiser v ) {  <NL> if ( v . get x ( ) > lower right . get x ( ) || v . get y ( ) > lower right . get y ( ) )  <NL> set model dimensions ( v . get x ( ) + view size increment x , v . get y ( ) + view size increment y ) ;  <NL>  }  COM: <s> set effective size of editable area to include given visualiser </s>

@@ -1,0 +1,1 @@
+TDAT: public void add loading ( string reason , reference relates to , string contributes to , string depends on , rate rate ) {  <NL> add line ( new rate behaviour ( generate line id ( ) , reason , relates to , contributes to , depends on , behaviour type . load , rate ) ) ;  <NL>  }  COM: <s> add a loading with a generated line id and the specified arguments </s>

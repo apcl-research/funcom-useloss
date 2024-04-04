@@ -1,0 +1,1 @@
+TDAT: public void set file entry ( page id page no , string fname , int entry no ) throws io exception {  <NL>  <NL> int position = start _ file _ entries + entry no * size _ of _ file _ entry ;  <NL> convert . set int value ( page no . pid , position , data ) ;  <NL> convert . set str value ( fname , position + 4 , data ) ;  <NL>  }  COM: <s> set file entry </s>

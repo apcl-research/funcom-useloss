@@ -1,0 +1,1 @@
+TDAT: public void delete post ( string postid ) throws mwa connection exception {  <NL> object [ ] params = new object [ ] { default _ appkey , postid , mwa connection config . get username ( ) ,  <NL> mwa connection config . get password ( ) , boolean . true } ;  <NL> execute ( " meta weblog . delete post " , params ) ;  <NL>  }  COM: <s> delete a post </s>

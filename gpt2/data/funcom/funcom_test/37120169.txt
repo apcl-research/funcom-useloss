@@ -1,0 +1,1 @@
+TDAT: private void add id ( string id , object target ) {  <NL>  <NL> if ( ( id ! = null ) & & ( id . length ( ) > 0 ) ) {  <NL> if ( this . ids . contains key ( id ) ) {  <NL> throw configuration error ( " i ds must be unique " ) ;  <NL>  } else {  <NL> this . ids . put ( id , target ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> adds an id for the specified target </s>

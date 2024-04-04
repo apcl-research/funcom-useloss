@@ -1,0 +1,1 @@
+TDAT: private void add ideas ( user user , list < tag > tags , string category ) {  <NL>  <NL> add saved idea ( user , tags , category ) ;  <NL> add objectionable idea ( user , tags , category ) ;  <NL> add published idea ( user , tags , category ) ;  <NL> add published idea2 ( user , tags , category ) ;  <NL>  }  COM: <s> adds dummy ideas into the datastore </s>

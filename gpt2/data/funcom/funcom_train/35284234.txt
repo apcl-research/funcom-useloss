@@ -1,0 +1,1 @@
+TDAT: private void cell noise v ( float x , float y , float z , float [ ] hash point ) {  <NL> int xi = ( int ) math . floor ( x ) ;  <NL> int yi = ( int ) math . floor ( y ) ;  <NL> int zi = ( int ) math . floor ( z ) ;  <NL> noise math . hash ( xi , yi , zi , hash point ) ;  <NL>  }  COM: <s> returns a vector point color in ca using point hasharray directly </s>

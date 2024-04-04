@@ -1,0 +1,1 @@
+TDAT: public void set identifier ( string identifier ) {  <NL> this . set component changed ( true ) ;  <NL> this . identifier = identifier ;  <NL> this . event support . fire ( new event ( this , " id set on ' " + this . get identifier ( ) + " ' . " , event type . changed _ component _ unpoolable _ identifier ) ) ;  <NL>  }  COM: <s> set the identifier </s>

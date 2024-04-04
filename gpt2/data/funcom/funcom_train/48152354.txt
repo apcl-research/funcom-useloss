@@ -1,0 +1,1 @@
+TDAT: public void draw tick ( graphics g , double x , double y , int i , int j , int o ) {  <NL> int a = get x graph ( x ) , b = get y graph ( y ) ;  <NL> if ( o = = vertical ) g . draw line ( a , b - j , a , b + i ) ;  <NL> else g . draw line ( a - i , b , a + j , b ) ;  <NL>  }  COM: <s> this method draws a tick mark at a specified point in scale units </s>

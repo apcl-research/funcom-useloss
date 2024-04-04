@@ -1,0 +1,1 @@
+TDAT: public double hand rank ( card c1 , card c2 , card group h , int np ) {  <NL> double hr = hand rank ( c1 , c2 , h ) ;  <NL> double h = hr ;  <NL> for ( int j = 0 ; j < ( np - 1 ) ; j + + )  <NL> h * = hr ;  <NL> return h ;  <NL>  }  COM: <s> calculates the probability of having the best hand against several </s>

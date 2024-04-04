@@ -1,0 +1,1 @@
+TDAT: / * public void draw item ( graphics2d g , point camera loc , buffered image item image ) {  <NL> g . draw image ( item image , render point . x - camera loc . x , render point . y - camera loc . y , 60 , 30 , null ) ;  <NL>  } * /  COM: <s> draws the items on the tile </s>

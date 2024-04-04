@@ -1,0 +1,1 @@
+TDAT: private string next string ( char delimiter ) throws jcamp exception {  <NL> string a ;  <NL> int p ;  <NL> p = data . index of ( delimiter , pos ) ;  <NL> if ( p < 0 )  <NL> throw new jcamp exception ( " missing data " ) ;  <NL> a = data . substring ( pos , p ) ;  <NL> pos = p + 1 ;  <NL> return a ;  <NL>  }  COM: <s> parse next unquoted string </s>

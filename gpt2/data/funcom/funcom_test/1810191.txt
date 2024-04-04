@@ -1,0 +1,1 @@
+TDAT: public void fire cell clicked ( sources table events sender , int row , int cell ) {  <NL> for ( iterator it = iterator ( ) ; it . has next ( ) ; ) {  <NL> table listener listener = ( table listener ) it . next ( ) ;  <NL> listener . on cell clicked ( sender , row , cell ) ;  <NL>  }  <NL>  }  COM: <s> fires a cell clicked event to all listeners </s>

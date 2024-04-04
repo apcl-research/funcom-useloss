@@ -1,0 +1,1 @@
+TDAT: synchronized public vector get ( ) {  <NL> vector arr = new vector ( ) ;  <NL> for ( int i = 0 ; i < = rec id ; i + + ) {  <NL> gps data gp = ( gps data ) db . get ( new integer ( i ) ) ;  <NL> if ( gp ! = null ) {  <NL> arr . add ( gp ) ;  <NL>  }  <NL>  }  <NL> return arr ;  <NL>  }  COM: <s> get all points from db </s>

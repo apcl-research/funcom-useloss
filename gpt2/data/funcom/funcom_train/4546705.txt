@@ -1,0 +1,1 @@
+TDAT: public minf atom cut ( long time ) {  <NL> minf atom cut minf = new minf atom ( ) ;  <NL> cut minf . set mhd ( mhd . cut ( ) ) ;  <NL> cut minf . set dinf ( dinf . cut ( ) ) ;  <NL> cut minf . set stbl ( stbl . cut ( time ) ) ;  <NL> cut minf . recompute size ( ) ;  <NL> return cut minf ;  <NL>  }  COM: <s> cut the atom at the specified time </s>

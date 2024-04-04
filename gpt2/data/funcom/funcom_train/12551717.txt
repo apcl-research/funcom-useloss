@@ -1,0 +1,1 @@
+TDAT: public void close animation ( ) {  <NL>  / / if this is an xml file , put on the end - animation tag <NL> if ( is xml ) my _ fout . println ( " < / graph animation > " ) ;  <NL>  <NL>  / / close the file and wait for a new print writer or open - file command <NL> my _ fout . close ( ) ;  <NL>  } / / end close animation ( ) function  COM: <s> function close animation </s>

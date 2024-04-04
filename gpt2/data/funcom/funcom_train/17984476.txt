@@ -1,0 +1,1 @@
+TDAT: protected void reset frame ( ) {  <NL> last dispose = dispose ;  <NL> last rect = new rectangle ( ix , iy , iw , ih ) ;  <NL> last image = image ;  <NL> last bg color = bg color ;  <NL> dispose = 0 ; / / was local <NL> transparency = false ; / / was local <NL> delay = 0 ; / / was local <NL> lct = null ;  <NL>  }  COM: <s> resets frame state for reading next image </s>

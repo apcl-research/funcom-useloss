@@ -1,0 +1,1 @@
+TDAT: private void check hist ( ) {  <NL> final int hl = queries . length ;  <NL> if ( hist + 1 = = hl ) {  <NL> array . move ( queries , 1 , 0 , hl - 1 ) ;  <NL> array . move ( cont , 1 , 0 , hl - 1 ) ;  <NL> array . move ( marked , 1 , 0 , hl - 1 ) ;  <NL> hist - - ;  <NL>  }  <NL>  }  COM: <s> checks the history data arrays </s>

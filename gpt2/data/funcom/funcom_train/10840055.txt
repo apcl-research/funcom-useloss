@@ -1,0 +1,1 @@
+TDAT: private string get package from resource ( final string resource ) {  <NL> final int last slash = resource . last index of ( ' / ' ) ;  <NL> final string pck name = ( last slash = = - 1 ? " " : resource . substring ( 0 , last slash ) . replace ( ' / ' , ' . ' ) ) ;  <NL> return pck name ;  <NL>  }  COM: <s> return the package from a resource </s>

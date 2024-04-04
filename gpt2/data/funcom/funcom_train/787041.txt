@@ -1,0 +1,1 @@
+TDAT: private void init row map ( ) {  <NL> m _ rowmap = new int [ m _ table . get row count ( ) ] ;  <NL> int iterator rows = m _ table . rows ( ) ;  <NL> for ( int i = 0 ; rows . has next ( ) ; + + i ) {  <NL> m _ rowmap [ i ] = rows . next int ( ) ;  <NL>  }  <NL>  }  COM: <s> initialize mapping between prefuse table rows and the rows reported </s>

@@ -1,0 +1,1 @@
+TDAT: private void extract and fire message ( int start pos , int end pos ) {  <NL> if ( keep start end ) {  <NL> fire event ( buffer . substring ( start pos , end pos + end . length ( ) ) ) ;  <NL>  } else {  <NL> fire event ( buffer . substring ( start pos + start . length ( ) , end pos ) ) ;  <NL>  }  <NL>  }  COM: <s> here extracts the data from a string like </s>

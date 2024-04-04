@@ -1,0 +1,1 @@
+TDAT: public void print ( ) {  <NL> for ( iterator < character > i = cells . key set ( ) . iterator ( ) ; i . has next ( ) ; ) {  <NL> character ch = i . next ( ) ;  <NL> cell c = at ( ch ) ;  <NL> system . out . print ( " [ " + ch + " : " + c + " ] " ) ;  <NL>  }  <NL> system . out . println ( ) ;  <NL>  }  COM: <s> write the contents of this row to stdout </s>

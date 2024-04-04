@@ -1,0 +1,1 @@
+TDAT: protected void fire credits change ( int old c , int new c ) {  <NL> game listener [ ] listeners = get game listeners ( ) ;  <NL> if ( listeners ! = null ) {  <NL> for ( int i = 0 ; i < listeners . length ; i + + ) {  <NL> listeners [ i ] . credits changed ( old c , new c ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> fires an event that the credits have changed </s>

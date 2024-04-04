@@ -1,0 +1,1 @@
+TDAT: public long lock ( int rec no ) throws record not found exception {  <NL> final row r = get ( rec no ) ;  <NL> long lock = next lock cookie = ( next lock cookie % ( long . max _ value - 1 ) ) + 1 ;  <NL> try {  <NL> r . lock ( lock ) ;  <NL>  } catch ( lock cancelled exception e ) {  <NL> lock = - 1 ;  <NL>  }  <NL> return lock ;  <NL>  }  COM: <s> locks a record </s>

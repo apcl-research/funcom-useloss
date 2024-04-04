@@ -1,0 +1,1 @@
+TDAT: public void set simple column ( phrase phrase , float llx , float lly , float urx , float ury , float leading , int alignment ) {  <NL> add text ( phrase ) ;  <NL> set simple column ( llx , lly , urx , ury , leading , alignment ) ;  <NL>  }  COM: <s> simplified method for rectangular columns </s>

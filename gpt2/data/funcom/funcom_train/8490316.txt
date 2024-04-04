@@ -1,0 +1,1 @@
+TDAT: private void initialize logic ops ( ) {  <NL>  _ logic ops = new hash map < string , logic operator > ( ) ;  <NL>  _ logic ops . put ( andstr , new and operator ( ) ) ;  <NL>  _ logic ops . put ( orstr , new or operator ( ) ) ;  <NL>  _ logic ops . put ( notstr , new not operator ( ) ) ;  <NL>  }  COM: <s> initializes logic operators </s>

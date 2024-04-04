@@ -1,0 +1,1 @@
+TDAT: public void test incr minute ( ) throws exception {  <NL> date date = precise df . parse ( " 2008 - 04 - 30 08 : 15 : 00 " ) ;  <NL> date = date utils . incr minute ( date , 46 ) ;  <NL> assert equals ( precise df . parse ( " 2008 - 04 - 30 09 : 01 : 00 " ) , date ) ;  <NL>  }  COM: <s> tests the incr minute method </s>

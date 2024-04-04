@@ -1,0 +1,1 @@
+TDAT: @ test ( expected = illegal argument exception . class ) public void test constructor more suits ( ) {  <NL> combo [ ] combos = new combo [ ] { this . bamboo _ 123 , this . bamboo _ 444 , this . bamboo _ 234 , this . circle _ 123 , this . bamboo _ 999 } ;  <NL> new scoreentry _ one _ suit _ only ( combos ) ;  <NL>  }  COM: <s> check if more suits fails </s>

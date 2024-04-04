@@ -1,0 +1,1 @@
+TDAT: protected fc object from cache ( fc value id ) {  <NL> soft reference ref = ( soft reference ) _ cache . get ( id ) ;  <NL> if ( ref ! = null ) {  <NL> fc object obj = ( fc object ) ref . get ( ) ;  <NL> if ( obj = = null ) {  <NL>  _ cache . remove ( ref ) ;  <NL>  }  <NL> return obj ;  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> retrieves an object from the cache </s>

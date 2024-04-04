@@ -1,0 +1,1 @@
+TDAT: public void test add real ( ) {  <NL> value v = _ rv1 . add ( _ rv2 ) ;  <NL> assert true ( " return type check . " , v instanceof real value ) ;  <NL> assert equals ( 7 . 0 , ( ( real value ) v ) . double value ( ) , 0 . 00001 ) ;  <NL> assert equals ( new real value ( 7 ) , v ) ;  <NL>  }  COM: <s> tests addition of two real values </s>

@@ -1,0 +1,1 @@
+TDAT: public void add writer ( int writer id ) throws sql exception {  <NL> if ( ! is writer ( writer id ) ) {  <NL> dbm . exec ( " insert into acl writers ( acl id , writer id ) " +  <NL>  " values ( ' " + get id ( ) + " ' , ' " + writer id + " ' ) " ) ;  <NL>  }  <NL>  }  COM: <s> adds the specified group or user to the write list </s>

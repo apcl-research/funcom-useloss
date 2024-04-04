@@ -1,0 +1,1 @@
+TDAT: public void set value ( object variable , object bind inf var , object value , object bind inf val ) {  <NL> if ( ( ( boolean ) bind inf var ) . boolean value ( ) )  <NL> vars of obj1 . put ( variable , value ) ;  <NL> else vars of obj2 . put ( variable , value ) ;  <NL>  }  COM: <s> associate the value val to the variable var in this binding context </s>

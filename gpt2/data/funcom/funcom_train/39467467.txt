@@ -1,0 +1,1 @@
+TDAT: public void show message dialog ( @ nullable final component parent component , @ not null final string key , final object . . . args ) {  <NL> j option pane . show message dialog ( parent component , format ( key + " . message " , args ) , format ( key + " . title " , args ) , get message type ( key ) ) ;  <NL>  }  COM: <s> show a localized message dialog </s>

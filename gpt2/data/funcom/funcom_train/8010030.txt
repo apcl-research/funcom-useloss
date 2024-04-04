@@ -1,0 +1,1 @@
+TDAT: public html submit image new submit image ( string button name , string display caption ) {  <NL> html submit image submit = new html submit image ( button name , display caption , 24 , _ theme , _ page ) ;  <NL> if ( _ sl ! = null )  <NL> submit . add submit listener ( _ sl ) ;  <NL> return submit ;  <NL>  }  COM: <s> this method creates a new submit image </s>

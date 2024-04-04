@@ -1,0 +1,1 @@
+TDAT: private void allpass _ res ( double freq , double qfact ) {  <NL> bandpass _ res ( freq , qfact ) ;  <NL> zertyp [ 0 ] = 2 ;  <NL> zertyp [ 1 ] = 0 ;  <NL> system . arraycopy ( pol , 0 , zer , 0 , 2 ) ;  <NL> cmulr ( zer , 0 , 1 . 0 / ( zer [ 0 ] * zer [ 0 ] + zer [ 1 ] * zer [ 1 ] ) ) ;  <NL>  }  COM: <s> setup poles zeros for an allpass resonator </s>

@@ -1,0 +1,1 @@
+TDAT: public coordinate id get related coordinate ( coordinate id c ) {  <NL> if ( c = = null )  <NL> return null ;  <NL> if ( c . get z ( ) ! = from level )  <NL> return null ;  <NL> return coordinate id . create ( c . get x ( ) * scale x + get x ( ) , c . get y ( ) * scale y + get y ( ) , get z ( ) ) ;  <NL>  }  COM: <s> translates a coordinate in </s>

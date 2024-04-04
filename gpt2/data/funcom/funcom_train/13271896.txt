@@ -1,0 +1,1 @@
+TDAT: public float get depth ( ) {  <NL> if ( this . fixed size ) {  <NL> return 18 . 6f ;  <NL>  } else {  <NL>  / / adult depth is equal to the 2 / 5 of its width <NL> float depth = get z ( ) * 8 / 70 ;  <NL> return math . min ( math . max ( depth , 8 ) , 25 ) ;  <NL>  }  <NL>  }  COM: <s> returns the depth of this observer camera according to </s>

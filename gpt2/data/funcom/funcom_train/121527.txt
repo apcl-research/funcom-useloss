@@ -1,0 +1,1 @@
+TDAT: protected void init ( string file , output stream out ) throws io exception {  <NL> filename = file ;  <NL> output = new print stream ( out ) ;  <NL> temp read = file . create temp file ( " file1 " , " . temp " ) ;  <NL> temp write = file . create temp file ( " file2 " , " . temp " ) ;  <NL>  }  COM: <s> prepares the object for use </s>

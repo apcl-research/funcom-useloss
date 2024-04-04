@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> return " eve message : \n " +  <NL>  " - - - - - - - - - - - \n " +  <NL>  " from : " + m _ from + " \n " +  <NL>  " to : " + m _ to + " \n " +  <NL>  " type : " + m _ type + " \n " +  <NL>  " data : " + m _ data + " \n\n " ;  <NL>  }  COM: <s> simple string representation of a message </s>

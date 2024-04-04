@@ -1,0 +1,1 @@
+TDAT: public void distribute random tiles ( )  <NL>  {  <NL> for ( int i = 0 ; i < nrow ; i + + )  <NL>  {  <NL> for ( int j = 0 ; j < ncol ; j + + )  <NL>  {  <NL> tile t = tile . new random tile ( i , j ) ;  <NL> set tile ( i , j , t ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> change all tiles with random shape and direction </s>

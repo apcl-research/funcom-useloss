@@ -1,0 +1,1 @@
+TDAT: private void run failure ( final object . . . args ) {  <NL> j unit utils . run failure ( jp factory impl , j unit utils . get running method name ( ) , jp config exception . class , new class [ ] {  <NL> class . class , class . class , object . class , string . class } , args ) ;  <NL>  }  COM: <s> run failure case </s>

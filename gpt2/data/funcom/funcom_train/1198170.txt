@@ -1,0 +1,1 @@
+TDAT: public int contains ( object name , object direction ) {  <NL> for ( int i = 0 ; i < get row count ( ) ; i + + ) {  <NL> if ( get value at ( i , 0 ) . equals ( name ) & & get value at ( i , 1 ) . equals ( direction ) ) {  <NL> return i ;  <NL>  }  <NL>  }  <NL> return - 1 ;  <NL>  }  COM: <s> returns wheter a specified user is listed in this model </s>

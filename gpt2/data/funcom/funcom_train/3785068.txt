@@ -1,0 +1,1 @@
+TDAT: public boolean set roi ( int r x1 , int r y1 , int r x2 , int r y2 )  <NL>  { / * set roi * /  <NL> roi x1 = r x1 ;  <NL> roi y1 = r y1 ;  <NL> roi x2 = r x2 ;  <NL> roi y2 = r y2 ;  <NL> if ( ! force roi upper and lower corners ( ) )  <NL> return ( false ) ;  <NL> return ( true ) ;  <NL>  } / * set roi * /  COM: <s> set roi set computing window region of interest roi </s>

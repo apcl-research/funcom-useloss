@@ -1,0 +1,1 @@
+TDAT: public string get count ( ) {  <NL> return ( hours < 10 ? " 0 " : " " ) + integer . to string ( hours ) + " : " + ( minutes < 10 ? " 0 " : " " ) + integer . to string ( minutes ) + " : " + ( seconds < 10 ? " 0 " : " " ) + integer . to string ( seconds ) ;  <NL>  }  COM: <s> get the representation string of the count in this format hh mm ss </s>

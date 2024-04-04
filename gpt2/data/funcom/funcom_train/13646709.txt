@@ -1,0 +1,1 @@
+TDAT: public class get column class ( int col ) {  <NL> return (  <NL> new class [ ] {  <NL> image icon . class ,  <NL> image icon . class ,  <NL> string . class ,  <NL> string . class ,  <NL> string . class ,  <NL> string . class ,  <NL> string . class ,  <NL> string . class ,  <NL> string . class <NL>  } [ col ] ) ;  <NL>  }  COM: <s> set how to display the grid elements </s>

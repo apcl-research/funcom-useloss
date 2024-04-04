@@ -1,0 +1,1 @@
+TDAT: public boolean is at spawn location ( ) {  <NL> return math util . get distance ( get spawn ( ) . get x ( ) , get spawn ( ) . get y ( ) , get spawn ( ) . get z ( ) ,  <NL> get x ( ) , get y ( ) , get z ( ) ) < 3 ;  <NL>  }  COM: <s> check whether npc located at initial spawn location </s>

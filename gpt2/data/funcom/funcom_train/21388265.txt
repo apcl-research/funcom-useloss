@@ -1,0 +1,1 @@
+TDAT: public void show array ( int [ ] a ) {  <NL> string output = " array values : \n " ;  <NL> for ( int i = 0 ; i < a . length ; i + + ) {  <NL> output = output + " " + a [ i ] ;  <NL> if ( ( i % 25 ) = = 24 ) output = output + " \n " ;  <NL>  }  <NL> system . out . println ( output ) ;  <NL>  }  COM: <s> show the values of an integer array </s>

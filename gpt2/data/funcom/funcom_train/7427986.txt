@@ -1,0 +1,1 @@
+TDAT: public void paint as greek ( final p paint context ppc ) {  <NL> final graphics2d g2 = ppc . get graphics ( ) ;  <NL>  <NL> if ( greek color ! = null ) {  <NL> g2 . set background ( greek color ) ;  <NL>  ( ( swt graphics2d ) g2 ) . fill rect ( 0 , 0 , get width ( ) , get height ( ) ) ;  <NL>  }  <NL>  }  COM: <s> paints this object as greek </s>

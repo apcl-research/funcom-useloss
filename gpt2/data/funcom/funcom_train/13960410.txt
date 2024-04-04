@@ -1,0 +1,1 @@
+TDAT: public object id for page configuration ( d2w context c ) {  <NL> string _ id for page configuration = ( c . dynamic page ( ) ! = null ) ? c . dynamic page ( ) : c . task ( ) + " _ " + c . entity ( ) . name ( ) ;  <NL> return erx string utilities . safe identifier name ( _ id for page configuration ) ;  <NL>  }  COM: <s> a dom id based on the page config </s>

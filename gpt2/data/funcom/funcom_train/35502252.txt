@@ -1,0 +1,1 @@
+TDAT: public string chord name ( ) {  <NL> string name = chord . get chord name ( ) ;  <NL> int inv = get inversion ( ) ;  <NL> if ( inv ! = 1 ) {  <NL> int note = chord . get root note ( ) + chord . get notes ( ) [ inv - 1 ] ;  <NL> name + = " / " + note . to string ( note ) ;  <NL>  }  <NL> return name ;  <NL>  }  COM: <s> gets full chord name with bass for example cmaj e </s>

@@ -1,0 +1,1 @@
+TDAT: public int find node ( string id ) {  <NL> object node = id node map . get ( id ) ;  <NL> if ( node = = null ) {  <NL> int n = graph . add vertex ( ) ;  <NL> node = new integer ( n ) ;  <NL> id node map . put ( id , node ) ;  <NL> return n ;  <NL>  }  <NL> return ( ( integer ) node ) . int value ( ) ;  <NL>  }  COM: <s> returns the node with the specified id </s>

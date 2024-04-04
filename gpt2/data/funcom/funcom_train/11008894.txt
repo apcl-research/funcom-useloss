@@ -1,0 +1,1 @@
+TDAT: public int get char set ( ) {  <NL> ct int property charset = _ ct font . size of charset array ( ) = = 0 ? null : _ ct font . get charset array ( 0 ) ;  <NL> int val = charset = = null ? font charset . ansi . get value ( ) : font charset . value of ( charset . get val ( ) ) . get value ( ) ;  <NL> return val ;  <NL>  }  COM: <s> get character set to use </s>

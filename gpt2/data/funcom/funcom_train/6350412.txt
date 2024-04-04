@@ -1,0 +1,1 @@
+TDAT: private int set combo styles ( style table do style table do , int style ) {  <NL> if ( style table do . is border ( ) = = true ) style | = swt . border ;  <NL> if ( style table do . is flat ( ) = = true ) style | = swt . flat ;  <NL> if ( style table do . is read only ( ) = = true ) style | = swt . read _ only ;  <NL> return style ;  <NL>  }  COM: <s> set combo styles </s>

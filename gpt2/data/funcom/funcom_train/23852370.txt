@@ -1,0 +1,1 @@
+TDAT: public void log ( int level , trace id trace id , string message , object [ ] args ) {  <NL> log ( class utils . get calling class ( caller _ depth ) , class utils . get calling line ( caller _ depth ) ,  <NL> level , trace id , message , args ) ;  <NL>  }  COM: <s> generic logger function </s>

@@ -1,0 +1,1 @@
+TDAT: public boolean add ( integer l ) {  <NL> int counter i = lock counts . get ( l ) ;  <NL> boolean ret ;  <NL> if ( i = = null ) {  <NL> i = new int counter ( 0 ) ;  <NL> lock counts . put ( l , i ) ;  <NL> ret = true ;  <NL>  } else {  <NL> ret = false ;  <NL>  }  <NL> i . inc ( ) ;  <NL> return ret ;  <NL>  }  COM: <s> adds 1 to the lock count of l </s>

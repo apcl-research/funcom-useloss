@@ -1,0 +1,1 @@
+TDAT: private j scroll pane get j scroll pane1 ( ) {  <NL> if ( j scroll pane1 = = null ) {  <NL> j scroll pane1 = new j scroll pane ( ) ;  <NL> j scroll pane1 . set bounds ( new rectangle ( 462 , 71 , 337 , 100 ) ) ;  <NL> j scroll pane1 . set viewport view ( get j list ( ) ) ;  <NL>  }  <NL> return j scroll pane1 ;  <NL>  }  COM: <s> this method initializes j scroll pane1 </s>

@@ -1,0 +1,1 @@
+TDAT: public route header get route header ( )  <NL>  { / / header h = get header ( sip headers . route ) ;  <NL>  / / if ( h = = null ) return null ; else return new route header ( h ) ;  <NL> multiple header mh = get routes ( ) ;  <NL> if ( mh = = null ) return null ; return new route header ( mh . get top ( ) ) ;  <NL>  }  COM: <s> gets the top route header </s>

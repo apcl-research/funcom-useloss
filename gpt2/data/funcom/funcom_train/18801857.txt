@@ -1,0 +1,1 @@
+TDAT: public void set component ( object component , string key , component bean ) {  <NL> object [ ] definition = get definition ( get class ( component ) , key , " bean " ) ;  <NL> if ( set ( component , definition [ 1 ] , bean ) ) {  <NL> update ( component , definition [ 2 ] ) ;  <NL>  }  <NL>  }  COM: <s> set the awt component for the given currently i bean i widget </s>

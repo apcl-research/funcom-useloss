@@ -1,0 +1,1 @@
+TDAT: public void clear ( ) {  <NL> final long [ ] the bits = this . bits ;  <NL> for ( int i = the bits . length ; - - i > = 0 ; )  <NL> the bits [ i ] = 0l ;  <NL>  <NL>  / / new long array list ( bits ) . fill from to with ( 0 , size ( ) - 1 , 0l ) ;  <NL>  }  COM: <s> clears all bits of the receiver </s>

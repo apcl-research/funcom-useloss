@@ -1,0 +1,1 @@
+TDAT: private void exit form ( ) {  <NL> try {  <NL> if ( capture file ! = null ) {  <NL> capture file . flush ( ) ;  <NL> capture file . close ( ) ;  <NL>  }  <NL> if ( con ! = null ) { con . close ( ) ; }  <NL>  } catch ( exception e ) {  <NL> e . print stack trace ( system . err ) ;  <NL>  }  <NL> system . exit ( 0 ) ;  <NL>  }  COM: <s> exit the application </s>

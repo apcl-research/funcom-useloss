@@ -1,0 +1,1 @@
+TDAT: private void check config valid ( string key , object item , int int value , string name ) throws job action exception {  <NL> if ( ( item = = null ) || ( int value < 0 ) ) {  <NL> throw new job action exception ( name + " field of " + key + " is missing in the config file . " ) ;  <NL>  }  <NL>  }  COM: <s> check if item is null </s>

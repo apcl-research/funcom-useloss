@@ -1,0 +1,1 @@
+TDAT: public zk element get ( final int row , final int column ) {  <NL> final web element row el = get rows ( ) . get ( row - 1 ) ;  <NL> return new zk element ( this , row el . find elements ( by . class name ( " z - row - inner " ) ) . get ( column - 1 ) ) ;  <NL>  }  COM: <s> returns web element of grid on this position </s>

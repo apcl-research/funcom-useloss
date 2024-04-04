@@ -1,0 +1,1 @@
+TDAT: public void set body ( string body content ) throws io exception {  <NL> string chunk id = " 1000 " ;  <NL> remove entry ( chunk id , i message . pt _ string8 ) ;  <NL> this . create document ( " _ _ substg1 . 0 _ " + chunk id , i node . pt _ string8 , i node . create pt string ( body content ) ) ;  <NL>  }  COM: <s> sets the body content of the msg file </s>

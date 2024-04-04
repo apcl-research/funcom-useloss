@@ -1,0 +1,1 @@
+TDAT: public void draw ( graphics g , int x1 , int y1 , int x2 , int y2 ) {  <NL>  / / tbd : reuse the polygon object <NL> polygon p = outline ( x1 , y1 , x2 , y2 ) ;  <NL> g . fill polygon ( p . xpoints , p . ypoints , p . npoints ) ;  <NL>  }  COM: <s> draws the arrow tip in the direction specified by the given two </s>

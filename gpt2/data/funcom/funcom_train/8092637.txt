@@ -1,0 +1,1 @@
+TDAT: protected double compute gini ( double [ ] dist , double total ) {  <NL> if ( total = = 0 ) return 0 ;  <NL> double val = 0 ;  <NL> for ( int i = 0 ; i < dist . length ; i + + ) {  <NL> val + = ( dist [ i ] / total ) * ( dist [ i ] / total ) ;  <NL>  }  <NL> return 1 - val ;  <NL>  }  COM: <s> compute and return gini index for a given distribution of a node </s>

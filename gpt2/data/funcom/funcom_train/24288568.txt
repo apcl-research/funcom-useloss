@@ -1,0 +1,1 @@
+TDAT: public object get ( string key ) throws json exception {  <NL> object o = opt ( key ) ;  <NL> if ( o = = null ) {  <NL> throw new json exception ( " json object [ " + quote ( key ) + / / $ non - nls - 1 $  <NL>  " ] not found . " ) ; / / $ non - nls - 1 $  <NL>  }  <NL> return o ;  <NL>  }  COM: <s> get the value object associated with a key </s>

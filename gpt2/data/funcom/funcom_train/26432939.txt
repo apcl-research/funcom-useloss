@@ -1,0 +1,1 @@
+TDAT: private int get app index ( int aid , int oid ) {  <NL>  <NL> int ret = - 1 ;  <NL> for ( int i = 0 ; ( i < startable _ applications ) & & ( ret < 0 ) ; i + + ) {  <NL>  <NL> if ( is same ( this . application ids [ i ] , aid , oid ) )  <NL> ret = i ;  <NL>  }  <NL>  <NL> return ret ;  <NL>  }  COM: <s> returns the index of the launched application that has the give </s>

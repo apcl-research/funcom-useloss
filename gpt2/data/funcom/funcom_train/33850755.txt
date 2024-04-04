@@ -1,0 +1,1 @@
+TDAT: public void clear stack ( ) {  <NL> if ( ! is valid ( ) )  <NL> throw new illegal state exception ( " accessing top or bottom frame " ) ;  <NL> assert slot list . size ( ) > = num locals ;  <NL> if ( slot list . size ( ) > num locals )  <NL> slot list . sub list ( num locals , slot list . size ( ) ) . clear ( ) ;  <NL>  }  COM: <s> clear the java operand stack </s>

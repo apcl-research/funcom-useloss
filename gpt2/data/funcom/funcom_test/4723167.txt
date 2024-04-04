@@ -1,0 +1,1 @@
+TDAT: public void set pixels ( int x , int y , int w , int h , color model model , int [ ] pixels , int offset , int scansize ) {  <NL> image . set rgb ( x , y , w , h , pixels , offset , scansize ) ;  <NL>  }  COM: <s> notification of a bunch of pixel values as ints </s>

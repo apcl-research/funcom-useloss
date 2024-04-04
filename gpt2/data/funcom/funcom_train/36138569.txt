@@ -1,0 +1,1 @@
+TDAT: protected void print text ( t object ) {  <NL> properties properties = get properties ( object , " name " , " label " , " text " ) ;  <NL> for ( entry < object , object > entry : properties . entry set ( ) ) {  <NL> printf ( " % s : { % s } " , entry . get key ( ) , entry . get value ( ) ) ;  <NL>  }  <NL>  }  COM: <s> writes generic name label and text </s>

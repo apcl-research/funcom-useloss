@@ -1,0 +1,1 @@
+TDAT: public void test different ( ) {  <NL> for ( int i = 0 ; i < ( types . length - 1 ) ; i + + ) {  <NL> for ( int j = i + 1 ; j < types . length ; j + + )  <NL> if ( types [ i ] . equals ( types [ j ] ) )  <NL> fail ( " relation notifications types not unique " ) ;  <NL>  }  <NL>  }  COM: <s> make sure all the constants are different </s>

@@ -1,0 +1,1 @@
+TDAT: public void test active count _ new threads ( ) {  <NL> thread group group = new thread group ( " new " ) ;  <NL> new thread ( group , " t1 " ) ;  <NL> new thread ( group , " t2 " ) ;  <NL> new thread ( group , " t3 " ) ;  <NL> assert equals ( 0 , group . active count ( ) ) ;  <NL>  }  COM: <s> active count in a thread group with a few new threads </s>

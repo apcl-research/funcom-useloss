@@ -1,0 +1,1 @@
+TDAT: public void read ( jme importer e ) throws io exception {  <NL> input capsule capsule = e . get capsule ( this ) ;  <NL> origin = ( vector3f ) capsule . read savable ( " origin " , vector3f . zero . clone ( ) ) ;  <NL> direction = ( vector3f ) capsule . read savable ( " direction " , vector3f . zero . clone ( ) ) ;  <NL>  }  COM: <s> support for jme importing </s>

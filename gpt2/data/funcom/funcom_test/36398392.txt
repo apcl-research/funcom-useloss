@@ -1,0 +1,1 @@
+TDAT: public int get int16 ( ) throws eof exception {  <NL> if ( position < = length - 2 ) {  <NL> byte [ ] b = byte buffer ;  <NL>  <NL> return ( ( b [ position + + ] & 0xff ) < < 8 ) | ( b [ position + + ] & 0xff ) ;  <NL>  }  <NL>  <NL> throw new eof exception ( " end of file in get int16 ( ) " ) ;  <NL>  }  COM: <s> return two bytes from the buffer as an integer </s>

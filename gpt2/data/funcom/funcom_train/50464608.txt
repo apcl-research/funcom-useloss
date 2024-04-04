@@ -1,0 +1,1 @@
+TDAT: public object call static ( class cls , string method name , int value ) throws reflect exception , invocation target exception {  <NL> class [ ] types = new class [ ] { integer . type } ;  <NL> return call ( cls , null , method name , new object [ ] { new integer ( value ) } , types ) ;  <NL>  }  COM: <s> call a static method on a class with a single int argument </s>

@@ -1,0 +1,1 @@
+TDAT: public void test equals _ default ( ) {  <NL> variable x = new variable ( " n " , " x " ) ;  <NL> variable y = new variable ( " n " , " x " ) ;  <NL> variable z = new variable ( " n " , " y " ) ;  <NL> test utils . satisfy equals contract ( x , y , z ) ;  <NL>  }  COM: <s> test the code equals code method for variables with a default value </s>

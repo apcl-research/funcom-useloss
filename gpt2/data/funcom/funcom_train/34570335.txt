@@ -1,0 +1,1 @@
+TDAT: public string dump ( ) {  <NL> return " ds : " + ds name + " : " + ds type + " : " + heartbeat +  <NL>  " : " + util . format double ( min value , " u " , false ) +  <NL>  " : " + util . format double ( max value , " u " , false ) ;  <NL>  }  COM: <s> returns string representing source definition rrdtool format </s>

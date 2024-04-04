@@ -1,0 +1,1 @@
+TDAT: public abstract short list times ( int times ) {  <NL> abstract short list new list = new short array list ( times * size ( ) ) ;  <NL> for ( int i = times ; - - i > = 0 ; ) {  <NL> new list . add all of from to ( this , 0 , size ( ) - 1 ) ;  <NL>  }  <NL> return new list ;  <NL>  }  COM: <s> returns a list which is a concatenation of code times code times the </s>

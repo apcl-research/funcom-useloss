@@ -1,0 +1,1 @@
+TDAT: public void add ( int bits , int count ) {  <NL> nbb + = count ;  <NL> if ( nbb > 32 ) {  <NL> int extra = nbb - 32 ;  <NL> bb | = ( bits > > extra ) ;  <NL> store bits ( ) ;  <NL> bb = bits < < ( 32 - extra ) ;  <NL> nbb = extra ;  <NL>  } else {  <NL> bb | = bits < < ( 32 - nbb ) ;  <NL>  }  <NL>  }  COM: <s> writes the least significant count bits from bits </s>

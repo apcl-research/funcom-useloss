@@ -1,0 +1,1 @@
+TDAT: public rec info find ( string name ) {  <NL>  <NL> for ( int i = 0 ; i < rec list . size ( ) ; i + + )  <NL> if ( ( ( rec info ) rec list . element at ( i ) ) . get name ( ) . equals ( name ) )  <NL> return ( rec info ) rec list . element at ( i ) ;  <NL> return null ;  <NL>  }  COM: <s> find searches in the local cache for the record information </s>

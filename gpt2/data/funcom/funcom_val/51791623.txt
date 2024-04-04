@@ -1,0 +1,1 @@
+TDAT: public int load line ( assembly line line ) {  <NL> int i ;  <NL> if ( line ! = null ) {  <NL>  / / loop through every item on the line <NL> for ( i = 0 ; i < line . get ins line length ( ) ; i + + ) {  <NL> memory . put ( address + + , line . get item ( i ) ) ;  <NL>  }  <NL>  }  <NL> return address ;  <NL>  }  COM: <s> loads an assembly line into the memory </s>

@@ -1,0 +1,1 @@
+TDAT: public context push dep type ( polyglot . types . ref < ? extends polyglot . types . type > ref ) {  <NL> if ( reporter . should _ report ( topics , 4 ) )  <NL> reporter . report ( 4 , " push dep type " ) ;  <NL> context v = push block ( ) ;  <NL> v . dep type = ref ;  <NL> v . in code = false ;  <NL> return v ;  <NL>  }  COM: <s> pushes on a deptype </s>

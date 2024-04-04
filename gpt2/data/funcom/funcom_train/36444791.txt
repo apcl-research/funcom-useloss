@@ -1,0 +1,1 @@
+TDAT: public string stop record ( ) {  <NL> stream . stop ( ) ; / / . stop recording ( ) ; / / 停止记录 <NL> stream . close ( ) ; / / 关闭stream <NL>  / / system . out . println ( " byte recieved : " + stream . get bytes received ( ) ) ;  <NL> system . out . println ( " recording stopped ! " ) ;  <NL> return " server stop recording ! " ;  <NL>  }  COM: <s> stop the recording </s>

@@ -1,0 +1,1 @@
+TDAT: public int create new row ( ) {  <NL> add ( " " , 0 . 0 , 0 . 0 , 0 . 0 ) ;  <NL> int r = add row ( get new row ( ) ) ;  <NL> fire event ( new table model event ( this , r , r , table model event . all _ columns , table model event . insert ) ) ;  <NL> return r ;  <NL>  }  COM: <s> create a new blank row </s>

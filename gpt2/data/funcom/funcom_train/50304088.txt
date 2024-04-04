@@ -1,0 +1,1 @@
+TDAT: public cms task create project ( string projectname , int project type , string role name , long timeout , int priority ) throws cms exception {  <NL> return m _ rb . create project ( m _ context . current user ( ) , projectname , project type , role name , timeout , priority ) ;  <NL>  }  COM: <s> creates a new project for task handling </s>

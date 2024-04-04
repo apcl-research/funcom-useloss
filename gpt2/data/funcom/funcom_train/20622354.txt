@@ -1,0 +1,1 @@
+TDAT: public void action performed ( action event e ) {  <NL> final object source = e . get source ( ) ;  <NL> get status bar ( ) . clear status ( ) ;  <NL> if ( source = = get undo btn ( ) ) {  <NL> model . undo edit ( ) ;  <NL>  }  <NL> else if ( source = = get redo btn ( ) ) {  <NL> model . redo edit ( ) ;  <NL>  }  <NL>  }  COM: <s> invoked when an action occurs </s>

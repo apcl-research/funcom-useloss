@@ -1,0 +1,1 @@
+TDAT: public void fire login processed ( user user , boolean logged in ) {  <NL> for ( int i = 0 ; i < log list . size ( ) ; i + + ) {  <NL> login listener l = ( login listener ) log list . get ( i ) ;  <NL> if ( l ! = null ) {  <NL> l . login processed ( user , logged in ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> fires an event that user has not logged in </s>

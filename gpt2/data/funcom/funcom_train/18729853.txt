@@ -1,0 +1,1 @@
+TDAT: public void remove ( constructor c ) {  <NL> if ( container ) {  <NL> if ( c . get id ( ) ! = null & & c ! = project . get instance ( ) . get active coordinate system ( ) ) {  <NL> constructors . remove ( c . get id ( ) ) ;  <NL> c . set id ( null ) ;  <NL> c . set owner ( null ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> remove a constructor </s>

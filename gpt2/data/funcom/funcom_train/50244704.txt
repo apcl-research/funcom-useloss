@@ -1,0 +1,1 @@
+TDAT: public void set location ( int x , int y ) {  <NL> this . set location delta (  <NL>  ( int ) ( x - drawpath . get bounds2d ( ) . get center x ( ) ) ,  <NL>  ( int ) ( y - drawpath . get bounds2d ( ) . get center y ( ) ) ) ;  <NL>  / / this . set inet geo address ( x , y ) ;  <NL>  }  COM: <s> moves the location of the visual vertex to the new coordinate </s>

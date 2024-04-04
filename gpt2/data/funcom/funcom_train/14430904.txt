@@ -1,0 +1,1 @@
+TDAT: protected void event ( int p event type , suite def p suite def , test case def p test case def , test def p test def ) {  <NL> super . set changed ( ) ;  <NL> super . notify observers ( new test event ( p event type , p suite def , p test case def , p test def ) ) ;  <NL>  }  COM: <s> notify the observers of a test level event </s>

@@ -1,0 +1,1 @@
+TDAT: public void register ( string public id , string entity url ) {  <NL> string key = public id ;  <NL> if ( public id . index of ( schema extension ) ! = - 1 )  <NL> key = public id . substring ( public id . last index of ( ' / ' ) + 1 ) ;  <NL> entity validator . put ( key , entity url ) ;  <NL>  }  COM: <s> register the specified dtd schema url for the specified public </s>

@@ -1,0 +1,1 @@
+TDAT: public vector2f add ( vector2f vec ) {  <NL> if ( null = = vec ) {  <NL> logging system . get logger ( ) . log ( level . warning ,  <NL>  " provided vector is " + " null , null returned . " ) ;  <NL> return null ;  <NL>  }  <NL> return new vector2f ( x + vec . x , y + vec . y ) ;  <NL>  }  COM: <s> code add code adds a provided vector to this vector creating a </s>

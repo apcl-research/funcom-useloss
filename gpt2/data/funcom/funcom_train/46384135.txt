@@ -1,0 +1,1 @@
+TDAT: public void undeploy ( string type , module module , module part part ) {  <NL> for ( file war : get web apps ( part . get file ( ) , get file suffixes ( ) ) ) {  <NL> deploy record record = new deploy record ( module . get name ( ) , war . get name ( ) ) ;  <NL> undeploy ( record ) ;  <NL>  }  <NL>  }  COM: <s> undeploy a web app </s>

@@ -1,0 +1,1 @@
+TDAT: private void check equal ( string l1 , int i1 , string l2 , int i2 ) throws exception {  <NL> if ( i1 ! = i2 )  <NL> throw new exception ( l1 + " warn count , " + i1 + " , does not match "  <NL>  + l2 + " warn count , " + i2 ) ;  <NL>  }  COM: <s> private method should not cause a warning </s>

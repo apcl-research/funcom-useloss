@@ -1,0 +1,1 @@
+TDAT: public void set max ( double max ) {  <NL> if ( x owner . get accepted reduc type ( ) ! = accept _ reduc _ full ) return ;  <NL> if ( max = = - 1 || max > = 0 ) {  <NL> if ( max ! = x max ) {  <NL> x max = max ;  <NL> if ( max ! = - 1 & & x max < x min ) x min = x max ;  <NL> fire data change ( ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> set the maximum value </s>

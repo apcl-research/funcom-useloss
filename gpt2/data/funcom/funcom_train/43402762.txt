@@ -1,0 +1,1 @@
+TDAT: public void set sub matrix ( int row , int col , q matrix m ) {  <NL> for ( int r = 0 ; r < m . rows ; r + + ) {  <NL> system . arraycopy ( m . coefficients [ r ] , 0 , coefficients [ row + r ] , col , m . columns ) ;  <NL>  }  <NL>  }  COM: <s> sets the submatrix starting at code row code code col code </s>

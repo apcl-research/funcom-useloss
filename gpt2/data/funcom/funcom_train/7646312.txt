@@ -1,0 +1,1 @@
+TDAT: public void schedule ( timer task task , date when ) {  <NL> if ( when . get time ( ) < 0 ) {  <NL> throw new illegal argument exception ( ) ;  <NL>  }  <NL> long delay = when . get time ( ) - system . current time millis ( ) ;  <NL> schedule impl ( task , delay < 0 ? 0 : delay , - 1 , false ) ;  <NL>  }  COM: <s> schedule a task for single execution </s>

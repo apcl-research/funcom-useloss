@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> return " errorhandler { " +  <NL>  " prompt = " + prompt +  <NL>  " , email = " + email +  <NL>  " , command = " + command +  <NL>  " , arg = " + arg +  <NL>  " , quiet = " + quiet +  <NL>  " , error property = " + error property +  <NL>  " } " ;  <NL>  }  COM: <s> returns useful info for debugging </s>

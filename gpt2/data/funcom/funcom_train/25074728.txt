@@ -1,0 +1,1 @@
+TDAT: private menu item add internal ( int item id , int order , char sequence title ) {  <NL> final simple menu item item = new simple menu item ( this , item id , order , title ) ;  <NL> m items . add ( find insert index ( m items , order ) , item ) ;  <NL> return item ;  <NL>  }  COM: <s> adds an item to the menu </s>

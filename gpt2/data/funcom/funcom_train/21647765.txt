@@ -1,0 +1,1 @@
+TDAT: public void set dialog ( int i , widget widget ) {  <NL> int col = i % col count ;  <NL> int row = i / col count * 2 + 1 ;  <NL> set widget ( row , col , widget ) ;  <NL> get cell formatter ( ) . set style name ( row , col , " cells " ) ;  <NL>  }  COM: <s> replaces editor dialog with i index </s>

@@ -1,0 +1,1 @@
+TDAT: public void run ( ) {  <NL> int c ;  <NL> try {  <NL> while ( ( c = m _ in . read ( ) ) > 0 ) {  <NL> m _ out . write ( c ) ;  <NL>  }  <NL> m _ out . flush ( ) ;  <NL> m _ out . close ( ) ;  <NL>  } catch ( io exception e ) {  <NL> e . print stack trace ( ) ;  <NL>  }  <NL>  }  COM: <s> when an object implementing interface code runnable code is used </s>

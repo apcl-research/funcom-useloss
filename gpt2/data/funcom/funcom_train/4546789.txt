@@ -1,0 +1,1 @@
+TDAT: public void add entry ( int num , long duration , long media time , int media rate ) {  <NL> set num entries ( num ) ;  <NL> set duration ( num - 1 , duration ) ;  <NL> set media time ( num - 1 , media time ) ;  <NL> set media rate ( num - 1 , media rate ) ;  <NL>  }  COM: <s> add an entry to the edit list </s>

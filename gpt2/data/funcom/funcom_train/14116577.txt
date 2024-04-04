@@ -1,0 +1,1 @@
+TDAT: private string get stat scm version ( ) {  <NL> string version text = get message ( " statscm . version " ) ;  <NL> if ( version text = = null ) {  <NL> return " " ;  <NL>  } else if ( version text . equals ( " $ { pom . version } " ) ) {  <NL> return " " ;  <NL>  }  <NL>  <NL> return " ( " + version text + " ) " ;  <NL>  }  COM: <s> get the version of stat scm </s>

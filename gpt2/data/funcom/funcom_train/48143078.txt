@@ -1,0 +1,1 @@
+TDAT: public double matrix map elements ( final mapping f ) {  <NL> final double array [ ] = new double [ num rows ] ;  <NL> array [ 0 ] = f . map ( diag [ 0 ] ) ;  <NL> for ( int i = 1 ; i < num rows ; i + + )  <NL> array [ i ] = f . map ( diag [ i ] ) ;  <NL> return new double diagonal matrix ( array ) ;  <NL>  }  COM: <s> applies a function on all the matrix elements </s>

@@ -1,0 +1,1 @@
+TDAT: public void set element ( int i , int j , double value ) {  <NL> if ( i ! = j ) {  <NL> throw new array index out of bounds exception ( " cannot separately set "  <NL>  + " elements out of diagonal "  <NL>  + " in a symetrical matrix " ) ;  <NL>  }  <NL> super . set element ( i , j , value ) ;  <NL>  }  COM: <s> set a matrix element </s>

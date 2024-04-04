@@ -1,0 +1,1 @@
+TDAT: public void set icon ( string name , named icon icon ) {  <NL> if ( log . is debug enabled ( ) ) log . debug ( " \ " " + get name ( ) + " \ " set icon \ " " + name + " \ " icon = " + icon ) ;  <NL>  _ icon map . put ( name , icon ) ;  <NL>  }  COM: <s> place icon by its bean state name </s>

@@ -1,0 +1,1 @@
+TDAT: public void print cells ( ) {  <NL> for ( cell entry entry : this . entries ) {  <NL> cell cell = entry . get cell ( ) ;  <NL> system . out . format ( " ( % s , % s ) % s % n " , cell . get row ( ) , cell . get col ( ) , cell . get value ( ) ) ;  <NL>  }  <NL>  }  COM: <s> debugging method that prints out the contents of the entire spreadsheet </s>

@@ -1,0 +1,1 @@
+TDAT: private boolean bike is on ( ) {  <NL> boolean status = true ;  <NL> for ( int i = 0 ; i < number of sample sections ; i + + ) {  <NL> status = status <NL>  & & ( sections . get ( i + 2 ) . size ( ) = = sections . get (  <NL> i + 2 + number of sample sections ) . size ( ) ) ;  <NL>  }  <NL> return status ;  <NL>  }  COM: <s> checks if bike function is on </s>

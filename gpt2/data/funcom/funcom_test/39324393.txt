@@ -1,0 +1,1 @@
+TDAT: protected void set environment ( ) {  <NL> os . get instance ( ) . set var val ( " dissi $ dir " ,  <NL>  " $ . volumes . personal . acorn . programming . arm . utilities . ! dissi " , 0 ) ;  <NL> os ext . get instance ( ) . write env ( " ! run image " , new date ( ) ) ;  <NL>  }  COM: <s> write the programs environment here </s>

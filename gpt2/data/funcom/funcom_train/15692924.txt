@@ -1,0 +1,1 @@
+TDAT: public float get unreal ( int n1 , int n2 , int n3 , int n4 ) {  <NL> int intpart = get int ( n1 , n2 , 0 , 0 ) ;  <NL> int fracpart = get int ( 0 , 0 , n3 , n4 ) ;  <NL> float u = intpart + ( ( float ) fracpart ) / ( ( float ) 65536 ) ;  <NL> return u ;  <NL>  }  COM: <s> returns an unreal with code n1 code as the least significant bit </s>

@@ -1,0 +1,1 @@
+TDAT: public kuid xor ( kuid node id ) {  <NL> byte [ ] result = new byte [ id . length ] ;  <NL> for ( int i = 0 ; i < result . length ; i + + ) {  <NL> result [ i ] = ( byte ) ( id [ i ] ^ node id . id [ i ] ) ;  <NL>  }  <NL>  <NL> return new kuid ( result ) ;  <NL>  }  COM: <s> returns the xor distance between the current and given kuid </s>

@@ -1,0 +1,1 @@
+TDAT: public void set new composite item ( string name , string lang , string data type , string script , map < string , string > element alias2id ) {  <NL> composite item diff panel . set new composite item ( name , lang , data type , script , element alias2id ) ;  <NL>  }  COM: <s> sets the information for the new composite item </s>

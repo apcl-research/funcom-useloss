@@ -1,0 +1,1 @@
+TDAT: protected void append primary key constraint ( jdbc table t , char buf s ) {  <NL> s . append ( " constraint " ) ;  <NL> s . append ( t . pk constraint name ) ;  <NL> s . append ( " primary key ( " ) ;  <NL> append column name list ( t . pk , s ) ;  <NL> s . append ( ' ) ' ) ;  <NL>  }  COM: <s> add the primary key constraint part of a create table statement to s </s>

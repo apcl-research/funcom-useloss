@@ -1,0 +1,1 @@
+TDAT: protected string to conditional int string ( double d ) {  <NL> object [ ] obs = { new double ( d ) } ;  <NL> if ( d < 10 . 0 )  <NL> return message format . format ( " { 0 , number , 0 . # } " , obs ) ;  <NL> else <NL> return message format . format ( " { 0 , number , # # 0 } " , obs ) ;  <NL>  <NL>  }  COM: <s> conditionally converts a double into a formatted string </s>

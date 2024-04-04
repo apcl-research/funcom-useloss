@@ -1,0 +1,1 @@
+TDAT: public void set value at ( object a value , int a row index , int a column index ) {  <NL> precondition . argument equals ( " a row index " , value _ column , a column index ) ;  <NL> string key = key ( a row index ) ;  <NL>  <NL> preferences . put ( key , ( string ) a value ) ;  <NL>  }  COM: <s> changes the value of a preference </s>

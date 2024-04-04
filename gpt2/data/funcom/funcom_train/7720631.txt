@@ -1,0 +1,1 @@
+TDAT: public void do netbook setup ( ) {  <NL> editor editor = ( editor ) get jpe ( ) . get editor ( ) ;  <NL> editor . set window size ( 640 , 480 ) ;  <NL> get jpe ( ) . say ( " switched to netbook setup " ) ;  <NL> get jpe ( ) . put property ( " setup " , " machine " , " netbook " ) ;  <NL>  }  COM: <s> switch to netbook setup </s>

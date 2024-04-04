@@ -1,0 +1,1 @@
+TDAT: public void add timeout ( test test , remote execution interrupted exception ex ) {  <NL> errors . add ( new test failure ( test , ex , test failure . type . timeout ) ) ;  <NL> for ( test listener listener : clone listeners ( ) ) {  <NL> listener . add timeout ( test , this , ex ) ;  <NL>  }  <NL>  }  COM: <s> adds a timeout to the list of errors </s>

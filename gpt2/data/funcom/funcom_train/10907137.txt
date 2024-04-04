@@ -1,0 +1,1 @@
+TDAT: public void add annotation ( pdf object annot ) {  <NL> pdf annot list annot list = get annotations ( ) ;  <NL> if ( annot list = = null ) {  <NL> annot list = get document ( ) . get factory ( ) . make annot list ( ) ;  <NL> put ( " annots " , annot list ) ;  <NL>  }  <NL> annot list . add annot ( annot ) ;  <NL>  }  COM: <s> set this pages annotation list </s>

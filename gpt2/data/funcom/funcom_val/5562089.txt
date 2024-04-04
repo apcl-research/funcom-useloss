@@ -1,0 +1,1 @@
+TDAT: public game piece find piece ( point pt , piece finder finder ) {  <NL> game piece [ ] stack = pieces . get pieces ( ) ;  <NL> for ( int i = stack . length - 1 ; i > = 0 ; - - i ) {  <NL> game piece p = finder . select ( this , stack [ i ] , pt ) ;  <NL> if ( p ! = null ) {  <NL> return p ;  <NL>  }  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> use the provided </s>

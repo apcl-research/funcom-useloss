@@ -1,0 +1,1 @@
+TDAT: private string zero pad product id ( string product id ) {  <NL> string buffer sb = new string buffer ( ) ;  <NL> for ( int i = ( 3 - product id . length ( ) ) ; i > 0 ; i - - ) {  <NL> sb . append ( " 0 " ) ;  <NL>  }  <NL> sb . append ( product id ) ;  <NL> return sb . to string ( ) ;  <NL>  }  COM: <s> returns a 3 length string zero padded product id e </s>

@@ -1,0 +1,1 @@
+TDAT: public void move ( int x , int y ) {  <NL> if ( in shape change ) {  <NL> super . move ( x , y ) ;  <NL>  } else {  <NL> in shape change = true ;  <NL> absolute x = x ;  <NL> absolute y = y ;  <NL> super . move ( scale integer ( x ) , scale integer ( y ) ) ;  <NL> in shape change = false ;  <NL>  }  <NL>  }  COM: <s> invokes old version of set location </s>

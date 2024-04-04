@@ -1,0 +1,1 @@
+TDAT: public t next ( ) {  <NL> int c ;  <NL> list < t > l ;  <NL>  <NL> c = + + this . m _ index ;  <NL> l = this . m _ list ;  <NL> if ( c > = l . size ( ) ) {  <NL> throw new no such element exception ( ) ;  <NL>  }  <NL>  / / this . m _ index = ( c + 1 ) ;  <NL> return l . get ( c ) ;  <NL>  }  COM: <s> returns the next element in the list </s>

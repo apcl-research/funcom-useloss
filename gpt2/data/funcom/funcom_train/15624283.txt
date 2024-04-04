@@ -1,0 +1,1 @@
+TDAT: public void invalidate line range ( final int first line , final int last line ) {  <NL> repaint ( 0 , text area . line to y ( first line ) + font metrics . get max descent ( ) + font metrics . get leading ( ) , get width ( ) , ( last line - first line + 1 ) * font metrics . get height ( ) ) ;  <NL>  }  COM: <s> marks a range of lines as needing a repaint </s>

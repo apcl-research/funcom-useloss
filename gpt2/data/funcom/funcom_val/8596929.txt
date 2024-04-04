@@ -1,0 +1,1 @@
+TDAT: class compare node implements comparator {  <NL> public int compare ( object o1 , object o2 ) {  <NL> if ( ( ( lmt node ) o1 ) . m _ alpha < ( ( lmt node ) o2 ) . m _ alpha ) return - 1 ;  <NL> if ( ( ( lmt node ) o1 ) . m _ alpha > ( ( lmt node ) o2 ) . m _ alpha ) return 1 ;  <NL> return 0 ;  <NL>  }  <NL>  }  COM: <s> auxiliary class for list of lmtnodes </s>

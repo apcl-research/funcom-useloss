@@ -1,0 +1,1 @@
+TDAT: public void skip ( long n ) throws io exception {  <NL>  / / logger . log ( " bit input stream . skip ( " + n + " ) : act byte = " + act byte , log _ debug ) ;  <NL> int byte increment = increment bit pos ( n ) ;  <NL> if ( byte increment ! = 0 ) {  <NL> in . skip ( byte increment - 1 ) ;  <NL> act byte = in . read ( ) ;  <NL>  }  <NL>  }  COM: <s> skips n bits </s>

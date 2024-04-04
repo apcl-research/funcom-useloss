@@ -1,0 +1,1 @@
+TDAT: public html text edit new string edit ( string table , string column , boolean primary key , int size , int length ) {  <NL> return new edit column ( table , column , primary key , size , length , data store . datatype _ string , null ) ;  <NL>  }  COM: <s> this method creates a new string edit column </s>

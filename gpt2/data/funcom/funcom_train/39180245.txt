@@ -1,0 +1,1 @@
+TDAT: public void set main color ( final int square number ) {  <NL> if ( square number > 0 & & square number < wheel _ size ) {  <NL> set main color ( colors [ square number ] . get red ( ) , colors [ square number ]  <NL>  . get green ( ) , colors [ square number ] . get blue ( ) ) ;  <NL>  }  <NL>  }  COM: <s> set the main color with a color on the wheel </s>

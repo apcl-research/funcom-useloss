@@ -1,0 +1,1 @@
+TDAT: public bug make new bug ( final float x , final float y ) {  <NL> int lat = geo math . y to lat e7 ( map . get height ( ) , view box , y ) ;  <NL> int lon = geo math . x to lon e7 ( map . get width ( ) , view box , x ) ;  <NL> return new bug ( lat , lon ) ;  <NL>  }  COM: <s> make a new bug at the given screen x y coordinates </s>

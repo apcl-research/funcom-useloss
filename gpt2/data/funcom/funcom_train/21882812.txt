@@ -1,0 +1,1 @@
+TDAT: public void list selection ( final object list , final object item , final object add ) {  <NL> parent . set boolean ( add , " enabled " , parent . get selected index ( list ) ! = - 1 ) ;  <NL> selected = ( obj bean ) parent . get property ( item , " objbean " ) ;  <NL> selected . set item ( item ) ;  <NL>  }  COM: <s> callback when list selection occurs </s>

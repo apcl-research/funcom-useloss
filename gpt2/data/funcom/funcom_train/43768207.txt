@@ -1,0 +1,1 @@
+TDAT: private boolean present ( t x ) {  <NL> int h0 = hash0 ( x ) % capacity ;  <NL> if ( table [ 0 ] [ h0 ] . contains ( x ) ) {  <NL> return true ;  <NL>  } else {  <NL> int h1 = hash1 ( x ) % capacity ;  <NL> if ( table [ 1 ] [ h1 ] . contains ( x ) ) {  <NL> return true ;  <NL>  }  <NL>  }  <NL> return false ;  <NL>  }  COM: <s> unsynchronized version of contains </s>

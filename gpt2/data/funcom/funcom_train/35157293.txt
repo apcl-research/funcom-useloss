@@ -1,0 +1,1 @@
+TDAT: public void render bounds of object ( gl gl , int id , model model ) {  <NL> if ( id > = 0 & & id < = model . get number of meshes ( ) ) {  <NL> if ( model . get mesh ( id ) . bounds ! = null ) {  <NL> draw bounds ( gl , model . get mesh ( id ) . bounds ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> render the desired object of the model specified by an id number of </s>

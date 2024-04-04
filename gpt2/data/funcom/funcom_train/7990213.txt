@@ -1,0 +1,1 @@
+TDAT: public void init canvas ( ) {  <NL>  / / ( nrtilesx , nrtilesy , tilex , tiley , fgcolor , bgcolor , msgfont )  <NL> set canvas settings ( canv _ tiles . x , canv _ tiles . y ,  <NL> tilesize . x , tilesize . y ,  <NL> jg color . black , jg color . white , null ) ;  <NL>  }  COM: <s> sichtbare fl auml che canvas initialisieren </s>

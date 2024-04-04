@@ -1,0 +1,1 @@
+TDAT: public void set history size ( int size ) {  <NL>  <NL> if ( ! ( size < 1 ) ) {  <NL> this . size = size ;  <NL> array list empty = copy array ( new array list ( files . length ) , files ) ; / / hang on to the current file objects <NL> files = ( file [ ] ) empty . to array ( new file [ size ] ) ;  <NL>  }  <NL>  }  COM: <s> change the size of the file history </s>

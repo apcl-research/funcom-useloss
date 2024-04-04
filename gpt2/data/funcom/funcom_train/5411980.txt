@@ -1,0 +1,1 @@
+TDAT: public z action result tag conversation ( string ids , string tag id , boolean tag , string target constraints ) throws service exception {  <NL> return do action ( conv action ( tag ? " tag " : " ! tag " , ids , target constraints ) . add attribute ( mail constants . a _ tag , tag id ) ) ;  <NL>  }  COM: <s> tag untag conversations </s>

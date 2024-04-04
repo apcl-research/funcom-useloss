@@ -1,0 +1,1 @@
+TDAT: public void paint component ( graphics g ) {  <NL> super . paint component ( g ) ;  <NL> switch ( showing ) {  <NL> case coin . side _ heads :  <NL> g . draw image ( heads , 0 , 0 , this ) ;  <NL> break ;  <NL> case coin . side _ tails :  <NL> g . draw image ( tails , 0 , 0 , this ) ;  <NL>  }  <NL>  }  COM: <s> draws the coin </s>

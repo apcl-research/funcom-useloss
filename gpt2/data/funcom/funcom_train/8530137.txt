@@ -1,0 +1,1 @@
+TDAT: public void report warning ( string key , object [ ] args ) throws xml parse exception {  <NL> if ( f error handler ! = null ) {  <NL> f error handler . warning ( error _ domain , key , create exception ( key , args ) ) ;  <NL>  }  <NL>  } / / report warning ( string , object [ ] )  COM: <s> reports a warning </s>

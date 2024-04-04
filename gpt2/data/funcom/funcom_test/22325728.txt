@@ -1,0 +1,1 @@
+TDAT: private void setup defaults ( ) {  <NL> log . debug ( " running client config . setup defaults ( ) . . " ) ;  <NL> set broker host ( " 127 . 0 . 0 . 1 " ) ;  <NL> set broker com port ( 1980 ) ;  <NL> set files dir ( " files " ) ;  <NL> set temp dir ( " temp " ) ;  <NL> set client gftp port ( 1984 ) ;  <NL>  }  COM: <s> sets up the default values of the properties </s>

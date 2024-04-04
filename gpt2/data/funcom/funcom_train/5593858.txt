@@ -1,0 +1,1 @@
+TDAT: public void test info ( ) {  <NL> system . out . println ( " test info " ) ;  <NL>  <NL> sender . info ( ) ;  <NL> assert equals ( " info " , buffer to string ( ) ) ;  <NL> sender . info ( " server . chatservs . com " ) ;  <NL> assert equals ( " info server . chatservs . com " , buffer to string ( ) ) ;  <NL>  }  COM: <s> test of info method of class net </s>

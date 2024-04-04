@@ -1,0 +1,1 @@
+TDAT: public void remove criticals ( int loc , critical slot cs ) {  <NL> for ( int i = 0 ; i < get number of criticals ( loc ) ; i + + ) {  <NL> if ( ( get critical ( loc , i ) ! = null ) & & get critical ( loc , i ) . equals ( cs ) ) {  <NL> set critical ( loc , i , null ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> removes all matching critical slots from the location </s>

@@ -1,0 +1,1 @@
+TDAT: public download stream get stream ( ) {  <NL> final download stream ds = new download stream ( associated class <NL>  . get resource as stream ( resource name ) , get mime type ( ) ,  <NL> get filename ( ) ) ;  <NL> ds . set buffer size ( get buffer size ( ) ) ;  <NL> ds . set cache time ( cache time ) ;  <NL> return ds ;  <NL>  }  COM: <s> gets resource as stream </s>

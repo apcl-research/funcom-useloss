@@ -1,0 +1,1 @@
+TDAT: protected void reset occurrences ( ) {  <NL> m _ match occs = 0 ;  <NL> m _ non match occs = 0 ;  <NL> m _ end at sub occs = 0 ;  <NL> m _ end at gap occs = 0 ;  <NL> m _ gap start occs = 0 ;  <NL> m _ gap extend occs = 0 ;  <NL> m _ gap end occs = 0 ;  <NL> m _ sub occs = 0 ;  <NL>  }  COM: <s> reset the number of occurrences of all ops in the set </s>

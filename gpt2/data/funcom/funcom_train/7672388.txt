@@ -1,0 +1,1 @@
+TDAT: public void add ( string method , object . . . args ) {  <NL> object [ ] args copy = new object [ args . length ] ;  <NL> system . arraycopy ( args , 0 , args copy , 0 , args . length ) ;  <NL>  <NL> methods . add ( method ) ;  <NL> arg lists . add ( args copy ) ;  <NL>  }  COM: <s> adds a method call with a variable list of arguments </s>

@@ -1,0 +1,1 @@
+TDAT: public angle azimuth between ( point p ) {  <NL> double x = p . get x ( ) - this . x ;  <NL> double y = p . get y ( ) - this . y ;  <NL> double azimuth = ( math . atan2 ( y , x ) ) * 180 . 0 / math . pi ;  <NL> if ( azimuth < 0 ) azimuth = 360 + azimuth ;  <NL> return new angle ( azimuth ) ;  <NL>  }  COM: <s> calculates the azimuth between this point and another point </s>

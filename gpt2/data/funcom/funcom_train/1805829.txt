@@ -1,0 +1,1 @@
+TDAT: public string get link by rel ( list < link > links , string rel value ) {  <NL> for ( link link : links ) {  <NL> if ( rel value . equals ( link . get rel ( ) ) ) {  <NL> return link . get href ( ) ;  <NL>  }  <NL>  }  <NL> throw new illegal argument exception ( " missing " + rel value + " link . " ) ;  <NL>  }  COM: <s> helper function to get a link by a rel value </s>

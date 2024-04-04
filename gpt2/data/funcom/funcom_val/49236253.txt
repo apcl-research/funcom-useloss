@@ -1,0 +1,1 @@
+TDAT: public vector2 times with shift ( int p scalar , int p num shifts ) {  <NL> return new vector2 ( ( int ) ( ( long ) x * p scalar > > math utils . shift _ count * p num shifts ) ,  <NL>  ( int ) ( ( long ) y * p scalar > > math utils . shift _ count * p num shifts ) ) ;  <NL>  }  COM: <s> just like times with shift </s>

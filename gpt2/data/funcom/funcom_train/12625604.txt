@@ -1,0 +1,1 @@
+TDAT: public string get module model name ( ) throws at command failed exception {  <NL> string tmp = at cmd . send ( " at + gmm\r " ) ;  <NL>  <NL> int i = tmp . index of ( " at + gmm " ) ;  <NL> int j = tmp . index of ( " ok " ) ;  <NL>  <NL> return ( tmp . substring ( i + 9 , j - 4 ) ) ;  <NL>  }  COM: <s> returns the module model name </s>

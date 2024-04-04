@@ -1,0 +1,1 @@
+TDAT: public string get rule view set key ( ) {  <NL>  ( ( partial plan view set ) view set ) . incr rule frame cnt ( ) ;  <NL> return new string ( view constants . rule _ instance _ view . replace all ( " " , " " ) + " - " +  <NL>  ( ( partial plan view set ) view set ) . get rule frame cnt ( ) ) ;  <NL>  }  COM: <s> code get rule view set key code </s>

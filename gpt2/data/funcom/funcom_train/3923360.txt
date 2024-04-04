@@ -1,0 +1,1 @@
+TDAT: public void send response ( request r , string response ) {  <NL>  / / session . send response ( r . get class name ( ) + " " + response ) ;  <NL> request resp = new request ( r , response ) ;  <NL>  / / logger . log debug ( " response to " + r + " is " + resp ) ;  <NL> session . send response ( resp ) ;  <NL>  }  COM: <s> sends the b response b back to the client br </s>

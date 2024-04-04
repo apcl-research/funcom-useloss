@@ -1,0 +1,1 @@
+TDAT: public void test doc order first function ( ) throws exception {  <NL> string xpath = xpath root + " / * [ first ( ) ] " ;  <NL> string result path = test root node . get nodes ( ) . next node ( ) . get path ( ) ;  <NL> doc order test ( new statement ( xpath , query . xpath ) , result path ) ;  <NL>  }  COM: <s> tests the code first code function </s>

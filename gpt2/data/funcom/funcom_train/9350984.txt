@@ -1,0 +1,1 @@
+TDAT: private void set styles ( ) {  <NL>  / / add inherited stylesheets <NL> string path = " style / master / " ;  <NL> string style = " master " ;  <NL> string ext = " . css " ;  <NL> add ( header contributor . for css (  <NL> edu . hawaii . duedates . web . page . base page . class , path + style + ext , " all " ) ) ;  <NL>  }  COM: <s> sets the master style </s>

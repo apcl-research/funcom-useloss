@@ -1,0 +1,1 @@
+TDAT: public long insert hub ( hub hub ) throws data access exception {  <NL> hub existing hub = hub dao . get hub ( hub . get url ( ) ) ;  <NL> if ( existing hub = = null ) {  <NL> return hub dao . insert hub ( hub ) ;  <NL>  } else {  <NL> hub dao . update hub ( hub ) ;  <NL> return 0 ;  <NL>  }  <NL>  } / / - insert hub  COM: <s> insert a new hub record </s>

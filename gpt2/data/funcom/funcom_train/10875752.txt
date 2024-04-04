@@ -1,0 +1,1 @@
+TDAT: public void set no cfs ratio ( double no cfs ratio ) {  <NL> if ( no cfs ratio < 0 . 0 || no cfs ratio > 1 . 0 ) {  <NL> throw new illegal argument exception ( " no cfs ratio must be 0 . 0 to 1 . 0 inclusive ; got " + no cfs ratio ) ;  <NL>  }  <NL> this . no cfs ratio = no cfs ratio ;  <NL>  }  COM: <s> if a merged segment will be more than this percentage </s>

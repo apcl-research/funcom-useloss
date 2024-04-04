@@ -1,0 +1,1 @@
+TDAT: public r apply ( lambda < ? super t , ? extends r > lambda , r precomputed , t arg ) {  <NL> if ( ! contains ( arg ) ) {  <NL> push ( arg , precomputed ) ;  <NL> try { return lambda . value ( arg ) ; }  <NL> finally { pop ( arg ) ; }  <NL>  }  <NL> else { return get ( arg ) ; }  <NL>  }  COM: <s> evaluate the given lambda with argument </s>

@@ -1,0 +1,1 @@
+TDAT: protected string extract path ( string file id ) {  <NL> string path = " " ;  <NL> if ( file id ! = null & & file id . length ( ) > 0 ) {  <NL> path = file id . substring ( file id . index of ( " / " ) , file id . last index of ( " / " ) ) ;  <NL>  }  <NL> return path ;  <NL>  }  COM: <s> returns file path from id entry point id path filename </s>

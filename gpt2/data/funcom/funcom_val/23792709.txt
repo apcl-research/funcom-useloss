@@ -1,0 +1,1 @@
+TDAT: public void test from config file ( ) throws exception {  <NL> gaboto configuration gc = gaboto configuration . from config file ( ) ;  <NL>  / / assert equals ( " org . postgresql . driver " , gc . get db driver ( ) ) ;  <NL> assert equals ( " org . hsqldb . jdbc driver " , gc . get db driver ( ) ) ;  <NL>  }  COM: <s> test method for </s>

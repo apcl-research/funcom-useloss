@@ -1,0 +1,1 @@
+TDAT: public operand and ( operand lhs , operand rhs ) {  <NL> throw new illegal argument exception ( " logical and cannot be applied to ' " + lhs . to string ( ) + / / $ non - nls - 1 $  <NL>  " ' and ' " + rhs . to string ( ) + " ' . " ) ; / / $ non - nls - 1 $ / / $ non - nls - 2 $  <NL>  }  COM: <s> logical and of two operands returning the result as an operand </s>

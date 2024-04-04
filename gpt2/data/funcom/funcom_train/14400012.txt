@@ -1,0 +1,1 @@
+TDAT: public void add field ( string p name , string p value ) {  <NL> if ( p name = = null || p name . length ( ) = = 0 ) return ;  <NL>  <NL> if ( p value ! = null ) {  <NL> this . i fields . put ( new header entry ( p name ) , p value ) ;  <NL>  } else {  <NL> this . i fields . remove ( new header entry ( p name ) ) ;  <NL>  }  <NL>  }  COM: <s> adds a header field </s>

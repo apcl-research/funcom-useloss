@@ -1,0 +1,1 @@
+TDAT: private light create ambient light ( ) {  <NL> ambient light amb = new ambient light ( new color3f ( 0 . 6f , 0 . 6f , 0 . 6f ) ) ;  <NL> bounding sphere bs = new bounding sphere ( new point3d ( 0 , 0 , 0 ) , 50 ) ;  <NL> amb . set influencing bounds ( bs ) ;  <NL> return amb ;  <NL>  }  COM: <s> creates ambient light </s>

@@ -1,0 +1,1 @@
+TDAT: private void update game ( connection connection , xml stream reader in , xml stream writer out ) {  <NL> try {  <NL> in . next tag ( ) ;  <NL> get free col client ( ) . get game ( ) . read from xml ( in ) ;  <NL>  } catch ( xml stream exception e ) {  <NL> logger . warning ( e . to string ( ) ) ;  <NL>  }  <NL>  }  COM: <s> handles an update game message </s>

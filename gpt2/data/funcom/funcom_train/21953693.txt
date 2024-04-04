@@ -1,0 +1,1 @@
+TDAT: public boolean display message ( string p title , string p message , tray icon . message type p type ) {  <NL> if ( m tray icon ! = null & & m show new mail message ) {  <NL> m tray icon . display message ( p title , p message , p type ) ;  <NL> return true ;  <NL>  } else {  <NL> return false ;  <NL>  }  <NL>  }  COM: <s> displays a message </s>

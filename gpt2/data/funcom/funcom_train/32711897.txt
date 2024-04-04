@@ -1,0 +1,1 @@
+TDAT: public void write int ( int i ) throws io exception {  <NL>  <NL> out . write ( i & 0x ff ) ;  <NL> out . write ( ( i > > > 8 ) & 0x ff ) ;  <NL> out . write ( ( i > > > 16 ) & 0x ff ) ;  <NL> out . write ( ( i > > > 24 ) & 0x ff ) ;  <NL> written + = 4 ;  <NL>  <NL>  }  COM: <s> writes a four byte code int code to the underlying output stream </s>

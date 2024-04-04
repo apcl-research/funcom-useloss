@@ -1,0 +1,1 @@
+TDAT: public void mouse dragged ( mouse event e ) {  <NL> rectangle total repaint = this . selection . update size ( e . get x ( ) , e . get y ( ) , get image width ( ) , get image height ( ) ) ;  <NL> this . display . repaint ( total repaint . x , total repaint . y , total repaint . width , total repaint . height ) ;  <NL>  }  COM: <s> updates the selection rectangle </s>

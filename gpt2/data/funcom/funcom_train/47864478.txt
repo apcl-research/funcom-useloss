@@ -1,0 +1,1 @@
+TDAT: public void test box setting are honored ( ) {  <NL> int data [ ] = { 0 , 1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 } ;  <NL> pixel image image = new pixel image ( data , 3 , 3 , 1 , 1 , 1 , 1 ) ;  <NL>  <NL> assert equals ( 4 , image . get ( 0 , 0 ) ) ;  <NL>  }  COM: <s> box setting shall be honored </s>

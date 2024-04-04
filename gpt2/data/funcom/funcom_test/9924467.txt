@@ -1,0 +1,1 @@
+TDAT: protected void center ( component cmp ) {  <NL> dimension screen dim = toolkit . get default toolkit ( ) . get screen size ( ) ;  <NL> rectangle frame dim = cmp . get bounds ( ) ;  <NL> cmp . set location (  <NL>  ( screen dim . width - frame dim . width ) / 2 ,  <NL>  ( screen dim . height - frame dim . height ) / 2 ) ;  <NL>  }  COM: <s> centers a component </s>

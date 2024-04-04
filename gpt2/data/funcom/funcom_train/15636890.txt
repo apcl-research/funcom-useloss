@@ -1,0 +1,1 @@
+TDAT: protected void on last cycle end ( ) {  <NL> system . out . println ( " # # # # # # # # validating # # # # # # # # " ) ;  <NL> if ( runvalidation ( ) ) {  <NL> system . out . println ( " success ! " ) ;  <NL>  } else {  <NL> system . out . println ( " error ! " ) ;  <NL>  }  <NL>  }  COM: <s> when the last cycle ends do verification for each entry in hash map </s>

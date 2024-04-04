@@ -1,0 +1,1 @@
+TDAT: protected int hstrcmp ( char [ ] s , int si , char [ ] t , int ti ) {  <NL> for ( ; s [ si ] = = t [ ti ] ; si + + , ti + + )  <NL> if ( s [ si ] = = 0 )  <NL> return 0 ;  <NL> if ( t [ ti ] = = 0 )  <NL> return 0 ;  <NL> return s [ si ] - t [ ti ] ;  <NL>  }  COM: <s> string compare returns 0 if equal or </s>

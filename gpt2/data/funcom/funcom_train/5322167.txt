@@ -1,0 +1,1 @@
+TDAT: public void add ( object gizmo , class group , entity owner , long prio ) throws class cast exception {  <NL> if ( group . is instance ( gizmo ) ) {  <NL> set . add ( new gizmo element ( gizmo , group , owner , prio ) ) ;  <NL>  } else {  <NL> throw new class cast exception ( ) ;  <NL>  }  <NL>  }  COM: <s> adds a new gizmo to the list </s>

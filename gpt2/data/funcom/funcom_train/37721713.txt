@@ -1,0 +1,1 @@
+TDAT: private j label create label for column ( column view col view ) {  <NL> if ( col view . column . is primary key ( ) )  <NL> return new j label ( " * " + col view . get name ( ) , j label . right ) ;  <NL> else <NL> return new j label ( col view . get name ( ) , j label . right ) ;  <NL>  }  COM: <s> creates a label for the specified column view </s>

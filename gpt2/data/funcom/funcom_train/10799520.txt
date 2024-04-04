@@ -1,0 +1,1 @@
+TDAT: protected instruction throw exception ( code code , class type ) {  <NL> instruction ins = code . anew ( ) . set type ( type ) ;  <NL> code . dup ( ) ;  <NL> code . invokespecial ( ) . set method ( type , " < init > " , void . class , null ) ;  <NL> code . athrow ( ) ;  <NL> return ins ;  <NL>  }  COM: <s> throw an exception of the given type </s>

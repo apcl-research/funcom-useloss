@@ -1,0 +1,1 @@
+TDAT: public int next int ( ) {  <NL> double u = math . random ( ) * max ;  <NL>  <NL> int i = 0 , k ;  <NL> int j = s . length - 1 ;  <NL>  <NL>  / / binary search <NL> do {  <NL> k = ( i + j ) / 2 ;  <NL> if ( u > s [ k ] )  <NL> i = k + 1 ;  <NL> else <NL> j = k ;  <NL>  } while ( i < j ) ;  <NL> return i ;  <NL>  }  COM: <s> a method which should run like this one </s>

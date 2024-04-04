@@ -1,0 +1,1 @@
+TDAT: public date get time ( ) {  <NL> calendar c = calendar . get instance ( get locale ( ) ) ;  <NL>  <NL> c . set ( calendar . hour _ of _ day , get hour ( ) ) ;  <NL> c . set ( calendar . minute , get minute ( ) ) ;  <NL> c . set ( calendar . second , get second ( ) ) ;  <NL>  <NL> return c . get time ( ) ;  <NL>  }  COM: <s> gets the chosen time in the form of a date </s>

@@ -1,0 +1,1 @@
+TDAT: protected int incr ( ) {  <NL> int digit = rank - 1 ;  <NL> while ( digit > = 0 ) {  <NL> current [ digit ] + + ;  <NL> if ( current [ digit ] < shape [ digit ] )  <NL> break ; / / normal exit <NL> current [ digit ] = 0 ; / / else , carry <NL> digit - - ;  <NL>  }  <NL> return current element ( ) ;  <NL>  }  COM: <s> increment the current element by 1 </s>

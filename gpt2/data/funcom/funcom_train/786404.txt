@@ -1,0 +1,1 @@
+TDAT: public double get deviation ( ) {  <NL> access check ( ) ;  <NL> if ( m _ stdev = = null & & m _ dynamic ) {  <NL> m _ stdev = new double (  <NL> data lib . deviation ( m _ table . tuples ( ) , m _ field , get mean ( ) ) ) ;  <NL>  }  <NL> return m _ stdev . double value ( ) ;  <NL>  }  COM: <s> get the standard deviation of numeric values in the column </s>

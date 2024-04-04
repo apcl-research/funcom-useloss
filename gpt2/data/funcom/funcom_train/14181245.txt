@@ -1,0 +1,1 @@
+TDAT: public void remove player ( string user id , string game id ) {  <NL> game g = ( game ) games . get ( game id ) ;  <NL> user u = ( user ) players . get ( user id ) ;  <NL>  <NL> if ( ( g ! = null ) & & ( u ! = null ) ) {  <NL> g . remove user ( u ) ;  <NL>  }  <NL>  }  COM: <s> removes a user from a game </s>

@@ -1,0 +1,1 @@
+TDAT: public matrix3f add ( float [ ] m ) {  <NL> e [ xx ] + = m [ xx ] ; e [ yx ] + = m [ yx ] ; e [ zx ] + = m [ zx ] ;  <NL> e [ xy ] + = m [ xy ] ; e [ yy ] + = m [ yy ] ; e [ zy ] + = m [ zy ] ;  <NL> e [ xz ] + = m [ xz ] ; e [ yz ] + = m [ yz ] ; e [ zz ] + = m [ zz ] ;  <NL> return this ;  <NL>  }  COM: <s> add a matrix to this matrix </s>

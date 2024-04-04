@@ -1,0 +1,1 @@
+TDAT: static public string xml encode attribute value ( string s ) throws fatal exception {  <NL> if ( s = = null )  <NL> return " " ;  <NL> s = replace all ( s , " < " , " & lt ; " ) ;  <NL> s = replace all ( s , " > " , " & gt ; " ) ;  <NL> return " ' " + s + " ' " ;  <NL>  }  COM: <s> encode a string in the attribute format </s>

@@ -1,0 +1,1 @@
+TDAT: public integer get miss hits ( ) {  <NL> integer x = 0 ;  <NL> for ( integer i = 0 ; i < x size ; i + + ) {  <NL> for ( integer j = 0 ; j < y size ; j + + ) {  <NL> if ( _ grid [ j ] [ i ] . equals ( " . " ) ) {  <NL> x + + ;  <NL>  }  <NL>  }  <NL>  }  <NL> return x ;  <NL>  }  COM: <s> get count of missed hist from grid </s>

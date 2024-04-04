@@ -1,0 +1,1 @@
+TDAT: public int concept id get ( string concept name ) throws not found exception {  <NL> integer id obj = ( integer ) concept ids . get ( concept name ) ;  <NL> if ( null = = id obj ) {  <NL> throw new not found exception ( " no id for concept \ " " + concept name + " \ " " ) ;  <NL>  }  <NL> return id obj . int value ( ) ;  <NL>  }  COM: <s> get id for concept name </s>

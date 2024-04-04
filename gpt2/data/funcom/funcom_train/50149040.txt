@@ -1,0 +1,1 @@
+TDAT: public void add ( abstract button b ) {  <NL> if ( b = = null ) {  <NL> return ;  <NL>  }  <NL> buttons . add element ( b ) ;  <NL> if ( selection = = null & & b . get model ( ) . is selected ( ) ) {  <NL> selection = b . get model ( ) ;  <NL>  }  <NL> b . get model ( ) . set group ( this ) ;  <NL>  }  COM: <s> adds the button to the group </s>

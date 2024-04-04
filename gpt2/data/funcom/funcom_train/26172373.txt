@@ -1,0 +1,1 @@
+TDAT: public token list ( string [ ] names , int [ ] tokens , int dflt ) {  <NL>  _ dflt = dflt ;  <NL>  _ map = new hash map ( names . length ) ;  <NL> for ( int i = 0 ; i < names . length ; i + + )  <NL>  _ map . put ( names [ i ] , new integer ( tokens [ i ] ) ) ;  <NL>  }  COM: <s> construct a token list with a default </s>

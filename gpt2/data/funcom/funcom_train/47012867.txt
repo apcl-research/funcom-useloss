@@ -1,0 +1,1 @@
+TDAT: protected void paint white ( graphics g ) {  <NL> g . set color ( ( velocity = = 0 ) ? new color ( 255 , 255 , 255 ) : new color ( 200 , 200 , 200 ) ) ;  <NL> g . fill rect ( x , y , piano _ white _ width , piano _ white _ height ) ;  <NL>  }  COM: <s> paint method for white keys </s>

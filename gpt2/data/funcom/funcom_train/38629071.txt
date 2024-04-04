@@ -1,0 +1,1 @@
+TDAT: private void add axes ( ) {  <NL> add axis ( " x " , 1 , true ) ;  <NL> add axis ( " y " , 2 , true ) ;  <NL> add axis ( " throttle " , 3 , false ) ;  <NL>  <NL> get axis ( " y " ) . set reversed ( true ) ;  <NL>  } / / add axes ( )  COM: <s> adds and names the axes for this type of joystick </s>

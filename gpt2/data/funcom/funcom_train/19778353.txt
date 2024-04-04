@@ -1,0 +1,1 @@
+TDAT: private void add ( dns entry entries [ ] , dns entry entry ) {  <NL> int i = math . abs ( entry . key . hash code ( ) ) % entries . length ;  <NL> while ( entries [ i ] ! = null ) {  <NL> i = ( ( i = = 0 ) ? entries . length : i ) - 1 ;  <NL>  }  <NL> entries [ i ] = entry ;  <NL>  }  COM: <s> add an entry to a table </s>

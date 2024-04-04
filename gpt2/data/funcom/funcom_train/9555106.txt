@@ -1,0 +1,1 @@
+TDAT: public void start ( ) {  <NL> logger . debug ( " start ' start ( ) ' . " ) ;  <NL> try {  <NL> if ( runner . is running ( ) ) {  <NL> throw new illegal state exception ( " master is running already . " ) ;  <NL>  }  <NL> runner . start ( ) ;  <NL>  } finally {  <NL> logger . debug ( " end ' start ( ) ' . " ) ;  <NL>  }  <NL>  }  COM: <s> start master application </s>

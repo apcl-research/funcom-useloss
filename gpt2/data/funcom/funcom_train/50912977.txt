@@ -1,0 +1,1 @@
+TDAT: public string get ref ( string id , direction to from ) {  <NL> make tables ( ) ;  <NL> check and create tables and add links ( ) ;  <NL> map < string , string > table = ( to from = = direction . from ) ? from to table <NL>  : to from table ;  <NL> return ( table = = null || id = = null ) ? null : table . get ( id ) ;  <NL>  }  COM: <s> gets mapped to or from attribute </s>

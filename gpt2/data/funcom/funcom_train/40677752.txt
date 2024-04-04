@@ -1,0 +1,1 @@
+TDAT: public boolean seek ( long time , time unit unit ) {  <NL> return seek ( 1 . 0 , format . time , seek flags . flush | seek flags . key _ unit ,  <NL> seek type . set , time unit . nanoseconds . convert ( time , unit ) ,  <NL> seek type . none , - 1 ) ;  <NL>  }  COM: <s> sets the current position in the media stream </s>

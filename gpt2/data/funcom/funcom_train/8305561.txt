@@ -1,0 +1,1 @@
+TDAT: public int hash code ( ) {  <NL> if ( hash code = = 0 ) {  <NL> hash code = 17 ;  <NL> hash code = 37 * hash code + get class ( ) . hash code ( ) ;  <NL> hash code = 37 * hash code + min . hash code ( ) ;  <NL> hash code = 37 * hash code + max . hash code ( ) ;  <NL>  }  <NL> return hash code ;  <NL>  }  COM: <s> p gets a hash code for the range </s>

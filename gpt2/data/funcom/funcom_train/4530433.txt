@@ -1,0 +1,1 @@
+TDAT: private void report status ( string msg , boolean right now ) {  <NL> long cur time = now ( ) ;  <NL> if ( ! right now & & ( cur time - last status report < 20 * 1000 ) )  <NL> return ;  <NL> name node . state change log . info ( msg + " \n " + get turn off tip ( ) ) ;  <NL> last status report = cur time ;  <NL>  }  COM: <s> print status every 20 seconds </s>

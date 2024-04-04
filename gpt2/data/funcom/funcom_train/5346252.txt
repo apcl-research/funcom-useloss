@@ -1,0 +1,1 @@
+TDAT: public boolean allow ( message m ) {  <NL> byte [ ] guid = m . get guid ( ) ;  <NL> for ( int i = 0 ; i < bad _ bytes _ length ; i + + ) {  <NL> if ( guid [ i ] ! = bad _ bytes [ i ] )  <NL> return true ; / / does not match ; allow .  <NL>  }  <NL> return false ; / / does match ; disallow .  <NL>  }  COM: <s> disallows m if it has the bad guid </s>

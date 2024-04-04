@@ -1,0 +1,1 @@
+TDAT: public void add header ( string name , byte [ ] value ) {  <NL>  / *  <NL> if ( log . is enabled for ( level . debug ) )  <NL> log . debug ( " add header : " + name + " ( " + name . length ( ) + " ) with " + value . length + " bytes of value " ) ;  <NL>  * /  <NL>  <NL> headers . add ( new header ( name , value ) ) ;  <NL>  }  COM: <s> add a header </s>

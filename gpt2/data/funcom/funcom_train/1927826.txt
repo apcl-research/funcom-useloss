@@ -1,0 +1,1 @@
+TDAT: public void debug info ( string prefix , string buffer sb ) {  <NL> sb . append ( prefix + " advice decl : \n " ) ;  <NL> advice . debug info ( prefix + " " , sb ) ;  <NL> sb . append ( prefix + " residue : " + residue box + " \n " ) ;  <NL> sb . append ( prefix + " - - - " + " \n " ) ;  <NL>  }  COM: <s> add some information about the advice application to a string </s>

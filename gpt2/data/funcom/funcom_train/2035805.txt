@@ -1,0 +1,1 @@
+TDAT: private void create east ( ) {  <NL> border layout data east layout = new border layout data ( layout region . east , 300 ) ;  <NL> east layout . set split ( true ) ;  <NL> east layout . set margins ( new margins ( 0 , 2 , 0 , 2 ) ) ;  <NL> add ( create widget and property container ( ) , east layout ) ;  <NL>  }  COM: <s> creates the east part of the view </s>

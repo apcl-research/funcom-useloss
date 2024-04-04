@@ -1,0 +1,1 @@
+TDAT: public int evaluate ( long uid ) {  <NL>  / / mylist = = null = > idf = = 0 <NL> if ( mylist = = null ) {  <NL> return 0 ;  <NL>  }  <NL> if ( mylist . uid ! = uid ) {  <NL> return 0 ;  <NL>  } else {  <NL> return ( mylist . w < precompcache ) ? cache [ mylist . w ] : mylist . w * idfdotboost ;  <NL>  }  <NL>  }  COM: <s> return the calculated similarity </s>

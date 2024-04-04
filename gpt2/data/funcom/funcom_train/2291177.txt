@@ -1,0 +1,1 @@
+TDAT: private string non control ( string s , int start ) {  <NL>  <NL> m _ c pos = s . index of ( " % " , start ) ;  <NL> if ( m _ c pos = = - 1 ) {  <NL> m _ c pos = s . length ( ) ;  <NL>  }  <NL> return s . substring ( start , m _ c pos ) ;  <NL>  }  COM: <s> return a substring starting at </s>

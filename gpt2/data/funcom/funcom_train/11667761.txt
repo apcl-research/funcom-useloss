@@ -1,0 +1,1 @@
+TDAT: public int hash ( char [ ] buffer , int offset , int length ) {  <NL>  <NL> int code = 0 ;  <NL> for ( int i = 0 ; i < length ; + + i ) {  <NL> code = code * 31 + buffer [ offset + i ] ;  <NL>  }  <NL> return code & 0x7fffffff ;  <NL>  <NL>  } / / hash ( char [ ] , int , int ) : int  COM: <s> returns a hashcode value for the specified symbol information </s>

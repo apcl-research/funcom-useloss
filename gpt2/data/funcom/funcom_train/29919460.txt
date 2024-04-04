@@ -1,0 +1,1 @@
+TDAT: public void exit ( ) {  <NL> logger . debug ( " stopping the server " ) ;  <NL> try {  <NL> elvyx . get instance ( ) . stop server ( id ) ;  <NL>  } catch ( sql exception e ) {  <NL> logger . error ( e . get message ( ) ) ;  <NL>  }  <NL> logger . info ( " stopped elvyx client . " ) ;  <NL> system . exit ( - 1 ) ;  <NL>  }  COM: <s> exit the application </s>

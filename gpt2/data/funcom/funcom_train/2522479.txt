@@ -1,0 +1,1 @@
+TDAT: public date set time ( int hour , int minute , int second ) {  <NL> c . set ( c . hour _ of _ day , hour ) ;  <NL> c . set ( c . minute , minute ) ;  <NL> c . set ( c . second , second ) ;  <NL> c . clear ( c . millisecond ) ;  <NL> super . set time ( c . get time in millis ( ) ) ;  <NL> return this ;  <NL>  }  COM: <s> changes the time only </s>

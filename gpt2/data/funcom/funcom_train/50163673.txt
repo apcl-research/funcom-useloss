@@ -1,0 +1,1 @@
+TDAT: public void set doc type ( string s public , string s system ) {  <NL> if ( s public ! = null ) {  <NL> ser properties . set property ( " doctype - public " , s public ) ;  <NL>  }  <NL> if ( s system ! = null ) {  <NL> ser properties . set property ( " doctype - system " , s system ) ;  <NL>  }  <NL>  }  COM: <s> sets the doc type attribute of the xmlwriter object </s>

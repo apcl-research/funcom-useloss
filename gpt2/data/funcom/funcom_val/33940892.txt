@@ -1,0 +1,1 @@
+TDAT: public void clear ( boolean fast ) {  <NL> if ( fast ) {  <NL> max fast clear size = math . max ( size , max fast clear size ) ;  <NL> size = 0 ;  <NL>  } else {  <NL> arrays . fill ( elements , 0 , math . max ( max fast clear size , size ) , null ) ;  <NL> max fast clear size = 0 ;  <NL> size = 0 ;  <NL>  }  <NL>  }  COM: <s> clear this bag of all elements </s>

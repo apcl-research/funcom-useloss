@@ -1,0 +1,1 @@
+TDAT: public patch set cp ( int i , int j , point3 cp ) {  <NL> point3 [ ] new _ pts = new point3 [ 16 ] ;  <NL> for ( int k = 0 ; k < pts . length ; k + + ) {  <NL> new _ pts [ k ] = pts [ k ] ;  <NL>  }  <NL> pts [ i * 4 + j ] = cp ;  <NL> return new patch ( new _ pts ) ;  <NL>  }  COM: <s> sets the control point indexed by i j </s>

@@ -1,0 +1,1 @@
+TDAT: public adv object get object ( token t ) {  <NL> if ( t . is object ( ) ) {  <NL> adv object x = ( adv object ) t . obj val ( ) ;  <NL> if ( x . world = = this ) {  <NL> return x ;  <NL>  } else {  <NL> return null ;  <NL>  }  <NL>  } else {  <NL> return objects . get adv object ( t . str val ( ) ) ;  <NL>  }  <NL>  }  COM: <s> gets an object from current world </s>

@@ -1,0 +1,1 @@
+TDAT: private void save options ( ) {  <NL> for ( int i = 0 ; i < config items . size ( ) ; i + + ) {  <NL> object o = config items . get ( i ) ;  <NL> if ( o instanceof hg base config item ) {  <NL> hg base config item ci = ( hg base config item ) o ;  <NL> ci . save option ( ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> saves the options from the menu </s>

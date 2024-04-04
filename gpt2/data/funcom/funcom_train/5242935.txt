@@ -1,0 +1,1 @@
+TDAT: public j scroll pane get tree panel ( ) {  <NL> if ( tree panel = = null ) {  <NL> tree panel = new j scroll pane ( get game tree ( ) ) ;  <NL> tree panel . set size ( 200 , 400 ) ;  <NL> tree panel . set location ( 15 , 15 ) ;  <NL> tree panel . set visible ( true ) ;  <NL>  <NL>  }  <NL> return tree panel ;  <NL>  }  COM: <s> accessor for the tree pane </s>

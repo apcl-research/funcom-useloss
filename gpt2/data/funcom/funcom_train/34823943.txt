@@ -1,0 +1,1 @@
+TDAT: public expense amount get sum ( ) {  <NL> expense amount sum = new expense amount ( 0f ) ;  <NL> for ( int i = 0 ; i < list elements . size ( ) ; i + + ) {  <NL> expense item item = ( expense item ) list elements . get at ( i ) ;  <NL> sum = sum . add ( item . get amount ( ) ) ;  <NL>  }  <NL> return sum ;  <NL>  }  COM: <s> calculates the sum of the list </s>

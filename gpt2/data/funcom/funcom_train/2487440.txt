@@ -1,0 +1,1 @@
+TDAT: public array list get entity ejbs ( ) {  <NL> array list refs = new array list ( ) ;  <NL> for ( int i = 0 ; i < get child count ( ) ; i + + ) {  <NL> jag bean child = ( jag bean ) get child at ( i ) ;  <NL> if ( child instanceof entity ) {  <NL> refs . add ( child ) ;  <NL>  }  <NL>  }  <NL> return refs ;  <NL>  }  COM: <s> return all entity ejbs </s>

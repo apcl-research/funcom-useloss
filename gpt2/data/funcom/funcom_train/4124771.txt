@@ -1,0 +1,1 @@
+TDAT: public element handle ( free col server server , connection connection ) {  <NL>  / * do not trust the client - supplied sender name * /  <NL> player = server . get player ( connection ) ;  <NL> sender = player . get id ( ) ;  <NL> server . get server ( ) . send to all ( to xml element ( ) , connection ) ;  <NL> return null ;  <NL>  }  COM: <s> handle a chat message </s>

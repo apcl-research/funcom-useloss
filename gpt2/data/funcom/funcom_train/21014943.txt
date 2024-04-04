@@ -1,0 +1,1 @@
+TDAT: protected double angle of point ( final int pid ) {  <NL> final double a = points [ pid + 1 ] [ 0 ] - points [ pid - 1 ] [ 0 ] ;  <NL> final double b = points [ pid + 1 ] [ 1 ] - points [ pid - 1 ] [ 1 ] ;  <NL> final double alpha = math . to degrees ( math . atan ( b / a ) ) ;  <NL>  <NL> return alpha ;  <NL>  }  COM: <s> calculates the angle of a given point </s>

@@ -1,0 +1,1 @@
+TDAT: private void initialize hex ( coords c ) {  <NL> hex hex = get hex ( c . x , c . y ) ;  <NL>  <NL> if ( hex = = null ) {  <NL> return ;  <NL>  }  <NL>  <NL> hex . clear exits ( ) ;  <NL>  <NL> if ( hex . get unit ( ) ! = null ) {  <NL> hex . get unit ( ) . set coords ( c ) ;  <NL>  }  <NL>  }  COM: <s> initializes a hex in its surroundings </s>

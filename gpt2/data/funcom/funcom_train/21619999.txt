@@ -1,0 +1,1 @@
+TDAT: public void test get tax amount ( ) {  <NL> system . out . println ( " get tax amount " ) ;  <NL>  <NL> double rate = 0 . 06 ;  <NL> trans . get tax calc list ( ) . add ( new flat tax ( rate ) ) ;  <NL> assert equals ( trans . get sub total ( ) * rate , trans . get tax amount ( ) ) ;  <NL>  }  COM: <s> test of get tax amount method of class edu </s>

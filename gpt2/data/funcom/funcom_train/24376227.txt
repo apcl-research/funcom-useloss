@@ -1,0 +1,1 @@
+TDAT: public void write log ( string entry ) {  <NL> string date = new simple date format ( " d mmm yyyy hh : mm : ss z " ) . format ( new date ( ) ) ;  <NL> if ( output panel ! = null ) {  <NL> output panel . append content ( date + " [ post - processor ] " + entry + " \n " ) ;  <NL>  }  <NL>  }  COM: <s> write a line of log including date and source to output panel </s>

@@ -1,0 +1,1 @@
+TDAT: private void center ( ) {  <NL> dimension screen = toolkit . get default toolkit ( ) . get screen size ( ) ;  <NL> dimension d = get size ( ) ;  <NL> int x = ( screen . width - d . width ) / 2 ;  <NL> int y = ( screen . height - d . height ) / 2 ;  <NL> set location ( x , y ) ;  <NL>  }  COM: <s> center this window in the users desktop </s>

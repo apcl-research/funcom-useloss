@@ -1,0 +1,1 @@
+TDAT: public void insert tab ( string text , boolean as html , int before index ) {  <NL> html item = new html ( text , as html ) ;  <NL> item . add click listener ( this ) ;  <NL> item . set style name ( " gwt - tab bar item " ) ;  <NL> panel . insert ( item , before index + 1 ) ;  <NL>  }  COM: <s> inserts a new tab at the specified index </s>

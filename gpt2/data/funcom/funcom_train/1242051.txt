@@ -1,0 +1,1 @@
+TDAT: private referenced envelope normalize envelope ( referenced envelope e ) {  <NL> if ( e ! = null ) {  <NL>  / / if it ' s empty , get a 1 meter envelope around it <NL> if ( e . get width ( ) = = 0 & & e . get height ( ) = = 0 ) {  <NL> e . expand by ( 1 ) ;  <NL>  }  <NL>  }  <NL> return e ;  <NL>  <NL>  }  COM: <s> normalizes an envelope to get a usable viewport </s>

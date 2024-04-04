@@ -1,0 +1,1 @@
+TDAT: public void add jars ( string [ ] jars ) throws exception {  <NL> for ( int i = 0 ; i < jars . length ; i + + ) {  <NL> file file = new file ( jars [ i ] ) ;  <NL> string url path = " jar : file : / / / " + jars [ i ] . replace ( ' \\ ' , ' / ' ) + " ! / " ;  <NL> add url ( new url ( url path ) ) ;  <NL>  }  <NL>  }  COM: <s> loads jars into the current jvm instance </s>

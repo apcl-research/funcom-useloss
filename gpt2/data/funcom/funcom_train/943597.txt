@@ -1,0 +1,1 @@
+TDAT: public void remove type ( string class uri ) {  <NL> instance world iw = instance world . get current instance world ( ) ;  <NL> quad quad = iw . create quad ( iw . get base context uri ( ) , this . get uri ( ) , rdf uri . type ,  <NL> class uri , false ) ;  <NL> iw . remove quad ( quad ) ;  <NL>  }  COM: <s> remove the type as given in class uri </s>

@@ -1,0 +1,1 @@
+TDAT: public calendar event list get events ( string tmp1 , string tmp2 , string tmp3 ) {  <NL> string key = tmp1 + " / " + tmp2 + " / " + tmp3 ;  <NL> if ( event list . contains key ( key ) ) {  <NL> return event list . get ( key ) ;  <NL>  } else {  <NL> return new calendar event list ( ) ;  <NL>  }  <NL>  }  COM: <s> returns a list representative of the event objects </s>

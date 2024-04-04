@@ -1,0 +1,1 @@
+TDAT: public void test parse model array ( ) throws un parser exception {  <NL> parse tree pt = parser . parse ( " m _ array " , " [ v1 , v2 , \ " const value\ " ] " ) ;  <NL> system . out . println ( " parse tree : " + pt ) ;  <NL> check parsing ( pt , " [ " , " variable " , " variable " , " const " , " ] " ) ;  <NL>  }  COM: <s> parses a declaration of a model array </s>

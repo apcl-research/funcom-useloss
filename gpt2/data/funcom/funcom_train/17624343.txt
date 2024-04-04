@@ -1,0 +1,1 @@
+TDAT: public void restore ( ) {  <NL> for ( int i = 0 ; i < max x ; i + + ) {  <NL> for ( int j = 0 ; j < max y ; j + + ) {  <NL> bricks [ i ] [ j ] = bricks backup [ i ] [ j ] ;  <NL> bricks [ i ] [ j ] . set orientation ( orientation . none ) ;  <NL>  }  <NL>  }  <NL> list . clear ( ) ;  <NL> list . add all ( list backup ) ;  <NL>  }  COM: <s> restores bricks from copy </s>

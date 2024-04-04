@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> string str = " port block # " + instance _ no + " has ports : " ;  <NL> for ( int i = 0 ; i < portinfo _ array . length ; i + + )  <NL> str + = " \n " + portinfo _ array [ i ] ;  <NL> str + = " \n cellname : " + cellname ;  <NL> str + = " \n generics : " + bindings ;  <NL> return str ;  <NL>  }  COM: <s> useful for debugging </s>

@@ -1,0 +1,1 @@
+TDAT: public void set x ( java . lang . integer x ) {  <NL>  <NL> integer result = ( integer ) component utils . invoke method ( get page ( ) . get handler ( ) ,  <NL> get method ( " on set x " ) , new object [ ] { x } ) ;  <NL>  <NL> this . x = ( result ! = null ) ? result : x ;  <NL>  }  COM: <s> setter for property x </s>

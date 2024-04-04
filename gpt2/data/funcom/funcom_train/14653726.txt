@@ -1,0 +1,1 @@
+TDAT: public double get chunk retrieval time seconds ( double activation ) {  <NL> double time = ( rac ! = null ) ? rac . get default _ latency _ scale _ factor ( ) : 1 . 0 <NL>  * ( math . exp ( - 1 * ( ( rac ! = null ) ? rac . get default _ latency _ exponent ( ) : 0 . 1 )  <NL>  * activation ) ) ;  <NL> return time ;  <NL>  }  COM: <s> get chunk retrieval time in seconds </s>

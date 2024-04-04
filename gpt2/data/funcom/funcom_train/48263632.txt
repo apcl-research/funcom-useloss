@@ -1,0 +1,1 @@
+TDAT: public cursor fetch all notes ( ) {  <NL>  <NL> return m db . query ( database _ table , new string [ ] { key _ rowid , key _ writer ,  <NL> key _ body , key _ time , key _ latitude , key _ longitude , key _ address } , null , null , null , null , null ) ;  <NL>  }  COM: <s> return a cursor over the list of all notes in the database </s>

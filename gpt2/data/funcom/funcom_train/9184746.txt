@@ -1,0 +1,1 @@
+TDAT: public void outg ( i tuple [ ] tuples ) throws tuple space exception {  <NL> i tuple [ ] a tuples = new i tuple [ tuples . length ] ;  <NL> for ( int i = 0 ; i < tuples . length ; i + + )  <NL> a tuples [ i ] = ( ( tuple ) tuples [ i ] ) . adapter ;  <NL> adapter . outg ( a tuples ) ;  <NL>  }  COM: <s> inserts multiple tuples in the tuple space </s>

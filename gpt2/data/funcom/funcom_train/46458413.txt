@@ -1,0 +1,1 @@
+TDAT: public void set time ( double millis ) {  <NL> millis = math . abs ( millis ) ;  <NL> for ( int i = 0 ; i < start times . length ; i + + ) {  <NL> int t = start times [ i ] ;  <NL> if ( millis < t ) { / / find first frame with later start time <NL> set frame number ( i - 1 ) ;  <NL> break ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> sets the video time in milliseconds </s>

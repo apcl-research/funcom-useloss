@@ -1,0 +1,1 @@
+TDAT: public void write header ( ) throws io exception {  <NL> write line ( " # vrml v2 . 0 utf8 " ) ;  <NL> write line ( " " ) ;  <NL> write line ( " # please view this file in a vrml viewer . " ) ;  <NL> write line ( " # you can obtain a free one from http : / / www . cai . com / cosmo / " ) ;  <NL> write line ( " " ) ;  <NL>  }  COM: <s> writes a vrml version 2 </s>

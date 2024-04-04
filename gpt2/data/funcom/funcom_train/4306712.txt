@@ -1,0 +1,1 @@
+TDAT: public void draw rotated image ( core image image , int x , int y , int w , int h , int angle ) {  <NL> if ( image ! = null ) {  <NL> draw rotated image ( image , x , y , w , h , core math . cos ( angle ) , core math . sin ( angle ) ,  <NL> 0 , 0 , image . get width ( ) , image . get height ( ) ) ;  <NL>  }  <NL>  }  COM: <s> draws a rotated and scaled image </s>

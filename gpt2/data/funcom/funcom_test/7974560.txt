@@ -1,0 +1,1 @@
+TDAT: public void client connect ( ) throws dcom exception {  <NL>  <NL> if ( ! is connected ( ) ) {  <NL> get service connection ( ) . connect ( get client info ( ) . get domain ( ) , get client info ( ) . get user name ( ) , get client info ( ) . get password ( ) , get client info ( ) . get server ( ) , _ prog id ) ;  <NL>  }  <NL>  }  COM: <s> connect to the service </s>

@@ -1,0 +1,1 @@
+TDAT: public void reset rotation ( ) {  <NL>  _ matrix . set column ( 0 , 1 , 0 , 0 , 0 ) ;  <NL>  _ matrix . set column ( 1 , 0 , 1 , 0 , 0 ) ;  <NL>  _ matrix . set column ( 2 , 0 , 0 , 1 , 0 ) ;  <NL>  }  COM: <s> resets the rotational data </s>

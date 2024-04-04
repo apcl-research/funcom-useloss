@@ -1,0 +1,1 @@
+TDAT: public void info ( object msg , throwable t ) {  <NL> synchronized ( msg quene ) {  <NL> msg quene . add (  <NL> new msg node ( " [ info - " + name + " ] " + msg . to string ( ) , t ) ) ;  <NL>  / / msg thread . notify ( ) ;  <NL> msg quene . notify all ( ) ;  <NL>  }  <NL>  }  COM: <s> log general info </s>

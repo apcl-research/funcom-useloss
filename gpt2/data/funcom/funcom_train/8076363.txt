@@ -1,0 +1,1 @@
+TDAT: public void set experiment ( experiment exp ) {  <NL>  <NL> m _ exp = exp ;  <NL> m _ lower text . set text ( " " + m _ exp . get run lower ( ) ) ;  <NL> m _ upper text . set text ( " " + m _ exp . get run upper ( ) ) ;  <NL> m _ lower text . set enabled ( true ) ;  <NL> m _ upper text . set enabled ( true ) ;  <NL>  }  COM: <s> sets the experiment to be configured </s>

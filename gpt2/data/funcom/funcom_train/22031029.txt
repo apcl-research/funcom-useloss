@@ -1,0 +1,1 @@
+TDAT: public boolean is this type ( string name ) {  <NL> return name . starts with ( " area " ) || <NL> name . ends with ( " area " ) || <NL>  ( name . starts with ( " adde : / / " ) & &  <NL>  ( name . index of ( " / image ? " ) > 0 || <NL> name . index of ( " / imageda " ) > 0 ) ) ;  <NL>  }  COM: <s> determine the file type by name </s>

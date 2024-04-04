@@ -1,0 +1,1 @@
+TDAT: private void fire file closed ( project file a file ) {  <NL> if ( ! fire events ) return ;  <NL> project event evt = new project event ( this , a file ) ;  <NL> for ( int i = 0 ; i < listeners . size ( ) ; i + + )  <NL>  ( ( project listener ) listeners . get ( i ) ) . file closed ( evt ) ;  <NL>  }  COM: <s> fire notification that a project file has been closed </s>

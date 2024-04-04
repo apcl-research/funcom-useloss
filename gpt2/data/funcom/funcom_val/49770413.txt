@@ -1,0 +1,1 @@
+TDAT: public void set text ( string starter , string [ ] text list ) {  <NL> string text = starter + ui util . line separator ;  <NL> for ( int i = 0 ; i < text list . length ; i + + )  <NL> text = text + ui util . line separator + " " + text list [ i ] ;  <NL> set text ( text ) ;  <NL>  }  COM: <s> as above but puts starter at the start then </s>

@@ -1,0 +1,1 @@
+TDAT: public void test normalize name ( ) {  <NL> assert equals ( " xxx " , " xxx " , command . normalize name ( " xxx " ) ) ;  <NL> assert equals ( " xxx " , " xxx " , command . normalize name ( " xxx " ) ) ;  <NL> assert equals ( " xxx " , " xxx " , command . normalize name ( " xxx " ) ) ;  <NL>  }  COM: <s> test the normalize name method </s>

@@ -1,0 +1,1 @@
+TDAT: public void eval or load ( string it ) {  <NL> if ( it . starts with ( " ( " ) )  <NL> load ( new java . io . string reader ( it ) ) ;  <NL> else if ( ! it . starts with ( " - " ) ) {  <NL> enter ( ) ; try {  <NL> scheme . load ( it ) ; }  <NL> finally { exit ( ) ; } } }  COM: <s> eval or load a string </s>

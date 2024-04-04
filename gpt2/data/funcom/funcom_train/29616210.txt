@@ -1,0 +1,1 @@
+TDAT: public int ckgp ( int [ ] inst , double [ ] sclkdp , double [ ] tol , byte [ ] ref , double [ ] cmat , double [ ] clkout , int [ ] found ) throws exception {  <NL> return ( perror ( jspice _ ckgp ( inst , sclkdp , tol , ref , cmat , clkout , found ) ) ) ;  <NL>  }  COM: <s> get pointing attitude for a specified spacecraft clock time </s>

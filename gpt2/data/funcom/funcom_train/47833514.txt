@@ -1,0 +1,1 @@
+TDAT: public predicate get predicate ( int i ) {  <NL> predicate pred = null ;  <NL> if ( i < ( body . size ( ) + head . size ( ) ) ) {  <NL> if ( i < body . size ( ) )  <NL> pred = body . get ( i ) ;  <NL> else <NL> pred = head . get ( i - body . size ( ) ) ;  <NL>  }  <NL> return pred ;  <NL>  }  COM: <s> returns the i th predicate of the template </s>

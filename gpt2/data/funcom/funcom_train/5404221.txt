@@ -1,0 +1,1 @@
+TDAT: private string get create quicklist query ( string name ) {  <NL> return " create table " + name + " ( "  <NL>  + " id smallint ( 5 ) unsigned not null auto _ increment , "  <NL>  + " name varchar ( 100 ) not null , "  <NL>  + " primary key ( id ) , "  <NL>  + " unique name ( name ) ) " ;  <NL>  }  COM: <s> creates a string that creates a table for a quicklist </s>

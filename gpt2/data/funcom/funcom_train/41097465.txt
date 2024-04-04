@@ -1,0 +1,1 @@
+TDAT: public void inmove ( int id , string s )  <NL>  { int m = integer . parse int ( s ) ;  <NL> for ( int i = 1 ; i < playercount ; i + + )  <NL> if ( ( i ! = id ) & & enabled [ i ] ) out [ i ] . carmove ( " " + m ) ;  <NL> game . currentplayer ( ) . move ( m ) ;  <NL>  }  COM: <s> a player sends a move to the server </s>

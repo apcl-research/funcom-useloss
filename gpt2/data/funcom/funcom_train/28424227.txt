@@ -1,0 +1,1 @@
+TDAT: public void open file ( java . io . file f ) {  <NL> if ( f = = null )  <NL> return ;  <NL> if ( f . is directory ( ) )  <NL> return ;  <NL> if ( get view ( ) . get buffer ( ) . get path ( ) . equals ( f . get absolute path ( ) ) )  <NL> return ;  <NL> j edit . open file ( get view ( ) , f . get absolute path ( ) ) ;  <NL>  }  COM: <s> opens the given file in j edit </s>

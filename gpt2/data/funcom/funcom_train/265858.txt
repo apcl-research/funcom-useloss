@@ -1,0 +1,1 @@
+TDAT: protected void draw string right aligned ( graphics2d g2 , font f , string s , float x , float y ) {  <NL> font render context frc = g2 . get font render context ( ) ;  <NL> float width = ( float ) f . get string bounds ( s , frc ) . get width ( ) ;  <NL> g2 . draw string ( s , x - width - cellpady , y ) ;  <NL>  <NL>  }  COM: <s> draws a string right aligned at x y </s>

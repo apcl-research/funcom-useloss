@@ -1,0 +1,1 @@
+TDAT: public void tranform ( double [ ] [ ] mat ) {  <NL> shape = ( new affine transform ( mat [ 0 ] [ 0 ] , mat [ 1 ] [ 0 ] , mat [ 0 ] [ 1 ] , mat [ 1 ] [ 1 ] , mat [ 0 ] [ 2 ] , mat [ 1 ] [ 2 ] ) ) . create transformed shape ( shape ) ;  <NL>  }  COM: <s> transforms the shape using the given matrix </s>

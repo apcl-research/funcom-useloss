@@ -1,0 +1,1 @@
+TDAT: private void drop midnight ( element result element , string timestamp ) {  <NL> final int index of = timestamp . index of ( " 00 : 00 : 00 " ) ;  <NL> if ( index of > 0 ) {  <NL> result element . set attribute ( qa lab tags . date _ attribute , timestamp . substring ( 0 , index of ) ) ;  <NL>  }  <NL>  }  COM: <s> remove the 00 00 00 from timestamp </s>

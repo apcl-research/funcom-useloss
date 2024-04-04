@@ -1,0 +1,1 @@
+TDAT: public void change tick font size ( int delta ) {  <NL> font f = get tick label font ( ) ;  <NL> string f name = f . get font name ( ) ;  <NL> font new font = new font ( f name , f . get style ( ) , ( f . get size ( ) + delta ) ) ;  <NL> set tick label font ( new font ) ;  <NL>  }  COM: <s> increases or decreases the tick font size </s>

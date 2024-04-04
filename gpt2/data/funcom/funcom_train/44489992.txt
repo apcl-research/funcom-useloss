@@ -1,0 +1,1 @@
+TDAT: public sbj get proband ( ) {  <NL> array list pp = get list sbj ( ) ;  <NL> if ( pp . size ( ) > 0 ) {  <NL> for ( int i = 0 ; i < pp . size ( ) ; i + + ) {  <NL> sbj tt = ( sbj ) pp . get ( i ) ;  <NL> if ( tt . get proband ( _ fml ) . equals ( " 1 " ) )  <NL> return tt ;  <NL>  }  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> returns the sbj object set as proband </s>

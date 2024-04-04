@@ -1,0 +1,1 @@
+TDAT: public void test sample double double ( ) {  <NL> i sample sample = new sample ( 1 . 0 , 2 . 0 ) ;  <NL> assert equals ( 2 , sample . size ( ) ) ;  <NL> assert equals ( 1 . 0 , sample . value ( 0 ) ) ;  <NL> assert equals ( 2 . 0 , sample . value ( 1 ) ) ;  <NL>  }  COM: <s> tests the double pair based constructor </s>

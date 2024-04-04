@@ -1,0 +1,1 @@
+TDAT: protected string escape ( string xml ) {  <NL>  <NL> xml = xml . replace all ( " & " , " & amp ; " ) ;  <NL> xml = xml . replace all ( " ' " , " & apos ; " ) ;  <NL> xml = xml . replace all ( " < " , " & lt ; " ) ;  <NL> xml = xml . replace all ( " > " , " & gt ; " ) ;  <NL>  <NL> return xml ;  <NL>  }  COM: <s> replaces reserved characters in the specified </s>

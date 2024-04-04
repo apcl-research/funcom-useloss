@@ -1,0 +1,1 @@
+TDAT: private float header ( graphics2d g2d , float line height ) {  <NL> center ( g2d , title , line height ) ;  <NL> g2d . draw line ( 0 , ( int ) ( line height * 1 . 5 ) ,  <NL> g2d . get clip bounds ( ) . width , ( int ) ( line height * 1 . 5 ) ) ;  <NL> return line height * 3 ;  <NL>  <NL>  }  COM: <s> print a header on the page </s>

@@ -1,0 +1,1 @@
+TDAT: public vec3f get position ( ) {  <NL> vec3f result = null ;  <NL> float [ ] pos = new float [ 3 ] ;  <NL> al . al get sourcefv ( source id , al . al _ position , pos , 0 ) ;  <NL> result = new vec3f ( pos [ 0 ] , pos [ 1 ] , pos [ 2 ] ) ;  <NL>  <NL> return result ;  <NL>  }  COM: <s> gets the x y z position of the source </s>

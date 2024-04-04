@@ -1,0 +1,1 @@
+TDAT: private string format int ( int int val ) {  <NL> string hex str = integer . to hex string ( int val ) ;  <NL> string buffer buf = new string buffer ( " 00000000 " ) ;  <NL> int start = 8 - hex str . length ( ) ; / / > = 0 <NL> buf . replace ( start , 8 , hex str ) ;  <NL> return buf . to string ( ) ;  <NL>  }  COM: <s> int val 0 length 8 string </s>

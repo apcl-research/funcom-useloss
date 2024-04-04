@@ -1,0 +1,1 @@
+TDAT: private void read bytes ( input stream is , byte array output stream bytes ) throws io exception {  <NL> int n = 0 ;  <NL> byte [ ] buffer = new byte [ 1024 ] ;  <NL> while ( n > - 1 ) {  <NL> n = is . read ( buffer , 0 , 1024 ) ;  <NL> if ( n > - 1 ) {  <NL> bytes . write ( buffer , 0 , n ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> read is into bytes </s>

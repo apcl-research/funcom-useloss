@@ -1,0 +1,1 @@
+TDAT: private void set button format ( ) {  <NL> font button font = get font ( ) ;  <NL> set font ( new font ( button font . get font name ( ) ,  <NL> button font . get style ( ) ,  <NL> button font . get size ( ) - 1 ) ) ;  <NL> set margin ( new insets ( 0 , 0 , 0 , 0 ) ) ;  <NL>  }  COM: <s> sets the button format </s>

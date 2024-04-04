@@ -1,0 +1,1 @@
+TDAT: public void test cloning ( ) {  <NL> init cache ( ) ;  <NL> transitive graph cache clone = cache . deep copy ( ) ;  <NL>  / / mess with the original to check cloning <NL> cache . add relation ( new triple ( a , closed p , d ) ) ;  <NL> cache . add relation ( new triple ( g , closed p , a ) ) ;  <NL> do basic test ( clone ) ;  <NL>  }  COM: <s> test the clone operation </s>

@@ -1,0 +1,1 @@
+TDAT: public int compare to ( task t ) {  <NL> if ( this . get time stamp ( ) < t . get time stamp ( ) ) {  <NL> return - 1 ;  <NL>  } else if ( this . get time stamp ( ) > t . get time stamp ( ) ) {  <NL> return 1 ;  <NL>  } else {  <NL> return this . get id ( ) - t . get id ( ) ;  <NL>  }  <NL>  }  COM: <s> higher priority is based on time stamp property with ties broken </s>

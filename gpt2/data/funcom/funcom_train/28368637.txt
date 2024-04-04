@@ -1,0 +1,1 @@
+TDAT: public void set srcdir ( file src ) {  <NL> log ( " set srcdir ( " + src + " ) " , project . msg _ verbose ) ;  <NL> if ( ! src . exists ( ) ) {  <NL> throw new build exception ( " invalid ' srcdir ' parameter : " + src , get location ( ) ) ;  <NL>  }  <NL>  _ src = src ;  <NL>  }  COM: <s> set the source directory to read input from </s>

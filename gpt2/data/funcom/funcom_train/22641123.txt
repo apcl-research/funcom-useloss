@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> return " [ type = " + type + ( is source ? " , source " : " " ) + ( is resource ? " , resource " : " " )  <NL>  + ( is valid ? " , valid " : " " ) + ( is buildable ? " , buildable " : " " ) + " ] " ;  <NL>  }  COM: <s> information about this file resource </s>

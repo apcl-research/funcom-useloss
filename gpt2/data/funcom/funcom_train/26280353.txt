@@ -1,0 +1,1 @@
+TDAT: public void resize ( int new width , int new height , int x _ offset , int y _ offset ) throws j gimp exception {  <NL> m _ app . call procedure ( " gimp _ image _ resize " , this , new j gimp int32 ( new width ) , new j gimp int32 ( new height ) , new j gimp int32 ( x _ offset ) , new j gimp int32 ( y _ offset ) ) ;  <NL>  }  COM: <s> resizes the image </s>

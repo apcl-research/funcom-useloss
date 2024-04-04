@@ -1,0 +1,1 @@
+TDAT: private region create region mother ( ) {  <NL> size size max = get max coordinate ( ) ;  <NL> coordinate centroid = new coordinate ( 0 , 0 , 0 ) ;  <NL> region region mother = new region ( 0 , centroid , size max . get width ( ) , size max . get length ( ) , size max . get heigh ( ) ) ;  <NL> return region mother ;  <NL>  }  COM: <s> creates the mother region </s>

@@ -1,0 +1,1 @@
+TDAT: public field instance field named ( name name ) {  <NL> for ( iterator < field instance > i = fields ( ) . iterator ( ) ; i . has next ( ) ; ) {  <NL> field instance fi = ( field instance ) i . next ( ) ;  <NL> if ( fi . name ( ) . equals ( name ) ) {  <NL> return fi ;  <NL>  }  <NL>  }  <NL>  <NL> return null ;  <NL>  }  COM: <s> get a field of the class by name </s>

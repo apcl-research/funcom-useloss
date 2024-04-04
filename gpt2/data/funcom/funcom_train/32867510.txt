@@ -1,0 +1,1 @@
+TDAT: public jid get jid ( jid jid , int n mask ) {  <NL> enumeration e = v ji ds . elements ( ) ;  <NL> while ( e . has more elements ( ) ) {  <NL> object obj = e . next element ( ) ;  <NL> if ( ( ( jid ) obj ) . is equal ( jid , n mask ) = = true )  <NL> return ( ( jid ) obj ) ;  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> find the specified member in the current group </s>

@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL>  <NL> if ( m _ successors = = null ) {  <NL> return " random tree : no model has been built yet . " ;  <NL>  } else {  <NL> return <NL>  " \n random tree\n = = = = = = = = = = \n " + to string ( 0 ) + " \n " +  <NL>  " \n size of the tree : " + num nodes ( ) ;  <NL>  }  <NL>  }  COM: <s> outputs the decision tree </s>

@@ -1,0 +1,1 @@
+TDAT: private void layout gui ( ) {  <NL> this . set layout ( new grid bag layout ( ) ) ;  <NL>  <NL> this . add ( this . pnl trg evt , new grid position ( 0 , 0 , 1 , 2 ) ) ;  <NL> this . add ( this . knb trg dly , new grid position ( 1 , 0 , 1 , 1 ) ) ;  <NL> this . add ( this . whl trg dly , new grid position ( 1 , 1 , 1 , 1 ) ) ;  <NL>  }  COM: <s> layout the gui display </s>

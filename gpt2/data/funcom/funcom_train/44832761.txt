@@ -1,0 +1,1 @@
+TDAT: public void set tab index ( integer tab index ) {  <NL>  <NL> integer result = ( integer ) component utils . invoke method ( get page ( ) . get handler ( ) ,  <NL> get method ( " on set tab index " ) , new object [ ] { tab index } ) ;  <NL>  <NL> this . tab index = ( result ! = null ) ? result : tab index ;  <NL>  }  COM: <s> setter for property tab index </s>

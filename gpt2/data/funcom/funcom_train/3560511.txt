@@ -1,0 +1,1 @@
+TDAT: public void attach ( clippable new son ) {  <NL> try {  <NL> id = medi linker . link ( container type , id , new son . get type ( ) ,  <NL>  ( object [ ] ) new son . get value ( ) ) ;  <NL>  }  <NL> catch ( db exception e ) {  <NL> system . out . println ( " [ medi table model ] : cannot link " ) ;  <NL>  }  <NL>  }  COM: <s> attaches another object into this one </s>

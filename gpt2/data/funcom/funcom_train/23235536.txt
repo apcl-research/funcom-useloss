@@ -1,0 +1,1 @@
+TDAT: private void draw hair ( int code , graphics g ) {  <NL> clean ( g ) ;  <NL> sprite store . get ( ) . get sprites ( outfit store . get ( ) . get hair sprite ( hairs _ index ) , animation , 3 , 2 , 3 ) [ 1 ] . draw ( g , 2 , 2 ) ;  <NL>  }  COM: <s> draws a hair images from an outfit code </s>

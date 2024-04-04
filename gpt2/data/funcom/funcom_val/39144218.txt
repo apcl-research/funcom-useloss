@@ -1,0 +1,1 @@
+TDAT: private game search game ( string id game ) {  <NL> for ( int i = 0 ; i < common variables . l games . size ( ) ; i + + ) {  <NL> if ( common variables . l games . get ( i ) . get id game ( ) = = id game ) {  <NL> return common variables . l games . get ( i ) ;  <NL>  }  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> method that returns a game from his id </s>

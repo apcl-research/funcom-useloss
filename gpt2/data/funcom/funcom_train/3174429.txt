@@ -1,0 +1,1 @@
+TDAT: public void put ( string key , j frame frame ) {  <NL> rectangle bounds = frame . get bounds ( ) ;  <NL> boolean maximized = frame . get extended state ( ) = = j frame . maximized _ both ;  <NL> if ( bounds ! = null & & ! maximized )  <NL> put ( key , bounds ) ;  <NL> put ( key + " . maximized " , maximized ) ;  <NL>  }  COM: <s> store jframe characteristics </s>

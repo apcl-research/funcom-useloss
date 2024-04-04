@@ -1,0 +1,1 @@
+TDAT: public void remove header ( string name ) {  <NL> for ( int i = 0 ; i < headers . size ( ) ; i + + ) {  <NL> hdr h = ( hdr ) headers . get ( i ) ;  <NL> if ( name . equals ignore case ( h . name ) ) {  <NL> headers . remove ( i ) ;  <NL> i - - ; / / have to look at i again <NL>  }  <NL>  }  <NL>  }  COM: <s> remove all header entries that match the given name </s>

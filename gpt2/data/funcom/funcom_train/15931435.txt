@@ -1,0 +1,1 @@
+TDAT: private void adjust pool counts on unblock ( fork join pool pool ) {  <NL> int s ;  <NL> do ; while ( ( s = status ) < 0 & & ! cas status ( s , s & completion _ mask ) ) ;  <NL> if ( pool ! = null & & ( s & = internal _ signal _ mask ) ! = 0 )  <NL> pool . update running count ( s ) ;  <NL>  }  COM: <s> notify pool that thread is unblocked </s>

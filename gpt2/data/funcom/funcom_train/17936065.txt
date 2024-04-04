@@ -1,0 +1,1 @@
+TDAT: public double get accuracy ( integer c , integer run ) {  <NL> return ( get true positives ( c , run ) + get true negatives ( c , run ) ) / ( double ) ( get true positives ( c , run ) + get true negatives ( c , run ) + get false positives ( c , run ) + get false negatives ( c , run ) ) ;  <NL>  }  COM: <s> tp tn tp tn fp fn </s>

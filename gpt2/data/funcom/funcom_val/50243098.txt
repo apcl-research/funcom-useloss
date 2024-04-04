@@ -1,0 +1,1 @@
+TDAT: public void set archives ( file [ ] files ) {  <NL> paths = new string [ files . length ] ;  <NL>  <NL> for ( int i = 0 ; i < files . length ; i + + ) {  <NL> try {  <NL> paths [ i ] = files [ i ] . get canonical path ( ) ;  <NL>  } catch ( io exception e ) { } / / ignore - can ' t do much about an invalid file object <NL>  }  <NL>  }  COM: <s> set the drivers </s>

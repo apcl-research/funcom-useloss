@@ -1,0 +1,1 @@
+TDAT: private j text field get in variant ( ) {  <NL> if ( in variant = = null ) {  <NL> in variant = new j text field ( ) ;  <NL> in variant . set bounds ( new java . awt . rectangle ( 92 , 95 , 181 , 25 ) ) ;  <NL> in variant . set editable ( true ) ;  <NL>  }  <NL> return in variant ;  <NL>  }  COM: <s> this method initializes in variant </s>

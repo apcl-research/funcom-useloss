@@ -1,0 +1,1 @@
+TDAT: public void set item count ( int count ) {  <NL> check widget ( ) ;  <NL> count = math . max ( 0 , count ) ;  <NL> int / * long * / h item = os . send message ( handle , os . tvm _ getnextitem , os . tvgn _ root , 0 ) ;  <NL> set item count ( count , os . tvgn _ root , h item ) ;  <NL>  }  COM: <s> sets the number of root level items contained in the receiver </s>

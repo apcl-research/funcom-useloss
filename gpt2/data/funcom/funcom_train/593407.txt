@@ -1,0 +1,1 @@
+TDAT: public void set silent ( boolean silent , page context page context ) throws io exception {  <NL> if ( silent ! = this . silent ) {  <NL> page context . get out ( ) . write ( toggle ) ;  <NL> this . silent = silent ;  <NL> log . trace ( " output is " , ( silent ? " disabled " : " enabled " ) ) ;  <NL>  }  <NL>  }  COM: <s> enable or disable silent mode </s>

@@ -1,0 +1,1 @@
+TDAT: public void visit ( type specifier cycle n , a argu ) {  <NL> n . type specifier . accept ( this , argu ) ;  <NL> n . node optional . accept ( this , argu ) ;  <NL> n . node optional1 . accept ( this , argu ) ;  <NL> n . node optional2 . accept ( this , argu ) ;  <NL>  }  COM: <s> type specifier type specifier </s>

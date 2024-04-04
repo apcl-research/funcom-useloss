@@ -1,0 +1,1 @@
+TDAT: private string derive acos ( string exp , string vari ) {  <NL> return ( make product ( " - 1 " , make division ( derive ( arg1 ( exp ) , vari ) ,  <NL> make squareroot ( make subtraction ( " 1 " , make power ( arg1 ( exp ) , " 2 " ) ) ) ) ) ) ;  <NL>  }  COM: <s> derives the prefix expression acos i arg1 arg2 i </s>

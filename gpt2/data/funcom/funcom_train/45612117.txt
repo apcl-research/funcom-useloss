@@ -1,0 +1,1 @@
+TDAT: public void set stat ( integer index , a target ) {  <NL> a a = null ;  <NL> try { a = stats . get ( index ) ; } catch ( array index out of bounds exception ae ) { a = null ; }  <NL> stats . add ( index , target ) ;  <NL> propsup . fire indexed property change ( " stat " , index , a , target ) ;  <NL>  }  COM: <s> sets a stat by index </s>

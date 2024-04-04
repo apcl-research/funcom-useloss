@@ -1,0 +1,1 @@
+TDAT: public void test multiple predicate ( ) {  <NL> do test ( fast factory . m multiple predicate ( e s ) , t s ) ;  <NL> do test ( fast factory . m multiple predicate ( e s , e s ) , t s ) ;  <NL> do test ( fast factory . m multiple predicate ( e s , e s , e s ) , t s ) ;  <NL>  }  COM: <s> ensures that given types in a multiple predicate are propagated </s>

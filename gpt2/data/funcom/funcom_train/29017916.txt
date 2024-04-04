@@ -1,0 +1,1 @@
+TDAT: public void set minimum ( int value ) {  <NL> check widget ( ) ;  <NL> int maximum = ( int ) / * 64 * / os . send message ( handle , os . tbm _ getrangemax , 0 , 0 ) ;  <NL> if ( 0 < = value & & value < maximum ) {  <NL> os . send message ( handle , os . tbm _ setrangemin , 1 , value ) ;  <NL>  }  <NL>  }  COM: <s> sets the minimum value that the receiver will allow </s>

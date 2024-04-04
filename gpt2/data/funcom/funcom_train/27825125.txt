@@ -1,0 +1,1 @@
+TDAT: public concept get concept ( string uri ) {  <NL> synchronized ( get lock ( ) ) {  <NL> concept concept = ( concept ) m _ concepts . get ( uri ) ;  <NL> if ( concept = = null ) {  <NL> concept = new concept proxy ( this , uri ) ;  <NL> m _ concepts . put ( uri , concept ) ;  <NL>  }  <NL> return concept ;  <NL>  }  <NL>  }  COM: <s> returns a concept with given uri </s>

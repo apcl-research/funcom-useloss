@@ -1,0 +1,1 @@
+TDAT: public void clear filters ( ) {  <NL>  _ filters . clear ( ) ;  <NL>  _ filters . add ( new scan identifier filter ( _ engine type , scripting const . engine _ type _ jsf _ all , scripting const . engine _ type _ jsf _ no _ engine ) ) ;  <NL>  _ filters . add ( new standard namespace filter ( ) ) ;  <NL>  }  COM: <s> clears the entire filter map </s>

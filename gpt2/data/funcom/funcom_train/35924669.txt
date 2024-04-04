@@ -1,0 +1,1 @@
+TDAT: public void substitute ( string from , string to ) {  <NL> int i ;  <NL>  <NL> for ( i = 0 ; i < index ; i + + ) {  <NL> if ( ( keep comments ) & & ( buffer [ i ] . starts with ( " # " ) ) ) continue ;  <NL> buffer [ i ] = buffer [ i ] . replace all ( from , to ) ;  <NL>  }  <NL>  }  COM: <s> substitute all occurence of a string by another string </s>

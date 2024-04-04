@@ -1,0 +1,1 @@
+TDAT: public set key set ( ) {  <NL> set result = new hash set ( 11 ) ;  <NL> for ( int i = table . length - 1 ; i > = 0 ; i - - ) {  <NL> for ( entry e = table [ i ] ; e ! = null ; e = e . next ) {  <NL> result . add ( e . key ) ;  <NL>  }  <NL>  }  <NL> return result ;  <NL>  }  COM: <s> returns a set that contains the keys </s>

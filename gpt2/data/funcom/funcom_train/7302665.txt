@@ -1,0 +1,1 @@
+TDAT: public void seek ( long pos , int mode ) {  <NL> if ( mode = = 1 )  <NL> this . pos = ( int ) pos + this . pos ;  <NL> else if ( mode = = 2 )  <NL> this . pos = ( int ) pos + count ;  <NL> else <NL> this . pos = math . max ( 0 , ( int ) pos ) ;  <NL>  }  COM: <s> position the file pointer to the position in the </s>

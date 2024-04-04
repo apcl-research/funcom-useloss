@@ -1,0 +1,1 @@
+TDAT: public user get user by team ( team team ) {  <NL> user [ ] my users = get users ( ) ;  <NL> for ( int i = 0 ; i < my users . length ; i + + ) {  <NL> if ( my users [ i ] . get team ( ) . equals ( team ) ) {  <NL> return my users [ i ] ;  <NL>  }  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> returns the owner of a team </s>

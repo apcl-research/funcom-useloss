@@ -1,0 +1,1 @@
+TDAT: public boolean is equal to ( cml matrix matrix , double eps ) {  <NL> return ( this . get rows ( ) = = matrix . get rows ( )  <NL>  & & this . get columns ( ) = = matrix . get columns ( ) & & util . is equal (  <NL> this . get double array ( ) , matrix . get double array ( ) , eps ) ) ;  <NL>  }  COM: <s> are two matrices equal </s>

@@ -1,0 +1,1 @@
+TDAT: public void disconnect ( ) {  <NL> try {  <NL> engine in . close ( ) ;  <NL> engine out . close ( ) ;  <NL> engine error . close ( ) ;  <NL>  } catch ( java . io . io exception e ) {  <NL> system . err . print ( e ) ;  <NL> system . exit ( 4 ) ;  <NL>  }  <NL> engine . destroy ( ) ;  <NL> in out . close ( ) ;  <NL>  }  COM: <s> disconnect connection to kgtp engine </s>

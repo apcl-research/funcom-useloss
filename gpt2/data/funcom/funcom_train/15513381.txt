@@ -1,0 +1,1 @@
+TDAT: public void test regex from plain ( ) {  <NL> string plain pattern = " . ab ( 1 ) * x " ;  <NL> string regex = plain pattern . replace all ( " ( \\w ) " , " \\\\ $ 1 " ) ;  <NL> assert equals ( " \\ . ab\\ ( 1\\ ) \\ * x " , regex ) ;  <NL> assert true ( pattern . matches ( regex , plain pattern ) ) ;  <NL>  }  COM: <s> tests building a regex from an ordinary string </s>

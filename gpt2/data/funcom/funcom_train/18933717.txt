@@ -1,0 +1,1 @@
+TDAT: public boolean same type ( unit other ) {  <NL> if ( exp . length ! = other . exp . length ) {  <NL> return false ; / / this should never happen .  <NL>  }  <NL> for ( int i = 0 ; i < exp . length ; i + + ) {  <NL> if ( exp [ i ] ! = other . exp [ i ] ) return false ;  <NL>  }  <NL> return true ;  <NL>  }  COM: <s> return true if code other code measures the same </s>

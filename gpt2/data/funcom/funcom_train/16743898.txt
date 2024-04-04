@@ -1,0 +1,1 @@
+TDAT: public void get haplotype ( int phase , chrom chrom , d array integer indices , bit set by unit b , int individual , hashtable < integer , bit set by unit > exceptions , long [ ] entry ) {  <NL> m chr [ chrom . get code ( ) - 1 ] . access haplotype ( phase , indices , b , entry , individual , exceptions ) ;  <NL>  }  COM: <s> throws null pointer exception on failure </s>

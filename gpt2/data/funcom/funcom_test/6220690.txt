@@ -1,0 +1,1 @@
+TDAT: public t get t ( string id ) {  <NL> for ( int i = 0 ; i < this . ts . size ( ) ; i + + ) {  <NL> t current t = ( t ) this . ts . get ( i ) ;  <NL> if ( current t . get id ( ) . equals ignore case ( id ) ) {  <NL> return current t ;  <NL>  }  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> returns the code t code which has the given id </s>

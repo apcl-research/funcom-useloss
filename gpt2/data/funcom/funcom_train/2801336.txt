@@ -1,0 +1,1 @@
+TDAT: private void append ae header ( i message p ae30msg ) {  <NL> p ae30msg . append ( " ^ pfmt ^ " , ( short ) 10 ) ;  <NL> p ae30msg . append ( " ^ ver ^ " , ( short ) 30 ) ;  <NL> p ae30msg . append ( " ^ type ^ " , ( short ) 1 ) ;  <NL> p ae30msg . append ( " ^ encoding ^ " , ( short ) 1 ) ;  <NL>  }  COM: <s> appends the active enterprise v3 </s>

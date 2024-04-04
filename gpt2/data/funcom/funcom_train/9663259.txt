@@ -1,0 +1,1 @@
+TDAT: public void put pager ( widget widget ) {  <NL> if ( widget ! = null ) {  <NL> get panel ( ) . add ( widget ) ;  <NL> get panel ( ) . set cell width ( widget , " 1 % " ) ;  <NL> get panel ( ) . set cell width ( ( widget ) get value ( ) , " 98 % " ) ;  <NL> this . pager = widget ;  <NL>  }  <NL>  }  COM: <s> this method adds a pager widget into the cell </s>

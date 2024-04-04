@@ -1,0 +1,1 @@
+TDAT: public void set home url ( url home url ) {  <NL> if ( ( ( this . home url ! = null ) & & ! this . home url . equals ( home url ) ) || <NL>  ( ( this . home url = = null ) & & ( home url ! = null ) ) ) {  <NL> this . home url = home url ;  <NL> set modified ( true ) ;  <NL>  }  <NL>  }  COM: <s> sets the new value of the simple property home url </s>

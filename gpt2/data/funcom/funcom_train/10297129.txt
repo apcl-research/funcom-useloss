@@ -1,0 +1,1 @@
+TDAT: public void add row to map ( object row , map destination ) {  <NL> string cell1 = get string ( get item ( row , 0 ) , " text " ) ;  <NL> string cell2 = get string ( get item ( row , 1 ) , " text " ) ;  <NL> destination . put ( cell1 , cell2 ) ;  <NL>  }  COM: <s> adds a single row to a map </s>

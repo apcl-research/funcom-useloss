@@ -1,0 +1,1 @@
+TDAT: private int read ( ) throws io exception {  <NL> if ( read < ( - 1 ) ) read = reader . read ( ) ;  <NL> if ( read < 0 ) { malform ( " unexpected end of file . " ) ; } else if ( read = = ' \n ' ) { x = 1 ; y + + ; } else { x + + ; }  <NL> int ans = read ;  <NL> read = - 2 ;  <NL> return ans ;  <NL>  }  COM: <s> read the next character </s>

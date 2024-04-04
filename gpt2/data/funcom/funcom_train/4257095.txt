@@ -1,0 +1,1 @@
+TDAT: public string format date ( date date , boolean cookie ) {  <NL> if ( cookie ) {  <NL> return date utils . format ( date , date utils . format _ rfc _ 1036 . get ( 0 ) ) ;  <NL>  } else {  <NL> return date utils . format ( date , date utils . format _ rfc _ 1123 . get ( 0 ) ) ;  <NL>  }  <NL>  }  COM: <s> formats a date as a header string </s>

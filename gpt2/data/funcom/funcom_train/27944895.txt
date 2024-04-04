@@ -1,0 +1,1 @@
+TDAT: public list connectors ( int type ) {  <NL> list cons = new linked list ( ) ;  <NL> for ( int i = 0 ; i < all connectors . length ; i + + ) {  <NL> if ( ( all connectors [ i ] . type ( ) & type ) ! = 0 ) {  <NL> cons . add ( all connectors [ i ] ) ;  <NL>  }  <NL>  }  <NL> return cons ;  <NL>  }  COM: <s> returns the list of all known </s>

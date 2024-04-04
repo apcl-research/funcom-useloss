@@ -1,0 +1,1 @@
+TDAT: protected void set selected item id ( string tab id , string item id ) {  <NL>  <NL> if ( tab id ! = null & & ! tab id . equals ( " " ) & & item id ! = null & & ! item id . equals ( " " ) ) {  <NL>  <NL> items map . put ( tab id , item id ) ;  <NL>  }  <NL>  }  COM: <s> sets the id of the selected item for the given tab </s>

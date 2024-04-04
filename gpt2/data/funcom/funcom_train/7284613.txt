@@ -1,0 +1,1 @@
+TDAT: public void remove song ( transaction txn , final song song ) {  <NL> if ( txn ! = null ) {  <NL> txn . add txn ( this , new txn ( ) {  <NL> public void commit ( transaction txn ) {  <NL> remove song p ( txn , song ) ;  <NL>  }  <NL>  } ) ;  <NL>  } else {  <NL> remove song p ( txn , song ) ;  <NL>  }  <NL>  }  COM: <s> removes code song code from this playlist </s>

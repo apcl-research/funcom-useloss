@@ -1,0 +1,1 @@
+TDAT: public double cal kernel dist ( double [ ] x , double [ ] y ) {  <NL> if ( x . length ! = y . length ) {  <NL> throw new runtime exception ( " the vector dimention error ! " ) ;  <NL>  }  <NL>  <NL> return ( k ( x , x ) - 2 * k ( x , y ) + k ( y , y ) ) ;  <NL>  }  COM: <s> calculate the distances square of two vectors using kernel way </s>

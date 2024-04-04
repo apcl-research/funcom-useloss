@@ -1,0 +1,1 @@
+TDAT: public j menu item get menu view lnf ( ) {  <NL> if ( m _ menu view lnf = = null ) {  <NL> m _ menu view lnf = new j menu item ( " look and feel " , ' l ' ) ;  <NL> m _ menu view lnf . set action command ( action _ view _ lnf ) ;  <NL>  }  <NL> return m _ menu view lnf ;  <NL>  }  COM: <s> returns the view lnf item </s>

@@ -1,0 +1,1 @@
+TDAT: public void property change ( property change event pce ) {  <NL> if ( pce . get property name ( ) . equals ( argo . key _ user _ fullname . get key ( ) ) ) {  <NL> designer name = pce . get new value ( ) . to string ( ) ;  <NL>  } else {  <NL> critique asap ( pce . get source ( ) , pce . get property name ( ) ) ;  <NL>  }  <NL>  }  COM: <s> performs critique asap </s>

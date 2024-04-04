@@ -1,0 +1,1 @@
+TDAT: private int hash string ( string s , int hk ) {  <NL>  <NL>  / / this is a fairly stupid hash function . this could certainly be improved .  <NL> int hv = hk ;  <NL> for ( int i = 0 ; i < s . length ( ) ; + + i ) {  <NL> hv = ( hv * hk ) ^ s . char at ( i ) + hk ;  <NL>  }  <NL> return hv ;  <NL>  }  COM: <s> compute a hash value for a string </s>

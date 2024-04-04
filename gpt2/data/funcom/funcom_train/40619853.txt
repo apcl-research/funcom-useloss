@@ -1,0 +1,1 @@
+TDAT: private void add log entry ( string text , string color ) {  <NL> text = " < b > " + line count + " : < / b > " + " < font color = \ " " + color + " \ " > "  <NL>  + text + " < / font > " + " < br > " + log label . get html ( ) ;  <NL> log label . set html ( text ) ;  <NL> line count + + ;  <NL>  }  COM: <s> add some data to the log </s>

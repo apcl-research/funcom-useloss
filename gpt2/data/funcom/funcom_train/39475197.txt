@@ -1,0 +1,1 @@
+TDAT: public void add noise ( random r , double range ) {  <NL> for ( int i = 0 ; i < weights . length ; i + + ) {  <NL> for ( int j = 0 ; j < weights [ i ] . length ; j + + ) {  <NL> weights [ i ] [ j ] + = r . next gaussian ( ) * range ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> add gaussian noise to all the weights in this layer </s>

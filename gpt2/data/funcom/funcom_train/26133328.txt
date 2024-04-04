@@ -1,0 +1,1 @@
+TDAT: public int index of ( final object o ) {  <NL> sanity check ( ) ;  <NL> int count = 0 ;  <NL> for ( iterator i = iterator ( ) ;  <NL>  ! i . at end ( ) ;  <NL> i . advance ( ) , + + count ) {  <NL> if ( i . get ( ) . equals ( o ) )  <NL> return count ;  <NL>  }  <NL> return - 1 ;  <NL>  }  COM: <s> find out the position of an code object code in the </s>

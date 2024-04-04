@@ -1,0 +1,1 @@
+TDAT: public void set all ( int val [ ] [ ] ) {  <NL> if ( val . length ! = raster . get nx ( ) ||val [ 0 ] . length ! = raster . get ny ( ) ) {  <NL> resize raster ( val . length , val [ 0 ] . length ) ;  <NL>  }  <NL> raster . set block ( 0 , 0 , val ) ;  <NL>  }  COM: <s> sets the rasters values using integer values </s>

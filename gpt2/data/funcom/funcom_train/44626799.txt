@@ -1,0 +1,1 @@
+TDAT: public void test model method ( ) {  <NL> add mock file ( " $ a / a . jml " , " public class a { \n / / @ model int m ( ) { } \n } " ) ;  <NL> help tcf ( " a . java " , " public class a { } "  <NL>  , " / $ a / a . jml : 2 : missing return statement " , 20 <NL>  ) ;  <NL>  }  COM: <s> flow checks for model methods </s>

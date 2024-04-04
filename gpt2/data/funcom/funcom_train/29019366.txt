@@ -1,0 +1,1 @@
+TDAT: public void draw ( gc gc , int x , int y , int selection start , int selection end , color selection foreground , color selection background ) {  <NL> draw ( gc , x , y , selection start , selection end , selection foreground , selection background , 0 ) ;  <NL>  }  COM: <s> draws the receivers text using the specified gc at the specified </s>

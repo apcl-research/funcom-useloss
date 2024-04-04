@@ -1,0 +1,1 @@
+TDAT: protected boolean approx _ equals ( int a1 , int a2 , int a3 , int b1 , int b2 , int b3 ) {  <NL> int total delta = math . abs ( a1 - b1 ) + math . abs ( a2 - b2 ) + math . abs ( a3 - b3 ) ;  <NL> return total delta < = 3 ;  <NL>  }  COM: <s> return true if at most one coodinate differs by at most two </s>

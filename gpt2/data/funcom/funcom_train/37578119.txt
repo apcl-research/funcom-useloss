@@ -1,0 +1,1 @@
+TDAT: public void paint ( graphics g ) {  <NL> g . set color ( 0x ffffff ) ;  <NL> g . fill rect ( 0 , 0 , get width ( ) , get height ( ) ) ;  <NL> g . translate ( translate x , translate y ) ;  <NL> g . draw image ( image , 0 , 0 , g . top|g . left ) ;  <NL> location pointer . paint ( g ) ;  <NL>  }  COM: <s> paint the canvas </s>

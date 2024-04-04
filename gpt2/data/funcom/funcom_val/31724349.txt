@@ -1,0 +1,1 @@
+TDAT: public void write segment ( string clid , string n , long s , double x1 , double y1 , double x2 , double y2 ) throws remote exception {  <NL> string seg = x1 + " " + y1 + " " + x2 + " " + y2 ;  <NL> add entry ( clid , n , " segment " , s , seg ) ;  <NL>  }  COM: <s> writes a line entry to the log </s>

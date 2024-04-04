@@ -1,0 +1,1 @@
+TDAT: public double get component ( int i , int j , int k , int l ) {  <NL> if ( i > = 0 & & i < 4 & & j > = 0 & & j < 4 & & k > = 0 & & k < 4 & & l > = 0 & & l < 4 )  <NL> return rank4 [ i ] [ j ] [ k ] [ l ] ;  <NL> else <NL> throw new dimension exception ( " invalid component . " ) ;  <NL>  }  COM: <s> returns a component of this tensor </s>

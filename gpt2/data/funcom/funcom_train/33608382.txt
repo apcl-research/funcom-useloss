@@ -1,0 +1,1 @@
+TDAT: public void set weight ( v x , v y , e value ) {  <NL> if ( parent . adjacent ( x , y ) ) {  <NL> weights . get ( x ) . put ( y , value ) ;  <NL> if ( ! is directed ( ) ) weights . get ( y ) . put ( x , value ) ;  <NL>  }  <NL>  }  COM: <s> sets the value associated with specified edge provided the edge exists </s>

@@ -1,0 +1,1 @@
+TDAT: public void set file ( file file ) {  <NL> file old file = this . file ;  <NL> this . file = file ;  <NL>  / / ovt core . set global setting ( name + " . file " , file . get absolute path ( ) ) ;  <NL> property change support . fire property change ( " file " , old file , file ) ;  <NL>  }  COM: <s> setter for property file </s>

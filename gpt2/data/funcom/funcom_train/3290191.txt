@@ -1,0 +1,1 @@
+TDAT: private string get info field ( mm object node message , string field ) {  <NL> string info = message . get string value ( f _ info ) ;  <NL> string tagger tagger = new string tagger ( info , ' \n ' , ' = ' , ' , ' , ' \ " ' ) ;  <NL> return get html ( tagger . value ( field ) ) ;  <NL>  }  COM: <s> obtain a value from the multi purpose code info code field </s>

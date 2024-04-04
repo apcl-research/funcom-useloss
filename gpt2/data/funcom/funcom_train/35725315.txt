@@ -1,0 +1,1 @@
+TDAT: public lemming ( int number , field f , test t , int dir ) {  <NL>  / / todo view . add anim ( new lemming anim ( this ) ) ;  <NL> position = new int [ 2 ] ;  <NL> test = t ;  <NL> map = f ;  <NL> direction = dir ;  <NL> counter = number ;  <NL> tools = new tool [ 3 ] ;  <NL> current = map . get current ( ) ;  <NL>  }  COM: <s> temporary for skeleton </s>

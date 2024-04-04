@@ -1,0 +1,1 @@
+TDAT: private void init ( final writer writer ) {  <NL> set output ( writer ) ;  <NL>  _ ns support = new namespace support ( ) ;  <NL>  _ prefix table = new tree map < string , string > ( ) ;  <NL>  _ forced decl table = new tree map < string , boolean > ( ) ;  <NL>  _ done decl table = new tree map < string , string > ( ) ;  <NL>  }  COM: <s> internal initialization method </s>

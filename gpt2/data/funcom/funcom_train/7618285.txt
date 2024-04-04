@@ -1,0 +1,1 @@
+TDAT: public boolean set rect to rect ( rect f src , rect f dst , scale to fit stf ) {  <NL> if ( dst = = null || src = = null ) {  <NL> throw new null pointer exception ( ) ;  <NL>  }  <NL> return native _ set rect to rect ( native _ instance , src , dst , stf . native int ) ;  <NL>  }  COM: <s> set the matrix to the scale and translate values that map the source </s>

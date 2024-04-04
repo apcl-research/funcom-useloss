@@ -1,0 +1,1 @@
+TDAT: public int write ( byte buffer src ) throws io exception {  <NL> if ( ! is open ) {  <NL> throw new io exception ( " not open " ) ;  <NL>  }  <NL> int n = libc . write ( fd , src , src . remaining ( ) ) ;  <NL> if ( n > 0 ) {  <NL> src . position ( src . position ( ) + n ) ;  <NL>  }  <NL> return n ;  <NL>  }  COM: <s> writes data to the native unix file descriptor </s>

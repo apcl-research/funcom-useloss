@@ -1,0 +1,1 @@
+TDAT: public void blit ( byte target [ ] , int offset ) {  <NL> for ( int j = 0 ; j < id bit length / 8 ; j + + ) {  <NL> int k = id [ j / 4 ] > > ( ( j % 4 ) * 8 ) ;  <NL> target [ offset + j ] = ( byte ) ( k & 0xff ) ;  <NL>  }  <NL>  }  COM: <s> blits the distance into a target array starting at the given offset </s>

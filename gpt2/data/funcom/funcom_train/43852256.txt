@@ -1,0 +1,1 @@
+TDAT: private boolean found ( final byte [ ] tok , final byte [ ] lng ) {  <NL> final string t = token . string ( tok ) . to lower case ( ) ;  <NL> final string s = token . string ( lng ) . to lower case ( ) ;  <NL> return t . matches ( ' ^ ' + s + " ( $ | - ) | - " + s + " ( $ | - ) " ) ;  <NL>  }  COM: <s> simple method to find language attribute inside specified token </s>

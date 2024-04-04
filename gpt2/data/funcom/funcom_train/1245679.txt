@@ -1,0 +1,1 @@
+TDAT: protected void remove socket from pool ( map < string , map < sock io , long > > pool , string host , sock io socket ) {  <NL> if ( pool . contains key ( host ) ) {  <NL> map < sock io , long > sockets = pool . get ( host ) ;  <NL> if ( sockets ! = null )  <NL> sockets . remove ( socket ) ;  <NL>  }  <NL>  }  COM: <s> removes a socket from specified pool for host </s>

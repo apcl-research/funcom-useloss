@@ -1,0 +1,1 @@
+TDAT: public void test add entries ( ) {  <NL> file loader instance = new file loader ( " mail . txt " ) ;  <NL> try {  <NL> instance . add entries ( ) ;  <NL>  } catch ( idm exception ex ) {  <NL> logger . get logger ( file loader test . class . get name ( ) ) . log ( level . severe , null , ex ) ;  <NL>  }  <NL>  }  COM: <s> test of add enties method of class file loader </s>

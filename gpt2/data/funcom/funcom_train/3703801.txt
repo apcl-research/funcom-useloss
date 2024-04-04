@@ -1,0 +1,1 @@
+TDAT: public void add source ( tuple t ) {  <NL> if ( tuple _ source . equals ( t . get tuple type ( ) ) = = false ) {  <NL> throw new illegal argument exception ( " tuple has type " +  <NL> t . get tuple type ( ) + " , should have type : " + tuple _ source ) ;  <NL>  }  <NL>  <NL> tuple sources . add tuple ( t ) ;  <NL>  } / / of method  COM: <s> add a source tuple </s>

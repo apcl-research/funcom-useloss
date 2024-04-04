@@ -1,0 +1,1 @@
+TDAT: public void release ( object o ) {  <NL> int i = math . abs ( o . hash code ( ) ) % ( table . length ) ;  <NL>  <NL> add message ( get key ( this , i , o ) , " releasing " ) ;  <NL>  <NL> table [ i ] . release ( ) ;  <NL>  <NL> remove message ( get key ( this , i , o ) ) ;  <NL>  }  COM: <s> releases the lock based on the object code o code </s>

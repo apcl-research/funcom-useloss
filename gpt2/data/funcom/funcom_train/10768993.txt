@@ -1,0 +1,1 @@
+TDAT: public string msg cli header ( string cmd , string version , string date ) {  <NL> return this . format ( " { 0 } - apache ode v { 1 } ( { 2 } ) " + system utils . line separator ( )  <NL>  + " copyright ( c ) 2006 - 2007 apache ode . " , cmd , version , date ) ;  <NL>  }  COM: <s> format a header for display by a commandline tool at startup </s>

@@ -1,0 +1,1 @@
+TDAT: public void test to string ( ) {  <NL> int l base index = 0 ;  <NL> float [ ] l first list = { 1 . 1f , 1 . 2f , 1 . 3f , 1 . 4f , 1 . 5f } ;  <NL>  <NL> data list float l dl float = new data list float ( ) ;  <NL> l dl float . append ( l first list ) ;  <NL> assert equals ( " 1 . 3 " , l dl float . to string ( 2 ) ) ;  <NL>  }  COM: <s> test of to string method </s>

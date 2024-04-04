@@ -1,0 +1,1 @@
+TDAT: public void set properties ( hashtable < ? , ? > props ) {  <NL> hashtable < object , object > p = ( hashtable < object , object > ) props . clone ( ) ;  <NL> p . put ( " croprect " , new rectangle ( crop x , crop y , crop w , crop h ) ) ;  <NL> super . set properties ( p ) ;  <NL>  }  COM: <s> passes along the properties from the source object after adding a </s>

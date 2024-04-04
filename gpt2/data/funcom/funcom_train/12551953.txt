@@ -1,0 +1,1 @@
+TDAT: private void single right shift ( char fill , char [ ] array ) {  <NL>  / / because we don ' t need to see - 1 <NL> for ( int i = 0 ; i < array . length - 1 ; i + + )  <NL> array [ i ] = array [ i + 1 ] ;  <NL> array [ array . length - 1 ] = fill ;  <NL>  }  COM: <s> performs a right shift by one bit padding with the character fill </s>

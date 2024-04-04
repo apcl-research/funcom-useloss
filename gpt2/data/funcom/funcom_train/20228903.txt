@@ -1,0 +1,1 @@
+TDAT: public int compare to ( page p ) {  <NL>  <NL> if ( p . get id ( ) = = id )  <NL> return 0 ;  <NL>  <NL> if ( p . weight > = 0 & & weight > = 0 & & p . weight ! = weight )  <NL> return - 1 * ( new double ( weight ) ) . compare to ( p . weight ) ;  <NL>  <NL> return ( new integer ( id ) ) . compare to ( p . get id ( ) ) ;  <NL>  }  COM: <s> compares this page to another </s>

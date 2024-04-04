@@ -1,0 +1,1 @@
+TDAT: public void release ( ) {  <NL> try {  <NL> connection . close ( ) ;  <NL> is released = true ;  <NL> if ( log . is enabled ( log . debug2 ) ) {  <NL> log . println ( log . debug2 , get info ( ) ) ;  <NL>  }  <NL>  } catch ( sql exception e ) {  <NL> log . println ( log . error , get info ( ) , e ) ;  <NL>  }  <NL>  }  COM: <s> return this connection to its allocator </s>

@@ -1,0 +1,1 @@
+TDAT: public session descriptor add media descriptors ( vector media _ descs )  <NL>  { / / media . add all ( media _ descs ) ; / / not supported by j2me . .  <NL> for ( int i = 0 ; i < media _ descs . size ( ) ; i + + ) media . add element ( media _ descs . element at ( i ) ) ;  <NL> return this ;  <NL>  }  COM: <s> adds a vector of media descriptors </s>

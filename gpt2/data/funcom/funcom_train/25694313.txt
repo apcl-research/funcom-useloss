@@ -1,0 +1,1 @@
+TDAT: static public int write ( file base target , file input , int chunk size , boolean use base64 ) throws file not found exception , io exception {  <NL> return write ( base target , new file input stream ( input ) , input . length ( ) , chunk size , use base64 ) ;  <NL>  }  COM: <s> split the content of the input file into several files </s>

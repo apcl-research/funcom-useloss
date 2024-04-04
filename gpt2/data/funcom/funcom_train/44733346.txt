@@ -1,0 +1,1 @@
+TDAT: public void set custom tz name ( string tzname ) {  <NL>  <NL> if ( ! custom tz name . equals ( " " ) ) {  <NL>  / / todo : fred find the java property equivalent to tz <NL>  / / set the tz environment variable and update c locale stuff <NL>  / / putenv ( strdup ( " tz = " + custom tz name ) ) ;  <NL>  / / tzset ( ) ;  <NL>  }  <NL>  }  COM: <s> set a custom time zone </s>

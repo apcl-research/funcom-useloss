@@ -1,0 +1,1 @@
+TDAT: public void set ( int idx , class f ) {  <NL>  / / need some space ?  <NL> if ( idx = = size ) {  <NL> class [ ] new _ data = new class [ size + 1 ] ;  <NL> system . arraycopy ( data , 0 , new _ data , 0 , size ) ;  <NL> data = new _ data ;  <NL> size + + ;  <NL>  }  <NL> data [ idx ] = f ;  <NL>  }  COM: <s> set an element of the data array </s>

@@ -1,0 +1,1 @@
+TDAT: public void test string csv ( ) {  <NL> string dto dto = new string dto ( ) ;  <NL> dto . string field = " string value " ;  <NL> assert true ( j sefa test util . serialize ( csv , dto ) . index of ( " string value " ) > = 0 ) ;  <NL> j sefa test util . assert repeated round trip succeeds ( csv , dto ) ;  <NL>  }  COM: <s> tests string csv </s>

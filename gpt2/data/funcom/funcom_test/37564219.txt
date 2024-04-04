@@ -1,0 +1,1 @@
+TDAT: public void draw rectangle ( int x , int y , int width , int height ) {  <NL> if ( handle = = null ) swt . error ( swt . error _ graphic _ disposed ) ;  <NL> handle . draw rect ( x , y , width , height ) ;  <NL>  / / ensure area clean ( x , y , width , height ) ;  <NL>  }  COM: <s> draws the outline of the rectangle specified by the arguments </s>

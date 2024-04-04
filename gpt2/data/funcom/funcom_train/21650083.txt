@@ -1,0 +1,1 @@
+TDAT: public string get version ( ) {  <NL> byte [ ] buf = new byte [ 8 ] ;  <NL> int failed = this . get data ( 0x00 , buf , 8 ) ;  <NL> if ( failed ! = 0 ) return " failed . " ;  <NL> string str = " l : " ;  <NL> for ( int i = 0 ; i < 8 ; i + + ) {  <NL> str + = ( char ) buf [ i ] ;  <NL>  }  <NL> return str ;  <NL>  }  COM: <s> method used to know the version </s>

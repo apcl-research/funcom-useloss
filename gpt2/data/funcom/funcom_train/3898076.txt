@@ -1,0 +1,1 @@
+TDAT: public file get notes file ( ) throws file not found exception {  <NL> if ( _ notes file = = null ) {  <NL>  / / file from id <NL>  _ notes file = new file ( ( ( resources index ) get data model ( ) ) . get resources folder ( ) ,  <NL> get identifier ref ( ) + " . notes " ) ;  <NL>  }  <NL>  <NL> return _ notes file ;  <NL>  }  COM: <s> get the notes backing file </s>

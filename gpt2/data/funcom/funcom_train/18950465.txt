@@ -1,0 +1,1 @@
+TDAT: public section modify ( section p section , property set p property set ) throws modifier exception {  <NL> if ( error util . is _ null ( p section , " p section " ) ) {  <NL> return new basic section ( standard . empty ) ;  <NL>  }  <NL>  <NL> apply modifications in order ( p section , p property set ) ;  <NL> return p section ;  <NL>  }  COM: <s> modify the section </s>

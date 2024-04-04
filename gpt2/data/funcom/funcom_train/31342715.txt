@@ -1,0 +1,1 @@
+TDAT: protected field create enum field ( int field constant , enum < ? > value , store store ) {  <NL> if ( value = = null )  <NL> return null ;  <NL>  <NL> return new field ( string . value of ( field constant ) , string . value of ( value . ordinal ( ) ) , store , index . un _ tokenized ) ;  <NL>  }  COM: <s> creates a new code field code from the given enum value </s>

@@ -1,0 +1,1 @@
+TDAT: public void test parse predicate no arguments ( ) throws mu parser exception {  <NL> parse tree pt = parser . parse ( " predicate " , " predicate name ( ) " ) ;  <NL> system . out . println ( " parse tree : " + pt ) ;  <NL> check parsing ( pt , " predicate _ name " , " ( " , " ) " ) ;  <NL>  }  COM: <s> tests parsing of a predicate with no arguments </s>

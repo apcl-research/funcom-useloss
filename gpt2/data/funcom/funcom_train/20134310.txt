@@ -1,0 +1,1 @@
+TDAT: public object get ( string key ) {  <NL> object value = null ;  <NL>  <NL> for ( int i = _ page stack . size ( ) - 1 ; null = = value & & i > = 0 ; i - - ) {  <NL> id map tuple tuple = _ page stack . get ( i ) ;  <NL> value = tuple . map . get ( key ) ;  <NL>  }  <NL> return value ;  <NL>  }  COM: <s> gets the value associated with the key </s>

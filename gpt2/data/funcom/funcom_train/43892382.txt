@@ -1,0 +1,1 @@
+TDAT: private string fix to string ( string input ) {  <NL> if ( input . starts with ( " [ " ) & & input . ends with ( " ] " ) ) {  <NL> input = input . substring ( 1 , input . length ( ) - 1 ) ; / / remove [ ]  <NL> input = input . replace all ( " # text : " , " " ) ; / / remove " # text : "  <NL>  }  <NL>  <NL> return input ;  <NL>  }  COM: <s> converts text 1 2 3 to 1 2 3 </s>

@@ -1,0 +1,1 @@
+TDAT: public void divide ( complex c ) {  <NL> double d = c . real * c . real + c . imag * c . imag ;  <NL> double newr = ( real * c . real + imag * c . imag ) / d ;  <NL> double newi = ( imag * c . real - real * c . imag ) / d ;  <NL> real = newr ;  <NL> imag = newi ;  <NL>  }  COM: <s> divides this number by code c code </s>

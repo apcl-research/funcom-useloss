@@ -1,0 +1,1 @@
+TDAT: public void print node ( print stream out ) {  <NL> out . println ( " \ " " + this . bb . get id ( ) + " \ " [ " ) ;  <NL> out . println ( " shape = \ " diamond\ " " ) ;  <NL> out . println ( this . get label ( ) ) ;  <NL> out . println ( " ] ; \n " ) ;  <NL>  }  COM: <s> this method prints code for a branch block in the given file </s>

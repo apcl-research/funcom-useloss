@@ -1,0 +1,1 @@
+TDAT: / / - public void draw view ( graphics g ) {  <NL>  / / - if ( drawing buffer ! = null & & ! g . is drawing buffer ( ) || <NL>  / / - _ type = = blank _ type ) {  <NL>  / / - return ;  <NL>  / / - }  <NL>  / / -  <NL>  / / - _ border . draw in rect ( g , 0 , 0 , bounds . width , bounds . height ) ;  <NL>  / / - }  COM: <s> draws the internal windows border </s>

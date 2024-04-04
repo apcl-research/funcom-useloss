@@ -1,0 +1,1 @@
+TDAT: public boolean is on grid ( grid world grid world ) {  <NL> if ( this . get x ( ) < 0 || this . get y ( ) < 0 || this . get x ( ) > grid world . get x dimension ( ) - 1 || this . get y ( ) > grid world . get y dimension ( ) - 1 ) {  <NL> return false ;  <NL>  }  <NL> return true ;  <NL>  }  COM: <s> checks if this </s>

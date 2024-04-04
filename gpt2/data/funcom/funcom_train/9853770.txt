@@ -1,0 +1,1 @@
+TDAT: private int get modes count ( string modes ) {  <NL> int count = 0 ;  <NL> for ( int i = 0 , c , len = modes . length ( ) ; i < len ; i + + )  <NL> if ( ( c = modes . char at ( i ) ) ! = ' + ' & & c ! = ' - ' )  <NL> count + + ;  <NL> return count ;  <NL>  }  COM: <s> returns the amount of modes in the string </s>

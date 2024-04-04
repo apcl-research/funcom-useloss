@@ -1,0 +1,1 @@
+TDAT: public string get column name ( int col ) {  <NL> switch ( col ) {  <NL> case 0 : return crossdate . get name ( ) ;  <NL> case 1 : return i18n . get text ( " quantity " ) ;  <NL> case 2 : return i18n . get text ( " histogram " ) ;  <NL> default : throw new illegal argument exception ( ) ; / / can ' t happen <NL>  }  <NL>  }  COM: <s> the column name </s>

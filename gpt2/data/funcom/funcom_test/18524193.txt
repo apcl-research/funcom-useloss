@@ -1,0 +1,1 @@
+TDAT: public void test find link1 ( ) {  <NL> ie the ie = get ie ( ) ;  <NL> document the document = the ie . get document ( ) ;  <NL> a the a = the document . find link ( " input test 1 " ) ;  <NL> assert not null ( the a ) ;  <NL> assert equals ( " input test 1 " , the a . get inner text ( ) . trim ( ) ) ;  <NL>  }  COM: <s> tests the find link method functionality </s>

@@ -1,0 +1,1 @@
+TDAT: public void set table data ( hashtable < string , string > data ) {  <NL> clear table ( ) ;  <NL>  <NL> for ( string key : data . key set ( ) ) {  <NL> string [ ] row data = new string [ 2 ] ;  <NL> row data [ 0 ] = key ;  <NL> row data [ 1 ] = data . get ( key ) ;  <NL> add row ( row data ) ;  <NL>  }  <NL>  }  COM: <s> sets the data of the table </s>

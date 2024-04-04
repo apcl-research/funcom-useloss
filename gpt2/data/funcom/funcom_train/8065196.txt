@@ -1,0 +1,1 @@
+TDAT: public void do it ( ) {  <NL> editor ed = ( editor ) globals . cur editor ( ) ;  <NL> if ( ed = = null )  <NL> return ;  <NL>  <NL> if ( _ magnitude > 0 . 0 ) {  <NL> ed . set scale ( ed . get scale ( ) * _ magnitude ) ;  <NL>  } else {  <NL> ed . set scale ( 1 . 0 ) ;  <NL>  }  <NL> ed . damage all ( ) ;  <NL>  }  COM: <s> adjust the scale factor of the current editor </s>

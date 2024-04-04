@@ -1,0 +1,1 @@
+TDAT: public int hash code ( ) {  <NL> int h = new double ( distance ) . hash code ( ) ;  <NL> h ^ = new double ( lat ) . hash code ( ) ;  <NL> h ^ = new double ( lng ) . hash code ( ) ;  <NL> h ^ = lat field . hash code ( ) ;  <NL> h ^ = lng field . hash code ( ) ;  <NL> return h ;  <NL>  }  COM: <s> returns a hash code value for this object </s>

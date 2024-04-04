@@ -1,0 +1,1 @@
+TDAT: public void set team map path ( string path ) {  <NL> object old = this . team map path ;  <NL>  / / system . out . println ( " setting default calendar path to : " + path ) ;  <NL> this . team map path = path ;  <NL> fire property change ( team _ map _ path _ property , old , team map path ) ;  <NL>  }  COM: <s> sets the path for the team map object </s>

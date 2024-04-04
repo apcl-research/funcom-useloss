@@ -1,0 +1,1 @@
+TDAT: private j text field get in name ( ) {  <NL> if ( in name = = null ) {  <NL> in name = new j text field ( ) ;  <NL> in name . set bounds ( new java . awt . rectangle ( 181 , 40 , 220 , 25 ) ) ;  <NL> in name . set editable ( false ) ;  <NL>  }  <NL> return in name ;  <NL>  }  COM: <s> this method initializes in name </s>

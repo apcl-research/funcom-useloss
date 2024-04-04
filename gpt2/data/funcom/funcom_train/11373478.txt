@@ -1,0 +1,1 @@
+TDAT: private void increment op code count ( fs edit log op codes op code ) {  <NL> if ( ! op code count . contains key ( op code ) ) {  <NL> op code count . put ( op code , 0l ) ;  <NL>  }  <NL> long new value = op code count . get ( op code ) + 1 ;  <NL> op code count . put ( op code , new value ) ;  <NL>  }  COM: <s> increment the op code counter </s>

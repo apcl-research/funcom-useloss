@@ -1,0 +1,1 @@
+TDAT: public void set icon ( icon icon ) {  <NL> icon old = get icon ( ) ;  <NL> image old image = get image ( ) ;  <NL> this . icon = icon ;  <NL> fire property change ( " icon " , old , get icon ( ) ) ;  <NL> fire property change ( " image " , old image , get image ( ) ) ;  <NL>  }  COM: <s> set the icon to use </s>

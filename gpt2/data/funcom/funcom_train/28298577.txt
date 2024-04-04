@@ -1,0 +1,1 @@
+TDAT: public boolean delete edge ( int from , int to ) {  <NL> if ( from < 0||from > = get nr nodes ( ) ||to < 0||to > = get nr nodes ( ) ) return false ;  <NL> if ( map [ from ] . contains key ( new integer ( to ) ) ) {  <NL> map [ from ] . remove ( new integer ( to ) ) ;  <NL>  }  <NL> return true ;  <NL>  }  COM: <s> deletes bidirectional edge in the graph </s>

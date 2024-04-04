@@ -1,0 +1,1 @@
+TDAT: public table list filter ( filter filt ) {  <NL> table list list = new table list ( ) ;  <NL> for ( int i = 0 ; i < size ( ) ; i + + ) {  <NL> if ( filt . valid ( get ( i ) ) ) {  <NL> list . add ( get ( i ) ) ;  <NL>  }  <NL>  }  <NL> list . fields = fields ;  <NL> return list ;  <NL>  }  COM: <s> get a sublist of this list according to the filter criterion </s>

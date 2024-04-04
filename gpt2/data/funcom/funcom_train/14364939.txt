@@ -1,0 +1,1 @@
+TDAT: private i menu manager create new sub menu manager ( ) {  <NL> i menu manager sub menu manager = new menu manager ( messages . account manager action provider _ new menu _ title , group _ new _ sub _ menu _ id ) ;  <NL> fill context menu ( sub menu manager , _ new actions , null ) ;  <NL> return sub menu manager ;  <NL>  }  COM: <s> create new sub menu manager </s>

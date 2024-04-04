@@ -1,0 +1,1 @@
+TDAT: public int index ( adapter node child ) {  <NL> int count = child count ( ) ;  <NL> for ( int i = 0 ; i < count ; i + + ) {  <NL> adapter node n = this . child ( i ) ;  <NL> if ( child . dom node = = n . dom node )  <NL> return i ;  <NL>  }  <NL> return - 1 ; / / should never get here .  <NL>  }  COM: <s> returns the index of child of this </s>

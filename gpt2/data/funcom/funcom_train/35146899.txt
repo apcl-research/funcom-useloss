@@ -1,0 +1,1 @@
+TDAT: public int get final gold ( ) {  <NL> nation economy ne = get nation economy ( ) ;  <NL> return get tax revenue ( ) + get market profits ( ) + get gold production ( ) - ne . get total maintenance ( ) - get orders cost ( ) + ne . get reserve ( ) - compute lost gold revenue ( ) - compute lost tax revenue ( ) ;  <NL>  }  COM: <s> computes the final gold for the nation </s>

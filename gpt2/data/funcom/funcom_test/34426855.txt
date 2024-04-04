@@ -1,0 +1,1 @@
+TDAT: public void edit menu remove ( j menu item menu item ) {  <NL> if ( menu item = = null || menu item . get text ( ) . equals ( " - = - " ) )  <NL> return ;  <NL> edit menu . remove ( menu item ) ;  <NL> if ( edit menu . get menu components ( ) . length = = 0 )  <NL> edit menu . set enabled ( false ) ;  <NL>  }  COM: <s> removes code menu item code from the edit menu </s>

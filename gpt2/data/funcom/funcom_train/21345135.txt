@@ -1,0 +1,1 @@
+TDAT: public void set screen position ( int x , int y ) {  <NL> screen position . set location ( math . max ( 0 , math . min ( x , buffer width - game width ) ) , math . max ( 0 , math . min ( y , buffer height - game height ) ) ) ;  <NL>  }  COM: <s> defines the position of the screen within the double buffer space </s>

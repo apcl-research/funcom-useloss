@@ -1,0 +1,1 @@
+TDAT: public void set color ( color color ) {  <NL> this . last color = color ;  <NL> final gl gl = get gl ( ) ;  <NL> if ( null ! = gl ) {  <NL> color . get rgb components ( fg ) ;  <NL> gl . gl color4f ( fg [ 0 ] , fg [ 1 ] , fg [ 2 ] , fg [ 3 ] ) ;  <NL>  }  <NL>  }  COM: <s> sets the next color </s>

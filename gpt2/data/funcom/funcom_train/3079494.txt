@@ -1,0 +1,1 @@
+TDAT: protected void create area ( ) {  <NL> my shape = new java . awt . geom . area ( new java . awt . geom . ellipse2d . double ( location . get x ( )  <NL>  - ( size . get width ( ) / 2 ) ,  <NL> location . get y ( )  <NL>  - ( size . get height ( ) / 2 ) ,  <NL> size . get width ( ) ,  <NL> size . get height ( ) ) ) ;  <NL>  }  COM: <s> creates the shape of this object </s>

@@ -1,0 +1,1 @@
+TDAT: public void delete ( ) throws exception {  <NL> criteria crit = new criteria ( ) ;  <NL> crit . add ( db wishlist peer . molecule _ id , get molecule id ( ) ) ;  <NL> crit . add ( db wishlist peer . spectrum _ type _ id , get spectrum type id ( ) ) ;  <NL> db wishlist peer . do delete ( crit ) ;  <NL>  }  COM: <s> deletes this item </s>

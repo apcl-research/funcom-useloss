@@ -1,0 +1,1 @@
+TDAT: protected key store get key store ( ) {  <NL> if ( key store = = null ) {  <NL> if ( get key store file ( ) = = null )  <NL> set key store ( key store name , null , null ) ;  <NL> else <NL> set key store ( key store name , get key store file ( ) ) ;  <NL>  }  <NL> return key store ;  <NL>  }  COM: <s> gets the current loaded key store </s>

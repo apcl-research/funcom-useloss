@@ -1,0 +1,1 @@
+TDAT: public void keep child at ( int i ) {  <NL> if ( i < children . size ( ) ) {  <NL> array list < node < t > > this one = new array list < node < t > > ( 1 ) ;  <NL> this one . add ( ( node < t > ) children . get ( i ) ) ;  <NL> children . retain all ( this one ) ;  <NL>  }  <NL>  }  COM: <s> removes all children exept the one at index i </s>

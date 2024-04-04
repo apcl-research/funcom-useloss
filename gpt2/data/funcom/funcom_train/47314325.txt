@@ -1,0 +1,1 @@
+TDAT: public vec2d cross product ( vec2d c v ) {  <NL> return new vec2d ( m _ f y * c v . m _ f w - m _ f w * c v . m _ f y ,  <NL> m _ f w * c v . m _ f x - m _ f x * c v . m _ f w ,  <NL> m _ f x * c v . m _ f y - m _ f y * c v . m _ f x ) ;  <NL>  }  COM: <s> this method will perform cross product given the two vectors </s>

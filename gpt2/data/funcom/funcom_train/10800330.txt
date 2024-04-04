@@ -1,0 +1,1 @@
+TDAT: private instruction throw exception ( code code , class type ) {  <NL> instruction ins = code . anew ( ) . set type ( type ) ;  <NL> code . dup ( ) ;  <NL> code . invokespecial ( ) . set method ( type , " < init > " , void . class , null ) ;  <NL> code . athrow ( ) ;  <NL> return ins ;  <NL>  }  COM: <s> helper method to add the code necessary to throw the given </s>

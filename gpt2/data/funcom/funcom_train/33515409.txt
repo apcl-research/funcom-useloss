@@ -1,0 +1,1 @@
+TDAT: public boolean contains ( byte [ ] row key ) {  <NL> if ( start row ! = null & & bytes . compare to ( row key , start row ) < 0 ) {  <NL> return false ;  <NL>  }  <NL> if ( end row ! = null & & bytes . compare to ( end row , row key ) < 0 ) {  <NL> return false ;  <NL>  }  <NL> return true ;  <NL>  }  COM: <s> check if this scan range contains the given key </s>

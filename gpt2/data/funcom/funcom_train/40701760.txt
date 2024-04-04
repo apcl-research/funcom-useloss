@@ -1,0 +1,1 @@
+TDAT: public void data get cookies ( string name , async callback < list < cookie > > callback ) {  <NL> json j = new json ( ) . put ( " name " , name ) ;  <NL> call method ret list ( " data . get cookies " , j . get java script object ( ) , cookie . class , callback ) ;  <NL>  }  COM: <s> this method returns all cookies for a given user and application </s>

@@ -1,0 +1,1 @@
+TDAT: public void set state ( final int n state ) {  <NL> if ( log . is debug enabled ( ) ) {  <NL> log . debug ( " state change : " + states [ n current state ] + " to " + states [ n state ] ) ;  <NL>  }  <NL> n last state = n current state ;  <NL> n current state = n state ;  <NL> current state = states [ n current state ] ;  <NL>  }  COM: <s> sets the current state </s>

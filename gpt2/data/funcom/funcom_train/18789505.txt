@@ -1,0 +1,1 @@
+TDAT: public void set main email ( string main email ) {  <NL> if ( ( ( this . main email ! = null ) & & ! this . main email . equals ( main email ) ) || <NL>  ( ( this . main email = = null ) & & ( main email ! = null ) ) ) {  <NL> this . main email = main email ;  <NL> set modified ( true ) ;  <NL>  }  <NL>  }  COM: <s> sets the new value of the simple property main email </s>

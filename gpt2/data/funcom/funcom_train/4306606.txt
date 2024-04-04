@@ -1,0 +1,1 @@
+TDAT: public void fill rect ( int x , int y , int w , int h ) {  <NL> fill rect fixed point ( core math . to fixed ( x ) , core math . to fixed ( y ) ,  <NL> core math . to fixed ( w ) , core math . to fixed ( h ) ) ;  <NL>  }  COM: <s> fills a rectangle with the current color </s>

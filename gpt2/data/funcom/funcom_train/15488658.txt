@@ -1,0 +1,1 @@
+TDAT: public void add type ( z type type ) {  <NL> if ( z utils . debug ) {  <NL> z utils . assert _ ( type ! = null ) ;  <NL> z utils . assert _ ( name2type . get ( type . get name ( ) ) = = null ) ;  <NL> z utils . assert _ ( type . get block ( ) = = this ) ;  <NL>  }  <NL>  <NL> name2type . put ( type . get name ( ) , type ) ;  <NL>  }  COM: <s> adds a type </s>

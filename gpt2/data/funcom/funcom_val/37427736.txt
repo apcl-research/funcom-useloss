@@ -1,0 +1,1 @@
+TDAT: public void comment ( char type , string text ) {  <NL> if ( type = = ' ! ' ) {  <NL> println ( " < ! " + text + " > " ) ;  <NL>  } else if ( type = = ' - ' ) {  <NL> println ( " < ! - - " + text + " - - > " ) ;  <NL>  } else {  <NL> println ( " < " + type + text + type + " > " ) ;  <NL>  }  <NL>  }  COM: <s> writes an sgml comment or control tag </s>

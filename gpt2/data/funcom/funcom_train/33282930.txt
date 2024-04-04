@@ -1,0 +1,1 @@
+TDAT: public string jsx get _ name ( ) {  <NL> final string name = ( ( dom document type ) get dom node or die ( ) ) . get name ( ) ;  <NL> if ( " html " . equals ( name ) & & " ff3 " . equals ( get browser version ( ) . get nickname ( ) ) ) {  <NL> return " html " ;  <NL>  }  <NL> return name ;  <NL>  }  COM: <s> returns the name </s>

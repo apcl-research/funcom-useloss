@@ -1,0 +1,1 @@
+TDAT: public void remove sigma ( int n sigma ) {  <NL> assert 0 < = n sigma & & n sigma < num sigmas ( ) ;  <NL> src = ( temp [ ] ) util . shrink ( temp . array factory , src , n sigma ) ;  <NL> dst = ( temp [ ] [ ] ) util . shrink ( temp . double array factory , dst , n sigma ) ;  <NL>  }  COM: <s> removes a given sigma function from the block </s>

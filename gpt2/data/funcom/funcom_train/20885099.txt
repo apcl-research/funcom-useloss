@@ -1,0 +1,1 @@
+TDAT: public void test attribute ( ) {  <NL> attribute dto dto = new attribute dto ( ) ;  <NL> dto . int field = 21689 ;  <NL> assert true ( j sefa test util . serialize ( xml , dto ) . index of ( " 21689 " ) > = 0 ) ;  <NL> j sefa test util . assert repeated round trip succeeds ( xml , dto ) ;  <NL>  }  COM: <s> tests it for an attribute </s>

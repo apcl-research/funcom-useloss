@@ -1,0 +1,1 @@
+TDAT: public void test make constraints ( ) {  <NL> final table layout constraints constraints <NL>  = table layout constraints . make constraints ( " 5 , 17 " ) ;  <NL> assert equals ( " row " , 5 , constraints . get row ( ) ) ;  <NL> assert equals ( " column " , 17 , constraints . get column ( ) ) ;  <NL>  }  COM: <s> test make constraints with legal input </s>

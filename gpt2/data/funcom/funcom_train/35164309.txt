@@ -1,0 +1,1 @@
+TDAT: public void run ( ) {  <NL>  / / load settings from config file ( display size , resolution , etc . )  <NL> load settings ( config filename ) ;  <NL> init display ( ) ;  <NL> update timer ( ) ; / / do this once to init time values to something sane , otherwise the first game loop will report a huge seconds elapsed per frame <NL>  }  COM: <s> runs the application </s>

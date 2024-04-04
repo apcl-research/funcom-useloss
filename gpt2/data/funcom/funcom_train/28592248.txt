@@ -1,0 +1,1 @@
+TDAT: public int index of ( object o ) {  <NL> if ( o = = null ) {  <NL> throw new null pointer exception ( ) ;  <NL>  }  <NL> int result = - 1 ;  <NL> for ( int i = 0 ; i < size & & result < 0 ; i + + ) {  <NL> if ( array [ i ] . equals ( o ) ) {  <NL> result = i ;  <NL>  }  <NL>  }  <NL> return result ;  <NL>  }  COM: <s> this returns the index that an object is found at </s>

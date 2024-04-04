@@ -1,0 +1,1 @@
+TDAT: public void load your options ( ) {  <NL> string os = system . get property ( " os . name " ) . to lower case ( ) ;  <NL>  / / system . out . println ( os ) ;  <NL> if ( os . index of ( " windows " ) > - 1 ) {  <NL> load windows options ( ) ;  <NL>  }  <NL> else {  <NL> load linux options ( ) ;  <NL>  }  <NL>  }  COM: <s> this method loads user options </s>

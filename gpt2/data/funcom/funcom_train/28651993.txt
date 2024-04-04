@@ -1,0 +1,1 @@
+TDAT: private double get angle ( point fix , point p ) {  <NL> double tmp = math . atan2 ( p . get y ( ) - fix . get y ( ) , p . get x ( ) - fix . get x ( ) ) ;  <NL> if ( tmp < 0 ) {  <NL> tmp + = 2 * math . pi ;  <NL>  }  <NL> return 2 * math . pi - tmp ;  <NL>  }  COM: <s> returns angle of line fix p respect to x axis </s>

@@ -1,0 +1,1 @@
+TDAT: private void read mask ( char string ch , random access r rar ) throws io exception {  <NL>  <NL> int cnt = ( ch . get actual hints ( ) / 2 - 1 ) / 8 ;  <NL> mask = rar . read unsigned byte ( ) ;  <NL> for ( int i = 0 ; i < cnt ; i + + ) {  <NL> mask = mask < < 8 ;  <NL> mask + = rar . read unsigned byte ( ) ;  <NL>  }  <NL>  }  COM: <s> read the mask </s>

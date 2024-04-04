@@ -1,0 +1,1 @@
+TDAT: public int get elapsed time ( ) throws slim connection exception {  <NL> return ( int ) double . parse double ( get slim server ( ) . send command (  <NL> slim _ prop _ player _ time _ query . replace all ( param _ player _ id , get id ( ) ) ) [ 0 ] . split ( " \\\\ . " ) [ 0 ] ) ;  <NL>  }  COM: <s> returns the time of the currently playing song </s>

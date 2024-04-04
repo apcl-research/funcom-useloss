@@ -1,0 +1,1 @@
+TDAT: public void set as last child ( int parent index , int child index ) {  <NL> int pchunk = parent index > > chunk _ shift ;  <NL> int pindex = parent index & chunk _ mask ;  <NL> set chunk index ( f node last child , child index , pchunk , pindex ) ;  <NL>  } / / set as last child ( int , int )  COM: <s> sets the last child of the parent index to child index </s>

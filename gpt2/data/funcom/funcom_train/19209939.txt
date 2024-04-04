@@ -1,0 +1,1 @@
+TDAT: public void set pattern ( string pattern name ) {  <NL>  <NL> this . pattern = ( string ) this . hm . get ( pattern name ) ;  <NL>  <NL> if ( this . pattern = = null ) {  <NL> this . pattern = this . props . get property ( pattern name , " " ) ;  <NL> this . hm . put ( pattern name , this . pattern ) ;  <NL>  } ;  <NL>  }  COM: <s> setter for property pattern </s>

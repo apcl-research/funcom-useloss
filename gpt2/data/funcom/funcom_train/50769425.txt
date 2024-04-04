@@ -1,0 +1,1 @@
+TDAT: public void add method return type ( vector typev ) {  <NL> if ( typev . size ( ) > 0 ) { / / because returntype is optional <NL> m . set return type ( add concern reference ( typev ) ) ;  <NL>  } else { / / default is void <NL> m . set return type ( add concern reference ( null , " void " ) ) ;  <NL>  }  <NL>  }  COM: <s> adds the returntype to a method object </s>

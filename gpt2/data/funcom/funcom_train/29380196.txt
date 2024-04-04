@@ -1,0 +1,1 @@
+TDAT: private int sum ( string isbn ) {  <NL> int total = 0 ;  <NL> for ( int i = 0 ; i < 9 ; i + + ) {  <NL> int weight = 10 - i ;  <NL> total + = ( weight * to int ( isbn . char at ( i ) ) ) ;  <NL>  }  <NL> total + = to int ( isbn . char at ( 9 ) ) ; / / add check digit <NL> return total ;  <NL>  }  COM: <s> returns the sum of the weighted isbn characters </s>

@@ -1,0 +1,1 @@
+TDAT: public void result changed ( result changed event evt ) {  <NL> m _ url = evt . get url ( ) ;  <NL> m _ user = evt . get user ( ) ;  <NL> m _ password = evt . get password ( ) ;  <NL> m _ query = evt . get query ( ) ;  <NL> m _ label query . set text ( " current query : " + m _ query ) ;  <NL>  }  COM: <s> this method gets called when a query has been executed </s>

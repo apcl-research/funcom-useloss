@@ -1,0 +1,1 @@
+TDAT: private void init proxy ( ) {  <NL> if ( proxy host ! = null ) {  <NL> system . set property ( " http . proxy set " , " true " ) ;  <NL> system . set property ( " http . proxy host " , proxy host ) ;  <NL> system . set property ( " http . proxy port " , proxy port ) ;  <NL>  }  <NL>  }  COM: <s> initializes the proxy if defined </s>

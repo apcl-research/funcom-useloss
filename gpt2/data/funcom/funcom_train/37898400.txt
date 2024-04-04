@@ -1,0 +1,1 @@
+TDAT: private int get attr count ( named node map nnm ) {  <NL> int count = 0 ;  <NL> for ( int i = 0 ; i < nnm . get length ( ) ; i + + ) {  <NL> node n = nnm . item ( i ) ;  <NL> if ( ! namespaces . xmlns _ ns . equals ( n . get namespace uri ( ) ) )  <NL>  + + count ;  <NL>  }  <NL> return count ;  <NL>  }  COM: <s> return the number of real attributes in the map </s>

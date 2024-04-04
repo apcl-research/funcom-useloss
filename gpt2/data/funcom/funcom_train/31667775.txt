@@ -1,0 +1,1 @@
+TDAT: protected void reveal ( final graphics g , final tree map node item ) {  <NL> if ( item . is leaf ( ) ) {  <NL> g . set color ( transparency _ color ) ;  <NL> g . fill rect ( item . get x ( ) , item . get y ( ) , item . get width ( ) , item . get height ( ) ) ;  <NL>  }  <NL>  }  COM: <s> reveal the item </s>

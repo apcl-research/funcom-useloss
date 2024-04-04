@@ -1,0 +1,1 @@
+TDAT: public void test load ( ) throws data set exception {  <NL> string filename = " / xml / data set test . xls " ;  <NL> i data set ds = loader . load ( filename ) ;  <NL> assert true ( " no tables found in dataset . " , ds . get table names ( ) . length > 0 ) ;  <NL>  / / data set loading tests verify data accuracy <NL>  }  COM: <s> test can load the specified file </s>

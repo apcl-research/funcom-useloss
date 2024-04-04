@@ -1,0 +1,1 @@
+TDAT: public void add gene ( gene a _ gene ) {  <NL> gene [ ] genes = new gene [ m _ genes . length + 1 ] ;  <NL> system . arraycopy ( m _ genes , 0 , genes , 0 , m _ genes . length ) ;  <NL> genes [ m _ genes . length ] = a _ gene ;  <NL> m _ genes = genes ;  <NL>  }  COM: <s> append a new gene to the gene array </s>

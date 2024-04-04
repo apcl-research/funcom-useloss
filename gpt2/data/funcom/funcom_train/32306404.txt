@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> if ( get type ( ) . get name ( ) . equals ( " java . lang . string " ) )  <NL> return " ( string ) \ " " + util . escape ( get value ( ) . to string ( ) ) + " \ " " ;  <NL> return " ( " + get type ( ) . get name ( ) + " ) " + get value ( ) . to string ( ) ;  <NL>  }  COM: <s> return a human readable representation of this op constant </s>

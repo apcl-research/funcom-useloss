@@ -1,0 +1,1 @@
+TDAT: public void backwards ( ) {  <NL> direction left = - 1 * reversed motor left ;  <NL> direction right = - 1 * reversed motor right ;  <NL> record joystick . record backward ( motor left . get name ( ) . char at ( 6 ) , motor right . get name ( ) . char at ( 6 ) , speed ) ;  <NL> move ( ) ;  <NL>  }  COM: <s> move both of the motors backwards e </s>

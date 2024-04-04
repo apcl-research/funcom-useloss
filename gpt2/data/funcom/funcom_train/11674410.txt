@@ -1,0 +1,1 @@
+TDAT: private void add string to array ( string prop name , string value , xmp array type array type ) {  <NL> if ( value = = null || value . length ( ) = = 0 ) {  <NL> throw new illegal argument exception ( " value must not be empty " ) ;  <NL>  }  <NL> add object to array ( prop name , value , array type ) ;  <NL>  }  COM: <s> adds a string value to an array </s>

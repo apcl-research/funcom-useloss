@@ -1,0 +1,1 @@
+TDAT: public void get raw values ( double [ ] x , double [ ] y ) {  <NL> arrays . fill ( y , 0 . 0 ) ;  <NL> for ( int i = 0 ; i < get number of components ( ) ; i + + ) {  <NL> if ( is usable ( i ) ) {  <NL> get component ( i ) . add raw values ( x , y ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> computes values on a dependent variable array given an array </s>

@@ -1,0 +1,1 @@
+TDAT: public cyc constant ( string name , guid guid , integer id ) {  <NL> if ( ( name ! = null ) & & ( name . starts with ( " # $ " ) ) )  <NL> this . name = name . substring ( 2 ) ;  <NL> else <NL> this . name = name ;  <NL> this . guid = guid ;  <NL> set id ( id ) ;  <NL>  }  COM: <s> constructs a new tt cyc constant tt object from name guid and id </s>

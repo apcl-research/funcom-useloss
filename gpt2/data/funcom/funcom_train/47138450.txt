@@ -1,0 +1,1 @@
+TDAT: public int update ( final account account ) {  <NL> object [ ] params = new object [ ] { new integer ( account . get account number ( ) ) , account . get description ( ) ,  <NL> account . get created ( ) , account . get last changed ( ) , new long ( account . get id ( ) ) } ;  <NL> return update ( params ) ;  <NL>  }  COM: <s> update account in database </s>

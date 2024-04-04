@@ -1,0 +1,1 @@
+TDAT: protected void clear ( gl2 gl ) {  <NL> gl . gl clear color ( bg color . r , bg color . g , bg color . b , bg color . a ) ; / / clear with background <NL> gl . gl clear depth ( 1 ) ;  <NL> gl . gl clear ( gl2 . gl _ color _ buffer _ bit | gl2 . gl _ depth _ buffer _ bit ) ;  <NL>  }  COM: <s> clear the color and depth buffer </s>

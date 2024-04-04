@@ -1,0 +1,1 @@
+TDAT: public void show gfx menu ( component src , int x , int y ) {  <NL> j popup menu gfx popup = new j popup menu ( ) ;  <NL> gfx popup . add ( make display menu ( ) ) ;  <NL> gfx popup . add ( make align menu ( ) ) ;  <NL> do popup ( gfx popup , src , x , y ) ;  <NL>  }  COM: <s> popup the menu that has the display and alignment menus </s>

@@ -1,0 +1,1 @@
+TDAT: public void show warning dialog ( @ not null final string title selector , @ not null final string message ) {  <NL> j option pane . show message dialog ( null / * this . get parent ( ) * / ,  <NL> message , action builder . get string ( title selector ) , j option pane . warning _ message ) ;  <NL>  }  COM: <s> display a warning message panel </s>

@@ -1,0 +1,1 @@
+TDAT: private void end application ( int exit code ) {  <NL> try {  <NL> model . save ( ) ;  <NL>  } catch ( exception e ) {  <NL> j option pane . show message dialog ( null , e , " failed to save settings " , j option pane . error _ message ) ;  <NL>  }  <NL>  / / exit <NL> system . exit ( exit code ) ;  <NL>  }  COM: <s> end this application </s>

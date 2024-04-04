@@ -1,0 +1,1 @@
+TDAT: public void write tag value ( string tag name , string value , string comment ) {  <NL> xml . write ( " < ! - - " + comment + " - - > " ) ;  <NL> xml . write ( " < " + tag name + " > " ) ;  <NL> xml . write ( value ) ;  <NL> xml . write ( " < / " + tag name + " > " ) ;  <NL>  }  COM: <s> write tag value tag must be passed without </s>

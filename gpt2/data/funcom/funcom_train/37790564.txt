@@ -1,0 +1,1 @@
+TDAT: public void init ( naked an object , field as field , naked view parent view , view factory . view style a style ) {  <NL> super . init ( an object , as field , parent view , a style ) ;  <NL>  <NL> if ( parent view ! = null ) {  <NL> parent = parent view . get object ( ) ;  <NL>  }  <NL>  }  COM: <s> initializes the gui </s>

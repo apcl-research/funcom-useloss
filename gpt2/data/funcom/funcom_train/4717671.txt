@@ -1,0 +1,1 @@
+TDAT: public void test auto off ( ) {  <NL> syn message msg = new syn ( ) . synth ( 1 ) . auto off ( 1000 ) ;  <NL> assert equals ( " i " , msg . get typetag ( ) ) ;  <NL> assert equals ( new integer ( 1000 ) , msg . get arguments ( ) [ 0 ] ) ;  <NL> assert equals ( " / syn / id1 / autovoff " , msg . get address ( ) ) ;  <NL>  }  COM: <s> auto all off </s>

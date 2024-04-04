@@ -1,0 +1,1 @@
+TDAT: public object to array ( object a ) {  <NL>  <NL> if ( array . get length ( a ) < element count ) {  <NL> a = array . new instance ( a . get class ( ) . get component type ( ) ,  <NL> element count ) ;  <NL>  }  <NL>  <NL> system . arraycopy ( element data , 0 , a , 0 , element count ) ;  <NL>  <NL> return a ;  <NL>  }  COM: <s> copies all elements of the list to a </s>

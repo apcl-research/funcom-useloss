@@ -1,0 +1,1 @@
+TDAT: private lat lng get random point ( ) {  <NL> double lat = 48 . 25 + ( math . random ( ) - 0 . 5 ) * 14 . 5 ;  <NL> double lng = 11 . 00 + ( math . random ( ) - 0 . 5 ) * 36 . 0 ;  <NL> return lat lng . new instance ( math . round ( lat * 10 ) / 10 ,  <NL> math . round ( lng * 10 ) / 10 ) ;  <NL>  }  COM: <s> retrieves a random map point </s>

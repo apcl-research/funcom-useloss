@@ -1,0 +1,1 @@
+TDAT: private void setup search view ( ) {  <NL> m search edit text = ( search edit text ) find view by id ( r . id . search _ src _ text ) ;  <NL> m search edit text . add text changed listener ( this ) ;  <NL> m search edit text . set on editor action listener ( this ) ;  <NL> m search edit text . set text ( m initial filter ) ;  <NL>  }  COM: <s> configures search ui </s>

@@ -1,0 +1,1 @@
+TDAT: public void remove file type ( integer file type id ) throws db exception {  <NL> nv pair [ ] parms ;  <NL>  <NL> parms = new nv pair [ 1 ] ;  <NL> parms [ 0 ] = new nv pair ( " file type id " , file type id . to string ( ) ) ;  <NL> simple request ( remove _ file _ type _ page , " cannot remove file type " , parms ) ;  <NL>  }  COM: <s> deletes a file type </s>

@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> string s = " " ;  <NL> s = _ nm + " , " + _ np ;  <NL>  <NL> if ( _ ipi ! = null ) {  <NL> s + = ( " , " + _ ipi ) ;  <NL>  }  <NL>  <NL> if ( _ name ! = null ) {  <NL> s + = ( " , " + _ name ) ;  <NL>  }  <NL>  <NL> return s ;  <NL>  }  COM: <s> return a single line string representing the data for this object </s>

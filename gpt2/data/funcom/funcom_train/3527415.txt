@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL>  / / return object uri + " - " + subject uri + " - " + action uri + " - "  <NL>  / / + inheritable ;  <NL> return " [ object = " + object uri + " , subject = " + subject uri + " , action = " + action uri + " , - > " + ( negative ? " deny " : " grant " ) + " ] " ;  <NL>  }  COM: <s> string representation of the permission </s>

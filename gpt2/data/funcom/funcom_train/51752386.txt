@@ -1,0 +1,1 @@
+TDAT: static public void main ( final string [ ] args ) {  <NL> system . out . println ( get about ( ) ) ;  <NL> j option pane . show message dialog ( null , get about html ( ) , " about " , j option pane . information _ message ) ;  <NL> system . exit ( 0 ) ;  <NL>  } / / main ( )  COM: <s> print version information to system console system </s>

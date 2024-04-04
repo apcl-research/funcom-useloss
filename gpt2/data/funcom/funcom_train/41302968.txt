@@ -1,0 +1,1 @@
+TDAT: public boolean intersects ( rectangle view port r ) {  <NL> return r . width > 0 & & r . height > 0 & & width > 0 & & height > 0 <NL>  & & r . x < x + width & & r . x + r . width > x <NL>  & & r . y < y + height & & r . y + r . height > y ;  <NL>  }  COM: <s> tests whether or not the specified rectangle intersects this rectangle </s>

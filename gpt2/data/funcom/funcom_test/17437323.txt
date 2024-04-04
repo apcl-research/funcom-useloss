@@ -1,0 +1,1 @@
+TDAT: protected void mark slots ( int line , int column , byte item x size , byte item y size , boolean flag ) {  <NL> for ( int i = line ; i < = line + item y size - 1 ; i + + )  <NL> for ( int j = column ; j < = column + item x size - 1 ; j + + )  <NL>  _ slots [ i ] [ j ] = flag ;  <NL>  }  COM: <s> marks inventory slots according to the flag which indicates an empty </s>

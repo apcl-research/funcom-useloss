@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> string buffer str = new string buffer ( ) ;  <NL> for ( iterator it = fields . iterator ( ) ; it . has next ( ) ; ) {  <NL> str . append ( it . next ( ) . to string ( ) ) ;  <NL> str . append ( " \r\n " ) ;  <NL>  }  <NL> return str . to string ( ) ;  <NL>  }  COM: <s> return header object as string representation </s>

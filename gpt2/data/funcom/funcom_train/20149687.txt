@@ -1,0 +1,1 @@
+TDAT: public postmark response send message ( string from , string to , string reply to , string cc , string subject , string body , boolean is html , string tag ) throws postmark exception {  <NL> return send message ( from , to , reply to , cc , subject , body , is html , tag , null ) ;  <NL>  }  COM: <s> sends a message through the postmark api </s>

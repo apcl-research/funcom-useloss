@@ -1,0 +1,1 @@
+TDAT: public void connect ( string host ) throws io exception , unknown host exception {  <NL> socket = new socket ( host , default _ port ) ;  <NL>  <NL> out = new print writer ( socket . get output stream ( ) , true ) ;  <NL> in = new buffered reader ( new input stream reader ( socket . get input stream ( ) ) ) ;  <NL>  }  COM: <s> connects to the specified host </s>

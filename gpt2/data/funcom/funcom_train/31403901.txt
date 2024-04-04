@@ -1,0 +1,1 @@
+TDAT: public void print target class link ( class doc cd , string target ) {  <NL> string filename = cd . name ( ) + " . html " ;  <NL> print target hyper link ( filename , target ,  <NL>  ( cd . is interface ( ) || cd . is abstract ( ) ) ? / / new <NL> italics text ( cd . name ( ) ) : cd . name ( ) ) ;  <NL>  }  COM: <s> print class link with target frame </s>

@@ -1,0 +1,1 @@
+TDAT: private void delete vertex ( int dead ) {  <NL> vertex [ ] new array = new vertex [ vertices . length - 1 ] ;  <NL> system . arraycopy ( vertices , 0 , new array , 0 , dead ) ;  <NL> system . arraycopy ( vertices , dead + 1 , new array , dead , vertices . length - dead - 1 ) ;  <NL> vertices = new array ;  <NL>  }  COM: <s> delete a vertex </s>

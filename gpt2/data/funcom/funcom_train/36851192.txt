@@ -1,0 +1,1 @@
+TDAT: public gen method create method ( int method access flags , type return type , string method name , type . . . args ) {  <NL>  <NL> gen method method = new gen method ( this , method access flags , return type , method name , args ) ;  <NL> method list . add ( method ) ;  <NL> return method ;  <NL>  }  COM: <s> creates a method </s>

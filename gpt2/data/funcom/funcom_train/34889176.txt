@@ -1,0 +1,1 @@
+TDAT: private list convert file holder list to file list ( list file holder list , int size ) {  <NL> list file list = new array list ( ) ;  <NL> for ( int i = 0 ; i < size ; i + + ) {  <NL> file list . add ( ( ( file holder ) file holder list . get ( i ) ) . file ) ;  <NL>  }  <NL> return file list ;  <NL>  }  COM: <s> converts a list of file holders to a list of files </s>

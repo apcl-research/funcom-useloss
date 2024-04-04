@@ -1,0 +1,1 @@
+TDAT: public void test size ( ) {  <NL> int l int = 5 ;  <NL> int l base index = 0 ;  <NL> float [ ] l float list = { 1 . 1f , 1 . 2f , 1 . 3f , 1 . 4f , 1 . 5f } ;  <NL>  <NL> data block float l db float = new data block float ( l float list , l base index ) ;  <NL> assert equals ( l int , l db float . size ( ) ) ;  <NL>  }  COM: <s> test of size method </s>

@@ -1,0 +1,1 @@
+TDAT: private void open tag ( string buffer sb , string name , string attribs , int depth ) {  <NL> sb . append ( config . indent ( depth ) ) ;  <NL> sb . append ( ' < ' ) ;  <NL> sb . append ( name ) ;  <NL> if ( attribs ! = null ) {  <NL> sb . append ( attribs ) ;  <NL>  }  <NL> sb . append ( " > " ) ;  <NL>  }  COM: <s> append indentation and an open tag to string buffer </s>

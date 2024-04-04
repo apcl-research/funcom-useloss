@@ -1,0 +1,1 @@
+TDAT: public i term cin ( string k , i term pattern ) {  <NL> i term found = take ( k , pattern ) ;  <NL>  / / if ( found ! = null ) {  <NL>  / / found = found . matching _ copy ( pattern ) ;  <NL>  / / }  <NL> if ( found = = null ) return atom . a no ;  <NL> return atom . the ( found . copy ( ) ) ;  <NL>  }  COM: <s> removes a matching iterm from the blackboards and </s>

@@ -1,0 +1,1 @@
+TDAT: private void run error handler ( int code , print writer out , string url , output stream os ) {  <NL> if ( parent . error handler = = null )  <NL> send http ( out , code ) ;  <NL> else <NL> parent . error handler . action ( " error " , inet , integer . to string ( code ) + " ; " + url , out , os ) ;  <NL>  }  COM: <s> runs the error handler </s>

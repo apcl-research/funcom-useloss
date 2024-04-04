@@ -1,0 +1,1 @@
+TDAT: public void test set bounds ( ) {  <NL> system . out . println ( " test set bounds " ) ;  <NL>  <NL> j frame p impl x = new j frame p impl ( ) ;  <NL> rectangle r = new rectangle ( ) ;  <NL> x . set bounds ( r ) ;  <NL> x . set bounds ( 1 , 2 , 3 , 4 ) ;  <NL>  }  COM: <s> test of set bounds method of class jframe p </s>

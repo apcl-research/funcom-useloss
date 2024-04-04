@@ -1,0 +1,1 @@
+TDAT: public float get percentage ( string key ) throws invalid param {  <NL> int val = get int ( key ) ;  <NL> if ( val < 0 ) {  <NL> throw new invalid ( " not an integer > = 0 : " , key , integer . to string ( val ) ) ;  <NL>  }  <NL> return ( ( float ) val ) / ( float ) 100 . 0 ;  <NL>  }  COM: <s> parse the config value which should be a non negative integer as a </s>

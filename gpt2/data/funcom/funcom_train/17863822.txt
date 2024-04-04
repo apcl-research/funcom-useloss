@@ -1,0 +1,1 @@
+TDAT: protected date get time in ( ) {  <NL> return get date time ( this . date in field . get date ( ) , this . cbo hour in . get selected item ( ) . to string ( ) ,  <NL> this . cbo minute in . get selected item ( ) . to string ( ) , this . cbo am pm in . get selected item ( ) . to string ( ) ) ;  <NL>  }  COM: <s> gets the time in for this entry </s>

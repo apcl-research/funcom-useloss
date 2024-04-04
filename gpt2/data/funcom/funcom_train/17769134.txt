@@ -1,0 +1,1 @@
+TDAT: public void start ( double x , double y , double direction ) {  <NL> this . x = x ;  <NL> this . y = y ;  <NL> this . direction = direction ;  <NL> this . x _ velocity = 5 * math . cos ( direction * math . pi / 180 ) ;  <NL> this . y _ velocity = 5 * math . sin ( direction * math . pi / 180 ) ;  <NL> super . start ( ) ;  <NL>  }  COM: <s> starts the bullets thread </s>

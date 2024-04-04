@@ -1,0 +1,1 @@
+TDAT: protected void assert close ( double [ ] m , double [ ] n , double tolerance ) {  <NL> if ( m . length ! = n . length ) {  <NL> fail ( " vectors not same length " ) ;  <NL>  }  <NL> for ( int i = 0 ; i < m . length ; i + + ) {  <NL> assert equals ( m [ i ] , n [ i ] , tolerance ) ;  <NL>  }  <NL>  }  COM: <s> verifies that two vectors are close sup norm </s>

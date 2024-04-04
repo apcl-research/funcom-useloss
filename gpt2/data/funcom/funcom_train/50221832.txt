@@ -1,0 +1,1 @@
+TDAT: public rectangle rectangle ( point a , point b ) {  <NL> int width = math . abs ( a . x - b . x ) ;  <NL> int height = math . abs ( a . y - b . y ) ;  <NL> return new rectangle ( math . min ( a . x , b . x ) , math . min ( a . y , b . y ) , width , height ) ;  <NL>  }  COM: <s> return a well formed rectangle from two points </s>

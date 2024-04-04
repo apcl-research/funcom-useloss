@@ -1,0 +1,1 @@
+TDAT: public events one ( int eventbits , final object data , final function f ) {  <NL> for ( element e : elements ( ) ) {  <NL> if ( is event capable ( e ) ) {  <NL> events listener . get instance ( e ) . bind ( eventbits , data , f , 1 ) ;  <NL>  }  <NL>  }  <NL> return this ;  <NL>  }  COM: <s> binds a handler to a particular event like event </s>

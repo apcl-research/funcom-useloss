@@ -1,0 +1,1 @@
+TDAT: private void report error ( sax parse exception e ) {  <NL> string msg = e . get message ( ) ;  <NL> string location = e . get system id ( ) ;  <NL> int line = e . get line number ( ) ;  <NL>  <NL> system . err . print ( " error : uri = " + location ) ;  <NL> system . err . println ( " line = " + line + " : " + msg ) ;  <NL>  }  COM: <s> outputs diagnostic messages </s>

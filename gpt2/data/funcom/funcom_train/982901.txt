@@ -1,0 +1,1 @@
+TDAT: public void put _ pixel ( int x , int y , int color ) {  <NL> int xy [ ] = cal _ point _ size ( x , y ) ;  <NL> int i , j ;  <NL>  <NL> for ( i = xy [ 0 ] ; i < xy [ 1 ] ; i + + ) {  <NL> for ( j = xy [ 2 ] ; j < xy [ 3 ] ; j + + ) {  <NL> super . put _ pixel ( i , j , color ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> draw a point for gl points with size other than 1 </s>

@@ -1,0 +1,1 @@
+TDAT: public void set shoot time ( java . util . date v ) {  <NL> odmgxa wrapper txw = new odmgxa wrapper ( ) ;  <NL> txw . lock ( this , transaction . write ) ;  <NL> this . shoot time = ( v ! = null ) ? ( java . util . date ) v . clone ( ) : null ;  <NL> modified ( ) ;  <NL> txw . commit ( ) ;  <NL>  }  COM: <s> set the value of shoot time </s>

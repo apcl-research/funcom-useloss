@@ -1,0 +1,1 @@
+TDAT: public void test headers _ no value ( ) {  <NL> this . do method test ( " get / path http / 1 . 1\n header1\n header2 \n\n " , true ,  <NL>  " get " , " / path " , " http / 1 . 1 " , " " , " header1 " , " " , " header2 " , " " ) ;  <NL>  }  COM: <s> ensure able to have no value for header </s>

@@ -1,0 +1,1 @@
+TDAT: private j tabbed pane get tpn main ( ) {  <NL> if ( tpn main = = null ) {  <NL> tpn main = new j tabbed pane ( ) ;  <NL> tpn main . add tab ( " split " , null , get pan split ( ) , null ) ;  <NL> tpn main . add tab ( " merge " , null , get pan merge ( ) , null ) ;  <NL>  }  <NL> return tpn main ;  <NL>  }  COM: <s> this method initializes tpn main </s>

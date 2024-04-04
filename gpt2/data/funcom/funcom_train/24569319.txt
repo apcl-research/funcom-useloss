@@ -1,0 +1,1 @@
+TDAT: public void test label for unfocusable field ( ) {  <NL> builder . add ( label without mnemonic , cc . xy ( 1 , 1 ) ) ;  <NL> builder . add ( unfocusable field , cc . xy ( 3 , 1 ) ) ;  <NL> assert null ( " labeling label " ,  <NL> label without mnemonic . get label for ( ) ) ;  <NL>  }  COM: <s> checks the association between label and unfocusable component </s>

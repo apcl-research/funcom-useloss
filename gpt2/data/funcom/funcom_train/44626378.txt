@@ -1,0 +1,1 @@
+TDAT: public void test some java ( ) {  <NL> check compilation unit ( " package t ; \nclass a { } " ,  <NL> jml compilation unit . class , 0 ,  <NL> jc ident . class , 8 ,  <NL> jml class decl . class , 12 ,  <NL> jc modifiers . class , - 1 ) ;  <NL> check messages ( ) ;  <NL>  }  COM: <s> quickie test of some pure java code </s>

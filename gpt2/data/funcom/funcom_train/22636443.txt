@@ -1,0 +1,1 @@
+TDAT: public boolean all out of sight ( ) {  <NL> int i , count = 0 ;  <NL> for ( i = 0 ; i < const . sparks _ per _ bomb ; + + i ) {  <NL> if ( sparks [ i ] . is out of sight ( ) ) {  <NL> count + + ;  <NL>  }  <NL>  }  <NL> return count = = const . sparks _ per _ bomb ;  <NL>  }  COM: <s> returns whether all sparks are out of sight </s>

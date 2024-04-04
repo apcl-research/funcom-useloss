@@ -1,0 +1,1 @@
+TDAT: protected boolean definite article ( string tok , string tag ) {  <NL> tok = tok . to lower case ( ) ;  <NL> if ( tok . equals ( " the " ) || tok . equals ( " these " ) || tok . equals ( " these " ) || tag . equals ( " prp $ " ) ) {  <NL> return ( true ) ;  <NL>  }  <NL> return ( false ) ;  <NL>  }  COM: <s> returns whether the specified token is a definite article </s>

@@ -1,0 +1,1 @@
+TDAT: public void fire ( binding vector env , boolean is add ) {  <NL> rule rule = context . get rule ( ) ;  <NL> context . set env ( env ) ;  <NL>  <NL> if ( ! context . should fire ( is add ) ) return ;  <NL>  <NL>  / / now fire the rule <NL> context . get engine ( ) . request rule firing ( rule , env , is add ) ;  <NL>  }  COM: <s> propagate a token to this node </s>

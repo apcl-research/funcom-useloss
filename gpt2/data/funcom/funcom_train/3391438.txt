@@ -1,0 +1,1 @@
+TDAT: public void write member summary header ( class doc class doc ) {  <NL> writer . println ( " < ! - - = = = = = = = = = = = annotation type required member summary = = = = = = = = = = = - - > " ) ;  <NL> writer . println ( ) ;  <NL> writer . print summary header ( this , class doc ) ;  <NL>  }  COM: <s> write the annotation type member summary header for the given class </s>

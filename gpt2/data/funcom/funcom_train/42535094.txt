@@ -1,0 +1,1 @@
+TDAT: public boolean equals ( object o ) {  <NL> if ( ! ( o instanceof concrete edge ) ) return false ;  <NL> if ( o = = this ) return true ;  <NL> concrete edge oo = ( concrete edge ) o ;  <NL> return ( ( ( object ) type ) . equals ( oo . type ) ) & & ( ( ( object ) field ) . equals ( oo . field ) ) ;  <NL>  }  COM: <s> is the given object equal to this concrete edge </s>

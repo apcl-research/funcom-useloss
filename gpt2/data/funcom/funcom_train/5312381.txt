@@ -1,0 +1,1 @@
+TDAT: public void update ( number x , number y ) {  <NL> int index = index of ( x ) ;  <NL> if ( index < 0 ) {  <NL> throw new series exception ( " no observation for x = " + x ) ;  <NL>  }  <NL> else {  <NL> xy data item item = get data item ( index ) ;  <NL> item . set y ( y ) ;  <NL> fire series changed ( ) ;  <NL>  }  <NL>  }  COM: <s> updates an item in the series </s>

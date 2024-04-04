@@ -1,0 +1,1 @@
+TDAT: public void postorder walk ( tree node x , tree walk handler , object misc ) {  <NL> if ( x ! = nil ) {  <NL> tree node [ ] childs = x . get childs ( ) ;  <NL> for ( int i = 0 ; i < childs . length ; i + + )  <NL> postorder walk ( childs [ i ] , handler , misc ) ;  <NL>  }  <NL> handler . node ( x , misc ) ;  <NL>  }  COM: <s> walks the tree postorder </s>

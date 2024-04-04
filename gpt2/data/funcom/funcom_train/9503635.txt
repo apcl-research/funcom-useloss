@@ -1,0 +1,1 @@
+TDAT: final public geo line tangent ( string label , geo point p , geo function f ) {  <NL> algo tangent function point algo = new algo tangent function point ( cons , label ,  <NL> p , f ) ;  <NL> geo line t = algo . get tangent ( ) ;  <NL> t . set to explicit ( ) ;  <NL> t . update ( ) ;  <NL> notify update ( t ) ;  <NL> return t ;  <NL>  }  COM: <s> tangent to f in x x p </s>

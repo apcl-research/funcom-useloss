@@ -1,0 +1,1 @@
+TDAT: public void test nested predicates ( ) throws interpreter exception {  <NL> value v = interpreter . process ( " print ( print ( print ( ' a ' ) , ' b ' ) , ' c ' ) ; " ) ;  <NL> assert equals ( " unespected result . " , " abc " , v . as string ( ) . get native value ( ) ) ;  <NL>  }  COM: <s> tests that nested predicates are processed in right order </s>

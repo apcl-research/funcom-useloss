@@ -1,0 +1,1 @@
+TDAT: public void initialize population ( ) {  <NL> done = false ;  <NL> genop = new genetic op ( mutrate , cross type , crossrate ) ;  <NL> for ( int i = 0 ; i < popsize ; i + + ) {  <NL> individual u = new individual ( howmanypoly , numvertices , maxx , maxy ) ;  <NL> population . add ( u ) ;  <NL>  }  <NL>  }  COM: <s> initialize population with random individue </s>

@@ -1,0 +1,1 @@
+TDAT: public string login ( string user name , string password ) {  <NL> return send command ( message . login , " < " + message . username + " > " + user name + " < / " + message . username + " > < " + message . password + " > " + password + " < / " + message . password + " > " ) ;  <NL>  }  COM: <s> sends a login request to the server </s>

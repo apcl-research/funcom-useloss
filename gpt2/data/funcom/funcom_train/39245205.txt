@@ -1,0 +1,1 @@
+TDAT: public boolean write all relationships ( database db , collection < table > tables , boolean compact , boolean show columns , write stats stats , line writer dot ) throws io exception {  <NL> return write relationships ( db , tables , compact , show columns , true , stats , dot ) ;  <NL>  }  COM: <s> returns code true code if it wrote any implied relationships </s>

@@ -1,0 +1,1 @@
+TDAT: public void assign ( t p value ) {  <NL>  / * null value ok * /  <NL> not null ( return type ) ;  <NL> if ( p value ! = null & & ! return type . is primitive ( ) ) { / / todo ( csallner ) check primitive <NL> check ( return type . is assignable from ( p value . get class ( ) ) ) ;  <NL>  }  <NL>  <NL> value = p value ;  <NL>  }  COM: <s> assigns a dynamic runtime value </s>

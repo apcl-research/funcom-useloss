@@ -1,0 +1,1 @@
+TDAT: public void save win position ( int x , int y , int width , int height ) {  <NL> prefs . put int ( win _ pos _ x , x ) ;  <NL> prefs . put int ( win _ pos _ y , y ) ;  <NL> prefs . put int ( win _ pos _ width , width ) ;  <NL> prefs . put int ( win _ pos _ height , height ) ;  <NL>  }  COM: <s> save the main window position and size </s>

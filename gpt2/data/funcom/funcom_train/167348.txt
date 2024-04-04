@@ -1,0 +1,1 @@
+TDAT: public void calculate ( double t ) {  <NL> for ( int i = 0 , n = rbcs . size ( ) ; i < n ; i + + ) {  <NL>  ( ( reactor ) rbcs . get ( i ) ) . set value ( 0 ) ;  <NL>  }  <NL> for ( int i = 0 , n = size ( ) ; i < n ; i + + ) {  <NL>  ( ( reactor ) get ( i ) ) . calculate ( t ) ;  <NL>  }  <NL>  }  COM: <s> clear value of all reactors and call calculate of all reactors </s>

@@ -1,0 +1,1 @@
+TDAT: static public string un escape space string ( string fp ) {  <NL> string buffer the fp = new string buffer ( fp ) ;  <NL> while ( the fp . last index of ( " * " ) ! = - 1 )  <NL>  {  <NL> the fp . set char at ( the fp . last index of ( " * " ) , ' ' ) ;  <NL>  }  <NL>  <NL> return the fp . to string ( ) ;  <NL>  }  COM: <s> replaces any spaces in path names with </s>

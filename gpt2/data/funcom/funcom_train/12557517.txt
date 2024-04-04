@@ -1,0 +1,1 @@
+TDAT: private void snd change cipher ( ) throws io exception {  <NL> byte [ ] msg = new byte [ 1 ] ;  <NL>  / / change cipher spec consists of a single byte with value 1 <NL> msg [ 0 ] = ( byte ) 0x01 ;  <NL> rec . wr rec ( record . ccs , msg , 0 , 1 ) ; / / msg . length is 1 <NL>  }  COM: <s> sends a change cipher spec protocol message this is not really </s>

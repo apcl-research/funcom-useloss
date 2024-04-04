@@ -1,0 +1,1 @@
+TDAT: public void fire key down ( widget sender , char key code , int modifiers ) {  <NL> for ( iterator it = iterator ( ) ; it . has next ( ) ; ) {  <NL> keyboard listener listener = ( keyboard listener ) it . next ( ) ;  <NL> listener . on key down ( sender , key code , modifiers ) ;  <NL>  }  <NL>  }  COM: <s> fires a key down event to all listeners </s>

@@ -1,0 +1,1 @@
+TDAT: protected boolean two in equal ( int x , int y , int z ) {  <NL>  / / returns true is two of x y z are the same but not all three <NL> return ( ( compair int ( x , y ) ||compair int ( y , z ) ||compair int ( x , z ) ) & & ( ! compair three int ( x , y , z ) ) ) ;  <NL>  }  COM: <s> a method that to test if two int are equal in a set </s>

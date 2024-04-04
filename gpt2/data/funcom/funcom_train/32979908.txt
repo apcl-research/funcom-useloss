@@ -1,0 +1,1 @@
+TDAT: private void make tmp vectors ( int n )  <NL>  { / * make tmp vectors * /  <NL> n ep = n ; / * update it * /  <NL>  <NL> cv1tmp = new float [ n ep ] ;  <NL> cv2tmp = new float [ n ep ] ;  <NL> cv1tmp ep = new float [ n ep ] ;  <NL> cv2tmp ep = new float [ n ep ] ;  <NL>  } / * make tmp vectors * /  COM: <s> make tmp vectors create temp vectors if needed </s>

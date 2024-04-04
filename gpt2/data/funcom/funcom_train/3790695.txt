@@ -1,0 +1,1 @@
+TDAT: public void close connection ( cad connection c ) {  <NL> for ( int i = 0 ; i < _ ll . size ( ) ; i + + ) {  <NL> if ( c . get connection handle ( ) = = ( ( cad connection ) _ ll . get ( i ) ) . get connection handle ( ) ) {  <NL>  _ ll . remove ( i ) ;  <NL>  }  <NL>  }  <NL> print list ( ) ;  <NL>  }  COM: <s> close a connection </s>

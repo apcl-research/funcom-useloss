@@ -1,0 +1,1 @@
+TDAT: public loco net message write status ( int status ) {  <NL> loco net message l = new loco net message ( 4 ) ;  <NL> l . set op code ( ln constants . opc _ slot _ stat1 ) ;  <NL> l . set element ( 1 , slot ) ;  <NL> l . set element ( 2 , ( stat & ~ ln constants . locostat _ mask ) |status ) ;  <NL> return l ;  <NL>  }  COM: <s> update the status mode bits in stat1 d5 d4 </s>

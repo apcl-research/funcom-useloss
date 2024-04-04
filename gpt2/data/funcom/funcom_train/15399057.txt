@@ -1,0 +1,1 @@
+TDAT: public void set args ( string [ ] args ) throws drmaa exception {  <NL> if ( args ! = null ) {  <NL> this . args = new string [ args . length ] ;  <NL> system . arraycopy ( args , 0 , this . args , 0 , args . length ) ;  <NL>  }  <NL> else {  <NL> this . args = null ;  <NL>  }  <NL>  }  COM: <s> set the parameters passed as arguments to the job </s>

@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> string result = " " ;  <NL> int i , j ;  <NL> for ( i = 0 ; i < n ; i + + ) { / / rows <NL> for ( j = 0 ; j < m ; j + + ) { / / columns <NL> result + = ( m [ i ] [ j ] + " \t " ) ;  <NL>  }  <NL> result + = " \n " ;  <NL>  }  <NL> return result ;  <NL>  }  COM: <s> returns a string represantation of the matrix </s>

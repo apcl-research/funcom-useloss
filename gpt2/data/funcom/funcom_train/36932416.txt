@@ -1,0 +1,1 @@
+TDAT: public cc color darker ( final float the scale ) {  <NL> return new cc color (  <NL> cc math . constrain ( r * the scale , 0 , 1 ) ,  <NL> cc math . constrain ( g * the scale , 0 , 1 ) ,  <NL> cc math . constrain ( b * the scale , 0 , 1 ) ,  <NL> a <NL>  ) ;  <NL>  }  COM: <s> creates a new color that is a darker version of this color </s>

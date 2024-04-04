@@ -1,0 +1,1 @@
+TDAT: private void align to owner frame ( ) {  <NL> set location ( math . max ( 0 , owner frame . get location ( ) . x + ( owner frame . get width ( ) > > 1 ) - ( get width ( ) > > 1 ) ) , math . max ( 0 , owner frame . get location ( ) . y + ( owner frame . get height ( ) > > 1 ) - ( get height ( ) > > 1 ) ) ) ;  <NL>  }  COM: <s> alignes this dialog the the owner frame </s>

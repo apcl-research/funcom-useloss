@@ -1,0 +1,1 @@
+TDAT: public coordinates cross ( coordinates b ) {  <NL> return new coordinates ( this . y _ * b . z _ - this . z _ * b . y _ , this . z _ * b . x _  <NL>  - this . x _ * b . z _ , this . x _ * b . y _ - this . y _ * b . x _ , float . na n ) ;  <NL>  }  COM: <s> vector cross product </s>

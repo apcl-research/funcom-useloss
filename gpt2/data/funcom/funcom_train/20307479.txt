@@ -1,0 +1,1 @@
+TDAT: public void init ( boolean ignore brules , finder inserts ) {  <NL> if ( clause index = = null ) compile ( rules , ignore brules ) ;  <NL> find and process axioms ( ) ;  <NL> n axiom rules fired = n rules fired ;  <NL> logger . debug ( " axioms fired " + n axiom rules fired + " rules " ) ;  <NL> fast init ( inserts ) ;  <NL>  }  COM: <s> process all available data </s>

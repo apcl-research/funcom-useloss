@@ -1,0 +1,1 @@
+TDAT: public void clear grid ( ) {  <NL> editgrid = new int [ edit size x ] [ edit size y ] ;  <NL> for ( int i = 0 ; i < edit size x ; i + + ) {  <NL> for ( int j = 0 ; j < edit size y ; j + + )  <NL> editgrid [ i ] [ j ] = transparent . get rgb ( ) ;  <NL>  }  <NL>  }  COM: <s> clears the grid </s>

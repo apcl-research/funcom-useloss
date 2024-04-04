@@ -1,0 +1,1 @@
+TDAT: private float converty2draw ( float y , int hei , int marginy top , int marginy bottom , float ymax , float ymin ) {  <NL> return ( hei - marginy bottom - ( y - ymin ) * ( ( ( float ) ( hei - ( marginy top + marginy bottom ) ) ) / ( ymax - ymin ) ) ) ;  <NL>  }  COM: <s> procedures of graph coordinates conversion </s>

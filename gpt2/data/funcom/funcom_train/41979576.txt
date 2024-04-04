@@ -1,0 +1,1 @@
+TDAT: protected void update progress bar ( j progress bar bar , int val , string s ) {  <NL> bar . set value ( val ) ;  <NL> if ( s ! = null ) {  <NL> bar . set string ( s ) ;  <NL> bar . set string painted ( true ) ;  <NL>  }  <NL> bar . paint immediately ( 0 , 0 , 600 , 100 ) ;  <NL>  }  COM: <s> updates the progress bar to a specified value </s>

@@ -1,0 +1,1 @@
+TDAT: protected dom exception create dom exception ( ) {  <NL> object [ ] p = new object [ ] { new integer ( get css value type ( ) ) } ;  <NL> string s = messages . format message ( " invalid . value . access " , p ) ;  <NL> return new dom exception ( dom exception . invalid _ access _ err , s ) ;  <NL>  }  COM: <s> creates an invalid access err exception </s>

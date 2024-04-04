@@ -1,0 +1,1 @@
+TDAT: public void dump ( data output stream file ) throws io exception {  <NL> file . write short ( constant _ pool _ count ) ;  <NL> for ( int i = 1 ; i < constant _ pool _ count ; i + + ) {  <NL> if ( constant _ pool [ i ] ! = null ) {  <NL> constant _ pool [ i ] . dump ( file ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> dump constant pool to file stream in binary format </s>

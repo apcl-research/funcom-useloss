@@ -1,0 +1,1 @@
+TDAT: protected int get index of message ( string type , string param ) {  <NL> for ( int i = 0 ; i < msg buffer . size ( ) ; i + + ) {  <NL> string msg = ( string ) msg buffer . get ( i ) ;  <NL> if ( is message type ( msg , type , param ) ) {  <NL> return i ;  <NL>  }  <NL>  }  <NL> return - 1 ;  <NL>  }  COM: <s> if a message with the given type is in the buffer </s>

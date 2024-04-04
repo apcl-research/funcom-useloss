@@ -1,0 +1,1 @@
+TDAT: public void test get protein id ( ) {  <NL> protein id l protein id = i protein map . get protein id ( " q9h091 ( 256 - 262 ) " ) ;  <NL> assert . assert equals ( " q9h091 ( 256 - 262 ) " , l protein id . get accession ( ) ) ;  <NL> assert . assert equals ( 724 . 39 , l protein id . get mass ( ) , 0 . 0 ) ;  <NL>  }  COM: <s> test the protein id getter </s>

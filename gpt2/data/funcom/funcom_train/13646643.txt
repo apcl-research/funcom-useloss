@@ -1,0 +1,1 @@
+TDAT: public void set message id ( string message id ) {  <NL> if ( message id ! = null & & message id . starts with ( " < " )  <NL>  & & message id . ends with ( " > " ) ) {  <NL> message id = message id . substring ( 1 , message id . length ( ) - 1 ) ;  <NL>  }  <NL> this . message id = message id ;  <NL>  }  COM: <s> removes braces if they exist </s>

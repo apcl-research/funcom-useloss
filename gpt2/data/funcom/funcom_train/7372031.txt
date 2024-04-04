@@ -1,0 +1,1 @@
+TDAT: public boolean disconnect ( e from , e to ) {  <NL> mark dirty ( ) ;  <NL>  <NL> boolean saw null = false ;  <NL> if ( m from edges . remove ( from , to ) = = null ) saw null = true ;  <NL> if ( m to edges . remove ( to , from ) = = null ) saw null = true ;  <NL>  <NL> return ! saw null ;  <NL>  }  COM: <s> remove an edge from between two nodes </s>

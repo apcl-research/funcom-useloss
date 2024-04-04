@@ -1,0 +1,1 @@
+TDAT: public void recieved error ( throwable error ) {  <NL> system . out . println ( " bot " + get name ( ) + " recieved the error : " ) ;  <NL> system . out . println ( error ) ;  <NL> system . out . println ( " * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * " ) ;  <NL>  }  COM: <s> prints a message when an error is recieved </s>

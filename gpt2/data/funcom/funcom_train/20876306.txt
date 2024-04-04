@@ -1,0 +1,1 @@
+TDAT: public void after assigned ( long iteration , exam placement value ) {  <NL> exam placement p = value ;  <NL> i table [ p . get period ( ) . get index ( ) ] . add ( value . variable ( ) ) ;  <NL> i day table [ p . get period ( ) . get day ( ) ] . add ( value . variable ( ) ) ;  <NL>  }  COM: <s> an exam was assigned update student assignment table </s>

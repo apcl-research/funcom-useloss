@@ -1,0 +1,1 @@
+TDAT: public void set ( string field name , boolean value ) {  <NL> field field = ctype . get field ( field name ) ;  <NL> if ( ( field ! = null ) & & ( field . get type ( ) . equals ( field . boolean _ type ) ) ) {  <NL> this . attributes . put ( field name , value . to string ( ) ) ;  <NL>  }  <NL>  }  COM: <s> sets a boolean field to a given content </s>

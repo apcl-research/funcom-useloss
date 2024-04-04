@@ -1,0 +1,1 @@
+TDAT: public void flush ( ) throws io exception {  <NL>  / / try {  <NL> m _ out . flush ( ) ;  <NL>  / / } catch ( io exception e ) {  <NL>  / / if ( m _ connection . is active ( ) ) {  <NL>  / / m _ connection data . get manager ( ) . register broken connection ( m _ connection ) ;  <NL>  / / }  <NL>  / / }  <NL>  } / / flush  COM: <s> method to flush all buffered output </s>

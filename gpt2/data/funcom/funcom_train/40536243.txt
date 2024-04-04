@@ -1,0 +1,1 @@
+TDAT: public void test substring ( ) {  <NL> string buffer haystack = new string buffer ( " abcdefghi " ) ;  <NL> assert equals ( " cd " , haystack . substring ( 2 , 4 ) ) ;  <NL> assert equals ( " bc " , " abcdef " . substring ( 1 , 3 ) ) ;  <NL> assert equals ( " bcdef " , " abcdef " . substring ( 1 ) ) ;  <NL>  }  COM: <s> this method tests code ubstring code </s>

@@ -1,0 +1,1 @@
+TDAT: protected void servos ( ) throws null pointer exception {  <NL>  / / servos <NL> if ( left . get raw button ( 4 ) )  <NL> servo1 . set ( 0 . 4 ) ;  <NL> else <NL> servo1 . set ( 1 . 0 ) ;  <NL> if ( left . get raw button ( 5 ) )  <NL> servo2 . set ( 0 . 6 ) ;  <NL> else <NL> servo1 . set ( 0 . 0 ) ;  <NL>  }  COM: <s> this method is used to manipulate the servos </s>

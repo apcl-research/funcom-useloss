@@ -1,0 +1,1 @@
+TDAT: public void test reject ( ) {  <NL> email validation rule rule = new email validation rule ( ) ;  <NL> assert true ( " x @ . . . . " , ! rule . is email ( " x @ . . . . " ) ) ;  <NL> assert true ( " neville . @ hotmail . com " , ! rule . is email ( " neville . @ hotmail . com " ) ) ;  <NL>  }  COM: <s> test some patterns that should be rejected </s>

@@ -1,0 +1,1 @@
+TDAT: public void put text ( print stream out , char sequence text , dimen x ) {  <NL>  <NL> out . write ( ' ( ' ) ;  <NL> out . append ( text ) ;  <NL> out . write ( ' ) ' ) ;  <NL> ps unit . to point ( x , out , false ) ;  <NL> out . write ( ' ' ) ;  <NL> add lib ( out , " x " ) ;  <NL>  }  COM: <s> put some text at a certain position given by x coordinate only </s>

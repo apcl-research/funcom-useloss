@@ -1,0 +1,1 @@
+TDAT: public void draw view string at ( graphics g , string a string , int x , int y ) {  <NL> if ( _ shadowed ) {  <NL> g . set color ( color . black ) ;  <NL> g . draw string ( a string , x + 2 , y + 2 ) ;  <NL>  }  <NL> g . set color ( _ text color ) ;  <NL> g . draw string ( a string , x , y ) ;  <NL>  }  COM: <s> draws the string at position b x b b y b </s>

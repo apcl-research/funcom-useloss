@@ -1,0 +1,1 @@
+TDAT: public short xch apdu ( short h reader , boolean is type a , short [ ] x len , byte [ ] x data , short [ ] r len , byte [ ] r data ) {  <NL> return picc xch apdu ( h reader , is type a , x len , x data , r len , r data ) ;  <NL>  }  COM: <s> handles the apdu exchange in t cl protocol </s>

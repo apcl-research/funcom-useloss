@@ -1,0 +1,1 @@
+TDAT: public void set value ( list < selected item < item type > > value ) {  <NL> list model . clear ( ) ;  <NL> for ( int i = 0 ; i < value . size ( ) ; i + + ) {  <NL> add item ( value . get ( i ) . get item ( ) ) ;  <NL> if ( value . get ( i ) . get state ( ) ) {  <NL> set selected ( i , true ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> set the value of the list </s>

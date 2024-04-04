@@ -1,0 +1,1 @@
+TDAT: public void remove pss ( pss advertisement pss advert ) {  <NL> logger . debug ( " * * * pss discovery event * * * * removing pss ( "  <NL>  + pss advert . get pss name ( ) + " ) " ) ;  <NL> m _ current ps ss . remove ( pss advert . get peer group id ( ) ) ;  <NL> pss left event ( pss advert ) ;  <NL>  }  COM: <s> removes a pss from the list of known psss </s>

@@ -1,0 +1,1 @@
+TDAT: public void randomize ( ) {  <NL> random random = new random ( ) ;  <NL> for ( int rindex = 0 , nr = data . length ; rindex < nr ; rindex + + ) {  <NL> for ( int cindex = 0 , nc = data [ 0 ] . length ; cindex < nc ; cindex + + ) {  <NL> data [ rindex ] [ cindex ] = ( byte ) random . next int ( 256 ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> ranomizes the lattice values </s>

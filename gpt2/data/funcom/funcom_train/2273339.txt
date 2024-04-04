@@ -1,0 +1,1 @@
+TDAT: private void erase event ( ) {  <NL> if ( eraser ! = null ) {  <NL> eraser . erase ( this ) ;  <NL> log . out ( name , tr ( " was erased " ) , log . file ) ;  <NL>  } else {  <NL> log . war ( tr ( " cannot to erase event : " ) + name , log . warning ) ;  <NL>  }  <NL>  }  COM: <s> erase this event </s>

@@ -1,0 +1,1 @@
+TDAT: public mod long gcd ( mod long s ) {  <NL> if ( s . is zero ( ) ) {  <NL> return this ;  <NL>  }  <NL> if ( is zero ( ) ) {  <NL> return s ;  <NL>  }  <NL> if ( is unit ( ) || s . is unit ( ) ) {  <NL> return ring . get one ( ) ;  <NL>  }  <NL> return new mod long ( ring , gcd ( val , s . val ) ) ;  <NL>  }  COM: <s> mod integer greatest common divisor </s>

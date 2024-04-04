@@ -1,0 +1,1 @@
+TDAT: public boolean equals ( object o ) {  <NL> if ( ! ( o instanceof name def ) ) return false ;  <NL> if ( o = = this ) return true ;  <NL> name def oo = ( name def ) o ;  <NL> return ( ( ( object ) id ) . equals ( oo . id ) ) & & ( ( ( object ) bnd ) . equals ( oo . bnd ) ) ;  <NL>  }  COM: <s> is the given object equal to this name def </s>

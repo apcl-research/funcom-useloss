@@ -1,0 +1,1 @@
+TDAT: public void scale ( float x , float y , float z ) {  <NL> matrix4f matrix = new matrix4f ( 1f / x , 0 , 0 , 0 ,  <NL> 0 , 1f / y , 0 , 0 ,  <NL> 0 , 0 , 1f / z , 0 ,  <NL> 0 , 0 , 0 , 1 ) ;  <NL> m4current transform . mul ( matrix ) ;  <NL>  }  COM: <s> applies a scale operation to the current transformation </s>

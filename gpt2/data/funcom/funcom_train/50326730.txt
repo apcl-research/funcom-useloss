@@ -1,0 +1,1 @@
+TDAT: private int read int4 ( input stream s ) throws java . io . io exception {  <NL> int i1 = s . read ( ) & 0x ff ;  <NL> int i2 = s . read ( ) & 0x ff ;  <NL> int i3 = s . read ( ) & 0x ff ;  <NL> int i4 = s . read ( ) & 0x ff ;  <NL> return i1 + ( i2 < < 8 ) + ( i3 < < 16 ) + ( i4 < < 24 ) ;  <NL>  }  COM: <s> read a 4 byte integer handling endian ness of spj files </s>

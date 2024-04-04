@@ -1,0 +1,1 @@
+TDAT: public void send message ( message message ) {  <NL> int id = message . get id ( ) ;  <NL> string data = message . get data ( ) ;  <NL> int index = client i ds . index of ( string . value of ( id ) ) ;  <NL> if ( index > = 0 ) {  <NL>  ( ( connection ) connections . element at ( index ) ) . send message ( message ) ;  <NL>  }  <NL>  }  COM: <s> sends a message </s>

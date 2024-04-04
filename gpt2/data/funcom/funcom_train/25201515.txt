@@ -1,0 +1,1 @@
+TDAT: public void add ( fixed glue glue ) {  <NL>  <NL> length . add ( glue . get length ( ) ) ;  <NL> fixed glue component s = glue . get stretch ( ) ;  <NL> stretch [ s . get order ( ) ] + = s . get value ( ) ;  <NL>  <NL> s = glue . get shrink ( ) ;  <NL> shrink [ s . get order ( ) ] + = s . get value ( ) ;  <NL>  }  COM: <s> add some more glue to this one </s>

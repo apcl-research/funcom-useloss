@@ -1,0 +1,1 @@
+TDAT: public foreign key get foreign key by name ( string foreign key name ) {  <NL> for ( int i = 0 ; foreign keys ! = null & & i < foreign keys . length ; i + + ) {  <NL> if ( foreign key name . equals ( foreign keys [ i ] . get name ( ) ) ) return foreign keys [ i ] ;  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> find a foreign key by its name </s>

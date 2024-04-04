@@ -1,0 +1,1 @@
+TDAT: public void turn off ( ) throws io exception {  <NL> boolean was on = mote . get power ( ) ;  <NL> if ( ! was on ) return ;  <NL>  <NL> mote . set power ( false ) ;  <NL> driver . get sim comm ( ) . send command (  <NL> new turn off mote command ( ( short ) mote . get id ( ) , 0l ) ) ;  <NL> driver . refresh mote panel ( ) ;  <NL>  }  COM: <s> turn the mote off </s>

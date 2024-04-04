@@ -1,0 +1,1 @@
+TDAT: public void normalize ( ) {  <NL>  <NL> for ( int y = 0 ; y < size ( ) ; y + + ) {  <NL> double diag = get element ( y , y ) ;  <NL> for ( int x = 0 ; x < size ( ) ; x + + )  <NL> set element ( x , y , get element ( x , y ) - diag ) ;  <NL>  }  <NL>  }  COM: <s> normalizes the matrix so that the diagonal contains zeros </s>

@@ -1,0 +1,1 @@
+TDAT: private int levels ( class to ) {  <NL> if ( to . is interface ( ) )  <NL> return to . get interfaces ( ) . length ;  <NL> for ( int i = 0 ; to ! = null ; i + + , to = to . get superclass ( ) )  <NL> if ( to = = _ base )  <NL> return i ;  <NL> return integer . max _ value ;  <NL>  }  COM: <s> count the levels of inheritance between this class and our base class </s>

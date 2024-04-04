@@ -1,0 +1,1 @@
+TDAT: public document get doc ( int doc num ) {  <NL> document d = ( document ) docs . get ( doc num ) ;  <NL> if ( filters ! = null ) {  <NL> for ( int i = 0 ; i < filters . length ; i + + ) {  <NL> if ( filters [ i ] ! = null ) filters [ i ] . apply filter ( d ) ;  <NL>  }  <NL>  }  <NL> return d ;  <NL>  }  COM: <s> retrieve the indicated document </s>

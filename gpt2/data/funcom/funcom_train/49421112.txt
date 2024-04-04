@@ -1,0 +1,1 @@
+TDAT: private j text area get score text area ( ) {  <NL> if ( score text area = = null ) {  <NL> score text area = new j text area ( ) ;  <NL> score text area . set font ( new java . awt . font ( " courier new " ,  <NL> java . awt . font . plain , 12 ) ) ;  <NL>  }  <NL> return score text area ;  <NL>  }  COM: <s> this method initializes score text area </s>

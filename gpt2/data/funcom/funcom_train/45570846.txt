@@ -1,0 +1,1 @@
+TDAT: public void err ( string err ) {  <NL> j option pane . show message dialog ( parent , err , " j formula editor - jython error " , j option pane . error _ message ) ;  <NL> java . util . logging . logger . get logger ( " jformulaeditor " ) . log ( java . util . logging . level . warning , err ) ;  <NL>  }  COM: <s> show an error message to the user </s>

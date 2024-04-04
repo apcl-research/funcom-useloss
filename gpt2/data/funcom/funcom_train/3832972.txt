@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> string ret = get class ( ) . get name ( ) + " \n " ;  <NL> ret = " name = " + name + " \n " ;  <NL> ret + = ( " layer feature constraints = " + layer feature constraints + " \n " ) ;  <NL> ret + = ( " styles = " + styles + " \n " ) ;  <NL>  <NL> return ret ;  <NL>  }  COM: <s> returns a string representation of the layer </s>

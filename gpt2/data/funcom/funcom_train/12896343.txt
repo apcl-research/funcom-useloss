@@ -1,0 +1,1 @@
+TDAT: private void add attribute ( string field , generic value entity , om element om , om namespace ns ) {  <NL> string value = " " ;  <NL> if ( entity . get string ( field ) ! = null ) {  <NL> value = entity . get string ( field ) ;  <NL>  }  <NL> om . add attribute ( field , value , ns ) ;  <NL>  }  COM: <s> add an attribute from an entity </s>

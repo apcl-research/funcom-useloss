@@ -1,0 +1,1 @@
+TDAT: public void set study list ( list < study > study list ) {  <NL>  _ study list = study list ;  <NL>  _ bs helper . notify destinations ( this , " study list " ) ;  <NL>  <NL> set current study ( ( ( _ study list = = null ) || ( _ study list . is empty ( ) ) ) ? null : _ study list . get ( 0 ) ) ;  <NL>  }  COM: <s> sets the current study list </s>

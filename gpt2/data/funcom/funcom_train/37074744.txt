@@ -1,0 +1,1 @@
+TDAT: public seq feature i get feature at ( int i ) {  <NL> if ( ! can have children ( ) )  <NL> return null ;  <NL> else {  <NL> logger . error ( get name ( ) + " a " + this . get class ( ) . get name ( ) +  <NL>  " says it can have features , but it is not a feature set i " ) ;  <NL> return null ;  <NL>  }  <NL>  }  COM: <s> returns a seqfeature at the specified position </s>

@@ -1,0 +1,1 @@
+TDAT: private boolean same location ( location loc , geo point p ) {  <NL> if ( loc = = null || p = = null )  <NL> return false ;  <NL> return same location ( new geo point ( ( int ) ( loc . get latitude ( ) * 1e6 ) , ( int ) ( loc . get longitude ( ) * 1e6 ) ) , p ) ;  <NL>  }  COM: <s> checks whether the location is the same </s>

@@ -1,0 +1,1 @@
+TDAT: public string get content type ( )  <NL>  { string str ;  <NL> int end = ( new sip parser ( m _ str value ) ) . index of ( ' ; ' ) ;  <NL> if ( end < 0 ) str = m _ str value ; else str = m _ str value . substring ( 0 , end ) ;  <NL> return ( new sip parser ( str ) ) . get string ( ) ;  <NL>  }  COM: <s> gets content length of content length header </s>

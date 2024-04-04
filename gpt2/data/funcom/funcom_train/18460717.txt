@@ -1,0 +1,1 @@
+TDAT: public void test constant _ 2 ( ) {  <NL> vector elements = new vector ( ) ;  <NL> term element = new term ( 1 , " 2 " , 1 , ' * ' ) ;  <NL> elements . add ( element ) ;  <NL> string formula = get formula ( elements ) ;  <NL> assert formula ( " f ( x ) = 2 " , formula ) ;  <NL>  }  COM: <s> the operator is expected to be ignored </s>

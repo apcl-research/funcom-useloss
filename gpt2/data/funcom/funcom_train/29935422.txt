@@ -1,0 +1,1 @@
+TDAT: public game server ( int port ) {  <NL> this . port = port ;  <NL> players = new player [ total _ players ] ;  <NL> for ( int i = 0 ; i < 4 ; + + i )  <NL> players [ i ] = new player ( " empty " , player icons [ i ] ) ;  <NL>  <NL> clients . put ( 0 , new game monitor ( ) ) ;  <NL>  }  COM: <s> creates a game server that listens on the specified port </s>

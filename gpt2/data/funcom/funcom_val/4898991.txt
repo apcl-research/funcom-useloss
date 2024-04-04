@@ -1,0 +1,1 @@
+TDAT: public void connection lost ( connection connection ) {  <NL> gui utils . run on awt ( new runnable ( ) {  <NL> public void run ( ) {  <NL> for ( int i = 0 ; i < enabled when on . size ( ) ; i + + ) {  <NL> enabled when on . get ( i ) . set enabled ( ! enabled flag . get ( i ) ) ;  <NL>  }  <NL>  }  <NL>  } ) ;  <NL>  }  COM: <s> connection with server was interrupted </s>

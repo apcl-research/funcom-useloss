@@ -1,0 +1,1 @@
+TDAT: protected short compare order ( int [ ] date1 , int [ ] date2 ) {  <NL>  <NL> for ( int i = 0 ; i < total _ size ; i + + ) {  <NL> if ( date1 [ i ] < date2 [ i ] ) {  <NL> return - 1 ;  <NL>  }  <NL> else if ( date1 [ i ] > date2 [ i ] ) {  <NL> return 1 ;  <NL>  }  <NL>  }  <NL> return 0 ;  <NL>  }  COM: <s> given normalized values determines order relation </s>

@@ -1,0 +1,1 @@
+TDAT: protected void draw cell at ( int x , int y ) {  <NL> for ( int i = 0 ; i < draw features . length ; i + + ) {  <NL>  ( ( draw feature ) draw features [ i ] ) . draw ( buffered graphics , ( ( array2d base ) get scape ( ) . get space ( ) ) . get ( x , y ) , agent size , agent size ) ;  <NL>  }  <NL>  }  COM: <s> draw cell at </s>

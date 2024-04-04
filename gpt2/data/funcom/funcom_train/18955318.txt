@@ -1,0 +1,1 @@
+TDAT: public void update ( mcr object id mcrid , org . jdom . document xml ) throws mcr exception {  <NL> get xml table ( mcrid . get type id ( ) ) . update ( mcrid . get id ( ) , mcr utils . get byte array ( xml ) , 1 ) ;  <NL> jdom cache . put ( mcrid , xml ) ;  <NL> config . system modified ( ) ;  <NL>  }  COM: <s> the method update an item in the datastore </s>

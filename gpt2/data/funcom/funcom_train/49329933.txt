@@ -1,0 +1,1 @@
+TDAT: private void draw cross ( graphics g , int x , int y , int width , int height ) {  <NL> g . set color ( color . black ) ;  <NL>  ( ( graphics2d ) g ) . set stroke ( thin stroke ) ;  <NL> g . draw line ( x - width / 2 , y , x + width / 2 , y ) ;  <NL> g . draw line ( x , y - height / 2 , x , y + height / 2 ) ;  <NL>  }  COM: <s> draw the center cross hair </s>

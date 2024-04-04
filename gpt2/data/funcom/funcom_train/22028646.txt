@@ -1,0 +1,1 @@
+TDAT: public object get element ( int row , int col ) {  <NL>  <NL> object x = array . new instance ( bases [ col ] , sizes [ col ] ) ;  <NL> system . arraycopy ( arrays [ col ] , sizes [ col ] * row , x , 0 , sizes [ col ] ) ;  <NL> return x ;  <NL>  }  COM: <s> get a element of the table </s>

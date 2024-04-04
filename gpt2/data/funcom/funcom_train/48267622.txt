@@ -1,0 +1,1 @@
+TDAT: private void report invalid ( string invalid ) {  <NL> log ( " about to report invalid . . . " ) ;  <NL> xhr . post ( window ext . get host window ( ) , gwt . get module base url ( ) + " invalid " ,  <NL> invalid , " text / plain " , new xhr cb ( ) ) ;  <NL>  }  COM: <s> tell the breaky server that this data set contained an invalid record </s>

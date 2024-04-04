@@ -1,0 +1,1 @@
+TDAT: public int get selected row count ( ) {  <NL> int i min = get min selection index ( ) ;  <NL> int i max = get max selection index ( ) ;  <NL> int count = 0 ;  <NL> for ( int i = i min ; i < = i max ; i + + ) {  <NL> if ( is selected index ( i ) ) {  <NL> count + + ;  <NL>  }  <NL>  }  <NL> return count ;  <NL>  }  COM: <s> returns the number of selected rows </s>

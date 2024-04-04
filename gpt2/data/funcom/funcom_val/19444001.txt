@@ -1,0 +1,1 @@
+TDAT: public void j menu help about _ action performed ( action event e )  <NL>  { try <NL>  { java helper controller . get instance ( ) . open help ( this ) ;  <NL>  }  <NL> catch ( exception evt )  <NL>  { status bar . set text ( " error = " + evt . get message ( ) + " " + this . get class ( ) . get name ( ) ) ;  <NL>  }  <NL>  }  COM: <s> help about action performed </s>

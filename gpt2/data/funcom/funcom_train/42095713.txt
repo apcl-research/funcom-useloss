@@ -1,0 +1,1 @@
+TDAT: private void move body ( double x , double y ) {  <NL> for ( int k = number _ of _ particles - 1 ; k > 0 ; k - - ) {  <NL> body [ k ] . set _ y ( body [ k - 1 ] . get _ y ( ) ) ;  <NL>  }  <NL> body [ 0 ] . set _ y ( y ) ;  <NL>  }  COM: <s> will move the body according the heads coordinates </s>

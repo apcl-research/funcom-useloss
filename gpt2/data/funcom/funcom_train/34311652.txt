@@ -1,0 +1,1 @@
+TDAT: public void update sliders ( int [ ] gains ) {  <NL> if ( gains ! = null ) {  <NL> for ( int i = 0 ; i < gains . length ; i + + ) {  <NL> gain value [ i + 1 ] = gains [ i ] ;  <NL> sliders [ i + 1 ] . set value ( max gain - gain value [ i + 1 ] ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> update sliders from gains array </s>

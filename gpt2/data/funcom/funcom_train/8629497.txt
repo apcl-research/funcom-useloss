@@ -1,0 +1,1 @@
+TDAT: protected void debug code assign ( string class name , int type , int id , string value ) {  <NL> if ( trace . is debug enabled ( ) ) {  <NL> trace . debug code ( class name + " " + prefix [ type ] + id + " = " + get trace object name ( ) + " . " + value + " ; " ) ;  <NL>  }  <NL>  }  COM: <s> write trace information as an assignment in the form </s>

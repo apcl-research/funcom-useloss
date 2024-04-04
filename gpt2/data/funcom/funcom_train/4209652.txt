@@ -1,0 +1,1 @@
+TDAT: private void account creation successful ( ) {  <NL> registered = true ;  <NL> j option pane . show message dialog ( this , res . get string ( " message . account . created " ) , res . get string ( " title . account . created " ) , j option pane . information _ message ) ;  <NL> dialog . dispose ( ) ;  <NL>  }  COM: <s> called if the account was created succesfully </s>

@@ -1,0 +1,1 @@
+TDAT: public void untag ( class < ? > tag class ) {  <NL> iterator < tag < ? > > tag iter = _ tags . iterator ( ) ;  <NL> while ( tag iter . has next ( ) ) {  <NL> tag < ? > tag = tag iter . next ( ) ;  <NL> if ( tag class . is instance ( tag ) ) {  <NL> tag iter . remove ( ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> remove all tags of the given class </s>

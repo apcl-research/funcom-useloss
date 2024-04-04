@@ -1,0 +1,1 @@
+TDAT: public jg event get event ( string event name ) {  <NL> iterator iter = events . iterator ( ) ;  <NL> while ( iter . has next ( ) ) {  <NL> jg event event = ( jg event ) iter . next ( ) ;  <NL> if ( event . get name ( ) . equals ( event name ) ) {  <NL> return event ;  <NL>  } / / if <NL>  } / / while <NL> return null ;  <NL>  }  COM: <s> getter for events by name </s>

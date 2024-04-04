@@ -1,0 +1,1 @@
+TDAT: private void repaint focused row ( ) {  <NL> int focused row = get focused row ( false ) ;  <NL> if ( focused row ! = - 1 & & focused row < get row count ( ) ) {  <NL> rectangle rect = get cell rect ( focused row , 0 , true ) ;  <NL> rect . width = get width ( ) ;  <NL> repaint ( rect ) ;  <NL>  }  <NL>  }  COM: <s> repaints the focused row if one was focused </s>

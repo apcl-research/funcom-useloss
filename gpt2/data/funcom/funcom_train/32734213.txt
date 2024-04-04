@@ -1,0 +1,1 @@
+TDAT: protected string buffer log prop change ( ) {  <NL> string buffer l buffer = new string buffer ( ) ;  <NL> l buffer . append ( this . indent string + log msg + " " + log msg type + log parms [ 1 ] + " changed " + log parms [ 2 ] + " - > " + log parms [ 3 ] + " \n " ) ;  <NL> return l buffer ;  <NL>  }  COM: <s> produces the logging output for a property change action </s>

@@ -1,0 +1,1 @@
+TDAT: public void set line width ( double width ) {  <NL> escher opt record opt = ( escher opt record ) get escher child ( _ escher container , escher opt record . record _ id ) ;  <NL> set escher property ( opt , escher properties . linestyle _ _ linewidth , ( int ) ( width * emu _ per _ point ) ) ;  <NL>  }  COM: <s> sets the width of line in in points </s>

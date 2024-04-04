@@ -1,0 +1,1 @@
+TDAT: public t assertt ( object expr , @ optional object . . . message ) {  <NL>  _ safe add ( " assert " ) . _ add ( expr ) ;  <NL> if ( message . length > 0 ) {  <NL>  _ blank ( ) . _ add ( colon ) . _ blank ( ) ;  <NL>  _ add ( message [ 0 ] ) ;  <NL>  }  <NL>  <NL> return _ this ( ) ;  <NL>  }  COM: <s> yields an code assert code statement </s>

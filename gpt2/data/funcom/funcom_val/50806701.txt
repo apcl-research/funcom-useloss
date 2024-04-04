@@ -1,0 +1,1 @@
+TDAT: protected void adjust all colors ( ) {  <NL> for ( iterator it = m user map . values ( ) . iterator ( ) ; it . has next ( ) ; ) {  <NL> entry ent = ( entry ) it . next ( ) ;  <NL> ent . adjust colors ( ) ;  <NL>  }  <NL>  <NL> element el = m document . get default root element ( ) ;  <NL> recurse elements ( el ) ;  <NL>  }  COM: <s> recolor all the text </s>

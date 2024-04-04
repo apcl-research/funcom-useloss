@@ -1,0 +1,1 @@
+TDAT: public int covered ( int line ) {  <NL> int ret = 0 ;  <NL> for ( int j = 0 , ln = blocks . length ; j < ln ; j + + )  <NL> if ( line > = blocks [ j ] . start & & line < = blocks [ j ] . end & & cov blocks . get ( j ) )  <NL> ret + + ;  <NL> return ret ;  <NL>  }  COM: <s> return the number of fragment of given line that has been covered </s>

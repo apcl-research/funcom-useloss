@@ -1,0 +1,1 @@
+TDAT: public task proxy get task ( long id ) {  <NL>  / / create the map of tasks .  <NL> if ( task map = = null ) {  <NL> task map = new hash map < long , task proxy > ( ) ;  <NL> for ( task proxy task : get tasks ( ) ) {  <NL> task map . put ( task . get id ( ) , task ) ;  <NL>  }  <NL>  }  <NL>  <NL> return task map . get ( id ) ;  <NL>  }  COM: <s> get a task by its id </s>

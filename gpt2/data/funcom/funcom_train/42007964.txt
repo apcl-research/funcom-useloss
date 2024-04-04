@@ -1,0 +1,1 @@
+TDAT: public object insert event ( int index _ , string evt type _ , double time _ , object to rcv _ , string class expected _ , port p _ )  <NL>  { return evt tester . insert event ( index _ , evt type _ , time _ , to rcv _ , class expected _ , p _ ) ; }  COM: <s> inserts a receiving event </s>

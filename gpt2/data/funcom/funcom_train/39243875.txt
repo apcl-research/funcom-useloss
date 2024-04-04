@@ -1,0 +1,1 @@
+TDAT: public string get region ( ) {  <NL> string region name = " " ;  <NL> if ( user . get address ( ) ! = null ) {  <NL> region reg = user . get organisation ( ) . get address ( ) . get region ( ) ;  <NL> if ( reg ! = null ) {  <NL> region name = reg . get name ( ) ;  <NL>  }  <NL>  }  <NL> return region name ;  <NL>  }  COM: <s> get the name of the region </s>

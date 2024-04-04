@@ -1,0 +1,1 @@
+TDAT: private void update people primary ( long person id , string column , long primary id ) {  <NL> m values local . clear ( ) ;  <NL> m values local . put ( column , primary id ) ;  <NL> get database ( ) . update ( s people table , m values local , " _ id = " + person id , null ) ;  <NL>  }  COM: <s> set the specified primary column for the person </s>

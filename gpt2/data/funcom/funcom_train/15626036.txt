@@ -1,0 +1,1 @@
+TDAT: private void fire map squares changed event ( final set < map square < g , a , r > > map squares ) {  <NL> set modified ( ) ;  <NL> for ( final map model listener < g , a , r > listener : map model listeners . get listeners ( ) ) {  <NL> listener . map squares changed ( map squares ) ;  <NL>  }  <NL>  }  COM: <s> fire a map squares changed event </s>

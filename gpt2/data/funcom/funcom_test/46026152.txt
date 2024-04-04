@@ -1,0 +1,1 @@
+TDAT: public int get are line ( ) {  <NL> if ( ( speed . are line < ruleopt . min are line ) & & ( ruleopt . min are line > = 0 ) ) return ruleopt . min are line ;  <NL> if ( ( speed . are line > ruleopt . max are line ) & & ( ruleopt . max are line > = 0 ) ) return ruleopt . max are line ;  <NL> return speed . are line ;  <NL>  }  COM: <s> current are after line clear </s>

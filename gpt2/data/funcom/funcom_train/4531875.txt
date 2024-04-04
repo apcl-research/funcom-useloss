@@ -1,0 +1,1 @@
+TDAT: public void write ( data output out ) throws io exception {  <NL> writable utils . write v int ( out , splits . length ) ;  <NL> for ( input split s : splits ) {  <NL> text . write string ( out , s . get class ( ) . get name ( ) ) ;  <NL>  }  <NL> for ( input split s : splits ) {  <NL> s . write ( out ) ;  <NL>  }  <NL>  }  COM: <s> write splits in the following format </s>

@@ -1,0 +1,1 @@
+TDAT: public void set color ( int red , int green , int blue ) {  <NL> for ( int i = 0 ; i < led . length ; i + + ) {  <NL> led [ i ] . set off ( ) ;  <NL> led [ i ] . set rgb ( ( red = = 0 ) ? 0 : 255 , ( green = = 0 ) ? 0 : 255 , ( blue = = 0 ) ? 0 : 255 ) ;  <NL>  }  <NL>  }  COM: <s> set red green or blue on non zero or off zero </s>

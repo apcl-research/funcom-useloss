@@ -1,0 +1,1 @@
+TDAT: public int signum ( ) {  <NL> int s = re . signum ( ) ;  <NL> if ( s ! = 0 ) {  <NL> return s ;  <NL>  }  <NL> s = im . signum ( ) ;  <NL> if ( s ! = 0 ) {  <NL> return s ;  <NL>  }  <NL> s = jm . signum ( ) ;  <NL> if ( s ! = 0 ) {  <NL> return s ;  <NL>  }  <NL> return km . signum ( ) ;  <NL>  }  COM: <s> since quaternion numbers are unordered </s>

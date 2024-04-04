@@ -1,0 +1,1 @@
+TDAT: public boolean contain cherry ( int pos ) {  <NL> if ( level . cherry at ( pos ) ) {  <NL> level . grab cherry at ( pos ) ;  <NL> new screen text ( this , " 200 points ! ! " , const . stxpos , const . stypos - 40 , 3 ) ;  <NL> return true ;  <NL>  }  <NL> else return false ;  <NL>  }  COM: <s> check if position contain cherry </s>

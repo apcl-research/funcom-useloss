@@ -1,0 +1,1 @@
+TDAT: public void test delete not existing ( ) {  <NL> try {  <NL> con . delete ( " cn = this does not exist " + " , " + base ) ;  <NL> fail ( " deletion should fail " ) ;  <NL>  } catch ( ldap exception e ) {  <NL> assert true ( e . get ldap result code ( ) = = ldap exception . no _ such _ object ) ;  <NL>  }  <NL>  }  COM: <s> try to delete a non existing entry </s>

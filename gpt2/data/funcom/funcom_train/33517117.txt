@@ -1,0 +1,1 @@
+TDAT: private int check references ( ) {  <NL> int i = 0 ;  <NL> for ( object obj = null ; ( obj = this . rq . poll ( ) ) ! = null ; ) {  <NL> i + + ;  <NL> this . internal map . remove ( ( ( soft value < k , v > ) obj ) . get key ( ) ) ;  <NL>  }  <NL> return i ;  <NL>  }  COM: <s> checks soft references and cleans any that have been placed on </s>

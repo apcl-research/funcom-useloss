@@ -1,0 +1,1 @@
+TDAT: public list select ( db query query ) throws persistence exception {  <NL> oreo db query oreo query = ( oreo db query ) query ;  <NL> return select ( oreo query , oreo query . get db order ( ) , oreo query . get starting from ( ) , oreo query . get max result size ( ) , oreo query . get table ( ) ) ;  <NL>  }  COM: <s> select dbobjects using db query </s>

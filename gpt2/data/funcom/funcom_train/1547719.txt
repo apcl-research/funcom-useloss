@@ -1,0 +1,1 @@
+TDAT: private int find max y ( weighted observed point [ ] points ) {  <NL> int max y idx = 0 ;  <NL> for ( int i = 1 ; i < points . length ; i + + ) {  <NL> if ( points [ i ] . get y ( ) > points [ max y idx ] . get y ( ) ) {  <NL> max y idx = i ;  <NL>  }  <NL>  }  <NL> return max y idx ;  <NL>  }  COM: <s> finds index of point in specified points with the largest y </s>

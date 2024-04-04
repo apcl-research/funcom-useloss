@@ -1,0 +1,1 @@
+TDAT: public void set build metrics ( string build metrics ) {  <NL> this . build metrics = new file ( get project ( ) . get base dir ( ) , build metrics ) ;  <NL> if ( ! this . build metrics . exists ( ) ) throw new build exception ( " the profiler source file ' " + this . build metrics <NL>  + " ' does not exist . " ) ;  <NL>  }  COM: <s> the mandatory profiler source file </s>

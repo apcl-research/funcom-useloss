@@ -1,0 +1,1 @@
+TDAT: public void paint ( final graphics2d g ) {  <NL> g . set color ( utils . get color background ( ) ) ;  <NL> g . fill rect ( 0 , 0 , root . get width ( ) , root . get height ( ) ) ;  <NL> g . draw image ( image , 0 , 0 , null ) ;  <NL>  }  COM: <s> paint the rendered image to the specified graphics object </s>

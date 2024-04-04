@@ -1,0 +1,1 @@
+TDAT: public void play note ( int channel , int pitch , int velocity , int duration ) {  <NL>  / / create a play midi note thread <NL> play midi note p = new play midi note ( channel , pitch , velocity , duration ) ;  <NL>  / / start the thread <NL> new thread ( p ) . start ( ) ;  <NL>  }  COM: <s> use the orchestra to play a midi note </s>

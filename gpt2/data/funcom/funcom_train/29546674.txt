@@ -1,0 +1,1 @@
+TDAT: public string get label ( ) {  <NL> try {  <NL> return ( ( label property ) ( ( array list ) resource . data . properties . get ( label property . qname ) ) . get ( 0 ) ) . label content ;  <NL>  } catch ( exception e ) {  <NL> cat . debug ( " unable to get label for resource " + resource , e ) ;  <NL> return " " ;  <NL>  }  <NL>  }  COM: <s> get label property </s>

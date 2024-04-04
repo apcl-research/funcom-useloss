@@ -1,0 +1,1 @@
+TDAT: public void add case ( int value ) {  <NL> if ( case ct = = cases . length ) {  <NL> int [ ] temp = new int [ 2 * case ct ] ;  <NL> system . arraycopy ( cases , 0 , temp , 0 , case ct ) ;  <NL> cases = temp ;  <NL>  }  <NL> cases [ case ct + + ] = value ;  <NL>  }  COM: <s> add a new case value to the list stored in this object </s>

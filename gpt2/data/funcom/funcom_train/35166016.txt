@@ -1,0 +1,1 @@
+TDAT: public void perspective ( float fov y , float aspect , float near , float far ) {  <NL> float h = ( float ) math . tan ( fov y ) * near * . 5f ;  <NL> float w = h * aspect ;  <NL> frustum ( - w , w , h , - h , near , far ) ;  <NL>  }  COM: <s> sets the view frustum to perspective projection </s>

@@ -1,0 +1,1 @@
+TDAT: public void remove ( int index ) {  <NL> if ( sys properties . check ) {  <NL> if ( index > = size ) {  <NL> throw new array index out of bounds exception ( " i = " + index + " size = " + size ) ;  <NL>  }  <NL>  }  <NL> system . arraycopy ( data , index + 1 , data , index , size - index - 1 ) ;  <NL> size - - ;  <NL>  }  COM: <s> remove the value at the given index </s>

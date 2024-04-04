@@ -1,0 +1,1 @@
+TDAT: public void add int array ( string ident , int [ ] array ) {  <NL>  / / todo , asserts to prevent multiple array being put with the same identity ?  <NL>  / / assert ( int array table . get ( ident ) = = null ) : " the int array with identity " + ident + " already exists " ;  <NL> int array table . put ( ident , array ) ;  <NL>  }  COM: <s> it stores an int array </s>

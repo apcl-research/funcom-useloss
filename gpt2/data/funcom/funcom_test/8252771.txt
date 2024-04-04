@@ -1,0 +1,1 @@
+TDAT: public void add child ( track node child ) {  <NL> this . children . add ( child ) ;  <NL> child . parent = this ;  <NL> remaining echo + + ;  <NL>  / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / /  <NL>  }  COM: <s> function adds child into the parent track </s>

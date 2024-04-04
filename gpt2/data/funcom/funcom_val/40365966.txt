@@ -1,0 +1,1 @@
+TDAT: public void bind ( ) {  <NL> if ( helper a ! = null ) {  <NL> helper a . bind ( 0 ) ;  <NL> object a = objects a [ objects a . length - 1 ] ;  <NL>  }  <NL> if ( helper b ! = null ) {  <NL> helper b . bind ( 0 ) ;  <NL> object b = objects b [ objects b . length - 1 ] ;  <NL>  }  <NL> add listeners ( ) ;  <NL>  }  COM: <s> binds the beans </s>

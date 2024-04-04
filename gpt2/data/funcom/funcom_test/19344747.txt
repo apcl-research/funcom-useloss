@@ -1,0 +1,1 @@
+TDAT: public void add ( string type , string jar , string description ) {  <NL> if ( count < jars . length ) {  <NL> jars [ count ] = new string [ 3 ] ;  <NL> jars [ count ] [ type _ column ] = type ;  <NL> jars [ count ] [ jar _ column ] = jar ;  <NL> jars [ count + + ] [ description _ column ] = description ;  <NL>  }  <NL>  }  COM: <s> add a column to the group of jars </s>

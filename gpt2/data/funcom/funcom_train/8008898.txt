@@ -1,0 +1,1 @@
+TDAT: public void set footer components ( html component comp [ ] [ ] ) {  <NL> for ( int row = 0 ; row < comp . length ; row + + ) {  <NL> for ( int col = 0 ; col < comp [ row ] . length ; col + + )  <NL> set footer component at ( row , col , comp [ row ] [ col ] , null ) ;  <NL>  }  <NL>  }  COM: <s> sets all the footer components on a particular row in the table </s>

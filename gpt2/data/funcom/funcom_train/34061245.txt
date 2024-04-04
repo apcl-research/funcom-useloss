@@ -1,0 +1,1 @@
+TDAT: public void add vertices to sweep ( boolean is a , vector [ ] verts ) {  <NL> for ( int i = 0 , j = verts . length - 1 ; i < verts . length ; j = i , i + + ) {  <NL> float dist = sweep dir . dot ( verts [ i ] ) ;  <NL>  <NL> insert ( i , is a , dist ) ;  <NL> insert ( j , is a , dist ) ;  <NL>  }  <NL>  }  COM: <s> insert a list of edges </s>

@@ -1,0 +1,1 @@
+TDAT: public void add image ( string key , byte [ ] image contents , string mime type ) {  <NL> if ( m _ image contents = = null )  <NL> m _ image contents = new hash map ( ) ;  <NL> object [ ] image = new object [ ] { image contents , mime type } ;  <NL> m _ image contents . put ( key , image ) ;  <NL>  }  COM: <s> adds the image and its mime type to the user session </s>

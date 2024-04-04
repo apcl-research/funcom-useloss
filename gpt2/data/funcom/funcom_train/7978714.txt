@@ -1,0 +1,1 @@
+TDAT: protected uuri validity check ( uuri uuri ) throws uri exception {  <NL> if ( uuri . get raw uri ( ) . length > uuri . max _ url _ length ) {  <NL> throw new uri exception ( " created ( escaped ) uuri > " +  <NL> uuri . max _ url _ length + " : " + uuri . to string ( ) ) ;  <NL>  }  <NL> return uuri ;  <NL>  }  COM: <s> check the generated uuri </s>

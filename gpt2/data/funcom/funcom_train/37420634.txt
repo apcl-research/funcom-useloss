@@ -1,0 +1,1 @@
+TDAT: public v put ( integer key , v value ) {  <NL> int k = key . int value ( ) ;  <NL> if ( k > min id & & k < max id )  <NL> throw new illegal argument exception ( " tried to set a specified key , within the range of autokey " ) ;  <NL> return super . put ( key , value ) ;  <NL>  }  COM: <s> associates the specified value with the specified key in this map </s>

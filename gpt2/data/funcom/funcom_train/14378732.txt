@@ -1,0 +1,1 @@
+TDAT: public void set velocity ( vector3d v , long time ) {  <NL> if ( velocity ! = v ) {  <NL> velocity . set to ( v ) ;  <NL>  }  <NL> if ( v . x = = 0 & & v . y = = 0 & & v . z = = 0 ) {  <NL> velocity movement . set ( 0 , 0 ) ;  <NL>  } else {  <NL> velocity movement . set ( 1 , time ) ;  <NL>  }  <NL>  <NL>  }  COM: <s> sets the velocity </s>

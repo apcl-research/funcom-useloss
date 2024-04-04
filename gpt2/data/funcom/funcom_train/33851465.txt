@@ -1,0 +1,1 @@
+TDAT: public void accept visitor ( cfg cfg , path visitor visitor ) {  <NL> if ( get length ( ) > 0 ) {  <NL> basic block start block = cfg . lookup block by label ( get block id at ( 0 ) ) ;  <NL> accept visitor starting from location ( cfg , visitor , start block , start block . get first instruction ( ) ) ;  <NL>  }  <NL>  }  COM: <s> accept a path visitor </s>

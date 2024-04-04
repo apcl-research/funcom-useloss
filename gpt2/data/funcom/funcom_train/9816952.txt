@@ -1,0 +1,1 @@
+TDAT: final public void net ( int offset , int frame , int frame offset , string block , string latch type ) throws parse exception {  <NL> jj _ consume _ token ( net ) ;  <NL> jj _ consume _ token ( equal ) ;  <NL> net name ( offset , frame , frame offset , block , latch type ) ;  <NL>  }  COM: <s> parses the entire net </s>

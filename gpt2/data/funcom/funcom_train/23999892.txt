@@ -1,0 +1,1 @@
+TDAT: public void test get ( ) {  <NL> ordered set < string > instance = new ordered set < string > ( ) ;  <NL> instance . add ( " a " ) ;  <NL> instance . add ( " b " ) ;  <NL> assert equals ( " a " , instance . get ( 0 ) ) ;  <NL> assert equals ( " b " , instance . get ( 1 ) ) ;  <NL>  }  COM: <s> test of get method of class ordered set </s>

@@ -1,0 +1,1 @@
+TDAT: public boolean is compatible raster ( raster raster ) {  <NL>  <NL> int size = raster . get sample model ( ) . get sample size ( 0 ) ;  <NL> return ( ( raster . get transfer type ( ) = = transfer type ) & &  <NL>  ( raster . get num bands ( ) = = 1 ) & & ( ( 1 < < size ) > = map _ size ) ) ;  <NL>  }  COM: <s> returns code true code if code raster code is compatible </s>

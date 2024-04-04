@@ -1,0 +1,1 @@
+TDAT: public string get string ( ) {  <NL> if ( st . size of r array ( ) = = 0 ) {  <NL> return st . get t ( ) ;  <NL>  }  <NL> string buffer buf = new string buffer ( ) ;  <NL> for ( ctr elt r : st . get r array ( ) ) {  <NL> buf . append ( r . get t ( ) ) ;  <NL>  }  <NL> return buf . to string ( ) ;  <NL>  }  COM: <s> returns the plain string representation </s>

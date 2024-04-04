@@ -1,0 +1,1 @@
+TDAT: public void test main types ( ) {  <NL> assert equals ( " crs " , urn _ type . main [ 0 ] . name ) ;  <NL> assert equals ( " datum " , urn _ type . main [ 1 ] . name ) ;  <NL> assert equals ( " cs " , urn _ type . main [ 2 ] . name ) ;  <NL> assert equals ( " coordinate operation " , urn _ type . main [ 3 ] . name ) ;  <NL>  }  COM: <s> tests the main types </s>

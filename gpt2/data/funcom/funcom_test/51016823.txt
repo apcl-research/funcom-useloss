@@ -1,0 +1,1 @@
+TDAT: private boolean is psimi ref ( db reference type ref ) {  <NL> return ( ref . get db ac ( ) ! = null & & ref . get db ac ( ) . equals ( " mi : 0488 " ) ) || <NL>  ( ref . get db ( ) ! = null & & ref . get db ( ) . equals ( " psi - mi " ) ) ;  <NL>  }  COM: <s> determines whether a given dbreference is a psi mi ontology reference </s>

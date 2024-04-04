@@ -1,0 +1,1 @@
+TDAT: public void clear up to ( int bit ) {  <NL> int where = subscript ( bit ) ;  <NL>  / * preaddition of 1 to bit is a clever hack to avoid long arithmetic * /  <NL> bits [ where ] & = ~ ( ( 1 < < ( ( bit + 1 ) & mask ) ) - 1 ) ;  <NL> while ( where - - > 0 ) {  <NL> bits [ where ] = 0 ;  <NL>  }  <NL>  }  COM: <s> clears all bits up to and including the given bit </s>

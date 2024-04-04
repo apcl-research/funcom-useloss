@@ -1,0 +1,1 @@
+TDAT: public int get http status ( ) {  <NL> if ( status ! = status . done ) throw new illegal state exception ( ) ;  <NL>  / / in http 1 . 1 , the return code is in ascii bytes 10 - 12 .  <NL> return <NL>  ( data [ 9 ] - ' 0 ' ) * 100 +  <NL>  ( data [ 10 ] - ' 0 ' ) * 10 +  <NL>  ( data [ 11 ] - ' 0 ' ) * 1 ;  <NL>  }  COM: <s> return the http status code for the download </s>

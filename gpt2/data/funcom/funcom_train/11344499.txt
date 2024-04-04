@@ -1,0 +1,1 @@
+TDAT: public void add test ( test test ) {  <NL> synchronized ( this ) {  <NL> test record tr = new test record ( ) ;  <NL> tr . m _ test = test ;  <NL> tr . m _ name = test . to string ( ) ;  <NL> m _ list . add ( tr ) ;  <NL>  }  <NL> fire contents changed ( this , m _ list . size ( ) - 1 , m _ list . size ( ) - 1 ) ;  <NL>  }  COM: <s> adds a test </s>

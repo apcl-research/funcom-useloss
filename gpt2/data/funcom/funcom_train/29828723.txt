@@ -1,0 +1,1 @@
+TDAT: / * public boolean add bookmark ( jid jid , string namespace , string name ) {  <NL> bs bookmark bm = new bs bookmark ( jid , namespace , name ) ;  <NL> if ( ! bookmarks . contains ( bm ) ) {  <NL> bookmarks . add element ( bm ) ;  <NL> return save bookmarks ( ) ;  <NL>  }  <NL> return true ;  <NL>  } * /  COM: <s> adds bookmark and saves it into preferences file </s>

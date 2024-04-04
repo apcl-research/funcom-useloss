@@ -1,0 +1,1 @@
+TDAT: protected void append to file ( file f ) {  <NL> try {  <NL> file writer w = new file writer ( f . get canonical path ( ) , true ) ;  <NL> w . write ( " appended " ) ;  <NL> w . close ( ) ;  <NL>  } catch ( exception e ) {  <NL> fail ( " failed to create fixture : file appendage failed , " ) ;  <NL>  }  <NL>  <NL>  }  COM: <s> append to a file </s>

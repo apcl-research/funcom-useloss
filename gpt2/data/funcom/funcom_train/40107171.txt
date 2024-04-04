@@ -1,0 +1,1 @@
+TDAT: public void key ( string key ) throws io exception {  <NL> if ( _ want comma ) {  <NL>  _ out . write ( ' , ' ) ;  <NL>  _ indent ( ) ;  <NL>  }  <NL>  _ out . write ( ' " ' ) ;  <NL>  _ out . write ( key ) ;  <NL>  _ out . write ( ' " ' ) ;  <NL>  _ out . write ( ' : ' ) ;  <NL>  _ want comma = false ;  <NL>  }  COM: <s> writes the key of a tt key value tt pair </s>

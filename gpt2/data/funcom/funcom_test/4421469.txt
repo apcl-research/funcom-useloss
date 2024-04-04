@@ -1,0 +1,1 @@
+TDAT: public peer semantic tag create any peer semantic tag ( ) {  <NL> if ( this . any peer = = null ) {  <NL> this . any peer = new in memo peer associated semantic tag ( " - 1 " , context space . any , context space . anysi , new string [ ] { } ) ;  <NL>  }  <NL> return this . any peer ;  <NL>  }  COM: <s> creates any any tag for the peer dimensions </s>

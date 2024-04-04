@@ -1,0 +1,1 @@
+TDAT: public void paint ( graphics g , int cx , int cy , int cw , int ch ) {  <NL> g . set color ( foreground ) ;  <NL> g . draw rect ( 0 , 0 , width - 1 , height - 1 ) ;  <NL> g . set color ( background ) ;  <NL> g . fill rect ( 1 , 1 , width - 2 , height - 2 ) ;  <NL>  <NL> paint ( g ) ;  <NL>  }  COM: <s> paint the background </s>

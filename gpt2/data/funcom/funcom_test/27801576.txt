@@ -1,0 +1,1 @@
+TDAT: public z view node get z view node ( ) {  <NL> if ( view node = = null ) {  <NL> view node = new z view node ( this ) ;  <NL>  / / system . out . print ( " it is null . . . " ) ;  <NL>  }  <NL>  / / system . out . println ( " getting the z view node ! " ) ;  <NL> return view node ;  <NL>  }  COM: <s> the returned view node can be used for color changing etc </s>

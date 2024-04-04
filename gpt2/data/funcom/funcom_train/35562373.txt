@@ -1,0 +1,1 @@
+TDAT: public void set trace ( string trace ) {  <NL> trace list . clear ( ) ;  <NL> if ( trace = = null || trace . trim ( ) . length ( ) = = 0 ) {  <NL> return ;  <NL>  }  <NL>  <NL> string [ ] splits = trace . split ( " \n " ) ;  <NL> for ( string row : splits ) {  <NL> trace list . add item ( row ) ;  <NL>  }  <NL>  }  COM: <s> sets the trace info </s>

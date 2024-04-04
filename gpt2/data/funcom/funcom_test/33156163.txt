@@ -1,0 +1,1 @@
+TDAT: private string format mdl string ( string s , int le ) {  <NL> s = s . trim ( ) ;  <NL> if ( s . length ( ) > le )  <NL> return s . substring ( 0 , le ) ;  <NL> int l ;  <NL> l = le - s . length ( ) ;  <NL> for ( int f = 0 ; f < l ; f + + )  <NL> s + = " " ;  <NL> return s ;  <NL>  }  COM: <s> formats a string to fit into the connectiontable </s>

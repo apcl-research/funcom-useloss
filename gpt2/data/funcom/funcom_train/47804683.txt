@@ -1,0 +1,1 @@
+TDAT: private boolean is move legal ( int source a , int source b , int dest a , int dest b , move m ) {  <NL> return ( is move legal ( source a , dest a , m ) & & is move legal ( source b , dest b , m ) ) ? true : false ;  <NL>  }  COM: <s> check if this dual move is valid </s>

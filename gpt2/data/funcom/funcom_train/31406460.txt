@@ -1,0 +1,1 @@
+TDAT: public void set create parameters ( prepared statement stmt ) throws sql exception {  <NL> set int ( stmt , 1 , _ row ) ;  <NL> set int ( stmt , 2 , _ column ) ;  <NL> stmt . set string ( 3 , _ abbreviation ) ;  <NL> stmt . set string ( 4 , _ name ) ;  <NL> stmt . set string ( 5 , _ type ) ;  <NL>  }  COM: <s> set parameters on the create statement </s>

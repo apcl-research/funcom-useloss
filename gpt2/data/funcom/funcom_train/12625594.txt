@@ -1,0 +1,1 @@
+TDAT: public string get sim id ( ) throws at command failed exception {  <NL> string tmp = at cmd . send ( " at ^ scid\r " ) ;  <NL>  <NL> int i = tmp . index of ( " : " ) ;  <NL> int j = tmp . index of ( " \n " , i ) ;  <NL>  <NL> return ( tmp . substring ( i + 3 , j - 1 ) ) ;  <NL>  }  COM: <s> gets the sim identification number </s>

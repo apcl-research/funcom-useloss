@@ -1,0 +1,1 @@
+TDAT: public void play ( string file , float x , float y , float z , int att _ model , float dist or rolloff ) {  <NL> update listener ( ) ;  <NL> my sound system . quick play ( false , sysutil . get url ( file ) , file , false , x , y , z , att _ model , dist or rolloff ) ;  <NL>  }  COM: <s> play a sound clip with a particular volume </s>

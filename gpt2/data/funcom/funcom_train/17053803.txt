@@ -1,0 +1,1 @@
+TDAT: public sms point point factory ( secure random rand ) {  <NL> big integer k ;  <NL> do {  <NL> k = new big integer ( sms . get n ( ) . bit length ( ) , rand ) . mod ( sms . get n ( ) ) ;  <NL>  } while ( k . signum ( ) = = 0 ) ;  <NL> return g . multiply ( k ) ;  <NL>  }  COM: <s> get a random nonzero point on this curve given a fixed base point </s>

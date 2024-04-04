@@ -1,0 +1,1 @@
+TDAT: public string create image url ( ) {  <NL> return get session context ( ) . get call back url ( ) + " & _ resreq = 1 & control id = " + image control . this . get control id ( ) + ( create unique url ? " & time = " + system . current time millis ( ) + " & " : " & " ) + get filename ( ) ;  <NL>  }  COM: <s> create a url to this image </s>

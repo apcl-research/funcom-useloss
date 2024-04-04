@@ -1,0 +1,1 @@
+TDAT: private void make children node ( boolean explore ) {  <NL> x file e files [ ] = _ ef . list x files ( _ df ) ;  <NL> if ( e files ! = null ) {  <NL> for ( int i = 0 ; i < e files . length ; i + + ) {  <NL> add child ( new jef dir tree node ( e files [ i ] , explore ) ) ;  <NL>  }  <NL>  }  <NL> explore done = true ;  <NL>  }  COM: <s> description de la methode </s>

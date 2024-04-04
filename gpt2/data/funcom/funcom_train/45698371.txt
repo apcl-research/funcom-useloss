@@ -1,0 +1,1 @@
+TDAT: public void error ( string line , object clazz ) {  <NL> logger . append ( system . current time millis ( ) + " , error , " + clazz . get class ( ) . get name ( ) + " , " + line ) ;  <NL> system . out . println ( utils . get time ( ) + " " + clazz . get class ( ) . get name ( ) + " , " + line ) ;  <NL>  }  COM: <s> p write a line to common log file in format </s>

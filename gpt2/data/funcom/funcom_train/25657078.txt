@@ -1,0 +1,1 @@
+TDAT: public void set page data events ( page data event [ ] events ) {  <NL> this . events = events ;  <NL> this . pages = new page data [ events . length ] ;  <NL> for ( int i = 0 ; i < events . length ; i + + ) {  <NL> this . pages [ i ] = events [ i ] . get page data ( ) ;  <NL>  }  <NL>  }  COM: <s> set the page data for this event </s>

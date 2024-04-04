@@ -1,0 +1,1 @@
+TDAT: public void test get bar value ( ) {  <NL> system . out . println ( " test get bar value " ) ;  <NL>  <NL> gp bar entry be = new gp bar entry ( " barkey " , 10 , " barvalue " ) ;  <NL> string str = be . get bar value ( ) ;  <NL> assert equals ( str , " barvalue " ) ;  <NL>  }  COM: <s> test of get bar value method of class gpbar entry </s>

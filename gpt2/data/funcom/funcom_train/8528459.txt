@@ -1,0 +1,1 @@
+TDAT: public string filter ( string str ) {  <NL> matcher m = match . matcher ( str ) ;  <NL> string buffer buffer = new string buffer ( ) ;  <NL> while ( m . find ( ) ) {  <NL> m . append replacement ( buffer , maybe replace ( str , m ) ) ;  <NL>  }  <NL> m . append tail ( buffer ) ;  <NL> return buffer . to string ( ) ;  <NL>  }  COM: <s> filter a string </s>

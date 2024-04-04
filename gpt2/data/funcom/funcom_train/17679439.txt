@@ -1,0 +1,1 @@
+TDAT: public void append sql column ( jdbc column col , string alias , char buf s ) {  <NL> if ( alias ! = null ) {  <NL> s . append ( alias ) ;  <NL> s . append ( ' . ' ) ;  <NL>  }  <NL> if ( col = = null ) {  <NL> s . append ( ' * ' ) ;  <NL>  } else {  <NL> s . append ( col . name ) ;  <NL>  }  <NL>  }  COM: <s> append the name of the column to s </s>

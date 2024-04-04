@@ -1,0 +1,1 @@
+TDAT: public void insert tab ( string title , string icon , component comp , int index ) {  <NL> super . insert tab ( title , resource . get icon ( icon ) , comp , null , index ) ;  <NL> property list . insert ( new tab property ( title , icon ) , index ) ;  <NL> update ( resource ) ;  <NL>  }  COM: <s> insert a tab to cfjtabbed pane client framework jtabbed pane vector at </s>

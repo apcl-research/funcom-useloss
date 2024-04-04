@@ -1,0 +1,1 @@
+TDAT: private j text field get jt fvm delay ( ) {  <NL> if ( j t fvm delay = = null ) {  <NL> j t fvm delay = new j text field ( ) ;  <NL> j t fvm delay . set preferred size ( new dimension ( 221 , 19 ) ) ;  <NL> j t fvm delay . set bounds ( new rectangle ( 71 , 45 , 221 , 15 ) ) ;  <NL>  }  <NL> return j t fvm delay ;  <NL>  }  COM: <s> this method initializes j tfvm delay </s>

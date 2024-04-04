@@ -1,0 +1,1 @@
+TDAT: public void remove post watch ( pid pid , member id member id ) {  <NL> stored member temp = this . get stored member ( member id ) ;  <NL> if ( temp ! = null ) {  <NL> stored post post = this . get stored post ( pid ) ;  <NL> if ( post ! = null ) {  <NL> temp . remove post watch ( post ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> removes a post watch from an account </s>

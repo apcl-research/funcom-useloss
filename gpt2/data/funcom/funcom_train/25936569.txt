@@ -1,0 +1,1 @@
+TDAT: private void assert char ( buffered input stream bis , char c ) throws io exception {  <NL> if ( read char ( bis ) ! = c ) {  <NL> throw new illegal argument exception (  <NL> string . format ( " unexpected char at location % s % s , expected ' % s ' " , row , col , c )  <NL>  ) ;  <NL>  }  <NL>  }  COM: <s> asserts to read a specific char </s>

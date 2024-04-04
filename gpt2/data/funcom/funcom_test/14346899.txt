@@ -1,0 +1,1 @@
+TDAT: public void screen to graph point ( point point , point2d graph point ) {  <NL> graph point . set location ( point . x - get width ( ) / 2 , point . y - get height ( ) / 2 ) ;  <NL> if ( m _ lens ! = null )  <NL> m _ lens . undo lens ( this , graph point ) ;  <NL>  }  COM: <s> converts a given screen point into a point on the graph </s>

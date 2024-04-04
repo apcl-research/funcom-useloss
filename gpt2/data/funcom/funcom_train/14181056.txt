@@ -1,0 +1,1 @@
+TDAT: public void test get seats ( ) {  <NL> game g = new game ( u1 , " type " , " name " , 5 , true ) ;  <NL> assert equals ( g . get seats ( ) , " 0 / 5 " ) ;  <NL> g . add user ( u2 ) ;  <NL> assert equals ( g . get seats ( ) , " 1 / 5 " ) ;  <NL>  }  COM: <s> tests the get seats method </s>

@@ -1,0 +1,1 @@
+TDAT: protected void read tuple ( guid g , object closure ) {  <NL> if ( g ! = null ) {  <NL> query q = new query ( " id " , query . compare _ equal , g ) ;  <NL> tuple op . handle ( new input request ( this , closure ,  <NL> input request . read ,  <NL> q , 0 , false , null ) ) ;  <NL>  }  <NL>  }  COM: <s> reads a tuple </s>

@@ -1,0 +1,1 @@
+TDAT: public int get name index ( string [ ] [ ] player list , int len , string name ) {  <NL> for ( int i = 0 ; i < len & & player list [ i ] [ 1 ] ! = null ; i + + )  <NL> if ( player list [ i ] [ 1 ] . equals ignore case ( name ) ) return i ;  <NL> return - 1 ;  <NL>  }  COM: <s> finds a player name in a 2 d string array </s>

@@ -1,0 +1,1 @@
+TDAT: public gdbi context find tag set extended ( string tag , string val ) {  <NL> if ( val . length ( ) = = 0 ) {  <NL> find tag val delete ( tag , null ) ;  <NL> return null ;  <NL>  }  <NL> final gdbi context found = find tag set ( tag , null ) ;  <NL> found . set extended value ( val ) ;  <NL> return found ;  <NL>  }  COM: <s> find the first occurance of the given tag </s>

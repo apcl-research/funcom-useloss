@@ -1,0 +1,1 @@
+TDAT: public string convert string to date ( string str date ) {  <NL> return str date . substring ( 0 , 3 ) + " / " + str date . substring ( 4 , 5 ) + " / "  <NL>  + str date . substring ( 6 , 7 ) + " " + str date . substring ( 8 , 9 ) + " : "  <NL>  + str date . substring ( 10 , 11 ) + " : " + str date . substring ( 12 , 13 ) ;  <NL>  }  COM: <s> 2009 05 26 </s>

@@ -1,0 +1,1 @@
+TDAT: public void print no html ( string text ) throws regain exception {  <NL> if ( text ! = null ) {  <NL> text = regain toolkit . replace ( text , " < " , " & lt ; " ) ;  <NL> text = regain toolkit . replace ( text , " > " , " & gt ; " ) ;  <NL>  }  <NL>  <NL> print ( text ) ;  <NL>  }  COM: <s> prints text to a page and escapes all html tags </s>

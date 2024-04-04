@@ -1,0 +1,1 @@
+TDAT: public string get working dir ( ) throws exception {  <NL> try {  <NL> return _ ftp client . print working directory ( ) ;  <NL>  } catch ( io exception ex ) {  <NL> logger . get logger ( ftp resource . class . get name ( ) ) . log ( level . severe , null , ex ) ;  <NL> throw new exception ( ex . get message ( ) ) ;  <NL>  }  <NL>  }  COM: <s> get working directory </s>

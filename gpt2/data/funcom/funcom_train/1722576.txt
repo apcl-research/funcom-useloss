@@ -1,0 +1,1 @@
+TDAT: public void switch to tab ( int tab ix ) {  <NL> if ( m current tab ix = = tab ix )  <NL> return ;  <NL>  / / get current tab ( ) . on pause ( ) ; / / will be called by on tab changed listener <NL>  / / resume tab ( tab ix ) ; / / will be called by on tab changed listener <NL> m tab host . set current tab ( tab ix ) ;  <NL>  }  COM: <s> change tabs programmatically </s>

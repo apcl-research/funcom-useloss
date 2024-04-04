@@ -1,0 +1,1 @@
+TDAT: public boolean equals ( object o ) {  <NL> if ( ! ( o instanceof connect req ) ) return false ;  <NL> if ( o = = this ) return true ;  <NL> connect req oo = ( connect req ) o ;  <NL> return ( ( ( object ) url ) . equals ( oo . url ) ) & & ( ( ( object ) ver ) . equals ( oo . ver ) ) ;  <NL>  }  COM: <s> is the given object equal to this connect req </s>

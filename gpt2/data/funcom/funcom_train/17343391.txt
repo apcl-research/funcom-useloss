@@ -1,0 +1,1 @@
+TDAT: public v get ( k key1 , k key2 ) {  <NL> v ret = null ;  <NL> list < entry < k , v > > el = key1entries . get ( key1 ) ;  <NL> for ( entry < k , v > en : el ) {  <NL> if ( en . key2 = = key2 ) {  <NL> ret = en . val ;  <NL> break ;  <NL>  }  <NL>  }  <NL> return ret ;  <NL>  }  COM: <s> returns the value associated with the given keys or null if </s>

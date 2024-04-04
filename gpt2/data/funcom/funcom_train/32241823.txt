@@ -1,0 +1,1 @@
+TDAT: public attribute info copy ( const pool new cp , map classnames ) {  <NL> int s = info . length ;  <NL> byte [ ] new info = new byte [ s ] ;  <NL> system . arraycopy ( info , 0 , new info , 0 , s ) ;  <NL> return new stack map table ( new cp , new info ) ;  <NL>  }  COM: <s> makes a copy </s>

@@ -1,0 +1,1 @@
+TDAT: public boolean is sequence entity ( ) {  <NL> list fields = get fields ( ) ;  <NL> for ( int i = 0 ; i < get fields ( ) . size ( ) ; i + + ) {  <NL> field field = ( field ) fields . get ( i ) ;  <NL> if ( field . is sequence field ( ) ) {  <NL> return true ;  <NL>  }  <NL>  }  <NL> return false ;  <NL>  }  COM: <s> check if one of the fields needs a sequence </s>

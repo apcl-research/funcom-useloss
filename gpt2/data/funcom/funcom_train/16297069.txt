@@ -1,0 +1,1 @@
+TDAT: public int get volume ( ) {  <NL> object value = web browser object . get object property ( " audio . volume " ) ;  <NL> return value = = null ? - 1 : math . max ( 0 , ( int ) math . round ( ( ( ( number ) value ) . int value ( ) - 1 ) / 1 . 99 ) ) ;  <NL>  }  COM: <s> get the volume as a value between 0 and 100 </s>

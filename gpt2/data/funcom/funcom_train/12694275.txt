@@ -1,0 +1,1 @@
+TDAT: public void add item ( object o ) {  <NL> try {  <NL> super . add item ( ( o ) o ) ;  <NL>  } catch ( class cast exception e ) {  <NL> j option pane . show message dialog ( this , o + " is not a synchronizer " , e . get cause ( ) . to string ( ) , j option pane . warning _ message ) ;  <NL>  }  <NL>  <NL>  }  COM: <s> appends an item to the combobox </s>

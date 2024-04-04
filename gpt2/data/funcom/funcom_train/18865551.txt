@@ -1,0 +1,1 @@
+TDAT: public double get daily periodic interest rate ( ) {  <NL> if ( i ! = null & & n > 0 & & m > 0 & & days per year ! = null ) {  <NL> double rate = get effective interest rate ( ) ;  <NL> rate = rate * n ;  <NL> rate = rate / days per year . double value ( ) ;  <NL> return rate ;  <NL>  }  <NL> return 0 . 0 ;  <NL>  }  COM: <s> calculates the daily interest rate </s>

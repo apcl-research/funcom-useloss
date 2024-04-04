@@ -1,0 +1,1 @@
+TDAT: public void test null store to stream ( ) throws exception {  <NL> byte array output stream baos = new byte array output stream ( ) ;  <NL> assert equals ( 0 , baos . size ( ) ) ;  <NL> properties utils . store properties ( null , baos , comment ) ;  <NL> assert equals ( 0 , baos . size ( ) ) ;  <NL>  }  COM: <s> test store null properties to output stream </s>

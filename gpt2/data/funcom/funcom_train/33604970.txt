@@ -1,0 +1,1 @@
+TDAT: public point set2d get path x ( ) {  <NL> x path = new point set2d ( ) ;  <NL> vector < r2 > phase = new vector < r2 > ( ) ;  <NL> for ( r3 p : path . points ) { phase . add ( new r2 ( p . z , p . x ) ) ; }  <NL> x path . set path ( phase ) ;  <NL> return x path ;  <NL>  }  COM: <s> returns coords 1 2 of the solution </s>

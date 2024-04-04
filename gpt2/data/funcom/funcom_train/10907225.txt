@@ -1,0 +1,1 @@
+TDAT: public void set struct parents ( int struct parents ) {  <NL> put ( " struct parents " , struct parents ) ;  <NL>  / / this is a pdf 1 . 5 feature . it is set as a work - around for a bug in adobe acrobat <NL>  / / which reports this missing even if the pdf file is pdf 1 . 4 .  <NL> set tabs ( new pdf name ( " s " ) ) ;  <NL>  }  COM: <s> sets the struct parents value </s>

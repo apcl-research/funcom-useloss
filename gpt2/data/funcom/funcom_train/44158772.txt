@@ -1,0 +1,1 @@
+TDAT: protected t load instance ( ) {  <NL> m _ log . debug ( " trying to load instance with id # 0 " , get id ( ) ) ;  <NL> try {  <NL> return get dao ( ) . find by id ( get id ( ) ) ;  <NL>  } catch ( data retrieval failure exception e ) {  <NL> handle entity not found ( e ) ;  <NL> return null ;  <NL>  }  <NL>  }  COM: <s> try to load the instance </s>

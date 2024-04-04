@@ -1,0 +1,1 @@
+TDAT: private boolean reserved ( char c ) {  <NL> switch ( c ) {  <NL> case ' ; ' : case ' / ' : case ' ? ' :  <NL> case ' @ ' : case ' & ' : case ' : ' :  <NL> case ' = ' : case ' + ' : case ' $ ' :  <NL> case ' , ' :  <NL> return true ;  <NL> default :  <NL> return false ;  <NL>  }  <NL>  }  COM: <s> this is a character set defined by rfc 2396 it checks the </s>

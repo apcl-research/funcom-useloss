@@ -1,0 +1,1 @@
+TDAT: protected char get current character ( int current , char [ ] cc , pdf chunk [ ] ck ) {  <NL> if ( ck = = null ) {  <NL> return cc [ current ] ;  <NL>  }  <NL> return ( char ) ck [ math . min ( current , ck . length - 1 ) ] . get unicode equivalent ( cc [ current ] ) ;  <NL>  }  COM: <s> returns the current character </s>

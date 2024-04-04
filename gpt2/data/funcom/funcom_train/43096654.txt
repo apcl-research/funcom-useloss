@@ -1,0 +1,1 @@
+TDAT: public void test set type to null ( ) {  <NL> model . get core helper ( ) . set type ( elem , types [ 0 ] ) ;  <NL> model . get core helper ( ) . set type ( elem , null ) ;  <NL> model . get pump ( ) . flush model events ( ) ;  <NL> assert not null ( model . get selected item ( ) ) ;  <NL>  }  COM: <s> this test does make a huge amount of sense because </s>

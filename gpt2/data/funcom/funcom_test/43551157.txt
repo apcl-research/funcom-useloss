@@ -1,0 +1,1 @@
+TDAT: public business object create ( ) throws exception {  <NL> system . out . println ( " creating photoset " ) ;  <NL> string id = guid . generate ( ) ;  <NL> business object bo = new photo set bo ( id ) ;  <NL> cache c = cache . get instance ( ) ;  <NL> c . put ( bo . get id ( ) , bo ) ;  <NL> return bo ;  <NL>  }  COM: <s> creates a photo set </s>

@@ -1,0 +1,1 @@
+TDAT: public void set score ( short x , short y , double score ) {  <NL> if ( x > = 0 & x < = map size x & y > = 0 & y < = map size y ) {  <NL> pxl score history [ x ] [ y ] [ 0 ] = score ;  <NL>  } else {  <NL> filter . log . warning ( " pxl score map . set score ( ) : pixel not on chip ! " ) ;  <NL>  }  <NL>  }  COM: <s> set score of pixel x y </s>

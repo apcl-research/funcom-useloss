@@ -1,0 +1,1 @@
+TDAT: public void encode block ( int channels , int [ ] in buffer , int length , int [ ] steps , byte [ ] out buffer , int option ) {  <NL> for ( int ch = 0 ; ch < channels ; ch + + ) {  <NL> encode channel ( ch , channels , in buffer , length , steps , ch , out buffer , option ) ;  <NL>  }  <NL>  }  COM: <s> mash one block </s>

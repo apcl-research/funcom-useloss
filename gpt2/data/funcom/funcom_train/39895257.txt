@@ -1,0 +1,1 @@
+TDAT: private boolean can delete project ( project project ) {  <NL> return project . get user role in project ( ) . size ( ) = = 0 & & project . get testcases ( ) . size ( ) = = 0 <NL>  & & project . get testplans ( ) . size ( ) = = 0 & & project . get testsuites ( ) . size ( ) = = 0 ;  <NL>  }  COM: <s> whether project can be deleted </s>

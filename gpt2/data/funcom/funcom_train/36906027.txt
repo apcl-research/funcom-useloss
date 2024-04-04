@@ -1,0 +1,1 @@
+TDAT: public void import to all ( java . lang . string _ class ) throws cache exception {  <NL> dataholder [ ] args = new dataholder [ 1 ] ;  <NL> args [ 0 ] = new dataholder ( _ class ) ;  <NL> dataholder res = m internal . run instance method ( " import to all " , args , database . ret _ none ) ;  <NL> return ;  <NL>  }  COM: <s> p runs method import to all in cache </s>

@@ -1,0 +1,1 @@
+TDAT: public void add listener ( final test listener listener ) {  <NL> log . log ( level . finest , " listener instance { 0 } added to { 1 } " ,  <NL> new object [ ] { listener . get class ( ) . get name ( ) , this . get class ( ) . get name ( ) } ) ;  <NL> listeners . add ( listener ) ;  <NL> add feature ( ( test feature ) listener ) ;  <NL>  }  COM: <s> adds a listener </s>

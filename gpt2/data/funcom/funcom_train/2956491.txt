@@ -1,0 +1,1 @@
+TDAT: public void delete match ( final int i , final int j ) {  <NL> if ( j = = this . ref match . get ( i ) ) {  <NL> this . ref match . set ( i , - 1 ) ;  <NL> this . ref inverse match . set ( j , - 1 ) ;  <NL> this . decrease matching size ( j ) ;  <NL>  }  <NL>  }  COM: <s> removing the arc i j from the reference matching </s>

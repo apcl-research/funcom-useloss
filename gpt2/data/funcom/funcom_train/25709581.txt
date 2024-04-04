@@ -1,0 +1,1 @@
+TDAT: public boolean verifies ( ) {  <NL> digest ctx = sha1 . get instance ( ) ;  <NL> hash update ( ctx , new string [ ] { " signature " } ) ;  <NL> big integer m = util . byte array to mpi ( ctx . digest ( ) ) ;  <NL> return dsa . verify ( get public key ( ) , get signature ( ) , m ) ;  <NL>  }  COM: <s> checks the signature using the public key </s>

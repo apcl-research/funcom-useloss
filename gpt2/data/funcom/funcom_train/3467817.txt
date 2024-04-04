@@ -1,0 +1,1 @@
+TDAT: public void init ( ) {  <NL> type = 0 ;  <NL> for ( int i = 0 ; i < = cur _ param & & i < max _ params ; i + + ) {  <NL> params [ i ] = 0 ;  <NL> has _ params [ i ] = false ;  <NL>  }  <NL> cur _ param = 0 ;  <NL> flags = 0 ;  <NL> cur _ inter = 0 ;  <NL> data . set length ( 0 ) ;  <NL> term = 0 ;  <NL>  }  COM: <s> reset the command </s>

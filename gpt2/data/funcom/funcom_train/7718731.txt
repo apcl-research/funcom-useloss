@@ -1,0 +1,1 @@
+TDAT: public void add row ( key db key , list < string > row ) {  <NL> if ( row . size ( ) ! = header . size ( ) ) {  <NL> system . err . println ( error consts . row _ size _ error ) ;  <NL> return ;  <NL>  }  <NL> rows . add ( row ) ;  <NL> db keys . add ( key factory . key to string ( db key ) ) ;  <NL>  }  COM: <s> add a row of data to result table </s>

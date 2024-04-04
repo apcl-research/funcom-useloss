@@ -1,0 +1,1 @@
+TDAT: public void show dialog ( @ not null final map view < g , a , r > map view ) {  <NL> if ( instance = = null ) {  <NL> instance = new replace dialog < g , a , r > ( parent , copy buffer , object chooser , face object providers , insertion mode set ) ;  <NL>  }  <NL> instance . display ( map view ) ;  <NL>  }  COM: <s> displays the replace dialog </s>

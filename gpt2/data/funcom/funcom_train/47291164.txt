@@ -1,0 +1,1 @@
+TDAT: protected void load properties in project ( map < string , string > map ) {  <NL> project project = get project ( ) ;  <NL> for ( map . entry < string , string > entry : map . entry set ( ) ) {  <NL> project . set new property ( entry . get key ( ) , entry . get value ( ) ) ;  <NL>  }  <NL>  }  COM: <s> loads the key value properties map on the current task environment </s>

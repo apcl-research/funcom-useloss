@@ -1,0 +1,1 @@
+TDAT: public boolean crossed ( edge a , edge b ) {  <NL> int va = a . get source ( ) ;  <NL> int va2 = a . get sink ( ) ;  <NL> int vb = b . get source ( ) ;  <NL> int vb2 = b . get sink ( ) ;  <NL> return ( va - vb ) * ( va2 - vb ) * ( va - vb2 ) * ( va2 - vb2 ) < 0 ;  <NL>  }  COM: <s> as above but with edges </s>

@@ -1,0 +1,1 @@
+TDAT: public boolean is statement present ( resource subject , property predicate , rdf node object , model rdb m ) throws rdf exception {  <NL> statement status ss = get statement status ( subject , predicate , object , m ) ;  <NL> if ( ss = = null || ss . is reified ) return false ;  <NL> return true ;  <NL>  }  COM: <s> check if a statement is in the database </s>

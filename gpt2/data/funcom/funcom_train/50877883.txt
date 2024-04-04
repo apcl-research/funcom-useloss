@@ -1,0 +1,1 @@
+TDAT: public void add style ( sld style in style ) {  <NL> sld style [ ] temp new styles = new sld style [ my styles . length + 1 ] ;  <NL> for ( int i = 0 ; i < my styles . length ; i + + ) temp new styles [ i ] = my styles [ i ] ;  <NL> temp new styles [ my styles . length ] = in style ;  <NL>  }  COM: <s> add this style to the list of available styles </s>

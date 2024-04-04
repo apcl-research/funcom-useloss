@@ -1,0 +1,1 @@
+TDAT: public int get style height ( ) {  <NL> string h = dom . get style ( ) . get property ( " height " ) ;  <NL> if ( h = = null || h . equals ( " " ) ) return 0 ;  <NL> if ( h . matches ( " ( auto|em| % |en|ex|pt|in|cm|mm|pc ) " ) ) {  <NL> return 0 ;  <NL>  }  <NL> return util . parse int ( h , 0 ) ;  <NL>  }  COM: <s> returns the style width </s>

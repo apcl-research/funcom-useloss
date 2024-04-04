@@ -1,0 +1,1 @@
+TDAT: protected void write l ( long value ) {  <NL>  _ bao . write ( ( int ) ( value & 0xff ) ) ;  <NL>  _ bao . write ( ( int ) ( value > > 8 & 0xff ) ) ;  <NL>  _ bao . write ( ( int ) ( value > > 16 & 0xff ) ) ;  <NL>  _ bao . write ( ( int ) ( value > > 24 & 0xff ) ) ;  <NL>  }  COM: <s> put the long value to byte array </s>

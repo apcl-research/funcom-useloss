@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> return " member @ " + hash code ( ) +  <NL>  " [ number = " + get id ( ) +  <NL>  " name = " + get name ( ) +  <NL>  " surname = " + get surname ( ) +  <NL>  " status = " + get status ( ) +  <NL>  " email = " + get email ( ) +  <NL>  " city = " + get city ( ) + " ] " ;  <NL>  }  COM: <s> custom to string </s>

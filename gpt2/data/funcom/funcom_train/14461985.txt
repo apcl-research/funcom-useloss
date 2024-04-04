@@ -1,0 +1,1 @@
+TDAT: public void set script ( int ss ) {  <NL> if ( data = = null ) this . set data ( this . get data ( ) ) ;  <NL> byte [ ] newss = byte tools . short to le bytes ( ( short ) ss ) ;  <NL> system . arraycopy ( newss , 0 , data , 8 , 2 ) ;  <NL> sss = ss ;  <NL>  }  COM: <s> set the super sub script for the font </s>

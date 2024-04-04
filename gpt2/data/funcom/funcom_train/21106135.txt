@@ -1,0 +1,1 @@
+TDAT: private mj combo box get cb bs _ bkdt ( ) {  <NL> if ( cb bs _ bkdt = = null ) {  <NL> cb bs _ bkdt = new mj combo box ( ) ;  <NL> cb bs _ bkdt . set preferred size ( new java . awt . dimension ( 100 , 20 ) ) ;  <NL> cb bs _ bkdt . combo type = ct _ date ;  <NL>  }  <NL> return cb bs _ bkdt ;  <NL>  }  COM: <s> this method initializes cb bs bkdt </s>

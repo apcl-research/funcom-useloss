@@ -1,0 +1,1 @@
+TDAT: private void add new id ( string id ) {  <NL> get id set ( ) . add ( id ) ;  <NL> get parts ( ) . put ( id , new hash set < ixml edit part > ( ) ) ;  <NL> if ( ( id . index of ( ' ; ' ) = = - 1 ) & & ( id . index of ( ' @ ' ) = = - 1 ) ) {  <NL> get element i ds ( ) . add ( id ) ;  <NL>  }  <NL>  }  COM: <s> adds id to this info </s>

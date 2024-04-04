@@ -1,0 +1,1 @@
+TDAT: public void union ( float rectangle r ) {  <NL> if ( r ! = null ) {  <NL> this . x = math . min ( this . x , r . x ) ;  <NL> this . x2 = math . max ( this . x2 , r . x2 ) ;  <NL> this . y = math . min ( this . y , r . y ) ;  <NL> this . y2 = math . max ( this . y2 , r . y2 ) ;  <NL>  }  <NL>  }  COM: <s> calculates bounding rectangle of this rectangle and code r code </s>

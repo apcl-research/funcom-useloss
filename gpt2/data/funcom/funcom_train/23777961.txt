@@ -1,0 +1,1 @@
+TDAT: public void calculate ( ) {  <NL> double alt set = e6b converter . hg to millibars ( hg ) ; / / convert to millibars <NL> double altpress ;  <NL> altpress = ( 1 - math . pow ( ( alt set / standard _ pressure _ mb ) , 0 . 190284 ) ) * 145366 . 45 ;  <NL> p alt = round set ( altitude + altpress ) ;  <NL>  }  COM: <s> calls and calculates the entered information </s>

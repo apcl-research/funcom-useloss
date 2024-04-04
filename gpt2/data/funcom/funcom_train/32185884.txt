@@ -1,0 +1,1 @@
+TDAT: public void set name ( string name ) {  <NL> string old name = get name ( ) ;  <NL> name = name = = null ? " " : name ;  <NL> grid box gb = ( grid box ) get parent ( ) ;  <NL> super . set name ( name ) ;  <NL> if ( gb ! = null ) gb . fire property change ( this , property _ column _ name , old name , name ) ;  <NL>  }  COM: <s> sets the name of the column </s>

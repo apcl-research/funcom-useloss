@@ -1,0 +1,1 @@
+TDAT: public void handle ( connection connection , xml stream reader in , xml stream writer out ) {  <NL> if ( in . get local name ( ) . equals ( " login " ) ) {  <NL> login ( connection , in , out ) ;  <NL>  } else {  <NL> logger . warning ( " unkown ( streamed ) request : " + in . get local name ( ) ) ;  <NL>  }  <NL>  }  COM: <s> handles the main element of an xml message </s>

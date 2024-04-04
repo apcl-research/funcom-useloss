@@ -1,0 +1,1 @@
+TDAT: protected expression not equal ( node x , node y )  <NL>  {  <NL> return new dyadic ( as expression ( x ) , " http : / / jena . hpl . hp . com / constraints / ne " , as expression ( y ) )  <NL>  {  <NL> public boolean eval bool ( object x , object y )  <NL>  { return ! x . equals ( y ) ; }  <NL>  } ;  <NL>  }  COM: <s> an expression that is true if x and y differ </s>

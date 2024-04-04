@@ -1,0 +1,1 @@
+TDAT: public void init ( ) throws out of memory error {  <NL> assert . _ assert ( ! in gc ) ;  <NL> assert . _ assert ( ! in alloc ) ;  <NL> heap current = heap first = alloc new block ( ) ;  <NL> heap end = get block end ( heap current ) ;  <NL> first free = first large = curr large = heap address . get null ( ) ;  <NL>  }  COM: <s> perform initialization for this allocator </s>

@@ -1,0 +1,1 @@
+TDAT: public void cs set tax ( int tax , change set cs ) {  <NL> set tax ( tax ) ;  <NL> if ( recalculate bells bonus ( ) ) {  <NL> cs . add ( see . only ( this ) , this ) ;  <NL>  } else {  <NL> cs . add partial ( see . only ( this ) , this , " tax " ) ;  <NL>  }  <NL>  }  COM: <s> set the player tax rate </s>

@@ -1,0 +1,1 @@
+TDAT: public r con con ( ) throws io exception {  <NL> object [ ] o = get command args ( ( short ) ( 4 ) , " 256p256p256p256p bbbb " ) ;  <NL> return new r con ( ( string ) o [ 0 ] , ( string ) o [ 1 ] , ( string ) o [ 2 ] , ( string ) o [ 3 ] , ( byte ) o [ 4 ] , ( byte ) o [ 5 ] , ( byte ) o [ 6 ] ) ;  <NL>  }  COM: <s> handler used to read con command </s>

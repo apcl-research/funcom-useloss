@@ -1,0 +1,1 @@
+TDAT: public void receive command result ( byte command , short c adr , object [ ] objects ) {  <NL> logger . debug ( " result received for cmd = " + command + " ; c adr = " + c adr ) ;  <NL> if ( command = = i ergo commands . get _ address ) {  <NL> cockpit address = c adr ; / / set the received address <NL>  }  <NL>  }  COM: <s> listener method for ergo command results </s>

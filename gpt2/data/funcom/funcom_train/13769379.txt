@@ -1,0 +1,1 @@
+TDAT: public void set cell type ( int cell type ) {  <NL> notify formula changing ( ) ;  <NL> int row = _ record . get row ( ) ;  <NL> short col = _ record . get column ( ) ;  <NL> short style index = _ record . get xf index ( ) ;  <NL> set cell type ( cell type , true , row , col , style index ) ;  <NL>  }  COM: <s> set the cells type numeric formula or string </s>

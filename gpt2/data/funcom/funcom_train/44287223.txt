@@ -1,0 +1,1 @@
+TDAT: private void set width ( int size , int col ) {  <NL> if ( size > 0 ) {  <NL> get column model ( ) . get column ( col ) . set max width ( size ) ;  <NL> get column model ( ) . get column ( col ) . set width ( size ) ;  <NL> get column model ( ) . get column ( col ) . set resizable ( false ) ;  <NL>  }  <NL>  }  COM: <s> defines a width to the given column </s>

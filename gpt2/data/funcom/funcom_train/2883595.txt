@@ -1,0 +1,1 @@
+TDAT: public void test case ctn5 ( ) throws throwable {  <NL> if ( failed solver ( ) ) return ;  <NL>  <NL> context cxt = parse to context ( " ctn5 . sf " ) ;  <NL> context foo1c = resolve cd ( cxt , " foo1 " ) ;  <NL> context fooc = resolve cd ( foo1c , " foo " ) ;  <NL> assert context resolves ( fooc , " bar4 " , " 73 " ) ;  <NL>  }  COM: <s> test case ctn5 </s>

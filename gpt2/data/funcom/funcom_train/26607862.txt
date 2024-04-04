@@ -1,0 +1,1 @@
+TDAT: public void set font ( string name , int style , int size ) {  <NL> pdffont = page . get font ( " / type1 " , name , style ) ;  <NL>  <NL>  / / only need to use this in headless mode <NL> font size = size ;  <NL>  <NL>  / / don ' t want to actually use this one <NL> new font = true ;  <NL>  }  COM: <s> this sets the font </s>

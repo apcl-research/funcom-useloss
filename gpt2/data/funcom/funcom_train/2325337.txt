@@ -1,0 +1,1 @@
+TDAT: public boolean is orthogonal ( float matrix2d a ) {  <NL> check square ( a ) ;  <NL> return equals ( a . z mult ( a , null , 1 , 0 , false , true ) , cern . colt . matrix . tfloat . float factory2d . dense . identity ( a <NL>  . rows ( ) ) ) ;  <NL>  }  COM: <s> a square matrix tt a tt is i orthogonal i if </s>

@@ -1,0 +1,1 @@
+TDAT: public void fill arc ( int x , int y , int width , int height , int start angle , int arc angle ) {  <NL> g . fill arc ( x translate + x , y translate + y , width , height , start angle , arc angle ) ;  <NL>  }  COM: <s> fills a circular or eliptical arc based on the given angles and bounding </s>

@@ -1,0 +1,1 @@
+TDAT: public void replace color index ( token printer tp , space structure ss , int start token offset , int end token offset ) {  <NL> for ( int i = 0 ; i < call count ; i + + ) {  <NL> replace colors ( tp , start token offset , end token offset , ( i = = 0 ) , ( i = = ( call count - 1 ) ) ) ;  <NL>  }  <NL>  }  COM: <s> replace the color index values </s>

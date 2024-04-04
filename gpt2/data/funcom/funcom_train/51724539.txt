@@ -1,0 +1,1 @@
+TDAT: public void store ( string txt ) {  <NL> p _ chartplus2 . addval ( " states " , system . current time millis ( ) , 2 * center , " " + txt ) ;  <NL> p _ chartplus2 . addval ( " states " , system . current time millis ( ) + 10 , 0 , " " + txt ) ;  <NL>  }  COM: <s> store cumul value in the courbs </s>

@@ -1,0 +1,1 @@
+TDAT: public void clear ( float r , float g , float b ) {  <NL> int color = 255 < < 24 | ( int ) ( 255 * r ) < < 16 | ( int ) ( 255 * g ) < < 8 <NL> | ( int ) ( 255 * b ) ;  <NL> for ( int i = 0 ; i < get width ( ) * get height ( ) ; i + + ) {  <NL> rgbpixels [ i ] = color ;  <NL>  }  <NL>  }  COM: <s> clear the buffer with the given color </s>

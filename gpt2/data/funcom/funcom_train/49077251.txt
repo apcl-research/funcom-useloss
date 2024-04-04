@@ -1,0 +1,1 @@
+TDAT: public hmap get by id ( string id , mysql db trans db trans ) throws exception {  <NL> query set qs = new query set ( ) ;  <NL> qs . from ( table name ) ;  <NL> qs . where ( " id " , id , query set . logic operands . equal ) ;  <NL> return db trans . get object ( qs ) ;  <NL>  }  COM: <s> retrieves a bean from the db using an established transaction </s>

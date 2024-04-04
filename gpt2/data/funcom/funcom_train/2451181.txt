@@ -1,0 +1,1 @@
+TDAT: public file copy file to this folder ( file src ) throws io exception {  <NL> file utils . copy file to directory ( src , path ) ;  <NL> file tgt = get file ( src . get name ( ) ) ;  <NL> if ( tgt . exists ( ) ) {  <NL> return tgt ;  <NL>  }  <NL> throw new io exception ( " failed to copy the file . " ) ;  <NL>  }  COM: <s> copies a file to this code folder code </s>

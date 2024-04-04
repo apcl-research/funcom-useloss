@@ -1,0 +1,1 @@
+TDAT: public void save project ( ) throws wp exception {  <NL>  / / the model is a linked list . options are : 1 . serialize , 2 . xml <NL>  / / 1 . invoke save method in wp project .  <NL>  / / 1 . check if the project is altered .  <NL> if ( is altered ( ) ) {  <NL> save xpr file ( ) ;  <NL> set altered ( false ) ;  <NL>  }  <NL>  }  COM: <s> save the project </s>

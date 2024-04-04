@@ -1,0 +1,1 @@
+TDAT: private boolean c ( final int l ) {  <NL> if ( l < 3 ) return false ;  <NL> final int c = l ( l - 1 ) ;  <NL> return c ! = ' w ' & & c ! = ' x ' & & c ! = ' y ' & &  <NL>  ! v ( l - 1 ) & & v ( l - 2 ) & & ! v ( l - 3 ) ;  <NL>  }  COM: <s> checks for the cvc pattern </s>

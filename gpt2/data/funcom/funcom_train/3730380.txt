@@ -1,0 +1,1 @@
+TDAT: public void set excluded ( string s ) {  <NL> excluded . clear ( ) ;  <NL> if ( s ! = null ) {  <NL> string [ ] new exc = s . split ( " , " ) ;  <NL> for ( int i = 0 ; i < new exc . length ; i + + ) {  <NL> excluded . add ( new exc [ i ] ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> sets the list of classes to be excluded from instrumentation </s>

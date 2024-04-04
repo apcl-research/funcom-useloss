@@ -1,0 +1,1 @@
+TDAT: private void inc ( ) {  <NL> long x , sum ;  <NL> int carry = 1 ;  <NL>  <NL>  / / add one <NL> for ( int i = 0 ; i < nlen ; i + + ) {  <NL> x = difference [ i ] & 0x0ffffffff l ;  <NL> sum = x + carry ;  <NL> if ( sum > = 0x100000000l ) carry = 1 ;  <NL> else carry = 0 ;  <NL>  <NL> difference [ i ] = ( int ) sum ;  <NL>  }  <NL>  }  COM: <s> increment this distance </s>

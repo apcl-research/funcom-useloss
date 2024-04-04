@@ -1,0 +1,1 @@
+TDAT: public boolean report syntax error ( string error id , object [ ] error args ) {  <NL> return term parser . append ( new term token ( terms . syntax _ error , phrase parser <NL>  . current ( ) . start ( ) , phrase parser . current ( ) . start ( ) , term parser <NL>  . source system id ( ) , error id , error args ) ) ;  <NL>  }  COM: <s> report syntax error </s>

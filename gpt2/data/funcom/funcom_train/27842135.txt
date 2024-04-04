@@ -1,0 +1,1 @@
+TDAT: private void put all ( resource bundle in bundle ) {  <NL> for ( enumeration i = in bundle . get keys ( ) ; i . has more elements ( ) ; ) {  <NL> string key = ( string ) i . next element ( ) ;  <NL> object value = in bundle . get object ( key ) ;  <NL> properties . put ( key , value ) ;  <NL>  }  <NL>  }  COM: <s> put properties from the resource bundle </s>

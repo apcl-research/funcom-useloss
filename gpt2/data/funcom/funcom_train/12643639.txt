@@ -1,0 +1,1 @@
+TDAT: public void copy area ( int x , int y , int w , int h , int dx , int dy ) {  <NL> x + = origin x ;  <NL> y + = origin y ;  <NL> p copy area ( psd , x , y , w , h , dx , dy ) ;  <NL>  }  COM: <s> copies an area of the canvas that this graphics context paints to </s>

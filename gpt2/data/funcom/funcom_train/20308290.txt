@@ -1,0 +1,1 @@
+TDAT: public void print ( node [ ] args , int length , rule context context ) {  <NL> for ( int i = 0 ; i < length ; i + + ) {  <NL> system . out . print ( print util . print ( get arg ( i , args , context ) ) + " " ) ;  <NL>  }  <NL> system . out . println ( " " ) ;  <NL>  }  COM: <s> print a node list to stdout </s>

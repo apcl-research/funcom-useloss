@@ -1,0 +1,1 @@
+TDAT: public void init ( ) {  <NL> get recorder ( ) . record ( " init2 " ) ;  <NL> system . out . println ( " lifecycle2 . init ( ) " ) ;  <NL> if ( faces context . get current instance ( ) = = null ) {  <NL> get recorder ( ) . record ( " no context " ) ;  <NL> system . out . println ( " no context " ) ;  <NL>  }  <NL>  }  COM: <s> p record an init event </s>

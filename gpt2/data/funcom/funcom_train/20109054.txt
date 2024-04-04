@@ -1,0 +1,1 @@
+TDAT: public bitmap get ( final int key ) {  <NL> bitmap ret = mem cache . get ( key ) ;  <NL> if ( ret ! = null || disk cache = = null )  <NL> return ret ;  <NL> ret = disk cache . get ( string . value of ( key ) ) ;  <NL> if ( ret ! = null )  <NL> mem cache . put ( key , ret ) ;  <NL> return ret ;  <NL>  }  COM: <s> retrieve an image from the cache </s>

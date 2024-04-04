@@ -1,0 +1,1 @@
+TDAT: public map get parent link ( ) {  <NL> map map = new hash map ( ) ;  <NL> if ( get src id ( ) > 0 )  <NL> map . put ( " src id " , new integer ( get src id ( ) ) ) ;  <NL> map . put ( " folder id " , new integer ( get parent id ( ) ) ) ;  <NL> return map ;  <NL>  }  COM: <s> obtain the params to return to the parent </s>

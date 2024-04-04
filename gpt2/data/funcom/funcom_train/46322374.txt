@@ -1,0 +1,1 @@
+TDAT: protected void colour flag changed ( color property new col prop ) {  <NL> if ( new col prop . get name ( ) = = " stroke color " )  <NL> stroked = new col prop . get ( ) . get alpha ( ) > 0 ;  <NL> else if ( new col prop . get name ( ) = = " color " )  <NL> filled = new col prop . get ( ) . get alpha ( ) > 0 ;  <NL>  }  COM: <s> set the flag colour of a glyph </s>

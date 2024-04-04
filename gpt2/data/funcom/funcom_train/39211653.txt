@@ -1,0 +1,1 @@
+TDAT: public void return up ( ) {  <NL> view . lock ( ) ;  <NL> string path = view . get current path ( ) ;  <NL> path = path . substring ( 0 , path . last index of ( ' / ' ) ) ;  <NL> if ( path . equals ( " " ) ) path = " / " ; / / $ non - nls - 2 $  <NL> view . set current path ( path ) ;  <NL> directory changed ( path ) ;  <NL>  }  COM: <s> return to the parent directory </s>

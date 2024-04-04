@@ -1,0 +1,1 @@
+TDAT: public callback get id ( int id ) {  <NL> callback ret = null ;  <NL> for ( int i = 0 ; ret = = null & & i < list . size ( ) ; i + + ) {  <NL> callback cb = get index ( i ) ;  <NL> if ( cb . get id ( ) = = id ) {  <NL> ret = cb ;  <NL>  }  <NL>  }  <NL> return ret ;  <NL>  }  COM: <s> returns the callback with the specified id </s>

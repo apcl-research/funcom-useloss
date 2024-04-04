@@ -1,0 +1,1 @@
+TDAT: public get response get bucket logging ( string bucket , map headers ) throws io exception {  <NL> map path args = new hash map ( ) ;  <NL> path args . put ( " logging " , null ) ;  <NL> return new get response ( make request ( " get " , bucket , " " , path args , headers ) ) ;  <NL>  }  COM: <s> get the logging xml document for a given bucket </s>

@@ -1,0 +1,1 @@
+TDAT: public void set date ( date a date )  <NL>  {  <NL> if ( a date ! = null )  <NL>  {  <NL> m date label = new ae text label ( format date ( a date ) ) ;  <NL> m date label . set foreground ( text _ color ) ;  <NL> m date label . set font ( ae ui prefs . get default prefs ( ) . get font ( ) ) ;  <NL>  }  <NL>  }  COM: <s> sets the current time stamp </s>

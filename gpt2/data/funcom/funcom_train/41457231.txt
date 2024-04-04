@@ -1,0 +1,1 @@
+TDAT: private boolean compare chars ( byte [ ] chars , int pos ) {  <NL> for ( int i = 0 ; i < len ; i + + ) {  <NL> if ( different chars ( ( char ) this . chars [ i + this . pos ] , ( char ) chars [ i + pos ] ) ) return false ;  <NL>  }  <NL> return true ;  <NL>  }  COM: <s> compares specified character string with current string </s>

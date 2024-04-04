@@ -1,0 +1,1 @@
+TDAT: public data cache get data cache ( string name , boolean create ) {  <NL> if ( name = = null || ( _ cache ! = null & & name . equals ( _ cache . get name ( ) ) ) )  <NL> return _ cache ;  <NL> if ( _ cache ! = null )  <NL> return _ cache . get partition ( name , create ) ;  <NL> return null ;  <NL>  }  COM: <s> returns the named cache </s>

@@ -1,0 +1,1 @@
+TDAT: public void add friend ( string [ ] mails ) {  <NL> add list . add all ( arrays . as list ( mails ) ) ;  <NL> if ( ! add list . is empty ( ) ) {  <NL> set add ( true ) ;  <NL> priv ( get botnick ( ) , get local nick ( ) , ll chan user . parse nick ( add list . get ( 0 ) ) + " " + act . get ( " add0 " ) ) ;  <NL>  }  <NL>  }  COM: <s> set the code botnick code value </s>

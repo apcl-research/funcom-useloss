@@ -1,0 +1,1 @@
+TDAT: private void append ( final string text ) {  <NL> if ( m log buffer . length ( ) > m size / 2 ) {  <NL> m log buffer . delete ( 0 , m size / 2 ) ;  <NL> m log buffer . append ( " - - - - - - - - - - - buffer truncated - - - - - - - - - - " + nl ) ;  <NL>  }  <NL> m log buffer . append ( text ) ;  <NL>  }  COM: <s> append text to log buffer </s>

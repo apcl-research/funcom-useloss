@@ -1,0 +1,1 @@
+TDAT: public boolean is arrow ( ) {  <NL> boolean ret = ( is right arrow ( ) || is up arrow ( ) || is left arrow ( ) || is down arrow ( ) || is down left arrow ( ) || is down right arrow ( ) || is up left arrow ( ) || is up right arrow ( ) || is self arrow ( ) ) ;  <NL> return ret ;  <NL>  }  COM: <s> can be used to determine if current char key is a directional character </s>

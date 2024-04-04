@@ -1,0 +1,1 @@
+TDAT: protected double determinant3 ( ) {  <NL> double [ ] v = this . e ;  <NL> return v [ 0 ] * ( v [ 5 ] * v [ 10 ] - v [ 9 ] * v [ 6 ] ) - v [ 1 ]  <NL>  * ( v [ 4 ] * v [ 10 ] - v [ 8 ] * v [ 6 ] ) + v [ 2 ]  <NL>  * ( v [ 4 ] * v [ 9 ] - v [ 8 ] * v [ 5 ] ) ;  <NL>  }  COM: <s> calculates the determinant of the 3x3 matrix starting on row 0 and column </s>

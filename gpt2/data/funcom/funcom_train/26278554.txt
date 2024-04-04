@@ -1,0 +1,1 @@
+TDAT: private string extract name from path ( string i _ url ) {  <NL> int index of name = i _ url . last index of ( " / " ) ;  <NL> if ( index of name = = - 1 ) {  <NL> index of name = i _ url . last index of ( " \\ " ) ;  <NL>  }  <NL> return i _ url . substring ( index of name + 1 ) ;  <NL>  }  COM: <s> extracts a file name from a path url </s>

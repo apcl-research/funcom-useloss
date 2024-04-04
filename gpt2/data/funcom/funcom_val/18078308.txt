@@ -1,0 +1,1 @@
+TDAT: public match get match ( team team ) {  <NL> for ( int i = 0 ; i < matches . size ( ) ; i + + ) {  <NL> match tmp = ( match ) matches . get ( i ) ;  <NL> if ( tmp . get team home ( ) . equals ( team ) || tmp . get team away ( ) . equals ( team ) ) {  <NL> return tmp ;  <NL>  }  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> returns match of a team </s>

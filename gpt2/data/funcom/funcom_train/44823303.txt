@@ -1,0 +1,1 @@
+TDAT: public service group get service group by name ( string name ) {  <NL> for ( int i = 0 ; i < service groups . size ( ) ; i + + ) {  <NL> service group cur = ( service group ) service groups . get ( i ) ;  <NL> if ( name . equals ( cur . get name ( ) ) ) {  <NL> return cur ;  <NL>  }  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> get a service group by its name </s>

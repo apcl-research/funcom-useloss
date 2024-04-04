@@ -1,0 +1,1 @@
+TDAT: public void test get private key ( ) {  <NL> create params ( false , false ) ;  <NL> key store . private key entry ks pke = new key store . private key entry (  <NL> test private key , test chain ) ;  <NL> assert equals ( " incorrect private key " , test private key , ks pke <NL>  . get private key ( ) ) ;  <NL>  }  COM: <s> test for code get private key code method </s>

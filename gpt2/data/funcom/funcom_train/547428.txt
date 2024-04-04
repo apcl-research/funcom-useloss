@@ -1,0 +1,1 @@
+TDAT: public void set icons ( image icon on , image icon off , image icon unknown ) {  <NL> on _ state = on ;  <NL> off _ state = off ;  <NL> unknown _ state = unknown ;  <NL> icon size = new dimension ( on _ state . get icon width ( ) , on _ state . get icon height ( ) ) ;  <NL> compute title size ( ) ;  <NL>  }  COM: <s> sets icons fot the switch </s>

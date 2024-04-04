@@ -1,0 +1,1 @@
+TDAT: protected int read short ( chunk c ) throws io exception {  <NL>  / / c . bytes read + = 2 ;  <NL> int b1 = read byte ( c ) ;  <NL> int b2 = read byte ( c ) < < 8 ;  <NL>  <NL> return b1 | b2 ;  <NL>  / / return ( short ) ( data input stream . read ( ) + ( data input stream . read ( ) < < 8 ) ) ;  <NL>  }  COM: <s> reads a short 16 bit value from the input file </s>

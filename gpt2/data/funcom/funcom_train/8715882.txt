@@ -1,0 +1,1 @@
+TDAT: protected int get sample ( int [ ] values , int od ) {  <NL> int mult = 1 ;  <NL> int index = 0 ;  <NL> for ( int i = 0 ; i < values . length ; i + + ) {  <NL> index + = mult * values [ i ] ;  <NL> mult * = get size ( i ) ;  <NL>  }  <NL>  <NL> return samples [ index ] [ od ] ;  <NL>  }  COM: <s> get a component for a sample given i m i indices and output </s>

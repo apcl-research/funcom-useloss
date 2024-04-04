@@ -1,0 +1,1 @@
+TDAT: private void add to list ( local folder root folder ) {  <NL> for ( int i = 0 ; i < root folder . get sub folders ( ) . size ( ) ; i + + ) {  <NL> folders . add ( root folder . get sub folders ( ) . get ( i ) ) ;  <NL> add to list ( ( local folder ) root folder . get sub folders ( ) . get ( i ) ) ;  <NL>  }  <NL>  }  COM: <s> doesnt add the root folder itself </s>

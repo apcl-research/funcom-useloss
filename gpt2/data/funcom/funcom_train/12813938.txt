@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> return ( is sub query ( ) ? ( " ( " + sub query . to string ( ) + " ) " ) : table ref ) + ( ( alias = = null ) ? " " : ( " as " + alias ) ) + ( ( join = = null ) ? " " : ( " " + join . to string ( ) ) ) ;  <NL>  }  COM: <s> gets the adql expression of this table reference </s>

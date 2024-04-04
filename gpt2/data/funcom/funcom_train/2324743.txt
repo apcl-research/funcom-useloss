@@ -1,0 +1,1 @@
+TDAT: public void add ( short x , short y , short z ) {  <NL> if ( this . size = = this . capacity )  <NL> flush ( ) ;  <NL> this . x elements [ this . size ] = x ;  <NL> this . y elements [ this . size ] = y ;  <NL> this . z elements [ this . size + + ] = z ;  <NL>  }  COM: <s> adds the specified point x y z to the receiver </s>

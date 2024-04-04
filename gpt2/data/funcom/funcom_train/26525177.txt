@@ -1,0 +1,1 @@
+TDAT: private void init window ( ) {  <NL> start win = new startup window ( " / dream / resources / icons / console - startup . gif " ) ;  <NL> start win . show ( ) ;  <NL> start win . to front ( ) ;  <NL> start win . set text position ( 10 , 141 ) ;  <NL> start win . print message ( " console initializing . . . " ) ;  <NL>  }  COM: <s> sets up the splash screen </s>

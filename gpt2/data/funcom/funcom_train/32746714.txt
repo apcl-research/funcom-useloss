@@ -1,0 +1,1 @@
+TDAT: public int get came in ( player p ) {  <NL> match event me ;  <NL> int in = 0 ;  <NL> enumeration enum = subs _ . elements ( ) ;  <NL> while ( enum . has more elements ( ) ) {  <NL> me = ( match event ) enum . next element ( ) ;  <NL> if ( me . get player2 ( ) = = p )  <NL> in + + ;  <NL>  }  <NL> return in ;  <NL>  }  COM: <s> returns the number of times the player </s>

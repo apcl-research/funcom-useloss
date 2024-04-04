@@ -1,0 +1,1 @@
+TDAT: public void brush ( int red , int green , int blue , int alpha ) {  <NL>  / / if alpha is zero , use a null brush to save rendering time .  <NL> if ( alpha = = 0 ) {  <NL> current brush color = null ;  <NL>  } else {  <NL> current brush color = new color ( red , green , blue , alpha ) ;  <NL>  }  <NL>  }  COM: <s> set the brush to an rgba color </s>

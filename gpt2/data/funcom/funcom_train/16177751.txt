@@ -1,0 +1,1 @@
+TDAT: public void set bounds ( int x , int y , int width , int height ) {  <NL>  _ width = width ;  <NL>  _ height = height ;  <NL>  / / _ buffer = get graphics configuration ( ) . create compatible image ( width , height ) ;  <NL>  _ buffer = null ;  <NL> super . set bounds ( x , y , _ width , _ height ) ;  <NL>  }  COM: <s> move and resize this component </s>

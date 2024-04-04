@@ -1,0 +1,1 @@
+TDAT: public module find module ( string s ) {  <NL> for ( room r : rooms . values ( ) ) {  <NL> for ( module m : r . get modules ( ) ) {  <NL> if ( m . get device id ( ) . equals ignore case ( s ) || m . get name ( ) . equals ignore case ( s ) ) {  <NL> return m ;  <NL>  }  <NL>  }  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> locate a module by its id or name </s>

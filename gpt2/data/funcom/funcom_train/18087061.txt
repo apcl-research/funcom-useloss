@@ -1,0 +1,1 @@
+TDAT: public void put ( string key , byte [ ] bimg , buffered image img ) {  <NL> synchronized ( mutex ) {  <NL> add to compressed cache ( key , bimg ) ;  <NL> add to uncompressed cache ( key , img ) ;  <NL> image date . put ( key , system . current time millis ( ) ) ;  <NL>  }  <NL> add to disk cache ( key , bimg ) ;  <NL>  }  COM: <s> put a tile image into the cache </s>

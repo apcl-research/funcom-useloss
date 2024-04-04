@@ -1,0 +1,1 @@
+TDAT: public void select menu at index ( int index ) {  <NL> if ( index > = 0 & & index < this . stack panel . get widget count ( ) ) {  <NL> i menu menu = get menu at index ( index ) ;  <NL> menu . do select ( ) ;  <NL>  }  <NL> else <NL> throw new index out of bounds exception ( " invalid index : " + index ) ;  <NL>  }  COM: <s> selects the menu at the given index </s>

@@ -1,0 +1,1 @@
+TDAT: public void set delay ( int min , int max , int factor ) {  <NL> clients . response (  <NL> new au script ( null , " zkau . set s push info ( ' " + _ desktop . get id ( )  <NL>  + " ' , { min : " + min + " , max : " + max + " , factor : " + factor + " } ) " ) ) ;  <NL>  }  COM: <s> sets the delay between each polling request </s>

@@ -1,0 +1,1 @@
+TDAT: private object constructor ( final item [ ] ar ) throws exception {  <NL> for ( final constructor < ? > con : cls . get constructors ( ) ) {  <NL> final object [ ] arg = args ( con . get parameter types ( ) , ar , true ) ;  <NL> if ( arg ! = null ) return con . new instance ( arg ) ;  <NL>  }  <NL> throw new exception ( ) ;  <NL>  }  COM: <s> calls a constructor </s>

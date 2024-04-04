@@ -1,0 +1,1 @@
+TDAT: public void set vec uniform ( string name , float x , float y , float z , float w ) {  <NL> int loc = get uniform location ( name ) ;  <NL> if ( - 1 < loc ) gl . gl uniform4f ( loc , x , y , z , w ) ;  <NL>  }  COM: <s> sets the vec4 uniform with name to the given values </s>

@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> string str = " ( " ;  <NL> for ( int i = 0 ; i < num tracks ; i + + ) {  <NL> str = str + tracks [ i ] . to string ( ) ;  <NL> if ( i < num tracks - 1 ) {  <NL> str = str + " | " ;  <NL>  }  <NL>  }  <NL> return str + " ) " ;  <NL>  }  COM: <s> return a string representation of the pattern </s>

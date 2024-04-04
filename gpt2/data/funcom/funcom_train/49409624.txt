@@ -1,0 +1,1 @@
+TDAT: private string trim newline ( string s ) {  <NL> if ( s . ends with ( " \r\n " ) )  <NL> return s . substring ( 0 , s . length ( ) - 2 ) ;  <NL> if ( s . ends with ( " \n " ) )  <NL> return s . substring ( 0 , s . length ( ) - 1 ) ;  <NL> return s ;  <NL>  }  COM: <s> trim final newline characters off a string </s>

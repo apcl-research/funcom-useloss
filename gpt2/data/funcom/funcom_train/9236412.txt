@@ -1,0 +1,1 @@
+TDAT: private void update example ( ) {  <NL> if ( uri = = null ) {  <NL> set enabled ( false ) ;  <NL> example label . set text ( " example : " ) ;  <NL>  } else {  <NL> example label . set text ( " example : " + url handler . get url hander ( ) .  <NL> substitute params ( uri , command path . get text ( ) ) ) ;  <NL>  }  <NL>  }  COM: <s> updates the example label </s>

@@ -1,0 +1,1 @@
+TDAT: public void test decode ( ) throws coding exception {  <NL> for ( int i = 0 ; i < rx data . length ; i + + ) {  <NL> byte [ ] data = codec . decode ( rx data [ i ] ) ;  <NL> assert true ( " arrays not equal : index = " + i , arrays . equals ( data , tx data [ i ] ) ) ; / / $ non - nls - 1 $  <NL>  }  <NL>  }  COM: <s> test the proper decoding of the test data </s>

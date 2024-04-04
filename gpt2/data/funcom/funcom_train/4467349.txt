@@ -1,0 +1,1 @@
+TDAT: public void test curve ( ) {  <NL> init graphics ( ) ;  <NL> to path ( ) . curve to ( 20 , 30 , 35 , 40 , 20 , 35 ) ;  <NL> to path ( ) . q curve to ( 50 , 30 , 40 , 35 ) ;  <NL> to path ( ) . q smooth curve to ( 45 , 45 ) ;  <NL> to path ( ) . smooth curve to ( 70 , 15 , 60 , 65 ) ;  <NL>  }  COM: <s> tests if the curve methods are well executed </s>

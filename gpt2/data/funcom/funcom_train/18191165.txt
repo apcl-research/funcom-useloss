@@ -1,0 +1,1 @@
+TDAT: private void draw face xz ( graphics g , color col , double [ ] [ ] matrix , boolean use perspective ) {  <NL> g . set color ( col ) ;  <NL> init poly line ( pos000 , posx00 , posx0z , pos00z , matrix , use perspective ) ; / / xz <NL> g . fill polygon ( poly line x , poly line y , 5 ) ;  <NL>  }  COM: <s> draws the face xz with the given color </s>

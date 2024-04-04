@@ -1,0 +1,1 @@
+TDAT: final public token get token ( int index ) {  <NL> token t = this . token ;  <NL> for ( int i = 0 ; i < index ; i + + ) {  <NL> if ( t . next ! = null ) {  <NL> t = t . next ;  <NL>  } else {  <NL> t = t . next = this . token _ source . get next token ( ) ;  <NL>  }  <NL>  }  <NL> return t ;  <NL>  }  COM: <s> get the specific token </s>

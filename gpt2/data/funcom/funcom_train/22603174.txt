@@ -1,0 +1,1 @@
+TDAT: public void add session message ( string message ) {  <NL> if ( ! get session ( ) . contains key ( " session messages " ) )  <NL> get session ( ) . put ( " session messages " , new array list < string > ( ) ) ;  <NL>  ( ( list ) get session ( ) . get ( " session messages " ) ) . add ( message ) ;  <NL>  }  COM: <s> session scoped confirmation message </s>

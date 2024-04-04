@@ -1,0 +1,1 @@
+TDAT: public void insert ( constant val , rid rid ) {  <NL> before first ( val ) ;  <NL> ts . insert ( ) ;  <NL> ts . set int ( " block " , rid . block number ( ) ) ;  <NL> ts . set int ( " id " , rid . id ( ) ) ;  <NL> ts . set val ( " dataval " , val ) ;  <NL>  }  COM: <s> inserts a new record into the table scan for the bucket </s>

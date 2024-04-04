@@ -1,0 +1,1 @@
+TDAT: private void log cancellation ( long entry id , string case id , string activity name ) {  <NL> calendar log entry log entry =  <NL> new calendar log entry ( case id , activity name , null , 0 , " cancelled " , entry id ) ;  <NL>  _ u logger . log ( log entry , false ) ;  <NL>  }  COM: <s> adds a record to the calendar log for a reservation cancellation </s>

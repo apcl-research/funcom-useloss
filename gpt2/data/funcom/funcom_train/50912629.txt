@@ -1,0 +1,1 @@
+TDAT: public string get string ( ) {  <NL> string s = " " ;  <NL> for ( cml lattice vector lv : this . get lattice vector elements ( ) ) {  <NL> s + = s _ lsquare + lv . get string content ( ) + s _ rsquare ;  <NL> s + = s _ lbrak + lv . get cml vector3 ( ) . get length ( ) + s _ rbrak ;  <NL>  }  <NL> return s ;  <NL>  }  COM: <s> gets a string representation of the lattice </s>

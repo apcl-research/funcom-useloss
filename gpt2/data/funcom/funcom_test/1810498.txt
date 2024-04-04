@@ -1,0 +1,1 @@
+TDAT: public void set word wrap ( int row , int column , boolean wrap ) {  <NL> prepare cell ( row , column ) ;  <NL> string wrap value = wrap ? " " : " nowrap " ;  <NL> dom . set style attribute ( get element ( row , column ) , " white space " , wrap value ) ;  <NL>  }  COM: <s> sets whether the specified cell will allow word wrapping of its contents </s>

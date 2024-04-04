@@ -1,0 +1,1 @@
+TDAT: public void set identifiers ( string str oid ) {  <NL> m _ data = null ;  <NL> if ( str oid ! = null ) {  <NL> m _ data = convert ( str oid ) ;  <NL>  }  <NL> if ( m _ data = = null ) {  <NL> m _ data = new int [ 2 ] ;  <NL> m _ data [ 0 ] = m _ data [ 1 ] = 0 ;  <NL>  }  <NL>  }  COM: <s> sets the object to the passed dotted decimal object identifier string </s>

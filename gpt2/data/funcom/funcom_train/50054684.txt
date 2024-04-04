@@ -1,0 +1,1 @@
+TDAT: public void set time domain ( array list domain ) {  <NL> double [ ] result = new double [ domain . size ( ) ] ;  <NL> for ( int i = 0 ; i < domain . size ( ) ; i + + ) {  <NL> result [ i ] = ( ( double ) domain . get ( i ) ) . double value ( ) ;  <NL>  }  <NL> this . domain = result ;  <NL>  }  COM: <s> assumes an array list of doubles </s>

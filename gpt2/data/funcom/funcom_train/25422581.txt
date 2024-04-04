@@ -1,0 +1,1 @@
+TDAT: public query mixin ( query query ) {  <NL> query mixed query = new query ( this ) ;  <NL> if ( query ! = null ) {  <NL> for ( map . entry < string , string > entry : query . entry set ( ) ) {  <NL> mixed query . put ( entry . get key ( ) , entry . get value ( ) ) ;  <NL>  }  <NL>  }  <NL> return mixed query ;  <NL>  }  COM: <s> mixes two queries </s>

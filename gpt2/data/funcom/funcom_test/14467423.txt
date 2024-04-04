@@ -1,0 +1,1 @@
+TDAT: public void add undoable event ( undoable event e ) {  <NL> if ( this . undo on ) {  <NL> undo list . add first ( e ) ;  <NL> if ( undo list . size ( ) = = 1 )  <NL> notify observers ( model . undo _ nonempty , null , null , null , null , false ) ;  <NL>  }  <NL>  }  COM: <s> used to add an undoable event to the undo list </s>

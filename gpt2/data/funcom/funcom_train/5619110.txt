@@ -1,0 +1,1 @@
+TDAT: public void test _ to array ( ) {  <NL> object [ ] int obj array = { 0 , 1 , 2 , 3 } ;  <NL> test support . assert that ( arrays . equals ( default list ( ) . to array ( ) , int obj array ) ,  <NL>  " to array ( ) did not return the expected integer [ ] array " ) ;  <NL>  }  COM: <s> tests to array </s>

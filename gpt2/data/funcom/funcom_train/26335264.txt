@@ -1,0 +1,1 @@
+TDAT: public string get time string ( ) {  <NL> int hour = this . get time hour ( ) ;  <NL> int min = this . get time minute ( ) ;  <NL> string m = ( hour < 13 ? " am " : " pm " ) ;  <NL> if ( hour > 12 )  <NL> hour - = 12 ;  <NL> return hour + " : " + ( min < 10 ? " 0 " : " " ) + min + m ;  <NL>  }  COM: <s> get time as string </s>

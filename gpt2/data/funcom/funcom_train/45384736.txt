@@ -1,0 +1,1 @@
+TDAT: public data frame add frame ( ) {  <NL> data frame f = get active frame ( ) ;  <NL>  <NL> if ( create frame || ( get data frames ( ) . size ( ) = = 0 ) ) {  <NL> f = new data frame ( title + " < " + frame index + " > " , this ) ;  <NL> frame index + + ;  <NL> this . add ( f ) ;  <NL>  }  <NL>  <NL> return f ;  <NL>  }  COM: <s> creates and adds new data frame </s>

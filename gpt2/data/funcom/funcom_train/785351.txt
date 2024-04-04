@@ -1,0 +1,1 @@
+TDAT: public int get child row ( int node , int idx ) {  <NL> int cc = get child count ( node ) ;  <NL> if ( idx < 0 || idx > = cc ) return - 1 ;  <NL> int [ ] links = ( int [ ] ) m _ links . get ( node , outlinks ) ;  <NL> return get target node ( links [ idx ] ) ;  <NL>  }  COM: <s> get the child node id at the given index </s>

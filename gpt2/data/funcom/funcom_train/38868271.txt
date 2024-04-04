@@ -1,0 +1,1 @@
+TDAT: public boolean is intersection ( date interval d ) {  <NL> if ( ! d . is valid ( ) || ! is valid ( ) )  <NL> return false ;  <NL> return ! ( date to . get day id ( ) < d . date from . get day id ( ) || <NL> date from . get day id ( ) > d . date to . get day id ( ) ) ;  <NL>  } ;  COM: <s> returns true if the interval has non empty intersection with another one </s>

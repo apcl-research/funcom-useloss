@@ -1,0 +1,1 @@
+TDAT: public string search ip _ ap ( string tag ) {  <NL> ap nodo ;  <NL> for ( int i = 0 ; i < access points . size ( ) ; i + + ) {  <NL> nodo = ( ap ) access points . get ( i ) ;  <NL> if ( nodo . what ap ( ) . equals ( tag ) ) { return nodo . what wifi ip ( ) ; }  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> return the ip of a desired ap </s>

@@ -1,0 +1,1 @@
+TDAT: public void set selection ( string item name ) {  <NL> for ( int i = 0 ; i < get item count ( ) ; i + + ) {  <NL> image icon icon = ( image icon ) get item at ( i ) ;  <NL> if ( item name . equals ( icon . get description ( ) ) ) {  <NL> set selected index ( i ) ;  <NL> break ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> change the selection in the list </s>

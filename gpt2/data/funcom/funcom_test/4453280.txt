@@ -1,0 +1,1 @@
+TDAT: protected void fire property change ( string property name , object old value , object new value ) {  <NL> if ( old value ! = null & & new value ! = null & & old value . equals ( new value ) ) {  <NL> return ;  <NL>  }  <NL> pcs . fire property change ( property name , old value , new value ) ;  <NL>  }  COM: <s> called whenever the value of a bound property is set </s>

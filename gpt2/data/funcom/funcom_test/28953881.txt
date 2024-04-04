@@ -1,0 +1,1 @@
+TDAT: public void add name ( string name , boolean is required ) throws xds rim exception , soap exception {  <NL> if ( name ! = null ) {  <NL> add rim name element ( root , name , rim name space ) ;  <NL>  } else if ( is required ) {  <NL> throw new xds rim exception ( " required name not supplied . " ) ;  <NL>  }  <NL>  }  COM: <s> add a name to this eb rim object </s>

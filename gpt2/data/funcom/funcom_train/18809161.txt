@@ -1,0 +1,1 @@
+TDAT: public int get type ( final int series , final int item ) {  <NL> if ( this . parent instanceof signals dataset ) {  <NL> return ( ( signals dataset ) this . parent ) . get type ( this . map [ series ] , item ) ;  <NL>  }  <NL> else {  <NL> return get y ( series , item ) . int value ( ) ;  <NL>  }  <NL>  }  COM: <s> returns the type </s>

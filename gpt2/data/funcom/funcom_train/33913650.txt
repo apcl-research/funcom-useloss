@@ -1,0 +1,1 @@
+TDAT: public void repack ( file file ) throws io exception {  <NL>  <NL> file tmpfile = new file ( file . get parent ( ) , " repack _ " + uuid . random uuid ( ) . to string ( ) + " . tmp " ) ;  <NL>  <NL> pack ( file , tmpfile , false ) ;  <NL> unpack ( tmpfile , file , false ) ;  <NL>  <NL> tmpfile . delete ( ) ;  <NL>  }  COM: <s> pack and unpack jar file </s>

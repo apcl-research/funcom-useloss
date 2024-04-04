@@ -1,0 +1,1 @@
+TDAT: private int read card32 ( ) throws io exception {  <NL>  <NL> return ( ( ( byte ) sin . read ( ) < < 24 ) & 0xff000000 )  <NL> | ( ( ( byte ) sin . read ( ) < < 16 ) & 0x00ff0000 )  <NL> | ( ( ( byte ) sin . read ( ) < < 8 ) & 0x0000ff00 )  <NL> | ( ( byte ) sin . read ( ) & 0x000000ff ) ;  <NL>  }  COM: <s> reads a 32bit card as defined by the rfb protocal </s>

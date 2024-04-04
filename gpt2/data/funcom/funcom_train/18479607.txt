@@ -1,0 +1,1 @@
+TDAT: public end point impute ( double t ) {  <NL> double interp = ( t - e0 . t ) / ( e1 . t - e0 . t ) ;  <NL> return new end point ( t , poly pt . interp ( e0 . p , e1 . p , interp ) , e0 . iter + ( e1 . iter - e0 . iter ) * interp ) ;  <NL>  }  COM: <s> interpolates an end point between the existing endpoints </s>

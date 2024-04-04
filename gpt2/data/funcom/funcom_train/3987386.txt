@@ -1,0 +1,1 @@
+TDAT: public void text ( string str , float x , float y , float z ) {  <NL> if ( z ! = 0 ) translate ( 0 , 0 , z ) ; / / slow !  <NL>  <NL> text ( str , x , y ) ;  <NL> text z = z ;  <NL>  <NL> if ( z ! = 0 ) translate ( 0 , 0 , - z ) ; / / inaccurate !  <NL>  }  COM: <s> same as above but with a z coordinate </s>

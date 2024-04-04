@@ -1,0 +1,1 @@
+TDAT: public void compute plane ( ) {  <NL> if ( plane = = null )  <NL> plane = new plane ( v [ 0 ] , v [ 1 ] , v [ 2 ] ) ;  <NL> else <NL> plane . set plane ( v [ 0 ] , v [ 1 ] , v [ 2 ] ) ;  <NL>  / / bsp main . planes . add ( plane )  <NL> face normal = plane . get normal ( ) ;  <NL>  }  COM: <s> recomputes the plane equations and the normal </s>

@@ -1,0 +1,1 @@
+TDAT: public void add to leaf set ( node handle nh ) {  <NL> leaf set . put ( nh ) ;  <NL> if ( ! observing . contains ( nh ) ) {  <NL> if ( logger . level < = logger . fine ) logger . log ( " cjp observing " + nh ) ;  <NL> nh . add observer ( this , 40 ) ;  <NL> observing . add ( nh ) ;  <NL>  }  <NL>  }  COM: <s> observes all node handles added to leaf set </s>

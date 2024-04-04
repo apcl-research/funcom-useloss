@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> string ret = " " ;  <NL> for ( int i = 0 ; i < 8 ; + + i ) {  <NL> for ( int j = 0 ; j < 8 ; + + j ) {  <NL> ret + = get item ( j , i ) ;  <NL>  }  <NL> ret + = " \n " ;  <NL>  }  <NL> ret + = " pass : " + get pass num ( ) + " \n " ;  <NL> return ret ;  <NL>  }  COM: <s> should use string buffer instead of string but this method </s>

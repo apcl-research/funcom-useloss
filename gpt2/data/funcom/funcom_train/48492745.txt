@@ -1,0 +1,1 @@
+TDAT: / / - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  <NL> public query clone ( ) { return new query ( this ) ; }  COM: <s> the crawler uses this method when encontering a redirect </s>

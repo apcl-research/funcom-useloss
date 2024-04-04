@@ -1,0 +1,1 @@
+TDAT: public void write _ string16 ( string s ) {  <NL> write _ string16 ( index , s ) ;  <NL> boolean odd = s . length ( ) % 2 = = 1 ;  <NL>  / / if we have an odd number of characters , we have to add a padding of <NL>  / / 2 .  <NL> index + = s . length ( ) * 2 + ( odd ? 2 : 0 ) ;  <NL>  }  COM: <s> writes a field of type string16 into the data buffer </s>

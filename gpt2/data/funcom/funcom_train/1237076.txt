@@ -1,0 +1,1 @@
+TDAT: public int get depth ( ) {  <NL> if ( depth ! = null ) {  <NL> return depth . int value ( ) ;  <NL>  }  <NL>  <NL> value binding vb = get value binding ( " depth " ) ;  <NL> integer v = vb ! = null ? ( integer ) vb . get value ( get faces context ( ) )  <NL>  : null ;  <NL> return v ! = null ? v . int value ( ) : 15 ;  <NL>  }  COM: <s> depth attribute for pie charts </s>

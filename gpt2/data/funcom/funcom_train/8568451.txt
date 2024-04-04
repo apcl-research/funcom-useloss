@@ -1,0 +1,1 @@
+TDAT: public void set connections ( int node , int [ ] conns ) {  <NL> for ( int i = 0 ; i < conns . length ; i + + ) {  <NL> int to = conns [ i ] % n ;  <NL> int index = math . abs ( to ) ;  <NL> this . connections [ node ] [ index ] = to > = 0 ? 1 : - 1 ;  <NL>  }  <NL>  }  COM: <s> set the input connections for a given node </s>

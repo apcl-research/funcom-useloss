@@ -1,0 +1,1 @@
+TDAT: public void set cell ( int x , int y , bit set bit set ) {  <NL> if ( ! ( x > = 0 & & x < size & & y > = 0 & & y < size ) ) {  <NL> throw new index out of bounds exception ( ) ;  <NL>  }  <NL>  <NL> grid [ x ] [ y ] = bit set ;  <NL>  } / / set cell  COM: <s> sets the signature of a field </s>

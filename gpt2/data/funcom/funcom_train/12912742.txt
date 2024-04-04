@@ -1,0 +1,1 @@
+TDAT: public void ifft ( double [ ] x ) {  <NL> dir = - 1 ;  <NL> fft comm ( x ) ;  <NL> int lhi = 2 * dim [ 0 ] * dim [ 1 ] * dim [ 2 ] ;  <NL> double facnor = 2 . 0 / lhi ;  <NL> for ( int l = 0 ; l < lhi ; l + + ) {  <NL> x [ l ] * = facnor ;  <NL>  }  <NL>  }  COM: <s> perform the discrete complex inverse fourier transform on a complex </s>

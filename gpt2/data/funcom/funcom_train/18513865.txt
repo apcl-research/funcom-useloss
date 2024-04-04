@@ -1,0 +1,1 @@
+TDAT: public void set name ( string name ) {  <NL> int beg = 0 ;  <NL> int end = 0 ;  <NL> beg = name . last index of ( " ( " ) ;  <NL> end = name . last index of ( " ) " ) ;  <NL> if ( end > beg ) this . units = name . substring ( beg + 1 , end ) ;  <NL>  <NL> this . name = name ;  <NL>  }  COM: <s> sets name for this channel </s>

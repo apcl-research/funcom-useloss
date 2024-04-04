@@ -1,0 +1,1 @@
+TDAT: public void test min ( ) {  <NL> validator test util . check ( xml , new integer dto ( 0 ) , invalid ) ;  <NL> validator test util . check ( xml , new integer dto ( 1 ) , valid ) ;  <NL> validator test util . check ( xml , new int dto ( 0 ) , invalid ) ;  <NL> validator test util . check ( xml , new int dto ( 1 ) , valid ) ;  <NL>  }  COM: <s> tests the constraint min </s>

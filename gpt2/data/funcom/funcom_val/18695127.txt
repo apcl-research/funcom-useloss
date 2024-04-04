@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> string builder s = new string builder ( " rdr node : " ) ;  <NL> s . append ( " id - " ) . append ( node id ) ;  <NL> if ( parent ! = null ) s . append ( " parent - " ) . append ( parent . get node id ( ) ) ;  <NL> return s . to string ( ) ;  <NL>  }  COM: <s> returns a string representation of this node </s>

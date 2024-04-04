@@ -1,0 +1,1 @@
+TDAT: public vertex project ( vertex vector ) {  <NL> double t = a * vector . get x ( ) + b * vector . get y ( ) + c * vector . get z ( ) ;  <NL> t = t / ( a * a + b * b + c * c ) ;  <NL> vertex n = new vertex ( t * a , t * b , t * c ) ;  <NL> return vector . minus ( n ) ;  <NL>  }  COM: <s> project a vector into this plane </s>

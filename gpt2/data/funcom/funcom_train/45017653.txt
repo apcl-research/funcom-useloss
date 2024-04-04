@@ -1,0 +1,1 @@
+TDAT: public void straighten ( ) {  <NL> gl rotatef ( - this . yrot , 0 . 0f , 1 . 0f , 0 . 0f ) ;  <NL> gl rotatef ( - this . xrot , 1 . 0f , 0 . 0f , 0 . 0f ) ;  <NL> gl scalef ( ( float ) math . exp ( - this . zoom power ) , ( float ) math <NL>  . exp ( - this . zoom power ) , 1 ) ;  <NL>  }  COM: <s> undoes the rotation of a scene useful for billboarding such </s>

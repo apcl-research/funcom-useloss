@@ -1,0 +1,1 @@
+TDAT: public void write gp8 ( int reg , byte val ) {  <NL> if ( reg < 4 ) {  <NL> gp32 [ reg ] = ( gp32 [ reg ] & 0xffffff00 ) | ( ( ( int ) val ) & 0x000000ff ) ;  <NL>  } else {  <NL> gp32 [ reg - 4 ] = ( gp32 [ reg - 4 ] & 0xffff00ff ) | ( ( ( int ) val & 0xff ) < < 8 ) ;  <NL>  }  <NL>  }  COM: <s> write an 8bit general purpose register </s>

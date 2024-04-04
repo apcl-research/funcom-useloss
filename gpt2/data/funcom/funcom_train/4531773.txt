@@ -1,0 +1,1 @@
+TDAT: public void set profile task range ( boolean is map , string new value ) {  <NL>  / / parse the value to make sure it is legal <NL> new configuration . integer ranges ( new value ) ;  <NL> set ( ( is map ? " mapred . task . profile . maps " : " mapred . task . profile . reduces " ) ,  <NL> new value ) ;  <NL>  }  COM: <s> set the ranges of maps or reduces to profile </s>

@@ -1,0 +1,1 @@
+TDAT: public void debug ( object o , string m ) {  <NL> string output string = " debug : " +  <NL>  ( ( o ! = null ) ? o . get class ( ) . get name ( ) + " : " : " " ) +  <NL> m ;  <NL> system . out . println ( output string ) ;  <NL> output message to file ( output string ) ;  <NL>  }  COM: <s> callback method to be called from the static misc object </s>

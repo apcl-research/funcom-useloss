@@ -1,0 +1,1 @@
+TDAT: private void write paper space block ( ) throws io exception {  <NL> write start block ( " 1c " , " 1b " , true , " 0 " , " * paper _ space " ) ;  <NL> write end block ( " 1d " , " 1b " , true , " 0 " , " * model _ space " ) ;  <NL>  }  COM: <s> writes the static paper space block </s>

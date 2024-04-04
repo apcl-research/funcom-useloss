@@ -1,0 +1,1 @@
+TDAT: public void test _ get type ( ) {  <NL> midi file format format = new midi file format ( 1 , 2 . 0f , 3 , 4 , 5l ) ;  <NL> assert equals ( 1 , format . get type ( ) ) ;  <NL>  <NL> format = new midi file format ( 10 , 2 . 0f , 3 , 4 , 5l ) ;  <NL> assert equals ( 10 , format . get type ( ) ) ;  <NL>  }  COM: <s> test method get type </s>

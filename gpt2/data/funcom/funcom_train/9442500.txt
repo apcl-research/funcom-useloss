@@ -1,0 +1,1 @@
+TDAT: public void set dictionary ( wnn dictionary dict ) {  <NL>  / * get part of speech tags * /  <NL> m pos default = dict . get pos ( wnn dictionary . pos _ type _ meisi ) ;  <NL> m pos number = dict . get pos ( wnn dictionary . pos _ type _ suuji ) ;  <NL> m pos symbol = dict . get pos ( wnn dictionary . pos _ type _ kigou ) ;  <NL>  }  COM: <s> set the dictionary </s>

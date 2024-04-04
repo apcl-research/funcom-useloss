@@ -1,0 +1,1 @@
+TDAT: public double determinant ( ) {  <NL> return coeffs [ 0 ] * coeffs [ 2 ] * coeffs [ 5 ] + coeffs [ 1 ] * coeffs [ 3 ] * coeffs [ 4 ] / 4 <NL>  - coeffs [ 0 ] * coeffs [ 4 ] * coeffs [ 4 ] / 4 - coeffs [ 1 ] * coeffs [ 1 ] * coeffs [ 5 ] / 4 - coeffs [ 2 ] * coeffs [ 2 ] * coeffs [ 3 ] / 4 ;  <NL>  }  COM: <s> returns the determinant of the conic section </s>

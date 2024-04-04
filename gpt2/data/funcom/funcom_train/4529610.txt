@@ -1,0 +1,1 @@
+TDAT: private void xdr _ int ( int i ) {  <NL> buffer [ offset + + ] = ( byte ) ( ( i > > 24 ) & 0xff ) ;  <NL> buffer [ offset + + ] = ( byte ) ( ( i > > 16 ) & 0xff ) ;  <NL> buffer [ offset + + ] = ( byte ) ( ( i > > 8 ) & 0xff ) ;  <NL> buffer [ offset + + ] = ( byte ) ( i & 0xff ) ;  <NL>  }  COM: <s> puts an integer into the buffer as 4 bytes big endian </s>

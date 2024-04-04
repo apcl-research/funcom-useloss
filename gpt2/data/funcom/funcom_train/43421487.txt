@@ -1,0 +1,1 @@
+TDAT: public day get day at ( point point ) {  <NL> double x = point . get x ( ) ;  <NL> int index = ( int ) ( ( x - inset _ left ) / x step ) ;  <NL> if ( ( x - inset _ left < 0 ) | ( index > = days . size ( ) ) ) return null ;  <NL> return ( day ) days . get ( index ) ;  <NL>  }  COM: <s> returns day represented by column at specified point </s>

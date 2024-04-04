@@ -1,0 +1,1 @@
+TDAT: private string get concat sql ( list < string > values ) {  <NL> if ( values . size ( ) = = 1 ) {  <NL> return values . get ( 0 ) ;  <NL>  } else {  <NL> return start _ concat + values . get ( 0 ) + sep _ concat + get concat sql ( values . sub list ( 1 , values . size ( ) ) ) + end _ concat ;  <NL>  }  <NL>  }  COM: <s> recursive way of building concat instruction </s>

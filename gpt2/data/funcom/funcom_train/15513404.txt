@@ -1,0 +1,1 @@
+TDAT: public void test generate jobs ( ) throws exception {  <NL>  <NL> for ( int i = 0 ; i < 10 ; i + + ) {  <NL> job job = new job ( ) ;  <NL> job . set typ ( " test " ) ;  <NL> job . set created _ user ( " simon " ) ;  <NL>  <NL> job = this . adapter . insert job ( job ) ;  <NL> log . debug ( " created job : " + job ) ;  <NL>  }  <NL>  }  COM: <s> test generate jobs </s>

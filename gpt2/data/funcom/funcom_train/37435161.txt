@@ -1,0 +1,1 @@
+TDAT: private void normalize and print ( final string s , final boolean is att value ) {  <NL> final int len = ( s ! = null ) ? s . length ( ) : 0 ;  <NL> for ( int i = 0 ; i < len ; i + + ) {  <NL> normalize and print ( s . char at ( i ) , is att value ) ;  <NL>  }  <NL>  }  COM: <s> normalizes and prints the given string </s>

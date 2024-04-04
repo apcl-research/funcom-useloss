@@ -1,0 +1,1 @@
+TDAT: public int compare ( object o1 , object o2 ) {  <NL> final location a = ( ( locatable ) o1 ) . get location ( ) ;  <NL> final location b = ( ( locatable ) o2 ) . get location ( ) ;  <NL>  <NL> if ( a . overlaps ( b , false ) ) return 0 ;  <NL> else return a . compare to ( b ) ;  <NL>  }  COM: <s> return whether o1 and o2 overlap otherwise their correct ordering </s>

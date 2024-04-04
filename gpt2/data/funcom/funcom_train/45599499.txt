@@ -1,0 +1,1 @@
+TDAT: protected file get jar file without sub path ( file jar file ) {  <NL> string jar file path = jar file . get path ( ) ;  <NL> int index = jar file path . last index of ( ' ! ' ) ;  <NL> if ( index < 0 ) {  <NL> return jar file ;  <NL>  }  <NL> return new file ( jar file path . substring ( 0 , index ) ) ;  <NL>  }  COM: <s> gets jar file with the sub path stripped off </s>

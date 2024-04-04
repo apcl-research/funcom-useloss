@@ -1,0 +1,1 @@
+TDAT: public unit find by id ( final string the id , final boolean exact ) {  <NL> final unit unit ;  <NL> if ( root ! = null ) {  <NL> unit = root . find by id ( the id , exact ) ;  <NL>  }  <NL> else {  <NL> unit = null ;  <NL>  }  <NL> return ( ( unit = = null ) & & ( ! exact ) ? root : unit ) ;  <NL>  }  COM: <s> find by id </s>

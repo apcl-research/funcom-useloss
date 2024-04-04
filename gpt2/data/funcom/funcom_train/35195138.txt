@@ -1,0 +1,1 @@
+TDAT: public int array snapshot ( ) {  <NL> final int [ ] arr ;  <NL> if ( size = = int buffer . length ) {  <NL> arr = int buffer ;  <NL>  } else {  <NL> arr = new int [ size ] ;  <NL> system . arraycopy ( int buffer , 0 , arr , 0 , size ) ;  <NL>  }  <NL> return new int array ( arr ) ;  <NL>  }  COM: <s> create a snapshot of the current content </s>

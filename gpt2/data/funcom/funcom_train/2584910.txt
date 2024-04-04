@@ -1,0 +1,1 @@
+TDAT: public void test keys of different classes ( ) {  <NL> paint map m = new paint map ( ) ;  <NL> m . put ( " abc " , color . red ) ;  <NL> m . put ( new integer ( 99 ) , color . blue ) ;  <NL> assert equals ( color . blue , m . get paint ( new integer ( 99 ) ) ) ;  <NL>  }  COM: <s> this test covers a bug reported in the forum </s>

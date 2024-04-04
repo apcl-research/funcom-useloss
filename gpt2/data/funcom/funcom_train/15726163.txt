@@ -1,0 +1,1 @@
+TDAT: private float noise ( int x , int y ) {  <NL> int n = x + y * 17 ;  <NL> n = ( n < < 13 ) ^ n ;  <NL> float rand = ( float ) ( 1 . 000 - ( ( n * ( n * n * 15731 + 789221 ) +  <NL> 1376312589 ) & 0x7fffffff ) / 1073741824 . 0 ) ;  <NL> return rand ;  <NL>  }  COM: <s> returns 1 up to 1 </s>

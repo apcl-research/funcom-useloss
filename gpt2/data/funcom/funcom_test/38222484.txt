@@ -1,0 +1,1 @@
+TDAT: public void warning ( sax parse exception e ) throws sax parse exception {  <NL> system . out . println ( " * * warning , line " + e . get line number ( )  <NL>  + " , uri " + e . get system id ( ) ) ;  <NL> system . out . println ( " " + e . get message ( ) ) ;  <NL>  }  COM: <s> callbacks the application if some warnings were produced </s>

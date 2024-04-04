@@ -1,0 +1,1 @@
+TDAT: private string derive division ( string exp , string vari ) {  <NL> return ( make division ( make subtraction ( make product ( arg2 ( exp ) , derive ( arg1 ( exp ) , vari ) ) ,  <NL> make product ( arg1 ( exp ) , derive ( arg2 ( exp ) , vari ) ) ) , make power ( arg2 ( exp ) ,  <NL>  " 2 " ) ) ) ;  <NL>  }  COM: <s> derives the prefix expression i arg1 arg2 i </s>

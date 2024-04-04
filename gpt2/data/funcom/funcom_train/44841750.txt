@@ -1,0 +1,1 @@
+TDAT: public boolean login ( string user id , string pass ) {  <NL> object o = invoke ( login _ 0 , new string [ ] { " user id " , " pass " } , new object [ ] { user id , pass } ) ;  <NL> return ( ( boolean ) o ) . boolean value ( ) ;  <NL>  }  COM: <s> login to server </s>

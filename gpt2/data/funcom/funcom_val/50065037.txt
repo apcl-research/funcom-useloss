@@ -1,0 +1,1 @@
+TDAT: protected void _ remove by ids ( class < ? > type , serializable . . . ids ) {  <NL> for ( serializable id : ( list < serializable > ) pull by ids ( " select _ it _ . id " , type , ids ) ) {  <NL> em ( ) . remove ( em ( ) . get reference ( type , id ) ) ;  <NL>  }  <NL>  }  COM: <s> remove all the entities of the given type from the datastore that have </s>

@@ -1,0 +1,1 @@
+TDAT: final synchronized public void get ngh int3x3 ( int x , int y )  <NL>  { / * get ngh int3x3 * /  <NL> yw = y * width ; / * prep it here for speedup * /  <NL> yw mw = yw - width ;  <NL> yw pw = yw + width ;  <NL> get ngh int ( x , y ) ;  <NL>  } / * get ngh int3x3 * /  COM: <s> get ngh int3x3 get 3x3 32 bit neighborhood at x y </s>

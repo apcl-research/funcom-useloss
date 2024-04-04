@@ -1,0 +1,1 @@
+TDAT: public string get string ( string name ) {  <NL> long h = open key handle ( handle , path , true ) ;  <NL> byte [ ] data = registry . query value ex ( h , name , 512 ) ;  <NL> registry . close key ( h ) ;  <NL> if ( data ! = null )  <NL> return native helper . get string ( data , true ) ;  <NL> return null ;  <NL>  }  COM: <s> gets a string </s>

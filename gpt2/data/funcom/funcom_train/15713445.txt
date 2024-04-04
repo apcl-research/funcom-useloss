@@ -1,0 +1,1 @@
+TDAT: public string escape url ( final string url ) {  <NL> if ( url = = null ) {  <NL> return null ;  <NL>  }  <NL> try {  <NL> return url encoder . encode ( url , " iso - 8859 - 1 " ) ;  <NL>  } catch ( unsupported encoding exception e ) {  <NL> throw new runtime exception ( " escape url - > unsupported encoding " , e ) ;  <NL>  }  <NL>  }  COM: <s> escape an url </s>

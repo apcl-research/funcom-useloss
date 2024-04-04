@@ -1,0 +1,1 @@
+TDAT: public void set value ( j vector3d min , j vector3d max ) {  <NL> extent = j maths . j mul ( 0 . 5 , j maths . j sub ( max , min ) ) ;  <NL> center = j maths . j add ( min , extent ) ;  <NL> this . min . copy from ( min ) ;  <NL> this . max . copy from ( max ) ;  <NL>  <NL>  }  COM: <s> set the center and extent of the box based on two points </s>

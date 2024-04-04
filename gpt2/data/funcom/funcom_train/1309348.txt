@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> if ( type = = num ) { return micro double . to string ( d val ) ; }  <NL> if ( type = = txt ) { return s val ; }  <NL> if ( type = = bol ) { return string . value of ( b val ) ; }  <NL> if ( type = = obj ) { return string . value of ( o val ) ; }  <NL> return null ;  <NL>  }  COM: <s> convert value to string for printing </s>

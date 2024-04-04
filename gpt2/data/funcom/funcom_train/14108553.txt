@@ -1,0 +1,1 @@
+TDAT: public void translate ( final double tx , final double ty ) {  <NL>  / / [ a b c d xx yy ]  <NL> m [ 4 ] = tx * m [ 0 ] + ty * m [ 2 ] + m [ 4 ] ;  <NL> m [ 5 ] = tx * m [ 1 ] + ty * m [ 3 ] + m [ 5 ] ;  <NL>  }  COM: <s> translates the matrix </s>

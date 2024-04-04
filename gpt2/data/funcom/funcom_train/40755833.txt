@@ -1,0 +1,1 @@
+TDAT: public void read metabolites ( int init row , int number rows , hssf sheet sheet ) {  <NL> for ( int i = init row ; i < number rows + init row ; i + + ) {  <NL> hssf row row = sheet . get row ( i ) ;  <NL> this . read row ( row ) ;  <NL> this . rows readed + + ;  <NL>  }  <NL>  }  COM: <s> reads lipid information </s>

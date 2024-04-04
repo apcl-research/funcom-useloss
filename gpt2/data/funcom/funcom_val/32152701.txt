@@ -1,0 +1,1 @@
+TDAT: public void render ( graphics g , camera cam ) {  <NL> if ( x > cam . x - w & & y > cam . y - h & & x < cam . x + cam . w & & y < cam . y + cam . h )  <NL> g . draw image ( image , x - ( int ) cam . x , y - ( int ) cam . y , null ) ;  <NL>  }  COM: <s> render to scene </s>

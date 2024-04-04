@@ -1,0 +1,1 @@
+TDAT: public double get avg degree ( ) {  <NL> double row sums = 0 ;  <NL> for ( int i = 0 ; i < matrix . rows ( ) ; i + + ) {  <NL> for ( int j = 0 ; j < matrix . columns ( ) ; j + + ) {  <NL> row sums + = matrix . get quick ( i , j ) ;  <NL>  }  <NL>  }  <NL>  <NL> return row sums / matrix . rows ( ) ;  <NL>  }  COM: <s> gets the average degree of this matrix </s>

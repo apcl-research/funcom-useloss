@@ -1,0 +1,1 @@
+TDAT: private void write command ( string cmd ) throws io exception {  <NL> log . debug ( " sending command ' " + cmd + " ' " ) ;  <NL> pipe in . write ( cmd . get bytes ( ) ) ;  <NL>  <NL> if ( ! cmd . ends with ( " \n " ) ) {  <NL> pipe in . write ( " \n " . get bytes ( ) ) ;  <NL>  }  <NL>  <NL> pipe in . flush ( ) ;  <NL>  }  COM: <s> send command to client </s>

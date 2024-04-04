@@ -1,0 +1,1 @@
+TDAT: public void test encode ( ) {  <NL> for ( int i = 0 ; i < tx data . length ; i + + ) {  <NL> assert true ( " arrays not equal : index = " + i , arrays . equals ( codec . encode ( tx data [ i ] ) , rx data [ i ] ) ) ; / / $ non - nls - 1 $  <NL>  }  <NL>  }  COM: <s> test the proper encoding of the test data </s>

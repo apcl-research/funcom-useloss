@@ -1,0 +1,1 @@
+TDAT: public ds script builder scene add object ( string object name , string parent , string object file ) {  <NL> body . append ( string . format ( " \t scene add object \ " % s\ " \ " % s\ " \ " % s\ " \n " , object name , parent , object file ) ) ;  <NL> return this ;  <NL>  }  COM: <s> scene add object object models br br </s>

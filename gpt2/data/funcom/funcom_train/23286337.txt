@@ -1,0 +1,1 @@
+TDAT: public void shuffle ( ) {  <NL> vector < card > temp = ( vector < card > ) cards . clone ( ) ;  <NL> cards . clear ( ) ;  <NL> while ( temp . size ( ) ! = 0 ) {  <NL> double random = math . floor ( math . random ( ) * ( temp . size ( ) - 0 . 1 ) ) ;  <NL> cards . add ( temp . remove ( ( int ) random ) ) ;  <NL>  }  <NL>  }  COM: <s> shuffle the cards </s>

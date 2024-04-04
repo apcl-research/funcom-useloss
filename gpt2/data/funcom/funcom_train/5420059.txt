@@ -1,0 +1,1 @@
+TDAT: public void seleccionar archivo ( ) {  <NL> file dialog dialog = new file dialog ( this , " select the script file " , file dialog . load ) ;  <NL> dialog . show ( ) ;  <NL> string file = dialog . get file ( ) ;  <NL> if ( file ! = null )  <NL> script . set text ( dialog . get directory ( ) + file ) ;  <NL>  }  COM: <s> select the script file from a open dialog </s>

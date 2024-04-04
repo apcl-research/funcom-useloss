@@ -1,0 +1,1 @@
+TDAT: public void swap ( final int mi , final int mj ) {  <NL> final int kvi = ( mi % max rec ) * nmeta + index ;  <NL> final int kvj = ( mj % max rec ) * nmeta + index ;  <NL> int tmp = kvmeta . get ( kvi ) ;  <NL> kvmeta . put ( kvi , kvmeta . get ( kvj ) ) ;  <NL> kvmeta . put ( kvj , tmp ) ;  <NL>  }  COM: <s> swap logical indices st i j mod offset capacity </s>

@@ -1,0 +1,1 @@
+TDAT: public cursor get folder list ( ) {  <NL> sq lite query builder qb = new sq lite query builder ( ) ;  <NL>  <NL> qb . set tables ( folder _ table _ name ) ;  <NL>  <NL> sq lite database db = m open helper . get readable database ( ) ;  <NL> return qb . query ( db , null , null , null , null , null , " created asc " ) ;  <NL>  }  COM: <s> returns list of puzzle folders </s>

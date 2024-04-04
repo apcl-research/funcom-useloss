@@ -1,0 +1,1 @@
+TDAT: private void alter syntax ( ) {  <NL> m _ st . reset syntax ( ) ;  <NL> m _ st . word chars ( ' \u0000 ' , ' \u00ff ' ) ;  <NL> m _ st . slash star comments ( false ) ;  <NL> m _ st . slash slash comments ( false ) ;  <NL> m _ st . ordinary char ( ' \n ' ) ;  <NL> m _ st . ordinary char ( ' \r ' ) ;  <NL>  }  COM: <s> this is the alternative syntax for the tokenizer </s>

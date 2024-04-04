@@ -1,0 +1,1 @@
+TDAT: public void set variable ( string name , object value ) {  <NL> class c = ( class ) check visitor context . get ( name ) ;  <NL> if ( interpreter utilities . is valid assignment ( c , value ) ) {  <NL> eval visitor context . set ( name , value ) ;  <NL>  } else {  <NL> throw new illegal state exception ( name ) ;  <NL>  }  <NL>  }  COM: <s> sets the value of a variable </s>

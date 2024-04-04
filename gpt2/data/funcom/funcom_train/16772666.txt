@@ -1,0 +1,1 @@
+TDAT: private int bitrev ( int p j , int p nu ) {  <NL>  <NL> int j1 = p j ;  <NL> int j2 ;  <NL> int k = 0 ;  <NL>  <NL> for ( int i = 0 ; i < p nu ; i + + ) {  <NL> j2 = j1 > > 1 ;  <NL> k = ( k < < 1 ) + j1 - ( j2 < < 1 ) ;  <NL> j1 = j2 ;  <NL>  }  <NL>  <NL> return k ;  <NL>  <NL>  }  COM: <s> bit swapping method </s>

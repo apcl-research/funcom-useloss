@@ -1,0 +1,1 @@
+TDAT: private boolean is one reverse ( ) throws invalid range exception {  <NL> return ( ( ( this . first address instanceof inet4address ) & & ( ( this . get prefix ( ) % 8 ) = = 0 ) ) || ( ( this . first address instanceof inet6address ) & & ( ( this <NL>  . get prefix ( ) % 4 ) = = 0 ) ) ) ;  <NL>  }  COM: <s> determines if the network contains only one reverse </s>

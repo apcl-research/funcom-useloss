@@ -1,0 +1,1 @@
+TDAT: public styles table get styles table ( ) throws io exception , invalid format exception {  <NL> array list < package part > parts = pkg . get parts by content type ( xssf relation . styles . get content type ( ) ) ;  <NL> return parts . size ( ) = = 0 ? null : new styles table ( parts . get ( 0 ) , null ) ;  <NL>  }  COM: <s> opens up the styles table parses it and </s>

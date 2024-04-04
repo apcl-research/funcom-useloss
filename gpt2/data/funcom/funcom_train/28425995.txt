@@ -1,0 +1,1 @@
+TDAT: private boolean can be removed ( ) {  <NL>  <NL>  / / no data - nothing to be removed <NL> if ( ( entries = = null ) || ( entries . size ( ) = = 0 ) ) {  <NL> return false ;  <NL>  }  <NL>  <NL>  / / no row selection - nothing to be removed <NL> int sel row = table . get selected row ( ) ;  <NL> return ( sel row > = 0 ) ;  <NL>  }  COM: <s> can a row be removed </s>

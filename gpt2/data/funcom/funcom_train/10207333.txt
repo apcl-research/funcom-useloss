@@ -1,0 +1,1 @@
+TDAT: public void do game start ( ) {  <NL> do game abort ( ) ;  <NL> application . insert menu item ( game menu , application . p special , application . menu [ application . p special ] ) ;  <NL> game app . game . init ( ) ;  <NL> game app . game . show ( ) ;  <NL> application . show ( null , game app . game , true ) ;  <NL>  }  COM: <s> start the game </s>

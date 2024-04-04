@@ -1,0 +1,1 @@
+TDAT: public void ack with answer ( message ack )  <NL>  { m _ msg ack = ack ;  <NL>  / / reset the offer / answer flag to the default value <NL> m _ b invite offer = true ;  <NL> ack transaction client ack _ tc = new ack transaction client ( m _ sip provider , ack , null ) ;  <NL> ack _ tc . request ( ) ;  <NL>  }  COM: <s> sends the ack when offer answer is in 2xx ack </s>

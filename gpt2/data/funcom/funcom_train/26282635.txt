@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> switch ( get size ( ) ) {  <NL> case 1 : return " single : " + get high card ( ) ;  <NL> case 2 : return " pair : " + get high card ( ) + " high " ;  <NL> default : return get size ( ) + " of a kind : " + get high card ( ) + " high " ;  <NL>  }  <NL>  }  COM: <s> gets a string representation of this of a kind stating the number of </s>

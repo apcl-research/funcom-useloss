@@ -1,0 +1,1 @@
+TDAT: public int read ( char cbuf [ ] , int off , int len ) throws io exception {  <NL> int count = 0 ;  <NL> for ( ; count < len ; off + + , count + + ) {  <NL> int c = read ( ) ;  <NL> if ( c < 0 ) break ;  <NL> cbuf [ off ] = ( char ) c ;  <NL>  }  <NL> if ( count = = 0 ) return - 1 ;  <NL> return count ;  <NL>  }  COM: <s> read characters into a portion of an array </s>

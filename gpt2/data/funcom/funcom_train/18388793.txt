@@ -1,0 +1,1 @@
+TDAT: private float path _ cost ( state [ ] states ) {  <NL> state state = null ;  <NL> float distance = 0f ;  <NL> line segment line = null ;  <NL> for ( int i = 0 ; i < states . length ; i + + ) {  <NL> distance = distance + path _ cost ( states [ i ] , states [ + + i ] ) ;  <NL>  }  <NL> return distance ;  <NL>  }  COM: <s> the actual cost from init state to current state </s>

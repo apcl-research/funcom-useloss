@@ -1,0 +1,1 @@
+TDAT: public void print matrix size ( matrix size size , matrix info info ) {  <NL> format ( " % 10d % 10d " , size . num rows ( ) , size . num columns ( ) ) ;  <NL> if ( info . is coordinate ( ) )  <NL> format ( " % 19d " , size . num entries ( ) ) ;  <NL> println ( ) ;  <NL>  }  COM: <s> prints the matrix size </s>

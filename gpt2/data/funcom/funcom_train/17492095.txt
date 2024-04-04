@@ -1,0 +1,1 @@
+TDAT: protected object visit type ( type declaration node ) {  <NL> string cname = class finder . get current package ( ) ;  <NL> cname = ( ( cname . equals ( " " ) ) ? " " : cname + " . " ) + node . get name ( ) ;  <NL> class pool . add ( cname , new tree class info ( node , class finder ) ) ;  <NL> return null ;  <NL>  }  COM: <s> visits a type declaration </s>

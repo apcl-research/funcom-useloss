@@ -1,0 +1,1 @@
+TDAT: protected void label edge ( graphics2d g2d , edge e , string label , int x1 , int x2 , int y1 , int y2 ) {  <NL> tg2d . set delegate ( g2d ) ;  <NL> label edge ( tg2d , e , label , x1 , x2 , y1 , y2 ) ;  <NL>  }  COM: <s> overridden to wrap passed graphics2 d in my transforming graphics then call </s>

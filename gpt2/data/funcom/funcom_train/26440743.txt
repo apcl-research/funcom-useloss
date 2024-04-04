@@ -1,0 +1,1 @@
+TDAT: public s node create node ( string name descr , int x , int y ) {  <NL> node desc type element = get formalism ( ) . get node desc ( name descr ) ;  <NL> return ( s node ) get agent ( ) . do command ( new new node command ( ( node desc ) type element , new point ( x , y ) ) ) ;  <NL>  }  COM: <s> create a node and install it into the editor </s>

@@ -1,0 +1,1 @@
+TDAT: public void paint ( layout context context , int x , int y ) {  <NL> if ( skip paint ( context , x , y ) )  <NL> return ;  <NL>  <NL> this . draw box ( context , x , y , this . get parent ( ) . get width ( ) , true ) ;  <NL> super . paint ( context , x , y ) ;  <NL>  }  COM: <s> draw boxes before painting our child </s>

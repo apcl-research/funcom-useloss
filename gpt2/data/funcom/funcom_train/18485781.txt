@@ -1,0 +1,1 @@
+TDAT: public int calculate required indent ( part visualization a part ) {  <NL>  / / system . out . println ( " height " + a part . get height ( ) + " _ _ _ " + a part . get name ( ) ) ;  <NL> return math . max ( a part . get height ( ) ,  <NL>  ( a part . get strength ( ) - 1 ) * inter _ pin _ indent ) ;  <NL>  }  COM: <s> calculating vertical space required for the part </s>

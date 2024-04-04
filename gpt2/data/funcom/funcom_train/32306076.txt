@@ -1,0 +1,1 @@
+TDAT: public footer resize ( int new _ arity ) {  <NL> footer f = new footer ( qf , this , new _ arity ) ;  <NL> for ( int i = 0 ; i < arity ( ) & & i < new _ arity ; i + + )  <NL> quad . add edge ( this . prev ( i ) , this . prev edge ( i ) . which _ succ ( ) , f , i ) ;  <NL> return f ;  <NL>  }  COM: <s> change the arity of this code footer code by replacing it </s>

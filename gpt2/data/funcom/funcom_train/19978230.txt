@@ -1,0 +1,1 @@
+TDAT: public void update ( string column name , integer id , object value ) {  <NL> query data d = new query data ( ) ;  <NL> d . add ( column name , value ) ;  <NL> update ( d , new string [ ] { " ids " , id . to string ( ) , " " } , null ) ;  <NL>  }  COM: <s> updates the given column at the row with the given id </s>

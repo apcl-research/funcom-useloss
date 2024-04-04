@@ -1,0 +1,1 @@
+TDAT: public boolean is add kupu logo ( ) {  <NL> if ( _ add kupu logo ! = null )  <NL> return _ add kupu logo . boolean value ( ) ;  <NL> value binding vb = get value binding ( " add kupu logo " ) ;  <NL> return vb ! = null ? ( ( boolean ) vb . get value ( get faces context ( ) ) ) . boolean value ( ) : true ;  <NL>  }  COM: <s> show the kupu logo in the buttons bar </s>

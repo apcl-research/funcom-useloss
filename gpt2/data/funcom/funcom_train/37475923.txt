@@ -1,0 +1,1 @@
+TDAT: public void add value ( string new value , string uname ) throws exception {  <NL> swamp hash set values = get value as list ( ) ;  <NL> swamp hash set new values = new swamp hash set ( new value , " , " ) ;  <NL> values . add all ( new values ) ;  <NL> set value ( values . to string ( " , " ) , uname ) ;  <NL>  }  COM: <s> add one or more values to the databit </s>

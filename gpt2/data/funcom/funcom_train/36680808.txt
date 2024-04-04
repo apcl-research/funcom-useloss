@@ -1,0 +1,1 @@
+TDAT: public void start unit cycle ( ) {  <NL> if ( ! map . get active units ( ) . is empty ( ) ) {  <NL> if ( ! in game context . is unit cycle mode ( ) ) {  <NL> in game context . do action ( new start unit cycle action ( ) ) ;  <NL>  } else {  <NL> cursor controller . move cursor to next location ( ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> start unit cycle mode </s>

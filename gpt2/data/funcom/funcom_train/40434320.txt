@@ -1,0 +1,1 @@
+TDAT: public void on module load ( ) {  <NL>  <NL> c1 = new simple composite ( ) ;  <NL> root panel . get ( " main " ) . add ( c1 ) ;  <NL> c2 = new simple composite2 ( ) ;  <NL> root panel . get ( " main " ) . add ( c2 ) ;  <NL> c3 = new rpc composite ( ) ;  <NL> root panel . get ( " main " ) . add ( c3 ) ;  <NL>  }  COM: <s> this is the entry point method </s>

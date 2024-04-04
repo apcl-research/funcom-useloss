@@ -1,0 +1,1 @@
+TDAT: public method get ejb find by primary key ( class c ) {  <NL> method [ ] method = c . get methods ( ) ;  <NL> for ( int i = 0 ; i < method . length ; + + i ) {  <NL> if ( method [ i ] . get name ( ) . equals ( ejb _ find _ by _ primary _ key ) )  <NL> return method [ i ] ;  <NL>  }  <NL>  <NL> return null ;  <NL>  }  COM: <s> returns the ejb find by primary key method </s>

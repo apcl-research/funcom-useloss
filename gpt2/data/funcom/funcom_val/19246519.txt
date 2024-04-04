@@ -1,0 +1,1 @@
+TDAT: public string get name ( ) {  <NL> if ( log detail . is debug enabled ( ) ) log . debug ( " start get name ( ) " ) ;  <NL> if ( log detail . is debug enabled ( ) ) log . debug ( " end get name ( " + main peer group . get peer name ( ) + " ) " ) ;  <NL>  <NL> return main peer group . get peer name ( ) ;  <NL>  }  COM: <s> return the peer name </s>

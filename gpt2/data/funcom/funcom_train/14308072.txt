@@ -1,0 +1,1 @@
+TDAT: protected void _ save ( ) {  <NL> config . set ignore dot files ( ignore dot files . is selected ( ) ) ;  <NL> config . set ignore dot dirs ( ignore dot dirs . is selected ( ) ) ;  <NL> config . set ignore cvs ( ignore cvs . is selected ( ) ) ;  <NL> config . set ignore exts ( ignore exts . get text ( ) ) ;  <NL> config . save ( ) ;  <NL>  }  COM: <s> saves the options </s>

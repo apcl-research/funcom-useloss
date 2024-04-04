@@ -1,0 +1,1 @@
+TDAT: public string like _ escape ( string text ) {  <NL> return strings . str _ replace ( new array ( new array entry ( " % " ) , new array entry ( " _ " ) ) , new array ( new array entry ( " \\ % " ) , new array entry ( " \\ _ " ) ) , text ) ;  <NL>  }  COM: <s> escapes text for sql like special characters and </s>

@@ -1,0 +1,1 @@
+TDAT: public void paint fill ( component c , graphics g , rectangle r ) {  <NL> if ( ( r . width > 0 ) & & ( r . height > 0 ) ) {  <NL> buffered image fill image = get fill image ( c , r . width , r . height ) ;  <NL> g . draw image ( fill image , r . x , r . y , c ) ;  <NL>  <NL>  }  <NL>  }  COM: <s> draw the image at i r </s>

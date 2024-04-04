@@ -1,0 +1,1 @@
+TDAT: final public void clear hash ( )  <NL>  { / * clear hash * /  <NL> for ( int i = 0 ; i < size hash prime ; i + + )  <NL>  {  <NL> h x ytbl [ i ] = 0 ;  <NL>  <NL>  / * not required since only need to kill the keys * /  <NL>  / / h idx tbl [ i ] = 0 ;  <NL>  }  <NL>  } / * clear hash * /  COM: <s> clear hash clear the pix hash table by writing zero into the table </s>

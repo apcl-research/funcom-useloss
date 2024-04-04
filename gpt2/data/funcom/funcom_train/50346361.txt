@@ -1,0 +1,1 @@
+TDAT: public loco icon add loco icon ( string name ) {  <NL> loco icon l = new loco icon ( this ) ;  <NL> point2d pt = window center ( ) ;  <NL> l . set location ( ( int ) pt . get x ( ) , ( int ) pt . get y ( ) ) ;  <NL> put loco icon ( l , name ) ;  <NL> l . set positionable ( true ) ;  <NL> return l ;  <NL>  }  COM: <s> add a loco marker to the target </s>

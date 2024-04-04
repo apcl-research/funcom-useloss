@@ -1,0 +1,1 @@
+TDAT: public void test is valid ( ) {  <NL> om attribution attribution = new om attribution ( ) ;  <NL> attribution . set constructor ( new om symbol ( " a " , " b " ) ) ;  <NL> attribution . put ( new om symbol ( " a " , " b " ) , new om integer ( " 1 " ) ) ;  <NL>  <NL> assert true ( attribution . is valid ( ) ) ;  <NL>  }  COM: <s> test of is valid method of class nl </s>

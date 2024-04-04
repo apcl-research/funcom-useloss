@@ -1,0 +1,1 @@
+TDAT: private void set quick sector free ( int system area size , block device api api ) throws io exception {  <NL> byte [ ] reserve array = new byte [ 512 ] ;  <NL> for ( int i = 0 ; i < system area size ; i + + ) {  <NL> api . write ( i * 512 , byte buffer . wrap ( reserve array ) ) ;  <NL>  }  <NL>  }  COM: <s> the method for disk free operations </s>

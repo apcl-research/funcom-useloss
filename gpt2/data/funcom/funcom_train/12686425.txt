@@ -1,0 +1,1 @@
+TDAT: public void set file ( file file ) {  <NL> this . file = file ;  <NL> if ( file ! = null & & file . exists ( ) & & ! file . is directory ( ) ) {  <NL> set status message ( " file : " + file . get absolute path ( ) ) ;  <NL>  }  <NL> else {  <NL> set status message ( " new file " ) ;  <NL>  }  <NL>  }  COM: <s> set the file </s>

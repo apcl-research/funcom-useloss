@@ -1,0 +1,1 @@
+TDAT: public int hash code ( ) {  <NL> long hc ;  <NL> hc = double . double to long bits ( x = = 0 ? 0 : x ) * 3 +  <NL> double . double to long bits ( y = = 0 ? 0 : y ) * 5 +  <NL> double . double to long bits ( z = = 0 ? 0 : z ) * 7 ;  <NL> return ( int ) ( hc ^ ( hc > > 32 ) ) ;  <NL>  }  COM: <s> returns a hash code for this vector </s>

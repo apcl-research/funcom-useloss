@@ -1,0 +1,1 @@
+TDAT: static public string escape text ( string in ) {  <NL> if ( in = = null ) { return " " ; }  <NL> char [ ] dest = new char [ in . length ( ) * 8 ] ;  <NL> int newlen = xm lutils . escape chars ( in . to char array ( ) , 0 , in . length ( ) , dest ) ;  <NL> return new string ( dest , 0 , newlen ) ;  <NL>  }  COM: <s> escape text for serializing to xml just escape any </s>

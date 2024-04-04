@@ -1,0 +1,1 @@
+TDAT: public void tell _ string ( string s ) {  <NL> vector v = query _ objects ( driver . flt _ living ) ;  <NL> if ( v . size ( ) > 0 ) {  <NL> for ( int i = 0 ; i < v . size ( ) ; i + + ) {  <NL> living l = ( living ) v . element at ( i ) ;  <NL> l . tell ( s ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> this method sends a string to all the livings in the room </s>

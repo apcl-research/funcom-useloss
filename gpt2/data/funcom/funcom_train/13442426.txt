@@ -1,0 +1,1 @@
+TDAT: public void add ( point p , scale scales [ ] , int maxx , int maxy ) {  <NL> gui helper helper = new gui helper ( maxx , maxy ) ;  <NL> this . polygon . add point ( helper . muda escala ( p . x , 0 , maxx , scales [ 0 ] ) ,  <NL> helper . muda escala ( maxy - p . y , 0 , maxy , scales [ 1 ] ) ) ;  <NL>  }  COM: <s> prepares the polygon </s>

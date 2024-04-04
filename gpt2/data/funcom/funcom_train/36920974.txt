@@ -1,0 +1,1 @@
+TDAT: public double pdf ( int x ) {  <NL>  <NL> double power = x - mean ;  <NL> power = - ( power * power ) / ( 2 * std dev * std dev ) ;  <NL>  <NL> double prob = 1 / math . sqrt ( 2 * math . pi * ( std dev * std dev ) ) ;  <NL> prob = prob * math . exp ( power ) ;  <NL>  <NL> return prob ;  <NL>  }  COM: <s> returns the probability of some value x on this distribution </s>

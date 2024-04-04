@@ -1,0 +1,1 @@
+TDAT: private void remove subsumed languages ( string canonical lang , string base lang ) {  <NL> for ( iterator < string > it = languages . iterator ( ) ; it . has next ( ) ; ) {  <NL> if ( subsumes canonical ( it . next ( ) , canonical lang , base lang ) ) {  <NL> it . remove ( ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> remove languages that are subsumed by the argument </s>

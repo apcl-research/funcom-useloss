@@ -1,0 +1,1 @@
+TDAT: public void test append two ( ) {  <NL> to string builder b = new to string builder ( this ) ;  <NL> b . append ( " fred " , " flintstone " ) ;  <NL> b . append ( " barney " , " rubble " ) ;  <NL> assert equals ( " to string builder test [ fred = ' flintstone ' , barney = ' rubble ' ] " , b . to string ( ) ) ;  <NL>  }  COM: <s> tests appending of 2 fields </s>

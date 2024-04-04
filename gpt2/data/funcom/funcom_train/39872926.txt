@@ -1,0 +1,1 @@
+TDAT: public void set network type ( string type , string subtype ) {  <NL> map < string , string > map = new hash map < string , string > ( ) ;  <NL> map . put ( " type " , type ) ;  <NL> map . put ( " subtype " , subtype ) ;  <NL> m web view core . send message ( event hub . set _ network _ type , map ) ;  <NL>  }  COM: <s> inform web view about the current network type </s>

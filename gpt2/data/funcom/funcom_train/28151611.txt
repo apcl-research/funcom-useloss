@@ -1,0 +1,1 @@
+TDAT: public type merge ( product type that ) {  <NL> temp list < product type > ee = new temp list < product type > ( entries ) ;  <NL> int aa = add ( ee , arities , that ) ;  <NL> return make ( is _ int , is _ bool , ee . make const ( ) , aa ) ;  <NL>  }  COM: <s> returns a new type a a is in this or a that </s>

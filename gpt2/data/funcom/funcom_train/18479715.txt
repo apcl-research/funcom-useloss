@@ -1,0 +1,1 @@
+TDAT: public matrix4 set rotation scale ( matrix3 m ) {  <NL> return new matrix4 (  <NL> m . m00 , m . m01 , m . m02 , m03 ,  <NL> m . m10 , m . m11 , m . m12 , m13 ,  <NL> m . m20 , m . m21 , m . m22 , m23 ,  <NL> m30 , m31 , m32 , m33 ) ;  <NL>  }  COM: <s> returns a matrix that is this matrix with the rotation scale set </s>

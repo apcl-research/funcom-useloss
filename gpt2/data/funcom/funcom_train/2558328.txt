@@ -1,0 +1,1 @@
+TDAT: protected void ensure capacity ( int min ) {  <NL> if ( buf . length < min ) {  <NL> int size = buf . length * 2 ;  <NL> int max = math . max ( min , size ) ;  <NL> char [ ] temp = new char [ max ] ;  <NL> system . arraycopy ( buf , 0 , temp , 0 , count ) ;  <NL> buf = temp ;  <NL>  }  <NL>  }  COM: <s> this ensure that there is enough space in the buffer to allow </s>

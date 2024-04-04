@@ -1,0 +1,1 @@
+TDAT: public void right button pressed ( ) {  <NL> int [ ] indices = m _ list . get selected indices ( ) ;  <NL> for ( int i = 0 ; i < indices . length ; i + + ) {  <NL> string removed = ( string ) m _ list model . remove ( indices [ 0 ] ) ;  <NL> m _ out list model . add element ( removed ) ;  <NL>  }  <NL>  }  COM: <s> move selected items from list to the output list </s>

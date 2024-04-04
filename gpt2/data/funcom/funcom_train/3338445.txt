@@ -1,0 +1,1 @@
+TDAT: public void add argument ( argument < ? > argument ) {  <NL> do add ( argument ) ;  <NL> argument < ? > [ ] tmp = new argument < ? > [ arguments . length + 1 ] ;  <NL> system . arraycopy ( arguments , 0 , tmp , 0 , arguments . length ) ;  <NL> tmp [ arguments . length ] = argument ;  <NL> arguments = tmp ;  <NL>  }  COM: <s> add an argument to the bundle </s>

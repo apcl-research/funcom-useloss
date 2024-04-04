@@ -1,0 +1,1 @@
+TDAT: private void parse atoms ( data input in ) throws io exception {  <NL> atom atom = null ;  <NL> while ( ( atom = next atom ( in ) ) ! = null ) {  <NL> if ( atom . is type ( " moov " ) ) {  <NL> moov ( atom , in ) ;  <NL> break ;  <NL>  }  <NL> skip ( atom . remaining , in ) ;  <NL>  }  <NL>  }  COM: <s> entry point for the parser </s>

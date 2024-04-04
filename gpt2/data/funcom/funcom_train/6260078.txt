@@ -1,0 +1,1 @@
+TDAT: protected void generate ref getter ( association end ae ) {  <NL> line ( " public " + type ( ae ) + " " + jmi . getter ( jmi . gen name ( ae ) ) ) ;  <NL> sblock ( ) ;  <NL> line ( " check exists ( ) ; " ) ;  <NL> line ( " return " + vname ( ae ) + " ; " ) ;  <NL> eblock ( ) ;  <NL>  }  COM: <s> generates getter method for this association end </s>

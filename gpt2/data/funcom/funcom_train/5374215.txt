@@ -1,0 +1,1 @@
+TDAT: public char get echo char ( ) {  <NL> check widget ( ) ;  <NL>  / *  <NL> char echo = ( char ) os . send message ( handle , os . em _ getpasswordchar , 0 , 0 ) ;  <NL> if ( echo ! = 0 & & ( echo = display . mbcs to wcs ( echo , get code page ( ) ) ) = = 0 ) echo = ' * ' ;  <NL> return echo ;  <NL>  * /  <NL> return ' * ' ;  <NL>  }  COM: <s> returns the echo character </s>

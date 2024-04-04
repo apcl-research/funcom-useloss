@@ -1,0 +1,1 @@
+TDAT: private void check character ( char sequence rcs , int i ) {  <NL> int c = rcs . char at ( i ) ;  <NL> assert true ( " character " + integer . to string ( c ) + " at offset " + i +  <NL>  " unexpected . " , ( c % sequence _ length ) = = ( i % sequence _ length ) ) ;  <NL>  }  COM: <s> check the character read </s>

@@ -1,0 +1,1 @@
+TDAT: public void remove ( int nr ) {  <NL> if ( first . get nr ( ) = = nr ) {  <NL> first = first . next ;  <NL> return ;  <NL>  }  <NL> racoon node h = first ;  <NL>  <NL> while ( h . next ! = null )  <NL> if ( h . next . get nr ( ) = = nr ) {  <NL> h . next = h . next . next ;  <NL> return ;  <NL>  }  <NL> h = h . next ;  <NL>  }  COM: <s> removes the shit specified by nr </s>

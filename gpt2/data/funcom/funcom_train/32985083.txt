@@ -1,0 +1,1 @@
+TDAT: private boolean is smelly ring ( i atom container ring ) {  <NL> iterator < i bond > bond itr = ring . bonds ( ) . iterator ( ) ;  <NL> while ( bond itr . has next ( ) ) {  <NL> i bond bond = bond itr . next ( ) ;  <NL> if ( bond . get flag ( cdk constants . isaromatic ) ) {  <NL> return true ;  <NL>  }  <NL>  }  <NL> return false ;  <NL>  }  COM: <s> helper method for </s>

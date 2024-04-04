@@ -1,0 +1,1 @@
+TDAT: public cursor fetch all ( ) {  <NL> return m db . query ( database _ table , new string [ ] { key _ rowid , key _ date ,  <NL> key _ payee , key _ amount , key _ category , key _ memo , key _ tag } , null , null , null , null , key _ date + " desc " ) ;  <NL>  }  COM: <s> fetch all entries from the database </s>

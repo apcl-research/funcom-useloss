@@ -1,0 +1,1 @@
+TDAT: public void login ( ) {  <NL> string nick = _ nick field . get text ( ) ;  <NL> string channel = _ channel choice . get selected item ( ) ;  <NL> if ( nick = = null || nick . trim ( ) . length ( ) = = 0 ) {  <NL>  / / todo : error dialog <NL> return ;  <NL>  }  <NL>  _ applet . login ( nick , channel ) ;  <NL>  }  COM: <s> attempt to login </s>

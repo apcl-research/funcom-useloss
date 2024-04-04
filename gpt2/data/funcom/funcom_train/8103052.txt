@@ -1,0 +1,1 @@
+TDAT: public void calculate new x ( map < integer , article > nodes , int n _ nodes ) {  <NL> x _ new = 0 . f ;  <NL> if ( null ! = links _ in ) {  <NL> for ( int i = 0 ; i < links _ in . length ; i + + ) {  <NL> x _ new + = nodes . get ( links _ in [ i ] ) . y ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> x p sum of y q for all q pointing to p </s>

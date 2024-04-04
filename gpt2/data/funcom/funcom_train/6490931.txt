@@ -1,0 +1,1 @@
+TDAT: public void store ( properties pref ) {  <NL> log tools . trace ( logger , 25 , " preference component . store ( ) . " ) ;  <NL> for ( int i = 0 ; i < _ pref containers . size ( ) ; i + + ) {  <NL>  ( ( preference container ) _ pref containers . element at ( i ) ) . store ( pref ) ;  <NL>  }  <NL>  }  COM: <s> store the prefences </s>

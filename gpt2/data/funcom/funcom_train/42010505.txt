@@ -1,0 +1,1 @@
+TDAT: public string get indexer state ( ) {  <NL> return indexer . get instance ( ) . get state ( ) +  <NL>  ( indexer . get instance ( ) . get file name processing ( ) ! = null <NL>  ? " < br / > processing file \ " " +  <NL> indexer . get instance ( ) . get file name processing ( ) + " \ " " : " " ) ;  <NL>  }  COM: <s> show the state of indexer running stopped paused </s>

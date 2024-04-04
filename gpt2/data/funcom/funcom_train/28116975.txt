@@ -1,0 +1,1 @@
+TDAT: protected void tear down ( ) throws exception {  <NL> close ( _ sender ) ;  <NL> close ( _ receivers ) ;  <NL> for ( int i = 0 ; i < _ contexts . length ; + + i ) {  <NL> test context context = _ contexts [ i ] ;  <NL> if ( context ! = null ) {  <NL> context . get session ( ) . close ( ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> cleans up after the test </s>

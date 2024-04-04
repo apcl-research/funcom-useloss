@@ -1,0 +1,1 @@
+TDAT: public void set type ( token t , boolean generics type ) {  <NL> int n = encoder tokeniser . lookup or add token ( t . image , simple node . vsymbol table ) ;  <NL> set type ( n , generics type ) ;  <NL>  / / system . out . println ( " node base . set type " + t + " this = " + this + " parent = " + parent ) ;  <NL>  }  COM: <s> set type from token </s>

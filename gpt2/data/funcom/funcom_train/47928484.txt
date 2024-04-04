@@ -1,0 +1,1 @@
+TDAT: public int get xy stick dir ( ) {  <NL> if ( ( x axis idx = = - 1 ) || ( y axis idx = = - 1 ) ) {  <NL> system . out . println ( " ( x , y ) axis data unavailable " ) ;  <NL> return none ;  <NL>  } else {  <NL> return get compass dir ( x axis idx , y axis idx ) ;  <NL>  }  <NL>  } / / end of get xy stick dir ( )  COM: <s> return the x y analog stick compass direction </s>

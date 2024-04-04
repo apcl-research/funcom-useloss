@@ -1,0 +1,1 @@
+TDAT: private void init meta groups ( xml test xml test ) {  <NL> map < string , list < string > > meta groups = xml test . get meta groups ( ) ;  <NL>  <NL> for ( map . entry < string , list < string > > entry : meta groups . entry set ( ) ) {  <NL> add meta group ( entry . get key ( ) , entry . get value ( ) ) ;  <NL>  }  <NL>  }  COM: <s> initialize meta groups </s>

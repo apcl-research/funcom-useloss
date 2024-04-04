@@ -1,0 +1,1 @@
+TDAT: public void component moved ( component event e ) {  <NL> if ( frame ! = null ) {  <NL> viz width . set ( frame . get width ( ) ) ;  <NL> viz height . set ( frame . get height ( ) ) ;  <NL> viz x . set ( frame . get x ( ) ) ;  <NL> viz y . set ( frame . get y ( ) ) ;  <NL>  }  <NL>  }  COM: <s> invoked when the visualizationwindow is moved </s>

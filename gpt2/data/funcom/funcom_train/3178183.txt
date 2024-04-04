@@ -1,0 +1,1 @@
+TDAT: public void gl color4ub ( byte r , byte g , byte b , byte a ) {  <NL> if ( last r ! = r || last g ! = g || last b ! = b || last a ! = a ) {  <NL> last r = r ;  <NL> last g = g ;  <NL> last b = b ;  <NL> last a = a ;  <NL> gl . gl color4ub ( r , g , b , a ) ;  <NL> check error ( ) ;  <NL>  }  <NL>  }  COM: <s> sets the texture color </s>

@@ -1,0 +1,1 @@
+TDAT: public void set database ( db manager manager , string name , string driver , string connect string , string user name , string password ) {  <NL> db = new db database ( manager , name , driver , connect string , user name , password ) ;  <NL> db . set auto commit ( false ) ;  <NL>  }  COM: <s> sets the database to use </s>

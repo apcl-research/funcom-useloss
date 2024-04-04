@@ -1,0 +1,1 @@
+TDAT: private void cmd blue disc cancel ( ) {  <NL> int ind = gps . get gps receiver index ( temp gps ) ;  <NL> if ( ind < 0 || ind > 1 )  <NL> ind = 0 ;  <NL>  <NL> if ( cg gps ! = null )  <NL> cg gps . set selected index ( ind , true ) ;  <NL>  <NL> display . get display ( ldir midlet . instance ) . set current ( form ) ;  <NL>  }  COM: <s> cancel bluetooth discovery </s>

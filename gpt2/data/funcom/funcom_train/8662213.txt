@@ -1,0 +1,1 @@
+TDAT: public void append frame ( int offset delta , int [ ] tags , int [ ] data ) {  <NL> num of entries + + ;  <NL> int k = tags . length ; / / k is 1 , 2 , or 3 <NL> output . write ( k + 251 ) ;  <NL> write16 ( offset delta ) ;  <NL> for ( int i = 0 ; i < k ; i + + )  <NL> write type info ( tags [ i ] , data [ i ] ) ;  <NL>  }  COM: <s> writes a code append frame code </s>

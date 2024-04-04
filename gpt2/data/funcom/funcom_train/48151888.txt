@@ -1,0 +1,1 @@
+TDAT: public void set range ( int min , int max ) {  <NL> if ( _ type = = up || _ type = = down ) {  <NL> set x range ( min + _ ref , max + _ ref ) ;  <NL>  }  <NL> else if ( _ type = = right || _ type = = left ) {  <NL> set y range ( min + _ ref , max + _ ref ) ;  <NL>  }  <NL>  }  COM: <s> set the range a thumbe can move </s>

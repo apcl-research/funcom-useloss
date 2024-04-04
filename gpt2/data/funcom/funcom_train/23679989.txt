@@ -1,0 +1,1 @@
+TDAT: public cursor fetch all events ( ) {  <NL>  <NL> return m db . query ( database _ table , new string [ ] { key _ rowid , key _ eventname ,  <NL> key _ startdate , key _ starttime , key _ enddate , key _ endtime } , null , null , null , null , null ) ;  <NL>  }  COM: <s> return a cursor over the list of all events in the database </s>

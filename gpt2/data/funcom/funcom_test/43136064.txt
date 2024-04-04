@@ -1,0 +1,1 @@
+TDAT: private void check valid ( position pos , move move ) {  <NL> assert true ( move ! = null ) ;  <NL> array list < move > move list = new move gen ( ) . pseudo legal moves ( pos ) ;  <NL> move list = move gen . remove illegal ( pos , move list ) ;  <NL> assert true ( move list . contains ( move ) ) ;  <NL>  }  COM: <s> check that move is a legal move in position pos </s>

@@ -1,0 +1,1 @@
+TDAT: public void action performed ( action event e ) {  <NL> if ( e . get source ( ) . equals ( exit mi ) ) {  <NL> system . exit ( 0 ) ;  <NL>  } else if ( e . get source ( ) . equals ( run mi ) ) {  <NL> start ( ) ;  <NL>  } else if ( e . get source ( ) . equals ( stop mi ) ) {  <NL> stop ( ) ;  <NL>  }  <NL>  <NL>  }  COM: <s> invoked when an action occurs </s>

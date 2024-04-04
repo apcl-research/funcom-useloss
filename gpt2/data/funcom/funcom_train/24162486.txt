@@ -1,0 +1,1 @@
+TDAT: public void display ( gl auto drawable arg0 ) {  <NL> gl gl = arg0 . get gl ( ) ;  <NL> glut glut = new glut ( ) ;  <NL> gl . gl clear ( gl . gl _ color _ buffer _ bit | gl . gl _ depth _ buffer _ bit ) ;  <NL> gl . gl load identity ( ) ;  <NL> gl . gl scalef ( 10f , 10f , 10f ) ;  <NL> glut . glut solid dodecahedron ( ) ;  <NL>  }  COM: <s> displays scene objects </s>

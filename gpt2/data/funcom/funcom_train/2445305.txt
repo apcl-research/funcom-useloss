@@ -1,0 +1,1 @@
+TDAT: public v put ( k key1 , l key2 , v value ) {  <NL> map < l , v > map = mapmap . get ( key1 ) ;  <NL> if ( map = = null ) {  <NL> map = create map ( ) ;  <NL> mapmap . put ( key1 , map ) ;  <NL>  }  <NL> return map . put ( key2 , value ) ;  <NL>  }  COM: <s> inserts the specified value into the map map with the specified keys </s>

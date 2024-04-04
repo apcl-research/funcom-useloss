@@ -1,0 +1,1 @@
+TDAT: public void test jar handling ( ) throws sql exception , malformed url exception <NL>  {  <NL> install jar ( " dcl _ emc1 . jar " , " emc . mail _ app _ jht " ) ;  <NL> replace jar ( " dcl _ emc2 . jar " , " emc . mail _ app _ jht " ) ;  <NL> remove jar ( " emc . mail _ app _ jht " ) ;  <NL>  }  COM: <s> test the sqlj procedures without setting any database </s>

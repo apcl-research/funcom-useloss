@@ -1,0 +1,1 @@
+TDAT: public void remove old ( ) {  <NL> for ( int i = 0 ; i < edge matrix . width ( ) ; i + + ) {  <NL> for ( int j = 0 ; j < edge matrix . height ( ) ; j + + ) {  <NL> if ( ! good comp ( ( comparison ) edge matrix . get ( i , j ) ) ) {  <NL> edge matrix . remove ( i , j ) ;  <NL>  }  <NL>  }  <NL>  }  <NL>  }  COM: <s> remove the detritus comparisons the ones that </s>

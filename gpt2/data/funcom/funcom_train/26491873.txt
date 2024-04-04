@@ -1,0 +1,1 @@
+TDAT: protected void set up previous values ( string idx _ label , string idx ) {  <NL> dom util . set first matching attribute ( get element ( " c " ) , " value " , category ) ;  <NL> dom util . set first matching attribute ( get element ( idx _ label ) , " value " , idx ) ;  <NL>  }  COM: <s> method used to setup the old values in hidden input fields </s>

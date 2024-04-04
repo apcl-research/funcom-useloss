@@ -1,0 +1,1 @@
+TDAT: private void apply rate ( double scope ) {  <NL> for ( int i = 0 ; i < op . length ; i + + ) {  <NL>  <NL> mod . rate loop ( op [ i ] . get part ( ) , val [ i ] , scope ) ;  <NL>  / / po . p ( " after rate : " + val [ i ] + " \n " , op [ i ] . get part ( ) , 1 ) ;  <NL>  }  <NL>  }  COM: <s> transform each part in op by factors in val </s>

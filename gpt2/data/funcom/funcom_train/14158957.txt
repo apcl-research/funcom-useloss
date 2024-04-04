@@ -1,0 +1,1 @@
+TDAT: private void stop editing ( ) {  <NL> if ( actual interface row ! = invalid _ row ) {  <NL>  / / get actual desc info ( ) . set address ( address . get text ( ) ) ;  <NL> if ( properties table . get cell editor ( ) ! = null ) {  <NL> properties table . get cell editor ( ) . stop cell editing ( ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> this method stop the cell editing </s>

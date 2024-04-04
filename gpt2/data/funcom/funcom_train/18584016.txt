@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> string tmp = " " ;  <NL> tmp + = this . get id ( ) ;  <NL> tmp + = " , " + this . get first name ( ) ;  <NL> tmp + = " , " + this . get last name ( ) ;  <NL> tmp + = " , " + this . get address ( ) ;  <NL> tmp + = " , " + this . get phone number ( ) ;  <NL>  <NL> return tmp ;  <NL>  }  COM: <s> to string my favourite accessor </s>

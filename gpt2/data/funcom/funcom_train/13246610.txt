@@ -1,0 +1,1 @@
+TDAT: public void restart ( ) {  <NL> for ( int j = 0 ; j < 9 ; j + + ) {  <NL> for ( int i = 0 ; i < 9 ; i + + ) {  <NL> board [ i ] [ j ] . clear pencilmarks ( ) ;  <NL> board [ i ] [ j ] . set number ( sudoku cell . sudoku _ cell _ no _ number ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> clears the model so that no pencilmarks or numbers are present </s>

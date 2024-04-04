@@ -1,0 +1,1 @@
+TDAT: protected void paint it ( graphics2d g2 , int column , int row , int x , int y ) {  <NL> g2 . set color ( graph settings . color [ get index ( x , y ) ] ) ;  <NL> g2 . fill rect ( x , y , swatch size . width , swatch size . height ) ;  <NL>  }  COM: <s> paint method for a swatch rectangle </s>

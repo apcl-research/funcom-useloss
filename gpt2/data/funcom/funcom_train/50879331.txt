@@ -1,0 +1,1 @@
+TDAT: public rectangle get available size ( int in screen width , int in screen height ) {  <NL> int width = ( int ) ( in screen width * ( my screen percent / 100 . 0 ) ) ;  <NL> int height = ( int ) ( in screen height * ( my screen percent / 100 . 0 ) ) ;  <NL> return new rectangle ( width , height ) ;  <NL>  }  COM: <s> get the available width of the scale bar </s>

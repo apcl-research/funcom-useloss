@@ -1,0 +1,1 @@
+TDAT: public void move ( float dx , float dy ) {  <NL> if ( dx ! = 0 || dy ! = 0 ) {  <NL> float [ ] [ ] points = get points ( ) ;  <NL> for ( int i = 0 ; i < points . length ; i + + ) {  <NL> points [ i ] [ 0 ] + = dx ;  <NL> points [ i ] [ 1 ] + = dy ;  <NL>  }  <NL> update points ( points ) ;  <NL>  }  <NL>  }  COM: <s> moves this room of code dx code code dy code units </s>

@@ -1,0 +1,1 @@
+TDAT: private boolean is in group ( string user id ) {  <NL>  / / loop all users in this groups <NL> for ( int i = 0 ; i < all users in group . length ; i + + ) {  <NL>  / / found the user ?  <NL> if ( all users in group [ i ] . equals ( user id ) ) {  <NL> return true ;  <NL>  }  <NL>  }  <NL> return false ;  <NL>  }  COM: <s> is the user in this group </s>

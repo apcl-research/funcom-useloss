@@ -1,0 +1,1 @@
+TDAT: private boolean same parent file ( collection < ? extends i local audio object > c ) {  <NL> set < file > set = new hash set < file > ( ) ;  <NL> for ( i local audio object af : c ) {  <NL> set . add ( af . get file ( ) . get parent file ( ) ) ;  <NL>  }  <NL> return set . size ( ) = = 1 ;  <NL>  }  COM: <s> checks if a collection of files have the same parent file </s>

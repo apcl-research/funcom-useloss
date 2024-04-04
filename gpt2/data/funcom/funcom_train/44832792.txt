@@ -1,0 +1,1 @@
+TDAT: public void set mask ( java . lang . string mask ) {  <NL> string result = ( string ) component utils . invoke method ( get page ( ) . get handler ( ) ,  <NL> get method ( " on set mask " ) , new object [ ] { mask } ) ;  <NL>  <NL> this . mask = ( result ! = null ) ? result : mask ;  <NL>  }  COM: <s> setter for property mask </s>

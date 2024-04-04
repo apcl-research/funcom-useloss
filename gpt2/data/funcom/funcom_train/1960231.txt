@@ -1,0 +1,1 @@
+TDAT: public void test convert ( ) {  <NL> assert equals ( ipn1 . convert ( ) . to string ( ) , " 10 . 10 . 10 . 10 " ) ;  <NL> assert equals ( ipn2 . convert ( ) . to string ( ) , " 10 . 10 . 10 . 0 " ) ;  <NL> assert equals ( ipn3 . convert ( ) . to string ( ) , " 10 . 10 . 10 . 12 " ) ;  <NL>  }  COM: <s> tests if the netmask applied to an ipaddress works as expected </s>

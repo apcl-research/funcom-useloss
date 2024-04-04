@@ -1,0 +1,1 @@
+TDAT: private ft expr ft and ( final boolean prg ) throws query exception {  <NL> final ft expr e = ft mild not ( prg ) ;  <NL> if ( ! consume ws ( ftand ) ) return e ;  <NL>  <NL> ft expr [ ] list = { e } ;  <NL> do list = array . add ( list , ft mild not ( prg ) ) ; while ( consume ws ( ftand ) ) ;  <NL> return new ft and ( list ) ;  <NL>  }  COM: <s> ft146 parses ftand </s>

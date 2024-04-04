@@ -1,0 +1,1 @@
+TDAT: public void add junit data ( string file name ) {  <NL> if ( this . junit data . contains key ( file name ) ) {  <NL> this . junit data . put ( file name , this . junit data . get ( file name ) + 1 ) ;  <NL>  }  <NL> else {  <NL> this . junit data . put ( file name , 1 ) ;  <NL>  }  <NL>  }  COM: <s> adds the junit data to the map </s>

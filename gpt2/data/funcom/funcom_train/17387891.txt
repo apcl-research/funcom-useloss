@@ -1,0 +1,1 @@
+TDAT: public int compare to ( frame work checked exception o ) {  <NL> return ( this . get message ( ) = = null ? ( o . get message ( ) = = null ? 0 : - 1 ) : ( o . get message ( ) = = null ? 1 : this . get message ( ) . to upper case ( ) . compare to ( o . get message ( ) . to upper case ( ) ) ) ) ;  <NL>  }  COM: <s> compares based on the exception message </s>

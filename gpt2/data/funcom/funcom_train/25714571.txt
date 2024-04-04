@@ -1,0 +1,1 @@
+TDAT: protected int query cache ( int namespace , string name , operator type type ) {  <NL>  <NL> pair < integer , string > pair = new pair < integer , string > ( namespace , name + " . " + type . to string ( ) ) ;  <NL> integer id = cache ident . get ( pair ) ;  <NL>  <NL> return ( null = = id ) ? 0 : id ;  <NL>  }  COM: <s> query value from cache </s>

@@ -1,0 +1,1 @@
+TDAT: private int string2int ( string s ) {  <NL> if ( s . length ( ) ! = 4 ) throw new illegal argument exception ( ) ;  <NL> return <NL>  ( s . char at ( 0 ) & 0xff ) < < 24 | <NL>  ( s . char at ( 1 ) & 0xff ) < < 16 | <NL>  ( s . char at ( 2 ) & 0xff ) < < 8 | <NL>  ( s . char at ( 3 ) & 0xff ) ;  <NL>  }  COM: <s> transform a string to int 4 bytes </s>

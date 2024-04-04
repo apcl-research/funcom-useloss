@@ -1,0 +1,1 @@
+TDAT: public void test parse declaration variable ( ) throws mu parser exception {  <NL> parse tree pt = parser . parse ( " declaration " , " var1 = var2 " ) ;  <NL> system . out . println ( " parse tree : " + pt ) ;  <NL> check parsing ( pt , " variable " , " = " , " variable " ) ;  <NL>  }  COM: <s> parses a declaration on a variable </s>

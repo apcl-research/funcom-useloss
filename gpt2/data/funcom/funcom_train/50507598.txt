@@ -1,0 +1,1 @@
+TDAT: public barcode char get symbol check char ( ) {  <NL> long sum = 0 ;  <NL> sum = get start char ( ) . get value ( ) ;  <NL> for ( int i = 0 ; i < data . length ; i + + ) {  <NL> sum = sum + ( data [ i ] * ( i + 1 ) ) ;  <NL>  }  <NL> return get char ( ( int ) sum % 103 ) ;  <NL>  }  COM: <s> symbol check char as in en799 appendix a </s>

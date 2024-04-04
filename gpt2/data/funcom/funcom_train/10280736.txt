@@ -1,0 +1,1 @@
+TDAT: public void set selected row ( int p row ) {  <NL> k feed table model l model = ( k feed table model ) m feed table . get model ( ) ;  <NL> int l view row = l model . map row index to table ( p row ) ;  <NL> m feed table . set selection ( 0 , l view row , true ) ;  <NL>  }  COM: <s> select a row </s>

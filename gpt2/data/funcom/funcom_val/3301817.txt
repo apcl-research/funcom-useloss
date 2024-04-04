@@ -1,0 +1,1 @@
+TDAT: public product info author search ( string author name , string page ) {  <NL> string search type = " author search " ;  <NL> string type = " lite " ;  <NL> string offer = " all " ;  <NL> string mode = " books " ;  <NL> return generic ( search type , author name , mode , type , page , offer ) ;  <NL>  }  COM: <s> search for the author of books </s>

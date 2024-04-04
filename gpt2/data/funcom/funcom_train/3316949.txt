@@ -1,0 +1,1 @@
+TDAT: public string translate ( char ch ) {  <NL> if ( ch = = 0x09 || ch = = 0x0a || ch = = 0x0d <NL> || ( ch > = 0x20 & & ch < = 0xd7ff )  <NL> || ( ch > = 0xe000 & & ch < = 0xfffd )  <NL> || ( ch > = 0x10000 & & ch < = 0x10ffff ) ) {  <NL> return super . translate ( ch ) ;  <NL>  }  <NL> else {  <NL> return " " ;  <NL>  }  <NL>  }  COM: <s> translates the character </s>

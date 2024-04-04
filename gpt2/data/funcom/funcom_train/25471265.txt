@@ -1,0 +1,1 @@
+TDAT: private string strip string ( string s ) {  <NL> string buffer sb = new string buffer ( ) ;  <NL> for ( int k = 0 ; k < s . length ( ) ; k + + )  <NL> if ( character . is letter ( s . char at ( k ) ) )  <NL> sb . append ( s . char at ( k ) ) ;  <NL> return sb . to string ( ) ;  <NL>  }  COM: <s> removes all but alphabetic characters </s>

@@ -1,0 +1,1 @@
+TDAT: protected void append property ( string builder props , string name , string val ) {  <NL> if ( string utils . is empty ( val ) )  <NL> return ;  <NL> if ( props . length ( ) > 0 )  <NL> props . append ( " , " ) ;  <NL> props . append ( name ) . append ( " = " ) . append ( val ) ;  <NL>  }  COM: <s> add a string property to the buffer </s>

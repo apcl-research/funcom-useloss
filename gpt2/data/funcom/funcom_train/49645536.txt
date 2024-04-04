@@ -1,0 +1,1 @@
+TDAT: public void remove rule ( string symbol , stock event type type , big decimal threshold , string account ) {  <NL> concurrent linked queue < rule > queue = this . rules . get ( get key ( symbol , type ) ) ;  <NL> if ( queue ! = null ) {  <NL> queue . remove ( new rule ( threshold , account ) ) ;  <NL>  }  <NL>  }  COM: <s> removes rule from analyzer active rule set </s>

@@ -1,0 +1,1 @@
+TDAT: protected void convert to column major ( dense matrix64f a ) {  <NL> for ( int x = 0 ; x < num cols ; x + + ) {  <NL> double col q [ ] = data qr [ x ] ;  <NL> for ( int y = 0 ; y < num rows ; y + + ) {  <NL> col q [ y ] = a . data [ y * num cols + x ] ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> converts the standard row major matrix into a column major vector </s>

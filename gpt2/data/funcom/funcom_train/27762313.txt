@@ -1,0 +1,1 @@
+TDAT: public image get selected image ( ) {  <NL> if ( this . get selected item ( ) = = null ) {  <NL> this . set selected index ( 0 ) ;  <NL>  }  <NL> image icon tmp icon = ( image icon ) ( ( j label ) this . get selected item ( ) ) . get icon ( ) ;  <NL> return ( tmp icon . get image ( ) ) ;  <NL>  }  COM: <s> returns the icon selected </s>

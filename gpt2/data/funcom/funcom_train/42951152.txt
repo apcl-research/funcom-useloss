@@ -1,0 +1,1 @@
+TDAT: public bit set permute c inv ( bit set c ) {  <NL>  / / un permute <NL> bit set p = new bit set ( 32 ) ;  <NL> for ( int i = 0 ; i < 32 ; i + + ) {  <NL> p . set ( i , c . get ( c _ perm _ inv [ i ] - 1 ) ) ;  <NL>  }  <NL> return p ;  <NL>  }  COM: <s> inverse of the c permutation above </s>

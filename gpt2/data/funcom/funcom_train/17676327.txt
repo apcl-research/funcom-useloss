@@ -1,0 +1,1 @@
+TDAT: public void dump ( ) {  <NL> for ( int i = 0 ; i < size ; i + + ) {  <NL> class meta data c = oids [ i ] . get available class meta data ( ) ;  <NL> system . out . println ( " [ " + i + " ] = " + oids [ i ] +  <NL>  " rgi " + c . reference graph index + " index " + c . index ) ;  <NL>  }  <NL>  }  COM: <s> dump to sysout </s>

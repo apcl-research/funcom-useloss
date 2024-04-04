@@ -1,0 +1,1 @@
+TDAT: public void test qedeq logic script2 ( ) throws exception {  <NL> final qedeq bo bo = check ( new unary model ( ) , get doc dir ( ) , " math / qedeq _ logic _ v1 . xml " ) ;  <NL> assert equals ( 0 , bo . get errors ( ) . size ( ) ) ;  <NL> assert equals ( 0 , bo . get warnings ( ) . size ( ) ) ;  <NL>  }  COM: <s> test logic script for heuristic errors with zero model </s>

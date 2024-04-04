@@ -1,0 +1,1 @@
+TDAT: public string get md5of str ( string inbuf ) {  <NL>  <NL> md5init ( ) ;  <NL> md5update ( inbuf . get bytes ( ) , inbuf . length ( ) ) ;  <NL> md5final ( ) ;  <NL> digest hex str = " " ;  <NL> for ( int i = 0 ; i < 16 ; i + + ) {  <NL> digest hex str + = byte hex ( digest [ i ] ) ;  <NL>  }  <NL> return digest hex str ;  <NL>  }  COM: <s> public method for use md5 </s>

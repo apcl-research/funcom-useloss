@@ -1,0 +1,1 @@
+TDAT: public void set initial main state jacobian ( ) {  <NL> final double [ ] [ ] d yd y0 = new double [ state dim ] [ state dim ] ;  <NL> for ( int i = 0 ; i < state dim ; + + i ) {  <NL> d yd y0 [ i ] [ i ] = 1 . 0 ;  <NL>  }  <NL> set initial main state jacobian ( d yd y0 ) ;  <NL>  }  COM: <s> set the default initial value of the jacobian matrix with respect to state </s>

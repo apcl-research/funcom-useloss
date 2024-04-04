@@ -1,0 +1,1 @@
+TDAT: private void rotate x ( double radians ) {  <NL> rotation x + = radians ;  <NL> if ( rotation x > = max _ angle )  <NL> rotation x - = max _ angle ;  <NL> if ( rotation x < 0 )  <NL> rotation x + = max _ angle ;  <NL>  <NL> transform rotation x . set ( new axis angle4d ( 1 . 0 , 0 . 0 , 0 . 0 , rotation x ) ) ;  <NL>  }  COM: <s> rotate about x axis by radians </s>

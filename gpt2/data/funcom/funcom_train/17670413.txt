@@ -1,0 +1,1 @@
+TDAT: private string get abs path ( ) {  <NL> string fn chunk = file name ;  <NL> string abp = " " ;  <NL> abp = last parent path + " / " + fn chunk ;  <NL> abp = normalize slashes ( prefix ) + " / " + normalize slashes ( abp ) ;  <NL> abp = abp . replace all ( " / + " , " / " ) ;  <NL> return abp ;  <NL>  }  COM: <s> try to build the full absolute path </s>

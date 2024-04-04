@@ -1,0 +1,1 @@
+TDAT: public void test prog change subpatch ( ) {  <NL> syn message msg = new syn ( ) . synth ( 1 , 2 ) . prog ch ( 1 ) ;  <NL> assert equals ( " / syn / id1 . 2 / progch " , msg . get address ( ) ) ;  <NL> assert equals ( new integer ( 1 ) , msg . get arguments ( ) [ 0 ] ) ;  <NL>  }  COM: <s> programm change subpatch </s>

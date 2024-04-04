@@ -1,0 +1,1 @@
+TDAT: public void paint frame ( graphics a g ) {  <NL> color l old color = a g . get color ( ) ;  <NL> a g . set color ( frame line color ) ;  <NL> a g . draw rect ( frame x , frame y , frame width , frame height ) ;  <NL> a g . set color ( l old color ) ;  <NL>  } / / paint frame  COM: <s> draw the plot frame </s>

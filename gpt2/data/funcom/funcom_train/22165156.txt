@@ -1,0 +1,1 @@
+TDAT: public void send server selector ( int server )  <NL>  {  <NL> byte [ ] packet = sender . get packet ( 3 ) ;  <NL> packet [ 0 ] = ( byte ) 0x a0 ;  <NL> packet [ 1 ] = ( byte ) ( ( server & 0x ff00 ) > > 8 ) ;  <NL> packet [ 2 ] = ( byte ) ( server & 0x00ff ) ;  <NL> sender . confirm packet ( packet ) ;  <NL>  }  COM: <s> sends a server selector packet </s>

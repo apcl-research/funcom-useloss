@@ -1,0 +1,1 @@
+TDAT: public int get column type ( int column ) throws sql exception {  <NL> class col class = get column class ( column ) ;  <NL> integer type obj = ( integer ) class to type map . get ( col class ) ;  <NL> if ( type obj = = null ) {  <NL> return types . java _ object ;  <NL>  } else {  <NL> return type obj . int value ( ) ;  <NL>  }  <NL>  }  COM: <s> comments to be done </s>

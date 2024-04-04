@@ -1,0 +1,1 @@
+TDAT: public void set sweep ( final int time , final boolean decrease , final int shift ) {  <NL> this . sweep time = this . sweep time left = ( ( time + 1 ) * sound chip . updates _ per _ second ) > > 7 ;  <NL> this . sweep shift = shift ;  <NL> this . sweep direction = decrease ? - 1 : 1 ;  <NL>  }  COM: <s> set the sweep parameters </s>

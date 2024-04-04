@@ -1,0 +1,1 @@
+TDAT: public string get column name ( int column ) {  <NL> if ( column = = 0 ) {  <NL> return m localizer . msg ( " no " , " no " ) ;  <NL>  } else if ( column = = 1 ) {  <NL> return m localizer . msg ( " description " , " description " ) ;  <NL>  } else {  <NL> return m localizer . msg ( " value " , " value " ) ;  <NL>  }  <NL>  }  COM: <s> return the column names </s>

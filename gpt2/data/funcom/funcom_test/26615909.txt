@@ -1,0 +1,1 @@
+TDAT: public void set layer type ( int layer type ) {  <NL> if ( layer type = = layer . input _ layer || layer type = = layer . hidden _ layer || <NL> layer type = = layer . output _ layer ) {  <NL> this . layer type = layer type ;  <NL>  } else {  <NL> db ( " received an invalid type for this layer . . " ) ;  <NL>  }  <NL>  }  COM: <s> set the layer type </s>

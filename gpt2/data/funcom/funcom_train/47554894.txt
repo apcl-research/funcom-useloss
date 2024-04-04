@@ -1,0 +1,1 @@
+TDAT: public node type check body ( node parent , type checker tc , type checker childtc ) throws semantic exception {  <NL> method decl _ c n = this ;  <NL> block body = ( block ) n . visit child ( n . body , childtc ) ;  <NL> n = ( method decl _ c ) n . body ( body ) ;  <NL> return n ;  <NL>  }  COM: <s> type check the declaration </s>

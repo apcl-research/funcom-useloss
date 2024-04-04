@@ -1,0 +1,1 @@
+TDAT: private void show pup up menu ( mouse event e ) {  <NL> trans base map map = main pane . get map ( ) ;  <NL> if ( map ! = null ) {  <NL> set pop up menu ( map ) ;  <NL> if ( popup ! = null ) popup . show ( e . get component ( ) , e . get x ( ) , e . get y ( ) ) ;  <NL>  }  <NL>  }  COM: <s> shows the popup menu </s>

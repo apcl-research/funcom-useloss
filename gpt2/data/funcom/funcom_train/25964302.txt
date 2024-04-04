@@ -1,0 +1,1 @@
+TDAT: public void populate menu ( menu menu ) {  <NL>  <NL>  / / enable keyb shortcuts , qwerty mode = true means only show keyb shortcuts ( not numeric ) and vice versa <NL>  / / these only show up in context menu , not options men <NL> menu item item1 = menu . add ( 0 , menu1 , 0 , " delete tweaks " ) ;  <NL>  }  COM: <s> create the menu items </s>

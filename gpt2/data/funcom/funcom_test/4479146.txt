@@ -1,0 +1,1 @@
+TDAT: public void test set type ( ) {  <NL> pawn . set type ( " green " ) ; / / sets the type of pawn to " green "  <NL> assert true ( pawn . get type ( ) . equals ( " green " ) ) ; / / checks whether the type of pawn has been changed or not <NL> pawn . set type ( " pawn " ) ; / / sets back the type of the pawn <NL>  }  COM: <s> tests the set type mutator in pawn class </s>

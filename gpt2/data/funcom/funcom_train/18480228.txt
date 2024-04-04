@@ -1,0 +1,1 @@
+TDAT: private void fire action listeners ( action event ev ) {  <NL> java . util . list < action listener > listeners = new array list < action listener > ( action _ listeners ) ;  <NL> for ( int i = listeners . size ( ) - 1 ; i > = 0 ; i - - ) {  <NL> listeners . get ( i ) . action performed ( ev ) ;  <NL>  }  <NL>  }  COM: <s> calls all action listeners for an action event </s>

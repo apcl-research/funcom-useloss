@@ -1,0 +1,1 @@
+TDAT: public void language insert db ( node site , int sid ) {  <NL> node list all languages = ( ( element ) site ) . get elements by tag name ( " language " ) ;  <NL> for ( int i = 0 ; i < all languages . get length ( ) ; i + + ) {  <NL> insert this language ( all languages . item ( i ) , sid ) ;  <NL>  }  <NL>  }  COM: <s> insert languages in the db </s>

@@ -1,0 +1,1 @@
+TDAT: public void test html markup robots ( ) throws io exception {  <NL> robotstxt r = html markup robots ( ) ;  <NL> assert false ( r . get directives for ( " anybot " ) . allows ( " / index . html " ) ) ;  <NL> assert equals ( 30f , r . get directives for ( " anybot " ) . get crawl delay ( ) ) ;  <NL>  }  COM: <s> test handling of a robots </s>

@@ -1,0 +1,1 @@
+TDAT: public void test format type ( ) {  <NL> assert equals ( " format type a " , 2 , percent validator . get instance ( ) . get format type ( ) ) ;  <NL> assert equals ( " format type b " , percent validator . percent _ format , percent validator . get instance ( ) . get format type ( ) ) ;  <NL>  }  COM: <s> test format type </s>

@@ -1,0 +1,1 @@
+TDAT: public void execute ( string [ ] args , console output output ) {  <NL>  <NL> if ( args = = null )  <NL> return ;  <NL>  <NL> output . print ( args [ 0 ] ) ;  <NL> for ( int i = 1 ; i < args . length ; i + + ) {  <NL> output . print ( ' ' ) ;  <NL> output . print ( args [ i ] ) ;  <NL>  }  <NL>  <NL> output . println ( ) ;  <NL>  <NL>  }  COM: <s> execute this command </s>

@@ -1,0 +1,1 @@
+TDAT: public i chat board message create board message ( int a message id , i chat sender a sender , int a block number , string a text ) {  <NL> i chat board message board message = new i chat board message ( a message id , a sender , a block number , a text ) ;  <NL> return board message ;  <NL>  }  COM: <s> creates board message </s>

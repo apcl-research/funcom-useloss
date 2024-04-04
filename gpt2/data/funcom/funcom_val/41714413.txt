@@ -1,0 +1,1 @@
+TDAT: / / public void test add ( ) throws exception {  <NL>  / / string a [ ] = { " 1 " , " 2 " , " 3 " } ;  <NL>  / / string [ ] add = arrays util . add string ( a , " 4 " ) ;  <NL>  / / for ( int i = 0 ; i < add . length ; i + + ) {  <NL>  / / system . out . println ( add [ i ] ) ;  <NL>  / / }  <NL>  / / }  COM: <s> test of add method of class arrays util </s>

@@ -1,0 +1,1 @@
+TDAT: protected job parse input output ( string job name , tool tool , string input path , string output path ) throws io exception {  <NL> job job = new job ( get conf ( ) , job name ) ;  <NL> init job ( job , tool , input path , output path ) ;  <NL> return job ;  <NL>  }  COM: <s> job namer input output path job </s>

@@ -1,0 +1,1 @@
+TDAT: public void add buddy ( string user jid , string nick name ) throws xmpp exception {  <NL> if ( ! this . get user ( ) . equals ( user jid ) ) {  <NL> chat connection . get roster ( ) . create entry ( user jid , nick name , null ) ;  <NL> roster = chat connection . get roster ( ) ;  <NL>  }  <NL>  }  COM: <s> adds a buddy to the roster </s>

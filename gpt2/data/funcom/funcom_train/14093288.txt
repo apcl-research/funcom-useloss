@@ -1,0 +1,1 @@
+TDAT: public void set up ( ) {  <NL> if ( get helper ( ) = = null ) {  <NL> set helper ( new test helper class ( ) ) ;  <NL>  }  <NL> get helper ( ) . clean up ( this ) ;  <NL> assert equals ( " no windows should be present " , 0 , get helper ( ) . get windows ( ) . size ( ) ) ;  <NL>  }  COM: <s> overridden method that is used to setup the test fixtures </s>

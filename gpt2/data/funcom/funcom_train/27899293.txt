@@ -1,0 +1,1 @@
+TDAT: public void assert form element empty ( string form element name ) {  <NL> assert form element present ( form element name ) ;  <NL> assert equals ( " " , get testing engine ( ) . get element attribut by x path (  <NL>  " / / input [ @ name = ' " + form element name + " ' ] " , " value " ) ) ;  <NL>  }  COM: <s> assert that a form element had no value is empty </s>

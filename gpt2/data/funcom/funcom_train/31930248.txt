@@ -1,0 +1,1 @@
+TDAT: private void mark unique lines ( ) throws blitz exception {  <NL> for ( int i = 0 ; i < m _ target table . size ( ) ; i + + ) {  <NL> string node node = m _ target table . get node ( i ) ;  <NL> if ( node . is unique ( ) ) {  <NL> cross map ( node . get line number ( ) , i ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> mark each entry that appears exactly once in both tables </s>

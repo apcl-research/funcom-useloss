@@ -1,0 +1,1 @@
+TDAT: public void put ( string name , object value ) {  <NL> object old = null ;  <NL> if ( settings . key set ( ) . contains ( name ) )  <NL> old = settings . get ( name ) ;  <NL>  <NL> settings . put ( name , value ) ;  <NL> pcs . fire property change ( name , old , value ) ;  <NL> set saved ( false ) ;  <NL>  }  COM: <s> sets a setting </s>

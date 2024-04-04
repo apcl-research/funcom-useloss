@@ -1,0 +1,1 @@
+TDAT: public int get no of children ( ) {  <NL> int result = 0 ;  <NL> for ( int i = 0 , j = get no of properties ( ) ; i < j ; i + + ) {  <NL> property prop = get property ( i ) ;  <NL> if ( prop . get class ( ) = = property child . class & & prop . is valid ( ) )  <NL> result + + ;  <NL>  }  <NL> return result ;  <NL>  }  COM: <s> the number of children </s>

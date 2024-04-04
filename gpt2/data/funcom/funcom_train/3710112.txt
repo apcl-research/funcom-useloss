@@ -1,0 +1,1 @@
+TDAT: public void add ( int imset , int spord , int nl , double w1 , double w2 ) {  <NL> if ( imset > 0 & & imset < = nim ) {  <NL> sporder [ imset - 1 ] = spord ;  <NL> lines [ imset - 1 ] = nl ;  <NL> minw [ imset - 1 ] = w1 ;  <NL> maxw [ imset - 1 ] = w2 ;  <NL>  }  <NL>  }  COM: <s> add the description parameters of a imset </s>

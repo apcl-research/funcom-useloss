@@ -1,0 +1,1 @@
+TDAT: protected void shoot at ( battle field env , point2d p ) {  <NL> vector2d aim = new vector2d ( p . x - position . x , p . y - position . y ) ;  <NL>  <NL> if ( current weapon ! = null ) {  <NL> current weapon . shoot ( env , enemies , new point2d ( position . x , position . y ) , aim ) ;  <NL>  }  <NL>  }  COM: <s> shoot in a direction with the current carried </s>

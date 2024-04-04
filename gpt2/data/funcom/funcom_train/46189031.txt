@@ -1,0 +1,1 @@
+TDAT: public comment create comment ( string title , string body , string author , string email , string website , string ip address , date date , state state ) {  <NL> return new comment ( title , body , author , email , website , ip address , date , state , this ) ;  <NL>  }  COM: <s> creates a new comment for this blog entry </s>

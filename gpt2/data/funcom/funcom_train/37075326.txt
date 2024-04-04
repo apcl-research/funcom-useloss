@@ -1,0 +1,1 @@
+TDAT: public boolean is transcript change ( ) {  <NL> seq feature i cf = get changed feature ( ) ;  <NL> if ( ( cf = = null ) || ( cf . get feature type ( ) = = null ) )  <NL> return false ;  <NL>  / / is it bad to rely on type string ?  <NL> return cf . get feature type ( ) . equals ( " transcript " ) ;  <NL>  }  COM: <s> replaces object class transcript </s>

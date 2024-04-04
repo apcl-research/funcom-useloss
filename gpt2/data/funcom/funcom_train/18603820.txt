@@ -1,0 +1,1 @@
+TDAT: public void info ( string format , object arg1 , object arg2 ) {  <NL> if ( logger . is info enabled ( ) ) {  <NL> string msg str = message formatter . format ( format , arg1 , arg2 ) ;  <NL> logger . log ( fqcn , level . info , msg str , null ) ;  <NL>  }  <NL>  }  COM: <s> log a message at the info level according to the specified format and </s>

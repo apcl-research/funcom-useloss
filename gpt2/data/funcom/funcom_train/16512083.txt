@@ -1,0 +1,1 @@
+TDAT: protected i figure create figure ( ) {  <NL>  <NL> figure f = new figure ( ) ;  <NL> f . set opaque ( true ) ;  <NL> f . set background color ( new color ( display . get current ( ) , 242 , 248 , 255 ) ) ; / / soft baby blue <NL> f . set layout manager ( new xy layout ( ) ) ;  <NL>  <NL> return f ;  <NL>  }  COM: <s> creates the base figure canvas of the editor </s>

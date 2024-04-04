@@ -1,0 +1,1 @@
+TDAT: public void put ( alloy element obj , t value ) {  <NL> if ( obj = = null & & value = = null ) return ;  <NL> object old = map . put ( obj , value ) ;  <NL> if ( ( old = = null & & value ! = null ) || ( old ! = null & & ! old . equals ( value ) ) ) change ( ) ;  <NL>  }  COM: <s> set the value for the given object can be null to mean inherit </s>

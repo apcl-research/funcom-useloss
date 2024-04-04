@@ -1,0 +1,1 @@
+TDAT: private int get address ( inet address address ) {  <NL> byte [ ] tmp = address . get address ( ) ;  <NL>  <NL> int i = ( ( ( int ) tmp [ 0 ] ) < < 24 ) | ( ( ( int ) tmp [ 1 ] ) < < 16 ) | <NL>  ( ( ( int ) tmp [ 2 ] ) < < 8 ) | ( ( ( int ) tmp [ 3 ] ) ) ;  <NL>  <NL> return i ;  <NL>  }  COM: <s> utility method for converting an inet address to an int </s>

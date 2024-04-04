@@ -1,0 +1,1 @@
+TDAT: public void copy to ( byte [ ] buffer , int offset , int from , int to ) {  <NL> buffer . get class ( ) ;  <NL> int length = to - from ;  <NL> for ( int i = 0 ; i < length ; i + + ) {  <NL> buffer [ offset + i ] = underlying array [ from + i ] ;  <NL>  }  <NL>  }  COM: <s> copies the specified range of the underlying array into the specified buffer </s>

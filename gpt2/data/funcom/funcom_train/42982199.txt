@@ -1,0 +1,1 @@
+TDAT: public void remove instance ( ) {  <NL> unit sel unit = ( unit ) frame . cb inst unit . get selected item ( ) ;  <NL> instance inst = ( instance ) frame . cb inst . get selected item ( ) ;  <NL> engine . remove instance ( sel unit . get id ( ) , inst . get id ( ) ) ;  <NL> fill inst data ( ) ;  <NL>  }  COM: <s> removes an instance from the unit </s>

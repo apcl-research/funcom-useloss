@@ -1,0 +1,1 @@
+TDAT: public void update content dimensions ( ) {  <NL> widget content = deck . get widget ( deck . get widget count ( ) - 1 ) ;  <NL> grid . set html ( 1 , 1 , content . get offset height ( ) + " " ) ;  <NL> grid . set html ( 2 , 1 , content . get offset width ( ) + " " ) ;  <NL>  }  COM: <s> retrieve the size of the content widgets </s>

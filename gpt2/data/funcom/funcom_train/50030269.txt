@@ -1,0 +1,1 @@
+TDAT: public int get count occurances of value ( int value ) {  <NL> int result = 0 ;  <NL> for ( int y = 0 ; y < 9 ; y + + ) {  <NL> for ( int x = 0 ; x < 9 ; x + + ) {  <NL> if ( cells [ y ] [ x ] . get value ( ) = = value )  <NL> result + + ;  <NL>  }  <NL>  }  <NL> return result ;  <NL>  }  COM: <s> get the number of occurances of a given value in this grid </s>

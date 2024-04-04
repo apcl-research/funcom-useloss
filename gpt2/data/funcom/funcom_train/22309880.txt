@@ -1,0 +1,1 @@
+TDAT: private void customise font ( graphics g ) {  <NL> g . set xor mode ( color . blue ) ;  <NL> font current font = g . get font ( ) ;  <NL> font bold font = new font ( current font . get name ( ) , font . bold , current font . get size ( ) ) ;  <NL> g . set font ( bold font ) ;  <NL>  }  COM: <s> method to customise the font used to write over image </s>

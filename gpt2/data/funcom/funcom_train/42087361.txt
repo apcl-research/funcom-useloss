@@ -1,0 +1,1 @@
+TDAT: public void test _ create date with negative values ( ) {  <NL> date test day = date utils . create date ( 1989 , - 4 , 11 ) ;  <NL> date not my b day = new gregorian calendar ( 1989 , - 4 , 11 ) . get time ( ) ;  <NL> assert equals ( test day , not my b day ) ;  <NL>  }  COM: <s> tests whether create date creates a correct date when given negative month values </s>

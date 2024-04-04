@@ -1,0 +1,1 @@
+TDAT: public void dump ( ) {  <NL> system . out . printf ( " % 20s | % 8s | % 8s | % 8s | % 8s\n " , " " , " min ( ms ) " , " avg ( ms ) " , " max ( ms ) " , " count " ) ;  <NL> for ( entry entry : entries . values ( ) ) {  <NL> system . out . println ( entry ) ;  <NL>  }  <NL>  }  COM: <s> print statistics for all timestam entries </s>

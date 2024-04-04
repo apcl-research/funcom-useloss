@@ -1,0 +1,1 @@
+TDAT: public void set exif tag value ( string name , number value ) {  <NL> if ( value ! = null & & value . float value ( ) ! = 0 . 0f ) {  <NL> set exif tag value ( name , value . to string ( ) ) ;  <NL>  } else {  <NL> set exif tag value ( name , ( string ) null ) ;  <NL>  }  <NL>  }  COM: <s> convenience method to set an exif tag based on a float value </s>

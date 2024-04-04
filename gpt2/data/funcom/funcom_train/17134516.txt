@@ -1,0 +1,1 @@
+TDAT: private button type is any button pressed ( float x , float y ) {  <NL> if ( this . is clicked ( ) ) {  <NL> for ( menu button b : this . buttons ) {  <NL> if ( b . is on button ( x , y ) ) {  <NL> return b . get type ( ) ;  <NL>  }  <NL>  }  <NL>  }  <NL> return button type . none ;  <NL>  }  COM: <s> checks if any of the buttons were pressed </s>

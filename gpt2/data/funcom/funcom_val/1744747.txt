@@ -1,0 +1,1 @@
+TDAT: public void pause ( ) {  <NL>  / / file must be open , and ( playing or seeking ) to pause <NL> if ( opened & & ( playing || is seeking ( ) ) ) {  <NL> stopping = true ;  <NL>  / / tell the listeners were taking a break . . .  <NL>  _ fire audio state event ( audio state event . audio state . pausing ) ;  <NL>  }  <NL>  }  COM: <s> attempt to pause the audio source </s>

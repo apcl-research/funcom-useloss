@@ -1,0 +1,1 @@
+TDAT: public void set time ( double time ) {  <NL> if ( this . time = = null || this . time ! = time ) {  <NL> double old time = this . time ;  <NL> this . time = time ;  <NL> set base graph ( long graph . slice ( time , false ) ) ;  <NL> pcs . fire property change ( $ time , old time , time ) ;  <NL>  }  <NL>  }  COM: <s> sets the time slice of the longitudinal graph </s>

@@ -1,0 +1,1 @@
+TDAT: public int get type ( string group , string key ) {  <NL> string value = ( ( registry group ) m _ groups . get ( group ) ) . get property ( key ) ;  <NL> if ( value = = null ) {  <NL> return registry . type _ none ;  <NL>  }  <NL> else {  <NL> return marker to type ( value . substring ( 0 , 3 ) ) ;  <NL>  }  <NL>  }  COM: <s> get the type of the specified property </s>

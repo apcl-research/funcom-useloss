@@ -1,0 +1,1 @@
+TDAT: public int max token length ( ) {  <NL> int max len = 0 ;  <NL> for ( string local name : tokens . key set ( ) ) {  <NL> max len = math . max ( max len , local name . length ( ) ) ;  <NL>  }  <NL> max len + = name . length ( ) ;  <NL> max len + + ; / / the dot <NL> return max len ;  <NL>  }  COM: <s> length of the longest token namespaced name in this namespace </s>

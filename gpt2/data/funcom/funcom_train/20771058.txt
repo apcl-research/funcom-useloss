@@ -1,0 +1,1 @@
+TDAT: private int get bin ( int pixel , int nbins , int sx ) {  <NL> int range = ( int ) ( fov retina deg / 180 * nbins ) ;  <NL> int b = ( int ) ( nbins - range ) / 2 ;  <NL> float m = ( float ) range / sx ;  <NL> return ( int ) ( m * pixel + b + itd bin shift ) ;  <NL>  }  COM: <s> returns histogram bin number corresponding to a retina pixel number taking account </s>

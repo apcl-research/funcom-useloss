@@ -1,0 +1,1 @@
+TDAT: private void operation adc ( final int data ) {  <NL> final int value = this . a + data + ( ( this . f & carry ) ! = 0 ? 1 : 0 ) ;  <NL>  <NL> this . f = ( ( ( value & 0xff ) = = 0 ? zero : 0 ) + ( ( this . a & 0x0f ) + ( data & 0x0f ) > = 0x10 ? halfcarry : 0 ) + ( value > = 0x100 ? carry : 0 ) ) ;  <NL> this . a = ( value & 0xff ) ;  <NL>  }  COM: <s> add with carry </s>

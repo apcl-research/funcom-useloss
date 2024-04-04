@@ -1,0 +1,1 @@
+TDAT: public vector get list ( ) {  <NL>  / / system . out . println ( f contact list . size ( ) + " " + ( ( icq contact ) f contact list . element at ( f contact list . size ( ) - 1 ) ) . get login ( ) + " " + ( ( icq contact ) f contact list . element at ( f contact list . size ( ) - 1 ) ) . get nick ( ) ) ;  <NL> return f contact list ;  <NL>  }  COM: <s> method get list </s>

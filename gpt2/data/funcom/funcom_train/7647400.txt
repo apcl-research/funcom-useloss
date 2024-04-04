@@ -1,0 +1,1 @@
+TDAT: public boolean content equals ( string buffer strbuf ) {  <NL> synchronized ( strbuf ) {  <NL> int size = strbuf . length ( ) ;  <NL> if ( count ! = size ) {  <NL> return false ;  <NL>  }  <NL> return region matches ( 0 , new string ( 0 , size , strbuf . get value ( ) ) , 0 ,  <NL> size ) ;  <NL>  }  <NL>  }  COM: <s> returns whether the characters in the string buffer </s>

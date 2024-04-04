@@ -1,0 +1,1 @@
+TDAT: public void append ( int header size , string text ) {  <NL> if ( ( header size > 6 ) || ( header size < 0 ) ) {  <NL> append ( text ) ;  <NL>  } else {  <NL> buf . append ( " < h " + header size + " > " + text + " < / h " + header size + " > " ) ;  <NL>  }  <NL>  }  COM: <s> add a header line to the buffer unless the header size </s>

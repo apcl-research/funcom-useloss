@@ -1,0 +1,1 @@
+TDAT: private void set field ( string a field ) {  <NL> if ( a field = = null ) {  <NL> throw new null pointer exception ( " null field " ) ;  <NL>  }  <NL> a field = a field . trim ( ) ;  <NL> if ( a field . length ( ) = = 0 ) {  <NL> throw new illegal argument exception ( " empty field " ) ;  <NL>  }  <NL> field = a field ;  <NL>  }  COM: <s> sets predicates field </s>

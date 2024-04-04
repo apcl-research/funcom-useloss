@@ -1,0 +1,1 @@
+TDAT: public vector get headers ( )  <NL>  { vector v = new vector ( values . size ( ) ) ;  <NL> for ( int i = 0 ; i < values . size ( ) ; i + + )  <NL>  { header h = new header ( name , ( string ) values . element at ( i ) ) ;  <NL> v . add element ( h ) ;  <NL>  }  <NL> return v ;  <NL>  }  COM: <s> gets a vector of headers </s>

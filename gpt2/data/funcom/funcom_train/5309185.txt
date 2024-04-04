@@ -1,0 +1,1 @@
+TDAT: public void map dataset to domain axis ( int index , int axis index ) {  <NL> this . dataset to domain axis map . set ( index , new integer ( axis index ) ) ;  <NL>  / / fake a dataset change event to update axes . . .  <NL> dataset changed ( new dataset change event ( this , get dataset ( index ) ) ) ;  <NL>  }  COM: <s> maps a dataset to a particular domain axis </s>

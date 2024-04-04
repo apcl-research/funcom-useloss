@@ -1,0 +1,1 @@
+TDAT: public void cancel ( ) {  <NL> for ( int i = 0 ; i < list . size ( ) ; i + + )  <NL> list . get panel ( i ) . canceled ( ) ;  <NL> is canceled = true ;  <NL> if ( list . current panel ( ) instanceof process panel )  <NL>  ( ( process panel ) list . current panel ( ) ) . done ( ) ;  <NL> else <NL> hide ( ) ;  <NL>  }  COM: <s> cancels the wizard </s>

@@ -1,0 +1,1 @@
+TDAT: private void increase count ( map m , object o ) {  <NL> integer count = ( integer ) m . get ( o ) ;  <NL> if ( count = = null ) {  <NL> count = new integer ( 1 ) ;  <NL>  }  <NL> else {  <NL> count = new integer ( count . int value ( ) + 1 ) ;  <NL>  }  <NL> m . put ( o , count ) ;  <NL>  }  COM: <s> increases the count in a map for a certain object </s>

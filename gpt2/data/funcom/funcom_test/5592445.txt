@@ -1,0 +1,1 @@
+TDAT: private void popup editor show ( mouse event e ) {  <NL>  <NL> if ( e . is popup trigger ( ) ) {  <NL> if ( tab . get type ( ) ! = tab . html _ file ) {  <NL>  / / @ todo something with editor type .  <NL>  }  <NL> popup menu . show ( e . get component ( ) , e . get x ( ) , e . get y ( ) ) ;  <NL>  }  <NL>  }  COM: <s> show the editor popup menu </s>

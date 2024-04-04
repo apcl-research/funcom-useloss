@@ -1,0 +1,1 @@
+TDAT: public void set time ruler ( time span widget new ruler ) {  <NL> if ( ruler ! = null ) {  <NL> remove ( ruler . get component ( ) ) ;  <NL>  }  <NL> ruler = new ruler ;  <NL>  / / put ruler at the top <NL> add ( ruler . get component ( ) , 0 ) ;  <NL> set time span ( ruler . get displayed span ( ) ) ;  <NL>  }  COM: <s> adds a time span widget </s>

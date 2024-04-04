@@ -1,0 +1,1 @@
+TDAT: public void update blog entry ( int item id , date date , string body , string subject , security type security type , integer allowmask ) {  <NL> this . update blog entry ( login , item id , date , body , subject , security type , allowmask ) ;  <NL>  }  COM: <s> updates a blog entry in users blog </s>

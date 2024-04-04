@@ -1,0 +1,1 @@
+TDAT: public void draw chars ( char chars [ ] , int offset , int length , int x , int y ) {  <NL> p draw chars ( psd , font metrics . native font , chars , offset , length , x + origin x , y + origin y ) ;  <NL>  }  COM: <s> draws the given character array </s>

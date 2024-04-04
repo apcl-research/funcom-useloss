@@ -1,0 +1,1 @@
+TDAT: public view get child tab view at ( int index ) {  <NL>  / / if we are using dividers , then instead of tab views at 0 , 1 , 2 , . . .  <NL>  / / we have tab views at 0 , 2 , 4 , . . .  <NL> if ( m divider drawable ! = null ) {  <NL> index * = 2 ;  <NL>  }  <NL> return get child at ( index ) ;  <NL>  }  COM: <s> returns the tab indicator view at the given index </s>

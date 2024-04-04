@@ -1,0 +1,1 @@
+TDAT: public void add ( int gridx , int gridy , string label , component comp , string clist ) {  <NL> label constraints . gridx = gridx ;  <NL> label constraints . gridy = gridy ;  <NL> add ( new j label ( label ) , label constraints ) ;  <NL> add ( comp , gbc ( gridx + 1 , gridy , clist ) ) ;  <NL>  }  COM: <s> add a code component code with a label to the pane with </s>

@@ -1,0 +1,1 @@
+TDAT: public void paint ( graphics g ) {  <NL>  / / super . paint ( g ) ;  <NL> if ( is visible ( ) & & is showing ( ) & & is enabled ( ) ) {  <NL> if ( my buffer image ! = null ) {  <NL> g . draw image ( my buffer image , 0 , 0 , this ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> draw the graphics on the screen </s>

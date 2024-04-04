@@ -1,0 +1,1 @@
+TDAT: public string to string ( object o1 , object o2 ) {  <NL> return " x > " + ( ( transform ) o1 ) . x + " x < " + ( ( transform ) o2 ) . x +  <NL>  " y > " + ( ( transform ) o1 ) . y + " y < " + ( ( transform ) o2 ) . y +  <NL>  " z > " + ( ( transform ) o1 ) . z + " z < " + ( ( transform ) o2 ) . z ;  <NL>  }  COM: <s> this is used to construct where clause of sql query </s>

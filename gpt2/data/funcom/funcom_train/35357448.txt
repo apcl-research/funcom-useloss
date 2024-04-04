@@ -1,0 +1,1 @@
+TDAT: public complex times ( complex cx ) {  <NL> int n r = this . n real * cx . n real - this . n imag * cx . n imag ;  <NL> int n i = this . n real * cx . n imag + this . n imag * cx . n real ;  <NL> this . n real = n r ;  <NL> this . n imag = n i ;  <NL> return this ;  <NL>  }  COM: <s> multiplies two complex numbers </s>

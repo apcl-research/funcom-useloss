@@ -1,0 +1,1 @@
+TDAT: public double vector nnlse1 ( pace matrix b , int vector pvt ) {  <NL> pace matrix c = new pace matrix ( 1 , n , 1 ) ;  <NL> pace matrix d = new pace matrix ( 1 , b . n , 1 ) ;  <NL>  <NL> return nnlse ( b , c , d , pvt ) ;  <NL>  }  COM: <s> solves the nonnegative least squares problem with equality </s>

@@ -1,0 +1,1 @@
+TDAT: public boolean retain all ( collection < ? > c ) {  <NL> boolean result = false ;  <NL> for ( int i = 0 ; i < = last index ; i + + ) {  <NL> if ( is there . get ( i ) & & ! c . contains ( data [ i ] ) ) {  <NL> remove index ( i ) ;  <NL> result = true ;  <NL>  }  <NL>  }  <NL> shrink ( ) ;  <NL> return result ;  <NL>  }  COM: <s> removes all elements that are not in c </s>

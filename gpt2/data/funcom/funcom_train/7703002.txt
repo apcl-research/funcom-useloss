@@ -1,0 +1,1 @@
+TDAT: public void set random data ( ) {  <NL> for ( int i = 0 ; i < data . length ; i = i + get num values ( ) ) {  <NL> double [ ] new data = support . make random distribution ( get num values ( ) ) ;  <NL> system . arraycopy ( new data , 0 , data , i , new data . length ) ;  <NL>  }  <NL>  }  COM: <s> dont want to bother setting data in your table leave it to chance </s>

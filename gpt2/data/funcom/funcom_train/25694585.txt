@@ -1,0 +1,1 @@
+TDAT: public string get arg value ( string mark , int index ) {  <NL> string arg = args . get ( index ) ;  <NL> if ( ( null ! = arg ) & & arg . starts with ( mark ) ) {  <NL> return arg . substring ( mark . length ( ) ) ;  <NL>  } else {  <NL> throw new runtime exception ( " incorrect index or mark " ) ;  <NL>  }  <NL>  }  COM: <s> return the value of the argument </s>

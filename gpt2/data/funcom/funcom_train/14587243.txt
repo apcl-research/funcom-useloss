@@ -1,0 +1,1 @@
+TDAT: public void first down ( ) {  <NL> down = 1 ;  <NL>  / / only time need to check for " and goal " is after a 1st down <NL> set adjusted yds to go ( 10 ) ;  <NL> string msg = " first down ! " ;  <NL> println ( msg ) ;  <NL> lib txtfl . style text ( text disp , - 2 , 0 , msg . length ( ) , swt . color _ blue , - 1 , - 1 ) ;  <NL>  }  COM: <s> handles first downs </s>

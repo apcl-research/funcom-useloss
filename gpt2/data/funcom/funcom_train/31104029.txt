@@ -1,0 +1,1 @@
+TDAT: public void end document ( ) throws xni exception {  <NL>  <NL> int count = f value stores . size ( ) ;  <NL> for ( int i = 0 ; i < count ; i + + ) {  <NL> value store base value store = ( value store base ) f value stores . element at ( i ) ;  <NL> value store . end document ( ) ;  <NL>  }  <NL>  <NL>  } / / end document ( )  COM: <s> check identity constraints </s>

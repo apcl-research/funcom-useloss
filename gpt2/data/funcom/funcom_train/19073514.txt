@@ -1,0 +1,1 @@
+TDAT: public void clear ( ) {  <NL> for ( int x = 0 ; x < m _ rows ; + + x ) {  <NL> for ( int y = 0 ; y < m _ cols ; + + y ) {  <NL> if ( enabled [ x ] [ y ] || ! fixed [ x ] [ y ] ) {  <NL> value [ x ] [ y ] = 0 . 0 ;  <NL> delta [ x ] [ y ] = 0 . 0 ;  <NL>  }  <NL>  }  <NL>  }  <NL>  }  COM: <s> clears resets the matrix object </s>

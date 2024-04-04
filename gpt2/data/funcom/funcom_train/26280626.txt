@@ -1,0 +1,1 @@
+TDAT: public string get filename ( ) throws j gimp exception {  <NL>  / / todo : figure out if this will crash if no filename exists , or return a null string , or a string of zero - length <NL> return m _ app . call procedure ( " gimp _ image _ get _ filename " , this ) [ 0 ] . convert to string ( ) ;  <NL>  }  COM: <s> returns the filename for this image if it exists </s>

@@ -1,0 +1,1 @@
+TDAT: private void add file ( scm revision a revision ) throws sql exception {  <NL> m prep file add statement . set string ( 1 , a revision . get qualified filename ( ) ) ;  <NL> m prep file add statement . set string ( 2 , a revision . get file name ( ) ) ;  <NL> m prep file add statement . execute update ( ) ;  <NL>  }  COM: <s> add a file into the database </s>

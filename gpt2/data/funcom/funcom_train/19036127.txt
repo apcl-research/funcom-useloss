@@ -1,0 +1,1 @@
+TDAT: public boolean equals ( object obj ) {  <NL> if ( obj ! = null & & obj instanceof link data model ) {  <NL> link data model temp = ( link data model ) obj ;  <NL> if ( this . get link ( ) . get lid ( ) . equals ( temp . get link ( ) . get lid ( ) ) ) return true ;  <NL>  }  <NL> return false ;  <NL>  }  COM: <s> checks if the two links are equal </s>

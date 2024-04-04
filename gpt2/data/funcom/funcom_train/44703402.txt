@@ -1,0 +1,1 @@
+TDAT: public void add units _ us cust mass ( ) {  <NL> add unit ( new unit ( " lb " , " pound " , " g " , 0 , 453 . 59237 , 0 ) ) ;  <NL> add unit ( new unit ( " oz " , " ounce " , " lb " , 0 , 0 . 0625 , 0 ) ) ;  <NL>  }  COM: <s> add a default set of us customary mass units lb oz </s>

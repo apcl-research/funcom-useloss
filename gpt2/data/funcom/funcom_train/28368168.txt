@@ -1,0 +1,1 @@
+TDAT: private void parse skills ( final element cur ) {  <NL> final string s = parser . property value ( cur , " skills " , false ) ;  <NL> if ( s = = null ) { return ; }  <NL> final string [ ] skill names = s . split ( " , " ) ;  <NL> for ( final string skill : skill names ) {  <NL> add skill ( skill . trim ( ) ) ;  <NL>  }  <NL>  }  COM: <s> parses the skills </s>

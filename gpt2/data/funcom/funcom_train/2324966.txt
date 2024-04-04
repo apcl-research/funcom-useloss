@@ -1,0 +1,1 @@
+TDAT: public void apply ( float matrix1d x , int i1 , int i2 ) {  <NL> float temp = c * x . get quick ( i1 ) + s * x . get quick ( i2 ) ;  <NL> x . set quick ( i2 , - s * x . get quick ( i1 ) + c * x . get quick ( i2 ) ) ;  <NL> x . set quick ( i1 , temp ) ;  <NL>  }  COM: <s> applies the givens rotation to two elements of a vector </s>

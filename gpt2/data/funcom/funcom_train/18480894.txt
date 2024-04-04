@@ -1,0 +1,1 @@
+TDAT: public void set num iters u ( int num _ iters _ u ) {  <NL> if ( this . num _ iters _ u ! = num _ iters _ u ) {  <NL> int old = this . num _ iters _ u ;  <NL> this . num _ iters _ u = num _ iters _ u ;  <NL> notify changed ( numitersu , old , num _ iters _ u ) ;  <NL> create contents ( ) ;  <NL>  }  <NL>  }  COM: <s> sets number of iterations in u direction </s>

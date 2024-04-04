@@ -1,0 +1,1 @@
+TDAT: public int hash code ( ) {  <NL>  / / talk about a fun time reverse engineering this one !  <NL> long l = java . lang . double . double to long bits ( get y ( ) ) ;  <NL> l = l * 31 ^ java . lang . double . double to long bits ( get x ( ) ) ;  <NL> return ( int ) ( ( l > > 32 ) ^ l ) ;  <NL>  }  COM: <s> return the hashcode for this point </s>

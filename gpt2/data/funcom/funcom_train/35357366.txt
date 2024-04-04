@@ -1,0 +1,1 @@
+TDAT: public int get right ( ) {  <NL> return math . max ( this . p [ 0 ] . get x ( ) ,  <NL> math . max ( this . p [ 1 ] . get x ( ) ,  <NL> math . max ( this . p [ 2 ] . get x ( ) ,  <NL> this . p [ 3 ] . get x ( ) ) ) ) ;  <NL>  }  COM: <s> get rightmost extent of quadrilateral </s>

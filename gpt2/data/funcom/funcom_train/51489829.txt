@@ -1,0 +1,1 @@
+TDAT: public double sample ( ) {  <NL> double val ;  <NL>  <NL> double p = hyp ( n _ , k _ , n _ , 0 ) , f = p ;  <NL> val = unif . sample ( ) ;  <NL> int i = 0 ;  <NL> while ( val > f ) {  <NL> p = hyp ( n _ , k _ , n _ , i + 1 ) ;  <NL> f = f + p ;  <NL> i = i + 1 ;  <NL>  }  <NL> return i ;  <NL>  }  COM: <s> returns a number hypergeometrically distributed </s>

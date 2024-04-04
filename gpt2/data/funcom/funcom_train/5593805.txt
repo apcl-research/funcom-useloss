@@ -1,0 +1,1 @@
+TDAT: public void test who ( ) {  <NL> system . out . println ( " test who " ) ;  <NL>  <NL> sender . who ( " * . com " , false ) ;  <NL> assert equals ( " who * . com " , buffer to string ( ) ) ;  <NL> sender . who ( " * . com " , true ) ;  <NL> assert equals ( " who * . com o " , buffer to string ( ) ) ;  <NL>  }  COM: <s> test of who method of class net </s>

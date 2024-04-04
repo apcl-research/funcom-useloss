@@ -1,0 +1,1 @@
+TDAT: public builder id ( string id ) {  <NL> assert ( id ! = null ) ;  <NL> if ( path ! = null ) {  <NL> throw new illegal state exception (  <NL>  " only one of id , user id , or screen name may be set . " ) ;  <NL>  }  <NL> path ( string . format ( " / users / show / % s . json " , id ) ) ;  <NL> return this ;  <NL>  }  COM: <s> the id or screen name of a user </s>

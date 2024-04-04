@@ -1,0 +1,1 @@
+TDAT: public void remove ( page page ) {  <NL> if ( page = = null ) {  <NL> return ;  <NL>  }  <NL> for ( int i = errors . size ( ) ; i > 0 ; i - - ) {  <NL> if ( page . are same title ( page . get title ( ) , errors . get ( i - 1 ) . get title ( ) ) ) {  <NL> errors . remove ( i - 1 ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> remove a page from the list of errors </s>

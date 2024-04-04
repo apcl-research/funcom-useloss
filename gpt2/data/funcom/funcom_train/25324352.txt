@@ -1,0 +1,1 @@
+TDAT: public void dump ( int level ) {  <NL> for ( int i = 0 ; i < level ; i + + ) {  <NL> system . out . print ( " \t " ) ;  <NL>  }  <NL> system . out . print ( name + " - " + id + " - " + ( size / 1024 ) + " k - " + new date ( last modified ) + " \n " ) ;  <NL>  }  COM: <s> writes the file attributes in a tree manner to the system </s>

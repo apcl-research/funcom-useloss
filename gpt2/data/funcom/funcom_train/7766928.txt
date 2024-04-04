@@ -1,0 +1,1 @@
+TDAT: public void set slider position ( int y ) {  <NL> if ( y < 0 )  <NL> y = 0 ;  <NL> if ( y > 256 )  <NL> y = 256 ;  <NL> dom . set style attribute ( slider . get element ( ) , " top " , y - 4 + " px " ) ; / / $ non - nls - 1 $ / / $ non - nls - 2 $  <NL>  }  COM: <s> sets the sliders position on the y axis </s>

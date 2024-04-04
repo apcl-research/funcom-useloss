@@ -1,0 +1,1 @@
+TDAT: public void set sent date ( date d ) throws io exception {  <NL> string chunk id = " 0039 " ;  <NL> remove entry ( chunk id , i message . pt _ systime ) ;  <NL> this . create header entry ( this . root node , " _ _ substg1 . 0 _ " + chunk id , i node . pt _ systime , i node . create pt sys date ( d ) ) ;  <NL>  }  COM: <s> sets the sent date of the msg file </s>

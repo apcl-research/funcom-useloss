@@ -1,0 +1,1 @@
+TDAT: protected boolean extract ( local file state in file , file probe container fpc , list < file state > new files ) throws exception {  <NL> if ( command = = null ) {  <NL> return extract java ( in file , fpc , new files ) ;  <NL>  }  <NL> else {  <NL> return extract external ( in file , fpc , new files ) ;  <NL>  }  <NL>  }  COM: <s> extract files from the zip file </s>

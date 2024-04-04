@@ -1,0 +1,1 @@
+TDAT: public boolean contains ( double x1 , double y1 , double w , double h ) {  <NL> double x2 = x1 + w ;  <NL> double y2 = y1 + h ;  <NL> return contains ( x1 , y1 ) & & contains ( x1 , y2 ) & & contains ( x2 , y1 )  <NL>  & & contains ( x2 , y2 ) ;  <NL>  }  COM: <s> return true if the given rectangle is entirely inside </s>

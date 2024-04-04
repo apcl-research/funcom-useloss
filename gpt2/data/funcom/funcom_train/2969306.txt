@@ -1,0 +1,1 @@
+TDAT: public boolean has equal ( i time interval ti ) throws db exception {  <NL> synchronized ( this ) {  <NL> return get ti ( ti . get start time ( ) , ti . get duration ( ) , ti . get year set ( ) , ti . get subject ( ) ,  <NL> ti . get room ( ) ) ! = null ;  <NL>  }  <NL>  }  COM: <s> this method tests if the database already contains a timeinterval equal </s>

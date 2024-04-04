@@ -1,0 +1,1 @@
+TDAT: public void test string ( ) {  <NL> assert equals ( " string [ value = char [ ] [ { h , e , l , l , o , , w , o , r , l , d , ! } ] , "  <NL>  + " offset = 0 , count = 12 , hash = 0 ] " , to string facade <NL>  . to string ( " hello world ! " ) ) ;  <NL>  }  COM: <s> tests support for strings </s>

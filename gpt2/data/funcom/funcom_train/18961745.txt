@@ -1,0 +1,1 @@
+TDAT: protected double evaluate probability ( double [ ] inst dat ) {  <NL>  <NL> double v = m _ par [ 0 ] ;  <NL> for ( int k = 1 ; k < = m _ num predictors ; k + + ) {  <NL> v + = m _ par [ k ] * inst dat [ k ] ;  <NL>  }  <NL> v = 1 / ( 1 + math . exp ( - v ) ) ;  <NL> return v ;  <NL>  }  COM: <s> evaluate the probability for this point using the current coefficients </s>

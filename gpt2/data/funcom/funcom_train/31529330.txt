@@ -1,0 +1,1 @@
+TDAT: public void start drag ( drag gesture event p event , cursor p cursor , transferable p transferable , drag source listener p listener , flavor map p flavor map ) throws invalid dn d operation exception {  <NL> this . start drag ( p event , p cursor , null , null , p transferable , p listener , p flavor map ) ;  <NL>  }  COM: <s> start the drag operation </s>

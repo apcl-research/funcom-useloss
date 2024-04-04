@@ -1,0 +1,1 @@
+TDAT: private void force send key event ( ) {  <NL> log . debug ( " force send key event " ) ;  <NL> panel . process key event ( new charva . awt . event . key event ( charva . awt . event . key event . vk _ up , charva . awt . event . awt event . key _ pressed , panel ) ) ;  <NL>  }  COM: <s> sends a key event to force the repaint of the panel </s>

@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> return get class ( ) . get name ( ) + " [ font = " + get font ( ) + " , color = " + get color ( ) +  <NL>  " , x offset = " + x offset + " , y offset = " + y offset + " clip = " + get clip rect ( ) + " ] " ;  <NL>  }  COM: <s> returns a string object representing this graphics value </s>

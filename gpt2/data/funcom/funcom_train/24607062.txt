@@ -1,0 +1,1 @@
+TDAT: private void _ generate a univ ( int index ) {  <NL> writer _ . start section ( cs _ c _ univ , _ get id ( cs _ c _ univ , index ) ) ;  <NL> writer _ . add property ( cs _ p _ name , _ get relative name ( cs _ c _ univ , index ) , false ) ;  <NL> writer _ . end section ( cs _ c _ univ ) ;  <NL>  }  COM: <s> generates a university instance </s>

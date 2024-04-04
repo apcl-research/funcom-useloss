@@ -1,0 +1,1 @@
+TDAT: public string get tic style ( ) {  <NL> string style = type converter . get string (  <NL> get axis attributes ( ) . get ( " tic style " ) ,  <NL> constants . get default ( get axis token ( ) . concat ( " axis . tic style " ) ) ) ;  <NL> if ( style = = null )  <NL> return " " ;  <NL> else <NL> return style ;  <NL>  }  COM: <s> gets the tic style </s>

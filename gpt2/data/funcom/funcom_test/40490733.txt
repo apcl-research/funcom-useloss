@@ -1,0 +1,1 @@
+TDAT: public double get velocity ( ) {  <NL> try {  <NL> return ( ( ( rate110 . get voltage ( ) - vref . get voltage ( ) ) * mv _ per _ volt ) / mv _ per _ deg _ per _ sec ) - zero v ;  <NL>  } catch ( io exception ex ) {  <NL> ex . print stack trace ( ) ;  <NL> return - 1 ; / / todo errors <NL>  }  <NL>  }  COM: <s> calculates the velocity reported by the gyro </s>

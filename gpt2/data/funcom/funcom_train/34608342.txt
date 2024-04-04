@@ -1,0 +1,1 @@
+TDAT: public boolean equals ( object obj ) {  <NL> if ( obj instanceof evoker point2d ) {  <NL> evoker point2d p2d = ( evoker point2d ) obj ;  <NL> return ( get x ( ) = = p2d . get x ( ) ) & & ( get y ( ) = = p2d . get y ( ) ) & & ( get id ( ) = = p2d . get id ( ) ) ;  <NL>  }  <NL> return false ;  <NL>  }  COM: <s> determines whether or not two points are equal </s>

@@ -1,0 +1,1 @@
+TDAT: public void test get url ( ) throws malformed url exception {  <NL> string url string = " http : / / www . reload . ac . uk " ;  <NL> url path url path = new url path ( url string ) ;  <NL> assert equals ( " url path should be the same " , url string , url path . get url ( ) ) ;  <NL>  }  COM: <s> get url is correct </s>

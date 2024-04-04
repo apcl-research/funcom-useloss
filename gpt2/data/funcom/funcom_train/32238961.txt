@@ -1,0 +1,1 @@
+TDAT: protected mj button get b mod ( ) {  <NL> if ( b mod = = null ) {  <NL> b mod = new mj button ( ) ;  <NL> b mod . set text ( " modify " ) ;  <NL> b mod . set mnemonic ( key event . vk _ m ) ;  <NL> b mod . set preferred size ( new java . awt . dimension ( 85 , 26 ) ) ;  <NL>  }  <NL> return b mod ;  <NL>  }  COM: <s> this method initializes b mod </s>

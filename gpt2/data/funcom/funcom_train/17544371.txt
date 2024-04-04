@@ -1,0 +1,1 @@
+TDAT: protected void perform action ( node [ ] nodes ) {  <NL> for ( int i = 0 ; i < nodes . length ; i + + ) {  <NL> blitz instance node cookie = ( blitz instance node ) nodes [ i ] . get cookie ( blitz instance node . class ) ;  <NL> if ( cookie ! = null ) {  <NL> cookie . view server output ( ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> performs the action </s>

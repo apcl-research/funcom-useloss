@@ -1,0 +1,1 @@
+TDAT: protected void spline forward ( int segments , gl matrix3d matrix ) {  <NL> float f = 1 . 0f / segments ;  <NL> float ff = f * f ;  <NL> float fff = ff * f ;  <NL>  <NL> matrix . set ( 0 , 0 , 0 , 1 ,  <NL> fff , ff , f , 0 ,  <NL> 6 * fff , 2 * ff , 0 , 0 ,  <NL> 6 * fff , 0 , 0 , 0 ) ;  <NL>  }  COM: <s> setup forward differencing matrix to be used for speedy </s>

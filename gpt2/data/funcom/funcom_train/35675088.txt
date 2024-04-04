@@ -1,0 +1,1 @@
+TDAT: public void test jvmquery ws ( ) throws exception {  <NL> jaxbgen ( " ws . jvmquery " , new file ( cob _ xsd _ dir , " jvmquery - ws . xsd " ) , true ,  <NL> 1l , true , null , null , null , null , false , false ) ;  <NL> check ( " ws . jvmquery " ) ;  <NL>  }  COM: <s> the jvmquery web service case </s>

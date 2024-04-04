@@ -1,0 +1,1 @@
+TDAT: public void choose element ( action event event ) {  <NL> value holder holder = ( value holder ) ( ( ui command ) event . get component ( ) ) . get value ( ) ;  <NL> curr rule = holder . get ( 0 ) . to string ( ) ;  <NL>  ( ( rule bean ) get rule ( curr rule ) ) . set curr element ( holder . get last ( ) ) ;  <NL>  }  COM: <s> selects chosen element in aproprate rule </s>

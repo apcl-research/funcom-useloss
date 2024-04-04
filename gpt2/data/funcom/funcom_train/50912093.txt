@@ -1,0 +1,1 @@
+TDAT: public int matrix get transpose ( ) {  <NL> int [ ] [ ] m = new int [ cols ] [ rows ] ;  <NL> for ( int i = 0 ; i < rows ; i + + ) {  <NL> for ( int j = 0 ; j < cols ; j + + ) {  <NL> m [ j ] [ i ] = this . flmat [ i ] [ j ] ;  <NL>  }  <NL>  }  <NL> return new int matrix ( m ) ;  <NL>  }  COM: <s> transpose matrix creates new matrix </s>

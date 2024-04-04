@@ -1,0 +1,1 @@
+TDAT: private j spinner create spinner ( ) {  <NL> spinner model model = new spinner number model ( 100 , 0 , 255 , 1 ) ;  <NL>  <NL> j spinner ret = new j spinner ( model ) ;  <NL>  / / ret . set minimum size ( new dimension ( 50 , 10 ) ) ;  <NL>  / / ret . set preferred size ( new dimension ( 50 , 10 ) ) ;  <NL> return ret ;  <NL>  }  COM: <s> creates one spinner </s>

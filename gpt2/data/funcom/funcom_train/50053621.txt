@@ -1,0 +1,1 @@
+TDAT: private void update force ( vector3f new p ) {  <NL> update location ( new p ) ;  <NL>  <NL> solver . u old [ solver . i ( i , j ) ] = ( float ) ( p . x - p old . x ) * 500000 ;  <NL> solver . v old [ solver . i ( i , j ) ] = ( float ) ( p . y - p old . y ) * 500000 ;  <NL>  }  COM: <s> updates the force at new p </s>

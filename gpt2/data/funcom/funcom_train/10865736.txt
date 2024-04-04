@@ -1,0 +1,1 @@
+TDAT: public void test dont stem ( ) throws io exception {  <NL> czech analyzer cz = new czech analyzer ( test _ version _ current ) ;  <NL> assert analyzes to ( cz , " e " , new string [ ] { " e " } ) ;  <NL> assert analyzes to ( cz , " zi " , new string [ ] { " zi " } ) ;  <NL>  }  COM: <s> test that very short words are not stemmed </s>

@@ -1,0 +1,1 @@
+TDAT: public void store contact ( string jid , string name , string group , boolean ask subscribe ) {  <NL>  <NL> the stream . send ( new iq query roster ( jid , name , group , null ) ) ;  <NL> if ( ask subscribe ) the stream . send ( new presence ( jid , " subscribe " ) ) ;  <NL>  }  COM: <s> store cotnact on server </s>

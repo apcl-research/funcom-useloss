@@ -1,0 +1,1 @@
+TDAT: public hashtable to hash ( ) {  <NL> hashtable hash = new hashtable ( ) ;  <NL> hash . put ( hkey _ pl _ src _ id , new integer ( pl _ src _ id ) ) ;  <NL> hash . put ( hkey _ folder _ ids , folder _ ids ! = null ? folder _ ids : new vector ( ) ) ;  <NL> return hash ;  <NL>  }  COM: <s> store the object as a hash suitable for </s>

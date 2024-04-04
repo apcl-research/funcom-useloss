@@ -1,0 +1,1 @@
+TDAT: public icon get icon ( final string type ) {  <NL> if ( ! icons . contains key ( type ) ) {  <NL> icons . put ( type , new image icon ( get scaled image (  <NL> new image icon ( get icon url ( type ) ) . get image ( ) , 16 , 16 ) ) ) ;  <NL>  }  <NL> return icons . get ( type ) ;  <NL>  }  COM: <s> retrieves the icon with the specified type </s>

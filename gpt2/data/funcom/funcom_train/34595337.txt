@@ -1,0 +1,1 @@
+TDAT: public boolean apply ( pokemon p ) {  <NL> if ( p . has ability ( " magma armor " ) ) {  <NL> return false ;  <NL>  }  <NL> if ( p . is type ( pokemon type . t _ ice ) )  <NL> return false ;  <NL> if ( p . get field ( ) . get effect by type ( sun effect . class ) ! = null )  <NL> return false ;  <NL> return true ;  <NL>  }  COM: <s> ice pokemon cannot be frozen </s>

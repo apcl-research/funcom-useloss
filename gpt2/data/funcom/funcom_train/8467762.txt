@@ -1,0 +1,1 @@
+TDAT: public e user get user ( integer user id ) {  <NL> entity manager em = get entity manager ( ) ;  <NL> try {  <NL> em . get transaction ( ) . begin ( ) ;  <NL> e user userx = em . find ( e user . class , user id ) ;  <NL> em . get transaction ( ) . commit ( ) ;  <NL> return userx ;  <NL>  } finally {  <NL> em . close ( ) ;  <NL>  }  <NL>  }  COM: <s> finds and returns </s>

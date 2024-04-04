@@ -1,0 +1,1 @@
+TDAT: public boolean fire before row ( session session , row old row , row new row ) {  <NL> boolean done = fire row ( session , old row , new row , true , false ) ;  <NL> fire constraints ( session , old row , new row , true ) ;  <NL> return done ;  <NL>  }  COM: <s> fire all triggers that need to be called before a row is updated </s>

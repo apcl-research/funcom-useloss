@@ -1,0 +1,1 @@
+TDAT: protected void setup specifications ( ) {  <NL> specs = new specification [ 4 ] ;  <NL> specs [ 0 ] = new wms1 _ 0 _ 0 ( ) ;  <NL> specs [ 1 ] = new wms1 _ 1 _ 0 ( ) ;  <NL> specs [ 2 ] = new wms1 _ 1 _ 1 ( ) ;  <NL> specs [ 3 ] = new wms1 _ 3 _ 0 ( ) ;  <NL>  }  COM: <s> sets up the specifications versions that this server is capable of </s>

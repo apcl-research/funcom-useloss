@@ -1,0 +1,1 @@
+TDAT: private string format line ( string server , string text ) {  <NL> string line = " " ;  <NL>  <NL> if ( ! string util . is null string ( server ) ) {  <NL> line = _ add server name ? ( server + " : " ) : " " ;  <NL>  }  <NL>  <NL> return line + " < b > " + text + " < / b > " ;  <NL>  }  COM: <s> format error and informational text essentially omit the </s>

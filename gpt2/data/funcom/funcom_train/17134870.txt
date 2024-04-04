@@ -1,0 +1,1 @@
+TDAT: private void set heal left animation ( image image ) {  <NL> this . heal left = new animation ( new sprite sheet ( image , 72 , 72 ) , frame _ slow _ interval ) ;  <NL> this . get heal left animation ( ) . set looping ( true ) ;  <NL> this . get heal left animation ( ) . set auto update ( false ) ;  <NL>  }  COM: <s> set the healing animation only for type elvira </s>

@@ -1,0 +1,1 @@
+TDAT: public void selected seq range ( int current chain number , int start , int end ) {  <NL> string cmd = get select str ( current chain number , start + 1 , end + 1 ) ;  <NL> cmd + = " set display selected ; " ;  <NL> if ( ! cmd . equals ( " " ) )  <NL> execute cmd ( cmd ) ;  <NL>  }  COM: <s> select a range of sequence </s>

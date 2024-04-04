@@ -1,0 +1,1 @@
+TDAT: public void set identifiers ( int [ ] data ) {  <NL> if ( data ! = null ) {  <NL> m _ data = new int [ data . length ] ;  <NL> system . arraycopy ( data , 0 , m _ data , 0 , data . length ) ;  <NL>  } else {  <NL> m _ data = new int [ 2 ] ;  <NL> m _ data [ 0 ] = m _ data [ 1 ] = 0 ;  <NL>  }  <NL>  }  COM: <s> sets the object to the passed object identifier </s>

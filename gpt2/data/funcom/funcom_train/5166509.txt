@@ -1,0 +1,1 @@
+TDAT: public void make vents ( ) {  <NL> m _ vents = new vent [ 64 ] ;  <NL> for ( int i = 0 ; i < m _ vents . length ; i + + ) {  <NL>  / / set a weight between 290 and 310 <NL> double weight = 290 + math . random ( ) * 20 ;  <NL> vent vent = new vent ( weight ) ;  <NL> m _ vents [ i ] = vent ;  <NL>  }  <NL>  }  COM: <s> create vents with different weights </s>

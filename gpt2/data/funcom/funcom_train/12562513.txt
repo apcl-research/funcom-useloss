@@ -1,0 +1,1 @@
+TDAT: public enumeration get mi dlets ( ) {  <NL> vector v = new vector ( ) ;  <NL> synchronized ( midlet proxies ) {  <NL> int size = midlet proxies . size ( ) ;  <NL> for ( int i = 0 ; i < size ; i + + ) {  <NL> v . add element ( midlet proxies . element at ( i ) ) ;  <NL>  }  <NL>  }  <NL> return v . elements ( ) ;  <NL>  }  COM: <s> get an enumeration of midlet proxies </s>

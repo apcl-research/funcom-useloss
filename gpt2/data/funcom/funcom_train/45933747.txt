@@ -1,0 +1,1 @@
+TDAT: public void delete object ( final number _ id , final number _ version ) {  <NL> if ( _ id = = null ) {  <NL> log . warn ( " got no contact - id for delete ? ! " ) ;  <NL> return ;  <NL>  }  <NL>  <NL> this . id to base version . put ( _ id , _ version / * can be null * / ) ;  <NL>  }  COM: <s> enqueues the record with the primary key id for deletion </s>

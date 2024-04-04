@@ -1,0 +1,1 @@
+TDAT: public mutable matrix3f set col ( int col , read only vector3f values ) {  <NL> return set ( 0 , col , values . get x ( ) )  <NL>  . set ( 1 , col , values . get y ( ) )  <NL>  . set ( 2 , col , values . get z ( ) ) ;  <NL>  }  COM: <s> set the given matrix column to the three values stored in the vector </s>

@@ -1,0 +1,1 @@
+TDAT: public void test ok no attr list ( ) {  <NL> test ok syntax ( " meep = ( 123 , sfsdf ) ; keep = ( 321 , dfg ) ; reap = ( sdf , 432 ) ; \n " +  <NL>  " a12 : a32 ; deep : er [ 123 ] re [ 432 ] ; unix : sco [ 1 ] sco [ 2 ] ; \n " ) ;  <NL>  }  COM: <s> p test for valid syntax with the optional node and edge </s>

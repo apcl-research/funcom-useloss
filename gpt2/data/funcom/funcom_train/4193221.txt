@@ -1,0 +1,1 @@
+TDAT: public string get absolute uri ( )  <NL>  { int begin = value . index of ( " < " ) ;  <NL> int end = value . index of ( " > " ) ;  <NL> if ( begin < 0 ) begin = 0 ; else begin + + ;  <NL> if ( end < 0 ) end = value . length ( ) ;  <NL> return value . substring ( begin , end ) ;  <NL>  }  COM: <s> gets the absolute uri </s>

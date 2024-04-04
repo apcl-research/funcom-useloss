@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> string buffer tmp = new string buffer ( super . to string ( ) ) ;  <NL> tmp . set char at ( tmp . length ( ) - 1 , ' , ' ) ;  <NL> tmp . append ( " added order = " ) ;  <NL> tmp . append ( added order ) ;  <NL> tmp . append ( ' } ' ) ;  COM: <s> retruns a string representaion of this ucl </s>

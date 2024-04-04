@@ -1,0 +1,1 @@
+TDAT: public int bit count ( ) {  <NL> int i , x _ len ;  <NL> int [ ] x _ words = words ;  <NL> if ( x _ words = = null ) {  <NL> x _ len = 1 ;  <NL> i = bit count ( ival ) ;  <NL>  } else {  <NL> x _ len = ival ;  <NL> i = bit count ( x _ words , x _ len ) ;  <NL>  }  <NL> return is negative ( ) ? x _ len * 32 - i : i ;  <NL>  }  COM: <s> count one bits in a big integer </s>

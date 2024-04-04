@@ -1,0 +1,1 @@
+TDAT: public void ordinary chars ( int low , int hi ) {  <NL> if ( low < 0 ) {  <NL> low = 0 ;  <NL>  }  <NL> if ( hi > token types . length ) {  <NL> hi = token types . length - 1 ;  <NL>  }  <NL> for ( int i = low ; i < = hi ; i + + ) {  <NL> token types [ i ] = 0 ;  <NL>  }  <NL>  }  COM: <s> specifies that the characters in the range from </s>

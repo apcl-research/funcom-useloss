@@ -1,0 +1,1 @@
+TDAT: public void set color ( object component , string key , integer color ) {  <NL> object [ ] definition = get definition ( get class ( component ) , key , " color " ) ;  <NL> if ( set ( component , definition [ 1 ] , color ) ) {  <NL> update ( component , definition [ 2 ] ) ;  <NL>  }  <NL>  }  COM: <s> set custom color on a component </s>

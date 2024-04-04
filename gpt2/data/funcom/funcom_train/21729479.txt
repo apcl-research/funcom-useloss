@@ -1,0 +1,1 @@
+TDAT: public int getu ( ram ram , int off ) {  <NL> switch ( this ) {  <NL> case byte : {  <NL> return ram . get byte ( off ) ;  <NL>  }  <NL> case word : {  <NL> return ram . get word ( off ) ;  <NL>  }  <NL> case long : {  <NL> return ram . get signed long ( off ) ;  <NL>  }  <NL> default : {  <NL> throw new error ( ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> note that in the </s>

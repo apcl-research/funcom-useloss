@@ -1,0 +1,1 @@
+TDAT: public void draw dots in spots ( char pix [ ] , int color )  <NL>  { / * draw dots in spots * /  <NL> draw pix . draw dots in spots ( db sample , pix , color , pix width ,  <NL> draw plus switch , draw mer switch ,  <NL> draw sx sy ellipse switch ) ;  <NL>  } / * draw dots in spots * /  COM: <s> draw dots in spots if generating the segmented spot image </s>

@@ -1,0 +1,1 @@
+TDAT: public t push ( ) {  <NL> if ( m first = = - 1 ) {  <NL> m first = m last = 0 ;  <NL>  } else {  <NL> m last + + ;  <NL> if ( m last = = m buffer . length ) m last = 0 ;  <NL> if ( m last = = m first ) {  <NL> return resize ( ) ;  <NL>  }  <NL>  }  <NL> return m buffer [ m last ] ;  <NL>  }  COM: <s> prepares a new action to be queued in the circular buffer </s>

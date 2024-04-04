@@ -1,0 +1,1 @@
+TDAT: public void do font down ( ) {  <NL> editor editor = ( editor ) get jpe ( ) . get editor ( ) ;  <NL> int size = editor . do font down ( ) ;  <NL> get jpe ( ) . say ( " font size now " + size ) ;  <NL> get jpe ( ) . put property ( " setup " , " fontsize " , " " + size ) ;  <NL>  }  COM: <s> shift our fontsize down by 1 </s>

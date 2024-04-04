@@ -1,0 +1,1 @@
+TDAT: public list get kegg pair list ( ) {  <NL> g logger . info ( " comming into get kegg pair list method of kegg pair util " ) ;  <NL> if ( kegg pair list = = null ) {  <NL> set pair list ( ) ;  <NL>  }  <NL> g logger . info ( " out from get kegg pair list method of kegg pair util " ) ;  <NL> return this . kegg pair list ;  <NL>  }  COM: <s> to get the list of kegg r pair </s>

@@ -1,0 +1,1 @@
+TDAT: public void change oi model ( list events ) {  <NL> if ( no changes change replica ( events ) )  <NL> execute command ex ( new change oi model cmd ( m _ oimodel , events , get dependent evolution strategy ( ) , m _ kaon connection evolution logs , evolution log . log _ normal , this ) ) ;  <NL>  }  COM: <s> changes the oi model </s>

@@ -1,0 +1,1 @@
+TDAT: public void test triangle _ an _ bn ( ) {  <NL> span calc sc = create triangle ( ) ;  <NL> check plausibility ( sc ) ;  <NL> for ( int pi = 0 ; pi < sc . get position count ( ) ; pi + + )  <NL> for ( int hi = 0 ; hi < sc . get hierarchy count ( ) ; hi + + )  <NL> check ( sc , pi , hi , true , 1 , 1 ) ;  <NL>  }  COM: <s> no span for a and no span for b </s>

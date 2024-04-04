@@ -1,0 +1,1 @@
+TDAT: private boolean requires continuation ( string s ) {  <NL> char [ ] ca = s . to char array ( ) ;  <NL> int i = ca . length - 1 ;  <NL> while ( i > 0 & & ca [ i ] = = ' \\ ' ) {  <NL> i - - ;  <NL>  }  <NL>  / / trailing backslashes <NL> int tb = ca . length - i - 1 ;  <NL> return tb % 2 = = 1 ;  <NL>  }  COM: <s> returns code true code if the line represented by </s>

@@ -1,0 +1,1 @@
+TDAT: public dxs vector3f cross ( dxs vector3f v2 ) {  <NL> float res x = ( ( y * v2 . z ) - ( z * v2 . y ) ) ;  <NL> float res y = ( ( z * v2 . x ) - ( x * v2 . z ) ) ;  <NL> float res z = ( ( x * v2 . y ) - ( y * v2 . x ) ) ;  <NL> return new dxs vector3f ( res x , res y , res z ) ;  <NL>  }  COM: <s> apply the cross product with the input vector </s>

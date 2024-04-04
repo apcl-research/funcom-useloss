@@ -1,0 +1,1 @@
+TDAT: public void test translate ( ) {  <NL> point2d p = new point ( 10 , 10 ) ;  <NL> jaxo geometry . translate ( p , 10 . d , 10 . d ) ;  <NL> assert true ( " wrong translate ! " , p . get x ( ) > 15 . d ) ;  <NL> assert true ( " wrong translate ! " , p . get y ( ) > 15 . d ) ;  <NL>  }  COM: <s> test of translate method of class net </s>

@@ -1,0 +1,1 @@
+TDAT: public double get spatproduct ( vector3d a , vector3d b , vector3d c ) {  <NL> return ( c . x * ( b . y * a . z - b . z * a . y ) + c . y * ( b . z * a . x - b . x * a . z ) + c . z * ( b . x * a . y - b . y * a . x ) ) ;  <NL>  }  COM: <s> gets the spatproduct of three vectors </s>

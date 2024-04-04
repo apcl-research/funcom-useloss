@@ -1,0 +1,1 @@
+TDAT: static public tabular type tabular type ( string name , string description , composite type row type , string . . . index ) {  <NL> try {  <NL> return new tabular type ( name , description , row type , index ) ;  <NL>  } catch ( open data exception e ) {  <NL> throw new runtime exception ( e ) ;  <NL>  }  <NL>  }  COM: <s> create a tabular type </s>

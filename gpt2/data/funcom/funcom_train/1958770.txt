@@ -1,0 +1,1 @@
+TDAT: public void test exec timeout ( ) throws throwable {  <NL> try {  <NL> exec sync ( " sleep 15s " , null , null , null , null , 1 ) ;  <NL> fail ( " timed out execution did not produce exception . " ) ;  <NL>  } catch ( interrupted exception e ) {  <NL>  / / that is what we expect <NL>  }  <NL>  }  COM: <s> test synchronous program with timeout </s>

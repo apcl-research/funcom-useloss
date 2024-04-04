@@ -1,0 +1,1 @@
+TDAT: protected int find index of ( object [ ] array , object job id ) {  <NL> int i = take index ;  <NL> int k = 0 ;  <NL> for ( ; ; ) {  <NL> if ( k + + > = count )  <NL> return - 1 ;  <NL> if ( items [ i ] . equals ( job id ) ) {  <NL> return i ;  <NL>  }  <NL> i = inc ( i ) ;  <NL>  }  <NL>  }  COM: <s> find position of the object </s>

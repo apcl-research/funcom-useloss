@@ -1,0 +1,1 @@
+TDAT: public void set text ( string new text ) {  <NL> for ( int i = 0 ; i < chart arr . size ( ) ; i + + ) {  <NL> biff rec b = ( biff rec ) chart arr . get ( i ) ;  <NL> if ( b . get opcode ( ) = = seriestext ) {  <NL> series text st = ( series text ) b ;  <NL> st . set text ( new text ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> set the text of this text display object </s>

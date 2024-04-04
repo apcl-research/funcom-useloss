@@ -1,0 +1,1 @@
+TDAT: public void add ( string str ) {  <NL> string [ ] tmp ;  <NL>  <NL> if ( size = = data . length ) {  <NL> tmp = new string [ data . length + grow ] ;  <NL> system . arraycopy ( data , 0 , tmp , 0 , data . length ) ;  <NL> data = tmp ;  <NL>  }  <NL> data [ size ] = str ;  <NL> size + + ;  <NL>  }  COM: <s> adds a new element to the end of the list </s>

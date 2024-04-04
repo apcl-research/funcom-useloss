@@ -1,0 +1,1 @@
+TDAT: public buffered image get image ( int x , int y , int w , int h , int zoom , int cached zoom ) {  <NL>  / / create buffered image for return <NL> return get image ( x , y , w , h , zoom , cached zoom , null ) ;  <NL>  }  COM: <s> returns image at x and y </s>

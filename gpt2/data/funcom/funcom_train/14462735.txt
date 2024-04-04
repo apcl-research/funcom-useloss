@@ -1,0 +1,1 @@
+TDAT: protected chart format get chart format ( ) {  <NL> for ( int i = 0 ; i < chart arr . size ( ) ; i + + ) {  <NL> biff rec b = ( biff rec ) chart arr . get ( i ) ;  <NL> if ( b . get opcode ( ) = = chartformat ) {  <NL> chart format cf = ( chart format ) b ;  <NL> return cf ;  <NL>  }  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> get the chart format collection </s>

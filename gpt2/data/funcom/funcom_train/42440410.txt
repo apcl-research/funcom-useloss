@@ -1,0 +1,1 @@
+TDAT: private void set layout ( ) {  <NL> layout = new row layout ( orientation . vertical ) ;  <NL> set layout ( layout ) ;  <NL> ws panel constraint = new row data ( 1 , 0 . 9 , new margins ( 1 ) ) ;  <NL> add wsdl panel constraint = new row data ( 1 , 0 . 1 , new margins ( 1 ) ) ;  <NL>  }  COM: <s> sets the row layout </s>

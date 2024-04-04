@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> return ( digits ( most sig bits > > 32 , 8 ) + " - " +  <NL> digits ( most sig bits > > 16 , 4 ) + " - " +  <NL> digits ( most sig bits , 4 ) + " - " +  <NL> digits ( least sig bits > > 48 , 4 ) + " - " +  <NL> digits ( least sig bits , 12 ) ) ;  <NL>  }  COM: <s> returns a code string code object representing this </s>

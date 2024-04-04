@@ -1,0 +1,1 @@
+TDAT: public component get header renderer ( header panel panel , object value , boolean is header , boolean is working ) {  <NL>  / / have some space around , so that " mon / tue . . . " won ' t stick together .  <NL> set text ( " " + value . to string ( ) + " " ) ;  <NL> return this ;  <NL>  }  COM: <s> returns the component used to render the header </s>

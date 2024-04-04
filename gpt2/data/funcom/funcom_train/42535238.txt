@@ -1,0 +1,1 @@
+TDAT: public boolean equals ( object o ) {  <NL> if ( ! ( o instanceof loc def ) ) return false ;  <NL> if ( o = = this ) return true ;  <NL> loc def oo = ( loc def ) o ;  <NL> return ( ( ( object ) id ) . equals ( oo . id ) ) & & ( ( ( object ) re ) . equals ( oo . re ) ) ;  <NL>  }  COM: <s> is the given object equal to this loc def </s>

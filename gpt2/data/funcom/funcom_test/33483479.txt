@@ -1,0 +1,1 @@
+TDAT: public user online find user online by user name ( string user name ) {  <NL> list l = this . get hibernate template ( ) . find ( load _ by _ username , user name ) ;  <NL> if ( l = = null || l . is empty ( ) ) {  <NL> return null ;  <NL>  }  <NL> else {  <NL> return ( user online ) l . get ( 0 ) ;  <NL>  }  <NL>  }  COM: <s> user name user online </s>

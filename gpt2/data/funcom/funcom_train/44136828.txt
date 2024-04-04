@@ -1,0 +1,1 @@
+TDAT: public void play ( ) {  <NL> if ( ! m _ play list . is empty ( ) ) {  <NL> string filename = this . get file at ( m _ playing file ) ;  <NL> if ( filename ! = null ) {  <NL> m _ is playing = true ;  <NL> m _ player . set file name ( filename ) ;  <NL> m _ player . play ( ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> to play the sounds </s>

@@ -1,0 +1,1 @@
+TDAT: public void set intensities ( int index , float cy3 , float cy5 ) {  <NL> i slide data element sde = ( i slide data element ) element at ( index ) ;  <NL> sde . set true intensity ( i slide data element . cy3 , cy3 ) ;  <NL> sde . set true intensity ( i slide data element . cy5 , cy5 ) ;  <NL>  }  COM: <s> sets intensities for a spot with specified index </s>

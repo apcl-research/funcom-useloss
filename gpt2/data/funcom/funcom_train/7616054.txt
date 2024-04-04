@@ -1,0 +1,1 @@
+TDAT: public void set arc ( point2d point , dimension2d size , double start , double extent , int type ) {  <NL> set arc ( point . get x ( ) , point . get y ( ) , size . get width ( ) , size . get height ( ) , start , extent , type ) ;  <NL>  }  COM: <s> sets the data that defines the arc </s>

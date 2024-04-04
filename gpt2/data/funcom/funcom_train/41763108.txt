@@ -1,0 +1,1 @@
+TDAT: public void get single meeme ( final string user , final string meeme id , context c , callbackable callback instance ) {  <NL> execute command ( getsinlemeeme , new string [ ] { user , meeme id } , true , cb _ single _ meeme , false , true , c , callback instance ) ;  <NL>  }  COM: <s> this method returns the specified single meeme </s>

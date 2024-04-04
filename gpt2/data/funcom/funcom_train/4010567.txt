@@ -1,0 +1,1 @@
+TDAT: public int get max width ( ) {  <NL> if ( index max > 0 ) {  <NL> return ( int ) ( ( time ms [ index max - 1 ] - x min ) * scale zoom x / 10 ) + border x ;  <NL>  } else {  <NL> return ( int ) ( ( x max - x min ) * scale zoom x / 10 ) + border x ;  <NL>  }  <NL>  }  COM: <s> return the width that the current telemetry data occupies </s>

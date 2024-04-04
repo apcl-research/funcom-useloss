@@ -1,0 +1,1 @@
+TDAT: public int get valency ( int v ) {  <NL> if ( v = = - 1 ) return 0 ;  <NL> int i = 0 ;  <NL> for ( edge e : get neighborhood ( v ) ) {  <NL> if ( e . is loop ( ) ) { i + = multi edge ? e . get weight ( ) : 1 ; }  <NL> i + = multi edge ? e . get weight ( ) : 1 ;  <NL>  }  <NL> return i ;  <NL>  }  COM: <s> returns the valency of a given vertex </s>

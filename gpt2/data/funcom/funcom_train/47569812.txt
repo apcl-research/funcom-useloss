@@ -1,0 +1,1 @@
+TDAT: public map new map ( string key1 , string value1 , string key2 , string value2 , string key3 , string value3 ) {  <NL> map map = new hash map ( 3 ) ;  <NL> map . put ( key1 , value1 ) ;  <NL> map . put ( key2 , value2 ) ;  <NL> map . put ( key3 , value3 ) ;  <NL> return map ;  <NL>  }  COM: <s> create a new map using the three key value pairs </s>

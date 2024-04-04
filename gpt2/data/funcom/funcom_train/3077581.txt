@@ -1,0 +1,1 @@
+TDAT: public void write ( int cc ) throws io exception {  <NL> final byte c = ( byte ) cc ;  <NL> if ( ( c = = ' \n ' ) || ( c = = ' \r ' ) ) {  <NL> if ( ! skip ) {  <NL> process buffer ( ) ;  <NL>  }  <NL>  } else {  <NL> buffer . write ( cc ) ;  <NL>  }  <NL> skip = ( c = = ' \r ' ) ;  <NL>  }  COM: <s> write the data to the buffer and flush the buffer if a line </s>

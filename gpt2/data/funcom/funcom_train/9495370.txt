@@ -1,0 +1,1 @@
+TDAT: public double density ( double x ) {  <NL> if ( x < 0 ) return 0 ;  <NL> return math . pow ( x / get beta ( ) , get alpha ( ) - 1 ) / get beta ( ) * math . exp ( - x / get beta ( ) ) / math . exp ( gamma . log gamma ( get alpha ( ) ) ) ;  <NL>  }  COM: <s> return the probability density for a particular point </s>

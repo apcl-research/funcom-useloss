@@ -1,0 +1,1 @@
+TDAT: public boolean accept ( file f ) {  <NL> boolean ret = false ;  <NL> if ( f ! = null ) {  <NL> if ( ( f . is file ( ) & & ( f . get name ( ) . ends with ( ear _ file _ filter _ extension ) ) ) || f . is directory ( ) ) {  <NL> ret = true ;  <NL>  }  <NL>  }  <NL> return ret ;  <NL>  }  COM: <s> true if the file is accepted </s>

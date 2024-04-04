@@ -1,0 +1,1 @@
+TDAT: public event make copy ( ) {  <NL> event new event = new event ( this . get start ( ) , this . get end ( ) , this . get description ( ) , this . get medium ( ) , this . get url ( ) ) ;  <NL> new event . set ud event information ( this . get ud event information ( ) . make copy ( ) ) ;  <NL> return new event ;  <NL>  }  COM: <s> returns a copy of this event </s>

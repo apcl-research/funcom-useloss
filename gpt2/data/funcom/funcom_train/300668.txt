@@ -1,0 +1,1 @@
+TDAT: public void set alpha rate ( float rate ) {  <NL> this . flt fade amt = new float ( rate ) . float value ( ) ;  <NL>  <NL> if ( this . flt fade amt < = 0 . 01f ) {  <NL> this . flt fade amt = 0 . 01f ;  <NL>  }  <NL> else if ( this . flt fade amt > 1f ) {  <NL> this . flt fade amt = 1f ;  <NL>  }  <NL>  }  COM: <s> set the rate at which the fade transition occurs </s>

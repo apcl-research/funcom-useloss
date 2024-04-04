@@ -1,0 +1,1 @@
+TDAT: protected void set up ( ) {  <NL> this . jan1900 = new month ( month . january , 1900 ) ;  <NL> this . feb1900 = new month ( month . february , 1900 ) ;  <NL> this . nov9999 = new month ( month . november , 9999 ) ;  <NL> this . dec9999 = new month ( month . december , 9999 ) ;  <NL>  }  COM: <s> common test setup </s>

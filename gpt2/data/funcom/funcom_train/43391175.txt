@@ -1,0 +1,1 @@
+TDAT: public void create mb client ( ) throws exception {  <NL> if ( conf . get s ( ) . get metabroker ( ) ! = null )  <NL> if ( ! " " . equals ( conf . get s ( ) . get metabroker ( ) ) )  <NL> meta broker client = new mb service client ( new url ( conf . get s ( ) . get metabroker ( ) ) ) ;  <NL>  }  COM: <s> creating a meta broker client </s>

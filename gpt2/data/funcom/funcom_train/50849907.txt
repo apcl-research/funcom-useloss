@@ -1,0 +1,1 @@
+TDAT: public void test entity angle ( ) {  <NL>  / *  <NL> assert equals ( 90 , abstract entity . calc stance angle ( 1 , 0 ) ) ;  <NL> assert equals ( 225 , abstract entity . calc stance angle ( - 1 , 1 ) ) ;  <NL> assert equals ( 0 , abstract entity . calc stance angle ( 0 , - 1 ) ) ;  <NL>  * /  <NL>  }  COM: <s> test the angle stuff in abstract entity </s>

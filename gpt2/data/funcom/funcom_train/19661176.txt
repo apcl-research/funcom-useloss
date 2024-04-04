@@ -1,0 +1,1 @@
+TDAT: protected long jar ( string dest file , file list files , string base path ) {  <NL> long kb = zip or jar ( dest file , files , base path , false , false , true ) ;  <NL> println ( " jar " + dest file + " ( " + kb + " kb ) " ) ;  <NL> return kb ;  <NL>  }  COM: <s> create a jar file </s>

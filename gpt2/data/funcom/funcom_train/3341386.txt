@@ -1,0 +1,1 @@
+TDAT: protected tcp header create outgoing tcp header ( int options , int ack nr ) {  <NL> final tcp header hdr =  <NL> new tcp header ( get local port ( ) , get foreign port ( ) , 0 , 0 , ack nr , out window size , 0 ) ;  <NL> hdr . set flags ( options ) ;  <NL> return hdr ;  <NL>  }  COM: <s> create a tcp header for outgoing trafic </s>

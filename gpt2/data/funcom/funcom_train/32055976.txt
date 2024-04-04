@@ -1,0 +1,1 @@
+TDAT: public void move view ( cell view view , double dx , double dy ) {  <NL>  / / system . out . println ( " set delta for " + view + " to " + dx + " , " + dy ) ;  <NL> point2d . double p = get delta ( view ) ;  <NL> p . set location ( p . get x ( ) + dx , p . get y ( ) + dy ) ;  <NL>  }  COM: <s> this allows a movement of the cell view </s>

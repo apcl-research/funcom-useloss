@@ -1,0 +1,1 @@
+TDAT: private void set format ( int id , simple format format ) {  <NL> format . set id ( id ) ;  <NL> format . initialize if needed ( this , null / * model * / ) ;  <NL> format list . set ( id , format ) ;  <NL> format map . put ( format . get class name ( ) , format ) ;  <NL>  }  COM: <s> sets a format for which space in the format list has been preallocated </s>

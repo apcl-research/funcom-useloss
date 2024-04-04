@@ -1,0 +1,1 @@
+TDAT: public void set ref ( int i , ref x ) throws sql exception {  <NL> try {  <NL> ps . set ref ( i , x ) ;  <NL>  }  <NL> catch ( sql exception sqlex ) {  <NL> log . debug ( get log string ( ) + " exception : " + sqlex ) ;  <NL> throw sqlex ;  <NL>  }  <NL> set content ( i , x ) ;  <NL>  }  COM: <s> sets the designated parameter to the given </s>

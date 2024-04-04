@@ -1,0 +1,1 @@
+TDAT: public boolean is new limit char ( char c ) {  <NL> if ( ! ( new limit chars = = null ) ) {  <NL> for ( int i = 0 ; i < new limit chars . size ( ) ; i + + ) {  <NL> if ( c = = ( ( limit char ) new limit chars . element at ( i ) ) . get char ( ) )  <NL> return true ;  <NL>  }  <NL>  }  <NL> return false ;  <NL>  }  COM: <s> test if c is a new limit character </s>

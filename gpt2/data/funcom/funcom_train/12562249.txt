@@ -1,0 +1,1 @@
+TDAT: private void add mi dlet ( mi dlet info info ) {  <NL> if ( mcount > = minfo . length ) {  <NL> mi dlet info [ ] n = new mi dlet info [ mcount + 4 ] ;  <NL> system . arraycopy ( minfo , 0 , n , 0 , mcount ) ;  <NL> minfo = n ;  <NL>  }  <NL>  <NL> minfo [ mcount + + ] = info ;  <NL>  }  COM: <s> add a midlet to the list </s>

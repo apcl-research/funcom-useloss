@@ -1,0 +1,1 @@
+TDAT: public void put ( var var , object val ) {  <NL> if ( frozen ) {  <NL> throw new binding error ( " cannot modify a frozen binding " ) ;  <NL>  }  <NL> if ( null = = val ) {  <NL> throw new binding error ( " attempting to bind " + var + " to null " ) ;  <NL>  }  <NL> var to term . put ( var , val ) ;  <NL>  }  COM: <s> puts a binding from var to val into this unifier </s>

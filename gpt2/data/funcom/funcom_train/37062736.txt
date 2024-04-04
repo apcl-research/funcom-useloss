@@ -1,0 +1,1 @@
+TDAT: public void compute gear table ( ) {  <NL>  <NL> double hash value = 0 . 0 ;  <NL>  <NL> for ( int i = 1 ; i < = 28 ; i + + ) {  <NL> hash value = ( 1 . 75 + ( i - 1 ) * 0 . 098767 ) * wheel perimeter * 0 . 06 ;  <NL> gear table . put ( new integer ( i ) , new double ( hash value ) ) ;  <NL>  }  <NL>  }  COM: <s> computes the values of the hashtable witch is the factor </s>

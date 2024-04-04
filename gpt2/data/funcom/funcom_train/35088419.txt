@@ -1,0 +1,1 @@
+TDAT: public void clear data ( ) {  <NL> iterator itr = this . server list map . key set ( ) . iterator ( ) ;  <NL> while ( itr . has next ( ) ) {  <NL> list lt = ( list ) this . server list map . get ( itr . next ( ) ) ;  <NL> lt . clear ( ) ;  <NL>  }  <NL> this . server list map . clear ( ) ;  <NL>  }  COM: <s> clears everything except the listener </s>

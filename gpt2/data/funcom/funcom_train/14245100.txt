@@ -1,0 +1,1 @@
+TDAT: public m actor build actor ( m namespace ns ) {  <NL> if ( ns = = null ) return build actor ( ) ;  <NL> m actor actor = create actor ( ) ;  <NL> actor . set namespace ( ns ) ;  <NL> actor . set leaf ( false ) ;  <NL> actor . set root ( false ) ;  <NL> actor . set name ( " new actor " ) ;  <NL> return actor ;  <NL>  }  COM: <s> builds an actor in the given namespace </s>

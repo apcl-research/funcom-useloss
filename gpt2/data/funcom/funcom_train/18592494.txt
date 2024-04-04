@@ -1,0 +1,1 @@
+TDAT: public void action resize ( component w , int width , int height ) {  <NL> if ( ! user resizable ( w ) )  <NL> throw new action failed exception ( strings . get ( " tester . window . no _ resize " ) ) ;  <NL> resize ( ( window ) w , width , height ) ;  <NL> wait for idle ( ) ;  <NL>  }  COM: <s> resize the given window </s>

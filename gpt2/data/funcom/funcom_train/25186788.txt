@@ -1,0 +1,1 @@
+TDAT: public void copy path ( path from ) {  <NL> for ( int i = 0 ; i < from . _ path . size ( ) ; i + + ) {  <NL>  _ path . add ( from . _ path . get ( i ) ) ;  <NL>  }  <NL>  _ depth + = from . get depth ( false ) ;  <NL>  _ idepth + = from . get depth ( true ) ;  <NL>  }  COM: <s> copies clones path from from by adding it to current path </s>

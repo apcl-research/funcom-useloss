@@ -1,0 +1,1 @@
+TDAT: public void delete ( session session , row row ) {  <NL>  <NL> row = ( row ) get ( row , false ) ;  <NL>  <NL> for ( int i = index list . length - 1 ; i > = 0 ; i - - ) {  <NL> index list [ i ] . delete ( session , this , row ) ;  <NL>  }  <NL>  <NL> row . delete ( this ) ;  <NL>  }  COM: <s> basic delete with no logging or referential checks </s>

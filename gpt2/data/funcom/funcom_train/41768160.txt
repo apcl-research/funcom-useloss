@@ -1,0 +1,1 @@
+TDAT: public void remove media ( media media ) {  <NL> int i = j option pane . show confirm dialog ( frame , " remove \ " " + media . get title ( ) + " \ " ? " , " remove from collection " , j option pane . ok _ option ) ;  <NL> if ( i = = 0 )  <NL> controller . remove media ( media ) ;  <NL>  }  COM: <s> removes the specified media </s>

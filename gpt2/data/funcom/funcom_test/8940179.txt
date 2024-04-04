@@ -1,0 +1,1 @@
+TDAT: public int hash code ( ) {  <NL> long h = 0 ;  <NL> long c ;  <NL> long n = length ( ) - 1 ;  <NL> prepare next ( ) ;  <NL> while ( ( c = next char ( ) ) ! = 0 ) {  <NL> h + = c * pow ( 31 , n ) ;  <NL> n - - ;  <NL>  }  <NL> return ( int ) ( h & 0xffffffff ) ;  <NL>  }  COM: <s> returns a hashcode for this ustr </s>

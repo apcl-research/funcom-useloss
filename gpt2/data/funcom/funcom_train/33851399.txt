@@ -1,0 +1,1 @@
+TDAT: public void copy from ( lock set other ) {  <NL> if ( other . array . length ! = array . length ) {  <NL> array = new int [ other . array . length ] ;  <NL>  }  <NL> system . arraycopy ( other . array , 0 , array , 0 , array . length ) ;  <NL> this . default lock count = other . default lock count ;  <NL>  }  COM: <s> make this lock set the same as the given one </s>

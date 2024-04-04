@@ -1,0 +1,1 @@
+TDAT: public void set size ( int i x , int i y ) {  <NL> super . set size ( i x , i y ) ;  <NL> misc . debug ( this , " changing size to : " + i x + " , " + i y ) ;  <NL> label _ info . set bounds ( new rectangle ( 0 , 0 , i x , 17 ) ) ;  <NL>  }  COM: <s> re size the panel and re position all components </s>

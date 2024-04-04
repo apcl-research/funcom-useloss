@@ -1,0 +1,1 @@
+TDAT: private void grow bits ( int pos ) {  <NL> pos + + ; / / inc to get correct bit count <NL> long [ ] temp bits = new long [ ( pos / elm _ size )  <NL>  + ( pos % elm _ size > 0 ? 1 : 0 ) ] ;  <NL> system . arraycopy ( bits , 0 , temp bits , 0 , bits . length ) ;  <NL> bits = temp bits ;  <NL>  }  COM: <s> increase the size of the internal array to accomodate pos bits </s>

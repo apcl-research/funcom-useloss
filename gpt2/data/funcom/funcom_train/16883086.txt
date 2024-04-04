@@ -1,0 +1,1 @@
+TDAT: public boolean is in rect ( int x1 , int y1 , int x2 , int y2 ) {  <NL> return ( math . min ( x1 , x2 ) < = center . x ) & & ( math . max ( x1 , x2 ) > = center . x ) & & ( math . min ( y1 , y2 ) < = center . y ) & & ( math . max ( y1 , y2 ) > = center . y ) ;  <NL>  }  COM: <s> verifies whether this presentation lays whithin giver rectangle </s>

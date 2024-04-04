@@ -1,0 +1,1 @@
+TDAT: public void stop ( ) {  <NL> if ( chrome adapter = = null ) return ;  <NL> moz async exec ( new runnable ( ) { public void run ( ) {  <NL> ns i web navigation nav = qi ( chrome adapter . get web browser ( ) , ns i web navigation . class ) ;  <NL> nav . stop ( ns i web navigation . stop _ all ) ;  <NL>  } } ) ;  <NL>  }  COM: <s> stops loading of the page if running </s>

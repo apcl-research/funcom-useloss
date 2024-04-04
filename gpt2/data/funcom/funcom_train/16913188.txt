@@ -1,0 +1,1 @@
+TDAT: private string to string ( double [ ] point ) {  <NL> string builder builder = new string builder ( ) ;  <NL>  <NL> for ( int i = 0 ; i < point . length ; i + + ) {  <NL> builder . append ( point [ i ] ) ;  <NL> if ( i < point . length - 1 ) builder . append ( " , " ) ;  <NL>  }  <NL>  <NL> return builder . to string ( ) ;  <NL>  }  COM: <s> pretty prints the point </s>

@@ -1,0 +1,1 @@
+TDAT: public int compare ( object o1 , object o2 ) {  <NL> row r1 = ( row ) o1 ;  <NL> row r2 = ( row ) o2 ;  <NL> job offer n1 = ( job offer ) r1 . get data ( ) ;  <NL> job offer n2 = ( job offer ) r2 . get data ( ) ;  <NL> return n1 . get company name ( ) . compare to ( n2 . get company name ( ) ) ;  <NL>  }  COM: <s> compare job offer company names </s>

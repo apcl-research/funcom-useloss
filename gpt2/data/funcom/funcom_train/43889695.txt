@@ -1,0 +1,1 @@
+TDAT: private string index out of bounds ( final int index , final int lower , final int upper ) {  <NL> return get error resources ( )  <NL>  . get string ( error keys . value _ out _ of _ bounds _ $ 3 , new integer ( index ) ,  <NL> new integer ( lower ) , new integer ( upper - 1 ) ) ;  <NL>  }  COM: <s> formats an error message for an index out of bounds </s>

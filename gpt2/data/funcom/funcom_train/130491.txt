@@ -1,0 +1,1 @@
+TDAT: public void set capacity ( int type , string channel , char capacity ) {  <NL> char [ ] data t = new char [ mcom _ data _ len ] ;  <NL> data t [ 0 ] = capacity ;  <NL> send config req ( player _ mcom _ set _ capacity _ req , type , channel , false , data t ) ;  <NL>  }  COM: <s> configuration request set capacity player mcom set capacity req </s>

@@ -1,0 +1,1 @@
+TDAT: public void set start time ( double t0 ) {  <NL> if ( start time = = t0 ) return ;  <NL> start time = double . is na n ( t0 ) ? 0 . 0 : t0 ;  <NL> support . fire property change ( " starttime " , null , new double ( start time ) ) ; / / $ non - nls - 1 $  <NL>  }  COM: <s> sets the start time </s>

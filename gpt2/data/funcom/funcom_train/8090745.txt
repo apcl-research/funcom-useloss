@@ -1,0 +1,1 @@
+TDAT: public double normalized kernel ( char [ ] s , char [ ] t ) {  <NL> double k1 = unnormalized kernel ( s , s ) ;  <NL> double k2 = unnormalized kernel ( t , t ) ;  <NL> double norm term = math . sqrt ( k1 * k2 ) ;  <NL> return unnormalized kernel ( s , t ) / norm term ;  <NL>  }  COM: <s> evaluates the normalized kernel between s and t </s>

@@ -1,0 +1,1 @@
+TDAT: public void set board size ( int s ) {  <NL> assert precondition ( ( s > = min _ grid _ size & & s < = max _ grid _ size ) ,  <NL>  " board size must lie between " + min _ grid _ size + " and " + max _ grid _ size ) ;  <NL> for ( int i = 0 ; i < size . length ; i + + ) set board size ( s , i ) ;  <NL>  }  COM: <s> sets the board size </s>

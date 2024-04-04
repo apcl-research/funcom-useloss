@@ -1,0 +1,1 @@
+TDAT: public void xform vec ( vec2f src , vec2f dest ) {  <NL> dest . set ( get ( 0 , 0 ) * src . x ( ) +  <NL> get ( 0 , 1 ) * src . y ( ) ,  <NL>  <NL> get ( 1 , 0 ) * src . x ( ) +  <NL> get ( 1 , 1 ) * src . y ( ) ) ;  <NL>  }  COM: <s> multiply a 2 d vector by this matrix </s>

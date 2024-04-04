@@ -1,0 +1,1 @@
+TDAT: public void set bounds ( int x , int y , int width , int height ) {  <NL> this . bounds . x = this . location . x = this . x = x ;  <NL> this . bounds . y = this . location . y = this . y = y ;  <NL> set width ( width ) ;  <NL> set height ( height ) ;  <NL>  }  COM: <s> set the location and size of the component state being animated </s>

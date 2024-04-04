@@ -1,0 +1,1 @@
+TDAT: public void test set powertype ( ) {  <NL> log . info ( " setting powertype " ) ;  <NL> model . get core helper ( ) . set powertype ( elem , types [ 0 ] ) ;  <NL> model . get pump ( ) . flush model events ( ) ;  <NL> assert true ( model . get selected item ( ) = = types [ 0 ] ) ;  <NL> log . info ( " powertype set " ) ;  <NL>  }  COM: <s> test set powertype </s>

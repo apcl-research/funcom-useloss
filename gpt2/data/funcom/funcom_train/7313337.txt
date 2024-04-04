@@ -1,0 +1,1 @@
+TDAT: private void set stats ( element e , int exec , int match ) {  <NL> e . set attribute ( " probes " , " " + match ) ;  <NL> e . set attribute ( " executed " , " " + exec ) ;  <NL> e . set attribute ( " percent " , " " + ( exec * 100 ) / match ) ;  <NL>  }  COM: <s> sets the statistics for a certain element </s>

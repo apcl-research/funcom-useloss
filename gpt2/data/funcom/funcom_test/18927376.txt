@@ -1,0 +1,1 @@
+TDAT: public string get cube ( ) {  <NL>  / / remove enclosing brackets , if there <NL> if ( cube . char at ( 0 ) = = ' [ ' & & cube . char at ( cube . length ( ) - 1 ) = = ' ] ' )  <NL> return cube . substring ( 1 , cube . length ( ) - 1 ) ;  <NL> else <NL> return cube ;  <NL>  }  COM: <s> returns the cube </s>

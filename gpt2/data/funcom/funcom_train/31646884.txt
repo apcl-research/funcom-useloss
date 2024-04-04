@@ -1,0 +1,1 @@
+TDAT: public void perform text action ( mobile m , string s ) {  <NL> mobile target = m . get room ( ) . find mobile ( s ) ;  <NL> if ( target = = null ) {  <NL> m . to user ( new mud data ( " text " , " that person doesn ' t exist . " ) ) ;  <NL>  }  <NL> else {  <NL> do combat ( m , target ) ;  <NL>  }  <NL>  }  COM: <s> perform the kill action </s>

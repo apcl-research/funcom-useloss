@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> return " container event recordable [ " + get source name ( ) + " , id = " + get id ( ) + " , duration = " +  <NL> get duration ( ) + " , container = " + get container name ( ) + " , child = " + get child name ( ) + " ] " ;  <NL>  }  COM: <s> returns a string representation of the container event recordable </s>

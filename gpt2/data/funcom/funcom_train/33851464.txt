@@ -1,0 +1,1 @@
+TDAT: public void copy from ( path other ) {  <NL> grow ( other . length - 1 ) ;  <NL> system . arraycopy ( other . block id list , 0 , this . block id list , 0 , other . length ) ;  <NL> this . length = other . length ;  <NL> this . cached hash code = other . cached hash code ;  <NL>  }  COM: <s> make this path identical to the given one </s>

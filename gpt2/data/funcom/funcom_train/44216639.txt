@@ -1,0 +1,1 @@
+TDAT: private j combo box get type combo box ( ) {  <NL> if ( type combo box = = null ) {  <NL> type combo box = new j combo box ( type strings ) ;  <NL> type combo box . set selected index ( last selected index ) ;  <NL> type combo box . set bounds ( 0 , 80 , 200 , 20 ) ;  <NL>  }  <NL> return type combo box ;  <NL>  }  COM: <s> this method initializes type combo box </s>

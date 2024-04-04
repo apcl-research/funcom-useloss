@@ -1,0 +1,1 @@
+TDAT: public void test by file extension default syntax ( ) {  <NL> assert equals ( syntax . rdfxml , rdf syntax utils . for file extension ( " unknown - syntax " , syntax . rdfxml ) ) ;  <NL> assert equals ( syntax . n3 , rdf syntax utils . for file extension ( " unknown - syntax " , syntax . n3 ) ) ;  <NL>  }  COM: <s> tests retrieval of an unknown syntax </s>

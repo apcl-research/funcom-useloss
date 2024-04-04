@@ -1,0 +1,1 @@
+TDAT: public component create heading ( string text ) {  <NL> area color = new area ( ) ;  <NL> color . set tag ( " font " ) ;  <NL> color . set tag options ( " color = \ " # " + report config . heading color + " \ " " ) ;  <NL> color . add ( new heading ( report config . heading size , text ) ) ;  <NL>  <NL> return color ;  <NL>  }  COM: <s> create a heading </s>

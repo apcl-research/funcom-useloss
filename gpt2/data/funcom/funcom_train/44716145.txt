@@ -1,0 +1,1 @@
+TDAT: public void set formatted text at ( int index , formatted text ft ) {  <NL> if ( index = = m _ runs . size ( ) ) {  <NL> m _ runs . add element ( ft ) ;  <NL>  } else if ( index < m _ runs . size ( ) ) {  <NL> m _ runs . set element at ( ft , index ) ;  <NL>  }  <NL>  }  COM: <s> replaces an existing run with a new one </s>

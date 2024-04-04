@@ -1,0 +1,1 @@
+TDAT: public void set area ( int x , int y , int width , int height ) {  <NL> this . x = x ;  <NL> this . y = y ;  <NL> this . width = width ;  <NL> this . height = height ;  <NL> name = " move random within " + x + " , " + y + " - > " + width + " , " + height ;  <NL>  }  COM: <s> the agent must select its new location from within this area </s>

@@ -1,0 +1,1 @@
+TDAT: public void remove variable ( list < object [ ] > list , string variable ) {  <NL> object [ ] remove object = null ;  <NL> for ( object [ ] x : list ) {  <NL> if ( x [ 0 ] . to string ( ) . equals ( variable ) ) {  <NL> remove object = x ;  <NL> break ;  <NL>  }  <NL>  }  <NL> list . remove ( remove object ) ;  <NL>  }  COM: <s> remove a variable with </s>

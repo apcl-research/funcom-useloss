@@ -1,0 +1,1 @@
+TDAT: public long get duration ( ) {  <NL> if ( start time ! = - 1 & & end time ! = - 1 ) {  <NL> system . out . printf ( " % d - % d = % d\n " , end time , start time , end time - start time ) ;  <NL> return end time - start time ;  <NL>  }  <NL> return - 1 ;  <NL>  }  COM: <s> returns the number of milliseconds between calling start and end </s>

@@ -1,0 +1,1 @@
+TDAT: public void mouse moved ( mouse event e ) {  <NL> string pos = " ( " + e . get x ( ) + " , " + e . get y ( ) + " ) " ;  <NL> label . set text ( pos + dj . get pixel info ( ) ) ; / / update the label with the <NL>  / / display jai with pixel info instance info .  <NL>  }  COM: <s> this method will be executed when the mouse is moved over the extended </s>

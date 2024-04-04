@@ -1,0 +1,1 @@
+TDAT: public void add column ( string in name , char in type , int in length , int in decimal place ) throws exception {  <NL>  / / update the header .  <NL> if ( my header = = null ) my header = new dbase file header ( ) ;  <NL> my header . add column ( in name , in type , in length , in decimal place ) ;  <NL>  }  COM: <s> adds the column to the file </s>

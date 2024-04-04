@@ -1,0 +1,1 @@
+TDAT: public void remove ( ) {  <NL> for ( iterator edges = get in edges ( ) ; edges . has next ( ) ; )  <NL>  { edges . next ( ) ; edges . remove ( ) ; }  <NL> for ( iterator edges = get out edges ( ) ; edges . has next ( ) ; )  <NL>  { edges . next ( ) ; edges . remove ( ) ; }  <NL> nodes . remove ( this ) ;  <NL>  }  COM: <s> removes this node from the graph </s>

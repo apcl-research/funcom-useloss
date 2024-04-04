@@ -1,0 +1,1 @@
+TDAT: public vector get class name ( ) {  <NL>  <NL> class name . add ( " column1 " ) ;  <NL> class name . add ( " column2 " ) ;  <NL> class name . add ( " column3 " ) ;  <NL> class name . add ( " column4 " ) ;  <NL> class name . add ( " column5 " ) ;  <NL> class name . add ( " no class " ) ;  <NL> return this . class name ;  <NL>  }  COM: <s> getter for property class name </s>

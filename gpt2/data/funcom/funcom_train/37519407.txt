@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> string	s = org . multijava . util . classfile . opcode names . get name ( operator . get opcode ( ) ) + " { " ;  <NL>  <NL> for ( int i = operands . length - 1 ; i > = 0 ; i - - ) {  <NL> s + = operands [ i ] + ( i ! = 0 ? " , " : " " ) ;  <NL>  }  <NL>  <NL> return s + " } " ;  <NL>  }  COM: <s> human readable form </s>

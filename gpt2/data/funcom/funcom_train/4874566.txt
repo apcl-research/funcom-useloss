@@ -1,0 +1,1 @@
+TDAT: public void set ( jcv scalar val ) {  <NL> try {  <NL> for ( int i = 0 ; i < num cols * num rows ; i + + ) {  <NL> set val ( val , i / num cols , i % num cols ) ;  <NL>  }  <NL>  }  <NL> catch ( matrix out of bounds exception e ) {  <NL> system . err . println ( " this shouldn ' t happen . . " ) ;  <NL>  }  <NL>  }  COM: <s> sets every element of matrix to given value </s>

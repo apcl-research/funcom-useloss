@@ -1,0 +1,1 @@
+TDAT: public void set id attribute ( int attr index ) {  <NL>  <NL> int chunk = attr index > > chunk _ shift ;  <NL> int index = attr index & chunk _ mask ;  <NL> int extra = get chunk index ( f node extra , chunk , index ) ;  <NL> extra = extra | id ;  <NL> set chunk index ( f node extra , extra , chunk , index ) ;  <NL>  }  COM: <s> sets type of attribute </s>

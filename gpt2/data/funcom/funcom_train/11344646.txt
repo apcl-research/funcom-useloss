@@ -1,0 +1,1 @@
+TDAT: private void initialize sax driver ( ) {  <NL> string version = ( string ) system . get property ( " java . vm . version " ) ;  <NL> if ( version . starts with ( " 1 . 4 " ) ) {  <NL> system . set property ( " org . xml . sax . driver " , " org . apache . xerces . parsers . sax parser " ) ;  <NL>  }  <NL>  }  COM: <s> if ant runs with java 1 </s>

@@ -1,0 +1,1 @@
+TDAT: private void calibrate last ( ) throws sax exception {  <NL>  / *  <NL>  * the current round is the last one if ( a ) there are no remaining <NL>  * elements , or ( b ) the next one is beyond the ' end ' .  <NL>  * /  <NL> last = ! has next ( ) || at end ( ) || ( end ! = - 1 & & ( begin + index + step > end ) ) ;  <NL>  }  COM: <s> sets last appropriately </s>

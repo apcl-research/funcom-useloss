@@ -1,0 +1,1 @@
+TDAT: private string format ( final int value , final int length ) {  <NL> final string builder builder = new string builder ( integer . to string ( value ) ) ;  <NL> while ( builder . length ( ) < length ) {  <NL> builder . insert ( 0 , " 0 " ) ; / / $ non - nls - 1 $  <NL>  }  <NL>  <NL> return builder . to string ( ) ;  <NL>  }  COM: <s> formats a given integer value </s>

@@ -1,0 +1,1 @@
+TDAT: private void handle dst mac addr ( int hw type , byte [ ] mac , int offset , packet analysis descriptor root ) {  <NL> string prompt = " target mac address : " + hw address to string ( hw type , mac ) ;  <NL> add node ( prompt , offset , offset + mac . length - 1 , root ) ;  <NL>  }  COM: <s> appends the receivers hardware address information to the </s>

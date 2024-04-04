@@ -1,0 +1,1 @@
+TDAT: public void hide ( ) {  <NL> frame panel . on hide ( get element ( ) ) ;  <NL> frame panel . push ( frame panel ) ;  <NL> my dom . set z index ( get element ( ) , - 1 ) ;  <NL> dom . remove event preview ( this ) ;  <NL> root panel . get ( ) . remove ( this ) ;  <NL> root panel . get ( ) . remove ( widget ) ;  <NL>  }  COM: <s> hides the panel </s>

@@ -1,0 +1,1 @@
+TDAT: public void reshape ( int x , int y , int width , int height ) {  <NL> super . reshape ( x , y , width , height ) ;  <NL>  / / save the settings <NL> set int setting ( " x " , x ) ;  <NL> set int setting ( " y " , y ) ;  <NL> set int setting ( " width " , width ) ;  <NL> set int setting ( " height " , height ) ;  <NL>  }  COM: <s> moves and resizes this component </s>

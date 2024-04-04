@@ -1,0 +1,1 @@
+TDAT: public double trait pitch ( final f obj fobj , final fo context context ) {  <NL> final pd pitch property = ( pd pitch ) get property ( fo property . pitch ) ;  <NL> if ( property ! = null ) {  <NL> return property . get value ( context , fobj ) ;  <NL>  }  <NL> return pd pitch . get value no instance ( context , fobj ) ;  <NL>  }  COM: <s> returns the pitch property </s>

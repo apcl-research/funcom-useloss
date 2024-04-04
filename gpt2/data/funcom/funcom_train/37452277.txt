@@ -1,0 +1,1 @@
+TDAT: private string prepare small molecule short label ( string name ) {  <NL> if ( name = = null ) {  <NL> throw new null pointer exception ( " you must give a non null name " ) ;  <NL>  }  <NL> if ( name . length ( ) > 255 ) {  <NL> return name . substring ( 0 , 255 ) ;  <NL>  }  <NL> return name . trim ( ) . to lower case ( ) ;  <NL>  }  COM: <s> max size is 255 only </s>

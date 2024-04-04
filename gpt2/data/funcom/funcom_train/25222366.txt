@@ -1,0 +1,1 @@
+TDAT: public void set vmh _ ndt ( int vmh _ ndt ) {  <NL> int old vmh _ ndt = this . vmh _ ndt ;  <NL> if ( old vmh _ ndt ! = vmh _ ndt ) {  <NL> this . vmh _ ndt = vmh _ ndt ;  <NL> fire property change ( prop _ vmh _ ndt , old vmh _ ndt , this . vmh _ ndt ) ;  <NL> set run prepared ( false ) ;  <NL>  }  <NL>  }  COM: <s> set the value of vmh ndt </s>

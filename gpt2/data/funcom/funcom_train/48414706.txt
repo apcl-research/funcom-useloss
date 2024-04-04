@@ -1,0 +1,1 @@
+TDAT: private boolean check path ( string path ) {  <NL> file path file = new file ( path ) ;  <NL> while ( path file . get parent file ( ) ! = null & & ! path file . exists ( ) ) {  <NL> path file = path file . get parent file ( ) ;  <NL>  }  <NL> return path file . exists ( ) & & path file . can write ( ) ;  <NL>  }  COM: <s> check a path if it is writable </s>

@@ -1,0 +1,1 @@
+TDAT: public void update object ( result set rs ) throws sql exception {  <NL>  _ row = get int ( rs , 2 ) ;  <NL>  _ column = get int ( rs , 3 ) ;  <NL>  _ abbreviation = rs . get string ( 4 ) ;  <NL>  _ name = rs . get string ( 5 ) ;  <NL>  _ type = rs . get string ( 6 ) ;  <NL>  }  COM: <s> update the object based on a result set </s>

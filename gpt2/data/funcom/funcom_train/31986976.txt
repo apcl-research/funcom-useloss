@@ -1,0 +1,1 @@
+TDAT: public void update connection ( ) {  <NL> if ( f start ! = null ) {  <NL> point start = f start . find start ( this ) ;  <NL> start point ( start . x , start . y ) ;  <NL>  }  <NL> if ( f end ! = null ) {  <NL> point end = f end . find end ( this ) ;  <NL> end point ( end . x , end . y ) ;  <NL>  }  <NL>  }  COM: <s> updates the connection </s>

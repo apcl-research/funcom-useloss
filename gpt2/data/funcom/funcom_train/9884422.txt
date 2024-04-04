@@ -1,0 +1,1 @@
+TDAT: public experiment copy ( ) {  <NL> int [ ] columns = new int [ this . columns . length ] ;  <NL> system . arraycopy ( this . columns , 0 , columns , 0 , this . columns . length ) ;  <NL> return new experiment ( matrix . copy ( ) , columns , get row mapping array copy ( ) ) ;  <NL>  }  COM: <s> returns clone of this code experiment code </s>

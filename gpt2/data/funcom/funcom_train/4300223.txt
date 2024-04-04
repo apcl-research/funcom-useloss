@@ -1,0 +1,1 @@
+TDAT: public int get size ( cached row row ) {  <NL>  <NL> object data [ ] = row . get data ( ) ;  <NL> int type [ ] = row . get table ( ) . get column types ( ) ;  <NL> int cols = row . get table ( ) . get column count ( ) ;  <NL>  <NL> return int _ store _ size + get size ( data , cols , type ) ;  <NL>  }  COM: <s> calculate the size of byte array required to store a row </s>

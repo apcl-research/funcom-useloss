@@ -1,0 +1,1 @@
+TDAT: public void test _ to string2 ( ) throws exception {  <NL> input stream in = new sequence input stream (  <NL> new byte array input stream ( " aa " . get bytes ( ) ) ,  <NL> new byte array input stream ( " a " . get bytes ( ) ) ) ;  <NL> assert equals ( " yw fh " , text helper . to string ( in ) ) ;  <NL>  }  COM: <s> regression test for wscommons 101 </s>

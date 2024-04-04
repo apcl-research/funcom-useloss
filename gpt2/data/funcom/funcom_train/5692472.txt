@@ -1,0 +1,1 @@
+TDAT: public void set attribute ( xml attribute attribute ) {  <NL> if ( attribute . get namespace ( ) ! = null ) {  <NL> this . attributes . put ( attribute . get namespace ( ) + " : " + attribute . get name ( ) , attribute ) ;  <NL>  }  <NL> else {  <NL> this . attributes . put ( attribute . get name ( ) , attribute ) ;  <NL>  }  <NL>  }  COM: <s> sets an attribute </s>

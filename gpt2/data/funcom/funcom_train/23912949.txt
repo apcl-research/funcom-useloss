@@ -1,0 +1,1 @@
+TDAT: public void set letter colors ( color a , color t , color g , color c , color u ) {  <NL> if ( a ! = null ) a color = a ;  <NL> if ( t ! = null ) t color = t ;  <NL> if ( g ! = null ) g color = g ;  <NL> if ( c ! = null ) c color = c ;  <NL> if ( u ! = null ) u color = u ;  <NL> auto display data ( ) ;  <NL>  }  COM: <s> sets all colors for letters </s>

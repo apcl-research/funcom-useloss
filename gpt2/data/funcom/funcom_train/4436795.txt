@@ -1,0 +1,1 @@
+TDAT: private void handle command ( string from , int cmd , double value ) {  <NL> if ( cmd = = 1 ) {  <NL> string udp msg = " ss " + from + " 0 0 " + value ;  <NL> udp server . send data ( udp msg ) ;  <NL>  }  <NL> system . out . println ( " air drum - sending by udp : ss " + from + " 0 0 " + value ) ;  <NL>  }  COM: <s> handles commands from clients </s>

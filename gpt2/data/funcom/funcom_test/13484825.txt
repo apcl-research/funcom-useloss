@@ -1,0 +1,1 @@
+TDAT: public void visit new ( new n i ) {  <NL> constant pool gen cp = block . graph ( ) . method ( ) . get constant pool ( ) ;  <NL> type type = n i . get load class type ( cp ) ;  <NL> expr top = new new expr ( type , type . object ) ;  <NL> stack . push ( top ) ;  <NL>  <NL> db ( " new : " + top ) ;  <NL>  }  COM: <s> pushes a new expr onto the operand stack </s>

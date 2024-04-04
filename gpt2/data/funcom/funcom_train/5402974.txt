@@ -1,0 +1,1 @@
+TDAT: private font get swt font ( font base font , string name ) {  <NL> font font = ( font ) swt font cache . get ( name ) ;  <NL> if ( font = = null ) {  <NL> font = create font ( base font , get display ( ) , name ) ;  <NL> swt font cache . put ( name , font ) ;  <NL>  }  <NL> return font ;  <NL>  }  COM: <s> gets a font by its name </s>

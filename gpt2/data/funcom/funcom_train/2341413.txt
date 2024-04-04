@@ -1,0 +1,1 @@
+TDAT: private double delta ( double y , double b mutation parameter ) {  <NL> double rand = random generator . next double ( ) ;  <NL> return ( y * ( 1 . 0 - math . pow ( rand , math . pow ( ( 1 . 0 - current iteration / ( double ) max iterations ) , b mutation parameter ) ) ) ) ;  <NL>  } / / delta  COM: <s> calculates the delta value used in non uniform mutation operator </s>

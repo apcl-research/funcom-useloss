@@ -1,0 +1,1 @@
+TDAT: public big decimal add ( big decimal val ) {  <NL> big decimal arg [ ] = new big decimal [ 2 ] ;  <NL> arg [ 0 ] = this ;  <NL> arg [ 1 ] = val ;  <NL> match scale ( arg ) ;  <NL> return new big decimal ( arg [ 0 ] . int val . add ( arg [ 1 ] . int val ) , arg [ 0 ] . scale ) ;  <NL>  }  COM: <s> returns a big decimal whose value is tt this val tt and whose </s>

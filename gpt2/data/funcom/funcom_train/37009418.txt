@@ -1,0 +1,1 @@
+TDAT: public int min green ( ) {  <NL> int m = integer . max _ value ;  <NL> for ( int v = 0 ; v < get height ( ) ; v + + )  <NL>  {  <NL> for ( int u = 0 ; u < get width ( ) ; u + + )  <NL>  {  <NL> if ( green ( u , v ) < m ) m = green ( u , v ) ;  <NL>  }  <NL>  }  <NL> return m ;  <NL>  }  COM: <s> returns the minimum green pixel value in band 1 </s>

@@ -1,0 +1,1 @@
+TDAT: public string get recent layout name ( int idx ) {  <NL> string ret = " " ;  <NL> if ( idx > = 0 & & idx < prev files . length & & prev files [ idx ] > = 0 ) {  <NL> string s = layouts [ prev files [ idx ] ] ;  <NL> if ( s ! = null ) {  <NL> ret = s ;  <NL>  }  <NL>  <NL>  }  <NL> return ret ;  <NL>  }  COM: <s> get a recent layout by index </s>

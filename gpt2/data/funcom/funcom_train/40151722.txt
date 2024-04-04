@@ -1,0 +1,1 @@
+TDAT: public cursor fetch last note row id ( ) {  <NL> string m sql = " select max ( " + key _ rowid + " ) from " + database _ table _ notes + " ; " ; / / +  <NL>  / / " where " + key _ knit + " = " + spyn . proj _ id + " ; " ;  <NL>  <NL> return m db . raw query ( m sql , null ) ;  <NL>  }  COM: <s> return a cursor over the last row id </s>

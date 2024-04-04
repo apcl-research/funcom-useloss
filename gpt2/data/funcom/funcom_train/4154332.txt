@@ -1,0 +1,1 @@
+TDAT: public void damage walls ( final map map , final game core handler game core handler ) {  <NL> game core handler . damage wall ( x points [ x points . length - 1 ] > > general consts . wall _ width _ shift , y points [ y points . length - 1 ] > > general consts . wall _ height _ shift , damage ) ;  <NL>  }  COM: <s> damages all walls hit by this polyline shot </s>

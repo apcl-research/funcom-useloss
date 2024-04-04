@@ -1,0 +1,1 @@
+TDAT: public void update routing entry ( spt _ logical address d id , spt _ logical address n id ) {  <NL>  / / update or add a routing entry <NL> spt _ routing entry entry = new spt _ routing entry ( d id , n id , route entry timeout , adapter ) ;  <NL> if ( is valid ( entry ) )  <NL> routing _ table . put ( d id , entry ) ;  <NL>  }  COM: <s> update an routing entry </s>

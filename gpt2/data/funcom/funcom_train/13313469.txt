@@ -1,0 +1,1 @@
+TDAT: public string register user ( string user name , string password ) {  <NL> return send command ( message . register , " < " + message . username + " > " + user name + " < / " + message . username + " > < " + message . password + " > " + password + " < / " + message . password + " > " ) ;  <NL>  }  COM: <s> send a register request to the server </s>

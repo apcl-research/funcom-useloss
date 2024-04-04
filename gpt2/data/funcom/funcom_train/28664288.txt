@@ -1,0 +1,1 @@
+TDAT: protected point calc text xy ( string my text , int mid x , int top mid y , font metrics metrics ) {  <NL> int left x = mid x - ( my text . length ( ) * metrics . get average char width ( ) ) / 2 ;  <NL> int left y = top mid y ;  <NL> return new point ( left x , left y ) ;  <NL>  }  COM: <s> helps you to calculate the gc </s>

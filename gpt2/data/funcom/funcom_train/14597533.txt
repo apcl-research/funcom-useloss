@@ -1,0 +1,1 @@
+TDAT: public boolean remove back link ( base node dtn , boolean mirror ) {  <NL> int old count = back links . length ( ) ;  <NL> back links = back links . base node minus ( dtn ) ;  <NL> if ( mirror ) {  <NL> dtn . remove fore link ( this , false ) ;  <NL>  }  <NL> return old count ! = back links . length ( ) ;  <NL>  }  COM: <s> removes a backlink to this node </s>

@@ -1,0 +1,1 @@
+TDAT: public void test simple union ( ) throws exception {  <NL> emit and check (  <NL>  " dcl 1 * union , 2 b3 bit ( 32 ) , 2 b4 bit ( 16 ) ; " ,  <NL>  " "  <NL>  + " 01 filler . " + ls <NL>  + " 02 b3 pic x ( 4 ) . " + ls <NL>  + " 02 b4 redefines b3 pic x ( 2 ) . "  <NL>  ) ;  <NL>  }  COM: <s> test a a simple union </s>

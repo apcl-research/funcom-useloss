@@ -1,0 +1,1 @@
+TDAT: public matrix ( int m , int n , double s ) {  <NL> this . m = m ;  <NL> this . n = n ;  <NL> a = new double [ m ] [ n ] ;  <NL> for ( int i = 0 ; i < m ; i + + ) {  <NL> for ( int j = 0 ; j < n ; j + + ) {  <NL> a [ i ] [ j ] = s ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> construct an m by n constant matrix </s>

@@ -1,0 +1,1 @@
+TDAT: private boolean is global var reference ( string name , scope s ) {  <NL> scope . var v = s . get var ( name ) ;  <NL> if ( v = = null & & externs scope ! = null ) {  <NL> v = externs scope . get var ( name ) ;  <NL>  }  <NL> return v ! = null & & ! v . is local ( ) ;  <NL>  }  COM: <s> determines whether a variable name reference in a particular scope is a </s>

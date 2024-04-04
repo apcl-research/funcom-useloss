@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> return new string ( " < tcp : " + this . socket . get inet address ( ) + " : " + this . socket . get port ( ) + " fish : " + this . fish addr +  <NL>  " udp : " + this . ip address + " : " + this . port + " > " ) ;  <NL>  }  COM: <s> return a string containing details of this emulated node </s>

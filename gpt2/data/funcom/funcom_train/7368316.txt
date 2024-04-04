@@ -1,0 +1,1 @@
+TDAT: public string buffer format date ( final calendar c , final string buffer sb ) {  <NL> sb . append ( c . get ( calendar . date ) ) . append ( ' / ' ) . append ( ( c . get ( calendar . month ) + 1 ) ) . append ( ' / ' ) . append ( c . get ( calendar . year ) ) ;  <NL> return sb ;  <NL>  }  COM: <s> format a date dd mm yyyy </s>

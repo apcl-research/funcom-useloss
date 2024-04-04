@@ -1,0 +1,1 @@
+TDAT: public void show screen ( ) throws exception {  <NL> try {  <NL> display . set current ( prepare screen ( ) ) ;  <NL>  } catch ( exception e ) {  <NL> throw new g cal exception ( " mvc component " , " set events " , e ) ;  <NL>  / / error handler . show error ( " error showing screen " , e ) ;  <NL>  }  <NL>  }  COM: <s> set the current screen to the prepared view </s>

@@ -1,0 +1,1 @@
+TDAT: protected void check size ( ) throws exception {  <NL> object response =  <NL> this . dispatcher . call remote method (  <NL> this . remote address , " get size " , group request . get _ all , 0 ) ;  <NL> assert equals ( this . cache . size ( ) , ( ( integer ) response ) . int value ( ) ) ;  <NL>  }  COM: <s> checks if the size of both the cache instances are same </s>

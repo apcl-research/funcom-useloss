@@ -1,0 +1,1 @@
+TDAT: private boolean finish line ( boolean saw newline ) throws io exception {  <NL> process line ( line . to string ( ) , saw return <NL>  ? ( saw newline ? " \r\n " : " \r " )  <NL>  : ( saw newline ? " \n " : " " ) ) ;  <NL> line = new string builder ( ) ;  <NL> saw return = false ;  <NL> return saw newline ;  <NL>  }  COM: <s> called when a line is complete </s>

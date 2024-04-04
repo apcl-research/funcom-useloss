@@ -1,0 +1,1 @@
+TDAT: public void test messages ( ) {  <NL> assert not null ( " no value returned for standard string " , messages <NL>  . get string ( " basic handler . 0 " ) ) ;  <NL> assert false ( " the recorded key was not returns " , " ! basic handler . 0 ! "  <NL>  . equals ignore case ( messages . get string ( " basic handler . 0 " ) ) ) ;  <NL>  }  COM: <s> tests for existing key </s>

@@ -1,0 +1,1 @@
+TDAT: public _ 08in packet parse in ( int supported family , byte buffer buf , qq user user , boolean debug ) throws packet parse exception {  <NL> if ( ! find parser ( supported family , buf ) )  <NL> return null ;  <NL> return parse in ( buf , parser . get length ( buf ) , user , debug ) ;  <NL>  }  COM: <s> byte buffer in packet buf limit </s>

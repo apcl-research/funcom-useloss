@@ -1,0 +1,1 @@
+TDAT: protected void uncomment key ( string key ) {  <NL> bundle entry entry = ( bundle entry ) entries . get ( key ) ;  <NL> if ( entry ! = null ) {  <NL> bundle entry new entry = new bundle entry (  <NL> key , entry . get value ( ) , entry . get comment ( ) , false ) ;  <NL> add entry ( new entry ) ;  <NL>  }  <NL>  }  COM: <s> uncomments a bundle entry </s>

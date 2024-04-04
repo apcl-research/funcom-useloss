@@ -1,0 +1,1 @@
+TDAT: public void move ( file from , file to ) throws build exception {  <NL> string [ ] args = { " move " , " - nc " , from . get path ( ) , to . get path ( ) } ;  <NL> cmd result res = cleartool ( args ) ;  <NL> if ( res . get status ( ) ! = 0 ) {  <NL> throw new build exception ( res . get std err ( ) ) ;  <NL>  }  <NL>  }  COM: <s> move a file to another </s>

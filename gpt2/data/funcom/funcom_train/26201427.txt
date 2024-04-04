@@ -1,0 +1,1 @@
+TDAT: public void curveto ( int x1 , int y1 , int x2 , int y2 , int x3 , int y3 ) {  <NL> new path ( ) ;  <NL> pw . println ( cxy ( x1 , y1 ) + cxy ( x2 , y2 ) + cxy ( x3 , y3 ) + " c " ) ;  <NL> lx = x3 ;  <NL> ly = y3 ;  <NL>  }  COM: <s> this extension appends a bezier curve to the path </s>

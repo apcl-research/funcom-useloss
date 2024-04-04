@@ -1,0 +1,1 @@
+TDAT: public void invoke ( b block , template output < b > output , template model model ) throws io exception , template exception {  <NL> if ( pre process ( block , output , model ) ) {  <NL> while ( process body ( block , output , model ) ) ;  <NL>  }  <NL> post process ( block , output , model ) ;  <NL>  }  COM: <s> invoke the strategy using the control process </s>

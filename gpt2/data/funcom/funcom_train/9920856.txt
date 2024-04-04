@@ -1,0 +1,1 @@
+TDAT: public int get to bet index ( ) {  <NL> circle player cp = dealer ;  <NL> int i = 0 ;  <NL>  <NL> do { if ( to bet = = cp ) { return i ; } / / this is most important to know <NL> i + + ;  <NL> cp = cp . get to his left ( ) ;  <NL>  } while ( cp ! = dealer ) ;  <NL> return - 1 ; / / there is error <NL>  }  COM: <s> returns the index into the states player ids etc </s>

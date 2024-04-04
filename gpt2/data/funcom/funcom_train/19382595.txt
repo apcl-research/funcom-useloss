@@ -1,0 +1,1 @@
+TDAT: public void add test charge ( charge c ) {  <NL>  / / system . out . println ( " atc x , y " + c . get x ( ) + " " + c . get y ( ) ) ;  <NL> if ( ! animated ) {  <NL> list test charges . add ( c ) ;  <NL>  } else {  <NL> throw new runtime exception ( " animation in progress , cannot add charges " ) ;  <NL>  }  <NL>  }  COM: <s> adds a test charge to the spacial modler </s>

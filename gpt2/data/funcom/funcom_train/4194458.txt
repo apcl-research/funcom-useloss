@@ -1,0 +1,1 @@
+TDAT: public location service add user contact ( string user , name address name _ addresss , date expire )  <NL>  { if ( ! has user ( user ) ) add user ( user ) ;  <NL> user binding info ur = get user binding info ( user ) ;  <NL> ur . add contact ( name _ addresss , expire ) ;  <NL> changed = true ;  <NL> return this ;  <NL>  }  COM: <s> adds a contact </s>

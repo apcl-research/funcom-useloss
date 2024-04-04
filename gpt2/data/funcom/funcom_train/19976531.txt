@@ -1,0 +1,1 @@
+TDAT: public boolean delete all ( ) {  <NL> boolean success = false ;  <NL> for ( int i = 0 ; i < this . size ( ) ; i + + ) {  <NL> if ( success ) {  <NL> success = this . get ( i ) . delete ( ) ;  <NL>  } else { / / save state <NL> this . get ( i ) . delete ( ) ;  <NL>  }  <NL>  }  <NL> return success ;  <NL>  }  COM: <s> invokes the delete method on every entry in the list </s>

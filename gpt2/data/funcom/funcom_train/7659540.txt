@@ -1,0 +1,1 @@
+TDAT: public void shape ( char [ ] text , int start , int count , int context ) {  <NL> if ( is contextual ( ) ) {  <NL> contextual shape ( text , start , count , get index from range ( context ) ) ;  <NL>  } else {  <NL> non contextual shape ( text , start , count ) ;  <NL>  }  <NL>  }  COM: <s> transforms the encoding of the text starting from the character </s>

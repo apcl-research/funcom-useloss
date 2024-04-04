@@ -1,0 +1,1 @@
+TDAT: public void test get property ( ) {  <NL> string name = " abc " ;  <NL> object expected return = " value " ;  <NL> m _ xml test case . add property ( name , expected return ) ;  <NL> object actual return = m _ xml test case . get property ( name ) ;  <NL> assert equals ( " return value " , expected return , actual return ) ;  <NL>  }  COM: <s> test get property </s>

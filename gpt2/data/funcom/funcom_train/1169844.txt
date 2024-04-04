@@ -1,0 +1,1 @@
+TDAT: private j label get j label9 ( ) {  <NL> if ( j label five mana = = null ) {  <NL> j label five mana = new j label ( ) ;  <NL> j label five mana . set text ( " five mana : " ) ;  <NL> j label five mana . set layout ( null ) ;  <NL> j label five mana . set bounds ( 10 , 156 , 127 , 13 ) ;  <NL>  }  <NL> return j label five mana ;  <NL>  }  COM: <s> p get jlabel9 </s>

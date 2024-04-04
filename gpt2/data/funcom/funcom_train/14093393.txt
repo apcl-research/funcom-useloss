@@ -1,0 +1,1 @@
+TDAT: public void test xml test suite1invalid file ( ) throws java . io . io exception {  <NL> exception ex = null ;  <NL> try {  <NL> m _ xml test suite = new xml test suite ( " invalid file . xml " ) ;  <NL>  } catch ( runtime exception re ) {  <NL> ex = re ;  <NL>  }  <NL> assert not null ( " exception should be thrown " , ex ) ;  <NL>  }  COM: <s> test a invalid file </s>

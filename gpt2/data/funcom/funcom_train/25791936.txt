@@ -1,0 +1,1 @@
+TDAT: private void save focus settings ( argus settings settings ) {  <NL> if ( m _ focus check box . is selected ( ) ) {  <NL> settings . set attribute ( " msc " , " statement focus " , " true " ) ;  <NL>  } else {  <NL> settings . set attribute ( " msc " , " statement focus " , " false " ) ;  <NL>  }  <NL>  }  COM: <s> save the focus settings </s>

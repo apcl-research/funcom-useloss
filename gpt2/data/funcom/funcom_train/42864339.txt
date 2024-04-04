@@ -1,0 +1,1 @@
+TDAT: / *  <NL>  * private void accelerate ( ) { if ( _ curr speed . to meters ( ) <  <NL>  * current road ( ) . get max velocity ( ) . to meters ( ) & & _ curr speed . to meters ( ) <  <NL>  * get max velocity ( ) . to meters ( ) ) {  <NL>  * _ curr speed . set val ( get acceleration ( ) . get val ( ) * _ time ) ; }  <NL>  *  <NL>  * }  COM: <s> todo calculate new speed </s>

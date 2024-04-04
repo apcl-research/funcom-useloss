@@ -1,0 +1,1 @@
+TDAT: private void settings ( boolean show alert ) {  <NL> display . set current ( settings list ) ;  <NL> current menu = " settings " ;  <NL> if ( show alert ) {  <NL> alert a = new alert ( " " , " \n\n\n saved ! " , null , null ) ;  <NL> a . set timeout ( 1500 ) ;  <NL> display . set current ( a , settings list ) ;  <NL>  }  <NL>  }  COM: <s> p show the settings menu p </s>

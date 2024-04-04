@@ -1,0 +1,1 @@
+TDAT: public vector3 clamp ( double min , double max ) {  <NL> return new vector3 ( math . max ( min , math . min ( x , max ) ) , math . max ( min , math <NL>  . min ( y , max ) ) , math . max ( min , math . min ( z , max ) ) ) ;  <NL>  }  COM: <s> returns a vector that is this vector with the components clamped in the </s>

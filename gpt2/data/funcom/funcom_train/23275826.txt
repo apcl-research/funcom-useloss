@@ -1,0 +1,1 @@
+TDAT: public string calc path media ( ) {  <NL> string r = calc path media ( calc max path level ) ;  <NL> r = r . replace ( ' \\ ' , ' / ' ) ;  <NL> r = r . replace all ( " / / " , " / " ) ;  <NL> r = r . replace ( ' / ' , java . io . file . separator char ) ;  <NL> return r ;  <NL>  }  COM: <s> path by media label </s>

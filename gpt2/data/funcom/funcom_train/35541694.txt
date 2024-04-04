@@ -1,0 +1,1 @@
+TDAT: public void test level alone ( ) {  <NL> lex and check ( " 01 . " + ls , " [ @ 0 , 7 : 8 = ' 01 ' , < data _ item _ level > , 1 : 7 ] "  <NL>  + " [ @ 1 , 9 : 9 = ' . ' , < period > , 1 : 9 ] " ) ;  <NL>  }  COM: <s> items dont have to be named </s>

@@ -1,0 +1,1 @@
+TDAT: private void verify buffer size ( int sz ) {  <NL> if ( sz > buf . length ) {  <NL> byte [ ] old = buf ;  <NL> buf = new byte [ math . max ( sz , 2 * buf . length ) ] ;  <NL> system . arraycopy ( old , 0 , buf , 0 , old . length ) ;  <NL>  }  <NL>  }  COM: <s> ensures that we have a large enough buffer for the given size </s>

@@ -1,0 +1,1 @@
+TDAT: public void set brush values ( float [ ] new values ) {  <NL> this . brush values = ( float [ ] ) new values . clone ( ) ;  <NL>  <NL> num brushed = 0 ;  <NL> for ( int i = 0 ; i < brush values . length ; i + + ) {  <NL> if ( brush values [ i ] > 0 . 0f ) num brushed + + ;  <NL>  }  <NL>  }  COM: <s> sets the array with brush vallues directly </s>

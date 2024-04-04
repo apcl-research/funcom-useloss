@@ -1,0 +1,1 @@
+TDAT: public string create filename ( ) {  <NL> m _ filename = osm slide . create oral notes filename ( m _ slide ) ;  <NL> if ( m _ slide ! = null )  <NL> m _ slide . set oral notes filename ( m _ filename ) ;  <NL> m _ filename = get path ( m _ slide ) + file . separator + m _ filename ;  <NL> return m _ filename ;  <NL>  }  COM: <s> it creates the oral notes filename </s>

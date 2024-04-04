@@ -1,0 +1,1 @@
+TDAT: public void set data ( data data ) {  <NL> this . data = data ;  <NL> if ( this . data . get length ( ) % 4 ! = 0 ) {  <NL> int rest len = 4 - this . data . get length ( ) % 4 ;  <NL> this . set rest ( get rest ( rest len ) ) ;  <NL>  }  <NL> this . get obj header ( ) . set length ( ( short ) this . data . get length ( ) ) ;  <NL>  }  COM: <s> sets the data </s>

@@ -1,0 +1,1 @@
+TDAT: public void log xml ( option o ) {  <NL> log string ( " < option name = \ " " ) ;  <NL> log string ( o . get key ( ) ) ;  <NL> log string ( " \ " value = \ " " ) ;  <NL> log value ( o , true ) ;  <NL> log string ( " \ " / > " ) ;  <NL> log new line ( ) ;  <NL>  }  COM: <s> log the option value in xml </s>

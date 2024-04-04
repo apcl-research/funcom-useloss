@@ -1,0 +1,1 @@
+TDAT: public void info ( object msg , throwable t ) {  <NL> if ( is enabled ( level _ info ) ) {  <NL> msg = ' [ ' + levels [ level _ info ] + ' ] ' + string . value of ( msg ) + ' \n ' ;  <NL> write ( level _ info , string . value of ( msg ) ) ;  <NL> write ( level _ info , tools . get stack trace ( t ) ) ;  <NL>  }  <NL>  }  COM: <s> write info message </s>

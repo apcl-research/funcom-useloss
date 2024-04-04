@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> string s ;  <NL> int i ;  <NL>  <NL> s = " tiff has " + page count + " pages\n\n " ;  <NL> s + = header . to string ( ) + " \n " ;  <NL> for ( i = 0 ; i < page count ; i + + )  <NL> s + = " page # " + i + " \n " + pages [ i ] . to string ( ) ;  <NL> return s ;  <NL>  }  COM: <s> returns a string with all the tags for all the pages </s>

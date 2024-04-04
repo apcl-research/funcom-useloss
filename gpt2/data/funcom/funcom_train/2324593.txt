@@ -1,0 +1,1 @@
+TDAT: protected void set up ( int b , int k ) {  <NL> if ( ! ( b > = 2 & & k > = 1 ) ) {  <NL> throw new illegal argument exception ( " assertion : b > = 2 & & k > = 1 " ) ;  <NL>  }  <NL> this . buffer set = new float buffer set ( b , k ) ;  <NL> this . clear ( ) ;  <NL>  }  COM: <s> initializes the receiver </s>

@@ -1,0 +1,1 @@
+TDAT: public void apply ( matrix h , int column , int i1 , int i2 ) {  <NL> double temp = c * h . get ( i1 , column ) + s * h . get ( i2 , column ) ;  <NL> h . set ( i2 , column , - s * h . get ( i1 , column ) + c * h . get ( i2 , column ) ) ;  <NL> h . set ( i1 , column , temp ) ;  <NL>  }  COM: <s> applies the givens rotation to two elements in a matrix column </s>

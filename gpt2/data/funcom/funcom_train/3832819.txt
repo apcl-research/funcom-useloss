@@ -1,0 +1,1 @@
+TDAT: public string get init parameter ( string name ) {  <NL> for ( int i = 0 ; i < params . size ( ) ; i + + ) {  <NL> object [ ] param = ( object [ ] ) params . get ( i ) ;  <NL> if ( param [ 0 ] . equals ( name ) ) {  <NL> return ( string ) param [ 1 ] ;  <NL>  }  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> returns a named initi parameter or code null code if the </s>

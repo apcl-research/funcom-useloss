@@ -1,0 +1,1 @@
+TDAT: public byte agression ( ) {  <NL> enumeration e = the units . elements ( ) ;  <NL> int total = 0 , num ;  <NL> for ( num = 0 ; e . has more elements ( ) ; num + + )  <NL> total + = ( ( unit ) e . next element ( ) ) . the design . agression ;  <NL> return ( byte ) ( total / num ) ;  <NL>  }  COM: <s> returns the mean agression of all of my units </s>

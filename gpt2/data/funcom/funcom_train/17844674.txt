@@ -1,0 +1,1 @@
+TDAT: public boolean is invalid ( ) {  <NL> return ( m title = = null & & m topic = = null & & ! m channel . is available or null channel ( ) & & m filter name = = null & & m time from = = - 1 & & m time to = = - 1 & & m day of week = = exclusion . daylimit _ daily ) || ! m channel . is available or null channel ( ) ;  <NL>  }  COM: <s> gets if this exclusion is invalid </s>

@@ -1,0 +1,1 @@
+TDAT: public void create ( mcr object id mcrid , org . jdom . document xml ) throws mcr exception {  <NL> get xml table ( mcrid . get type id ( ) ) . create ( mcrid . get id ( ) , mcr utils . get byte array ( xml ) , 1 ) ;  <NL> jdom cache . put ( mcrid , xml ) ;  <NL> config . system modified ( ) ;  <NL>  }  COM: <s> the method create a new item in the datastore </s>

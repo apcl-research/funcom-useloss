@@ -1,0 +1,1 @@
+TDAT: public void do substitute ( ) {  <NL> get jpe ( ) . set ask mode ( this , " replace question " , " pattern = " ) ;  <NL> get jpe ( ) . set ask mode ( this , " flag question " , " replace = " ) ;  <NL> get jpe ( ) . set ask mode ( this , " substitute " , " flag ( g : global ) = " ) ;  <NL>  }  COM: <s> do substitute uses the ask interface </s>

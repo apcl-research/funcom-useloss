@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> string out = get class ( ) . get name ( ) + " [ \n " ;  <NL>  <NL> for ( int i = 0 ; i < get vertex count ( ) ; i + + ) {  <NL> out = out + " \t " + get x ( i ) + " , " + get y ( i ) + " \n " ;  <NL>  }  <NL>  <NL> out = out + " ] " ;  <NL> return out ;  <NL>  }  COM: <s> return a string representation of the polygon </s>

@@ -1,0 +1,1 @@
+TDAT: public void insert empty column ( int index ) {  <NL> if ( index > cols . size ( ) ) {  <NL> int count = index - cols . size ( ) ;  <NL> for ( int i = 0 ; i < count + 1 ; i + + ) {  <NL> cols . add ( new column ( ) ) ;  <NL>  }  <NL>  }  <NL> else {  <NL> cols . add ( index , new column ( ) ) ;  <NL>  }  <NL>  }  COM: <s> insert empty column at index </s>

@@ -1,0 +1,1 @@
+TDAT: public void test mean ( ) {  <NL> system . out . println ( " test mean " ) ;  <NL> assert . assert equals ( emptyl1 . mean ( ) , 0 . 0 ) ;  <NL> assert . assert equals ( emptyl2 . mean ( ) , 0 . 0 ) ;  <NL> assert . assert equals ( l3a . mean ( ) , 7 . 0 ) ;  <NL> assert . assert equals ( l3b . mean ( ) , 5 . 0 ) ;  <NL>  }  COM: <s> test of mean method of class be </s>

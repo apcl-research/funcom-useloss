@@ -1,0 +1,1 @@
+TDAT: public cached response get ( serializable key ) {  <NL> final cached response r = ( cached response ) this . store . get ( key ) ;  <NL> if ( get logger ( ) . is info enabled ( ) ) {  <NL> get logger ( ) . info ( " cache " + ( r = = null ? " miss " : " hit " ) + " for " + key ) ;  <NL>  }  <NL> return r ;  <NL>  }  COM: <s> get a cached response </s>

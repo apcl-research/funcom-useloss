@@ -1,0 +1,1 @@
+TDAT: public void set xml ( string xml ) {  <NL> check has root element end ( ) ;  <NL> int idx = xml . index of ( last elem ) ;  <NL> if ( idx ! = - 1 ) {  <NL> this . xml . set text ( xml . substring ( 0 , idx ) ) ;  <NL>  } else {  <NL> throw new runtime exception ( " invalid root element end " ) ;  <NL>  }  <NL>  }  COM: <s> set xml to be saved using this method </s>

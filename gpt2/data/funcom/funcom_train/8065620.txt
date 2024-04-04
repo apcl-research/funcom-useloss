@@ -1,0 +1,1 @@
+TDAT: public void remove layer ( layer lay ) {  <NL>  _ layers . remove ( lay ) ;  <NL> lay . remove editor ( _ editor ) ;  <NL> if ( _ active layer = = lay ) {  <NL> if ( _ layers . size ( ) > = 1 )  <NL>  _ active layer = ( layer ) _ layers . get ( 0 ) ;  <NL> else <NL>  _ active layer = null ;  <NL>  }  <NL>  }  COM: <s> remove a sublayer to this layer </s>

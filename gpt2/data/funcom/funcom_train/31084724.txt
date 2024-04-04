@@ -1,0 +1,1 @@
+TDAT: public void print ( string indent , print stream output ) {  <NL> output . println ( indent + this ) ;  <NL> for ( int i = 0 ; i < get time slice count ( ) ; + + i ) {  <NL> get time slice ( i ) . print ( indent + " " , output ) ;  <NL> output . println ( " " ) ;  <NL>  }  <NL>  }  COM: <s> this prints the time slice including all following music symbols </s>

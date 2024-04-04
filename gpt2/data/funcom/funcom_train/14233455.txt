@@ -1,0 +1,1 @@
+TDAT: public int find slot by ip and port ( string ip , int port ) {  <NL> for ( int i = 0 ; i < slots . length ; i + + ) {  <NL> if ( slots [ i ] . get ip ( ) . equals ( ip ) & & ( slots [ i ] . get port ( ) = = port ) & & ( port ! = 0 ) ) {  <NL> return i ;  <NL>  }  <NL>  }  <NL> return - 1 ;  <NL>  }  COM: <s> finds a slot whose player has the specified ip and port </s>

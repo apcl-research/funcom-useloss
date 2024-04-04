@@ -1,0 +1,1 @@
+TDAT: public void test finished ( final test result result ) {  <NL> final long time = result . get duration ( ) ;  <NL> final string test name = result . get test ( ) . get name ( ) ;  <NL> if ( log . is loggable ( level . info ) ) {  <NL> log . info ( " test " + test name + " took " + time + " ms . " ) ;  <NL>  }  <NL>  }  COM: <s> called when a test finishes </s>

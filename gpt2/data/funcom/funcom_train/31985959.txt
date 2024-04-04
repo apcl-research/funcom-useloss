@@ -1,0 +1,1 @@
+TDAT: public void mouse down ( mouse event e , int x , int y ) {  <NL> f anchor point = new point ( x , y ) ;  <NL> f created figure = create figure ( ) ;  <NL> f created figure . display box ( f anchor point , f anchor point ) ;  <NL> view ( ) . add ( f created figure ) ;  <NL>  }  COM: <s> creates a new figure by cloning the prototype </s>

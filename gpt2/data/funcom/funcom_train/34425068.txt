@@ -1,0 +1,1 @@
+TDAT: public void test evaluate _ ne ( ) {  <NL> for ( int y = - 2 ; y < 2 ; y + + )  <NL> for ( int x = - 2 ; x < 2 ; x + + ) {  <NL> object result = verify and evaluate ( context , x + " ! = " + y ) ;  <NL> assert equals ( x + " ! = " + y , x ! = y , result ) ;  <NL>  }  <NL>  }  COM: <s> test evaluation the inequality operator </s>

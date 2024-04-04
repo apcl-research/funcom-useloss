@@ -1,0 +1,1 @@
+TDAT: public void set dataset ( xy dataset dataset ) {  <NL> xy plot plot = ( xy plot ) this . chart . get plot ( ) ;  <NL> if ( plot ! = null ) {  <NL> xy dataset old = plot . get dataset ( ) ;  <NL> plot . set dataset ( dataset ) ;  <NL> fire property change ( " dataset " , old , dataset ) ;  <NL>  }  <NL>  }  COM: <s> sets the dataset used by the chart and fires a </s>

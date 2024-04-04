@@ -1,0 +1,1 @@
+TDAT: private operand get local dual ( int i ) {  <NL> if ( vm . verify assertions ) vm . _ assert ( _ local state [ i + 1 ] = = dummy ) ;  <NL> operand local = _ local state [ i ] ;  <NL> if ( dbg _ local || dbg _ selected ) db ( " getting local " + i + " for use : " + local ) ;  <NL> return local . copy ( ) ;  <NL>  }  COM: <s> gets the specified local variable long double </s>

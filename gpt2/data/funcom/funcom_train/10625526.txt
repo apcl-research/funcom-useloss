@@ -1,0 +1,1 @@
+TDAT: public void test short buffer exception01 ( ) {  <NL> short buffer exception t e = new short buffer exception ( ) ;  <NL> assert null ( " get message ( ) must return null . " , t e . get message ( ) ) ;  <NL> assert null ( " get cause ( ) must return null " , t e . get cause ( ) ) ;  <NL>  }  COM: <s> test for code short buffer exception code constructor assertion </s>

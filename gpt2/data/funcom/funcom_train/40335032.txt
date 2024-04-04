@@ -1,0 +1,1 @@
+TDAT: private string put space ( string nm ) {  <NL> char c [ ] = nm . to char array ( ) ;  <NL> string mn = new string ( ) ;  <NL> for ( int i = 0 ; i < c . length ; i + + ) {  <NL> if ( c [ i ] = = ' _ ' ) {  <NL> c [ i ] = ' ' ;  <NL>  }  <NL> mn + = c [ i ] ;  <NL>  }  <NL> return mn ;  <NL>  }  COM: <s> this method is called from within the constructor to </s>

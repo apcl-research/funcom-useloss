@@ -1,0 +1,1 @@
+TDAT: public void test remove back ( ) throws bad location exception {  <NL>  / / shift the gap so that it ' s in the middle <NL> obj . remove ( 8 , 2 ) ;  <NL>  / / test <NL> obj . remove ( 0 , 8 ) ;  <NL> assert equals ( " test string . " , obj . get string ( 0 , obj . length ( ) - 1 ) ) ;  <NL>  }  COM: <s> removes a portion of content in the middle </s>

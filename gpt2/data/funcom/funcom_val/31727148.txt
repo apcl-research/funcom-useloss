@@ -1,0 +1,1 @@
+TDAT: public double get laser ( int w ) throws remote exception {  <NL> if ( distances . length < w || w < 0 ) {  <NL> system . out . println ( prg + " : index " + w + " out of bounds " ) ;  <NL> throw new remote exception ( " index " + w + " out of bounds " ) ;  <NL>  }  <NL> return distances [ w ] ;  <NL>  }  COM: <s> returns a double for a specific laser reading </s>

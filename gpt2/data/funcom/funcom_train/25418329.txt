@@ -1,0 +1,1 @@
+TDAT: public void set hint mode ( string mode ) {  <NL> mode = val . chk str ( mode ) . to lower case ( ) ;  <NL> if ( mode . equals ( " inline " ) || mode . equals ( " tip " ) || mode . equals ( " toggle " ) ) {  <NL>  _ hint mode = mode ;  <NL>  } else {  <NL>  _ hint mode = " inline " ;  <NL>  }  <NL>  <NL>  }  COM: <s> sets the mode for an optional hint inline tip toggle </s>

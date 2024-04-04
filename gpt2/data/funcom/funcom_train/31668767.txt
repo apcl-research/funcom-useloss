@@ -1,0 +1,1 @@
+TDAT: private double calc x min ( ) {  <NL>  <NL> double xmin = double . positive _ infinity ;  <NL>  <NL> for ( int i = 0 ; i < grid width ; i + + )  <NL> for ( int j = 0 ; j < grid height ; j + + )  <NL> if ( grid [ i ] [ j ] . x < xmin )  <NL> xmin = grid [ i ] [ j ] . x ;  <NL>  <NL> return xmin ;  <NL>  }  COM: <s> calc xmin finds the minimum x value contained in the </s>

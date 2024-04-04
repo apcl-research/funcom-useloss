@@ -1,0 +1,1 @@
+TDAT: public void fill rect ( graphics g , int x , int y , int w , int h , image observer observer ) {  <NL> fill rect ( g , x , y , w , h , x , y , w , h , observer ) ;  <NL>  }  COM: <s> fill a rectangle with the replicated pattern </s>

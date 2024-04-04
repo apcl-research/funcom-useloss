@@ -1,0 +1,1 @@
+TDAT: public string get filename ( ) {  <NL> string s = location . get file ( ) ;  <NL> if ( s . last index of ( " / " ) > 0 ) s = s . substring ( s . last index of ( " / " ) + 1 ) ;  <NL> if ( s . index of ( " ? " ) > = 0 ) s = s . substring ( 0 , s . index of ( " ? " ) ) ;  <NL> return s ;  <NL>  }  COM: <s> unqualified name of file sent </s>

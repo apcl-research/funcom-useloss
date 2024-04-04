@@ -1,0 +1,1 @@
+TDAT: private void write to air ( string mess , int conn idx ) {  <NL> write to air plain ( " < body rid = \ " " + ( + + rid ) + " \ " sid = \ " " + sid + " \ " "  <NL>  + " xmlns = \ " http : / / jabber . org / protocol / httpbind\ " > " + mess <NL>  + " < / body > " , conn idx ) ;  <NL>  }  COM: <s> writes the message to the outputsream of the given connection </s>

@@ -1,0 +1,1 @@
+TDAT: public void check response code ( ) throws io exception {  <NL> int code = connection . get response code ( ) ;  <NL> if ( code ! = http url connection . http _ ok ) {  <NL> throw new io exception ( " response code is other than 200 ok . url : \n " + connection . to string ( ) + " \n code : " + code ) ;  <NL>  }  <NL>  }  COM: <s> checkes response code </s>

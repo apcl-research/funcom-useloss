@@ -1,0 +1,1 @@
+TDAT: public void test empty ( ) {  <NL> open empty dict ( ) ;  <NL> iterator i = m dict . keys ( ) ;  <NL> for ( ; i . has next ( ) ; ) {  <NL> object o = i . next ( ) ;  <NL> system . out . println ( o ) ;  <NL>  }  <NL> assert false ( " expected empty iterator " , i . has next ( ) ) ;  <NL>  }  COM: <s> tests whether empty file is opened correctly </s>

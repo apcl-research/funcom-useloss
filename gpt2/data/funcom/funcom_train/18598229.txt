@@ -1,0 +1,1 @@
+TDAT: public void update ( dbms dbms , string id , element xml , string change date , boolean update date stamp , service context context ) throws sql exception {  <NL>  <NL> update db ( dbms , id , xml , change date , xml . get qualified name ( ) , update date stamp ) ;  <NL>  }  COM: <s> updates an xml element into the database </s>

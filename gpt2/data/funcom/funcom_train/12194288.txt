@@ -1,0 +1,1 @@
+TDAT: public void test more than3dots path fragment ( ) throws exception {  <NL>  <NL> do test ( " . . . " , " . . . " , false ) ;  <NL> do test ( " . . . . . " , " . . . . . " , false ) ;  <NL> do test ( " . a . " , " . a . " , false ) ;  <NL> do test ( " . . . b " , " . . . b " , false ) ;  <NL>  }  COM: <s> three dots is a file or directory name </s>

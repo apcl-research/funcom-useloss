@@ -1,0 +1,1 @@
+TDAT: protected boolean has form field ( element elem ) {  <NL> string [ ] accepted child names = { " input " , " textarea " , " button " , " select " } ; / / $ non - nls - 1 $ / / $ non - nls - 2 $ / / $ non - nls - 3 $ / / $ non - nls - 4 $  <NL> return has child ( elem , accepted child names ) ;  <NL>  }  COM: <s> check if the element has a form field as a child </s>

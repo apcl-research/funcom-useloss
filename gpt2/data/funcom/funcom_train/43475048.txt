@@ -1,0 +1,1 @@
+TDAT: public route message build message ( node handle from , node handle to , node handle next hop , int type , int mode , message m ) {  <NL> return build message ( from , to , next hop , type , mode , m , generic factory . generate key ( ) ) ;  <NL>  }  COM: <s> builds a nw route message with the specified data </s>

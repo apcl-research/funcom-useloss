@@ -1,0 +1,1 @@
+TDAT: public void test histogram ( ) throws exception {  <NL> try random values ( 10000 ) ;  <NL> try fixed value ( 10 , 0f ) ;  <NL> try fixed value ( 10 , 1e10f ) ;  <NL> try fixed value ( 10 , - 1e10f ) ;  <NL> try fixed value ( 10 , 1e - 10f ) ;  <NL> try fixed value ( 10 , - 1e - 10f ) ;  <NL>  }  COM: <s> test various normal and extreme cases </s>

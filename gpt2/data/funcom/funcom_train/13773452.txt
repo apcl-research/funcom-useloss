@@ -1,0 +1,1 @@
+TDAT: public var type get col bnds ( int colnum ) throws wrong lpx {  <NL> ensure column exist ( colnum ) ;  <NL> double [ ] temp = native _ get _ col _ bnds ( id , colnum + 1 ) ;  <NL> return new var type ( ( int ) temp [ 0 ] , temp [ 1 ] , temp [ 2 ] ) ;  <NL>  }  COM: <s> returns an object of the type </s>

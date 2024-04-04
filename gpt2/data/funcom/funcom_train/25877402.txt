@@ -1,0 +1,1 @@
+TDAT: public void read object ( identifier id , file f ) {  <NL> output stream out ;  <NL> try {  <NL> out = new file output stream ( f ) ;  <NL>  } catch ( file not found exception e ) {  <NL> throw new esu exception ( " error opening output file " , e ) ;  <NL>  }  <NL> read object ( id , out , true ) ;  <NL>  }  COM: <s> downloads the given objects contents to a file </s>

@@ -1,0 +1,1 @@
+TDAT: private void check ( string [ ] expected , list < string > actual ) {  <NL> assert not null ( actual ) ;  <NL> assert equals ( expected . length , actual . size ( ) ) ;  <NL> for ( int index = 0 ; index < expected . length ; index + + ) {  <NL> assert equals ( expected [ index ] , actual . get ( index ) ) ;  <NL>  }  <NL>  }  COM: <s> check the result </s>

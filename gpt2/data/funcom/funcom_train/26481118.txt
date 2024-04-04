@@ -1,0 +1,1 @@
+TDAT: public void paint no cache ( graphics2d g , int width , int height , boolean high quality ) {  <NL> if ( high quality ) {  <NL> g . set rendering hint ( rendering hints . key _ antialiasing , rendering hints . value _ antialias _ on ) ;  <NL>  }  <NL> do paint ( g , width , height ) ;  <NL>  }  COM: <s> paint without caching the resulting image </s>

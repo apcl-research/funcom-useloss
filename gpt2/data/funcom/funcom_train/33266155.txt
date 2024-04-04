@@ -1,0 +1,1 @@
+TDAT: public void draw rect ( int x , int y , int width , int height ) {  <NL> draw line ( x , y , x + width , y ) ;  <NL> draw line ( x + width , y , x + width , y + height ) ;  <NL> draw line ( x , y , x , y + height ) ;  <NL> draw line ( x , y + height , x + width , y + height ) ;  <NL>  }  COM: <s> draws the outline of the specified rectangle using the current color </s>

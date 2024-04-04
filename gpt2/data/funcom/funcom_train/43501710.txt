@@ -1,0 +1,1 @@
+TDAT: public boolean is included ( file path ) {  <NL> boolean inc ex b = ( this . include re = = null ) ? true : this . include re . match ( path . get name ( ) ) ;  <NL> if ( ! inc ex b ) log . debug ( " excluding : " + path . get absolute path ( ) ) ;  <NL> return inc ex b ;  <NL>  }  COM: <s> determines if a given file shall be visible </s>

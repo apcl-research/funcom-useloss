@@ -1,0 +1,1 @@
+TDAT: public editor html html editar ( ) {  <NL> string s = get string ( ) ;  <NL> s = s . equals ( vazio ) ? " " : s ;  <NL> text area editor =  <NL> new text area ( get nome ( ) , integer . to string ( linhas ) , integer . to string ( colunas ) , wrap , s ) ;  <NL> return editor ;  <NL>  }  COM: <s> html editar method comment </s>

@@ -1,0 +1,1 @@
+TDAT: private void sort ( ) {  <NL> if ( sorted ! = null ) return ;  <NL> int i = integer . min _ value ;  <NL> for ( final int n : nodes ) {  <NL> if ( i > n ) {  <NL> sorted = arrays . copy of ( nodes , size ) ;  <NL> arrays . sort ( sorted ) ;  <NL> return ;  <NL>  }  <NL> i = n ;  <NL>  }  <NL> sorted = nodes ;  <NL>  }  COM: <s> creates a sorted node array </s>

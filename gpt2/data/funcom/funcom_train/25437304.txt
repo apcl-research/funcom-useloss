@@ -1,0 +1,1 @@
+TDAT: public void display message in tray ( string message ) {  <NL> if ( obj tray icon ! = null & & ! message . trim ( ) . equals ( " " ) ) {  <NL>  / / message box . show info ( null , message ) ;  <NL> obj tray icon . display message ( " " , message , tray icon . message type . none ) ;  <NL>  }  <NL>  <NL>  <NL>  }  COM: <s> this method display message in tray </s>

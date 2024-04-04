@@ -1,0 +1,1 @@
+TDAT: public void test delta cepstrum ( string filename , string cb ) {  <NL> rc = new recognizer ( order , frame length , frame shift , min _ t , weights ) ;  <NL>  / / record the observation sequences in vector < code > obs < / code >  <NL> rc . test delta cepstrum ( filename , cb ) ;  <NL>  }  COM: <s> test using only vq against the codebook formed using delta cepstrums </s>

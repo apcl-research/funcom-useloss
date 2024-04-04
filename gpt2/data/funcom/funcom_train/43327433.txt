@@ -1,0 +1,1 @@
+TDAT: final public void save pred ( double [ ] dp , int offset ) {  <NL> int i ;  <NL>  <NL> for ( i = 0 ; i < residues ( ) ; i + + ) {  <NL> dp [ ( i + offset ) * 2 ] = aa ( i ) . pred h ;  <NL> dp [ ( i + offset ) * 2 + 1 ] = aa ( i ) . pred e ;  <NL>  }  <NL>  }  COM: <s> save h e to array </s>

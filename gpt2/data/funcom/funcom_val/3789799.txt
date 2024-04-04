@@ -1,0 +1,1 @@
+TDAT: public void example valid if ( ) {  <NL> int a = 1 ;  <NL> int b = 1 ;  <NL> boolean ok = false ;  <NL> if ( a + b = = b + a ) {  <NL> ok = true ;  <NL>  }  <NL> if ( ( a + b = = b + a ) & &  <NL>  ( a * b = = b * a ) & &  <NL>  ( a = = b + 1 ) & &  <NL>  ( b = = a - 1 ) ) {  <NL> ok = true ;  <NL>  }  <NL>  }  COM: <s> correct indentation of an if statement </s>

@@ -1,0 +1,1 @@
+TDAT: public user get user ( string login id , string password ) {  <NL> list < user > users = get dao ( ) . query (  <NL>  " from user user where user . login id = ? and user . password = ? " ,  <NL> new object [ ] { login id , password } ) ;  <NL> if ( users . is empty ( ) ) {  <NL> return null ;  <NL>  }  <NL> return users . get ( 0 ) ;  <NL>  }  COM: <s> code user code </s>

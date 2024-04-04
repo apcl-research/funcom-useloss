@@ -1,0 +1,1 @@
+TDAT: public void _ set content ( ) {  <NL> s content = get random content ( " a1 ; a4 : c5 ; = b2 " ) ;  <NL> log . println ( " set content to \ " " + s content + " \ " " ) ;  <NL> o obj . set content ( s content ) ;  <NL>  <NL> t res . tested ( " set content ( ) " , true ) ;  <NL>  }  COM: <s> test creates and stores random content and calls the method </s>

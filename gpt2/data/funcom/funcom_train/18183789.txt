@@ -1,0 +1,1 @@
+TDAT: @ test public void test equals not equal ( ) {  <NL> assert that ( create object with properties set ( ) . equals ( create object with properties null ( ) ) , is ( false ) ) ;  <NL> assert that ( create object with properties null ( ) . equals ( create object with properties set ( ) ) , is ( false ) ) ;  <NL>  }  COM: <s> asserts that objects differ </s>

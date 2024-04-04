@@ -1,0 +1,1 @@
+TDAT: public int common prefix ( value other ) {  <NL> final int l = math . min ( len , other . len ) ;  <NL> int i = 0 ;  <NL> for ( ; i < l ; i + + ) {  <NL> byte b = data [ pos + i ] ;  <NL> if ( b ! = other . data [ other . pos + i ] )  <NL> break ;  <NL>  }  <NL> return i ;  <NL>  }  COM: <s> returns the length of the common prefix this value </s>

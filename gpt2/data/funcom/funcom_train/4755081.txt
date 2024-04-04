@@ -1,0 +1,1 @@
+TDAT: private void ss ( ) {  <NL> double total = sserr ;  <NL> rss [ nvars - 1 ] = sserr ;  <NL> for ( int i = nvars - 1 ; i > 0 ; i - - ) {  <NL> total + = d [ i ] * rhs [ i ] * rhs [ i ] ;  <NL> rss [ i - 1 ] = total ;  <NL>  }  <NL> rss _ set = true ;  <NL> return ;  <NL>  }  COM: <s> calculates the sum of squared errors for the full regression </s>

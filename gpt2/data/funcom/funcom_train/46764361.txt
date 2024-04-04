@@ -1,0 +1,1 @@
+TDAT: private string get file text ( ) throws exception {  <NL> if ( file = = null ) return " " ;  <NL> file input stream fis = new file input stream ( file ) ;  <NL> byte [ ] bytes = new byte [ ( int ) file . length ( ) ] ;  <NL> fis . read ( bytes ) ;  <NL> fis . close ( ) ;  <NL> return new string ( bytes ) ;  <NL>  }  COM: <s> this returns the text contained in the file </s>

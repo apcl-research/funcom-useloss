@@ -1,0 +1,1 @@
+TDAT: private string get node value ( node node ) {  <NL> if ( node = = null ) {  <NL> return null ;  <NL>  }  <NL> string val = node . get node value ( ) ;  <NL> if ( val = = null ) {  <NL> return null ;  <NL>  }  <NL> if ( ( val = val . trim ( ) ) . length ( ) = = 0 ) {  <NL> return null ;  <NL>  }  <NL> return val ;  <NL>  }  COM: <s> extract a string from a node </s>

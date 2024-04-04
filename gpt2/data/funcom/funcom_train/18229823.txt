@@ -1,0 +1,1 @@
+TDAT: private enumeration search class ( node n , class clazz ) {  <NL> if ( clazz ! = null ) {  <NL> n = class to node ( n , clazz ) ;  <NL>  }  <NL>  <NL> if ( n = = null ) {  <NL>  / / not for us <NL> return org . openide . util . enumerations . empty ( ) ;  <NL>  } else {  <NL> return node to enum ( n ) ;  <NL>  }  <NL>  }  COM: <s> search for a requested class </s>

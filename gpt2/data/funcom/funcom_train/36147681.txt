@@ -1,0 +1,1 @@
+TDAT: public char char at ( int arg0 ) {  <NL> if ( ( get buffer end ( ) = = null ) || ( arg0 < ( get buffer ( ) . length ( ) - 1 ) ) ) {  <NL> return get buffer ( ) . char at ( arg0 ) ;  <NL>  } else {  <NL> return get buffer end ( ) . char at ( arg0 - ( get buffer ( ) . length ( ) ) ) ;  <NL>  }  <NL>  }  COM: <s> find the character at an position </s>

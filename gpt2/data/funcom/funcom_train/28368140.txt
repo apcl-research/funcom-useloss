@@ -1,0 +1,1 @@
+TDAT: private void parse ( final element cur ) {  <NL> if ( cur . get child ( " group " ) = = null ) return ;  <NL> for ( final object e : cur . get children ( " group " ) ) {  <NL> final group g = group . build from xml ( ( element ) e ) ;  <NL> groups . put ( g . get name ( ) , g ) ;  <NL>  }  <NL>  }  COM: <s> parse the population from the entities section of the xml file </s>

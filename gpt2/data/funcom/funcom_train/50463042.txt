@@ -1,0 +1,1 @@
+TDAT: public void remove extension part ( url ext url , string version , string [ ] parts ) throws io exception {  <NL> if ( parts = = null ) return ;  <NL> for ( int i = 0 ; i < parts . length ; i + + ) {  <NL> remove extension part ( ext url , version , parts [ i ] ) ;  <NL>  }  <NL>  }  COM: <s> remove a list of extenions parts </s>

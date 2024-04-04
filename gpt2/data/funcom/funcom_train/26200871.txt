@@ -1,0 +1,1 @@
+TDAT: public void draw rect ( int x , int y , int w , int h ) {  <NL> new path ( ) ;  <NL> pw . print ( cxy ( x , y ) + cwh ( w , h ) + " re " ) ; / / rectangle <NL> lx = x ; / / i don ' t know if this is correct , but lets see if pdf ends <NL> ly = y ; / / the rectangle at it ' s start .  <NL>  / / stroke ( optimised )  <NL>  }  COM: <s> we override graphics </s>

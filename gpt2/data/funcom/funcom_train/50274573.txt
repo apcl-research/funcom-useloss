@@ -1,0 +1,1 @@
+TDAT: public boolean confirm ( string message ) {  <NL> int ret value = j option pane . show confirm dialog ( browser frame . get html panel ( ) , message , " web page content : java script confirm " , j option pane . yes _ no _ option ) ;  <NL> return ret value = = j option pane . yes _ option ;  <NL>  }  COM: <s> opens a simple confirmation window </s>

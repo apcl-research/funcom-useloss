@@ -1,0 +1,1 @@
+TDAT: public string get tool tip text ( mouse event event ) {  <NL> int x = event . get x ( ) ;  <NL> int y = event . get y ( ) ;  <NL>  <NL> ht draw node node = draw . find node ( new ht coord s ( x , y ) ) ;  <NL> if ( node ! = null ) {  <NL> return node . get name ( ) ;  <NL>  } else {  <NL> return null ;  <NL>  }  <NL>  }  COM: <s> returns the tooltip to be displayed </s>

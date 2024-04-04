@@ -1,0 +1,1 @@
+TDAT: protected void init ( ) {  <NL>  / / pack ( ) ;  <NL> java . awt . dimension screen size = java . awt . toolkit . get default toolkit ( ) . get screen size ( ) ;  <NL> set bounds ( ( screen size . width - get width ( ) ) / 2 , ( screen size . height - get height ( ) ) / 2 , get width ( ) , get height ( ) ) ;  <NL>  }  COM: <s> initialization by a child </s>

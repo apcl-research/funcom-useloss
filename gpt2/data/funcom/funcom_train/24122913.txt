@@ -1,0 +1,1 @@
+TDAT: private void set node id ( final t node node , final int i , final boolean variant ) {  <NL> if ( node . f id > = 0 ) {  <NL> error ( string . format ( " doubly defined % s : % s " , variant ? " variant " : " version " , node . f node name ) ) ;  <NL>  } else {  <NL> node . f id = i ;  <NL>  }  <NL>  }  COM: <s> sets an id to the supplied node throws a </s>

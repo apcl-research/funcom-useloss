@@ -1,0 +1,1 @@
+TDAT: public font get font ( final string fontname , final string encoding , final boolean embedded , final float size , final int style , final base color color ) {  <NL> return get font ( fontname , encoding , embedded , size , style , color , true ) ;  <NL>  }  COM: <s> constructs a code font code object </s>

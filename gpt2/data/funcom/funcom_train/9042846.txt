@@ -1,0 +1,1 @@
+TDAT: public string debug ( ) {  <NL> string s = name + " : " ;  <NL> s + = running ? " running : " : " stopped : " ;  <NL> s + = format ( read ( name ) ) ;  <NL> s + = " lap times : " ;  <NL> for ( long lap : laps ) {  <NL> s + = format ( lap ) + " " ;  <NL>  }  <NL> return s ;  <NL>  }  COM: <s> prints a debug string </s>

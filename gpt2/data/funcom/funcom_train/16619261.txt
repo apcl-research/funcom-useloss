@@ -1,0 +1,1 @@
+TDAT: public void add button no link ( string image file , string alt text ) {  <NL> contents . add ( " < img style = \ " border : 0\ " src = \ " " + string escape utils . escape html ( image file ) + " \ " alt = \ " " + string escape utils . escape html ( alt text ) + " \ " / > " + newline ) ;  <NL>  }  COM: <s> adds an image of a button to this cgview htmldocument </s>

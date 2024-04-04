@@ -1,0 +1,1 @@
+TDAT: private string save slide title ( osm slide slide ) {  <NL> string str = osm file . get tag1 ( osm file . osm _ slide _ title ) + " \n " ;  <NL> str + = save properties ( slide . get title properties ( ) ) ;  <NL> str + = osm file . get tag2 ( osm file . osm _ slide _ title ) ;  <NL> return str ;  <NL>  }  COM: <s> it saves the title of the slide </s>

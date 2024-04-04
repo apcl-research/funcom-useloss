@@ -1,0 +1,1 @@
+TDAT: private j panel get j panel3 ( ) {  <NL>  <NL> if ( j panel3 = = null ) {  <NL> j panel3 = new j panel ( ) ;  <NL> j panel3 . set layout ( new box layout ( j panel3 , box layout . y _ axis ) ) ;  <NL> j panel3 . add ( get j spinner ( ) , null ) ;  <NL>  }  <NL> return j panel3 ;  <NL>  }  COM: <s> this method initializes j panel3 </s>

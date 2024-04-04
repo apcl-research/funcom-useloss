@@ -1,0 +1,1 @@
+TDAT: public station get uml stn ( string stn ) {  <NL> for ( int i = 0 ; i < this . size ( ) ; i + + ) {  <NL> station s = this . get ( i ) ;  <NL> if ( s . get uml id ( ) = = null ) continue ;  <NL> if ( s . get uml id ( ) . equals ( stn ) ) return s ;  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> extract the station object by uml station id </s>

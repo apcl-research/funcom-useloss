@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> return " hardware ( "  <NL>  + " cpumhz = " + get cpu m hz ( )  <NL>  + " , cpusno = " + get cpus no ( )  <NL>  + " , diskspace = " + get disk space ( )  <NL>  + " , memoryamount = " + get memory amount ( )  <NL>  + " ) " ;  <NL>  }  COM: <s> get a string representation of this hardware </s>

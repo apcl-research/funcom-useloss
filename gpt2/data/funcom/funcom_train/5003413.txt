@@ -1,0 +1,1 @@
+TDAT: public string exception to string ( exception e ) {  <NL> stack trace element t = e . get stack trace ( ) [ 0 ] ;  <NL> return t . get file name ( ) + " : " + t . get method name ( ) + " , l . " / / $ non - nls - 1 $ / / $ non - nls - 2 $  <NL>  + t . get line number ( ) + " - > " + e . to string ( ) ; / / $ non - nls - 1 $  <NL>  }  COM: <s> exception to string </s>

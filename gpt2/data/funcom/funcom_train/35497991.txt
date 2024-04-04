@@ -1,0 +1,1 @@
+TDAT: public void do last ( ) {  <NL> if ( long . to string ( this . list questions . get ( list questions . size ( ) - 1 ) . get id ( ) ) . equals ( this . question id ) ) {  <NL> return ;  <NL>  }  <NL> this . question id = long . to string ( this . list questions . get ( list questions . size ( ) - 1 ) . get id ( ) ) ;  <NL>  }  COM: <s> process to go to the last question </s>

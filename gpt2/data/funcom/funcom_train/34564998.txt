@@ -1,0 +1,1 @@
+TDAT: private boolean key ( final string key , final cmd cmd ) throws query exception {  <NL> consume ws ( ) ;  <NL> final boolean ok = consume ( key ) || consume ( key . to lower case ( ) ) ;  <NL> if ( ! ok & & cmd ! = null ) help ( null , cmd ) ;  <NL> consume ws ( ) ;  <NL> return ok ;  <NL>  }  COM: <s> parses and returns the specified keyword </s>

@@ -1,0 +1,1 @@
+TDAT: protected void process vm migrate ( int user id , int vm id , int dest id , boolean ack ) {  <NL> boolean result = vmprovisioner . migrate vm ( vm id , user id , dest id ) ;  <NL> send ack ( ack , datacenter tags . vm _ migrate _ ack , dest id , vm id , result ) ;  <NL>  }  COM: <s> process the event for an user broker who wants to migrate a vm </s>

@@ -1,0 +1,1 @@
+TDAT: private void debug loader chain ( final class loader start cl ) {  <NL>  _ log . debug ( " - - - class loader chain starts " ) ;  <NL> class loader cl = start cl ;  <NL> while ( cl ! = null ) {  <NL>  _ log . debug ( cl ) ;  <NL> cl = cl . get parent ( ) ;  <NL>  }  <NL>  _ log . debug ( " - - - chain ends " ) ;  <NL>  }  COM: <s> help debug class loading issues </s>

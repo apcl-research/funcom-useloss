@@ -1,0 +1,1 @@
+TDAT: private void print link ( resource link link , boolean more ) {  <NL> println ( " { " ) ;  <NL> level up ( ) ;  <NL> print arg ( " href " , link . get url ( ) , true ) ;  <NL> print arg ( " type " , link . get tag ( ) , false ) ;  <NL> level down ( ) ;  <NL> println ( " } " + ( more ? " , " : " " ) ) ;  <NL>  }  COM: <s> prints a link </s>

@@ -1,0 +1,1 @@
+TDAT: public void test set line stroke ( ) {  <NL> system . out . println ( " test set line stroke " ) ;  <NL> line tool my line = new line tool ( ) ;  <NL> my line . set line stroke ( 4 ) ;  <NL> basic stroke bs = new basic stroke ( 4 ) ;  <NL> assert equals ( my line . get line stroke ( ) , bs ) ;  <NL>  }  COM: <s> test of set line stroke method of class line tool </s>

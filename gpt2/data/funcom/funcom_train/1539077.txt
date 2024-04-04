@@ -1,0 +1,1 @@
+TDAT: public int signum ( ) {  <NL> int t = 0 ;  <NL> byte [ ] u = val ;  <NL> for ( int i = 0 ; i < u . length ; i + + ) {  <NL> if ( u [ i ] < 0 ) {  <NL> return - 1 ;  <NL>  }  <NL> if ( u [ i ] > 0 ) {  <NL> t = 1 ;  <NL>  }  <NL>  }  <NL> return t ;  <NL>  / / return evsign ( this ) ;  <NL>  }  COM: <s> exp vector signum </s>

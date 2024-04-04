@@ -1,0 +1,1 @@
+TDAT: private point3f make point3f ( int i , int w , int h gen , int step , byte value , int slice pos ) {  <NL> return new point3f ( ( i % w ) , ( ( h gen - ( i / w ) * step ) ) , ( float ) slice pos , value ) ;  <NL>  }  COM: <s> make a point3f </s>

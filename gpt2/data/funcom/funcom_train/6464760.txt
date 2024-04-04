@@ -1,0 +1,1 @@
+TDAT: public void test comparison ( ) throws ai lib exception {  <NL> bs copy = new binary string ( bs ) ;  <NL> bs . set bit ( 5 , binary string . bit _ set ) ;  <NL> assert true ( bs . equals ( bs copy , 1 , 4 ) ) ;  <NL> assert false ( bs . equals ( bs copy , 5 , 8 ) ) ;  <NL>  }  COM: <s> tests thge comparison of two binary string objects </s>

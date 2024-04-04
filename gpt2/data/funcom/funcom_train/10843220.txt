@@ -1,0 +1,1 @@
+TDAT: private string get comparison filter ( version v , string op , boolean inclusive ) {  <NL> if ( inclusive ) {  <NL> return " ( version " + op + " = " + v + " ) " ;  <NL>  }  <NL> return " ( & ( version " + op + " = " + v + " ) ( ! ( version = " + v + " ) ) ) " ;  <NL>  }  COM: <s> creates a comparison filter for the given operation and bound version </s>

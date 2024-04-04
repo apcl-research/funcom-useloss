@@ -1,0 +1,1 @@
+TDAT: public void set ( int offset , double [ ] values , int val offset , int length ) {  <NL> if ( offset < 0 || offset + length > = _ pos ) {  <NL> throw new array index out of bounds exception ( offset ) ;  <NL>  }  <NL> system . arraycopy ( _ data , offset , values , val offset , length ) ;  <NL>  }  COM: <s> replace the values in the list starting at tt offset tt with </s>

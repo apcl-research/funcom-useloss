@@ -1,0 +1,1 @@
+TDAT: public void write all ( list topics data ) {  <NL> try {  <NL> for ( int i = 0 ; i < topics data . size ( ) - 1 ; i + + )  <NL> write2 ( i , ( property value [ ] ) topics data . get ( i ) ) ;  <NL> format last row ( ) ;  <NL>  }  <NL> catch ( exception ex ) {  <NL> ex . print stack trace ( ) ;  <NL>  }  <NL>  }  COM: <s> writes all the topics to thetopics table </s>

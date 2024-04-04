@@ -1,0 +1,1 @@
+TDAT: public void test with more fields ( ) {  <NL> check ( " a b c " , " a " , " b " , " c " ) ;  <NL> check ( " a b c d " , " a " , " b " , " c " ) ;  <NL> check ( " a b c d e " , " a " , " b " , " c " ) ;  <NL>  }  COM: <s> tests it with more fields than declard </s>

@@ -1,0 +1,1 @@
+TDAT: public void put all ( map < ? extends multi key < k > , ? extends v > map to copy ) {  <NL> for ( iterator it = map to copy . key set ( ) . iterator ( ) ; it . has next ( ) ; ) {  <NL> object key = it . next ( ) ;  <NL> check key ( key ) ;  <NL>  }  <NL> map . put all ( map to copy ) ;  <NL>  }  COM: <s> puts all the keys and values into this map </s>

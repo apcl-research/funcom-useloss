@@ -1,0 +1,1 @@
+TDAT: public void reverse ( ) {  <NL> if ( ! valid )  <NL> throw new runtime exception ( " cannot reverse not valid polygon ! " ) ;  <NL>  <NL>  <NL> for ( int i = 1 , n = count - 1 ; i < = count / 2 ; i + + , n - - ) {  <NL> mass tmp = masses [ i ] ;  <NL> masses [ i ] = masses [ n ] ;  <NL> masses [ n ] = tmp ;  <NL>  }  <NL>  }  COM: <s> reverts polygon orientation </s>

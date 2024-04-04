@@ -1,0 +1,1 @@
+TDAT: public void test pipeline and stage ( ) {  <NL> string input = " pipeline . stage " ;  <NL> com . babeldoc . core . pair pair = pipeline command . get pipeline and stage ( input ) ;  <NL> assert equals ( pair . get first ( ) , " pipeline " ) ;  <NL> assert equals ( pair . get second ( ) , " stage " ) ;  <NL>  }  COM: <s> setup the test pipeline and stage </s>

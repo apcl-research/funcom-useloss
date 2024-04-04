@@ -1,0 +1,1 @@
+TDAT: private void increase size ( ) {  <NL> object [ ] pointer = elements ;  <NL> int length = ( pointer . length > 0 ) ? pointer . length : 1 ;  <NL> elements = new object [ ( length * 3 ) / 2 + 1 ] ;  <NL> system . arraycopy ( pointer , 0 , elements , 0 , pointer . length ) ;  <NL> pointer = null ;  <NL>  } / / - - increase size  COM: <s> basically the same as a vector </s>

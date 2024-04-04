@@ -1,0 +1,1 @@
+TDAT: protected move think ( ) {  <NL> int local prune = 999999 ;  <NL> board alpha beta node start node = new board alpha beta node ( 1 , max _ depth , board , color ) ;  <NL> int rating = start node . get rating ( local prune ) ;  <NL> system . out . println ( rating ) ;  <NL> return possible moves [ start node . get best index ( ) ] ;  <NL>  }  COM: <s> get a new move </s>

@@ -1,0 +1,1 @@
+TDAT: protected void normalize weights ( double [ ] weights ) {  <NL> double sum = 0 ;  <NL> for ( int i = 0 ; i < weights . length ; i + + ) {  <NL> sum + = weights [ i ] ;  <NL>  }  <NL>  <NL> for ( int i = 0 ; i < weights . length ; i + + ) {  <NL> weights [ i ] = weights [ i ] / sum ;  <NL>  }  <NL>  }  COM: <s> normalizes input array of weights </s>

@@ -1,0 +1,1 @@
+TDAT: protected void print stack trace ( throwable ex ) {  <NL> if ( ex = = null ) {  <NL> return ;  <NL>  }  <NL> byte array output stream baos = new byte array output stream ( ) ;  <NL> ex . print stack trace ( new print stream ( baos ) ) ;  <NL> log . log ( baos . to string ( ) , " [ exception ] " , 2 ) ;  <NL>  }  COM: <s> print stack trace </s>

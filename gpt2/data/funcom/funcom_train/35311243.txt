@@ -1,0 +1,1 @@
+TDAT: public void changed update ( document event e , shape a , view factory f ) {  <NL> super . changed update ( e , a , f ) ;  <NL> style sheet sheet = get style sheet ( ) ;  <NL> attr = sheet . get view attributes ( this ) ;  <NL> preference changed ( null , true , true ) ;  <NL>  }  COM: <s> gives notification from the document that attributes were changed </s>

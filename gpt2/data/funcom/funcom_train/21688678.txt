@@ -1,0 +1,1 @@
+TDAT: private comment convert map to comment ( map < string , string > info ) {  <NL> comment comment = new comment ( ) ;  <NL> comment . set subject ( info . get ( " subject " ) ) ;  <NL> comment . set content ( info . get ( " content " ) ) ;  <NL> comment . set author ( info . get ( " commentator " ) ) ;  <NL> return comment ;  <NL>  }  COM: <s> convert map to comment </s>

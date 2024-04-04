@@ -1,0 +1,1 @@
+TDAT: public void test list met models ( ) throws exception {  <NL> string [ ] params = { " - - list - met - models " , resorce prefix + " alice . cli . test " } ;  <NL> tika cli . main ( params ) ;  <NL> assert . assert true ( out content . to string ( ) . contains ( " text / plain " ) ) ;  <NL>  }  COM: <s> tests list met models option of the cli </s>

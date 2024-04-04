@@ -1,0 +1,1 @@
+TDAT: public string s classification ( ) {  <NL> string clas = null ;  <NL>  <NL> if ( ce > 4 & & psi < 15 ) {  <NL> clas = " salino " ;  <NL>  }  <NL>  <NL> if ( ce > 4 & & psi > 15 ) {  <NL> clas = " salino - sódico " ;  <NL>  }  <NL>  <NL> if ( ce < 4 & & psi > 15 ) {  <NL> clas = " sódico " ;  <NL>  }  <NL>  <NL> return clas ;  <NL>  }  COM: <s> classifies the soil </s>

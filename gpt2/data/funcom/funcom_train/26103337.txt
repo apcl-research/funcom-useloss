@@ -1,0 +1,1 @@
+TDAT: public boolean delete quick message ( long id ) {  <NL> if ( log . debug ) log . v ( " id to delete is " + id ) ;  <NL> if ( m db . delete ( quickmessages _ db _ table , key _ rowid + " = " + string . value of ( id ) , null ) > 0 ) {  <NL> return true ;  <NL>  }  <NL> return false ;  <NL>  }  COM: <s> deletes a quick message from the database </s>

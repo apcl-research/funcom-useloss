@@ -1,0 +1,1 @@
+TDAT: public void add http file arg ( http file arg file ) {  <NL> test element property new http file arg = new test element property ( file . get path ( ) , file ) ;  <NL> if ( is running version ( ) ) {  <NL> this . set temporary ( new http file arg ) ;  <NL>  }  <NL> get http file args collection ( ) . add item ( new http file arg ) ;  <NL>  }  COM: <s> add a new file </s>

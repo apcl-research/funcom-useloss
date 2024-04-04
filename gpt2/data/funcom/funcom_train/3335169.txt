@@ -1,0 +1,1 @@
+TDAT: public string get sql keywords ( ) throws java . sql . sql exception {  <NL> return " auto _ increment , binary , blob , enum , infile , load , mediumint , option , outfile , replace , set , text , unsigned , zerofill " ;  <NL>  }  COM: <s> get a comma separated list of all a databases sql keywords that are </s>

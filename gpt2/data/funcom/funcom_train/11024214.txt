@@ -1,0 +1,1 @@
+TDAT: public void test execute with nested property ( ) {  <NL> test bean test bean = new test bean ( ) ;  <NL> new bean property value change closure ( " nested . string property " , " bar " ) . execute ( test bean ) ;  <NL> assert equals ( " bar " , test bean . get nested ( ) . get string property ( ) ) ;  <NL>  }  COM: <s> test execute with a nested property </s>

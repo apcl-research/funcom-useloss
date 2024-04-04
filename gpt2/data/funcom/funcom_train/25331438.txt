@@ -1,0 +1,1 @@
+TDAT: public void test phase get phase ( ) {  <NL>  <NL> assert same ( phase . zero , phase . get phase ( 0 ) ) ;  <NL> assert same ( phase . one , phase . get phase ( 1 ) ) ;  <NL> assert same ( phase . two , phase . get phase ( 2 ) ) ;  <NL> assert same ( phase . none , phase . get phase ( 3 ) ) ;  <NL>  <NL>  <NL>  }  COM: <s> test of get phase method of class exon </s>

@@ -1,0 +1,1 @@
+TDAT: public void test draw line ( ) {  <NL> mock g2d . expects ( once ( ) ) . method ( " set stroke " ) ;  <NL> mock g2d . expects ( once ( ) ) . method ( " set color " ) . with ( eq ( color . black ) ) ;  <NL> mock g2d . expects ( once ( ) ) . method ( " draw " ) ;  <NL> drawing context . draw line ( 0 , 1 , 100 , 101 ) ;  <NL>  }  COM: <s> tests the draw line method </s>

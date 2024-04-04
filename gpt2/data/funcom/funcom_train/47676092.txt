@@ -1,0 +1,1 @@
+TDAT: public attr get attribute ( string name ) {  <NL> if ( dom node = = null ) {  <NL> return null ;  <NL>  }  <NL>  / / get all the attributes of an element in a map <NL> org . w3c . dom . named node map attrs = dom node . get attributes ( ) ;  <NL> attr attr = ( attr ) attrs . get named item ( name ) ;  <NL> return attr ;  <NL>  }  COM: <s> returns an attribute by name </s>

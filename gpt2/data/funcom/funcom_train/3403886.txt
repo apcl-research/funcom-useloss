@@ -1,0 +1,1 @@
+TDAT: public int get index fast ( string uri , string local name ) {  <NL> for ( int i = ( length - 1 ) * 5 ; i > = 0 ; i - = 5 ) {  <NL>  / / local names tend to be different , so test it first <NL> if ( data [ i + 1 ] = = local name & & data [ i ] = = uri ) {  <NL> return i / 5 ;  <NL>  }  <NL>  }  <NL> return - 1 ;  <NL>  }  COM: <s> can be used if parameters are interned </s>

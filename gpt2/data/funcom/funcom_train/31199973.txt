@@ -1,0 +1,1 @@
+TDAT: public void test simple add ( ) {  <NL> time time = new time ( ) ;  <NL> logger . debug ( " time = " + time + " jd = " + time . get julian date ( ) ) ;  <NL> basic configurator . configure ( ) ;  <NL> string expected = " test " ;  <NL> string result = " test " ;  <NL> assert . assert true ( expected . equals ( result ) ) ;  <NL>  }  COM: <s> test the time systems </s>

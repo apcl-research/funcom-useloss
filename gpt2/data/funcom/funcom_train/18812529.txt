@@ -1,0 +1,1 @@
+TDAT: public void decode palette ( int pal ) {  <NL> data [ 0 ] = ( short ) ( pal & 0x03 ) ;  <NL> data [ 1 ] = ( short ) ( ( pal & 0x0c ) > > 2 ) ;  <NL> data [ 2 ] = ( short ) ( ( pal & 0x30 ) > > 4 ) ;  <NL> data [ 3 ] = ( short ) ( ( pal & 0x c0 ) > > 6 ) ;  <NL>  }  COM: <s> set the palette from the internal gameboy format </s>

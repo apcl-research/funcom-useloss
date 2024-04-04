@@ -1,0 +1,1 @@
+TDAT: public void check owns no schemas ( ) throws sql exception {  <NL> for ( schema s : database . get all schemas ( ) ) {  <NL> if ( this = = s . get owner ( ) ) {  <NL> throw message . get sql exception ( error code . cannot _ drop _ 2 , get name ( ) , s . get name ( ) ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> check that this user does not own any schema </s>

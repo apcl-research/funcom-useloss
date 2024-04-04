@@ -1,0 +1,1 @@
+TDAT: protected void copy matrix ( int from [ ] [ ] , int to [ ] [ ] ) {  <NL> for ( int i = 0 ; i < from . length ; i + + )  <NL> for ( int j = 0 ; j < from [ i ] . length ; j + + )  <NL> to [ i ] [ j ] = from [ i ] [ j ] ;  <NL>  }  COM: <s> copies one matrix of type int to another </s>

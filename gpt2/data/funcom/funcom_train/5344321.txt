@@ -1,0 +1,1 @@
+TDAT: public object clone ( ) {  <NL> long interval set ret = new long interval set ( ) ;  <NL> for ( iterator iter = get all intervals ( ) ; iter . has next ( ) ; )  <NL>  / / access the internal tree set directly , - it ' s faster that way .  <NL> ret . intervals . add ( iter . next ( ) ) ;  <NL> return ret ;  <NL>  }  COM: <s> clones the interval set </s>

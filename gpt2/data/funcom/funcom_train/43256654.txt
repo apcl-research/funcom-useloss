@@ -1,0 +1,1 @@
+TDAT: public void show alert box ( component context ctx , string message , string style , int offsetx , int offsety ) {  <NL> set in map ( ctx , get id ( ctx ) , attribute _ alertbox , new show alert box action ( message , style , offsetx , offsety ) ) ;  <NL>  }  COM: <s> shows an alertbox on the clientside </s>

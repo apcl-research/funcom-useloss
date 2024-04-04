@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> string res = " " ;  <NL> if ( arguments . size ( ) > 0 )  <NL> res + = arguments . get ( 0 ) . to string ( ) ;  <NL> for ( int i = 1 ; i < arguments . size ( ) ; i + + ) {  <NL> res + = " " + arguments . get ( i ) ;  <NL>  }  <NL> return res ;  <NL>  }  COM: <s> convert the predicate argument structure to a canonical string </s>

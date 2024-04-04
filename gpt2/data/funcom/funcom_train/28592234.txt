@@ -1,0 +1,1 @@
+TDAT: public void test remove max heap ( ) {  <NL> add many test int ( ) ;  <NL> heap . remove ( i test [ 9 ] ) ;  <NL> assert false ( heap . contains ( i test [ 9 ] ) ) ;  <NL> while ( ! heap . is empty ( ) ) {  <NL> assert not same ( heap . get top ( ) , i test [ 9 ] ) ;  <NL> heap . remove top ( ) ;  <NL>  }  <NL>  }  COM: <s> removes an item from the max heap </s>

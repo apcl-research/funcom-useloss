@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> return ( " button message . tag id ; " + this . get tag _ id _ bottom ( ) + " , slot ; " + this . get slot ( ) + " " +  <NL>  " , orange ; " + this . get orange ( ) + " blue ; " + this . get blue ( ) ) ;  <NL>  }  COM: <s> returns the buttons information </s>

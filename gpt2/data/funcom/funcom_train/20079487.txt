@@ -1,0 +1,1 @@
+TDAT: public void add drag listener ( drag listener listener ) {  <NL> typed listener l = new typed listener ( listener ) ;  <NL> add listener ( events . drag start , l ) ;  <NL> add listener ( events . drag move , l ) ;  <NL> add listener ( events . drag cancel , l ) ;  <NL> add listener ( events . drag end , l ) ;  <NL>  }  COM: <s> adds a listener to receive drag events </s>

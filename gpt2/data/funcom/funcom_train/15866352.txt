@@ -1,0 +1,1 @@
+TDAT: public void set styleclass ( string styleclass ) {  <NL> this . set component changed ( true ) ;  <NL> this . styleclass = styleclass ;  <NL> this . event support . fire ( new event ( this , " style set on ' " + this . get identifier ( ) + " ' . " , event type . changed _ component _ unpoolable _ style ) ) ;  <NL>  }  COM: <s> set the styleclass </s>

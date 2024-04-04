@@ -1,0 +1,1 @@
+TDAT: public void add ( j internal frame frame , int x , int y ) {  <NL> if ( desktop scrollpane . get number of frames ( ) < max _ frames ) {  <NL> desktop scrollpane . add ( d listener , frame , x , y ) ;  <NL> create frame associates ( ( j scroll internal frame ) frame ) ;  <NL>  }  <NL>  }  COM: <s> adds an internal frame to the scrollable desktop pane </s>

@@ -1,0 +1,1 @@
+TDAT: public object get class property ( string name , object dflt ) {  <NL> try {  <NL> field f = this . get class ( ) . get field ( name ) ;  <NL> if ( modifier . is static ( f . get modifiers ( ) ) ) {  <NL> return f . get ( null ) ;  <NL>  }  <NL>  } catch ( exception e ) {  <NL>  / /  <NL>  }  <NL> return dflt ;  <NL>  }  COM: <s> read a static class property </s>

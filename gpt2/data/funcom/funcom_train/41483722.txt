@@ -1,0 +1,1 @@
+TDAT: public node visit children ( node visitor v ) {  <NL> list var decls = visit list ( this . var decls , v ) ;  <NL> expr expr = ( expr ) visit child ( this . expr , v ) ;  <NL> stmt body = ( stmt ) visit child ( this . body , v ) ;  <NL> return reconstruct ( var decls , expr , body ) ;  <NL>  }  COM: <s> visit the children of the statement </s>

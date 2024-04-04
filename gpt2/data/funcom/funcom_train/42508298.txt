@@ -1,0 +1,1 @@
+TDAT: private boolean contains shape at with margin ( shape shape , float x , float y , float margin ) {  <NL> if ( margin = = 0 ) {  <NL> return shape . contains ( x , y ) ;  <NL>  } else {  <NL> return shape . intersects ( x - margin , y - margin , 2 * margin , 2 * margin ) ;  <NL>  }  <NL>  }  COM: <s> returns code true code if code shape code contains </s>

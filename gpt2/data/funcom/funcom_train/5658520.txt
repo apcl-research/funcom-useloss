@@ -1,0 +1,1 @@
+TDAT: public string get info ( ) {  <NL> string result = new string ( ) ;  <NL> result + = ( i18n . get string ( " i18n _ prop _ num " / * noi18n * / ) + get number ( ) ) ;  <NL> result + = ( i18n . get string ( " i18n _ prop _ val " / * noi18n * / ) + get value ( ) ) ;  <NL>  <NL> return result ;  <NL>  }  COM: <s> returns a textual representation of the property </s>

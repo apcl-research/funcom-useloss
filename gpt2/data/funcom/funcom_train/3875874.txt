@@ -1,0 +1,1 @@
+TDAT: public void config size ( int x , int y ) {  <NL> dimension screen = get toolkit ( ) . get screen size ( ) ;  <NL> int x size = ( int ) ( screen . get width ( ) / 100 ) * x ;  <NL> int y size = ( int ) ( screen . get height ( ) / 100 ) * y ;  <NL> this . set size ( x size , y size ) ;  <NL>  }  COM: <s> configs the dialog size in a porcentange relative to the screen </s>

@@ -1,0 +1,1 @@
+TDAT: public void test compare ( ) {  <NL> help expr ( " a = = b < = c " ,  <NL> jc binary . class , 1 , 3 , 12 ,  <NL> jc ident . class , 1 , 1 , 2 ,  <NL> jc binary . class , 6 , 8 , 12 ,  <NL> jc ident . class , 6 , 6 , 7 ,  <NL> jc ident . class , 11 , 11 , 12 ) ;  <NL>  }  COM: <s> test precedence of operator </s>

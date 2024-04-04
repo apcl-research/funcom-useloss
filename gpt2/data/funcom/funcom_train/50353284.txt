@@ -1,0 +1,1 @@
+TDAT: private j panel get log button panel ( ) {  <NL> if ( log button panel = = null ) {  <NL> log button panel = new j panel ( ) ;  <NL> log button panel . add ( get clear log button ( ) , null ) ;  <NL> log button panel . add ( get save log button ( ) , null ) ;  <NL>  }  <NL> return log button panel ;  <NL>  }  COM: <s> this method initializes log button panel </s>

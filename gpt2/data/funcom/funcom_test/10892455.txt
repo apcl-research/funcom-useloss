@@ -1,0 +1,1 @@
+TDAT: public void reset stats ( ) {  <NL> concurrent hash map < string , query stats > queries = per pool stats . get ( pool name ) ;  <NL> if ( queries ! = null ) {  <NL> iterator < string > it = queries . key set ( ) . iterator ( ) ;  <NL> while ( it . has next ( ) ) it . remove ( ) ;  <NL>  }  <NL>  }  COM: <s> jmx operation remove all stats for this connection pool </s>

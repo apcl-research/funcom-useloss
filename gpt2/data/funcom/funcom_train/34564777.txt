@@ -1,0 +1,1 @@
+TDAT: public void store ( final byte [ ] str , final int c ) {  <NL> if ( token . eq ( str , hist [ pos ] ) ) return ;  <NL> if ( pos + 1 = = max ) {  <NL> array . move ( hist , 1 , - 1 , pos ) ;  <NL> array . move ( cur , 1 , - 1 , pos - - ) ;  <NL>  }  <NL> hist [ + + pos ] = str ;  <NL> cur [ pos ] = c ;  <NL> max = pos ;  <NL>  }  COM: <s> stores a string in the history </s>

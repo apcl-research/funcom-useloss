@@ -1,0 +1,1 @@
+TDAT: public void test integer ( ) throws exception {  <NL>  <NL> p . push ( new t integer ( 123 , null ) ) ;  <NL> new add period ( " add . period $ " ) . execute ( p , null , null ) ;  <NL> assert equals ( " 123 . " , p . pop string ( null ) . get value ( ) ) ;  <NL>  }  COM: <s> testcase an integer gets a period added </s>

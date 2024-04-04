@@ -1,0 +1,1 @@
+TDAT: private string trim ( string s ) {  <NL> switch ( s . substring ( s . length ( ) - 1 , s . length ( ) ) ) {  <NL> case " / " :  <NL> s = s . substring ( 0 , s . length ( ) - 1 ) ;  <NL> break ;  <NL> case " \\ " :  <NL> s = s . substring ( 0 , s . length ( ) - 1 ) ;  <NL> break ;  <NL>  }  <NL> return s ;  <NL>  }  COM: <s> trim removes trailing slashes or </s>

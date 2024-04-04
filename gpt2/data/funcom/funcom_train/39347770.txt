@@ -1,0 +1,1 @@
+TDAT: private void bounds check helper ( offset index , offset array ref ) {  <NL> stack move helper ( t0 , index ) ; / / t0 is array index <NL> stack move helper ( s0 , array ref ) ; / / s0 is array ref <NL> gen bounds check ( asm , t0 , s0 ) ; / / t0 is index , s0 is address of array <NL>  }  COM: <s> private helper to perform an array bounds check </s>

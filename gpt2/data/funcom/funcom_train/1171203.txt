@@ -1,0 +1,1 @@
+TDAT: public int sum all counters ( ) {  <NL> object [ ] values = counters . values ( ) . to array ( ) ;  <NL> int count = 0 ;  <NL> int num = 0 ;  <NL> for ( int i = 0 ; i < values . length ; i + + ) {  <NL> num = ( integer ) values [ i ] ;  <NL> count + = num ;  <NL>  }  <NL> return count ;  <NL>  }  COM: <s> p sum all counters </s>

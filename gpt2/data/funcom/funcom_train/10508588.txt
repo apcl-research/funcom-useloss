@@ -1,0 +1,1 @@
+TDAT: public object evaluate ( string property , property helper helper ) {  <NL> for ( iterator i = stack . iterator ( ) ; i . has next ( ) ; ) {  <NL> map map = ( map ) i . next ( ) ;  <NL> object ret = map . get ( property ) ;  <NL> if ( ret ! = null ) {  <NL> return ret ;  <NL>  }  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> evaluate a property </s>

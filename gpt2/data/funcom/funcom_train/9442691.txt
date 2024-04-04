@@ -1,0 +1,1 @@
+TDAT: private string get xml attribute ( xml resource parser xrp , string name ) {  <NL> int res id = xrp . get attribute resource value ( null , name , 0 ) ;  <NL> if ( res id = = 0 ) {  <NL> return xrp . get attribute value ( null , name ) ;  <NL>  } else {  <NL> return m wnn . get string ( res id ) ;  <NL>  }  <NL>  }  COM: <s> get a attribute value from a xml resource </s>

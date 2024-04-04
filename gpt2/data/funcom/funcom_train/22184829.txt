@@ -1,0 +1,1 @@
+TDAT: public void run ( ) {  <NL> memory mx bean memorymbean = management factory . get memory mx bean ( ) ;  <NL> long used = memorymbean . get heap memory usage ( ) . get used ( ) / 1024 ;  <NL> string memory string = " heap memory usage : " + used + " k b " ;  <NL> info glass pane . set info ( " memory usage " , memory string ) ;  <NL>  }  COM: <s> start this thread </s>

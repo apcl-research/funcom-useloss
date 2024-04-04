@@ -1,0 +1,1 @@
+TDAT: public void insert job ( string job description ) throws jms exception {  <NL> session s = mq client . get session ( this . mq conn , false , session . auto _ acknowledge ) ;  <NL> mq client . send ( s , this . get queue name ( ) , job description , true , true ) ;  <NL>  }  COM: <s> inserts a job into the job client </s>

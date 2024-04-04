@@ -1,0 +1,1 @@
+TDAT: public boolean game over ( ) {  <NL>  / / either all the spaces are full , or someone won <NL> if ( winner ( ) ! = - 1 ) {  <NL> return true ;  <NL>  }  <NL> for ( int i = 0 ; i < 9 ; i + + ) {  <NL> if ( board [ i / 3 ] [ i % 3 ] = = ' ' ) {  <NL> return false ;  <NL>  }  <NL>  }  <NL> return true ;  <NL>  }  COM: <s> decide whether the game is over or not </s>

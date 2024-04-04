@@ -1,0 +1,1 @@
+TDAT: public regex get regex at ( int i ) {  <NL> if ( i > = tp . ra _ len )  <NL> throw new array index out of bounds exception ( " i = " + i + " > = " + patterns ( ) ) ;  <NL> if ( i < 0 )  <NL> throw new array index out of bounds exception ( " i = " + i + " < 0 " ) ;  <NL> return tp . ra [ i ] ;  <NL>  }  COM: <s> get the regex at position i in this transformer </s>

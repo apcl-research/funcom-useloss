@@ -1,0 +1,1 @@
+TDAT: public object clone ( ) {  <NL> try {  <NL> final bit matrix clone = ( bit matrix ) super . clone ( ) ;  <NL> system . arraycopy ( this . bitsets , 0 , clone . bitsets , 0 , this . bitsets . length ) ;  <NL> return clone ;  <NL>  } catch ( clone not supported exception e ) {  <NL> throw new internal error ( ) ;  <NL>  }  <NL>  }  COM: <s> returns a copy of the matrix </s>

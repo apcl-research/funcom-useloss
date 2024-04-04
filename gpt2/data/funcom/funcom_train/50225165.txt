@@ -1,0 +1,1 @@
+TDAT: public void add input ( object key , string name ) {  <NL> inputs . add connector ( name , new network input ( name ) ) ;  <NL> sdf input in = new sdf input ( ) ;  <NL> in . set name ( name ) ;  <NL> sdfinputs . put ( key , in ) ;  <NL> objects . put ( key , in ) ;  <NL> namedsdfinputs . put ( name , in ) ;  <NL>  }  COM: <s> add input adds an input to this sdf graph </s>

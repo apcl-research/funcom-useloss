@@ -1,0 +1,1 @@
+TDAT: public void store image ( string key , buffered image image ) {  <NL> if ( this . image bank . get ( key ) ! = null ) {  <NL> throw new array store exception ( " key - > " + key + " is bounded to " + this . image bank . get ( key ) ) ;  <NL>  }  <NL>  <NL> this . image bank . put ( key , image ) ;  <NL>  }  COM: <s> stores image into cache with specified key </s>

@@ -1,0 +1,1 @@
+TDAT: public void edit sensors ( ) {  <NL> collection < sensor > sensors = selection model . get selection ( ) ;  <NL> if ( ! sensors . is empty ( ) ) {  <NL> edit sensors dialog d = new edit sensors dialog ( sensors ) ;  <NL> d . set bounds ( 100 , 100 , 450 , 500 ) ;  <NL> d . set visible ( true ) ;  <NL>  }  <NL>  }  COM: <s> edit the selected sensors if any </s>

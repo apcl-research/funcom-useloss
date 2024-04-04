@@ -1,0 +1,1 @@
+TDAT: public boolean is similar ( string name ) {  <NL> int idx = name . index of ( ' [ ' ) ;  <NL> name = name . substring ( 0 , idx + 1 ) ;  <NL> for ( int k = 0 ; k < part . size ( ) ; + + k ) {  <NL> if ( part . get ( k ) . starts with ( name ) )  <NL> return true ;  <NL>  }  <NL> return false ;  <NL>  }  COM: <s> search the current node for a similar name </s>

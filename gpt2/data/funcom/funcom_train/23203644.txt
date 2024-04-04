@@ -1,0 +1,1 @@
+TDAT: public void put ( k key1 , l key2 , v value ) {  <NL> if ( this . contains key ( key1 ) ) {  <NL> this . get ( key1 ) . put ( key2 , value ) ;  <NL>  } else {  <NL> map < l , v > map = new linked hash map < l , v > ( ) ;  <NL> map . put ( key2 , value ) ;  <NL> this . put ( key1 , map ) ;  <NL>  }  <NL>  }  COM: <s> puts a value into the hash map2 d with given keys </s>

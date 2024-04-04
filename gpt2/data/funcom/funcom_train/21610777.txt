@@ -1,0 +1,1 @@
+TDAT: private void populate test graph ( graph < value > g ) {  <NL> for ( int i = 0 ; i < size ; i + + ) {  <NL> g . add arc ( new string value ( from _ prefix + i ) , new string value ( to _ prefix + i ) , new string value ( label _ prefix + i ) ) ;  <NL>  }  <NL>  }  COM: <s> populates a given graph </s>

@@ -1,0 +1,1 @@
+TDAT: public void add operation ( object o , method m , method description method ) {  <NL> v sert . arg not null ( " o " , o ) ;  <NL> v sert . arg not null ( " m " , m ) ;  <NL>  _ operations . add ( new key with2values < object , method , method > ( o , m ,  <NL> description method ) ) ;  <NL>  }  COM: <s> adds an operation to be benchamrked </s>

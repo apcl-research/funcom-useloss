@@ -1,0 +1,1 @@
+TDAT: public void action performed ( action event e ) {  <NL> if ( e . get source ( ) = = ok button ) {  <NL> cancel ( ) ;  <NL>  }  <NL> else if ( e . get source ( ) = = view button ) {  <NL> j option pane . show message dialog ( this , view , license , j option pane . plain _ message ) ;  <NL>  }  <NL>  }  COM: <s> close the dialog on a button event </s>

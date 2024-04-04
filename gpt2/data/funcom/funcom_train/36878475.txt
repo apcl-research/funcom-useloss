@@ -1,0 +1,1 @@
+TDAT: public void set bounds ( int x , int y , int width , int height ) {  <NL> if ( wrap ) super . set bounds ( x , y , width , height ) ;  <NL> else {  <NL> dimension size = this . get preferred size ( ) ;  <NL> super . set bounds ( x , y , math . max ( size . width , width ) , math . max ( size . height , height ) ) ;  <NL>  }  <NL>  }  COM: <s> overload set bounds </s>

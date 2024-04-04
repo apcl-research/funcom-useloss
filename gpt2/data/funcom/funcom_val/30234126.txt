@@ -1,0 +1,1 @@
+TDAT: private void cmd ok _ action performed ( action event e ) {  <NL> ok = true ;  <NL>  <NL> min = integer . parse int ( txt min . get text ( ) ) ;  <NL> max = integer . parse int ( txt max . get text ( ) ) ;  <NL>  <NL> if ( min < 0 || max < 0 )  <NL> ok = false ;  <NL>  <NL> this . set visible ( false ) ;  <NL>  }  COM: <s> method called for the ok button action </s>

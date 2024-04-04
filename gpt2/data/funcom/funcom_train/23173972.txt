@@ -1,0 +1,1 @@
+TDAT: private date create date ( int year , int month , int day , int hour , int minute , int second ) {  <NL> calendar calendar = calendar . get instance ( ) ;  <NL> calendar . clear ( ) ;  <NL> calendar . set ( year , month , day , hour , minute , second ) ;  <NL> return calendar . get time ( ) ;  <NL>  }  COM: <s> creates a date instance for the specified date </s>

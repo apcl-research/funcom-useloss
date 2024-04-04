@@ -1,0 +1,1 @@
+TDAT: private map make snapshot ( map mbeans ) {  <NL> map work copy ;  <NL>  <NL> work copy = new hash map ( mbeans . size ( ) ) ;  <NL> for ( object elem : mbeans . entry set ( ) ) {  <NL> map . entry entry = ( map . entry ) elem ;  <NL> work copy . put ( entry . get key ( ) , entry . get value ( ) ) ;  <NL>  }  <NL>  <NL> return work copy ;  <NL>  }  COM: <s> my faces 2 </s>

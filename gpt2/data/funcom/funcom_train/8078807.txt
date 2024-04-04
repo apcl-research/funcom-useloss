@@ -1,0 +1,1 @@
+TDAT: public double min abs ( int i0 , int i1 , int column ) {  <NL> double m = math . abs ( a [ i0 ] [ column ] ) ;  <NL> for ( int i = i0 + 1 ; i < = i1 ; i + + ) {  <NL> m = math . min ( m , math . abs ( a [ i ] [ column ] ) ) ;  <NL>  }  <NL> return m ;  <NL>  }  COM: <s> returns the minimum absolute value of some elements of a column </s>

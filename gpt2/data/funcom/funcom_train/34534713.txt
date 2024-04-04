@@ -1,0 +1,1 @@
+TDAT: public point2d get perimeter point ( edge view edge , point2d source , point2d p ) {  <NL> if ( get renderer ( ) instanceof bullet renderer )  <NL> return ( ( bullet renderer ) get renderer ( ) ) . get perimeter point ( this , source , p ) ;  <NL>  <NL> return super . get perimeter point ( edge , source , p ) ;  <NL>  }  COM: <s> from jgraphpad jgraph round rect view </s>

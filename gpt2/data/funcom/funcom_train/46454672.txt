@@ -1,0 +1,1 @@
+TDAT: final public control element add action ( int _ type , object _ target , string _ method ) {  <NL> my actions list . add element ( new method with one parameter ( _ type , _ target , _ method , null , null , this ) ) ; / / null = void , null = no2nd action <NL> return this ;  <NL>  }  COM: <s> defines a generic action that can be invoked from this </s>

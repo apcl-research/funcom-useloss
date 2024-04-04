@@ -1,0 +1,1 @@
+TDAT: public void set title ( string title ) {  <NL> this . title = title ;  <NL> if ( header ! = null ) header . set title ( title ) ;  <NL> content border . set title ( title ) ;  <NL> repaint ( 0 , 0 , 0 , get width ( ) , content border . get border insets ( this ) . top ) ;  <NL>  }  COM: <s> sets a new title for this group box </s>

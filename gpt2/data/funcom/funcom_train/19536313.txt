@@ -1,0 +1,1 @@
+TDAT: public void set state ( string a state ) {  <NL> if ( a state = = null || ( a state = a state . trim ( ) ) . length ( ) = = 0 ) {  <NL> set state ( ( wait state ) null ) ;  <NL>  } else {  <NL> set state ( init tool game settings . get instance ( ) . get wait state ( a state ) ) ;  <NL>  }  <NL>  }  COM: <s> set the value of state for this creature item </s>

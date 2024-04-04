@@ -1,0 +1,1 @@
+TDAT: private string get file name proposal ( ) {  <NL> string root text = ( ( mind map node ) get map ( ) . get root ( ) ) . to string ( ) ;  <NL> root text = root text . replace all ( " [ & : / \\\\\0 % $ # ~ \\ ? \\ * ] + " , " " ) ;  <NL> return root text ;  <NL>  }  COM: <s> creates a proposal for a file name to save the map </s>

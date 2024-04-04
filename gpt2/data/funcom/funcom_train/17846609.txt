@@ -1,0 +1,1 @@
+TDAT: private void toggle open close menu item ( boolean open ) {  <NL> if ( open ) {  <NL> m open close menu item . set text ( m localizer . msg ( " menu . open " , " open " ) ) ;  <NL>  } else {  <NL> m open close menu item . set text ( m localizer . msg ( " menu . close " , " close " ) ) ;  <NL>  }  <NL>  }  COM: <s> toggle the text in the open close menu </s>

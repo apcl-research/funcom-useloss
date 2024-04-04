@@ -1,0 +1,1 @@
+TDAT: public edge get parent edge ( node node ) {  <NL> edge parent = null ;  <NL> for ( int i = 0 ; i < edge table . get row count ( ) ; i + + ) {  <NL> if ( get node id ( node ) = = edge table . get value ( i , " child " ) ) {  <NL> parent = new edge impl ( edge table , i ) ;  <NL>  }  <NL>  }  <NL> return parent ;  <NL>  }  COM: <s> gets the parent edge </s>

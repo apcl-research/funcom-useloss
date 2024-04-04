@@ -1,0 +1,1 @@
+TDAT: public long gcd ( long t , long s ) {  <NL> if ( s = = 0l ) {  <NL> return t ;  <NL>  }  <NL> if ( t = = 0l ) {  <NL> return s ;  <NL>  }  <NL> long a = t ;  <NL> long b = s ;  <NL> while ( b ! = 0l ) {  <NL> long r = a % b ;  <NL> a = b ;  <NL> b = r ;  <NL>  }  <NL> return a ;  <NL>  }  COM: <s> long greatest common divisor </s>

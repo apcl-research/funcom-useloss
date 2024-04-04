@@ -1,0 +1,1 @@
+TDAT: public input stream get binary stream ( long position , long length ) {  <NL> final byte [ ] data = new byte [ ( int ) length - ( int ) position ] ;  <NL> system . arraycopy ( _ data , ( int ) position , data , 0 , ( int ) length ) ;  <NL> return new java . io . byte array input stream ( data ) ;  <NL>  }  COM: <s> h4 implementation of code java </s>

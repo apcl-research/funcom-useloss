@@ -1,0 +1,1 @@
+TDAT: public void append long int ( int val ) {  <NL> buf [ pos + + ] = ( byte ) ( ( val > > > 24 ) & 0x ff ) ;  <NL> buf [ pos + + ] = ( byte ) ( ( val > > > 16 ) & 0x ff ) ;  <NL> buf [ pos + + ] = ( byte ) ( ( val > > > 8 ) & 0x ff ) ;  <NL> buf [ pos + + ] = ( byte ) ( val & 0x ff ) ;  <NL>  }  COM: <s> append an int 4 bytes to the message </s>

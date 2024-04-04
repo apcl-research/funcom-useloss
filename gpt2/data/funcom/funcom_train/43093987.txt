@@ -1,0 +1,1 @@
+TDAT: public void post save ( ) {  <NL> for ( int i = 0 ; i < diagrams . size ( ) ; i + + ) {  <NL>  ( ( diagram ) diagrams . element at ( i ) ) . post save ( ) ;  <NL>  }  <NL>  / / todo : is post save needed for models ?  <NL> project manager . get manager ( ) . set needs save ( false ) ;  <NL>  }  COM: <s> this is execcuted after a save </s>

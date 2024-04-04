@@ -1,0 +1,1 @@
+TDAT: public object get ( int index ) {  <NL> for ( int j = 0 ; j < regions . size ( ) ; j + + ) {  <NL> list l = ( list ) regions . get ( j ) ;  <NL> if ( index < l . size ( ) )  <NL> return l . get ( index ) ;  <NL> else <NL> index - = l . size ( ) ;  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> returns the region object in the selection specified by the given index </s>

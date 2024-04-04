@@ -1,0 +1,1 @@
+TDAT: public component add ( component c , int index ) {  <NL> if ( ( index < 0 ) || ( index > this . tab labels . size ( ) ) ) {  <NL> return null ;  <NL>  }  <NL> this . insert tab ( c . get name ( ) , null , c , " " , index ) ;  <NL> return c ;  <NL>  }  COM: <s> adds a component at the specified tab index with a tab title </s>

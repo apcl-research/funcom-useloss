@@ -1,0 +1,1 @@
+TDAT: protected void init action map ( ) {  <NL> action map am = create action map ( ) ;  <NL> if ( am ! = null ) {  <NL> action map acam = application context . get instance ( ) . get action map ( ) ;  <NL> for ( object key : am . keys ( ) ) {  <NL> acam . put ( key , am . get ( key ) ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> initializes the action map of the application </s>

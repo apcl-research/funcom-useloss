@@ -1,0 +1,1 @@
+TDAT: static public js from char code ( js [ ] args ) throws js exn {  <NL> char buf [ ] = new char [ args . length ] ;  <NL> for ( int i = 0 ; i < args . length ; i + + )  <NL> buf [ i ] = ( char ) ( jsu . to int ( args [ i ] ) & 0xffff ) ;  <NL> return jsu . s ( new string ( buf ) ) ;  <NL>  }  COM: <s> convert a set of character codes into a string </s>

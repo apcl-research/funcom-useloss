@@ -1,0 +1,1 @@
+TDAT: public boolean test not equals cache ( set set ) {  <NL>  / * wlh 6 nov 97 <NL> if ( not equals cache = = null || set = = null ) return false ;  <NL> for ( int i = 0 ; i < cache _ length ; i + + ) {  <NL> if ( set = = not equals cache [ i ] ) return true ;  <NL>  }  <NL>  * /  <NL> return false ;  <NL>  }  COM: <s> test set against a cache of set s not equal to this </s>

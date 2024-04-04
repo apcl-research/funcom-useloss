@@ -1,0 +1,1 @@
+TDAT: private color get rob color ( string name ) {  <NL> color foo = null ;  <NL> foo = ( color ) name to color hash . get ( name ) ;  <NL> if ( foo = = null ) {  <NL> cat . error ( " get rob color : color for " + name + " ' s laser not found " ) ;  <NL> return color . white ;  <NL>  } else <NL> return foo ;  <NL>  }  COM: <s> lookup the bots color by name </s>

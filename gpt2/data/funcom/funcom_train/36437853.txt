@@ -1,0 +1,1 @@
+TDAT: public void put string ( int c , int l , string s , int attributes , input bulk bulk ) {  <NL> for ( int i = 0 ; i < s . length ( ) & & c + i < width ; i + + ) {  <NL> put char ( c + i , l , s . char at ( i ) , attributes , bulk ) ;  <NL>  }  <NL>  }  COM: <s> put a string at a specific position giving all characters the same </s>

@@ -1,0 +1,1 @@
+TDAT: public void center on ( entry entry ) {  <NL> if ( entry = = null ) {  <NL> center ( ) ;  <NL> return ;  <NL>  }  <NL> if ( entry . has area defined ( ) ) {  <NL> center on ( entry . get north ( ) , entry . get west ( ) , entry . get south ( ) ,  <NL> entry . get east ( ) ) ;  <NL>  } else {  <NL> center ( ) ;  <NL>  }  <NL>  }  COM: <s> center on the entry bounds </s>

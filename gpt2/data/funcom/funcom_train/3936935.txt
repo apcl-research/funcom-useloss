@@ -1,0 +1,1 @@
+TDAT: protected boolean is end of name ( char ch ) {  <NL> return ( ch = = ' ' || ch = = 13 || ch = = 10 || ch = = 9 || ch = = ' > ' || ch = = ' < '  <NL> || ch = = ' [ ' || ch = = ' / ' || ch = = ' ] ' || ch = = ' ) ' || ch = = ' ( ' || <NL> ch = = - 1 / / eof <NL>  ) ;  <NL>  }  COM: <s> determine if a character terminates a pdf name </s>

@@ -1,0 +1,1 @@
+TDAT: public void set cursor ( int player , int x , int y , int z ) {  <NL> assert precondition ( ( player > = 0 & & player < = num players ) ,  <NL>  " player must be between 0 and " + num players ) ;  <NL>  <NL> xc [ player ] = x ; yc [ player ] = y ; zc [ player ] = z ;  <NL>  }  COM: <s> set cursor position for a certain player without checking for over and </s>

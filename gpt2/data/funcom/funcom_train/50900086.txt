@@ -1,0 +1,1 @@
+TDAT: public sales man get sales man ( jdc connection o conn ) throws sql exception {  <NL> if ( is null ( db . gu _ sales _ man ) ) {  <NL> return null ;  <NL>  } else {  <NL> sales man o slm = new sales man ( ) ;  <NL> o slm . load ( o conn , get string ( db . gu _ sales _ man ) ) ;  <NL> return o slm ;  <NL>  }  <NL>  }  COM: <s> get sales man </s>

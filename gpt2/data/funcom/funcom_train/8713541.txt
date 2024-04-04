@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> string r = super . to string ( ) ;  <NL> if ( null ! = locale ) {  <NL> r = r + " . . . ! ! ! locale : " + locale + " ? ? ? " ;  <NL>  }  <NL> if ( sort field . custom ! = sort field type ) {  <NL> r = r + " . . . ! ! ! sort type : " + sort field type + " ? ? ? " ;  <NL>  }  <NL> return r ;  <NL>  }  COM: <s> adds warning to super </s>

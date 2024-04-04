@@ -1,0 +1,1 @@
+TDAT: public void mark ( battleground bg , int x , int y ) {  <NL> cell [ ] cells = recursive exploration ( bg , x , y ) ;  <NL> int i ;  <NL>  <NL> for ( i = 0 ; i < cells . length ; i + + ) {  <NL> cells [ i ] . set mark ( cell . target ) ;  <NL>  }  <NL>  }  COM: <s> sets the mark property to cell </s>

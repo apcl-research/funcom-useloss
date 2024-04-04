@@ -1,0 +1,1 @@
+TDAT: public void customize document command ( i document d , document command c ) {  <NL> if ( c . length = = 0 & & c . text ! = null & & ends with delimiter ( d , c . text ) )  <NL> smart indent after new line ( d , c ) ;  <NL> else if ( " } " . equals ( c . text ) ) {  <NL> smart insert after bracket ( d , c ) ;  <NL>  }  COM: <s> method declared on iauto indent strategy </s>

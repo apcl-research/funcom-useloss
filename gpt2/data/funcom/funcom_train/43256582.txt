@@ -1,0 +1,1 @@
+TDAT: public void set sub id ( component context ctx , string subid ) {  <NL> if ( subid . starts with ( this . id ) & & subid . index of ( " $ " ) ! = - 1 ) subid = subid . substring ( subid . index of ( " $ " ) + 1 ) ;  <NL> ctx . get request ( ) . set attribute ( this . id + " : " + attribute _ subid , subid ) ;  <NL>  }  COM: <s> sets the subid on the component </s>

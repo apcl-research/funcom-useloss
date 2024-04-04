@@ -1,0 +1,1 @@
+TDAT: final public void set output ( int i , double x ) {  <NL>  / / if ( ( i < 0 ) || ( i > = data . net [ nlayers - 1 ] . lsize ) )  <NL>  / / fatal ( " network : : output - output % d out of range " , i ) ;  <NL> data . net [ data . net . length - 1 ] . n _ out [ i + 1 ] = x ;  <NL>  }  COM: <s> set a network output </s>

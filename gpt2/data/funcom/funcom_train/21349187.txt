@@ -1,0 +1,1 @@
+TDAT: public boolean check validation ( string xml , string schema uri , string proxy server , string proxy port , string user name , string password ) {  <NL> return this . utility . check validation ( xml , schema uri , proxy server , proxy port , user name , password ) ;  <NL>  }  COM: <s> checks validation against schema url </s>

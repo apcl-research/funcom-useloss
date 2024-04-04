@@ -1,0 +1,1 @@
+TDAT: public unicode set get target set ( ) {  <NL> unicode set set = new unicode set ( ) ;  <NL> for ( int i = 0 ; i < trans . length ; + + i ) {  <NL>  / / this is a heuristic , and not 100 % reliable .  <NL> set . add all ( trans [ i ] . get target set ( ) ) ;  <NL>  }  <NL> return set ;  <NL>  }  COM: <s> returns the set of all characters that may be generated as </s>

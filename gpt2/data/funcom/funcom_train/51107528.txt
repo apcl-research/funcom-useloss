@@ -1,0 +1,1 @@
+TDAT: public void test char fetch ( ) throws exception {  <NL> select query q = new select query ( " artist " ) ;  <NL> list artists = context . perform query ( q ) ;  <NL> artist a = ( artist ) artists . get ( 0 ) ;  <NL> assert equals ( a . get artist name ( ) . trim ( ) , a . get artist name ( ) ) ;  <NL>  }  COM: <s> tests how char field is handled during fetch </s>

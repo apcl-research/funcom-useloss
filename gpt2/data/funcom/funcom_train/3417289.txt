@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> int mod = get modifiers ( ) ;  <NL> return ( ( ( mod = = 0 ) ? " " : ( modifier . to string ( mod ) + " " ) )  <NL>  + get type name ( get type ( ) ) + " "  <NL>  + get type name ( get declaring class ( ) ) + " . "  <NL>  + get name ( ) ) ;  <NL>  }  COM: <s> returns a string describing this </s>

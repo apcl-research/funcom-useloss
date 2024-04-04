@@ -1,0 +1,1 @@
+TDAT: public void test temporary redirect ( ) throws exception {  <NL> this . load response ( " / cocoon - it / redirect / www . orf . at " ) ;  <NL> assert equals ( 302 , this . response . get status code ( ) ) ;  <NL> assert equals ( " http : / / www . orf . at " , this . response . get response header value ( " location " ) ) ;  <NL>  }  COM: <s> a temporary redirect </s>

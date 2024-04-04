@@ -1,0 +1,1 @@
+TDAT: public void test a ( ) {  <NL> cat . info ( " testing ca for package a " ) ;  <NL> assert dependants (  <NL>  " a " ,  <NL> arrays . as list ( new string [ ] { " a " , " c " , " d " , " e " } ) ) ;  <NL> cat . info ( " success " ) ;  <NL>  }  COM: <s> tests ca for package code a code </s>

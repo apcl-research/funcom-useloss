@@ -1,0 +1,1 @@
+TDAT: public void render ( graphics g , camera cam ) {  <NL> if ( x + minx - cam . x > cam . w || y + miny - cam . y > cam . h )  <NL> return ;  <NL> if ( x + minx - cam . x + maxw < 0 || <NL> y + miny - cam . y + maxh < 0 )  <NL> return ;  <NL> render ( g , ( int ) ( x - cam . x ) , ( int ) ( y - cam . y ) ) ;  <NL>  }  COM: <s> renders the sprite to postion defined with </s>

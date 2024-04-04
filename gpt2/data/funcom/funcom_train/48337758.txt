@@ -1,0 +1,1 @@
+TDAT: private void connect ( audio source source ) {  <NL> this . source = source ;  <NL>  <NL> link ( name + " control " , " control " , source ) ;  <NL> source . link ( " audio " , name + " audio " , chat . this ) ;  <NL> source . link ( " request " , " request " , get environment ( ) ) ;  <NL>  }  COM: <s> connect to the specified audio source </s>

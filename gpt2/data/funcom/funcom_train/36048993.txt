@@ -1,0 +1,1 @@
+TDAT: public int mouse wheel up ( int x , int y , int modifiers , int count , string wait ) throws io exception {  <NL> return mouse event ( " wheelup " , modifiers , mouse event . button2 , null , new point ( x , y ) , count , wait ) ;  <NL>  }  COM: <s> p scroll up the mouse wheel on the current desktop </s>

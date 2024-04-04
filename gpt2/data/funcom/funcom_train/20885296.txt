@@ -1,0 +1,1 @@
+TDAT: public void test simple field flr ( ) {  <NL> check ( flr , " valid valid " , simple field test dto . class , valid ) ;  <NL> check ( flr , " invalid " , simple field test dto . class , invalid ) ;  <NL> check ( flr , " invalid " , simple field test dto . class , validation _ off ) ;  <NL>  }  COM: <s> tests validation for a simple field value flr </s>

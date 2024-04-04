@@ -1,0 +1,1 @@
+TDAT: public void subtract in place ( bit set a ) {  <NL> if ( a ! = null ) {  <NL>  / / for all words of ' a ' , turn off corresponding bits of ' this '  <NL> for ( int i = 0 ; i < bits . length & & i < a . bits . length ; i + + ) {  <NL> bits [ i ] & = ~ a . bits [ i ] ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> subtract the elements of a from this in place </s>

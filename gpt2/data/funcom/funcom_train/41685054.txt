@@ -1,0 +1,1 @@
+TDAT: private void process prefix ( string prefix , string uri ) {  <NL> if ( uri ! = null & & prefix ! = null ) {  <NL> this . ont model . set ns prefix ( prefix , uri ) ;  <NL> mea model . standard query string + = " prefix " + prefix + " : < " + uri + " > \n " ;  <NL>  }  <NL>  }  COM: <s> adds a new prefix uri set to the standard prefix string </s>

@@ -1,0 +1,1 @@
+TDAT: public expr create binary ( position pos , expr left , binary . operator op , expr right , context visitor visitor ) {  <NL> binary binary = ( binary ) nf . binary ( pos , left , op , right ) . type ( left . type ( ) ) ;  <NL> return desugarer . desugar binary ( binary , visitor ) ;  <NL>  }  COM: <s> create a binary expression </s>

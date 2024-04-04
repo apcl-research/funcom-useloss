@@ -1,0 +1,1 @@
+TDAT: public shape3d clip ( box3d box ) {  <NL> if ( x < box . get min x ( ) || x > box . get max x ( ) )  <NL> return null ;  <NL> if ( y < box . get min y ( ) || y > box . get max y ( ) )  <NL> return null ;  <NL> if ( z < box . get min z ( ) || z > box . get max z ( ) )  <NL> return null ;  <NL> return this ;  <NL>  }  COM: <s> returns the clipped point or null if empty </s>

@@ -1,0 +1,1 @@
+TDAT: protected void forward ( double [ ] pattern ) {  <NL> int n = get rows ( ) ;  <NL> for ( int x = 0 ; x < n ; + + x ) {  <NL> if ( pattern [ x ] > = 0 )  <NL> outs [ x ] = math . log ( 1 + pattern [ x ] ) ;  <NL> else <NL> outs [ x ] = - math . log ( 1 - pattern [ x ] ) ;  <NL>  }  <NL>  }  COM: <s> transfer function to recall a result on a trained net </s>

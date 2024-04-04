@@ -1,0 +1,1 @@
+TDAT: public void put ( string s q name , string s href , object obj ) {  <NL> this . m _ qname lookup . put ( s q name , obj ) ;  <NL> this . m _ href lookup . put ( s href , obj ) ;  <NL> this . m _ qname2href . put ( s q name , s href ) ;  <NL> this . m _ href2qname . put ( s href , s q name ) ;  <NL>  }  COM: <s> adds a new object to the lookup </s>

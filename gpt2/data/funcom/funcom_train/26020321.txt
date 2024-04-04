@@ -1,0 +1,1 @@
+TDAT: public uri add one to one chat termination ( string contact , string session id ) {  <NL> return add message ( events log api . type _ chat _ system _ message , session id , null , contact , null , instant message . mime _ type , null , 0 , new date ( ) , events log api . status _ terminated ) ;  <NL>  }  COM: <s> a one to one chat session was stopped </s>

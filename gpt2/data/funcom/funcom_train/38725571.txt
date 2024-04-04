@@ -1,0 +1,1 @@
+TDAT: private double l2norm ( double [ ] d1 , double [ ] d2 ) {  <NL> double res square = 0 ;  <NL> for ( int i = 0 ; i < d1 . length ; i + + ) {  <NL> res square + = math . pow ( ( d1 [ i ] - d2 [ i ] ) , 2 ) ;  <NL>  }  <NL> double res = math . sqrt ( res square ) ;  <NL> return res ;  <NL>  }  COM: <s> computes the l2 norm between two vectors of the same length </s>

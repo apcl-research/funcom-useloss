@@ -1,0 +1,1 @@
+TDAT: public int read ( byte [ ] buffer , int off , int count ) throws io exception {  <NL> int read = math . min ( count , file . length - position in file ) ;  <NL> system . arraycopy ( file , position in file , buffer , off , read ) ;  <NL> position in file + = read ;  <NL> return read ;  <NL>  }  COM: <s> read up to tt count tt bytes to the specified buffer </s>

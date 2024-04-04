@@ -1,0 +1,1 @@
+TDAT: public void remove selection ( ) {  <NL> int [ ] sel = table . get selected rows ( ) ;  <NL> arrays . sort ( sel ) ;  <NL> for ( int counter = sel . length - 1 ; counter > = 0 ; counter - - ) {  <NL> int i = sel [ counter ] ;  <NL> data _ model . remove ( i ) ;  <NL>  }  <NL> clear selection ( ) ;  <NL>  }  COM: <s> removes all selected rows from the list </s>

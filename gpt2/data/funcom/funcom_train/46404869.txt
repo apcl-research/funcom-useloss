@@ -1,0 +1,1 @@
+TDAT: public boolean is valid street ( string street ) {  <NL> return street . matches ( " [ a - za - z0 - 9 ] + ( [ ' - , \\ . a - za - z0 - 9 ] ) * ( [ \\s ] [ a - za - z0 - 9 ] + [ ' - , \\ . ] * ) * " ) ;  <NL>  }  COM: <s> validates the street name </s>

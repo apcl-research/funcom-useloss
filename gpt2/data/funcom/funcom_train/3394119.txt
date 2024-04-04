@@ -1,0 +1,1 @@
+TDAT: public void print flags ( long flags ) throws io exception {  <NL> if ( ( flags & synthetic ) ! = 0 ) print ( " / * synthetic * / " ) ;  <NL> print ( tree info . flag names ( flags ) ) ;  <NL> if ( ( flags & standard flags ) ! = 0 ) print ( " " ) ;  <NL> if ( ( flags & annotation ) ! = 0 ) print ( " @ " ) ;  <NL>  }  COM: <s> print a set of modifiers </s>

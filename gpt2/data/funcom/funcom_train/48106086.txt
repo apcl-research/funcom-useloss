@@ -1,0 +1,1 @@
+TDAT: public boolean add list ( string name ) {  <NL> if ( all word lists . get ( name ) ! = null )  <NL> return false ;  <NL> word list set = new word list ( ) ;  <NL> word lists . put ( name , set ) ;  <NL> all word lists . put ( name , set ) ;  <NL> all word sets . put ( name , this ) ;  <NL> return true ;  <NL>  }  COM: <s> add a new list to this set of word lists </s>

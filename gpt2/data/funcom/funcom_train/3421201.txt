@@ -1,0 +1,1 @@
+TDAT: public int get element decl index ( string element decl name ) {  <NL> int mapping = f element index map . get ( element decl name ) ;  <NL>  / / system . out . println ( " get element decl index ( " + element decl name + " ) - > " + mapping ) ;  <NL> return mapping ;  <NL>  } / / get element decl index ( string ) : int  COM: <s> get element decl index </s>

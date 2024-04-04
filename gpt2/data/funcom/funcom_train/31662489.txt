@@ -1,0 +1,1 @@
+TDAT: public void set spectrum ( spectrum1d new spectrum ) {  <NL> if ( this . spectrum ! = new spectrum ) {  <NL> this . spectrum = new spectrum ;  <NL> if ( peaks ! = null ) {  <NL> for ( int i = 0 ; i < this . peaks . length ; i + + ) {  <NL> peaks [ i ] . set spectrum ( this . spectrum ) ;  <NL>  }  <NL>  }  <NL>  }  <NL>  }  COM: <s> assign spectrum to pattern </s>

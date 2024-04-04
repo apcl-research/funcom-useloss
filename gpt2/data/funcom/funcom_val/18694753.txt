@@ -1,0 +1,1 @@
+TDAT: private string replace str ( string s , string cut , string paste ) {  <NL> string builder b = new string builder ( s ) ;  <NL> int ins pos = b . index of ( cut ) ;  <NL> b . delete ( ins pos , ins pos + cut . length ( ) ) ;  <NL> b . insert ( ins pos , paste ) ;  <NL> return b . to string ( ) ;  <NL>  }  COM: <s> replaces the first instance of cut in s with paste </s>

@@ -1,0 +1,1 @@
+TDAT: protected void fire tab restored ( docked tab event e ) {  <NL> if ( tab listeners = = null || tab listeners . is empty ( ) ) {  <NL> return ;  <NL>  }  <NL> for ( int i = 0 , k = tab listeners . size ( ) ; i < k ; i + + ) {  <NL> tab listeners . get ( i ) . tab restored ( e ) ;  <NL>  }  <NL>  }  COM: <s> notifies all registered listeners of a tab restored event </s>

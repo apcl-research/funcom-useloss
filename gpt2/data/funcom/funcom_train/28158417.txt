@@ -1,0 +1,1 @@
+TDAT: public void set key ( final string k ) {  <NL>  <NL> if ( k = = null ) {  <NL> throw new null pointer exception ( " key is null " ) ;  <NL>  }  <NL> if ( k . length ( ) = = 0 ) {  <NL> throw new illegal argument exception ( " key is 0 length " ) ;  <NL>  }  <NL>  <NL> key = k ;  <NL> key hash = key . hash code ( ) ;  <NL>  }  COM: <s> set the key </s>

@@ -1,0 +1,1 @@
+TDAT: public void bind ( abstract button b1 , abstract button b2 ) {  <NL>  / / add to bindings <NL> if ( b1 ! = b2 ) {  <NL> bindings . put ( b1 , b2 ) ;  <NL> bindings . put ( b2 , b1 ) ;  <NL>  / / add listeners <NL> b1 . add action listener ( this ) ;  <NL> b2 . add action listener ( this ) ;  <NL>  }  <NL>  }  COM: <s> binds two code abstract buttons code together </s>

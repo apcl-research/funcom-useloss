@@ -1,0 +1,1 @@
+TDAT: private calendar get fe nac modificar ( ) {  <NL> calendar aux = calendar . get instance ( ) ;  <NL> aux . set ( integer . parse int ( aaaa field01 . get text ( ) ) , integer . parse int ( mm field01 . get text ( ) ) - 1 , integer . parse int ( dd field01 . get text ( ) ) ) ;  <NL> return aux ;  <NL>  }  COM: <s> public string get idmodificar </s>

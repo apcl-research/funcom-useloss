@@ -1,0 +1,1 @@
+TDAT: public int get change cost ( i node other ) {  <NL>  / / return ( this . tag name . equals ignore case ( other . get tag name ( ) ) ) ? 0 : 1 ;  <NL> return ( this . tag name . equals ignore case ( other . get tag name ( ) ) ) ? 0 : this . get delete cost ( ) + other . get insert cost ( ) ;  <NL>  }  COM: <s> returns the cost to change this node to the given other node </s>

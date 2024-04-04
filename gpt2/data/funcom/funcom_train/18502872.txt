@@ -1,0 +1,1 @@
+TDAT: private void shell ( shell parent ) {  <NL> dialog = shell util . new shell ( parent , swt . dialog _ trim <NL> | swt . application _ modal , " about " , gui icons . text , 450 , 480 ,  <NL> grid util . new grid layout ( 5 , 5 , 5 , 5 , 1 , false ) , true , false ) ;  <NL> widgets . add ( dialog ) ;  <NL>  }  COM: <s> creates a new shell for the about dialog </s>

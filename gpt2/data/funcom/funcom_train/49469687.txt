@@ -1,0 +1,1 @@
+TDAT: public int add or lookup realm account ( string realm , string user name , string user id , string full user name ) throws exception {  <NL> return add or lookup realm account ( realm , user name , user id , full user name , null , null , null , null ) ;  <NL>  }  COM: <s> wrapper to add or lookup realm account with all null flags </s>

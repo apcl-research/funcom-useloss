@@ -1,0 +1,1 @@
+TDAT: public void from xml ( @ not null final plugin parameter < g , a , r > parameter ) {  <NL> assert e ! = null ;  <NL> parameter . set name ( e . get child text ( " name " ) ) ;  <NL> assert e ! = null ;  <NL> parameter . set description ( e . get child text ( " description " ) ) ;  <NL>  }  COM: <s> restores generic plugin parameter values </s>

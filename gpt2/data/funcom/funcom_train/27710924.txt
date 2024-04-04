@@ -1,0 +1,1 @@
+TDAT: static private string strip plus if present ( string value ) {  <NL> string stripped plus = value ;  <NL>  <NL> if ( value . length ( ) > = 2 & & value . char at ( 0 ) = = ' + ' & & value . char at ( 1 ) ! = ' - ' ) {  <NL> stripped plus = value . substring ( 1 ) ;  <NL>  }  <NL> return stripped plus ;  <NL>  }  COM: <s> this class deals with a bug in big decimal class </s>

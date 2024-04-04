@@ -1,0 +1,1 @@
+TDAT: public string trim args ( ) {  <NL> if ( ! rest . is empty ( ) ) return id + rest . trim args ( ) ;  <NL> string id s = id . to string ( ) ;  <NL> int amp = id s . index of ( ' ? ' ) ;  <NL> return amp < 0 ? id s : id s . substring ( 0 , amp ) ;  <NL>  }  COM: <s> remove the urls arguments </s>

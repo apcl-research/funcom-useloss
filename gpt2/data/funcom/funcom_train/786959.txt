@@ -1,0 +1,1 @@
+TDAT: public void state changed ( change event evt ) {  <NL> int scale = slider . get value ( ) ;  <NL> value . set text ( " x " + string . value of ( scale ) ) ;  <NL> size . set text ( " image size : " + ( width * scale ) + " x " + ( height * scale ) + " pixels " ) ;  <NL> preview . repaint ( ) ;  <NL>  }  COM: <s> monitor changes to the scale slider </s>

@@ -1,0 +1,1 @@
+TDAT: public void update status ( string new status , my profile my ) throws exception {  <NL> string hash = hash . sha1 ( dht protocol . prefix _ userstatus + my . get fuid ( ) ) ;  <NL> open dht . put ( ips , hash , rsa . sign ( new status , rsa . to private key ( my . get private key ( ) ) , null ) , open dht . max _ ttl ) ;  <NL>  }  COM: <s> update your own status </s>

@@ -1,0 +1,1 @@
+TDAT: public int compare to ( object o ) {  <NL> int comparison = 0 ;  <NL> if ( o instanceof host ) {  <NL> if ( ip < ( ( host ) o ) . get ip ( ) ) comparison = - 1 ;  <NL> else if ( ip > ( ( host ) o ) . get ip ( ) ) comparison = 1 ;  <NL> else comparison = 0 ;  <NL>  }  <NL> return comparison ;  <NL>  }  COM: <s> compare this host to another host </s>

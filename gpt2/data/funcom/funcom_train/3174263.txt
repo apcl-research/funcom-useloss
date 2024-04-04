@@ -1,0 +1,1 @@
+TDAT: protected void set image ( file file , string value ) {  <NL> list nodes = ( list ) file2elements . get ( file ) ;  <NL> for ( int i = 0 ; i < nodes . size ( ) ; i + + ) {  <NL> element external = ( element ) nodes . get ( i ) ;  <NL> external . set attribute ( " src " , value ) ;  <NL>  }  <NL>  }  COM: <s> replace referenced image file with a calculated value </s>

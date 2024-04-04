@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> string buffer ret = new string buffer ( ) ;  <NL> for ( int i = 0 ; i < urls . size ( ) ; i + + ) {  <NL> ret . append ( urls . element at ( i ) . to string ( ) ) ;  <NL> ret . append ( ' ' ) ;  <NL>  }  <NL> return ret . to string ( ) . trim ( ) ;  <NL>  }  COM: <s> returns url list delimited by space </s>

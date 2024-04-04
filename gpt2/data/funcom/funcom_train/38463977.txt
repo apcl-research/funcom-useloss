@@ -1,0 +1,1 @@
+TDAT: public void close ( ) throws sql exception {  <NL> iterator it = connections . iterator ( ) ;  <NL> while ( it . has next ( ) ) {  <NL>  ( ( connection ) it . next ( ) ) . close ( ) ;  <NL>  }  <NL> connections . clear ( ) ;  <NL> idle . clear ( ) ;  <NL> url = null ;  <NL> user = null ;  <NL> password = null ;  <NL> open = false ;  <NL>  }  COM: <s> closes the pool </s>

@@ -1,0 +1,1 @@
+TDAT: public point2d normalize ( ) {  <NL> rectangle2d r = get bounds2d ( ) ;  <NL> translate ( ( float ) - r . get x ( ) , ( float ) - r . get y ( ) ) ;  <NL>  <NL> flag dirty = true ;  <NL>  <NL> return ( new point2d . float ( ( float ) - r . get x ( ) , ( float ) - r . get y ( ) ) ) ;  <NL>  } / / of normalize  COM: <s> force the top right bounds to be at 0 0 </s>

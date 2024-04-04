@@ -1,0 +1,1 @@
+TDAT: public boolean is valid ( ) {  <NL> if ( super . is valid ( ) ) {  <NL>  <NL>  / / ensure first and last nodes are same <NL> if ( is closed ( ) ) {  <NL>  / / ensure no node repetitions except for first and last <NL> return ( new hash set ( this ) . size ( ) = = size ( ) - 1 ) ;  <NL>  }  <NL>  }  <NL> return ( false ) ;  <NL>  }  COM: <s> tests if the cycle is valid </s>

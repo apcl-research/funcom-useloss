@@ -1,0 +1,1 @@
+TDAT: public void test add spectator ( ) {  <NL> game g = new game ( u1 , " type " , " name " , 10 , true ) ;  <NL> assert true ( g . add spectator ( u1 ) ) ;  <NL> game g2 = new game ( u1 , " type " , " name " , 10 , false ) ;  <NL> assert false ( g2 . add spectator ( u1 ) ) ;  <NL>  }  COM: <s> tests the add spectator method </s>

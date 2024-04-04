@@ -1,0 +1,1 @@
+TDAT: public void test binary expression right ( ) {  <NL> te = m type environment ( " a " , " s " , " b " , " t " ) ;  <NL> assert expression specialization ( te , / /  <NL>  " a ↦ b " , / /  <NL> m spec ( te , m list ( " t " , " u " ) , m list ( " b " , " t " , " c " , " u " ) ) ) ;  <NL>  }  COM: <s> ensures a binary expression can be specialized on the right and only </s>

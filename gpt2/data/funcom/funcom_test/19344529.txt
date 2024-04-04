@@ -1,0 +1,1 @@
+TDAT: public void insert ( combo rec value ) {  <NL>  / / record rec val = ( record rec ) value ;  <NL>  <NL> int i = 0 ;  <NL> int key = get next key ( ) ;  <NL>  <NL> value . set combo id ( key + + ) ;  <NL> while ( ( i + + < 10 ) & & ( ! try to insert ( value ) ) ) {  <NL> value . set combo id ( key + + ) ;  <NL>  }  <NL>  }  COM: <s> this method inserts one record </s>

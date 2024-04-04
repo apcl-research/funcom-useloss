@@ -1,0 +1,1 @@
+TDAT: public boolean replace ( k key , v old value , v new value ) {  <NL> if ( old value = = null || new value = = null )  <NL> throw new null pointer exception ( ) ;  <NL> int hash = hash ( key ) ;  <NL> return segment for ( hash ) . replace ( key , hash , old value , new value ) ;  <NL>  }  COM: <s> replace entry for key only if currently mapped to given value </s>

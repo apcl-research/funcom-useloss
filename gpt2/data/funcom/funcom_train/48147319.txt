@@ -1,0 +1,1 @@
+TDAT: public void set cut points ( double s , double t ) {  <NL> if ( s < 0 ) s = 0 ; else if ( s > 1 ) s = 1 ;  <NL> x = s ;  <NL> if ( t < 0 ) t = 0 ; else if ( t > 1 ) t = 1 ;  <NL> y = t ;  <NL> if ( x < y ) set sides ( x , y - x , 1 - y ) ;  <NL> else set sides ( y , x - y , 1 - x ) ;  <NL>  }  COM: <s> this method sets the cutpoints to specified values </s>

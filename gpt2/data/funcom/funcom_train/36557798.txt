@@ -1,0 +1,1 @@
+TDAT: public void get hair color ( float [ ] rgb out ) {  <NL> if ( rgb out = = null || rgb out . length < 3 )  <NL> throw new illegal argument exception ( " unacceptable array provided ! " ) ;  <NL> rgb out [ 0 ] = hair color [ 0 ] ;  <NL> rgb out [ 1 ] = hair color [ 1 ] ;  <NL> rgb out [ 2 ] = hair color [ 2 ] ;  <NL>  }  COM: <s> retrieve the hair color </s>

@@ -1,0 +1,1 @@
+TDAT: public double distance ( color rgb other ) {  <NL> return math . sqrt ( ( this . r - other . r ) * ( this . r - other . r ) +  <NL>  ( this . g - other . g ) * ( this . g - other . g ) +  <NL>  ( this . b - other . b ) * ( this . b - other . b ) ) ;  <NL>  }  COM: <s> given current color space rgb coordinates this method returns the </s>

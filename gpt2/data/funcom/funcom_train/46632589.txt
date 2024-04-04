@@ -1,0 +1,1 @@
+TDAT: public string get text ( ) {  <NL>  / / string txt = file . get name ( ) ;  <NL>  / / int n = txt . last index of ( ' . ' ) ;  <NL>  / / if ( ( n > 0 ) & & ( n < ( txt . length ( ) - 1 ) ) )  <NL>  / / txt = txt . substring ( 0 , n ) ;  <NL> return file . get name ( ) ;  <NL>  }  COM: <s> returns the string to be used to display the tree node </s>

@@ -1,0 +1,1 @@
+TDAT: protected void paint button pressed ( graphics g , abstract button b ) {  <NL> if ( b . is content area filled ( ) ) {  <NL> dimension size = b . get size ( ) ;  <NL> g . set color ( get select color ( ) ) ;  <NL> g . fill round rect ( 0 , 0 , size . width , size . height , 5 , 5 ) ;  <NL>  }  <NL>  }  COM: <s> overriden to do nothing </s>

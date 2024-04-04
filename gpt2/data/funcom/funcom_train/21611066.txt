@@ -1,0 +1,1 @@
+TDAT: public void test expand results ( ) {  <NL> default commands default commands = retrieve mu commands ( ) ;  <NL> add results ( default commands ) ;  <NL> command line . process command ( " print ( ' $ { 1 } - $ { 2 } - $ { 3 } ' ) ; " ) ;  <NL> trace out . assert contains ( " result1 - result2 - result3 " ) ;  <NL>  }  COM: <s> tests the expansion feature </s>

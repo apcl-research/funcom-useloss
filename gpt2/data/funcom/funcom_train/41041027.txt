@@ -1,0 +1,1 @@
+TDAT: public void save ( ) {  <NL> if ( m data ! = null & & m data . length ! = 0 ) {  <NL> string url = m settings . get string ( " map _ provider _ name " , s . open cycle maps url ) ;  <NL> tile factory . save tile ( url , m data , x , y , z ) ;  <NL>  }  <NL>  }  COM: <s> save the tile on the local source </s>

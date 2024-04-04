@@ -1,0 +1,1 @@
+TDAT: public void remove phi ( int n phi ) {  <NL> assert 0 < = n phi & & n phi < num phis ( ) ;  <NL> dst = ( temp [ ] ) util . shrink ( temp . array factory , dst , n phi ) ;  <NL> src = ( temp [ ] [ ] ) util . shrink ( temp . double array factory , src , n phi ) ;  <NL>  }  COM: <s> removes a given phi function from the block </s>

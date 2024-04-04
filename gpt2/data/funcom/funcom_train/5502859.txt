@@ -1,0 +1,1 @@
+TDAT: protected int get request content length ( ) {  <NL> if ( null ! = data ) {  <NL> return data . length ;  <NL>  } else if ( null ! = file & & file . exists ( ) ) {  <NL> return ( int ) ( file . length ( ) ) ;  <NL>  } else if ( url ! = null ) {  <NL> return - 1 ;  <NL>  } else {  <NL> return 0 ;  <NL>  }  <NL>  }  COM: <s> override the method of </s>

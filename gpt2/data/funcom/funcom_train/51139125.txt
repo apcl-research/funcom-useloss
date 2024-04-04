@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> return " com . ledruide . druidedb . test . dao . job { " +  <NL>  " [ id = ' " + id + " ' ] * * * " +  <NL>  " [ description = ' " + description + " ' ] * * * " +  <NL>  " [ salary = ' " + salary + " ' ] * * * " +  <NL>  " } " ;  <NL>  }  COM: <s> returns a human readable string representation of the content </s>

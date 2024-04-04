@@ -1,0 +1,1 @@
+TDAT: public void run ( ) {  <NL> for ( recovering block b : blocks ) {  <NL> try {  <NL> log recover block ( " name node " , b . get block ( ) , b . get locations ( ) ) ;  <NL> recover block ( b ) ;  <NL>  } catch ( io exception e ) {  <NL> log . warn ( " recover blocks failed : " + b , e ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> recover a list of blocks </s>

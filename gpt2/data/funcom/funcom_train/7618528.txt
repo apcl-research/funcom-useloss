@@ -1,0 +1,1 @@
+TDAT: public void draw pos text ( string text , float [ ] pos , paint paint ) {  <NL> if ( text . length ( ) * 2 > pos . length ) {  <NL> throw new array index out of bounds exception ( ) ;  <NL>  }  <NL> native _ draw pos text ( m native canvas , text , pos , paint . m native paint ) ;  <NL>  }  COM: <s> draw the text in the array with each characters origin specified by </s>

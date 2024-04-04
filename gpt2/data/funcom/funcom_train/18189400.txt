@@ -1,0 +1,1 @@
+TDAT: private void add ion storm ( int id , int x , int y , int voltage , int heading , int speed , int radius , int ion class , int growth ) {  <NL>  / / todo : use class + growth <NL> ion storm ionstorm = new ion storm ( turn , id , new point ( x , y ) , radius , voltage , speed , heading ) ;  <NL>  }  COM: <s> add a ionstorm </s>

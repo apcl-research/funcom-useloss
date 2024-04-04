@@ -1,0 +1,1 @@
+TDAT: private void add to map ( map < string , set < cost driver > > map , cost driver driver , string name ) {  <NL> set < cost driver > drivers = map . get ( name ) ;  <NL> if ( drivers = = null ) {  <NL> drivers = new hash set < cost driver > ( ) ;  <NL> map . put ( name , drivers ) ;  <NL>  }  <NL> drivers . add ( driver ) ;  <NL>  }  COM: <s> adds a cost driver to a map </s>

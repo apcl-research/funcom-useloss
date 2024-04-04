@@ -1,0 +1,1 @@
+TDAT: public void trim to size ( ) {  <NL> int size = last index - first index ;  <NL> e [ ] new array = new element array ( size ) ;  <NL> system . arraycopy ( array , first index , new array , 0 , size ) ;  <NL> array = new array ;  <NL> first index = 0 ;  <NL> last index = array . length ;  <NL> mod count = 0 ;  <NL>  }  COM: <s> sets the capacity of this </s>

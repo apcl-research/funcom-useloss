@@ -1,0 +1,1 @@
+TDAT: private string get smart path ( string objectnumber , string middle , http session session ) throws jsp tag exception {  <NL> return ( string ) cloud . get node ( objectnumber ) . get value ( " smartpath ( " + htmlroot + " , " + middle + " , " + get version ( objectnumber , session ) + " ) " ) ;  <NL>  }  COM: <s> get the smartpath of a certain object </s>

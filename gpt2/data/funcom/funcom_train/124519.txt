@@ -1,0 +1,1 @@
+TDAT: private void check indices ( int i , int j ) {  <NL>  <NL> if ( i > = rows ( ) || j > = cols ( ) || i < 0 || j < 0 )  <NL> throw new illegal argument exception ( " [ " + i + " , " + j <NL>  + " ] is not a valid index for " + to string ( ) + " . " ) ;  <NL>  <NL>  }  COM: <s> checks whether the indices are valid throws exception if not </s>

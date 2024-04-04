@@ -1,0 +1,1 @@
+TDAT: public void action on pen click ( point p ) {  <NL> tmp pt = display to base ( p . x , p . y , tmp pt ) ;  <NL> m thread th pen = new m thread ( new runnable ( ) {  <NL> public void run ( ) {  <NL> register new ref point ( tmp pt ) ;  <NL>  }  <NL>  } ) ;  <NL> th pen . start ( ) ;  <NL>  }  COM: <s> pen clickon the displayed image display a dialog form to register </s>

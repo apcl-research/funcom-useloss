@@ -1,0 +1,1 @@
+TDAT: public void bottom left ( ) {  <NL> dimension frame size = new dimension ( comp . get size ( ) ) ;  <NL> dimension screen size = toolkit . get default toolkit ( ) . get screen size ( ) ;  <NL> comp . set location ( 0 , ( int ) ( screen size . get height ( ) - frame size . get height ( ) ) ) ;  <NL>  }  COM: <s> moves the component to the bottom left corner </s>

@@ -1,0 +1,1 @@
+TDAT: public tile get south ( ) {  <NL> tile t = new tile ( ) ;  <NL> t . set layer ( layer ) ;  <NL> if ( y < ( 1 < < z ) ) {  <NL> t . set zxy ( z , x , y + 1 ) ;  <NL>  } else {  <NL> throw new illegal access error ( " no south " ) ;  <NL>  }  <NL> return t ;  <NL>  }  COM: <s> returns a tile of the south </s>

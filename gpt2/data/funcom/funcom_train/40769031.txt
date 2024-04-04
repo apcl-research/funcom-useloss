@@ -1,0 +1,1 @@
+TDAT: private string binb2str ( int [ ] bin ) {  <NL> string str = " " ;  <NL> int mask = ( 1 < < chrsz ) - 1 ;  <NL> for ( int i = 0 ; i < bin . length * 32 ; i + = chrsz ) {  <NL> str + = ( char ) ( ( bin [ i > > 5 ] > > > ( 32 - chrsz - i % 32 ) ) & mask ) ;  <NL>  }  <NL> return str ;  <NL>  }  COM: <s> convert an array of big endian words to a string </s>

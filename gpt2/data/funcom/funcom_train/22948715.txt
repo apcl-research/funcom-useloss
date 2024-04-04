@@ -1,0 +1,1 @@
+TDAT: protected void set initial values ( ) {  <NL> add config key ( new parameter double ( " upper frequency " , " upper frequency " , 64 , 1 , 0 , 64 ) ) ;  <NL> add config key ( new parameter double ( " lower frequency " , " lower frequency " , 0 , 1 , 0 , 64 ) ) ;  <NL>  }  COM: <s> adds two configuration keys </s>

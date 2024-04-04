@@ -1,0 +1,1 @@
+TDAT: public double parse coordinate ( string s ) {  <NL>  / / parse the ddmm . mmmm format coordinate <NL> double ddmm = double . parse double ( s ) ;  <NL>  / / calculate the dd . dddddd format value <NL> int dd = ( int ) ddmm / 100 ;  <NL> double mm = ddmm - dd * 100 ;  <NL> double dd _ dd = dd + mm / 60 ;  <NL> return dd _ dd ;  <NL>  }  COM: <s> parse the ddmm </s>

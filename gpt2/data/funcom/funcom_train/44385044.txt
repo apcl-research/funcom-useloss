@@ -1,0 +1,1 @@
+TDAT: public void set jar ( string new jar ) {  <NL> ensure ( module = = null ,  <NL>  " the dependency is already set to a module " + module <NL>  + " . create another dependency for jar " + new jar ) ;  <NL> ensure ( ! inherit eu list ,  <NL>  " cannot inherit eu list from a jar dependency " ) ;  <NL> this . jar = new jar ;  <NL>  }  COM: <s> set the jar value </s>

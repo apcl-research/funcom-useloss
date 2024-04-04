@@ -1,0 +1,1 @@
+TDAT: public void insert seating plan ( long id , string name ) {  <NL> string sql = " insert into seating _ plan ( id , name ) values ( ? , ? ) " ;  <NL> object [ ] args = new object [ ] { new long ( id ) , name } ;  <NL> jdbc template . update ( sql , args ) ;  <NL>  }  COM: <s> inserts a new seating plan record to the seating plan table </s>

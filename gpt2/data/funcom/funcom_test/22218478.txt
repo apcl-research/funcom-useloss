@@ -1,0 +1,1 @@
+TDAT: private void dump ( output stream s , byte [ ] b , int offset , int len ) {  <NL> try {  <NL> if ( s ! = null ) {  <NL> s . write ( b , offset , len ) ;  <NL>  }  <NL>  } catch ( io exception x ) {  <NL> log . warn ( " couldn ' t write incoming bytes to input snooper . " , x ) ;  <NL>  }  <NL>  }  COM: <s> dump bytes to an output stream </s>

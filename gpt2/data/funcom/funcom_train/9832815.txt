@@ -1,0 +1,1 @@
+TDAT: public wire add ( wire a , wire b , wire ci , string name ) {  <NL> wire s = wire ( a . get width ( ) , name + " _ o " ) ;  <NL> return add _ o ( a , b , ci , s , wire ( 1 , name + " _ co " ) , name ) ;  <NL>  }  COM: <s> constructs a new adder with no carry out and with a new wire </s>

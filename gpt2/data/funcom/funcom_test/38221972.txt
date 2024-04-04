@@ -1,0 +1,1 @@
+TDAT: private c variant function rad ( stack stack ) throws c expression error {  <NL> int params = get value ( stack , 0 ) . get int ( ) ;  <NL> check param count ( params , 1 ) ;  <NL> return new c soft variant ( math . to radians ( get value ( stack , 1 ) . get float ( ) ) ) ;  <NL>  }  COM: <s> calculates function rad degrees to radians </s>

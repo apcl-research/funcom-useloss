@@ -1,0 +1,1 @@
+TDAT: public void test contains ( ) {  <NL> mock connection . expects ( once ( ) ) . method ( " contains " ) . with ( eq ( 1 . 0 ) , eq ( 2 . 3 ) ) .  <NL> will ( return value ( true ) ) ;  <NL> assert true ( selection . contains ( 1 . 0 , 2 . 3 ) ) ;  <NL>  }  COM: <s> tests the contains method </s>

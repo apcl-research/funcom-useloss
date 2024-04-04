@@ -1,0 +1,1 @@
+TDAT: public void fill trapezoid ( int x1 , int x2 , int y1 , int x3 , int x4 , int y2 , int color ) {  <NL> backbuffer . fill trapezoid ( x1 , x2 , y1 , x3 , x4 , y2 , color ) ;  <NL>  }  COM: <s> fill a trapezoid area on the backbuffer where </s>

@@ -1,0 +1,1 @@
+TDAT: public object get value at ( object node , int column ) {  <NL> if ( ! ( node instanceof http url ) ) return null ;  <NL> http url url = ( http url ) node ;  <NL> if ( column = = 0 ) return url ;  <NL> return ( ( column data model ) _ columns . get ( column - 1 ) ) . get value ( url ) ;  <NL>  }  COM: <s> returns the value of the particular column </s>

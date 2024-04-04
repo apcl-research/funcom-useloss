@@ -1,0 +1,1 @@
+TDAT: public rectangle get text insets ( ) {  <NL> rectangle place = new rectangle ( text inset , text inset , 2 * text inset , 2 * text inset ) ;  <NL> int midle _ height = wrapper . get line height ( ) * wrapper . get line count ( ) ;  <NL> place . x + = midle _ height / 4 ;  <NL> place . width + = midle _ height / 2 ;  <NL> return place ;  <NL>  }  COM: <s> get text place </s>

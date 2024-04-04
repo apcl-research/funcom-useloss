@@ -1,0 +1,1 @@
+TDAT: synchronized public void on registered ( ) {  <NL> logger . info ( to string ( ) + " registered " ) ;  <NL> iterator i = channels . iterator ( ) ;  <NL> if ( is connected ( ) ) {  <NL> while ( i . has next ( ) ) {  <NL> string channel = ( string ) i . next ( ) ;  <NL> conn . do join ( channel ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> ircevent listener api </s>

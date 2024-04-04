@@ -1,0 +1,1 @@
+TDAT: public string get url string ( ) {  <NL> string s = new string ( " " ) ;  <NL> s + = get type url char ( ) + " , " ;  <NL> s + = color + " , " ;  <NL> s + = dataset index + " , " ;  <NL> s + = data point + " , " ;  <NL> s + = string . value of ( size ) ;  <NL> return s ;  <NL>  }  COM: <s> returns the url for the shape marker </s>

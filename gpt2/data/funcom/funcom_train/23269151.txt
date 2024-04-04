@@ -1,0 +1,1 @@
+TDAT: public void end element ( final uri ns uri , final string local name , final string q name ) throws sax exception {  <NL> end element ( ns uri ! = null ? ns uri . to string ( ) : " " , local name , ( q name ! = null ) ? q name : local name ) ;  <NL> return ;  <NL>  }  COM: <s> notification of the end of an element </s>

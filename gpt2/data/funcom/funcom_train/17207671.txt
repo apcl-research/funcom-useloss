@@ -1,0 +1,1 @@
+TDAT: private void save context ( pseudo op call op , stack frame frame ) {  <NL> frame . save pc ( pc ) ;  <NL> frame . save method ( code ) ;  <NL> if ( call op . has result ( ) ) {  <NL> frame . set result slot ( call op . get result ( ) ) ;  <NL>  } else {  <NL> frame . clear result slot ( ) ;  <NL>  }  <NL>  }  COM: <s> save context in the callers stack frame </s>

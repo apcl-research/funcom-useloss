@@ -1,0 +1,1 @@
+TDAT: public list get users ( ) throws infrastructure exception , hibernate exception {  <NL> log . info ( " get users ( ) " ) ;  <NL> string query = " from " + user . class . get name ( ) ;  <NL> session session = hibernate util . get session ( ) ;  <NL> list users = session . create query ( query ) . list ( ) ;  <NL> return users ;  <NL>  }  COM: <s> get all users </s>

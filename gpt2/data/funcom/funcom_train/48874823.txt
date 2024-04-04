@@ -1,0 +1,1 @@
+TDAT: private signature create signature ( string accession , string name , signature library release release ) {  <NL> model model = new model ( accession , name , null ) ;  <NL> return new signature ( accession , name , null , null , null , release , collections . singleton ( model ) ) ;  <NL>  }  COM: <s> creates and returns an instance of signature </s>

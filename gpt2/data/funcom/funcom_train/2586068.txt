@@ -1,0 +1,1 @@
+TDAT: public serial date get end of current month ( final serial date base ) {  <NL> final int last = serial date . last day of month (  <NL> base . get month ( ) , base . get yyyy ( )  <NL>  ) ;  <NL> return serial date . create instance ( last , base . get month ( ) , base . get yyyy ( ) ) ;  <NL>  }  COM: <s> rolls the date forward to the last day of the month </s>

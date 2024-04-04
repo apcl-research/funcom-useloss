@@ -1,0 +1,1 @@
+TDAT: public void fire table data changed ( int first row , int last row , int type ) {  <NL> if ( ! has table model listener ( ) ) return ;  <NL> tmp event . set values ( first row ,  <NL> last row ,  <NL> table model event . all _ columns ,  <NL> type ) ;  <NL> fire table changed ( tmp event ) ;  <NL>  }  COM: <s> notifies all listeners that all cell values in the tables </s>

@@ -1,0 +1,1 @@
+TDAT: public vector get classes of ( string an instance , boolean most specific ) {  <NL> return ( vector ) invoke ( get classes of _ 0 , new string [ ] { " an instance " , " most specific " } , new object [ ] { an instance , boolean . value of ( most specific ) } ) ;  <NL>  }  COM: <s> retrive a list of classes to which an instance belongs </s>

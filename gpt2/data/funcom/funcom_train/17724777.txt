@@ -1,0 +1,1 @@
+TDAT: public string get item name ( ) {  <NL> if ( this . item name ! = null ) {  <NL> return this . item name ;  <NL>  }  <NL> value binding vb = get value binding ( " item name " ) ; / / noi18n <NL> if ( vb ! = null ) {  <NL> return ( string ) vb . get value ( get faces context ( ) ) ;  <NL>  }  <NL> return null ;  <NL>  }  COM: <s> returns the name of the item </s>

@@ -1,0 +1,1 @@
+TDAT: public void read fields ( data input in ) throws io exception {  <NL> long size = in . read long ( ) ;  <NL>  <NL> for ( long i = 0 ; i < size ; i + + ) {  <NL> try {  <NL> object o = data reader writer . read datum ( in ) ;  <NL> add ( ( tuple ) o ) ;  <NL>  } catch ( exec exception ee ) {  <NL> throw ee ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> read a bag from disk </s>

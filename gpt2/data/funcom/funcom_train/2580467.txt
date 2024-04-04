@@ -1,0 +1,1 @@
+TDAT: public shape get window ( rectangle2d frame ) {  <NL> rectangle2d f = dial plot . rectangle by radius ( frame , this . radius ,  <NL> this . radius ) ;  <NL> return new ellipse2d . double ( f . get x ( ) , f . get y ( ) , f . get width ( ) ,  <NL> f . get height ( ) ) ;  <NL>  }  COM: <s> returns the shape for the window for this dial </s>

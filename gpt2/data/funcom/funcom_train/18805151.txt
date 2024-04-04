@@ -1,0 +1,1 @@
+TDAT: public void test equals ( ) {  <NL>  <NL> xy text annotation a1 = new xy text annotation ( " text " , 10 . 0 , 20 . 0 ) ;  <NL> xy text annotation a2 = new xy text annotation ( " text " , 10 . 0 , 20 . 0 ) ;  <NL> assert true ( a1 . equals ( a2 ) ) ;  <NL>  <NL>  }  COM: <s> confirm that the equals method can distinguish all the required fields </s>

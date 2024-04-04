@@ -1,0 +1,1 @@
+TDAT: public j slider bind slider to attribute ( object entity , j slider slider , double attr attr , double min , double max , mapping mapping ) {  <NL> return bind slider to attribute ( entity , slider , attr , new double attr ( min ) , new double attr ( max ) , mapping ) ;  <NL>  }  COM: <s> binds the specified jslider to the specified attribute </s>

@@ -1,0 +1,1 @@
+TDAT: public void clear rect ( int x , int y , int w , int h ) {  <NL> close block ( ) ;  <NL> pw . print ( " q 1 1 1 rg " ) ; / / save state , set colour to white <NL> draw rect ( x , y , w , h ) ;  <NL> close block ( " b q " ) ; / / close fill & stroke , then restore state <NL>  }  COM: <s> this simply draws a white rectangle to clear the area </s>

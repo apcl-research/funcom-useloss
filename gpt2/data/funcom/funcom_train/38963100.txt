@@ -1,0 +1,1 @@
+TDAT: public void to byte array ( byte [ ] to buf , int offset ) {  <NL> int to len = ( to buf . length > count ) ? count : to buf . length ;  <NL> for ( int i = offset ; i < to len ; i + + ) {  <NL> to buf [ i ] = buf [ i ] ;  <NL>  }  <NL>  } / / to byte array  COM: <s> copy the buffered data to the given array </s>

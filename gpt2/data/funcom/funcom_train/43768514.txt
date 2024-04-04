@@ -1,0 +1,1 @@
+TDAT: public char char at ( int pos ) {  <NL> int start chunk = pos > > > m _ chunk bits ;  <NL>  <NL> if ( start chunk = = 0 & & m _ inner fsb ! = null )  <NL> return m _ inner fsb . char at ( pos & m _ chunk mask ) ;  <NL> else <NL> return m _ array [ start chunk ] [ pos & m _ chunk mask ] ;  <NL>  }  COM: <s> get a single character from the string buffer </s>

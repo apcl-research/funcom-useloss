@@ -1,0 +1,1 @@
+TDAT: public void test callable statement parsing3 ( ) throws exception {  <NL> callable statement cstmt = con . prepare call ( " { call test ( ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? ) } " ) ;  <NL> cstmt . close ( ) ;  <NL>  }  COM: <s> test for bug 1006845 stored procedure with 18 parameters </s>

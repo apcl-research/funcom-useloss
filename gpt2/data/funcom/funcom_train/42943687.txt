@@ -1,0 +1,1 @@
+TDAT: public boolean delete note ( int row id ) {  <NL>  <NL> log . v ( tag , " deleting : with id : " + row id ) ;  <NL> return m db . delete ( database _ table , key _ rowid + " = " + row id , null ) > 0 ;  <NL>  / / return delete all notes ( ) ;  <NL>  / / return true ;  <NL>  }  COM: <s> delete the note with the given row id </s>

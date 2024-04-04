@@ -1,0 +1,1 @@
+TDAT: public parameter item ( ) {  <NL> name = " parameter1 " ;  <NL> type = integer ;  <NL> description = " new parameter item " ;  <NL> id = " p1 " ;  <NL> search string = " @ @ parameter1 @ @ " ;  <NL> values string = " [ : : ] & { , , , } ^ { , , } " ;  <NL>  }  COM: <s> construct an empty entry </s>

@@ -1,0 +1,1 @@
+TDAT: private boolean boundary compare ( byte [ ] src , int src off , byte [ ] bound ) {  <NL> int j = src off ;  <NL> for ( int i = 0 ; i < bound . length ; i + + ) {  <NL> if ( src [ j ] ! = bound [ i ] ) {  <NL> return false ;  <NL>  }  <NL> j + + ;  <NL>  }  <NL> return true ;  <NL>  }  COM: <s> comparing to find boundaries in byte stream </s>

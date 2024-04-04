@@ -1,0 +1,1 @@
+TDAT: public string format ( @ not null final string key , final object . . . args ) {  <NL> try {  <NL> return message format . format ( get string ( key ) , args ) ;  <NL>  } catch ( final null pointer exception e ) {  <NL> throw new null pointer exception ( " no format for key " + key + " ( " + e + " ) " ) ;  <NL>  }  <NL>  }  COM: <s> formats a message with parameters </s>

@@ -1,0 +1,1 @@
+TDAT: public void add tag ( string tag , string value ) {  <NL> if ( this . tag type = = null ) {  <NL> this . tag type = new vector ( ) ;  <NL>  }  <NL> if ( this . tag value = = null ) {  <NL> this . tag value = new vector ( ) ;  <NL>  }  <NL> this . tag type . add ( tag ) ;  <NL> this . tag value . add ( value ) ;  <NL>  }  COM: <s> adds a tag to the java doc block </s>

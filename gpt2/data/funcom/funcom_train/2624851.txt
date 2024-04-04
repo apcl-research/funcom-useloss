@@ -1,0 +1,1 @@
+TDAT: public double get scale ( ) {  <NL>  / / x1 , y1 , x2 , y2 <NL> pts [ 0 ] = 0 ;  <NL> pts [ 1 ] = 0 ;  <NL> pts [ 2 ] = 1 ;  <NL> pts [ 3 ] = 0 ;  <NL> graphics . get transform ( ) . transform ( pts , 0 , pts , 0 , 2 ) ;  <NL> return point2d . distance ( pts [ 0 ] , pts [ 1 ] , pts [ 2 ] , pts [ 3 ] ) ;  <NL>  }  COM: <s> returns scale of the current graphics context </s>

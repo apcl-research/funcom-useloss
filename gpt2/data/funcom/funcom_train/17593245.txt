@@ -1,0 +1,1 @@
+TDAT: protected void extract ( big integer [ ] arr , int x ) {  <NL> for ( int k = 0 ; k < bits . length ; + + k ) {  <NL> arr [ k ] = big integer . value of ( x & ( ( 1 < < bits [ k ] ) - 1 ) ) ;  <NL> x > > > = bits [ k ] ;  <NL>  }  <NL>  }  COM: <s> extract packed value x into given array </s>

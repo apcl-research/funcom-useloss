@@ -1,0 +1,1 @@
+TDAT: public image load image ( landscape land ) {  <NL> return new image icon ( m workdir + m path seperator + " classes " + m path seperator + " images " + m path seperator + " landscape " + m path seperator + land . get m type ( ) + m path seperator + land . get m name ( ) + " . png " ) . get image ( ) ;  <NL>  <NL>  }  COM: <s> method load image </s>

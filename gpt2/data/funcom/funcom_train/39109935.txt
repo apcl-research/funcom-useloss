@@ -1,0 +1,1 @@
+TDAT: final public void unset ( int x , int y ) throws array index out of bounds exception {  <NL> if ( x > = dim [ 0 ] || y > = dim [ 1 ] ) {  <NL> throw new array index out of bounds exception ( " ( " + x + ' , ' + y + ' ) ' ) ;  <NL>  }  <NL> else {  <NL> matrix . remove ( make key ( x , y ) ) ;  <NL>  }  <NL>  }  COM: <s> unsets the element x y </s>

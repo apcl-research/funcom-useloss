@@ -1,0 +1,1 @@
+TDAT: public void reset reader ( int p o , int p1 ) {  <NL>  <NL> doc pos = p0 ;  <NL> this . p1 = math . min ( doc . get length ( ) , p1 ) ;  <NL> segment . set index ( 0 ) ;  <NL> index = 0 ;  <NL> try {  <NL> load segment ( ) ;  <NL>  }  <NL> catch ( io exception ioe ) {  <NL> throw new error ( " unexpected : " + ioe ) ;  <NL>  }  <NL>  }  COM: <s> reset the reader </s>

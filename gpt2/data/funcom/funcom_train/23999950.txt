@@ -1,0 +1,1 @@
+TDAT: public void test size ( ) {  <NL> bag < string > instance = new bag < string > ( ) ;  <NL> assert equals ( 0 , instance . size ( ) ) ;  <NL> instance . add ( " x " ) ;  <NL> assert equals ( 1 , instance . size ( ) ) ;  <NL> instance . remove ( " x " ) ;  <NL> assert equals ( 0 , instance . size ( ) ) ;  <NL>  }  COM: <s> test of size method of class bag </s>

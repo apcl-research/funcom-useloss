@@ -1,0 +1,1 @@
+TDAT: public void set patch set ( patch set p _ set ) {  <NL> if ( patch set . cmp ( p _ set , this . p _ set ) ! = 0 ) {  <NL> patch set old = this . p _ set ;  <NL> this . p _ set = p _ set ;  <NL> notify changed ( patchset , old , p _ set ) ;  <NL> create contents ( ) ;  <NL>  }  <NL>  }  COM: <s> sets the set of patches </s>

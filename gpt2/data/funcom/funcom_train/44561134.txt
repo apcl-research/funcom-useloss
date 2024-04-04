@@ -1,0 +1,1 @@
+TDAT: public string get filename ( ) {  <NL> dc field field = get file field ( ) ;  <NL> string [ ] mappings = dc settings . get string array ( dc repository . settings . st drive mappings ) ;  <NL> return field ! = null ? utilities . get mapped filename ( ( string ) get value ( field . get index ( ) ) , mappings ) : null ;  <NL>  }  COM: <s> retrieves the filename value </s>

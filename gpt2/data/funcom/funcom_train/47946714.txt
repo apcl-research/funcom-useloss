@@ -1,0 +1,1 @@
+TDAT: public boolean has unknown axis ( ) {  <NL> return ( get time axis ( ) = = null ) & & ( get z axis ( ) = = null ) & & ( get lat axis ( ) = = null ) & & ( get lon axis ( ) = = null ) & & ( get geo x axis ( ) = = null )  <NL>  & & ( get geo y axis ( ) = = null ) ;  <NL>  }  COM: <s> checks for unknown axis </s>

@@ -1,0 +1,1 @@
+TDAT: protected void set variable ( node n , string var ) {  <NL> if ( nnm . contains key ( n ) ) {  <NL> throw new runtime exception (  <NL>  " tried to assign second variable to node \ " " + n + " \ " ; old variable : " +  <NL> nnm . get ( n ) + " , new variable : " + var ) ;  <NL>  }  <NL> nnm . put ( n , var ) ;  <NL>  }  COM: <s> set the variable for a node </s>

@@ -1,0 +1,1 @@
+TDAT: protected string get point ( coordinate c ) {  <NL> point2d transformed = world to screen . transform ( new point2d . double ( c . x , c . y ) , null ) ;  <NL> return ( int ) math . round ( transformed . get x ( ) ) + " , " + ( int ) math . round ( transformed . get y ( ) ) ;  <NL>  }  COM: <s> gets a point in screen coordinates from a coordinate in world coordinates </s>

@@ -1,0 +1,1 @@
+TDAT: protected dicom annotation create geom annotation ( ) {  <NL> return ( new dicom ellipse annotation ( 1 , ( point2d ) _ points . get ( 0 ) , ( point2d ) _ points . get ( 1 ) , ( point2d ) _ points . get ( 2 ) , ( point2d ) _ points . get ( 3 ) ) ) ;  <NL>  }  COM: <s> creates new generic elliptical geometric annotation </s>

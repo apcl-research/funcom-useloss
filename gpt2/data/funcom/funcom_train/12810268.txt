@@ -1,0 +1,1 @@
+TDAT: public void cell layout ( pdf p cell cell , rectangle position , pdf content byte [ ] canvases ) {  <NL> writer . add annotation ( new pdf annotation ( writer ,  <NL> position . get left ( ) , position . get bottom ( ) , position . get right ( ) , position . get top ( ) ,  <NL> action ) ) ;  <NL>  }  COM: <s> implementation of the cell layout method </s>

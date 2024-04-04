@@ -1,0 +1,1 @@
+TDAT: public point3d filter ( float x , float y , float z , int time ) {  <NL> point . x = this . xf . filter ( x , time ) ;  <NL> point . y = this . yf . filter ( y , time ) ;  <NL> point . z = this . zf . filter ( y , time ) ;  <NL> return point ;  <NL>  }  COM: <s> apply filter to incoming data </s>

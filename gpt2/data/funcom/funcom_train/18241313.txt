@@ -1,0 +1,1 @@
+TDAT: public void sort ( ) {  <NL>  <NL>  <NL> compares = 0 ;  <NL>  / / n2sort ( ) ;  <NL>  / / qsort ( 0 , indexes . length - 1 ) ;  <NL> shuttlesort ( ( int [ ] ) indexes . clone ( ) , indexes , 0 , indexes . length ) ;  <NL>  <NL>  <NL>  / / system . out . println ( " compares : " + compares ) ;  <NL>  }  COM: <s> describe sort method here </s>

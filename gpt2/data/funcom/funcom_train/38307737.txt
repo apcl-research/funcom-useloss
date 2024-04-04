@@ -1,0 +1,1 @@
+TDAT: public void set line dash ( float phase , float units on , float units off ) {  <NL> if ( units off > 0 . 0f ) {  <NL> cb . set line dash ( units on , units on , phase ) ;  <NL>  } else if ( units on > 0 . 0f ) {  <NL> cb . set line dash ( units on , phase ) ;  <NL>  } else {  <NL> cb . set line dash ( phase ) ;  <NL>  }  <NL>  }  COM: <s> sets the current line dash </s>

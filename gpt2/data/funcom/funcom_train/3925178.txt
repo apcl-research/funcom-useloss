@@ -1,0 +1,1 @@
+TDAT: public field value create field value ( field f , int field type , int token offset , token enumerator v , scene scene , node parent node ) {  <NL> return ( create field value ( f , vrml97 . get field type string ( field type ) , token offset , v , scene , parent node ) ) ;  <NL>  }  COM: <s> create the field value of the node </s>

@@ -1,0 +1,1 @@
+TDAT: / * public void move card ( card crd , int from deck , int to deck ) {  <NL>  ( ( deck ) decks . get ( from deck ) ) . remove card ( crd ) ;  <NL> crd . set deck id ( to deck ) ;  <NL>  ( ( deck ) decks . get ( to deck ) ) . add card ( crd ) ;  <NL> changed ( ) ;  <NL>  }  COM: <s> use this method to move a card from one deck to another </s>

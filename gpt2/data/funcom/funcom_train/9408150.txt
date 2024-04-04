@@ -1,0 +1,1 @@
+TDAT: public void test add and get ( ) {  <NL> atomic long ai = new atomic long ( 1 ) ;  <NL> assert equals ( 3 , ai . add and get ( 2 ) ) ;  <NL> assert equals ( 3 , ai . get ( ) ) ;  <NL> assert equals ( - 1 , ai . add and get ( - 4 ) ) ;  <NL> assert equals ( - 1 , ai . get ( ) ) ;  <NL>  }  COM: <s> add and get adds given value to current and returns current value </s>

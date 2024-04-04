@@ -1,0 +1,1 @@
+TDAT: public void set interleaved doubles ( double [ ] rhs ) {  <NL>  / / checks to make sure this size is correct <NL> for ( int i = 0 ; i < this . re . length ; i + + ) {  <NL> this . re [ i ] = rhs [ i * 2 ] ;  <NL> this . im [ i ] = rhs [ i * 2 + 1 ] ;  <NL>  }  <NL>  }  COM: <s> todo add comments </s>

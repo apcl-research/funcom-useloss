@@ -1,0 +1,1 @@
+TDAT: public void draw ( graphics g , object object , int width , int height ) {  <NL> g . set color ( background color ) ;  <NL> g . fill rect ( 0 , 0 , width , height ) ;  <NL> g . draw image ( image feature . get image ( object ) , 0 , 0 , null ) ;  <NL>  }  COM: <s> draws a graphic interpreation of the object into the supplied graphics port </s>

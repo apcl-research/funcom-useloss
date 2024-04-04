@@ -1,0 +1,1 @@
+TDAT: private void init map ( int init cap , float fact , final int max cap ) {  <NL> map = new linked hash map ( init cap , fact , access order ) {  <NL> protected boolean remove eldest entry ( map . entry entry ) {  <NL> final int max _ entries = max cap ;  <NL> return size ( ) > max _ entries ;  <NL>  }  <NL>  } ;  <NL>  }  COM: <s> creates a new instance of session map </s>

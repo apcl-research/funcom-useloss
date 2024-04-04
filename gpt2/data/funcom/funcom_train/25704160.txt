@@ -1,0 +1,1 @@
+TDAT: public int get value ( int row , int col ) throws exception {  <NL> if ( row < 0 || row > = 9 || col < 0 || col > = 9 )  <NL> throw new exception ( " cell is off grid " ) ;  <NL> if ( m solved [ row ] [ col ] )  <NL> return m values [ row ] [ col ] ;  <NL> throw new exception ( " cell not solved " ) ;  <NL>  }  COM: <s> return the value of a solved or given cell </s>

@@ -1,0 +1,1 @@
+TDAT: public void paint component ( graphics g ) {  <NL>  <NL> int pic _ width = this . get width ( ) ;  <NL> int pic _ height = this . get height ( ) ;  <NL>  <NL> g . set color ( color . white ) ;  <NL> g . fill rect ( 1 , 1 , pic _ width , pic _ height ) ;  <NL> mondrian _ vertical ( g , 1 , 1 , pic _ width , pic _ height , 4 ) ;  <NL>  }  COM: <s> method paint component </s>

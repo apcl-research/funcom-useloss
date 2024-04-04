@@ -1,0 +1,1 @@
+TDAT: public int add vertex ( vertex v ) {  <NL> for ( int i = 0 ; i < this . v . size ( ) ; i + + ) {  <NL> if ( this . v . get ( i ) . equals ( v ) ) {  <NL> return i + 1 ;  <NL>  }  <NL>  }  <NL> this . v . add ( v ) ;  <NL> return this . v . size ( ) ;  <NL>  }  COM: <s> inserts a new vertex or returns the index of an equal vertex </s>

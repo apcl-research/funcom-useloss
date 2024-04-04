@@ -1,0 +1,1 @@
+TDAT: private void initialize ( ) {  <NL> this . set layout ( new overlay layout ( this ) ) ;  <NL> add ( this . frame panel ) ;  <NL> add ( this . main panel ) ;  <NL> this . set layer ( this . main panel , 0 ) ;  <NL> this . set layer ( this . frame panel , 1 ) ;  <NL> this . frame panel . set visible ( false ) ;  <NL>  }  COM: <s> adds the layers to this panel </s>

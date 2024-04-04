@@ -1,0 +1,1 @@
+TDAT: public boolean contains ( point2d point ) {  <NL> ellipse2d . double e = new ellipse2d . double ( get location ( ) [ 0 ] . get x ( ) - 5 , get location ( ) [ 0 ] . get y ( ) - 5 , 10 , 10 ) ;  <NL> return ( e . contains ( point . get x ( ) , point . get y ( ) ) ) ;  <NL>  }  COM: <s> returns whether annotation contains particular point </s>

@@ -1,0 +1,1 @@
+TDAT: public int get list ( int message number ) throws io exception {  <NL> string s = send command ( " list " + message number ) ;  <NL> if ( s . starts with ( " + ok " ) ) {  <NL> string [ ] ss = s . split ( " " ) ;  <NL> return integer . parse int ( ss [ 2 ] ) ;  <NL>  }  <NL> return - 1 ;  <NL>  }  COM: <s> get octet of one message </s>

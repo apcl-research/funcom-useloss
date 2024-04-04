@@ -1,0 +1,1 @@
+TDAT: private int parse int ( action request request , string param name ) {  <NL> int i = 0 ;  <NL> if ( request . get parameter ( param name ) ! = null & & ! request . get parameter ( param name ) . equals ( " " ) ) {  <NL> i = integer . parse int ( request . get parameter ( param name ) ) ;  <NL>  }  <NL> return i ;  <NL>  }  COM: <s> parses an integer input field </s>

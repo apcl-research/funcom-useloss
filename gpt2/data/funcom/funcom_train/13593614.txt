@@ -1,0 +1,1 @@
+TDAT: protected boolean is double way ( link link ) {  <NL> for ( entry < id , ? extends link > entry : link . get to node ( ) . get out links ( ) . entry set ( ) ) {  <NL> if ( entry . get value ( ) . get to node ( ) . get id ( ) . equals ( link . get from node ( ) . get id ( ) ) )  <NL> return true ;  <NL>  }  <NL> return false ;  <NL>  }  COM: <s> checks wether the </s>

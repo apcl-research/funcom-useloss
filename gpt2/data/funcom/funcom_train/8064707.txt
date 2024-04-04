@@ -1,0 +1,1 @@
+TDAT: public void remove fig ( fig f ) {  <NL> if ( ! this . figs . contains ( f ) )  <NL> return ;  <NL> rectangle old bounds = get bounds ( ) ;  <NL> this . figs . remove ( f ) ;  <NL> f . set group ( null ) ;  <NL> calc bounds ( ) ;  <NL> fire prop change ( " bounds " , old bounds , get bounds ( ) ) ;  <NL>  }  COM: <s> remove a fig from the group </s>

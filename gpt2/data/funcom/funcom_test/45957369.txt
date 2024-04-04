@@ -1,0 +1,1 @@
+TDAT: public void add ( unit unit ) {  <NL> arguments . not null ( " unit " , unit ) ;  <NL>  <NL> if ( ! this . units . contains ( unit ) ) {  <NL> this . units . add ( unit ) ;  <NL> if ( unit . get dn ( ) ! = null ) {  <NL> this . units by dn . put ( unit . get dn ( ) . to string ( ) , unit ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> adds a new unit to the cache </s>

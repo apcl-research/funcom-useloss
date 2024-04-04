@@ -1,0 +1,1 @@
+TDAT: public data set ( environment env , string name , data case [ ] data cases ) {  <NL> super ( env ) ;  <NL> this . data cases = new vector data case ( 10 , 10 ) ;  <NL> set name ( name ) ;  <NL> add cases ( data cases ) ;  <NL> modifier = new data set modifier ( env , this ) ;  <NL>  }  COM: <s> creates a new data set containing the given data cases </s>

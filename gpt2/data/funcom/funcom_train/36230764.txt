@@ -1,0 +1,1 @@
+TDAT: public double get area ( ) {  <NL> double area = 0 . 0 ;  <NL> for ( int i = 0 ; i < get num inner poly ( ) ; i + + ) {  <NL> base polygon p = get inner poly ( i ) ;  <NL> double tarea = p . get area ( ) * ( p . is hole ( ) ? - 1 . 0 : 1 . 0 ) ;  <NL> area + = tarea ;  <NL>  }  <NL> return area ;  <NL>  }  COM: <s> return the area of the polygon in square units </s>

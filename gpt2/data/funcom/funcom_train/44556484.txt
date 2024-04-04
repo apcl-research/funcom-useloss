@@ -1,0 +1,1 @@
+TDAT: public void set rgb ( byte [ ] r , byte [ ] g , byte [ ] b ) {  <NL> for ( int i = 0 ; i < width * height ; i + + )  <NL> pixels [ i ] = 0xff000000 | ( ( r [ i ] & 0xff ) < < 16 ) | ( ( g [ i ] & 0xff ) < < 8 ) | b [ i ] & 0xff ;  <NL>  }  COM: <s> sets the current pixels from 3 byte arrays reg green blue </s>

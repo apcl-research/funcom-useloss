@@ -1,0 +1,1 @@
+TDAT: public void running checksum ( byte b [ ] ) {  <NL> if ( b ! = null ) {  <NL> for ( int i = 0 ; i < b . length ; i + + ) {  <NL> c [ 0 ] = c [ 0 ] + ( ( int ) b [ i ] & 0x ff ) ;  <NL> c [ 1 ] = c [ 1 ] + c [ 0 ] ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> runs fletcher checksum algorithm over the data in byte array </s>

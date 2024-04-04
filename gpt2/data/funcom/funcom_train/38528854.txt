@@ -1,0 +1,1 @@
+TDAT: public void cancel online setup ( ) {  <NL> try {  <NL>  / * kill daemons , clear data areas * /  <NL> reset acq ( true ) ;  <NL>  / * unlock sort mode * /  <NL> lock mode ( false ) ;  <NL> console log . close log file ( ) ;  <NL>  } catch ( exception e ) {  <NL> logger . log ( severe , e . get message ( ) , e ) ;  <NL>  }  <NL>  }  COM: <s> cancels online setup </s>

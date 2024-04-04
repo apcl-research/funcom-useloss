@@ -1,0 +1,1 @@
+TDAT: public void refresh ( int type , j recept bus recept , j template bus template , j orderline bus orderline , javax . swing . j table tbl products ) throws j exception {  <NL> m _ i type = type ;  <NL> calculate ( bus recept , bus template , bus orderline , tbl products ) ;  <NL>  }  COM: <s> calculate and fill panel </s>

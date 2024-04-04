@@ -1,0 +1,1 @@
+TDAT: public channel get channel ( ) {  <NL> if ( ! m program list . is empty ( ) ) {  <NL> return m program list . get ( 0 ) . get channel ( ) ;  <NL>  }  <NL>  <NL> string [ ] ids = m program id . split ( " _ " ) ;  <NL>  <NL> return channel . get channel ( ids [ 0 ] , ids [ 1 ] , ids [ 2 ] , ids [ 3 ] ) ;  <NL>  }  COM: <s> gets the channel of this program </s>

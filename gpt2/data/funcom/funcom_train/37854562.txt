@@ -1,0 +1,1 @@
+TDAT: public svn commit info do import ( file path , svnurl dst url , string commit message , boolean recursive ) throws svn exception {  <NL> return do import ( path , dst url , commit message , null , true , false , svn depth . from recurse ( recursive ) ) ;  <NL>  }  COM: <s> committs an addition of a local unversioned file or directory into </s>

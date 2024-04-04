@@ -1,0 +1,1 @@
+TDAT: public boolean is available ( ) {  <NL> if ( ! local . equals ( get protocol ( ) ) & & get host ( ) ! = null & & get port ( ) ! = - 1 ) {  <NL> return ping . ping ( get host ( ) , get port ( ) , 3000 ) ;  <NL>  } else {  <NL> return true ; / / local , apparently .  <NL>  }  <NL>  }  COM: <s> pings the cvs repository host on the specified port </s>

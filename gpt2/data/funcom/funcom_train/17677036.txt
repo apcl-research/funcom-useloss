@@ -1,0 +1,1 @@
+TDAT: public void add to cache ( states returned container ) {  <NL> for ( iterator i = container . iterator ( ) ; i . has next ( ) ; ) {  <NL> entry set . entry e = ( entry set . entry ) i . next ( ) ;  <NL> cache . add state only ( ( oid ) e . get key ( ) , ( state ) e . get value ( ) ) ;  <NL>  }  <NL>  }  COM: <s> add all the oids and states in the container to the cache </s>

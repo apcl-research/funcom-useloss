@@ -1,0 +1,1 @@
+TDAT: public void paint icon ( component c , graphics g , int x , int y ) {  <NL> if ( icon = = null ) super . paint icon ( c , g , x , y ) ;  <NL> else icon . paint icon ( c , g , x , y ) ;  <NL>  }  COM: <s> overriden to paint the system icon </s>

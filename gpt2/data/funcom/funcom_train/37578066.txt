@@ -1,0 +1,1 @@
+TDAT: public void set locations ( vector l ) {  <NL> this . locations = l ;  <NL> this . delete all ( ) ;  <NL> location location = null ;  <NL> for ( int i = 0 ; i < locations . size ( ) ; i + + ) {  <NL> location = ( location ) locations . element at ( i ) ;  <NL> this . append ( location . get name ( ) , null ) ;  <NL>  }  <NL>  }  COM: <s> set the locations </s>

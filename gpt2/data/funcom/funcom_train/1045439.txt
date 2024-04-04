@@ -1,0 +1,1 @@
+TDAT: public int flip int ( int val ) {  <NL>  <NL> int byte0 = val & 0xff ;  <NL> int byte1 = ( val > > 8 ) & 0xff ;  <NL> int byte2 = ( val > > 16 ) & 0xff ;  <NL> int byte3 = ( val > > 24 ) & 0xff ;  <NL>  / / swap the byte order <NL> return ( byte0 < < 24 ) | ( byte1 < < 16 ) | ( byte2 < < 8 ) | byte3 ;  <NL>  }  COM: <s> flip int will flip the byte order of an int </s>

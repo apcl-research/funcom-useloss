@@ -1,0 +1,1 @@
+TDAT: public void paint ( graphics g ) {  <NL> if ( bi ! = null )  <NL> g . draw image ( bi , 0 , 0 , null ) ;  <NL> if ( cropped area ! = null ) {  <NL> g . set xor mode ( color . white ) ;  <NL> g . draw rect ( cropped area . x , cropped area . y , cropped area . width , cropped area . height ) ;  <NL>  }  <NL>  }  COM: <s> paint the image </s>

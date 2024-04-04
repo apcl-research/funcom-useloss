@@ -1,0 +1,1 @@
+TDAT: public boolean is redouble possible ( ) {  <NL> return ( ( is double bid ( bids . size ( ) - 1 ) ) || <NL>  ( ( is pass bid ( bids . size ( ) - 1 ) & &  <NL> is pass bid ( bids . size ( ) - 2 ) & &  <NL> is double bid ( bids . size ( ) - 3 ) ) ) ) ;  <NL>  }  COM: <s> checks whether the active player is allowed to redouble according </s>

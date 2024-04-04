@@ -1,0 +1,1 @@
+TDAT: public void reset laf ( ) {  <NL> string default laf = ui manager . get system look and feel class name ( ) ;  <NL> laf = - 1 ;  <NL> for ( int i = 0 ; i < num lafs & & laf = = - 1 ; i + + ) {  <NL> if ( default laf . equals ( get laf name ( i ) ) ) {  <NL> laf = i ;  <NL>  }  <NL>  }  <NL> if ( laf = = - 1 ) laf = 0 ;  <NL>  }  COM: <s> sets the standard look and feel </s>

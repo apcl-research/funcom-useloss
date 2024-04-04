@@ -1,0 +1,1 @@
+TDAT: public void set system ( as400 system ) / / @ c1a <NL>  { / / @ c1a <NL> if ( system = = null ) / / @ c1a <NL> throw new null pointer exception ( " system " ) ; / / @ c1a <NL>  <NL> m _ as400 = system ; / / @ c1a <NL> m _ pcml doc . set as400 ( m _ as400 ) ; / / @ c1a <NL>  } / / @ c1a  COM: <s> sets the system on which to call programs </s>

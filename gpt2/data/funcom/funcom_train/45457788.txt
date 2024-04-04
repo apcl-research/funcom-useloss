@@ -1,0 +1,1 @@
+TDAT: public void write ( string s ) {  <NL> string txt = output . get text ( ) ;  <NL> output . set text ( txt . substring ( 0 , txt . index of ( " < / body > " ) ) + s . replace all ( " \n " , " < br / > \n " ) ) ;  <NL> output . set caret position ( output . get document ( ) . get length ( ) ) ;  <NL>  }  COM: <s> writes some text to the output box </s>

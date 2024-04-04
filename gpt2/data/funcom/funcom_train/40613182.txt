@@ -1,0 +1,1 @@
+TDAT: public boolean test ( string test pattern , string value , char escape char ) {  <NL> init pattern ( test pattern , escape char ) ;  <NL> if ( invalid pattern ) {  <NL> return false ;  <NL>  }  <NL> return compare at ( value , 0 , 0 , value . length ( ) , pattern chars , pattern types ) ;  <NL>  }  COM: <s> test if the value matches the pattern </s>

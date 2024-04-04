@@ -1,0 +1,1 @@
+TDAT: public int get ( string key ) {  <NL> key = key . to upper case ( ) ;  <NL> for ( int i = 0 ; i < list . size ( ) ; i + + ) {  <NL> if ( key . matches ( list . get data ( i ) ) )  <NL> return ref . get ( list . get data ( i ) ) ;  <NL>  }  <NL> return ( ref . contains key ( key ) ) ? ref . get ( key ) : - 1 ;  <NL>  }  COM: <s> this retrieves a value from a key </s>

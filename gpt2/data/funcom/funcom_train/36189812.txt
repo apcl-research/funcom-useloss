@@ -1,0 +1,1 @@
+TDAT: public method visitor visit method ( int access , string name , string desc , string signature , string [ ] exceptions ) {  <NL> method visitor mv = super . visit method ( access , name , desc , signature , exceptions ) ;  <NL> return new pss method code adapter ( mv , m _ outer , access , name , desc , m _ fields ) ;  <NL>  }  COM: <s> visits a method </s>

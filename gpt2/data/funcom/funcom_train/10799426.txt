@@ -1,0 +1,1 @@
+TDAT: private void add base fields ( bc class bc ) {  <NL> add bean field ( bc , " id " , object . class ) ;  <NL> bc field field = add bean field ( bc , " storage generator " ,  <NL> pc data generator . class ) ;  <NL> field . set access flags ( field . get access flags ( )  <NL> | constants . access _ transient ) ;  <NL>  }  COM: <s> declare standard dynamic pcdata fields </s>

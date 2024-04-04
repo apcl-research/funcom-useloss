@@ -1,0 +1,1 @@
+TDAT: protected void store object ( object obj ) throws y persistence exception {  <NL> if ( ( ! restoring ) & & is enabled ( ) ) {  <NL> if ( logger . is debug enabled ( ) ) {  <NL> logger . debug ( " adding to insert cache : type = " + obj . get class ( ) . get name ( ) ) ;  <NL>  }  <NL> do persist action ( obj , insert ) ;  <NL>  }  <NL>  }  COM: <s> persists an object </s>

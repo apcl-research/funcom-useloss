@@ -1,0 +1,1 @@
+TDAT: public void update by id ( int id , string content , integer score ) {  <NL> content values values = new content values ( ) ;  <NL> values . put ( key _ name , content ) ;  <NL> values . put ( key _ score , score ) ;  <NL> sq lite database . update ( database _ table , values , key _ id + " = " + id , null ) ;  <NL>  }  COM: <s> update the score by id </s>

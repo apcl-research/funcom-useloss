@@ -1,0 +1,1 @@
+TDAT: public double value ( double x , double . . . param ) {  <NL> validate parameters ( param ) ;  <NL> return logistic . value ( param [ 1 ] - x , param [ 0 ] ,  <NL> param [ 2 ] , param [ 3 ] ,  <NL> param [ 4 ] , 1 / param [ 5 ] ) ;  <NL>  }  COM: <s> computes the value of the sigmoid at </s>

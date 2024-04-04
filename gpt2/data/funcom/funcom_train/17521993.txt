@@ -1,0 +1,1 @@
+TDAT: public void open ( ) {  <NL>  / * set fixed size . * /  <NL> this . set resizable ( false ) ;  <NL>  / * position on screen . * /  <NL> this . set location <NL>  ( parent . get location ( ) . x + 10 , parent . get location ( ) . y + 10 ) ;  <NL>  / * show . * /  <NL> this . set visible ( true ) ;  <NL>  }  COM: <s> show the config dialog when requested by users menu </s>

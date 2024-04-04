@@ -1,0 +1,1 @@
+TDAT: private string exact query ( string name , boolean exact ) {  <NL> if ( exact )  <NL> return " = ' " + name . to lower case ( ) . replace all ( " ' " , " ' ' " ) + " ' " ;  <NL> else <NL> return " like ' % " + name . to lower case ( ) . replace all ( " ' " , " ' ' " ) + " % ' " ;  <NL>  }  COM: <s> returns a query for exact non exact phrases </s>

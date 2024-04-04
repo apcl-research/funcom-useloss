@@ -1,0 +1,1 @@
+TDAT: public int new id ( ) {  <NL> int new id ;  <NL> if ( is empty ( ) ) {  <NL> if ( min id = = 0 ) {  <NL> new id = + + max id ;  <NL>  }  <NL> else <NL> new id = - - min id ;  <NL>  }  <NL> else {  <NL> new id = first key ( ) ;  <NL> remove ( new id ) ;  <NL>  }  <NL> assert ( check invariant ( ) ) ;  <NL> return new id ;  <NL>  }  COM: <s> allocates a new index </s>

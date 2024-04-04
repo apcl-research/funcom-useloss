@@ -1,0 +1,1 @@
+TDAT: protected void scroll rect to visible ( rectangle rect , component coordinate space ) {  <NL> scroll rect to visible ( rect . get x ( ) , rect . get y ( ) ,  <NL> rect . get size ( ) . get width ( ) , rect . get size ( ) . get height ( ) , coordinate space ) ;  <NL>  }  COM: <s> makes sure the component is visible in the scroll if this container </s>

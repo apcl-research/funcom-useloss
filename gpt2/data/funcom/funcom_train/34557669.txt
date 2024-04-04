@@ -1,0 +1,1 @@
+TDAT: public void set width ( int width ) {  <NL> if ( ! is rendered ( ) ) {  <NL> if ( width = = - 1 ) {  <NL> set attribute ( " width " , " auto " , true ) ;  <NL>  } else {  <NL> set attribute ( " width " , width , true ) ;  <NL>  }  <NL>  } else {  <NL> set width rendered ( width ) ;  <NL>  }  <NL>  }  COM: <s> the component width </s>

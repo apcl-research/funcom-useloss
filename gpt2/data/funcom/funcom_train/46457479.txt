@@ -1,0 +1,1 @@
+TDAT: public void associate ( job job , object obj ) {  <NL> if ( obj = = null ) {  <NL> return ;  <NL>  }  <NL> collection tags = ( collection ) objects . get ( job ) ;  <NL> if ( tags = = null ) {  <NL> tags = new hash set ( ) ;  <NL> objects . put ( job , tags ) ;  <NL>  }  <NL> tags . add ( obj ) ;  <NL>  }  COM: <s> associates a job with the specified object </s>

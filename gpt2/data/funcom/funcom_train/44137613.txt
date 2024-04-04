@@ -1,0 +1,1 @@
+TDAT: public void paint ( graphics g ) {  <NL> if ( m _ setted ) {  <NL> graphics2d g2 = ( graphics2d ) g ;  <NL> int w = this . get width ( ) ;  <NL> int h = this . get height ( ) ;  <NL> g2 . draw image ( this . m _ img , 0 , 0 , w , h , this ) ;  <NL>  }  <NL> super . paint ( g ) ;  <NL>  }  COM: <s> to paint the image in the component </s>

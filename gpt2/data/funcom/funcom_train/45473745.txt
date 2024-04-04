@@ -1,0 +1,1 @@
+TDAT: public object build instance ( ) {  <NL> q name _ root r = new q name _ root ( " { http : / / www . castor . org / mapping / q name } a name " , " { http : / / blank . namespace . com } black " ) ;  <NL> r . set item ( " { http : / / www . fooshop . com / items } ball " ) ;  <NL> return r ;  <NL>  }  COM: <s> build the object we expect when we unmarshal input </s>

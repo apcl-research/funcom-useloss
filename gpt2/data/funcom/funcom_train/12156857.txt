@@ -1,0 +1,1 @@
+TDAT: public void test multiple charset qvalue ( ) {  <NL> do charset parser test ( " a ; q = 0 . 5 , b ; q = 0 . 600 , c ; q = 0 . 2 , d ; q = 0 . 5 " ,  <NL> new string [ ] { " iso - 8859 - 1 " , " b " , " a " , " d " , " c " } ) ;  <NL>  }  COM: <s> test multiple charset values with qvalues 1 </s>

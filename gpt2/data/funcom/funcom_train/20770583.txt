@@ -1,0 +1,1 @@
+TDAT: public void set event rate ( boolean event rate ) {  <NL> boolean old = this . event rate ;  <NL> this . event rate = event rate ;  <NL> get prefs ( ) . put boolean ( " info . event rate " , event rate ) ;  <NL> get support ( ) . fire property change ( " event rate " , old , event rate ) ;  <NL>  }  COM: <s> true to show event rate in hz </s>

@@ -1,0 +1,1 @@
+TDAT: protected cfg builder enter finally ( term from ) {  <NL> cfg builder v = this . shallow copy ( ) ;  <NL> v . path _ to _ finally = new array list < term > ( path _ to _ finally . size ( ) + 1 ) ;  <NL> v . path _ to _ finally . add all ( path _ to _ finally ) ;  <NL> v . path _ to _ finally . add ( from ) ;  <NL> return v ;  <NL>  }  COM: <s> enter a finally block </s>

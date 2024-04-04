@@ -1,0 +1,1 @@
+TDAT: private double norm ( double x , int i ) {  <NL> if ( double . is na n ( m _ min array [ i ] ) || <NL> utils . eq ( m _ max array [ i ] , m _ min array [ i ] ) ) {  <NL> return 0 ;  <NL>  }  <NL> else {  <NL> return ( x - m _ min array [ i ] ) / ( m _ max array [ i ] - m _ min array [ i ] ) ;  <NL>  }  <NL>  }  COM: <s> normalizes a given value of a numeric attribute </s>

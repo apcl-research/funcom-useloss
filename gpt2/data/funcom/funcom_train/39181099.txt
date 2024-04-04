@@ -1,0 +1,1 @@
+TDAT: public void remove session ( ) {  <NL> if ( cookie . contains key ( " rvn _ session _ id " ) ) {  <NL> rvn _ engine . remove session ( cookie . get ( " rvn _ session _ id " ) , rvn _ host . get primary host name ( ) ) ;  <NL> remove cookie ( " rvn _ session _ id " ) ;  <NL> session = null ;  <NL>  }  <NL>  }  COM: <s> removes any session currently active </s>

@@ -1,0 +1,1 @@
+TDAT: public double get distance in meters ( exam room other ) {  <NL> return ( ( exam model ) get model ( ) ) . get distance metric ( ) . get distance in meters ( get id ( ) , get coord x ( ) , get coord y ( ) , other . get id ( ) , other . get coord x ( ) , other . get coord y ( ) ) ;  <NL>  }  COM: <s> distance between two rooms </s>

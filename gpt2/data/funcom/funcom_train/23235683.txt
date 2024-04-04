@@ -1,0 +1,1 @@
+TDAT: public animated sprite get animated sprite ( sprite sprite , int row , int frame count , double width , double height , long delay , boolean animating ) {  <NL> return new animated sprite ( get sprites ( sprite , row , frame count , width , height ) , delay , animating ) ;  <NL>  }  COM: <s> create an animated sprite from a tile sprite </s>

@@ -1,0 +1,1 @@
+TDAT: public void add ( item item ) throws access control exception {  <NL> validate . not null ( item ) ;  <NL> this . items . put ( item . get id ( ) , item ) ;  <NL> if ( get logger ( ) . is debug enabled ( ) ) {  <NL> get logger ( ) . debug ( " item [ " + item + " ] added . " ) ;  <NL>  }  <NL> notify added ( item ) ;  <NL>  }  COM: <s> add an item to this manager </s>

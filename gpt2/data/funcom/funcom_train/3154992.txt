@@ -1,0 +1,1 @@
+TDAT: private void create root ( ) {  <NL> int mult = ( int ) math . pow ( 2 , _ num layers - 1 ) ;  <NL> int div x = _ tile width * mult ;  <NL> int div y = _ tile height * mult ;  <NL>  <NL>  <NL>  _ root = new test quad tree node ( div x , div y , div x , div y , this , 0 ) ;  <NL>  }  COM: <s> creates the root node using the coordinates calculated </s>

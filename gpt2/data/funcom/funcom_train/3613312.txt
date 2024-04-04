@@ -1,0 +1,1 @@
+TDAT: public void test remove ( ) {  <NL> map . put ( " a " , 1 ) ;  <NL> map . remove ( " a " ) ;  <NL> assert equals ( 0 , map . size ( ) ) ;  <NL> assert equals ( 0 , map . get ( " a " ) ) ;  <NL> assert equals ( 0 , map . sum ( ) ) ;  <NL>  }  COM: <s> method test remove </s>

@@ -1,0 +1,1 @@
+TDAT: public void set as box ( float hx , float hy ) {  <NL> vertices . clear ( ) ;  <NL> vertices . add ( new vec2 ( - hx , - hy ) ) ;  <NL> vertices . add ( new vec2 ( hx , - hy ) ) ;  <NL> vertices . add ( new vec2 ( hx , hy ) ) ;  <NL> vertices . add ( new vec2 ( - hx , hy ) ) ;  <NL>  }  COM: <s> build vertices to represent an axis aligned box </s>

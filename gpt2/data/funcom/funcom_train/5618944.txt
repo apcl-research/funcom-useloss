@@ -1,0 +1,1 @@
+TDAT: public void test _ add ( ) {  <NL> list < object > a = new instance ( null ) ;  <NL> for ( int i = 0 ; i < 4 ; i + + ) {  <NL> a . add ( i ) ;  <NL>  }  <NL> test support . assert equals ( a , default list ( ) , " add ( object o ) failed " ) ;  <NL>  }  COM: <s> tests add object o </s>

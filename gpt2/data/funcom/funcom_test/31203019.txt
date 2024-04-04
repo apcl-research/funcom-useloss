@@ -1,0 +1,1 @@
+TDAT: private void make ab ibut _ action performed ( action event e ) {  <NL> button _ make abi ( new j frame ( ) , database1 , selected _ plate , edit plate text area ) ;  <NL> button _ refresh ( database1 , plate qds , proj plate qds , selected _ plate , seq plate qds , selected _ project ) ;  <NL>  / / refresh _ plate ( plate qds ) ;  <NL>  }  COM: <s> make abi button </s>

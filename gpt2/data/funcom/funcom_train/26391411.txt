@@ -1,0 +1,1 @@
+TDAT: public boolean save ( file f , int encoding ) {  <NL> boolean result = save _ to _ file ( f , encoding , get _ edit _ text _ pane ( ) . get text ( ) ) ;  <NL> if ( result ) {  <NL> get _ edit _ text _ pane ( ) . set _ changed ( false ) ;  <NL>  }  <NL> return result ;  <NL>  }  COM: <s> save edit text area to a file </s>

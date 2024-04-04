@@ -1,0 +1,1 @@
+TDAT: public boolean test update ( float x , float y , float oldx , float oldy ) {  <NL> return ( ( ( int ) ( x / width quad ) ) ! = ( ( int ) ( oldx / width quad ) ) || ( ( int ) ( y / height quad ) ) ! = ( ( int ) ( oldy / height quad ) ) ) ;  <NL>  }  COM: <s> cheks if the coordinates are in the same quad </s>

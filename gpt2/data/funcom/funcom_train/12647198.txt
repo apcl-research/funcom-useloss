@@ -1,0 +1,1 @@
+TDAT: public audio clip get audio clip ( url url ) {  <NL> check connect ( url ) ;  <NL> synchronized ( audio clips ) {  <NL> audio clip clip = ( audio clip ) audio clips . get ( url ) ;  <NL> if ( clip = = null ) {  <NL> audio clips . put ( url , clip = new applet audio clip ( url ) ) ;  <NL>  }  <NL> return clip ;  <NL>  }  <NL>  }  COM: <s> get an audio clip </s>

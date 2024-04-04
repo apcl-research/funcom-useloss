@@ -1,0 +1,1 @@
+TDAT: public void add save data ( string file name ) {  <NL> if ( this . save data . contains key ( file name ) ) {  <NL> this . save data . put ( file name , this . save data . get ( file name ) + 1 ) ;  <NL>  }  <NL> else {  <NL> this . save data . put ( file name , 1 ) ;  <NL>  }  <NL>  }  COM: <s> adds the save data to the map </s>

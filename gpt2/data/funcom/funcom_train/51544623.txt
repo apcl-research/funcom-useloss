@@ -1,0 +1,1 @@
+TDAT: public void action performed ( action event e ) {  <NL> if ( e . get source ( ) = = cancel ) {  <NL> my pane . selected = null ;  <NL> set visible ( false ) ;  <NL>  }  <NL> else if ( e . get source ( ) = = my pane . m _ select )  <NL> if ( my pane . selected ! = null ) set visible ( false ) ;  <NL>  }  COM: <s> reaction of users actions </s>

@@ -1,0 +1,1 @@
+TDAT: public void refresh terrain list ( ) {  <NL> lis terrain . remove all ( ) ;  <NL> for ( int i = 0 ; i < terrains . size ; i + + ) {  <NL> final i terrain terrain = cur hex . get terrain ( i ) ;  <NL> if ( terrain ! = null ) {  <NL> lis terrain . add ( terrain . to string ( ) ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> refreshes the terrain list to match the current hex </s>

@@ -1,0 +1,1 @@
+TDAT: public boolean contains ( int r x , int r y , int r width , int r height ) {  <NL> return x < = r x & & y < = r y & & x + size . get width ( ) > = r x + r width & &  <NL> y + size . get height ( ) > = r y + r height ;  <NL>  }  COM: <s> checks whether this rectangle entirely contains the rectangle </s>

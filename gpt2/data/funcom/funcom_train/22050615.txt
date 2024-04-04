@@ -1,0 +1,1 @@
+TDAT: public boolean set db long attribute ( int i index , long l value ) {  <NL> if ( ( get db attribute type ( i index ) ! = type _ long ) & &  <NL>  ( get db attribute type ( i index ) ! = type _ date ) ) {  <NL> return false ;  <NL>  }  <NL> return set db attribute ( i index , l value , 0 , false , " " ) ;  <NL>  }  COM: <s> set long attribute </s>

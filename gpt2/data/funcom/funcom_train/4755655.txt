@@ -1,0 +1,1 @@
+TDAT: public void set ( int index , array field vector < t > v ) {  <NL> try {  <NL> system . arraycopy ( v . data , 0 , data , index , v . data . length ) ;  <NL>  } catch ( index out of bounds exception e ) {  <NL> check index ( index ) ;  <NL> check index ( index + v . data . length - 1 ) ;  <NL>  }  <NL>  }  COM: <s> set a set of consecutive elements </s>

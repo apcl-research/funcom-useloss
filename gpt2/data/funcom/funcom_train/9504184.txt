@@ -1,0 +1,1 @@
+TDAT: final public geo vector vector ( string label , geo point p , geo point q ) {  <NL> algo vector algo = new algo vector ( cons , label , p , q ) ;  <NL> geo vector v = algo . get vector ( ) ;  <NL> v . set euclidian visible ( true ) ;  <NL> v . update ( ) ;  <NL> notify update ( v ) ;  <NL> return v ;  <NL>  }  COM: <s> vector named label from point p to q </s>

@@ -1,0 +1,1 @@
+TDAT: public void set values change ( long m _ val1 , long m _ val2 , object m _ source ) {  <NL> if ( m _ source = = m _ north south ) {  <NL> super . set left text ( " t : " + m _ val1 + " \n j : " + m _ val2 ) ;  <NL>  } else {  <NL> super . set right text ( " t : " + m _ val1 + " \n j : " + m _ val2 ) ;  <NL>  }  <NL>  }  COM: <s> amount of cars on the road changed </s>

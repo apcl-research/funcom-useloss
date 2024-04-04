@@ -1,0 +1,1 @@
+TDAT: static public string xml encode comment ( string s ) throws fatal exception {  <NL> if ( s . index of ( " - - " ) ! = - 1 ) {  <NL> system . err . println ( " warning ! the string ' - - ' is replaced by ' * * ' in a comment . " + s ) ;  <NL> s = replace all ( s , " - - " , " * * " ) ;  <NL>  }  <NL> return s ;  <NL>  }  COM: <s> encode an xml comment string </s>

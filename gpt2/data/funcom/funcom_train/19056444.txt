@@ -1,0 +1,1 @@
+TDAT: public void set include ( x include [ ] include ) {  <NL> this . include _ . clear ( ) ;  <NL> for ( int i = 0 ; i < include . length ; i + + ) {  <NL> add include ( include [ i ] ) ;  <NL>  }  <NL> for ( int i = 0 ; i < include . length ; i + + ) {  <NL> include [ i ] . r set parent r node ( this ) ;  <NL>  }  <NL>  }  COM: <s> sets the xinclude property b include b </s>

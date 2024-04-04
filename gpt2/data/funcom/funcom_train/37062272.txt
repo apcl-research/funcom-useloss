@@ -1,0 +1,1 @@
+TDAT: private void draw dot ( graphics g ) {  <NL>  / / background <NL> g . set color ( bg color ) ;  <NL> g . fill rect ( 0 , 0 , dot _ width , digit _ height ) ;  <NL>  / / dot <NL> g . set color ( fg color ) ;  <NL> g . fill rect ( 0 , 17 * dy , 2 * dx , 2 * dy ) ;  <NL>  }  COM: <s> draws the dot background and rectangle </s>

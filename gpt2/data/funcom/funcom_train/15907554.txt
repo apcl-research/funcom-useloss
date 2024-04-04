@@ -1,0 +1,1 @@
+TDAT: public void set _ cpp virtual inheritance ( boolean y ) throws runtime exception {  <NL> uml com . send _ cmd ( identifier _ ( ) , on instance cmd . set cpp virtual inheritance cmd , ( y ) ? ( byte ) 1 : ( byte ) 0 ) ;  <NL> uml com . check ( ) ;  <NL>  <NL>  _ cpp _ virtual _ inheritance = y ;  <NL>  }  COM: <s> to set if the inheritance is virtual in c </s>

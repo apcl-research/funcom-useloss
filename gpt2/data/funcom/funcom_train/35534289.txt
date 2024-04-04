@@ -1,0 +1,1 @@
+TDAT: public void set tipos _ cursos ( list < tipo curso > tipos _ cursos ) {  <NL> list < tipo curso > old tipos _ cursos = this . tipos _ cursos ;  <NL> this . tipos _ cursos = tipos _ cursos ;  <NL> property change support . fire property change ( prop _ tipos _ cursos , old tipos _ cursos , tipos _ cursos ) ;  <NL>  }  COM: <s> set the value of tipos cursos </s>

@@ -1,0 +1,1 @@
+TDAT: public int get version hash ( string game ) {  <NL> int calc = ver hash . get version ( games . get no write ( game , " file1 " , null ) ) ;  <NL> if ( calc = = 0 ) / / file1 is absent <NL> calc = integer . parse int ( games . get no write ( game , " version hash " , " 0 " ) ,  <NL> 16 ) ;  <NL> return calc ;  <NL>  }  COM: <s> gets the version hash for b game b </s>

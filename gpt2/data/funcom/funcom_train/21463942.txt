@@ -1,0 +1,1 @@
+TDAT: public void action import opml ( ) {  <NL>  <NL>  / * * create a new import opml dialog and open it * /  <NL> new import opml dialog ( rss owl gui , shell , gui . i18n . get translation ( " menu _ import _ opml " ) , gui . i18n . get translation ( " messagebox _ fill _ url " ) ) . open ( ) ;  <NL>  }  COM: <s> import favorites using a opml file </s>

@@ -1,0 +1,1 @@
+TDAT: public void test stem only ( ) {  <NL> system . out . println ( " test stem only " ) ;  <NL>  <NL> filename fn = new filename ( " dummy . java " ) ;  <NL> assert equals ( false , fn . stem only ( ) ) ;  <NL> fn = null ;  <NL> fn = new filename ( " dummy " ) ;  <NL> assert equals ( true , fn . stem only ( ) ) ;  <NL>  }  COM: <s> test of stem only method of class org </s>

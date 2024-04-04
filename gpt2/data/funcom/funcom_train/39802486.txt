@@ -1,0 +1,1 @@
+TDAT: public void set component ( j component comp ) {  <NL> j component old = get component ( ) ;  <NL> if ( delegate ! = null ) {  <NL> remove ( delegate ) ;  <NL>  }  <NL> delegate = comp ;  <NL> add ( delegate , label position ) ;  <NL> validate ( ) ;  <NL> fire property change ( " component " , old , get component ( ) ) ;  <NL>  }  COM: <s> sets the delegate component </s>

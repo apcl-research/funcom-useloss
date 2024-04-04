@@ -1,0 +1,1 @@
+TDAT: public int add ( int [ ] fs ) {  <NL> while ( ( this . pos + fs . length ) > = this . max ) {  <NL> grow ( ) ;  <NL>  }  <NL> system . arraycopy ( fs , 0 , this . heap , this . pos , fs . length ) ;  <NL> final int pos1 = this . pos ;  <NL> this . pos + = fs . length ;  <NL> return pos1 ;  <NL>  }  COM: <s> add a structure to the heap </s>

@@ -1,0 +1,1 @@
+TDAT: protected string get logical path ( class < ? > clazz ) {  <NL> string name = clazz . get canonical name ( ) ;  <NL> name = name . substring ( get class ( ) . get package ( ) . get name ( ) . length ( ) + 1 ) ;  <NL> name = name . replace first ( " test\\ . \\w + \\ . " , " " ) ;  <NL> return name ;  <NL>  }  COM: <s> return the logical path for a given class </s>

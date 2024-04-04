@@ -1,0 +1,1 @@
+TDAT: private void sink ( int k , int n ) {  <NL> int j ;  <NL>  <NL> while ( ( j = this . d * ( k - 1 ) + 2 ) < = n ) {  <NL>  <NL> for ( int i = j + 1 ; i < j + this . d & & i < = n ; i + + )  <NL> if ( less ( i , j ) )  <NL> j = i ;  <NL> if ( ! ( less ( j , k ) ) )  <NL> break ;  <NL> swap ( k , j ) ;  <NL> k = j ;  <NL>  }  <NL>  }  COM: <s> sink top down heapify </s>

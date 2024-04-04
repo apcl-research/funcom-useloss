@@ -1,0 +1,1 @@
+TDAT: public void key pressed ( key event e ) {  <NL> switch ( e . get key code ( ) ) {  <NL> case key event . vk _ page _ up :  <NL> zoom in out ( 1 . f ) ;  <NL> e . consume ( ) ;  <NL> break ;  <NL> case key event . vk _ page _ down :  <NL> zoom in out ( - 1 . f ) ;  <NL> e . consume ( ) ;  <NL> break ;  <NL>  }  <NL>  }  COM: <s> bool on key uint16 k s gui value s </s>

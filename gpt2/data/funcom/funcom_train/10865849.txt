@@ -1,0 +1,1 @@
+TDAT: public void test contractions ( ) throws io exception {  <NL> analyzer a = new italian analyzer ( test _ version _ current ) ;  <NL> assert analyzes to ( a , " dell ' italia " , new string [ ] { " ital " } ) ;  <NL> assert analyzes to ( a , " l ' italiano " , new string [ ] { " ital " } ) ;  <NL>  }  COM: <s> test that the elisionfilter is working </s>

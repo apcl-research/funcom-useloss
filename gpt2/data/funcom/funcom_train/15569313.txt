@@ -1,0 +1,1 @@
+TDAT: public data model get root ( ) throws n exception {  <NL> hash map context = null ;  <NL> data model _ options = pre rule ( null , context , root rule , null ) ;  <NL> data model root = storage . get root ( ) ;  <NL> post rule ( root , context , root rule finish , _ options ) ;  <NL> return root ;  <NL>  }  COM: <s> returns the collection of root pathes </s>

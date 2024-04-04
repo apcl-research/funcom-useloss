@@ -1,0 +1,1 @@
+TDAT: private void filter nodes ( edge change event ev , list < edge view i > filt edges ) {  <NL> for ( edge view i edge : filt edges ) {  <NL> check node ( edge . get from ( ) , ev . show ( ) ) ; / / sets filt nodes if cng <NL> check node ( edge . get to ( ) , ev . show ( ) ) ;  <NL>  }  <NL>  }  COM: <s> set node is visible state if node filtered which sets jnet state </s>

@@ -1,0 +1,1 @@
+TDAT: protected void handle error ( throwable ex ) {  <NL> if ( handler = = null ) {  <NL> throw new runtime exception ( " cannot handle error : no error handler set " , ex ) ; / / $ non - nls - 1 $  <NL>  }  <NL> if ( handler . respond to error ( ex . to string ( ) , ex ) )  <NL> abort ( ) ;  <NL>  }  COM: <s> handle errors by passing them to the error handler </s>

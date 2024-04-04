@@ -1,0 +1,1 @@
+TDAT: protected void transmit chat pm ( string to , string msg ) throws io exception {  <NL> packet body buffer body = new packet body buffer ( ) ;  <NL> body . add element ( " 5 " , to ) ;  <NL> body . add element ( " 14 " , msg ) ;  <NL> send packet ( body , service type . chatpm ) ; / / 0x020 <NL>  }  COM: <s> transmit a chatpm packet </s>

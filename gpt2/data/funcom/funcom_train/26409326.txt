@@ -1,0 +1,1 @@
+TDAT: public void highlight ( graphics g , boolean on ) {  <NL> if ( on ) {  <NL> g . draw image ( hl image , x , y , this ) ;  <NL>  } else {  <NL> draw image ( g , parent . base image , 0 , 0 , x , y , w , h ) ;  <NL>  }  <NL>  }  COM: <s> this method highlights the specified area when the user enters </s>

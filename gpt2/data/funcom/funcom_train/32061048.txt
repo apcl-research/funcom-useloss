@@ -1,0 +1,1 @@
+TDAT: public int array clone ( ) {  <NL>  <NL> int array ret = new int array ( ints . length , growthfactor , null ) ;  <NL> ret . count = this . count ;  <NL>  <NL> if ( this . count = = 0 )  <NL> return ret ;  <NL>  <NL> system . arraycopy ( this . ints , 0 , ret . ints , 0 , this . count ) ;  <NL>  <NL> return ret ;  <NL>  }  COM: <s> makes a copy of the int array </s>

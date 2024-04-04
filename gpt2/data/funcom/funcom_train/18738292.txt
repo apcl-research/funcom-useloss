@@ -1,0 +1,1 @@
+TDAT: public void test _ cant reduce visibility of overridden methods _ 1 ( ) {  <NL> run source and binary testcase ( new file ( base dir , " test b " ) , new string [ ] { " top1 . java " , " middle1 . java " } ,  <NL> new string [ ] { " aspect1 . java " } , true , false ) ;  <NL>  }  COM: <s> if you inherit methods you cannot override them and reduce their visibility </s>

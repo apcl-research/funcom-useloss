@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> return " limit chronology [ " + get base ( ) . to string ( ) + " , " +  <NL>  ( get lower limit ( ) = = null ? " no limit " : get lower limit ( ) . to string ( ) ) + " , " +  <NL>  ( get upper limit ( ) = = null ? " no limit " : get upper limit ( ) . to string ( ) ) + ' ] ' ;  <NL>  }  COM: <s> a debugging string for the chronology </s>

@@ -1,0 +1,1 @@
+TDAT: private list convert columns ( final vector columns ) {  <NL> for ( int i = 0 ; i < columns . size ( ) ; i + + ) {  <NL> columns . set ( i , view column proxy . get instance ( get factory ( ) , this , ( view column ) columns . get ( i ) , get monitor ( ) ) ) ;  <NL>  }  <NL> return columns ;  <NL>  }  COM: <s> converts a list of columns to domingo column instances </s>

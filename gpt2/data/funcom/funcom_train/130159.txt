@@ -1,0 +1,1 @@
+TDAT: public void set speed ( int x s , int y s ) {  <NL> set position ( this . x pos , this . y pos , this . z pos , this . pitch , this . roll , this . yaw ,  <NL> x s , y s , this . z speed , this . pitch speed , this . roll speed , this . yaw speed ,  <NL>  ( byte ) 1 , ( byte ) 0 ) ;  <NL>  }  COM: <s> set speed and turnrate </s>

@@ -1,0 +1,1 @@
+TDAT: public int compare to ( pim event o ) {  <NL> if ( this . begin _ utc _ ms > ( ( pim event ) o ) . begin _ utc _ ms ) {  <NL> return 1 ;  <NL>  }  <NL> if ( this . begin _ utc _ ms = = ( ( pim event ) o ) . begin _ utc _ ms ) {  <NL> return 0 ;  <NL>  }  <NL> return - 1 ;  <NL>  }  COM: <s> compare to another event </s>

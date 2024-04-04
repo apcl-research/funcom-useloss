@@ -1,0 +1,1 @@
+TDAT: public int read ( byte [ ] cbuf , int off , int len ) throws io exception {  <NL> if ( buffer . has remaining ( ) ) {  <NL> len = math . min ( len , buffer . remaining ( ) ) ;  <NL> buffer . get ( cbuf , off , len ) ;  <NL> return len ;  <NL>  } else {  <NL> return input stream . read ( cbuf , off , len ) ;  <NL>  }  <NL>  }  COM: <s> method has similar semantics to </s>

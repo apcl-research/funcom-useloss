@@ -1,0 +1,1 @@
+TDAT: public point belongs to cell ( int col , int row ) {  <NL> if ( get sort state ( ) = = k table sort comparator . sort _ none )  <NL> return do belongs to cell ( col , row ) ;  <NL>  / / if sorting is active , all cells get rendered seperately !  <NL> return new point ( col , row ) ;  <NL>  }  COM: <s> sorting disables all cell spanning </s>

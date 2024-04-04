@@ -1,0 +1,1 @@
+TDAT: public void cleanup cache ( ) {  <NL> logger . log ( level . info , " current cache size , before cleanup "  <NL>  + uds cache . size ( ) ) ;  <NL> uds cache . clear cache ( ) ;  <NL> logger . log ( level . info , " current cache size , after cleanup "  <NL>  + uds cache . size ( ) ) ;  <NL>  }  COM: <s> to cleanup the cache </s>

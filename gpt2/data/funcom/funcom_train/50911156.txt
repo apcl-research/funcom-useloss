@@ -1,0 +1,1 @@
+TDAT: public int set not in ( int set is ) {  <NL> int set ix = new int set ( ) ;  <NL> for ( int i = 0 ; i < this . nelem ; i + + ) {  <NL> int ii = this . element at ( i ) ;  <NL> if ( ! is . contains ( ii ) ) {  <NL> ix . add element ( ii ) ;  <NL>  }  <NL>  }  <NL> return ix ;  <NL>  }  COM: <s> elements only in first set </s>

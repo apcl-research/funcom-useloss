@@ -1,0 +1,1 @@
+TDAT: protected void init ( string user id , oid oid , device device , string session key , object session data ) {  <NL> this . user id = ( user id ! = null ) ? user id : " - " ;  <NL> this . oid = oid ;  <NL> this . device = device ;  <NL> this . session key = session key ;  <NL> init session data ( session data ) ;  <NL>  }  COM: <s> initialize session context object </s>

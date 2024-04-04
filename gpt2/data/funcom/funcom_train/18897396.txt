@@ -1,0 +1,1 @@
+TDAT: public string to string ( ) {  <NL> return " [ quoll email address : address = " + get address ( ) +  <NL>  " , domain = " + get domain ( ) +  <NL>  " , personal name = " + get personal name ( ) +  <NL>  " , user id = " + get user id ( ) +  <NL>  " , address number = " + get address number ( ) + " ] " ;  <NL>  }  COM: <s> returns a string representing this object </s>

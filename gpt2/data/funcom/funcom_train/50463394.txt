@@ -1,0 +1,1 @@
+TDAT: public void set applet class ( java . lang . string applet class ) {  <NL>  <NL> if ( applet class . ends with ( " . class " ) ) applet class = applet class . substring ( 0 , applet class . length ( ) - 6 ) ;  <NL>  <NL> this . applet class = applet class . replace ( ' / ' , ' . ' ) ;  <NL>  }  COM: <s> setter for property applet class </s>

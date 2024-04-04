@@ -1,0 +1,1 @@
+TDAT: public void draw dot ( graphics2d g , euclidean3 v , int pos ) {  <NL> int pos b = pos < 0 ? 0 : ( pos > = points . size ( ) ? points . size ( ) - 1 : pos ) ;  <NL> v . fill dot ( g , points . get ( pos b ) , 3 . 0 ) ;  <NL>  }  COM: <s> draws dot product at given position </s>

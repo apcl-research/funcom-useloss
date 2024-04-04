@@ -1,0 +1,1 @@
+TDAT: public void set min max ( double mm0 , double mm1 , double mm2 ) {  <NL>  / / set ( - mm0 , mm0 , - mm1 , mm1 , - mm2 , mm2 ) ;  <NL>  _ min . set ( - mm0 , - mm1 , - mm2 ) ;  <NL>  _ max . set ( mm0 , mm1 , mm2 ) ;  <NL>  }  COM: <s> set the minimum and maximum values to the given parameters </s>

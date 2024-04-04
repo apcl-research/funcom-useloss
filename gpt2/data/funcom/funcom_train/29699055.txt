@@ -1,0 +1,1 @@
+TDAT: public int get walk mp ( boolean gravity ) {  <NL> int j = get original walk mp ( ) ;  <NL> j = math . max ( 0 , j - get cargo mp reduction ( ) ) ;  <NL>  / / get bomb load <NL> j = math . max ( 0 , j - ( int ) math . ceil ( get bomb points ( ) / 5 . 0 ) ) ;  <NL> return j ;  <NL>  }  COM: <s> returns this entitys safe thrust factored </s>

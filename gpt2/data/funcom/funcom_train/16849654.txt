@@ -1,0 +1,1 @@
+TDAT: public void move ( long delta ) {  <NL>  / / update the location of the entity based on move speeds <NL>  <NL> x + = ( delta * dx * this . speed ) / 1000 ;  <NL> y + = ( delta * dy * this . speed ) / 1000 ;  <NL>  / / system . out . println ( " x : " + x + " y : " + y ) ;  <NL>  }  COM: <s> request that this entity move itself based on a certain ammount </s>

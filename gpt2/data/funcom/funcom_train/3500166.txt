@@ -1,0 +1,1 @@
+TDAT: public object clone ( ) {  <NL> match conditions mc = new match conditions ( this . return field ) ;  <NL> for ( int i = 0 ; i < mcs . size ( ) ; i + + ) {  <NL> mc . mcs . add element ( ( ( match condition ) this . mcs . element at ( i ) ) . clone ( ) ) ;  <NL>  }  <NL> return mc ;  <NL>  }  COM: <s> create a deep copy of this object </s>

@@ -1,0 +1,1 @@
+TDAT: public void move board abs ( int shift x , int shift y ) {  <NL> this . shift x = shift x ;  <NL> this . shift y = shift y ;  <NL>  / / move board pane !  <NL> board pane . set bounds ( shift x - bound x / 2 , shift y - bound y / 2 , bound x , bound y ) ;  <NL>  / / no need to redraw board pane layers <NL>  }  COM: <s> method move board abs </s>

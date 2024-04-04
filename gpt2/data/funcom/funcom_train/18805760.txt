@@ -1,0 +1,1 @@
+TDAT: protected image get image ( plot plot , int series , int item , double x , double y ) {  <NL>  / / should this be added to the plot as well ?  <NL>  / / return plot . get shape ( series , item , x , y , scale ) ;  <NL>  / / or should this be left to the user - like this :  <NL> return null ;  <NL>  }  COM: <s> returns the image used to draw a single data item </s>

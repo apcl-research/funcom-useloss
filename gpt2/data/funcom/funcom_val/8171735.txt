@@ -1,0 +1,1 @@
+TDAT: public void print line ( ) {  <NL> println ( " " ) ;  <NL> println ( " - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - " ) ;  <NL>  }  COM: <s> method print line </s>

@@ -1,0 +1,1 @@
+TDAT: public void signal toggle ( toggle i changed ) {  <NL>  / / system . out . println ( " signaling toggle for " + this + " changed = " + changed ) ;  <NL> jal toggle action jta = ( jal toggle action ) changed ;  <NL> jta . fire jal action event ( new jal action event ( changed , jta , jal action event . select ) ) ;  <NL>  }  COM: <s> fires a jal action event </s>

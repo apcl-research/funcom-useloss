@@ -1,0 +1,1 @@
+TDAT: public void visit type name expression ( / * @ non _ null @ * / j type name expression self ) {  <NL>  / / if available , print as it appeared in the source file .  <NL> if ( self . source name ( ) ! = null ) {  <NL> self . source name ( ) . accept ( this ) ;  <NL>  } else {  <NL> print ( self . get type ( ) ) ;  <NL>  }  <NL>  }  COM: <s> prints a type name expression </s>

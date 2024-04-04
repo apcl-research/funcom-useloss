@@ -1,0 +1,1 @@
+TDAT: public void set size ( float w idth , float he ight ) {  <NL>  / / remember <NL> width = w idth ;  <NL> height = he ight ;  <NL>  / / delegate <NL> try {  <NL> view . set size ( width , height ) ;  <NL>  } catch ( throwable t ) {  <NL> log . log ( level . fine , " unexpected " , t ) ;  <NL>  }  <NL>  / / done <NL>  }  COM: <s> the wrapped view needs to be sized </s>

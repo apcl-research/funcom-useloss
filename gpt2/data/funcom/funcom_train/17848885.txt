@@ -1,0 +1,1 @@
+TDAT: public void update persona ( string id ) {  <NL> if ( id ! = null ) {  <NL> persona info info = m persona map . get ( id ) ;  <NL>  <NL> if ( info ! = null & & info . is editable ( ) ) {  <NL> info . load ( ) ;  <NL>  <NL> if ( id . equals ( m id ) ) {  <NL> apply persona ( ) ;  <NL>  }  <NL>  }  <NL>  }  <NL>  }  COM: <s> update the persona </s>

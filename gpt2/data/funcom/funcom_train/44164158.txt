@@ -1,0 +1,1 @@
+TDAT: public element move ( server player server player , unit unit , tile new tile ) {  <NL> change set cs = new change set ( ) ;  <NL>  ( ( server unit ) unit ) . cs move ( new tile , random , cs ) ;  <NL> send to others ( server player , cs ) ;  <NL> return cs . build ( server player ) ;  <NL>  }  COM: <s> move a unit </s>

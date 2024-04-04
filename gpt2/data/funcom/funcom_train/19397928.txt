@@ -1,0 +1,1 @@
+TDAT: public op get op generator ( ) {  <NL>  / *  <NL>  * create , delete , link , unlink , set , clear , rebuild , verify , commit ,  <NL>  * reopen .  <NL>  * /  <NL> op gen = new op ( . 2f , . 05f , . 2f , . 005f , . 2f , . 005f , . 001f , . 001f , . 0001f ,  <NL>  . 0005f ) ;  <NL> return gen ;  <NL>  }  COM: <s> return a default operation generator </s>

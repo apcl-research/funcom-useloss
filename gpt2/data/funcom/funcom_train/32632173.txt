@@ -1,0 +1,1 @@
+TDAT: public void test copy gregorian date ( ) {  <NL> calendar c1 = new gregorian date ( 2007 , calendar . january , 1 ) ;  <NL> assert date ( c1 ) ;  <NL> calendar c2 = new gregorian date ( c1 ) ;  <NL> assert date ( c1 ) ;  <NL> assert date ( c1 ) ;  <NL> assert date ( c2 ) ;  <NL> assert equals ( c1 , c2 ) ;  <NL>  }  COM: <s> tests equality of calendars after copying </s>

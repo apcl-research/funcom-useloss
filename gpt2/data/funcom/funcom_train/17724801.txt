@@ -1,0 +1,1 @@
+TDAT: public int get quantity ( ) {  <NL> if ( this . item qty set ) {  <NL> return this . quantity ;  <NL>  }  <NL> value binding vb = get value binding ( " quantity " ) ; / / noi18n <NL> if ( vb ! = null ) {  <NL> return ( ( integer ) vb . get value ( get faces context ( ) ) ) . int value ( ) ;  <NL>  }  <NL> return quantity ;  <NL>  }  COM: <s> returns the number of items </s>

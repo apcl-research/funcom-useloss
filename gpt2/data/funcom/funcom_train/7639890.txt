@@ -1,0 +1,1 @@
+TDAT: public void test init ( ) {  <NL> assert same ( e , ui . get descriptor ( ) ) ;  <NL> assert null ( ui . get ui parent ( ) ) ;  <NL> assert equals ( 0 , ui . get ui children ( ) . size ( ) ) ;  <NL> assert equals ( 0 , ui . get ui attributes ( ) . size ( ) ) ;  <NL>  }  COM: <s> check initialization values for ui node </s>

@@ -1,0 +1,1 @@
+TDAT: public int get v string width ( string str ) {  <NL> int str length = str . length ( ) ;  <NL> int width = 0 ;  <NL> for ( int idx = 0 ; str length > 0 ; str length - - ) {  <NL> width = math . max ( width , get char width ( str . char at ( idx ) ) ) ;  <NL>  }  <NL> return width ;  <NL>  }  COM: <s> get vertically drawn string width </s>

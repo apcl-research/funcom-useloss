@@ -1,0 +1,1 @@
+TDAT: public void crawl resources property ( property property , resource parent node , rdf container rdf container ) {  <NL> list < node > values = get multiple rdf property values ( rdf container , property , ical data type . text ) ;  <NL> add multiple statements ( rdf container , parent node , ncal . resources , values ) ;  <NL>  }  COM: <s> crawls the resources property </s>

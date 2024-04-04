@@ -1,0 +1,1 @@
+TDAT: public void write pattern list ( xml writer writer ) {  <NL>  <NL> if ( alignment . get data type ( ) = = nucleotides . instance & & codon hetero ) {  <NL> for ( int i = 1 ; i < = 3 ; i + + ) { write pattern list ( i , 3 , writer ) ; }  <NL>  } else {  <NL> write pattern list ( 1 , 0 , writer ) ;  <NL>  }  <NL>  }  COM: <s> writes the pattern lists </s>

@@ -1,0 +1,1 @@
+TDAT: private void insert successor ( m message m , m message s , int p ) {  <NL> vector v = new vector ( m . get messages3 ( ) ) ;  <NL> if ( v . size ( ) > p )  <NL> v . insert element at ( s , p ) ;  <NL> else <NL> v . add ( s ) ;  <NL> m . set messages3 ( v ) ;  <NL>  }  COM: <s> inserts message s as the pth successor of message m </s>

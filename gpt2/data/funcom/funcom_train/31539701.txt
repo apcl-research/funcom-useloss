@@ -1,0 +1,1 @@
+TDAT: private boolean has same name ( string name ) {  <NL>  <NL> if ( this . get fullname ( ) = = null ) {  <NL> return ( name = = null ) ;  <NL>  }  <NL> if ( name = = null ) {  <NL> return false ;  <NL>  }  <NL>  <NL>  / / ok , now we are sure , that both names are not null <NL> return ( this . get fullname ( ) . equals ( name ) ) ;  <NL>  }  COM: <s> method has same name </s>

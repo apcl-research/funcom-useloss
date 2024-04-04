@@ -1,0 +1,1 @@
+TDAT: private ball get ball at position ( int x , int y ) {  <NL> for ( int i = 0 ; i < balls . size ( ) ; i + + ) {  <NL> ball b = ( ball ) balls . get ( i ) ;  <NL> if ( b . get x ( ) = = x & & b . get y ( ) = = y ) {  <NL> return b ;  <NL>  }  <NL>  }  <NL>  <NL> return null ;  <NL>  }  COM: <s> returns the ball at the requested position </s>

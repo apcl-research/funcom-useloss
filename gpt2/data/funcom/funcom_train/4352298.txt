@@ -1,0 +1,1 @@
+TDAT: private boolean is fixed break ( int c ) {  <NL> return ( ( c > = word tokenizer . fixed _ break _ low1 ) & &  <NL>  ( c < = word tokenizer . fixed _ break _ upper1 ) ) || <NL>  ( ( c > = word tokenizer . fixed _ break _ low2 ) & &  <NL>  ( c < = word tokenizer . fixed _ break _ upper2 ) ) ;  <NL>  }  COM: <s> tests if a character is a fixed break </s>

@@ -1,0 +1,1 @@
+TDAT: public void draw ( final graphics graphics context ) {  <NL> graphics context . set color ( color ) ;  <NL> graphics context . fill oval ( ( int ) position . x - dimension to left , ( int ) position . y - dimension to up , dimension to left + dimension to right + 1 , dimension to up + dimension to down + 1 ) ;  <NL>  }  COM: <s> draws the grenade </s>

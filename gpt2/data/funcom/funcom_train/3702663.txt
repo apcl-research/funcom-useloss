@@ -1,0 +1,1 @@
+TDAT: private tuple get groups tuple ( ) {  <NL> tuple t groups = get tuple ( ) . get tuple by type ( group . tuple _ groups ) ;  <NL> if ( t groups = = null ) {  <NL> t groups = new tuple ( group . tuple _ groups ) ;  <NL> get tuple ( ) . add tuple ( t groups ) ;  <NL>  }  <NL> return ( t groups ) ;  <NL>  } / / of method  COM: <s> get or create the groups tuple </s>

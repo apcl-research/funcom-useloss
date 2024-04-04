@@ -1,0 +1,1 @@
+TDAT: public void subscribe failed ( topic topic ) {  <NL> if ( logger . level < = logger . warning ) logger . log (  <NL> get id ( ) + " : received error joining ring id topic " + topic + " - trying again . " ) ;  <NL> node added ( ( ( ring id ) topic . get id ( ) ) . get id ( ) ) ;  <NL>  }  COM: <s> informs the client that a subscribe on the given topic failed </s>

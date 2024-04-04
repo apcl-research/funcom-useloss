@@ -1,0 +1,1 @@
+TDAT: public url to url ( ) throws malformed url exception {  <NL> if ( ! absolute ) {  <NL> throw new illegal argument exception ( msg . get string ( " k0312 " ) + " : " / / $ non - nls - 1 $ / / $ non - nls - 2 $  <NL>  + to string ( ) ) ;  <NL>  }  <NL> return new url ( to string ( ) ) ;  <NL>  }  COM: <s> converts this uri instance to a url </s>

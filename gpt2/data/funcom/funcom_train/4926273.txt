@@ -1,0 +1,1 @@
+TDAT: public void persist co domains ( ) throws io exception {  <NL> for ( entry < uuid , named co domain > e : this . co domains . entry set ( ) ) {  <NL> named co domain cd = e . get value ( ) ;  <NL> store . store co domain ( cd . get id ( ) , get info ( cd . get id ( ) ) ) ;  <NL>  }  <NL>  }  COM: <s> persists the code co domains code to the </s>

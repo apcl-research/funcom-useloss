@@ -1,0 +1,1 @@
+TDAT: protected void set absolute position ( int left , int top ) {  <NL> element elem = widget . get element ( ) ;  <NL> dom . set style attribute ( elem , " left " , left + " px " ) ;  <NL> dom . set style attribute ( elem , " top " , top + " px " ) ;  <NL>  }  COM: <s> sets the absolute position of the widget </s>

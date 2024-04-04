@@ -1,0 +1,1 @@
+TDAT: public string string ( ) {  <NL> while ( args . char at ( c ) = = ' ' ) if ( + + c = = args . length ( ) ) return " " ;  <NL> final int i = args . index of ( ' ' , c ) ;  <NL> final string s = args . substring ( c , i ) ;  <NL> c = i ;  <NL> return s . trim ( ) ;  <NL>  }  COM: <s> returns the next string </s>

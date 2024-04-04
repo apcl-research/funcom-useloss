@@ -1,0 +1,1 @@
+TDAT: public string get prepare query ( ) {  <NL>  <NL> return new string buffer ( " insert into " ) . append ( table _ name ) . append (  <NL>  " ( chunk _ name , actor _ id , session _ id , time , value ) values ( ? , ? , ? , ? , ? ) " ) . to string ( ) ;  <NL>  }  COM: <s> prepare query for inserting chunk name actor id session id time </s>

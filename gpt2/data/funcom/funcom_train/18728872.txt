@@ -1,0 +1,1 @@
+TDAT: protected void check handle ( int x , int y , edit mode mode , handle expected ) {  <NL> handle actual = instance . get selected handle ( new point ( x , y ) , handle , mode ) ;  <NL> assert equals ( " wrong handle ! " , expected , actual ) ;  <NL>  }  COM: <s> asserts that the point x y corresponds to the expected handle </s>

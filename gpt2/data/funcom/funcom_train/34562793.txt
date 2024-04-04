@@ -1,0 +1,1 @@
+TDAT: private void namespace decl ( ) throws query exception {  <NL> final q nm name = new q nm ( nc name ( xpname ) ) ;  <NL> check ( is ) ;  <NL> name . uri = uri . uri ( string literal ( ) ) ;  <NL> if ( ctx . ns . find ( name . ln ( ) ) ! = null ) error ( duplnsdecl , name ) ;  <NL> ctx . ns . add ( name ) ;  <NL>  }  COM: <s> 10 parses a namespace decl </s>

@@ -1,0 +1,1 @@
+TDAT: public void draw thin checker ( graphics g , int color , point p ) {  <NL>  <NL> if ( color = = 1 ) {  <NL> g . draw image ( thin chip1 . get image ( ) , p . x , p . y , board ) ;  <NL>  } else {  <NL> g . draw image ( thin chip2 . get image ( ) , p . x , p . y , board ) ;  <NL>  }  <NL>  <NL>  }  COM: <s> paint the thin chip seen from the side </s>

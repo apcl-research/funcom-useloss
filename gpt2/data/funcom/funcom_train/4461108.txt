@@ -1,0 +1,1 @@
+TDAT: public double interval ( double p1 , double p2 , double p3 , double p4 , double i ) {  <NL> double t1 = a * ( p3 - p1 ) ;  <NL> double t2 = a * ( p4 - p2 ) ;  <NL> return super . interval ( p2 , t1 , t2 , p3 , i ) ;  <NL>  <NL>  }  COM: <s> interpolates between the start point p2 and end point p3 at interval i </s>

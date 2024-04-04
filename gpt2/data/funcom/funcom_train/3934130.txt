@@ -1,0 +1,1 @@
+TDAT: public int alloc ( int size ) {  <NL> int index = n ;  <NL> int len = array . length ;  <NL> if ( n + size > = len ) {  <NL> byte [ ] aux = new byte [ len + block _ size ] ;  <NL> system . arraycopy ( array , 0 , aux , 0 , len ) ;  <NL> array = aux ;  <NL>  }  <NL> n + = size ;  <NL> return index ;  <NL>  }  COM: <s> this is to implement memory allocation in the array </s>

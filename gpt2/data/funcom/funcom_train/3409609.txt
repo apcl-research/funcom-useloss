@@ -1,0 +1,1 @@
+TDAT: public int hash code ( ) {  <NL> int h1 = name . to lower case ( ) . hash code ( ) ;  <NL> int h2 = ( domain ! = null ) ? domain . to lower case ( ) . hash code ( ) : 0 ;  <NL> int h3 = ( path ! = null ) ? path . hash code ( ) : 0 ;  <NL>  <NL> return h1 + h2 + h3 ;  <NL>  }  COM: <s> return hash code of this http cookie </s>

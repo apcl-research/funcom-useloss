@@ -1,0 +1,1 @@
+TDAT: public void set string _ data ( string s ) {  <NL> int len = s . length ( ) ;  <NL> int i ;  <NL> for ( i = 0 ; i < len ; i + + ) {  <NL> set element _ data ( i , ( short ) s . char at ( i ) ) ;  <NL>  }  <NL> set element _ data ( i , ( short ) 0 ) ; / / null terminate <NL>  }  COM: <s> fill in the array data with a string </s>

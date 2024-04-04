@@ -1,0 +1,1 @@
+TDAT: public void set from language ( string o ) {  <NL> object [ ] array = new object [ 1 ] ;  <NL> hash map < string , object > my hash map = new hash map < string , object > ( ) ;  <NL> my hash map . put ( " value " , o ) ;  <NL> array [ 0 ] = my hash map ;  <NL> put ( langfrom , array ) ;  <NL>  }  COM: <s> set the node source language </s>

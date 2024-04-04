@@ -1,0 +1,1 @@
+TDAT: private string error string ( final string text , final url url , final error response err ) {  <NL> if ( err ! = null ) {  <NL> return string . format ( " % s - % s [ % s ] " , text , url , err ) ;  <NL>  } else {  <NL> return string . format ( " % s - % s [ no detail ] " , text , url ) ;  <NL>  }  <NL>  }  COM: <s> format exception text </s>

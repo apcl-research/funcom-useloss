@@ -1,0 +1,1 @@
+TDAT: public void test list ( ) {  <NL> vector l1 = new vector ( ) ;  <NL> vector l2 = new vector ( ) ;  <NL> l1 . add ( " a " ) ; l1 . add ( " b " ) ; l1 . add ( " b " ) ;  <NL> l2 . add ( " b " ) ; l2 . add ( " a " ) ; l2 . add ( " b " ) ;  <NL> assert equals ( jd . compare ( l1 , l2 ) , 0 ) ;  <NL>  }  COM: <s> compares 2 lists with same content but different order </s>

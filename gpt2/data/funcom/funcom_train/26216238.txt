@@ -1,0 +1,1 @@
+TDAT: public void set label ( string label ) {  <NL> this . label = label ;  <NL> int width = get font ( ) . get text width ( label ) ;  <NL> int height = get font ( ) . get text height ( label ) ;  <NL> set bounds ( new rectangle ( get location ( ) . x , get location ( ) . y , width , height ) ) ;  <NL>  }  COM: <s> sets the label of the button </s>

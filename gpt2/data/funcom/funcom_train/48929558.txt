@@ -1,0 +1,1 @@
+TDAT: public string create url for status ( string key ) {  <NL> string builder sb = new string builder ( ) ;  <NL> sb . append ( root url ) ;  <NL> sb . append ( " ? method = check " ) ;  <NL> sb . append ( " & job id = " ) ;  <NL> sb . append ( url encode ( key ) ) ;  <NL> return sb . to string ( ) ;  <NL>  }  COM: <s> create url for status query </s>

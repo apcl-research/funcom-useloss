@@ -1,0 +1,1 @@
+TDAT: public void render component ( graphics g ) {  <NL> g . draw image ( image ,  <NL> 0 , get height ( ) - ( int ) ( status * get height ( ) ) ,  <NL> get width ( ) , get height ( ) ,  <NL> 0 , get height ( ) - ( int ) ( status * get height ( ) ) ,  <NL> get width ( ) , get height ( ) ,  <NL> null ) ;  <NL>  }  COM: <s> renders this component </s>

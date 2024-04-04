@@ -1,0 +1,1 @@
+TDAT: private void dump ( ) {  <NL> log . write ( " g cspy subspace : " ) ;  <NL> util . dump range ( start _ , end _ ) ;  <NL> log . writeln ( " \n - - first index = " , first index _ ) ;  <NL> log . writeln ( " - - block num = " , block num _ ) ;  <NL>  }  COM: <s> dump a representation of the subspace </s>

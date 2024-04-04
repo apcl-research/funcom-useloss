@@ -1,0 +1,1 @@
+TDAT: public void print summary ( java . io . print stream out ) throws exception {  <NL> out . print ( " start date : " + get start date ( ) + " \n " ) ;  <NL> out . print ( " duration : " + get duration ( ) + " [ m _ duration ] \n " ) ;  <NL> out . print ( " due date : " + get due date ( ) + " \n " ) ;  <NL>  }  COM: <s> prints a summary to a java </s>

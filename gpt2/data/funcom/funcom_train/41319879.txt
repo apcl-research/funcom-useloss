@@ -1,0 +1,1 @@
+TDAT: public boolean delete ( string filename ) {  <NL> file file = new file ( system . get property ( " user . dir " ) + " / " + filename ) ;  <NL> try {  <NL> file . delete ( ) ;  <NL> return true ;  <NL>  } catch ( io error io ) {  <NL> system . out . println ( " io error " + io . to string ( ) ) ;  <NL>  }  <NL> return false ;  <NL>  }  COM: <s> deleting of our file </s>

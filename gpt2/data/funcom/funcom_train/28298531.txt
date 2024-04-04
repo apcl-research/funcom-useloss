@@ -1,0 +1,1 @@
+TDAT: private void draw point ( trans base node node , graphics g ) {  <NL> if ( img point ! = null ) {  <NL> draw image icon ( img point , node . get x ( ) - trans base settings . size point / 2 ,  <NL> node . get y ( ) - trans base settings . size point / 2 , g ) ;  <NL>  }  <NL>  }  COM: <s> draws a single point </s>

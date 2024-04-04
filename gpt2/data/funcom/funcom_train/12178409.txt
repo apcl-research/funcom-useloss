@@ -1,0 +1,1 @@
+TDAT: public void test can optimize style when row and col span are zero or one ( ) {  <NL> check can optimize with particular attribute values ( rowspan , " 1 " , " 10 " , cell ) ;  <NL> check can optimize with particular attribute values ( colspan , " 1 " , " 10 " , cell ) ;  <NL>  }  COM: <s> verifies that tables can be optimized away when the optimization level </s>

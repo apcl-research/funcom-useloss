@@ -1,0 +1,1 @@
+TDAT: public void paint ( graphics g , dimension size , int x , int y ) {  <NL> g . draw arc ( x , y , 10 , size . height , 90 , 180 ) ;  <NL> g . draw arc ( ( x + size . width ) - 10 , y , 10 , size . height , 270 , 180 ) ;  <NL> box . paint ( g , box size , x + 10 , y ) ;  <NL>  }  COM: <s> paints the bracket box </s>

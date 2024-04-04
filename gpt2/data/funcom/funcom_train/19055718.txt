@@ -1,0 +1,1 @@
+TDAT: public void set hint ( x hint [ ] hint ) {  <NL> this . hint _ . clear ( ) ;  <NL> for ( int i = 0 ; i < hint . length ; i + + ) {  <NL> add hint ( hint [ i ] ) ;  <NL>  }  <NL> for ( int i = 0 ; i < hint . length ; i + + ) {  <NL> hint [ i ] . r set parent r node ( this ) ;  <NL>  }  <NL>  }  COM: <s> sets the xhint property b hint b </s>

@@ -1,0 +1,1 @@
+TDAT: private void handle for each ( string name , attribute list attrs ) throws sax parse exception {  <NL>  ( new task handler ( helper impl , this , null , null , null ) ) . init ( name , attrs ) ;  <NL>  / / new for each handler ( helper impl , this ) . init ( tag , attrs ) ;  <NL>  }  COM: <s> handles a for each defintion element by creating a for each handler </s>

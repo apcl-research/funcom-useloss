@@ -1,0 +1,1 @@
+TDAT: public spare part get spare part by unique id ( long id ) {  <NL> spare part proto = new spare part ( id , 0 , 0 , 0 , " " , 0 , 0 , 0 , " " ) ;  <NL> list < spare part > spare parts = db . get ( proto ) ;  <NL> if ( spare parts . size ( ) > 0 )  <NL> return spare parts . get ( 0 ) ;  <NL> else <NL> return null ;  <NL>  }  COM: <s> returns the spare part with the id </s>

@@ -1,0 +1,1 @@
+TDAT: public void set following dv count ( int cnt ) {  <NL> this . idv mac = cnt ;  <NL> byte [ ] data = this . get data ( ) ;  <NL> byte [ ] b = byte tools . c long to le bytes ( idv mac ) ;  <NL> system . arraycopy ( b , 0 , data , 14 , 4 ) ;  <NL> this . set data ( data ) ;  <NL>  }  COM: <s> set the count of following dv records </s>

@@ -1,0 +1,1 @@
+TDAT: public void clear selection ( ) {  <NL> int series count = get series count ( ) ;  <NL> for ( int s = 0 ; s < series count ; s + + ) {  <NL> int item count = get item count ( s ) ;  <NL> for ( int i = 0 ; i < item count ; i + + ) {  <NL> set selected ( s , i , false , false ) ;  <NL>  }  <NL>  }  <NL>  }  COM: <s> clears the selection state for all data items </s>

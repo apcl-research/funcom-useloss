@@ -1,0 +1,1 @@
+TDAT: public void add interpolated column ( string name , class type , object dflt ) {  <NL> add column ( name , type , dflt ) ;  <NL> add column ( prefuse lib . get start field ( name ) , type , dflt ) ;  <NL> add column ( prefuse lib . get end field ( name ) , type , dflt ) ;  <NL>  }  COM: <s> p add a new interpolated column to this data schema </s>
