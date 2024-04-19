@@ -2,3 +2,4 @@ outdir/
 __pycache__/
 gpt2/data/funcom/*.bin
 llama/*.json
+llama/predictions
