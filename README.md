@@ -74,7 +74,7 @@ This work was accepted to [Journal of Software Evolution and Process(JSME)](http
 ```
 @misc{su2024semantic,
       title={Semantic Similarity Loss for Neural Source Code Summarization}, 
-      author={Chia-Yi Su and Collin Mcmillan},
+      author={Chia-Yi Su and Collin McMillan},
       year={2024},
       journal={Journal of Software Evolution and Process}
 }
