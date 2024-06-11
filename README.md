@@ -70,15 +70,13 @@
   python3 bleu.py outdir/predictions/transformer-base.txt --data=./mydata
   ```
 ## Citation
-If you use this work in an academic paper, please cite the following:
+This work was accepted to [Journal of Software Evolution and Process(JSME)](https://onlinelibrary.wiley.com/journal/20477481), an academic journal. If you use this work in an academic paper, please cite the following:
 ```
-@misc{su2023semantic,
+@misc{su2024semantic,
       title={Semantic Similarity Loss for Neural Source Code Summarization}, 
       author={Chia-Yi Su and Collin Mcmillan},
-      year={2023},
-      eprint={2308.07429},
-      archivePrefix={arXiv},
-      primaryClass={cs.SE}
+      year={2024},
+      journal={Journal of Software Evolution and Process}
 }
 ```
 PDF available here: https://arxiv.org/abs/2308.07429
